@@ -84,11 +84,23 @@ Stage 0 是「在 16 个词上做行为不变的重构 + 建好质量闸门」�
 `scripts/validate-content.mjs` 直接 `import` `.ts` 文件，靠 Node 22.20 的类型剥离。**实测结论**：
 
 - `import type { X } from './types'` ✅ 整段被删掉，不参与路径解析
+- `import { x } from '../src/domain/contentRules.ts'` ✅ **带 `.ts` 扩展名就能跑**
+  （`scripts/11-glossary-llm-clean.mjs:23` 就是这么引 `countHanzi` 的，一直好的）
 - `import { x } from './y'`（无扩展名）❌ `ERR_MODULE_NOT_FOUND`
 
-所以 `contentRules.ts` 里**不能有任何带值的相对 import**。这也是为什么 `normalizeMorphemeKey` 住在 `contentRules.ts` 而不是 `data.ts`——它必须被运行时（`App.tsx`）和闸门（Node）共用同一份实现，只有这一个位置能同时满足两边。
+**注意别把上面第二条误读成「`src/` 里可以写 `.ts` 扩展名」**：`tsconfig.app.json` 没开
+`allowImportingTsExtensions`（只有 `tsconfig.node.json` 开了），所以在 `src/` 内部**必须写无扩展名**。
+而无扩展名的相对 import 在裸 Node 下必挂。
+
+两条一夹，结论还是那个：**`contentRules.ts` 不能有任何带值的相对 import**——
+不是 Node 的锅，是「src 里必须无扩展名」和「Node 里必须带扩展名」互相矛盾，没有写法能同时满足。
+这也是为什么 `normalizeMorphemeKey` 住在 `contentRules.ts` 而不是 `data.ts`——它必须被运行时
+（`App.tsx`）和闸门（Node）共用同一份实现，而 `contentRules.ts` 恰好没有值依赖，是唯一两头都能用的位置。
 
 同理，`contentRules.ts` 里不能用 `enum` / `namespace` / 参数属性。
+
+> 推论：如果以后 `contentRules.ts` 真的需要引别的东西，正确做法是**把那个依赖也搬进
+> `contentRules.ts`**，而不是加一条 import。
 
 ### 4.2 白名单文件丢失 = 闸门静默收紧
 
@@ -166,10 +178,10 @@ npm run validate:content  # 规则闸门
 1. 用户不读英文、不做人工校对。所有质量闸门必须是自动规则 + 第二个 AI 复核。
    任何「请用户检查一下这句英文」的环节都是错的。
 2. 跟用户汇报用中文。
-3. Stage 0 已完成（49 测试通过、dist 309 KB 不变）。下一步是 Stage 1，
-   但 git init / LICENSE 还没做，需要先问用户。
-4. 别动 PROFILE_VERSION。别在 src/domain/contentRules.ts 里写带值的 import
-   （Node 类型剥离只擦 import type，无扩展名值 import 会 ERR_MODULE_NOT_FOUND）。
+3. Stage 0 已完成（49 测试通过、dist 309 KB 不变）。git init / LICENSE / .gitattributes
+   已做（基线 commit `6d4a5f6`）。下一步是 Stage 1，**具体步骤见 `docs/Stage1-TODOLIST.md`**。
+4. 别动 PROFILE_VERSION。别在 src/domain/contentRules.ts 里写带值的相对 import
+   （`src/` 内必须无扩展名，裸 Node 必须带 `.ts`，两头矛盾——详见 4.1）。
 
 动手前先跑一遍确认基线是绿的：
 npm test && npm run validate:content
