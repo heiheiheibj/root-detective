@@ -1,0 +1,16 @@
+# 两台机器一起改代码，行尾必须先统一。
+# 没有这个文件时，Windows 的 autocrlf 会把 LF 检出成 CRLF，
+# 另一台是 Linux/Mac 的话，git diff 会显示「整个文件都改了」——diff 直接废掉。
+# text=auto 让仓库里一律存 LF，检出时按平台决定，且不受各机 autocrlf 配置影响。
+* text=auto
+
+# 二进制：别做行尾转换，也别试图 diff 内容
+*.png binary
+*.jpg binary
+*.7z binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+
+# 锁文件不参与合并，冲突时重新生成即可
+package-lock.json -diff merge=ours

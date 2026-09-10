@@ -1,0 +1,17 @@
+# 依赖与构建产物
+node_modules/
+dist/
+.vite/
+
+# 数据管线的中间产物（可重新下载/重新生成，见 docs/扩词库计划.md）
+# raw/ 是原始下载，derived/ 是中间件，quarantine/ 是被判不合格的词条。
+# 全部可复现，不进仓库；只有 scripts/gates/ 下的白名单和 overrides/ 要进。
+scripts/.work/
+
+# 本机备份归档，18MB 二进制，进仓库只会拖慢每次 clone
+背单词.7z
+
+# 编辑器与系统
+.DS_Store
+Thumbs.db
+*.log
