@@ -78,6 +78,41 @@ cd "D:/AIGAME/背单词" && echo "--- node 版本 ---" && node -v && echo "--- �
 | 闸门报错 | 同上 | 同上 |
 | `OPENROUTER_API_KEY` 不存在 | 环境变量没设 | 告诉用户导出这个变量，或让他确认是不是换了终端 |
 | `node -v` 低于 22.5 | 版本太老 | 告诉用户。`node:sqlite` 和类型剥离都需要新版本 |
+| **vitest worker 内部错误，连最简单的测试都挂** | **`node_modules` 坏了** | **见 1.2.1** |
+
+### 1.2.1 `node_modules` 坏了怎么办（踩过一次，很花时间）
+
+**症状**：`npm test` 报 vitest worker 内部错误，**连一个只写了一行的测试文件都跑不起来**。
+看起来像环境问题不像代码问题——**它确实是环境问题**。
+
+**原因**：整目录拷贝时 `node_modules` 丢了文件或路径变了。这份目录里有 4.1 GB 的
+`scripts/.work/` 和上万个小文件，Windows 拷到一半被占用或目标盘满了会**静默跳过**，
+只在最后甩一行提示，很容易没看见。少一个原生二进制（vite 8 用的是 `@rolldown/binding-*`），
+vitest 起 worker 就是崩，而且崩在 worker 里，报错看不出根因。
+
+**修法**（82 MB，几秒钟）：
+
+```bash
+rm -rf node_modules
+npm ci          # 注意是 ci，不是 install
+npm test
+```
+
+**`npm ci` 和 `npm install` 的区别**：`ci` 严格照 `package-lock.json` 装，不去 registry 问版本，
+装出来必定和另一台机器一致。**管线要可复现，就必须用 `ci`。**
+
+**以后同步这台机器的正确做法**：
+
+- **源码**（1.2 MB）：只拷 `src/ tests/ scripts/*.mjs scripts/gates/ scripts/overrides/ docs/`
+  加根目录那几个配置文件，**排除 `node_modules/`、`dist/`、`scripts/.work/`**，然后那边 `npm ci`
+- **`scripts/.work/`**（4.1 GB）：单独传，传完用 1.3 节那张表核对大小。它内容不变，
+  不需要跟着每次源码改动走
+
+**别做的事**：不要拷 `node_modules`。它只有 82 MB，`npm ci` 几秒就装好，拷它只会引入这种
+查半天的故障。
+
+**Node 版本**：`package.json` 里已声明 `engines`。vitest 5.0.0 要求
+`^22.12.0 || ^24.0.0 || >=26.0.0`——**注意 Node 23.x 不在允许范围内**。
 
 ## 1.3 确认原始数据都在
 
