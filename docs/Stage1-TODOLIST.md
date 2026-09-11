@@ -3,6 +3,9 @@
 > 这份文档是给**接手继续做的 AI** 用的。请**从头到尾按顺序读一遍再动手**。
 > 每一步都写了「做什么 / 敲什么命令 / 期望看到什么 / 出问题怎么办」。
 > 遇到没写过的情况，**停下来问用户**，不要自己发明做法。
+>
+> **所有命令都在项目根目录执行**（就是这份文档所在仓库的根）。文档里不写绝对路径，
+> 因为每台机器的目录不一样。相对路径都是相对项目根的。
 
 ---
 
@@ -34,7 +37,7 @@
 | **不要把 `kaikki-*` / `morphynet-*` 的任何句子写进 `src/`** | 那两份是 CC BY-SA，传染性的。写进去整个仓库就得转许可证，**单向门，不能反悔** |
 | **不要逐字复制 `cigen` / `shiweihappy` 的中文释义** | 它们的原始出处是新东方 PDF，仓库作者无权再授权 |
 | **不要跳过闸门直接改产物文件** | 产物由管线生成，手改会被下次重跑覆盖 |
-| **不要在 `tests/` 下新建临时/探针测试文件** | 基线是 **49 个测试、3 个文件**。临时文件会让基线漂移（多出来一个测试都不知道是不是自己写坏的），而且 `describe` 里一个 `it` 都没有会被 vitest 5 判为失败，看着像项目崩了。排查环境问题看 1.2.1 节，别写探针 |
+| **不要在 `tests/` 下新建临时/探针测试文件** | 基线是 **49 个测试、3 个文件**。临时文件会让基线漂移（多出来一个测试都不知道是不是自己写坏的），而且 `describe` 里一个 `it` 都没有会被 vitest 5 判为失败，看着像项目崩了。**不要写探针测试来找问题**，报错就按附录 B 处理 |
 | **不要为了让测试通过去改测试** | 那三个测试文件（content / logic / persistence）是基线契约。`git status` 里一旦出现 `M tests/*.test.ts` 就说明在拆东墙补西墙 |
 | **不要用 `git push` / 不要建远端仓库** | 用户没让你做 |
 
@@ -47,134 +50,40 @@
 
 ---
 
-# 第 1 步 · 环境自检
+# 第 1 步 · 立刻开始干活
 
-## 1.1 打开正确的目录
+**你现在就应该在项目根目录**（这份文档所在仓库的根）。不在就先切过去，
+本文档所有命令都在这里执行，命令里不再重复写路径。
 
-```bash
-cd "D:/AIGAME/背单词"
-```
+**然后从第 3 步开始按顺序做**。
 
-**期望看到**：命令不报错。
-**出问题**：路径里有中文，必须加引号。Windows 上用 Git Bash。
+**不要做这些**（全是浪费时间，环境本来就是好的）：
 
-## 1.2 五项自检，一次跑完
+- 不要做环境自检，不要 `node -v`、不要查 API key、不要验数据文件
+- **不要跑 `npm test`、不要跑 `npm run build`、不要跑 `npm run validate:content`**
+  —— 这三条只在第 13 步验收时跑一次
+- 不要重装依赖，不要动 `node_modules`，不要换 Node 版本，不要改环境变量
+- 不要重新下载数据。`scripts/.work/raw/` 里 12 个文件（约 4 GB）都在
 
-把下面一整段复制进去执行：
+**判断标准很简单：只有某个步骤明确写了「跑这条命令」才跑，其余一律不跑。**
 
-```bash
-cd "D:/AIGAME/背单词" && echo "--- node 版本 ---" && node -v && echo "--- 测试 ---" && npm test 2>&1 | tail -5 && echo "--- 闸门 ---" && npm run validate:content 2>&1 | tail -6 && echo "--- API key ---" && node -e "console.log(process.env.OPENROUTER_API_KEY ? 'OPENROUTER_API_KEY 存在，长度 '+process.env.OPENROUTER_API_KEY.length : '缺少 OPENROUTER_API_KEY')"
-```
+## 1.1 干活顺序
 
-**期望看到**：
-- node 版本是 `v22.20.0` 或更高
-- `Tests  49 passed (49)`
-- `内容校验通过：16 个词、12 个词素…，0 个警告。`
-- `OPENROUTER_API_KEY 存在，长度 73`
-
-**出问题怎么办**：
-
-| 现象 | 原因 | 怎么办 |
+| 顺序 | 做什么 | 第几步 |
 |---|---|---|
-| 测试不是 49 个通过 | 代码被改坏了 | **停下来告诉用户**，不要自己改测试来「让它通过」 |
-| 闸门报错 | 同上 | 同上 |
-| `OPENROUTER_API_KEY` 不存在 | 环境变量没设 | 告诉用户导出这个变量，或让他确认是不是换了终端 |
-| `node -v` 低于 22.5 | 版本太老 | 告诉用户。`node:sqlite` 和类型剥离都需要新版本 |
-| **vitest worker 内部错误，连最简单的测试都挂** | **`node_modules` 坏了** | **见 1.2.1** |
+| 1 | 跑 `node scripts/11-glossary-llm-clean.mjs`（已有的脚本） | 第 3 步 |
+| 2 | 写 `scripts/12-glossary-rules.mjs` | 第 4 步 |
+| 3 | 写 `scripts/13-glossary-llm-review.mjs` | 第 5 步 |
+| 4 | 写 `scripts/20-select-words.mjs` | 第 6 步 |
+| 5 | 写 `scripts/21-split-morphemes.mjs` | 第 7 步 |
+| 6 | 写 `scripts/22-choose-examples.mjs` | 第 8 步 |
+| 7 | 写 `scripts/30-llm-prose.mjs` | 第 9 步 |
+| 8 | 写 `scripts/40-assemble.mjs` | 第 10 步 |
+| 9 | 写 `scripts/60-llm-review-content.mjs` | 第 11 步 |
+| 10 | 写 `scripts/70-report.mjs` + 加 npm script | 第 12 步 |
 
-### 1.2.1 `node_modules` 坏了怎么办（踩过一次，很花时间）
-
-**症状**：`npm test` 报 vitest worker 内部错误，**连一个只写了一行的测试文件都跑不起来**。
-看起来像环境问题不像代码问题——**它确实是环境问题**。
-
-**原因**：整目录拷贝时 `node_modules` 丢了文件或路径变了。这份目录里有 4.1 GB 的
-`scripts/.work/` 和上万个小文件，Windows 拷到一半被占用或目标盘满了会**静默跳过**，
-只在最后甩一行提示，很容易没看见。少一个原生二进制（vite 8 用的是 `@rolldown/binding-*`），
-vitest 起 worker 就是崩，而且崩在 worker 里，报错看不出根因。
-
-**修法**（82 MB，几秒钟）：
-
-```bash
-rm -rf node_modules
-npm ci          # 注意是 ci，不是 install
-npm test
-```
-
-**`npm ci` 和 `npm install` 的区别**：`ci` 严格照 `package-lock.json` 装，不去 registry 问版本，
-装出来必定和另一台机器一致。**管线要可复现，就必须用 `ci`。**
-
-**以后同步这台机器的正确做法**：
-
-- **源码**（1.2 MB）：只拷 `src/ tests/ scripts/*.mjs scripts/gates/ scripts/overrides/ docs/`
-  加根目录那几个配置文件，**排除 `node_modules/`、`dist/`、`scripts/.work/`**，然后那边 `npm ci`
-- **`scripts/.work/`**（4.1 GB）：单独传，传完用 1.3 节那张表核对大小。它内容不变，
-  不需要跟着每次源码改动走
-
-**别做的事**：不要拷 `node_modules`。它只有 82 MB，`npm ci` 几秒就装好，拷它只会引入这种
-查半天的故障。
-
-**Node 版本**：`package.json` 里已声明 `engines`。vitest 5.0.0 要求
-`^22.12.0 || ^24.0.0 || >=26.0.0`——**注意 Node 23.x 不在允许范围内**。
-
-## 1.3 确认原始数据都在
-
-```bash
-cd "D:/AIGAME/背单词/scripts/.work/raw" && ls -la | awk '{print $5, $9}'
-```
-
-**期望看到 12 个文件**（大小可以不完全一样）：
-
-```
-62.9 MB  ecdict.csv
-2.2 MB   lemma.en.txt
-362 KB   wordroot.txt
-7.8 MB   morphynet-eng-derivational.tsv
-103.6 MB tatoeba-eng-sentences.tsv
-4.0 MB   tatoeba-cmn-sentences.tsv
-434.5 MB links.csv
-121 KB   shiweihappy-roots.json
-379 KB   cigen-roots_affixes.json
-3.02 GB  kaikki-English.jsonl
-7.2 MB   kaikki-en-prefix.jsonl
-6.1 MB   kaikki-en-suffix.jsonl
-```
-
-**如果文件不在**：`scripts/.work/` 是 gitignore 的，走 git 传不过来。需要按下面的地址重新下载，
-存到 `D:/AIGAME/背单词/scripts/.work/raw/`，**文件名必须完全一致**：
-
-```bash
-cd "D:/AIGAME/背单词/scripts/.work/raw"
-
-# GitHub 直连在这台机器上拉不动大文件，必须套 ghproxy.net
-curl -L -o ecdict.csv        "https://ghproxy.net/https://raw.githubusercontent.com/skywind3000/ECDICT/master/ecdict.csv"
-curl -L -o lemma.en.txt      "https://ghproxy.net/https://raw.githubusercontent.com/skywind3000/ECDICT/master/lemma.en.txt"
-curl -L -o wordroot.txt      "https://ghproxy.net/https://raw.githubusercontent.com/skywind3000/ECDICT/master/wordroot.txt"
-
-# jsdelivr 只吃小于 20 MB 的文件
-curl -L -o morphynet-eng-derivational.tsv "https://cdn.jsdelivr.net/gh/kbatsuren/MorphyNet@main/eng/eng.derivational.v1.tsv"
-curl -L -o cigen-roots_affixes.json        "https://cdn.jsdelivr.net/gh/jesselau76/cigen@main/data/roots_affixes.json"
-curl -L -o shiweihappy-roots.json          "https://cdn.jsdelivr.net/gh/shiweihappy/english-word-root@main/public/data/roots.json"
-
-# Tatoeba 和 kaikki 可以直连
-curl -L -o tatoeba-eng-sentences.tsv.bz2 "https://downloads.tatoeba.org/exports/per_language/eng/eng_sentences.tsv.bz2"
-curl -L -o tatoeba-cmn-sentences.tsv.bz2 "https://downloads.tatoeba.org/exports/per_language/cmn/cmn_sentences.tsv.bz2"
-curl -L -o tatoeba-links.tar.bz2         "https://downloads.tatoeba.org/exports/links.tar.bz2"
-curl -L -o kaikki-English.jsonl.gz       "https://kaikki.org/dictionary/English/kaikki.org-dictionary-English.jsonl.gz"
-curl -L -o kaikki-en-prefix.jsonl        "https://kaikki.org/dictionary/English/pos-prefix/kaikki.org-dictionary-English-by-pos-prefix.jsonl"
-curl -L -o kaikki-en-suffix.jsonl        "https://kaikki.org/dictionary/English/pos-suffix/kaikki.org-dictionary-English-by-pos-suffix.jsonl"
-
-# 解压（Node 内置的 zlib 不认 bz2，必须用系统命令）
-bunzip2 -k tatoeba-eng-sentences.tsv.bz2
-bunzip2 -k tatoeba-cmn-sentences.tsv.bz2
-tar -xjf tatoeba-links.tar.bz2        # 解出 links.csv
-gunzip -k kaikki-English.jsonl.gz     # 解出 kaikki-English.jsonl
-
-# 解压完把压缩包删掉，省 1 GB
-rm -f tatoeba-eng-sentences.tsv.bz2 tatoeba-cmn-sentences.tsv.bz2 tatoeba-links.tar.bz2 tatoeba-links.tar kaikki-English.jsonl.gz
-```
-
-**下载很慢怎么办**：ECDICT 那三个是慢的（219 KB/s，66 MB 约 5 分钟）。
-`links.tar.bz2` 最慢（142 MB 下载 + 434 MB 解压）。**耐心等，不要中断。**
+**卡住了**（报错、数据格式不符、要花钱、要下东西）→ **停下来问用户**，不要自己发明做法，
+也不要顺手去「修环境」。
 
 ---
 
@@ -184,7 +93,7 @@ rm -f tatoeba-eng-sentences.tsv.bz2 tatoeba-cmn-sentences.tsv.bz2 tatoeba-links.
 **现在发现比写完三个脚本再发现便宜得多**。
 
 ```bash
-cd "D:/AIGAME/背单词" && node -e '
+node -e '
 const fs=require("fs");
 const log=(...a)=>console.log(...a);
 const raw="scripts/.work/raw/";
@@ -263,7 +172,7 @@ function parseCsvLine(line){
 ## 3.2 跑
 
 ```bash
-cd "D:/AIGAME/背单词" && node scripts/11-glossary-llm-clean.mjs
+node scripts/11-glossary-llm-clean.mjs
 ```
 
 **要等几分钟**（23 批，并发 4）。屏幕上会滚动打印 `批 N/23：要 25 条，回 25 条`。
@@ -300,7 +209,7 @@ cd "D:/AIGAME/背单词" && node scripts/11-glossary-llm-clean.mjs
 **如果只是想看看结果**（不花钱）：
 
 ```bash
-cd "D:/AIGAME/背单词" && node -e '
+node -e '
 const d=require("./scripts/.work/derived/roots.cleaned.json");
 console.log("总条数:", d.entries.length);
 console.log("keep=true:", d.entries.filter(e=>e.keep).length);
@@ -374,7 +283,7 @@ for(const e of d.entries.slice(0,15)) console.log(" ", e.id, "|", e.type, "|", e
 ## 4.5 跑完自检
 
 ```bash
-cd "D:/AIGAME/背单词" && node -e '
+node -e '
 const v=require("./scripts/.work/derived/roots.validated.json");
 const r=require("./scripts/.work/derived/roots.rejected.json");
 const entries=v.entries||v;
@@ -444,7 +353,7 @@ results 必须和输入一一对应，id 原样返回。
 ## 5.3 跑完自检
 
 ```bash
-cd "D:/AIGAME/背单词" && node -e '
+node -e '
 const r=require("./scripts/.work/derived/roots.reviewed.json");
 const e=r.entries||r;
 console.log("复核后:", e.length);
@@ -516,7 +425,7 @@ if(fs.existsSync(dir)) console.log("隔离区文件:", fs.readdirSync(dir,{recur
 ## 6.6 跑完自检
 
 ```bash
-cd "D:/AIGAME/背单词" && node -e '
+node -e '
 const d=require("./scripts/.work/derived/words.candidates.json");
 const w=d.words||d;
 console.log("候选词:", w.length);
@@ -598,7 +507,7 @@ const hit = cigen.entries.find(e => e.word === word.word)
 ## 7.5 跑完自检
 
 ```bash
-cd "D:/AIGAME/背单词" && node -e '
+node -e '
 const d=require("./scripts/.work/derived/words.split.json");
 const w=d.words||d;
 console.log("切好的词:", w.length);
@@ -676,7 +585,7 @@ if (existsSync('scripts/.work/tatoeba.db')) { /* 直接用 */ } else { /* 建 */
 ## 8.5 跑完自检
 
 ```bash
-cd "D:/AIGAME/背单词" && node -e '
+node -e '
 const d=require("./scripts/.work/derived/words.examples.json");
 const w=d.words||d;
 console.log("有例句的:", w.length);
@@ -744,7 +653,7 @@ hasLatin.slice(0,5).forEach(x=>console.log("    ",x.word,"|",x.exampleCn));
 ## 9.5 跑完自检
 
 ```bash
-cd "D:/AIGAME/背单词" && node -e '
+node -e '
 const {countHanzi}=await import("./src/domain/contentRules.ts");
 const d=require("./scripts/.work/derived/words.prose.json");
 const w=d.words||d;
@@ -830,7 +739,7 @@ Stage 1 直接产出一个 `words.json`，`data.ts` 读它就行。
 ## 10.5 跑完自检
 
 ```bash
-cd "D:/AIGAME/背单词" && npm run validate:content 2>&1 | tail -20
+npm run validate:content 2>&1 | tail -20
 ```
 
 **期望**：`内容校验通过`，且**不再打印「跳过 A12/A19/A21/A27」**（因为有 provenance 了）。
@@ -930,7 +839,7 @@ rm -rf scripts/.work/derived && npm run content:all
 ## 13.1 三条自动验收
 
 ```bash
-cd "D:/AIGAME/背单词" && npm test && npm run validate:content && npm run build
+npm test && npm run validate:content && npm run build
 ```
 
 | # | 标准 | 怎么验 |
@@ -954,7 +863,7 @@ cd "D:/AIGAME/背单词" && npm test && npm run validate:content && npm run buil
 ### (b) 16 个 canary 词逐字节存活
 
 ```bash
-cd "D:/AIGAME/背单词" && npm run validate:content 2>&1 | grep -i canary
+npm run validate:content 2>&1 | grep -i canary
 ```
 
 `scripts/validate-content.mjs:42` 里硬编码了 16 个词 id，缺任何一个都会报错。
@@ -963,7 +872,7 @@ cd "D:/AIGAME/背单词" && npm run validate:content 2>&1 | grep -i canary
 ### (c) 残留白名单只剩一条
 
 ```bash
-cd "D:/AIGAME/背单词" && cat scripts/gates/residue-allowlist.json
+cat scripts/gates/residue-allowlist.json
 ```
 
 **期望**：只有 `porter` 的 `-er` 一条（Stage 1 补上 `-er` 之后这条应该删掉）。
@@ -1001,7 +910,7 @@ cd "D:/AIGAME/背单词" && cat scripts/gates/residue-allowlist.json
 ## A.1 看 JSON 产物
 
 ```bash
-cd "D:/AIGAME/背单词" && node -e '
+node -e '
 const d=require("./scripts/.work/derived/你要看的文件.json");
 console.log("顶层键:", Object.keys(d));
 const arr = d.entries || d.words || d;
@@ -1013,7 +922,7 @@ console.log("第一条:", JSON.stringify(arr[0], null, 2).slice(0, 1500));
 ## A.2 找出产物里的异常条目
 
 ```bash
-cd "D:/AIGAME/背单词" && node -e '
+node -e '
 const d=require("./scripts/.work/derived/words.split.json");
 const w=d.words||d;
 // 把条件换成你要查的
@@ -1026,7 +935,7 @@ bad.slice(0,20).forEach(x=>console.log(" ", x.word));
 ## A.3 检查 LLM 缓存和花销
 
 ```bash
-cd "D:/AIGAME/背单词" && echo "缓存的批次数:" && ls scripts/.work/llm-cache/ 2>/dev/null | wc -l
+echo "缓存的批次数:" && ls scripts/.work/llm-cache/ 2>/dev/null | wc -l
 ```
 
 **缓存没用了**（想强制重调）：加环境变量
@@ -1045,51 +954,19 @@ RD_MODEL_GENERATOR=deepseek/deepseek-chat RD_MODEL_REVIEWER=google/gemini-2.5-fl
 
 ---
 
-# 附录 B · 网络问题的排查
-
-## B.1 下载失败
-
-| 地址 | 症状 | 换用 |
-|---|---|---|
-| `raw.githubusercontent.com` | 大文件超时（HTTP 000） | 套 `https://ghproxy.net/` 前缀 |
-| `cdn.jsdelivr.net` | HTTP 403 | 文件超过 20 MB，改用 ghproxy |
-| 都很慢 | | 改用 `codeload.github.com/<owner>/<repo>/tar.gz/refs/heads/<branch>` 下整包 |
-
-## B.2 判断文件下没下坏
-
-```bash
-cd "D:/AIGAME/背单词/scripts/.work/raw" && ls -la
-```
-
-对照第 1.3 节的大小表。**明显偏小的就是断流了，删掉重下。**
-
-## B.3 解压相关
-
-- **Node 内置的 `zlib` 不认 bzip2**。遇到 `.bz2` 必须用系统的 `bunzip2`
-- 本机可用：`tar`、`bunzip2`、`unzip`、`xz`，7-Zip 在 `C:\Program Files\7-Zip\7z.exe`
-- `tar -xjf xxx.tar.bz2` 一步解出内容
-
----
-
-# 附录 C · 一个完整的「出问题怎么办」流程
+# 附录 B · 出问题怎么办
 
 **不管遇到什么问题，按这个顺序做**：
 
 1. **读错误信息**。Node 的报错会指出文件名和行号。
 2. **看是哪个脚本出的错**。管线是线性的，前面的产物坏了后面必崩。
 3. **检查输入产物在不在、空不空**（用附录 A.1 的写法）。
-4. **重跑上一个脚本**，大多数问题是偶发的（网络、LLM 抖动）。
+4. **重跑上一个脚本**，大多数问题是偶发的（LLM 抖动、限速）。
 5. **对照本文档的「期望看到」**，看差在哪。
 6. **还是解决不了**：
-   - **如果是钱的问题**（花销异常、余额不足）→ **立刻停下来问用户**
-   - **如果是数据的问题**（格式和文档不符、大小不对）→ 停下来问用户
-   - **如果是代码的问题**（语法错、逻辑错）→ 可以自己修，但要保证 `npm test` 仍然 49 个通过
-   - **其余情况** → **停下来问用户**，不要自己发明做法
+   - **如果是代码的问题**（语法错、逻辑错）→ 可以自己修，改完继续往下走
+   - **其余一切情况**（钱、数据、网络、环境、别人的机器）→ **停下来问用户**，
+     不要自己发明做法，更不要顺手去「修环境」或重下数据
 
-**改代码之后永远要跑这三条**：
+**不要写探针测试、不要跑测试套件来「确认没搞坏」。** 判断有没有搞坏看第 13 步的验收。
 
-```bash
-cd "D:/AIGAME/背单词" && npm test && npm run validate:content && npm run build
-```
-
-**这三条是绿的，你才没有把项目搞坏。**
