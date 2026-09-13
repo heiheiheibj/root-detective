@@ -247,16 +247,16 @@
   {
     "id": "life-street",
     "name": "生活街",
-    "description": "学习词根：live、life、use、play、car、book、week、child（生活街）",
+    "description": "学习词根：life、use、play、car、book、week、child、every（生活街）",
     "morphemeIds": [
-      "live",
       "life",
       "use",
       "play",
       "car",
       "book",
       "week",
-      "child"
+      "child",
+      "every"
     ]
   },
   {

@@ -1,176 +1,1747 @@
 {
-  "_comment": "Stage 1 确定性内容配置：67 词 / 20 词根（60 是原估算；A23 要求每词根≥3词且 d1/d5 各≥1，16 个固定 canary 每族4词，dict 需 dictator、port 需 deport 补 d5，vid 需 envision 补 d5——因 visible/vision/revise/visibility 实测均无 d5 词，故 vid 5 词，其余新家族各3词，共 67）。splitter(21)/selector(20)/assembler(40) 都读它。手写挑词与切分，属 6.5 的 Stage 1 白名单。切分模式：morphemeId+surface；isAssimilated 标记同化变体。extraMorphemes 是本阶段词素全表（覆盖 reviewed 的同 id，以正确 allomorphs 为准）。",
-  "families": {
-    "spec": { "roots": ["spec"], "words": ["circumspect", "inspection", "respect", "circumspection"] },
-    "dict": { "roots": ["dict"], "words": ["predict", "prediction", "predictable", "predictive", "dictator"] },
-    "port": { "roots": ["port"], "words": ["portable", "import", "report", "porter", "deport"] },
-    "vid": { "roots": ["vid"], "words": ["visible", "vision", "revise", "visibility", "envision"] },
-    "aud": { "roots": ["aud"], "words": ["audience", "audio", "audible"] },
-    "bio": { "roots": ["bio"], "words": ["biology", "biography", "biotech"] },
-    "cent": { "roots": ["cent"], "words": ["century", "percent", "centennial"] },
-    "cred": { "roots": ["cred"], "words": ["credit", "credential", "incredible"] },
-    "gen": { "roots": ["gen"], "words": ["gene", "generate", "genetics"] },
-    "grad": { "roots": ["grad"], "words": ["grade", "graduate", "degrade"] },
-    "ject": { "roots": ["ject"], "words": ["project", "reject", "eject"] },
-    "log": { "roots": ["log"], "words": ["dialogue", "logic", "catalog"] },
-    "mob": { "roots": ["mob"], "words": ["mobile", "mobility", "automobile"] },
-    "nat": { "roots": ["nat"], "words": ["nature", "nation", "innate"] },
-    "pend": { "roots": ["pend"], "words": ["depend", "suspend", "pendulum"] },
-    "vers": { "roots": ["vers"], "words": ["universe", "version", "inverse"] },
-    "voc": { "roots": ["voc"], "words": ["vocabulary", "vocal", "vocation"] },
-    "graph": { "roots": ["graph"], "words": ["paragraph", "photograph", "graphite"] },
-    "tract": { "roots": ["tract"], "words": ["attract", "contract", "retract"] },
-    "fac": { "roots": ["fac"], "words": ["factory", "facility", "benefactor"] }
+ "_comment": "Stage 1 确定性内容配置：67 词 / 20 词根（60 是原估算；A23 要求每词根≥3词且 d1/d5 各≥1，16 个固定 canary 每族4词，dict 需 dictator、port 需 deport 补 d5，vid 需 envision 补 d5——因 visible/vision/revise/visibility 实测均无 d5 词，故 vid 5 词，其余新家族各3词，共 67）。splitter(21)/selector(20)/assembler(40) 都读它。手写挑词与切分，属 6.5 的 Stage 1 白名单。切分模式：morphemeId+surface；isAssimilated 标记同化变体。extraMorphemes 是本阶段词素全表（覆盖 reviewed 的同 id，以正确 allomorphs 为准）。",
+ "families": {
+  "spec": {
+   "roots": [
+    "spec"
+   ],
+   "words": [
+    "circumspect",
+    "inspection",
+    "respect",
+    "circumspection"
+   ]
   },
-  "canary": [
-    "circumspect", "inspection", "respect", "circumspection",
-    "predict", "prediction", "predictable", "predictive",
-    "portable", "import", "report", "porter",
-    "visible", "vision", "revise", "visibility"
+  "dict": {
+   "roots": [
+    "dict"
+   ],
+   "words": [
+    "predict",
+    "prediction",
+    "predictable",
+    "predictive",
+    "dictator"
+   ]
+  },
+  "port": {
+   "roots": [
+    "port"
+   ],
+   "words": [
+    "portable",
+    "import",
+    "report",
+    "porter",
+    "deport"
+   ]
+  },
+  "vid": {
+   "roots": [
+    "vid"
+   ],
+   "words": [
+    "visible",
+    "vision",
+    "revise",
+    "visibility",
+    "envision"
+   ]
+  },
+  "aud": {
+   "roots": [
+    "aud"
+   ],
+   "words": [
+    "audience",
+    "audio",
+    "audible"
+   ]
+  },
+  "bio": {
+   "roots": [
+    "bio"
+   ],
+   "words": [
+    "biology",
+    "biography",
+    "biotech"
+   ]
+  },
+  "cent": {
+   "roots": [
+    "cent"
+   ],
+   "words": [
+    "century",
+    "percent",
+    "centennial"
+   ]
+  },
+  "cred": {
+   "roots": [
+    "cred"
+   ],
+   "words": [
+    "credit",
+    "credential",
+    "incredible"
+   ]
+  },
+  "gen": {
+   "roots": [
+    "gen"
+   ],
+   "words": [
+    "gene",
+    "generate",
+    "genetics"
+   ]
+  },
+  "grad": {
+   "roots": [
+    "grad"
+   ],
+   "words": [
+    "grade",
+    "graduate",
+    "degrade"
+   ]
+  },
+  "ject": {
+   "roots": [
+    "ject"
+   ],
+   "words": [
+    "project",
+    "reject",
+    "eject"
+   ]
+  },
+  "log": {
+   "roots": [
+    "log"
+   ],
+   "words": [
+    "dialogue",
+    "logic",
+    "catalog"
+   ]
+  },
+  "mob": {
+   "roots": [
+    "mob"
+   ],
+   "words": [
+    "mobile",
+    "mobility",
+    "automobile"
+   ]
+  },
+  "nat": {
+   "roots": [
+    "nat"
+   ],
+   "words": [
+    "nature",
+    "nation",
+    "innate"
+   ]
+  },
+  "pend": {
+   "roots": [
+    "pend"
+   ],
+   "words": [
+    "depend",
+    "suspend",
+    "pendulum"
+   ]
+  },
+  "vers": {
+   "roots": [
+    "vers"
+   ],
+   "words": [
+    "universe",
+    "version",
+    "inverse"
+   ]
+  },
+  "voc": {
+   "roots": [
+    "voc"
+   ],
+   "words": [
+    "vocabulary",
+    "vocal",
+    "vocation"
+   ]
+  },
+  "graph": {
+   "roots": [
+    "graph"
+   ],
+   "words": [
+    "paragraph",
+    "photograph",
+    "graphite"
+   ]
+  },
+  "tract": {
+   "roots": [
+    "tract"
+   ],
+   "words": [
+    "attract",
+    "contract",
+    "retract"
+   ]
+  },
+  "fac": {
+   "roots": [
+    "fac"
+   ],
+   "words": [
+    "factory",
+    "facility",
+    "benefactor"
+   ]
+  }
+ },
+ "canary": [
+  "circumspect",
+  "inspection",
+  "respect",
+  "circumspection",
+  "predict",
+  "prediction",
+  "predictable",
+  "predictive",
+  "portable",
+  "import",
+  "report",
+  "porter",
+  "visible",
+  "vision",
+  "revise",
+  "visibility"
+ ],
+ "forceInclude": {
+  "audible": "aud 家族唯一 d5；ECDICT 仅标 toefl/ielts，无 cet4/cet6，但 6.4 难度定义(cet6/toefl+高bnc)确为5，强制保送",
+  "centennial": "cent 家族唯一 d5；ECDICT 仅标 toefl，无 cet4/cet6，强制保送",
+  "incredible": "cred 家族需第3个词；incredible 仅标 ielts/gre，无 cet4/cet6，强制保送",
+  "retract": "tract 家族唯一 d5；ECDICT 仅标 toefl/gre，无 cet4/cet6，强制保送",
+  "benefactor": "fac 家族唯一 d5；ECDICT 仅标 toefl/gre，无 cet4/cet6，强制保送",
+  "deport": "port 家族唯一 d5；ECDICT 仅标 toefl/gre，无 cet4/cet6，强制保送",
+  "envision": "vid 家族唯一 d5；visible/vision/revise/visibility 实测均无 d5 词，envision 仅标 toefl/gre 无 cet4/cet6，强制保送（6.4 难度=5）"
+ },
+ "splits": {
+  "circumspect": [
+   {
+    "id": "circum",
+    "surface": "circum"
+   },
+   {
+    "id": "spec",
+    "surface": "spect"
+   }
   ],
-  "forceInclude": {
-    "audible": "aud 家族唯一 d5；ECDICT 仅标 toefl/ielts，无 cet4/cet6，但 6.4 难度定义(cet6/toefl+高bnc)确为5，强制保送",
-    "centennial": "cent 家族唯一 d5；ECDICT 仅标 toefl，无 cet4/cet6，强制保送",
-    "incredible": "cred 家族需第3个词；incredible 仅标 ielts/gre，无 cet4/cet6，强制保送",
-    "retract": "tract 家族唯一 d5；ECDICT 仅标 toefl/gre，无 cet4/cet6，强制保送",
-    "benefactor": "fac 家族唯一 d5；ECDICT 仅标 toefl/gre，无 cet4/cet6，强制保送",
-    "deport": "port 家族唯一 d5；ECDICT 仅标 toefl/gre，无 cet4/cet6，强制保送",
-    "envision": "vid 家族唯一 d5；visible/vision/revise/visibility 实测均无 d5 词，envision 仅标 toefl/gre 无 cet4/cet6，强制保送（6.4 难度=5）"
-  },
-  "splits": {
-    "circumspect": [{ "id": "circum", "surface": "circum" }, { "id": "spec", "surface": "spect" }],
-    "inspection": [{ "id": "in", "surface": "in" }, { "id": "spec", "surface": "spect" }, { "id": "ion", "surface": "ion" }],
-    "respect": [{ "id": "re", "surface": "re" }, { "id": "spec", "surface": "spect" }],
-    "circumspection": [{ "id": "circum", "surface": "circum" }, { "id": "spec", "surface": "spect" }, { "id": "ion", "surface": "ion" }],
-    "predict": [{ "id": "pre", "surface": "pre" }, { "id": "dict", "surface": "dict" }],
-    "prediction": [{ "id": "pre", "surface": "pre" }, { "id": "dict", "surface": "dict" }, { "id": "ion", "surface": "ion" }],
-    "predictable": [{ "id": "pre", "surface": "pre" }, { "id": "dict", "surface": "dict" }, { "id": "able", "surface": "able" }],
-    "predictive": [{ "id": "pre", "surface": "pre" }, { "id": "dict", "surface": "dict" }, { "id": "ive", "surface": "ive" }],
-    "dictator": [{ "id": "dict", "surface": "dict" }, { "id": "or", "surface": "ator" }],
-    "portable": [{ "id": "port", "surface": "port" }, { "id": "able", "surface": "able" }],
-    "import": [{ "id": "in", "surface": "im", "isAssimilated": true }, { "id": "port", "surface": "port" }],
-    "report": [{ "id": "re", "surface": "re" }, { "id": "port", "surface": "port" }],
-    "porter": [{ "id": "port", "surface": "port" }],
-    "deport": [{ "id": "de", "surface": "de" }, { "id": "port", "surface": "port" }],
-    "visible": [{ "id": "vid", "surface": "vis" }, { "id": "able", "surface": "ible" }],
-    "vision": [{ "id": "vid", "surface": "vis" }, { "id": "ion", "surface": "ion" }],
-    "revise": [{ "id": "re", "surface": "re" }, { "id": "vid", "surface": "vise" }],
-    "visibility": [{ "id": "vid", "surface": "vis" }, { "id": "able", "surface": "ibil", "isAssimilated": true }, { "id": "ity", "surface": "ity" }],
-    "envision": [{ "id": "en", "surface": "en" }, { "id": "vid", "surface": "vis" }, { "id": "ion", "surface": "ion" }],
-    "audience": [{ "id": "aud", "surface": "audi" }, { "id": "ence", "surface": "ence" }],
-    "audio": [{ "id": "aud", "surface": "audio" }],
-    "audible": [{ "id": "aud", "surface": "aud" }, { "id": "able", "surface": "ible" }],
-    "biology": [{ "id": "bio", "surface": "bio" }, { "id": "logy", "surface": "logy" }],
-    "biography": [{ "id": "bio", "surface": "bio" }, { "id": "graph", "surface": "graphy" }],
-    "biotech": [{ "id": "bio", "surface": "bio" }, { "id": "tech", "surface": "tech" }],
-    "century": [{ "id": "cent", "surface": "cent" }, { "id": "ury", "surface": "ury" }],
-    "percent": [{ "id": "per", "surface": "per" }, { "id": "cent", "surface": "cent" }],
-    "centennial": [{ "id": "cent", "surface": "cent" }, { "id": "enn", "surface": "enn" }, { "id": "ial", "surface": "ial" }],
-    "credit": [{ "id": "cred", "surface": "credit" }],
-    "credential": [{ "id": "cred", "surface": "cred" }, { "id": "ent", "surface": "ent" }, { "id": "ial", "surface": "ial" }],
-    "incredible": [{ "id": "in", "surface": "in" }, { "id": "cred", "surface": "cred" }, { "id": "able", "surface": "ible" }],
-    "gene": [{ "id": "gen", "surface": "gene" }],
-    "generate": [{ "id": "gen", "surface": "gen" }, { "id": "er", "surface": "er" }, { "id": "ate", "surface": "ate" }],
-    "genetics": [{ "id": "gen", "surface": "gene" }, { "id": "ic", "surface": "tic" }, { "id": "s", "surface": "s" }],
-    "grade": [{ "id": "grad", "surface": "grade" }],
-    "graduate": [{ "id": "grad", "surface": "grad" }, { "id": "u", "surface": "u" }, { "id": "ate", "surface": "ate" }],
-    "degrade": [{ "id": "de", "surface": "de" }, { "id": "grad", "surface": "grade" }],
-    "project": [{ "id": "pro", "surface": "pro" }, { "id": "ject", "surface": "ject" }],
-    "reject": [{ "id": "re", "surface": "re" }, { "id": "ject", "surface": "ject" }],
-    "eject": [{ "id": "e", "surface": "e" }, { "id": "ject", "surface": "ject" }],
-    "dialogue": [{ "id": "dia", "surface": "dia" }, { "id": "log", "surface": "logue" }],
-    "logic": [{ "id": "log", "surface": "log" }, { "id": "ic", "surface": "ic" }],
-    "catalog": [{ "id": "cata", "surface": "cata" }, { "id": "log", "surface": "log" }],
-    "mobile": [{ "id": "mob", "surface": "mob" }, { "id": "ile", "surface": "ile" }],
-    "mobility": [{ "id": "mob", "surface": "mob" }, { "id": "ility", "surface": "ility" }],
-    "automobile": [{ "id": "auto", "surface": "auto" }, { "id": "mob", "surface": "mob" }, { "id": "ile", "surface": "ile" }],
-    "nature": [{ "id": "nat", "surface": "nat" }, { "id": "ure", "surface": "ure" }],
-    "nation": [{ "id": "nat", "surface": "nat" }, { "id": "ion", "surface": "ion" }],
-    "innate": [{ "id": "in", "surface": "in" }, { "id": "nat", "surface": "nate" }],
-    "depend": [{ "id": "de", "surface": "de" }, { "id": "pend", "surface": "pend" }],
-    "suspend": [{ "id": "sub", "surface": "sus", "isAssimilated": true }, { "id": "pend", "surface": "pend" }],
-    "pendulum": [{ "id": "pend", "surface": "pend" }, { "id": "ulum", "surface": "ulum" }],
-    "universe": [{ "id": "uni", "surface": "uni" }, { "id": "vers", "surface": "verse" }],
-    "version": [{ "id": "vers", "surface": "vers" }, { "id": "ion", "surface": "ion" }],
-    "inverse": [{ "id": "in", "surface": "in" }, { "id": "vers", "surface": "verse" }],
-    "vocabulary": [{ "id": "voc", "surface": "voc" }, { "id": "abul", "surface": "abul" }, { "id": "ary", "surface": "ary" }],
-    "vocal": [{ "id": "voc", "surface": "voc" }, { "id": "al", "surface": "al" }],
-    "vocation": [{ "id": "voc", "surface": "voc" }, { "id": "ation", "surface": "ation" }],
-    "paragraph": [{ "id": "para", "surface": "para" }, { "id": "graph", "surface": "graph" }],
-    "photograph": [{ "id": "photo", "surface": "photo" }, { "id": "graph", "surface": "graph" }],
-    "graphite": [{ "id": "graph", "surface": "graph" }, { "id": "ite", "surface": "ite" }],
-    "attract": [{ "id": "at", "surface": "at" }, { "id": "tract", "surface": "tract" }],
-    "contract": [{ "id": "con", "surface": "con" }, { "id": "tract", "surface": "tract" }],
-    "retract": [{ "id": "re", "surface": "re" }, { "id": "tract", "surface": "tract" }],
-    "factory": [{ "id": "fac", "surface": "fac" }, { "id": "ory", "surface": "tory" }],
-    "facility": [{ "id": "fac", "surface": "fac" }, { "id": "ility", "surface": "ility" }],
-    "benefactor": [{ "id": "ben", "surface": "bene" }, { "id": "fac", "surface": "fac" }, { "id": "or", "surface": "tor" }]
-  },
-  "extraMorphemes": [
-    { "id": "aud", "type": "root", "displayText": "aud", "meaningCn": "听", "allomorphs": ["aud", "audi", "audio"], "level": 1, "etymology": "来自拉丁语 audire，意为听", "color": "orange" },
-    { "id": "bio", "type": "root", "displayText": "bio", "meaningCn": "生命", "allomorphs": ["bio", "bi"], "level": 1, "etymology": "来自希腊语 bios，意为生命", "color": "orange" },
-    { "id": "cent", "type": "root", "displayText": "cent", "meaningCn": "百", "allomorphs": ["cent", "centi"], "level": 2, "etymology": "来自拉丁语 centum，意为百", "color": "orange" },
-    { "id": "cred", "type": "root", "displayText": "cred", "meaningCn": "相信", "allomorphs": ["cred", "credit"], "level": 1, "etymology": "来自拉丁语 credere，意为相信", "color": "orange" },
-    { "id": "gen", "type": "root", "displayText": "gen", "meaningCn": "出生、种类", "allomorphs": ["gen", "gene", "gener"], "level": 1, "etymology": "来自拉丁语 genus，意为出生、种类", "color": "orange" },
-    { "id": "grad", "type": "root", "displayText": "grad", "meaningCn": "步、级", "allomorphs": ["grad", "grade"], "level": 2, "etymology": "来自拉丁语 gradus，意为步、级", "color": "orange" },
-    { "id": "ject", "type": "root", "displayText": "ject", "meaningCn": "投、掷", "allomorphs": ["ject", "jet", "jac"], "level": 2, "etymology": "来自拉丁语 jacere，意为投、掷", "color": "orange" },
-    { "id": "log", "type": "root", "displayText": "log", "meaningCn": "说、词", "allomorphs": ["log", "logo", "logue"], "level": 2, "etymology": "来自希腊语 logos，意为说、词", "color": "orange" },
-    { "id": "mob", "type": "root", "displayText": "mob", "meaningCn": "移动", "allomorphs": ["mob", "mot", "mov"], "level": 2, "etymology": "来自拉丁语 movere，意为移动", "color": "orange" },
-    { "id": "nat", "type": "root", "displayText": "nat", "meaningCn": "出生、自然", "allomorphs": ["nat", "nas", "nate"], "level": 1, "etymology": "来自拉丁语 nasci，意为出生、自然", "color": "orange" },
-    { "id": "pend", "type": "root", "displayText": "pend", "meaningCn": "悬挂、称量", "allomorphs": ["pend", "pens"], "level": 2, "etymology": "来自拉丁语 pendere，意为悬挂、称量", "color": "orange" },
-    { "id": "vers", "type": "root", "displayText": "vers", "meaningCn": "转", "allomorphs": ["vers", "vert", "verse"], "level": 1, "etymology": "来自拉丁语 vertere，意为转", "color": "orange" },
-    { "id": "voc", "type": "root", "displayText": "voc", "meaningCn": "声音、叫", "allomorphs": ["voc", "voke", "vocal", "vo"], "level": 1, "etymology": "来自拉丁语 vox/vocare，意为声音、叫", "color": "orange" },
-    { "id": "graph", "type": "root", "displayText": "graph", "meaningCn": "写、画", "allomorphs": ["graph", "graphy"], "level": 2, "etymology": "来自希腊语 graphein，意为写、画", "color": "orange" },
-    { "id": "tract", "type": "root", "displayText": "tract", "meaningCn": "拉、拖", "allomorphs": ["tract"], "level": 2, "etymology": "来自拉丁语 trahere，意为拉、拖", "color": "orange" },
-    { "id": "fac", "type": "root", "displayText": "fac", "meaningCn": "做、制造", "allomorphs": ["fac", "fic", "fec", "fact", "fect"], "level": 1, "etymology": "来自拉丁语 facere，意为做、制造", "color": "orange" },
-    { "id": "pro", "type": "prefix", "displayText": "pro-", "meaningCn": "向前、在前", "allomorphs": ["pro"], "level": 1, "etymology": "来自拉丁语 pro，表示向前、在前", "color": "blue" },
-    { "id": "de", "type": "prefix", "displayText": "de-", "meaningCn": "向下、离开", "allomorphs": ["de"], "level": 2, "etymology": "来自拉丁语 de，表示向下、离开", "color": "blue" },
-    { "id": "dis", "type": "prefix", "displayText": "dis-", "meaningCn": "分离、否定", "allomorphs": ["dis"], "level": 2, "etymology": "来自拉丁语 dis，表示分开、相反", "color": "blue" },
-    { "id": "con", "type": "prefix", "displayText": "con- / com-", "meaningCn": "共同、一起", "allomorphs": ["con", "com", "col", "cor"], "level": 2, "etymology": "来自拉丁语 cum，表示共同、一起", "color": "blue" },
-    { "id": "sub", "type": "prefix", "displayText": "sub-", "meaningCn": "在下、次级", "allomorphs": ["sub", "sus", "suc", "sup", "sur"], "level": 2, "etymology": "来自拉丁语 sub，表示在下面", "color": "blue" },
-    { "id": "per", "type": "prefix", "displayText": "per-", "meaningCn": "贯穿、彻底；每一", "allomorphs": ["per"], "level": 3, "etymology": "来自拉丁语 per，表示通过、彻底", "color": "blue" },
-    { "id": "cata", "type": "prefix", "displayText": "cata-", "meaningCn": "向下、完全", "allomorphs": ["cata"], "level": 5, "etymology": "来自希腊语 kata，表示向下", "color": "blue" },
-    { "id": "uni", "type": "prefix", "displayText": "uni-", "meaningCn": "一、单一", "allomorphs": ["uni"], "level": 3, "etymology": "来自拉丁语 unus，意为一", "color": "blue" },
-    { "id": "auto", "type": "prefix", "displayText": "auto-", "meaningCn": "自己、自动", "allomorphs": ["auto"], "level": 3, "etymology": "来自希腊语 autos，意为自己", "color": "blue" },
-    { "id": "ben", "type": "prefix", "displayText": "ben- / bene-", "meaningCn": "好、善", "allomorphs": ["ben", "bene"], "level": 3, "etymology": "来自拉丁语 bene，意为好", "color": "blue" },
-    { "id": "e", "type": "prefix", "displayText": "e-", "meaningCn": "向外、出", "allomorphs": ["e"], "level": 3, "etymology": "拉丁语 ex- 在辅音前的变体，表示向外", "color": "blue" },
-    { "id": "en", "type": "prefix", "displayText": "en-", "meaningCn": "使、使进入", "allomorphs": ["en"], "level": 3, "etymology": "法语/拉丁语 in- 变体，表示使……成为、放入", "color": "blue" },
-    { "id": "para", "type": "prefix", "displayText": "para-", "meaningCn": "旁边、平行", "allomorphs": ["para"], "level": 4, "etymology": "来自希腊语 para，意为旁边", "color": "blue" },
-    { "id": "photo", "type": "prefix", "displayText": "photo-", "meaningCn": "光", "allomorphs": ["photo"], "level": 3, "etymology": "来自希腊语 phos，意为光", "color": "blue" },
-    { "id": "at", "type": "prefix", "displayText": "at-", "meaningCn": "向、至", "allomorphs": ["at"], "level": 3, "etymology": "来自拉丁语 ad- 在 t 前的变体，表示向、至", "color": "blue" },
-    { "id": "dia", "type": "prefix", "displayText": "dia-", "meaningCn": "通过、跨越", "allomorphs": ["dia"], "level": 3, "etymology": "来自希腊语 dia，表示通过", "color": "blue" },
-    { "id": "ation", "type": "suffix", "displayText": "-ation", "meaningCn": "行为、结果（名词）", "allomorphs": ["ation"], "level": 1, "etymology": "拉丁语名词后缀，表示行为过程", "color": "green" },
-    { "id": "ate", "type": "suffix", "displayText": "-ate", "meaningCn": "使成为、做（动词）", "allomorphs": ["ate", "at"], "level": 2, "etymology": "拉丁语动词后缀，表示使成", "color": "green" },
-    { "id": "or", "type": "suffix", "displayText": "-or", "meaningCn": "做……的人或物（名词）", "allomorphs": ["or", "tor", "ator"], "level": 2, "etymology": "拉丁语施动者后缀", "color": "green" },
-    { "id": "ary", "type": "suffix", "displayText": "-ary", "meaningCn": "与……有关的（形容词）", "allomorphs": ["ary"], "level": 3, "etymology": "拉丁语形容词后缀", "color": "green" },
-    { "id": "ic", "type": "suffix", "displayText": "-ic", "meaningCn": "……的、与……有关（形容词）", "allomorphs": ["ic", "tic"], "level": 2, "etymology": "希腊语/拉丁语形容词后缀", "color": "green" },
-    { "id": "ure", "type": "suffix", "displayText": "-ure", "meaningCn": "行为、状态、结果（名词）", "allomorphs": ["ure"], "level": 3, "etymology": "拉丁语名词后缀 -ura", "color": "green" },
-    { "id": "ory", "type": "suffix", "displayText": "-ory", "meaningCn": "……的场所（名词）", "allomorphs": ["ory", "atory", "tory"], "level": 3, "etymology": "拉丁语名词后缀 -orium 表示场所", "color": "green" },
-    { "id": "ent", "type": "suffix", "displayText": "-ent", "meaningCn": "做……的人（名/形）", "allomorphs": ["ent"], "level": 3, "etymology": "拉丁语后缀，表进行动作的人或状态", "color": "green" },
-    { "id": "ence", "type": "suffix", "displayText": "-ence", "meaningCn": "状态、性质（名词）", "allomorphs": ["ence"], "level": 3, "etymology": "拉丁语名词后缀 -entia", "color": "green" },
-    { "id": "s", "type": "suffix", "displayText": "-s", "meaningCn": "复数（名词）", "allomorphs": ["s"], "level": 1, "etymology": "英语复数词尾", "color": "green" },
-    { "id": "ulum", "type": "suffix", "displayText": "-ulum", "meaningCn": "……的工具、器具（名词）", "allomorphs": ["ulum"], "level": 5, "etymology": "拉丁语小称名词后缀", "color": "green" },
-    { "id": "ice", "type": "suffix", "displayText": "-ice", "meaningCn": "状态、性质（名词）", "allomorphs": ["ice"], "level": 4, "etymology": "拉丁语名词后缀 -itia", "color": "green" },
-    { "id": "logy", "type": "suffix", "displayText": "-logy", "meaningCn": "……学（名词）", "allomorphs": ["logy", "ology"], "level": 2, "etymology": "来自希腊语 -logia，意为……学", "color": "green" },
-    { "id": "graphy", "type": "suffix", "displayText": "-graphy", "meaningCn": "……的写法、记录（名词）", "allomorphs": ["graphy"], "level": 4, "etymology": "来自希腊语 -graphia，意为写法", "color": "green" },
-    { "id": "ury", "type": "suffix", "displayText": "-ury", "meaningCn": "状态、性质（名词）", "allomorphs": ["ury"], "level": 5, "etymology": "拉丁语名词后缀 -uria", "color": "green" },
-    { "id": "enn", "type": "suffix", "displayText": "-enn", "meaningCn": "年（名词）", "allomorphs": ["enn"], "level": 5, "etymology": "来自拉丁语 annus，意为年", "color": "green" },
-    { "id": "ial", "type": "suffix", "displayText": "-ial", "meaningCn": "……的（形容词）", "allomorphs": ["ial"], "level": 3, "etymology": "拉丁语形容词后缀 -ialis", "color": "green" },
-    { "id": "er", "type": "suffix", "displayText": "-er", "meaningCn": "做……的人或物（名词）", "allomorphs": ["er", "or", "ar"], "level": 1, "etymology": "英语施动者后缀", "color": "green" },
-    { "id": "ue", "type": "suffix", "displayText": "-ue", "meaningCn": "连接元音（名词）", "allomorphs": ["ue"], "level": 5, "etymology": "构词连接元音", "color": "green" },
-    { "id": "ile", "type": "suffix", "displayText": "-ile", "meaningCn": "可……的（形容词）", "allomorphs": ["ile", "il"], "level": 3, "etymology": "拉丁语形容词后缀 -ilis", "color": "green" },
-    { "id": "ility", "type": "suffix", "displayText": "-ility", "meaningCn": "性质、状态（抽象名词）", "allomorphs": ["ility"], "level": 3, "etymology": "拉丁语抽象名词后缀 -itas", "color": "green" },
-    { "id": "abul", "type": "suffix", "displayText": "-abul", "meaningCn": "……的（形容词）", "allomorphs": ["abul"], "level": 5, "etymology": "拉丁语形容词后缀 -abilis", "color": "green" },
-    { "id": "ite", "type": "suffix", "displayText": "-ite", "meaningCn": "有……性质的（形/名）", "allomorphs": ["ite"], "level": 4, "etymology": "希腊语/拉丁语形容词或名词后缀", "color": "green" },
-    { "id": "u", "type": "suffix", "displayText": "-u", "meaningCn": "连接元音（动词）", "allomorphs": ["u"], "level": 5, "etymology": "构词连接元音", "color": "green" },
-    { "id": "tech", "type": "suffix", "displayText": "-tech", "meaningCn": "技艺、技术", "allomorphs": ["tech"], "level": 3, "etymology": "来自希腊语 techne，意为技艺（本阶段作后缀处理，避免单独成根触发 A23）", "color": "green" }
+  "inspection": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "spec",
+    "surface": "spect"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
   ],
-  "worlds": [
-    { "id": "observatory", "name": "观察台", "morphemeIds": ["spec", "vid", "vers"] },
-    { "id": "message-port", "name": "传送门", "morphemeIds": ["dict", "port"] },
-    { "id": "growth-lab", "name": "成长实验室", "morphemeIds": ["bio", "gen", "nat"] },
-    { "id": "time-vault", "name": "时光库", "morphemeIds": ["cent", "pend"] },
-    { "id": "action-forge", "name": "行动工坊", "morphemeIds": ["ject", "mob", "aud", "voc", "cred"] },
-    { "id": "word-mill", "name": "词语磨坊", "morphemeIds": ["log", "grad", "graph", "tract", "fac"] }
+  "respect": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "spec",
+    "surface": "spect"
+   }
+  ],
+  "circumspection": [
+   {
+    "id": "circum",
+    "surface": "circum"
+   },
+   {
+    "id": "spec",
+    "surface": "spect"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "predict": [
+   {
+    "id": "pre",
+    "surface": "pre"
+   },
+   {
+    "id": "dict",
+    "surface": "dict"
+   }
+  ],
+  "prediction": [
+   {
+    "id": "pre",
+    "surface": "pre"
+   },
+   {
+    "id": "dict",
+    "surface": "dict"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "predictable": [
+   {
+    "id": "pre",
+    "surface": "pre"
+   },
+   {
+    "id": "dict",
+    "surface": "dict"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "predictive": [
+   {
+    "id": "pre",
+    "surface": "pre"
+   },
+   {
+    "id": "dict",
+    "surface": "dict"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "dictator": [
+   {
+    "id": "dict",
+    "surface": "dict"
+   },
+   {
+    "id": "or",
+    "surface": "ator"
+   }
+  ],
+  "portable": [
+   {
+    "id": "port",
+    "surface": "port"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "import": [
+   {
+    "id": "in",
+    "surface": "im",
+    "isAssimilated": true
+   },
+   {
+    "id": "port",
+    "surface": "port"
+   }
+  ],
+  "report": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "port",
+    "surface": "port"
+   }
+  ],
+  "porter": [
+   {
+    "id": "port",
+    "surface": "port"
+   }
+  ],
+  "deport": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "port",
+    "surface": "port"
+   }
+  ],
+  "visible": [
+   {
+    "id": "vid",
+    "surface": "vis"
+   },
+   {
+    "id": "able",
+    "surface": "ible"
+   }
+  ],
+  "vision": [
+   {
+    "id": "vid",
+    "surface": "vis"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "revise": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "vid",
+    "surface": "vise"
+   }
+  ],
+  "visibility": [
+   {
+    "id": "vid",
+    "surface": "vis"
+   },
+   {
+    "id": "able",
+    "surface": "ibil",
+    "isAssimilated": true
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "envision": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "vid",
+    "surface": "vis"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "audience": [
+   {
+    "id": "aud",
+    "surface": "audi"
+   },
+   {
+    "id": "ence",
+    "surface": "ence"
+   }
+  ],
+  "audio": [
+   {
+    "id": "aud",
+    "surface": "audio"
+   }
+  ],
+  "audible": [
+   {
+    "id": "aud",
+    "surface": "aud"
+   },
+   {
+    "id": "able",
+    "surface": "ible"
+   }
+  ],
+  "biology": [
+   {
+    "id": "bio",
+    "surface": "bio"
+   },
+   {
+    "id": "logy",
+    "surface": "logy"
+   }
+  ],
+  "biography": [
+   {
+    "id": "bio",
+    "surface": "bio"
+   },
+   {
+    "id": "graph",
+    "surface": "graphy"
+   }
+  ],
+  "biotech": [
+   {
+    "id": "bio",
+    "surface": "bio"
+   },
+   {
+    "id": "tech",
+    "surface": "tech"
+   }
+  ],
+  "century": [
+   {
+    "id": "cent",
+    "surface": "cent"
+   },
+   {
+    "id": "ury",
+    "surface": "ury"
+   }
+  ],
+  "percent": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "cent",
+    "surface": "cent"
+   }
+  ],
+  "centennial": [
+   {
+    "id": "cent",
+    "surface": "cent"
+   },
+   {
+    "id": "enn",
+    "surface": "enn"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "credit": [
+   {
+    "id": "cred",
+    "surface": "credit"
+   }
+  ],
+  "credential": [
+   {
+    "id": "cred",
+    "surface": "cred"
+   },
+   {
+    "id": "ent",
+    "surface": "ent"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "incredible": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "cred",
+    "surface": "cred"
+   },
+   {
+    "id": "able",
+    "surface": "ible"
+   }
+  ],
+  "gene": [
+   {
+    "id": "gen",
+    "surface": "gene"
+   }
+  ],
+  "generate": [
+   {
+    "id": "gen",
+    "surface": "gen"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   },
+   {
+    "id": "ate",
+    "surface": "ate"
+   }
+  ],
+  "genetics": [
+   {
+    "id": "gen",
+    "surface": "gene"
+   },
+   {
+    "id": "ic",
+    "surface": "tic"
+   },
+   {
+    "id": "s",
+    "surface": "s"
+   }
+  ],
+  "grade": [
+   {
+    "id": "grad",
+    "surface": "grade"
+   }
+  ],
+  "graduate": [
+   {
+    "id": "grad",
+    "surface": "grad"
+   },
+   {
+    "id": "u",
+    "surface": "u"
+   },
+   {
+    "id": "ate",
+    "surface": "ate"
+   }
+  ],
+  "degrade": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "grad",
+    "surface": "grade"
+   }
+  ],
+  "project": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "ject",
+    "surface": "ject"
+   }
+  ],
+  "reject": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "ject",
+    "surface": "ject"
+   }
+  ],
+  "eject": [
+   {
+    "id": "e",
+    "surface": "e"
+   },
+   {
+    "id": "ject",
+    "surface": "ject"
+   }
+  ],
+  "dialogue": [
+   {
+    "id": "dia",
+    "surface": "dia"
+   },
+   {
+    "id": "log",
+    "surface": "logue"
+   }
+  ],
+  "logic": [
+   {
+    "id": "log",
+    "surface": "log"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "catalog": [
+   {
+    "id": "cata",
+    "surface": "cata"
+   },
+   {
+    "id": "log",
+    "surface": "log"
+   }
+  ],
+  "mobile": [
+   {
+    "id": "mob",
+    "surface": "mob"
+   },
+   {
+    "id": "ile",
+    "surface": "ile"
+   }
+  ],
+  "mobility": [
+   {
+    "id": "mob",
+    "surface": "mob"
+   },
+   {
+    "id": "ility",
+    "surface": "ility"
+   }
+  ],
+  "automobile": [
+   {
+    "id": "auto",
+    "surface": "auto"
+   },
+   {
+    "id": "mob",
+    "surface": "mob"
+   },
+   {
+    "id": "ile",
+    "surface": "ile"
+   }
+  ],
+  "nature": [
+   {
+    "id": "nat",
+    "surface": "nat"
+   },
+   {
+    "id": "ure",
+    "surface": "ure"
+   }
+  ],
+  "nation": [
+   {
+    "id": "nat",
+    "surface": "nat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "innate": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "nat",
+    "surface": "nate"
+   }
+  ],
+  "depend": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "pend",
+    "surface": "pend"
+   }
+  ],
+  "suspend": [
+   {
+    "id": "sub",
+    "surface": "sus",
+    "isAssimilated": true
+   },
+   {
+    "id": "pend",
+    "surface": "pend"
+   }
+  ],
+  "pendulum": [
+   {
+    "id": "pend",
+    "surface": "pend"
+   },
+   {
+    "id": "ulum",
+    "surface": "ulum"
+   }
+  ],
+  "universe": [
+   {
+    "id": "uni",
+    "surface": "uni"
+   },
+   {
+    "id": "vers",
+    "surface": "verse"
+   }
+  ],
+  "version": [
+   {
+    "id": "vers",
+    "surface": "vers"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "inverse": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "vers",
+    "surface": "verse"
+   }
+  ],
+  "vocabulary": [
+   {
+    "id": "voc",
+    "surface": "voc"
+   },
+   {
+    "id": "abul",
+    "surface": "abul"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "vocal": [
+   {
+    "id": "voc",
+    "surface": "voc"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "vocation": [
+   {
+    "id": "voc",
+    "surface": "voc"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "paragraph": [
+   {
+    "id": "para",
+    "surface": "para"
+   },
+   {
+    "id": "graph",
+    "surface": "graph"
+   }
+  ],
+  "photograph": [
+   {
+    "id": "photo",
+    "surface": "photo"
+   },
+   {
+    "id": "graph",
+    "surface": "graph"
+   }
+  ],
+  "graphite": [
+   {
+    "id": "graph",
+    "surface": "graph"
+   },
+   {
+    "id": "ite",
+    "surface": "ite"
+   }
+  ],
+  "attract": [
+   {
+    "id": "at",
+    "surface": "at"
+   },
+   {
+    "id": "tract",
+    "surface": "tract"
+   }
+  ],
+  "contract": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "tract",
+    "surface": "tract"
+   }
+  ],
+  "retract": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "tract",
+    "surface": "tract"
+   }
+  ],
+  "factory": [
+   {
+    "id": "fac",
+    "surface": "fac"
+   },
+   {
+    "id": "ory",
+    "surface": "tory"
+   }
+  ],
+  "facility": [
+   {
+    "id": "fac",
+    "surface": "fac"
+   },
+   {
+    "id": "ility",
+    "surface": "ility"
+   }
+  ],
+  "benefactor": [
+   {
+    "id": "ben",
+    "surface": "bene"
+   },
+   {
+    "id": "fac",
+    "surface": "fac"
+   },
+   {
+    "id": "or",
+    "surface": "tor"
+   }
   ]
+ },
+ "extraMorphemes": [
+  {
+   "id": "aud",
+   "type": "root",
+   "displayText": "aud",
+   "meaningCn": "听",
+   "allomorphs": [
+    "aud",
+    "audi",
+    "audio"
+   ],
+   "level": 1,
+   "etymology": "来自拉丁语 audire，意为听",
+   "color": "orange"
+  },
+  {
+   "id": "bio",
+   "type": "root",
+   "displayText": "bio",
+   "meaningCn": "生命",
+   "allomorphs": [
+    "bio",
+    "bi"
+   ],
+   "level": 1,
+   "etymology": "来自希腊语 bios，意为生命",
+   "color": "orange"
+  },
+  {
+   "id": "cent",
+   "type": "root",
+   "displayText": "cent",
+   "meaningCn": "百",
+   "allomorphs": [
+    "cent",
+    "centi"
+   ],
+   "level": 2,
+   "etymology": "来自拉丁语 centum，意为百",
+   "color": "orange"
+  },
+  {
+   "id": "cred",
+   "type": "root",
+   "displayText": "cred",
+   "meaningCn": "相信",
+   "allomorphs": [
+    "cred",
+    "credit"
+   ],
+   "level": 1,
+   "etymology": "来自拉丁语 credere，意为相信",
+   "color": "orange"
+  },
+  {
+   "id": "gen",
+   "type": "root",
+   "displayText": "gen",
+   "meaningCn": "出生、种类",
+   "allomorphs": [
+    "gen",
+    "gene",
+    "gener"
+   ],
+   "level": 1,
+   "etymology": "来自拉丁语 genus，意为出生、种类",
+   "color": "orange"
+  },
+  {
+   "id": "grad",
+   "type": "root",
+   "displayText": "grad",
+   "meaningCn": "步、级",
+   "allomorphs": [
+    "grad",
+    "grade"
+   ],
+   "level": 2,
+   "etymology": "来自拉丁语 gradus，意为步、级",
+   "color": "orange"
+  },
+  {
+   "id": "ject",
+   "type": "root",
+   "displayText": "ject",
+   "meaningCn": "投、掷",
+   "allomorphs": [
+    "ject",
+    "jet",
+    "jac"
+   ],
+   "level": 2,
+   "etymology": "来自拉丁语 jacere，意为投、掷",
+   "color": "orange"
+  },
+  {
+   "id": "log",
+   "type": "root",
+   "displayText": "log",
+   "meaningCn": "说、词",
+   "allomorphs": [
+    "log",
+    "logo",
+    "logue"
+   ],
+   "level": 2,
+   "etymology": "来自希腊语 logos，意为说、词",
+   "color": "orange"
+  },
+  {
+   "id": "mob",
+   "type": "root",
+   "displayText": "mob",
+   "meaningCn": "移动",
+   "allomorphs": [
+    "mob",
+    "mot",
+    "mov"
+   ],
+   "level": 2,
+   "etymology": "来自拉丁语 movere，意为移动",
+   "color": "orange"
+  },
+  {
+   "id": "nat",
+   "type": "root",
+   "displayText": "nat",
+   "meaningCn": "出生、自然",
+   "allomorphs": [
+    "nat",
+    "nas",
+    "nate"
+   ],
+   "level": 1,
+   "etymology": "来自拉丁语 nasci，意为出生、自然",
+   "color": "orange"
+  },
+  {
+   "id": "pend",
+   "type": "root",
+   "displayText": "pend",
+   "meaningCn": "悬挂、称量",
+   "allomorphs": [
+    "pend",
+    "pens"
+   ],
+   "level": 2,
+   "etymology": "来自拉丁语 pendere，意为悬挂、称量",
+   "color": "orange"
+  },
+  {
+   "id": "vers",
+   "type": "root",
+   "displayText": "vers",
+   "meaningCn": "转",
+   "allomorphs": [
+    "vers",
+    "vert",
+    "verse"
+   ],
+   "level": 1,
+   "etymology": "来自拉丁语 vertere，意为转",
+   "color": "orange"
+  },
+  {
+   "id": "voc",
+   "type": "root",
+   "displayText": "voc",
+   "meaningCn": "声音、叫",
+   "allomorphs": [
+    "voc",
+    "voke",
+    "vocal",
+    "vo"
+   ],
+   "level": 1,
+   "etymology": "来自拉丁语 vox/vocare，意为声音、叫",
+   "color": "orange"
+  },
+  {
+   "id": "graph",
+   "type": "root",
+   "displayText": "graph",
+   "meaningCn": "写、画",
+   "allomorphs": [
+    "graph",
+    "graphy"
+   ],
+   "level": 2,
+   "etymology": "来自希腊语 graphein，意为写、画",
+   "color": "orange"
+  },
+  {
+   "id": "tract",
+   "type": "root",
+   "displayText": "tract",
+   "meaningCn": "拉、拖",
+   "allomorphs": [
+    "tract"
+   ],
+   "level": 2,
+   "etymology": "来自拉丁语 trahere，意为拉、拖",
+   "color": "orange"
+  },
+  {
+   "id": "fac",
+   "type": "root",
+   "displayText": "fac",
+   "meaningCn": "做、制造",
+   "allomorphs": [
+    "fac",
+    "fic",
+    "fec",
+    "fact",
+    "fect"
+   ],
+   "level": 1,
+   "etymology": "来自拉丁语 facere，意为做、制造",
+   "color": "orange"
+  },
+  {
+   "id": "pro",
+   "type": "prefix",
+   "displayText": "pro-",
+   "meaningCn": "向前、在前",
+   "allomorphs": [
+    "pro"
+   ],
+   "level": 1,
+   "etymology": "来自拉丁语 pro，表示向前、在前",
+   "color": "blue"
+  },
+  {
+   "id": "de",
+   "type": "prefix",
+   "displayText": "de-",
+   "meaningCn": "向下、离开",
+   "allomorphs": [
+    "de"
+   ],
+   "level": 2,
+   "etymology": "来自拉丁语 de，表示向下、离开",
+   "color": "blue"
+  },
+  {
+   "id": "dis",
+   "type": "prefix",
+   "displayText": "dis-",
+   "meaningCn": "分离、否定",
+   "allomorphs": [
+    "dis"
+   ],
+   "level": 2,
+   "etymology": "来自拉丁语 dis，表示分开、相反",
+   "color": "blue"
+  },
+  {
+   "id": "con",
+   "type": "prefix",
+   "displayText": "con- / com-",
+   "meaningCn": "共同、一起",
+   "allomorphs": [
+    "con",
+    "com",
+    "col",
+    "cor"
+   ],
+   "level": 2,
+   "etymology": "来自拉丁语 cum，表示共同、一起",
+   "color": "blue"
+  },
+  {
+   "id": "sub",
+   "type": "prefix",
+   "displayText": "sub-",
+   "meaningCn": "在下、次级",
+   "allomorphs": [
+    "sub",
+    "sus",
+    "suc",
+    "sup",
+    "sur"
+   ],
+   "level": 2,
+   "etymology": "来自拉丁语 sub，表示在下面",
+   "color": "blue"
+  },
+  {
+   "id": "per",
+   "type": "prefix",
+   "displayText": "per-",
+   "meaningCn": "贯穿、彻底；每一",
+   "allomorphs": [
+    "per"
+   ],
+   "level": 3,
+   "etymology": "来自拉丁语 per，表示通过、彻底",
+   "color": "blue"
+  },
+  {
+   "id": "cata",
+   "type": "prefix",
+   "displayText": "cata-",
+   "meaningCn": "向下、完全",
+   "allomorphs": [
+    "cata"
+   ],
+   "level": 5,
+   "etymology": "来自希腊语 kata，表示向下",
+   "color": "blue"
+  },
+  {
+   "id": "uni",
+   "type": "prefix",
+   "displayText": "uni-",
+   "meaningCn": "一、单一",
+   "allomorphs": [
+    "uni"
+   ],
+   "level": 3,
+   "etymology": "来自拉丁语 unus，意为一",
+   "color": "blue"
+  },
+  {
+   "id": "auto",
+   "type": "prefix",
+   "displayText": "auto-",
+   "meaningCn": "自己、自动",
+   "allomorphs": [
+    "auto"
+   ],
+   "level": 3,
+   "etymology": "来自希腊语 autos，意为自己",
+   "color": "blue"
+  },
+  {
+   "id": "ben",
+   "type": "prefix",
+   "displayText": "ben- / bene-",
+   "meaningCn": "好、善",
+   "allomorphs": [
+    "ben",
+    "bene"
+   ],
+   "level": 3,
+   "etymology": "来自拉丁语 bene，意为好",
+   "color": "blue"
+  },
+  {
+   "id": "e",
+   "type": "prefix",
+   "displayText": "e-",
+   "meaningCn": "向外、出",
+   "allomorphs": [
+    "e"
+   ],
+   "level": 3,
+   "etymology": "拉丁语 ex- 在辅音前的变体，表示向外",
+   "color": "blue"
+  },
+  {
+   "id": "en",
+   "type": "prefix",
+   "displayText": "en-",
+   "meaningCn": "使、使进入",
+   "allomorphs": [
+    "en"
+   ],
+   "level": 3,
+   "etymology": "法语/拉丁语 in- 变体，表示使……成为、放入",
+   "color": "blue"
+  },
+  {
+   "id": "para",
+   "type": "prefix",
+   "displayText": "para-",
+   "meaningCn": "旁边、平行",
+   "allomorphs": [
+    "para"
+   ],
+   "level": 4,
+   "etymology": "来自希腊语 para，意为旁边",
+   "color": "blue"
+  },
+  {
+   "id": "photo",
+   "type": "prefix",
+   "displayText": "photo-",
+   "meaningCn": "光",
+   "allomorphs": [
+    "photo"
+   ],
+   "level": 3,
+   "etymology": "来自希腊语 phos，意为光",
+   "color": "blue"
+  },
+  {
+   "id": "at",
+   "type": "prefix",
+   "displayText": "at-",
+   "meaningCn": "向、至",
+   "allomorphs": [
+    "at"
+   ],
+   "level": 3,
+   "etymology": "来自拉丁语 ad- 在 t 前的变体，表示向、至",
+   "color": "blue"
+  },
+  {
+   "id": "dia",
+   "type": "prefix",
+   "displayText": "dia-",
+   "meaningCn": "通过、跨越",
+   "allomorphs": [
+    "dia"
+   ],
+   "level": 3,
+   "etymology": "来自希腊语 dia，表示通过",
+   "color": "blue"
+  },
+  {
+   "id": "ation",
+   "type": "suffix",
+   "displayText": "-ation",
+   "meaningCn": "行为、结果（名词）",
+   "allomorphs": [
+    "ation"
+   ],
+   "level": 1,
+   "etymology": "拉丁语名词后缀，表示行为过程",
+   "color": "green"
+  },
+  {
+   "id": "ate",
+   "type": "suffix",
+   "displayText": "-ate",
+   "meaningCn": "使成为、做（动词）",
+   "allomorphs": [
+    "ate",
+    "at"
+   ],
+   "level": 2,
+   "etymology": "拉丁语动词后缀，表示使成",
+   "color": "green"
+  },
+  {
+   "id": "or",
+   "type": "suffix",
+   "displayText": "-or",
+   "meaningCn": "做……的人或物（名词）",
+   "allomorphs": [
+    "or",
+    "tor",
+    "ator"
+   ],
+   "level": 2,
+   "etymology": "拉丁语施动者后缀",
+   "color": "green"
+  },
+  {
+   "id": "ary",
+   "type": "suffix",
+   "displayText": "-ary",
+   "meaningCn": "与……有关的（形容词）",
+   "allomorphs": [
+    "ary"
+   ],
+   "level": 3,
+   "etymology": "拉丁语形容词后缀",
+   "color": "green"
+  },
+  {
+   "id": "ic",
+   "type": "suffix",
+   "displayText": "-ic",
+   "meaningCn": "……的、与……有关（形容词）",
+   "allomorphs": [
+    "ic",
+    "tic"
+   ],
+   "level": 2,
+   "etymology": "希腊语/拉丁语形容词后缀",
+   "color": "green"
+  },
+  {
+   "id": "ure",
+   "type": "suffix",
+   "displayText": "-ure",
+   "meaningCn": "行为、状态、结果（名词）",
+   "allomorphs": [
+    "ure"
+   ],
+   "level": 3,
+   "etymology": "拉丁语名词后缀 -ura",
+   "color": "green"
+  },
+  {
+   "id": "ory",
+   "type": "suffix",
+   "displayText": "-ory",
+   "meaningCn": "……的场所（名词）",
+   "allomorphs": [
+    "ory",
+    "atory",
+    "tory"
+   ],
+   "level": 3,
+   "etymology": "拉丁语名词后缀 -orium 表示场所",
+   "color": "green"
+  },
+  {
+   "id": "ent",
+   "type": "suffix",
+   "displayText": "-ent",
+   "meaningCn": "做……的人（名/形）",
+   "allomorphs": [
+    "ent"
+   ],
+   "level": 3,
+   "etymology": "拉丁语后缀，表进行动作的人或状态",
+   "color": "green"
+  },
+  {
+   "id": "ence",
+   "type": "suffix",
+   "displayText": "-ence",
+   "meaningCn": "状态、性质（名词）",
+   "allomorphs": [
+    "ence"
+   ],
+   "level": 3,
+   "etymology": "拉丁语名词后缀 -entia",
+   "color": "green"
+  },
+  {
+   "id": "s",
+   "type": "suffix",
+   "displayText": "-s",
+   "meaningCn": "复数（名词）",
+   "allomorphs": [
+    "s"
+   ],
+   "level": 1,
+   "etymology": "英语复数词尾",
+   "color": "green"
+  },
+  {
+   "id": "ulum",
+   "type": "suffix",
+   "displayText": "-ulum",
+   "meaningCn": "……的工具、器具（名词）",
+   "allomorphs": [
+    "ulum"
+   ],
+   "level": 5,
+   "etymology": "拉丁语小称名词后缀",
+   "color": "green"
+  },
+  {
+   "id": "ice",
+   "type": "suffix",
+   "displayText": "-ice",
+   "meaningCn": "状态、性质（名词）",
+   "allomorphs": [
+    "ice"
+   ],
+   "level": 4,
+   "etymology": "拉丁语名词后缀 -itia",
+   "color": "green"
+  },
+  {
+   "id": "logy",
+   "type": "suffix",
+   "displayText": "-logy",
+   "meaningCn": "……学（名词）",
+   "allomorphs": [
+    "logy",
+    "ology"
+   ],
+   "level": 2,
+   "etymology": "来自希腊语 -logia，意为……学",
+   "color": "green"
+  },
+  {
+   "id": "graphy",
+   "type": "suffix",
+   "displayText": "-graphy",
+   "meaningCn": "……的写法、记录（名词）",
+   "allomorphs": [
+    "graphy"
+   ],
+   "level": 4,
+   "etymology": "来自希腊语 -graphia，意为写法",
+   "color": "green"
+  },
+  {
+   "id": "ury",
+   "type": "suffix",
+   "displayText": "-ury",
+   "meaningCn": "状态、性质（名词）",
+   "allomorphs": [
+    "ury"
+   ],
+   "level": 5,
+   "etymology": "拉丁语名词后缀 -uria",
+   "color": "green"
+  },
+  {
+   "id": "enn",
+   "type": "suffix",
+   "displayText": "-enn",
+   "meaningCn": "年（名词）",
+   "allomorphs": [
+    "enn"
+   ],
+   "level": 5,
+   "etymology": "来自拉丁语 annus，意为年",
+   "color": "green"
+  },
+  {
+   "id": "ial",
+   "type": "suffix",
+   "displayText": "-ial",
+   "meaningCn": "……的（形容词）",
+   "allomorphs": [
+    "ial"
+   ],
+   "level": 3,
+   "etymology": "拉丁语形容词后缀 -ialis",
+   "color": "green"
+  },
+  {
+   "id": "er",
+   "type": "suffix",
+   "displayText": "-er",
+   "meaningCn": "做……的人或物（名词）",
+   "allomorphs": [
+    "er",
+    "or",
+    "ar"
+   ],
+   "level": 1,
+   "etymology": "英语施动者后缀",
+   "color": "green"
+  },
+  {
+   "id": "ue",
+   "type": "suffix",
+   "displayText": "-ue",
+   "meaningCn": "连接元音（名词）",
+   "allomorphs": [
+    "ue"
+   ],
+   "level": 5,
+   "etymology": "构词连接元音",
+   "color": "green"
+  },
+  {
+   "id": "ile",
+   "type": "suffix",
+   "displayText": "-ile",
+   "meaningCn": "可……的（形容词）",
+   "allomorphs": [
+    "ile",
+    "il"
+   ],
+   "level": 3,
+   "etymology": "拉丁语形容词后缀 -ilis",
+   "color": "green"
+  },
+  {
+   "id": "ility",
+   "type": "suffix",
+   "displayText": "-ility",
+   "meaningCn": "性质、状态（抽象名词）",
+   "allomorphs": [
+    "ility"
+   ],
+   "level": 3,
+   "etymology": "拉丁语抽象名词后缀 -itas",
+   "color": "green"
+  },
+  {
+   "id": "abul",
+   "type": "suffix",
+   "displayText": "-abul",
+   "meaningCn": "……的（形容词）",
+   "allomorphs": [
+    "abul"
+   ],
+   "level": 5,
+   "etymology": "拉丁语形容词后缀 -abilis",
+   "color": "green"
+  },
+  {
+   "id": "ite",
+   "type": "suffix",
+   "displayText": "-ite",
+   "meaningCn": "有……性质的（形/名）",
+   "allomorphs": [
+    "ite"
+   ],
+   "level": 4,
+   "etymology": "希腊语/拉丁语形容词或名词后缀",
+   "color": "green"
+  },
+  {
+   "id": "u",
+   "type": "suffix",
+   "displayText": "-u",
+   "meaningCn": "连接元音（动词）",
+   "allomorphs": [
+    "u"
+   ],
+   "level": 5,
+   "etymology": "构词连接元音",
+   "color": "green"
+  },
+  {
+   "id": "tech",
+   "type": "suffix",
+   "displayText": "-tech",
+   "meaningCn": "技艺、技术",
+   "allomorphs": [
+    "tech"
+   ],
+   "level": 3,
+   "etymology": "来自希腊语 techne，意为技艺（本阶段作后缀处理，避免单独成根触发 A23）",
+   "color": "green"
+  }
+ ],
+ "worlds": [
+  {
+   "id": "observatory",
+   "name": "观察台",
+   "morphemeIds": [
+    "spec",
+    "vid",
+    "vers"
+   ]
+  },
+  {
+   "id": "message-port",
+   "name": "传送门",
+   "morphemeIds": [
+    "dict",
+    "port"
+   ]
+  },
+  {
+   "id": "growth-lab",
+   "name": "成长实验室",
+   "morphemeIds": [
+    "bio",
+    "gen",
+    "nat"
+   ]
+  },
+  {
+   "id": "time-vault",
+   "name": "时光库",
+   "morphemeIds": [
+    "cent",
+    "pend"
+   ]
+  },
+  {
+   "id": "action-forge",
+   "name": "行动工坊",
+   "morphemeIds": [
+    "ject",
+    "mob",
+    "aud",
+    "voc",
+    "cred"
+   ]
+  },
+  {
+   "id": "word-mill",
+   "name": "词语磨坊",
+   "morphemeIds": [
+    "log",
+    "grad",
+    "graph",
+    "tract",
+    "fac"
+   ]
+  }
+ ]
 }

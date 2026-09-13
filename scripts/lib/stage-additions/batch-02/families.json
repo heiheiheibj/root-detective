@@ -1,5 +1,5 @@
 {
- "_comment": "3.1 中考批 新增 59 个词根家族",
+ "_comment": "3.1 中考批 新增 58 个词根家族",
  "families": {
   "sent": {
    "roots": [
@@ -43,14 +43,6 @@
    ],
    "words": [
     "airline"
-   ]
-  },
-  "live": {
-   "roots": [
-    "live"
-   ],
-   "words": [
-    "alive"
    ]
   },
   "body": {

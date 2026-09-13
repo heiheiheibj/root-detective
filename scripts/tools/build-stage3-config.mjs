@@ -127,7 +127,14 @@ for (const [w, parts] of Object.entries(allSplits)) {
 }
 // 世界覆盖：每个 root 都要落在某个世界里
 const worldRoots = new Set(allWorlds.flatMap((w) => w.morphemeIds))
-const familyRoots = new Set(Object.values(allFamilies).flatMap((f) => f.roots))
+// 家族里一个词都没有的词根不要求挂世界：它无词可学，放进地图也是空的。
+// `live` 就是这种情况 —— alive 归一成 life 之后，live 家族空了，
+// 逼它挂世界会和 A23（孤儿词素）打架：挂了 A23 报错，不挂 A24 报错。
+const familyRoots = new Set()
+for (const f of Object.values(allFamilies)) {
+  if (!f.words || f.words.length === 0) continue
+  for (const r of f.roots) familyRoots.add(r)
+}
 for (const r of familyRoots) if (!worldRoots.has(r)) errors.push(`词根 ${r} 不在任何世界`)
 for (const r of worldRoots) if (!familyRoots.has(r) && !morphemeIds.has(r)) errors.push(`世界引用了不存在的词根 ${r}`)
 

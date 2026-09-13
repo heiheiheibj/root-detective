@@ -864,19 +864,19 @@
     ],
     "distractors": [
       {
-        "text": "uary",
+        "text": "cor",
         "type": "form"
       },
       {
-        "text": "ocre",
+        "text": "prim",
         "type": "meaning"
       },
       {
-        "text": "ed",
+        "text": "flect",
         "type": "random"
       },
       {
-        "text": "an",
+        "text": "fus",
         "type": "form"
       }
     ],
@@ -923,19 +923,19 @@
     ],
     "distractors": [
       {
-        "text": "izer",
+        "text": "cap",
         "type": "form"
       },
       {
-        "text": "el",
+        "text": "metr",
         "type": "meaning"
       },
       {
-        "text": "ious",
+        "text": "polit",
         "type": "random"
       },
       {
-        "text": "itude",
+        "text": "opt",
         "type": "form"
       }
     ],
@@ -963,7 +963,7 @@
     "metaphorOptions": [
       "设想、展望",
       "保持的工具",
-      "把高兴串起来"
+      "一种高兴的习俗"
     ],
     "exampleEn": "That's not hard to envision.",
     "exampleCn": "那并不难想象。",
@@ -987,19 +987,19 @@
     ],
     "distractors": [
       {
-        "text": "fast",
+        "text": "mate",
         "type": "form"
       },
       {
-        "text": "chair",
+        "text": "son",
         "type": "meaning"
       },
       {
-        "text": "ember",
+        "text": "work",
         "type": "random"
       },
       {
-        "text": "draw",
+        "text": "ise",
         "type": "form"
       }
     ],
@@ -1027,7 +1027,7 @@
     "metaphorOptions": [
       "听众、观众",
       "被快速的的东西",
-      "事物的背面"
+      "正在的背面"
     ],
     "exampleEn": "How large is the audience?",
     "exampleCn": "你估計聽眾有多少?",
@@ -1046,19 +1046,19 @@
     ],
     "distractors": [
       {
-        "text": "book",
+        "text": "el",
         "type": "form"
       },
       {
-        "text": "quest",
+        "text": "ious",
         "type": "meaning"
       },
       {
-        "text": "ceive",
+        "text": "itude",
         "type": "random"
       },
       {
-        "text": "sea",
+        "text": "uary",
         "type": "form"
       }
     ],
@@ -1096,19 +1096,19 @@
     ],
     "distractors": [
       {
-        "text": "yester",
+        "text": "eval",
         "type": "form"
       },
       {
-        "text": "less",
+        "text": "ual",
         "type": "meaning"
       },
       {
-        "text": "ly",
+        "text": "y",
         "type": "random"
       },
       {
-        "text": "some",
+        "text": "sent",
         "type": "form"
       }
     ],
@@ -1149,19 +1149,19 @@
     ],
     "distractors": [
       {
-        "text": "bi",
+        "text": "base",
         "type": "form"
       },
       {
-        "text": "to",
+        "text": "bed",
         "type": "meaning"
       },
       {
-        "text": "co",
+        "text": "day",
         "type": "random"
       },
       {
-        "text": "sept",
+        "text": "break",
         "type": "form"
       }
     ],
@@ -1208,19 +1208,19 @@
     ],
     "distractors": [
       {
-        "text": "ard",
+        "text": "auto",
         "type": "form"
       },
       {
-        "text": "pre",
+        "text": "en",
         "type": "meaning"
       },
       {
-        "text": "spec",
+        "text": "at",
         "type": "random"
       },
       {
-        "text": "vid",
+        "text": "ate",
         "type": "form"
       }
     ],
@@ -1263,19 +1263,19 @@
     ],
     "distractors": [
       {
-        "text": "pas",
+        "text": "ile",
         "type": "form"
       },
       {
-        "text": "water",
+        "text": "ite",
         "type": "meaning"
       },
       {
-        "text": "west",
+        "text": "cor",
         "type": "random"
       },
       {
-        "text": "com",
+        "text": "prim",
         "type": "form"
       }
     ],
@@ -1319,19 +1319,19 @@
     ],
     "distractors": [
       {
-        "text": "stand",
+        "text": "abul",
         "type": "form"
       },
       {
-        "text": "success",
+        "text": "cor",
         "type": "meaning"
       },
       {
-        "text": "vision",
+        "text": "prim",
         "type": "random"
       },
       {
-        "text": "night",
+        "text": "flect",
         "type": "form"
       }
     ],
@@ -1353,7 +1353,7 @@
     "metaphorOptions": [
       "世纪",
       "把征服翻开",
-      "宾夕法尼亚雷丁海的影子"
+      "拿取的影子"
     ],
     "exampleEn": "A century is one hundred years.",
     "exampleCn": "一个世纪就是一百年。",
@@ -1372,19 +1372,19 @@
     ],
     "distractors": [
       {
-        "text": "ine",
+        "text": "mob",
         "type": "form"
       },
       {
-        "text": "ian",
+        "text": "vers",
         "type": "meaning"
       },
       {
-        "text": "itude",
+        "text": "tract",
         "type": "random"
       },
       {
-        "text": "uum",
+        "text": "de",
         "type": "form"
       }
     ],
@@ -1425,19 +1425,19 @@
     ],
     "distractors": [
       {
-        "text": "medi",
+        "text": "mis",
         "type": "form"
       },
       {
-        "text": "serv",
+        "text": "pr",
         "type": "meaning"
       },
       {
-        "text": "ven",
+        "text": "under",
         "type": "random"
       },
       {
-        "text": "ob",
+        "text": "ing",
         "type": "form"
       }
     ],
@@ -1460,8 +1460,8 @@
     "metaphorMeaningCn": "百年纪念",
     "metaphorOptions": [
       "百年纪念",
-      "被结果的东西",
-      "神圣的的另一面"
+      "结果的味道",
+      "神圣的的一角"
     ],
     "exampleEn": "The town held a centennial celebration last summer.",
     "exampleCn": "去年夏天镇上举行了百年庆典。",
@@ -1485,19 +1485,19 @@
     ],
     "distractors": [
       {
-        "text": "success",
+        "text": "house",
         "type": "form"
       },
       {
-        "text": "vision",
+        "text": "lead",
         "type": "meaning"
       },
       {
-        "text": "night",
+        "text": "take",
         "type": "random"
       },
       {
-        "text": "pas",
+        "text": "note",
         "type": "form"
       }
     ],
@@ -1522,7 +1522,7 @@
     "metaphorOptions": [
       "信用、学分",
       "种类的旧事",
-      "检验的背面"
+      "被检验的东西"
     ],
     "exampleEn": "Don't buy things on credit.",
     "exampleCn": "别赊账买东西。",
@@ -1536,19 +1536,19 @@
     ],
     "distractors": [
       {
-        "text": "spec",
+        "text": "ine",
         "type": "form"
       },
       {
-        "text": "vid",
+        "text": "ety",
         "type": "meaning"
       },
       {
-        "text": "able",
+        "text": "ism",
         "type": "random"
       },
       {
-        "text": "bio",
+        "text": "ment",
         "type": "form"
       }
     ],
@@ -1594,19 +1594,19 @@
     ],
     "distractors": [
       {
-        "text": "photo",
+        "text": "vac",
         "type": "form"
       },
       {
-        "text": "ation",
+        "text": "form",
         "type": "meaning"
       },
       {
-        "text": "ary",
+        "text": "equ",
         "type": "random"
       },
       {
-        "text": "ory",
+        "text": "hab",
         "type": "form"
       }
     ],
@@ -1658,19 +1658,19 @@
     ],
     "distractors": [
       {
-        "text": "ian",
+        "text": "to",
         "type": "form"
       },
       {
-        "text": "ist",
+        "text": "co",
         "type": "meaning"
       },
       {
-        "text": "ress",
+        "text": "sept",
         "type": "random"
       },
       {
-        "text": "eval",
+        "text": "yester",
         "type": "form"
       }
     ],
@@ -1697,8 +1697,8 @@
     "metaphorMeaningCn": "基因",
     "metaphorOptions": [
       "基因",
-      "一种相同的习俗",
-      "迁移的人"
+      "正在的另一面",
+      "相同的人"
     ],
     "exampleEn": "Some diseases are caused by a defective gene.",
     "exampleCn": "一些疾病的产生原因是基因缺陷。",
@@ -1712,19 +1712,19 @@
     ],
     "distractors": [
       {
-        "text": "ant",
+        "text": "ian",
         "type": "form"
       },
       {
-        "text": "acle",
+        "text": "ist",
         "type": "meaning"
       },
       {
-        "text": "ine",
+        "text": "ress",
         "type": "random"
       },
       {
-        "text": "ety",
+        "text": "eval",
         "type": "form"
       }
     ],
@@ -1771,19 +1771,19 @@
     ],
     "distractors": [
       {
-        "text": "log",
+        "text": "ic",
         "type": "form"
       },
       {
-        "text": "pend",
+        "text": "ent",
         "type": "meaning"
       },
       {
-        "text": "graph",
+        "text": "ulum",
         "type": "random"
       },
       {
-        "text": "pro",
+        "text": "ury",
         "type": "form"
       }
     ],
@@ -1835,19 +1835,19 @@
     ],
     "distractors": [
       {
-        "text": "body",
+        "text": "co",
         "type": "form"
       },
       {
-        "text": "base",
+        "text": "sept",
         "type": "meaning"
       },
       {
-        "text": "bed",
+        "text": "yester",
         "type": "random"
       },
       {
-        "text": "day",
+        "text": "less",
         "type": "form"
       }
     ],
@@ -1889,19 +1889,19 @@
     ],
     "distractors": [
       {
-        "text": "labor",
+        "text": "uum",
         "type": "form"
       },
       {
-        "text": "test",
+        "text": "ful",
         "type": "meaning"
       },
       {
-        "text": "migr",
+        "text": "ia",
         "type": "random"
       },
       {
-        "text": "flu",
+        "text": "age",
         "type": "form"
       }
     ],
@@ -1923,7 +1923,7 @@
     "metaphorOptions": [
       "毕业、毕业生",
       "离灌注很远",
-      "向前的工具"
+      "行走的影子"
     ],
     "exampleEn": "From what school did you graduate?",
     "exampleCn": "您是从哪个学校毕业的？",
@@ -1947,19 +1947,19 @@
     ],
     "distractors": [
       {
-        "text": "nat",
+        "text": "or",
         "type": "form"
       },
       {
-        "text": "voc",
+        "text": "ure",
         "type": "meaning"
       },
       {
-        "text": "fac",
+        "text": "ence",
         "type": "random"
       },
       {
-        "text": "dis",
+        "text": "ice",
         "type": "form"
       }
     ],
@@ -1986,8 +1986,8 @@
     "metaphorMeaningCn": "使降级、贬低",
     "metaphorOptions": [
       "使降级、贬低",
-      "状态的背面",
-      "氏族经九月的另一面"
+      "被感觉的东西",
+      "状态的另一面"
     ],
     "exampleEn": "Batteries degrade over time.",
     "exampleCn": "电池会随着时间老化。",
@@ -2006,19 +2006,19 @@
     ],
     "distractors": [
       {
-        "text": "ven",
+        "text": "ember",
         "type": "form"
       },
       {
-        "text": "ob",
+        "text": "draw",
         "type": "meaning"
       },
       {
-        "text": "post",
+        "text": "child",
         "type": "random"
       },
       {
-        "text": "centi",
+        "text": "hard",
         "type": "form"
       }
     ],
@@ -2065,19 +2065,19 @@
     ],
     "distractors": [
       {
-        "text": "id",
+        "text": "phys",
         "type": "form"
       },
       {
-        "text": "ism",
+        "text": "fer",
         "type": "meaning"
       },
       {
-        "text": "uary",
+        "text": "jud",
         "type": "random"
       },
       {
-        "text": "ual",
+        "text": "scrib",
         "type": "form"
       }
     ],
@@ -2122,19 +2122,19 @@
     ],
     "distractors": [
       {
-        "text": "ary",
+        "text": "fer",
         "type": "form"
       },
       {
-        "text": "ory",
+        "text": "serv",
         "type": "meaning"
       },
       {
-        "text": "s",
+        "text": "opt",
         "type": "random"
       },
       {
-        "text": "logy",
+        "text": "trans",
         "type": "form"
       }
     ],
@@ -2181,19 +2181,19 @@
     ],
     "distractors": [
       {
-        "text": "holy",
+        "text": "pos",
         "type": "form"
       },
       {
-        "text": "key",
+        "text": "pel",
         "type": "meaning"
       },
       {
-        "text": "mean",
+        "text": "fort",
         "type": "random"
       },
       {
-        "text": "north",
+        "text": "hydr",
         "type": "form"
       }
     ],
@@ -2240,19 +2240,19 @@
     ],
     "distractors": [
       {
-        "text": "tues",
+        "text": "note",
         "type": "form"
       },
       {
-        "text": "week",
+        "text": "play",
         "type": "meaning"
       },
       {
-        "text": "com",
+        "text": "real",
         "type": "random"
       },
       {
-        "text": "to",
+        "text": "saturn",
         "type": "form"
       }
     ],
@@ -2294,19 +2294,19 @@
     ],
     "distractors": [
       {
-        "text": "itude",
+        "text": "medi",
         "type": "form"
       },
       {
-        "text": "uary",
+        "text": "scrib",
         "type": "meaning"
       },
       {
-        "text": "ocre",
+        "text": "un",
         "type": "random"
       },
       {
-        "text": "ed",
+        "text": "centi",
         "type": "form"
       }
     ],
@@ -2353,19 +2353,19 @@
     ],
     "distractors": [
       {
-        "text": "pr",
+        "text": "ceed",
         "type": "form"
       },
       {
-        "text": "under",
+        "text": "prise",
         "type": "meaning"
       },
       {
-        "text": "ing",
+        "text": "thurs",
         "type": "random"
       },
       {
-        "text": "mate",
+        "text": "brush",
         "type": "form"
       }
     ],
@@ -2406,19 +2406,19 @@
     ],
     "distractors": [
       {
-        "text": "uum",
+        "text": "bath",
         "type": "form"
       },
       {
-        "text": "ual",
+        "text": "birth",
         "type": "meaning"
       },
       {
-        "text": "an",
+        "text": "break",
         "type": "random"
       },
       {
-        "text": "agree",
+        "text": "chair",
         "type": "form"
       }
     ],
@@ -2460,19 +2460,19 @@
     ],
     "distractors": [
       {
-        "text": "jud",
+        "text": "thurs",
         "type": "form"
       },
       {
-        "text": "scrib",
+        "text": "brush",
         "type": "meaning"
       },
       {
-        "text": "ad",
+        "text": "use",
         "type": "random"
       },
       {
-        "text": "trans",
+        "text": "week",
         "type": "form"
       }
     ],
@@ -2519,19 +2519,19 @@
     ],
     "distractors": [
       {
-        "text": "kilo",
+        "text": "flect",
         "type": "form"
       },
       {
-        "text": "sym",
+        "text": "fus",
         "type": "meaning"
       },
       {
-        "text": "cosmo",
+        "text": "therm",
         "type": "random"
       },
       {
-        "text": "al",
+        "text": "grat",
         "type": "form"
       }
     ],
@@ -2573,19 +2573,19 @@
     ],
     "distractors": [
       {
-        "text": "mob",
+        "text": "ety",
         "type": "form"
       },
       {
-        "text": "voc",
+        "text": "ist",
         "type": "meaning"
       },
       {
-        "text": "fac",
+        "text": "uary",
         "type": "random"
       },
       {
-        "text": "dis",
+        "text": "ful",
         "type": "form"
       }
     ],
@@ -2628,19 +2628,19 @@
     ],
     "distractors": [
       {
-        "text": "birth",
+        "text": "sub",
         "type": "form"
       },
       {
-        "text": "board",
+        "text": "uni",
         "type": "meaning"
       },
       {
-        "text": "tain",
+        "text": "e",
         "type": "random"
       },
       {
-        "text": "class",
+        "text": "photo",
         "type": "form"
       }
     ],
@@ -2687,19 +2687,19 @@
     ],
     "distractors": [
       {
-        "text": "nov",
+        "text": "hypo",
         "type": "form"
       },
       {
-        "text": "phys",
+        "text": "baro",
         "type": "meaning"
       },
       {
-        "text": "fer",
+        "text": "manu",
         "type": "random"
       },
       {
-        "text": "jud",
+        "text": "ition",
         "type": "form"
       }
     ],
@@ -2727,7 +2727,7 @@
     "metaphorOptions": [
       "依靠、取决于",
       "守着第一过活",
-      "替站立操心"
+      "替末端操心"
     ],
     "exampleEn": "We depend on you.",
     "exampleCn": "我们可全靠你了。",
@@ -2746,19 +2746,19 @@
     ],
     "distractors": [
       {
-        "text": "water",
+        "text": "ual",
         "type": "form"
       },
       {
-        "text": "west",
+        "text": "y",
         "type": "meaning"
       },
       {
-        "text": "com",
+        "text": "sent",
         "type": "random"
       },
       {
-        "text": "grand",
+        "text": "air",
         "type": "form"
       }
     ],
@@ -2806,19 +2806,19 @@
     ],
     "distractors": [
       {
-        "text": "prise",
+        "text": "west",
         "type": "form"
       },
       {
-        "text": "thurs",
+        "text": "com",
         "type": "meaning"
       },
       {
-        "text": "brush",
+        "text": "grand",
         "type": "random"
       },
       {
-        "text": "use",
+        "text": "mis",
         "type": "form"
       }
     ],
@@ -2862,19 +2862,19 @@
     ],
     "distractors": [
       {
-        "text": "tues",
+        "text": "fast",
         "type": "form"
       },
       {
-        "text": "melon",
+        "text": "chair",
         "type": "meaning"
       },
       {
-        "text": "ab",
+        "text": "ember",
         "type": "random"
       },
       {
-        "text": "bi",
+        "text": "draw",
         "type": "form"
       }
     ],
@@ -2915,19 +2915,19 @@
     ],
     "distractors": [
       {
-        "text": "or",
+        "text": "hab",
         "type": "form"
       },
       {
-        "text": "ure",
+        "text": "sanct",
         "type": "meaning"
       },
       {
-        "text": "ence",
+        "text": "lev",
         "type": "random"
       },
       {
-        "text": "ice",
+        "text": "soci",
         "type": "form"
       }
     ],
@@ -2969,19 +2969,19 @@
     ],
     "distractors": [
       {
-        "text": "ful",
+        "text": "s",
         "type": "form"
       },
       {
-        "text": "ia",
+        "text": "logy",
         "type": "meaning"
       },
       {
-        "text": "age",
+        "text": "ial",
         "type": "random"
       },
       {
-        "text": "agree",
+        "text": "ility",
         "type": "form"
       }
     ],
@@ -3028,19 +3028,19 @@
     ],
     "distractors": [
       {
-        "text": "hard",
+        "text": "ure",
         "type": "form"
       },
       {
-        "text": "house",
+        "text": "ence",
         "type": "meaning"
       },
       {
-        "text": "lead",
+        "text": "ice",
         "type": "random"
       },
       {
-        "text": "take",
+        "text": "enn",
         "type": "form"
       }
     ],
@@ -3092,19 +3092,19 @@
     ],
     "distractors": [
       {
-        "text": "metr",
+        "text": "fus",
         "type": "form"
       },
       {
-        "text": "polit",
+        "text": "therm",
         "type": "meaning"
       },
       {
-        "text": "opt",
+        "text": "grat",
         "type": "random"
       },
       {
-        "text": "un",
+        "text": "liter",
         "type": "form"
       }
     ],
@@ -3127,8 +3127,8 @@
     "metaphorMeaningCn": "嗓音的、直言不讳的",
     "metaphorOptions": [
       "嗓音的、直言不讳的",
-      "土星的人",
-      "后缀的来路"
+      "伙伴的人",
+      "土星的来路"
     ],
     "exampleEn": "Public feeling against air pollution has at last become vocal.",
     "exampleCn": "公众终于对关于空气污染的意见直言不讳了。",
@@ -3147,19 +3147,19 @@
     ],
     "distractors": [
       {
-        "text": "enn",
+        "text": "grat",
         "type": "form"
       },
       {
-        "text": "ile",
+        "text": "liter",
         "type": "meaning"
       },
       {
-        "text": "ite",
+        "text": "mir",
         "type": "random"
       },
       {
-        "text": "cor",
+        "text": "tact",
         "type": "form"
       }
     ],
@@ -3206,19 +3206,19 @@
     ],
     "distractors": [
       {
-        "text": "ab",
+        "text": "night",
         "type": "form"
       },
       {
-        "text": "bi",
+        "text": "tues",
         "type": "meaning"
       },
       {
-        "text": "to",
+        "text": "week",
         "type": "random"
       },
       {
-        "text": "co",
+        "text": "com",
         "type": "form"
       }
     ],
@@ -3265,19 +3265,19 @@
     ],
     "distractors": [
       {
-        "text": "sun",
+        "text": "ab",
         "type": "form"
       },
       {
-        "text": "ten",
+        "text": "bi",
         "type": "meaning"
       },
       {
-        "text": "tooth",
+        "text": "to",
         "type": "random"
       },
       {
-        "text": "tues",
+        "text": "co",
         "type": "form"
       }
     ],
@@ -3299,8 +3299,8 @@
     "metaphorMeaningCn": "照片、相片",
     "metaphorOptions": [
       "照片、相片",
-      "把第一个字母翻开",
-      "状态的影子"
+      "把状态翻开",
+      "土地的影子"
     ],
     "exampleEn": "I want your photograph.",
     "exampleCn": "我想要你的一张照片。",
@@ -3319,19 +3319,19 @@
     ],
     "distractors": [
       {
-        "text": "id",
+        "text": "pre",
         "type": "form"
       },
       {
-        "text": "ian",
+        "text": "spec",
         "type": "meaning"
       },
       {
-        "text": "ist",
+        "text": "vid",
         "type": "random"
       },
       {
-        "text": "ress",
+        "text": "able",
         "type": "form"
       }
     ],
@@ -3373,19 +3373,19 @@
     ],
     "distractors": [
       {
-        "text": "eval",
+        "text": "head",
         "type": "form"
       },
       {
-        "text": "ia",
+        "text": "ern",
         "type": "meaning"
       },
       {
-        "text": "act",
+        "text": "end",
         "type": "random"
       },
       {
-        "text": "a",
+        "text": "re",
         "type": "form"
       }
     ],
@@ -3427,19 +3427,19 @@
     ],
     "distractors": [
       {
-        "text": "s",
+        "text": "liter",
         "type": "form"
       },
       {
-        "text": "logy",
+        "text": "mir",
         "type": "meaning"
       },
       {
-        "text": "ial",
+        "text": "tact",
         "type": "random"
       },
       {
-        "text": "ility",
+        "text": "art",
         "type": "form"
       }
     ],
@@ -3461,7 +3461,7 @@
     "metaphorOptions": [
       "合同、收缩",
       "通过的另一面",
-      "被跨越的东西"
+      "被正在的东西"
     ],
     "exampleEn": "The contract was signed.",
     "exampleCn": "契約簽訂了。",
@@ -3480,19 +3480,19 @@
     ],
     "distractors": [
       {
-        "text": "mir",
+        "text": "man",
         "type": "form"
       },
       {
-        "text": "tact",
+        "text": "th",
         "type": "meaning"
       },
       {
-        "text": "art",
+        "text": "head",
         "type": "random"
       },
       {
-        "text": "cap",
+        "text": "ern",
         "type": "form"
       }
     ],
@@ -3539,19 +3539,19 @@
     ],
     "distractors": [
       {
-        "text": "baro",
+        "text": "key",
         "type": "form"
       },
       {
-        "text": "metro",
+        "text": "mean",
         "type": "meaning"
       },
       {
-        "text": "al",
+        "text": "north",
         "type": "random"
       },
       {
-        "text": "izer",
+        "text": "pass",
         "type": "form"
       }
     ],
@@ -3598,19 +3598,19 @@
     ],
     "distractors": [
       {
-        "text": "ent",
+        "text": "vinc",
         "type": "form"
       },
       {
-        "text": "ulum",
+        "text": "pel",
         "type": "meaning"
       },
       {
-        "text": "ury",
+        "text": "fus",
         "type": "random"
       },
       {
-        "text": "er",
+        "text": "hab",
         "type": "form"
       }
     ],
@@ -3657,19 +3657,19 @@
     ],
     "distractors": [
       {
-        "text": "ise",
+        "text": "moon",
         "type": "form"
       },
       {
-        "text": "circum",
+        "text": "book",
         "type": "meaning"
       },
       {
-        "text": "in",
+        "text": "quest",
         "type": "random"
       },
       {
-        "text": "port",
+        "text": "ceive",
         "type": "form"
       }
     ],
@@ -3719,19 +3719,19 @@
     ],
     "distractors": [
       {
-        "text": "agree",
+        "text": "form",
         "type": "form"
       },
       {
-        "text": "plane",
+        "text": "hydr",
         "type": "meaning"
       },
       {
-        "text": "any",
+        "text": "grat",
         "type": "random"
       },
       {
-        "text": "ground",
+        "text": "lev",
         "type": "form"
       }
     ],
@@ -3758,8 +3758,8 @@
     "metaphorMeaningCn": "记录、唱片",
     "metaphorOptions": [
       "记录、唱片",
-      "共同的来路",
-      "彻底的旧事"
+      "正在的来路",
+      "共同的旧事"
     ],
     "exampleEn": "His new record sells well.",
     "exampleCn": "他的新唱片銷路很好。",
@@ -3778,19 +3778,19 @@
     ],
     "distractors": [
       {
-        "text": "mob",
+        "text": "at",
         "type": "form"
       },
       {
-        "text": "voc",
+        "text": "ate",
         "type": "meaning"
       },
       {
-        "text": "pro",
+        "text": "ic",
         "type": "random"
       },
       {
-        "text": "sub",
+        "text": "ent",
         "type": "form"
       }
     ],
@@ -3817,8 +3817,8 @@
     "metaphorMeaningCn": "勇气",
     "metaphorOptions": [
       "勇气",
-      "数着空气过日子",
-      "时代的工具"
+      "数着末端过日子",
+      "空气的工具"
     ],
     "exampleEn": "I admire your courage.",
     "exampleCn": "我佩服你的勇氣。",
@@ -3837,19 +3837,19 @@
     ],
     "distractors": [
       {
-        "text": "sal",
+        "text": "hard",
         "type": "form"
       },
       {
-        "text": "mit",
+        "text": "house",
         "type": "meaning"
       },
       {
-        "text": "medi",
+        "text": "lead",
         "type": "random"
       },
       {
-        "text": "serv",
+        "text": "take",
         "type": "form"
       }
     ],
@@ -3899,19 +3899,19 @@
     ],
     "distractors": [
       {
-        "text": "soci",
+        "text": "work",
         "type": "form"
       },
       {
-        "text": "sal",
+        "text": "ise",
         "type": "meaning"
       },
       {
-        "text": "cap",
+        "text": "circum",
         "type": "random"
       },
       {
-        "text": "jud",
+        "text": "in",
         "type": "form"
       }
     ],
@@ -3958,19 +3958,19 @@
     ],
     "distractors": [
       {
-        "text": "sal",
+        "text": "age",
         "type": "form"
       },
       {
-        "text": "cap",
+        "text": "agree",
         "type": "meaning"
       },
       {
-        "text": "jud",
+        "text": "plane",
         "type": "random"
       },
       {
-        "text": "ven",
+        "text": "thing",
         "type": "form"
       }
     ],
@@ -4017,19 +4017,19 @@
     ],
     "distractors": [
       {
-        "text": "cycle",
+        "text": "prim",
         "type": "form"
       },
       {
-        "text": "black",
+        "text": "form",
         "type": "meaning"
       },
       {
-        "text": "fast",
+        "text": "hydr",
         "type": "random"
       },
       {
-        "text": "chair",
+        "text": "grat",
         "type": "form"
       }
     ],
@@ -4076,19 +4076,19 @@
     ],
     "distractors": [
       {
-        "text": "ceed",
+        "text": "ary",
         "type": "form"
       },
       {
-        "text": "prise",
+        "text": "ent",
         "type": "meaning"
       },
       {
-        "text": "thurs",
+        "text": "ice",
         "type": "random"
       },
       {
-        "text": "brush",
+        "text": "ial",
         "type": "form"
       }
     ],
@@ -4135,19 +4135,19 @@
     ],
     "distractors": [
       {
-        "text": "mate",
+        "text": "dia",
         "type": "form"
       },
       {
-        "text": "son",
+        "text": "or",
         "type": "meaning"
       },
       {
-        "text": "work",
+        "text": "ure",
         "type": "random"
       },
       {
-        "text": "ise",
+        "text": "s",
         "type": "form"
       }
     ],
@@ -4174,8 +4174,8 @@
     "metaphorMeaningCn": "说服、使信服",
     "metaphorOptions": [
       "说服、使信服",
-      "替艺术操心",
-      "守着使成为过活"
+      "替工作操心",
+      "守着艺术过活"
     ],
     "exampleEn": "I can't convince them.",
     "exampleCn": "我说服不了他们。",
@@ -4194,19 +4194,19 @@
     ],
     "distractors": [
       {
-        "text": "room",
+        "text": "per",
         "type": "form"
       },
       {
-        "text": "birth",
+        "text": "auto",
         "type": "meaning"
       },
       {
-        "text": "board",
+        "text": "en",
         "type": "random"
       },
       {
-        "text": "tain",
+        "text": "at",
         "type": "form"
       }
     ],
@@ -4258,19 +4258,19 @@
     ],
     "distractors": [
       {
-        "text": "ence",
+        "text": "sanct",
         "type": "form"
       },
       {
-        "text": "logy",
+        "text": "migr",
         "type": "meaning"
       },
       {
-        "text": "er",
+        "text": "tact",
         "type": "random"
       },
       {
-        "text": "ite",
+        "text": "phys",
         "type": "form"
       }
     ],
@@ -4317,19 +4317,19 @@
     ],
     "distractors": [
       {
-        "text": "acy",
+        "text": "enn",
         "type": "form"
       },
       {
-        "text": "izer",
+        "text": "ile",
         "type": "meaning"
       },
       {
-        "text": "el",
+        "text": "ite",
         "type": "random"
       },
       {
-        "text": "ious",
+        "text": "cor",
         "type": "form"
       }
     ],
@@ -4376,19 +4376,19 @@
     ],
     "distractors": [
       {
-        "text": "para",
+        "text": "in",
         "type": "form"
       },
       {
-        "text": "dia",
+        "text": "port",
         "type": "meaning"
       },
       {
-        "text": "or",
+        "text": "ive",
         "type": "random"
       },
       {
-        "text": "ure",
+        "text": "aud",
         "type": "form"
       }
     ],
@@ -4440,19 +4440,19 @@
     ],
     "distractors": [
       {
-        "text": "pend",
+        "text": "water",
         "type": "form"
       },
       {
-        "text": "graph",
+        "text": "west",
         "type": "meaning"
       },
       {
-        "text": "pro",
+        "text": "com",
         "type": "random"
       },
       {
-        "text": "con",
+        "text": "grand",
         "type": "form"
       }
     ],
@@ -4499,19 +4499,19 @@
     ],
     "distractors": [
       {
-        "text": "bag",
+        "text": "ed",
         "type": "form"
       },
       {
-        "text": "holy",
+        "text": "an",
         "type": "meaning"
       },
       {
-        "text": "key",
+        "text": "act",
         "type": "random"
       },
       {
-        "text": "mean",
+        "text": "line",
         "type": "form"
       }
     ],
@@ -4538,7 +4538,7 @@
     "metaphorOptions": [
       "组成、创作",
       "离技艺很远",
-      "休息的过程"
+      "儿子的过程"
     ],
     "exampleEn": "She paused for a moment to compose herself.",
     "exampleCn": "她停顿片刻，让自己镇定下来。",
@@ -4558,19 +4558,19 @@
     ],
     "distractors": [
       {
-        "text": "house",
+        "text": "serv",
         "type": "form"
       },
       {
-        "text": "lead",
+        "text": "ven",
         "type": "meaning"
       },
       {
-        "text": "take",
+        "text": "ob",
         "type": "random"
       },
       {
-        "text": "note",
+        "text": "post",
         "type": "form"
       }
     ],
@@ -4617,19 +4617,19 @@
     ],
     "distractors": [
       {
-        "text": "metro",
+        "text": "re",
         "type": "form"
       },
       {
-        "text": "ant",
+        "text": "port",
         "type": "meaning"
       },
       {
-        "text": "acle",
+        "text": "able",
         "type": "random"
       },
       {
-        "text": "ine",
+        "text": "cent",
         "type": "form"
       }
     ],
@@ -4656,8 +4656,8 @@
     "metaphorMeaningCn": "推迟、延期",
     "metaphorOptions": [
       "推迟、延期",
-      "盖子的工具",
-      "把单一串起来"
+      "隔一代的工具",
+      "把盖子串起来"
     ],
     "exampleEn": "We decided to postpone the meeting until next week.",
     "exampleCn": "我们决定把会议推迟到下星期。",
@@ -4676,19 +4676,19 @@
     ],
     "distractors": [
       {
-        "text": "at",
+        "text": "port",
         "type": "form"
       },
       {
-        "text": "ate",
+        "text": "ive",
         "type": "meaning"
       },
       {
-        "text": "ic",
+        "text": "aud",
         "type": "random"
       },
       {
-        "text": "ent",
+        "text": "cred",
         "type": "form"
       }
     ],
@@ -4714,8 +4714,8 @@
     "metaphorMeaningCn": "组成部分、元件",
     "metaphorOptions": [
       "组成部分、元件",
-      "第一个字母的影子",
-      "把惊奇翻开"
+      "惊奇的影子",
+      "把同意翻开"
     ],
     "exampleEn": "Many companies have attempted to manufacture this complex component at scale, but so far only ours has succeeded.",
     "exampleCn": "許多公司都嘗試過大規模生產這種複雜的零件，但目前只有我們成功了。",
@@ -4740,19 +4740,19 @@
     ],
     "distractors": [
       {
-        "text": "any",
+        "text": "vid",
         "type": "form"
       },
       {
-        "text": "ground",
+        "text": "ity",
         "type": "meaning"
       },
       {
-        "text": "room",
+        "text": "cred",
         "type": "random"
       },
       {
-        "text": "birth",
+        "text": "log",
         "type": "form"
       }
     ],
@@ -4805,19 +4805,19 @@
     ],
     "distractors": [
       {
-        "text": "mob",
+        "text": "able",
         "type": "form"
       },
       {
-        "text": "vers",
+        "text": "bio",
         "type": "meaning"
       },
       {
-        "text": "tract",
+        "text": "gen",
         "type": "random"
       },
       {
-        "text": "de",
+        "text": "log",
         "type": "form"
       }
     ],
@@ -4864,19 +4864,19 @@
     ],
     "distractors": [
       {
-        "text": "air",
+        "text": "use",
         "type": "form"
       },
       {
-        "text": "a",
+        "text": "week",
         "type": "meaning"
       },
       {
-        "text": "body",
+        "text": "back",
         "type": "random"
       },
       {
-        "text": "base",
+        "text": "dec",
         "type": "form"
       }
     ],
@@ -4928,19 +4928,19 @@
     ],
     "distractors": [
       {
-        "text": "uum",
+        "text": "success",
         "type": "form"
       },
       {
-        "text": "ful",
+        "text": "vision",
         "type": "meaning"
       },
       {
-        "text": "ia",
+        "text": "night",
         "type": "random"
       },
       {
-        "text": "age",
+        "text": "pas",
         "type": "form"
       }
     ],
@@ -4987,19 +4987,19 @@
     ],
     "distractors": [
       {
-        "text": "test",
+        "text": "ly",
         "type": "form"
       },
       {
-        "text": "migr",
+        "text": "head",
         "type": "meaning"
       },
       {
-        "text": "flu",
+        "text": "ise",
         "type": "random"
       },
       {
-        "text": "sal",
+        "text": "pre",
         "type": "form"
       }
     ],
@@ -5044,19 +5044,19 @@
     ],
     "distractors": [
       {
-        "text": "tact",
+        "text": "ard",
         "type": "form"
       },
       {
-        "text": "art",
+        "text": "pre",
         "type": "meaning"
       },
       {
-        "text": "cap",
+        "text": "spec",
         "type": "random"
       },
       {
-        "text": "metr",
+        "text": "vid",
         "type": "form"
       }
     ],
@@ -5083,7 +5083,7 @@
     "metaphorOptions": [
       "灵长类、大主教",
       "否定的一角",
-      "进入的味道"
+      "儿子的另一面"
     ],
     "exampleEn": "The zoo keeps several rare primate species.",
     "exampleCn": "动物园饲养着几种珍稀的灵长类动物。",
@@ -5102,19 +5102,19 @@
     ],
     "distractors": [
       {
-        "text": "dict",
+        "text": "opt",
         "type": "form"
       },
       {
-        "text": "ion",
+        "text": "un",
         "type": "meaning"
       },
       {
-        "text": "ity",
+        "text": "inter",
         "type": "random"
       },
       {
-        "text": "cent",
+        "text": "kilo",
         "type": "form"
       }
     ],
@@ -5156,19 +5156,19 @@
     ],
     "distractors": [
       {
-        "text": "dec",
+        "text": "ure",
         "type": "form"
       },
       {
-        "text": "ag",
+        "text": "s",
         "type": "meaning"
       },
       {
-        "text": "sur",
+        "text": "ury",
         "type": "random"
       },
       {
-        "text": "tele",
+        "text": "ile",
         "type": "form"
       }
     ],
@@ -5211,19 +5211,19 @@
     ],
     "distractors": [
       {
-        "text": "ject",
+        "text": "lead",
         "type": "form"
       },
       {
-        "text": "nat",
+        "text": "moon",
         "type": "meaning"
       },
       {
-        "text": "voc",
+        "text": "pass",
         "type": "random"
       },
       {
-        "text": "fac",
+        "text": "real",
         "type": "form"
       }
     ],
@@ -5250,8 +5250,8 @@
     "metaphorMeaningCn": "假期、休假",
     "metaphorOptions": [
       "假期、休假",
-      "第一个字母的工具",
-      "数着第一过日子"
+      "第一的工具",
+      "数着神圣的过日子"
     ],
     "exampleEn": "You need a vacation.",
     "exampleCn": "你需要個假期。",
@@ -5270,19 +5270,19 @@
     ],
     "distractors": [
       {
-        "text": "ition",
+        "text": "baro",
         "type": "form"
       },
       {
-        "text": "acy",
+        "text": "manu",
         "type": "meaning"
       },
       {
-        "text": "izer",
+        "text": "ition",
         "type": "random"
       },
       {
-        "text": "el",
+        "text": "acy",
         "type": "form"
       }
     ],
@@ -5329,19 +5329,19 @@
     ],
     "distractors": [
       {
-        "text": "pos",
+        "text": "holy",
         "type": "form"
       },
       {
-        "text": "flect",
+        "text": "key",
         "type": "meaning"
       },
       {
-        "text": "fus",
+        "text": "mean",
         "type": "random"
       },
       {
-        "text": "therm",
+        "text": "north",
         "type": "form"
       }
     ],
@@ -5393,19 +5393,19 @@
     ],
     "distractors": [
       {
-        "text": "el",
+        "text": "scrib",
         "type": "form"
       },
       {
-        "text": "ism",
+        "text": "ad",
         "type": "meaning"
       },
       {
-        "text": "ress",
+        "text": "trans",
         "type": "random"
       },
       {
-        "text": "ocre",
+        "text": "hypo",
         "type": "form"
       }
     ],
@@ -5452,19 +5452,19 @@
     ],
     "distractors": [
       {
-        "text": "serv",
+        "text": "thing",
         "type": "form"
       },
       {
-        "text": "ven",
+        "text": "bath",
         "type": "meaning"
       },
       {
-        "text": "ob",
+        "text": "cycle",
         "type": "random"
       },
       {
-        "text": "post",
+        "text": "black",
         "type": "form"
       }
     ],
@@ -5492,7 +5492,7 @@
     "metaphorOptions": [
       "真空、空白",
       "向着北方去",
-      "向下的过程"
+      "工作的过程"
     ],
     "exampleEn": "Cats hate vacuum cleaners.",
     "exampleCn": "猫很讨厌吸尘器。",
@@ -5511,19 +5511,19 @@
     ],
     "distractors": [
       {
-        "text": "jud",
+        "text": "test",
         "type": "form"
       },
       {
-        "text": "ven",
+        "text": "soci",
         "type": "meaning"
       },
       {
-        "text": "un",
+        "text": "art",
         "type": "random"
       },
       {
-        "text": "hypo",
+        "text": "medi",
         "type": "form"
       }
     ],
@@ -5572,19 +5572,19 @@
     ],
     "distractors": [
       {
-        "text": "mis",
+        "text": "some",
         "type": "form"
       },
       {
-        "text": "pr",
+        "text": "motor",
         "type": "meaning"
       },
       {
-        "text": "under",
+        "text": "ard",
         "type": "random"
       },
       {
-        "text": "ing",
+        "text": "pre",
         "type": "form"
       }
     ],
@@ -5632,19 +5632,19 @@
     ],
     "distractors": [
       {
-        "text": "grat",
+        "text": "work",
         "type": "form"
       },
       {
-        "text": "lev",
+        "text": "ard",
         "type": "meaning"
       },
       {
-        "text": "flu",
+        "text": "re",
         "type": "random"
       },
       {
-        "text": "art",
+        "text": "vid",
         "type": "form"
       }
     ],
@@ -5692,19 +5692,19 @@
     ],
     "distractors": [
       {
-        "text": "al",
+        "text": "bi",
         "type": "form"
       },
       {
-        "text": "ify",
+        "text": "to",
         "type": "meaning"
       },
       {
-        "text": "id",
+        "text": "co",
         "type": "random"
       },
       {
-        "text": "ian",
+        "text": "sept",
         "type": "form"
       }
     ],
@@ -5751,19 +5751,19 @@
     ],
     "distractors": [
       {
-        "text": "sept",
+        "text": "eval",
         "type": "form"
       },
       {
-        "text": "yester",
+        "text": "ed",
         "type": "meaning"
       },
       {
-        "text": "less",
+        "text": "age",
         "type": "random"
       },
       {
-        "text": "ly",
+        "text": "air",
         "type": "form"
       }
     ],
@@ -5791,7 +5791,7 @@
     "metaphorOptions": [
       "推进、驱使",
       "一种中间的习俗",
-      "都市的一角"
+      "隔一代的一角"
     ],
     "exampleEn": "The strong wind helped propel the boat forward.",
     "exampleCn": "强风帮助推动小船前进。",
@@ -5810,19 +5810,19 @@
     ],
     "distractors": [
       {
-        "text": "dis",
+        "text": "com",
         "type": "form"
       },
       {
-        "text": "per",
+        "text": "grand",
         "type": "meaning"
       },
       {
-        "text": "auto",
+        "text": "mis",
         "type": "random"
       },
       {
-        "text": "en",
+        "text": "pr",
         "type": "form"
       }
     ],
@@ -5869,19 +5869,19 @@
     ],
     "distractors": [
       {
-        "text": "ory",
+        "text": "per",
         "type": "form"
       },
       {
-        "text": "s",
+        "text": "auto",
         "type": "meaning"
       },
       {
-        "text": "logy",
+        "text": "para",
         "type": "random"
       },
       {
-        "text": "ial",
+        "text": "dia",
         "type": "form"
       }
     ],
@@ -5928,19 +5928,19 @@
     ],
     "distractors": [
       {
-        "text": "ety",
+        "text": "th",
         "type": "form"
       },
       {
-        "text": "itude",
+        "text": "head",
         "type": "meaning"
       },
       {
-        "text": "eval",
+        "text": "ern",
         "type": "random"
       },
       {
-        "text": "ia",
+        "text": "end",
         "type": "form"
       }
     ],
@@ -5968,7 +5968,7 @@
     "metaphorOptions": [
       "灵活的、可弯曲的",
       "灰烬的一角",
-      "一种相信的习俗"
+      "一种发动机的习俗"
     ],
     "exampleEn": "Our working hours are quite flexible.",
     "exampleCn": "我们的工作时间相当灵活。",
@@ -5987,19 +5987,19 @@
     ],
     "distractors": [
       {
-        "text": "aud",
+        "text": "ache",
         "type": "form"
       },
       {
-        "text": "cred",
+        "text": "view",
         "type": "meaning"
       },
       {
-        "text": "ject",
+        "text": "life",
         "type": "random"
       },
       {
-        "text": "nat",
+        "text": "moon",
         "type": "form"
       }
     ],
@@ -6051,19 +6051,19 @@
     ],
     "distractors": [
       {
-        "text": "able",
+        "text": "ocre",
         "type": "form"
       },
       {
-        "text": "bio",
+        "text": "y",
         "type": "meaning"
       },
       {
-        "text": "gen",
+        "text": "agree",
         "type": "random"
       },
       {
-        "text": "log",
+        "text": "body",
         "type": "form"
       }
     ],
@@ -6110,19 +6110,19 @@
     ],
     "distractors": [
       {
-        "text": "form",
+        "text": "fer",
         "type": "form"
       },
       {
-        "text": "equ",
+        "text": "jud",
         "type": "meaning"
       },
       {
-        "text": "hab",
+        "text": "scrib",
         "type": "random"
       },
       {
-        "text": "sanct",
+        "text": "ad",
         "type": "form"
       }
     ],
@@ -6174,19 +6174,19 @@
     ],
     "distractors": [
       {
-        "text": "sub",
+        "text": "ag",
         "type": "form"
       },
       {
-        "text": "uni",
+        "text": "pr",
         "type": "meaning"
       },
       {
-        "text": "e",
+        "text": "yester",
         "type": "random"
       },
       {
-        "text": "photo",
+        "text": "man",
         "type": "form"
       }
     ],
@@ -6238,19 +6238,19 @@
     ],
     "distractors": [
       {
-        "text": "cosmo",
+        "text": "acle",
         "type": "form"
       },
       {
-        "text": "acy",
+        "text": "ine",
         "type": "meaning"
       },
       {
-        "text": "ine",
+        "text": "ety",
         "type": "random"
       },
       {
-        "text": "ian",
+        "text": "ism",
         "type": "form"
       }
     ],
@@ -6297,19 +6297,19 @@
     ],
     "distractors": [
       {
-        "text": "tract",
+        "text": "ly",
         "type": "form"
       },
       {
-        "text": "de",
+        "text": "some",
         "type": "meaning"
       },
       {
-        "text": "sub",
+        "text": "motor",
         "type": "random"
       },
       {
-        "text": "uni",
+        "text": "ard",
         "type": "form"
       }
     ],
@@ -6356,19 +6356,19 @@
     ],
     "distractors": [
       {
-        "text": "ocre",
+        "text": "aud",
         "type": "form"
       },
       {
-        "text": "ed",
+        "text": "cred",
         "type": "meaning"
       },
       {
-        "text": "an",
+        "text": "ject",
         "type": "random"
       },
       {
-        "text": "act",
+        "text": "nat",
         "type": "form"
       }
     ],
@@ -6395,8 +6395,8 @@
     "metaphorMeaningCn": "改革、改良",
     "metaphorOptions": [
       "改革、改良",
-      "把底部翻开",
-      "医棱底向内的背面"
+      "把伙伴翻开",
+      "底部的背面"
     ],
     "exampleEn": "I support political reform.",
     "exampleCn": "我支持政治改革。",
@@ -6415,19 +6415,19 @@
     ],
     "distractors": [
       {
-        "text": "day",
+        "text": "ist",
         "type": "form"
       },
       {
-        "text": "fast",
+        "text": "ress",
         "type": "meaning"
       },
       {
-        "text": "class",
+        "text": "eval",
         "type": "random"
       },
       {
-        "text": "cover",
+        "text": "ual",
         "type": "form"
       }
     ],
@@ -6474,19 +6474,19 @@
     ],
     "distractors": [
       {
-        "text": "pass",
+        "text": "turn",
         "type": "form"
       },
       {
-        "text": "rain",
+        "text": "south",
         "type": "meaning"
       },
       {
-        "text": "turn",
+        "text": "ceed",
         "type": "random"
       },
       {
-        "text": "south",
+        "text": "prise",
         "type": "form"
       }
     ],
@@ -6533,19 +6533,19 @@
     ],
     "distractors": [
       {
-        "text": "de",
+        "text": "mean",
         "type": "form"
       },
       {
-        "text": "sub",
+        "text": "north",
         "type": "meaning"
       },
       {
-        "text": "uni",
+        "text": "pass",
         "type": "random"
       },
       {
-        "text": "e",
+        "text": "rain",
         "type": "form"
       }
     ],
@@ -6592,19 +6592,19 @@
     ],
     "distractors": [
       {
-        "text": "ceive",
+        "text": "water",
         "type": "form"
       },
       {
-        "text": "sea",
+        "text": "ab",
         "type": "meaning"
       },
       {
-        "text": "suc",
+        "text": "dec",
         "type": "random"
       },
       {
-        "text": "sun",
+        "text": "mis",
         "type": "form"
       }
     ],
@@ -6656,19 +6656,19 @@
     ],
     "distractors": [
       {
-        "text": "use",
+        "text": "ground",
         "type": "form"
       },
       {
-        "text": "ab",
+        "text": "room",
         "type": "meaning"
       },
       {
-        "text": "grand",
+        "text": "birth",
         "type": "random"
       },
       {
-        "text": "sur",
+        "text": "board",
         "type": "form"
       }
     ],
@@ -6720,19 +6720,19 @@
     ],
     "distractors": [
       {
-        "text": "bio",
+        "text": "back",
         "type": "form"
       },
       {
-        "text": "grad",
+        "text": "grand",
         "type": "meaning"
       },
       {
-        "text": "nat",
+        "text": "co",
         "type": "random"
       },
       {
-        "text": "graph",
+        "text": "tele",
         "type": "form"
       }
     ],
@@ -6780,19 +6780,19 @@
     ],
     "distractors": [
       {
-        "text": "dia",
+        "text": "position",
         "type": "form"
       },
       {
-        "text": "ary",
+        "text": "cover",
         "type": "meaning"
       },
       {
-        "text": "ent",
+        "text": "foot",
         "type": "random"
       },
       {
-        "text": "ice",
+        "text": "bag",
         "type": "form"
       }
     ],
@@ -6840,19 +6840,19 @@
     ],
     "distractors": [
       {
-        "text": "form",
+        "text": "ive",
         "type": "form"
       },
       {
-        "text": "hydr",
+        "text": "aud",
         "type": "meaning"
       },
       {
-        "text": "labor",
+        "text": "cred",
         "type": "random"
       },
       {
-        "text": "test",
+        "text": "ject",
         "type": "form"
       }
     ],
@@ -6879,8 +6879,8 @@
     "metaphorMeaningCn": "舒服的、自在的",
     "metaphorOptions": [
       "舒服的、自在的",
-      "预先的旧事",
-      "集合的影子"
+      "行走的旧事",
+      "预先的影子"
     ],
     "exampleEn": "Please make yourself comfortable.",
     "exampleCn": "不用客氣，隨便坐吧。",
@@ -6905,19 +6905,19 @@
     ],
     "distractors": [
       {
-        "text": "ed",
+        "text": "ety",
         "type": "form"
       },
       {
-        "text": "an",
+        "text": "ism",
         "type": "meaning"
       },
       {
-        "text": "act",
+        "text": "ment",
         "type": "random"
       },
       {
-        "text": "line",
+        "text": "uum",
         "type": "form"
       }
     ],
@@ -6975,19 +6975,19 @@
     ],
     "distractors": [
       {
-        "text": "art",
+        "text": "act",
         "type": "form"
       },
       {
-        "text": "medi",
+        "text": "line",
         "type": "meaning"
       },
       {
-        "text": "scrib",
+        "text": "body",
         "type": "random"
       },
       {
-        "text": "trans",
+        "text": "base",
         "type": "form"
       }
     ],
@@ -7034,19 +7034,19 @@
     ],
     "distractors": [
       {
-        "text": "polit",
+        "text": "view",
         "type": "form"
       },
       {
-        "text": "opt",
+        "text": "mean",
         "type": "meaning"
       },
       {
-        "text": "un",
+        "text": "note",
         "type": "random"
       },
       {
-        "text": "inter",
+        "text": "quest",
         "type": "form"
       }
     ],
@@ -7090,19 +7090,19 @@
     ],
     "distractors": [
       {
-        "text": "ly",
+        "text": "lev",
         "type": "form"
       },
       {
-        "text": "some",
+        "text": "soci",
         "type": "meaning"
       },
       {
-        "text": "motor",
+        "text": "nov",
         "type": "random"
       },
       {
-        "text": "ard",
+        "text": "phys",
         "type": "form"
       }
     ],
@@ -7149,19 +7149,19 @@
     ],
     "distractors": [
       {
-        "text": "log",
+        "text": "bath",
         "type": "form"
       },
       {
-        "text": "vers",
+        "text": "cycle",
         "type": "meaning"
       },
       {
-        "text": "fac",
+        "text": "black",
         "type": "random"
       },
       {
-        "text": "sub",
+        "text": "fast",
         "type": "form"
       }
     ],
@@ -7213,19 +7213,19 @@
     ],
     "distractors": [
       {
-        "text": "man",
+        "text": "motor",
         "type": "form"
       },
       {
-        "text": "th",
+        "text": "ard",
         "type": "meaning"
       },
       {
-        "text": "head",
+        "text": "pre",
         "type": "random"
       },
       {
-        "text": "ern",
+        "text": "spec",
         "type": "form"
       }
     ],
@@ -7272,19 +7272,19 @@
     ],
     "distractors": [
       {
-        "text": "grad",
+        "text": "ant",
         "type": "form"
       },
       {
-        "text": "mob",
+        "text": "acle",
         "type": "meaning"
       },
       {
-        "text": "vers",
+        "text": "ine",
         "type": "random"
       },
       {
-        "text": "tract",
+        "text": "ety",
         "type": "form"
       }
     ],
@@ -7336,19 +7336,19 @@
     ],
     "distractors": [
       {
-        "text": "air",
+        "text": "ation",
         "type": "form"
       },
       {
-        "text": "live",
+        "text": "ary",
         "type": "meaning"
       },
       {
-        "text": "ground",
+        "text": "ory",
         "type": "random"
       },
       {
-        "text": "bed",
+        "text": "s",
         "type": "form"
       }
     ],
@@ -7396,19 +7396,19 @@
     ],
     "distractors": [
       {
-        "text": "lead",
+        "text": "sun",
         "type": "form"
       },
       {
-        "text": "take",
+        "text": "thurs",
         "type": "meaning"
       },
       {
-        "text": "note",
+        "text": "pas",
         "type": "random"
       },
       {
-        "text": "play",
+        "text": "melon",
         "type": "form"
       }
     ],
@@ -7455,19 +7455,19 @@
     ],
     "distractors": [
       {
-        "text": "ball",
+        "text": "ben",
         "type": "form"
       },
       {
-        "text": "mate",
+        "text": "para",
         "type": "meaning"
       },
       {
-        "text": "some",
+        "text": "dia",
         "type": "random"
       },
       {
-        "text": "ern",
+        "text": "or",
         "type": "form"
       }
     ],
@@ -7514,19 +7514,19 @@
     ],
     "distractors": [
       {
-        "text": "cosmo",
+        "text": "end",
         "type": "form"
       },
       {
-        "text": "acy",
+        "text": "re",
         "type": "meaning"
       },
       {
-        "text": "izer",
+        "text": "dict",
         "type": "random"
       },
       {
-        "text": "el",
+        "text": "ion",
         "type": "form"
       }
     ],
@@ -7573,19 +7573,19 @@
     ],
     "distractors": [
       {
-        "text": "logy",
+        "text": "sun",
         "type": "form"
       },
       {
-        "text": "ial",
+        "text": "ten",
         "type": "meaning"
       },
       {
-        "text": "ility",
+        "text": "tooth",
         "type": "random"
       },
       {
-        "text": "u",
+        "text": "tues",
         "type": "form"
       }
     ],
@@ -7632,19 +7632,19 @@
     ],
     "distractors": [
       {
-        "text": "art",
+        "text": "co",
         "type": "form"
       },
       {
-        "text": "fer",
+        "text": "tele",
         "type": "meaning"
       },
       {
-        "text": "serv",
+        "text": "ing",
         "type": "random"
       },
       {
-        "text": "opt",
+        "text": "ly",
         "type": "form"
       }
     ],
@@ -7671,8 +7671,8 @@
     "metaphorMeaningCn": "平等、均等",
     "metaphorOptions": [
       "平等、均等",
-      "分开的小站",
-      "守着测量过活"
+      "守着分开过活",
+      "测量的来路"
     ],
     "exampleEn": "The love of democracy is that of equality.",
     "exampleCn": "爱民主就是爱平等。",
@@ -7691,19 +7691,19 @@
     ],
     "distractors": [
       {
-        "text": "back",
+        "text": "al",
         "type": "form"
       },
       {
-        "text": "grand",
+        "text": "izer",
         "type": "meaning"
       },
       {
-        "text": "co",
+        "text": "ety",
         "type": "random"
       },
       {
-        "text": "tele",
+        "text": "ist",
         "type": "form"
       }
     ],
@@ -7755,19 +7755,19 @@
     ],
     "distractors": [
       {
-        "text": "sanct",
+        "text": "ence",
         "type": "form"
       },
       {
-        "text": "mir",
+        "text": "ice",
         "type": "meaning"
       },
       {
-        "text": "sal",
+        "text": "enn",
         "type": "random"
       },
       {
-        "text": "fer",
+        "text": "ile",
         "type": "form"
       }
     ],
@@ -7824,19 +7824,19 @@
     ],
     "distractors": [
       {
-        "text": "log",
+        "text": "th",
         "type": "form"
       },
       {
-        "text": "vers",
+        "text": "motor",
         "type": "meaning"
       },
       {
-        "text": "fac",
+        "text": "circum",
         "type": "random"
       },
       {
-        "text": "con",
+        "text": "port",
         "type": "form"
       }
     ],
@@ -7883,19 +7883,19 @@
     ],
     "distractors": [
       {
-        "text": "thurs",
+        "text": "soci",
         "type": "form"
       },
       {
-        "text": "brush",
+        "text": "nov",
         "type": "meaning"
       },
       {
-        "text": "use",
+        "text": "phys",
         "type": "random"
       },
       {
-        "text": "week",
+        "text": "fer",
         "type": "form"
       }
     ],
@@ -7941,19 +7941,19 @@
     ],
     "distractors": [
       {
-        "text": "ground",
+        "text": "ia",
         "type": "form"
       },
       {
-        "text": "room",
+        "text": "sent",
         "type": "meaning"
       },
       {
-        "text": "birth",
+        "text": "line",
         "type": "random"
       },
       {
-        "text": "board",
+        "text": "thing",
         "type": "form"
       }
     ],
@@ -8005,19 +8005,19 @@
     ],
     "distractors": [
       {
-        "text": "grand",
+        "text": "ad",
         "type": "form"
       },
       {
-        "text": "mis",
+        "text": "post",
         "type": "meaning"
       },
       {
-        "text": "pr",
+        "text": "kilo",
         "type": "random"
       },
       {
-        "text": "under",
+        "text": "manu",
         "type": "form"
       }
     ],
@@ -8069,19 +8069,19 @@
     ],
     "distractors": [
       {
-        "text": "line",
+        "text": "ion",
         "type": "form"
       },
       {
-        "text": "live",
+        "text": "bio",
         "type": "meaning"
       },
       {
-        "text": "thing",
+        "text": "ject",
         "type": "random"
       },
       {
-        "text": "bath",
+        "text": "vers",
         "type": "form"
       }
     ],
@@ -8128,19 +8128,19 @@
     ],
     "distractors": [
       {
-        "text": "flu",
+        "text": "ocre",
         "type": "form"
       },
       {
-        "text": "sal",
+        "text": "ia",
         "type": "meaning"
       },
       {
-        "text": "mit",
+        "text": "sent",
         "type": "random"
       },
       {
-        "text": "medi",
+        "text": "line",
         "type": "form"
       }
     ],
@@ -8187,19 +8187,19 @@
     ],
     "distractors": [
       {
-        "text": "quest",
+        "text": "nov",
         "type": "form"
       },
       {
-        "text": "ceive",
+        "text": "phys",
         "type": "meaning"
       },
       {
-        "text": "sea",
+        "text": "fer",
         "type": "random"
       },
       {
-        "text": "suc",
+        "text": "serv",
         "type": "form"
       }
     ],
@@ -8241,19 +8241,19 @@
     ],
     "distractors": [
       {
-        "text": "el",
+        "text": "pr",
         "type": "form"
       },
       {
-        "text": "itude",
+        "text": "under",
         "type": "meaning"
       },
       {
-        "text": "ocre",
+        "text": "ing",
         "type": "random"
       },
       {
-        "text": "an",
+        "text": "mate",
         "type": "form"
       }
     ],
@@ -8276,7 +8276,7 @@
     "metaphorOptions": [
       "热的、保温的",
       "木板的另一面",
-      "离开的一角"
+      "行走的一角"
     ],
     "exampleEn": "The atomic reactor generates enormous amounts of thermal energy.",
     "exampleCn": "原子反应堆发出大量的热能。",
@@ -8295,19 +8295,19 @@
     ],
     "distractors": [
       {
-        "text": "ility",
+        "text": "ball",
         "type": "form"
       },
       {
-        "text": "u",
+        "text": "man",
         "type": "meaning"
       },
       {
-        "text": "vinc",
+        "text": "th",
         "type": "random"
       },
       {
-        "text": "vac",
+        "text": "head",
         "type": "form"
       }
     ],
@@ -8359,19 +8359,19 @@
     ],
     "distractors": [
       {
-        "text": "peri",
+        "text": "e",
         "type": "form"
       },
       {
-        "text": "ition",
+        "text": "at",
         "type": "meaning"
       },
       {
-        "text": "ify",
+        "text": "or",
         "type": "random"
       },
       {
-        "text": "ety",
+        "text": "ory",
         "type": "form"
       }
     ],
@@ -8408,19 +8408,19 @@
     ],
     "distractors": [
       {
-        "text": "con",
+        "text": "ory",
         "type": "form"
       },
       {
-        "text": "cata",
+        "text": "ulum",
         "type": "meaning"
       },
       {
-        "text": "ben",
+        "text": "enn",
         "type": "random"
       },
       {
-        "text": "para",
+        "text": "ility",
         "type": "form"
       }
     ],
@@ -8464,19 +8464,19 @@
     ],
     "distractors": [
       {
-        "text": "cor",
+        "text": "mate",
         "type": "form"
       },
       {
-        "text": "prim",
+        "text": "some",
         "type": "meaning"
       },
       {
-        "text": "flect",
+        "text": "ern",
         "type": "random"
       },
       {
-        "text": "fus",
+        "text": "circum",
         "type": "form"
       }
     ],
@@ -8523,19 +8523,19 @@
     ],
     "distractors": [
       {
-        "text": "week",
+        "text": "sept",
         "type": "form"
       },
       {
-        "text": "back",
+        "text": "yester",
         "type": "meaning"
       },
       {
-        "text": "dec",
+        "text": "less",
         "type": "random"
       },
       {
-        "text": "ag",
+        "text": "ly",
         "type": "form"
       }
     ],
@@ -8582,19 +8582,19 @@
     ],
     "distractors": [
       {
-        "text": "west",
+        "text": "book",
         "type": "form"
       },
       {
-        "text": "bi",
+        "text": "rain",
         "type": "meaning"
       },
       {
-        "text": "ag",
+        "text": "saturn",
         "type": "random"
       },
       {
-        "text": "pr",
+        "text": "suc",
         "type": "form"
       }
     ],
@@ -8641,19 +8641,19 @@
     ],
     "distractors": [
       {
-        "text": "ial",
+        "text": "bag",
         "type": "form"
       },
       {
-        "text": "ility",
+        "text": "holy",
         "type": "meaning"
       },
       {
-        "text": "u",
+        "text": "key",
         "type": "random"
       },
       {
-        "text": "vinc",
+        "text": "mean",
         "type": "form"
       }
     ],
@@ -8700,19 +8700,19 @@
     ],
     "distractors": [
       {
-        "text": "draw",
+        "text": "base",
         "type": "form"
       },
       {
-        "text": "child",
+        "text": "cycle",
         "type": "meaning"
       },
       {
-        "text": "hard",
+        "text": "board",
         "type": "random"
       },
       {
-        "text": "house",
+        "text": "car",
         "type": "form"
       }
     ],
@@ -8751,19 +8751,19 @@
     ],
     "distractors": [
       {
-        "text": "tain",
+        "text": "mit",
         "type": "form"
       },
       {
-        "text": "position",
+        "text": "metr",
         "type": "meaning"
       },
       {
-        "text": "draw",
+        "text": "scrib",
         "type": "random"
       },
       {
-        "text": "hand",
+        "text": "ob",
         "type": "form"
       }
     ],
@@ -8807,19 +8807,19 @@
     ],
     "distractors": [
       {
-        "text": "hand",
+        "text": "al",
         "type": "form"
       },
       {
-        "text": "ache",
+        "text": "ify",
         "type": "meaning"
       },
       {
-        "text": "view",
+        "text": "id",
         "type": "random"
       },
       {
-        "text": "life",
+        "text": "ian",
         "type": "form"
       }
     ],
@@ -8871,19 +8871,19 @@
     ],
     "distractors": [
       {
-        "text": "class",
+        "text": "day",
         "type": "form"
       },
       {
-        "text": "direct",
+        "text": "break",
         "type": "meaning"
       },
       {
-        "text": "every",
+        "text": "car",
         "type": "random"
       },
       {
-        "text": "hand",
+        "text": "position",
         "type": "form"
       }
     ],
@@ -8910,8 +8910,8 @@
     "metaphorMeaningCn": "合作、协作",
     "metaphorOptions": [
       "合作、协作",
-      "灌注的来路",
-      "中间的地方"
+      "朝向的来路",
+      "灌注的地方"
     ],
     "exampleEn": "The two labs collaborate on cancer research.",
     "exampleCn": "这两个实验室在癌症研究方面合作。",
@@ -8936,19 +8936,19 @@
     ],
     "distractors": [
       {
-        "text": "ag",
+        "text": "ent",
         "type": "form"
       },
       {
-        "text": "sur",
+        "text": "logy",
         "type": "meaning"
       },
       {
-        "text": "tele",
+        "text": "ile",
         "type": "random"
       },
       {
-        "text": "ball",
+        "text": "tech",
         "type": "form"
       }
     ],
@@ -8975,8 +8975,8 @@
     "metaphorMeaningCn": "合作、协作",
     "metaphorOptions": [
       "合作、协作",
-      "活的的背面",
-      "被居住的东西"
+      "居住的背面",
+      "被星期的东西"
     ],
     "exampleEn": "The design was a collaboration between old friends.",
     "exampleCn": "这项设计是老朋友们合作的成果。",
@@ -9001,19 +9001,19 @@
     ],
     "distractors": [
       {
-        "text": "pass",
+        "text": "head",
         "type": "form"
       },
       {
-        "text": "real",
+        "text": "ise",
         "type": "meaning"
       },
       {
-        "text": "sea",
+        "text": "pre",
         "type": "random"
       },
       {
-        "text": "ceed",
+        "text": "dict",
         "type": "form"
       }
     ],
@@ -9040,8 +9040,8 @@
     "metaphorMeaningCn": "艰巨的、费力的",
     "metaphorOptions": [
       "艰巨的、费力的",
-      "被神圣的东西",
-      "星期的另一面"
+      "神圣的背面",
+      "星期的味道"
     ],
     "exampleEn": "Copying every page by hand was laborious work.",
     "exampleCn": "用手抄写每一页是件费力的活。",
@@ -9060,19 +9060,19 @@
     ],
     "distractors": [
       {
-        "text": "melon",
+        "text": "er",
         "type": "form"
       },
       {
-        "text": "ab",
+        "text": "abul",
         "type": "meaning"
       },
       {
-        "text": "bi",
+        "text": "tech",
         "type": "random"
       },
       {
-        "text": "to",
+        "text": "pos",
         "type": "form"
       }
     ],
@@ -9119,19 +9119,19 @@
     ],
     "distractors": [
       {
-        "text": "mit",
+        "text": "un",
         "type": "form"
       },
       {
-        "text": "medi",
+        "text": "inter",
         "type": "meaning"
       },
       {
-        "text": "serv",
+        "text": "kilo",
         "type": "random"
       },
       {
-        "text": "ven",
+        "text": "sym",
         "type": "form"
       }
     ],
@@ -9182,19 +9182,19 @@
     ],
     "distractors": [
       {
-        "text": "ite",
+        "text": "cover",
         "type": "form"
       },
       {
-        "text": "cor",
+        "text": "foot",
         "type": "meaning"
       },
       {
-        "text": "prim",
+        "text": "bag",
         "type": "random"
       },
       {
-        "text": "flect",
+        "text": "holy",
         "type": "form"
       }
     ],
@@ -9246,19 +9246,19 @@
     ],
     "distractors": [
       {
-        "text": "fac",
+        "text": "pass",
         "type": "form"
       },
       {
-        "text": "dis",
+        "text": "rain",
         "type": "meaning"
       },
       {
-        "text": "cata",
+        "text": "turn",
         "type": "random"
       },
       {
-        "text": "ben",
+        "text": "south",
         "type": "form"
       }
     ],
@@ -9305,19 +9305,19 @@
     ],
     "distractors": [
       {
-        "text": "sun",
+        "text": "class",
         "type": "form"
       },
       {
-        "text": "thurs",
+        "text": "direct",
         "type": "meaning"
       },
       {
-        "text": "pas",
+        "text": "every",
         "type": "random"
       },
       {
-        "text": "melon",
+        "text": "hand",
         "type": "form"
       }
     ],
@@ -9360,19 +9360,19 @@
     ],
     "distractors": [
       {
-        "text": "position",
+        "text": "com",
         "type": "form"
       },
       {
-        "text": "draw",
+        "text": "ag",
         "type": "meaning"
       },
       {
-        "text": "hand",
+        "text": "sept",
         "type": "random"
       },
       {
-        "text": "holy",
+        "text": "ing",
         "type": "form"
       }
     ],
@@ -9418,19 +9418,19 @@
     ],
     "distractors": [
       {
-        "text": "ly",
+        "text": "tooth",
         "type": "form"
       },
       {
-        "text": "head",
+        "text": "tues",
         "type": "meaning"
       },
       {
-        "text": "ise",
+        "text": "melon",
         "type": "random"
       },
       {
-        "text": "pre",
+        "text": "ab",
         "type": "form"
       }
     ],
@@ -9477,19 +9477,19 @@
     ],
     "distractors": [
       {
-        "text": "com",
+        "text": "uum",
         "type": "form"
       },
       {
-        "text": "grand",
+        "text": "ful",
         "type": "meaning"
       },
       {
-        "text": "mis",
+        "text": "y",
         "type": "random"
       },
       {
-        "text": "pr",
+        "text": "sent",
         "type": "form"
       }
     ],
@@ -9529,19 +9529,19 @@
     ],
     "distractors": [
       {
-        "text": "cent",
+        "text": "week",
         "type": "form"
       },
       {
-        "text": "log",
+        "text": "back",
         "type": "meaning"
       },
       {
-        "text": "voc",
+        "text": "dec",
         "type": "random"
       },
       {
-        "text": "de",
+        "text": "ag",
         "type": "form"
       }
     ],
@@ -9585,19 +9585,19 @@
     ],
     "distractors": [
       {
-        "text": "mob",
+        "text": "ury",
         "type": "form"
       },
       {
-        "text": "graph",
+        "text": "er",
         "type": "meaning"
       },
       {
-        "text": "dis",
+        "text": "abul",
         "type": "random"
       },
       {
-        "text": "uni",
+        "text": "tech",
         "type": "form"
       }
     ],
@@ -9641,19 +9641,19 @@
     ],
     "distractors": [
       {
-        "text": "body",
+        "text": "sept",
         "type": "form"
       },
       {
-        "text": "bath",
+        "text": "ball",
         "type": "meaning"
       },
       {
-        "text": "birth",
+        "text": "mate",
         "type": "random"
       },
       {
-        "text": "break",
+        "text": "some",
         "type": "form"
       }
     ],
@@ -9705,19 +9705,19 @@
     ],
     "distractors": [
       {
-        "text": "ity",
+        "text": "bi",
         "type": "form"
       },
       {
-        "text": "cred",
+        "text": "co",
         "type": "meaning"
       },
       {
-        "text": "log",
+        "text": "yester",
         "type": "random"
       },
       {
-        "text": "vers",
+        "text": "ly",
         "type": "form"
       }
     ],
@@ -9764,19 +9764,19 @@
     ],
     "distractors": [
       {
-        "text": "vid",
+        "text": "nov",
         "type": "form"
       },
       {
-        "text": "able",
+        "text": "phys",
         "type": "meaning"
       },
       {
-        "text": "bio",
+        "text": "fer",
         "type": "random"
       },
       {
-        "text": "gen",
+        "text": "jud",
         "type": "form"
       }
     ],
@@ -9823,19 +9823,19 @@
     ],
     "distractors": [
       {
-        "text": "en",
+        "text": "ility",
         "type": "form"
       },
       {
-        "text": "at",
+        "text": "u",
         "type": "meaning"
       },
       {
-        "text": "ate",
+        "text": "vinc",
         "type": "random"
       },
       {
-        "text": "ic",
+        "text": "vac",
         "type": "form"
       }
     ],
@@ -9882,19 +9882,19 @@
     ],
     "distractors": [
       {
-        "text": "thing",
+        "text": "ulum",
         "type": "form"
       },
       {
-        "text": "bath",
+        "text": "enn",
         "type": "meaning"
       },
       {
-        "text": "cycle",
+        "text": "ility",
         "type": "random"
       },
       {
-        "text": "black",
+        "text": "tech",
         "type": "form"
       }
     ],
@@ -9941,19 +9941,19 @@
     ],
     "distractors": [
       {
-        "text": "black",
+        "text": "room",
         "type": "form"
       },
       {
-        "text": "car",
+        "text": "day",
         "type": "meaning"
       },
       {
-        "text": "direct",
+        "text": "fast",
         "type": "random"
       },
       {
-        "text": "child",
+        "text": "class",
         "type": "form"
       }
     ],
@@ -10000,19 +10000,19 @@
     ],
     "distractors": [
       {
-        "text": "ial",
+        "text": "ten",
         "type": "form"
       },
       {
-        "text": "abul",
+        "text": "tooth",
         "type": "meaning"
       },
       {
-        "text": "cor",
+        "text": "tues",
         "type": "random"
       },
       {
-        "text": "vac",
+        "text": "melon",
         "type": "form"
       }
     ],
@@ -10039,7 +10039,7 @@
     "metaphorOptions": [
       "参赛者、竞争者",
       "守着相同过活",
-      "在下的旧事"
+      "感觉的旧事"
     ],
     "exampleEn": "Each contestant has ninety seconds on stage.",
     "exampleCn": "每位选手在台上有一分半钟。",
@@ -10063,15 +10063,15 @@
     ],
     "distractors": [
       {
-        "text": "ful",
+        "text": "ia",
         "type": "form"
       },
       {
-        "text": "y",
+        "text": "age",
         "type": "meaning"
       },
       {
-        "text": "act",
+        "text": "agree",
         "type": "random"
       },
       {
@@ -10122,19 +10122,19 @@
     ],
     "distractors": [
       {
-        "text": "bi",
+        "text": "ise",
         "type": "form"
       },
       {
-        "text": "ag",
+        "text": "circum",
         "type": "meaning"
       },
       {
-        "text": "pr",
+        "text": "in",
         "type": "random"
       },
       {
-        "text": "yester",
+        "text": "port",
         "type": "form"
       }
     ],
@@ -10180,19 +10180,19 @@
     ],
     "distractors": [
       {
-        "text": "hypo",
+        "text": "ice",
         "type": "form"
       },
       {
-        "text": "baro",
+        "text": "er",
         "type": "meaning"
       },
       {
-        "text": "manu",
+        "text": "u",
         "type": "random"
       },
       {
-        "text": "ition",
+        "text": "prim",
         "type": "form"
       }
     ],
@@ -10219,8 +10219,8 @@
     "metaphorMeaningCn": "读写能力、识字",
     "metaphorOptions": [
       "读写能力、识字",
-      "向前的一角",
-      "一种自己的习俗"
+      "一种向前的习俗",
+      "自己的人"
     ],
     "exampleEn": "The program teaches basic literacy to adults.",
     "exampleCn": "这项计划教成年人基本的读写能力。",
@@ -10239,19 +10239,19 @@
     ],
     "distractors": [
       {
-        "text": "west",
+        "text": "bed",
         "type": "form"
       },
       {
-        "text": "com",
+        "text": "board",
         "type": "meaning"
       },
       {
-        "text": "grand",
+        "text": "chair",
         "type": "random"
       },
       {
-        "text": "mis",
+        "text": "cover",
         "type": "form"
       }
     ],
@@ -10301,19 +10301,19 @@
     ],
     "distractors": [
       {
-        "text": "ity",
+        "text": "vid",
         "type": "form"
       },
       {
-        "text": "cent",
+        "text": "able",
         "type": "meaning"
       },
       {
-        "text": "grad",
+        "text": "bio",
         "type": "random"
       },
       {
-        "text": "mob",
+        "text": "gen",
         "type": "form"
       }
     ],
@@ -10365,19 +10365,19 @@
     ],
     "distractors": [
       {
-        "text": "suc",
+        "text": "sur",
         "type": "form"
       },
       {
-        "text": "sun",
+        "text": "tele",
         "type": "meaning"
       },
       {
-        "text": "ten",
+        "text": "ball",
         "type": "random"
       },
       {
-        "text": "tooth",
+        "text": "man",
         "type": "form"
       }
     ],
@@ -10424,19 +10424,19 @@
     ],
     "distractors": [
       {
-        "text": "mate",
+        "text": "house",
         "type": "form"
       },
       {
-        "text": "some",
+        "text": "life",
         "type": "meaning"
       },
       {
-        "text": "ern",
+        "text": "north",
         "type": "random"
       },
       {
-        "text": "circum",
+        "text": "play",
         "type": "form"
       }
     ],
@@ -10487,19 +10487,19 @@
     ],
     "distractors": [
       {
-        "text": "house",
+        "text": "bath",
         "type": "form"
       },
       {
-        "text": "life",
+        "text": "day",
         "type": "meaning"
       },
       {
-        "text": "north",
+        "text": "tain",
         "type": "random"
       },
       {
-        "text": "play",
+        "text": "ember",
         "type": "form"
       }
     ],
@@ -10546,19 +10546,19 @@
     ],
     "distractors": [
       {
-        "text": "head",
+        "text": "abul",
         "type": "form"
       },
       {
-        "text": "ern",
+        "text": "tech",
         "type": "meaning"
       },
       {
-        "text": "end",
+        "text": "pos",
         "type": "random"
       },
       {
-        "text": "re",
+        "text": "pel",
         "type": "form"
       }
     ],
@@ -10585,8 +10585,8 @@
     "metaphorMeaningCn": "相关的、切题的",
     "metaphorOptions": [
       "相关的、切题的",
-      "离汽车很远",
-      "替北方操心"
+      "离向后很远",
+      "替汽车操心"
     ],
     "exampleEn": "That would be relevant.",
     "exampleCn": "那可能有關係。",
@@ -10674,19 +10674,19 @@
     ],
     "distractors": [
       {
-        "text": "therm",
+        "text": "sym",
         "type": "form"
       },
       {
-        "text": "grat",
+        "text": "cosmo",
         "type": "meaning"
       },
       {
-        "text": "liter",
+        "text": "al",
         "type": "random"
       },
       {
-        "text": "soci",
+        "text": "ify",
         "type": "form"
       }
     ],
@@ -10713,8 +10713,8 @@
     "metaphorMeaningCn": "减轻、缓解",
     "metaphorOptions": [
       "减轻、缓解",
-      "月亮的小站",
-      "钥匙的地方"
+      "隔一代的小站",
+      "月亮的地方"
     ],
     "exampleEn": "In order to alleviate employment pressures, the nation has established a series of relevant policies.",
     "exampleCn": "为了缓解就业压力，国家已经制定了一系列相关政策。",
@@ -10739,19 +10739,19 @@
     ],
     "distractors": [
       {
-        "text": "vinc",
+        "text": "agree",
         "type": "form"
       },
       {
-        "text": "pel",
+        "text": "plane",
         "type": "meaning"
       },
       {
-        "text": "fus",
+        "text": "thing",
         "type": "random"
       },
       {
-        "text": "hab",
+        "text": "bath",
         "type": "form"
       }
     ],
@@ -10804,19 +10804,19 @@
     ],
     "distractors": [
       {
-        "text": "fort",
+        "text": "sal",
         "type": "form"
       },
       {
-        "text": "therm",
+        "text": "mit",
         "type": "meaning"
       },
       {
-        "text": "sanct",
+        "text": "medi",
         "type": "random"
       },
       {
-        "text": "mir",
+        "text": "serv",
         "type": "form"
       }
     ],
@@ -10869,19 +10869,19 @@
     ],
     "distractors": [
       {
-        "text": "th",
+        "text": "body",
         "type": "form"
       },
       {
-        "text": "work",
+        "text": "base",
         "type": "meaning"
       },
       {
-        "text": "ard",
+        "text": "bed",
         "type": "random"
       },
       {
-        "text": "re",
+        "text": "day",
         "type": "form"
       }
     ],
@@ -10928,19 +10928,19 @@
     ],
     "distractors": [
       {
-        "text": "board",
+        "text": "ember",
         "type": "form"
       },
       {
-        "text": "class",
+        "text": "every",
         "type": "meaning"
       },
       {
-        "text": "every",
+        "text": "bag",
         "type": "random"
       },
       {
-        "text": "ache",
+        "text": "house",
         "type": "form"
       }
     ],
@@ -10987,19 +10987,19 @@
     ],
     "distractors": [
       {
-        "text": "an",
+        "text": "life",
         "type": "form"
       },
       {
-        "text": "act",
+        "text": "moon",
         "type": "meaning"
       },
       {
-        "text": "line",
+        "text": "book",
         "type": "random"
       },
       {
-        "text": "live",
+        "text": "quest",
         "type": "form"
       }
     ],
@@ -11046,19 +11046,19 @@
     ],
     "distractors": [
       {
-        "text": "circum",
+        "text": "dict",
         "type": "form"
       },
       {
-        "text": "in",
+        "text": "ion",
         "type": "meaning"
       },
       {
-        "text": "port",
+        "text": "ity",
         "type": "random"
       },
       {
-        "text": "ive",
+        "text": "cent",
         "type": "form"
       }
     ],
@@ -11105,19 +11105,19 @@
     ],
     "distractors": [
       {
-        "text": "u",
+        "text": "nat",
         "type": "form"
       },
       {
-        "text": "pos",
+        "text": "voc",
         "type": "meaning"
       },
       {
-        "text": "flect",
+        "text": "fac",
         "type": "random"
       },
       {
-        "text": "equ",
+        "text": "dis",
         "type": "form"
       }
     ],
@@ -11164,19 +11164,19 @@
     ],
     "distractors": [
       {
-        "text": "pro",
+        "text": "ite",
         "type": "form"
       },
       {
-        "text": "con",
+        "text": "vinc",
         "type": "meaning"
       },
       {
-        "text": "cata",
+        "text": "pel",
         "type": "random"
       },
       {
-        "text": "ben",
+        "text": "fus",
         "type": "form"
       }
     ],
@@ -11228,19 +11228,19 @@
     ],
     "distractors": [
       {
-        "text": "abul",
+        "text": "sur",
         "type": "form"
       },
       {
-        "text": "cor",
+        "text": "under",
         "type": "meaning"
       },
       {
-        "text": "vac",
+        "text": "less",
         "type": "random"
       },
       {
-        "text": "fort",
+        "text": "th",
         "type": "form"
       }
     ],
@@ -11267,8 +11267,8 @@
     "metaphorMeaningCn": "奇迹、不可思议的事",
     "metaphorOptions": [
       "奇迹、不可思议的事",
-      "次级的背面",
-      "被灰烬的东西"
+      "末端的背面",
+      "被次级的东西"
     ],
     "exampleEn": "This is a miracle.",
     "exampleCn": "这是一个奇迹。",
@@ -11287,19 +11287,19 @@
     ],
     "distractors": [
       {
-        "text": "migr",
+        "text": "holy",
         "type": "form"
       },
       {
-        "text": "tact",
+        "text": "lead",
         "type": "meaning"
       },
       {
-        "text": "art",
+        "text": "moon",
         "type": "random"
       },
       {
-        "text": "cap",
+        "text": "pass",
         "type": "form"
       }
     ],
@@ -11322,8 +11322,8 @@
     "metaphorMeaningCn": "奇迹般的、不可思议的",
     "metaphorOptions": [
       "奇迹般的、不可思议的",
-      "旁边的人",
-      "一种次级的习俗"
+      "在上的人",
+      "一种旁边的习俗"
     ],
     "exampleEn": "The medicine produced a miraculous recovery.",
     "exampleCn": "这种药带来了奇迹般的康复。",
@@ -11342,19 +11342,19 @@
     ],
     "distractors": [
       {
-        "text": "thing",
+        "text": "air",
         "type": "form"
       },
       {
-        "text": "room",
+        "text": "body",
         "type": "meaning"
       },
       {
-        "text": "day",
+        "text": "bath",
         "type": "random"
       },
       {
-        "text": "fast",
+        "text": "birth",
         "type": "form"
       }
     ],
@@ -11401,19 +11401,19 @@
     ],
     "distractors": [
       {
-        "text": "gen",
+        "text": "motor",
         "type": "form"
       },
       {
-        "text": "log",
+        "text": "end",
         "type": "meaning"
       },
       {
-        "text": "pend",
+        "text": "in",
         "type": "random"
       },
       {
-        "text": "graph",
+        "text": "vid",
         "type": "form"
       }
     ],
@@ -11460,19 +11460,19 @@
     ],
     "distractors": [
       {
-        "text": "ic",
+        "text": "child",
         "type": "form"
       },
       {
-        "text": "ence",
+        "text": "hard",
         "type": "meaning"
       },
       {
-        "text": "logy",
+        "text": "house",
         "type": "random"
       },
       {
-        "text": "er",
+        "text": "lead",
         "type": "form"
       }
     ],
@@ -11515,19 +11515,19 @@
     ],
     "distractors": [
       {
-        "text": "prim",
+        "text": "circum",
         "type": "form"
       },
       {
-        "text": "flect",
+        "text": "spec",
         "type": "meaning"
       },
       {
-        "text": "fus",
+        "text": "ion",
         "type": "random"
       },
       {
-        "text": "therm",
+        "text": "aud",
         "type": "form"
       }
     ],
@@ -11578,19 +11578,19 @@
     ],
     "distractors": [
       {
-        "text": "chair",
+        "text": "ial",
         "type": "form"
       },
       {
-        "text": "ember",
+        "text": "abul",
         "type": "meaning"
       },
       {
-        "text": "draw",
+        "text": "cor",
         "type": "random"
       },
       {
-        "text": "child",
+        "text": "vac",
         "type": "form"
       }
     ],
@@ -11637,19 +11637,19 @@
     ],
     "distractors": [
       {
-        "text": "er",
+        "text": "sent",
         "type": "form"
       },
       {
-        "text": "abul",
+        "text": "line",
         "type": "meaning"
       },
       {
-        "text": "tech",
+        "text": "thing",
         "type": "random"
       },
       {
-        "text": "pos",
+        "text": "room",
         "type": "form"
       }
     ],
@@ -11701,19 +11701,19 @@
     ],
     "distractors": [
       {
-        "text": "dis",
+        "text": "peri",
         "type": "form"
       },
       {
-        "text": "cata",
+        "text": "metro",
         "type": "meaning"
       },
       {
-        "text": "e",
+        "text": "ant",
         "type": "random"
       },
       {
-        "text": "at",
+        "text": "acle",
         "type": "form"
       }
     ],
@@ -11760,19 +11760,19 @@
     ],
     "distractors": [
       {
-        "text": "hard",
+        "text": "th",
         "type": "form"
       },
       {
-        "text": "view",
+        "text": "work",
         "type": "meaning"
       },
       {
-        "text": "mean",
+        "text": "ard",
         "type": "random"
       },
       {
-        "text": "note",
+        "text": "re",
         "type": "form"
       }
     ],
@@ -11819,19 +11819,19 @@
     ],
     "distractors": [
       {
-        "text": "nat",
+        "text": "quest",
         "type": "form"
       },
       {
-        "text": "fac",
+        "text": "ceive",
         "type": "meaning"
       },
       {
-        "text": "per",
+        "text": "sea",
         "type": "random"
       },
       {
-        "text": "en",
+        "text": "suc",
         "type": "form"
       }
     ],
@@ -11874,19 +11874,19 @@
     ],
     "distractors": [
       {
-        "text": "ify",
+        "text": "ress",
         "type": "form"
       },
       {
-        "text": "id",
+        "text": "eval",
         "type": "meaning"
       },
       {
-        "text": "ian",
+        "text": "ual",
         "type": "random"
       },
       {
-        "text": "ist",
+        "text": "y",
         "type": "form"
       }
     ],
@@ -11933,19 +11933,19 @@
     ],
     "distractors": [
       {
-        "text": "prise",
+        "text": "e",
         "type": "form"
       },
       {
-        "text": "tooth",
+        "text": "photo",
         "type": "meaning"
       },
       {
-        "text": "water",
+        "text": "ation",
         "type": "random"
       },
       {
-        "text": "back",
+        "text": "ary",
         "type": "form"
       }
     ],
@@ -11992,19 +11992,19 @@
     ],
     "distractors": [
       {
-        "text": "turn",
+        "text": "de",
         "type": "form"
       },
       {
-        "text": "south",
+        "text": "per",
         "type": "meaning"
       },
       {
-        "text": "ceed",
+        "text": "auto",
         "type": "random"
       },
       {
-        "text": "prise",
+        "text": "en",
         "type": "form"
       }
     ],
@@ -12051,19 +12051,19 @@
     ],
     "distractors": [
       {
-        "text": "acle",
+        "text": "en",
         "type": "form"
       },
       {
-        "text": "id",
+        "text": "ation",
         "type": "meaning"
       },
       {
-        "text": "ious",
+        "text": "ure",
         "type": "random"
       },
       {
-        "text": "ment",
+        "text": "ulum",
         "type": "form"
       }
     ],
@@ -12110,19 +12110,19 @@
     ],
     "distractors": [
       {
-        "text": "ious",
+        "text": "direct",
         "type": "form"
       },
       {
-        "text": "ment",
+        "text": "every",
         "type": "meaning"
       },
       {
-        "text": "eval",
+        "text": "hand",
         "type": "random"
       },
       {
-        "text": "ed",
+        "text": "ache",
         "type": "form"
       }
     ],
@@ -12169,19 +12169,19 @@
     ],
     "distractors": [
       {
-        "text": "night",
+        "text": "itude",
         "type": "form"
       },
       {
-        "text": "tues",
+        "text": "uary",
         "type": "meaning"
       },
       {
-        "text": "week",
+        "text": "ocre",
         "type": "random"
       },
       {
-        "text": "com",
+        "text": "ed",
         "type": "form"
       }
     ],
@@ -12231,19 +12231,19 @@
     ],
     "distractors": [
       {
-        "text": "hydr",
+        "text": "en",
         "type": "form"
       },
       {
-        "text": "labor",
+        "text": "dia",
         "type": "meaning"
       },
       {
-        "text": "test",
+        "text": "ary",
         "type": "random"
       },
       {
-        "text": "migr",
+        "text": "ent",
         "type": "form"
       }
     ],
@@ -12290,19 +12290,19 @@
     ],
     "distractors": [
       {
-        "text": "al",
+        "text": "kilo",
         "type": "form"
       },
       {
-        "text": "ify",
+        "text": "sym",
         "type": "meaning"
       },
       {
-        "text": "id",
+        "text": "cosmo",
         "type": "random"
       },
       {
-        "text": "ious",
+        "text": "al",
         "type": "form"
       }
     ],
@@ -12351,19 +12351,19 @@
     ],
     "distractors": [
       {
-        "text": "ism",
+        "text": "every",
         "type": "form"
       },
       {
-        "text": "uary",
+        "text": "hand",
         "type": "meaning"
       },
       {
-        "text": "ual",
+        "text": "ache",
         "type": "random"
       },
       {
-        "text": "age",
+        "text": "view",
         "type": "form"
       }
     ],
@@ -12415,19 +12415,19 @@
     ],
     "distractors": [
       {
-        "text": "en",
+        "text": "y",
         "type": "form"
       },
       {
-        "text": "at",
+        "text": "act",
         "type": "meaning"
       },
       {
-        "text": "or",
+        "text": "plane",
         "type": "random"
       },
       {
-        "text": "ure",
+        "text": "ground",
         "type": "form"
       }
     ],
@@ -12479,19 +12479,19 @@
     ],
     "distractors": [
       {
-        "text": "baro",
+        "text": "spec",
         "type": "form"
       },
       {
-        "text": "manu",
+        "text": "vid",
         "type": "meaning"
       },
       {
-        "text": "ition",
+        "text": "able",
         "type": "random"
       },
       {
-        "text": "acy",
+        "text": "bio",
         "type": "form"
       }
     ],
@@ -12538,19 +12538,19 @@
     ],
     "distractors": [
       {
-        "text": "tech",
+        "text": "logy",
         "type": "form"
       },
       {
-        "text": "vac",
+        "text": "ial",
         "type": "meaning"
       },
       {
-        "text": "fus",
+        "text": "ility",
         "type": "random"
       },
       {
-        "text": "labor",
+        "text": "u",
         "type": "form"
       }
     ],
@@ -12578,7 +12578,7 @@
     "metaphorOptions": [
       "薪水、工资",
       "离过程很远",
-      "向着黑色去"
+      "向着正在去"
     ],
     "exampleEn": "His salary is high.",
     "exampleCn": "他的薪酬很高。",
@@ -12597,19 +12597,19 @@
     ],
     "distractors": [
       {
-        "text": "com",
+        "text": "ite",
         "type": "form"
       },
       {
-        "text": "ag",
+        "text": "cor",
         "type": "meaning"
       },
       {
-        "text": "sept",
+        "text": "prim",
         "type": "random"
       },
       {
-        "text": "ing",
+        "text": "flect",
         "type": "form"
       }
     ],
@@ -12653,19 +12653,19 @@
     ],
     "distractors": [
       {
-        "text": "art",
+        "text": "hand",
         "type": "form"
       },
       {
-        "text": "cap",
+        "text": "holy",
         "type": "meaning"
       },
       {
-        "text": "metr",
+        "text": "lead",
         "type": "random"
       },
       {
-        "text": "polit",
+        "text": "moon",
         "type": "form"
       }
     ],
@@ -12691,7 +12691,7 @@
     "metaphorOptions": [
       "茶碟、浅碟",
       "低于的地方",
-      "形成的来路"
+      "工作的来路"
     ],
     "exampleEn": "The cat licked milk from the saucer.",
     "exampleCn": "猫从碟子里舔牛奶。",
@@ -12710,19 +12710,19 @@
     ],
     "distractors": [
       {
-        "text": "in",
+        "text": "cata",
         "type": "form"
       },
       {
-        "text": "port",
+        "text": "e",
         "type": "meaning"
       },
       {
-        "text": "ive",
+        "text": "at",
         "type": "random"
       },
       {
-        "text": "aud",
+        "text": "or",
         "type": "form"
       }
     ],
@@ -12764,19 +12764,19 @@
     ],
     "distractors": [
       {
-        "text": "voc",
+        "text": "re",
         "type": "form"
       },
       {
-        "text": "fac",
+        "text": "dict",
         "type": "meaning"
       },
       {
-        "text": "dis",
+        "text": "ion",
         "type": "random"
       },
       {
-        "text": "per",
+        "text": "ity",
         "type": "form"
       }
     ],
@@ -12819,19 +12819,19 @@
     ],
     "distractors": [
       {
-        "text": "base",
+        "text": "therm",
         "type": "form"
       },
       {
-        "text": "cycle",
+        "text": "grat",
         "type": "meaning"
       },
       {
-        "text": "board",
+        "text": "liter",
         "type": "random"
       },
       {
-        "text": "car",
+        "text": "mir",
         "type": "form"
       }
     ],
@@ -12879,19 +12879,19 @@
     ],
     "distractors": [
       {
-        "text": "y",
+        "text": "north",
         "type": "form"
       },
       {
-        "text": "sent",
+        "text": "play",
         "type": "meaning"
       },
       {
-        "text": "air",
+        "text": "ceive",
         "type": "random"
       },
       {
-        "text": "a",
+        "text": "south",
         "type": "form"
       }
     ],
@@ -12943,19 +12943,19 @@
     ],
     "distractors": [
       {
-        "text": "ache",
+        "text": "logy",
         "type": "form"
       },
       {
-        "text": "view",
+        "text": "ility",
         "type": "meaning"
       },
       {
-        "text": "life",
+        "text": "vinc",
         "type": "random"
       },
       {
-        "text": "moon",
+        "text": "form",
         "type": "form"
       }
     ],
@@ -12983,7 +12983,7 @@
     "metaphorOptions": [
       "人工制品、遗物",
       "房间的过程",
-      "向着病状去"
+      "向着拿取去"
     ],
     "exampleEn": "The museum displays every artifact from the ancient tomb.",
     "exampleCn": "博物馆展出古墓中出土的每一件器物。",
@@ -13002,19 +13002,19 @@
     ],
     "distractors": [
       {
-        "text": "vinc",
+        "text": "ory",
         "type": "form"
       },
       {
-        "text": "vac",
+        "text": "ice",
         "type": "meaning"
       },
       {
-        "text": "form",
+        "text": "er",
         "type": "random"
       },
       {
-        "text": "equ",
+        "text": "u",
         "type": "form"
       }
     ],
@@ -13039,8 +13039,8 @@
     "metaphorMeaningCn": "物理学",
     "metaphorOptions": [
       "物理学",
-      "在下的地方",
-      "数着首要过日子"
+      "寻求的地方",
+      "数着在下过日子"
     ],
     "exampleEn": "Physics is my favorite subject.",
     "exampleCn": "物理是我最喜歡的科目。",
@@ -13064,19 +13064,19 @@
     ],
     "distractors": [
       {
-        "text": "con",
+        "text": "quest",
         "type": "form"
       },
       {
-        "text": "uni",
+        "text": "turn",
         "type": "meaning"
       },
       {
-        "text": "en",
+        "text": "stand",
         "type": "random"
       },
       {
-        "text": "dia",
+        "text": "sun",
         "type": "form"
       }
     ],
@@ -13104,7 +13104,7 @@
     "metaphorOptions": [
       "身体的、物质的",
       "空气的旧事",
-      "都市的背面"
+      "在上的背面"
     ],
     "exampleEn": "We have physical education.",
     "exampleCn": "我们有上体育课。",
@@ -13128,19 +13128,19 @@
     ],
     "distractors": [
       {
-        "text": "para",
+        "text": "enn",
         "type": "form"
       },
       {
-        "text": "dia",
+        "text": "ility",
         "type": "meaning"
       },
       {
-        "text": "or",
+        "text": "tech",
         "type": "random"
       },
       {
-        "text": "ory",
+        "text": "prim",
         "type": "form"
       }
     ],
@@ -13192,19 +13192,19 @@
     ],
     "distractors": [
       {
-        "text": "use",
+        "text": "view",
         "type": "form"
       },
       {
-        "text": "week",
+        "text": "take",
         "type": "meaning"
       },
       {
-        "text": "back",
+        "text": "pass",
         "type": "random"
       },
       {
-        "text": "dec",
+        "text": "ceive",
         "type": "form"
       }
     ],
@@ -13256,19 +13256,19 @@
     ],
     "distractors": [
       {
-        "text": "water",
+        "text": "ern",
         "type": "form"
       },
       {
-        "text": "ab",
+        "text": "circum",
         "type": "meaning"
       },
       {
-        "text": "dec",
+        "text": "spec",
         "type": "random"
       },
       {
-        "text": "mis",
+        "text": "ion",
         "type": "form"
       }
     ],
@@ -13315,19 +13315,19 @@
     ],
     "distractors": [
       {
-        "text": "ory",
+        "text": "manu",
         "type": "form"
       },
       {
-        "text": "s",
+        "text": "ant",
         "type": "meaning"
       },
       {
-        "text": "ury",
+        "text": "ify",
         "type": "random"
       },
       {
-        "text": "er",
+        "text": "el",
         "type": "form"
       }
     ],
@@ -13352,8 +13352,8 @@
     "metaphorMeaningCn": "提交、屈服",
     "metaphorOptions": [
       "提交、屈服",
-      "把征服串起来",
-      "把分离翻开"
+      "把拿取串起来",
+      "把征服翻开"
     ],
     "exampleEn": "Please submit the homework.",
     "exampleCn": "请你补交作业。",
@@ -13372,19 +13372,19 @@
     ],
     "distractors": [
       {
-        "text": "liter",
+        "text": "ful",
         "type": "form"
       },
       {
-        "text": "soci",
+        "text": "age",
         "type": "meaning"
       },
       {
-        "text": "sal",
+        "text": "plane",
         "type": "random"
       },
       {
-        "text": "fer",
+        "text": "bath",
         "type": "form"
       }
     ],
@@ -13431,19 +13431,19 @@
     ],
     "distractors": [
       {
-        "text": "melon",
+        "text": "ity",
         "type": "form"
       },
       {
-        "text": "back",
+        "text": "cent",
         "type": "meaning"
       },
       {
-        "text": "grand",
+        "text": "grad",
         "type": "random"
       },
       {
-        "text": "co",
+        "text": "mob",
         "type": "form"
       }
     ],
@@ -13490,19 +13490,19 @@
     ],
     "distractors": [
       {
-        "text": "th",
+        "text": "ern",
         "type": "form"
       },
       {
-        "text": "motor",
+        "text": "pre",
         "type": "meaning"
       },
       {
-        "text": "circum",
+        "text": "port",
         "type": "random"
       },
       {
-        "text": "dict",
+        "text": "ity",
         "type": "form"
       }
     ],
@@ -13549,19 +13549,19 @@
     ],
     "distractors": [
       {
-        "text": "abul",
+        "text": "vision",
         "type": "form"
       },
       {
-        "text": "tech",
+        "text": "night",
         "type": "meaning"
       },
       {
-        "text": "pos",
+        "text": "pas",
         "type": "random"
       },
       {
-        "text": "pel",
+        "text": "water",
         "type": "form"
       }
     ],
@@ -13608,19 +13608,19 @@
     ],
     "distractors": [
       {
-        "text": "hab",
+        "text": "ment",
         "type": "form"
       },
       {
-        "text": "sanct",
+        "text": "uum",
         "type": "meaning"
       },
       {
-        "text": "lev",
+        "text": "ful",
         "type": "random"
       },
       {
-        "text": "soci",
+        "text": "ia",
         "type": "form"
       }
     ],
@@ -13648,7 +13648,7 @@
     "metaphorOptions": [
       "传送、传播",
       "向着时代去",
-      "围着经过转"
+      "围着工作转"
     ],
     "exampleEn": "Mosquitoes can transmit malaria to humans.",
     "exampleCn": "蚊子能把疟疾传染给人类。",
@@ -13667,19 +13667,19 @@
     ],
     "distractors": [
       {
-        "text": "car",
+        "text": "uni",
         "type": "form"
       },
       {
-        "text": "position",
+        "text": "para",
         "type": "meaning"
       },
       {
-        "text": "cover",
+        "text": "ate",
         "type": "random"
       },
       {
-        "text": "foot",
+        "text": "ory",
         "type": "form"
       }
     ],
@@ -13731,19 +13731,19 @@
     ],
     "distractors": [
       {
-        "text": "grand",
+        "text": "ial",
         "type": "form"
       },
       {
-        "text": "co",
+        "text": "ility",
         "type": "meaning"
       },
       {
-        "text": "tele",
+        "text": "u",
         "type": "random"
       },
       {
-        "text": "ing",
+        "text": "vinc",
         "type": "form"
       }
     ],
@@ -13790,19 +13790,19 @@
     ],
     "distractors": [
       {
-        "text": "cata",
+        "text": "acy",
         "type": "form"
       },
       {
-        "text": "ben",
+        "text": "id",
         "type": "meaning"
       },
       {
-        "text": "para",
+        "text": "ism",
         "type": "random"
       },
       {
-        "text": "dia",
+        "text": "uary",
         "type": "form"
       }
     ],
@@ -13849,19 +13849,19 @@
     ],
     "distractors": [
       {
-        "text": "fort",
+        "text": "ject",
         "type": "form"
       },
       {
-        "text": "hydr",
+        "text": "nat",
         "type": "meaning"
       },
       {
-        "text": "labor",
+        "text": "voc",
         "type": "random"
       },
       {
-        "text": "test",
+        "text": "fac",
         "type": "form"
       }
     ],
@@ -13888,8 +13888,8 @@
     "metaphorMeaningCn": "接受、同意",
     "metaphorOptions": [
       "接受、同意",
-      "替直接的操心",
-      "判断的味道"
+      "替行走操心",
+      "隔一代的味道"
     ],
     "exampleEn": "I accept the offer.",
     "exampleCn": "我接受了报价。",
@@ -13909,19 +13909,19 @@
     ],
     "distractors": [
       {
-        "text": "art",
+        "text": "dis",
         "type": "form"
       },
       {
-        "text": "fer",
+        "text": "per",
         "type": "meaning"
       },
       {
-        "text": "jud",
+        "text": "auto",
         "type": "random"
       },
       {
-        "text": "scrib",
+        "text": "en",
         "type": "form"
       }
     ],
@@ -13968,19 +13968,19 @@
     ],
     "distractors": [
       {
-        "text": "ulum",
+        "text": "test",
         "type": "form"
       },
       {
-        "text": "ury",
+        "text": "migr",
         "type": "meaning"
       },
       {
-        "text": "er",
+        "text": "flu",
         "type": "random"
       },
       {
-        "text": "abul",
+        "text": "sal",
         "type": "form"
       }
     ],
@@ -14032,19 +14032,19 @@
     ],
     "distractors": [
       {
-        "text": "in",
+        "text": "tract",
         "type": "form"
       },
       {
-        "text": "port",
+        "text": "de",
         "type": "meaning"
       },
       {
-        "text": "able",
+        "text": "sub",
         "type": "random"
       },
       {
-        "text": "bio",
+        "text": "uni",
         "type": "form"
       }
     ],
@@ -14071,8 +14071,8 @@
     "metaphorMeaningCn": "容量、能力",
     "metaphorOptions": [
       "容量、能力",
-      "守着转弯过活",
-      "替征服操心"
+      "守着感觉过活",
+      "替转弯操心"
     ],
     "exampleEn": "The bus was filled to capacity.",
     "exampleCn": "這輛公車客滿了。",
@@ -14091,19 +14091,19 @@
     ],
     "distractors": [
       {
-        "text": "graph",
+        "text": "pr",
         "type": "form"
       },
       {
-        "text": "pro",
+        "text": "yester",
         "type": "meaning"
       },
       {
-        "text": "con",
+        "text": "man",
         "type": "random"
       },
       {
-        "text": "cata",
+        "text": "son",
         "type": "form"
       }
     ],
@@ -14150,19 +14150,19 @@
     ],
     "distractors": [
       {
-        "text": "th",
+        "text": "fort",
         "type": "form"
       },
       {
-        "text": "head",
+        "text": "hab",
         "type": "meaning"
       },
       {
-        "text": "ern",
+        "text": "liter",
         "type": "random"
       },
       {
-        "text": "end",
+        "text": "flu",
         "type": "form"
       }
     ],
@@ -14209,19 +14209,19 @@
     ],
     "distractors": [
       {
-        "text": "sur",
+        "text": "per",
         "type": "form"
       },
       {
-        "text": "tele",
+        "text": "ben",
         "type": "meaning"
       },
       {
-        "text": "ball",
+        "text": "photo",
         "type": "random"
       },
       {
-        "text": "man",
+        "text": "ate",
         "type": "form"
       }
     ],
@@ -14269,19 +14269,19 @@
     ],
     "distractors": [
       {
-        "text": "tact",
+        "text": "less",
         "type": "form"
       },
       {
-        "text": "art",
+        "text": "ly",
         "type": "meaning"
       },
       {
-        "text": "cap",
+        "text": "some",
         "type": "random"
       },
       {
-        "text": "jud",
+        "text": "motor",
         "type": "form"
       }
     ],
@@ -14328,19 +14328,19 @@
     ],
     "distractors": [
       {
-        "text": "e",
+        "text": "ing",
         "type": "form"
       },
       {
-        "text": "photo",
+        "text": "mate",
         "type": "meaning"
       },
       {
-        "text": "ation",
+        "text": "son",
         "type": "random"
       },
       {
-        "text": "ary",
+        "text": "work",
         "type": "form"
       }
     ],
@@ -14388,19 +14388,19 @@
     ],
     "distractors": [
       {
-        "text": "ice",
+        "text": "post",
         "type": "form"
       },
       {
-        "text": "enn",
+        "text": "centi",
         "type": "meaning"
       },
       {
-        "text": "ile",
+        "text": "peri",
         "type": "random"
       },
       {
-        "text": "ite",
+        "text": "metro",
         "type": "form"
       }
     ],
@@ -14447,19 +14447,19 @@
     ],
     "distractors": [
       {
-        "text": "line",
+        "text": "pro",
         "type": "form"
       },
       {
-        "text": "any",
+        "text": "con",
         "type": "meaning"
       },
       {
-        "text": "base",
+        "text": "cata",
         "type": "random"
       },
       {
-        "text": "cycle",
+        "text": "ben",
         "type": "form"
       }
     ],
@@ -14511,19 +14511,19 @@
     ],
     "distractors": [
       {
-        "text": "pro",
+        "text": "less",
         "type": "form"
       },
       {
-        "text": "per",
+        "text": "th",
         "type": "meaning"
       },
       {
-        "text": "ben",
+        "text": "work",
         "type": "random"
       },
       {
-        "text": "photo",
+        "text": "ard",
         "type": "form"
       }
     ],
@@ -14571,7 +14571,7 @@
     ],
     "distractors": [
       {
-        "text": "er",
+        "text": "ile",
         "type": "form"
       },
       {
@@ -14579,11 +14579,11 @@
         "type": "meaning"
       },
       {
-        "text": "prim",
+        "text": "pos",
         "type": "random"
       },
       {
-        "text": "fort",
+        "text": "flect",
         "type": "form"
       }
     ],
@@ -14630,19 +14630,19 @@
     ],
     "distractors": [
       {
-        "text": "use",
+        "text": "sept",
         "type": "form"
       },
       {
-        "text": "west",
+        "text": "ing",
         "type": "meaning"
       },
       {
-        "text": "bi",
+        "text": "th",
         "type": "random"
       },
       {
-        "text": "ag",
+        "text": "motor",
         "type": "form"
       }
     ],
@@ -14687,19 +14687,19 @@
     ],
     "distractors": [
       {
-        "text": "ache",
+        "text": "ment",
         "type": "form"
       },
       {
-        "text": "key",
+        "text": "eval",
         "type": "meaning"
       },
       {
-        "text": "take",
+        "text": "ed",
         "type": "random"
       },
       {
-        "text": "book",
+        "text": "age",
         "type": "form"
       }
     ],
@@ -14749,19 +14749,19 @@
     ],
     "distractors": [
       {
-        "text": "opt",
+        "text": "manu",
         "type": "form"
       },
       {
-        "text": "trans",
+        "text": "ition",
         "type": "meaning"
       },
       {
-        "text": "centi",
+        "text": "acy",
         "type": "random"
       },
       {
-        "text": "sym",
+        "text": "izer",
         "type": "form"
       }
     ],
@@ -14788,8 +14788,8 @@
     "metaphorMeaningCn": "媒体、媒介",
     "metaphorOptions": [
       "媒体、媒介",
-      "集合的味道",
-      "相同的背面"
+      "隔一代的味道",
+      "被集合的东西"
     ],
     "exampleEn": "I had otitis media last year.",
     "exampleCn": "我去年得了中耳炎。",
@@ -14803,19 +14803,19 @@
     ],
     "distractors": [
       {
-        "text": "test",
+        "text": "ion",
         "type": "form"
       },
       {
-        "text": "flu",
+        "text": "aud",
         "type": "meaning"
       },
       {
-        "text": "mit",
+        "text": "gen",
         "type": "random"
       },
       {
-        "text": "polit",
+        "text": "mob",
         "type": "form"
       }
     ],
@@ -14858,19 +14858,19 @@
     ],
     "distractors": [
       {
-        "text": "day",
+        "text": "ility",
         "type": "form"
       },
       {
-        "text": "break",
+        "text": "cor",
         "type": "meaning"
       },
       {
-        "text": "car",
+        "text": "pel",
         "type": "random"
       },
       {
-        "text": "position",
+        "text": "equ",
         "type": "form"
       }
     ],
@@ -14913,19 +14913,19 @@
     ],
     "distractors": [
       {
-        "text": "suc",
+        "text": "labor",
         "type": "form"
       },
       {
-        "text": "prise",
+        "text": "liter",
         "type": "meaning"
       },
       {
-        "text": "night",
+        "text": "soci",
         "type": "random"
       },
       {
-        "text": "tues",
+        "text": "sal",
         "type": "form"
       }
     ],
@@ -14968,19 +14968,19 @@
     ],
     "distractors": [
       {
-        "text": "labor",
+        "text": "brush",
         "type": "form"
       },
       {
-        "text": "liter",
+        "text": "water",
         "type": "meaning"
       },
       {
-        "text": "soci",
+        "text": "ab",
         "type": "random"
       },
       {
-        "text": "sal",
+        "text": "dec",
         "type": "form"
       }
     ],
@@ -15007,7 +15007,7 @@
     "metaphorOptions": [
       "千米、公里",
       "土星的地方",
-      "选择的小站"
+      "感觉的小站"
     ],
     "exampleEn": "The nearest village is one kilometre away.",
     "exampleCn": "最近的村庄在一公里之外。",
@@ -15026,19 +15026,19 @@
     ],
     "distractors": [
       {
-        "text": "opt",
+        "text": "rain",
         "type": "form"
       },
       {
-        "text": "un",
+        "text": "turn",
         "type": "meaning"
       },
       {
-        "text": "inter",
+        "text": "south",
         "type": "random"
       },
       {
-        "text": "baro",
+        "text": "ceed",
         "type": "form"
       }
     ],
@@ -15084,19 +15084,19 @@
     ],
     "distractors": [
       {
-        "text": "car",
+        "text": "dec",
         "type": "form"
       },
       {
-        "text": "direct",
+        "text": "mis",
         "type": "meaning"
       },
       {
-        "text": "child",
+        "text": "sept",
         "type": "random"
       },
       {
-        "text": "holy",
+        "text": "ball",
         "type": "form"
       }
     ],
@@ -15143,19 +15143,19 @@
     ],
     "distractors": [
       {
-        "text": "co",
+        "text": "son",
         "type": "form"
       },
       {
-        "text": "tele",
+        "text": "work",
         "type": "meaning"
       },
       {
-        "text": "ing",
+        "text": "ise",
         "type": "random"
       },
       {
-        "text": "ly",
+        "text": "circum",
         "type": "form"
       }
     ],
@@ -15181,8 +15181,8 @@
     "metaphorMeaningCn": "气压计、晴雨表",
     "metaphorOptions": [
       "气压计、晴雨表",
-      "把次级串起来",
-      "游戏的工具"
+      "把朝向串起来",
+      "次级的工具"
     ],
     "exampleEn": "The barometer is an instrument that measures atmospheric pressure, especially used to study climate and to determine altitudes.",
     "exampleCn": "氣壓表是一種用來測量大氣壓力的儀器，主要用於研究氣候和測量高度。",
@@ -15201,19 +15201,19 @@
     ],
     "distractors": [
       {
-        "text": "el",
+        "text": "thurs",
         "type": "form"
       },
       {
-        "text": "ious",
+        "text": "pas",
         "type": "meaning"
       },
       {
-        "text": "itude",
+        "text": "melon",
         "type": "random"
       },
       {
-        "text": "uary",
+        "text": "back",
         "type": "form"
       }
     ],
@@ -15259,19 +15259,19 @@
     ],
     "distractors": [
       {
-        "text": "son",
+        "text": "equ",
         "type": "form"
       },
       {
-        "text": "ern",
+        "text": "labor",
         "type": "meaning"
       },
       {
-        "text": "pre",
+        "text": "liter",
         "type": "random"
       },
       {
-        "text": "port",
+        "text": "soci",
         "type": "form"
       }
     ],
@@ -15297,8 +15297,8 @@
     "metaphorMeaningCn": "公制的、度量的",
     "metaphorOptions": [
       "公制的、度量的",
-      "相信的背面",
-      "灰烬的旧事"
+      "拿取的背面",
+      "相信的旧事"
     ],
     "exampleEn": "This chocolate factory consumes twenty metric tons of raw cocoa per day.",
     "exampleCn": "這座巧克力工廠每一天消耗二十公噸可可原料。",
@@ -15317,19 +15317,19 @@
     ],
     "distractors": [
       {
-        "text": "ile",
+        "text": "sal",
         "type": "form"
       },
       {
-        "text": "cor",
+        "text": "mit",
         "type": "meaning"
       },
       {
-        "text": "flect",
+        "text": "medi",
         "type": "random"
       },
       {
-        "text": "therm",
+        "text": "polit",
         "type": "form"
       }
     ],
@@ -15371,19 +15371,19 @@
     ],
     "distractors": [
       {
-        "text": "fort",
+        "text": "ate",
         "type": "form"
       },
       {
-        "text": "therm",
+        "text": "ure",
         "type": "meaning"
       },
       {
-        "text": "sanct",
+        "text": "s",
         "type": "random"
       },
       {
-        "text": "migr",
+        "text": "ury",
         "type": "form"
       }
     ],
@@ -15428,19 +15428,19 @@
     ],
     "distractors": [
       {
-        "text": "pr",
+        "text": "line",
         "type": "form"
       },
       {
-        "text": "yester",
+        "text": "body",
         "type": "meaning"
       },
       {
-        "text": "man",
+        "text": "base",
         "type": "random"
       },
       {
-        "text": "son",
+        "text": "bed",
         "type": "form"
       }
     ],
@@ -15487,19 +15487,19 @@
     ],
     "distractors": [
       {
-        "text": "ben",
+        "text": "real",
         "type": "form"
       },
       {
-        "text": "para",
+        "text": "saturn",
         "type": "meaning"
       },
       {
-        "text": "dia",
+        "text": "stand",
         "type": "random"
       },
       {
-        "text": "or",
+        "text": "success",
         "type": "form"
       }
     ],
@@ -15546,19 +15546,19 @@
     ],
     "distractors": [
       {
-        "text": "ury",
+        "text": "ing",
         "type": "form"
       },
       {
-        "text": "ile",
+        "text": "ly",
         "type": "meaning"
       },
       {
-        "text": "u",
+        "text": "head",
         "type": "random"
       },
       {
-        "text": "pos",
+        "text": "ise",
         "type": "form"
       }
     ],
@@ -15586,7 +15586,7 @@
     "metaphorOptions": [
       "判断、判决",
       "数着横穿过日子",
-      "疼痛痛的另一面"
+      "拿取的另一面"
     ],
     "exampleEn": "The judgement went against him.",
     "exampleCn": "判决对他不利。",
@@ -15605,19 +15605,19 @@
     ],
     "distractors": [
       {
-        "text": "water",
+        "text": "ob",
         "type": "form"
       },
       {
-        "text": "back",
+        "text": "hypo",
         "type": "meaning"
       },
       {
-        "text": "to",
+        "text": "sym",
         "type": "random"
       },
       {
-        "text": "pr",
+        "text": "ant",
         "type": "form"
       }
     ],
@@ -15669,19 +15669,19 @@
     ],
     "distractors": [
       {
-        "text": "sym",
+        "text": "work",
         "type": "form"
       },
       {
-        "text": "al",
+        "text": "ise",
         "type": "meaning"
       },
       {
-        "text": "id",
+        "text": "circum",
         "type": "random"
       },
       {
-        "text": "ist",
+        "text": "spec",
         "type": "form"
       }
     ],
@@ -15728,19 +15728,19 @@
     ],
     "distractors": [
       {
-        "text": "ary",
+        "text": "ful",
         "type": "form"
       },
       {
-        "text": "ent",
+        "text": "ia",
         "type": "meaning"
       },
       {
-        "text": "ice",
+        "text": "age",
         "type": "random"
       },
       {
-        "text": "ial",
+        "text": "agree",
         "type": "form"
       }
     ],
@@ -15782,19 +15782,19 @@
     ],
     "distractors": [
       {
-        "text": "grat",
+        "text": "foot",
         "type": "form"
       },
       {
-        "text": "liter",
+        "text": "hard",
         "type": "meaning"
       },
       {
-        "text": "mir",
+        "text": "view",
         "type": "random"
       },
       {
-        "text": "tact",
+        "text": "mean",
         "type": "form"
       }
     ],
@@ -15839,19 +15839,19 @@
     ],
     "distractors": [
       {
-        "text": "mean",
+        "text": "son",
         "type": "form"
       },
       {
-        "text": "north",
+        "text": "motor",
         "type": "meaning"
       },
       {
-        "text": "pass",
+        "text": "end",
         "type": "random"
       },
       {
-        "text": "rain",
+        "text": "in",
         "type": "form"
       }
     ],
@@ -15898,19 +15898,19 @@
     ],
     "distractors": [
       {
-        "text": "sept",
+        "text": "opt",
         "type": "form"
       },
       {
-        "text": "ing",
+        "text": "trans",
         "type": "meaning"
       },
       {
-        "text": "th",
+        "text": "hypo",
         "type": "random"
       },
       {
-        "text": "motor",
+        "text": "baro",
         "type": "form"
       }
     ],
@@ -15957,19 +15957,19 @@
     ],
     "distractors": [
       {
-        "text": "plane",
+        "text": "tele",
         "type": "form"
       },
       {
-        "text": "body",
+        "text": "ball",
         "type": "meaning"
       },
       {
-        "text": "bath",
+        "text": "man",
         "type": "random"
       },
       {
-        "text": "birth",
+        "text": "th",
         "type": "form"
       }
     ],
@@ -15997,7 +15997,7 @@
     "metaphorOptions": [
       "保留、储备",
       "被每一的东西",
-      "牙齿的背面"
+      "伙伴的背面"
     ],
     "exampleEn": "I want to reserve a room.",
     "exampleCn": "我想預定一個房間。",
@@ -16016,19 +16016,19 @@
     ],
     "distractors": [
       {
-        "text": "port",
+        "text": "mir",
         "type": "form"
       },
       {
-        "text": "ive",
+        "text": "tact",
         "type": "meaning"
       },
       {
-        "text": "aud",
+        "text": "art",
         "type": "random"
       },
       {
-        "text": "cred",
+        "text": "cap",
         "type": "form"
       }
     ],
@@ -16075,19 +16075,19 @@
     ],
     "distractors": [
       {
-        "text": "therm",
+        "text": "sur",
         "type": "form"
       },
       {
-        "text": "grat",
+        "text": "yester",
         "type": "meaning"
       },
       {
-        "text": "liter",
+        "text": "mate",
         "type": "random"
       },
       {
-        "text": "mir",
+        "text": "head",
         "type": "form"
       }
     ],
@@ -16115,7 +16115,7 @@
     "metaphorOptions": [
       "天文台、观测站",
       "首要的影子",
-      "在这以前的的人"
+      "伙伴的人"
     ],
     "exampleEn": "He built an observatory to study the stars.",
     "exampleCn": "為了觀測星象，他建了一座天文台。",
@@ -16139,19 +16139,19 @@
     ],
     "distractors": [
       {
-        "text": "aud",
+        "text": "melon",
         "type": "form"
       },
       {
-        "text": "gen",
+        "text": "ab",
         "type": "meaning"
       },
       {
-        "text": "mob",
+        "text": "bi",
         "type": "random"
       },
       {
-        "text": "voc",
+        "text": "to",
         "type": "form"
       }
     ],
@@ -16198,19 +16198,19 @@
     ],
     "distractors": [
       {
-        "text": "key",
+        "text": "ten",
         "type": "form"
       },
       {
-        "text": "mean",
+        "text": "brush",
         "type": "meaning"
       },
       {
-        "text": "north",
+        "text": "water",
         "type": "random"
       },
       {
-        "text": "pass",
+        "text": "ab",
         "type": "form"
       }
     ],
@@ -16257,19 +16257,19 @@
     ],
     "distractors": [
       {
-        "text": "centi",
+        "text": "saturn",
         "type": "form"
       },
       {
-        "text": "sym",
+        "text": "stand",
         "type": "meaning"
       },
       {
-        "text": "ition",
+        "text": "success",
         "type": "random"
       },
       {
-        "text": "acle",
+        "text": "vision",
         "type": "form"
       }
     ],
@@ -16315,19 +16315,19 @@
     ],
     "distractors": [
       {
-        "text": "fac",
+        "text": "soci",
         "type": "form"
       },
       {
-        "text": "dis",
+        "text": "sal",
         "type": "meaning"
       },
       {
-        "text": "per",
+        "text": "cap",
         "type": "random"
       },
       {
-        "text": "auto",
+        "text": "jud",
         "type": "form"
       }
     ],
@@ -16374,19 +16374,19 @@
     ],
     "distractors": [
       {
-        "text": "son",
+        "text": "in",
         "type": "form"
       },
       {
-        "text": "work",
+        "text": "ion",
         "type": "meaning"
       },
       {
-        "text": "ise",
+        "text": "bio",
         "type": "random"
       },
       {
-        "text": "circum",
+        "text": "ject",
         "type": "form"
       }
     ],
@@ -16432,19 +16432,19 @@
     ],
     "distractors": [
       {
-        "text": "ic",
+        "text": "uary",
         "type": "form"
       },
       {
-        "text": "ent",
+        "text": "ful",
         "type": "meaning"
       },
       {
-        "text": "ulum",
+        "text": "y",
         "type": "random"
       },
       {
-        "text": "ury",
+        "text": "act",
         "type": "form"
       }
     ],
@@ -16471,8 +16471,8 @@
     "metaphorMeaningCn": "大都市的、首都的",
     "metaphorOptions": [
       "大都市的、首都的",
-      "分离的旧事",
-      "沐浴的来路"
+      "感觉的旧事",
+      "分离的来路"
     ],
     "exampleEn": "Millions of commuters travel within the metropolitan area.",
     "exampleCn": "数百万人在都会区内通勤。",
@@ -16496,19 +16496,19 @@
     ],
     "distractors": [
       {
-        "text": "uni",
+        "text": "en",
         "type": "form"
       },
       {
-        "text": "e",
+        "text": "at",
         "type": "meaning"
       },
       {
-        "text": "photo",
+        "text": "ate",
         "type": "random"
       },
       {
-        "text": "ation",
+        "text": "ic",
         "type": "form"
       }
     ],
@@ -16558,19 +16558,19 @@
     ],
     "distractors": [
       {
-        "text": "work",
+        "text": "birth",
         "type": "form"
       },
       {
-        "text": "ard",
+        "text": "board",
         "type": "meaning"
       },
       {
-        "text": "re",
+        "text": "tain",
         "type": "random"
       },
       {
-        "text": "port",
+        "text": "class",
         "type": "form"
       }
     ],
@@ -16615,19 +16615,19 @@
     ],
     "distractors": [
       {
-        "text": "ety",
+        "text": "ence",
         "type": "form"
       },
       {
-        "text": "ism",
+        "text": "enn",
         "type": "meaning"
       },
       {
-        "text": "ment",
+        "text": "ite",
         "type": "random"
       },
       {
-        "text": "uum",
+        "text": "prim",
         "type": "form"
       }
     ],
@@ -16679,19 +16679,19 @@
     ],
     "distractors": [
       {
-        "text": "peri",
+        "text": "ache",
         "type": "form"
       },
       {
-        "text": "cosmo",
+        "text": "key",
         "type": "meaning"
       },
       {
-        "text": "acy",
+        "text": "take",
         "type": "random"
       },
       {
-        "text": "ine",
+        "text": "book",
         "type": "form"
       }
     ],
@@ -16738,19 +16738,19 @@
     ],
     "distractors": [
       {
-        "text": "tele",
+        "text": "un",
         "type": "form"
       },
       {
-        "text": "man",
+        "text": "kilo",
         "type": "meaning"
       },
       {
-        "text": "head",
+        "text": "cosmo",
         "type": "random"
       },
       {
-        "text": "end",
+        "text": "ify",
         "type": "form"
       }
     ],
@@ -16792,19 +16792,19 @@
     ],
     "distractors": [
       {
-        "text": "cor",
+        "text": "bi",
         "type": "form"
       },
       {
-        "text": "flect",
+        "text": "ag",
         "type": "meaning"
       },
       {
-        "text": "therm",
+        "text": "pr",
         "type": "random"
       },
       {
-        "text": "liter",
+        "text": "yester",
         "type": "form"
       }
     ],
@@ -16848,19 +16848,19 @@
     ],
     "distractors": [
       {
-        "text": "grad",
+        "text": "house",
         "type": "form"
       },
       {
-        "text": "nat",
+        "text": "mean",
         "type": "meaning"
       },
       {
-        "text": "graph",
+        "text": "book",
         "type": "random"
       },
       {
-        "text": "de",
+        "text": "real",
         "type": "form"
       }
     ],
@@ -16904,19 +16904,19 @@
     ],
     "distractors": [
       {
-        "text": "enn",
+        "text": "vers",
         "type": "form"
       },
       {
-        "text": "abul",
+        "text": "tract",
         "type": "meaning"
       },
       {
-        "text": "vinc",
+        "text": "de",
         "type": "random"
       },
       {
-        "text": "flect",
+        "text": "sub",
         "type": "form"
       }
     ],
@@ -16963,19 +16963,19 @@
     ],
     "distractors": [
       {
-        "text": "view",
+        "text": "liter",
         "type": "form"
       },
       {
-        "text": "mean",
+        "text": "tact",
         "type": "meaning"
       },
       {
-        "text": "note",
+        "text": "cap",
         "type": "random"
       },
       {
-        "text": "quest",
+        "text": "polit",
         "type": "form"
       }
     ],
@@ -17003,7 +17003,7 @@
     "metaphorOptions": [
       "事件、大事",
       "平行的背面",
-      "把第一个字母翻开"
+      "把在这以前的翻开"
     ],
     "exampleEn": "We postponed the event.",
     "exampleCn": "我們把活動延期了。",
@@ -17022,19 +17022,19 @@
     ],
     "distractors": [
       {
-        "text": "act",
+        "text": "polit",
         "type": "form"
       },
       {
-        "text": "line",
+        "text": "ad",
         "type": "meaning"
       },
       {
-        "text": "live",
+        "text": "trans",
         "type": "random"
       },
       {
-        "text": "thing",
+        "text": "hypo",
         "type": "form"
       }
     ],
@@ -17081,19 +17081,19 @@
     ],
     "distractors": [
       {
-        "text": "to",
+        "text": "ual",
         "type": "form"
       },
       {
-        "text": "co",
+        "text": "an",
         "type": "meaning"
       },
       {
-        "text": "sept",
+        "text": "agree",
         "type": "random"
       },
       {
-        "text": "yester",
+        "text": "any",
         "type": "form"
       }
     ],
@@ -17121,7 +17121,7 @@
     "metaphorOptions": [
       "冒险、奇遇",
       "数着选择过日子",
-      "任何的任何的地方"
+      "发动机的地方"
     ],
     "exampleEn": "I remember last summer's adventure.",
     "exampleCn": "我记得去年夏天的历险。",
@@ -17140,19 +17140,19 @@
     ],
     "distractors": [
       {
-        "text": "ia",
+        "text": "dia",
         "type": "form"
       },
       {
-        "text": "age",
+        "text": "ary",
         "type": "meaning"
       },
       {
-        "text": "agree",
+        "text": "ent",
         "type": "random"
       },
       {
-        "text": "plane",
+        "text": "ice",
         "type": "form"
       }
     ],
@@ -17204,19 +17204,19 @@
     ],
     "distractors": [
       {
-        "text": "chair",
+        "text": "pr",
         "type": "form"
       },
       {
-        "text": "direct",
+        "text": "ing",
         "type": "meaning"
       },
       {
-        "text": "foot",
+        "text": "son",
         "type": "random"
       },
       {
-        "text": "hard",
+        "text": "ise",
         "type": "form"
       }
     ],
@@ -17268,19 +17268,19 @@
     ],
     "distractors": [
       {
-        "text": "ile",
+        "text": "room",
         "type": "form"
       },
       {
-        "text": "u",
+        "text": "black",
         "type": "meaning"
       },
       {
-        "text": "pos",
+        "text": "car",
         "type": "random"
       },
       {
-        "text": "flect",
+        "text": "direct",
         "type": "form"
       }
     ],
@@ -17327,19 +17327,19 @@
     ],
     "distractors": [
       {
-        "text": "some",
+        "text": "para",
         "type": "form"
       },
       {
-        "text": "motor",
+        "text": "ate",
         "type": "meaning"
       },
       {
-        "text": "ard",
+        "text": "ory",
         "type": "random"
       },
       {
-        "text": "re",
+        "text": "ice",
         "type": "form"
       }
     ],
@@ -17386,19 +17386,19 @@
     ],
     "distractors": [
       {
-        "text": "sanct",
+        "text": "lead",
         "type": "form"
       },
       {
-        "text": "migr",
+        "text": "take",
         "type": "meaning"
       },
       {
-        "text": "tact",
+        "text": "note",
         "type": "random"
       },
       {
-        "text": "phys",
+        "text": "play",
         "type": "form"
       }
     ],
@@ -17445,19 +17445,19 @@
     ],
     "distractors": [
       {
-        "text": "ment",
+        "text": "ism",
         "type": "form"
       },
       {
-        "text": "eval",
+        "text": "ment",
         "type": "meaning"
       },
       {
-        "text": "ed",
+        "text": "uum",
         "type": "random"
       },
       {
-        "text": "age",
+        "text": "ful",
         "type": "form"
       }
     ],
@@ -17485,7 +17485,7 @@
     "metaphorOptions": [
       "乐观、乐观主义",
       "一种平等的习俗",
-      "抓取的一角"
+      "工作的一角"
     ],
     "exampleEn": "Her optimism kept the whole team going.",
     "exampleCn": "她的乐观让整个团队坚持了下去。",
@@ -17504,19 +17504,19 @@
     ],
     "distractors": [
       {
-        "text": "cosmo",
+        "text": "ful",
         "type": "form"
       },
       {
-        "text": "al",
+        "text": "an",
         "type": "meaning"
       },
       {
-        "text": "ify",
+        "text": "air",
         "type": "random"
       },
       {
-        "text": "id",
+        "text": "thing",
         "type": "form"
       }
     ],
@@ -17540,7 +17540,7 @@
     "metaphorOptions": [
       "乐观者、乐天派",
       "守着游戏过活",
-      "跨越的地方"
+      "跨越的来路"
     ],
     "exampleEn": "I'm an optimist by nature.",
     "exampleCn": "我生性樂觀。",
@@ -17559,19 +17559,19 @@
     ],
     "distractors": [
       {
-        "text": "under",
+        "text": "hand",
         "type": "form"
       },
       {
-        "text": "ly",
+        "text": "ache",
         "type": "meaning"
       },
       {
-        "text": "ern",
+        "text": "view",
         "type": "random"
       },
       {
-        "text": "in",
+        "text": "life",
         "type": "form"
       }
     ],
@@ -17621,19 +17621,19 @@
     ],
     "distractors": [
       {
-        "text": "en",
+        "text": "pr",
         "type": "form"
       },
       {
-        "text": "at",
+        "text": "ball",
         "type": "meaning"
       },
       {
-        "text": "ate",
+        "text": "ly",
         "type": "random"
       },
       {
-        "text": "ure",
+        "text": "work",
         "type": "form"
       }
     ],
@@ -17680,19 +17680,19 @@
     ],
     "distractors": [
       {
-        "text": "pas",
+        "text": "cap",
         "type": "form"
       },
       {
-        "text": "water",
+        "text": "serv",
         "type": "meaning"
       },
       {
-        "text": "west",
+        "text": "ad",
         "type": "random"
       },
       {
-        "text": "bi",
+        "text": "inter",
         "type": "form"
       }
     ],
@@ -17732,19 +17732,19 @@
     ],
     "distractors": [
       {
-        "text": "pos",
+        "text": "ag",
         "type": "form"
       },
       {
-        "text": "flect",
+        "text": "sur",
         "type": "meaning"
       },
       {
-        "text": "equ",
+        "text": "under",
         "type": "random"
       },
       {
-        "text": "labor",
+        "text": "ing",
         "type": "form"
       }
     ],
@@ -17784,19 +17784,19 @@
     ],
     "distractors": [
       {
-        "text": "ceed",
+        "text": "id",
         "type": "form"
       },
       {
-        "text": "ten",
+        "text": "ious",
         "type": "meaning"
       },
       {
-        "text": "pas",
+        "text": "ment",
         "type": "random"
       },
       {
-        "text": "week",
+        "text": "eval",
         "type": "form"
       }
     ],
@@ -17824,7 +17824,7 @@
     "metaphorOptions": [
       "活跃的、积极的",
       "同意的影子",
-      "刷子的人"
+      "伙伴的人"
     ],
     "exampleEn": "David is very active.",
     "exampleCn": "大衛很活躍。",
@@ -17843,19 +17843,19 @@
     ],
     "distractors": [
       {
-        "text": "ress",
+        "text": "tues",
         "type": "form"
       },
       {
-        "text": "eval",
+        "text": "melon",
         "type": "meaning"
       },
       {
-        "text": "ual",
+        "text": "ab",
         "type": "random"
       },
       {
-        "text": "y",
+        "text": "bi",
         "type": "form"
       }
     ],
@@ -17898,19 +17898,19 @@
     ],
     "distractors": [
       {
-        "text": "pend",
+        "text": "tooth",
         "type": "form"
       },
       {
-        "text": "tract",
+        "text": "water",
         "type": "meaning"
       },
       {
-        "text": "dis",
+        "text": "back",
         "type": "random"
       },
       {
-        "text": "cata",
+        "text": "to",
         "type": "form"
       }
     ],
@@ -17919,7 +17919,7 @@
       "judgement"
     ],
     "sourceNote": "古法语 agreement，源自 agreer(使满意)",
-    "mnemonicNote": "agree(同意)+ment(名词后缀)"
+    "mnemonicNote": "agree(赞同)+ment(名词后缀)"
   },
   {
     "id": "airline",
@@ -17951,19 +17951,19 @@
     ],
     "distractors": [
       {
-        "text": "ation",
+        "text": "inter",
         "type": "form"
       },
       {
-        "text": "ary",
+        "text": "kilo",
         "type": "meaning"
       },
       {
-        "text": "ory",
+        "text": "sym",
         "type": "random"
       },
       {
-        "text": "s",
+        "text": "cosmo",
         "type": "form"
       }
     ],
@@ -18004,19 +18004,19 @@
     ],
     "distractors": [
       {
-        "text": "tele",
+        "text": "ate",
         "type": "form"
       },
       {
-        "text": "ing",
+        "text": "ic",
         "type": "meaning"
       },
       {
-        "text": "ly",
+        "text": "ent",
         "type": "random"
       },
       {
-        "text": "head",
+        "text": "ulum",
         "type": "form"
       }
     ],
@@ -18057,19 +18057,19 @@
     ],
     "distractors": [
       {
-        "text": "ition",
+        "text": "ceive",
         "type": "form"
       },
       {
-        "text": "ify",
+        "text": "south",
         "type": "meaning"
       },
       {
-        "text": "ety",
+        "text": "success",
         "type": "random"
       },
       {
-        "text": "itude",
+        "text": "ten",
         "type": "form"
       }
     ],
@@ -18084,56 +18084,6 @@
     ],
     "sourceNote": "20 世纪航空术语，仿 seaport(海港) 造出",
     "mnemonicNote": "air(空气)+port(港口)：飞机停靠的港口"
-  },
-  {
-    "id": "alive",
-    "word": "alive",
-    "phonetic": "/ә'laiv/",
-    "partOfSpeech": "adj.",
-    "modernMeaningCn": "活着的",
-    "literalMeaningCn": "在生命之中",
-    "metaphorMeaningCn": "活着的、有活力的",
-    "metaphorOptions": [
-      "活着的、有活力的",
-      "检验的来路",
-      "出生的旧事"
-    ],
-    "exampleEn": "Every dog is alive.",
-    "exampleCn": "每条狗都活着。",
-    "difficulty": 1,
-    "parts": [
-      {
-        "morphemeId": "a",
-        "surface": "a",
-        "position": 0
-      },
-      {
-        "morphemeId": "life",
-        "surface": "live",
-        "position": 1
-      }
-    ],
-    "distractors": [
-      {
-        "text": "liter",
-        "type": "form"
-      },
-      {
-        "text": "mir",
-        "type": "meaning"
-      },
-      {
-        "text": "tact",
-        "type": "random"
-      },
-      {
-        "text": "art",
-        "type": "form"
-      }
-    ],
-    "familyWordIds": [],
-    "sourceNote": "古英语 on life，字面就是「在生命里」",
-    "mnemonicNote": "a(在…之中)+live(生命)：还在生命的范围里"
   },
   {
     "id": "anybody",
@@ -18165,19 +18115,19 @@
     ],
     "distractors": [
       {
-        "text": "success",
+        "text": "liter",
         "type": "form"
       },
       {
-        "text": "night",
+        "text": "soci",
         "type": "meaning"
       },
       {
-        "text": "water",
+        "text": "sal",
         "type": "random"
       },
       {
-        "text": "com",
+        "text": "cap",
         "type": "form"
       }
     ],
@@ -18219,19 +18169,19 @@
     ],
     "distractors": [
       {
-        "text": "tooth",
+        "text": "turn",
         "type": "form"
       },
       {
-        "text": "tues",
+        "text": "suc",
         "type": "meaning"
       },
       {
-        "text": "melon",
+        "text": "vision",
         "type": "random"
       },
       {
-        "text": "ab",
+        "text": "brush",
         "type": "form"
       }
     ],
@@ -18274,19 +18224,19 @@
     ],
     "distractors": [
       {
-        "text": "less",
+        "text": "any",
         "type": "form"
       },
       {
-        "text": "ly",
+        "text": "base",
         "type": "meaning"
       },
       {
-        "text": "head",
+        "text": "bed",
         "type": "random"
       },
       {
-        "text": "ern",
+        "text": "day",
         "type": "form"
       }
     ],
@@ -18329,19 +18279,19 @@
     ],
     "distractors": [
       {
-        "text": "bed",
+        "text": "ress",
         "type": "form"
       },
       {
-        "text": "day",
+        "text": "ful",
         "type": "meaning"
       },
       {
-        "text": "break",
+        "text": "an",
         "type": "random"
       },
       {
-        "text": "car",
+        "text": "air",
         "type": "form"
       }
     ],
@@ -18383,19 +18333,19 @@
     ],
     "distractors": [
       {
-        "text": "end",
+        "text": "spec",
         "type": "form"
       },
       {
-        "text": "in",
+        "text": "able",
         "type": "meaning"
       },
       {
-        "text": "vid",
+        "text": "gen",
         "type": "random"
       },
       {
-        "text": "ity",
+        "text": "pend",
         "type": "form"
       }
     ],
@@ -18438,19 +18388,19 @@
     ],
     "distractors": [
       {
-        "text": "ation",
+        "text": "holy",
         "type": "form"
       },
       {
-        "text": "ure",
+        "text": "life",
         "type": "meaning"
       },
       {
-        "text": "ulum",
+        "text": "note",
         "type": "random"
       },
       {
-        "text": "ial",
+        "text": "rain",
         "type": "form"
       }
     ],
@@ -18476,8 +18426,8 @@
       "母亲的背面",
       "南方的旧事"
     ],
-    "exampleEn": "Tom has a veterinary background.",
-    "exampleCn": "Tom有獸醫背景。",
+    "exampleEn": "He has a background in medicine.",
+    "exampleCn": "他有医学背景。",
     "difficulty": 1,
     "parts": [
       {
@@ -18493,19 +18443,19 @@
     ],
     "distractors": [
       {
-        "text": "under",
+        "text": "er",
         "type": "form"
       },
       {
-        "text": "man",
+        "text": "ite",
         "type": "meaning"
       },
       {
-        "text": "some",
+        "text": "vinc",
         "type": "random"
       },
       {
-        "text": "ise",
+        "text": "pel",
         "type": "form"
       }
     ],
@@ -18546,19 +18496,19 @@
     ],
     "distractors": [
       {
-        "text": "vid",
+        "text": "y",
         "type": "form"
       },
       {
-        "text": "ity",
+        "text": "sent",
         "type": "meaning"
       },
       {
-        "text": "cred",
+        "text": "air",
         "type": "random"
       },
       {
-        "text": "log",
+        "text": "any",
         "type": "form"
       }
     ],
@@ -18599,19 +18549,19 @@
     ],
     "distractors": [
       {
-        "text": "black",
+        "text": "lev",
         "type": "form"
       },
       {
-        "text": "tain",
+        "text": "flu",
         "type": "meaning"
       },
       {
-        "text": "position",
+        "text": "art",
         "type": "random"
       },
       {
-        "text": "draw",
+        "text": "fer",
         "type": "form"
       }
     ],
@@ -18653,19 +18603,19 @@
     ],
     "distractors": [
       {
-        "text": "north",
+        "text": "real",
         "type": "form"
       },
       {
-        "text": "pass",
+        "text": "sea",
         "type": "meaning"
       },
       {
-        "text": "rain",
+        "text": "ceed",
         "type": "random"
       },
       {
-        "text": "turn",
+        "text": "vision",
         "type": "form"
       }
     ],
@@ -18706,19 +18656,19 @@
     ],
     "distractors": [
       {
-        "text": "bi",
+        "text": "uum",
         "type": "form"
       },
       {
-        "text": "co",
+        "text": "ed",
         "type": "meaning"
       },
       {
-        "text": "yester",
+        "text": "sent",
         "type": "random"
       },
       {
-        "text": "ly",
+        "text": "plane",
         "type": "form"
       }
     ],
@@ -18745,8 +18695,8 @@
     "metaphorMeaningCn": "浴室、卫生间",
     "metaphorOptions": [
       "浴室、卫生间",
-      "数着经星期四过日子",
-      "声音的工具"
+      "数着感觉过日子",
+      "经星期四的工具"
     ],
     "exampleEn": "Where is the bathroom?",
     "exampleCn": "洗手間在哪裡？",
@@ -18765,19 +18715,19 @@
     ],
     "distractors": [
       {
-        "text": "every",
+        "text": "migr",
         "type": "form"
       },
       {
-        "text": "bag",
+        "text": "nov",
         "type": "meaning"
       },
       {
-        "text": "house",
+        "text": "cap",
         "type": "random"
       },
       {
-        "text": "life",
+        "text": "serv",
         "type": "form"
       }
     ],
@@ -18818,19 +18768,19 @@
     ],
     "distractors": [
       {
-        "text": "ment",
+        "text": "ob",
         "type": "form"
       },
       {
-        "text": "uum",
+        "text": "post",
         "type": "meaning"
       },
       {
-        "text": "ful",
+        "text": "centi",
         "type": "random"
       },
       {
-        "text": "ia",
+        "text": "peri",
         "type": "form"
       }
     ],
@@ -18871,19 +18821,19 @@
     ],
     "distractors": [
       {
-        "text": "de",
+        "text": "spec",
         "type": "form"
       },
       {
-        "text": "per",
+        "text": "ion",
         "type": "meaning"
       },
       {
-        "text": "ben",
+        "text": "aud",
         "type": "random"
       },
       {
-        "text": "photo",
+        "text": "gen",
         "type": "form"
       }
     ],
@@ -18925,19 +18875,19 @@
     ],
     "distractors": [
       {
-        "text": "pre",
+        "text": "ulum",
         "type": "form"
       },
       {
-        "text": "spec",
+        "text": "ury",
         "type": "meaning"
       },
       {
-        "text": "vid",
+        "text": "er",
         "type": "random"
       },
       {
-        "text": "able",
+        "text": "abul",
         "type": "form"
       }
     ],
@@ -18977,19 +18927,19 @@
     ],
     "distractors": [
       {
-        "text": "melon",
+        "text": "sea",
         "type": "form"
       },
       {
-        "text": "bi",
+        "text": "ceed",
         "type": "meaning"
       },
       {
-        "text": "co",
+        "text": "vision",
         "type": "random"
       },
       {
-        "text": "yester",
+        "text": "tooth",
         "type": "form"
       }
     ],
@@ -19029,19 +18979,19 @@
     ],
     "distractors": [
       {
-        "text": "ety",
+        "text": "medi",
         "type": "form"
       },
       {
-        "text": "ress",
+        "text": "polit",
         "type": "meaning"
       },
       {
-        "text": "ed",
+        "text": "ad",
         "type": "random"
       },
       {
-        "text": "agree",
+        "text": "post",
         "type": "form"
       }
     ],
@@ -19088,19 +19038,19 @@
     ],
     "distractors": [
       {
-        "text": "brush",
+        "text": "south",
         "type": "form"
       },
       {
-        "text": "use",
+        "text": "sun",
         "type": "meaning"
       },
       {
-        "text": "week",
+        "text": "night",
         "type": "random"
       },
       {
-        "text": "back",
+        "text": "use",
         "type": "form"
       }
     ],
@@ -19147,19 +19097,19 @@
     ],
     "distractors": [
       {
-        "text": "less",
+        "text": "under",
         "type": "form"
       },
       {
-        "text": "ly",
+        "text": "less",
         "type": "meaning"
       },
       {
-        "text": "some",
+        "text": "th",
         "type": "random"
       },
       {
-        "text": "motor",
+        "text": "work",
         "type": "form"
       }
     ],
@@ -19206,19 +19156,19 @@
     ],
     "distractors": [
       {
-        "text": "spec",
+        "text": "th",
         "type": "form"
       },
       {
-        "text": "ion",
+        "text": "motor",
         "type": "meaning"
       },
       {
-        "text": "aud",
+        "text": "circum",
         "type": "random"
       },
       {
-        "text": "gen",
+        "text": "dict",
         "type": "form"
       }
     ],
@@ -19265,19 +19215,19 @@
     ],
     "distractors": [
       {
-        "text": "lev",
+        "text": "ache",
         "type": "form"
       },
       {
-        "text": "flu",
+        "text": "view",
         "type": "meaning"
       },
       {
-        "text": "art",
+        "text": "life",
         "type": "random"
       },
       {
-        "text": "fer",
+        "text": "north",
         "type": "form"
       }
     ],
@@ -19324,19 +19274,19 @@
     ],
     "distractors": [
       {
-        "text": "scrib",
+        "text": "grat",
         "type": "form"
       },
       {
-        "text": "ob",
+        "text": "migr",
         "type": "meaning"
       },
       {
-        "text": "inter",
+        "text": "nov",
         "type": "random"
       },
       {
-        "text": "baro",
+        "text": "cap",
         "type": "form"
       }
     ],
@@ -19363,8 +19313,8 @@
     "metaphorMeaningCn": "星期日",
     "metaphorOptions": [
       "星期日",
-      "替连接元音操心",
-      "离事物很远"
+      "替感觉操心",
+      "离连接元音很远"
     ],
     "exampleEn": "Keep next Sunday free.",
     "exampleCn": "把下周日空出来。",
@@ -19383,19 +19333,19 @@
     ],
     "distractors": [
       {
-        "text": "para",
+        "text": "labor",
         "type": "form"
       },
       {
-        "text": "ation",
+        "text": "test",
         "type": "meaning"
       },
       {
-        "text": "ic",
+        "text": "migr",
         "type": "random"
       },
       {
-        "text": "ence",
+        "text": "flu",
         "type": "form"
       }
     ],
@@ -19442,19 +19392,19 @@
     ],
     "distractors": [
       {
-        "text": "ian",
+        "text": "or",
         "type": "form"
       },
       {
-        "text": "uum",
+        "text": "ory",
         "type": "meaning"
       },
       {
-        "text": "an",
+        "text": "ulum",
         "type": "random"
       },
       {
-        "text": "a",
+        "text": "enn",
         "type": "form"
       }
     ],
@@ -19501,19 +19451,19 @@
     ],
     "distractors": [
       {
-        "text": "ility",
+        "text": "cycle",
         "type": "form"
       },
       {
-        "text": "pos",
+        "text": "board",
         "type": "meaning"
       },
       {
-        "text": "fus",
+        "text": "tain",
         "type": "random"
       },
       {
-        "text": "sanct",
+        "text": "class",
         "type": "form"
       }
     ],
@@ -19540,8 +19490,8 @@
     "metaphorMeaningCn": "星期二",
     "metaphorOptions": [
       "星期二",
-      "围着向外转",
-      "向着使进入去"
+      "围着寻求转",
+      "向着向外去"
     ],
     "exampleEn": "My ultrasound's on Tuesday.",
     "exampleCn": "我的超音波檢查在週二。",
@@ -19560,19 +19510,19 @@
     ],
     "distractors": [
       {
-        "text": "co",
+        "text": "ad",
         "type": "form"
       },
       {
-        "text": "sept",
+        "text": "trans",
         "type": "meaning"
       },
       {
-        "text": "yester",
+        "text": "hypo",
         "type": "random"
       },
       {
-        "text": "less",
+        "text": "baro",
         "type": "form"
       }
     ],
@@ -19619,19 +19569,19 @@
     ],
     "distractors": [
       {
-        "text": "ite",
+        "text": "ice",
         "type": "form"
       },
       {
-        "text": "vinc",
+        "text": "enn",
         "type": "meaning"
       },
       {
-        "text": "pel",
+        "text": "ile",
         "type": "random"
       },
       {
-        "text": "fus",
+        "text": "ite",
         "type": "form"
       }
     ],
@@ -19678,19 +19628,19 @@
     ],
     "distractors": [
       {
-        "text": "vers",
+        "text": "grad",
         "type": "form"
       },
       {
-        "text": "tract",
+        "text": "mob",
         "type": "meaning"
       },
       {
-        "text": "de",
+        "text": "vers",
         "type": "random"
       },
       {
-        "text": "sub",
+        "text": "tract",
         "type": "form"
       }
     ],
@@ -19737,19 +19687,19 @@
     ],
     "distractors": [
       {
-        "text": "dec",
+        "text": "rain",
         "type": "form"
       },
       {
-        "text": "pr",
+        "text": "sea",
         "type": "meaning"
       },
       {
-        "text": "less",
+        "text": "success",
         "type": "random"
       },
       {
-        "text": "head",
+        "text": "thurs",
         "type": "form"
       }
     ],
@@ -19789,19 +19739,19 @@
     ],
     "distractors": [
       {
-        "text": "pos",
+        "text": "vac",
         "type": "form"
       },
       {
-        "text": "pel",
+        "text": "fus",
         "type": "meaning"
       },
       {
-        "text": "fort",
+        "text": "labor",
         "type": "random"
       },
       {
-        "text": "hydr",
+        "text": "lev",
         "type": "form"
       }
     ],
@@ -19841,19 +19791,19 @@
     ],
     "distractors": [
       {
-        "text": "position",
+        "text": "ury",
         "type": "form"
       },
       {
-        "text": "cover",
+        "text": "ite",
         "type": "meaning"
       },
       {
-        "text": "foot",
+        "text": "vac",
         "type": "random"
       },
       {
-        "text": "bag",
+        "text": "hydr",
         "type": "form"
       }
     ],
@@ -19891,11 +19841,11 @@
     ],
     "distractors": [
       {
-        "text": "auto",
+        "text": "cata",
         "type": "form"
       },
       {
-        "text": "para",
+        "text": "en",
         "type": "meaning"
       },
       {
@@ -19903,7 +19853,7 @@
         "type": "random"
       },
       {
-        "text": "ic",
+        "text": "ure",
         "type": "form"
       }
     ],
@@ -19950,19 +19900,19 @@
     ],
     "distractors": [
       {
-        "text": "dict",
+        "text": "ious",
         "type": "form"
       },
       {
-        "text": "able",
+        "text": "ment",
         "type": "meaning"
       },
       {
-        "text": "cred",
+        "text": "eval",
         "type": "random"
       },
       {
-        "text": "mob",
+        "text": "ia",
         "type": "form"
       }
     ],
@@ -20005,19 +19955,19 @@
     ],
     "distractors": [
       {
-        "text": "bi",
+        "text": "y",
         "type": "form"
       },
       {
-        "text": "co",
+        "text": "agree",
         "type": "meaning"
       },
       {
-        "text": "yester",
+        "text": "body",
         "type": "random"
       },
       {
-        "text": "th",
+        "text": "room",
         "type": "form"
       }
     ],
@@ -20057,19 +20007,19 @@
     ],
     "distractors": [
       {
-        "text": "view",
+        "text": "itude",
         "type": "form"
       },
       {
-        "text": "take",
+        "text": "uum",
         "type": "meaning"
       },
       {
-        "text": "pass",
+        "text": "ual",
         "type": "random"
       },
       {
-        "text": "ceive",
+        "text": "an",
         "type": "form"
       }
     ],
@@ -20107,19 +20057,19 @@
     ],
     "distractors": [
       {
-        "text": "plane",
+        "text": "metro",
         "type": "form"
       },
       {
-        "text": "thing",
+        "text": "al",
         "type": "meaning"
       },
       {
-        "text": "bed",
+        "text": "izer",
         "type": "random"
       },
       {
-        "text": "board",
+        "text": "ety",
         "type": "form"
       }
     ],
@@ -20159,19 +20109,19 @@
     ],
     "distractors": [
       {
-        "text": "life",
+        "text": "graph",
         "type": "form"
       },
       {
-        "text": "moon",
+        "text": "pro",
         "type": "meaning"
       },
       {
-        "text": "book",
+        "text": "con",
         "type": "random"
       },
       {
-        "text": "quest",
+        "text": "cata",
         "type": "form"
       }
     ],
@@ -20209,19 +20159,19 @@
     ],
     "distractors": [
       {
-        "text": "cent",
+        "text": "board",
         "type": "form"
       },
       {
-        "text": "grad",
+        "text": "tain",
         "type": "meaning"
       },
       {
-        "text": "mob",
+        "text": "class",
         "type": "random"
       },
       {
-        "text": "vers",
+        "text": "cover",
         "type": "form"
       }
     ],
@@ -20262,19 +20212,19 @@
     ],
     "distractors": [
       {
-        "text": "an",
+        "text": "trans",
         "type": "form"
       },
       {
-        "text": "agree",
+        "text": "hypo",
         "type": "meaning"
       },
       {
-        "text": "a",
+        "text": "baro",
         "type": "random"
       },
       {
-        "text": "thing",
+        "text": "manu",
         "type": "form"
       }
     ],
@@ -20320,19 +20270,19 @@
     ],
     "distractors": [
       {
-        "text": "vision",
+        "text": "break",
         "type": "form"
       },
       {
-        "text": "night",
+        "text": "chair",
         "type": "meaning"
       },
       {
-        "text": "pas",
+        "text": "cover",
         "type": "random"
       },
       {
-        "text": "water",
+        "text": "child",
         "type": "form"
       }
     ],
@@ -20373,19 +20323,19 @@
     ],
     "distractors": [
       {
-        "text": "ite",
+        "text": "black",
         "type": "form"
       },
       {
-        "text": "pos",
+        "text": "fast",
         "type": "meaning"
       },
       {
-        "text": "form",
+        "text": "chair",
         "type": "random"
       },
       {
-        "text": "therm",
+        "text": "ember",
         "type": "form"
       }
     ],
@@ -20432,19 +20382,19 @@
     ],
     "distractors": [
       {
-        "text": "fac",
+        "text": "metr",
         "type": "form"
       },
       {
-        "text": "con",
+        "text": "ven",
         "type": "meaning"
       },
       {
-        "text": "uni",
+        "text": "trans",
         "type": "random"
       },
       {
-        "text": "en",
+        "text": "kilo",
         "type": "form"
       }
     ],
@@ -20490,19 +20440,19 @@
     ],
     "distractors": [
       {
-        "text": "south",
+        "text": "hydr",
         "type": "form"
       },
       {
-        "text": "ceed",
+        "text": "sanct",
         "type": "meaning"
       },
       {
-        "text": "prise",
+        "text": "mir",
         "type": "random"
       },
       {
-        "text": "thurs",
+        "text": "sal",
         "type": "form"
       }
     ],
@@ -20545,19 +20495,19 @@
     ],
     "distractors": [
       {
-        "text": "lev",
+        "text": "baro",
         "type": "form"
       },
       {
-        "text": "soci",
+        "text": "metro",
         "type": "meaning"
       },
       {
-        "text": "nov",
+        "text": "al",
         "type": "random"
       },
       {
-        "text": "phys",
+        "text": "izer",
         "type": "form"
       }
     ],
@@ -20601,19 +20551,19 @@
     ],
     "distractors": [
       {
-        "text": "vers",
+        "text": "end",
         "type": "form"
       },
       {
-        "text": "fac",
+        "text": "in",
         "type": "meaning"
       },
       {
-        "text": "con",
+        "text": "vid",
         "type": "random"
       },
       {
-        "text": "uni",
+        "text": "ity",
         "type": "form"
       }
     ],
@@ -20633,8 +20583,8 @@
     "metaphorMeaningCn": "孙辈、孙儿",
     "metaphorOptions": [
       "孙辈、孙儿",
-      "把声音串起来",
-      "围着文字转"
+      "把行动串起来",
+      "围着声音转"
     ],
     "exampleEn": "She is taking care of her grandchild.",
     "exampleCn": "她在照看她的孙辈。",
@@ -20653,19 +20603,19 @@
     ],
     "distractors": [
       {
-        "text": "polit",
+        "text": "ation",
         "type": "form"
       },
       {
-        "text": "ad",
+        "text": "ure",
         "type": "meaning"
       },
       {
-        "text": "post",
+        "text": "ulum",
         "type": "random"
       },
       {
-        "text": "kilo",
+        "text": "ial",
         "type": "form"
       }
     ],
@@ -20703,19 +20653,19 @@
     ],
     "distractors": [
       {
-        "text": "base",
+        "text": "ury",
         "type": "form"
       },
       {
-        "text": "bed",
+        "text": "ile",
         "type": "meaning"
       },
       {
-        "text": "day",
+        "text": "u",
         "type": "random"
       },
       {
-        "text": "break",
+        "text": "pos",
         "type": "form"
       }
     ],
@@ -20735,8 +20685,8 @@
     "metaphorMeaningCn": "英俊的、可观的",
     "metaphorOptions": [
       "英俊的、可观的",
-      "围着希腊词尾转",
-      "向着悬挂去"
+      "围着拿取转",
+      "向着希腊词尾去"
     ],
     "exampleEn": "He is tremendously handsome.",
     "exampleCn": "他极其英俊。",
@@ -20755,19 +20705,19 @@
     ],
     "distractors": [
       {
-        "text": "ten",
+        "text": "fer",
         "type": "form"
       },
       {
-        "text": "brush",
+        "text": "scrib",
         "type": "meaning"
       },
       {
-        "text": "water",
+        "text": "trans",
         "type": "random"
       },
       {
-        "text": "ab",
+        "text": "baro",
         "type": "form"
       }
     ],
@@ -20809,19 +20759,19 @@
     ],
     "distractors": [
       {
-        "text": "chair",
+        "text": "pas",
         "type": "form"
       },
       {
-        "text": "direct",
+        "text": "water",
         "type": "meaning"
       },
       {
-        "text": "foot",
+        "text": "west",
         "type": "random"
       },
       {
-        "text": "ache",
+        "text": "com",
         "type": "form"
       }
     ],
@@ -20862,19 +20812,19 @@
     ],
     "distractors": [
       {
-        "text": "prim",
+        "text": "an",
         "type": "form"
       },
       {
-        "text": "form",
+        "text": "air",
         "type": "meaning"
       },
       {
-        "text": "hydr",
+        "text": "thing",
         "type": "random"
       },
       {
-        "text": "grat",
+        "text": "bed",
         "type": "form"
       }
     ],
@@ -20914,19 +20864,19 @@
     ],
     "distractors": [
       {
-        "text": "eval",
+        "text": "turn",
         "type": "form"
       },
       {
-        "text": "ed",
+        "text": "suc",
         "type": "meaning"
       },
       {
-        "text": "age",
+        "text": "vision",
         "type": "random"
       },
       {
-        "text": "air",
+        "text": "pas",
         "type": "form"
       }
     ],
@@ -20968,19 +20918,19 @@
     ],
     "distractors": [
       {
-        "text": "equ",
+        "text": "dict",
         "type": "form"
       },
       {
-        "text": "hab",
+        "text": "aud",
         "type": "meaning"
       },
       {
-        "text": "sanct",
+        "text": "log",
         "type": "random"
       },
       {
-        "text": "lev",
+        "text": "tract",
         "type": "form"
       }
     ],
@@ -21018,19 +20968,19 @@
     ],
     "distractors": [
       {
-        "text": "yester",
+        "text": "pend",
         "type": "form"
       },
       {
-        "text": "ly",
+        "text": "tract",
         "type": "meaning"
       },
       {
-        "text": "motor",
+        "text": "dis",
         "type": "random"
       },
       {
-        "text": "pre",
+        "text": "cata",
         "type": "form"
       }
     ],
@@ -21051,8 +21001,8 @@
     "metaphorMeaningCn": "复习、评论",
     "metaphorOptions": [
       "复习、评论",
-      "位置的过程",
-      "向着产生去"
+      "工作的过程",
+      "向着位置去"
     ],
     "exampleEn": "I'll keep the meeting notes to review them before the next session.",
     "exampleCn": "我會記會議筆記，下次會議前可以回顧一下。",
@@ -21071,19 +21021,19 @@
     ],
     "distractors": [
       {
-        "text": "house",
+        "text": "ion",
         "type": "form"
       },
       {
-        "text": "life",
+        "text": "ity",
         "type": "meaning"
       },
       {
-        "text": "moon",
+        "text": "cent",
         "type": "random"
       },
       {
-        "text": "book",
+        "text": "grad",
         "type": "form"
       }
     ],
@@ -21130,19 +21080,19 @@
     ],
     "distractors": [
       {
-        "text": "serv",
+        "text": "art",
         "type": "form"
       },
       {
-        "text": "ad",
+        "text": "cap",
         "type": "meaning"
       },
       {
-        "text": "inter",
+        "text": "metr",
         "type": "random"
       },
       {
-        "text": "peri",
+        "text": "polit",
         "type": "form"
       }
     ],
@@ -21186,19 +21136,19 @@
     ],
     "distractors": [
       {
-        "text": "ify",
+        "text": "id",
         "type": "form"
       },
       {
-        "text": "ety",
+        "text": "ian",
         "type": "meaning"
       },
       {
-        "text": "itude",
+        "text": "ist",
         "type": "random"
       },
       {
-        "text": "eval",
+        "text": "ress",
         "type": "form"
       }
     ],
@@ -21236,19 +21186,19 @@
     ],
     "distractors": [
       {
-        "text": "cap",
+        "text": "melon",
         "type": "form"
       },
       {
-        "text": "metr",
+        "text": "back",
         "type": "meaning"
       },
       {
-        "text": "polit",
+        "text": "grand",
         "type": "random"
       },
       {
-        "text": "opt",
+        "text": "sur",
         "type": "form"
       }
     ],
@@ -21286,19 +21236,19 @@
     ],
     "distractors": [
       {
-        "text": "ard",
+        "text": "ceive",
         "type": "form"
       },
       {
-        "text": "re",
+        "text": "sea",
         "type": "meaning"
       },
       {
-        "text": "port",
+        "text": "suc",
         "type": "random"
       },
       {
-        "text": "able",
+        "text": "sun",
         "type": "form"
       }
     ],
@@ -21339,19 +21289,19 @@
     ],
     "distractors": [
       {
-        "text": "son",
+        "text": "para",
         "type": "form"
       },
       {
-        "text": "ise",
+        "text": "ation",
         "type": "meaning"
       },
       {
-        "text": "in",
+        "text": "ic",
         "type": "random"
       },
       {
-        "text": "ive",
+        "text": "ence",
         "type": "form"
       }
     ],
@@ -21389,19 +21339,19 @@
     ],
     "distractors": [
       {
-        "text": "eval",
+        "text": "ject",
         "type": "form"
       },
       {
-        "text": "ual",
+        "text": "pend",
         "type": "meaning"
       },
       {
-        "text": "y",
+        "text": "tract",
         "type": "random"
       },
       {
-        "text": "sent",
+        "text": "dis",
         "type": "form"
       }
     ],
@@ -21439,19 +21389,19 @@
     ],
     "distractors": [
       {
-        "text": "sent",
+        "text": "fac",
         "type": "form"
       },
       {
-        "text": "air",
+        "text": "con",
         "type": "meaning"
       },
       {
-        "text": "a",
+        "text": "uni",
         "type": "random"
       },
       {
-        "text": "body",
+        "text": "en",
         "type": "form"
       }
     ],
@@ -21498,19 +21448,19 @@
     ],
     "distractors": [
       {
-        "text": "book",
+        "text": "ment",
         "type": "form"
       },
       {
-        "text": "quest",
+        "text": "ocre",
         "type": "meaning"
       },
       {
-        "text": "turn",
+        "text": "y",
         "type": "random"
       },
       {
-        "text": "south",
+        "text": "agree",
         "type": "form"
       }
     ],
@@ -21552,15 +21502,15 @@
         "type": "form"
       },
       {
-        "text": "ress",
+        "text": "uary",
         "type": "meaning"
       },
       {
-        "text": "eval",
+        "text": "ful",
         "type": "random"
       },
       {
-        "text": "ual",
+        "text": "y",
         "type": "form"
       }
     ],
@@ -21600,19 +21550,19 @@
     ],
     "distractors": [
       {
-        "text": "dict",
+        "text": "key",
         "type": "form"
       },
       {
-        "text": "ive",
+        "text": "moon",
         "type": "meaning"
       },
       {
-        "text": "bio",
+        "text": "play",
         "type": "random"
       },
       {
-        "text": "grad",
+        "text": "saturn",
         "type": "form"
       }
     ],
@@ -21654,19 +21604,19 @@
     ],
     "distractors": [
       {
-        "text": "pel",
+        "text": "peri",
         "type": "form"
       },
       {
-        "text": "fort",
+        "text": "ition",
         "type": "meaning"
       },
       {
-        "text": "hydr",
+        "text": "ify",
         "type": "random"
       },
       {
-        "text": "labor",
+        "text": "ety",
         "type": "form"
       }
     ],
@@ -21713,19 +21663,19 @@
     ],
     "distractors": [
       {
-        "text": "quest",
+        "text": "ian",
         "type": "form"
       },
       {
-        "text": "ceive",
+        "text": "itude",
         "type": "meaning"
       },
       {
-        "text": "south",
+        "text": "uum",
         "type": "random"
       },
       {
-        "text": "ceed",
+        "text": "ual",
         "type": "form"
       }
     ],
@@ -21772,19 +21722,19 @@
     ],
     "distractors": [
       {
-        "text": "scrib",
+        "text": "grand",
         "type": "form"
       },
       {
-        "text": "ad",
+        "text": "sur",
         "type": "meaning"
       },
       {
-        "text": "trans",
+        "text": "yester",
         "type": "random"
       },
       {
-        "text": "hypo",
+        "text": "mate",
         "type": "form"
       }
     ],
@@ -21822,19 +21772,19 @@
     ],
     "distractors": [
       {
-        "text": "ice",
+        "text": "brush",
         "type": "form"
       },
       {
-        "text": "ial",
+        "text": "week",
         "type": "meaning"
       },
       {
-        "text": "abul",
+        "text": "dec",
         "type": "random"
       },
       {
-        "text": "cor",
+        "text": "sur",
         "type": "form"
       }
     ],
@@ -21875,19 +21825,19 @@
     ],
     "distractors": [
       {
-        "text": "post",
+        "text": "less",
         "type": "form"
       },
       {
-        "text": "centi",
+        "text": "son",
         "type": "meaning"
       },
       {
-        "text": "peri",
+        "text": "ern",
         "type": "random"
       },
       {
-        "text": "metro",
+        "text": "re",
         "type": "form"
       }
     ],
@@ -21908,7 +21858,7 @@
     "metaphorOptions": [
       "理解、明白",
       "离成功很远",
-      "第一个字母的过程"
+      "房间的过程"
     ],
     "exampleEn": "Teachers must understand children.",
     "exampleCn": "教師必須了解孩子。",
@@ -21927,19 +21877,19 @@
     ],
     "distractors": [
       {
-        "text": "sea",
+        "text": "trans",
         "type": "form"
       },
       {
-        "text": "ceed",
+        "text": "peri",
         "type": "meaning"
       },
       {
-        "text": "prise",
+        "text": "al",
         "type": "random"
       },
       {
-        "text": "thurs",
+        "text": "el",
         "type": "form"
       }
     ],
@@ -21960,8 +21910,8 @@
     "metaphorMeaningCn": "成功、继承",
     "metaphorOptions": [
       "成功、继承",
-      "月亮的地方",
-      "承载的小站"
+      "寻求的地方",
+      "月亮的小站"
     ],
     "exampleEn": "You deserve to succeed.",
     "exampleCn": "你的成功是应得的。",
@@ -21980,19 +21930,19 @@
     ],
     "distractors": [
       {
-        "text": "play",
+        "text": "ed",
         "type": "form"
       },
       {
-        "text": "ceive",
+        "text": "sent",
         "type": "meaning"
       },
       {
-        "text": "south",
+        "text": "plane",
         "type": "random"
       },
       {
-        "text": "prise",
+        "text": "base",
         "type": "form"
       }
     ],
@@ -22010,8 +21960,8 @@
     "metaphorMeaningCn": "成功的、有成就的",
     "metaphorOptions": [
       "成功的、有成就的",
-      "否定的影子",
-      "检验的人"
+      "工作的影子",
+      "否定的人"
     ],
     "exampleEn": "The experiment was successful.",
     "exampleCn": "這實驗是成功的。",
@@ -22030,19 +21980,19 @@
     ],
     "distractors": [
       {
-        "text": "nov",
+        "text": "un",
         "type": "form"
       },
       {
-        "text": "mit",
+        "text": "hypo",
         "type": "meaning"
       },
       {
-        "text": "metr",
+        "text": "peri",
         "type": "random"
       },
       {
-        "text": "scrib",
+        "text": "cosmo",
         "type": "form"
       }
     ],
@@ -22084,19 +22034,19 @@
     ],
     "distractors": [
       {
-        "text": "en",
+        "text": "ious",
         "type": "form"
       },
       {
-        "text": "dia",
+        "text": "ress",
         "type": "meaning"
       },
       {
-        "text": "ary",
+        "text": "ful",
         "type": "random"
       },
       {
-        "text": "ent",
+        "text": "an",
         "type": "form"
       }
     ],
@@ -22134,19 +22084,19 @@
     ],
     "distractors": [
       {
-        "text": "back",
+        "text": "plane",
         "type": "form"
       },
       {
-        "text": "grand",
+        "text": "thing",
         "type": "meaning"
       },
       {
-        "text": "co",
+        "text": "bath",
         "type": "random"
       },
       {
-        "text": "under",
+        "text": "cycle",
         "type": "form"
       }
     ],
@@ -22165,7 +22115,7 @@
     "metaphorOptions": [
       "第十、十分之一",
       "守着沐浴过活",
-      "强壮的小站"
+      "拿取的小站"
     ],
     "exampleEn": "She finished tenth in the race.",
     "exampleCn": "她在比赛中得了第十名。",
@@ -22184,19 +22134,19 @@
     ],
     "distractors": [
       {
-        "text": "tract",
+        "text": "con",
         "type": "form"
       },
       {
-        "text": "dis",
+        "text": "uni",
         "type": "meaning"
       },
       {
-        "text": "cata",
+        "text": "en",
         "type": "random"
       },
       {
-        "text": "e",
+        "text": "dia",
         "type": "form"
       }
     ],
@@ -22234,19 +22184,19 @@
     ],
     "distractors": [
       {
-        "text": "vision",
+        "text": "medi",
         "type": "form"
       },
       {
-        "text": "tooth",
+        "text": "serv",
         "type": "meaning"
       },
       {
-        "text": "tues",
+        "text": "ven",
         "type": "random"
       },
       {
-        "text": "melon",
+        "text": "ob",
         "type": "form"
       }
     ],
@@ -22286,19 +22236,19 @@
     ],
     "distractors": [
       {
-        "text": "mis",
+        "text": "flu",
         "type": "form"
       },
       {
-        "text": "sept",
+        "text": "phys",
         "type": "meaning"
       },
       {
-        "text": "ball",
+        "text": "metr",
         "type": "random"
       },
       {
-        "text": "mate",
+        "text": "ven",
         "type": "form"
       }
     ],
@@ -22339,19 +22289,19 @@
     ],
     "distractors": [
       {
-        "text": "pend",
+        "text": "sept",
         "type": "form"
       },
       {
-        "text": "de",
+        "text": "man",
         "type": "meaning"
       },
       {
-        "text": "auto",
+        "text": "work",
         "type": "random"
       },
       {
-        "text": "dia",
+        "text": "pre",
         "type": "form"
       }
     ],
@@ -22392,19 +22342,19 @@
     ],
     "distractors": [
       {
-        "text": "hydr",
+        "text": "itude",
         "type": "form"
       },
       {
-        "text": "grat",
+        "text": "uum",
         "type": "meaning"
       },
       {
-        "text": "lev",
+        "text": "ual",
         "type": "random"
       },
       {
-        "text": "flu",
+        "text": "age",
         "type": "form"
       }
     ],
@@ -22426,7 +22376,7 @@
     "metaphorOptions": [
       "有用的、实用的",
       "围着加强转",
-      "数着判断过日子"
+      "数着发动机过日子"
     ],
     "exampleEn": "Electricity is very useful.",
     "exampleCn": "电很有用。",
@@ -22445,19 +22395,19 @@
     ],
     "distractors": [
       {
-        "text": "age",
+        "text": "pass",
         "type": "form"
       },
       {
-        "text": "agree",
+        "text": "ceive",
         "type": "meaning"
       },
       {
-        "text": "plane",
+        "text": "stand",
         "type": "random"
       },
       {
-        "text": "any",
+        "text": "prise",
         "type": "form"
       }
     ],
@@ -22480,8 +22430,8 @@
     "metaphorMeaningCn": "西瓜",
     "metaphorOptions": [
       "西瓜",
-      "围着视觉转",
-      "数着相同过日子"
+      "围着正在转",
+      "数着视觉过日子"
     ],
     "exampleEn": "Let's eat a watermelon!",
     "exampleCn": "咱们吃个西瓜吧！",
@@ -22500,19 +22450,19 @@
     ],
     "distractors": [
       {
-        "text": "trans",
+        "text": "ual",
         "type": "form"
       },
       {
-        "text": "hypo",
+        "text": "sent",
         "type": "meaning"
       },
       {
-        "text": "baro",
+        "text": "any",
         "type": "random"
       },
       {
-        "text": "manu",
+        "text": "room",
         "type": "form"
       }
     ],
@@ -22550,19 +22500,19 @@
     ],
     "distractors": [
       {
-        "text": "cred",
+        "text": "trans",
         "type": "form"
       },
       {
-        "text": "ject",
+        "text": "centi",
         "type": "meaning"
       },
       {
-        "text": "nat",
+        "text": "sym",
         "type": "random"
       },
       {
-        "text": "voc",
+        "text": "ition",
         "type": "form"
       }
     ],
@@ -22602,19 +22552,19 @@
     ],
     "distractors": [
       {
-        "text": "dis",
+        "text": "nat",
         "type": "form"
       },
       {
-        "text": "uni",
+        "text": "graph",
         "type": "meaning"
       },
       {
-        "text": "para",
+        "text": "de",
         "type": "random"
       },
       {
-        "text": "ate",
+        "text": "per",
         "type": "form"
       }
     ],

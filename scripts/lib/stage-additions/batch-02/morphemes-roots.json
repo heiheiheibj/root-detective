@@ -5,7 +5,7 @@
    "id": "sent",
    "displayText": "sent",
    "type": "root",
-   "meaningCn": "",
+   "meaningCn": "感觉",
    "allomorphs": [
     "sent"
    ],
@@ -17,7 +17,7 @@
    "id": "act",
    "displayText": "act",
    "type": "root",
-   "meaningCn": "",
+   "meaningCn": "做、行动",
    "allomorphs": [
     "act",
     "actu"
@@ -152,7 +152,7 @@
    "id": "port",
    "displayText": "port",
    "type": "root",
-   "meaningCn": "",
+   "meaningCn": "携带",
    "allomorphs": [
     "port"
    ],
@@ -663,7 +663,7 @@
    "id": "tain",
    "displayText": "tain",
    "type": "root",
-   "meaningCn": "",
+   "meaningCn": "持有",
    "allomorphs": [
     "tain"
    ],
@@ -1778,7 +1778,7 @@
    "id": "her",
    "displayText": "her",
    "type": "root",
-   "meaningCn": "",
+   "meaningCn": "她",
    "allomorphs": [
     "her",
     "here"
@@ -2480,7 +2480,7 @@
    "id": "not",
    "displayText": "not",
    "type": "root",
-   "meaningCn": "",
+   "meaningCn": "不",
    "allomorphs": [
     "not",
     "n",
@@ -2847,7 +2847,7 @@
    "id": "quest",
    "displayText": "quest",
    "type": "root",
-   "meaningCn": "",
+   "meaningCn": "寻求",
    "allomorphs": [
     "quest"
    ],
@@ -2907,7 +2907,7 @@
    "id": "ceive",
    "displayText": "ceive",
    "type": "root",
-   "meaningCn": "",
+   "meaningCn": "拿取",
    "allomorphs": [
     "ceive"
    ],
@@ -3270,7 +3270,7 @@
    "id": "ceed",
    "displayText": "ceed",
    "type": "root",
-   "meaningCn": "",
+   "meaningCn": "行走",
    "allomorphs": [
     "ceed"
    ],
@@ -3355,7 +3355,7 @@
    "id": "prise",
    "displayText": "prise",
    "type": "root",
-   "meaningCn": "",
+   "meaningCn": "抓取",
    "allomorphs": [
     "prise"
    ],
@@ -3415,7 +3415,7 @@
    "id": "ten",
    "displayText": "ten",
    "type": "root",
-   "meaningCn": "",
+   "meaningCn": "持有",
    "allomorphs": [
     "ten"
    ],

@@ -19,7 +19,7 @@
   "metaphorOptions": [
    "保留、储备",
    "被每一的东西",
-   "牙齿的背面"
+   "伙伴的背面"
   ],
   "mnemonicNote": "re(回)+serve(守)：扣下一份不撒手，留着以后用",
   "sourceNote": "拉丁 reservare，re-(回) + servare(守)"
@@ -54,8 +54,8 @@
   "metaphorMeaningCn": "复习、评论",
   "metaphorOptions": [
    "复习、评论",
-   "位置的过程",
-   "向着产生去"
+   "工作的过程",
+   "向着位置去"
   ],
   "mnemonicNote": "re(再)+view(看)：把学过的东西回头再过一遍眼",
   "sourceNote": "中古英语 revuen，re-(再) + view(看)"
@@ -115,7 +115,7 @@
   "metaphorOptions": [
    "薪水、工资",
    "离过程很远",
-   "向着黑色去"
+   "向着正在去"
   ],
   "mnemonicNote": "salar(盐)+y：古罗马发给士兵买盐的津贴",
   "sourceNote": "拉丁 salarium，sal(盐) 的配给津贴"
@@ -175,7 +175,7 @@
   "metaphorOptions": [
    "茶碟、浅碟",
    "低于的地方",
-   "形成的来路"
+   "工作的来路"
   ],
   "mnemonicNote": "sauc(汁)+er(物)：原本盛调味汁的小盘",
   "sourceNote": "古法语 saussier，拉丁 salsus(加盐的)"
@@ -354,8 +354,8 @@
   "metaphorMeaningCn": "提交、屈服",
   "metaphorOptions": [
    "提交、屈服",
-   "把征服串起来",
-   "把分离翻开"
+   "把拿取串起来",
+   "把征服翻开"
   ],
   "mnemonicNote": "sub(下)+mit(送)：把自己和材料交到上级手里",
   "sourceNote": "拉丁 submittere，sub-(下) + mittere(送)"
@@ -378,8 +378,8 @@
   "metaphorMeaningCn": "成功、继承",
   "metaphorOptions": [
    "成功、继承",
-   "月亮的地方",
-   "承载的小站"
+   "寻求的地方",
+   "月亮的小站"
   ],
   "mnemonicNote": "suc(紧随)+ceed(走)：一步步顺着走到底就成了",
   "sourceNote": "拉丁 succedere，sub-(紧随) + cedere(走)"
@@ -390,8 +390,8 @@
   "metaphorMeaningCn": "成功的、有成就的",
   "metaphorOptions": [
    "成功的、有成就的",
-   "否定的影子",
-   "检验的人"
+   "工作的影子",
+   "否定的人"
   ],
   "mnemonicNote": "success(成功)+ful(满)：结果圆满装了个满怀",
   "sourceNote": "英语 success(成功) + -ful(充满)"
@@ -414,8 +414,8 @@
   "metaphorMeaningCn": "星期日",
   "metaphorOptions": [
    "星期日",
-   "替连接元音操心",
-   "离事物很远"
+   "替感觉操心",
+   "离连接元音很远"
   ],
   "mnemonicNote": "sun(太阳)+day(日)：一周里献给太阳的那天",
   "sourceNote": "古英语 sunnandaeg，拉丁 dies solis(太阳日)"
@@ -499,7 +499,7 @@
   "metaphorOptions": [
    "第十、十分之一",
    "守着沐浴过活",
-   "强壮的小站"
+   "拿取的小站"
   ],
   "mnemonicNote": "ten(十)+th(序数)",
   "sourceNote": "古英语 teotha，ten(十) 的序数形式"
@@ -535,7 +535,7 @@
   "metaphorOptions": [
    "热的、保温的",
    "木板的另一面",
-   "离开的一角"
+   "行走的一角"
   ],
   "mnemonicNote": "therm(热)+al：围着「热」这件事打转",
   "sourceNote": "希腊 therme(热) + -al"
@@ -679,7 +679,7 @@
   "metaphorOptions": [
    "传送、传播",
    "向着时代去",
-   "围着经过转"
+   "围着工作转"
   ],
   "mnemonicNote": "trans(越过)+mit(送)：把信号送过这一段距离",
   "sourceNote": "拉丁 transmittere，trans-(越过) + mittere(送)"
@@ -690,8 +690,8 @@
   "metaphorMeaningCn": "星期二",
   "metaphorOptions": [
    "星期二",
-   "围着向外转",
-   "向着使进入去"
+   "围着寻求转",
+   "向着向外去"
   ],
   "mnemonicNote": "tues(战神)+day(日)：献给战神提尔的一天",
   "sourceNote": "古英语 tiwesdaeg，Tiw(战神) + daeg"

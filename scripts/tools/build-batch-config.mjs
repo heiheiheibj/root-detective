@@ -105,7 +105,9 @@ const batchWordSet = new Set(newWords)
 const wordsPerMorpheme = new Map()
 for (const w of batch.words) {
   if (!merged[w]) continue
-  for (const p of new Set(merged[w].parts.map((x) => cid(x.id)))) {
+  // 家族词统计也要走 SPLIT_FIX：alive 的 live 已被改成 life，这里若还按原 id 归族，
+  // 就会留下一个 words=[alive] 的 live 家族，A24 逼它挂世界、A23 又判它孤儿。
+  for (const p of new Set(merged[w].parts.map((x) => cid(SPLIT_FIX[w]?.[x.id] || x.id)))) {
     if (!wordsPerMorpheme.has(p)) wordsPerMorpheme.set(p, [])
     wordsPerMorpheme.get(p).push(w)
   }

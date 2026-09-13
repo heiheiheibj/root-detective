@@ -2036,31 +2036,6 @@
     "color": "orange"
   },
   {
-    "id": "a",
-    "displayText": "a",
-    "type": "root",
-    "meaningCn": "第一个字母",
-    "allomorphs": [
-      "a"
-    ],
-    "etymology": "",
-    "level": 3,
-    "color": "orange"
-  },
-  {
-    "id": "live",
-    "displayText": "live",
-    "type": "root",
-    "meaningCn": "活的",
-    "allomorphs": [
-      "live",
-      "liv"
-    ],
-    "etymology": "",
-    "level": 1,
-    "color": "orange"
-  },
-  {
     "id": "any",
     "displayText": "any",
     "type": "root",
@@ -3103,7 +3078,7 @@
     "id": "tele",
     "displayText": "tele-",
     "type": "prefix",
-    "meaningCn": "远",
+    "meaningCn": "",
     "allomorphs": [
       "tele"
     ],
@@ -3115,7 +3090,7 @@
     "id": "under",
     "displayText": "under-",
     "type": "prefix",
-    "meaningCn": "在下",
+    "meaningCn": "",
     "allomorphs": [
       "under"
     ],

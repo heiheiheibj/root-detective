@@ -187,7 +187,7 @@
   "metaphorOptions": [
    "判断、判决",
    "数着横穿过日子",
-   "疼痛痛的另一面"
+   "拿取的另一面"
   ],
   "mnemonicNote": "judge(断法)+ment：把道理断清之后给出的话",
   "sourceNote": "古法语 jugement，jugier(审判)"
@@ -247,7 +247,7 @@
   "metaphorOptions": [
    "千米、公里",
    "土星的地方",
-   "选择的小站"
+   "感觉的小站"
   ],
   "mnemonicNote": "kilo(千)+metre(米)：一千个一米摞起来",
   "sourceNote": "法语 kilomètre，希腊 khilioi(千) + metron(量度)"
@@ -270,8 +270,8 @@
   "metaphorMeaningCn": "艰巨的、费力的",
   "metaphorOptions": [
    "艰巨的、费力的",
-   "被神圣的东西",
-   "星期的另一面"
+   "神圣的背面",
+   "星期的味道"
   ],
   "mnemonicNote": "labor(劳动)+ious：每一步都得咬牙出力",
   "sourceNote": "拉丁 laboriosus，labor(劳作)"
@@ -318,8 +318,8 @@
   "metaphorMeaningCn": "读写能力、识字",
   "metaphorOptions": [
    "读写能力、识字",
-   "向前的一角",
-   "一种自己的习俗"
+   "一种向前的习俗",
+   "自己的人"
   ],
   "mnemonicNote": "liter(文字)+acy：认得字、写得出话",
   "sourceNote": "拉丁 litteratus(识字的) + -cy(状态)"
@@ -402,8 +402,8 @@
   "metaphorMeaningCn": "媒体、媒介",
   "metaphorOptions": [
    "媒体、媒介",
-   "集合的味道",
-   "相同的背面"
+   "隔一代的味道",
+   "被集合的东西"
   ],
   "mnemonicNote": "medi(中间)：站在说的人和听的人中间",
   "sourceNote": "拉丁 medium 的复数，medius(中间)"
@@ -450,8 +450,8 @@
   "metaphorMeaningCn": "公制的、度量的",
   "metaphorOptions": [
    "公制的、度量的",
-   "相信的背面",
-   "灰烬的旧事"
+   "拿取的背面",
+   "相信的旧事"
   ],
   "mnemonicNote": "metr(量)+ic：一切按尺子说话",
   "sourceNote": "希腊 metron(量度) + -ic"
@@ -462,8 +462,8 @@
   "metaphorMeaningCn": "大都市的、首都的",
   "metaphorOptions": [
    "大都市的、首都的",
-   "分离的旧事",
-   "沐浴的来路"
+   "感觉的旧事",
+   "分离的来路"
   ],
   "mnemonicNote": "metro(母城)+polit(城)+an：许多城围着的那座母城",
   "sourceNote": "希腊 metropolis，meter(母) + polis(城)"
@@ -510,8 +510,8 @@
   "metaphorMeaningCn": "奇迹、不可思议的事",
   "metaphorOptions": [
    "奇迹、不可思议的事",
-   "次级的背面",
-   "被灰烬的东西"
+   "末端的背面",
+   "被次级的东西"
   ],
   "mnemonicNote": "mir(惊奇)+acle：看见之后只能张嘴的事",
   "sourceNote": "拉丁 miraculum，mirari(惊奇)"
@@ -522,8 +522,8 @@
   "metaphorMeaningCn": "奇迹般的、不可思议的",
   "metaphorOptions": [
    "奇迹般的、不可思议的",
-   "旁边的人",
-   "一种次级的习俗"
+   "在上的人",
+   "一种旁边的习俗"
   ],
   "mnemonicNote": "miracul(惊奇)+ous：让人不敢相信是真的",
   "sourceNote": "中世纪拉丁 miraculosus，miraculum(奇迹)"

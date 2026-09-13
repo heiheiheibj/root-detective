@@ -134,6 +134,24 @@ const isFunctionalWord = (id) => {
   return m ? FUNCTION_POS.has(m[1].toLowerCase()) : false
 }
 
+// 查不到中文义项、但确实是词素的那些：Wiktionary 有词素词条（gloss 是英文）的拉丁词根，
+// 和一些常见前后缀。A20 要求 meaningCn 是 1–8 汉字，空着过不了闸门。
+// 放在这里而不是下游脚本 —— 下游（build-batch-config）每次重跑都会从本产物重新生成，
+// 在那里补会被覆盖掉。
+const FALLBACK_MEANINGS = {
+  // 词根
+  sent: '感觉', act: '做、行动', tain: '持有', quest: '寻求',
+  ceive: '拿取', ceed: '行走', prise: '抓取', ten: '持有',
+  port: '携带', her: '她', not: '不',
+  // 前缀
+  ab: '离开', back: '向后', com: '共同', dec: '十', grand: '大、隔一代',
+  to: '到、向', ag: '朝向', mis: '错、坏', co: '共同', sur: '在上', after: '在之后',
+  // 后缀
+  ball: '球', ing: '正在', less: '无、不', man: '人', mate: '伙伴',
+  ly: '…地', th: '第…', son: '儿子', some: '有点…的', head: '头',
+  work: '工作', motor: '发动机', ern: '…方向', ise: '使…化', end: '末端',
+}
+
 const LANG_CN = { Latin: '拉丁语', Greek: '希腊语', English: '英语', French: '法语', 'Old English': '古英语', Germanic: '日耳曼语', Italian: '意大利语', Spanish: '西班牙语' }
 const table = []
 const needsTranslation = []
@@ -154,6 +172,12 @@ for (const [id, rec] of byId) {
   if (!meaningCn && meaningSource !== 'need-translate') {
     meaningCn = deriveMeaning(id)
     if (meaningCn) meaningSource = 'ecdict'
+  }
+  // 判「有没有汉字」而不是「是不是空字符串」：deriveMeaning 有时会填进一串非中文
+  // （tele/under 就是这样），那种也算没义项，A20 一样过不了。
+  if (!/[一-鿿]/.test(meaningCn || '') && FALLBACK_MEANINGS[id]) {
+    meaningCn = FALLBACK_MEANINGS[id]
+    meaningSource = 'fallback'
   }
   if (meaningSource === 'ecdict') autoMeaning += 1
   const level = lex ? (lex.difficulty.d1 >= lex.difficulty.d3 + lex.difficulty.d5 ? 1 : lex.difficulty.d5 > lex.difficulty.d1 ? 5 : 3)
