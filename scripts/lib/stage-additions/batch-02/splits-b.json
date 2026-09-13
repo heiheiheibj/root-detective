@@ -33,7 +33,7 @@
   ],
   "careful": [
    {
-    "id": "care",
+    "id": "car",
     "surface": "care"
    },
    {
@@ -43,7 +43,7 @@
   ],
   "careless": [
    {
-    "id": "care",
+    "id": "car",
     "surface": "care"
    },
    {
@@ -97,7 +97,7 @@
     "surface": "chin"
    },
    {
-    "id": "ese",
+    "id": "es",
     "surface": "ese"
    }
   ],
@@ -481,7 +481,7 @@
     "surface": "di"
    },
    {
-    "id": "vide",
+    "id": "vid",
     "surface": "vide"
    }
   ],
@@ -547,7 +547,7 @@
   ],
   "early": [
    {
-    "id": "ere",
+    "id": "er",
     "surface": "ear"
    },
    {

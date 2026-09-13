@@ -1,0 +1,124 @@
+
+===== spec（spec/spect/spic）可达 CET 词 0 个 =====
+
+===== dict（dict/dic）可达 CET 词 0 个 =====
+
+===== port（port）可达 CET 词 3 个 =====
+  porter  [tag:gk cet4 cet6 ky bnc:6464 collins:2] aff:er | porter(er/suffix)
+  reporter  [tag:gk cet4 cet6 ky bnc:3671 collins:4] aff:re,er | report(re/prefix) → reporter(er/suffix)
+  report  [tag:zk gk ielts bnc:276 collins:5] aff:re | report(re/prefix)
+
+===== vid（vid/vis/vise）可达 CET 词 0 个 =====
+
+===== aud（aud/audi/audio）可达 CET 词 1 个 =====
+  audio  [tag:cet4 ky ielts bnc:8088 collins:2] aff: | 
+
+===== cred（cred/credit）可达 CET 词 1 个 =====
+  credit  [tag:gk toefl ielts gre bnc:1262 collins:4] aff: | 
+
+===== duc（duc/duct/duce/decu）可达 CET 词 1 个 =====
+  reduction  [tag:cet4 cet6 ky toefl bnc:1554 collins:3] aff:re,ion | reduct(re/prefix) → reduction(ion/suffix)
+
+===== fin（fin/fine）可达 CET 词 4 个 =====
+  refinery  [tag:cet6 gre bnc:12519 collins:1] aff:re,ery | refine(re/prefix) → refinery(ery/suffix)
+  refine  [tag:cet4 cet6 ky toefl ielts bnc:7830 collins:1] aff:re | refine(re/prefix)
+  finely  [tag:cet6 bnc:7044 collins:] aff:ly | finely(ly/suffix)
+  fine  [tag:zk gk toefl ielts bnc:660 collins:3] aff: | 
+
+===== form（form）可达 CET 词 10 个 =====
+  deform  [tag:cet6 ky toefl bnc:24434 collins:1] aff:de | deform(de/prefix)
+  deformation  [tag:cet6 toefl bnc:17437 collins:] aff:de,ation | deform(de/prefix) → deformation(ation/suffix)
+  transformer  [tag:cet4 cet6 bnc:13088 collins:] aff:trans,er | transform(trans/prefix) → transformer(er/suffix)
+  formerly  [tag:cet6 toefl bnc:3584 collins:2] aff:er,ly | former(er/suffix) → formerly(ly/suffix)
+  transformation  [tag:cet4 cet6 toefl bnc:3415 collins:] aff:trans,ation | transform(trans/prefix) → transformation(ation/suffix)
+  transform  [tag:gk cet4 cet6 ky toefl ielts bnc:2693 collins:3] aff:trans | transform(trans/prefix)
+  formation  [tag:cet4 cet6 ky toefl gre bnc:2062 collins:2] aff:ation | formation(ation/suffix)
+  inform  [tag:gk cet4 cet6 ky bnc:1726 collins:3] aff:in | inform(in/prefix)
+  former  [tag:gk cet4 ky toefl ielts bnc:588 collins:5] aff:er | former(er/suffix)
+  information  [tag:zk gk ielts bnc:223 collins:5] aff:in,ation | inform(in/prefix) → information(ation/suffix)
+
+===== gen（gen/gener/genit）可达 CET 词 0 个 =====
+
+===== grad（grad/grade/gress）可达 CET 词 3 个 =====
+  centigrade  [tag:gk cet4 cet6 ky toefl gre bnc:27004 collins:] aff:centi | centigrade(centi/prefix)
+  upgrade  [tag:cet6 ky toefl gre bnc:6186 collins:2] aff:up | upgrade(up/prefix)
+  grade  [tag:zk gk ielts bnc:2822 collins:3] aff: | 
+
+===== ject（ject/jac/jet）可达 CET 词 1 个 =====
+  jet  [tag:gk cet4 cet6 ky bnc:3846 collins:3] aff: | 
+
+===== lect（lect/leg/lig）可达 CET 词 1 个 =====
+  leg  [tag:zk gk bnc:851 collins:4] aff: | 
+
+===== man（man/manu）可达 CET 词 3 个 =====
+  superman  [tag:gk bnc:22870 collins:] aff:super | superman(super/prefix)
+  manly  [tag:cet4 cet6 bnc:18827 collins:1] aff:ly | manly(ly/suffix)
+  mankind  [tag:gk cet4 cet6 ky bnc:6480 collins:1] aff:kind | mankind(kind/suffix)
+
+===== medi（medi/med）可达 CET 词 0 个 =====
+
+===== mit（mit/mitt/miss/mis）可达 CET 词 2 个 =====
+  missing  [tag:cet4 cet6 ky bnc:4261 collins:3] aff:ing | missing(ing/suffix)
+  miss  [tag:zk gk bnc:919 collins:4] aff: | 
+
+===== mob（mob/mot/mov/move）可达 CET 词 5 个 =====
+  removal  [tag:cet4 cet6 ky ielts bnc:3305 collins:2] aff:re,al | remove(re/prefix) → removal(al/suffix)
+  movie  [tag:zk gk cet4 ky ielts bnc:2856 collins:4] aff:ie | movie(ie/suffix)
+  remove  [tag:gk cet4 cet6 ky toefl gre bnc:866 collins:4] aff:re | remove(re/prefix)
+  movement  [tag:gk cet4 cet6 ky gre bnc:564 collins:4] aff:ment | movement(ment/suffix)
+  move  [tag:zk gk bnc:220 collins:5] aff: | 
+
+===== nov（nov/nova）可达 CET 词 0 个 =====
+
+===== struct（struct）可达 CET 词 0 个 =====
+
+===== ten（ten/tent/tain/tin）可达 CET 词 3 个 =====
+  tenth  [tag:zk bnc:5237 collins:4] aff:th | tenth(th/suffix)
+  tent  [tag:zk gk cet4 cet6 ky bnc:4158 collins:2] aff: | 
+  tin  [tag:gk cet4 cet6 ky toefl bnc:2956 collins:2] aff: | 
+
+===== tract（tract/trac）可达 CET 词 1 个 =====
+  tractor  [tag:gk cet4 cet6 ky toefl ielts bnc:7015 collins:1] aff:or | tractor(or/suffix)
+
+===== rupt（rupt）可达 CET 词 0 个 =====
+
+===== ven（ven/vent/vene）可达 CET 词 1 个 =====
+  vent  [tag:cet6 toefl ielts gre bnc:9816 collins:1] aff: | 
+
+===== vers（vers/vert）可达 CET 词 0 个 =====
+
+===== voc（voc/vok/voca）可达 CET 词 0 个 =====
+
+===== act（act）可达 CET 词 15 个 =====
+  radioactivity  [tag:cet4 cet6 bnc:16448 collins:] aff:ive,ity,radio | active(ive/suffix) → activity(ity/suffix) → radioactivity(radio/prefix)
+  counteract  [tag:cet6 toefl gre bnc:9701 collins:1] aff:counter | counteract(counter/prefix)
+  radioactive  [tag:gk cet4 cet6 ky bnc:6732 collins:2] aff:ive,radio | active(ive/suffix) → radioactive(radio/prefix)
+  interact  [tag:cet6 ky toefl ielts bnc:6221 collins:2] aff:inter | interact(inter/prefix)
+  reactor  [tag:cet6 bnc:4912 collins:2] aff:re,or | react(re/prefix) → reactor(or/suffix)
+  actress  [tag:gk cet4 ky bnc:4829 collins:3] aff:or,ess | actor(or/suffix) → actress(ess/suffix)
+  react  [tag:gk cet4 cet6 ky toefl bnc:2923 collins:3] aff:re | react(re/prefix)
+  interaction  [tag:cet4 cet6 toefl gre bnc:2517 collins:] aff:ion,inter | action(ion/suffix) → interaction(inter/prefix)
+  actor  [tag:gk cet4 ky ielts bnc:2390 collins:3] aff:or | actor(or/suffix)
+  actual  [tag:gk cet4 ky toefl bnc:1396 collins:3] aff:ual | actual(ual/suffix)
+  active  [tag:zk gk cet4 ky toefl bnc:1316 collins:4] aff:ive | active(ive/suffix)
+  reaction  [tag:cet4 cet6 bnc:1269 collins:4] aff:re,ion | react(re/prefix) → reaction(ion/suffix)
+  activity  [tag:zk gk cet4 ky ielts bnc:412 collins:4] aff:ive,ity | active(ive/suffix) → activity(ity/suffix)
+  actually  [tag:cet4 cet6 toefl bnc:354 collins:5] aff:ual,ly | actual(ual/suffix) → actually(ly/suffix)
+  action  [tag:zk gk cet4 cet6 ky toefl ielts bnc:340 collins:5] aff:ion | action(ion/suffix)
+
+===== fac（fac/fact/fect/fic）可达 CET 词 1 个 =====
+  fact  [tag:zk gk cet4 ky bnc:201 collins:5] aff: | 
+
+===== graph（graph/graphy）可达 CET 词 0 个 =====
+
+===== log（log/logue/logo）可达 CET 词 0 个 =====
+
+===== mort（mort）可达 CET 词 0 个 =====
+
+===== nat（nat/nas）可达 CET 词 0 个 =====
+
+===== scrib（scrib/script）可达 CET 词 2 个 =====
+  subscript  [tag:cet6 bnc:27615 collins:] aff:sub | subscript(sub/prefix)
+  script  [tag:cet6 ky ielts gre bnc:4130 collins:3] aff: | 
+
+===== vis（vid/vis）可达 CET 词 0 个 =====

@@ -1,0 +1,134 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: R
+      - generic [ref=e7]:
+        - strong [ref=e8]: 词根
+        - generic [ref=e9]: 背单词
+    - generic [ref=e10]: 按词根记单词
+    - navigation "主导航" [ref=e11]:
+      - button "今天" [ref=e12] [cursor=pointer]:
+        - generic [ref=e13]: ⌁
+        - generic [ref=e14]: 今天
+      - button "拼单词" [ref=e15] [cursor=pointer]:
+        - generic [ref=e16]: ▣
+        - generic [ref=e17]: 拼单词
+      - button "复习 0" [ref=e18] [cursor=pointer]:
+        - generic [ref=e19]: ↻
+        - generic [ref=e20]: 复习
+        - generic [ref=e21]: "0"
+      - button "词根地图" [ref=e22] [cursor=pointer]:
+        - generic [ref=e23]: ◈
+        - generic [ref=e24]: 词根地图
+    - button "怎么玩？" [ref=e25] [cursor=pointer]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - generic [ref=e29]: 连续学习
+        - generic [ref=e30]: ✦
+      - strong [ref=e31]: 0 天
+      - progressbar "连续学习天数" [ref=e32]
+      - paragraph [ref=e33]: 今天学一个，连续天数就不会断。
+    - generic [ref=e34]:
+      - generic [ref=e35]: R
+      - generic [ref=e36]:
+        - strong [ref=e37]: 我的进度
+        - generic [ref=e38]: 等级 1 · 刚入门
+  - main [ref=e39]:
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - text: 9月13日星期日
+        - heading "拼单词" [level=1] [ref=e111]
+      - generic [ref=e44]:
+        - generic [ref=e45]: ✦
+        - strong [ref=e46]: "0"
+        - generic [ref=e47]: 洞察点
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - generic [ref=e116]: 第二步 · 猜词义 · 一般
+            - generic [ref=e117]:
+              - heading "circumspect" [level=3] [ref=e118]
+              - button "朗读 circumspect" [ref=e119]: 🔊
+            - generic [ref=e120]: /ˈsɜːrkəmspekt/ · adj.
+            - paragraph [ref=e121]: 已经拼出来了。猜猜它今天是什么意思。
+          - generic [ref=e122]: 2 / 3
+        - list "学习步骤" [ref=e123]:
+          - listitem [ref=e124]:
+            - generic [ref=e125]: ✓
+            - strong [ref=e126]: 拼单词
+            - generic [ref=e127]: 做完了
+          - listitem [ref=e128]:
+            - generic [ref=e129]: "2"
+            - strong [ref=e130]: 猜词义
+            - generic [ref=e131]: 正在做
+          - listitem [ref=e132]:
+            - generic [ref=e133]: "3"
+            - strong [ref=e134]: 看结果
+            - generic [ref=e135]: 还没到
+        - generic [ref=e220]:
+          - generic [ref=e221]:
+            - generic [ref=e222]: "02"
+            - generic [ref=e223]:
+              - strong [ref=e224]: 猜猜它现在的意思
+              - paragraph [ref=e225]: 先把上面每个部分的意思连成一句话，再选最接近的答案。
+          - generic "已拼好的部分" [ref=e226]:
+            - generic [ref=e227]: circum
+            - generic [ref=e228]: spect
+          - generic [ref=e229]:
+            - generic [ref=e230]:
+              - generic [ref=e231]: 周围
+              - generic [ref=e232]: +
+            - generic [ref=e234]: 看
+            - generic [ref=e235]: =
+            - strong [ref=e236]: 从四周观察
+          - generic [ref=e237]:
+            - button "A 视力开阔、登高望远 未选择" [ref=e257] [cursor=pointer]:
+              - generic [ref=e239]: A
+              - strong [ref=e240]: 视力开阔、登高望远
+              - generic [ref=e241]: 未选择
+            - button "B 四处张望、防备危险，不轻举妄动 未选择" [ref=e256] [cursor=pointer]:
+              - generic [ref=e243]: B
+              - strong [ref=e244]: 四处张望、防备危险，不轻举妄动
+              - generic [ref=e245]: 未选择
+            - button "C 视线受阻、看不清楚 未选择" [ref=e258] [cursor=pointer]:
+              - generic [ref=e247]: C
+              - strong [ref=e248]: 视线受阻、看不清楚
+              - generic [ref=e249]: 未选择
+          - button "就选这个 →" [disabled] [ref=e250]:
+            - text: 就选这个
+            - generic [ref=e251]: →
+      - complementary [ref=e180]:
+        - generic [ref=e182]:
+          - text: 词根卡
+          - heading "这个词的词根" [level=3] [ref=e183]
+        - generic [ref=e184]:
+          - generic [ref=e185]:
+            - generic [ref=e186]: 词根
+            - generic [ref=e187]: 等级 2
+          - paragraph [ref=e188]: spec / spect = 看
+          - generic [ref=e191]:
+            - generic [ref=e192]: 熟练度 0%
+            - generic [ref=e193]: 刚开始
+        - generic [ref=e194]:
+          - generic [ref=e195]:
+            - generic [ref=e196]: 同样带这个词根
+            - generic [ref=e197]: 3 个词
+          - button "○ inspection 检查；视察 ↗" [ref=e198] [cursor=pointer]:
+            - generic [ref=e199]: ○
+            - generic [ref=e200]:
+              - strong [ref=e201]: inspection
+              - generic [ref=e202]: 检查；视察
+            - generic [ref=e203]: ↗
+          - button "○ respect 尊重；敬意 ↗" [ref=e204] [cursor=pointer]:
+            - generic [ref=e205]: ○
+            - generic [ref=e206]:
+              - strong [ref=e207]: respect
+              - generic [ref=e208]: 尊重；敬意
+            - generic [ref=e209]: ↗
+          - button "○ circumspection 谨慎；周详 ↗" [ref=e210] [cursor=pointer]:
+            - generic [ref=e211]: ○
+            - generic [ref=e212]:
+              - strong [ref=e213]: circumspection
+              - generic [ref=e214]: 谨慎；周详
+            - generic [ref=e215]: ↗

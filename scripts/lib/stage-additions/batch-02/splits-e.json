@@ -137,7 +137,7 @@
     "surface": "n"
    },
    {
-    "id": "one",
+    "id": "on",
     "surface": "one"
    }
   ],
@@ -223,7 +223,7 @@
   ],
   "oneself": [
    {
-    "id": "one",
+    "id": "on",
     "surface": "one"
    },
    {
@@ -233,7 +233,7 @@
   ],
   "only": [
    {
-    "id": "one",
+    "id": "on",
     "surface": "on"
    },
    {
@@ -277,7 +277,7 @@
     "surface": "over"
    },
    {
-    "id": "coat",
+    "id": "co",
     "surface": "coat"
    }
   ],
@@ -297,7 +297,7 @@
     "surface": "pack"
    },
    {
-    "id": "age",
+    "id": "ag",
     "surface": "age"
    }
   ],
@@ -317,7 +317,7 @@
     "surface": "pass"
    },
    {
-    "id": "age",
+    "id": "ag",
     "surface": "age"
    }
   ],
@@ -397,7 +397,7 @@
     "surface": "plea"
    },
    {
-    "id": "sure",
+    "id": "sur",
     "surface": "sure"
    }
   ],
@@ -453,17 +453,17 @@
   ],
   "prepare": [
    {
-    "id": "pre",
+    "id": "pr",
     "surface": "pre"
    },
    {
-    "id": "pare",
+    "id": "par",
     "surface": "pare"
    }
   ],
   "present": [
    {
-    "id": "pre",
+    "id": "pr",
     "surface": "pre"
    },
    {
@@ -517,7 +517,7 @@
     "surface": "pro"
    },
    {
-    "id": "mise",
+    "id": "mis",
     "surface": "mise"
    }
   ],
@@ -567,7 +567,7 @@
     "surface": "rain"
    },
    {
-    "id": "coat",
+    "id": "co",
     "surface": "coat"
    }
   ],

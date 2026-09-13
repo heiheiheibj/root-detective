@@ -187,7 +187,7 @@
     "surface": "al"
    },
    {
-    "id": "one",
+    "id": "on",
     "surface": "one"
    }
   ],
@@ -247,7 +247,7 @@
     "surface": "any"
    },
    {
-    "id": "one",
+    "id": "on",
     "surface": "one"
    }
   ],
@@ -417,7 +417,7 @@
     "surface": "be"
    },
    {
-    "id": "come",
+    "id": "com",
     "surface": "come"
    }
   ],
@@ -437,7 +437,7 @@
     "surface": "be"
    },
    {
-    "id": "fore",
+    "id": "for",
     "surface": "fore"
    }
   ],
@@ -523,7 +523,7 @@
   ],
   "bitter": [
    {
-    "id": "bite",
+    "id": "bi",
     "surface": "bitt"
    },
    {

@@ -1,0 +1,40 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: R
+      - generic [ref=e7]:
+        - strong [ref=e8]: 词根
+        - generic [ref=e9]: 背单词
+    - navigation "主导航" [ref=e11]:
+      - button "今天" [ref=e12] [cursor=pointer]:
+        - generic [ref=e13]: ⌁
+        - generic [ref=e14]: 今天
+      - button "拼单词" [ref=e15] [cursor=pointer]:
+        - generic [ref=e16]: ▣
+        - generic [ref=e17]: 拼单词
+      - button "复习 0" [active] [ref=e18] [cursor=pointer]:
+        - generic [ref=e19]: ↻
+        - generic [ref=e20]: 复习
+        - generic [ref=e21]: "0"
+      - button "词根地图" [ref=e22] [cursor=pointer]:
+        - generic [ref=e23]: ◈
+        - generic [ref=e24]: 词根地图
+    - button "怎么玩？" [ref=e25] [cursor=pointer]
+  - main [ref=e39]:
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - text: 9月12日星期六
+        - heading "复习" [level=1] [ref=e608]
+      - strong [ref=e46]: "0"
+    - generic [ref=e609]:
+      - generic [ref=e610]:
+        - generic [ref=e611]:
+          - heading "把词和意思配起来。" [level=2] [ref=e612]
+          - paragraph [ref=e613]: 左边点一个单词，右边点它的意思。配错了会记一笔，配对成功的词根熟练度就往上涨。
+        - generic [ref=e614]:
+          - strong [ref=e615]: "0"
+          - text: 个词根到时间了
+      - generic [ref=e616]:
+        - text: 暂时没有
+        - heading "还没有可以配对的词" [level=3] [ref=e617]
+        - paragraph [ref=e618]: 先学几个词，这里就会摆出配对面板。

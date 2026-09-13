@@ -1,0 +1,211 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: R
+      - generic [ref=e7]:
+        - strong [ref=e8]: 词根
+        - generic [ref=e9]: 背单词
+    - navigation "主导航" [ref=e11]:
+      - button "今天" [ref=e12] [cursor=pointer]:
+        - generic [ref=e13]: ⌁
+        - generic [ref=e14]: 今天
+      - button "拼单词" [ref=e15] [cursor=pointer]:
+        - generic [ref=e16]: ▣
+        - generic [ref=e17]: 拼单词
+      - button "复习 0" [ref=e18] [cursor=pointer]:
+        - generic [ref=e19]: ↻
+        - generic [ref=e20]: 复习
+        - generic [ref=e21]: "0"
+      - button "词根地图" [active] [ref=e22] [cursor=pointer]:
+        - generic [ref=e23]: ◈
+        - generic [ref=e24]: 词根地图
+    - button "怎么玩？" [ref=e25] [cursor=pointer]
+  - main [ref=e39]:
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - text: 9月12日星期六
+        - heading "词根地图" [level=1] [ref=e619]
+      - strong [ref=e46]: "0"
+    - generic [ref=e620]:
+      - generic [ref=e621]:
+        - generic [ref=e622]:
+          - heading "所有词根，一块一块解锁。" [level=2] [ref=e623]
+          - paragraph [ref=e624]: 词根按意思分组。先把「看」这一组学会，再学「说」和「带」。
+        - generic [ref=e625]:
+          - strong [ref=e626]: "0"
+          - text: 个词根很熟了
+      - generic [ref=e627]:
+        - generic [ref=e628]: 等级 1 · 刚入门
+        - generic [ref=e629]: 学了 0 个词
+        - generic [ref=e630]: 正确率 0%
+      - generic [ref=e631]:
+        - article [ref=e632]:
+          - strong [ref=e634]: 已开放
+          - heading "观察台" [level=3] [ref=e635]
+          - paragraph [ref=e636]: 学习词根：spec、vid、vers（观察台）
+          - generic [ref=e637]:
+            - generic [ref=e638]:
+              - generic [ref=e639]:
+                - generic [ref=e640]: 词根
+                - generic [ref=e641]: 等级 2
+              - heading "spec / spect" [level=3] [ref=e642]
+              - paragraph [ref=e643]: 看
+              - generic [ref=e645]: 还没学 · 0%
+            - generic [ref=e646]:
+              - generic [ref=e647]:
+                - generic [ref=e648]: 词根
+                - generic [ref=e649]: 等级 1
+              - heading "vid / vis" [level=3] [ref=e650]
+              - paragraph [ref=e651]: 看
+              - generic [ref=e653]: 还没学 · 0%
+            - generic [ref=e654]:
+              - generic [ref=e655]:
+                - generic [ref=e656]: 词根
+                - generic [ref=e657]: 等级 1
+              - heading "vers" [level=3] [ref=e658]
+              - paragraph [ref=e659]: 转
+              - generic [ref=e661]: 还没学 · 0%
+        - article [ref=e662]:
+          - strong [ref=e664]: 已开放
+          - heading "传送门" [level=3] [ref=e665]
+          - paragraph [ref=e666]: 学习词根：dict、port（传送门）
+          - generic [ref=e667]:
+            - generic [ref=e668]:
+              - generic [ref=e669]:
+                - generic [ref=e670]: 词根
+                - generic [ref=e671]: 等级 1
+              - heading "dict / dic" [level=3] [ref=e672]
+              - paragraph [ref=e673]: 说
+              - generic [ref=e675]: 还没学 · 0%
+            - generic [ref=e676]:
+              - generic [ref=e677]:
+                - generic [ref=e678]: 词根
+                - generic [ref=e679]: 等级 1
+              - heading "port" [level=3] [ref=e680]
+              - paragraph [ref=e681]: 携带
+              - generic [ref=e683]: 还没学 · 0%
+        - article [ref=e684]:
+          - strong [ref=e686]: 已开放
+          - heading "成长实验室" [level=3] [ref=e687]
+          - paragraph [ref=e688]: 学习词根：bio、gen、nat（成长实验室）
+          - generic [ref=e689]:
+            - generic [ref=e690]:
+              - generic [ref=e691]:
+                - generic [ref=e692]: 词根
+                - generic [ref=e693]: 等级 1
+              - heading "bio" [level=3] [ref=e694]
+              - paragraph [ref=e695]: 生命
+              - generic [ref=e697]: 还没学 · 0%
+            - generic [ref=e698]:
+              - generic [ref=e699]:
+                - generic [ref=e700]: 词根
+                - generic [ref=e701]: 等级 1
+              - heading "gen" [level=3] [ref=e702]
+              - paragraph [ref=e703]: 出生、种类
+              - generic [ref=e705]: 还没学 · 0%
+            - generic [ref=e706]:
+              - generic [ref=e707]:
+                - generic [ref=e708]: 词根
+                - generic [ref=e709]: 等级 1
+              - heading "nat" [level=3] [ref=e710]
+              - paragraph [ref=e711]: 出生、自然
+              - generic [ref=e713]: 还没学 · 0%
+        - article [ref=e714]:
+          - strong [ref=e716]: 已开放
+          - heading "时光库" [level=3] [ref=e717]
+          - paragraph [ref=e718]: 学习词根：cent、pend（时光库）
+          - generic [ref=e719]:
+            - generic [ref=e720]:
+              - generic [ref=e721]:
+                - generic [ref=e722]: 词根
+                - generic [ref=e723]: 等级 2
+              - heading "cent" [level=3] [ref=e724]
+              - paragraph [ref=e725]: 百
+              - generic [ref=e727]: 还没学 · 0%
+            - generic [ref=e728]:
+              - generic [ref=e729]:
+                - generic [ref=e730]: 词根
+                - generic [ref=e731]: 等级 2
+              - heading "pend" [level=3] [ref=e732]
+              - paragraph [ref=e733]: 悬挂、称量
+              - generic [ref=e735]: 还没学 · 0%
+        - article [ref=e736]:
+          - strong [ref=e738]: 已开放
+          - heading "行动工坊" [level=3] [ref=e739]
+          - paragraph [ref=e740]: 学习词根：ject、mob、aud、voc、cred（行动工坊）
+          - generic [ref=e741]:
+            - generic [ref=e742]:
+              - generic [ref=e743]:
+                - generic [ref=e744]: 词根
+                - generic [ref=e745]: 等级 2
+              - heading "ject" [level=3] [ref=e746]
+              - paragraph [ref=e747]: 投、掷
+              - generic [ref=e749]: 还没学 · 0%
+            - generic [ref=e750]:
+              - generic [ref=e751]:
+                - generic [ref=e752]: 词根
+                - generic [ref=e753]: 等级 2
+              - heading "mob" [level=3] [ref=e754]
+              - paragraph [ref=e755]: 移动
+              - generic [ref=e757]: 还没学 · 0%
+            - generic [ref=e758]:
+              - generic [ref=e759]:
+                - generic [ref=e760]: 词根
+                - generic [ref=e761]: 等级 1
+              - heading "aud" [level=3] [ref=e762]
+              - paragraph [ref=e763]: 听
+              - generic [ref=e765]: 还没学 · 0%
+            - generic [ref=e766]:
+              - generic [ref=e767]:
+                - generic [ref=e768]: 词根
+                - generic [ref=e769]: 等级 1
+              - heading "voc" [level=3] [ref=e770]
+              - paragraph [ref=e771]: 声音、叫
+              - generic [ref=e773]: 还没学 · 0%
+            - generic [ref=e774]:
+              - generic [ref=e775]:
+                - generic [ref=e776]: 词根
+                - generic [ref=e777]: 等级 1
+              - heading "cred" [level=3] [ref=e778]
+              - paragraph [ref=e779]: 相信
+              - generic [ref=e781]: 还没学 · 0%
+        - article [ref=e782]:
+          - strong [ref=e784]: 已开放
+          - heading "词语磨坊" [level=3] [ref=e785]
+          - paragraph [ref=e786]: 学习词根：log、grad、graph、tract、fac（词语磨坊）
+          - generic [ref=e787]:
+            - generic [ref=e788]:
+              - generic [ref=e789]:
+                - generic [ref=e790]: 词根
+                - generic [ref=e791]: 等级 2
+              - heading "log" [level=3] [ref=e792]
+              - paragraph [ref=e793]: 说、词
+              - generic [ref=e795]: 还没学 · 0%
+            - generic [ref=e796]:
+              - generic [ref=e797]:
+                - generic [ref=e798]: 词根
+                - generic [ref=e799]: 等级 2
+              - heading "grad" [level=3] [ref=e800]
+              - paragraph [ref=e801]: 步、级
+              - generic [ref=e803]: 还没学 · 0%
+            - generic [ref=e804]:
+              - generic [ref=e805]:
+                - generic [ref=e806]: 词根
+                - generic [ref=e807]: 等级 2
+              - heading "graph" [level=3] [ref=e808]
+              - paragraph [ref=e809]: 写、画
+              - generic [ref=e811]: 还没学 · 0%
+            - generic [ref=e812]:
+              - generic [ref=e813]:
+                - generic [ref=e814]: 词根
+                - generic [ref=e815]: 等级 2
+              - heading "tract" [level=3] [ref=e816]
+              - paragraph [ref=e817]: 拉、拖
+              - generic [ref=e819]: 还没学 · 0%
+            - generic [ref=e820]:
+              - generic [ref=e821]:
+                - generic [ref=e822]: 词根
+                - generic [ref=e823]: 等级 1
+              - heading "fac" [level=3] [ref=e824]
+              - paragraph [ref=e825]: 做、制造
+              - generic [ref=e827]: 还没学 · 0%

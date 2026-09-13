@@ -1,5 +1,5 @@
 {
- "_comment": "3.1 中考批 新增 298 个词根家族",
+ "_comment": "3.1 中考批 新增 328 个词根家族",
  "families": {
   "sent": {
    "roots": [
@@ -73,6 +73,24 @@
    ],
    "words": [
     "agreement"
+   ]
+  },
+  "air": {
+   "roots": [
+    "air"
+   ],
+   "words": [
+    "airline",
+    "airplane",
+    "airport"
+   ]
+  },
+  "line": {
+   "roots": [
+    "line"
+   ],
+   "words": [
+    "airline"
    ]
   },
   "plane": {
@@ -154,6 +172,26 @@
     "company"
    ]
   },
+  "body": {
+   "roots": [
+    "body"
+   ],
+   "words": [
+    "anybody",
+    "everybody",
+    "somebody"
+   ]
+  },
+  "thing": {
+   "roots": [
+    "thing"
+   ],
+   "words": [
+    "anything",
+    "everything",
+    "something"
+   ]
+  },
   "rive": {
    "roots": [
     "rive"
@@ -203,6 +241,16 @@
     "available"
    ]
   },
+  "ground": {
+   "roots": [
+    "ground"
+   ],
+   "words": [
+    "background",
+    "playground",
+    "underground"
+   ]
+  },
   "base": {
    "roots": [
     "base"
@@ -218,6 +266,24 @@
    ],
    "words": [
     "basketball"
+   ]
+  },
+  "bath": {
+   "roots": [
+    "bath"
+   ],
+   "words": [
+    "bathroom"
+   ]
+  },
+  "room": {
+   "roots": [
+    "room"
+   ],
+   "words": [
+    "bathroom",
+    "bedroom",
+    "classroom"
    ]
   },
   "beauty": {
@@ -276,6 +342,15 @@
     "beyond"
    ]
   },
+  "cycle": {
+   "roots": [
+    "cycle"
+   ],
+   "words": [
+    "bicycle",
+    "motorcycle"
+   ]
+  },
   "birth": {
    "roots": [
     "birth"
@@ -284,12 +359,23 @@
     "birthday"
    ]
   },
-  "bite": {
+  "day": {
    "roots": [
-    "bite"
+    "day"
    ],
    "words": [
-    "bitter"
+    "birthday",
+    "daily",
+    "everyday",
+    "holiday",
+    "monday",
+    "saturday",
+    "sunday",
+    "thursday",
+    "today",
+    "tuesday",
+    "weekday",
+    "yesterday"
    ]
   },
   "black": {
@@ -298,6 +384,15 @@
    ],
    "words": [
     "blackboard"
+   ]
+  },
+  "board": {
+   "roots": [
+    "board"
+   ],
+   "words": [
+    "blackboard",
+    "keyboard"
    ]
   },
   "bore": {
@@ -380,6 +475,15 @@
     "captain"
    ]
   },
+  "car": {
+   "roots": [
+    "car"
+   ],
+   "words": [
+    "careful",
+    "careless"
+   ]
+  },
   "ceil": {
    "roots": [
     "ceil"
@@ -428,6 +532,15 @@
     "christmas"
    ]
   },
+  "class": {
+   "roots": [
+    "class"
+   ],
+   "words": [
+    "classmate",
+    "classroom"
+   ]
+  },
   "cloth": {
    "roots": [
     "cloth"
@@ -458,6 +571,14 @@
    ],
    "words": [
     "competition"
+   ]
+  },
+  "position": {
+   "roots": [
+    "position"
+   ],
+   "words": [
+    "composition"
    ]
   },
   "compute": {
@@ -541,6 +662,16 @@
     "dangerous"
    ]
   },
+  "ember": {
+   "roots": [
+    "ember"
+   ],
+   "words": [
+    "december",
+    "november",
+    "september"
+   ]
+  },
   "develop": {
    "roots": [
     "develop"
@@ -573,6 +704,14 @@
    "words": [
     "direction",
     "director"
+   ]
+  },
+  "cover": {
+   "roots": [
+    "cover"
+   ],
+   "words": [
+    "discover"
    ]
   },
   "discover": {
@@ -615,9 +754,9 @@
     "disturb"
    ]
   },
-  "vide": {
+  "vid": {
    "roots": [
-    "vide"
+    "vid"
    ],
    "words": [
     "divide"
@@ -670,14 +809,6 @@
    ],
    "words": [
     "duty"
-   ]
-  },
-  "ere": {
-   "roots": [
-    "ere"
-   ],
-   "words": [
-    "early"
    ]
   },
   "educate": {
@@ -753,6 +884,18 @@
     "european"
    ]
   },
+  "every": {
+   "roots": [
+    "every"
+   ],
+   "words": [
+    "everybody",
+    "everyday",
+    "everyone",
+    "everything",
+    "everywhere"
+   ]
+  },
   "examine": {
    "roots": [
     "examine"
@@ -817,6 +960,15 @@
     "favourite"
    ]
   },
+  "it": {
+   "roots": [
+    "it"
+   ],
+   "words": [
+    "favourite",
+    "itself"
+   ]
+  },
   "feel": {
    "roots": [
     "feel"
@@ -856,6 +1008,14 @@
    ],
    "words": [
     "flower"
+   ]
+  },
+  "foot": {
+   "roots": [
+    "foot"
+   ],
+   "words": [
+    "football"
    ]
   },
   "foreign": {
@@ -903,14 +1063,6 @@
   "good": {
    "roots": [
     "good"
-   ],
-   "words": [
-    "goodbye"
-   ]
-  },
-  "bye": {
-   "roots": [
-    "bye"
    ],
    "words": [
     "goodbye"
@@ -1029,6 +1181,23 @@
    ],
    "words": [
     "handwriting"
+   ]
+  },
+  "hard": {
+   "roots": [
+    "hard"
+   ],
+   "words": [
+    "hardly"
+   ]
+  },
+  "ache": {
+   "roots": [
+    "ache"
+   ],
+   "words": [
+    "headache",
+    "toothache"
    ]
   },
   "heal": {
@@ -1282,14 +1451,6 @@
     "invention"
    ]
   },
-  "it": {
-   "roots": [
-    "it"
-   ],
-   "words": [
-    "itself"
-   ]
-  },
   "jap": {
    "roots": [
     "jap"
@@ -1426,6 +1587,14 @@
     "maybe"
    ]
   },
+  "mean": {
+   "roots": [
+    "mean"
+   ],
+   "words": [
+    "meaning"
+   ]
+  },
   "meet": {
    "roots": [
     "meet"
@@ -1440,6 +1609,14 @@
    ],
    "words": [
     "message"
+   ]
+  },
+  "take": {
+   "roots": [
+    "take"
+   ],
+   "words": [
+    "mistake"
    ]
   },
   "moon": {
@@ -1573,6 +1750,14 @@
     "normal"
    ]
   },
+  "north": {
+   "roots": [
+    "north"
+   ],
+   "words": [
+    "northern"
+   ]
+  },
   "note": {
    "roots": [
     "note"
@@ -1611,15 +1796,6 @@
    ],
    "words": [
     "operation"
-   ]
-  },
-  "coat": {
-   "roots": [
-    "coat"
-   ],
-   "words": [
-    "overcoat",
-    "raincoat"
    ]
   },
   "own": {
@@ -1678,6 +1854,14 @@
     "perhaps"
    ]
   },
+  "play": {
+   "roots": [
+    "play"
+   ],
+   "words": [
+    "playground"
+   ]
+  },
   "please": {
    "roots": [
     "please"
@@ -1726,14 +1910,6 @@
     "postcard"
    ]
   },
-  "pare": {
-   "roots": [
-    "pare"
-   ],
-   "words": [
-    "prepare"
-   ]
-  },
   "prison": {
    "roots": [
     "prison"
@@ -1756,14 +1932,6 @@
    ],
    "words": [
     "progress"
-   ]
-  },
-  "mise": {
-   "roots": [
-    "mise"
-   ],
-   "words": [
-    "promise"
    ]
   },
   "pose": {
@@ -1805,6 +1973,15 @@
    ],
    "words": [
     "rather"
+   ]
+  },
+  "real": {
+   "roots": [
+    "real"
+   ],
+   "words": [
+    "realise",
+    "really"
    ]
   },
   "ceive": {
@@ -1944,6 +2121,24 @@
     "schoolbag"
    ]
   },
+  "sea": {
+   "roots": [
+    "sea"
+   ],
+   "words": [
+    "season"
+   ]
+  },
+  "seven": {
+   "roots": [
+    "seven"
+   ],
+   "words": [
+    "seventeen",
+    "seventh",
+    "seventy"
+   ]
+  },
   "sever": {
    "roots": [
     "sever"
@@ -1968,12 +2163,30 @@
     "situation"
    ]
   },
+  "six": {
+   "roots": [
+    "six"
+   ],
+   "words": [
+    "sixteen",
+    "sixth",
+    "sixty"
+   ]
+  },
   "times": {
    "roots": [
     "times"
    ],
    "words": [
     "sometimes"
+   ]
+  },
+  "south": {
+   "roots": [
+    "south"
+   ],
+   "words": [
+    "southern"
    ]
   },
   "stand": {
@@ -2025,6 +2238,14 @@
     "succeed"
    ]
   },
+  "success": {
+   "roots": [
+    "success"
+   ],
+   "words": [
+    "successful"
+   ]
+  },
   "suggest": {
    "roots": [
     "suggest"
@@ -2041,6 +2262,14 @@
     "summer"
    ]
   },
+  "sun": {
+   "roots": [
+    "sun"
+   ],
+   "words": [
+    "sunday"
+   ]
+  },
   "market": {
    "roots": [
     "market"
@@ -2055,6 +2284,14 @@
    ],
    "words": [
     "supply"
+   ]
+  },
+  "face": {
+   "roots": [
+    "face"
+   ],
+   "words": [
+    "surface"
    ]
   },
   "prise": {
@@ -2087,6 +2324,14 @@
    ],
    "words": [
     "teacher"
+   ]
+  },
+  "vision": {
+   "roots": [
+    "vision"
+   ],
+   "words": [
+    "television"
    ]
   },
   "ten": {
@@ -2137,6 +2382,24 @@
     "tomorrow"
    ]
   },
+  "night": {
+   "roots": [
+    "night"
+   ],
+   "words": [
+    "tonight"
+   ]
+  },
+  "tooth": {
+   "roots": [
+    "tooth"
+   ],
+   "words": [
+    "toothache",
+    "toothbrush",
+    "toothpaste"
+   ]
+  },
   "brush": {
    "roots": [
     "brush"
@@ -2145,9 +2408,9 @@
     "toothbrush"
    ]
   },
-  "paste": {
+  "pas": {
    "roots": [
-    "paste"
+    "pas"
    ],
    "words": [
     "toothpaste"
@@ -2282,6 +2545,14 @@
     "volleyball"
    ]
   },
+  "water": {
+   "roots": [
+    "water"
+   ],
+   "words": [
+    "watermelon"
+   ]
+  },
   "melon": {
    "roots": [
     "melon"
@@ -2306,12 +2577,21 @@
     "website"
    ]
   },
-  "site": {
+  "sit": {
    "roots": [
-    "site"
+    "sit"
    ],
    "words": [
     "website"
+   ]
+  },
+  "week": {
+   "roots": [
+    "week"
+   ],
+   "words": [
+    "weekday",
+    "weekend"
    ]
   },
   "will": {

@@ -13,6 +13,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
+import { buildCanon } from '../lib/id-canon.mjs'
 
 const here = dirname(fileURLToPath(import.meta.url))
 const libDir = join(here, '..', 'lib')
@@ -22,7 +23,16 @@ const LETTERS = 'abcdefghijklmnopqrstuvwxyz'
 
 const merged = JSON.parse(readFileSync(join(derivedDir, 'splits-merged.json'), 'utf8')).splits
 const draft = JSON.parse(readFileSync(join(derivedDir, 'morphemes-draft.json'), 'utf8')).morphemes
-const draftById = new Map(draft.map((m) => [m.id, m]))
+
+// 词素 id 归一化：切分把同一词根散成 sorbe/sorb、vise/vis、cumulate/cumul。
+// 产物必须用归一化后的 id —— 否则产品里同一词根会出两张卡片，拼词时 id 也对不上词素表。
+// canon 必须由**未归一化的切分 id**（splits）构建：draft 已经归一化过，拿它当输入算不出映射，
+// 结果是 splits 里的 generate/cumulate 换不成 gener/cumul，与词素表对不上。
+const splitIds = new Set()
+for (const info of Object.values(merged)) for (const p of info.parts) splitIds.add(p.id)
+const canon = buildCanon(splitIds)
+const cid = (id) => canon.get(id) || id
+const draftById = new Map(draft.map((m) => [cid(m.id), m]))
 const batches = JSON.parse(readFileSync(join(derivedDir, 'batches.json'), 'utf8')).batches
 const existing = JSON.parse(readFileSync(join(libDir, 'stage3-content.json'), 'utf8'))
 
@@ -34,7 +44,7 @@ const existingWordIds = new Set(Object.keys(existing.splits))
 const existingMorphemeIds = new Set(existing.extraMorphemes.map((m) => m.id))
 const newWords = batch.words.filter((w) => !existingWordIds.has(w) && merged[w])
 const usedMorphemeIds = new Set()
-for (const w of newWords) for (const p of merged[w].parts) usedMorphemeIds.add(p.id)
+for (const w of newWords) for (const p of merged[w].parts) usedMorphemeIds.add(cid(p.id))
 const newMorphemeIds = [...usedMorphemeIds].filter((id) => !existingMorphemeIds.has(id))
 
 // ── 词素记录（去掉 _ 开头的内部字段）──
@@ -52,7 +62,7 @@ const chunks = []
 for (let i = 0; i < newWords.length; i += 60) chunks.push(newWords.slice(i, i + 60))
 const splitFiles = chunks.map((words) => {
   const splits = {}
-  for (const w of words) splits[w] = merged[w].parts.map((p) => ({ id: p.id, surface: p.surface }))
+  for (const w of words) splits[w] = merged[w].parts.map((p) => ({ id: cid(p.id), surface: p.surface }))
   return splits
 })
 
@@ -61,7 +71,7 @@ const batchWordSet = new Set(newWords)
 const wordsPerMorpheme = new Map()
 for (const w of batch.words) {
   if (!merged[w]) continue
-  for (const p of new Set(merged[w].parts.map((x) => x.id))) {
+  for (const p of new Set(merged[w].parts.map((x) => cid(x.id)))) {
     if (!wordsPerMorpheme.has(p)) wordsPerMorpheme.set(p, [])
     wordsPerMorpheme.get(p).push(w)
   }

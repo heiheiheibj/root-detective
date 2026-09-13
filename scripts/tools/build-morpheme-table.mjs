@@ -11,6 +11,7 @@
 // 输出  scripts/.work/derived/morphemes-draft.json + 待翻译清单
 // 跑法：node scripts/tools/build-morpheme-table.mjs
 import { readFileSync, writeFileSync } from 'node:fs'
+import { buildCanon } from '../lib/id-canon.mjs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
@@ -95,6 +96,25 @@ for (const [word, info] of Object.entries(merged.splits)) {
   })
 }
 
+// ── id 归一化 ──
+// 切分按词形定 id，同一词根会散成多个：absorb→ab+sorbe / adsorb→ad+sorb、
+// vision→vis+ion / television→tele+vise+ion。不合并的后果有两层：每个 id 词数都不够（过不了
+// 教学价值门槛），且词库里同一词根出两张卡片（sorbe 和 sorb 各一张）。规则见 lib/id-canon.mjs。
+const canon = buildCanon([...byId.keys()])
+for (const [id, rec] of [...byId]) {
+  const target = canon.get(id)
+  if (!target) continue
+  const t = byId.get(target)
+  for (const s of rec.surfaces) t.surfaces.add(s)
+  for (const [s, n] of rec.surfaceCount) t.surfaceCount.set(s, (t.surfaceCount.get(s) || 0) + n)
+  for (const w of rec.words) t.words.add(w)
+  t.head += rec.head
+  t.mid += rec.mid
+  t.tail += rec.tail
+  byId.delete(id)
+}
+console.log(`id 归一化：${canon.size} 个变体并回词根（${byId.size} 个词素，归一化前 ${byId.size + canon.size}）`)
+
 const LANG_CN = { Latin: '拉丁语', Greek: '希腊语', English: '英语', French: '法语', 'Old English': '古英语', Germanic: '日耳曼语', Italian: '意大利语', Spanish: '西班牙语' }
 const table = []
 const needsTranslation = []
@@ -102,10 +122,11 @@ let autoMeaning = 0
 for (const [id, rec] of byId) {
   const lex = lexBySurface.get(id)
   const total = rec.head + rec.mid + rec.tail
-  // 类型：教学词素用 lexicon 判定；零件词素只认 Wiktionary 的词条类型，其余一律当词根。
-  // 不能按位置推断前后缀 —— 那样会把 day/book/sea 这类复合词部件也标成前缀，
-  // 实测前缀会虚高到 1,108 个（真前缀应在一两百量级）。词根兜底同时满足 A18。
-  const type = lex ? lex.type : (kaikkiPos(id) || 'root')
+  // 类型：只认 Wiktionary 词条给的词缀身份（glossSource 'affix'）。lexicon 里
+  // `confidence: 'position'` 的条目是按位置猜的 —— day 在 13 个词尾部就被猜成 suffix，
+  // book/sea 这类复合词部件也被猜成前缀，实测前缀会虚高到 1,108 个（真前缀应在一两百量级）。
+  // 拿不准的一律当词根，同时满足 A18。
+  const type = lex && lex.glossSource === 'affix' ? lex.type : (kaikkiPos(id) || 'root')
   // 义项
   let meaningCn = ''
   let meaningSource = 'none'

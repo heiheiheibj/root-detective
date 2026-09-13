@@ -1,0 +1,86 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]: R
+      - generic [ref=e7]:
+        - strong [ref=e8]: 词根
+        - generic [ref=e9]: 背单词
+    - generic [ref=e10]: 按词根记单词
+    - navigation "主导航" [ref=e11]:
+      - button "今天" [ref=e12] [cursor=pointer]:
+        - generic [ref=e13]: ⌁
+        - generic [ref=e14]: 今天
+      - button "拼单词" [ref=e15] [cursor=pointer]:
+        - generic [ref=e16]: ▣
+        - generic [ref=e17]: 拼单词
+      - button "复习 1" [ref=e18] [cursor=pointer]:
+        - generic [ref=e19]: ↻
+        - generic [ref=e20]: 复习
+        - generic [ref=e21]: "1"
+      - button "词根地图" [ref=e22] [cursor=pointer]:
+        - generic [ref=e23]: ◈
+        - generic [ref=e24]: 词根地图
+    - button "怎么玩？" [ref=e25] [cursor=pointer]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - generic [ref=e29]: 连续学习
+        - generic [ref=e30]: ✦
+      - strong [ref=e31]: 0 天
+      - progressbar "连续学习天数" [ref=e32]
+      - paragraph [ref=e33]: 今天学一个，连续天数就不会断。
+    - generic [ref=e34]:
+      - generic [ref=e35]: R
+      - generic [ref=e36]:
+        - strong [ref=e37]: 我的进度
+        - generic [ref=e38]: 等级 1 · 刚入门
+  - main [ref=e39]:
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - text: 9月13日星期日
+        - heading "今天" [level=1] [ref=e42]
+      - generic [ref=e44]:
+        - generic [ref=e45]: ✦
+        - strong [ref=e46]: "0"
+        - generic [ref=e47]: 洞察点
+    - generic [ref=e48]:
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - heading "先拆词。再猜意思。最后看对不对。" [level=2] [ref=e51]:
+            - text: 先拆词。再猜意思。
+            - emphasis [ref=e52]: 最后看对不对。
+          - paragraph [ref=e53]: 每个英语单词都能拆成前缀、词根、后缀。拼一遍，就知道它为什么是这个意思。
+        - generic [ref=e54]:
+          - generic [ref=e55]: 已学
+          - strong [ref=e56]:
+            - text: "0000"
+            - text: 个词
+          - generic [ref=e58]: 别怕忘
+      - generic [ref=e59]:
+        - generic [ref=e60]:
+          - text: 第一次来？
+          - heading "三步学会一个词" [level=3] [ref=e61]
+          - paragraph [ref=e62]: 不用背答案。先拼出单词，再猜它的意思，最后对答案。
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - generic [ref=e65]: "01"
+            - text: 拼单词
+          - generic [ref=e66]:
+            - generic [ref=e67]: "02"
+            - text: 猜词义
+          - generic [ref=e68]:
+            - generic [ref=e69]: "03"
+            - text: 看结果
+      - generic [ref=e70]:
+        - button "开始学第一个词 →" [ref=e71] [cursor=pointer]:
+          - text: 开始学第一个词
+          - generic [ref=e72]: →
+        - button "去拼单词" [ref=e73] [cursor=pointer]
+      - generic [ref=e74]:
+        - generic [ref=e75]:
+          - text: 我的进度
+          - strong [ref=e76]: 等级 1 · 刚入门
+          - paragraph [ref=e77]: 0 经验 · 连续学习 0 天
+        - generic [ref=e78]:
+          - text: 该复习了
+          - strong [ref=e79]: 1 个词根到时间了
+          - paragraph [ref=e80]: 复习的是词根，不用重背整个单词。
