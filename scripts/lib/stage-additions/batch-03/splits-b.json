@@ -1,0 +1,609 @@
+{
+ "_comment": "3.2 高考批 切分 B：第 61–120 词",
+ "splits": {
+  "apartment": [
+   {
+    "id": "apart",
+    "surface": "apart"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "apologize": [
+   {
+    "id": "apology",
+    "surface": "apolog"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "apology": [
+   {
+    "id": "apo",
+    "surface": "apo"
+   },
+   {
+    "id": "logy",
+    "surface": "logy"
+   }
+  ],
+  "apparent": [
+   {
+    "id": "app",
+    "surface": "app"
+   },
+   {
+    "id": "arent",
+    "surface": "arent"
+   }
+  ],
+  "appearance": [
+   {
+    "id": "appear",
+    "surface": "appear"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "applaud": [
+   {
+    "id": "app",
+    "surface": "app"
+   },
+   {
+    "id": "laud",
+    "surface": "laud"
+   }
+  ],
+  "application": [
+   {
+    "id": "apply",
+    "surface": "appl"
+   },
+   {
+    "id": "ication",
+    "surface": "ication"
+   }
+  ],
+  "appoint": [
+   {
+    "id": "ap",
+    "surface": "ap"
+   },
+   {
+    "id": "point",
+    "surface": "point"
+   }
+  ],
+  "appointment": [
+   {
+    "id": "appoint",
+    "surface": "appoint"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "appreciate": [
+   {
+    "id": "ap",
+    "surface": "app"
+   },
+   {
+    "id": "reci",
+    "surface": "reci"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "appreciation": [
+   {
+    "id": "appreciate",
+    "surface": "appreciat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "approach": [
+   {
+    "id": "app",
+    "surface": "app"
+   },
+   {
+    "id": "roach",
+    "surface": "roach"
+   }
+  ],
+  "approve": [
+   {
+    "id": "ad",
+    "surface": "ap"
+   },
+   {
+    "id": "prove",
+    "surface": "prove"
+   }
+  ],
+  "approximately": [
+   {
+    "id": "approximate",
+    "surface": "approximate"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "arabic": [
+   {
+    "id": "arab",
+    "surface": "arab"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "architecture": [
+   {
+    "id": "architect",
+    "surface": "architect"
+   },
+   {
+    "id": "ure",
+    "surface": "ure"
+   }
+  ],
+  "argument": [
+   {
+    "id": "argue",
+    "surface": "argu"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "armchair": [
+   {
+    "id": "arm",
+    "surface": "arm"
+   },
+   {
+    "id": "chair",
+    "surface": "chair"
+   }
+  ],
+  "arrange": [
+   {
+    "id": "ar",
+    "surface": "ar"
+   },
+   {
+    "id": "range",
+    "surface": "range"
+   }
+  ],
+  "arrangement": [
+   {
+    "id": "arrange",
+    "surface": "arrange"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "arrest": [
+   {
+    "id": "ad",
+    "surface": "ar"
+   },
+   {
+    "id": "rest",
+    "surface": "rest"
+   }
+  ],
+  "arrival": [
+   {
+    "id": "arrive",
+    "surface": "arriv"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "artist": [
+   {
+    "id": "art",
+    "surface": "art"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   }
+  ],
+  "ashamed": [
+   {
+    "id": "sham",
+    "surface": "ashame"
+   },
+   {
+    "id": "ed",
+    "surface": "d"
+   }
+  ],
+  "aside": [
+   {
+    "id": "a",
+    "surface": "a"
+   },
+   {
+    "id": "side",
+    "surface": "side"
+   }
+  ],
+  "assess": [
+   {
+    "id": "ass",
+    "surface": "ass"
+   },
+   {
+    "id": "ess",
+    "surface": "ess"
+   }
+  ],
+  "assessment": [
+   {
+    "id": "assess",
+    "surface": "assess"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "assist": [
+   {
+    "id": "as",
+    "surface": "as"
+   },
+   {
+    "id": "sist",
+    "surface": "sist"
+   }
+  ],
+  "assistance": [
+   {
+    "id": "assist",
+    "surface": "assist"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "assistant": [
+   {
+    "id": "assist",
+    "surface": "assist"
+   },
+   {
+    "id": "ant",
+    "surface": "ant"
+   }
+  ],
+  "association": [
+   {
+    "id": "associate",
+    "surface": "associat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "astronaut": [
+   {
+    "id": "astro",
+    "surface": "astro"
+   },
+   {
+    "id": "naut",
+    "surface": "naut"
+   }
+  ],
+  "astronomer": [
+   {
+    "id": "astronomy",
+    "surface": "astronom"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "astronomy": [
+   {
+    "id": "astro",
+    "surface": "astro"
+   },
+   {
+    "id": "nomy",
+    "surface": "nomy"
+   }
+  ],
+  "athletic": [
+   {
+    "id": "athlete",
+    "surface": "athlet"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "atmosphere": [
+   {
+    "id": "atmo",
+    "surface": "atmo"
+   },
+   {
+    "id": "sphere",
+    "surface": "sphere"
+   }
+  ],
+  "attach": [
+   {
+    "id": "at",
+    "surface": "at"
+   },
+   {
+    "id": "tach",
+    "surface": "tach"
+   }
+  ],
+  "attain": [
+   {
+    "id": "at",
+    "surface": "at"
+   },
+   {
+    "id": "tain",
+    "surface": "tain"
+   }
+  ],
+  "attempt": [
+   {
+    "id": "at",
+    "surface": "at"
+   },
+   {
+    "id": "tempt",
+    "surface": "tempt"
+   }
+  ],
+  "attend": [
+   {
+    "id": "at",
+    "surface": "at"
+   },
+   {
+    "id": "tend",
+    "surface": "tend"
+   }
+  ],
+  "attentively": [
+   {
+    "id": "attentive",
+    "surface": "attentive"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "attraction": [
+   {
+    "id": "attract",
+    "surface": "attract"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "attractive": [
+   {
+    "id": "attract",
+    "surface": "attract"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "autonomous": [
+   {
+    "id": "autonomy",
+    "surface": "autonom"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "average": [
+   {
+    "id": "ave",
+    "surface": "ave"
+   },
+   {
+    "id": "rage",
+    "surface": "rage"
+   }
+  ],
+  "awesome": [
+   {
+    "id": "awe",
+    "surface": "awe"
+   },
+   {
+    "id": "some",
+    "surface": "some"
+   }
+  ],
+  "awful": [
+   {
+    "id": "awe",
+    "surface": "aw"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "awkward": [
+   {
+    "id": "awk",
+    "surface": "awk"
+   },
+   {
+    "id": "ward",
+    "surface": "ward"
+   }
+  ],
+  "backache": [
+   {
+    "id": "back",
+    "surface": "back"
+   },
+   {
+    "id": "ache",
+    "surface": "ache"
+   }
+  ],
+  "backward": [
+   {
+    "id": "back",
+    "surface": "back"
+   },
+   {
+    "id": "ward",
+    "surface": "ward"
+   }
+  ],
+  "badly": [
+   {
+    "id": "bad",
+    "surface": "bad"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "badminton": [
+   {
+    "id": "bad",
+    "surface": "bad"
+   },
+   {
+    "id": "minton",
+    "surface": "minton"
+   }
+  ],
+  "baggage": [
+   {
+    "id": "bag",
+    "surface": "bagg"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "bakery": [
+   {
+    "id": "bake",
+    "surface": "bake"
+   },
+   {
+    "id": "ery",
+    "surface": "ry"
+   }
+  ],
+  "ballet": [
+   {
+    "id": "ball",
+    "surface": "ball"
+   },
+   {
+    "id": "et",
+    "surface": "et"
+   }
+  ],
+  "ballpoint": [
+   {
+    "id": "ball",
+    "surface": "ball"
+   },
+   {
+    "id": "point",
+    "surface": "point"
+   }
+  ],
+  "bandage": [
+   {
+    "id": "band",
+    "surface": "band"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "barbershop": [
+   {
+    "id": "barber",
+    "surface": "barber"
+   },
+   {
+    "id": "shop",
+    "surface": "shop"
+   }
+  ],
+  "bargain": [
+   {
+    "id": "bar",
+    "surface": "bar"
+   },
+   {
+    "id": "gain",
+    "surface": "gain"
+   }
+  ],
+  "basement": [
+   {
+    "id": "base",
+    "surface": "base"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ]
+ }
+}

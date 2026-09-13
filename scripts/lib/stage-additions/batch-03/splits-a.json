@@ -1,0 +1,609 @@
+{
+ "_comment": "3.2 高考批 切分 A：第 1–60 词",
+ "splits": {
+  "abnormal": [
+   {
+    "id": "ab",
+    "surface": "ab"
+   },
+   {
+    "id": "normal",
+    "surface": "normal"
+   }
+  ],
+  "abortion": [
+   {
+    "id": "abort",
+    "surface": "abort"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "absorb": [
+   {
+    "id": "ab",
+    "surface": "ab"
+   },
+   {
+    "id": "sorbe",
+    "surface": "sorb"
+   }
+  ],
+  "abstract": [
+   {
+    "id": "abs",
+    "surface": "abs"
+   },
+   {
+    "id": "tract",
+    "surface": "tract"
+   }
+  ],
+  "abuse": [
+   {
+    "id": "ab",
+    "surface": "ab"
+   },
+   {
+    "id": "use",
+    "surface": "use"
+   }
+  ],
+  "academic": [
+   {
+    "id": "academy",
+    "surface": "academ"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "accessible": [
+   {
+    "id": "access",
+    "surface": "access"
+   },
+   {
+    "id": "ible",
+    "surface": "ible"
+   }
+  ],
+  "accommodation": [
+   {
+    "id": "accommodate",
+    "surface": "accommodat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "accompany": [
+   {
+    "id": "ac",
+    "surface": "ac"
+   },
+   {
+    "id": "company",
+    "surface": "company"
+   }
+  ],
+  "accountant": [
+   {
+    "id": "account",
+    "surface": "account"
+   },
+   {
+    "id": "ant",
+    "surface": "ant"
+   }
+  ],
+  "accumulate": [
+   {
+    "id": "ac",
+    "surface": "ac"
+   },
+   {
+    "id": "cumul",
+    "surface": "cumul"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "accustomed": [
+   {
+    "id": "accustom",
+    "surface": "accustom"
+   },
+   {
+    "id": "ed",
+    "surface": "ed"
+   }
+  ],
+  "achievement": [
+   {
+    "id": "achieve",
+    "surface": "achieve"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "acknowledge": [
+   {
+    "id": "ac",
+    "surface": "ac"
+   },
+   {
+    "id": "knowledge",
+    "surface": "knowledge"
+   }
+  ],
+  "acquaintance": [
+   {
+    "id": "acquaint",
+    "surface": "acquaint"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "acquisition": [
+   {
+    "id": "acquire",
+    "surface": "acquis"
+   },
+   {
+    "id": "ition",
+    "surface": "ition"
+   }
+  ],
+  "actor": [
+   {
+    "id": "act",
+    "surface": "act"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "actress": [
+   {
+    "id": "actor",
+    "surface": "actr"
+   },
+   {
+    "id": "ess",
+    "surface": "ess"
+   }
+  ],
+  "actual": [
+   {
+    "id": "act",
+    "surface": "actu"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "adapt": [
+   {
+    "id": "ad",
+    "surface": "ad"
+   },
+   {
+    "id": "apt",
+    "surface": "apt"
+   }
+  ],
+  "adaptation": [
+   {
+    "id": "adapt",
+    "surface": "adapt"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "addicted": [
+   {
+    "id": "addict",
+    "surface": "addict"
+   },
+   {
+    "id": "ed",
+    "surface": "ed"
+   }
+  ],
+  "adjustment": [
+   {
+    "id": "adjust",
+    "surface": "adjust"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "administration": [
+   {
+    "id": "administrate",
+    "surface": "administrat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "admirable": [
+   {
+    "id": "admire",
+    "surface": "admir"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "advertise": [
+   {
+    "id": "advert",
+    "surface": "advert"
+   },
+   {
+    "id": "ise",
+    "surface": "ise"
+   }
+  ],
+  "aeroplane": [
+   {
+    "id": "aero",
+    "surface": "aero"
+   },
+   {
+    "id": "plane",
+    "surface": "plane"
+   }
+  ],
+  "affection": [
+   {
+    "id": "affect",
+    "surface": "affect"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "african": [
+   {
+    "id": "africa",
+    "surface": "africa"
+   },
+   {
+    "id": "an",
+    "surface": "n"
+   }
+  ],
+  "afterward": [
+   {
+    "id": "after",
+    "surface": "after"
+   },
+   {
+    "id": "ward",
+    "surface": "ward"
+   }
+  ],
+  "agency": [
+   {
+    "id": "ag",
+    "surface": "ag"
+   },
+   {
+    "id": "ency",
+    "surface": "ency"
+   }
+  ],
+  "agenda": [
+   {
+    "id": "ag",
+    "surface": "ag"
+   },
+   {
+    "id": "enda",
+    "surface": "enda"
+   }
+  ],
+  "agent": [
+   {
+    "id": "ag",
+    "surface": "ag"
+   },
+   {
+    "id": "ent",
+    "surface": "ent"
+   }
+  ],
+  "aggression": [
+   {
+    "id": "aggress",
+    "surface": "aggress"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "aggressive": [
+   {
+    "id": "aggress",
+    "surface": "aggress"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "agricultural": [
+   {
+    "id": "agriculture",
+    "surface": "agricultur"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "agriculture": [
+   {
+    "id": "agri",
+    "surface": "agri"
+   },
+   {
+    "id": "culture",
+    "surface": "culture"
+   }
+  ],
+  "ahead": [
+   {
+    "id": "a",
+    "surface": "a"
+   },
+   {
+    "id": "head",
+    "surface": "head"
+   }
+  ],
+  "aircraft": [
+   {
+    "id": "air",
+    "surface": "air"
+   },
+   {
+    "id": "craft",
+    "surface": "craft"
+   }
+  ],
+  "airmail": [
+   {
+    "id": "air",
+    "surface": "air"
+   },
+   {
+    "id": "mail",
+    "surface": "mail"
+   }
+  ],
+  "airspace": [
+   {
+    "id": "air",
+    "surface": "air"
+   },
+   {
+    "id": "space",
+    "surface": "space"
+   }
+  ],
+  "alcoholic": [
+   {
+    "id": "alcohol",
+    "surface": "alcohol"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "allergic": [
+   {
+    "id": "allergy",
+    "surface": "allerg"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "allocate": [
+   {
+    "id": "al",
+    "surface": "al"
+   },
+   {
+    "id": "locate",
+    "surface": "locate"
+   }
+  ],
+  "allowance": [
+   {
+    "id": "allow",
+    "surface": "allow"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "alongside": [
+   {
+    "id": "along",
+    "surface": "along"
+   },
+   {
+    "id": "side",
+    "surface": "side"
+   }
+  ],
+  "alphabet": [
+   {
+    "id": "alpha",
+    "surface": "alpha"
+   },
+   {
+    "id": "bet",
+    "surface": "bet"
+   }
+  ],
+  "alternative": [
+   {
+    "id": "alternate",
+    "surface": "alternat"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "altogether": [
+   {
+    "id": "al",
+    "surface": "al"
+   },
+   {
+    "id": "together",
+    "surface": "together"
+   }
+  ],
+  "aluminium": [
+   {
+    "id": "almen",
+    "surface": "alumin"
+   },
+   {
+    "id": "ium",
+    "surface": "ium"
+   }
+  ],
+  "amazing": [
+   {
+    "id": "amaze",
+    "surface": "amaz"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "ambition": [
+   {
+    "id": "ambit",
+    "surface": "ambit"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "amusement": [
+   {
+    "id": "amuse",
+    "surface": "amuse"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "analysis": [
+   {
+    "id": "ana",
+    "surface": "ana"
+   },
+   {
+    "id": "lysis",
+    "surface": "lysis"
+   }
+  ],
+  "announce": [
+   {
+    "id": "an",
+    "surface": "an"
+   },
+   {
+    "id": "nounce",
+    "surface": "nounce"
+   }
+  ],
+  "announcement": [
+   {
+    "id": "announce",
+    "surface": "announce"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "annual": [
+   {
+    "id": "ann",
+    "surface": "ann"
+   },
+   {
+    "id": "ual",
+    "surface": "ual"
+   }
+  ],
+  "antarctic": [
+   {
+    "id": "anti",
+    "surface": "ant"
+   },
+   {
+    "id": "arctic",
+    "surface": "arctic"
+   }
+  ],
+  "antique": [
+   {
+    "id": "anti",
+    "surface": "anti"
+   },
+   {
+    "id": "que",
+    "surface": "que"
+   }
+  ],
+  "anyhow": [
+   {
+    "id": "any",
+    "surface": "any"
+   },
+   {
+    "id": "how",
+    "surface": "how"
+   }
+  ]
+ }
+}

@@ -1,0 +1,609 @@
+{
+ "_comment": "3.2 高考批 切分 H：第 421–480 词",
+ "splits": {
+  "harmful": [
+   {
+    "id": "harm",
+    "surface": "harm"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "harmless": [
+   {
+    "id": "harm",
+    "surface": "harm"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "headline": [
+   {
+    "id": "head",
+    "surface": "head"
+   },
+   {
+    "id": "line",
+    "surface": "line"
+   }
+  ],
+  "headmaster": [
+   {
+    "id": "head",
+    "surface": "head"
+   },
+   {
+    "id": "master",
+    "surface": "master"
+   }
+  ],
+  "headmistress": [
+   {
+    "id": "head",
+    "surface": "head"
+   },
+   {
+    "id": "mistress",
+    "surface": "mistress"
+   }
+  ],
+  "headteacher": [
+   {
+    "id": "head",
+    "surface": "head"
+   },
+   {
+    "id": "teacher",
+    "surface": "teacher"
+   }
+  ],
+  "hearing": [
+   {
+    "id": "hear",
+    "surface": "hear"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "heavily": [
+   {
+    "id": "heavy",
+    "surface": "heavi"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "helicopter": [
+   {
+    "id": "helico",
+    "surface": "helico"
+   },
+   {
+    "id": "pter",
+    "surface": "pter"
+   }
+  ],
+  "helmet": [
+   {
+    "id": "helm",
+    "surface": "helm"
+   },
+   {
+    "id": "et",
+    "surface": "et"
+   }
+  ],
+  "heroine": [
+   {
+    "id": "hero",
+    "surface": "hero"
+   },
+   {
+    "id": "in",
+    "surface": "ine"
+   }
+  ],
+  "highway": [
+   {
+    "id": "high",
+    "surface": "high"
+   },
+   {
+    "id": "way",
+    "surface": "way"
+   }
+  ],
+  "hillside": [
+   {
+    "id": "hill",
+    "surface": "hill"
+   },
+   {
+    "id": "side",
+    "surface": "side"
+   }
+  ],
+  "homeland": [
+   {
+    "id": "home",
+    "surface": "home"
+   },
+   {
+    "id": "land",
+    "surface": "land"
+   }
+  ],
+  "honey": [
+   {
+    "id": "hon",
+    "surface": "hon"
+   },
+   {
+    "id": "ey",
+    "surface": "ey"
+   }
+  ],
+  "hopeful": [
+   {
+    "id": "hope",
+    "surface": "hope"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "hopeless": [
+   {
+    "id": "hope",
+    "surface": "hope"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "hostess": [
+   {
+    "id": "host",
+    "surface": "host"
+   },
+   {
+    "id": "ess",
+    "surface": "ess"
+   }
+  ],
+  "housewife": [
+   {
+    "id": "house",
+    "surface": "house"
+   },
+   {
+    "id": "wife",
+    "surface": "wife"
+   }
+  ],
+  "hunter": [
+   {
+    "id": "hunt",
+    "surface": "hunt"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "iceland": [
+   {
+    "id": "ice",
+    "surface": "ice"
+   },
+   {
+    "id": "land",
+    "surface": "land"
+   }
+  ],
+  "illegal": [
+   {
+    "id": "il",
+    "surface": "il"
+   },
+   {
+    "id": "legal",
+    "surface": "legal"
+   }
+  ],
+  "importance": [
+   {
+    "id": "import",
+    "surface": "import"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "impress": [
+   {
+    "id": "im",
+    "surface": "im"
+   },
+   {
+    "id": "press",
+    "surface": "press"
+   }
+  ],
+  "impression": [
+   {
+    "id": "impress",
+    "surface": "impress"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "income": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "com",
+    "surface": "come"
+   }
+  ],
+  "incorrect": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "correct",
+    "surface": "correct"
+   }
+  ],
+  "indeed": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "deed",
+    "surface": "deed"
+   }
+  ],
+  "independence": [
+   {
+    "id": "in",
+    "surface": "inde"
+   },
+   {
+    "id": "pend",
+    "surface": "pend"
+   },
+   {
+    "id": "ence",
+    "surface": "ence"
+   }
+  ],
+  "independent": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "dependent",
+    "surface": "dependent"
+   }
+  ],
+  "inform": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "form",
+    "surface": "form"
+   }
+  ],
+  "inland": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "land",
+    "surface": "land"
+   }
+  ],
+  "insect": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "sec",
+    "surface": "sect"
+   }
+  ],
+  "insert": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "ser",
+    "surface": "sert"
+   }
+  ],
+  "inspect": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "spect",
+    "surface": "spect"
+   }
+  ],
+  "inspire": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "spr",
+    "surface": "spire"
+   }
+  ],
+  "institution": [
+   {
+    "id": "institute",
+    "surface": "institut"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "insurance": [
+   {
+    "id": "insure",
+    "surface": "insur"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "insure": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "sur",
+    "surface": "sure"
+   }
+  ],
+  "interpreter": [
+   {
+    "id": "interpret",
+    "surface": "interpret"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "interrupt": [
+   {
+    "id": "inter",
+    "surface": "inter"
+   },
+   {
+    "id": "rupt",
+    "surface": "rupt"
+   }
+  ],
+  "interval": [
+   {
+    "id": "inter",
+    "surface": "inter"
+   },
+   {
+    "id": "val",
+    "surface": "val"
+   }
+  ],
+  "inventor": [
+   {
+    "id": "invent",
+    "surface": "invent"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "invitation": [
+   {
+    "id": "invite",
+    "surface": "invit"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "ireland": [
+   {
+    "id": "ir",
+    "surface": "ire"
+   },
+   {
+    "id": "land",
+    "surface": "land"
+   }
+  ],
+  "jewelry": [
+   {
+    "id": "jewel",
+    "surface": "jewel"
+   },
+   {
+    "id": "ry",
+    "surface": "ry"
+   }
+  ],
+  "journalist": [
+   {
+    "id": "journal",
+    "surface": "journal"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   }
+  ],
+  "keeper": [
+   {
+    "id": "keep",
+    "surface": "keep"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "kindness": [
+   {
+    "id": "kind",
+    "surface": "kind"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "kingdom": [
+   {
+    "id": "king",
+    "surface": "king"
+   },
+   {
+    "id": "dom",
+    "surface": "dom"
+   }
+  ],
+  "labourer": [
+   {
+    "id": "labour",
+    "surface": "labour"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "lantern": [
+   {
+    "id": "lan",
+    "surface": "lan"
+   },
+   {
+    "id": "tern",
+    "surface": "tern"
+   }
+  ],
+  "lately": [
+   {
+    "id": "late",
+    "surface": "late"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "later": [
+   {
+    "id": "late",
+    "surface": "late"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "latter": [
+   {
+    "id": "late",
+    "surface": "latt"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "laughter": [
+   {
+    "id": "laugh",
+    "surface": "laugh"
+   },
+   {
+    "id": "ter",
+    "surface": "ter"
+   }
+  ],
+  "lawyer": [
+   {
+    "id": "law",
+    "surface": "law"
+   },
+   {
+    "id": "yer",
+    "surface": "yer"
+   }
+  ],
+  "leading": [
+   {
+    "id": "lead",
+    "surface": "lead"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "learned": [
+   {
+    "id": "learn",
+    "surface": "learn"
+   },
+   {
+    "id": "ed",
+    "surface": "ed"
+   }
+  ],
+  "leftover": [
+   {
+    "id": "left",
+    "surface": "left"
+   },
+   {
+    "id": "over",
+    "surface": "over"
+   }
+  ]
+ }
+}

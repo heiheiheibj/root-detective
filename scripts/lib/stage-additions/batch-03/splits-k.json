@@ -1,0 +1,605 @@
+{
+ "_comment": "3.2 高考批 切分 K：第 601–660 词",
+ "splits": {
+  "possibility": [
+   {
+    "id": "possible",
+    "surface": "possibil"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "postage": [
+   {
+    "id": "post",
+    "surface": "post"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "postbox": [
+   {
+    "id": "post",
+    "surface": "post"
+   },
+   {
+    "id": "box",
+    "surface": "box"
+   }
+  ],
+  "postcode": [
+   {
+    "id": "post",
+    "surface": "post"
+   },
+   {
+    "id": "code",
+    "surface": "code"
+   }
+  ],
+  "poster": [
+   {
+    "id": "post",
+    "surface": "post"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "potential": [
+   {
+    "id": "potent",
+    "surface": "potent"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "powerful": [
+   {
+    "id": "power",
+    "surface": "power"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "practical": [
+   {
+    "id": "practic",
+    "surface": "practic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "prayer": [
+   {
+    "id": "pray",
+    "surface": "pray"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "precise": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "cise",
+    "surface": "cise"
+   }
+  ],
+  "preference": [
+   {
+    "id": "prefer",
+    "surface": "prefer"
+   },
+   {
+    "id": "ence",
+    "surface": "ence"
+   }
+  ],
+  "preparation": [
+   {
+    "id": "prepare",
+    "surface": "prepar"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "presentation": [
+   {
+    "id": "present",
+    "surface": "present"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "pretend": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "tend",
+    "surface": "tend"
+   }
+  ],
+  "preview": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "view",
+    "surface": "view"
+   }
+  ],
+  "printer": [
+   {
+    "id": "print",
+    "surface": "print"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "printing": [
+   {
+    "id": "print",
+    "surface": "print"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "process": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "cess",
+    "surface": "cess"
+   }
+  ],
+  "product": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "duct",
+    "surface": "duct"
+   }
+  ],
+  "production": [
+   {
+    "id": "produce",
+    "surface": "produc"
+   },
+   {
+    "id": "tion",
+    "surface": "tion"
+   }
+  ],
+  "profession": [
+   {
+    "id": "profess",
+    "surface": "profess"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "professor": [
+   {
+    "id": "profess",
+    "surface": "profess"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "profit": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "fit",
+    "surface": "fit"
+   }
+  ],
+  "promote": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "mote",
+    "surface": "mote"
+   }
+  ],
+  "properly": [
+   {
+    "id": "proper",
+    "surface": "proper"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "protection": [
+   {
+    "id": "protect",
+    "surface": "protect"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "psychology": [
+   {
+    "id": "psycho",
+    "surface": "psycho"
+   },
+   {
+    "id": "logy",
+    "surface": "logy"
+   }
+  ],
+  "publicly": [
+   {
+    "id": "public",
+    "surface": "public"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "punctuation": [
+   {
+    "id": "punctuate",
+    "surface": "punctuat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "punishment": [
+   {
+    "id": "punish",
+    "surface": "punish"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "purchase": [
+   {
+    "id": "pur",
+    "surface": "pur"
+   },
+   {
+    "id": "chase",
+    "surface": "chase"
+   }
+  ],
+  "racial": [
+   {
+    "id": "race",
+    "surface": "rac"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "radiation": [
+   {
+    "id": "radiate",
+    "surface": "radiat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "radioactive": [
+   {
+    "id": "radio",
+    "surface": "radio"
+   },
+   {
+    "id": "active",
+    "surface": "active"
+   }
+  ],
+  "rainbow": [
+   {
+    "id": "rain",
+    "surface": "rain"
+   },
+   {
+    "id": "bow",
+    "surface": "bow"
+   }
+  ],
+  "rainfall": [
+   {
+    "id": "rain",
+    "surface": "rain"
+   },
+   {
+    "id": "fall",
+    "surface": "fall"
+   }
+  ],
+  "razor": [
+   {
+    "id": "raze",
+    "surface": "raz"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "react": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "act",
+    "surface": "act"
+   }
+  ],
+  "reading": [
+   {
+    "id": "read",
+    "surface": "read"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "reality": [
+   {
+    "id": "real",
+    "surface": "real"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "reasonable": [
+   {
+    "id": "reason",
+    "surface": "reason"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "rebuild": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "build",
+    "surface": "build"
+   }
+  ],
+  "receiver": [
+   {
+    "id": "receive",
+    "surface": "receive"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "receptionist": [
+   {
+    "id": "reception",
+    "surface": "reception"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   }
+  ],
+  "recommend": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "commend",
+    "surface": "commend"
+   }
+  ],
+  "recover": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "cover",
+    "surface": "cover"
+   }
+  ],
+  "recreation": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "creation",
+    "surface": "creation"
+   }
+  ],
+  "recycle": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "cycle",
+    "surface": "cycle"
+   }
+  ],
+  "redirect": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "direct",
+    "surface": "direct"
+   }
+  ],
+  "referee": [
+   {
+    "id": "refer",
+    "surface": "refer"
+   },
+   {
+    "id": "ee",
+    "surface": "ee"
+   }
+  ],
+  "reference": [
+   {
+    "id": "refer",
+    "surface": "refer"
+   },
+   {
+    "id": "ence",
+    "surface": "ence"
+   }
+  ],
+  "refresh": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "fresh",
+    "surface": "fresh"
+   }
+  ],
+  "refusal": [
+   {
+    "id": "refuse",
+    "surface": "refus"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "regardless": [
+   {
+    "id": "regard",
+    "surface": "regard"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "regards": [
+   {
+    "id": "reg",
+    "surface": "reg"
+   },
+   {
+    "id": "ards",
+    "surface": "ards"
+   }
+  ],
+  "register": [
+   {
+    "id": "regis",
+    "surface": "regis"
+   },
+   {
+    "id": "ter",
+    "surface": "ter"
+   }
+  ],
+  "regulation": [
+   {
+    "id": "regulate",
+    "surface": "regulat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "relationship": [
+   {
+    "id": "relation",
+    "surface": "relation"
+   },
+   {
+    "id": "ship",
+    "surface": "ship"
+   }
+  ],
+  "relative": [
+   {
+    "id": "relate",
+    "surface": "relat"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "relay": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "lay",
+    "surface": "lay"
+   }
+  ]
+ }
+}

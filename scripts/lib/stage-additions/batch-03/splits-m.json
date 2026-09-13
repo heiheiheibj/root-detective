@@ -1,0 +1,609 @@
+{
+ "_comment": "3.2 高考批 切分 M：第 721–780 词",
+ "splits": {
+  "sharpen": [
+   {
+    "id": "sharp",
+    "surface": "sharp"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "sharpener": [
+   {
+    "id": "sharpen",
+    "surface": "sharpen"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "shaver": [
+   {
+    "id": "shave",
+    "surface": "shave"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "shooting": [
+   {
+    "id": "shoot",
+    "surface": "shoot"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "shopkeeper": [
+   {
+    "id": "shop",
+    "surface": "shop"
+   },
+   {
+    "id": "keeper",
+    "surface": "keeper"
+   }
+  ],
+  "shopping": [
+   {
+    "id": "shop",
+    "surface": "shopp"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "shortcoming": [
+   {
+    "id": "short",
+    "surface": "short"
+   },
+   {
+    "id": "coming",
+    "surface": "coming"
+   }
+  ],
+  "shortly": [
+   {
+    "id": "short",
+    "surface": "short"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "shuttle": [
+   {
+    "id": "shut",
+    "surface": "shutt"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "sickness": [
+   {
+    "id": "sick",
+    "surface": "sick"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "sideway": [
+   {
+    "id": "side",
+    "surface": "side"
+   },
+   {
+    "id": "way",
+    "surface": "way"
+   }
+  ],
+  "sideways": [
+   {
+    "id": "side",
+    "surface": "side"
+   },
+   {
+    "id": "ways",
+    "surface": "ways"
+   }
+  ],
+  "sightseeing": [
+   {
+    "id": "sight",
+    "surface": "sight"
+   },
+   {
+    "id": "seeing",
+    "surface": "seeing"
+   }
+  ],
+  "simplify": [
+   {
+    "id": "simple",
+    "surface": "simpl"
+   },
+   {
+    "id": "ify",
+    "surface": "ify"
+   }
+  ],
+  "simply": [
+   {
+    "id": "simple",
+    "surface": "simpl"
+   },
+   {
+    "id": "ly",
+    "surface": "y"
+   }
+  ],
+  "sincerely": [
+   {
+    "id": "sincere",
+    "surface": "sincere"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "singer": [
+   {
+    "id": "sing",
+    "surface": "sing"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "sixteenth": [
+   {
+    "id": "six",
+    "surface": "six"
+   },
+   {
+    "id": "teen",
+    "surface": "teen"
+   },
+   {
+    "id": "th",
+    "surface": "th"
+   }
+  ],
+  "skateboard": [
+   {
+    "id": "skate",
+    "surface": "skate"
+   },
+   {
+    "id": "board",
+    "surface": "board"
+   }
+  ],
+  "skilled": [
+   {
+    "id": "skill",
+    "surface": "skill"
+   },
+   {
+    "id": "ed",
+    "surface": "ed"
+   }
+  ],
+  "skillful": [
+   {
+    "id": "skill",
+    "surface": "skill"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "skillfully": [
+   {
+    "id": "skillful",
+    "surface": "skillful"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "skipping": [
+   {
+    "id": "skip",
+    "surface": "skip"
+   },
+   {
+    "id": "ping",
+    "surface": "ping"
+   }
+  ],
+  "skyscraper": [
+   {
+    "id": "sky",
+    "surface": "sky"
+   },
+   {
+    "id": "scraper",
+    "surface": "scraper"
+   }
+  ],
+  "slavery": [
+   {
+    "id": "slave",
+    "surface": "slave"
+   },
+   {
+    "id": "ery",
+    "surface": "ry"
+   }
+  ],
+  "smoker": [
+   {
+    "id": "smoke",
+    "surface": "smoke"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "smoking": [
+   {
+    "id": "smoke",
+    "surface": "smok"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "sneaker": [
+   {
+    "id": "sneak",
+    "surface": "sneak"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "snowball": [
+   {
+    "id": "snow",
+    "surface": "snow"
+   },
+   {
+    "id": "ball",
+    "surface": "ball"
+   }
+  ],
+  "snowman": [
+   {
+    "id": "snow",
+    "surface": "snow"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "socialism": [
+   {
+    "id": "social",
+    "surface": "social"
+   },
+   {
+    "id": "ism",
+    "surface": "ism"
+   }
+  ],
+  "socialist": [
+   {
+    "id": "social",
+    "surface": "social"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   }
+  ],
+  "softball": [
+   {
+    "id": "soft",
+    "surface": "soft"
+   },
+   {
+    "id": "ball",
+    "surface": "ball"
+   }
+  ],
+  "software": [
+   {
+    "id": "soft",
+    "surface": "soft"
+   },
+   {
+    "id": "war",
+    "surface": "ware"
+   }
+  ],
+  "southeast": [
+   {
+    "id": "south",
+    "surface": "south"
+   },
+   {
+    "id": "east",
+    "surface": "east"
+   }
+  ],
+  "southwest": [
+   {
+    "id": "south",
+    "surface": "south"
+   },
+   {
+    "id": "west",
+    "surface": "west"
+   }
+  ],
+  "spaceship": [
+   {
+    "id": "space",
+    "surface": "space"
+   },
+   {
+    "id": "ship",
+    "surface": "ship"
+   }
+  ],
+  "spanish": [
+   {
+    "id": "spain",
+    "surface": "span"
+   },
+   {
+    "id": "ish",
+    "surface": "ish"
+   }
+  ],
+  "sparrow": [
+   {
+    "id": "spar",
+    "surface": "spar"
+   },
+   {
+    "id": "row",
+    "surface": "row"
+   }
+  ],
+  "specialist": [
+   {
+    "id": "special",
+    "surface": "special"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   }
+  ],
+  "spelling": [
+   {
+    "id": "spell",
+    "surface": "spell"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "spiritual": [
+   {
+    "id": "spirit",
+    "surface": "spirit"
+   },
+   {
+    "id": "ual",
+    "surface": "ual"
+   }
+  ],
+  "spoonful": [
+   {
+    "id": "spoon",
+    "surface": "spoon"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "stainless": [
+   {
+    "id": "stain",
+    "surface": "stain"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "starvation": [
+   {
+    "id": "starve",
+    "surface": "starv"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "statement": [
+   {
+    "id": "st",
+    "surface": "state"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "steward": [
+   {
+    "id": "sty",
+    "surface": "ste"
+   },
+   {
+    "id": "ward",
+    "surface": "ward"
+   }
+  ],
+  "stewardess": [
+   {
+    "id": "steward",
+    "surface": "steward"
+   },
+   {
+    "id": "ess",
+    "surface": "ess"
+   }
+  ],
+  "stocking": [
+   {
+    "id": "stock",
+    "surface": "stock"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "stomachache": [
+   {
+    "id": "stomach",
+    "surface": "stomach"
+   },
+   {
+    "id": "ache",
+    "surface": "ache"
+   }
+  ],
+  "stopwatch": [
+   {
+    "id": "stop",
+    "surface": "stop"
+   },
+   {
+    "id": "watch",
+    "surface": "watch"
+   }
+  ],
+  "storage": [
+   {
+    "id": "store",
+    "surface": "stor"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "straightforward": [
+   {
+    "id": "straight",
+    "surface": "straight"
+   },
+   {
+    "id": "forward",
+    "surface": "forward"
+   }
+  ],
+  "strengthen": [
+   {
+    "id": "strength",
+    "surface": "strength"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "stubborn": [
+   {
+    "id": "stub",
+    "surface": "stub"
+   },
+   {
+    "id": "born",
+    "surface": "born"
+   }
+  ],
+  "subject": [
+   {
+    "id": "sub",
+    "surface": "sub"
+   },
+   {
+    "id": "ject",
+    "surface": "ject"
+   }
+  ],
+  "subjective": [
+   {
+    "id": "subject",
+    "surface": "subject"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "subtraction": [
+   {
+    "id": "subtract",
+    "surface": "subtract"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "suffering": [
+   {
+    "id": "suffer",
+    "surface": "suffer"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "suitable": [
+   {
+    "id": "suit",
+    "surface": "suit"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ]
+ }
+}

@@ -1,0 +1,225 @@
+{
+ "_comment": "3.2 高考批 切分 P：第 901–922 词",
+ "splits": {
+  "widespread": [
+   {
+    "id": "wide",
+    "surface": "wide"
+   },
+   {
+    "id": "spread",
+    "surface": "spread"
+   }
+  ],
+  "wildlife": [
+   {
+    "id": "wild",
+    "surface": "wild"
+   },
+   {
+    "id": "life",
+    "surface": "life"
+   }
+  ],
+  "willing": [
+   {
+    "id": "will",
+    "surface": "will"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "willingly": [
+   {
+    "id": "willing",
+    "surface": "willing"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "willingness": [
+   {
+    "id": "willing",
+    "surface": "willing"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "windbreaker": [
+   {
+    "id": "wind",
+    "surface": "wind"
+   },
+   {
+    "id": "breaker",
+    "surface": "breaker"
+   }
+  ],
+  "wisdom": [
+   {
+    "id": "wise",
+    "surface": "wis"
+   },
+   {
+    "id": "dom",
+    "surface": "dom"
+   }
+  ],
+  "withdraw": [
+   {
+    "id": "with",
+    "surface": "with"
+   },
+   {
+    "id": "draw",
+    "surface": "draw"
+   }
+  ],
+  "within": [
+   {
+    "id": "with",
+    "surface": "with"
+   },
+   {
+    "id": "in",
+    "surface": "in"
+   }
+  ],
+  "witness": [
+   {
+    "id": "wit",
+    "surface": "wit"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "wooden": [
+   {
+    "id": "wood",
+    "surface": "wood"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "woollen": [
+   {
+    "id": "wool",
+    "surface": "wool"
+   },
+   {
+    "id": "len",
+    "surface": "len"
+   }
+  ],
+  "workday": [
+   {
+    "id": "work",
+    "surface": "work"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "workforce": [
+   {
+    "id": "work",
+    "surface": "work"
+   },
+   {
+    "id": "force",
+    "surface": "force"
+   }
+  ],
+  "workmate": [
+   {
+    "id": "work",
+    "surface": "work"
+   },
+   {
+    "id": "mate",
+    "surface": "mate"
+   }
+  ],
+  "workplace": [
+   {
+    "id": "work",
+    "surface": "work"
+   },
+   {
+    "id": "place",
+    "surface": "place"
+   }
+  ],
+  "worthless": [
+   {
+    "id": "worth",
+    "surface": "worth"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "worthwhile": [
+   {
+    "id": "worth",
+    "surface": "worth"
+   },
+   {
+    "id": "while",
+    "surface": "while"
+   }
+  ],
+  "wounded": [
+   {
+    "id": "wound",
+    "surface": "wound"
+   },
+   {
+    "id": "ed",
+    "surface": "ed"
+   }
+  ],
+  "wrestle": [
+   {
+    "id": "wrest",
+    "surface": "wrest"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "writing": [
+   {
+    "id": "write",
+    "surface": "writ"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "zipper": [
+   {
+    "id": "zip",
+    "surface": "zipp"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ]
+ }
+}

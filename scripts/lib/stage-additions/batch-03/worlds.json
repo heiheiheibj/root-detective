@@ -1,0 +1,45 @@
+{
+ "_comment": "3.2 高考批新增 8 个世界（+ 之前 23 个 = 31），覆盖本批 62 个教学词根家族。口径同 batch-02：世界按批次增量，只挂本批已进词库的词根；families 只对教学词根建，零件词根不上地图。本批 62 个家族全部在此，一个不落。",
+ "worlds": [
+  {
+   "id": "market-lane",
+   "name": "市集巷",
+   "morphemeIds": ["shop", "place", "fair", "sales", "suit", "fare"]
+  },
+  {
+   "id": "hearth-forge",
+   "name": "炉火坊",
+   "morphemeIds": ["fire", "light", "electric", "wind", "snow", "wood", "plant"]
+  },
+  {
+   "id": "measure-terrace",
+   "name": "度量台",
+   "morphemeIds": ["east", "short", "high", "space", "point", "normal"]
+  },
+  {
+   "id": "will-hall",
+   "name": "心志堂",
+   "morphemeIds": ["sist", "tempt", "courage", "willing", "firm", "certain"]
+  },
+  {
+   "id": "force-yard",
+   "name": "运力场",
+   "morphemeIds": ["tend", "late", "miss", "found", "press", "collect", "lay", "fall"]
+  },
+  {
+   "id": "council-chamber",
+   "name": "议事厅",
+   "morphemeIds": ["present", "public", "social", "custom", "court", "law", "part", "proper", "regard"]
+  },
+  {
+   "id": "reading-loft",
+   "name": "识读阁",
+   "morphemeIds": ["sign", "mark", "distinct", "consider", "correct", "text", "detect", "sight", "rest"]
+  },
+  {
+   "id": "lumber-store",
+   "name": "杂物仓",
+   "morphemeIds": ["box", "case", "fit", "load", "organ", "access", "minim", "special", "fresh", "main", "host"]
+  }
+ ]
+}

@@ -18,8 +18,9 @@ const format = (findings: ReturnType<typeof validateContent>) => findings.map((f
 describe('结构化内容校验', () => {
   it('词条数量等于生成器声明的目标数量', () => {
     // 测试和生成器读同一个常量，避免「生成器产 400 个、测试还在要求 16 个」这种各说各话。
-    // 分批发词时每批都要同步改这个常量——所以失败信息里直接写清楚改哪儿。
-    expect(words.length, `词数是 ${words.length}，TARGET_WORD_COUNT 还是 ${TARGET_WORD_COUNT}：加词后请同步改 src/domain/contentRules.ts 的常量`).toBe(TARGET_WORD_COUNT)
+    // Stage 3 起按批次往上铺词，这个词数是**下限**：再加一批只会更多，不会变少，
+    // 所以这里卡「不少于」，跟 scripts/validate-content.mjs 的口径保持一致。
+    expect(words.length, `词数是 ${words.length}，少于 TARGET_WORD_COUNT（${TARGET_WORD_COUNT}）：生成器是不是悄悄少产了？`).toBeGreaterThanOrEqual(TARGET_WORD_COUNT)
     for (const word of words) {
       expect(word.id).toBe(word.word)
       expect(word.phonetic).toMatch(/^\/.+\/$/)
@@ -36,7 +37,13 @@ describe('结构化内容校验', () => {
   })
 
   it('世界与词根表对得上', () => {
-    expect(format(validateWorlds(morphemes, worlds))).toEqual([])
+    // A24 只要求「教学词根」挂世界（家族 ≥ MIN_WORDS_PER_ROOT）：零件词根只出现在
+    // 拼词卡片里、不上地图，把它们也算进来会凭空多出几百个假错误。
+    // 口径与 scripts/validate-content.mjs 保持一致。
+    const famSize = new Map<string, number>()
+    for (const w of words) for (const p of w.parts) famSize.set(p.morphemeId, (famSize.get(p.morphemeId) ?? 0) + 1)
+    const teachingRootIds = new Set([...famSize].filter(([, count]) => count >= MIN_WORDS_PER_ROOT).map(([id]) => id))
+    expect(format(validateWorlds(morphemes, worlds, teachingRootIds))).toEqual([])
     // canary 词根：无论怎么重新生成，这 4 个都必须在。
     expect(rootMorphemes.map((item) => item.id)).toEqual(expect.arrayContaining(['dict', 'port', 'spec', 'vid']))
   })

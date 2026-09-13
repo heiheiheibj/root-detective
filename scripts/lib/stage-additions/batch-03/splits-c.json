@@ -1,0 +1,609 @@
+{
+ "_comment": "3.2 高考批 切分 C：第 121–180 词",
+ "splits": {
+  "bathrobe": [
+   {
+    "id": "bath",
+    "surface": "bath"
+   },
+   {
+    "id": "rob",
+    "surface": "robe"
+   }
+  ],
+  "bathtub": [
+   {
+    "id": "bath",
+    "surface": "bath"
+   },
+   {
+    "id": "tub",
+    "surface": "tub"
+   }
+  ],
+  "battleground": [
+   {
+    "id": "battle",
+    "surface": "battle"
+   },
+   {
+    "id": "ground",
+    "surface": "ground"
+   }
+  ],
+  "beancurd": [
+   {
+    "id": "bean",
+    "surface": "bean"
+   },
+   {
+    "id": "curd",
+    "surface": "curd"
+   }
+  ],
+  "bedclothes": [
+   {
+    "id": "bed",
+    "surface": "bed"
+   },
+   {
+    "id": "clothes",
+    "surface": "clothes"
+   }
+  ],
+  "beehive": [
+   {
+    "id": "be",
+    "surface": "bee"
+   },
+   {
+    "id": "hive",
+    "surface": "hive"
+   }
+  ],
+  "beer": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "beginning": [
+   {
+    "id": "begin",
+    "surface": "beginn"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "behalf": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "half",
+    "surface": "half"
+   }
+  ],
+  "behave": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "have",
+    "surface": "have"
+   }
+  ],
+  "being": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "belong": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "long",
+    "surface": "long"
+   }
+  ],
+  "beneath": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "neath",
+    "surface": "neath"
+   }
+  ],
+  "benefit": [
+   {
+    "id": "ben",
+    "surface": "bene"
+   },
+   {
+    "id": "fit",
+    "surface": "fit"
+   }
+  ],
+  "betray": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "tray",
+    "surface": "tray"
+   }
+  ],
+  "better": [
+   {
+    "id": "bet",
+    "surface": "bett"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "billion": [
+   {
+    "id": "bi",
+    "surface": "bi"
+   },
+   {
+    "id": "illion",
+    "surface": "llion"
+   }
+  ],
+  "biochemistry": [
+   {
+    "id": "bio",
+    "surface": "bio"
+   },
+   {
+    "id": "chemistry",
+    "surface": "chemistry"
+   }
+  ],
+  "birdcage": [
+   {
+    "id": "bird",
+    "surface": "bird"
+   },
+   {
+    "id": "cage",
+    "surface": "cage"
+   }
+  ],
+  "birthplace": [
+   {
+    "id": "birth",
+    "surface": "birth"
+   },
+   {
+    "id": "place",
+    "surface": "place"
+   }
+  ],
+  "boating": [
+   {
+    "id": "boat",
+    "surface": "boat"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "bookcase": [
+   {
+    "id": "book",
+    "surface": "book"
+   },
+   {
+    "id": "case",
+    "surface": "case"
+   }
+  ],
+  "bookmark": [
+   {
+    "id": "book",
+    "surface": "book"
+   },
+   {
+    "id": "mark",
+    "surface": "mark"
+   }
+  ],
+  "bookshelf": [
+   {
+    "id": "book",
+    "surface": "book"
+   },
+   {
+    "id": "shelf",
+    "surface": "shelf"
+   }
+  ],
+  "bookshop": [
+   {
+    "id": "book",
+    "surface": "book"
+   },
+   {
+    "id": "shop",
+    "surface": "shop"
+   }
+  ],
+  "bookstore": [
+   {
+    "id": "book",
+    "surface": "book"
+   },
+   {
+    "id": "store",
+    "surface": "store"
+   }
+  ],
+  "bored": [
+   {
+    "id": "bore",
+    "surface": "bore"
+   },
+   {
+    "id": "ed",
+    "surface": "d"
+   }
+  ],
+  "botanical": [
+   {
+    "id": "botany",
+    "surface": "botan"
+   },
+   {
+    "id": "ical",
+    "surface": "ical"
+   }
+  ],
+  "boundary": [
+   {
+    "id": "bound",
+    "surface": "bound"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "bowling": [
+   {
+    "id": "bowl",
+    "surface": "bowl"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "boxing": [
+   {
+    "id": "box",
+    "surface": "box"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "bravery": [
+   {
+    "id": "brave",
+    "surface": "brave"
+   },
+   {
+    "id": "ery",
+    "surface": "ry"
+   }
+  ],
+  "breakthrough": [
+   {
+    "id": "break",
+    "surface": "break"
+   },
+   {
+    "id": "through",
+    "surface": "through"
+   }
+  ],
+  "breathless": [
+   {
+    "id": "breath",
+    "surface": "breath"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "brewery": [
+   {
+    "id": "brew",
+    "surface": "brew"
+   },
+   {
+    "id": "ery",
+    "surface": "ery"
+   }
+  ],
+  "bridegroom": [
+   {
+    "id": "bride",
+    "surface": "bride"
+   },
+   {
+    "id": "groom",
+    "surface": "groom"
+   }
+  ],
+  "british": [
+   {
+    "id": "brit",
+    "surface": "brit"
+   },
+   {
+    "id": "ish",
+    "surface": "ish"
+   }
+  ],
+  "broadcast": [
+   {
+    "id": "broad",
+    "surface": "broad"
+   },
+   {
+    "id": "cast",
+    "surface": "cast"
+   }
+  ],
+  "brotherhood": [
+   {
+    "id": "brother",
+    "surface": "brother"
+   },
+   {
+    "id": "hood",
+    "surface": "hood"
+   }
+  ],
+  "bucket": [
+   {
+    "id": "bouk",
+    "surface": "buck"
+   },
+   {
+    "id": "et",
+    "surface": "et"
+   }
+  ],
+  "buddhism": [
+   {
+    "id": "buddha",
+    "surface": "buddh"
+   },
+   {
+    "id": "ism",
+    "surface": "ism"
+   }
+  ],
+  "buddhist": [
+   {
+    "id": "buddha",
+    "surface": "buddh"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   }
+  ],
+  "bureaucratic": [
+   {
+    "id": "bureaucrat",
+    "surface": "bureaucrat"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "burial": [
+   {
+    "id": "bury",
+    "surface": "buri"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "businessman": [
+   {
+    "id": "business",
+    "surface": "business"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "businesswoman": [
+   {
+    "id": "business",
+    "surface": "business"
+   },
+   {
+    "id": "woman",
+    "surface": "woman"
+   }
+  ],
+  "butcher": [
+   {
+    "id": "butch",
+    "surface": "butch"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "candidate": [
+   {
+    "id": "candid",
+    "surface": "candid"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "canteen": [
+   {
+    "id": "can",
+    "surface": "can"
+   },
+   {
+    "id": "teen",
+    "surface": "teen"
+   }
+  ],
+  "caption": [
+   {
+    "id": "cap",
+    "surface": "cap"
+   },
+   {
+    "id": "tion",
+    "surface": "tion"
+   }
+  ],
+  "carbon": [
+   {
+    "id": "car",
+    "surface": "car"
+   },
+   {
+    "id": "bon",
+    "surface": "bon"
+   }
+  ],
+  "carpenter": [
+   {
+    "id": "carp",
+    "surface": "carp"
+   },
+   {
+    "id": "enter",
+    "surface": "enter"
+   }
+  ],
+  "carrier": [
+   {
+    "id": "carry",
+    "surface": "carri"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "carrot": [
+   {
+    "id": "car",
+    "surface": "car"
+   },
+   {
+    "id": "rot",
+    "surface": "rot"
+   }
+  ],
+  "casual": [
+   {
+    "id": "cas",
+    "surface": "cas"
+   },
+   {
+    "id": "ual",
+    "surface": "ual"
+   }
+  ],
+  "catalogue": [
+   {
+    "id": "cata",
+    "surface": "cata"
+   },
+   {
+    "id": "logue",
+    "surface": "logue"
+   }
+  ],
+  "category": [
+   {
+    "id": "cat",
+    "surface": "cat"
+   },
+   {
+    "id": "ego",
+    "surface": "ego"
+   },
+   {
+    "id": "ry",
+    "surface": "ry"
+   }
+  ],
+  "cater": [
+   {
+    "id": "cat",
+    "surface": "cate"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "cathedral": [
+   {
+    "id": "cathedra",
+    "surface": "cathedra"
+   },
+   {
+    "id": "lis",
+    "surface": "l"
+   }
+  ],
+  "cautious": [
+   {
+    "id": "caution",
+    "surface": "cautio"
+   },
+   {
+    "id": "ous",
+    "surface": "us"
+   }
+  ]
+ }
+}

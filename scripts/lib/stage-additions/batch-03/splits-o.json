@@ -1,0 +1,605 @@
+{
+ "_comment": "3.2 高考批 切分 O：第 841–900 词",
+ "splits": {
+  "unconscious": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "conscious",
+    "surface": "conscious"
+   }
+  ],
+  "underline": [
+   {
+    "id": "under",
+    "surface": "under"
+   },
+   {
+    "id": "line",
+    "surface": "line"
+   }
+  ],
+  "understanding": [
+   {
+    "id": "understand",
+    "surface": "understand"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "undertake": [
+   {
+    "id": "under",
+    "surface": "under"
+   },
+   {
+    "id": "take",
+    "surface": "take"
+   }
+  ],
+  "underwear": [
+   {
+    "id": "under",
+    "surface": "under"
+   },
+   {
+    "id": "wear",
+    "surface": "wear"
+   }
+  ],
+  "undivided": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "divided",
+    "surface": "divided"
+   }
+  ],
+  "undo": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "do",
+    "surface": "do"
+   }
+  ],
+  "unemployment": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "employment",
+    "surface": "employment"
+   }
+  ],
+  "unfair": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "fair",
+    "surface": "fair"
+   }
+  ],
+  "unfit": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "fit",
+    "surface": "fit"
+   }
+  ],
+  "unfold": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "fold",
+    "surface": "fold"
+   }
+  ],
+  "unfortunate": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "fortunate",
+    "surface": "fortunate"
+   }
+  ],
+  "unfortunately": [
+   {
+    "id": "unfortunate",
+    "surface": "unfortunate"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "unhappy": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "happy",
+    "surface": "happy"
+   }
+  ],
+  "unhealthy": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "healthy",
+    "surface": "healthy"
+   }
+  ],
+  "unimportant": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "important",
+    "surface": "important"
+   }
+  ],
+  "unique": [
+   {
+    "id": "uni",
+    "surface": "uni"
+   },
+   {
+    "id": "que",
+    "surface": "que"
+   }
+  ],
+  "universal": [
+   {
+    "id": "universe",
+    "surface": "univers"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "unknown": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "known",
+    "surface": "known"
+   }
+  ],
+  "unlike": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "like",
+    "surface": "like"
+   }
+  ],
+  "unmarried": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "married",
+    "surface": "married"
+   }
+  ],
+  "unpleasant": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "pleasant",
+    "surface": "pleasant"
+   }
+  ],
+  "unrest": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "rest",
+    "surface": "rest"
+   }
+  ],
+  "unsafe": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "safe",
+    "surface": "safe"
+   }
+  ],
+  "unsuccessful": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "successful",
+    "surface": "successful"
+   }
+  ],
+  "untrue": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "true",
+    "surface": "true"
+   }
+  ],
+  "unusual": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "usual",
+    "surface": "usual"
+   }
+  ],
+  "unwilling": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "willing",
+    "surface": "willing"
+   }
+  ],
+  "upper": [
+   {
+    "id": "up",
+    "surface": "upp"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "upset": [
+   {
+    "id": "up",
+    "surface": "up"
+   },
+   {
+    "id": "set",
+    "surface": "set"
+   }
+  ],
+  "upward": [
+   {
+    "id": "up",
+    "surface": "up"
+   },
+   {
+    "id": "ward",
+    "surface": "ward"
+   }
+  ],
+  "urgent": [
+   {
+    "id": "urge",
+    "surface": "urge"
+   },
+   {
+    "id": "ent",
+    "surface": "nt"
+   }
+  ],
+  "useless": [
+   {
+    "id": "use",
+    "surface": "use"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "user": [
+   {
+    "id": "use",
+    "surface": "use"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "usually": [
+   {
+    "id": "usual",
+    "surface": "usual"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "valuable": [
+   {
+    "id": "value",
+    "surface": "valu"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "various": [
+   {
+    "id": "vary",
+    "surface": "vari"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "videophone": [
+   {
+    "id": "video",
+    "surface": "video"
+   },
+   {
+    "id": "phone",
+    "surface": "phone"
+   }
+  ],
+  "viewer": [
+   {
+    "id": "view",
+    "surface": "view"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "villager": [
+   {
+    "id": "village",
+    "surface": "village"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "violinist": [
+   {
+    "id": "violin",
+    "surface": "violin"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   }
+  ],
+  "waiter": [
+   {
+    "id": "wait",
+    "surface": "wait"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "waitress": [
+   {
+    "id": "waiter",
+    "surface": "waitr"
+   },
+   {
+    "id": "ess",
+    "surface": "ess"
+   }
+  ],
+  "walkman": [
+   {
+    "id": "walk",
+    "surface": "walk"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "wander": [
+   {
+    "id": "wandn",
+    "surface": "wande"
+   },
+   {
+    "id": "rn",
+    "surface": "r"
+   }
+  ],
+  "warehouse": [
+   {
+    "id": "war",
+    "surface": "ware"
+   },
+   {
+    "id": "house",
+    "surface": "house"
+   }
+  ],
+  "warmth": [
+   {
+    "id": "warm",
+    "surface": "warm"
+   },
+   {
+    "id": "th",
+    "surface": "th"
+   }
+  ],
+  "warning": [
+   {
+    "id": "warn",
+    "surface": "warn"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "washroom": [
+   {
+    "id": "wash",
+    "surface": "wash"
+   },
+   {
+    "id": "room",
+    "surface": "room"
+   }
+  ],
+  "wayside": [
+   {
+    "id": "way",
+    "surface": "way"
+   },
+   {
+    "id": "side",
+    "surface": "side"
+   }
+  ],
+  "weakness": [
+   {
+    "id": "weak",
+    "surface": "weak"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "wealthy": [
+   {
+    "id": "weal",
+    "surface": "weal"
+   },
+   {
+    "id": "thy",
+    "surface": "thy"
+   }
+  ],
+  "weatherman": [
+   {
+    "id": "weather",
+    "surface": "weather"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "wedding": [
+   {
+    "id": "wed",
+    "surface": "wedd"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "weekly": [
+   {
+    "id": "week",
+    "surface": "week"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "welfare": [
+   {
+    "id": "well",
+    "surface": "wel"
+   },
+   {
+    "id": "fare",
+    "surface": "fare"
+   }
+  ],
+  "westerner": [
+   {
+    "id": "western",
+    "surface": "western"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "westwards": [
+   {
+    "id": "west",
+    "surface": "west"
+   },
+   {
+    "id": "wards",
+    "surface": "wards"
+   }
+  ],
+  "wherever": [
+   {
+    "id": "where",
+    "surface": "where"
+   },
+   {
+    "id": "ever",
+    "surface": "ver"
+   }
+  ],
+  "whichever": [
+   {
+    "id": "which",
+    "surface": "which"
+   },
+   {
+    "id": "ever",
+    "surface": "ever"
+   }
+  ]
+ }
+}

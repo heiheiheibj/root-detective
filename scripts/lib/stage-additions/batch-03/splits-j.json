@@ -1,0 +1,605 @@
+{
+ "_comment": "3.2 高考批 切分 J：第 541–600 词",
+ "splits": {
+  "official": [
+   {
+    "id": "office",
+    "surface": "offic"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "offshore": [
+   {
+    "id": "off",
+    "surface": "off"
+   },
+   {
+    "id": "shore",
+    "surface": "shore"
+   }
+  ],
+  "oilfield": [
+   {
+    "id": "oil",
+    "surface": "oil"
+   },
+   {
+    "id": "field",
+    "surface": "field"
+   }
+  ],
+  "onto": [
+   {
+    "id": "on",
+    "surface": "on"
+   },
+   {
+    "id": "to",
+    "surface": "to"
+   }
+  ],
+  "opener": [
+   {
+    "id": "open",
+    "surface": "open"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "opening": [
+   {
+    "id": "open",
+    "surface": "open"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "operator": [
+   {
+    "id": "operate",
+    "surface": "operat"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "opinion": [
+   {
+    "id": "opine",
+    "surface": "opin"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "optimistic": [
+   {
+    "id": "optimist",
+    "surface": "optimist"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "optional": [
+   {
+    "id": "option",
+    "surface": "option"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "organise": [
+   {
+    "id": "organ",
+    "surface": "organ"
+   },
+   {
+    "id": "ise",
+    "surface": "ise"
+   }
+  ],
+  "organiser": [
+   {
+    "id": "organise",
+    "surface": "organise"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "organization": [
+   {
+    "id": "organize",
+    "surface": "organiz"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "otherwise": [
+   {
+    "id": "other",
+    "surface": "other"
+   },
+   {
+    "id": "wise",
+    "surface": "wise"
+   }
+  ],
+  "outcome": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "com",
+    "surface": "come"
+   }
+  ],
+  "outdoors": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "doors",
+    "surface": "doors"
+   }
+  ],
+  "outer": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "outgoing": [
+   {
+    "id": "outgo",
+    "surface": "outgo"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "outing": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "outline": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "line",
+    "surface": "line"
+   }
+  ],
+  "output": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "put",
+    "surface": "put"
+   }
+  ],
+  "outspoken": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "spoken",
+    "surface": "spoken"
+   }
+  ],
+  "outstanding": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "standing",
+    "surface": "standing"
+   }
+  ],
+  "outward": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "ward",
+    "surface": "ward"
+   }
+  ],
+  "overcome": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "com",
+    "surface": "come"
+   }
+  ],
+  "overhead": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "head",
+    "surface": "head"
+   }
+  ],
+  "overlook": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "look",
+    "surface": "look"
+   }
+  ],
+  "overweight": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "weight",
+    "surface": "weight"
+   }
+  ],
+  "ownership": [
+   {
+    "id": "owner",
+    "surface": "owner"
+   },
+   {
+    "id": "ship",
+    "surface": "ship"
+   }
+  ],
+  "oxygen": [
+   {
+    "id": "oxy",
+    "surface": "oxy"
+   },
+   {
+    "id": "gen",
+    "surface": "gen"
+   }
+  ],
+  "painful": [
+   {
+    "id": "pain",
+    "surface": "pain"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "painter": [
+   {
+    "id": "paint",
+    "surface": "paint"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "painting": [
+   {
+    "id": "paint",
+    "surface": "paint"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "panic": [
+   {
+    "id": "pan",
+    "surface": "pan"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "paperwork": [
+   {
+    "id": "paper",
+    "surface": "paper"
+   },
+   {
+    "id": "work",
+    "surface": "work"
+   }
+  ],
+  "parking": [
+   {
+    "id": "park",
+    "surface": "park"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "partly": [
+   {
+    "id": "part",
+    "surface": "part"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "passive": [
+   {
+    "id": "pass",
+    "surface": "pass"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "pattern": [
+   {
+    "id": "pat",
+    "surface": "pat"
+   },
+   {
+    "id": "tern",
+    "surface": "tern"
+   }
+  ],
+  "peaceful": [
+   {
+    "id": "peace",
+    "surface": "peace"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "percentage": [
+   {
+    "id": "percent",
+    "surface": "percent"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "performance": [
+   {
+    "id": "perform",
+    "surface": "perform"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "performer": [
+   {
+    "id": "perform",
+    "surface": "perform"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "permission": [
+   {
+    "id": "permit",
+    "surface": "permiss"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "personally": [
+   {
+    "id": "personal",
+    "surface": "personal"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "persuade": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "suade",
+    "surface": "suade"
+   }
+  ],
+  "photographer": [
+   {
+    "id": "photograph",
+    "surface": "photograph"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "pianist": [
+   {
+    "id": "piano",
+    "surface": "pian"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   }
+  ],
+  "pineapple": [
+   {
+    "id": "pine",
+    "surface": "pine"
+   },
+   {
+    "id": "apple",
+    "surface": "apple"
+   }
+  ],
+  "player": [
+   {
+    "id": "play",
+    "surface": "play"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "playmate": [
+   {
+    "id": "play",
+    "surface": "play"
+   },
+   {
+    "id": "mate",
+    "surface": "mate"
+   }
+  ],
+  "playroom": [
+   {
+    "id": "play",
+    "surface": "play"
+   },
+   {
+    "id": "room",
+    "surface": "room"
+   }
+  ],
+  "pleased": [
+   {
+    "id": "please",
+    "surface": "please"
+   },
+   {
+    "id": "ed",
+    "surface": "d"
+   }
+  ],
+  "poisonous": [
+   {
+    "id": "poison",
+    "surface": "poison"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "polish": [
+   {
+    "id": "pole",
+    "surface": "pol"
+   },
+   {
+    "id": "ish",
+    "surface": "ish"
+   }
+  ],
+  "pollute": [
+   {
+    "id": "pol",
+    "surface": "pol"
+   },
+   {
+    "id": "lute",
+    "surface": "lute"
+   }
+  ],
+  "pollution": [
+   {
+    "id": "pollute",
+    "surface": "pollut"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "popcorn": [
+   {
+    "id": "pop",
+    "surface": "pop"
+   },
+   {
+    "id": "corn",
+    "surface": "corn"
+   }
+  ],
+  "porridge": [
+   {
+    "id": "por",
+    "surface": "por"
+   },
+   {
+    "id": "ridge",
+    "surface": "ridge"
+   }
+  ],
+  "possession": [
+   {
+    "id": "possess",
+    "surface": "possess"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ]
+ }
+}

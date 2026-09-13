@@ -1,0 +1,605 @@
+{
+ "_comment": "3.2 高考批 切分 G：第 361–420 词",
+ "splits": {
+  "fairly": [
+   {
+    "id": "fair",
+    "surface": "fair"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "fairness": [
+   {
+    "id": "fair",
+    "surface": "fair"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "fasten": [
+   {
+    "id": "fast",
+    "surface": "fast"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "feather": [
+   {
+    "id": "feat",
+    "surface": "feat"
+   },
+   {
+    "id": "her",
+    "surface": "her"
+   }
+  ],
+  "fighter": [
+   {
+    "id": "fight",
+    "surface": "fight"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "fingernail": [
+   {
+    "id": "finger",
+    "surface": "finger"
+   },
+   {
+    "id": "nail",
+    "surface": "nail"
+   }
+  ],
+  "firefighter": [
+   {
+    "id": "fire",
+    "surface": "fire"
+   },
+   {
+    "id": "fighter",
+    "surface": "fighter"
+   }
+  ],
+  "fireplace": [
+   {
+    "id": "fire",
+    "surface": "fire"
+   },
+   {
+    "id": "place",
+    "surface": "place"
+   }
+  ],
+  "firewood": [
+   {
+    "id": "fire",
+    "surface": "fire"
+   },
+   {
+    "id": "wood",
+    "surface": "wood"
+   }
+  ],
+  "firework": [
+   {
+    "id": "fire",
+    "surface": "fire"
+   },
+   {
+    "id": "work",
+    "surface": "work"
+   }
+  ],
+  "firmly": [
+   {
+    "id": "firm",
+    "surface": "firm"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "flashlight": [
+   {
+    "id": "flash",
+    "surface": "flash"
+   },
+   {
+    "id": "light",
+    "surface": "light"
+   }
+  ],
+  "following": [
+   {
+    "id": "follow",
+    "surface": "follow"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "fond": [
+   {
+    "id": "fon",
+    "surface": "fon"
+   },
+   {
+    "id": "ed",
+    "surface": "d"
+   }
+  ],
+  "foolish": [
+   {
+    "id": "fool",
+    "surface": "fool"
+   },
+   {
+    "id": "ish",
+    "surface": "ish"
+   }
+  ],
+  "forbid": [
+   {
+    "id": "for",
+    "surface": "for"
+   },
+   {
+    "id": "bid",
+    "surface": "bid"
+   }
+  ],
+  "forecast": [
+   {
+    "id": "for",
+    "surface": "fore"
+   },
+   {
+    "id": "cast",
+    "surface": "cast"
+   }
+  ],
+  "forehead": [
+   {
+    "id": "for",
+    "surface": "fore"
+   },
+   {
+    "id": "head",
+    "surface": "head"
+   }
+  ],
+  "foresee": [
+   {
+    "id": "for",
+    "surface": "fore"
+   },
+   {
+    "id": "se",
+    "surface": "see"
+   }
+  ],
+  "forever": [
+   {
+    "id": "for",
+    "surface": "for"
+   },
+   {
+    "id": "ever",
+    "surface": "ever"
+   }
+  ],
+  "forgetful": [
+   {
+    "id": "forget",
+    "surface": "forget"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "forgive": [
+   {
+    "id": "for",
+    "surface": "for"
+   },
+   {
+    "id": "give",
+    "surface": "give"
+   }
+  ],
+  "former": [
+   {
+    "id": "form",
+    "surface": "form"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "fortnight": [
+   {
+    "id": "fort",
+    "surface": "fort"
+   },
+   {
+    "id": "night",
+    "surface": "night"
+   }
+  ],
+  "fortunate": [
+   {
+    "id": "fortune",
+    "surface": "fortun"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "fortune": [
+   {
+    "id": "fort",
+    "surface": "fort"
+   },
+   {
+    "id": "un",
+    "surface": "une"
+   }
+  ],
+  "founding": [
+   {
+    "id": "found",
+    "surface": "found"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "fragrant": [
+   {
+    "id": "fra",
+    "surface": "fra"
+   },
+   {
+    "id": "grant",
+    "surface": "grant"
+   }
+  ],
+  "framework": [
+   {
+    "id": "frame",
+    "surface": "frame"
+   },
+   {
+    "id": "work",
+    "surface": "work"
+   }
+  ],
+  "freedom": [
+   {
+    "id": "free",
+    "surface": "free"
+   },
+   {
+    "id": "dom",
+    "surface": "dom"
+   }
+  ],
+  "freeway": [
+   {
+    "id": "free",
+    "surface": "free"
+   },
+   {
+    "id": "way",
+    "surface": "way"
+   }
+  ],
+  "freezing": [
+   {
+    "id": "freeze",
+    "surface": "freez"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "frenchman": [
+   {
+    "id": "french",
+    "surface": "french"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "frighten": [
+   {
+    "id": "fright",
+    "surface": "fright"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "fundamental": [
+   {
+    "id": "fundament",
+    "surface": "fundament"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "garbage": [
+   {
+    "id": "garb",
+    "surface": "garb"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "gardening": [
+   {
+    "id": "garden",
+    "surface": "garden"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "generation": [
+   {
+    "id": "gener",
+    "surface": "generat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "geometry": [
+   {
+    "id": "geo",
+    "surface": "geo"
+   },
+   {
+    "id": "metry",
+    "surface": "metry"
+   }
+  ],
+  "germany": [
+   {
+    "id": "germ",
+    "surface": "germ"
+   },
+   {
+    "id": "any",
+    "surface": "any"
+   }
+  ],
+  "gifted": [
+   {
+    "id": "gift",
+    "surface": "gift"
+   },
+   {
+    "id": "ed",
+    "surface": "ed"
+   }
+  ],
+  "glasshouse": [
+   {
+    "id": "glass",
+    "surface": "glass"
+   },
+   {
+    "id": "house",
+    "surface": "house"
+   }
+  ],
+  "goldfish": [
+   {
+    "id": "gold",
+    "surface": "gold"
+   },
+   {
+    "id": "fish",
+    "surface": "fish"
+   }
+  ],
+  "goodness": [
+   {
+    "id": "good",
+    "surface": "good"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "gradually": [
+   {
+    "id": "gradual",
+    "surface": "gradual"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "graduation": [
+   {
+    "id": "graduate",
+    "surface": "graduat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "gravity": [
+   {
+    "id": "grav",
+    "surface": "grav"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "greengrocer": [
+   {
+    "id": "green",
+    "surface": "green"
+   },
+   {
+    "id": "grocer",
+    "surface": "grocer"
+   }
+  ],
+  "growth": [
+   {
+    "id": "grow",
+    "surface": "grow"
+   },
+   {
+    "id": "th",
+    "surface": "th"
+   }
+  ],
+  "guidance": [
+   {
+    "id": "guide",
+    "surface": "guid"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "gymnastics": [
+   {
+    "id": "gymnast",
+    "surface": "gymnast"
+   },
+   {
+    "id": "ics",
+    "surface": "ics"
+   }
+  ],
+  "haircut": [
+   {
+    "id": "hair",
+    "surface": "hair"
+   },
+   {
+    "id": "cut",
+    "surface": "cut"
+   }
+  ],
+  "handful": [
+   {
+    "id": "hand",
+    "surface": "hand"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "handkerchief": [
+   {
+    "id": "hand",
+    "surface": "hand"
+   },
+   {
+    "id": "kerchief",
+    "surface": "kerchief"
+   }
+  ],
+  "handle": [
+   {
+    "id": "hand",
+    "surface": "hand"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "handtruck": [
+   {
+    "id": "hand",
+    "surface": "hand"
+   },
+   {
+    "id": "truck",
+    "surface": "truck"
+   }
+  ],
+  "happily": [
+   {
+    "id": "happy",
+    "surface": "happi"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "happiness": [
+   {
+    "id": "happy",
+    "surface": "happi"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "hardship": [
+   {
+    "id": "hard",
+    "surface": "hard"
+   },
+   {
+    "id": "ship",
+    "surface": "ship"
+   }
+  ],
+  "hardworking": [
+   {
+    "id": "hard",
+    "surface": "hard"
+   },
+   {
+    "id": "working",
+    "surface": "working"
+   }
+  ]
+ }
+}

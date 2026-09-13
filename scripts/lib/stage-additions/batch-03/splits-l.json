@@ -1,0 +1,605 @@
+{
+ "_comment": "3.2 高考批 切分 L：第 661–720 词",
+ "splits": {
+  "reliable": [
+   {
+    "id": "rely",
+    "surface": "reli"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "remark": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "mark",
+    "surface": "mark"
+   }
+  ],
+  "remind": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "mind",
+    "surface": "mind"
+   }
+  ],
+  "remove": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "move",
+    "surface": "move"
+   }
+  ],
+  "replace": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "place",
+    "surface": "place"
+   }
+  ],
+  "reporter": [
+   {
+    "id": "report",
+    "surface": "report"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "represent": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "present",
+    "surface": "present"
+   }
+  ],
+  "representative": [
+   {
+    "id": "represent",
+    "surface": "represent"
+   },
+   {
+    "id": "ative",
+    "surface": "ative"
+   }
+  ],
+  "republic": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "public",
+    "surface": "public"
+   }
+  ],
+  "reputation": [
+   {
+    "id": "repute",
+    "surface": "reput"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "request": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "quest",
+    "surface": "quest"
+   }
+  ],
+  "requirement": [
+   {
+    "id": "require",
+    "surface": "require"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "resemble": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "semble",
+    "surface": "semble"
+   }
+  ],
+  "reservation": [
+   {
+    "id": "reserve",
+    "surface": "reserv"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "resign": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "sign",
+    "surface": "sign"
+   }
+  ],
+  "resist": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "sist",
+    "surface": "sist"
+   }
+  ],
+  "responsibility": [
+   {
+    "id": "responsible",
+    "surface": "responsibil"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "restriction": [
+   {
+    "id": "restrict",
+    "surface": "restrict"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "retire": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "tire",
+    "surface": "tire"
+   }
+  ],
+  "reuse": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "use",
+    "surface": "use"
+   }
+  ],
+  "reviewer": [
+   {
+    "id": "review",
+    "surface": "review"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "revision": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "vision",
+    "surface": "vision"
+   }
+  ],
+  "reward": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "warder",
+    "surface": "ward"
+   }
+  ],
+  "rewind": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "wind",
+    "surface": "wind"
+   }
+  ],
+  "rewrite": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "write",
+    "surface": "write"
+   }
+  ],
+  "ridiculous": [
+   {
+    "id": "ridicule",
+    "surface": "ridicul"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "roller": [
+   {
+    "id": "roll",
+    "surface": "roll"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "rooster": [
+   {
+    "id": "roost",
+    "surface": "roost"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "roundabout": [
+   {
+    "id": "round",
+    "surface": "round"
+   },
+   {
+    "id": "about",
+    "surface": "about"
+   }
+  ],
+  "routine": [
+   {
+    "id": "route",
+    "surface": "rout"
+   },
+   {
+    "id": "in",
+    "surface": "ine"
+   }
+  ],
+  "royal": [
+   {
+    "id": "roy",
+    "surface": "roy"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "runner": [
+   {
+    "id": "run",
+    "surface": "runn"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "running": [
+   {
+    "id": "run",
+    "surface": "runn"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "sadness": [
+   {
+    "id": "sad",
+    "surface": "sad"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "sailing": [
+   {
+    "id": "sail",
+    "surface": "sail"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "sailor": [
+   {
+    "id": "sail",
+    "surface": "sail"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "salesgirl": [
+   {
+    "id": "sales",
+    "surface": "sales"
+   },
+   {
+    "id": "girl",
+    "surface": "girl"
+   }
+  ],
+  "salesman": [
+   {
+    "id": "sales",
+    "surface": "sales"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "saleswoman": [
+   {
+    "id": "sales",
+    "surface": "sales"
+   },
+   {
+    "id": "woman",
+    "surface": "woman"
+   }
+  ],
+  "saying": [
+   {
+    "id": "say",
+    "surface": "say"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "scenery": [
+   {
+    "id": "scene",
+    "surface": "scene"
+   },
+   {
+    "id": "ary",
+    "surface": "ry"
+   }
+  ],
+  "sceptical": [
+   {
+    "id": "sceptic",
+    "surface": "sceptic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "scholarship": [
+   {
+    "id": "scholar",
+    "surface": "scholar"
+   },
+   {
+    "id": "ship",
+    "surface": "ship"
+   }
+  ],
+  "schoolmate": [
+   {
+    "id": "school",
+    "surface": "school"
+   },
+   {
+    "id": "mate",
+    "surface": "mate"
+   }
+  ],
+  "scotland": [
+   {
+    "id": "scot",
+    "surface": "scot"
+   },
+   {
+    "id": "land",
+    "surface": "land"
+   }
+  ],
+  "scottish": [
+   {
+    "id": "scot",
+    "surface": "scott"
+   },
+   {
+    "id": "ish",
+    "surface": "ish"
+   }
+  ],
+  "seagull": [
+   {
+    "id": "sea",
+    "surface": "sea"
+   },
+   {
+    "id": "gull",
+    "surface": "gull"
+   }
+  ],
+  "seaman": [
+   {
+    "id": "sea",
+    "surface": "sea"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "seashell": [
+   {
+    "id": "sea",
+    "surface": "sea"
+   },
+   {
+    "id": "shell",
+    "surface": "shell"
+   }
+  ],
+  "seaside": [
+   {
+    "id": "sea",
+    "surface": "sea"
+   },
+   {
+    "id": "side",
+    "surface": "side"
+   }
+  ],
+  "seaweed": [
+   {
+    "id": "sea",
+    "surface": "sea"
+   },
+   {
+    "id": "weed",
+    "surface": "weed"
+   }
+  ],
+  "section": [
+   {
+    "id": "sec",
+    "surface": "sec"
+   },
+   {
+    "id": "tion",
+    "surface": "tion"
+   }
+  ],
+  "security": [
+   {
+    "id": "secure",
+    "surface": "secur"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "select": [
+   {
+    "id": "se",
+    "surface": "se"
+   },
+   {
+    "id": "lect",
+    "surface": "lect"
+   }
+  ],
+  "selfish": [
+   {
+    "id": "self",
+    "surface": "self"
+   },
+   {
+    "id": "ish",
+    "surface": "ish"
+   }
+  ],
+  "semicircle": [
+   {
+    "id": "semi",
+    "surface": "semi"
+   },
+   {
+    "id": "circle",
+    "surface": "circle"
+   }
+  ],
+  "separately": [
+   {
+    "id": "separate",
+    "surface": "separate"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "separation": [
+   {
+    "id": "separate",
+    "surface": "separat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "settlement": [
+   {
+    "id": "settle",
+    "surface": "settle"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "settler": [
+   {
+    "id": "settle",
+    "surface": "settle"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ]
+ }
+}

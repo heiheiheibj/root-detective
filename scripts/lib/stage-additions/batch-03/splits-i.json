@@ -1,0 +1,605 @@
+{
+ "_comment": "3.2 高考批 切分 I：第 481–540 词",
+ "splits": {
+  "liberation": [
+   {
+    "id": "liberate",
+    "surface": "liberat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "librarian": [
+   {
+    "id": "library",
+    "surface": "librari"
+   },
+   {
+    "id": "an",
+    "surface": "an"
+   }
+  ],
+  "lifetime": [
+   {
+    "id": "life",
+    "surface": "life"
+   },
+   {
+    "id": "time",
+    "surface": "time"
+   }
+  ],
+  "lightning": [
+   {
+    "id": "lighten",
+    "surface": "lightn"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "likely": [
+   {
+    "id": "like",
+    "surface": "like"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "living": [
+   {
+    "id": "live",
+    "surface": "liv"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "loudly": [
+   {
+    "id": "loud",
+    "surface": "loud"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "loudspeaker": [
+   {
+    "id": "loud",
+    "surface": "loud"
+   },
+   {
+    "id": "speaker",
+    "surface": "speaker"
+   }
+  ],
+  "luggage": [
+   {
+    "id": "lug",
+    "surface": "lugg"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "mailbox": [
+   {
+    "id": "mail",
+    "surface": "mail"
+   },
+   {
+    "id": "box",
+    "surface": "box"
+   }
+  ],
+  "mainland": [
+   {
+    "id": "main",
+    "surface": "main"
+   },
+   {
+    "id": "land",
+    "surface": "land"
+   }
+  ],
+  "majority": [
+   {
+    "id": "major",
+    "surface": "major"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "mankind": [
+   {
+    "id": "man",
+    "surface": "man"
+   },
+   {
+    "id": "kind",
+    "surface": "kind"
+   }
+  ],
+  "manner": [
+   {
+    "id": "man",
+    "surface": "mann"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "married": [
+   {
+    "id": "marry",
+    "surface": "marri"
+   },
+   {
+    "id": "ed",
+    "surface": "ed"
+   }
+  ],
+  "meanwhile": [
+   {
+    "id": "mean",
+    "surface": "mean"
+   },
+   {
+    "id": "while",
+    "surface": "while"
+   }
+  ],
+  "memorial": [
+   {
+    "id": "memory",
+    "surface": "memor"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "mentally": [
+   {
+    "id": "mental",
+    "surface": "mental"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "merciful": [
+   {
+    "id": "mercy",
+    "surface": "merci"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "merely": [
+   {
+    "id": "mer",
+    "surface": "mere"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "mexican": [
+   {
+    "id": "mexico",
+    "surface": "mexic"
+   },
+   {
+    "id": "an",
+    "surface": "an"
+   }
+  ],
+  "microcomputer": [
+   {
+    "id": "micro",
+    "surface": "micro"
+   },
+   {
+    "id": "computer",
+    "surface": "computer"
+   }
+  ],
+  "microscope": [
+   {
+    "id": "micro",
+    "surface": "micro"
+   },
+   {
+    "id": "scope",
+    "surface": "scope"
+   }
+  ],
+  "microwave": [
+   {
+    "id": "micro",
+    "surface": "micro"
+   },
+   {
+    "id": "wave",
+    "surface": "wave"
+   }
+  ],
+  "midday": [
+   {
+    "id": "mid",
+    "surface": "mid"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "midnight": [
+   {
+    "id": "mid",
+    "surface": "mid"
+   },
+   {
+    "id": "night",
+    "surface": "night"
+   }
+  ],
+  "million": [
+   {
+    "id": "mill",
+    "surface": "milli"
+   },
+   {
+    "id": "on",
+    "surface": "on"
+   }
+  ],
+  "millionaire": [
+   {
+    "id": "million",
+    "surface": "million"
+   },
+   {
+    "id": "air",
+    "surface": "aire"
+   }
+  ],
+  "minibus": [
+   {
+    "id": "mini",
+    "surface": "mini"
+   },
+   {
+    "id": "bus",
+    "surface": "bus"
+   }
+  ],
+  "minimum": [
+   {
+    "id": "minim",
+    "surface": "minim"
+   },
+   {
+    "id": "um",
+    "surface": "um"
+   }
+  ],
+  "miniskirt": [
+   {
+    "id": "mini",
+    "surface": "mini"
+   },
+   {
+    "id": "skirt",
+    "surface": "skirt"
+   }
+  ],
+  "minister": [
+   {
+    "id": "mini",
+    "surface": "mini"
+   },
+   {
+    "id": "ster",
+    "surface": "ster"
+   }
+  ],
+  "minority": [
+   {
+    "id": "minor",
+    "surface": "minor"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "missile": [
+   {
+    "id": "miss",
+    "surface": "miss"
+   },
+   {
+    "id": "il",
+    "surface": "ile"
+   }
+  ],
+  "misunderstand": [
+   {
+    "id": "mis",
+    "surface": "mis"
+   },
+   {
+    "id": "understand",
+    "surface": "understand"
+   }
+  ],
+  "motherland": [
+   {
+    "id": "mother",
+    "surface": "mother"
+   },
+   {
+    "id": "land",
+    "surface": "land"
+   }
+  ],
+  "motorbike": [
+   {
+    "id": "motor",
+    "surface": "motor"
+   },
+   {
+    "id": "bike",
+    "surface": "bike"
+   }
+  ],
+  "mountainous": [
+   {
+    "id": "mountain",
+    "surface": "mountain"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "mouthful": [
+   {
+    "id": "mouth",
+    "surface": "mouth"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "movement": [
+   {
+    "id": "move",
+    "surface": "move"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "multiply": [
+   {
+    "id": "multiple",
+    "surface": "multipl"
+   },
+   {
+    "id": "ly",
+    "surface": "y"
+   }
+  ],
+  "musical": [
+   {
+    "id": "music",
+    "surface": "music"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "musician": [
+   {
+    "id": "music",
+    "surface": "music"
+   },
+   {
+    "id": "ian",
+    "surface": "ian"
+   }
+  ],
+  "nationality": [
+   {
+    "id": "national",
+    "surface": "national"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "nationwide": [
+   {
+    "id": "nation",
+    "surface": "nation"
+   },
+   {
+    "id": "wide",
+    "surface": "wide"
+   }
+  ],
+  "nearby": [
+   {
+    "id": "near",
+    "surface": "near"
+   },
+   {
+    "id": "by",
+    "surface": "by"
+   }
+  ],
+  "necklace": [
+   {
+    "id": "neck",
+    "surface": "neck"
+   },
+   {
+    "id": "lace",
+    "surface": "lace"
+   }
+  ],
+  "necktie": [
+   {
+    "id": "neck",
+    "surface": "neck"
+   },
+   {
+    "id": "tie",
+    "surface": "tie"
+   }
+  ],
+  "neighbourhood": [
+   {
+    "id": "neighbour",
+    "surface": "neighbour"
+   },
+   {
+    "id": "hood",
+    "surface": "hood"
+   }
+  ],
+  "network": [
+   {
+    "id": "net",
+    "surface": "net"
+   },
+   {
+    "id": "work",
+    "surface": "work"
+   }
+  ],
+  "noisily": [
+   {
+    "id": "noisy",
+    "surface": "noisi"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "northeast": [
+   {
+    "id": "north",
+    "surface": "north"
+   },
+   {
+    "id": "east",
+    "surface": "east"
+   }
+  ],
+  "northwards": [
+   {
+    "id": "north",
+    "surface": "north"
+   },
+   {
+    "id": "wards",
+    "surface": "wards"
+   }
+  ],
+  "northwest": [
+   {
+    "id": "north",
+    "surface": "north"
+   },
+   {
+    "id": "west",
+    "surface": "west"
+   }
+  ],
+  "novelist": [
+   {
+    "id": "novel",
+    "surface": "novel"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   }
+  ],
+  "nowadays": [
+   {
+    "id": "now",
+    "surface": "now"
+   },
+   {
+    "id": "adays",
+    "surface": "adays"
+   }
+  ],
+  "nowhere": [
+   {
+    "id": "now",
+    "surface": "now"
+   },
+   {
+    "id": "her",
+    "surface": "here"
+   }
+  ],
+  "nursery": [
+   {
+    "id": "nurse",
+    "surface": "nurse"
+   },
+   {
+    "id": "ry",
+    "surface": "ry"
+   }
+  ],
+  "occupation": [
+   {
+    "id": "occupy",
+    "surface": "occup"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "oceania": [
+   {
+    "id": "ocean",
+    "surface": "ocean"
+   },
+   {
+    "id": "ia",
+    "surface": "ia"
+   }
+  ]
+ }
+}

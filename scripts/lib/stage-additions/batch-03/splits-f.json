@@ -1,0 +1,609 @@
+{
+ "_comment": "3.2 高考批 切分 F：第 301–360 词",
+ "splits": {
+  "disappoint": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "appoint",
+    "surface": "appoint"
+   }
+  ],
+  "disappointment": [
+   {
+    "id": "disappoint",
+    "surface": "disappoint"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "disaster": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "astro",
+    "surface": "aster"
+   }
+  ],
+  "discount": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "count",
+    "surface": "count"
+   }
+  ],
+  "discourage": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "courage",
+    "surface": "courage"
+   }
+  ],
+  "discrimination": [
+   {
+    "id": "discriminate",
+    "surface": "discriminat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "disgusting": [
+   {
+    "id": "disgust",
+    "surface": "disgust"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "dislike": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "like",
+    "surface": "like"
+   }
+  ],
+  "disobey": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "obey",
+    "surface": "obey"
+   }
+  ],
+  "distinction": [
+   {
+    "id": "distinct",
+    "surface": "distinct"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "distribute": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "tribu",
+    "surface": "tribute"
+   }
+  ],
+  "disturbing": [
+   {
+    "id": "disturb",
+    "surface": "disturb"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "download": [
+   {
+    "id": "down",
+    "surface": "down"
+   },
+   {
+    "id": "load",
+    "surface": "load"
+   }
+  ],
+  "downtown": [
+   {
+    "id": "down",
+    "surface": "down"
+   },
+   {
+    "id": "town",
+    "surface": "town"
+   }
+  ],
+  "downward": [
+   {
+    "id": "down",
+    "surface": "down"
+   },
+   {
+    "id": "ward",
+    "surface": "ward"
+   }
+  ],
+  "drawback": [
+   {
+    "id": "draw",
+    "surface": "draw"
+   },
+   {
+    "id": "back",
+    "surface": "back"
+   }
+  ],
+  "drawing": [
+   {
+    "id": "draw",
+    "surface": "draw"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "drier": [
+   {
+    "id": "dry",
+    "surface": "dri"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "dustbin": [
+   {
+    "id": "dust",
+    "surface": "dust"
+   },
+   {
+    "id": "bin",
+    "surface": "bin"
+   }
+  ],
+  "earthquake": [
+   {
+    "id": "earth",
+    "surface": "earth"
+   },
+   {
+    "id": "quake",
+    "surface": "quake"
+   }
+  ],
+  "easily": [
+   {
+    "id": "easy",
+    "surface": "easi"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "eastern": [
+   {
+    "id": "east",
+    "surface": "east"
+   },
+   {
+    "id": "ern",
+    "surface": "ern"
+   }
+  ],
+  "eastwards": [
+   {
+    "id": "east",
+    "surface": "east"
+   },
+   {
+    "id": "wards",
+    "surface": "wards"
+   }
+  ],
+  "ecology": [
+   {
+    "id": "eco",
+    "surface": "eco"
+   },
+   {
+    "id": "logy",
+    "surface": "logy"
+   }
+  ],
+  "edition": [
+   {
+    "id": "edit",
+    "surface": "edit"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "editor": [
+   {
+    "id": "edit",
+    "surface": "edit"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "educator": [
+   {
+    "id": "educate",
+    "surface": "educat"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "eggplant": [
+   {
+    "id": "egg",
+    "surface": "egg"
+   },
+   {
+    "id": "plant",
+    "surface": "plant"
+   }
+  ],
+  "egyptian": [
+   {
+    "id": "egypt",
+    "surface": "egypt"
+   },
+   {
+    "id": "ian",
+    "surface": "ian"
+   }
+  ],
+  "electrical": [
+   {
+    "id": "electric",
+    "surface": "electric"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "electricity": [
+   {
+    "id": "electric",
+    "surface": "electric"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "electronic": [
+   {
+    "id": "electron",
+    "surface": "electron"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "embarrass": [
+   {
+    "id": "em",
+    "surface": "em"
+   },
+   {
+    "id": "barrass",
+    "surface": "barrass"
+   }
+  ],
+  "encouragement": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "courage",
+    "surface": "courage"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "ending": [
+   {
+    "id": "end",
+    "surface": "end"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "endless": [
+   {
+    "id": "end",
+    "surface": "end"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "energetic": [
+   {
+    "id": "energy",
+    "surface": "energ"
+   },
+   {
+    "id": "etic",
+    "surface": "etic"
+   }
+  ],
+  "enjoyable": [
+   {
+    "id": "enjoy",
+    "surface": "enjoy"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "enlarge": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "large",
+    "surface": "large"
+   }
+  ],
+  "enterprise": [
+   {
+    "id": "enter",
+    "surface": "enter"
+   },
+   {
+    "id": "prise",
+    "surface": "prise"
+   }
+  ],
+  "entertainment": [
+   {
+    "id": "entertain",
+    "surface": "entertain"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "enthusiastic": [
+   {
+    "id": "enthusiast",
+    "surface": "enthusiast"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "entrance": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "trance",
+    "surface": "trance"
+   }
+  ],
+  "equipment": [
+   {
+    "id": "equip",
+    "surface": "equip"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "error": [
+   {
+    "id": "err",
+    "surface": "err"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "eventually": [
+   {
+    "id": "eventual",
+    "surface": "eventual"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "exact": [
+   {
+    "id": "ex",
+    "surface": "ex"
+   },
+   {
+    "id": "act",
+    "surface": "act"
+   }
+  ],
+  "exactly": [
+   {
+    "id": "exact",
+    "surface": "exact"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "exchange": [
+   {
+    "id": "ex",
+    "surface": "ex"
+   },
+   {
+    "id": "change",
+    "surface": "change"
+   }
+  ],
+  "exhibition": [
+   {
+    "id": "exhibit",
+    "surface": "exhibit"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "existence": [
+   {
+    "id": "exist",
+    "surface": "exist"
+   },
+   {
+    "id": "ence",
+    "surface": "ence"
+   }
+  ],
+  "expectation": [
+   {
+    "id": "expect",
+    "surface": "expect"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "explanation": [
+   {
+    "id": "explain",
+    "surface": "explan"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "explorer": [
+   {
+    "id": "explore",
+    "surface": "explore"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "expression": [
+   {
+    "id": "express",
+    "surface": "express"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "extraordinary": [
+   {
+    "id": "extra",
+    "surface": "extra"
+   },
+   {
+    "id": "ordinary",
+    "surface": "ordinary"
+   }
+  ],
+  "extremely": [
+   {
+    "id": "extreme",
+    "surface": "extreme"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "eyesight": [
+   {
+    "id": "ey",
+    "surface": "eye"
+   },
+   {
+    "id": "sight",
+    "surface": "sight"
+   }
+  ],
+  "eyewitness": [
+   {
+    "id": "ey",
+    "surface": "eye"
+   },
+   {
+    "id": "witness",
+    "surface": "witness"
+   }
+  ],
+  "failure": [
+   {
+    "id": "fail",
+    "surface": "fail"
+   },
+   {
+    "id": "ure",
+    "surface": "ure"
+   }
+  ]
+ }
+}

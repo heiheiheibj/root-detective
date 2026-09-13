@@ -1,0 +1,605 @@
+{
+ "_comment": "3.2 高考批 切分 N：第 781–840 词",
+ "splits": {
+  "suitcase": [
+   {
+    "id": "suit",
+    "surface": "suit"
+   },
+   {
+    "id": "case",
+    "surface": "case"
+   }
+  ],
+  "summary": [
+   {
+    "id": "sum",
+    "surface": "sum"
+   },
+   {
+    "id": "mary",
+    "surface": "mary"
+   }
+  ],
+  "sunburnt": [
+   {
+    "id": "sun",
+    "surface": "sun"
+   },
+   {
+    "id": "burnt",
+    "surface": "burnt"
+   }
+  ],
+  "sunglasses": [
+   {
+    "id": "sun",
+    "surface": "sun"
+   },
+   {
+    "id": "glasses",
+    "surface": "glasses"
+   }
+  ],
+  "sunlight": [
+   {
+    "id": "sun",
+    "surface": "sun"
+   },
+   {
+    "id": "light",
+    "surface": "light"
+   }
+  ],
+  "sunrise": [
+   {
+    "id": "sun",
+    "surface": "sun"
+   },
+   {
+    "id": "rise",
+    "surface": "rise"
+   }
+  ],
+  "sunset": [
+   {
+    "id": "sun",
+    "surface": "sun"
+   },
+   {
+    "id": "set",
+    "surface": "set"
+   }
+  ],
+  "sunshine": [
+   {
+    "id": "sun",
+    "surface": "sun"
+   },
+   {
+    "id": "shine",
+    "surface": "shine"
+   }
+  ],
+  "superman": [
+   {
+    "id": "super",
+    "surface": "super"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "support": [
+   {
+    "id": "sup",
+    "surface": "sup"
+   },
+   {
+    "id": "port",
+    "surface": "port"
+   }
+  ],
+  "surplus": [
+   {
+    "id": "sur",
+    "surface": "sur"
+   },
+   {
+    "id": "plus",
+    "surface": "plus"
+   }
+  ],
+  "surround": [
+   {
+    "id": "sur",
+    "surface": "sur"
+   },
+   {
+    "id": "round",
+    "surface": "round"
+   }
+  ],
+  "surrounding": [
+   {
+    "id": "surround",
+    "surface": "surround"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "survival": [
+   {
+    "id": "survive",
+    "surface": "surviv"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "suspect": [
+   {
+    "id": "sus",
+    "surface": "sus"
+   },
+   {
+    "id": "pect",
+    "surface": "pect"
+   }
+  ],
+  "switzerland": [
+   {
+    "id": "switzer",
+    "surface": "switzer"
+   },
+   {
+    "id": "land",
+    "surface": "land"
+   }
+  ],
+  "sympathy": [
+   {
+    "id": "sym",
+    "surface": "sym"
+   },
+   {
+    "id": "pathy",
+    "surface": "pathy"
+   }
+  ],
+  "symphony": [
+   {
+    "id": "sym",
+    "surface": "sym"
+   },
+   {
+    "id": "phony",
+    "surface": "phony"
+   }
+  ],
+  "systematic": [
+   {
+    "id": "system",
+    "surface": "system"
+   },
+   {
+    "id": "atic",
+    "surface": "atic"
+   }
+  ],
+  "tanker": [
+   {
+    "id": "tank",
+    "surface": "tank"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "tasteless": [
+   {
+    "id": "taste",
+    "surface": "taste"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "teamwork": [
+   {
+    "id": "team",
+    "surface": "team"
+   },
+   {
+    "id": "work",
+    "surface": "work"
+   }
+  ],
+  "teapot": [
+   {
+    "id": "tea",
+    "surface": "tea"
+   },
+   {
+    "id": "pot",
+    "surface": "pot"
+   }
+  ],
+  "technical": [
+   {
+    "id": "technicus",
+    "surface": "technic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "teenager": [
+   {
+    "id": "teenage",
+    "surface": "teenage"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "telegram": [
+   {
+    "id": "tele",
+    "surface": "tele"
+   },
+   {
+    "id": "gram",
+    "surface": "gram"
+   }
+  ],
+  "telegraph": [
+   {
+    "id": "tele",
+    "surface": "tele"
+   },
+   {
+    "id": "graph",
+    "surface": "graph"
+   }
+  ],
+  "telescope": [
+   {
+    "id": "tele",
+    "surface": "tele"
+   },
+   {
+    "id": "scope",
+    "surface": "scope"
+   }
+  ],
+  "temptation": [
+   {
+    "id": "tempt",
+    "surface": "tempt"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "tendency": [
+   {
+    "id": "tend",
+    "surface": "tend"
+   },
+   {
+    "id": "ency",
+    "surface": "ency"
+   }
+  ],
+  "textbook": [
+   {
+    "id": "text",
+    "surface": "text"
+   },
+   {
+    "id": "book",
+    "surface": "book"
+   }
+  ],
+  "thankful": [
+   {
+    "id": "thank",
+    "surface": "thank"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "theoretical": [
+   {
+    "id": "theoretic",
+    "surface": "theoretic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "therefore": [
+   {
+    "id": "there",
+    "surface": "there"
+   },
+   {
+    "id": "for",
+    "surface": "fore"
+   }
+  ],
+  "thinking": [
+   {
+    "id": "think",
+    "surface": "think"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "thriller": [
+   {
+    "id": "thrill",
+    "surface": "thrill"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "throughout": [
+   {
+    "id": "through",
+    "surface": "through"
+   },
+   {
+    "id": "out",
+    "surface": "out"
+   }
+  ],
+  "thunderstorm": [
+   {
+    "id": "thunder",
+    "surface": "thunder"
+   },
+   {
+    "id": "storm",
+    "surface": "storm"
+   }
+  ],
+  "timetable": [
+   {
+    "id": "time",
+    "surface": "time"
+   },
+   {
+    "id": "table",
+    "surface": "table"
+   }
+  ],
+  "topic": [
+   {
+    "id": "topia",
+    "surface": "topi"
+   },
+   {
+    "id": "ic",
+    "surface": "c"
+   }
+  ],
+  "totally": [
+   {
+    "id": "total",
+    "surface": "total"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "tourism": [
+   {
+    "id": "tour",
+    "surface": "tour"
+   },
+   {
+    "id": "ism",
+    "surface": "ism"
+   }
+  ],
+  "tractor": [
+   {
+    "id": "tract",
+    "surface": "tract"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "trainer": [
+   {
+    "id": "train",
+    "surface": "train"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "translation": [
+   {
+    "id": "translate",
+    "surface": "translat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "translator": [
+   {
+    "id": "translate",
+    "surface": "translat"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "transport": [
+   {
+    "id": "tran",
+    "surface": "tran"
+   },
+   {
+    "id": "sport",
+    "surface": "sport"
+   }
+  ],
+  "traveler": [
+   {
+    "id": "travel",
+    "surface": "travel"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "triangle": [
+   {
+    "id": "tri",
+    "surface": "tri"
+   },
+   {
+    "id": "angle",
+    "surface": "angle"
+   }
+  ],
+  "troublesome": [
+   {
+    "id": "trouble",
+    "surface": "trouble"
+   },
+   {
+    "id": "some",
+    "surface": "some"
+   }
+  ],
+  "truly": [
+   {
+    "id": "true",
+    "surface": "tru"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "turkey": [
+   {
+    "id": "turk",
+    "surface": "turk"
+   },
+   {
+    "id": "ey",
+    "surface": "ey"
+   }
+  ],
+  "typewriter": [
+   {
+    "id": "type",
+    "surface": "type"
+   },
+   {
+    "id": "writer",
+    "surface": "writer"
+   }
+  ],
+  "typical": [
+   {
+    "id": "typic",
+    "surface": "typic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "typist": [
+   {
+    "id": "type",
+    "surface": "typ"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   }
+  ],
+  "unable": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "unbearable": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "bearable",
+    "surface": "bearable"
+   }
+  ],
+  "unbelievable": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "believable",
+    "surface": "believable"
+   }
+  ],
+  "uncertain": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "certain",
+    "surface": "certain"
+   }
+  ],
+  "unconditional": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "conditional",
+    "surface": "conditional"
+   }
+  ]
+ }
+}

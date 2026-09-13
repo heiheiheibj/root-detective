@@ -1,0 +1,609 @@
+{
+ "_comment": "3.2 高考批 切分 D：第 181–240 词",
+ "splits": {
+  "celebration": [
+   {
+    "id": "celebrate",
+    "surface": "celebrat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "centigrade": [
+   {
+    "id": "centi",
+    "surface": "centi"
+   },
+   {
+    "id": "grad",
+    "surface": "grade"
+   }
+  ],
+  "central": [
+   {
+    "id": "centre",
+    "surface": "centr"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "certainly": [
+   {
+    "id": "certain",
+    "surface": "certain"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "certificate": [
+   {
+    "id": "certify",
+    "surface": "certif"
+   },
+   {
+    "id": "ic",
+    "surface": "icate"
+   }
+  ],
+  "chairwoman": [
+   {
+    "id": "chair",
+    "surface": "chair"
+   },
+   {
+    "id": "woman",
+    "surface": "woman"
+   }
+  ],
+  "challenging": [
+   {
+    "id": "challenge",
+    "surface": "challeng"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "champion": [
+   {
+    "id": "champ",
+    "surface": "champ"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "changeable": [
+   {
+    "id": "change",
+    "surface": "change"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "chapter": [
+   {
+    "id": "chap",
+    "surface": "chap"
+   },
+   {
+    "id": "ter",
+    "surface": "ter"
+   }
+  ],
+  "characteristic": [
+   {
+    "id": "character",
+    "surface": "character"
+   },
+   {
+    "id": "istic",
+    "surface": "istic"
+   }
+  ],
+  "cheerful": [
+   {
+    "id": "cheer",
+    "surface": "cheer"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "chemical": [
+   {
+    "id": "chemic",
+    "surface": "chemic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "childhood": [
+   {
+    "id": "child",
+    "surface": "child"
+   },
+   {
+    "id": "hood",
+    "surface": "hood"
+   }
+  ],
+  "christian": [
+   {
+    "id": "christ",
+    "surface": "christ"
+   },
+   {
+    "id": "ian",
+    "surface": "ian"
+   }
+  ],
+  "cigarette": [
+   {
+    "id": "cigar",
+    "surface": "cigar"
+   },
+   {
+    "id": "et",
+    "surface": "ette"
+   }
+  ],
+  "circuit": [
+   {
+    "id": "circu",
+    "surface": "circu"
+   },
+   {
+    "id": "it",
+    "surface": "it"
+   }
+  ],
+  "circulate": [
+   {
+    "id": "circ",
+    "surface": "circ"
+   },
+   {
+    "id": "ulate",
+    "surface": "ulate"
+   }
+  ],
+  "circumstance": [
+   {
+    "id": "circum",
+    "surface": "circum"
+   },
+   {
+    "id": "stance",
+    "surface": "stance"
+   }
+  ],
+  "citizen": [
+   {
+    "id": "cite",
+    "surface": "citi"
+   },
+   {
+    "id": "ien",
+    "surface": "zen"
+   }
+  ],
+  "civilian": [
+   {
+    "id": "civil",
+    "surface": "civil"
+   },
+   {
+    "id": "ian",
+    "surface": "ian"
+   }
+  ],
+  "civilization": [
+   {
+    "id": "civilize",
+    "surface": "civiliz"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "clarify": [
+   {
+    "id": "clear",
+    "surface": "clar"
+   },
+   {
+    "id": "ify",
+    "surface": "ify"
+   }
+  ],
+  "classic": [
+   {
+    "id": "class",
+    "surface": "class"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "classical": [
+   {
+    "id": "class",
+    "surface": "class"
+   },
+   {
+    "id": "ical",
+    "surface": "ical"
+   }
+  ],
+  "classify": [
+   {
+    "id": "class",
+    "surface": "class"
+   },
+   {
+    "id": "ify",
+    "surface": "ify"
+   }
+  ],
+  "cleaner": [
+   {
+    "id": "clean",
+    "surface": "clean"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "clearly": [
+   {
+    "id": "clear",
+    "surface": "clear"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "clothing": [
+   {
+    "id": "cloth",
+    "surface": "cloth"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "coincidence": [
+   {
+    "id": "coincide",
+    "surface": "coincide"
+   },
+   {
+    "id": "ence",
+    "surface": "nce"
+   }
+  ],
+  "colleague": [
+   {
+    "id": "col",
+    "surface": "col"
+   },
+   {
+    "id": "league",
+    "surface": "league"
+   }
+  ],
+  "collection": [
+   {
+    "id": "collect",
+    "surface": "collect"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "combine": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "bin",
+    "surface": "bine"
+   }
+  ],
+  "command": [
+   {
+    "id": "comm",
+    "surface": "comm"
+   },
+   {
+    "id": "and",
+    "surface": "and"
+   }
+  ],
+  "commitment": [
+   {
+    "id": "commit",
+    "surface": "commit"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "committee": [
+   {
+    "id": "commit",
+    "surface": "committ"
+   },
+   {
+    "id": "ee",
+    "surface": "ee"
+   }
+  ],
+  "communism": [
+   {
+    "id": "commune",
+    "surface": "commun"
+   },
+   {
+    "id": "ism",
+    "surface": "ism"
+   }
+  ],
+  "communist": [
+   {
+    "id": "commune",
+    "surface": "commun"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   }
+  ],
+  "compass": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "pass",
+    "surface": "pass"
+   }
+  ],
+  "compete": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "pete",
+    "surface": "pete"
+   }
+  ],
+  "complex": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "plex",
+    "surface": "plex"
+   }
+  ],
+  "compromise": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "promise",
+    "surface": "promise"
+   }
+  ],
+  "concentrate": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "centre",
+    "surface": "centr"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "conclude": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "clude",
+    "surface": "clude"
+   }
+  ],
+  "conclusion": [
+   {
+    "id": "conclude",
+    "surface": "conclu"
+   },
+   {
+    "id": "sion",
+    "surface": "sion"
+   }
+  ],
+  "concrete": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "crete",
+    "surface": "crete"
+   }
+  ],
+  "conduct": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "duct",
+    "surface": "duct"
+   }
+  ],
+  "conductor": [
+   {
+    "id": "conduct",
+    "surface": "conduct"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "confirm": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "firm",
+    "surface": "firm"
+   }
+  ],
+  "conflict": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "flict",
+    "surface": "flict"
+   }
+  ],
+  "connection": [
+   {
+    "id": "connect",
+    "surface": "connect"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "conscience": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "science",
+    "surface": "science"
+   }
+  ],
+  "consequence": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "sequence",
+    "surface": "sequence"
+   }
+  ],
+  "conservation": [
+   {
+    "id": "conserve",
+    "surface": "conserv"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "conservative": [
+   {
+    "id": "conserve",
+    "surface": "conserv"
+   },
+   {
+    "id": "ative",
+    "surface": "ative"
+   }
+  ],
+  "considerate": [
+   {
+    "id": "consider",
+    "surface": "consider"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "consideration": [
+   {
+    "id": "consider",
+    "surface": "consider"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "consist": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "sist",
+    "surface": "sist"
+   }
+  ],
+  "consistent": [
+   {
+    "id": "consist",
+    "surface": "consist"
+   },
+   {
+    "id": "ent",
+    "surface": "ent"
+   }
+  ],
+  "constant": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "stant",
+    "surface": "stant"
+   }
+  ]
+ }
+}

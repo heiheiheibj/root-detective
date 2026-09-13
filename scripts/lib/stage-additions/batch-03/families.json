@@ -1,0 +1,553 @@
+{
+ "_comment": "3.2 高考批 新增 62 个词根家族",
+ "families": {
+  "normal": {
+   "roots": [
+    "normal"
+   ],
+   "words": [
+    "abnormal"
+   ]
+  },
+  "access": {
+   "roots": [
+    "access"
+   ],
+   "words": [
+    "accessible"
+   ]
+  },
+  "space": {
+   "roots": [
+    "space"
+   ],
+   "words": [
+    "airspace",
+    "spaceship"
+   ]
+  },
+  "point": {
+   "roots": [
+    "point"
+   ],
+   "words": [
+    "appoint",
+    "ballpoint"
+   ]
+  },
+  "rest": {
+   "roots": [
+    "rest"
+   ],
+   "words": [
+    "arrest",
+    "unrest"
+   ]
+  },
+  "sist": {
+   "roots": [
+    "sist"
+   ],
+   "words": [
+    "assist",
+    "consist",
+    "resist"
+   ]
+  },
+  "tempt": {
+   "roots": [
+    "tempt"
+   ],
+   "words": [
+    "attempt",
+    "temptation"
+   ]
+  },
+  "tend": {
+   "roots": [
+    "tend"
+   ],
+   "words": [
+    "attend",
+    "pretend",
+    "tendency"
+   ]
+  },
+  "shop": {
+   "roots": [
+    "shop"
+   ],
+   "words": [
+    "barbershop",
+    "bookshop",
+    "shopkeeper",
+    "shopping"
+   ]
+  },
+  "fit": {
+   "roots": [
+    "fit"
+   ],
+   "words": [
+    "benefit",
+    "profit",
+    "unfit"
+   ]
+  },
+  "place": {
+   "roots": [
+    "place"
+   ],
+   "words": [
+    "birthplace",
+    "fireplace",
+    "replace",
+    "workplace"
+   ]
+  },
+  "case": {
+   "roots": [
+    "case"
+   ],
+   "words": [
+    "bookcase",
+    "suitcase"
+   ]
+  },
+  "mark": {
+   "roots": [
+    "mark"
+   ],
+   "words": [
+    "bookmark",
+    "remark"
+   ]
+  },
+  "box": {
+   "roots": [
+    "box"
+   ],
+   "words": [
+    "boxing",
+    "mailbox",
+    "postbox"
+   ]
+  },
+  "certain": {
+   "roots": [
+    "certain"
+   ],
+   "words": [
+    "certainly",
+    "uncertain"
+   ]
+  },
+  "collect": {
+   "roots": [
+    "collect"
+   ],
+   "words": [
+    "collection"
+   ]
+  },
+  "firm": {
+   "roots": [
+    "firm"
+   ],
+   "words": [
+    "confirm",
+    "firmly"
+   ]
+  },
+  "consider": {
+   "roots": [
+    "consider"
+   ],
+   "words": [
+    "considerate",
+    "consideration"
+   ]
+  },
+  "correct": {
+   "roots": [
+    "correct"
+   ],
+   "words": [
+    "correction",
+    "incorrect"
+   ]
+  },
+  "court": {
+   "roots": [
+    "court"
+   ],
+   "words": [
+    "courtyard"
+   ]
+  },
+  "custom": {
+   "roots": [
+    "custom"
+   ],
+   "words": [
+    "customer"
+   ]
+  },
+  "light": {
+   "roots": [
+    "light"
+   ],
+   "words": [
+    "daylight",
+    "flashlight",
+    "sunlight"
+   ]
+  },
+  "sign": {
+   "roots": [
+    "sign"
+   ],
+   "words": [
+    "design",
+    "resign"
+   ]
+  },
+  "detect": {
+   "roots": [
+    "detect"
+   ],
+   "words": [
+    "detective"
+   ]
+  },
+  "courage": {
+   "roots": [
+    "courage"
+   ],
+   "words": [
+    "discourage",
+    "encouragement"
+   ]
+  },
+  "distinct": {
+   "roots": [
+    "distinct"
+   ],
+   "words": [
+    "distinction"
+   ]
+  },
+  "load": {
+   "roots": [
+    "load"
+   ],
+   "words": [
+    "download"
+   ]
+  },
+  "east": {
+   "roots": [
+    "east"
+   ],
+   "words": [
+    "eastern",
+    "eastwards",
+    "northeast",
+    "southeast"
+   ]
+  },
+  "plant": {
+   "roots": [
+    "plant"
+   ],
+   "words": [
+    "eggplant"
+   ]
+  },
+  "electric": {
+   "roots": [
+    "electric"
+   ],
+   "words": [
+    "electrical",
+    "electricity"
+   ]
+  },
+  "sight": {
+   "roots": [
+    "sight"
+   ],
+   "words": [
+    "eyesight",
+    "sightseeing"
+   ]
+  },
+  "fair": {
+   "roots": [
+    "fair"
+   ],
+   "words": [
+    "fairly",
+    "fairness",
+    "unfair"
+   ]
+  },
+  "fire": {
+   "roots": [
+    "fire"
+   ],
+   "words": [
+    "firefighter",
+    "fireplace",
+    "firewood",
+    "firework"
+   ]
+  },
+  "wood": {
+   "roots": [
+    "wood"
+   ],
+   "words": [
+    "firewood",
+    "wooden"
+   ]
+  },
+  "found": {
+   "roots": [
+    "found"
+   ],
+   "words": [
+    "founding"
+   ]
+  },
+  "high": {
+   "roots": [
+    "high"
+   ],
+   "words": [
+    "highway"
+   ]
+  },
+  "host": {
+   "roots": [
+    "host"
+   ],
+   "words": [
+    "hostess"
+   ]
+  },
+  "press": {
+   "roots": [
+    "press"
+   ],
+   "words": [
+    "impress"
+   ]
+  },
+  "late": {
+   "roots": [
+    "late"
+   ],
+   "words": [
+    "lately",
+    "later",
+    "latter"
+   ]
+  },
+  "law": {
+   "roots": [
+    "law"
+   ],
+   "words": [
+    "lawyer"
+   ]
+  },
+  "main": {
+   "roots": [
+    "main"
+   ],
+   "words": [
+    "mainland"
+   ]
+  },
+  "minim": {
+   "roots": [
+    "minim"
+   ],
+   "words": [
+    "minimum"
+   ]
+  },
+  "miss": {
+   "roots": [
+    "miss"
+   ],
+   "words": [
+    "missile"
+   ]
+  },
+  "organ": {
+   "roots": [
+    "organ"
+   ],
+   "words": [
+    "organise"
+   ]
+  },
+  "part": {
+   "roots": [
+    "part"
+   ],
+   "words": [
+    "partly"
+   ]
+  },
+  "present": {
+   "roots": [
+    "present"
+   ],
+   "words": [
+    "presentation",
+    "represent"
+   ]
+  },
+  "proper": {
+   "roots": [
+    "proper"
+   ],
+   "words": [
+    "properly"
+   ]
+  },
+  "public": {
+   "roots": [
+    "public"
+   ],
+   "words": [
+    "publicly",
+    "republic"
+   ]
+  },
+  "fall": {
+   "roots": [
+    "fall"
+   ],
+   "words": [
+    "rainfall"
+   ]
+  },
+  "fresh": {
+   "roots": [
+    "fresh"
+   ],
+   "words": [
+    "refresh"
+   ]
+  },
+  "regard": {
+   "roots": [
+    "regard"
+   ],
+   "words": [
+    "regardless"
+   ]
+  },
+  "lay": {
+   "roots": [
+    "lay"
+   ],
+   "words": [
+    "relay"
+   ]
+  },
+  "wind": {
+   "roots": [
+    "wind"
+   ],
+   "words": [
+    "rewind",
+    "windbreaker"
+   ]
+  },
+  "sales": {
+   "roots": [
+    "sales"
+   ],
+   "words": [
+    "salesgirl",
+    "salesman",
+    "saleswoman"
+   ]
+  },
+  "short": {
+   "roots": [
+    "short"
+   ],
+   "words": [
+    "shortcoming",
+    "shortly"
+   ]
+  },
+  "snow": {
+   "roots": [
+    "snow"
+   ],
+   "words": [
+    "snowball",
+    "snowman"
+   ]
+  },
+  "social": {
+   "roots": [
+    "social"
+   ],
+   "words": [
+    "socialism",
+    "socialist"
+   ]
+  },
+  "special": {
+   "roots": [
+    "special"
+   ],
+   "words": [
+    "specialist"
+   ]
+  },
+  "suit": {
+   "roots": [
+    "suit"
+   ],
+   "words": [
+    "suitable",
+    "suitcase"
+   ]
+  },
+  "text": {
+   "roots": [
+    "text"
+   ],
+   "words": [
+    "textbook"
+   ]
+  },
+  "willing": {
+   "roots": [
+    "willing"
+   ],
+   "words": [
+    "unwilling",
+    "willingly",
+    "willingness"
+   ]
+  },
+  "fare": {
+   "roots": [
+    "fare"
+   ],
+   "words": [
+    "welfare"
+   ]
+  }
+ }
+}
