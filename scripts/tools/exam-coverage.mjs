@@ -31,7 +31,8 @@ function parseCsvLine(line) {
 const EXAM_TAGS = ['zk', 'gk', 'cet4', 'cet6']
 const examWords = new Map() // word → { tags, collins, bnc }
 let ecdictTotal = 0
-for (const line of readFileSync(join(rawDir, 'ecdict.csv'), 'utf8').split('\n')) {
+// 第 1 行是表头（word,phonetic,...）：不跳过的话 norm("word") 会被当成一个词条（首轮交叉验证抓到的小瑕疵）
+for (const line of readFileSync(join(rawDir, 'ecdict.csv'), 'utf8').split('\n').slice(1)) {
   if (!line.trim()) continue
   const f = parseCsvLine(line)
   const w = norm(f[0])

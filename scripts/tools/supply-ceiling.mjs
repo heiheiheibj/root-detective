@@ -38,7 +38,7 @@ function parseCsvLine(line) {
   return out
 }
 const ecdict = new Map()
-for (const line of readFileSync(join(rawDir, 'ecdict.csv'), 'utf8').split('\n')) {
+for (const line of readFileSync(join(rawDir, 'ecdict.csv'), 'utf8').split('\n').slice(1)) {
   if (!line.trim()) continue
   const f = parseCsvLine(line)
   const w = norm(f[0])

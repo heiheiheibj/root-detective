@@ -1,0 +1,8 @@
+scripts/.work/raw/ecdict.csv | size 65933428✓ | sha ✓
+scripts/.work/raw/kaikki-English.jsonl | size 3244830710✓ | sha ✓
+scripts/.work/raw/cigen-roots_affixes.json | size 388646✓ | sha ✓
+scripts/.work/raw/morphynet-eng-derivational.tsv | size 8169109✓ | sha ✓
+scripts/.work/raw/wordroot.txt | size 370702✓ | sha ✓
+scripts/.work/raw/shiweihappy-roots.json | size 123973✓ | sha ✓
+scripts/.work/derived/roots.candidates.json | size 764323✓ | sha ✓
+ALL-MATCH

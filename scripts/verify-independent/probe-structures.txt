@@ -1,0 +1,14 @@
+candidates 顶层: object keys generatedAt,generator,sources,entries
+首个数组键: entries len 563
+条数: 563
+样例1: {"id":"a","type":"prefix","displayText":"a-1","allomorphs":["an"],"glossEn":"not, without","origin":"Greek","examples":["abiogenesis","abiotic","abranchiate","abysmal","abyss","achene","achromatic","achromic","adiabatic","agnostic","alexia","amenorrhea","amethyst","ametropia","amnesia","amnesty","amoral","amorphous","anaemia","anaerobe","anaerobic","analgesia","analgesic","anarchy","anecdote","anemia","aneroid","anesthesia","anesthesiology","anodyne","anomalous","anomaly","anomie","anonym","anonymous","anorexia","anoxia","anuria","apathy","aperiodic","apetalous","aphasia","aplastic anemia","ap
+样例2: {"id":"ab","type":"prefix","displayText":"ab-","allomorphs":["abs"],"glossEn":"from, away from","origin":"Latin","examples":["abbreviate","abbreviation","abdicate","abduct","aberrant","aberration","abhor","abject","abjure","ablate","ablation","abnormal","abolish","aborigine","abrade","abrasion","abrasive","abrupt","abscond","absence","absent","absolute","absolve","absorb","abstain","abstract","abnegate","abuse","abusive"],"variants":[{"surface":"ab-","homograph":0,"type":"prefix","glossEn":"from, away from","origin":"Latin","examples":["abbreviate","abbreviation","abdicate","abduct","aberrant"
+type 分布: {"prefix":94,"suffix":63,"root":406}
+cigen 顶层: ["meta","roots","entries"]
+cigen 首条样例: {"sourcePdf":"XDF________.pdf","generatedAt":"2026-02-24T01:50:22.692459+00:00","entryCount":953,"rootCount":275}
+morphynet 前4行: ["sense\tnonsense\tN\tN\tnon\tprefix","moon\tmonth\tN\tN\tth\tsuffix","multicultural\tmulticulturalism\tJ\tN\tism\tsuffix","connote\tconnotation\tV\tN\tation\tsuffix"]
+wordroot 前4行: ["{","    \"hom\": {","        \"meaning\": \"man, human\",","        \"class\": \"root\","]
+stage3 顶层: ["_comment","families","canary","forceInclude","splits","extraMorphemes","worlds"]
+legacy 顶层: ["_comment","morphemes"]
+legacy root 样例: {"id":"spec","displayText":"spec / spect","type":"root","meaningCn":"看","allomorphs":["spec","spect","spic"],"etymology":"来自拉丁语 specere，看、观察","level":2,"color":"orange"}
+shiweihappy 顶层: ["meta","entries"]

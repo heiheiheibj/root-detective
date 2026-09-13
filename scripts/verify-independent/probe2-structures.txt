@@ -1,0 +1,18 @@
+cigen.roots 类型: array len 275
+cigen.roots 样例: {"root":"un","gloss":"难为情的","wordCount":29,"sampleWords":["unreal","unequal","unfortunate","unabashed","unassuming","uncommitted","unscrupulous","untoward","unconditional","unlimitted","unambitious","unconscionable"]}
+cigen.entries len: 953
+cigen.entries[0]: {"id":"e1","word":"acentric","meaning":"无中心的","decomposition":"a+centric 中心的","page":1,"components":[{"morpheme":"a","hint":""},{"morpheme":"centric","hint":"中心的"}]}
+cigen.entries[1]: {"id":"e2","word":"asocial","meaning":"不好社交的","decomposition":"a+social 好社交的","page":1,"components":[{"morpheme":"a","hint":""},{"morpheme":"social","hint":"好社交的"}]}
+s3.extraMorphemes 类型: array len 143
+extraMorphemes[0]: {"id":"aud","type":"root","displayText":"aud","meaningCn":"听","allomorphs":["aud","audi","audio"],"level":1,"etymology":"来自拉丁语 audire，意为听","color":"orange"}
+extraMorphemes root 数: 56
+s3.families 类型: object
+families 键数: 60 首键: spec 值: {"roots":["spec"],"words":["circumspect","inspection","respect","circumspection"]}
+s3.canary: array len 16
+s3.extraMorphemes: array len 143
+s3.worlds: array len 12
+legacy morphemes len: 12 root: 4
+legacy root ids: spec,dict,port,vid
+candidates root 数: 406
+root 样例: {"id":"ac","type":"root","displayText":"ac","allomorphs":["acr","acer"],"glossEn":"sharp, bitter, sour","origin":"Latin","examples":["acerbic","acerbity","acid","acidic","acidulate","acidulous","acrid","acrimony","acuity","acupuncture","acute"],"variants":[{"surface":"ac","homograph":0,"type":"root","glossEn":"sharp, bitter, sour","origin":"Latin","examples":["acerbic","acerbity","acid","acidic","acidulate","acidulous","acrid","acrimony","acuity","acupuncture","acute"]},{"surface":"ac-","homogra
+spect 候选: {"id":"spect","type":"root","displayText":"spect","allomorphs":["spec","spic","spectro"],"glossEn":"to see, look, watch","origin":"Latin","examples":["aspect","auspicious","circumspect","conspectus","conspicuous","despicable","despise","expectation","inauspicious","inconspicuous","inspect","inspecto
