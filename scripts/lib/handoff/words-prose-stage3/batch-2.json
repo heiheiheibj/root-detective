@@ -1,475 +1,475 @@
 {
- "_comment": "Stage 3 待写释义（第 2/7 批，共 383 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "_comment": "Stage 3 待写释义（第 2/7 批，共 59 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
  "classroom": {
   "modernMeaningCn": "教室",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "班级的房间",
+  "metaphorMeaningCn": "教室",
+  "metaphorOptions": ["教室", "操场", "办公室"],
+  "mnemonicNote": "class(班级)+room(房间)：一个班待着的房间",
+  "sourceNote": "英语复合词，19 世纪随班级授课制出现"
  },
  "collaborate": {
   "modernMeaningCn": "合作",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一起干活",
+  "metaphorMeaningCn": "合作、协作",
+  "metaphorOptions": ["合作、协作", "各自为战", "互相拆台"],
+  "mnemonicNote": "col(共同)+labor(劳动)+ate：一块儿出力",
+  "sourceNote": "拉丁 collaborare，com-(共同) + laborare(劳动)"
  },
  "collaboration": {
   "modernMeaningCn": "合作",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一起干活的状态",
+  "metaphorMeaningCn": "合作、协作",
+  "metaphorOptions": ["合作、协作", "单干", "竞争"],
+  "mnemonicNote": "col(共同)+labor(劳动)+ation：两人共出一份力",
+  "sourceNote": "拉丁 collaboratio，collaborare 的名词形式"
  },
  "comfort": {
   "modernMeaningCn": "舒适",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一起变强壮",
+  "metaphorMeaningCn": "舒适、安慰",
+  "metaphorOptions": ["舒适、安慰", "痛苦", "打扰"],
+  "mnemonicNote": "com(共同)+fort(强)：有人陪着，力气就回来了",
+  "sourceNote": "拉丁 confortare，com-(加强) + fortis(强壮)"
  },
  "comfortable": {
   "modernMeaningCn": "舒服的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "被强化着的",
+  "metaphorMeaningCn": "舒服的、自在的",
+  "metaphorOptions": ["舒服的、自在的", "难受的", "拘谨的"],
+  "mnemonicNote": "com+fort(强)+able：待着就让人觉得有力气",
+  "sourceNote": "拉丁 confortare 的形容词形式"
  },
  "compel": {
   "modernMeaningCn": "强迫",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一起推过去",
+  "metaphorMeaningCn": "强迫、迫使",
+  "metaphorOptions": ["强迫、迫使", "劝说", "放任"],
+  "mnemonicNote": "com(一起)+pel(推)：几股力合起来推你走",
+  "sourceNote": "拉丁 compellere，com-(一起) + pellere(推)"
  },
  "component": {
   "modernMeaningCn": "元件",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "放在一起的",
+  "metaphorMeaningCn": "组成部分、元件",
+  "metaphorOptions": ["组成部分、元件", "整体", "废弃物"],
+  "mnemonicNote": "com(一起)+pon(放)+ent：被摆到一起的那个零件",
+  "sourceNote": "拉丁 componere，com-(一起) + ponere(放)"
  },
  "compose": {
   "modernMeaningCn": "组成",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "放在一起",
+  "metaphorMeaningCn": "组成、创作",
+  "metaphorOptions": ["组成、创作", "拆散", "丢弃"],
+  "mnemonicNote": "com(一起)+pose(放)：把零件摆到一块儿",
+  "sourceNote": "拉丁 componere，com-(一起) + ponere(放)"
  },
  "composition": {
   "modernMeaningCn": "作文",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "摆到一起的结果",
+  "metaphorMeaningCn": "作文、构成",
+  "metaphorOptions": ["作文、构成", "草稿", "涂改"],
+  "mnemonicNote": "com(一起)+position(放置)：字句摆好的成品",
+  "sourceNote": "拉丁 compositio，componere 的名词形式"
  },
  "compulsory": {
-  "modernMeaningCn": "被强制的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "强制的",
+  "literalMeaningCn": "被一起推着的",
+  "metaphorMeaningCn": "强制的、必修的",
+  "metaphorOptions": ["强制的、必修的", "自愿的", "选修的"],
+  "mnemonicNote": "com(一起)+puls(推)+ory：被合力推着，非做不可",
+  "sourceNote": "拉丁 compellere 的分词词干 compuls-"
  },
  "concept": {
-  "modernMeaningCn": "观念",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "概念",
+  "literalMeaningCn": "一起抓住",
+  "metaphorMeaningCn": "概念、观念",
+  "metaphorOptions": ["概念、观念", "实物", "错觉"],
+  "mnemonicNote": "con(一起)+cept(拿)：脑子里把特征拢成一把",
+  "sourceNote": "拉丁 concipere，com-(一起) + capere(拿)"
  },
  "conference": {
-  "modernMeaningCn": "会议经会议",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "会议",
+  "literalMeaningCn": "一起带来",
+  "metaphorMeaningCn": "会议、研讨会",
+  "metaphorOptions": ["会议、研讨会", "独白", "散场"],
+  "mnemonicNote": "con(一起)+fer(带)+ence：各人把看法带来碰头",
+  "sourceNote": "拉丁 conferre，com-(一起) + ferre(带)"
  },
  "confuse": {
   "modernMeaningCn": "使混乱",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "倒在一起",
+  "metaphorMeaningCn": "使糊涂、混淆",
+  "metaphorOptions": ["使糊涂、混淆", "使清晰", "使整洁"],
+  "mnemonicNote": "con(一起)+fuse(倒)：全倒进一个锅，分不清了",
+  "sourceNote": "拉丁 confundere，com-(一起) + fundere(倒)"
  },
  "confusion": {
   "modernMeaningCn": "混乱",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "倒在一起的状态",
+  "metaphorMeaningCn": "混乱、困惑",
+  "metaphorOptions": ["混乱、困惑", "有序", "明白"],
+  "mnemonicNote": "con+fus(倒)+ion：东西全倒在一块，找不着了",
+  "sourceNote": "拉丁 confusio，confundere 的名词形式"
  },
  "congratulate": {
   "modernMeaningCn": "祝贺",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "共同欢喜",
+  "metaphorMeaningCn": "祝贺",
+  "metaphorOptions": ["祝贺", "哀悼", "沉默"],
+  "mnemonicNote": "con(共同)+gratul(喜悦)+ate：为你的好事一起高兴",
+  "sourceNote": "拉丁 congratulari，com-(共同) + gratulari(道喜)"
  },
  "congratulation": {
   "modernMeaningCn": "祝贺",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "共同欢喜的话",
+  "metaphorMeaningCn": "祝贺、贺词",
+  "metaphorOptions": ["祝贺、贺词", "抱怨", "道别"],
+  "mnemonicNote": "con+gratul(喜悦)+ation：把高兴说出口",
+  "sourceNote": "拉丁 congratulatio，congratulari 的名词形式"
  },
  "consecrate": {
-  "modernMeaningCn": "把供祭祀用",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "使神圣",
+  "literalMeaningCn": "使成为神圣",
+  "metaphorMeaningCn": "奉献、祝圣",
+  "metaphorOptions": ["奉献、祝圣", "亵渎", "废弃"],
+  "mnemonicNote": "con(加强)+secr(神圣)+ate：把它彻底交给神",
+  "sourceNote": "拉丁 consecrare，com-(加强) + sacrare(使神圣)"
  },
  "contact": {
   "modernMeaningCn": "联系",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一起触碰",
+  "metaphorMeaningCn": "联系、接触",
+  "metaphorOptions": ["联系、接触", "隔绝", "错过"],
+  "mnemonicNote": "con(一起)+tact(触)：两头碰上，才谈得上联系",
+  "sourceNote": "拉丁 contingere，com-(一起) + tangere(触)"
  },
  "contagious": {
-  "modernMeaningCn": "触染性的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "传染的",
+  "literalMeaningCn": "能碰到的",
+  "metaphorMeaningCn": "传染性的",
+  "metaphorOptions": ["传染性的", "隔离的", "免疫的"],
+  "mnemonicNote": "con(一起)+tag(触)+ious：碰一下就能传给你",
+  "sourceNote": "拉丁 contagio，com-(一起) + tangere(触)"
  },
  "contest": {
   "modernMeaningCn": "竞赛",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一起作证",
+  "metaphorMeaningCn": "竞赛、争夺",
+  "metaphorOptions": ["竞赛、争夺", "退让", "旁观"],
+  "mnemonicNote": "con(一起)+test(作证)：各摆证据，看谁站得住",
+  "sourceNote": "拉丁 contestari，com-(一起) + testari(作证)"
  },
  "contestant": {
-  "modernMeaningCn": "竞争者法争辩者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "参赛者",
+  "literalMeaningCn": "一起作证的人",
+  "metaphorMeaningCn": "参赛者、竞争者",
+  "metaphorOptions": ["参赛者、竞争者", "观众", "裁判"],
+  "mnemonicNote": "con+test(作证)+ant(人)：站上台摆证据的那个",
+  "sourceNote": "拉丁 contestari 的现在分词，法语 contestant"
  },
  "contract": {
-  "modernMeaningCn": "合约",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "合同",
+  "literalMeaningCn": "拉到一起",
+  "metaphorMeaningCn": "合同、收缩",
+  "metaphorOptions": ["合同、收缩", "撕毁", "扩张"],
+  "mnemonicNote": "con(一起)+tract(拉)：两张纸拉到一起就成约",
+  "sourceNote": "拉丁 contrahere，com-(一起) + trahere(拉)"
  },
  "convenient": {
   "modernMeaningCn": "方便的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "能凑到一块的",
+  "metaphorMeaningCn": "方便的、合适的",
+  "metaphorOptions": ["方便的、合适的", "麻烦的", "遥远的"],
+  "mnemonicNote": "con(一起)+ven(来)+ient：正好能凑上，就不费事",
+  "sourceNote": "拉丁 convenire，com-(一起) + venire(来)"
  },
  "convention": {
   "modernMeaningCn": "大会",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "大家来聚",
+  "metaphorMeaningCn": "大会、惯例",
+  "metaphorOptions": ["大会、惯例", "解散", "破例"],
+  "mnemonicNote": "con(一起)+vent(来)+ion：人聚起来，也指老规矩",
+  "sourceNote": "拉丁 conventio，convenire 的名词形式"
  },
  "convict": {
-  "modernMeaningCn": "囚犯",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "定罪",
+  "literalMeaningCn": "被彻底制服",
+  "metaphorMeaningCn": "定罪、囚犯",
+  "metaphorOptions": ["定罪、囚犯", "释放", "辩白"],
+  "mnemonicNote": "con(彻底)+vict(征服)：证据把他说服到底",
+  "sourceNote": "拉丁 convincere，com-(加强) + vincere(征服)"
  },
  "conviction": {
   "modernMeaningCn": "定罪",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "被征服的状态",
+  "metaphorMeaningCn": "定罪、坚定信念",
+  "metaphorOptions": ["定罪、坚定信念", "怀疑", "动摇"],
+  "mnemonicNote": "con+vict(征服)+ion：被说服到心服口服",
+  "sourceNote": "拉丁 convictio，convincere 的名词形式"
  },
  "convince": {
   "modernMeaningCn": "说服",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "彻底胜过对方",
+  "metaphorMeaningCn": "说服、使信服",
+  "metaphorOptions": ["说服、使信服", "使怀疑", "拒绝对话"],
+  "mnemonicNote": "con(彻底)+vince(胜)：把对方的疑虑彻底打赢",
+  "sourceNote": "拉丁 convincere，com-(加强) + vincere(征服)"
  },
  "cordial": {
-  "modernMeaningCn": "兴奋剂",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "热忱的",
+  "literalMeaningCn": "发自心底的",
+  "metaphorMeaningCn": "热忱的、诚恳的",
+  "metaphorOptions": ["热忱的、诚恳的", "冰冷的", "敷衍的"],
+  "mnemonicNote": "cord(心)+ial：从心里冒出来的态度",
+  "sourceNote": "拉丁 cor(心)，cordialis 意为「关于心的」"
  },
  "cosmopolitan": {
-  "modernMeaningCn": "世界主义的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "世界性的",
+  "literalMeaningCn": "宇宙之城的",
+  "metaphorMeaningCn": "世界性的、见多识广的",
+  "metaphorOptions": ["世界性的、见多识广的", "闭塞的", "乡土的"],
+  "mnemonicNote": "cosmo(宇宙)+polit(城)+an：把全世界当作一座城",
+  "sourceNote": "希腊 kosmos(宇宙) + polites(公民)"
  },
  "courage": {
   "modernMeaningCn": "勇气",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "心的状态",
+  "metaphorMeaningCn": "勇气",
+  "metaphorOptions": ["勇气", "怯懦", "犹豫"],
+  "mnemonicNote": "cour(心)+age(名词)：心里那股劲儿",
+  "sourceNote": "拉丁 cor(心)，经古法语 corage"
  },
  "credential": {
-  "modernMeaningCn": "国书",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "凭证",
+  "literalMeaningCn": "可被相信之物",
+  "metaphorMeaningCn": "凭证、资历证明",
+  "metaphorOptions": ["凭证、资历证明", "伪证", "口供"],
+  "mnemonicNote": "cred(相信)+ent+ial：拿出来就让人信的东西",
+  "sourceNote": "中世纪拉丁 credentialis，credere(相信)"
  },
  "credit": {
   "modernMeaningCn": "信用",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "相信",
+  "metaphorMeaningCn": "信用、学分",
+  "metaphorOptions": ["信用、学分", "怀疑", "债务"],
+  "mnemonicNote": "cred(相信)：别人肯信你，你就有了信用",
+  "sourceNote": "拉丁 creditum，credere(相信) 的过去分词"
  },
  "daily": {
   "modernMeaningCn": "每日的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "按天算的",
+  "metaphorMeaningCn": "每日的、日常的",
+  "metaphorOptions": ["每日的、日常的", "每年一次的", "偶尔的"],
+  "mnemonicNote": "dai(日)+ly(每…的)：一天一轮回",
+  "sourceNote": "古英语 dæglic，dæg(日) + -lic(像…的)"
  },
  "deceive": {
   "modernMeaningCn": "欺骗",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "把人拿偏",
+  "metaphorMeaningCn": "欺骗、误导",
+  "metaphorOptions": ["欺骗、误导", "坦白", "告知"],
+  "mnemonicNote": "de(偏离)+ceive(拿)：把人往错的方向领走",
+  "sourceNote": "拉丁 decipere，de-(离开) + capere(拿)"
  },
  "december": {
   "modernMeaningCn": "十二月",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "第十个月",
+  "metaphorMeaningCn": "十二月",
+  "metaphorOptions": ["十二月", "十月", "一月"],
+  "mnemonicNote": "dec(十)+ember：罗马历里它本是第十个月",
+  "sourceNote": "拉丁 December，decem(十)；罗马历岁首在三月"
  },
  "deflect": {
-  "modernMeaningCn": "转移",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "使偏转",
+  "literalMeaningCn": "把弯打开",
+  "metaphorMeaningCn": "使偏转、转移",
+  "metaphorOptions": ["使偏转、转移", "拉直", "固定"],
+  "mnemonicNote": "de(离开)+flect(弯)：让方向拐个弯",
+  "sourceNote": "拉丁 deflectere，de-(离开) + flectere(弯)"
  },
  "deflection": {
-  "modernMeaningCn": "歪斜",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "偏斜",
+  "literalMeaningCn": "弯开的状态",
+  "metaphorMeaningCn": "偏斜、偏差",
+  "metaphorOptions": ["偏斜、偏差", "笔直", "归位"],
+  "mnemonicNote": "de+flect(弯)+ion：本该直走却拐了弯",
+  "sourceNote": "拉丁 deflexio，deflectere 的名词形式"
  },
  "degrade": {
   "modernMeaningCn": "使降级",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "往下压级",
+  "metaphorMeaningCn": "使降级、贬低",
+  "metaphorOptions": ["使降级、贬低", "提拔", "表彰"],
+  "mnemonicNote": "de(向下)+grade(等级)：把等级往下压",
+  "sourceNote": "拉丁 degradare，de-(向下) + gradus(等级)"
  },
  "dehydrate": {
-  "modernMeaningCn": "使脱水医脱水",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "使脱水",
+  "literalMeaningCn": "拿走水分",
+  "metaphorMeaningCn": "使脱水、使干燥",
+  "metaphorOptions": ["使脱水、使干燥", "注满水", "保鲜"],
+  "mnemonicNote": "de(去掉)+hydr(水)+ate：把水抽出来",
+  "sourceNote": "de-(去除) + 希腊 hydor(水) 的词干 hydr-"
  },
  "dehydration": {
-  "modernMeaningCn": "脱水化脱水",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "脱水",
+  "literalMeaningCn": "失去水的状态",
+  "metaphorMeaningCn": "脱水、干燥",
+  "metaphorOptions": ["脱水、干燥", "浸泡", "湿润"],
+  "mnemonicNote": "de+hydr(水)+ation：身体里的水被拿走",
+  "sourceNote": "de-(去除) + 希腊 hydor(水) + -ation"
  },
  "depend": {
-  "modernMeaningCn": "靠",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "依靠",
+  "literalMeaningCn": "挂在下面",
+  "metaphorMeaningCn": "依靠、取决于",
+  "metaphorOptions": ["依靠、取决于", "独立", "摆脱"],
+  "mnemonicNote": "de(向下)+pend(挂)：像吊灯一样挂在别人身上",
+  "sourceNote": "拉丁 dependere，de-(向下) + pendere(挂)"
  },
  "deport": {
-  "modernMeaningCn": "举止",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "驱逐出境",
+  "literalMeaningCn": "把人运走",
+  "metaphorMeaningCn": "驱逐出境",
+  "metaphorOptions": ["驱逐出境", "欢迎入境", "就地安置"],
+  "mnemonicNote": "de(离开)+port(运)：把人运出国境线",
+  "sourceNote": "拉丁 deportare，de-(离开) + portare(运)"
  },
  "deposit": {
   "modernMeaningCn": "存款",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "放下来",
+  "metaphorMeaningCn": "存款、沉淀",
+  "metaphorOptions": ["存款、沉淀", "取出", "借出"],
+  "mnemonicNote": "de(向下)+posit(放)：把钱放到柜台底下",
+  "sourceNote": "拉丁 deponere，de-(向下) + ponere(放)"
  },
  "describe": {
   "modernMeaningCn": "描述",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "写下来",
+  "metaphorMeaningCn": "描述、形容",
+  "metaphorOptions": ["描述、形容", "隐瞒", "删掉"],
+  "mnemonicNote": "de(向下)+scribe(写)：一笔笔写下你看到的样子",
+  "sourceNote": "拉丁 describere，de-(向下) + scribere(写)"
  },
  "deserve": {
-  "modernMeaningCn": "该得到",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "值得",
+  "literalMeaningCn": "该被服务",
+  "metaphorMeaningCn": "值得、应得",
+  "metaphorOptions": ["值得、应得", "不配", "白拿"],
+  "mnemonicNote": "de(加强)+serve(服务)：付出了，就该被好好对待",
+  "sourceNote": "拉丁 deservire，de-(加强) + servire(服务)"
  },
  "detest": {
   "modernMeaningCn": "厌恶",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "作证反对",
+  "metaphorMeaningCn": "厌恶、憎恨",
+  "metaphorOptions": ["厌恶、憎恨", "喜爱", "无所谓"],
+  "mnemonicNote": "de(反)+test(作证)：心里给它投反对票",
+  "sourceNote": "拉丁 detestari，de-(反) + testari(作证)"
  },
  "dialogue": {
-  "modernMeaningCn": "对话对话用对话表",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "对话",
+  "literalMeaningCn": "互相说",
+  "metaphorMeaningCn": "对话、对白",
+  "metaphorOptions": ["对话、对白", "独白", "争吵"],
+  "mnemonicNote": "dia(穿过)+logue(说)：话从这边穿到那边",
+  "sourceNote": "希腊 dialogos，dia-(穿过) + legein(说)"
  },
  "diameter": {
-  "modernMeaningCn": "直径医直经",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "直径",
+  "literalMeaningCn": "穿过量到底",
+  "metaphorMeaningCn": "直径",
+  "metaphorOptions": ["直径", "半径", "周长"],
+  "mnemonicNote": "dia(穿过)+meter(量)：从这头穿过圆心量到那头",
+  "sourceNote": "希腊 diametros，dia-(穿过) + metron(量度)"
  },
  "dictator": {
-  "modernMeaningCn": "命令者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "独裁者",
+  "literalMeaningCn": "下令的人",
+  "metaphorMeaningCn": "独裁者",
+  "metaphorOptions": ["独裁者", "民众", "谏臣"],
+  "mnemonicNote": "dict(说)+ator(人)：所有话都由他一个人说",
+  "sourceNote": "拉丁 dictator，dictare(口授、下令)"
  },
  "differ": {
-  "modernMeaningCn": "不一致",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "不同",
+  "literalMeaningCn": "分开带来",
+  "metaphorMeaningCn": "不同、意见不一",
+  "metaphorOptions": ["不同、意见不一", "一致", "雷同"],
+  "mnemonicNote": "dif(离开)+fer(带)：各往各的方向带，就不一样",
+  "sourceNote": "拉丁 differre，dis-(分开) + ferre(带)"
  },
  "diffuse": {
-  "modernMeaningCn": "散播",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "扩散",
+  "literalMeaningCn": "向四方倒",
+  "metaphorMeaningCn": "扩散、散布",
+  "metaphorOptions": ["扩散、散布", "聚集", "封存"],
+  "mnemonicNote": "dif(散开)+fuse(倒)：水倒下去，向四面流开",
+  "sourceNote": "拉丁 diffundere，dis-(散开) + fundere(倒)"
  },
  "direction": {
   "modernMeaningCn": "方向",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "指着的直路",
+  "metaphorMeaningCn": "方向、指导",
+  "metaphorOptions": ["方向、指导", "迷路", "折返"],
+  "mnemonicNote": "direct(直)+ion：把路摆直，指给你看",
+  "sourceNote": "拉丁 directio，dirigere(使直) 的名词形式"
  },
  "director": {
   "modernMeaningCn": "主管",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "指挥的人",
+  "metaphorMeaningCn": "主管、导演",
+  "metaphorOptions": ["主管、导演", "员工", "观众"],
+  "mnemonicNote": "direct(指挥)+or(人)：负责把人往一条线上带",
+  "sourceNote": "拉丁 dirigere(指挥) 的施事名词"
  },
  "discord": {
-  "modernMeaningCn": "不调和",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "不和",
+  "literalMeaningCn": "心分开了",
+  "metaphorMeaningCn": "不和、争执",
+  "metaphorOptions": ["不和、争执", "和睦", "默契"],
+  "mnemonicNote": "dis(分开)+cord(心)：心不朝一处，就生嫌隙",
+  "sourceNote": "拉丁 discordia，dis-(分开) + cor(心)"
  },
  "discover": {
   "modernMeaningCn": "发现",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "揭开盖子",
+  "metaphorMeaningCn": "发现、找到",
+  "metaphorOptions": ["发现、找到", "掩盖", "丢失"],
+  "mnemonicNote": "dis(去掉)+cover(盖子)：把盖着的东西露出来",
+  "sourceNote": "古法语 descovrir，des-(去掉) + covrir(盖)"
  },
  "dismiss": {
   "modernMeaningCn": "解散",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "送走",
+  "metaphorMeaningCn": "解散、开除",
+  "metaphorOptions": ["解散、开除", "召集", "挽留"],
+  "mnemonicNote": "dis(离开)+miss(送)：把人都送出门去",
+  "sourceNote": "拉丁 dimittere，dis-(离开) + mittere(送)"
  },
  "drawer": {
   "modernMeaningCn": "抽屉",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "能被拉的东西",
+  "metaphorMeaningCn": "抽屉",
+  "metaphorOptions": ["抽屉", "柜门", "隔板"],
+  "mnemonicNote": "draw(拉)+er(物)：一拉就出来的那格",
+  "sourceNote": "英语 draw(拉) + -er(表物)，16 世纪起指抽屉"
  },
  "effort": {
   "modernMeaningCn": "努力",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "使出力量",
+  "metaphorMeaningCn": "努力、尽力",
+  "metaphorOptions": ["努力、尽力", "偷懒", "放弃"],
+  "mnemonicNote": "ef(出)+fort(强)：把身上那股劲往外使",
+  "sourceNote": "古法语 esforz，es-(出) + 拉丁 fortis(强)"
  },
  "eject": {
-  "modernMeaningCn": "逐放",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "喷出",
+  "literalMeaningCn": "投掷出去",
+  "metaphorMeaningCn": "喷出、逐出",
+  "metaphorOptions": ["喷出、逐出", "吸入", "收回"],
+  "mnemonicNote": "e(出)+ject(投)：往外一扔",
+  "sourceNote": "拉丁 eicere，ex-(出) + iacere(投)"
  }
 }

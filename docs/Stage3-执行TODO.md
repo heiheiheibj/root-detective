@@ -268,8 +268,14 @@ d5 从 error 降为 warning —— 它是「必须收冷门派生词」的选题
 
 ### 下一步
 
-1. **填 handoff 释义**（当前唯一阻塞）：`scripts/lib/handoff/words-prose-stage3/batch-1~7.json`，
-   383 词 × 6 字段（`modernMeaningCn` 已预填）。填完 `npm run content:all` 就能一路跑到 40 总装。
+1. **handoff 释义 【✅ 完成】**：`words-prose-stage3/batch-1~7.json` 的 383 词已按 9.3 契约全部写完，
+   30 号契约校验**全绿**。过程中修掉两处：`percent` 的选项含省略号被判占位符（A28）、
+   `november` 的选项过于相似（A11）。另外润色了预填脏的 `modernMeaningCn`
+   （`airplane`「飞机机飞机」、`airport`「飞机场机航空站」、`cordial`「兴奋剂」、`deport`「举止」等）。
+2. **40 总装卡在 familyWordIds 越界**（29 词）：`absent(1)` / `alive(0)` / `breakfast(0)` / `meaning(0)`…
+   家族词只统计了**本批内**的词，而多数教学词根在本批只有 0-1 个家族词。
+   两条路：让家族词统计跨全库，或让 40 号在家族词不足时跳过家族练习。
+3. **4 个词缺中文例句**：`weekday` / `grandchild` / `tenth`（22 号选的英文句在 Tatoeba 里没有中文对照）。
 2. **词素义项队列**：`.work/derived/morpheme-tasks.json`（A2 译 221 条 + A3/A4 释义 266 条）。
    ※ `her→stick`、`fall→to deceive`、`ceive→head`、`main→hand` 是 Wiktionary 错配，一并修掉。
 3. **A23 提示 8 项**：`air/body/thing/ground/room/day/ember/tooth` 缺 d5 档（不影响产出）。

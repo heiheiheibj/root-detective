@@ -1,483 +1,483 @@
 {
- "_comment": "Stage 3 待写释义（第 4/7 批，共 383 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "_comment": "Stage 3 待写释义（第 4/7 批，共 60 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
  "inflexible": {
-  "modernMeaningCn": "不屈曲的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "僵硬的",
+  "literalMeaningCn": "不能弯的",
+  "metaphorMeaningCn": "僵硬的、不屈的",
+  "metaphorOptions": ["僵硬的、不屈的", "柔软的", "易变的"],
+  "mnemonicNote": "in(不)+flex(弯)+ible(能)：怎么压都不肯弯",
+  "sourceNote": "拉丁 inflexibilis，in-(不) + flectere(弯)"
  },
  "influence": {
-  "modernMeaningCn": "影响力",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "影响",
+  "literalMeaningCn": "流入其中",
+  "metaphorMeaningCn": "影响、感化",
+  "metaphorOptions": ["影响、感化", "无关", "排斥"],
+  "mnemonicNote": "in(入)+flu(流)+ence：像水一样渗进别人心里",
+  "sourceNote": "拉丁 influentia，in-(入) + fluere(流)"
  },
  "influx": {
-  "modernMeaningCn": "流入",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "涌入",
+  "literalMeaningCn": "流进来",
+  "metaphorMeaningCn": "流入、涌入",
+  "metaphorOptions": ["流入、涌入", "流出", "干涸"],
+  "mnemonicNote": "in(入)+flux(流)：人和钱一起往这边灌",
+  "sourceNote": "拉丁 influxus，in-(入) + fluere(流)"
  },
  "information": {
-  "modernMeaningCn": "消息",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "信息",
+  "literalMeaningCn": "使成形之过程",
+  "metaphorMeaningCn": "信息、资料",
+  "metaphorOptions": ["信息、资料", "空白", "传言"],
+  "mnemonicNote": "in(入)+form(形)+ation：把形状装进脑子里的东西",
+  "sourceNote": "拉丁 informatio，informare(使成形、告知)"
  },
  "infusion": {
   "modernMeaningCn": "注入",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "倒进去",
+  "metaphorMeaningCn": "注入、泡制",
+  "metaphorOptions": ["注入、泡制", "倒出", "抽干"],
+  "mnemonicNote": "in(入)+fus(倒)+ion：把药汤慢慢倒进身体",
+  "sourceNote": "拉丁 infusio，infundere(in- + fundere 倒)"
  },
  "inhabit": {
   "modernMeaningCn": "居住于",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "在里面持住",
+  "metaphorMeaningCn": "居住于、栖息",
+  "metaphorOptions": ["居住于、栖息", "迁离", "路过"],
+  "mnemonicNote": "in(在内)+habit(持有)：把这块地方攥在手里住下",
+  "sourceNote": "拉丁 inhabitare，in-(在内) + habitare(居住)"
  },
  "inhibit": {
-  "modernMeaningCn": "禁止",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "抑制",
+  "literalMeaningCn": "往里按住",
+  "metaphorMeaningCn": "抑制、禁止",
+  "metaphorOptions": ["抑制、禁止", "放纵", "鼓励"],
+  "mnemonicNote": "in(向内)+hibit(持)：把手按在里头不让动",
+  "sourceNote": "拉丁 inhibere，in-(向内) + habere(持)"
  },
  "innate": {
-  "modernMeaningCn": "先天的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "天生的",
+  "literalMeaningCn": "生来就在里面",
+  "metaphorMeaningCn": "天生的、固有的",
+  "metaphorOptions": ["天生的、固有的", "后天学的", "外来的"],
+  "mnemonicNote": "in(内)+nat(生)：一出生就带在身上的",
+  "sourceNote": "拉丁 innatus，in-(内) + nasci(出生)"
  },
  "innovation": {
-  "modernMeaningCn": "改革",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "创新",
+  "literalMeaningCn": "使变新",
+  "metaphorMeaningCn": "创新、革新",
+  "metaphorOptions": ["创新、革新", "守旧", "照搬"],
+  "mnemonicNote": "in(使)+nov(新)+ation：把旧东西翻出新花样",
+  "sourceNote": "拉丁 innovatio，in-(使) + novus(新)"
  },
  "intact": {
-  "modernMeaningCn": "尚未被人碰过的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "完好无损的",
+  "literalMeaningCn": "未被碰过的",
+  "metaphorMeaningCn": "完好无损的、完整的",
+  "metaphorOptions": ["完好无损的、完整的", "破损的", "残缺的"],
+  "mnemonicNote": "in(不)+tact(触)：谁也没碰过，自然完好",
+  "sourceNote": "拉丁 intactus，in-(不) + tangere(触)"
  },
  "intermittent": {
   "modernMeaningCn": "间歇的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "中间断着送的",
+  "metaphorMeaningCn": "间歇的、断断续续的",
+  "metaphorOptions": ["间歇的、断断续续的", "持续的", "一次性的"],
+  "mnemonicNote": "inter(之间)+mitt(送)+ent：送一阵停一阵",
+  "sourceNote": "拉丁 intermittere，inter-(之间) + mittere(送)"
  },
  "interview": {
-  "modernMeaningCn": "面谈",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "面试",
+  "literalMeaningCn": "互相看着",
+  "metaphorMeaningCn": "面试、采访",
+  "metaphorOptions": ["面试、采访", "独白", "闲聊"],
+  "mnemonicNote": "inter(互相)+view(看)：面对面互相打量",
+  "sourceNote": "中古法语 entrevue，inter-(互相) + voir(看)"
  },
  "invent": {
   "modernMeaningCn": "发明",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "来到心中",
+  "metaphorMeaningCn": "发明、编造",
+  "metaphorOptions": ["发明、编造", "模仿", "照抄"],
+  "mnemonicNote": "in(入)+vent(来)：一个念头忽然走进脑子里",
+  "sourceNote": "拉丁 invenire，in-(入) + venire(来)"
  },
  "inverse": {
-  "modernMeaningCn": "倒转的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "相反的",
+  "literalMeaningCn": "反过来转的",
+  "metaphorMeaningCn": "相反的、倒转的",
+  "metaphorOptions": ["相反的、倒转的", "顺向的", "一致的"],
+  "mnemonicNote": "in(反)+verse(转)：把它翻个个儿",
+  "sourceNote": "拉丁 inversus，invertere(翻转)"
  },
  "judge": {
   "modernMeaningCn": "法官",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "断法的人",
+  "metaphorMeaningCn": "法官、评判",
+  "metaphorOptions": ["法官、评判", "被告", "证人"],
+  "mnemonicNote": "jud(法)：坐在堂上替法说话的人",
+  "sourceNote": "拉丁 iudex，ius(法) + dicere(说)"
  },
  "judgement": {
-  "modernMeaningCn": "审判",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "判断",
+  "literalMeaningCn": "断法的结果",
+  "metaphorMeaningCn": "判断、判决",
+  "metaphorOptions": ["判断、判决", "犹豫", "沉默"],
+  "mnemonicNote": "judge(断法)+ment：把道理断清之后给出的话",
+  "sourceNote": "古法语 jugement，jugier(审判)"
  },
  "judicious": {
-  "modernMeaningCn": "头脑精明的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "明智的",
+  "literalMeaningCn": "善于断法的",
+  "metaphorMeaningCn": "明智的、有见地的",
+  "metaphorOptions": ["明智的、有见地的", "糊涂的", "草率的"],
+  "mnemonicNote": "judic(断法)+ious：凡事都拎得清利害",
+  "sourceNote": "法语 judicieux，拉丁 iudicium(判断)"
  },
  "justice": {
   "modernMeaningCn": "正义",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "合乎法理",
+  "metaphorMeaningCn": "正义、司法",
+  "metaphorOptions": ["正义、司法", "偏私", "冤屈"],
+  "mnemonicNote": "just(法)+ice：让每个人都拿到该拿的那份",
+  "sourceNote": "拉丁 iustitia，iustus(公正)"
  },
  "justify": {
-  "modernMeaningCn": "替辩护",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "证明正当",
+  "literalMeaningCn": "使成为正当",
+  "metaphorMeaningCn": "证明正当、辩护",
+  "metaphorOptions": ["证明正当、辩护", "认罪", "诋毁"],
+  "mnemonicNote": "just(正当)+ify(使)：找出理由证明它没错",
+  "sourceNote": "拉丁 iustificare，iustus(公正) + facere(使)"
  },
  "keyboard": {
-  "modernMeaningCn": "键盘计键盘",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "键盘",
+  "literalMeaningCn": "按键的板",
+  "metaphorMeaningCn": "键盘",
+  "metaphorOptions": ["键盘", "屏幕", "鼠标"],
+  "mnemonicNote": "key(键)+board(板)：一排按键铺成的板子",
+  "sourceNote": "英语复合词，19 世纪指钢琴键盘"
  },
  "kilometre": {
-  "modernMeaningCn": "公里",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "千米",
+  "literalMeaningCn": "一千米",
+  "metaphorMeaningCn": "千米、公里",
+  "metaphorOptions": ["千米、公里", "厘米", "英里"],
+  "mnemonicNote": "kilo(千)+metre(米)：一千个一米摞起来",
+  "sourceNote": "法语 kilomètre，希腊 khilioi(千) + metron(量度)"
  },
  "laboratory": {
   "modernMeaningCn": "实验室",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "干活的地方",
+  "metaphorMeaningCn": "实验室",
+  "metaphorOptions": ["实验室", "教室", "仓库"],
+  "mnemonicNote": "laborat(劳动)+ory(场所)：专供动手做实验的房间",
+  "sourceNote": "中世纪拉丁 laboratorium，laborare(劳动)"
  },
  "laborious": {
-  "modernMeaningCn": "艰苦的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "艰巨的",
+  "literalMeaningCn": "充满劳作的",
+  "metaphorMeaningCn": "艰巨的、费力的",
+  "metaphorOptions": ["艰巨的、费力的", "轻松的", "有趣的"],
+  "mnemonicNote": "labor(劳动)+ious：每一步都得咬牙出力",
+  "sourceNote": "拉丁 laboriosus，labor(劳作)"
  },
  "labour": {
   "modernMeaningCn": "劳动",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "出力",
+  "metaphorMeaningCn": "劳动、劳工",
+  "metaphorOptions": ["劳动、劳工", "休息", "享乐"],
+  "mnemonicNote": "labor(劳作)：身上出的那身汗",
+  "sourceNote": "拉丁 labor(辛劳、劳作)"
  },
  "leader": {
   "modernMeaningCn": "领导者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "带路的人",
+  "metaphorMeaningCn": "领导者、领队",
+  "metaphorOptions": ["领导者、领队", "随从", "旁观者"],
+  "mnemonicNote": "lead(带)+er(人)：走在前头把路带出来",
+  "sourceNote": "古英语 lædan(带领) + -er(表人)"
  },
  "lever": {
   "modernMeaningCn": "杠杆",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "用来举起之物",
+  "metaphorMeaningCn": "杠杆、撬棒",
+  "metaphorOptions": ["杠杆、撬棒", "重物", "支点"],
+  "mnemonicNote": "lev(举)+er(物)：一根棍子就能撬起大石头",
+  "sourceNote": "古法语 levier，拉丁 levare(举起)"
  },
  "literacy": {
   "modernMeaningCn": "读写能力",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "识字的状态",
+  "metaphorMeaningCn": "读写能力、识字",
+  "metaphorOptions": ["读写能力、识字", "文盲", "算数"],
+  "mnemonicNote": "liter(文字)+acy：认得字、写得出话",
+  "sourceNote": "拉丁 litteratus(识字的) + -cy(状态)"
  },
  "literal": {
-  "modernMeaningCn": "逐字的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "字面的",
+  "literalMeaningCn": "按文字的",
+  "metaphorMeaningCn": "字面的、照字面的",
+  "metaphorOptions": ["字面的、照字面的", "引申的", "隐喻的"],
+  "mnemonicNote": "liter(文字)+al：一个字一个字照着念",
+  "sourceNote": "拉丁 litteralis，littera(文字)"
  },
  "literary": {
   "modernMeaningCn": "文学的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "与文字有关的",
+  "metaphorMeaningCn": "文学的、文人的",
+  "metaphorOptions": ["文学的、文人的", "口语的", "粗俗的"],
+  "mnemonicNote": "liter(文字)+ary：专门跟文字打交道的",
+  "sourceNote": "拉丁 litterarius，littera(文字)"
  },
  "literature": {
   "modernMeaningCn": "文学",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "文字之作",
+  "metaphorMeaningCn": "文学、文献",
+  "metaphorOptions": ["文学、文献", "口语", "图画"],
+  "mnemonicNote": "literat(文字)+ure：历代人写下的东西",
+  "sourceNote": "拉丁 litteratura，littera(文字)"
  },
  "logic": {
   "modernMeaningCn": "逻辑",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "讲理之学",
+  "metaphorMeaningCn": "逻辑、推理",
+  "metaphorOptions": ["逻辑、推理", "猜想", "直觉"],
+  "mnemonicNote": "log(说理)+ic：一步一步把话说通",
+  "sourceNote": "希腊 logike，logos(言说、理性)"
  },
  "manuscript": {
   "modernMeaningCn": "手稿",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "手写之物",
+  "metaphorMeaningCn": "手稿、原稿",
+  "metaphorOptions": ["手稿、原稿", "印刷品", "口述"],
+  "mnemonicNote": "manu(手)+script(写)：一笔一划手写出来的",
+  "sourceNote": "拉丁 manu scriptum，字面即「用手写成的」"
  },
  "meaning": {
   "modernMeaningCn": "意义",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "所意指的",
+  "metaphorMeaningCn": "意义、含义",
+  "metaphorOptions": ["意义、含义", "字面", "读音"],
+  "mnemonicNote": "mean(意指)+ing：话背后真正想说的那层",
+  "sourceNote": "古英语 meanan(意指) + -ing"
  },
  "media": {
-  "modernMeaningCn": "媒体计媒质",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "媒体",
+  "literalMeaningCn": "居中传递之物",
+  "metaphorMeaningCn": "媒体、媒介",
+  "metaphorOptions": ["媒体、媒介", "源头", "受众"],
+  "mnemonicNote": "medi(中间)：站在说的人和听的人中间",
+  "sourceNote": "拉丁 medium 的复数，medius(中间)"
  },
  "medieval": {
-  "modernMeaningCn": "中古的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "中世纪的",
+  "literalMeaningCn": "中间时代的",
+  "metaphorMeaningCn": "中世纪的",
+  "metaphorOptions": ["中世纪的", "古代的", "近代的"],
+  "mnemonicNote": "medi(中)+eval(时代)：夹在古代与近代之间",
+  "sourceNote": "拉丁 medium aevum，即「中间的时代」"
  },
  "mediocre": {
-  "modernMeaningCn": "不好不坏的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "平庸的",
+  "literalMeaningCn": "爬到半山腰",
+  "metaphorMeaningCn": "平庸的、中不溜的",
+  "metaphorOptions": ["平庸的、中不溜的", "卓越的", "极差的"],
+  "mnemonicNote": "medi(中)+ocre(山)：爬到半山腰就停了",
+  "sourceNote": "拉丁 mediocris，medius(中) + ocris(山)"
  },
  "medium": {
-  "modernMeaningCn": "媒体",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "媒介",
+  "literalMeaningCn": "居中之物",
+  "metaphorMeaningCn": "媒介、中等的",
+  "metaphorOptions": ["媒介、中等的", "极端", "两端"],
+  "mnemonicNote": "medi(中)+um：不大不小、不去不来的那个",
+  "sourceNote": "拉丁 medius(中间的) 的中性形式"
  },
  "metric": {
-  "modernMeaningCn": "公尺的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "公制的",
+  "literalMeaningCn": "与量度有关",
+  "metaphorMeaningCn": "公制的、度量的",
+  "metaphorOptions": ["公制的、度量的", "英制的", "凭感觉的"],
+  "mnemonicNote": "metr(量)+ic：一切按尺子说话",
+  "sourceNote": "希腊 metron(量度) + -ic"
  },
  "metropolitan": {
-  "modernMeaningCn": "大都市居民",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "大都市的",
+  "literalMeaningCn": "母城之人",
+  "metaphorMeaningCn": "大都市的、首都的",
+  "metaphorOptions": ["大都市的、首都的", "乡下的", "边陲的"],
+  "mnemonicNote": "metro(母城)+polit(城)+an：许多城围着的那座母城",
+  "sourceNote": "希腊 metropolis，meter(母) + polis(城)"
  },
  "migrant": {
-  "modernMeaningCn": "候鸟",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "迁徙者",
+  "literalMeaningCn": "迁移的人",
+  "metaphorMeaningCn": "移民、候鸟",
+  "metaphorOptions": ["移民、候鸟", "定居者", "留守者"],
+  "mnemonicNote": "migr(迁移)+ant(者)：年年换地方讨生活",
+  "sourceNote": "拉丁 migrare(迁移) 的现在分词"
  },
  "migrate": {
-  "modernMeaningCn": "移动",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "迁移",
+  "literalMeaningCn": "换个地方",
+  "metaphorMeaningCn": "迁移、移居",
+  "metaphorOptions": ["迁移、移居", "定居", "留守"],
+  "mnemonicNote": "migr(迁移)+ate：从一个地方搬到另一个",
+  "sourceNote": "拉丁 migrare(迁移、迁居)"
  },
  "migratory": {
-  "modernMeaningCn": "迁移的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "迁徙的",
+  "literalMeaningCn": "来回迁的",
+  "metaphorMeaningCn": "迁徙的、流浪的",
+  "metaphorOptions": ["迁徙的、流浪的", "定居的", "土生的"],
+  "mnemonicNote": "migrat(迁移)+ory：一年两趟，从不长住",
+  "sourceNote": "拉丁 migratorius，migrare(迁移)"
  },
  "miracle": {
   "modernMeaningCn": "奇迹",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "令人惊奇之物",
+  "metaphorMeaningCn": "奇迹、不可思议的事",
+  "metaphorOptions": ["奇迹、不可思议的事", "寻常事", "必然"],
+  "mnemonicNote": "mir(惊奇)+acle：看见之后只能张嘴的事",
+  "sourceNote": "拉丁 miraculum，mirari(惊奇)"
  },
  "miraculous": {
-  "modernMeaningCn": "奇迹的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "奇迹般的",
+  "literalMeaningCn": "充满惊奇的",
+  "metaphorMeaningCn": "奇迹般的、不可思议的",
+  "metaphorOptions": ["奇迹般的、不可思议的", "平凡的", "可预料的"],
+  "mnemonicNote": "miracul(惊奇)+ous：让人不敢相信是真的",
+  "sourceNote": "中世纪拉丁 miraculosus，miraculum(奇迹)"
  },
  "mirror": {
   "modernMeaningCn": "镜子",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "引人惊奇之物",
+  "metaphorMeaningCn": "镜子、反映",
+  "metaphorOptions": ["镜子、反映", "影子", "幕布"],
+  "mnemonicNote": "mirr(惊奇)+or：一照就看见自己，古人觉得稀奇",
+  "sourceNote": "古法语 mirour，拉丁 mirare(惊奇地看)"
  },
  "mission": {
   "modernMeaningCn": "任务",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "被派出去的事",
+  "metaphorMeaningCn": "任务、使命",
+  "metaphorOptions": ["任务、使命", "休假", "私事"],
+  "mnemonicNote": "miss(送)+ion：派你出门要办成的那件事",
+  "sourceNote": "拉丁 missio，mittere(送、派)"
  },
  "mistake": {
   "modernMeaningCn": "错误",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "拿错了",
+  "metaphorMeaningCn": "错误、弄错",
+  "metaphorOptions": ["错误、弄错", "命中", "巧合"],
+  "mnemonicNote": "mis(错)+take(拿)：下手时拿岔了",
+  "sourceNote": "古诺尔斯语 mistaka，mis-(错) + taka(拿)"
  },
  "mobile": {
   "modernMeaningCn": "移动的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "会动的",
+  "metaphorMeaningCn": "移动的、可动的",
+  "metaphorOptions": ["移动的、可动的", "固定的", "静止的"],
+  "mnemonicNote": "mob(动)+ile：说走就走，不钉在一处",
+  "sourceNote": "拉丁 mobilis，movere(移动)"
  },
  "mobility": {
-  "modernMeaningCn": "可动性",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "流动性",
+  "literalMeaningCn": "能动的性质",
+  "metaphorMeaningCn": "流动性、机动性",
+  "metaphorOptions": ["流动性、机动性", "停滞", "固定"],
+  "mnemonicNote": "mob(动)+ility：随时能挪窝的本事",
+  "sourceNote": "拉丁 mobilitas，mobilis(可动的)"
  },
  "monday": {
   "modernMeaningCn": "星期一",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "月亮之日",
+  "metaphorMeaningCn": "星期一",
+  "metaphorOptions": ["星期一", "星期日", "星期五"],
+  "mnemonicNote": "mon(月亮)+day(日)：献给月亮的那一天",
+  "sourceNote": "古英语 monandaeg，mona(月亮) + daeg(日)"
  },
  "motorcycle": {
-  "modernMeaningCn": "摩托车机机动车",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "摩托车",
+  "literalMeaningCn": "带发动机的两轮车",
+  "metaphorMeaningCn": "摩托车",
+  "metaphorOptions": ["摩托车", "自行车", "汽车"],
+  "mnemonicNote": "motor(发动机)+cycle(轮)：给两轮车装上引擎",
+  "sourceNote": "英语复合词，motor + cycle(轮、循环)"
  },
  "nation": {
   "modernMeaningCn": "国家",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "同源而生的一群人",
+  "metaphorMeaningCn": "国家、民族",
+  "metaphorOptions": ["国家、民族", "部落", "家庭"],
+  "mnemonicNote": "nat(生)+ion：同一片土地上生出来的人",
+  "sourceNote": "拉丁 natio，nasci(出生)"
  },
  "nature": {
   "modernMeaningCn": "自然",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "生来的样子",
+  "metaphorMeaningCn": "自然、本性",
+  "metaphorOptions": ["自然、本性", "人为", "伪装"],
+  "mnemonicNote": "nat(生)+ure：天生就是这样，没人加工过",
+  "sourceNote": "拉丁 natura，nasci(出生)"
  },
  "northern": {
-  "modernMeaningCn": "北方人北方的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "北方的",
+  "literalMeaningCn": "北边的",
+  "metaphorMeaningCn": "北方的、北部的",
+  "metaphorOptions": ["北方的、北部的", "南方的", "东方的"],
+  "mnemonicNote": "north(北)+ern(方向)：朝着北斗那边",
+  "sourceNote": "古英语 northerne，north + -erne"
  },
  "notebook": {
   "modernMeaningCn": "笔记本",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "记事的本子",
+  "metaphorMeaningCn": "笔记本、笔记簿",
+  "metaphorOptions": ["笔记本、笔记簿", "课本", "字典"],
+  "mnemonicNote": "note(记录)+book(本)：随手记下想法的那本",
+  "sourceNote": "英语复合词，note + book"
  },
  "novel": {
   "modernMeaningCn": "小说",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "新奇之作",
+  "metaphorMeaningCn": "小说、新颖的",
+  "metaphorOptions": ["小说、新颖的", "老套的", "真实的"],
+  "mnemonicNote": "nov(新)+el：讲一段新鲜故事的书",
+  "sourceNote": "意大利 novella，拉丁 novus(新)"
  },
  "novelty": {
   "modernMeaningCn": "新奇",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "新的性质",
+  "metaphorMeaningCn": "新奇、新奇事物",
+  "metaphorOptions": ["新奇、新奇事物", "陈旧", "惯例"],
+  "mnemonicNote": "nov(新)+el+ty：因为没见过，才觉得有意思",
+  "sourceNote": "古法语 novelte，拉丁 novus(新)"
  },
  "november": {
   "modernMeaningCn": "十一月",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "第九个月",
+  "metaphorMeaningCn": "十一月",
+  "metaphorOptions": ["十一月", "夏末时节", "新春伊始"],
+  "mnemonicNote": "nov(九)+ember：罗马历里它本是第九个月",
+  "sourceNote": "拉丁 November，novem(九)；罗马历岁首在三月"
  },
  "novice": {
   "modernMeaningCn": "新手",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "新来的人",
+  "metaphorMeaningCn": "新手、初学者",
+  "metaphorOptions": ["新手、初学者", "老手", "教练"],
+  "mnemonicNote": "nov(新)+ice：刚进门，什么都还没上手",
+  "sourceNote": "拉丁 novicius，novus(新)"
  },
  "obliterate": {
-  "modernMeaningCn": "擦去",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "抹去",
+  "literalMeaningCn": "把字反着抹掉",
+  "metaphorMeaningCn": "抹去、消灭",
+  "metaphorOptions": ["抹去、消灭", "刻写", "保留"],
+  "mnemonicNote": "ob(反)+liter(文字)+ate：把写下的字反手擦净",
+  "sourceNote": "拉丁 obliterare，ob-(反) + littera(文字)"
  }
 }

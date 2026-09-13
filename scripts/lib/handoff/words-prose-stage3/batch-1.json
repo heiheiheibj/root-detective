@@ -1,467 +1,467 @@
 {
- "_comment": "Stage 3 待写释义（第 1/7 批，共 383 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "_comment": "Stage 3 待写释义（第 1/7 批，共 58 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
  "absent": {
   "modernMeaningCn": "缺席的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "不在场",
+  "metaphorMeaningCn": "缺席的、心不在焉的",
+  "metaphorOptions": ["缺席的、心不在焉的", "在场的", "迟到的"],
+  "mnemonicNote": "ab(离开)+sent(存在)：人从存在里离开了，就是不在场",
+  "sourceNote": "拉丁 absentia，由 ab-(离开) + esse(存在) 构成"
  },
  "accept": {
   "modernMeaningCn": "接受",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "朝自己拿",
+  "metaphorMeaningCn": "接受、同意",
+  "metaphorOptions": ["接受、同意", "拒绝", "犹豫"],
+  "mnemonicNote": "ac(朝向)+cept(拿)：把东西朝自己这边拿过来",
+  "sourceNote": "拉丁 accipere，ad-(朝向) + capere(拿)"
  },
  "accord": {
   "modernMeaningCn": "一致",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "心心相朝",
+  "metaphorMeaningCn": "一致、协议",
+  "metaphorOptions": ["一致、协议", "分歧", "冲突"],
+  "mnemonicNote": "ac(朝向)+cord(心)：两颗心朝同一处，才叫一致",
+  "sourceNote": "拉丁 accordare，ad-(朝向) + cor(心)"
  },
  "action": {
   "modernMeaningCn": "行动",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "做的这件事",
+  "metaphorMeaningCn": "行动、行为",
+  "metaphorOptions": ["行动、行为", "静止", "空想"],
+  "mnemonicNote": "act(做)+ion(名词后缀)：做事这个动作本身",
+  "sourceNote": "拉丁 actio，源自 agere(做、驱动)"
  },
  "active": {
   "modernMeaningCn": "活跃的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "处于做的状态",
+  "metaphorMeaningCn": "活跃的、积极的",
+  "metaphorOptions": ["活跃的、积极的", "懒散的", "安静的"],
+  "mnemonicNote": "act(做)+ive(形容词后缀)：爱动、爱做事的",
+  "sourceNote": "拉丁 activus，agere(做) 的形容词形式"
  },
  "adequate": {
   "modernMeaningCn": "适当的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "达到相等",
+  "metaphorMeaningCn": "足够的、适当的",
+  "metaphorOptions": ["足够的、适当的", "不足的", "过量的"],
+  "mnemonicNote": "ad(朝向)+equ(相等)+ate：达到了需要的量，够用",
+  "sourceNote": "拉丁 adaequare，ad-(朝向) + aequus(相等)"
  },
  "adjust": {
   "modernMeaningCn": "调整",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "朝向公正",
+  "metaphorMeaningCn": "调整、适应",
+  "metaphorOptions": ["调整、适应", "破坏", "忽略"],
+  "mnemonicNote": "ad(朝向)+just(公正)：把偏差调回正位",
+  "sourceNote": "古法语 adjuster，ad-(朝向) + justus(公正)"
  },
  "admiration": {
   "modernMeaningCn": "赞赏",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "对着惊奇",
+  "metaphorMeaningCn": "赞赏、钦佩",
+  "metaphorOptions": ["赞赏、钦佩", "鄙视", "冷淡"],
+  "mnemonicNote": "ad(朝向)+mir(惊奇)+ation：对着一个人越看越惊奇",
+  "sourceNote": "拉丁 admiratio，ad-(朝向) + mirari(惊奇)"
  },
  "admire": {
   "modernMeaningCn": "赞美",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "朝向惊奇",
+  "metaphorMeaningCn": "赞美、钦佩",
+  "metaphorOptions": ["赞美、钦佩", "批评", "无视"],
+  "mnemonicNote": "ad(朝向)+mir(惊奇)：看着他就觉得了不起",
+  "sourceNote": "拉丁 admirari，ad-(朝向) + mirari(惊奇)"
  },
  "admit": {
   "modernMeaningCn": "承认",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "送他进去",
+  "metaphorMeaningCn": "承认、准许进入",
+  "metaphorOptions": ["承认、准许进入", "否认", "隐瞒"],
+  "mnemonicNote": "ad(朝向)+mit(送)：把人送进门，也指把事实说出口",
+  "sourceNote": "拉丁 admittere，ad-(朝向) + mittere(送)"
  },
  "adopt": {
   "modernMeaningCn": "采用",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "朝向着挑选",
+  "metaphorMeaningCn": "采用、收养",
+  "metaphorOptions": ["采用、收养", "放弃", "拒绝"],
+  "mnemonicNote": "ad(朝向)+opt(选择)：挑过来当成自己的",
+  "sourceNote": "拉丁 adoptare，ad-(朝向) + optare(选择)"
  },
  "adventure": {
   "modernMeaningCn": "冒险",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "将要到来之事",
+  "metaphorMeaningCn": "冒险、奇遇",
+  "metaphorOptions": ["冒险、奇遇", "安稳", "日常"],
+  "mnemonicNote": "ad+ven(来)+ture：等着要降临到你头上的事",
+  "sourceNote": "拉丁 adventura，adventus(到来) 的将来分词"
  },
  "agreement": {
   "modernMeaningCn": "同意",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "心意一致的状态",
+  "metaphorMeaningCn": "协议、同意",
+  "metaphorOptions": ["协议、同意", "争执", "沉默"],
+  "mnemonicNote": "agree(同意)+ment(名词后缀)：谈成一致的结果",
+  "sourceNote": "古法语 agreement，源自 agreer(使满意)"
  },
  "airline": {
   "modernMeaningCn": "航线",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "空中的线",
+  "metaphorMeaningCn": "航空公司、航线",
+  "metaphorOptions": ["航空公司、航线", "铁路", "公路"],
+  "mnemonicNote": "air(空气)+line(线)：天上划出的那条线",
+  "sourceNote": "20 世纪航空术语，air + line 直译组合"
  },
  "airplane": {
-  "modernMeaningCn": "飞机机飞机",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "飞机",
+  "literalMeaningCn": "空中的平面",
+  "metaphorMeaningCn": "飞机",
+  "metaphorOptions": ["飞机", "轮船", "火车"],
+  "mnemonicNote": "air(空气)+plane(平面)：靠机翼在空气中滑行",
+  "sourceNote": "法语 aéroplane，希腊 aer(空气) + planos(游荡)"
  },
  "airport": {
-  "modernMeaningCn": "飞机场机航空站",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "机场",
+  "literalMeaningCn": "空中的港口",
+  "metaphorMeaningCn": "机场",
+  "metaphorOptions": ["机场", "车站", "码头"],
+  "mnemonicNote": "air(空气)+port(港口)：飞机停靠的港口",
+  "sourceNote": "20 世纪航空术语，仿 seaport(海港) 造出"
  },
  "alive": {
   "modernMeaningCn": "活着的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "在生命之中",
+  "metaphorMeaningCn": "活着的、有活力的",
+  "metaphorOptions": ["活着的、有活力的", "死去的", "沉睡的"],
+  "mnemonicNote": "a(在…之中)+live(生命)：还在生命的范围里",
+  "sourceNote": "古英语 on life，字面就是「在生命里」"
  },
  "alleviate": {
   "modernMeaningCn": "减轻",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "使变轻",
+  "metaphorMeaningCn": "减轻、缓解",
+  "metaphorOptions": ["减轻、缓解", "加重", "维持"],
+  "mnemonicNote": "al(朝向)+lev(轻)+iate：把重量往轻里调",
+  "sourceNote": "拉丁 alleviare，ad-(朝向) + levis(轻)"
  },
  "anybody": {
-  "modernMeaningCn": "任何人重要人物",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "任何人",
+  "literalMeaningCn": "任何一个身体",
+  "metaphorMeaningCn": "任何人",
+  "metaphorOptions": ["任何人", "没有人", "某个人"],
+  "mnemonicNote": "any(任何)+body(身体)：随便哪一个身体都行",
+  "sourceNote": "古英语复合词，any + body"
  },
  "anything": {
-  "modernMeaningCn": "任何事",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "任何事物",
+  "literalMeaningCn": "任何一个东西",
+  "metaphorMeaningCn": "任何事物",
+  "metaphorOptions": ["任何事物", "什么都没有", "某样东西"],
+  "mnemonicNote": "any(任何)+thing(东西)：不计较是哪一个",
+  "sourceNote": "古英语复合词，any + thing"
  },
  "artifact": {
-  "modernMeaningCn": "人工制品医人为现",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "人工制品",
+  "literalMeaningCn": "用技艺做成",
+  "metaphorMeaningCn": "人工制品、遗物",
+  "metaphorOptions": ["人工制品、遗物", "天然物", "废品"],
+  "mnemonicNote": "arti(技艺)+fact(做)：人手做出来的东西",
+  "sourceNote": "拉丁 arte(技艺) + factum(做成之物)"
  },
  "artificial": {
   "modernMeaningCn": "人造的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "由技艺造出",
+  "metaphorMeaningCn": "人造的、虚假的",
+  "metaphorOptions": ["人造的、虚假的", "天然的", "真实的"],
+  "mnemonicNote": "art(技艺)+fic(做)+ial：靠手艺做出来的",
+  "sourceNote": "拉丁 artificialis，ars(技艺) + facere(做)"
  },
  "artistic": {
   "modernMeaningCn": "艺术的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "与技艺有关",
+  "metaphorMeaningCn": "艺术的、有审美的",
+  "metaphorOptions": ["艺术的、有审美的", "粗俗的", "机械的"],
+  "mnemonicNote": "art(技艺)+ist(人)+ic：懂技艺的人所具备的",
+  "sourceNote": "拉丁 artisticus，ars(技艺) 的形容词形式"
  },
  "associate": {
   "modernMeaningCn": "同伴",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "走到一起",
+  "metaphorMeaningCn": "同伴、同事",
+  "metaphorOptions": ["同伴、同事", "敌人", "陌生人"],
+  "mnemonicNote": "as(朝向)+soci(同伴)+ate：把自己和别人结成一群",
+  "sourceNote": "拉丁 associare，ad-(朝向) + socius(同伴)"
  },
  "attract": {
   "modernMeaningCn": "吸引",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "朝自己拉",
+  "metaphorMeaningCn": "吸引",
+  "metaphorOptions": ["吸引", "排斥", "忽略"],
+  "mnemonicNote": "at(朝向)+tract(拉)：往自己这边拉过来",
+  "sourceNote": "拉丁 attrahere，ad-(朝向) + trahere(拉)"
  },
  "audible": {
-  "modernMeaningCn": "听得见的电可闻的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "听得见的",
+  "literalMeaningCn": "能被听见的",
+  "metaphorMeaningCn": "听得见的",
+  "metaphorOptions": ["听得见的", "无声的", "刺耳的"],
+  "mnemonicNote": "aud(听)+ible(能被…的)：耳朵能接住的",
+  "sourceNote": "拉丁 audibilis，audire(听) + -ibilis(能…的)"
  },
  "audience": {
   "modernMeaningCn": "听众",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "听的人们",
+  "metaphorMeaningCn": "听众、观众",
+  "metaphorOptions": ["听众、观众", "演讲者", "路人"],
+  "mnemonicNote": "audi(听)+ence(名词后缀)：坐在那儿听的一群人",
+  "sourceNote": "拉丁 audientia，audire(听) 的现在分词"
  },
  "audio": {
   "modernMeaningCn": "音频的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "与听有关",
+  "metaphorMeaningCn": "声音的、音频的",
+  "metaphorOptions": ["声音的、音频的", "图像的", "文字的"],
+  "mnemonicNote": "aud(听)+io：一切交给耳朵的信号",
+  "sourceNote": "拉丁 audire(听)，audio 是「我听见」"
  },
  "automobile": {
-  "modernMeaningCn": "汽车机汽车",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "汽车",
+  "literalMeaningCn": "自己会动",
+  "metaphorMeaningCn": "汽车",
+  "metaphorOptions": ["汽车", "马车", "火车"],
+  "mnemonicNote": "auto(自己)+mob(动)+ile：不靠马、自己会跑",
+  "sourceNote": "法语 automobile，希腊 autos(自己) + 拉丁 mobilis(可动)"
  },
  "background": {
   "modernMeaningCn": "背景",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "后面的地面",
+  "metaphorMeaningCn": "背景、经历",
+  "metaphorOptions": ["背景、经历", "前景", "中心"],
+  "mnemonicNote": "back(后面)+ground(地面)：画面后方那片底子",
+  "sourceNote": "英语复合词，19 世纪绘画术语转义"
  },
  "barometer": {
-  "modernMeaningCn": "气压计化气压计",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "气压计",
+  "literalMeaningCn": "测量重量的",
+  "metaphorMeaningCn": "气压计、晴雨表",
+  "metaphorOptions": ["气压计、晴雨表", "温度计", "尺子"],
+  "mnemonicNote": "baro(重量)+meter(测量)：称空气重量的仪器",
+  "sourceNote": "希腊 baros(重量) + metron(量度)"
  },
  "baseball": {
-  "modernMeaningCn": "棒球计棒球系统",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "棒球",
+  "literalMeaningCn": "垒与球的运动",
+  "metaphorMeaningCn": "棒球",
+  "metaphorOptions": ["棒球", "足球", "篮球"],
+  "mnemonicNote": "base(垒)+ball(球)：围着四个垒跑的球戏",
+  "sourceNote": "英语复合词，19 世纪美国起源"
  },
  "basic": {
-  "modernMeaningCn": "基本原理",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "基本的",
+  "literalMeaningCn": "属于基底的",
+  "metaphorMeaningCn": "基本的、基础的",
+  "metaphorOptions": ["基本的、基础的", "高级的", "复杂的"],
+  "mnemonicNote": "bas(底)+ic：像地基一样压在底下的",
+  "sourceNote": "希腊 basis(基底) 的形容词形式"
  },
  "bathroom": {
   "modernMeaningCn": "浴室",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "洗澡的房间",
+  "metaphorMeaningCn": "浴室、卫生间",
+  "metaphorOptions": ["浴室、卫生间", "厨房", "客厅"],
+  "mnemonicNote": "bath(洗澡)+room(房间)：专门用来洗的地方",
+  "sourceNote": "英语复合词，17 世纪起指沐浴的房间"
  },
  "bedroom": {
   "modernMeaningCn": "卧室",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "放床的房间",
+  "metaphorMeaningCn": "卧室",
+  "metaphorOptions": ["卧室", "书房", "餐厅"],
+  "mnemonicNote": "bed(床)+room(房间)：摆得下床的那间",
+  "sourceNote": "古英语复合词，bedd + rum"
  },
  "benefactor": {
   "modernMeaningCn": "恩人",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "做好事的人",
+  "metaphorMeaningCn": "恩人、资助者",
+  "metaphorOptions": ["恩人、资助者", "受助者", "债主"],
+  "mnemonicNote": "bene(好)+fac(做)+tor(人)：给别人做好事的人",
+  "sourceNote": "拉丁 benefactor，bene(好) + facere(做)"
  },
  "bicycle": {
   "modernMeaningCn": "自行车",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "两个轮子",
+  "metaphorMeaningCn": "自行车",
+  "metaphorOptions": ["自行车", "三轮车", "汽车"],
+  "mnemonicNote": "bi(二)+cycle(轮)：只有两只轮子靠脚踩",
+  "sourceNote": "法语 bicycle，bi-(二) + 希腊 kyklos(轮)"
  },
  "biography": {
   "modernMeaningCn": "传记",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "写下一生",
+  "metaphorMeaningCn": "传记",
+  "metaphorOptions": ["传记", "自传", "小说"],
+  "mnemonicNote": "bio(生命)+graphy(写)：把一个人的一生写下来",
+  "sourceNote": "希腊 bios(生命) + graphia(书写)"
  },
  "biology": {
-  "modernMeaningCn": "生物学化生物",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "生物学",
+  "literalMeaningCn": "研究生命的学问",
+  "metaphorMeaningCn": "生物学",
+  "metaphorOptions": ["生物学", "地理学", "化学"],
+  "mnemonicNote": "bio(生命)+logy(学问)：专门解释生命的学科",
+  "sourceNote": "希腊 bios(生命) + logia(学问)"
  },
  "biotech": {
   "modernMeaningCn": "生物技术",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "生命的技术",
+  "metaphorMeaningCn": "生物技术",
+  "metaphorOptions": ["生物技术", "机械制造", "手工技艺"],
+  "mnemonicNote": "bio(生命)+tech(技术)：拿生命本身当工具的学问",
+  "sourceNote": "biology + technology 的缩合词，20 世纪定名"
  },
  "birthday": {
   "modernMeaningCn": "生日",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "出生的日子",
+  "metaphorMeaningCn": "生日",
+  "metaphorOptions": ["生日", "忌日", "节日"],
+  "mnemonicNote": "birth(出生)+day(日)：你来到世上的那天",
+  "sourceNote": "古英语复合词，byrd(出生) + dæg(日)"
  },
  "blackboard": {
   "modernMeaningCn": "黑板",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "黑色的板",
+  "metaphorMeaningCn": "黑板",
+  "metaphorOptions": ["黑板", "白纸", "桌面"],
+  "mnemonicNote": "black(黑)+board(板)：涂黑的板子才能显白字",
+  "sourceNote": "英语复合词，19 世纪随课堂教学普及"
  },
  "breakfast": {
   "modernMeaningCn": "早餐",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "打破禁食",
+  "metaphorMeaningCn": "早餐",
+  "metaphorOptions": ["早餐", "午餐", "晚餐"],
+  "mnemonicNote": "break(打破)+fast(禁食)：一夜没吃，早上开戒",
+  "sourceNote": "古英语 brecan(打破) + fæstan(禁食)"
  },
  "capable": {
   "modernMeaningCn": "有能力的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "拿得住的",
+  "metaphorMeaningCn": "有能力的、能胜任的",
+  "metaphorOptions": ["有能力的、能胜任的", "无能的", "懒散的"],
+  "mnemonicNote": "cap(拿)+able(能…的)：这活儿你拿得住",
+  "sourceNote": "拉丁 capere(拿、抓住) + -abilis(能…的)"
  },
  "capacity": {
   "modernMeaningCn": "容量",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "能容纳的量",
+  "metaphorMeaningCn": "容量、能力",
+  "metaphorOptions": ["容量、能力", "空缺", "重量"],
+  "mnemonicNote": "capac(容纳)+ity(名词)：装得下多少的量",
+  "sourceNote": "拉丁 capacitas，capere(容纳) 的名词形式"
  },
  "captain": {
   "modernMeaningCn": "船长",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "握住头的人",
+  "metaphorMeaningCn": "船长、队长",
+  "metaphorOptions": ["船长、队长", "船员", "乘客"],
+  "mnemonicNote": "cap(头)+tain(持)：走在最前头、掌住局面的人",
+  "sourceNote": "拉丁 caput(头)，经古法语 capitaine"
  },
  "captive": {
   "modernMeaningCn": "俘虏",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "被拿住的",
+  "metaphorMeaningCn": "俘虏、被困的",
+  "metaphorOptions": ["俘虏、被困的", "自由人", "狱卒"],
+  "mnemonicNote": "capt(拿)+ive：被人抓住、失去自由",
+  "sourceNote": "拉丁 captivus，capere(抓) 的过去分词"
  },
  "capture": {
-  "modernMeaningCn": "抓取",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "捕获",
+  "literalMeaningCn": "拿住的动作",
+  "metaphorMeaningCn": "捕获、夺取",
+  "metaphorOptions": ["捕获、夺取", "释放", "逃跑"],
+  "mnemonicNote": "capt(拿)+ure(名词)：把人或物抓在手里的那一瞬",
+  "sourceNote": "拉丁 capere(抓)，经法语 capture"
  },
  "careful": {
   "modernMeaningCn": "小心的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "充满关心",
+  "metaphorMeaningCn": "小心的、仔细的",
+  "metaphorOptions": ["小心的、仔细的", "粗心的", "随意的"],
+  "mnemonicNote": "care(关心)+ful(满)：心里装满了在意",
+  "sourceNote": "古英语 carful，caru(忧愁、关心) + -ful"
  },
  "careless": {
   "modernMeaningCn": "粗心的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "没有关心",
+  "metaphorMeaningCn": "粗心的、漫不经心的",
+  "metaphorOptions": ["粗心的、漫不经心的", "仔细的", "专注的"],
+  "mnemonicNote": "care(关心)+less(无)：一点在意都没有",
+  "sourceNote": "古英语 carleas，caru(关心) + -leas(无)"
  },
  "catalog": {
   "modernMeaningCn": "目录",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "按序逐一说出",
+  "metaphorMeaningCn": "目录、系列",
+  "metaphorOptions": ["目录、系列", "正文", "封面"],
+  "mnemonicNote": "cata(向下)+log(说)：从上到下一条条列出来",
+  "sourceNote": "希腊 katalogos，kata-(向下) + legein(说、列举)"
  },
  "centennial": {
-  "modernMeaningCn": "百年纪念一百年的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "百年纪念",
+  "literalMeaningCn": "一百年的",
+  "metaphorMeaningCn": "百年纪念",
+  "metaphorOptions": ["百年纪念", "十年庆", "一周年"],
+  "mnemonicNote": "cent(百)+enn(年)+ial：满一百年才轮到这一回",
+  "sourceNote": "拉丁 centum(百) + annus(年)"
  },
  "centimetre": {
   "modernMeaningCn": "厘米",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "百分之一米",
+  "metaphorMeaningCn": "厘米",
+  "metaphorOptions": ["厘米", "千米", "英寸"],
+  "mnemonicNote": "centi(百)+metre(米)：一米切一百份，每份就是它",
+  "sourceNote": "法语 centimètre，centi-(百分之一) + mètre(米)"
  },
  "century": {
   "modernMeaningCn": "世纪",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一百年",
+  "metaphorMeaningCn": "世纪",
+  "metaphorOptions": ["世纪", "十年", "一千年"],
+  "mnemonicNote": "cent(百)+ury：凑满一百年才算一世纪",
+  "sourceNote": "拉丁 centuria，centum(百) 的分组单位"
  },
  "chairman": {
   "modernMeaningCn": "主席",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "坐椅子的人",
+  "metaphorMeaningCn": "主席、主任",
+  "metaphorOptions": ["主席、主任", "听众", "记录员"],
+  "mnemonicNote": "chair(椅子)+man(人)：会场里坐首席那把椅子的人",
+  "sourceNote": "英语复合词，chair(主席席位) + man"
  },
  "circumscribe": {
-  "modernMeaningCn": "在周围画线",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "限制",
+  "literalMeaningCn": "在周围划写",
+  "metaphorMeaningCn": "限定范围、约束",
+  "metaphorOptions": ["限定范围、约束", "扩展范围", "擦除痕迹"],
+  "mnemonicNote": "circum(周围)+scribe(写)：沿边界画一圈，框住它",
+  "sourceNote": "拉丁 circumscribere，circum-(周围) + scribere(写)"
  },
  "circumvent": {
-  "modernMeaningCn": "绕行",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "绕过",
+  "literalMeaningCn": "从旁边过来",
+  "metaphorMeaningCn": "绕过、规避",
+  "metaphorOptions": ["绕过、规避", "正面冲突", "直接穿过"],
+  "mnemonicNote": "circum(周围)+vent(来)：不从正面过，绕一圈过去",
+  "sourceNote": "拉丁 circumvenire，circum-(周围) + venire(来)"
  },
  "classmate": {
   "modernMeaningCn": "同班同学",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "同班的伙伴",
+  "metaphorMeaningCn": "同班同学",
+  "metaphorOptions": ["同班同学", "老师", "校长"],
+  "mnemonicNote": "class(班级)+mate(伙伴)：一个班里的同伴",
+  "sourceNote": "英语复合词，class + mate(同伴)"
  }
 }
