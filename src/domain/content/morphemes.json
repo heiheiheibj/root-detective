@@ -2473,19 +2473,6 @@
     "color": "orange"
   },
   {
-    "id": "life",
-    "displayText": "life",
-    "type": "root",
-    "meaningCn": "生活",
-    "allomorphs": [
-      "life",
-      "live"
-    ],
-    "etymology": "",
-    "level": 3,
-    "color": "orange"
-  },
-  {
     "id": "mean",
     "displayText": "mean",
     "type": "root",
@@ -3078,7 +3065,7 @@
     "id": "tele",
     "displayText": "tele-",
     "type": "prefix",
-    "meaningCn": "",
+    "meaningCn": "远",
     "allomorphs": [
       "tele"
     ],
@@ -3090,7 +3077,7 @@
     "id": "under",
     "displayText": "under-",
     "type": "prefix",
-    "meaningCn": "",
+    "meaningCn": "在下",
     "allomorphs": [
       "under"
     ],

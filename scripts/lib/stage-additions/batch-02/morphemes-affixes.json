@@ -565,7 +565,7 @@
    "id": "tele",
    "displayText": "tele-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "远",
    "allomorphs": [
     "tele"
    ],
@@ -601,7 +601,7 @@
    "id": "under",
    "displayText": "under-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "在下",
    "allomorphs": [
     "under"
    ],

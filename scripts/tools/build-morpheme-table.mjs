@@ -146,6 +146,7 @@ const FALLBACK_MEANINGS = {
   // 前缀
   ab: '离开', back: '向后', com: '共同', dec: '十', grand: '大、隔一代',
   to: '到、向', ag: '朝向', mis: '错、坏', co: '共同', sur: '在上', after: '在之后',
+  tele: '远', under: '在下',
   // 后缀
   ball: '球', ing: '正在', less: '无、不', man: '人', mate: '伙伴',
   ly: '…地', th: '第…', son: '儿子', some: '有点…的', head: '头',
