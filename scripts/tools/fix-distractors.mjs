@@ -24,7 +24,10 @@ const cfg = JSON.parse(readFileSync(join(root, 'scripts', 'lib', 'stage3-content
 // 模拟 40 号的孤儿词素清理：只有「会留下」的词素的义项才进义项池、才算「本词义项」。
 // 否则挑中的义项属于被清理的词素，validate 时的义项池里根本没有它，A12 会误报。
 const usedIds = new Set()
-for (const info of Object.values(cfg.splits)) for (const p of info.parts) usedIds.add(p.id)
+// cfg.splits 的格式是 { word: [{ id, surface }, ...] } —— value 直接就是 parts 数组
+for (const parts of Object.values(cfg.splits)) {
+  for (const p of parts) usedIds.add(p.id)
+}
 const worldIds = new Set(cfg.worlds.flatMap((w) => w.morphemeIds))
 const morphemes = allMorphemes.filter((m) => usedIds.has(m.id) || worldIds.has(m.id))
 const morphemeById = new Map(morphemes.map((m) => [m.id, m]))
@@ -63,6 +66,16 @@ const TEMPLATES = [
   (g) => `向着${g}去`,
   (g) => `${g}的一角`,
   (g) => `守着${g}过活`,
+  (g) => `把${g}翻开`,
+  (g) => `${g}的旧事`,
+  (g) => `围着${g}转`,
+  (g) => `${g}的另一面`,
+  (g) => `替${g}操心`,
+  (g) => `${g}的影子`,
+  (g) => `${g}的来路`,
+  (g) => `数着${g}过日子`,
+  (g) => `${g}的味道`,
+  (g) => `离${g}很远`,
 ]
 
 let fixed = 0
@@ -84,7 +97,8 @@ for (const file of ['batch-1', 'batch-2', 'batch-3', 'batch-4', 'batch-5', 'batc
     const answer = entry.metaphorMeaningCn
     // 候选：与正确答案够不像；再按种子排序取前若干，保证确定性
     const candidates = foreign
-      .filter((g) => jaccard(answer, g) < 0.35)
+      // A11 的硬线是 0.5，这里留 0.05 余量；定太紧会让不少词挑不到候选而跳过（A12 又过不了）
+      .filter((g) => jaccard(answer, g) < 0.45)
       .sort((a, b) => seedOf(word + a) - seedOf(word + b))
     if (candidates.length < 2) { skipped++; continue }
     // 模板组合也按种子挑，避免 383 个词全撞同一个句式

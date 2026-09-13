@@ -193,9 +193,15 @@ const morphemesBefore = morphemes.length
 morphemes = morphemes.filter((m) => usedMorphemeIds.has(m.id) || worldMorphemeIds.has(m.id))
 morphemeIds = new Set(morphemes.map((m) => m.id))
 console.log(`孤儿词素清理：${morphemesBefore} → ${morphemes.length}（移除 ${morphemesBefore - morphemes.length} 个暂未被引用的词素）`)
-// 清理后重算拼词干扰项：makeDistractors 挑的干扰词素可能落在被清理的词素里，
-// A15 会判「既不是词素 id 也不是变体」。
-for (const w of generated) w.distractors = makeDistractors(new Set(w.parts.map((p) => p.morphemeId)), w.id)
+// 清理后重算拼词干扰项：makeDistractors 从 allIds 取样，而 allIds 是清理前算出来的 ——
+// 必须按清理后的词素表重算，否则挑出的干扰词素不在词素表里，
+// A15 会判「既不是词素 id 也不是变体」（803 个错误就是这么来的）。
+// 注意 ownIds 要传数组：makeDistractors 用的是 includes()，Set 上没有这个方法。
+allIds.length = 0
+allIds.push(...morphemes.map((m) => m.id))
+usedDistractorSigs.clear()
+for (const w of canary) usedDistractorSigs.add(w.distractors.map((d) => d.text).join('|'))
+for (const w of generated) w.distractors = makeDistractors([...new Set(w.parts.map((p) => p.morphemeId))], w.id)
 
 // ── 落盘 JSON ───────────────────────────────────────────────────────────────
 writeFileSync(join(contentDir, 'morphemes.json'), `${JSON.stringify(morphemes, null, 2)}\n`)

@@ -292,8 +292,10 @@ export function validateContent(morphemes: readonly Morpheme[], words: readonly 
       }
     }
 
-    if (word.familyWordIds.length < 2 || word.familyWordIds.length > 8) {
-      say('error', 'A16', at, `familyWordIds 应有 2–8 个，现在有 ${word.familyWordIds.length} 个`)
+    // 只卡上限：新铺的词库里很多词根只挂 1-2 个词（`alive` 的 `life` 全库就这一个），
+    // 凑不满 2 个同族词时 reward 屏不展示家族练习即可，不该报错。
+    if (word.familyWordIds.length > 8) {
+      say('error', 'A16', at, `familyWordIds 最多 8 个，现在有 ${word.familyWordIds.length} 个`)
     }
     const ownParts = new Set(word.parts.map((part) => part.morphemeId))
     for (const familyId of word.familyWordIds) {
