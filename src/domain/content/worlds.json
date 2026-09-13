@@ -1,0 +1,146 @@
+[
+  {
+    "id": "observatory",
+    "name": "观察台",
+    "description": "学习词根：spec、vid、vers（观察台）",
+    "morphemeIds": [
+      "spec",
+      "vid",
+      "vers"
+    ]
+  },
+  {
+    "id": "message-port",
+    "name": "传送门",
+    "description": "学习词根：dict、port（传送门）",
+    "morphemeIds": [
+      "dict",
+      "port"
+    ]
+  },
+  {
+    "id": "growth-lab",
+    "name": "成长实验室",
+    "description": "学习词根：bio、gen、nat（成长实验室）",
+    "morphemeIds": [
+      "bio",
+      "gen",
+      "nat"
+    ]
+  },
+  {
+    "id": "time-vault",
+    "name": "时光库",
+    "description": "学习词根：cent、pend（时光库）",
+    "morphemeIds": [
+      "cent",
+      "pend"
+    ]
+  },
+  {
+    "id": "action-forge",
+    "name": "行动工坊",
+    "description": "学习词根：ject、mob、aud、voc、cred（行动工坊）",
+    "morphemeIds": [
+      "ject",
+      "mob",
+      "aud",
+      "voc",
+      "cred"
+    ]
+  },
+  {
+    "id": "word-mill",
+    "name": "词语磨坊",
+    "description": "学习词根：log、grad、graph、tract、fac（词语磨坊）",
+    "morphemeIds": [
+      "log",
+      "grad",
+      "graph",
+      "tract",
+      "fac"
+    ]
+  },
+  {
+    "id": "justice-hall",
+    "name": "正义殿堂",
+    "description": "学习词根：jud、vinc、cor、sanct、test、grat（正义殿堂）",
+    "morphemeIds": [
+      "jud",
+      "vinc",
+      "cor",
+      "sanct",
+      "test",
+      "grat"
+    ]
+  },
+  {
+    "id": "cargo-dock",
+    "name": "货运码头",
+    "description": "学习词根：mit、fer、ven、pos、form、pel（货运码头）",
+    "morphemeIds": [
+      "mit",
+      "fer",
+      "ven",
+      "pos",
+      "form",
+      "pel"
+    ]
+  },
+  {
+    "id": "craft-works",
+    "name": "工匠铺",
+    "description": "学习词根：metr、equ、flect、fus、prim、fort、polit（工匠铺）",
+    "morphemeIds": [
+      "metr",
+      "equ",
+      "flect",
+      "fus",
+      "prim",
+      "fort",
+      "polit"
+    ]
+  },
+  {
+    "id": "hot-spring",
+    "name": "温泉行馆",
+    "description": "学习词根：hydr、therm、flu、medi、serv、lev（温泉行馆）",
+    "morphemeIds": [
+      "hydr",
+      "therm",
+      "flu",
+      "medi",
+      "serv",
+      "lev"
+    ]
+  },
+  {
+    "id": "script-atelier",
+    "name": "手稿画室",
+    "description": "学习词根：scrib、art、nov、mir、hab、liter、labor（手稿画室）",
+    "morphemeIds": [
+      "scrib",
+      "art",
+      "nov",
+      "mir",
+      "hab",
+      "liter",
+      "labor"
+    ]
+  },
+  {
+    "id": "migrant-port",
+    "name": "迁徙之港",
+    "description": "学习词根：migr、soci、tact、sal、phys、cap、opt、vac（迁徙之港）",
+    "morphemeIds": [
+      "migr",
+      "soci",
+      "tact",
+      "sal",
+      "phys",
+      "cap",
+      "opt",
+      "vac"
+    ]
+  }
+]

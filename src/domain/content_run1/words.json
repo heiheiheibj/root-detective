@@ -1,0 +1,3642 @@
+[
+  {
+    "id": "circumspect",
+    "word": "circumspect",
+    "phonetic": "/ˈsɜːrkəmspekt/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "谨慎的；周详的",
+    "literalMeaningCn": "从四周观察",
+    "metaphorMeaningCn": "多方观察，不轻举妄动",
+    "metaphorOptions": [
+      "四处张望、防备危险，不轻举妄动",
+      "视力开阔、登高望远",
+      "视线受阻、看不清楚"
+    ],
+    "exampleEn": "She was circumspect about making promises.",
+    "exampleCn": "她对做出承诺一事十分谨慎。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "circum",
+        "surface": "circum",
+        "position": 0
+      },
+      {
+        "morphemeId": "spec",
+        "surface": "spect",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "pre-",
+        "type": "form"
+      },
+      {
+        "text": "port",
+        "type": "meaning"
+      },
+      {
+        "text": "dict",
+        "type": "random"
+      },
+      {
+        "text": "spic",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "inspection",
+      "respect",
+      "circumspection"
+    ],
+    "sourceNote": "词源上来自 circum（周围）+ specere（看）；spect 是 spec 的表面变体。",
+    "mnemonicNote": "把它想成先环顾四周再行动的人，因此是谨慎的。"
+  },
+  {
+    "id": "inspection",
+    "word": "inspection",
+    "phonetic": "/ɪnˈspekʃən/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "检查；视察",
+    "literalMeaningCn": "看进去的过程",
+    "metaphorMeaningCn": "把对象放在视线里逐项核验",
+    "metaphorOptions": [
+      "逐项核验，确认没有遗漏",
+      "把东西带到远处保存",
+      "把一句话说得更响亮"
+    ],
+    "exampleEn": "The bridge passed a safety inspection.",
+    "exampleCn": "这座桥通过了安全检查。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "in",
+        "surface": "in",
+        "position": 0
+      },
+      {
+        "morphemeId": "spec",
+        "surface": "spect",
+        "position": 1
+      },
+      {
+        "morphemeId": "ion",
+        "surface": "ion",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "port",
+        "type": "meaning"
+      },
+      {
+        "text": "pre-",
+        "type": "random"
+      },
+      {
+        "text": "-ive",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "circumspect",
+      "respect",
+      "circumspection"
+    ],
+    "sourceNote": "in（进入）+ spect（看）+ -ion（过程）：看进去的动作就是检查。",
+    "mnemonicNote": "inspection 是一次系统地“看进去”的检查。"
+  },
+  {
+    "id": "respect",
+    "word": "respect",
+    "phonetic": "/rɪˈspekt/",
+    "partOfSpeech": "v. / n.",
+    "modernMeaningCn": "尊重；敬意",
+    "literalMeaningCn": "回头看、反复看",
+    "metaphorMeaningCn": "一次次回望某个人的价值",
+    "metaphorOptions": [
+      "反复回头注视，心怀敬意",
+      "低头不敢看，感到害怕",
+      "提前看穿对方的心思"
+    ],
+    "exampleEn": "I respect her for her honesty.",
+    "exampleCn": "我因她的诚实而尊重她。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "re",
+        "surface": "re",
+        "position": 0
+      },
+      {
+        "morphemeId": "spec",
+        "surface": "spect",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "pre-",
+        "type": "form"
+      },
+      {
+        "text": "dict",
+        "type": "meaning"
+      },
+      {
+        "text": "-ion",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "circumspect",
+      "inspection",
+      "circumspection"
+    ],
+    "sourceNote": "re（回、再）+ spect（看）：回头注视，引申为尊重。词源真实：拉丁语 respicere（回望）。",
+    "mnemonicNote": "值得你一次次回头看的人，就是值得尊重的人。"
+  },
+  {
+    "id": "circumspection",
+    "word": "circumspection",
+    "phonetic": "/ˌsɜːrkəmˈspekʃən/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "谨慎；周详",
+    "literalMeaningCn": "从四周观察的状态",
+    "metaphorMeaningCn": "在行动前多方观察与权衡",
+    "metaphorOptions": [
+      "经过多方观察后的谨慎状态",
+      "把声音传到很远的地方",
+      "把复杂事情拆成许多小块"
+    ],
+    "exampleEn": "His circumspection kept the project on track.",
+    "exampleCn": "他的谨慎让项目保持在正轨上。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "circum",
+        "surface": "circum",
+        "position": 0
+      },
+      {
+        "morphemeId": "spec",
+        "surface": "spect",
+        "position": 1
+      },
+      {
+        "morphemeId": "ion",
+        "surface": "ion",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "dict",
+        "type": "random"
+      },
+      {
+        "text": "-able",
+        "type": "form"
+      },
+      {
+        "text": "port",
+        "type": "meaning"
+      }
+    ],
+    "familyWordIds": [
+      "circumspect",
+      "inspection",
+      "respect"
+    ],
+    "sourceNote": "在 circumspect 后加入 -ion，将形容词状态名词化。",
+    "mnemonicNote": "把谨慎这个品质变成一个持续的状态。"
+  },
+  {
+    "id": "predict",
+    "word": "predict",
+    "phonetic": "/prɪˈdɪkt/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "预测；预言",
+    "literalMeaningCn": "提前说出",
+    "metaphorMeaningCn": "在事情发生前先给出判断",
+    "metaphorOptions": [
+      "事前说出可能发生的事",
+      "把物品从一个地方带到另一个地方",
+      "向后退一步再观察"
+    ],
+    "exampleEn": "No one can predict the future perfectly.",
+    "exampleCn": "没有人能完美预测未来。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "pre",
+        "surface": "pre",
+        "position": 0
+      },
+      {
+        "morphemeId": "dict",
+        "surface": "dict",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "re-",
+        "type": "form"
+      },
+      {
+        "text": "port",
+        "type": "form"
+      },
+      {
+        "text": "spec",
+        "type": "random"
+      },
+      {
+        "text": "vid",
+        "type": "meaning"
+      }
+    ],
+    "familyWordIds": [
+      "prediction",
+      "predictable",
+      "predictive"
+    ],
+    "sourceNote": "pre-（前）+ dict（说）：事先说出即预测。",
+    "mnemonicNote": "先把话说出来，就是预测。"
+  },
+  {
+    "id": "prediction",
+    "word": "prediction",
+    "phonetic": "/prɪˈdɪkʃən/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "预测；预言（名词）",
+    "literalMeaningCn": "提前说出的内容",
+    "metaphorMeaningCn": "对未来做出的具体判断",
+    "metaphorOptions": [
+      "提前说出的那句判断",
+      "提前带走的一件物品",
+      "反复修改后的话"
+    ],
+    "exampleEn": "His prediction came true.",
+    "exampleCn": "他的预言成真了。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "pre",
+        "surface": "pre",
+        "position": 0
+      },
+      {
+        "morphemeId": "dict",
+        "surface": "dict",
+        "position": 1
+      },
+      {
+        "morphemeId": "ion",
+        "surface": "ion",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "-able",
+        "type": "form"
+      },
+      {
+        "text": "re-",
+        "type": "form"
+      },
+      {
+        "text": "port",
+        "type": "meaning"
+      }
+    ],
+    "familyWordIds": [
+      "predict",
+      "predictable",
+      "predictive"
+    ],
+    "sourceNote": "predict 加 -ion 名词化，指“预测”这件事或内容。",
+    "mnemonicNote": "prediction 是 predict 这个动作说出来的结果。"
+  },
+  {
+    "id": "predictable",
+    "word": "predictable",
+    "phonetic": "/prɪˈdɪktəbl/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "可预测的；墨守成规的",
+    "literalMeaningCn": "能被提前说中的",
+    "metaphorMeaningCn": "毫无悬念、一眼望到头的",
+    "metaphorOptions": [
+      "能提前说中结果的",
+      "完全说不出口的",
+      "回头才能看清的"
+    ],
+    "exampleEn": "The movie plot was predictable.",
+    "exampleCn": "这部电影情节毫无悬念。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "pre",
+        "surface": "pre",
+        "position": 0
+      },
+      {
+        "morphemeId": "dict",
+        "surface": "dict",
+        "position": 1
+      },
+      {
+        "morphemeId": "able",
+        "surface": "able",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "-ive",
+        "type": "form"
+      },
+      {
+        "text": "-ion",
+        "type": "form"
+      },
+      {
+        "text": "circum-",
+        "type": "random"
+      }
+    ],
+    "familyWordIds": [
+      "predict",
+      "prediction",
+      "predictive"
+    ],
+    "sourceNote": "pre + dict + -able：能够被提前说出的。",
+    "mnemonicNote": "结局能被你说中，说明它 predictable。"
+  },
+  {
+    "id": "predictive",
+    "word": "predictive",
+    "phonetic": "/prɪˈdɪktɪv/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "预测性的",
+    "literalMeaningCn": "具有提前说出性质的",
+    "metaphorMeaningCn": "能根据线索推测未来结果",
+    "metaphorOptions": [
+      "能根据线索推测结果",
+      "能把物品随身携带",
+      "能从周围看清全部细节"
+    ],
+    "exampleEn": "The model has strong predictive power.",
+    "exampleCn": "这个模型有很强的预测能力。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "pre",
+        "surface": "pre",
+        "position": 0
+      },
+      {
+        "morphemeId": "dict",
+        "surface": "dict",
+        "position": 1
+      },
+      {
+        "morphemeId": "ive",
+        "surface": "ive",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "-able",
+        "type": "form"
+      },
+      {
+        "text": "spect",
+        "type": "meaning"
+      },
+      {
+        "text": "circum-",
+        "type": "random"
+      }
+    ],
+    "familyWordIds": [
+      "predict",
+      "prediction",
+      "predictable"
+    ],
+    "sourceNote": "pre + dict + -ive：形成“具有预测性质”的形容词。",
+    "mnemonicNote": "predictive 描述的是“能预测的”。"
+  },
+  {
+    "id": "portable",
+    "word": "portable",
+    "phonetic": "/ˈpɔːrtəbl/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "便携的；可携带的",
+    "literalMeaningCn": "能够被携带的",
+    "metaphorMeaningCn": "可以轻松带在身边使用",
+    "metaphorOptions": [
+      "可以带着走、换地方使用",
+      "能提前说出答案",
+      "站在周围观察"
+    ],
+    "exampleEn": "The device is small and portable.",
+    "exampleCn": "这台设备小巧且便于携带。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "port",
+        "surface": "port",
+        "position": 0
+      },
+      {
+        "morphemeId": "able",
+        "surface": "able",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "pre-",
+        "type": "random"
+      },
+      {
+        "text": "spec",
+        "type": "meaning"
+      },
+      {
+        "text": "-ion",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "import",
+      "report",
+      "porter"
+    ],
+    "sourceNote": "port（携带）+ -able（能够）：能被携带的。",
+    "mnemonicNote": "portable 就是“能被带着走”的。"
+  },
+  {
+    "id": "import",
+    "word": "import",
+    "phonetic": "/ˈɪmpɔːrt/",
+    "partOfSpeech": "v. / n.",
+    "modernMeaningCn": "进口；输入",
+    "literalMeaningCn": "带进来",
+    "metaphorMeaningCn": "把货物从国外带进国内",
+    "metaphorOptions": [
+      "把东西带进来",
+      "把东西带出去",
+      "提前把东西带走"
+    ],
+    "exampleEn": "The country imports most of its oil.",
+    "exampleCn": "这个国家大部分石油依赖进口。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "in",
+        "surface": "im",
+        "position": 0,
+        "isAssimilated": true
+      },
+      {
+        "morphemeId": "port",
+        "surface": "port",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "re-",
+        "type": "form"
+      },
+      {
+        "text": "-ion",
+        "type": "form"
+      },
+      {
+        "text": "vid",
+        "type": "meaning"
+      }
+    ],
+    "familyWordIds": [
+      "portable",
+      "report",
+      "porter"
+    ],
+    "sourceNote": "im- 是 in- 的同化变体（进入）+ port（携带）：带进来即进口。",
+    "mnemonicNote": "im- 是 in- 在 p 前的变体，带进来就是进口。"
+  },
+  {
+    "id": "report",
+    "word": "report",
+    "phonetic": "/rɪˈpɔːrt/",
+    "partOfSpeech": "v. / n.",
+    "modernMeaningCn": "报告；报道",
+    "literalMeaningCn": "带回来（消息）",
+    "metaphorMeaningCn": "把消息从一处带回并告知他人",
+    "metaphorOptions": [
+      "把消息带回来告诉别人",
+      "把货物带出去卖掉",
+      "提前把答案说出口"
+    ],
+    "exampleEn": "She reported the accident to the police.",
+    "exampleCn": "她向警方报告了事故。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "re",
+        "surface": "re",
+        "position": 0
+      },
+      {
+        "morphemeId": "port",
+        "surface": "port",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "pre-",
+        "type": "form"
+      },
+      {
+        "text": "spec",
+        "type": "meaning"
+      },
+      {
+        "text": "-able",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "portable",
+      "import",
+      "porter"
+    ],
+    "sourceNote": "re（回）+ port（携带）：词源为拉丁语 reportare（带回），把消息带回来即报告。",
+    "mnemonicNote": "把外面的消息带回来，就是 report。"
+  },
+  {
+    "id": "porter",
+    "word": "porter",
+    "phonetic": "/ˈpɔːrtər/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "搬运工；门房",
+    "literalMeaningCn": "携带的人",
+    "metaphorMeaningCn": "以搬运为职业的人",
+    "metaphorOptions": [
+      "替别人搬东西的人",
+      "提前说出结果的人",
+      "在旁边观看的人"
+    ],
+    "exampleEn": "The porter carried our luggage upstairs.",
+    "exampleCn": "搬运工把我们的行李搬上了楼。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "port",
+        "surface": "port",
+        "position": 0
+      }
+    ],
+    "distractors": [
+      {
+        "text": "-ion",
+        "type": "form"
+      },
+      {
+        "text": "dict",
+        "type": "meaning"
+      },
+      {
+        "text": "re-",
+        "type": "random"
+      }
+    ],
+    "familyWordIds": [
+      "portable",
+      "import",
+      "report"
+    ],
+    "sourceNote": "port（携带）+ -er（做…的人）；-er 是施动者后缀，将在后续版本建模。",
+    "mnemonicNote": "porter 是靠“port（搬）”吃饭的人。"
+  },
+  {
+    "id": "visible",
+    "word": "visible",
+    "phonetic": "/ˈvɪzəbl/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "可见的；看得见的",
+    "literalMeaningCn": "能被看见的",
+    "metaphorMeaningCn": "清楚地呈现在眼前",
+    "metaphorOptions": [
+      "眼睛能看到的",
+      "耳朵能听到的",
+      "手能摸到的"
+    ],
+    "exampleEn": "The stars are visible tonight.",
+    "exampleCn": "今晚能看见星星。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "vid",
+        "surface": "vis",
+        "position": 0
+      },
+      {
+        "morphemeId": "able",
+        "surface": "ible",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "port",
+        "type": "meaning"
+      },
+      {
+        "text": "pre-",
+        "type": "random"
+      },
+      {
+        "text": "-ion",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "vision",
+      "revise",
+      "visibility"
+    ],
+    "sourceNote": "vis（看，vid 的变体）+ -ible（能够）：能被看见的。",
+    "mnemonicNote": "visible 是“能用眼睛看”的。"
+  },
+  {
+    "id": "vision",
+    "word": "vision",
+    "phonetic": "/ˈvɪʒən/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "视力；愿景",
+    "literalMeaningCn": "看的能力或所见",
+    "metaphorMeaningCn": "眼睛看东西；心里看到的未来图景",
+    "metaphorOptions": [
+      "眼睛看；心里想见的未来",
+      "耳朵听到的旋律",
+      "反复拿起放下"
+    ],
+    "exampleEn": "She has a clear vision for the company.",
+    "exampleCn": "她对公司的未来有清晰的愿景。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "vid",
+        "surface": "vis",
+        "position": 0
+      },
+      {
+        "morphemeId": "ion",
+        "surface": "ion",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "-able",
+        "type": "form"
+      },
+      {
+        "text": "dict",
+        "type": "meaning"
+      },
+      {
+        "text": "circum-",
+        "type": "random"
+      }
+    ],
+    "familyWordIds": [
+      "visible",
+      "revise",
+      "visibility"
+    ],
+    "sourceNote": "vis（看）+ -ion（名词化）：看这一能力或所见图景。",
+    "mnemonicNote": "vision 是眼睛和心里的“看”。"
+  },
+  {
+    "id": "revise",
+    "word": "revise",
+    "phonetic": "/rɪˈvaɪz/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "修订；修改",
+    "literalMeaningCn": "再看看",
+    "metaphorMeaningCn": "回头重新审视并改正",
+    "metaphorOptions": [
+      "回头再看一遍并修改",
+      "提前看一遍",
+      "把东西带出去看"
+    ],
+    "exampleEn": "I need to revise my essay.",
+    "exampleCn": "我需要修改我的文章。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "re",
+        "surface": "re",
+        "position": 0
+      },
+      {
+        "morphemeId": "vid",
+        "surface": "vise",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "pre-",
+        "type": "form"
+      },
+      {
+        "text": "port",
+        "type": "meaning"
+      },
+      {
+        "text": "-ity",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "visible",
+      "vision",
+      "visibility"
+    ],
+    "sourceNote": "re（再）+ vise（看，vid 的变体）：再看一遍即修订。",
+    "mnemonicNote": "re- 表示“再”，再看一遍就是修订。"
+  },
+  {
+    "id": "visibility",
+    "word": "visibility",
+    "phonetic": "/ˌvɪzəˈbɪləti/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "能见度；关注度",
+    "literalMeaningCn": "能被看见的程度",
+    "metaphorMeaningCn": "被公众看到的范围或清晰程度",
+    "metaphorOptions": [
+      "能被看见的程度",
+      "能被听见的响度",
+      "能被搬动的重量"
+    ],
+    "exampleEn": "Fog reduced visibility on the highway.",
+    "exampleCn": "大雾降低了高速公路的能见度。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "vid",
+        "surface": "vis",
+        "position": 0
+      },
+      {
+        "morphemeId": "able",
+        "surface": "ibil",
+        "position": 1,
+        "isAssimilated": true
+      },
+      {
+        "morphemeId": "ity",
+        "surface": "ity",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "-ion",
+        "type": "form"
+      },
+      {
+        "text": "dict",
+        "type": "meaning"
+      },
+      {
+        "text": "circum-",
+        "type": "random"
+      }
+    ],
+    "familyWordIds": [
+      "visible",
+      "vision",
+      "revise"
+    ],
+    "sourceNote": "vis（看）+ -ibil（-ible 变体）+ -ity（抽象名词）：可见的程度。",
+    "mnemonicNote": "visibility 量的是“能被看见多少”。"
+  },
+  {
+    "id": "dictator",
+    "word": "dictator",
+    "phonetic": "/'dikteitә/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "独裁者；专制统治者",
+    "literalMeaningCn": "发号施令的人",
+    "metaphorMeaningCn": "一个人说了算，谁也拦不住",
+    "metaphorOptions": [
+      "一个人说了算，谁也拦不住",
+      "把话原样记录下来的人",
+      "靠双肩携带货物的人"
+    ],
+    "exampleEn": "I'm not a dictator.",
+    "exampleCn": "我不是独裁者。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "dict",
+        "surface": "dict",
+        "position": 0
+      },
+      {
+        "morphemeId": "or",
+        "surface": "ator",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "sub",
+        "type": "form"
+      },
+      {
+        "text": "uni",
+        "type": "meaning"
+      },
+      {
+        "text": "e",
+        "type": "random"
+      },
+      {
+        "text": "photo",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "predict",
+      "prediction",
+      "predictable",
+      "predictive",
+      "benefactor"
+    ],
+    "sourceNote": "dict（说）+ -ator（做…的人）：一个人说了算即独裁者。",
+    "mnemonicNote": "dict 是说，ator 是施事者，合起来就是说了算的人。"
+  },
+  {
+    "id": "deport",
+    "word": "deport",
+    "phonetic": "/di'pɒ:t/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "驱逐出境；放逐",
+    "literalMeaningCn": "带走、送走",
+    "metaphorMeaningCn": "把人原路送回老家",
+    "metaphorOptions": [
+      "把人原路送回老家",
+      "把货物移动到他处",
+      "把名字记录在册"
+    ],
+    "exampleEn": "They threatened to deport him last year.",
+    "exampleCn": "他们威胁要在去年把他驱逐出境。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "de",
+        "surface": "de",
+        "position": 0
+      },
+      {
+        "morphemeId": "port",
+        "surface": "port",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "ation",
+        "type": "form"
+      },
+      {
+        "text": "ary",
+        "type": "meaning"
+      },
+      {
+        "text": "ory",
+        "type": "random"
+      },
+      {
+        "text": "s",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "portable",
+      "import",
+      "report",
+      "porter",
+      "degrade",
+      "depend"
+    ],
+    "sourceNote": "de（离开）+ port（携带）：强制带离国境即驱逐出境。",
+    "mnemonicNote": "de 离开 + port 携带：把人带走即驱逐。"
+  },
+  {
+    "id": "envision",
+    "word": "envision",
+    "phonetic": "/in'viʒәn/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "想象；设想",
+    "literalMeaningCn": "使画面被看见",
+    "metaphorMeaningCn": "在脑海里先放一遍电影",
+    "metaphorOptions": [
+      "在脑海里先放一遍电影",
+      "对着景色记录画面",
+      "把绳子悬挂在梁上"
+    ],
+    "exampleEn": "That's not hard to envision.",
+    "exampleCn": "那并不难想象。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "en",
+        "surface": "en",
+        "position": 0
+      },
+      {
+        "morphemeId": "vid",
+        "surface": "vis",
+        "position": 1
+      },
+      {
+        "morphemeId": "ion",
+        "surface": "ion",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "port",
+        "type": "form"
+      },
+      {
+        "text": "ity",
+        "type": "meaning"
+      },
+      {
+        "text": "cent",
+        "type": "random"
+      },
+      {
+        "text": "grad",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "inspection",
+      "circumspection",
+      "prediction",
+      "visible",
+      "vision",
+      "revise",
+      "visibility",
+      "nation"
+    ],
+    "sourceNote": "en（使）+ vis（看）+ -ion：使景象在心中出现即设想。",
+    "mnemonicNote": "en 使 + vis 看 + ion：让画面在心中显现即设想。"
+  },
+  {
+    "id": "audience",
+    "word": "audience",
+    "phonetic": "/'ɒ:diәns/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "观众；听众",
+    "literalMeaningCn": "听的人",
+    "metaphorMeaningCn": "一群等着听你讲的人",
+    "metaphorOptions": [
+      "一群等着听你讲的人",
+      "排成一队向前走的人",
+      "一起记录画面的那伙人"
+    ],
+    "exampleEn": "How large is the audience?",
+    "exampleCn": "你估計聽眾有多少?",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "aud",
+        "surface": "audi",
+        "position": 0
+      },
+      {
+        "morphemeId": "ence",
+        "surface": "ence",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "enn",
+        "type": "form"
+      },
+      {
+        "text": "ue",
+        "type": "meaning"
+      },
+      {
+        "text": "abul",
+        "type": "random"
+      },
+      {
+        "text": "tech",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "audio",
+      "audible"
+    ],
+    "sourceNote": "aud（听）+ -ence（…的人）：听的人即观众/听众。",
+    "mnemonicNote": "aud 听 + ence（…的人）：听的人即观众。"
+  },
+  {
+    "id": "audio",
+    "word": "audio",
+    "phonetic": "/'ɒ:diou/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "音频的；声音的",
+    "literalMeaningCn": "关于听的",
+    "metaphorMeaningCn": "用耳朵接收的那段信号",
+    "metaphorOptions": [
+      "用耳朵接收的那段信号",
+      "被记录下来的一段画面",
+      "从机器里制造出的噪音"
+    ],
+    "exampleEn": "The audio is too loud.",
+    "exampleCn": "这段音频太响了。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "aud",
+        "surface": "audio",
+        "position": 0
+      }
+    ],
+    "distractors": [
+      {
+        "text": "pend",
+        "type": "form"
+      },
+      {
+        "text": "graph",
+        "type": "meaning"
+      },
+      {
+        "text": "pro",
+        "type": "random"
+      },
+      {
+        "text": "con",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "audience",
+      "audible"
+    ],
+    "sourceNote": "aud（听）的变体 audio：与声音/听觉相关。",
+    "mnemonicNote": "aud 是听，audio 就是「听的」。"
+  },
+  {
+    "id": "audible",
+    "word": "audible",
+    "phonetic": "/'ɒ:dәbl/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "听得见的；可闻的",
+    "literalMeaningCn": "能被听见的",
+    "metaphorMeaningCn": "声音大到耳朵抓得住",
+    "metaphorOptions": [
+      "声音大到耳朵抓得住",
+      "能在纸上看到的记录",
+      "能把东西移动起来的力量"
+    ],
+    "exampleEn": "The sound wasn't very audible.",
+    "exampleCn": "那声音不太听得清楚。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "aud",
+        "surface": "aud",
+        "position": 0
+      },
+      {
+        "morphemeId": "able",
+        "surface": "ible",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "tech",
+        "type": "form"
+      },
+      {
+        "text": "re",
+        "type": "meaning"
+      },
+      {
+        "text": "dict",
+        "type": "random"
+      },
+      {
+        "text": "ion",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "predictable",
+      "portable",
+      "visible",
+      "visibility",
+      "audience",
+      "audio",
+      "incredible"
+    ],
+    "sourceNote": "aud（听）+ -able（能）：能被听见的。",
+    "mnemonicNote": "aud 听 + able 能：能被听见的。"
+  },
+  {
+    "id": "biology",
+    "word": "biology",
+    "phonetic": "/bai'ɒlәdʒi/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "生物学",
+    "literalMeaningCn": "研究生命的学问",
+    "metaphorMeaningCn": "搞懂动植物怎么活",
+    "metaphorOptions": [
+      "搞懂动植物怎么活",
+      "研究怎样制造机器",
+      "研究文字记录的方法"
+    ],
+    "exampleEn": "I never liked biology.",
+    "exampleCn": "我從來沒喜歡過生物學。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "bio",
+        "surface": "bio",
+        "position": 0
+      },
+      {
+        "morphemeId": "logy",
+        "surface": "logy",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "cata",
+        "type": "form"
+      },
+      {
+        "text": "ben",
+        "type": "meaning"
+      },
+      {
+        "text": "para",
+        "type": "random"
+      },
+      {
+        "text": "dia",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "biography",
+      "biotech"
+    ],
+    "sourceNote": "bio（生命）+ -logy（…学）：研究生命的学科。",
+    "mnemonicNote": "bio 生命 + logy 学：研究生命的科学。"
+  },
+  {
+    "id": "biography",
+    "word": "biography",
+    "phonetic": "/bai'ɒgrәfi/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "传记；生平记",
+    "literalMeaningCn": "记录某人的生命",
+    "metaphorMeaningCn": "把人的一生写成长文",
+    "metaphorOptions": [
+      "把人的一生写成长文",
+      "按种类排列的清单",
+      "把见闻记录成册"
+    ],
+    "exampleEn": "This biography is fascinating.",
+    "exampleCn": "这本传记引人入胜。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "bio",
+        "surface": "bio",
+        "position": 0
+      },
+      {
+        "morphemeId": "graph",
+        "surface": "graphy",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "vid",
+        "type": "form"
+      },
+      {
+        "text": "able",
+        "type": "meaning"
+      },
+      {
+        "text": "cent",
+        "type": "random"
+      },
+      {
+        "text": "grad",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "biology",
+      "biotech",
+      "paragraph",
+      "photograph",
+      "graphite"
+    ],
+    "sourceNote": "bio（生命）+ -graphy（记录）：记录人生即传记。",
+    "mnemonicNote": "bio 生命 + graphy 记录：记录一生的文字即传记。"
+  },
+  {
+    "id": "biotech",
+    "word": "biotech",
+    "phonetic": "/'baɪəʊtek/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "生物技术",
+    "literalMeaningCn": "生命的技术",
+    "metaphorMeaningCn": "用科技摆弄生命",
+    "metaphorOptions": [
+      "用科技摆弄生命",
+      "把东西来回移动的本事",
+      "绘画与记录的手艺"
+    ],
+    "exampleEn": "She works for a biotech company in the city.",
+    "exampleCn": "她在城里一家生物技术公司工作。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "bio",
+        "surface": "bio",
+        "position": 0
+      },
+      {
+        "morphemeId": "tech",
+        "surface": "tech",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "dis",
+        "type": "form"
+      },
+      {
+        "text": "per",
+        "type": "meaning"
+      },
+      {
+        "text": "auto",
+        "type": "random"
+      },
+      {
+        "text": "en",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "biology",
+      "biography"
+    ],
+    "sourceNote": "bio（生命）+ tech（技术）：生命科学工程。",
+    "mnemonicNote": "bio 生命 + tech 技术：生命科学相关技术。"
+  },
+  {
+    "id": "century",
+    "word": "century",
+    "phonetic": "/'sentʃuri/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "世纪；一百年",
+    "literalMeaningCn": "一百个年头",
+    "metaphorMeaningCn": "一百岁的一整轮",
+    "metaphorOptions": [
+      "一百岁的一整轮",
+      "把年份记录成册",
+      "分成好几个种类"
+    ],
+    "exampleEn": "A century is one hundred years.",
+    "exampleCn": "一个世纪就是一百年。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "cent",
+        "surface": "cent",
+        "position": 0
+      },
+      {
+        "morphemeId": "ury",
+        "surface": "ury",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "re",
+        "type": "form"
+      },
+      {
+        "text": "dict",
+        "type": "meaning"
+      },
+      {
+        "text": "ion",
+        "type": "random"
+      },
+      {
+        "text": "ity",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "percent",
+      "centennial"
+    ],
+    "sourceNote": "cent（百）+ -ury：一百年为一世纪。",
+    "mnemonicNote": "cent 百 + ury（状态）：一百年即一世纪。"
+  },
+  {
+    "id": "percent",
+    "word": "percent",
+    "phonetic": "/pә'sent/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "百分之…",
+    "literalMeaningCn": "每一百里的份",
+    "metaphorMeaningCn": "一百份里占几份",
+    "metaphorOptions": [
+      "一百份里占几份",
+      "把东西制造出来",
+      "大家共同分一份"
+    ],
+    "exampleEn": "Thirteen percent remain undecided.",
+    "exampleCn": "13% 最終棄權。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "per",
+        "surface": "per",
+        "position": 0
+      },
+      {
+        "morphemeId": "cent",
+        "surface": "cent",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "aud",
+        "type": "form"
+      },
+      {
+        "text": "gen",
+        "type": "meaning"
+      },
+      {
+        "text": "log",
+        "type": "random"
+      },
+      {
+        "text": "pend",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "century",
+      "centennial"
+    ],
+    "sourceNote": "per（每）+ cent（百）：每一百中的部分即百分比。",
+    "mnemonicNote": "per 每 + cent 百：每一百中的占比即百分比。"
+  },
+  {
+    "id": "centennial",
+    "word": "centennial",
+    "phonetic": "/sen'tenjәl/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "百年纪念；百周年庆典",
+    "literalMeaningCn": "一百年的",
+    "metaphorMeaningCn": "满一百岁的大庆典",
+    "metaphorOptions": [
+      "满一百岁的大庆典",
+      "把旧物彻底扔掉",
+      "把日子记录成册"
+    ],
+    "exampleEn": "The town held a centennial celebration last summer.",
+    "exampleCn": "去年夏天镇上举行了百年庆典。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "cent",
+        "surface": "cent",
+        "position": 0
+      },
+      {
+        "morphemeId": "enn",
+        "surface": "enn",
+        "position": 1
+      },
+      {
+        "morphemeId": "ial",
+        "surface": "ial",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "ben",
+        "type": "form"
+      },
+      {
+        "text": "para",
+        "type": "meaning"
+      },
+      {
+        "text": "dia",
+        "type": "random"
+      },
+      {
+        "text": "or",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "century",
+      "percent",
+      "credential"
+    ],
+    "sourceNote": "cent（百）+ enn（年）+ -ial：一百年的。",
+    "mnemonicNote": "cent 百 + enn 年 + ial：一百年的即百年纪念。"
+  },
+  {
+    "id": "credit",
+    "word": "credit",
+    "phonetic": "/'kredit/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "信用；学分；赞扬",
+    "literalMeaningCn": "让人相信的",
+    "metaphorMeaningCn": "先信你，回头再算账",
+    "metaphorOptions": [
+      "先信你，回头再算账",
+      "把经过记录在册",
+      "把事情分成各种种类"
+    ],
+    "exampleEn": "Don't buy things on credit.",
+    "exampleCn": "别赊账买东西。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "cred",
+        "surface": "credit",
+        "position": 0
+      }
+    ],
+    "distractors": [
+      {
+        "text": "circum",
+        "type": "form"
+      },
+      {
+        "text": "in",
+        "type": "meaning"
+      },
+      {
+        "text": "port",
+        "type": "random"
+      },
+      {
+        "text": "ive",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "credential",
+      "incredible"
+    ],
+    "sourceNote": "cred（相信）的变体 credit：与信任/信用相关。",
+    "mnemonicNote": "cred 是相信，credit 就是「信得过」。"
+  },
+  {
+    "id": "credential",
+    "word": "credential",
+    "phonetic": "/kri'denʃәl/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "资格证书；凭证",
+    "literalMeaningCn": "让人相信的东西",
+    "metaphorMeaningCn": "证明你靠谱的那张纸",
+    "metaphorOptions": [
+      "证明你靠谱的那张纸",
+      "写满记录的旧本子",
+      "预先订好的规矩"
+    ],
+    "exampleEn": "An internship is the most important credential for entering the job market.",
+    "exampleCn": "实习是进入职场最重要的资历证明。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "cred",
+        "surface": "cred",
+        "position": 0
+      },
+      {
+        "morphemeId": "ent",
+        "surface": "ent",
+        "position": 1
+      },
+      {
+        "morphemeId": "ial",
+        "surface": "ial",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "fac",
+        "type": "form"
+      },
+      {
+        "text": "dis",
+        "type": "meaning"
+      },
+      {
+        "text": "per",
+        "type": "random"
+      },
+      {
+        "text": "auto",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "centennial",
+      "credit",
+      "incredible"
+    ],
+    "sourceNote": "cred（相信）+ -ent/-ial：使人相信的资历证明。",
+    "mnemonicNote": "cred 相信 + ent/ial：让人信得过的证明。"
+  },
+  {
+    "id": "incredible",
+    "word": "incredible",
+    "phonetic": "/in'kredәbl/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "难以置信的；极好的",
+    "literalMeaningCn": "不能相信的",
+    "metaphorMeaningCn": "好到让人不敢信",
+    "metaphorOptions": [
+      "好到让人不敢信",
+      "把两样东西绑在一起",
+      "扛着行李携带上路"
+    ],
+    "exampleEn": "Friday evening was incredible.",
+    "exampleCn": "週五晚上真是太棒了。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "in",
+        "surface": "in",
+        "position": 0
+      },
+      {
+        "morphemeId": "cred",
+        "surface": "cred",
+        "position": 1
+      },
+      {
+        "morphemeId": "able",
+        "surface": "ible",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "con",
+        "type": "form"
+      },
+      {
+        "text": "cata",
+        "type": "meaning"
+      },
+      {
+        "text": "ben",
+        "type": "random"
+      },
+      {
+        "text": "para",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "inspection",
+      "predictable",
+      "portable",
+      "import",
+      "visible",
+      "visibility",
+      "audible",
+      "credit"
+    ],
+    "sourceNote": "in（不）+ cred（相信）+ -able：难以置信的。",
+    "mnemonicNote": "in 不 + cred 相信 + able：不能相信的。"
+  },
+  {
+    "id": "gene",
+    "word": "gene",
+    "phonetic": "/dʒi:n/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "基因",
+    "literalMeaningCn": "生命的出生单位",
+    "metaphorMeaningCn": "决定你是谁的密码",
+    "metaphorOptions": [
+      "决定你是谁的密码",
+      "排在旁边的一小块地方",
+      "干活时顺手的那件器具"
+    ],
+    "exampleEn": "Some diseases are caused by a defective gene.",
+    "exampleCn": "一些疾病的产生原因是基因缺陷。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "gen",
+        "surface": "gene",
+        "position": 0
+      }
+    ],
+    "distractors": [
+      {
+        "text": "grad",
+        "type": "form"
+      },
+      {
+        "text": "mob",
+        "type": "meaning"
+      },
+      {
+        "text": "vers",
+        "type": "random"
+      },
+      {
+        "text": "tract",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "generate",
+      "genetics"
+    ],
+    "sourceNote": "gen（出生/种类）的变体 gene：遗传的基本单位。",
+    "mnemonicNote": "gen 是出生/种类，gene 即遗传单位。"
+  },
+  {
+    "id": "generate",
+    "word": "generate",
+    "phonetic": "/'dʒenәreit/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "产生；生成",
+    "literalMeaningCn": "使出生、使产生",
+    "metaphorMeaningCn": "凭空变出东西来",
+    "metaphorOptions": [
+      "凭空变出东西来",
+      "每一份都分得一样多",
+      "坐在教室旁边听课"
+    ],
+    "exampleEn": "An electric current can generate magnetism.",
+    "exampleCn": "電流可以產生磁性。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "gen",
+        "surface": "gen",
+        "position": 0
+      },
+      {
+        "morphemeId": "er",
+        "surface": "er",
+        "position": 1
+      },
+      {
+        "morphemeId": "ate",
+        "surface": "ate",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "ic",
+        "type": "form"
+      },
+      {
+        "text": "ent",
+        "type": "meaning"
+      },
+      {
+        "text": "ulum",
+        "type": "random"
+      },
+      {
+        "text": "graphy",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "gene",
+      "genetics",
+      "graduate"
+    ],
+    "sourceNote": "gen（出生）+ -ate（使）：使产生即生成。",
+    "mnemonicNote": "gen 出生 + ate 使：使产生即生成。"
+  },
+  {
+    "id": "genetics",
+    "word": "genetics",
+    "phonetic": "/dʒi'netiks/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "遗传学",
+    "literalMeaningCn": "研究出生的学问",
+    "metaphorMeaningCn": "研究你从哪来的科学",
+    "metaphorOptions": [
+      "研究你从哪来的科学",
+      "研究如何跨越边界",
+      "研究怎样制造机器"
+    ],
+    "exampleEn": "You can't blame genetics!",
+    "exampleCn": "这不能怪基因！",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "gen",
+        "surface": "gene",
+        "position": 0
+      },
+      {
+        "morphemeId": "ic",
+        "surface": "tic",
+        "position": 1
+      },
+      {
+        "morphemeId": "s",
+        "surface": "s",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "e",
+        "type": "form"
+      },
+      {
+        "text": "photo",
+        "type": "meaning"
+      },
+      {
+        "text": "ation",
+        "type": "random"
+      },
+      {
+        "text": "ary",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "gene",
+      "generate",
+      "logic"
+    ],
+    "sourceNote": "gen（出生）+ -ics（…学）：研究遗传的学科。",
+    "mnemonicNote": "gen 出生 + ics 学：研究遗传的学科。"
+  },
+  {
+    "id": "grade",
+    "word": "grade",
+    "phonetic": "/greid/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "年级；等级；成绩",
+    "literalMeaningCn": "一步、一级",
+    "metaphorMeaningCn": "爬楼梯的一级台阶",
+    "metaphorOptions": [
+      "爬楼梯的一级台阶",
+      "把两样东西分离开来",
+      "摆放在旁边的架子"
+    ],
+    "exampleEn": "What grade are you in?",
+    "exampleCn": "你幾年級？",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "grad",
+        "surface": "grade",
+        "position": 0
+      }
+    ],
+    "distractors": [
+      {
+        "text": "aud",
+        "type": "form"
+      },
+      {
+        "text": "cred",
+        "type": "meaning"
+      },
+      {
+        "text": "log",
+        "type": "random"
+      },
+      {
+        "text": "pend",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "graduate",
+      "degrade"
+    ],
+    "sourceNote": "grad（步/级）的变体 grade：等级/年级。",
+    "mnemonicNote": "grad 是步/级，grade 即等级。"
+  },
+  {
+    "id": "graduate",
+    "word": "graduate",
+    "phonetic": "/'grædʒueit/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "毕业；研究生",
+    "literalMeaningCn": "走完一级",
+    "metaphorMeaningCn": "爬到学业顶端那一刻",
+    "metaphorOptions": [
+      "爬到学业顶端那一刻",
+      "把东西悬挂在半空",
+      "收拾行李离开宿舍"
+    ],
+    "exampleEn": "From what school did you graduate?",
+    "exampleCn": "您是从哪个学校毕业的？",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "grad",
+        "surface": "grad",
+        "position": 0
+      },
+      {
+        "morphemeId": "u",
+        "surface": "u",
+        "position": 1
+      },
+      {
+        "morphemeId": "ate",
+        "surface": "ate",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "ility",
+        "type": "form"
+      },
+      {
+        "text": "tech",
+        "type": "meaning"
+      },
+      {
+        "text": "re",
+        "type": "random"
+      },
+      {
+        "text": "dict",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "generate",
+      "grade",
+      "degrade"
+    ],
+    "sourceNote": "grad（步/级）+ -ate：完成学业一级即毕业。",
+    "mnemonicNote": "grad 步 + ate：走完学业一级即毕业。"
+  },
+  {
+    "id": "degrade",
+    "word": "degrade",
+    "phonetic": "/di'greid/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "降级；退化",
+    "literalMeaningCn": "向下走一步",
+    "metaphorMeaningCn": "一级级往下滑",
+    "metaphorOptions": [
+      "一级级往下滑",
+      "自己动手做一遍",
+      "跨过界线继续向前"
+    ],
+    "exampleEn": "Batteries degrade over time.",
+    "exampleCn": "电池会随着时间老化。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "de",
+        "surface": "de",
+        "position": 0
+      },
+      {
+        "morphemeId": "grad",
+        "surface": "grade",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "s",
+        "type": "form"
+      },
+      {
+        "text": "logy",
+        "type": "meaning"
+      },
+      {
+        "text": "enn",
+        "type": "random"
+      },
+      {
+        "text": "ue",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "deport",
+      "grade",
+      "graduate",
+      "depend"
+    ],
+    "sourceNote": "de（向下）+ grad（级）：降级/退化。",
+    "mnemonicNote": "de 向下 + grad 级：向下退一级即降级。"
+  },
+  {
+    "id": "project",
+    "word": "project",
+    "phonetic": "/'prɒdʒekt/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "项目；计划；投射",
+    "literalMeaningCn": "向前投出",
+    "metaphorMeaningCn": "把想法甩到前头去",
+    "metaphorOptions": [
+      "把想法甩到前头去",
+      "最后得出的那个结果",
+      "把东西分成复数几份"
+    ],
+    "exampleEn": "This is my project.",
+    "exampleCn": "這是我的項目。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "pro",
+        "surface": "pro",
+        "position": 0
+      },
+      {
+        "morphemeId": "ject",
+        "surface": "ject",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "ence",
+        "type": "form"
+      },
+      {
+        "text": "ice",
+        "type": "meaning"
+      },
+      {
+        "text": "ury",
+        "type": "random"
+      },
+      {
+        "text": "er",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "reject",
+      "eject"
+    ],
+    "sourceNote": "pro（向前）+ ject（投）：向前投出即计划/投射。",
+    "mnemonicNote": "pro 向前 + ject 投：向前投出即项目/投射。"
+  },
+  {
+    "id": "reject",
+    "word": "reject",
+    "phonetic": "/ri'dʒekt/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "拒绝；驳回",
+    "literalMeaningCn": "投回去",
+    "metaphorMeaningCn": "把递来的东西甩回去",
+    "metaphorOptions": [
+      "把递来的东西甩回去",
+      "这种性质很稳定",
+      "自然界里的各种东西"
+    ],
+    "exampleEn": "Many people reject this kind of idea.",
+    "exampleCn": "许多人拒绝这种想法。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "re",
+        "surface": "re",
+        "position": 0
+      },
+      {
+        "morphemeId": "ject",
+        "surface": "ject",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "voc",
+        "type": "form"
+      },
+      {
+        "text": "fac",
+        "type": "meaning"
+      },
+      {
+        "text": "dis",
+        "type": "random"
+      },
+      {
+        "text": "per",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "respect",
+      "report",
+      "revise",
+      "project",
+      "eject",
+      "retract"
+    ],
+    "sourceNote": "re（回）+ ject（投）：扔回去即拒绝。",
+    "mnemonicNote": "re 回 + ject 投：投回即拒绝。"
+  },
+  {
+    "id": "eject",
+    "word": "eject",
+    "phonetic": "/i'dʒekt/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "喷射；弹出",
+    "literalMeaningCn": "投出去",
+    "metaphorMeaningCn": "一按就弹出来",
+    "metaphorOptions": [
+      "一按就弹出来",
+      "把东西分成不同种类",
+      "一直向前走到头"
+    ],
+    "exampleEn": "Press this button to eject the disc.",
+    "exampleCn": "按这个按钮就能弹出光盘。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "e",
+        "surface": "e",
+        "position": 0
+      },
+      {
+        "morphemeId": "ject",
+        "surface": "ject",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "con",
+        "type": "form"
+      },
+      {
+        "text": "cata",
+        "type": "meaning"
+      },
+      {
+        "text": "ben",
+        "type": "random"
+      },
+      {
+        "text": "photo",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "project",
+      "reject"
+    ],
+    "sourceNote": "e（向外）+ ject（投）：向外弹出即 eject。",
+    "mnemonicNote": "e 向外 + ject 投：向外投出即弹出。"
+  },
+  {
+    "id": "dialogue",
+    "word": "dialogue",
+    "phonetic": "/'daiәlɒg/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "对话",
+    "literalMeaningCn": "通过话语交流",
+    "metaphorMeaningCn": "两个人来回接话",
+    "metaphorOptions": [
+      "两个人来回接话",
+      "把重物压在下层",
+      "自己一个人自言自语"
+    ],
+    "exampleEn": "Diplomatic dialogue helped put an end to the conflict.",
+    "exampleCn": "外交谈判帮助结束了冲突。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "dia",
+        "surface": "dia",
+        "position": 0
+      },
+      {
+        "morphemeId": "log",
+        "surface": "logue",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "spec",
+        "type": "form"
+      },
+      {
+        "text": "vid",
+        "type": "meaning"
+      },
+      {
+        "text": "able",
+        "type": "random"
+      },
+      {
+        "text": "bio",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "logic",
+      "catalog"
+    ],
+    "sourceNote": "dia（通过、跨越）+ log（说、词）：一来一往的言语交流。",
+    "mnemonicNote": "dia 是「通过、跨越」，log 是「说」：两边的话一来一回就成形了。"
+  },
+  {
+    "id": "logic",
+    "word": "logic",
+    "phonetic": "/'lɒdʒik/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "逻辑；逻辑学",
+    "literalMeaningCn": "说话的条理",
+    "metaphorMeaningCn": "让理由排好队的规矩",
+    "metaphorOptions": [
+      "让理由排好队的规矩",
+      "照着记录一项项抄",
+      "把每一样都做到彻底"
+    ],
+    "exampleEn": "I cannot follow your logic.",
+    "exampleCn": "我跟不上你的逻辑。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "log",
+        "surface": "log",
+        "position": 0
+      },
+      {
+        "morphemeId": "ic",
+        "surface": "ic",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "pro",
+        "type": "form"
+      },
+      {
+        "text": "con",
+        "type": "meaning"
+      },
+      {
+        "text": "cata",
+        "type": "random"
+      },
+      {
+        "text": "ben",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "genetics",
+      "dialogue",
+      "catalog"
+    ],
+    "sourceNote": "log（说/词）+ -ic：言辞的条理即逻辑。",
+    "mnemonicNote": "log 说 + ic：说话的条理即逻辑。"
+  },
+  {
+    "id": "catalog",
+    "word": "catalog",
+    "phonetic": "/'kætәlɒg/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "目录；名录",
+    "literalMeaningCn": "把话逐一记下来",
+    "metaphorMeaningCn": "一列清单摆在面前",
+    "metaphorOptions": [
+      "一列清单摆在面前",
+      "最终得到的那个结果",
+      "把东西数成复数几份"
+    ],
+    "exampleEn": "Send me a new catalog.",
+    "exampleCn": "给我寄一份新的目录。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "cata",
+        "surface": "cata",
+        "position": 0
+      },
+      {
+        "morphemeId": "log",
+        "surface": "log",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "ject",
+        "type": "form"
+      },
+      {
+        "text": "pend",
+        "type": "meaning"
+      },
+      {
+        "text": "graph",
+        "type": "random"
+      },
+      {
+        "text": "pro",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "dialogue",
+      "logic"
+    ],
+    "sourceNote": "cata（向下/全）+ log（说）：逐项罗列即目录。",
+    "mnemonicNote": "cata 向下 + log 说：逐项记录的清单即目录。"
+  },
+  {
+    "id": "mobile",
+    "word": "mobile",
+    "phonetic": "/'mәubil/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "可移动的；手机",
+    "literalMeaningCn": "能移动的",
+    "metaphorMeaningCn": "能随身带着跑的",
+    "metaphorOptions": [
+      "能随身带着跑的",
+      "随时保持干净的状态",
+      "把货物称量一下重量"
+    ],
+    "exampleEn": "He has no mobile.",
+    "exampleCn": "他沒有手機。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "mob",
+        "surface": "mob",
+        "position": 0
+      },
+      {
+        "morphemeId": "ile",
+        "surface": "ile",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "vid",
+        "type": "form"
+      },
+      {
+        "text": "able",
+        "type": "meaning"
+      },
+      {
+        "text": "bio",
+        "type": "random"
+      },
+      {
+        "text": "gen",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "mobility",
+      "automobile"
+    ],
+    "sourceNote": "mob（移动）+ -ile（可）：可移动的。",
+    "mnemonicNote": "mob 移动 + ile 可：可移动的。"
+  },
+  {
+    "id": "mobility",
+    "word": "mobility",
+    "phonetic": "/mәu'biliti/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "流动性；机动性",
+    "literalMeaningCn": "能移动的性质",
+    "metaphorMeaningCn": "说走就走的本事",
+    "metaphorOptions": [
+      "说走就走的本事",
+      "大家共同完成一件事",
+      "把东西彻底清空"
+    ],
+    "exampleEn": "The team lacked mobility.",
+    "exampleCn": "这支队伍缺乏机动性。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "mob",
+        "surface": "mob",
+        "position": 0
+      },
+      {
+        "morphemeId": "ility",
+        "surface": "ility",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "er",
+        "type": "form"
+      },
+      {
+        "text": "abul",
+        "type": "meaning"
+      },
+      {
+        "text": "tech",
+        "type": "random"
+      },
+      {
+        "text": "re",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "mobile",
+      "automobile",
+      "facility"
+    ],
+    "sourceNote": "mob（移动）+ -ility：可移动的性质。",
+    "mnemonicNote": "mob 移动 + ility：移动的能力即机动性。"
+  },
+  {
+    "id": "automobile",
+    "word": "automobile",
+    "phonetic": "/'ɒ:tәmәbi:l/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "汽车",
+    "literalMeaningCn": "自己移动的东西",
+    "metaphorMeaningCn": "自己跑不用推的车",
+    "metaphorOptions": [
+      "自己跑不用推的车",
+      "在房子周围转一圈",
+      "能随身携带的小箱子"
+    ],
+    "exampleEn": "This factory manufactures automobile parts.",
+    "exampleCn": "这家工厂生产汽车配件。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "auto",
+        "surface": "auto",
+        "position": 0
+      },
+      {
+        "morphemeId": "mob",
+        "surface": "mob",
+        "position": 1
+      },
+      {
+        "morphemeId": "ile",
+        "surface": "ile",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "vers",
+        "type": "form"
+      },
+      {
+        "text": "tract",
+        "type": "meaning"
+      },
+      {
+        "text": "de",
+        "type": "random"
+      },
+      {
+        "text": "sub",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "mobile",
+      "mobility"
+    ],
+    "sourceNote": "auto（自己）+ mob（移动）+ -ile：自动行驶的车子。",
+    "mnemonicNote": "auto 自己 + mob 移动 + -ile：自己会跑的车。"
+  },
+  {
+    "id": "nature",
+    "word": "nature",
+    "phonetic": "/'neitʃә/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "自然；本性",
+    "literalMeaningCn": "出生而来的状态",
+    "metaphorMeaningCn": "天生就有的样子",
+    "metaphorOptions": [
+      "天生就有的样子",
+      "发出很大的声音",
+      "把对方的说法否定掉"
+    ],
+    "exampleEn": "Habit is second nature.",
+    "exampleCn": "习惯是第二天性。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "nat",
+        "surface": "nat",
+        "position": 0
+      },
+      {
+        "morphemeId": "ure",
+        "surface": "ure",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "per",
+        "type": "form"
+      },
+      {
+        "text": "auto",
+        "type": "meaning"
+      },
+      {
+        "text": "en",
+        "type": "random"
+      },
+      {
+        "text": "at",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "nation",
+      "innate"
+    ],
+    "sourceNote": "nat（出生/自然）+ -ure：天生的性质即自然。",
+    "mnemonicNote": "nat 出生/自然 + ure：天生的状态即自然。"
+  },
+  {
+    "id": "nation",
+    "word": "nation",
+    "phonetic": "/'neiʃәn/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "国家；民族",
+    "literalMeaningCn": "同出生的一群人",
+    "metaphorMeaningCn": "同一根源的一大家",
+    "metaphorOptions": [
+      "同一根源的一大家",
+      "自己关起门来过日子",
+      "跨越边境搬过去住"
+    ],
+    "exampleEn": "No language, no nation.",
+    "exampleCn": "没有语言，没有国家。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "nat",
+        "surface": "nat",
+        "position": 0
+      },
+      {
+        "morphemeId": "ion",
+        "surface": "ion",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "ile",
+        "type": "form"
+      },
+      {
+        "text": "ite",
+        "type": "meaning"
+      },
+      {
+        "text": "circum",
+        "type": "random"
+      },
+      {
+        "text": "in",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "inspection",
+      "circumspection",
+      "prediction",
+      "vision",
+      "envision",
+      "nature",
+      "innate",
+      "version"
+    ],
+    "sourceNote": "nat（出生）+ -ion：同出生群体的共同体即民族/国家。",
+    "mnemonicNote": "nat 出生 + ion：同根源的群体即国家。"
+  },
+  {
+    "id": "innate",
+    "word": "innate",
+    "phonetic": "/i'neit/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "天生的；固有的",
+    "literalMeaningCn": "出生就带在里的",
+    "metaphorMeaningCn": "打娘胎里带出来的",
+    "metaphorOptions": [
+      "打娘胎里带出来的",
+      "照着记录抄写一遍",
+      "在房子周围走一圈"
+    ],
+    "exampleEn": "He has an innate love of adventure.",
+    "exampleCn": "他天生热爱冒险。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "in",
+        "surface": "in",
+        "position": 0
+      },
+      {
+        "morphemeId": "nat",
+        "surface": "nate",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "ory",
+        "type": "form"
+      },
+      {
+        "text": "s",
+        "type": "meaning"
+      },
+      {
+        "text": "logy",
+        "type": "random"
+      },
+      {
+        "text": "enn",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "inspection",
+      "import",
+      "incredible",
+      "nature",
+      "nation",
+      "inverse"
+    ],
+    "sourceNote": "in（内）+ nat（出生）：出生起内在的即天生。",
+    "mnemonicNote": "in 内 + nat 出生：出生起就在内部的即天赋。"
+  },
+  {
+    "id": "depend",
+    "word": "depend",
+    "phonetic": "/di'pend/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "依赖；取决于",
+    "literalMeaningCn": "挂在下面",
+    "metaphorMeaningCn": "像吊着一样靠它撑着",
+    "metaphorOptions": [
+      "像吊着一样靠它撑着",
+      "一个人出生的地方",
+      "预先准备好的那根拐杖"
+    ],
+    "exampleEn": "We depend on you.",
+    "exampleCn": "我们可全靠你了。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "de",
+        "surface": "de",
+        "position": 0
+      },
+      {
+        "morphemeId": "pend",
+        "surface": "pend",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "ion",
+        "type": "form"
+      },
+      {
+        "text": "ity",
+        "type": "meaning"
+      },
+      {
+        "text": "cent",
+        "type": "random"
+      },
+      {
+        "text": "grad",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "deport",
+      "degrade",
+      "suspend",
+      "pendulum"
+    ],
+    "sourceNote": "de（下）+ pend（悬挂）：悬挂依赖即 depend。",
+    "mnemonicNote": "de 下 + pend 悬挂：挂靠在…上即依赖。"
+  },
+  {
+    "id": "suspend",
+    "word": "suspend",
+    "phonetic": "/sә'spend/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "暂停；悬挂；停职",
+    "literalMeaningCn": "吊在下面",
+    "metaphorMeaningCn": "先挂起等会儿再算",
+    "metaphorOptions": [
+      "先挂起等会儿再算",
+      "这种性质很难改变",
+      "自然界里常见的东西"
+    ],
+    "exampleEn": "The school may suspend students for fighting.",
+    "exampleCn": "学校可能会让打架的学生停学。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "sub",
+        "surface": "sus",
+        "position": 0,
+        "isAssimilated": true
+      },
+      {
+        "morphemeId": "pend",
+        "surface": "pend",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "en",
+        "type": "form"
+      },
+      {
+        "text": "at",
+        "type": "meaning"
+      },
+      {
+        "text": "ate",
+        "type": "random"
+      },
+      {
+        "text": "ic",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "depend",
+      "pendulum"
+    ],
+    "sourceNote": "sub（下）+ pend（悬挂）：吊起暂存即暂停。",
+    "mnemonicNote": "sub 下 + pend 悬挂：吊起即暂停/悬挂。"
+  },
+  {
+    "id": "pendulum",
+    "word": "pendulum",
+    "phonetic": "/'pendʒәlәm/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "钟摆；摆",
+    "literalMeaningCn": "悬挂的东西",
+    "metaphorMeaningCn": "来回荡的那根杆",
+    "metaphorOptions": [
+      "来回荡的那根杆",
+      "转动时会发出声音的东西",
+      "一个干脆利落的动作"
+    ],
+    "exampleEn": "What is a pendulum?",
+    "exampleCn": "什么是摆？",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "pend",
+        "surface": "pend",
+        "position": 0
+      },
+      {
+        "morphemeId": "ulum",
+        "surface": "ulum",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "auto",
+        "type": "form"
+      },
+      {
+        "text": "en",
+        "type": "meaning"
+      },
+      {
+        "text": "at",
+        "type": "random"
+      },
+      {
+        "text": "ate",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "depend",
+      "suspend"
+    ],
+    "sourceNote": "pend（悬挂）+ -ulum（工具）：悬挂摆动的装置即摆。",
+    "mnemonicNote": "pend 悬挂 + ulum（工具）：悬挂摆动即摆。"
+  },
+  {
+    "id": "universe",
+    "word": "universe",
+    "phonetic": "/'ju:nivә:s/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "宇宙",
+    "literalMeaningCn": "一切转向的整体",
+    "metaphorMeaningCn": "万物归一的全体",
+    "metaphorOptions": [
+      "万物归一的全体",
+      "自己一个人待着的屋子",
+      "能被别人听到的声音"
+    ],
+    "exampleEn": "The universe is endless.",
+    "exampleCn": "宇宙无穷无尽。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "uni",
+        "surface": "uni",
+        "position": 0
+      },
+      {
+        "morphemeId": "vers",
+        "surface": "verse",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "aud",
+        "type": "form"
+      },
+      {
+        "text": "cred",
+        "type": "meaning"
+      },
+      {
+        "text": "ject",
+        "type": "random"
+      },
+      {
+        "text": "nat",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "version",
+      "inverse"
+    ],
+    "sourceNote": "uni（一）+ vers（转）：全都转向统一体的大全体。",
+    "mnemonicNote": "uni 一 + vers 转：万事万物转向同一个整体。"
+  },
+  {
+    "id": "version",
+    "word": "version",
+    "phonetic": "/'vә:ʒәn/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "版本；说法",
+    "literalMeaningCn": "转出来的一个样",
+    "metaphorMeaningCn": "同一事的不同讲法",
+    "metaphorOptions": [
+      "同一事的不同讲法",
+      "从大门口进入",
+      "彼此相信的两个人"
+    ],
+    "exampleEn": "Buy the full version.",
+    "exampleCn": "买完整版",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "vers",
+        "surface": "vers",
+        "position": 0
+      },
+      {
+        "morphemeId": "ion",
+        "surface": "ion",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "photo",
+        "type": "form"
+      },
+      {
+        "text": "ation",
+        "type": "meaning"
+      },
+      {
+        "text": "ary",
+        "type": "random"
+      },
+      {
+        "text": "ory",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "inspection",
+      "circumspection",
+      "prediction",
+      "vision",
+      "envision",
+      "nation",
+      "universe",
+      "inverse"
+    ],
+    "sourceNote": "vers（转）+ -ion：转出的样式即版本。",
+    "mnemonicNote": "vers 转 + ion：转出的一个样即版本。"
+  },
+  {
+    "id": "inverse",
+    "word": "inverse",
+    "phonetic": "/in'vә:s/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "相反的；倒转的",
+    "literalMeaningCn": "反着转的",
+    "metaphorMeaningCn": "调个个儿的反面",
+    "metaphorOptions": [
+      "调个个儿的反面",
+      "干活用的一件器具",
+      "祖传的一门技艺"
+    ],
+    "exampleEn": "The inverse of a non-square matrix is a dangerous thing.",
+    "exampleCn": "非方矩阵的逆阵是一个危险的东西。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "in",
+        "surface": "in",
+        "position": 0
+      },
+      {
+        "morphemeId": "vers",
+        "surface": "verse",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "ite",
+        "type": "form"
+      },
+      {
+        "text": "circum",
+        "type": "meaning"
+      },
+      {
+        "text": "spec",
+        "type": "random"
+      },
+      {
+        "text": "vid",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "inspection",
+      "import",
+      "incredible",
+      "innate",
+      "universe",
+      "version"
+    ],
+    "sourceNote": "in（反）+ vers（转）：反转即 inverse。",
+    "mnemonicNote": "in 反 + vers 转：反着转即相反/倒转。"
+  },
+  {
+    "id": "vocabulary",
+    "word": "vocabulary",
+    "phonetic": "/vә'kæbjulәri/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "词汇；词汇量",
+    "literalMeaningCn": "关于叫/说的词库",
+    "metaphorMeaningCn": "肚子里攒的词儿",
+    "metaphorOptions": [
+      "肚子里攒的词儿",
+      "记录词句的册子",
+      "大家共同使用的工具"
+    ],
+    "exampleEn": "You need a large vocabulary to read that book.",
+    "exampleCn": "你讀那本書需要大量詞彙。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "voc",
+        "surface": "voc",
+        "position": 0
+      },
+      {
+        "morphemeId": "abul",
+        "surface": "abul",
+        "position": 1
+      },
+      {
+        "morphemeId": "ary",
+        "surface": "ary",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "ent",
+        "type": "form"
+      },
+      {
+        "text": "ulum",
+        "type": "meaning"
+      },
+      {
+        "text": "graphy",
+        "type": "random"
+      },
+      {
+        "text": "ial",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "voice",
+      "vocation"
+    ],
+    "sourceNote": "voc（声音/说）+ -ary：词语的集合即词汇。",
+    "mnemonicNote": "voc 声音/说 + ary：词语的集合即词汇。"
+  },
+  {
+    "id": "voice",
+    "word": "voice",
+    "phonetic": "/vɒis/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "声音；嗓音",
+    "literalMeaningCn": "发声的能力",
+    "metaphorMeaningCn": "你开口那一下",
+    "metaphorOptions": [
+      "你开口那一下",
+      "把说的话记录成文字",
+      "一次冲动的行为"
+    ],
+    "exampleEn": "Her voice is very sweet.",
+    "exampleCn": "她的声音非常甜美。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "voc",
+        "surface": "vo",
+        "position": 0
+      },
+      {
+        "morphemeId": "ice",
+        "surface": "ice",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "de",
+        "type": "form"
+      },
+      {
+        "text": "sub",
+        "type": "meaning"
+      },
+      {
+        "text": "uni",
+        "type": "random"
+      },
+      {
+        "text": "e",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "vocabulary",
+      "vocation"
+    ],
+    "sourceNote": "voc（声音/叫）的变体 vo + -ice：声音/嗓音。",
+    "mnemonicNote": "voc 声音 + ice：发声即嗓音。"
+  },
+  {
+    "id": "vocation",
+    "word": "vocation",
+    "phonetic": "/vәu'keiʃәn/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "职业；天职",
+    "literalMeaningCn": "被召唤的事",
+    "metaphorMeaningCn": "天生该干的那行",
+    "metaphorOptions": [
+      "天生该干的那行",
+      "手里那件顺手的器具",
+      "一段被彻底抹去的记忆"
+    ],
+    "exampleEn": "The \"family manager\" is a profession, occupation, vocation.",
+    "exampleCn": "“一家之主”是一份专业工作、事业和使命。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "voc",
+        "surface": "voc",
+        "position": 0
+      },
+      {
+        "morphemeId": "ation",
+        "surface": "ation",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "tract",
+        "type": "form"
+      },
+      {
+        "text": "de",
+        "type": "meaning"
+      },
+      {
+        "text": "sub",
+        "type": "random"
+      },
+      {
+        "text": "uni",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "vocabulary",
+      "voice"
+    ],
+    "sourceNote": "voc（呼唤）+ -ation：受召唤的职业即天职。",
+    "mnemonicNote": "voc 召唤 + ation：被召唤的工作即天职。"
+  },
+  {
+    "id": "paragraph",
+    "word": "paragraph",
+    "phonetic": "/'pærәgrɑ:f/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "段落",
+    "literalMeaningCn": "写在旁边的一段",
+    "metaphorMeaningCn": "文章里换一行起的一段",
+    "metaphorOptions": [
+      "文章里换一行起的一段",
+      "大家共同凑出来的一段",
+      "单一来源的一小段话"
+    ],
+    "exampleEn": "This paragraph is vague.",
+    "exampleCn": "這一個段落是模糊不清的。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "para",
+        "surface": "para",
+        "position": 0
+      },
+      {
+        "morphemeId": "graph",
+        "surface": "graph",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "ary",
+        "type": "form"
+      },
+      {
+        "text": "ory",
+        "type": "meaning"
+      },
+      {
+        "text": "s",
+        "type": "random"
+      },
+      {
+        "text": "logy",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "biography",
+      "photograph",
+      "graphite"
+    ],
+    "sourceNote": "para（旁）+ graph（写）：另起一笔写下的内容块。",
+    "mnemonicNote": "para 旁 + graph 写：在页边另写的一块。"
+  },
+  {
+    "id": "photograph",
+    "word": "photograph",
+    "phonetic": "/'fәutәgrɑ:f/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "照片",
+    "literalMeaningCn": "用光画下来",
+    "metaphorMeaningCn": "光帮着拍的那张图",
+    "metaphorOptions": [
+      "光帮着拍的那张图",
+      "把周围景色记录下来",
+      "从门口进入的瞬间"
+    ],
+    "exampleEn": "I want your photograph.",
+    "exampleCn": "我想要你的一张照片。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "photo",
+        "surface": "photo",
+        "position": 0
+      },
+      {
+        "morphemeId": "graph",
+        "surface": "graph",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "bio",
+        "type": "form"
+      },
+      {
+        "text": "gen",
+        "type": "meaning"
+      },
+      {
+        "text": "log",
+        "type": "random"
+      },
+      {
+        "text": "pend",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "biography",
+      "paragraph",
+      "graphite"
+    ],
+    "sourceNote": "photo（光）+ graph（写/画）：用光记录下的画面。",
+    "mnemonicNote": "photo 光 + graph 写：用光留下的影像。"
+  },
+  {
+    "id": "graphite",
+    "word": "graphite",
+    "phonetic": "/'græfait/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "石墨",
+    "literalMeaningCn": "能写画的东西",
+    "metaphorMeaningCn": "铅笔芯里那黑粉",
+    "metaphorOptions": [
+      "铅笔芯里那黑粉",
+      "带有某种性质的石头",
+      "向下层层挖出的矿"
+    ],
+    "exampleEn": "Two kinds of lubricant are used on a bicycle--oil and graphite.",
+    "exampleCn": "自行车上使用的润滑剂有两种——油和石墨。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "graph",
+        "surface": "graph",
+        "position": 0
+      },
+      {
+        "morphemeId": "ite",
+        "surface": "ite",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "pre",
+        "type": "form"
+      },
+      {
+        "text": "spec",
+        "type": "meaning"
+      },
+      {
+        "text": "vid",
+        "type": "random"
+      },
+      {
+        "text": "able",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "biography",
+      "paragraph",
+      "photograph"
+    ],
+    "sourceNote": "graph（写）+ -ite（物）：可书写的黑色矿物。",
+    "mnemonicNote": "graph 写 + -ite：能书写的矿物。"
+  },
+  {
+    "id": "attract",
+    "word": "attract",
+    "phonetic": "/ә'trækt/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "吸引",
+    "literalMeaningCn": "朝自己拉过来",
+    "metaphorMeaningCn": "像磁铁把人吸过来",
+    "metaphorOptions": [
+      "像磁铁把人吸过来",
+      "两条线笔直地平行摆着",
+      "把要点记录在纸上"
+    ],
+    "exampleEn": "Cheap prices attract many customers.",
+    "exampleCn": "便宜的价格吸引许多顾客。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "at",
+        "surface": "at",
+        "position": 0
+      },
+      {
+        "morphemeId": "tract",
+        "surface": "tract",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "per",
+        "type": "form"
+      },
+      {
+        "text": "auto",
+        "type": "meaning"
+      },
+      {
+        "text": "en",
+        "type": "random"
+      },
+      {
+        "text": "dia",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "contract",
+      "retract"
+    ],
+    "sourceNote": "at（向）+ tract（拉）：拉过来聚拢。",
+    "mnemonicNote": "at 向 + tract 拉：把东西拉向自己。"
+  },
+  {
+    "id": "contract",
+    "word": "contract",
+    "phonetic": "/'kɒntrækt/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "合同；收缩",
+    "literalMeaningCn": "共同拉到一起",
+    "metaphorMeaningCn": "双方拽着签的那张纸",
+    "metaphorOptions": [
+      "双方拽着签的那张纸",
+      "一整套办事的过程",
+      "一个人出生的那间屋子"
+    ],
+    "exampleEn": "The contract was signed.",
+    "exampleCn": "契約簽訂了。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "con",
+        "surface": "con",
+        "position": 0
+      },
+      {
+        "morphemeId": "tract",
+        "surface": "tract",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "ity",
+        "type": "form"
+      },
+      {
+        "text": "cent",
+        "type": "meaning"
+      },
+      {
+        "text": "grad",
+        "type": "random"
+      },
+      {
+        "text": "mob",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "attract",
+      "retract"
+    ],
+    "sourceNote": "con（共同）+ tract（拉）：拉到一起即合同/收缩。",
+    "mnemonicNote": "con 共同 + tract 拉：拉到一起即合同/收缩。"
+  },
+  {
+    "id": "retract",
+    "word": "retract",
+    "phonetic": "/ri'trækt/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "收回；缩回",
+    "literalMeaningCn": "拉回去",
+    "metaphorMeaningCn": "把说出的话扯回来",
+    "metaphorOptions": [
+      "把说出的话扯回来",
+      "彼此之间相互相信",
+      "把嗓子里的声音放出来"
+    ],
+    "exampleEn": "I would like to retract my previous statement.",
+    "exampleCn": "我想撤回我之前的陈述。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "re",
+        "surface": "re",
+        "position": 0
+      },
+      {
+        "morphemeId": "tract",
+        "surface": "tract",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "circum",
+        "type": "form"
+      },
+      {
+        "text": "spec",
+        "type": "meaning"
+      },
+      {
+        "text": "vid",
+        "type": "random"
+      },
+      {
+        "text": "able",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "respect",
+      "report",
+      "revise",
+      "reject",
+      "attract",
+      "contract"
+    ],
+    "sourceNote": "re（回）+ tract（拉）：拉回即收回/缩回。",
+    "mnemonicNote": "re 回 + tract 拉：拉回即收回。"
+  },
+  {
+    "id": "factory",
+    "word": "factory",
+    "phonetic": "/'fæktәri/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "工厂",
+    "literalMeaningCn": "做东西的场所",
+    "metaphorMeaningCn": "机器轰鸣的生产车间",
+    "metaphorOptions": [
+      "机器轰鸣的生产车间",
+      "人们日常的行为习惯",
+      "把材料彻底用完"
+    ],
+    "exampleEn": "That factory makes toys.",
+    "exampleCn": "那家工廠生產玩具。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "fac",
+        "surface": "fac",
+        "position": 0
+      },
+      {
+        "morphemeId": "ory",
+        "surface": "tory",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "dict",
+        "type": "form"
+      },
+      {
+        "text": "ion",
+        "type": "meaning"
+      },
+      {
+        "text": "ity",
+        "type": "random"
+      },
+      {
+        "text": "cent",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "facility",
+      "benefactor"
+    ],
+    "sourceNote": "fac（做）+ -ory（场所）：专门制造的场所。",
+    "mnemonicNote": "fac 做 + -ory 场所：动手生产的地方。"
+  },
+  {
+    "id": "facility",
+    "word": "facility",
+    "phonetic": "/fә'siliti/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "设施；场所",
+    "literalMeaningCn": "做某事的便利条件",
+    "metaphorMeaningCn": "干活的那个场子",
+    "metaphorOptions": [
+      "干活的那个场子",
+      "预先安排好的一切",
+      "有生命的一大片林子"
+    ],
+    "exampleEn": "Is the facility clean?",
+    "exampleCn": "这个设施干净吗？",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "fac",
+        "surface": "fac",
+        "position": 0
+      },
+      {
+        "morphemeId": "ility",
+        "surface": "ility",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "ive",
+        "type": "form"
+      },
+      {
+        "text": "aud",
+        "type": "meaning"
+      },
+      {
+        "text": "cred",
+        "type": "random"
+      },
+      {
+        "text": "ject",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "mobility",
+      "factory",
+      "benefactor"
+    ],
+    "sourceNote": "fac（做）+ -ility：便利的设施/场所。",
+    "mnemonicNote": "fac 做 + ility：做事的便利条件即设施。"
+  },
+  {
+    "id": "benefactor",
+    "word": "benefactor",
+    "phonetic": "/'benifæktә/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "恩人；捐助者",
+    "literalMeaningCn": "做好事的人",
+    "metaphorMeaningCn": "暗中帮你一把的人",
+    "metaphorOptions": [
+      "暗中帮你一把的人",
+      "把东西随手移动的人",
+      "在周围照看一切的老人"
+    ],
+    "exampleEn": "A wealthy benefactor paid for the new library.",
+    "exampleCn": "一位富有的捐助者出钱建了新图书馆。",
+    "difficulty": 5,
+    "parts": [
+      {
+        "morphemeId": "ben",
+        "surface": "bene",
+        "position": 0
+      },
+      {
+        "morphemeId": "fac",
+        "surface": "fac",
+        "position": 1
+      },
+      {
+        "morphemeId": "or",
+        "surface": "tor",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "de",
+        "type": "form"
+      },
+      {
+        "text": "sub",
+        "type": "meaning"
+      },
+      {
+        "text": "uni",
+        "type": "random"
+      },
+      {
+        "text": "en",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "dictator",
+      "factory",
+      "facility"
+    ],
+    "sourceNote": "ben（好）+ fac（做）+ -or（人）：做好事的人即恩人/捐助者。",
+    "mnemonicNote": "ben 好 + fac 做 + or 人：行善者即恩人。"
+  }
+]

@@ -1,0 +1,103 @@
+{
+  "_comment": "Stage 1 缺中文对照的词的静态兜底例句（handoff 模式，零成本、无 OpenRouter）。英文句来自 Tatoeba，中文译文由人工补写并保证：含该词、有汉字、无拉丁字母、4–20 词。22-choose-examples.mjs 在 tatoeba 无中文对照时优先用这里。",
+  "audio": {
+    "exampleEn": "The audio is too loud.",
+    "exampleCn": "这段音频太响了。",
+    "sentenceId": "handoff"
+  },
+  "deport": {
+    "exampleEn": "They threatened to deport him last year.",
+    "exampleCn": "他们威胁要在去年把他驱逐出境。",
+    "sentenceId": "handoff"
+  },
+  "envision": {
+    "exampleEn": "That's not hard to envision.",
+    "exampleCn": "那并不难想象。",
+    "sentenceId": "handoff"
+  },
+  "audible": {
+    "exampleEn": "The sound wasn't very audible.",
+    "exampleCn": "那声音不太听得清楚。",
+    "sentenceId": "handoff"
+  },
+  "biography": {
+    "exampleEn": "This biography is fascinating.",
+    "exampleCn": "这本传记引人入胜。",
+    "sentenceId": "handoff"
+  },
+  "biotech": {
+    "exampleEn": "She works for a biotech company in the city.",
+    "exampleCn": "她在城里一家生物技术公司工作。",
+    "sentenceId": "handoff"
+  },
+  "centennial": {
+    "exampleEn": "The town held a centennial celebration last summer.",
+    "exampleCn": "去年夏天镇上举行了百年庆典。",
+    "sentenceId": "handoff"
+  },
+  "credential": {
+    "exampleEn": "An internship is the most important credential for entering the job market.",
+    "exampleCn": "实习是进入职场最重要的资历证明。",
+    "sentenceId": "handoff"
+  },
+  "genetics": {
+    "exampleEn": "You can't blame genetics!",
+    "exampleCn": "这不能怪基因！",
+    "sentenceId": "handoff"
+  },
+  "degrade": {
+    "exampleEn": "Batteries degrade over time.",
+    "exampleCn": "电池会随着时间老化。",
+    "sentenceId": "handoff"
+  },
+  "reject": {
+    "exampleEn": "Many people reject this kind of idea.",
+    "exampleCn": "许多人拒绝这种想法。",
+    "sentenceId": "handoff"
+  },
+  "eject": {
+    "exampleEn": "Press this button to eject the disc.",
+    "exampleCn": "按这个按钮就能弹出光盘。",
+    "sentenceId": "handoff"
+  },
+  "catalog": {
+    "exampleEn": "Send me a new catalog.",
+    "exampleCn": "给我寄一份新的目录。",
+    "sentenceId": "handoff"
+  },
+  "mobility": {
+    "exampleEn": "The team lacked mobility.",
+    "exampleCn": "这支队伍缺乏机动性。",
+    "sentenceId": "handoff"
+  },
+  "suspend": {
+    "exampleEn": "The school may suspend students for fighting.",
+    "exampleCn": "学校可能会让打架的学生停学。",
+    "sentenceId": "handoff"
+  },
+  "pendulum": {
+    "exampleEn": "What is a pendulum?",
+    "exampleCn": "什么是摆？",
+    "sentenceId": "handoff"
+  },
+  "graphite": {
+    "exampleEn": "Two kinds of lubricant are used on a bicycle--oil and graphite.",
+    "exampleCn": "自行车上使用的润滑剂有两种——油和石墨。",
+    "sentenceId": "handoff"
+  },
+  "facility": {
+    "exampleEn": "Is the facility clean?",
+    "exampleCn": "这个设施干净吗？",
+    "sentenceId": "handoff"
+  },
+  "benefactor": {
+    "exampleEn": "A wealthy benefactor paid for the new library.",
+    "exampleCn": "一位富有的捐助者出钱建了新图书馆。",
+    "sentenceId": "handoff"
+  },
+  "attract": {
+    "exampleEn": "Cheap prices attract many customers.",
+    "exampleCn": "便宜的价格吸引许多顾客。",
+    "sentenceId": "handoff"
+  }
+}

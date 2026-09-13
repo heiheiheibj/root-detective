@@ -31,10 +31,15 @@ export interface ContentRuleOptions {
    * 依赖生成契约的规则会整体跳过，报告里记一行「跳过」，而不是假装通过了。
    */
   generated?: boolean
+  /**
+   * 手写词条 id 集合。即便整体 generated=true（有 provenance），这些词仍按手写对待：
+   * A12（错项复用真实义项）、超长样式错误降级为 warning。canary 16 词在这里。
+   */
+  handwrittenIds?: Set<string>
 }
 
 /** 产物里应当有多少个词。测试和闸门都读它，避免两边各说各话。 */
-export const TARGET_WORD_COUNT = 16
+export const TARGET_WORD_COUNT = 300
 /** 聚合类规则在样本太小时只会报噪声（4 个词根当然铺不满三档难度），到 Stage 2 才启用。 */
 export const AGGREGATE_MIN_WORDS = 50
 export const MIN_WORDS_PER_ROOT = 3
@@ -55,6 +60,13 @@ const HANZI_PATTERN = /[一-鿿]/g
 const LATIN_PATTERN = /[A-Za-z]/
 /** 量相似度时要先扔掉标点，否则「，」会把两句话人为拉近。 */
 const PUNCTUATION_PATTERN = /[\s，。、；：（）()「」《》…—·,.!?;:'"-]/g
+
+/**
+ * A28：元话语和占位符。干扰项必须是一个「错的画面」，不能是「这是哪个词素的意思」这种
+ * 解释自己的句子，也不能留着模板里的省略号。这套管线第一版就栽在这上面——102 个干扰项
+ * 全是「讲的其实是X / 说的还是Y」，机械闸门（A10/A11/A12/A13）一条都拦不住。
+ */
+const META_OPTION_PATTERN = /讲的是|说的是|指的是|其实是|讲的还是|说的还是|…/
 
 export function normalizeMorphemeKey(text: string) {
   return text.replace(/^-+/, '').replace(/-+$/, '')
@@ -125,8 +137,9 @@ export function exampleContainsWord(exampleEn: string, word: string) {
 export function validateContent(morphemes: readonly Morpheme[], words: readonly Word[], options: ContentRuleOptions = {}): Finding[] {
   const findings: Finding[] = []
   const generated = options.generated === true
+  const isHandwritten = (id: string) => options.handwrittenIds?.has(id) ?? false
   // 生成内容有提示词契约兜着，超长就是真失败；手写内容超长只是排版问题，降成警告。
-  const styleLevel: FindingLevel = generated ? 'error' : 'warning'
+  const levelForWord = (id: string): FindingLevel => (generated && !isHandwritten(id)) ? 'error' : 'warning'
   const say = (level: FindingLevel, rule: string, target: string, message: string) => findings.push({ level, rule, target, message })
 
   const morphemeById = new Map(morphemes.map((morpheme) => [morpheme.id, morpheme]))
@@ -235,7 +248,7 @@ export function validateContent(morphemes: readonly Morpheme[], words: readonly 
     })
 
     // A12：错项得是「有具体理由地错」——复用别处的真实义项，而不是随便编一句。
-    if (generated) {
+    if (generated && !isHandwritten(word.id)) {
       const ownGlosses = new Set(word.parts.flatMap((part) => {
         const morpheme = morphemeById.get(part.morphemeId)
         return morpheme ? splitGlosses(morpheme.meaningCn) : []
@@ -253,6 +266,9 @@ export function validateContent(morphemes: readonly Morpheme[], words: readonly 
     }
     word.metaphorOptions.forEach((option, index) => {
       if (hasLatin(option)) say('error', 'A13', at, `metaphorOptions[${index}] 里不能有拉丁字母：${option}`)
+      if (META_OPTION_PATTERN.test(option)) {
+        say('error', 'A28', at, `metaphorOptions[${index}] 是元话语或占位符，不是画面：${option}`)
+      }
     })
     if (word.metaphorMeaningCn === word.literalMeaningCn) say('error', 'A13', at, 'metaphorMeaningCn 和 literalMeaningCn 一字不差')
 
@@ -289,13 +305,13 @@ export function validateContent(morphemes: readonly Morpheme[], words: readonly 
       }
     }
 
-    if (countHanzi(word.literalMeaningCn) > MAX_LITERAL_HANZI) say(styleLevel, 'A13', at, `literalMeaningCn ${countHanzi(word.literalMeaningCn)} 字，超过 ${MAX_LITERAL_HANZI}`)
-    if (countHanzi(word.metaphorMeaningCn) > MAX_METAPHOR_HANZI) say(styleLevel, 'A13', at, `metaphorMeaningCn ${countHanzi(word.metaphorMeaningCn)} 字，超过 ${MAX_METAPHOR_HANZI}`)
+    if (countHanzi(word.literalMeaningCn) > MAX_LITERAL_HANZI) say(levelForWord(word.id), 'A13', at, `literalMeaningCn ${countHanzi(word.literalMeaningCn)} 字，超过 ${MAX_LITERAL_HANZI}`)
+    if (countHanzi(word.metaphorMeaningCn) > MAX_METAPHOR_HANZI) say(levelForWord(word.id), 'A13', at, `metaphorMeaningCn ${countHanzi(word.metaphorMeaningCn)} 字，超过 ${MAX_METAPHOR_HANZI}`)
     word.metaphorOptions.forEach((option, index) => {
-      if (countHanzi(option) > MAX_METAPHOR_HANZI) say(styleLevel, 'A13', at, `metaphorOptions[${index}] ${countHanzi(option)} 字，超过 ${MAX_METAPHOR_HANZI}`)
+      if (countHanzi(option) > MAX_METAPHOR_HANZI) say(levelForWord(word.id), 'A13', at, `metaphorOptions[${index}] ${countHanzi(option)} 字，超过 ${MAX_METAPHOR_HANZI}`)
     })
-    if (word.mnemonicNote.length > MAX_MNEMONIC_CHARS) say(styleLevel, 'A14', at, `mnemonicNote ${word.mnemonicNote.length} 字，超过 ${MAX_MNEMONIC_CHARS}`)
-    if (word.sourceNote.length > MAX_SOURCE_NOTE_CHARS) say(styleLevel, 'A14', at, `sourceNote ${word.sourceNote.length} 字，超过 ${MAX_SOURCE_NOTE_CHARS}`)
+    if (word.mnemonicNote.length > MAX_MNEMONIC_CHARS) say(levelForWord(word.id), 'A14', at, `mnemonicNote ${word.mnemonicNote.length} 字，超过 ${MAX_MNEMONIC_CHARS}`)
+    if (word.sourceNote.length > MAX_SOURCE_NOTE_CHARS) say(levelForWord(word.id), 'A14', at, `sourceNote ${word.sourceNote.length} 字，超过 ${MAX_SOURCE_NOTE_CHARS}`)
   }
 
   // ---------- 逐词素 ----------
@@ -317,7 +333,7 @@ export function validateContent(morphemes: readonly Morpheme[], words: readonly 
     }
     const glossHanzi = countHanzi(morpheme.meaningCn)
     if (glossHanzi < 1 || glossHanzi > MAX_GLOSS_HANZI) {
-      say(styleLevel, 'A20', at, `meaningCn 有 ${glossHanzi} 个汉字，应在 1–${MAX_GLOSS_HANZI}`)
+      say((generated ? 'error' : 'warning'), 'A20', at, `meaningCn 有 ${glossHanzi} 个汉字，应在 1–${MAX_GLOSS_HANZI}`)
     }
     if (morpheme.allomorphs.length === 0) say('error', 'A20', at, 'allomorphs 为空，surface 就无从校验')
   }

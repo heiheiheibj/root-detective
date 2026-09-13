@@ -1,0 +1,603 @@
+{
+  "_comment": "Stage 2 释义文案 第 3 批 v2（干扰项内嵌外来义项；A14 已修）",
+  "immigrant": {
+    "modernMeaningCn": "移民；侨民",
+    "literalMeaningCn": "迁进来的人",
+    "metaphorMeaningCn": "拖着行李箱跨进国门的人",
+    "metaphorOptions": [
+      "拖着行李箱跨进国门的人",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "im 入 + migr 迁移 + -ant（人）：迁进来的人。",
+    "sourceNote": "im-（入）+ migr（迁移）+ -ant（人）：迁入者。"
+  },
+  "immigration": {
+    "modernMeaningCn": "移民入境；移民局",
+    "literalMeaningCn": "迁进来的动作",
+    "metaphorMeaningCn": "机场里排队盖章的那条长龙",
+    "metaphorOptions": [
+      "机场里排队盖章的那条长龙",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "im+migr 迁移 + -ation（过程）：迁进来的整件事。",
+    "sourceNote": "im-（入）+ migr（迁）+ -ation（名词）：迁入之事。"
+  },
+  "migrant": {
+    "modernMeaningCn": "迁徙者；候鸟；流动工人",
+    "literalMeaningCn": "迁移的人",
+    "metaphorMeaningCn": "跟着季节搬家的一家人",
+    "metaphorOptions": [
+      "跟着季节搬家的一家人",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "migr 迁移 + -ant（人）：随季而迁的过客。",
+    "sourceNote": "migr（迁移）+ -ant（者）：随季而迁者。"
+  },
+  "migrate": {
+    "modernMeaningCn": "迁徙；移居",
+    "literalMeaningCn": "迁移",
+    "metaphorMeaningCn": "雁阵换季在天上搬家",
+    "metaphorOptions": [
+      "雁阵换季在天上搬家",
+      "周围开满野花的湖",
+      "回到出生池塘的青蛙"
+    ],
+    "mnemonicNote": "migr 迁移 + -ate（动作）：成群搬去别处。",
+    "sourceNote": "migr（迁移）+ -ate（动作）：迁往他方。"
+  },
+  "migratory": {
+    "modernMeaningCn": "迁徙的；流浪的",
+    "literalMeaningCn": "爱迁移的",
+    "metaphorMeaningCn": "春天向北秋天向南的翅膀",
+    "metaphorOptions": [
+      "春天向北秋天向南的翅膀",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "migrat 迁移 + -ory（…的）：生来爱搬家。",
+    "sourceNote": "migrat（迁）+ -ory（…的）：随季而动。"
+  },
+  "mirror": {
+    "modernMeaningCn": "镜子；反映",
+    "literalMeaningCn": "令人惊看的东西",
+    "metaphorMeaningCn": "把你的脸原样还给你",
+    "metaphorOptions": [
+      "把你的脸原样还给你",
+      "周围开满野花的湖",
+      "把声音传到隔壁的墙"
+    ],
+    "mnemonicNote": "mirr 惊奇 + -or（物）：让人端详自己的东西。",
+    "sourceNote": "mirr（惊奇）+ -or（物）：照见自己之器。"
+  },
+  "admire": {
+    "modernMeaningCn": "钦佩；赞赏",
+    "literalMeaningCn": "朝它惊奇地看",
+    "metaphorMeaningCn": "仰着头看不动的那一眼",
+    "metaphorOptions": [
+      "仰着头看不动的那一眼",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "ad 朝 + mire 惊奇：望之而叹。",
+    "sourceNote": "ad-（朝向）+ mire（惊奇）：望之生羡。"
+  },
+  "admiration": {
+    "modernMeaningCn": "钦佩；赞赏",
+    "literalMeaningCn": "惊奇之看",
+    "metaphorMeaningCn": "散场后不肯走的目光",
+    "metaphorOptions": [
+      "散场后不肯走的目光",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "ad+mir 惊奇 + -ation（状态）：那份仰望。",
+    "sourceNote": "ad-（朝）+ mir（惊奇）+ -ation（名词）：仰望之情。"
+  },
+  "miracle": {
+    "modernMeaningCn": "奇迹；奇事",
+    "literalMeaningCn": "令人惊异的小东西",
+    "metaphorMeaningCn": "枯井里忽然涌出的清泉",
+    "metaphorOptions": [
+      "枯井里忽然涌出的清泉",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "mir 惊奇 + -acle（小东西）：让人惊呼的事。",
+    "sourceNote": "mir（惊奇）+ -acle（小东西）：令人惊叹之事。"
+  },
+  "miraculous": {
+    "modernMeaningCn": "奇迹般的；不可思议的",
+    "literalMeaningCn": "满是惊奇的",
+    "metaphorMeaningCn": "断翅的纸飞机又飞上了天",
+    "metaphorOptions": [
+      "断翅的纸飞机又飞上了天",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "miracul 惊奇 + -ous（…的）：如奇迹一般。",
+    "sourceNote": "miracul（奇迹）+ -ous（…的）：如奇迹一般。"
+  },
+  "social": {
+    "modernMeaningCn": "社会的；社交的",
+    "literalMeaningCn": "同伴之间的",
+    "metaphorMeaningCn": "广场上人挨着人的热闹",
+    "metaphorOptions": [
+      "广场上人挨着人的热闹",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "soci 同伴 + -al（…的）：人与人之间的热闹。",
+    "sourceNote": "soci（同伴）+ -al（…的）：结伴而居。"
+  },
+  "society": {
+    "modernMeaningCn": "社会；社团",
+    "literalMeaningCn": "同伴们的总体",
+    "metaphorMeaningCn": "一张把所有人织进网里",
+    "metaphorOptions": [
+      "一张把所有人织进网里",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "soci 同伴 + -ety（集合）：众人结成的一体。",
+    "sourceNote": "soci（同伴）+ -ety（集合）：结伴之总体。"
+  },
+  "sociology": {
+    "modernMeaningCn": "社会学",
+    "literalMeaningCn": "研究同伴群体的学问",
+    "metaphorMeaningCn": "给人群画像的一门学问",
+    "metaphorOptions": [
+      "给人群画像的一门学问",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "soci 群体 + ology 学：给人群画像的学问。",
+    "sourceNote": "soci（群体）+ -ology（学）：究人群之学。"
+  },
+  "associate": {
+    "modernMeaningCn": "联想；交往；同事",
+    "literalMeaningCn": "与同伴结交",
+    "metaphorMeaningCn": "把两件事拴在一根绳上",
+    "metaphorOptions": [
+      "把两件事拴在一根绳上",
+      "周围开满野花的湖",
+      "把两件事分开归档的文员"
+    ],
+    "mnemonicNote": "as 朝 + soci 同伴 + -ate：与同伴结到一起。",
+    "sourceNote": "as-（朝）+ soci（同伴）+ -ate（使）：与之结伴。"
+  },
+  "sociable": {
+    "modernMeaningCn": "好交际的；友善的",
+    "literalMeaningCn": "喜欢同伴的",
+    "metaphorMeaningCn": "人堆里永远有他的笑声",
+    "metaphorOptions": [
+      "人堆里永远有他的笑声",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "soci 同伴 + -able（能够…的）：乐于结伴。",
+    "sourceNote": "soci（同伴）+ -able（…的）：乐与人处。"
+  },
+  "influence": {
+    "modernMeaningCn": "影响；影响力",
+    "literalMeaningCn": "流入其中",
+    "metaphorMeaningCn": "一滴墨悄悄染开一池水",
+    "metaphorOptions": [
+      "一滴墨悄悄染开一池水",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "in 入 + flu 流 + -ence（状态）：流进心里的事。",
+    "sourceNote": "in-（入）+ flu（流）+ -ence（名词）：流入其中。"
+  },
+  "fluent": {
+    "modernMeaningCn": "流利的；流畅的",
+    "literalMeaningCn": "流动着的",
+    "metaphorMeaningCn": "一口气淌出门的溪水话",
+    "metaphorOptions": [
+      "一口气淌出门的溪水话",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "flu 流 + -ent（…的）：话语像水淌出来。",
+    "sourceNote": "flu（流）+ -ent（…的）：如水之流。"
+  },
+  "fluid": {
+    "modernMeaningCn": "流体；流动的",
+    "literalMeaningCn": "能流动的东西",
+    "metaphorMeaningCn": "倒进什么形状就成什么形",
+    "metaphorOptions": [
+      "倒进什么形状就成什么形",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "flu 流 + -id（…的）：能四处流动的。",
+    "sourceNote": "flu（流）+ -id（…的）：可以流动者。"
+  },
+  "fluctuate": {
+    "modernMeaningCn": "波动；起伏",
+    "literalMeaningCn": "来回地流",
+    "metaphorMeaningCn": "潮水涨了又退退了又涨",
+    "metaphorOptions": [
+      "潮水涨了又退退了又涨",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "fluct 流动 + -uate（动作）：来回荡漾不停。",
+    "sourceNote": "fluct（流）+ -uate（动作）：起伏不定。"
+  },
+  "influx": {
+    "modernMeaningCn": "涌入；流入",
+    "literalMeaningCn": "向内流",
+    "metaphorMeaningCn": "闸门一开人潮灌进站",
+    "metaphorOptions": [
+      "闸门一开人潮灌进站",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "in 入 + flux 流动：向内涌来的人潮。",
+    "sourceNote": "in-（入）+ flux（流）：流入之潮。"
+  },
+  "contact": {
+    "modernMeaningCn": "接触；联系",
+    "literalMeaningCn": "共同触碰",
+    "metaphorMeaningCn": "指尖相碰的那一下静电",
+    "metaphorOptions": [
+      "指尖相碰的那一下静电",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "con 共同 + tact 触碰：彼此碰上。",
+    "sourceNote": "con-（共同）+ tact（触碰）：相触相连。"
+  },
+  "intact": {
+    "modernMeaningCn": "完好无损的",
+    "literalMeaningCn": "未被触碰的",
+    "metaphorMeaningCn": "地震后还立着的那只瓷碗",
+    "metaphorOptions": [
+      "地震后还立着的那只瓷碗",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "in 未 + tact 触碰：没被碰过一根指头。",
+    "sourceNote": "in-（未）+ tact（触碰）：未受触碰。"
+  },
+  "tangible": {
+    "modernMeaningCn": "有形的；切实的",
+    "literalMeaningCn": "摸得到的",
+    "metaphorMeaningCn": "捧在手里有分量的奖杯",
+    "metaphorOptions": [
+      "捧在手里有分量的奖杯",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "tang 触碰 + -ible（能够…的）：伸手能碰到。",
+    "sourceNote": "tang（触碰）+ -ible（能…的）：可触可感。"
+  },
+  "tactile": {
+    "modernMeaningCn": "触觉的；可触的",
+    "literalMeaningCn": "属于触碰的",
+    "metaphorMeaningCn": "靠手指认路的那个夜",
+    "metaphorOptions": [
+      "靠手指认路的那个夜",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "tact 触碰 + -ile（…的）：用皮肤感受。",
+    "sourceNote": "tact（触碰）+ -ile（…的）：属于触感。"
+  },
+  "contagious": {
+    "modernMeaningCn": "传染性的；有感染力的",
+    "literalMeaningCn": "接触就传开的",
+    "metaphorMeaningCn": "一个喷嚏吹倒一排人",
+    "metaphorOptions": [
+      "一个喷嚏吹倒一排人",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "con+tag 触碰 + -ious（…的）：一触就传开。",
+    "sourceNote": "con-（共）+ tag（触）+ -ious（…的）：触而相传。"
+  },
+  "novel": {
+    "modernMeaningCn": "小说；新颖的",
+    "literalMeaningCn": "新的",
+    "metaphorMeaningCn": "刚拆封还带着墨香的玩意",
+    "metaphorOptions": [
+      "刚拆封还带着墨香的玩意",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "nov 新 + -el（名词）：写人世的新故事。",
+    "sourceNote": "nov（新）+ -el（名词）：新奇之篇，即小说。"
+  },
+  "novelty": {
+    "modernMeaningCn": "新颖；新奇事物",
+    "literalMeaningCn": "新的性质",
+    "metaphorMeaningCn": "三天就玩腻的新玩具",
+    "metaphorOptions": [
+      "三天就玩腻的新玩具",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "novel 新 + -ty（性质）：那份新鲜劲儿。",
+    "sourceNote": "novel（新）+ -ty（性质）：新鲜之感。"
+  },
+  "innovation": {
+    "modernMeaningCn": "创新；革新",
+    "literalMeaningCn": "把新引进来",
+    "metaphorMeaningCn": "旧墙上开出的第一扇窗",
+    "metaphorOptions": [
+      "旧墙上开出的第一扇窗",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "in 入 + nov 新 + -ation（过程）：引进新东西。",
+    "sourceNote": "in-（入）+ nov（新）+ -ation（名词）：纳新之举。"
+  },
+  "renovate": {
+    "modernMeaningCn": "翻新；修复",
+    "literalMeaningCn": "使重新变新",
+    "metaphorMeaningCn": "给老房子换上新的门脸",
+    "metaphorOptions": [
+      "给老房子换上新的门脸",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "re 再 + nov 新 + -ate（使）：让它重新精神起来。",
+    "sourceNote": "re-（再）+ nov（新）+ -ate（使）：复新其貌。"
+  },
+  "novice": {
+    "modernMeaningCn": "新手；初学者",
+    "literalMeaningCn": "刚入门的新人",
+    "metaphorMeaningCn": "第一天穿上道服的生面孔",
+    "metaphorOptions": [
+      "第一天穿上道服的生面孔",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "nov 新 + -ice（小东西→人）：新来的人。",
+    "sourceNote": "nov（新）+ -ice（人）：初入行者。"
+  },
+  "salary": {
+    "modernMeaningCn": "薪水；工资",
+    "literalMeaningCn": "买盐的钱",
+    "metaphorMeaningCn": "每月按时到账的盐钱",
+    "metaphorOptions": [
+      "每月按时到账的盐钱",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "salar 盐 + -y（集合→钱）：古罗马士兵的买盐钱。",
+    "sourceNote": "salar（盐）+ -y（钱）：发盐作酬，即薪水。"
+  },
+  "sausage": {
+    "modernMeaningCn": "香肠；腊肠",
+    "literalMeaningCn": "用盐做的东西",
+    "metaphorMeaningCn": "灌得鼓鼓的一节节肉肠",
+    "metaphorOptions": [
+      "灌得鼓鼓的一节节肉肠",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "saus 盐腌 + -age（行为产物）：盐腌灌成的肠。",
+    "sourceNote": "saus（盐腌）+ -age（物）：腌灌之肠。"
+  },
+  "saucer": {
+    "modernMeaningCn": "茶碟；小碟",
+    "literalMeaningCn": "盛着盐碟的器物",
+    "metaphorMeaningCn": "端着茶杯底下垫的小圆盘",
+    "metaphorOptions": [
+      "端着茶杯底下垫的小圆盘",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "sauc 盐碟 + -er（小东西）：杯下的小碟。",
+    "sourceNote": "sauc（碟）+ -er（小物）：承杯小碟。"
+  },
+  "salad": {
+    "modernMeaningCn": "沙拉；凉拌菜",
+    "literalMeaningCn": "盐渍的菜",
+    "metaphorMeaningCn": "淋了油醋汁的一盆生绿",
+    "metaphorOptions": [
+      "淋了油醋汁的一盆生绿",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "sal 盐 + -ad（菜）：盐拌的生凉菜。",
+    "sourceNote": "sal（盐）+ -ad（菜）：盐拌生菜，即沙拉。"
+  },
+  "saline": {
+    "modernMeaningCn": "含盐的；生理盐水",
+    "literalMeaningCn": "盐的",
+    "metaphorMeaningCn": "吊瓶里那袋透明咸水",
+    "metaphorOptions": [
+      "吊瓶里那袋透明咸水",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "sal 盐 + -ine（…的）：含盐的那袋水。",
+    "sourceNote": "sal（盐）+ -ine（…的）：含盐之液。"
+  },
+  "artificial": {
+    "modernMeaningCn": "人造的；人工的",
+    "literalMeaningCn": "用技艺做出来的",
+    "metaphorMeaningCn": "温室里开得一模一样的假花",
+    "metaphorOptions": [
+      "温室里开得一模一样的假花",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "art 技艺 + ific 制造 + -ial（…的）：手艺做出来的。",
+    "sourceNote": "art（技艺）+ ific（制造）+ -ial（…的）：人工所造。"
+  },
+  "artistic": {
+    "modernMeaningCn": "艺术的；有美感的",
+    "literalMeaningCn": "技艺的",
+    "metaphorMeaningCn": "调色盘上永远搅不匀的美",
+    "metaphorOptions": [
+      "调色盘上永远搅不匀的美",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "art 艺术 + -ist + -ic（…的）：带着艺术气味。",
+    "sourceNote": "art（艺术）+ -ist + -ic（…的）：属于艺道。"
+  },
+  "artifact": {
+    "modernMeaningCn": "人工制品；手工艺品",
+    "literalMeaningCn": "技艺做出来的物件",
+    "metaphorMeaningCn": "古墓里出土的那只青铜杯",
+    "metaphorOptions": [
+      "古墓里出土的那只青铜杯",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "arti 技艺 + fact 制造：人手做成的器物。",
+    "sourceNote": "arti（技艺）+ fact（制造）：人工所成之物。"
+  },
+  "physics": {
+    "modernMeaningCn": "物理学",
+    "literalMeaningCn": "关于自然的学问",
+    "metaphorMeaningCn": "追问苹果为何落地的那门学",
+    "metaphorOptions": [
+      "追问苹果为何落地的那门学",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "phys 自然 + -ics（学问）：研究自然之理的学问。",
+    "sourceNote": "phys（自然）+ -ics（学）：自然之学。"
+  },
+  "physical": {
+    "modernMeaningCn": "身体的；物理的",
+    "literalMeaningCn": "属于自然身体的",
+    "metaphorMeaningCn": "跑完八百米喘着的胸口",
+    "metaphorOptions": [
+      "跑完八百米喘着的胸口",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "phys 自然 + -ic + -al（…的）：属于肉身的。",
+    "sourceNote": "phys（自然）+ -ic + -al（…的）：肉体之属。"
+  },
+  "physician": {
+    "modernMeaningCn": "内科医生；医师",
+    "literalMeaningCn": "通晓身体的人",
+    "metaphorMeaningCn": "把脉问诊的白衣先生",
+    "metaphorOptions": [
+      "把脉问诊的白衣先生",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "physic 身体 + -ian（人）：治身体之疾的人。",
+    "sourceNote": "physic（身体）+ -ian（人）：疗身之人。"
+  },
+  "physicist": {
+    "modernMeaningCn": "物理学家",
+    "literalMeaningCn": "研究自然之理的人",
+    "metaphorMeaningCn": "黑板前推公式的眼镜先生",
+    "metaphorOptions": [
+      "黑板前推公式的眼镜先生",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "physic 物理 + -ist（人）：钻研物理的行家。",
+    "sourceNote": "physic（物理）+ -ist（人）：治物理之学者。"
+  },
+  "physiology": {
+    "modernMeaningCn": "生理学",
+    "literalMeaningCn": "研究身体运转的学问",
+    "metaphorMeaningCn": "拆解身体这台机器的说明书",
+    "metaphorOptions": [
+      "拆解身体这台机器的说明书",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "physi 身体 + ology 学：讲身体如何运转的学问。",
+    "sourceNote": "physi（身体）+ -ology（学）：究生命机能之学。"
+  },
+  "submit": {
+    "modernMeaningCn": "提交；服从",
+    "literalMeaningCn": "从下面送上来",
+    "metaphorMeaningCn": "把呈文双手举过头顶递上",
+    "metaphorOptions": [
+      "把呈文双手举过头顶递上",
+      "周围开满野花的湖",
+      "把信塞进自己口袋的人"
+    ],
+    "mnemonicNote": "sub 在下 + mit 送：自下奉上。",
+    "sourceNote": "sub-（在下）+ mit（送）：自下奉上，即提交。"
+  },
+  "admit": {
+    "modernMeaningCn": "承认；准许进入",
+    "literalMeaningCn": "送进来",
+    "metaphorMeaningCn": "推开门说一声请进",
+    "metaphorOptions": [
+      "推开门说一声请进",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "ad 朝 + mit 送：把人送进门来。",
+    "sourceNote": "ad-（朝）+ mit（送）：迎纳而入，即准许进入。"
+  },
+  "permit": {
+    "modernMeaningCn": "允许；许可证",
+    "literalMeaningCn": "送过去放行",
+    "metaphorMeaningCn": "栏杆抬起放你过去的那下",
+    "metaphorOptions": [
+      "栏杆抬起放你过去的那下",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "per 通过 + mit 送：放你通行的那张纸。",
+    "sourceNote": "per-（通过）+ mit（送）：放行之物，即许可证。"
+  },
+  "mission": {
+    "modernMeaningCn": "使命；任务；代表团",
+    "literalMeaningCn": "被送出去的差事",
+    "metaphorMeaningCn": "揣在怀里非完成不可的那封信",
+    "metaphorOptions": [
+      "揣在怀里非完成不可的那封信",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "miss 送 + -ion（过程）：被派送出去的差事。",
+    "sourceNote": "miss（送）+ -ion（名词）：奉派而出之事。"
+  },
+  "dismiss": {
+    "modernMeaningCn": "解散；解雇；不予理会",
+    "literalMeaningCn": "分头送走",
+    "metaphorMeaningCn": "挥手让队伍各自回家",
+    "metaphorOptions": [
+      "挥手让队伍各自回家",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "dis 分开 + miss 送：各自送走。",
+    "sourceNote": "dis-（分开）+ miss（送）：遣散而去。"
+  },
+  "transmit": {
+    "modernMeaningCn": "传输；传播；传染",
+    "literalMeaningCn": "送过对面去",
+    "metaphorMeaningCn": "把信号送进千里外的天线",
+    "metaphorOptions": [
+      "把信号送进千里外的天线",
+      "周围开满野花的湖",
+      "把桥从中间炸断的人"
+    ],
+    "mnemonicNote": "trans 横穿 + mit 送：送过千里之外。",
+    "sourceNote": "trans-（越过）+ mit（送）：送而达远，即传输。"
+  },
+  "intermittent": {
+    "modernMeaningCn": "间歇的；断断续续的",
+    "literalMeaningCn": "在间隔之间送来",
+    "metaphorMeaningCn": "下一阵停一阵的太阳雨",
+    "metaphorOptions": [
+      "下一阵停一阵的太阳雨",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "inter 在……之间 + mitt 送 + -ent：隔着空当送来的雨。",
+    "sourceNote": "inter-（之间）+ mitt（送）+ -ent（…的）：隔间而发。"
+  }
+}

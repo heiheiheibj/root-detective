@@ -1,13 +1,3 @@
-# Stage 1 操作手册（照着做就行）
-
-> 这份文档是给**接手继续做的 AI** 用的。请**从头到尾按顺序读一遍再动手**。
-> 每一步都写了「做什么 / 敲什么命令 / 期望看到什么 / 出问题怎么办」。
-> 遇到没写过的情况，**停下来问用户**，不要自己发明做法。
->
-> **所有命令都在项目根目录执行**（就是这份文档所在仓库的根）。文档里不写绝对路径，
-> 因为每台机器的目录不一样。相对路径都是相对项目根的。
-
----
 
 # 第 0 步 · 先搞清你是谁、要干什么
 
@@ -24,21 +14,10 @@
 按顺序读，每个都要读完：
 
 1. `docs/扩词库计划.md` —— 总纲，四阶段的完整设计。**权威文档，和本文档冲突时以它为准。**
-2. `docs/AI交接说明.md` —— 项目现状、代码结构、已经踩过的坑。
-3. 本文档 —— 你要做的事的具体步骤。
+2. 本文档 —— 你要做的事的具体步骤。
 
 ## 0.3 绝对不要做的事（红线，违反了要回滚）
 
-| 不要做 | 为什么 |
-|---|---|
-| **不要改 `PROFILE_VERSION`**（在 `src/domain/persistence.ts`） | `normalizeProfile` 按 id 重映射，已经能正确迁移老档案。改了会让用户的存档失效 |
-| **不要在 `src/domain/contentRules.ts` 里加带值的相对 import** | 这个文件被裸 Node 直接加载，加错会让 `npm run validate:content` 静默失效。只需要 `import type` |
-| **不要删 `scripts/validate-content.mjs` 里硬编码的 16 个 canary 词 id** | 它们是唯一的回归锚点 |
-| **不要把 `kaikki-*` / `morphynet-*` 的任何句子写进 `src/`** | 那两份是 CC BY-SA，传染性的。写进去整个仓库就得转许可证，**单向门，不能反悔** |
-| **不要逐字复制 `cigen` / `shiweihappy` 的中文释义** | 它们的原始出处是新东方 PDF，仓库作者无权再授权 |
-| **不要跳过闸门直接改产物文件** | 产物由管线生成，手改会被下次重跑覆盖 |
-| **不要在 `tests/` 下新建临时/探针测试文件** | 基线是 **49 个测试、3 个文件**。临时文件会让基线漂移（多出来一个测试都不知道是不是自己写坏的），而且 `describe` 里一个 `it` 都没有会被 vitest 5 判为失败，看着像项目崩了。**不要写探针测试来找问题**，报错就按附录 B 处理 |
-| **不要为了让测试通过去改测试** | 那三个测试文件（content / logic / persistence）是基线契约。`git status` 里一旦出现 `M tests/*.test.ts` 就说明在拆东墙补西墙 |
 | **不要用 `git push` / 不要建远端仓库** | 用户没让你做 |
 
 ## 0.4 用户是谁（影响你怎么汇报）
@@ -52,10 +31,11 @@
 
 # 第 1 步 · 立刻开始干活
 
-**你现在就应该在项目根目录**（这份文档所在仓库的根）。不在就先切过去，
-本文档所有命令都在这里执行，命令里不再重复写路径。
+```bash
+cd "C:\inetpub\背单词新"
+```
 
-**然后从第 3 步开始按顺序做**。
+就这一条命令。**然后从第 3 步开始按顺序做**。
 
 **不要做这些**（全是浪费时间，环境本来就是好的）：
 
@@ -93,7 +73,7 @@
 **现在发现比写完三个脚本再发现便宜得多**。
 
 ```bash
-node -e '
+cd "C:\inetpub\背单词新" && node -e '
 const fs=require("fs");
 const log=(...a)=>console.log(...a);
 const raw="scripts/.work/raw/";
@@ -172,7 +152,7 @@ function parseCsvLine(line){
 ## 3.2 跑
 
 ```bash
-node scripts/11-glossary-llm-clean.mjs
+cd "C:\inetpub\背单词新" && node scripts/11-glossary-llm-clean.mjs
 ```
 
 **要等几分钟**（23 批，并发 4）。屏幕上会滚动打印 `批 N/23：要 25 条，回 25 条`。
@@ -209,7 +189,7 @@ node scripts/11-glossary-llm-clean.mjs
 **如果只是想看看结果**（不花钱）：
 
 ```bash
-node -e '
+cd "C:\inetpub\背单词新" && node -e '
 const d=require("./scripts/.work/derived/roots.cleaned.json");
 console.log("总条数:", d.entries.length);
 console.log("keep=true:", d.entries.filter(e=>e.keep).length);
@@ -283,7 +263,7 @@ for(const e of d.entries.slice(0,15)) console.log(" ", e.id, "|", e.type, "|", e
 ## 4.5 跑完自检
 
 ```bash
-node -e '
+cd "C:\inetpub\背单词新" && node -e '
 const v=require("./scripts/.work/derived/roots.validated.json");
 const r=require("./scripts/.work/derived/roots.rejected.json");
 const entries=v.entries||v;
@@ -353,7 +333,7 @@ results 必须和输入一一对应，id 原样返回。
 ## 5.3 跑完自检
 
 ```bash
-node -e '
+cd "C:\inetpub\背单词新" && node -e '
 const r=require("./scripts/.work/derived/roots.reviewed.json");
 const e=r.entries||r;
 console.log("复核后:", e.length);
@@ -425,7 +405,7 @@ if(fs.existsSync(dir)) console.log("隔离区文件:", fs.readdirSync(dir,{recur
 ## 6.6 跑完自检
 
 ```bash
-node -e '
+cd "C:\inetpub\背单词新" && node -e '
 const d=require("./scripts/.work/derived/words.candidates.json");
 const w=d.words||d;
 console.log("候选词:", w.length);
@@ -507,7 +487,7 @@ const hit = cigen.entries.find(e => e.word === word.word)
 ## 7.5 跑完自检
 
 ```bash
-node -e '
+cd "C:\inetpub\背单词新" && node -e '
 const d=require("./scripts/.work/derived/words.split.json");
 const w=d.words||d;
 console.log("切好的词:", w.length);
@@ -585,7 +565,7 @@ if (existsSync('scripts/.work/tatoeba.db')) { /* 直接用 */ } else { /* 建 */
 ## 8.5 跑完自检
 
 ```bash
-node -e '
+cd "C:\inetpub\背单词新" && node -e '
 const d=require("./scripts/.work/derived/words.examples.json");
 const w=d.words||d;
 console.log("有例句的:", w.length);
@@ -653,7 +633,7 @@ hasLatin.slice(0,5).forEach(x=>console.log("    ",x.word,"|",x.exampleCn));
 ## 9.5 跑完自检
 
 ```bash
-node -e '
+cd "C:\inetpub\背单词新" && node -e '
 const {countHanzi}=await import("./src/domain/contentRules.ts");
 const d=require("./scripts/.work/derived/words.prose.json");
 const w=d.words||d;
@@ -739,7 +719,7 @@ Stage 1 直接产出一个 `words.json`，`data.ts` 读它就行。
 ## 10.5 跑完自检
 
 ```bash
-npm run validate:content 2>&1 | tail -20
+cd "C:\inetpub\背单词新" && npm run validate:content 2>&1 | tail -20
 ```
 
 **期望**：`内容校验通过`，且**不再打印「跳过 A12/A19/A21/A27」**（因为有 provenance 了）。
@@ -839,7 +819,7 @@ rm -rf scripts/.work/derived && npm run content:all
 ## 13.1 三条自动验收
 
 ```bash
-npm test && npm run validate:content && npm run build
+cd "C:\inetpub\背单词新" && npm test && npm run validate:content && npm run build
 ```
 
 | # | 标准 | 怎么验 |
@@ -863,7 +843,7 @@ npm test && npm run validate:content && npm run build
 ### (b) 16 个 canary 词逐字节存活
 
 ```bash
-npm run validate:content 2>&1 | grep -i canary
+cd "C:\inetpub\背单词新" && npm run validate:content 2>&1 | grep -i canary
 ```
 
 `scripts/validate-content.mjs:42` 里硬编码了 16 个词 id，缺任何一个都会报错。
@@ -872,7 +852,7 @@ npm run validate:content 2>&1 | grep -i canary
 ### (c) 残留白名单只剩一条
 
 ```bash
-cat scripts/gates/residue-allowlist.json
+cd "C:\inetpub\背单词新" && cat scripts/gates/residue-allowlist.json
 ```
 
 **期望**：只有 `porter` 的 `-er` 一条（Stage 1 补上 `-er` 之后这条应该删掉）。
@@ -910,7 +890,7 @@ cat scripts/gates/residue-allowlist.json
 ## A.1 看 JSON 产物
 
 ```bash
-node -e '
+cd "C:\inetpub\背单词新" && node -e '
 const d=require("./scripts/.work/derived/你要看的文件.json");
 console.log("顶层键:", Object.keys(d));
 const arr = d.entries || d.words || d;
@@ -922,7 +902,7 @@ console.log("第一条:", JSON.stringify(arr[0], null, 2).slice(0, 1500));
 ## A.2 找出产物里的异常条目
 
 ```bash
-node -e '
+cd "C:\inetpub\背单词新" && node -e '
 const d=require("./scripts/.work/derived/words.split.json");
 const w=d.words||d;
 // 把条件换成你要查的
@@ -935,7 +915,7 @@ bad.slice(0,20).forEach(x=>console.log(" ", x.word));
 ## A.3 检查 LLM 缓存和花销
 
 ```bash
-echo "缓存的批次数:" && ls scripts/.work/llm-cache/ 2>/dev/null | wc -l
+cd "C:\inetpub\背单词新" && echo "缓存的批次数:" && ls scripts/.work/llm-cache/ 2>/dev/null | wc -l
 ```
 
 **缓存没用了**（想强制重调）：加环境变量

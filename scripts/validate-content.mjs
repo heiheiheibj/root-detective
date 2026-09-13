@@ -30,14 +30,6 @@ const unmodeledDistractorAllowlist = readAllowlist('unmodeled-distractor-allowli
 // 有 provenance 边车才说明这批词是管线生成的；没有就是手写的 canary 切片。
 const generated = existsSync(join(here, '.work', 'derived', 'provenance.json'))
 
-const findings = [
-  ...validateContent(morphemes, words, { residueAllowlist, unmodeledDistractorAllowlist, generated }),
-  ...validateWorlds(morphemes, worlds),
-]
-
-const failures = []
-const wordIds = new Set(words.map((word) => word.id))
-
 // canary 清单：无论重新生成多少次，这 16 个词都必须还在。它们是这套玩法唯一的回归锚点。
 const canaryWordIds = [
   'circumspect', 'inspection', 'respect', 'circumspection',
@@ -45,6 +37,15 @@ const canaryWordIds = [
   'portable', 'import', 'report', 'porter',
   'visible', 'vision', 'revise', 'visibility',
 ]
+const canarySet = new Set(canaryWordIds)
+
+const findings = [
+  ...validateContent(morphemes, words, { residueAllowlist, unmodeledDistractorAllowlist, generated, handwrittenIds: canarySet }),
+  ...validateWorlds(morphemes, worlds),
+]
+
+const failures = []
+const wordIds = new Set(words.map((word) => word.id))
 for (const id of canaryWordIds) if (!wordIds.has(id)) failures.push(`canary 词条丢失：${id}`)
 
 // TARGET_WORD_COUNT 是「这一阶段打算有多少个词」，和 canary 清单是两回事：

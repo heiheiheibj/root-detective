@@ -1,0 +1,663 @@
+{
+  "_comment": "Stage 2 释义文案 第 2 批 v2（干扰项内嵌外来义项；A14 已修）",
+  "equal": {
+    "modernMeaningCn": "相等的；平等的",
+    "literalMeaningCn": "两边一样的",
+    "metaphorMeaningCn": "天平两端正好齐平",
+    "metaphorOptions": [
+      "天平两端正好齐平",
+      "周围开满野花的湖",
+      "环绕山谷的那条小路"
+    ],
+    "mnemonicNote": "equ 相等 + -al（…的）：两端称出来一样。",
+    "sourceNote": "equ（相等）+ -al（…的）：两两相当。"
+  },
+  "equation": {
+    "modernMeaningCn": "方程；等式",
+    "literalMeaningCn": "使两边相等的东西",
+    "metaphorMeaningCn": "把两边拉平的那根线",
+    "metaphorOptions": [
+      "把两边拉平的那根线",
+      "把账目分开结算的人",
+      "在石碑上刻文字的匠人"
+    ],
+    "mnemonicNote": "equ 相等 + -ation（过程）：摆成两边相等的式子。",
+    "sourceNote": "equ（相等）+ -ation（名词）：使两边相等的式子。"
+  },
+  "equator": {
+    "modernMeaningCn": "赤道",
+    "literalMeaningCn": "平分地球的那个环",
+    "metaphorMeaningCn": "把地球拦腰系上的腰带",
+    "metaphorOptions": [
+      "把地球拦腰系上的腰带",
+      "环绕南北两极的小圈",
+      "把箭垂直举起对天的士兵"
+    ],
+    "mnemonicNote": "equat 使相等 + -or（物）：把南北分成相等两半的大圈。",
+    "sourceNote": "equat（使相等）+ -or（物）：平分地球的圆环。"
+  },
+  "equality": {
+    "modernMeaningCn": "平等；均等",
+    "literalMeaningCn": "相等的状态",
+    "metaphorMeaningCn": "大家端着一样高的碗",
+    "metaphorOptions": [
+      "大家端着一样高的碗",
+      "分开落座的高低两个席位",
+      "高塔上俯视街市的眼睛"
+    ],
+    "mnemonicNote": "equal 相等 + -ity（性质）：人人碗口一样高。",
+    "sourceNote": "equal（相等）+ -ity（性质）：彼此相当。"
+  },
+  "adequate": {
+    "modernMeaningCn": "足够的；胜任的",
+    "literalMeaningCn": "朝它加到够",
+    "metaphorMeaningCn": "杯子里的水刚好到线",
+    "metaphorOptions": [
+      "杯子里的水刚好到线",
+      "远远超出需要的库存",
+      "被放置在最下层的空箱子"
+    ],
+    "mnemonicNote": "ad 朝 + equ 相等 + -ate：加到恰好达标。",
+    "sourceNote": "ad-（朝）+ equ（相等）+ -ate：加至恰好。"
+  },
+  "inadequate": {
+    "modernMeaningCn": "不足的；不胜任的",
+    "literalMeaningCn": "加不到够",
+    "metaphorMeaningCn": "小伞遮不住两个人的雨",
+    "metaphorOptions": [
+      "小伞遮不住两个人的雨",
+      "完全罩住全身的大斗篷",
+      "预先备足的过冬柴火堆"
+    ],
+    "mnemonicNote": "in 不 + adequate 足够：怎么加都不够用。",
+    "sourceNote": "in-（不）+ adequate（足够）：达不到所需。"
+  },
+  "hydrogen": {
+    "modernMeaningCn": "氢；氢气",
+    "literalMeaningCn": "生成水的东西",
+    "metaphorMeaningCn": "和水手拉手生出水的那种气",
+    "metaphorOptions": [
+      "和水手拉手生出水的那种气",
+      "收集城市废气的管道",
+      "周围开满野花的湖"
+    ],
+    "mnemonicNote": "hydr 水 + gen 产生：燃烧后生出水来的气。",
+    "sourceNote": "hydr（水）+ gen（产生）：生水之元素，即氢。"
+  },
+  "hydrant": {
+    "modernMeaningCn": "消防栓",
+    "literalMeaningCn": "供水的东西",
+    "metaphorMeaningCn": "街边蹲着的大红水龙头",
+    "metaphorOptions": [
+      "街边蹲着的大红水龙头",
+      "陈列艺术品的临街画廊",
+      "城市里深夜亮灯的岗亭"
+    ],
+    "mnemonicNote": "hydr 水 + -ant（物）：救火时接水的那根柱。",
+    "sourceNote": "hydr（水）+ -ant（物）：接水供急用之柱。"
+  },
+  "dehydrate": {
+    "modernMeaningCn": "使脱水；脱水",
+    "literalMeaningCn": "把水拿走",
+    "metaphorMeaningCn": "把果子里的水一点点抽干",
+    "metaphorOptions": [
+      "把果子里的水一点点抽干",
+      "把整个过程倒着放的影片",
+      "把泥块分开碾碎的农具"
+    ],
+    "mnemonicNote": "de 去掉 + hydr 水 + -ate：把水一点点抽走。",
+    "sourceNote": "de-（去除）+ hydr（水）+ -ate（使）：去水而干。"
+  },
+  "dehydration": {
+    "modernMeaningCn": "脱水；干燥",
+    "literalMeaningCn": "水被拿走的状态",
+    "metaphorMeaningCn": "晒成葡萄干的那串果子",
+    "metaphorOptions": [
+      "晒成葡萄干的那串果子",
+      "被预先备好的解渴凉茶",
+      "周围撒满花瓣的喷泉"
+    ],
+    "mnemonicNote": "de+hydr 去水 + -ation（状态）：失水之后的样子。",
+    "sourceNote": "de-（去）+ hydr（水）+ -ation（名词）：失水之症。"
+  },
+  "hydraulic": {
+    "modernMeaningCn": "液压的；水力的",
+    "literalMeaningCn": "用水来驱动的",
+    "metaphorMeaningCn": "靠一根水管顶起整车",
+    "metaphorOptions": [
+      "靠一根水管顶起整车",
+      "靠自己的力气转动的老磨",
+      "靠横穿屋顶的钢梁撑住的大厅"
+    ],
+    "mnemonicNote": "hydraul 水 + -ic（…的）：以水为力。",
+    "sourceNote": "hydraul（水）+ -ic（…的）：以水传力。"
+  },
+  "thermometer": {
+    "modernMeaningCn": "温度计；体温计",
+    "literalMeaningCn": "测热的东西",
+    "metaphorMeaningCn": "会随着冷热伸懒腰的细管",
+    "metaphorOptions": [
+      "会随着冷热伸懒腰的细管",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "therm 热 + meter 测量：量冷冷热热的家伙。",
+    "sourceNote": "thermo-（热）+ meter（测量）：测热之器。"
+  },
+  "thermos": {
+    "modernMeaningCn": "保温瓶；热水瓶",
+    "literalMeaningCn": "热的小罐",
+    "metaphorMeaningCn": "把热气关起来过夜的壶",
+    "metaphorOptions": [
+      "把热气关起来过夜的壶",
+      "向外泼水的一个粗心动作",
+      "在城市街头叫卖的冰棍小贩"
+    ],
+    "mnemonicNote": "thermos 本义热：把热关住的水瓶。",
+    "sourceNote": "thermos（希腊语热的）：留住热量的瓶。"
+  },
+  "thermal": {
+    "modernMeaningCn": "热的；保暖的",
+    "literalMeaningCn": "热的",
+    "metaphorMeaningCn": "从地底咕嘟冒上来的暖",
+    "metaphorOptions": [
+      "从地底咕嘟冒上来的暖",
+      "贯穿冰缝钻上来的寒气",
+      "预先结在窗上的一层霜"
+    ],
+    "mnemonicNote": "therm 热 + -al（…的）：与暖有关的感受。",
+    "sourceNote": "therm（热）+ -al（…的）：属于热。"
+  },
+  "hypothermia": {
+    "modernMeaningCn": "体温过低；失温",
+    "literalMeaningCn": "热在下面不够了",
+    "metaphorMeaningCn": "身体里的火苗慢慢熄掉",
+    "metaphorOptions": [
+      "身体里的火苗慢慢熄掉",
+      "周围开满野花的湖",
+      "周围裹紧的厚棉被"
+    ],
+    "mnemonicNote": "hypo 低 + therm 热 + -ia（病状）：热度掉到线下的状态。",
+    "sourceNote": "hypo-（低于）+ therm（热）+ -ia（病状）：体温过低。"
+  },
+  "habit": {
+    "modernMeaningCn": "习惯；习性",
+    "literalMeaningCn": "被握住的东西",
+    "metaphorMeaningCn": "攥在手心里放不掉的物件",
+    "metaphorOptions": [
+      "攥在手心里放不掉的物件",
+      "随手丢进抽屉的小东西",
+      "挂在店里等待认领的字母招牌"
+    ],
+    "mnemonicNote": "hab 握有：天天握在手里的动作。",
+    "sourceNote": "hab（持有）：被身体握住不放的行为。"
+  },
+  "exhibit": {
+    "modernMeaningCn": "展览；展出",
+    "literalMeaningCn": "拿出来握给人看",
+    "metaphorMeaningCn": "把宝贝捧到橱窗正中央",
+    "metaphorOptions": [
+      "把宝贝捧到橱窗正中央",
+      "把画作转移到库房的人",
+      "预先藏起最珍贵一幅的馆长"
+    ],
+    "mnemonicNote": "ex 出 + hibit 握有：把持有物摆出来。",
+    "sourceNote": "ex-（出）+ hibit（持有）：持而出示，即展览。"
+  },
+  "prohibit": {
+    "modernMeaningCn": "禁止",
+    "literalMeaningCn": "向前按住不让拿",
+    "metaphorMeaningCn": "在门口横下一根拦杆",
+    "metaphorOptions": [
+      "在门口横下一根拦杆",
+      "预先打开大门迎客的店主",
+      "递上钥匙带你参观城市的人"
+    ],
+    "mnemonicNote": "pro 在前 + hibit 握有：抢先按住，不许动。",
+    "sourceNote": "pro-（在前）+ hibit（持有）：先手按住，不许碰。"
+  },
+  "inhibit": {
+    "modernMeaningCn": "抑制；阻止",
+    "literalMeaningCn": "在里面按住",
+    "metaphorMeaningCn": "给冒头的念头盖上一块砖",
+    "metaphorOptions": [
+      "给冒头的念头盖上一块砖",
+      "向火堆里灌注汽油的手",
+      "周围开满野花的湖"
+    ],
+    "mnemonicNote": "in 内 + hibit 握有：在心里按住不发。",
+    "sourceNote": "in-（在内）+ hibit（持有）：按而不发，即抑制。"
+  },
+  "inhabit": {
+    "modernMeaningCn": "居住；栖居于",
+    "literalMeaningCn": "住在里面",
+    "metaphorMeaningCn": "把整片森林当作家",
+    "metaphorOptions": [
+      "把整片森林当作家",
+      "把行李转移到城外的人",
+      "在周围树上筑巢的邻鸟"
+    ],
+    "mnemonicNote": "in 内 + habit 握有：握住一方水土过日子。",
+    "sourceNote": "in-（在内）+ habit（持有）：居于其中。"
+  },
+  "habitual": {
+    "modernMeaningCn": "习惯性的；惯常的",
+    "literalMeaningCn": "被握久了的",
+    "metaphorMeaningCn": "闹钟没响自己也醒的点",
+    "metaphorOptions": [
+      "闹钟没响自己也醒的点",
+      "预先计划好的晨跑路线",
+      "头一回走进的陌生城市"
+    ],
+    "mnemonicNote": "habit 习惯 + -ual（…的）：成了老规律的作息。",
+    "sourceNote": "habit（习惯）+ -ual（…的）：积久成常。"
+  },
+  "labour": {
+    "modernMeaningCn": "劳动；劳动力；分娩",
+    "literalMeaningCn": "劳作本身",
+    "metaphorMeaningCn": "额头上一颗颗滚下的汗",
+    "metaphorOptions": [
+      "额头上一颗颗滚下的汗",
+      "保持摇扇姿势乘凉的人",
+      "周围开满野花的湖"
+    ],
+    "mnemonicNote": "labor 劳作：英国拼法 labour。",
+    "sourceNote": "labor（劳作）：付出辛劳，即劳动。"
+  },
+  "laboratory": {
+    "modernMeaningCn": "实验室",
+    "literalMeaningCn": "劳作的地方",
+    "metaphorMeaningCn": "堆满试管和问号的屋子",
+    "metaphorOptions": [
+      "堆满试管和问号的屋子",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "laborat 劳作 + -ory（场所）：埋头做实验的屋子。",
+    "sourceNote": "laborat（劳作）+ -ory（场所）：做工之处。"
+  },
+  "elaborate": {
+    "modernMeaningCn": "精心制作；详尽阐述",
+    "literalMeaningCn": "从里面劳作出来",
+    "metaphorMeaningCn": "在雕花上再雕一层花",
+    "metaphorOptions": [
+      "在雕花上再雕一层花",
+      "未经检验就出厂的产品",
+      "把毛坯放置一旁的学徒"
+    ],
+    "mnemonicNote": "e 出 + labor 劳作 + -ate：费工打磨出来。",
+    "sourceNote": "e-（出）+ labor（劳作）+ -ate（使）：苦工而成。"
+  },
+  "collaborate": {
+    "modernMeaningCn": "合作；协作",
+    "literalMeaningCn": "一起劳作",
+    "metaphorMeaningCn": "四只手同时抬起一根梁",
+    "metaphorOptions": [
+      "四只手同时抬起一根梁",
+      "各自分开吃饭的两桌人",
+      "只为自己带球的前锋"
+    ],
+    "mnemonicNote": "col 共 + labor 劳作 + -ate：一起做工。",
+    "sourceNote": "col-（共同）+ labor（劳作）+ -ate（使）：同作一事。"
+  },
+  "collaboration": {
+    "modernMeaningCn": "合作；合作成果",
+    "literalMeaningCn": "共作的结果",
+    "metaphorMeaningCn": "两人合织的一匹布",
+    "metaphorOptions": [
+      "两人合织的一匹布",
+      "被分开保管的半张合同",
+      "画出两个不同世界的画"
+    ],
+    "mnemonicNote": "col+labor 劳作 + -ation（结果）：合作出来的东西。",
+    "sourceNote": "col-（共）+ labor（劳作）+ -ation（名词）：共作之果。"
+  },
+  "laborious": {
+    "modernMeaningCn": "费力的；辛苦的",
+    "literalMeaningCn": "多劳作的",
+    "metaphorMeaningCn": "一锹一锹挖穿冻土的活",
+    "metaphorOptions": [
+      "一锹一锹挖穿冻土的活",
+      "预先摆好的骨牌长阵",
+      "周围开满野花的湖"
+    ],
+    "mnemonicNote": "labor 劳作 + -ious（…的）：费大工夫的活计。",
+    "sourceNote": "labor（劳作）+ -ious（…的）：颇费辛劳。"
+  },
+  "grateful": {
+    "modernMeaningCn": "感激的；感谢的",
+    "literalMeaningCn": "心里高兴的",
+    "metaphorMeaningCn": "接过热汤时眼里的光",
+    "metaphorOptions": [
+      "接过热汤时眼里的光",
+      "把送来的伞扔出门外的动作",
+      "周围开满野花的湖"
+    ],
+    "mnemonicNote": "grate 高兴 + -ful（充满…的）：心里满满的都是暖。",
+    "sourceNote": "grate（高兴）+ -ful（充满）：满怀谢意。"
+  },
+  "congratulate": {
+    "modernMeaningCn": "祝贺；道贺",
+    "literalMeaningCn": "为对方的喜事同乐",
+    "metaphorMeaningCn": "举杯向寿星碰响的那一下",
+    "metaphorOptions": [
+      "举杯向寿星碰响的那一下",
+      "向下扣翻蛋糕的恶作剧",
+      "对着报喜的人关上门"
+    ],
+    "mnemonicNote": "con 共同 + gratul 高兴 + -ate：同他一道高兴。",
+    "sourceNote": "con-（共同）+ gratul（高兴）+ -ate：与人同乐。"
+  },
+  "congratulation": {
+    "modernMeaningCn": "祝贺；贺词",
+    "literalMeaningCn": "共同高兴的表达",
+    "metaphorMeaningCn": "门前挂起的那串红气球",
+    "metaphorOptions": [
+      "门前挂起的那串红气球",
+      "被分开晾在墙角的旧信",
+      "锁在柜里保持沉默的琴"
+    ],
+    "mnemonicNote": "con+gratul 高兴 + -ation（名词）：道贺的那句话。",
+    "sourceNote": "con-（共）+ gratul（喜）+ -ation（名词）：同喜之辞。"
+  },
+  "gratitude": {
+    "modernMeaningCn": "感激之情",
+    "literalMeaningCn": "高兴的程度",
+    "metaphorMeaningCn": "满得要溢出来的那盏谢意",
+    "metaphorOptions": [
+      "满得要溢出来的那盏谢意",
+      "把恩人名字完全忘掉的客",
+      "周围开满野花的湖"
+    ],
+    "mnemonicNote": "grat 高兴 + -itude（程度）：心里那份暖意。",
+    "sourceNote": "grat（高兴）+ -itude（状态）：心存暖意。"
+  },
+  "gratify": {
+    "modernMeaningCn": "使满意；使高兴",
+    "literalMeaningCn": "使高兴起来",
+    "metaphorMeaningCn": "给心里那朵花浇水",
+    "metaphorOptions": [
+      "给心里那朵花浇水",
+      "给伤口灌注苦药的手",
+      "预先拆开礼物的孩子"
+    ],
+    "mnemonicNote": "grat 高兴 + -ify（使）：让人心里舒坦。",
+    "sourceNote": "grat（高兴）+ -ify（使）：使人满足。"
+  },
+  "sacrifice": {
+    "modernMeaningCn": "牺牲；献祭；牺牲品",
+    "literalMeaningCn": "使成神圣",
+    "metaphorMeaningCn": "摆上神坛的那份献出",
+    "metaphorOptions": [
+      "摆上神坛的那份献出",
+      "向下偷走贡品的那只手",
+      "把金币转移到自己口袋"
+    ],
+    "mnemonicNote": "sacri 神圣 + fice 做：为神圣而献出。",
+    "sourceNote": "sacri（神圣）+ fice（做）：献给神明之物。"
+  },
+  "sacred": {
+    "modernMeaningCn": "神圣的；不可冒犯的",
+    "literalMeaningCn": "被奉为神的",
+    "metaphorMeaningCn": "围上红绳不许碰的古树",
+    "metaphorOptions": [
+      "围上红绳不许碰的古树",
+      "法律允许砍伐的树林",
+      "被刻上涂鸦文字的墙"
+    ],
+    "mnemonicNote": "sacr 神圣 + -ed（…的）：被奉为神物的那棵树。",
+    "sourceNote": "sacr（神圣）+ -ed（…的）：奉为神物。"
+  },
+  "saint": {
+    "modernMeaningCn": "圣人；圣徒",
+    "literalMeaningCn": "被奉为神圣的人",
+    "metaphorMeaningCn": "壁画顶上带光环的人",
+    "metaphorOptions": [
+      "壁画顶上带光环的人",
+      "周围开满野花的湖",
+      "在都市酒馆争吵的醉汉"
+    ],
+    "mnemonicNote": "saint 即 sanct（神圣）：被画上光环的人。",
+    "sourceNote": "saint = sanct（神圣）：德行封圣者。"
+  },
+  "sanctuary": {
+    "modernMeaningCn": "圣所；避难所；保护区",
+    "literalMeaningCn": "神圣的地方",
+    "metaphorMeaningCn": "谁也不许追进来的那扇门",
+    "metaphorOptions": [
+      "谁也不许追进来的那扇门",
+      "被追兵跨越围栏的猎场",
+      "向下压低的审讯室灯光"
+    ],
+    "mnemonicNote": "sanct 神圣 + -uary（场所）：神圣不可侵之地。",
+    "sourceNote": "sanct（神圣）+ -uary（场所）：神庇之地。"
+  },
+  "sanction": {
+    "modernMeaningCn": "批准；制裁",
+    "literalMeaningCn": "奉圣法之名处置",
+    "metaphorMeaningCn": "盖下官印放行或封条",
+    "metaphorOptions": [
+      "盖下官印放行或封条",
+      "预先容许孩子涂画的墙",
+      "随手丢弃的法律文书"
+    ],
+    "mnemonicNote": "sanct 神圣 + -ion：以神圣法令定夺。",
+    "sourceNote": "sanct（神圣）+ -ion（名词）：以圣法裁断。"
+  },
+  "consecrate": {
+    "modernMeaningCn": "祝圣；奉献",
+    "literalMeaningCn": "共同使成神圣",
+    "metaphorMeaningCn": "为新钟举行的开光典礼",
+    "metaphorOptions": [
+      "为新钟举行的开光典礼",
+      "把圣物向外丢弃的手",
+      "在寺院周围乱涂的手"
+    ],
+    "mnemonicNote": "con 共同 + secr 神圣 + -ate：一起奉为圣。",
+    "sourceNote": "con-（共同）+ secr（神圣）+ -ate（使）：奉为圣物。"
+  },
+  "protest": {
+    "modernMeaningCn": "抗议；反对",
+    "literalMeaningCn": "当众作证反对",
+    "metaphorMeaningCn": "在广场上举牌喊出来",
+    "metaphorOptions": [
+      "在广场上举牌喊出来",
+      "一起举双手赞成的人群",
+      "预先写好的同意书"
+    ],
+    "mnemonicNote": "pro 当众 + test 作证：站出来作证说不。",
+    "sourceNote": "pro-（公开）+ test（见证）：当众作证，即抗议。"
+  },
+  "contest": {
+    "modernMeaningCn": "竞赛；争夺",
+    "literalMeaningCn": "一起来作证较量",
+    "metaphorMeaningCn": "拔河绳上寸步不让的两端",
+    "metaphorOptions": [
+      "拔河绳上寸步不让的两端",
+      "把绳索环绕在腰间的队友",
+      "把球转移给队友的后卫"
+    ],
+    "mnemonicNote": "con 共同 + test 争证：同台比证高低。",
+    "sourceNote": "con-（共同）+ test（检验）：同场较量。"
+  },
+  "detest": {
+    "modernMeaningCn": "憎恶；深恶",
+    "literalMeaningCn": "作证到底地恨",
+    "metaphorMeaningCn": "看见就捏紧拳头的脸色",
+    "metaphorOptions": [
+      "看见就捏紧拳头的脸色",
+      "在人堆里寻找的眼睛",
+      "把糖果分开分你一半的手"
+    ],
+    "mnemonicNote": "de 离开 + test 作证：作证与之决裂。",
+    "sourceNote": "de-（离弃）+ test（见证）：弃之如仇，即憎恶。"
+  },
+  "testify": {
+    "modernMeaningCn": "作证；证明",
+    "literalMeaningCn": "站出来作证",
+    "metaphorMeaningCn": "把手按在证词上说真话",
+    "metaphorOptions": [
+      "把手按在证词上说真话",
+      "在法庭上预先背好的台词",
+      "把案卷向下压进柜底的手"
+    ],
+    "mnemonicNote": "test 见证 + -ify（使）：出面作见证。",
+    "sourceNote": "test（见证）+ -ify（使）：出而证之，即作证。"
+  },
+  "testament": {
+    "modernMeaningCn": "证据；遗嘱",
+    "literalMeaningCn": "见证之物",
+    "metaphorMeaningCn": "身后替你说话的那封信",
+    "metaphorOptions": [
+      "身后替你说话的那封信",
+      "把手稿全部转移走的人",
+      "在周围翻找遗物的人"
+    ],
+    "mnemonicNote": "testa 见证 + -ment（结果）：留下作证的东西。",
+    "sourceNote": "testa（见证）+ -ment（物）：存以为证。"
+  },
+  "contestant": {
+    "modernMeaningCn": "参赛者；选手",
+    "literalMeaningCn": "同台争证的人",
+    "metaphorMeaningCn": "舞台边深呼吸的答题者",
+    "metaphorOptions": [
+      "舞台边深呼吸的答题者",
+      "坐在观众中间的看客",
+      "在后台保持安静的清洁工"
+    ],
+    "mnemonicNote": "con+test 争赛 + -ant（人）：上场比试的人。",
+    "sourceNote": "con-（共）+ test（赛）+ -ant（人）：同场竞技者。"
+  },
+  "literature": {
+    "modernMeaningCn": "文学；文献",
+    "literalMeaningCn": "文字的劳作成果",
+    "metaphorMeaningCn": "书架上一排排会说话的灵魂",
+    "metaphorOptions": [
+      "书架上一排排会说话的灵魂",
+      "被雨水向下泡烂的旧书",
+      "还没有出生的书"
+    ],
+    "mnemonicNote": "literat 文字 + -ure（结果）：用字写成的作品。",
+    "sourceNote": "literat（文字）+ -ure（成果）：成于笔下之作。"
+  },
+  "literal": {
+    "modernMeaningCn": "字面的；逐字的",
+    "literalMeaningCn": "照文字本的",
+    "metaphorMeaningCn": "一个字都不多读的死板读法",
+    "metaphorOptions": [
+      "一个字都不多读的死板读法",
+      "超出字面的自由解读",
+      "周围开满野花的湖"
+    ],
+    "mnemonicNote": "liter 文字 + -al（…的）：照字面本义来读。",
+    "sourceNote": "liter（文字）+ -al（…的）：按字取义。"
+  },
+  "literacy": {
+    "modernMeaningCn": "读写能力；素养",
+    "literalMeaningCn": "摆弄文字的能力",
+    "metaphorMeaningCn": "把报纸读成世界的本事",
+    "metaphorOptions": [
+      "把报纸读成世界的本事",
+      "只会向下描红的手",
+      "把书本放置一旁的习惯"
+    ],
+    "mnemonicNote": "liter 文字 + -acy（性质）：驾驭字句的本领。",
+    "sourceNote": "liter（文字）+ -acy（能力）：能读能写之能。"
+  },
+  "illiterate": {
+    "modernMeaningCn": "不识字的；文盲",
+    "literalMeaningCn": "不识文字的",
+    "metaphorMeaningCn": "站在告示前像看画的眼睛",
+    "metaphorOptions": [
+      "站在告示前像看画的眼睛",
+      "读遍城市报纸的眼",
+      "预先打好腹稿的作家"
+    ],
+    "mnemonicNote": "il 不 + liter 文字 + -ate：与字无缘的眼。",
+    "sourceNote": "il-（不）+ liter（文字）+ -ate：不识丁，即文盲。"
+  },
+  "obliterate": {
+    "modernMeaningCn": "抹去；彻底销毁",
+    "literalMeaningCn": "盖住文字",
+    "metaphorMeaningCn": "用黑墨把整页字涂死",
+    "metaphorOptions": [
+      "用黑墨把整页字涂死",
+      "预先描好字帖的手",
+      "把姓名转移到新扉页"
+    ],
+    "mnemonicNote": "ob 盖住 + liter 文字 + -ate：把字迹全埋掉。",
+    "sourceNote": "ob-（覆盖）+ liter（文字）+ -ate（使）：涂没字迹。"
+  },
+  "literary": {
+    "modernMeaningCn": "文学的；书卷气的",
+    "literalMeaningCn": "文字的",
+    "metaphorMeaningCn": "袖口总沾着墨水香的人",
+    "metaphorOptions": [
+      "袖口总沾着墨水香的人",
+      "环绕发动机打转的修理工",
+      "眼睛只盯股价行情的人"
+    ],
+    "mnemonicNote": "liter 文字 + -ary（…的）：与笔墨相伴的人。",
+    "sourceNote": "liter（文字）+ -ary（…的）：属于笔墨。"
+  },
+  "elevator": {
+    "modernMeaningCn": "电梯；升降机",
+    "literalMeaningCn": "举起来的东西",
+    "metaphorMeaningCn": "把整层楼的人送上去的箱子",
+    "metaphorOptions": [
+      "把整层楼的人送上去的箱子",
+      "让你自己爬楼的口信",
+      "把人向下推的斜坡"
+    ],
+    "mnemonicNote": "e 出 + levat 举 + -or（物）：送人上下的箱子。",
+    "sourceNote": "e-（出）+ levat（举起）+ -or（物）：举人上下之器。"
+  },
+  "lever": {
+    "modernMeaningCn": "杠杆；操纵杆",
+    "literalMeaningCn": "轻巧翘起的东西",
+    "metaphorMeaningCn": "一根撬起大石头的长杆",
+    "metaphorOptions": [
+      "一根撬起大石头的长杆",
+      "完全凭蛮力搬石的莽汉",
+      "保持生锈状态的旧阀门"
+    ],
+    "mnemonicNote": "lev 轻 + -er（物）：以轻撬重的杆。",
+    "sourceNote": "lev（轻）+ -er（物）：以轻举重之杆。"
+  },
+  "relevant": {
+    "modernMeaningCn": "相关的；切题的",
+    "literalMeaningCn": "把它举起来对照",
+    "metaphorMeaningCn": "正好接上话题的那块拼图",
+    "metaphorOptions": [
+      "正好接上话题的那块拼图",
+      "被分开装错盒的碎片",
+      "飘到画框以外的云"
+    ],
+    "mnemonicNote": "re 回 + lev 举 + -ant（…的）：举起来能对上话。",
+    "sourceNote": "re-（回）+ lev（举）+ -ant（…的）：举而相合。"
+  },
+  "elevate": {
+    "modernMeaningCn": "提升；抬高",
+    "literalMeaningCn": "向外举起",
+    "metaphorMeaningCn": "把奖杯举过头顶那一刻",
+    "metaphorOptions": [
+      "把奖杯举过头顶那一刻",
+      "把奖杯向下塞进床底",
+      "预先拆掉领奖台的人"
+    ],
+    "mnemonicNote": "e 出 + lev 举 + -ate：把奖杯送向高处。",
+    "sourceNote": "e-（出）+ lev（举）+ -ate（使）：举之使高。"
+  },
+  "alleviate": {
+    "modernMeaningCn": "减轻；缓解",
+    "literalMeaningCn": "朝轻里举",
+    "metaphorMeaningCn": "把压胸的大石搬走一半",
+    "metaphorOptions": [
+      "把压胸的大石搬走一半",
+      "往肩上再加重量的麻袋",
+      "把担子转移给别人的人"
+    ],
+    "mnemonicNote": "al 朝 + lev 轻 + -iate：往轻处挪一挪。",
+    "sourceNote": "al-（朝）+ lev（轻）+ -iate（使）：使之轻。"
+  }
+}

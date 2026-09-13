@@ -1,0 +1,5702 @@
+{
+  "circumspect": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "inspection": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "respect": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "circumspection": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "predict": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "prediction": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "predictable": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "predictive": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "portable": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "import": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "report": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "porter": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "visible": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "vision": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "revise": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "visibility": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "dictator": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "deport": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "envision": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": false,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "audience": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "audio": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "audible": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "biology": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "biography": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "biotech": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "century": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": false,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "percent": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "centennial": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "credit": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "credential": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "incredible": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "gene": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "generate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "genetics": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "grade": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "graduate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "degrade": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "project": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "reject": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "eject": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "dialogue": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "logic": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "catalog": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "mobile": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "mobility": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "automobile": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "nature": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "nation": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "innate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "depend": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "suspend": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "pendulum": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "universe": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "version": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "inverse": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "vocabulary": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "vocation": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "paragraph": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "photograph": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "graphite": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "attract": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "contract": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "retract": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "factory": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "facility": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "benefactor": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "record": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "courage": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "encourage": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "accord": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "cordial": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "discord": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "victory": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "convince": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "conviction": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "province": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "convict": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "victorious": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "position": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "compose": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "deposit": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "postpone": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "component": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "opponent": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "expose": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "exponent": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "primary": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "primitive": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "primate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "prime": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "primal": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "vacation": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "vacant": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "evacuate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "vaccinate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "vacuum": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "compulsory": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "impulse": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "compel": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "repel": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "propel": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "expel": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "reflect": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "flexible": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "reflection": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "deflect": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "deflection": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "inflexible": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "transform": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "uniform": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "reform": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "formal": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "formation": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "perform": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "information": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "transformer": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "effort": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "comfort": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "comfortable": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "uncomfortable": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "fortress": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "fortify": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "confuse": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "confusion": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "refuse": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "infusion": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "diffuse": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "fusion": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "equal": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "equation": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "equator": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "equality": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "adequate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "inadequate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "hydrogen": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "hydrant": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "dehydrate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "dehydration": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "hydraulic": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "thermometer": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "thermos": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "thermal": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "hypothermia": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "habit": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "exhibit": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "prohibit": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "inhibit": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "inhabit": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "habitual": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "labour": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "laboratory": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "elaborate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "collaborate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "collaboration": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "laborious": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "grateful": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "congratulate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "congratulation": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "gratitude": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "gratify": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "sacrifice": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "sacred": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "saint": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "sanctuary": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "sanction": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "consecrate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "protest": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "contest": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "detest": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "testify": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "testament": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "contestant": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "literature": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "literal": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "literacy": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "illiterate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "obliterate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "literary": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "elevator": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "lever": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "relevant": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "elevate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "alleviate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "immigrant": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "immigration": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "migrant": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "migrate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "migratory": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "mirror": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "admire": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "admiration": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "miracle": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "miraculous": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "social": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "society": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "sociology": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "associate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "sociable": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "influence": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "fluent": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "fluid": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "fluctuate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "influx": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "contact": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "intact": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "tangible": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "tactile": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "contagious": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "novel": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "novelty": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "innovation": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "renovate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "novice": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "salary": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "sausage": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "saucer": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "salad": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "saline": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "artificial": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "artistic": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "artifact": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "physics": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "physical": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "physician": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "physicist": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "physiology": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "submit": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "admit": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "permit": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "mission": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "dismiss": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "transmit": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "intermittent": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "capture": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "capable": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "accept": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "concept": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "reception": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "capacity": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "captive": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "deceive": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "offer": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "prefer": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "differ": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "transfer": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "conference": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "suffer": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "fertilizer": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "medium": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "immediate": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "media": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "medieval": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "mediocre": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "centimetre": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "kilometre": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "diameter": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "symmetry": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "barometer": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "perimeter": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "metric": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "judge": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "justice": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "justify": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "adjust": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "judgement": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "prejudice": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "judicious": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "serve": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "deserve": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "observe": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "preserve": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "reserve": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "servant": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "observatory": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "police": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "policy": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "politics": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "politician": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "political": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "metropolitan": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "cosmopolitan": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "describe": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "prescription": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "subscribe": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "script": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "manuscript": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "circumscribe": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "prevent": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "event": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "invent": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "adventure": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "convenient": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "convention": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "circumvent": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "adopt": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "option": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "optimism": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "optimist": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "optical": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  },
+  "vocal": {
+    "checks": {
+      "splitMatchesWord": true,
+      "splitMatchesEtymology": true,
+      "literalComposedFromGlosses": true,
+      "metaphorExtendsLiteral": true,
+      "optionsThreeDistinct": true,
+      "optionAIsCorrectAnswer": true,
+      "optionBWrongForStatedReason": true,
+      "optionCWrongForStatedReason": true,
+      "exampleEnContainsWord": true,
+      "exampleCnTranslatesExampleEn": true,
+      "sourceNoteConsistentWithEtymology": true,
+      "mnemonicFreeOfAnswerLeak": true,
+      "noInventedMorpheme": true
+    },
+    "severity": "ok",
+    "issues": []
+  }
+}

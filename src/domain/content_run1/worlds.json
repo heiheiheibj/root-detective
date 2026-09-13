@@ -1,0 +1,64 @@
+[
+  {
+    "id": "observatory",
+    "name": "观察台",
+    "description": "学习词根：spec、vid、vers（观察台）",
+    "morphemeIds": [
+      "spec",
+      "vid",
+      "vers"
+    ]
+  },
+  {
+    "id": "message-port",
+    "name": "传送门",
+    "description": "学习词根：dict、port（传送门）",
+    "morphemeIds": [
+      "dict",
+      "port"
+    ]
+  },
+  {
+    "id": "growth-lab",
+    "name": "成长实验室",
+    "description": "学习词根：bio、gen、nat（成长实验室）",
+    "morphemeIds": [
+      "bio",
+      "gen",
+      "nat"
+    ]
+  },
+  {
+    "id": "time-vault",
+    "name": "时光库",
+    "description": "学习词根：cent、pend（时光库）",
+    "morphemeIds": [
+      "cent",
+      "pend"
+    ]
+  },
+  {
+    "id": "action-forge",
+    "name": "行动工坊",
+    "description": "学习词根：ject、mob、aud、voc、cred（行动工坊）",
+    "morphemeIds": [
+      "ject",
+      "mob",
+      "aud",
+      "voc",
+      "cred"
+    ]
+  },
+  {
+    "id": "word-mill",
+    "name": "词语磨坊",
+    "description": "学习词根：log、grad、graph、tract、fac（词语磨坊）",
+    "morphemeIds": [
+      "log",
+      "grad",
+      "graph",
+      "tract",
+      "fac"
+    ]
+  }
+]

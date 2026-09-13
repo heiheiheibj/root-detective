@@ -11,14 +11,19 @@
 // 和 30 号脚本里 parts 冻结是同一个原则。切分器最容易出的错是「拼得起来但切错了」，
 // 让模型有机会改 allomorphs 就是把那个风险引进来。
 //
-// 模型要产出的只有：中文释义、显示写法、难度档、中文词源句、以及一个 keep 判断
-// （有些词根在 CET 词表里根本长不出词，留着只会占地方）。
+// ── handoff 模式（这台机器没有 OPENROUTER_API_KEY，用户不走 OpenRouter）──
+// 脚本**优先**读 scripts/handoff/roots-llm.json（由执行 AI 手写的静态结果，
+// 等价于模型输出且可复现）；没有才回退到真正的 LLM 调用。
+// handoff 的格式是：
+//   { "rows": [ { entry: {...候选原样...}, result: { id, meaningCn, displayText,
+//       level, etymologyZh, keep, rejectReason, chosenVariant, variantReason } } ] }
 //
 // 跑法：node scripts/11-glossary-llm-clean.mjs
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 import { chatJson, mapBatches, MODELS, reportUsage } from './lib/llm.mjs'
+import { hasHandoff, handoffDir } from './lib/handoff.mjs'
 // 汉字计数用闸门那一份实现，不另写一个。两套计数器必然会在边界上打架。
 import { countHanzi } from '../src/domain/contentRules.ts'
 
@@ -106,6 +111,7 @@ function buildUser(batch) {
     if (entry.variants.length > 1) {
       item.variants = entry.variants.map((variant) => ({ surface: variant.surface, glossEn: variant.glossEn }))
     }
+    // 只把 cigen/shiweihappy 的中文当参考附上;它们有版权风险,不能逐字抄
     const zh = entry.zhCandidates.map((candidate) => candidate.text).filter(Boolean).slice(0, 2)
     if (zh.length > 0) item.zhCandidates = zh
     return item
@@ -150,31 +156,47 @@ if (!existsSync(candidatesPath)) {
 const candidates = JSON.parse(readFileSync(candidatesPath, 'utf8'))
 const entries = candidates.entries
 
-console.log(`给 ${entries.length} 条候选词素写中文释义，每批 ${BATCH_SIZE} 条，模型 ${MODELS.generator}`)
-console.log('（命中缓存的话是免费的，重跑不会重复花钱）\n')
+// 如果没有 OPENROUTER_API_KEY 且没有 handoff，明确报错而不是干等。
+if (!process.env.OPENROUTER_API_KEY && !hasHandoff('roots-llm')) {
+  console.error('没有 OPENROUTER_API_KEY，也没有 scripts/handoff/roots-llm.json。')
+  console.error('这台机器按用户要求不走 OpenRouter：请把执行 AI 写好的 roots-llm.json 放到 scripts/handoff/，或配置 OPENROUTER_API_KEY。')
+  process.exit(1)
+}
 
-const raw = await mapBatches(
-  entries,
-  BATCH_SIZE,
-  async (batch, index) => {
-    const json = await chatJson({
-      model: MODELS.generator,
-      system: SYSTEM,
-      user: buildUser(batch),
-      label: `11 批 ${index + 1}`,
-    })
-    const rows = Array.isArray(json.results) ? json.results : []
-    const byId = new Map(rows.map((row) => [row.id, row]))
-    console.log(`  批 ${index + 1}/${Math.ceil(entries.length / BATCH_SIZE)}：要 ${batch.length} 条，回 ${rows.length} 条`)
-    // 模型漏条或写错 id 时不要静默跳过——把缺的标出来，让 12 号规则决定丢还是留。
-    return batch.map((entry) => ({ entry, result: byId.get(entry.id) ?? null }))
-  },
-  4,
-)
+console.log(`给 ${entries.length} 条候选词素写中文释义，每批 ${BATCH_SIZE} 条，模型 ${MODELS.generator}`)
+console.log('（命中缓存/命中 handoff 的话免费，重跑不会重复花钱）\n')
+
+let rows
+if (hasHandoff('roots-llm')) {
+  const handoff = JSON.parse(readFileSync(join(handoffDir, 'roots-llm.json'), 'utf8'))
+  rows = handoff.rows
+  console.log(`[handoff] 命中 scripts/handoff/roots-llm.json，${rows.length} 条已配对结果，不调 LLM`)
+  // handoff 必须和候选一一对应，缺失的当作「模型没返回这一条」交给下游裁决。
+  const byId = new Map(rows.map((row) => [row.entry?.id, row]))
+  rows = entries.map((entry) => byId.get(entry.id) ?? { entry, result: null })
+} else {
+  rows = await mapBatches(
+    entries,
+    BATCH_SIZE,
+    async (batch, index) => {
+      const json = await chatJson({
+        model: MODELS.generator,
+        system: SYSTEM,
+        user: buildUser(batch),
+        label: `11 批 ${index + 1}`,
+      })
+      const batchRows = Array.isArray(json.results) ? json.results : []
+      const byId = new Map(batchRows.map((row) => [row.id, row]))
+      console.log(`  批 ${index + 1}/${Math.ceil(entries.length / BATCH_SIZE)}：要 ${batch.length} 条，回 ${batchRows.length} 条`)
+      return batch.map((entry) => ({ entry, result: byId.get(entry.id) ?? null }))
+    },
+    4,
+  )
+}
 
 const cleaned = []
 const failures = []
-for (const { entry, result } of raw) {
+for (const { entry, result } of rows) {
   if (!result) {
     failures.push({ id: entry.id, problems: ['模型没返回这一条'] })
     continue

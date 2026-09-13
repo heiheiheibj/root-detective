@@ -1,0 +1,17 @@
+{
+  "_comment": "机器可读许可清单。source 用法：metadata=只取元数据不取文本；reference=仅人工参考不进入产物；verbatim-risk=接触了上游文本，商用前需复核。",
+  "generatedAt": "2026-09-13",
+  "sources": [
+    { "name": "ECDICT", "url": "https://github.com/skywind3000/ECDICT", "license": "MIT", "usage": "metadata", "files": ["scripts/.work/raw/ecdict.csv", "scripts/.work/raw/wordroot.txt"] },
+    { "name": "Tatoeba", "url": "https://tatoeba.org", "license": "CC BY 2.0 FR", "usage": "verbatim-example-sentences", "files": ["scripts/.work/raw/tatoeba-eng-sentences.tsv", "scripts/.work/raw/tatoeba-cmn-sentences.tsv", "scripts/.work/raw/links.csv"], "note": "例句原样进入产物，sentenceId 保留可溯源；商用需署名。" },
+    { "name": "kaikki.org (Wiktionary extract)", "url": "https://kaikki.org", "license": "CC BY-SA 4.0", "usage": "reference", "files": ["scripts/.work/raw/kaikki-English.jsonl", "scripts/.work/raw/kaikki-en-prefix.jsonl", "scripts/.work/raw/kaikki-en-suffix.jsonl"] },
+    { "name": "MorphoNet eng-derivational", "url": "http://morphonet.org", "license": "CC BY-SA 4.0", "usage": "reference", "files": ["scripts/.work/raw/morphynet-eng-derivational.tsv"] },
+    { "name": "cigen roots_affixes", "url": "unknown", "license": "unclear (repo MIT, upstream 新东方 PDF)", "usage": "verbatim-risk", "files": ["scripts/.work/raw/cigen-roots_affixes.json"], "note": "仅取词根 id 与人工切分对照；中文释义绝不复制。商用前需法律复核。" },
+    { "name": "shiweihappy roots", "url": "unknown", "license": "unclear (repo MIT, upstream 新东方 PDF)", "usage": "verbatim-risk", "files": ["scripts/.work/raw/shiweihappy-roots.json"], "note": "同上。" }
+  ],
+  "rewrittenText": [
+    "词素中文释义（依据 wordroot.txt 英文义项重写）",
+    "词条字面义/隐喻义/助记/来源注（scripts/lib/handoff/）",
+    "无中文对照例句的人工补写（scripts/lib/handoff/words-examples*.json）"
+  ]
+}

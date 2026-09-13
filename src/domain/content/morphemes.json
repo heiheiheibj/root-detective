@@ -1,0 +1,2011 @@
+[
+  {
+    "id": "circum",
+    "displayText": "circum-",
+    "type": "prefix",
+    "meaningCn": "周围",
+    "allomorphs": [
+      "circum"
+    ],
+    "etymology": "来自拉丁语 circum，意为 around（周围）",
+    "level": 2,
+    "color": "blue"
+  },
+  {
+    "id": "pre",
+    "displayText": "pre-",
+    "type": "prefix",
+    "meaningCn": "前、预先",
+    "allomorphs": [
+      "pre"
+    ],
+    "etymology": "来自拉丁语 prae，在前面",
+    "level": 1,
+    "color": "blue"
+  },
+  {
+    "id": "re",
+    "displayText": "re-",
+    "type": "prefix",
+    "meaningCn": "再、回",
+    "allomorphs": [
+      "re"
+    ],
+    "etymology": "来自拉丁语 re-，again / back",
+    "level": 1,
+    "color": "blue"
+  },
+  {
+    "id": "in",
+    "displayText": "in- / im-",
+    "type": "prefix",
+    "meaningCn": "不；进入",
+    "allomorphs": [
+      "in",
+      "im",
+      "il",
+      "ir"
+    ],
+    "etymology": "来自拉丁语 in，表示否定或“进入”；im / il / ir 是同化变体",
+    "level": 1,
+    "color": "blue"
+  },
+  {
+    "id": "spec",
+    "displayText": "spec / spect",
+    "type": "root",
+    "meaningCn": "看",
+    "allomorphs": [
+      "spec",
+      "spect",
+      "spic"
+    ],
+    "etymology": "来自拉丁语 specere，看、观察",
+    "level": 2,
+    "color": "orange"
+  },
+  {
+    "id": "dict",
+    "displayText": "dict / dic",
+    "type": "root",
+    "meaningCn": "说",
+    "allomorphs": [
+      "dict",
+      "dic"
+    ],
+    "etymology": "来自拉丁语 dicere，说、宣布",
+    "level": 1,
+    "color": "orange"
+  },
+  {
+    "id": "port",
+    "displayText": "port",
+    "type": "root",
+    "meaningCn": "携带",
+    "allomorphs": [
+      "port"
+    ],
+    "etymology": "来自拉丁语 portare，携带",
+    "level": 1,
+    "color": "orange"
+  },
+  {
+    "id": "vid",
+    "displayText": "vid / vis",
+    "type": "root",
+    "meaningCn": "看",
+    "allomorphs": [
+      "vid",
+      "vis",
+      "vise"
+    ],
+    "etymology": "来自拉丁语 videre，看见",
+    "level": 1,
+    "color": "orange"
+  },
+  {
+    "id": "ion",
+    "displayText": "-ion",
+    "type": "suffix",
+    "meaningCn": "动作、过程（名词）",
+    "allomorphs": [
+      "tion",
+      "sion",
+      "ion"
+    ],
+    "etymology": "高频名词后缀，标记动作或结果",
+    "level": 1,
+    "color": "green"
+  },
+  {
+    "id": "ive",
+    "displayText": "-ive",
+    "type": "suffix",
+    "meaningCn": "具有……性质的（形容词）",
+    "allomorphs": [
+      "ive"
+    ],
+    "etymology": "高频形容词后缀，表示倾向或性质",
+    "level": 1,
+    "color": "green"
+  },
+  {
+    "id": "able",
+    "displayText": "-able / -ible",
+    "type": "suffix",
+    "meaningCn": "能够……的（形容词）",
+    "allomorphs": [
+      "able",
+      "ible",
+      "ibil"
+    ],
+    "etymology": "高频形容词后缀，表示可能性或能力",
+    "level": 1,
+    "color": "green"
+  },
+  {
+    "id": "ity",
+    "displayText": "-ity / -ty",
+    "type": "suffix",
+    "meaningCn": "性质、状态（抽象名词）",
+    "allomorphs": [
+      "ity",
+      "ty"
+    ],
+    "etymology": "高频抽象名词后缀",
+    "level": 2,
+    "color": "green"
+  },
+  {
+    "id": "aud",
+    "type": "root",
+    "displayText": "aud",
+    "meaningCn": "听",
+    "allomorphs": [
+      "aud",
+      "audi",
+      "audio"
+    ],
+    "level": 1,
+    "etymology": "来自拉丁语 audire，意为听",
+    "color": "orange"
+  },
+  {
+    "id": "bio",
+    "type": "root",
+    "displayText": "bio",
+    "meaningCn": "生命",
+    "allomorphs": [
+      "bio",
+      "bi"
+    ],
+    "level": 1,
+    "etymology": "来自希腊语 bios，意为生命",
+    "color": "orange"
+  },
+  {
+    "id": "cent",
+    "type": "root",
+    "displayText": "cent",
+    "meaningCn": "百",
+    "allomorphs": [
+      "cent",
+      "centi"
+    ],
+    "level": 2,
+    "etymology": "来自拉丁语 centum，意为百",
+    "color": "orange"
+  },
+  {
+    "id": "cred",
+    "type": "root",
+    "displayText": "cred",
+    "meaningCn": "相信",
+    "allomorphs": [
+      "cred",
+      "credit"
+    ],
+    "level": 1,
+    "etymology": "来自拉丁语 credere，意为相信",
+    "color": "orange"
+  },
+  {
+    "id": "gen",
+    "type": "root",
+    "displayText": "gen",
+    "meaningCn": "出生、种类、产生",
+    "allomorphs": [
+      "gen",
+      "gene"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自希腊/拉丁 gen-，出生、产生"
+  },
+  {
+    "id": "grad",
+    "type": "root",
+    "displayText": "grad",
+    "meaningCn": "步、级",
+    "allomorphs": [
+      "grad",
+      "grade"
+    ],
+    "level": 2,
+    "etymology": "来自拉丁语 gradus，意为步、级",
+    "color": "orange"
+  },
+  {
+    "id": "ject",
+    "type": "root",
+    "displayText": "ject",
+    "meaningCn": "投、掷",
+    "allomorphs": [
+      "ject",
+      "jet",
+      "jac"
+    ],
+    "level": 2,
+    "etymology": "来自拉丁语 jacere，意为投、掷",
+    "color": "orange"
+  },
+  {
+    "id": "log",
+    "type": "root",
+    "displayText": "log",
+    "meaningCn": "说、词",
+    "allomorphs": [
+      "log",
+      "logo",
+      "logue"
+    ],
+    "level": 2,
+    "etymology": "来自希腊语 logos，意为说、词",
+    "color": "orange"
+  },
+  {
+    "id": "mob",
+    "type": "root",
+    "displayText": "mob",
+    "meaningCn": "移动",
+    "allomorphs": [
+      "mob",
+      "mot",
+      "mov"
+    ],
+    "level": 2,
+    "etymology": "来自拉丁语 movere，意为移动",
+    "color": "orange"
+  },
+  {
+    "id": "nat",
+    "type": "root",
+    "displayText": "nat",
+    "meaningCn": "出生、自然",
+    "allomorphs": [
+      "nat",
+      "nas",
+      "nate"
+    ],
+    "level": 1,
+    "etymology": "来自拉丁语 nasci，意为出生、自然",
+    "color": "orange"
+  },
+  {
+    "id": "pend",
+    "type": "root",
+    "displayText": "pend",
+    "meaningCn": "悬挂、称量",
+    "allomorphs": [
+      "pend",
+      "pens"
+    ],
+    "level": 2,
+    "etymology": "来自拉丁语 pendere，意为悬挂、称量",
+    "color": "orange"
+  },
+  {
+    "id": "vers",
+    "type": "root",
+    "displayText": "vers",
+    "meaningCn": "转",
+    "allomorphs": [
+      "vers",
+      "vert",
+      "verse"
+    ],
+    "level": 1,
+    "etymology": "来自拉丁语 vertere，意为转",
+    "color": "orange"
+  },
+  {
+    "id": "voc",
+    "type": "root",
+    "displayText": "voc",
+    "meaningCn": "声音、叫",
+    "allomorphs": [
+      "voc",
+      "voke",
+      "vocal",
+      "vo"
+    ],
+    "level": 1,
+    "etymology": "来自拉丁语 vox/vocare，意为声音、叫",
+    "color": "orange"
+  },
+  {
+    "id": "graph",
+    "type": "root",
+    "displayText": "graph",
+    "meaningCn": "写、画",
+    "allomorphs": [
+      "graph",
+      "graphy"
+    ],
+    "level": 2,
+    "etymology": "来自希腊语 graphein，意为写、画",
+    "color": "orange"
+  },
+  {
+    "id": "tract",
+    "type": "root",
+    "displayText": "tract",
+    "meaningCn": "拉、拖",
+    "allomorphs": [
+      "tract"
+    ],
+    "level": 2,
+    "etymology": "来自拉丁语 trahere，意为拉、拖",
+    "color": "orange"
+  },
+  {
+    "id": "fac",
+    "type": "root",
+    "displayText": "fac / fact / fic",
+    "meaningCn": "做、制造",
+    "allomorphs": [
+      "fac",
+      "fact",
+      "fect",
+      "fic",
+      "fice",
+      "ific"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自拉丁语 facere/factum，做；fice/ific 为变体"
+  },
+  {
+    "id": "pro",
+    "type": "prefix",
+    "displayText": "pro-",
+    "meaningCn": "向前、在前",
+    "allomorphs": [
+      "pro"
+    ],
+    "level": 1,
+    "etymology": "来自拉丁语 pro，表示向前、在前",
+    "color": "blue"
+  },
+  {
+    "id": "de",
+    "type": "prefix",
+    "displayText": "de-",
+    "meaningCn": "向下、离开",
+    "allomorphs": [
+      "de"
+    ],
+    "level": 2,
+    "etymology": "来自拉丁语 de，表示向下、离开",
+    "color": "blue"
+  },
+  {
+    "id": "dis",
+    "type": "prefix",
+    "displayText": "dis- / dif-",
+    "meaningCn": "分离、分开、否定",
+    "allomorphs": [
+      "dis",
+      "dif"
+    ],
+    "level": 1,
+    "color": "blue",
+    "etymology": "来自拉丁语 dis-,分开；dif 为同化变体"
+  },
+  {
+    "id": "con",
+    "type": "prefix",
+    "displayText": "con- / com-",
+    "meaningCn": "共同、一起",
+    "allomorphs": [
+      "con",
+      "com",
+      "col",
+      "cor"
+    ],
+    "level": 1,
+    "color": "blue",
+    "etymology": "来自拉丁语 cum，共同；com/col/cor 为同化变体"
+  },
+  {
+    "id": "sub",
+    "type": "prefix",
+    "displayText": "sub- / suf-",
+    "meaningCn": "在下、下面、次级",
+    "allomorphs": [
+      "sub",
+      "suf",
+      "sup",
+      "sus"
+    ],
+    "level": 1,
+    "color": "blue",
+    "etymology": "来自拉丁语 sub，在下；suf/sup/sus 为同化变体"
+  },
+  {
+    "id": "per",
+    "type": "prefix",
+    "displayText": "per-",
+    "meaningCn": "贯穿、彻底；每一",
+    "allomorphs": [
+      "per"
+    ],
+    "level": 3,
+    "etymology": "来自拉丁语 per，表示通过、彻底",
+    "color": "blue"
+  },
+  {
+    "id": "cata",
+    "type": "prefix",
+    "displayText": "cata-",
+    "meaningCn": "向下、完全",
+    "allomorphs": [
+      "cata"
+    ],
+    "level": 5,
+    "etymology": "来自希腊语 kata，表示向下",
+    "color": "blue"
+  },
+  {
+    "id": "uni",
+    "type": "prefix",
+    "displayText": "uni-",
+    "meaningCn": "一、单一",
+    "allomorphs": [
+      "uni"
+    ],
+    "level": 3,
+    "etymology": "来自拉丁语 unus，意为一",
+    "color": "blue"
+  },
+  {
+    "id": "auto",
+    "type": "prefix",
+    "displayText": "auto-",
+    "meaningCn": "自己、自动",
+    "allomorphs": [
+      "auto"
+    ],
+    "level": 3,
+    "etymology": "来自希腊语 autos，意为自己",
+    "color": "blue"
+  },
+  {
+    "id": "ben",
+    "type": "prefix",
+    "displayText": "ben- / bene-",
+    "meaningCn": "好、善",
+    "allomorphs": [
+      "ben",
+      "bene"
+    ],
+    "level": 3,
+    "etymology": "来自拉丁语 bene，意为好",
+    "color": "blue"
+  },
+  {
+    "id": "e",
+    "type": "prefix",
+    "displayText": "e- / ex-",
+    "meaningCn": "出、外、向外",
+    "allomorphs": [
+      "e",
+      "ex",
+      "ef"
+    ],
+    "level": 2,
+    "color": "blue",
+    "etymology": "来自拉丁语 ex，向外；ef 为同化变体"
+  },
+  {
+    "id": "en",
+    "type": "prefix",
+    "displayText": "en-",
+    "meaningCn": "使、使进入",
+    "allomorphs": [
+      "en"
+    ],
+    "level": 3,
+    "etymology": "法语/拉丁语 in- 变体，表示使……成为、放入",
+    "color": "blue"
+  },
+  {
+    "id": "para",
+    "type": "prefix",
+    "displayText": "para-",
+    "meaningCn": "旁边、平行",
+    "allomorphs": [
+      "para"
+    ],
+    "level": 4,
+    "etymology": "来自希腊语 para，意为旁边",
+    "color": "blue"
+  },
+  {
+    "id": "photo",
+    "type": "prefix",
+    "displayText": "photo-",
+    "meaningCn": "光",
+    "allomorphs": [
+      "photo"
+    ],
+    "level": 3,
+    "etymology": "来自希腊语 phos，意为光",
+    "color": "blue"
+  },
+  {
+    "id": "at",
+    "type": "prefix",
+    "displayText": "at-",
+    "meaningCn": "向、至",
+    "allomorphs": [
+      "at"
+    ],
+    "level": 3,
+    "etymology": "来自拉丁语 ad- 在 t 前的变体，表示向、至",
+    "color": "blue"
+  },
+  {
+    "id": "dia",
+    "type": "prefix",
+    "displayText": "dia-",
+    "meaningCn": "通过、跨越",
+    "allomorphs": [
+      "dia"
+    ],
+    "level": 3,
+    "etymology": "来自希腊语 dia，表示通过",
+    "color": "blue"
+  },
+  {
+    "id": "ation",
+    "type": "suffix",
+    "displayText": "-ation",
+    "meaningCn": "行为、结果（名词）",
+    "allomorphs": [
+      "ation"
+    ],
+    "level": 1,
+    "etymology": "拉丁语名词后缀，表示行为过程",
+    "color": "green"
+  },
+  {
+    "id": "ate",
+    "type": "suffix",
+    "displayText": "-ate",
+    "meaningCn": "使成为、做、使",
+    "allomorphs": [
+      "ate",
+      "uate",
+      "iate"
+    ],
+    "level": 1,
+    "color": "green",
+    "etymology": "高频动词后缀；uate/iate 为变体"
+  },
+  {
+    "id": "or",
+    "type": "suffix",
+    "displayText": "-or",
+    "meaningCn": "做……的人或物（名词）",
+    "allomorphs": [
+      "or",
+      "ator",
+      "tor"
+    ],
+    "level": 1,
+    "color": "green",
+    "etymology": "施动者后缀；ator/tor 为变体"
+  },
+  {
+    "id": "ary",
+    "type": "suffix",
+    "displayText": "-ary",
+    "meaningCn": "与……有关的（形容词）",
+    "allomorphs": [
+      "ary"
+    ],
+    "level": 3,
+    "etymology": "拉丁语形容词后缀",
+    "color": "green"
+  },
+  {
+    "id": "ic",
+    "type": "suffix",
+    "displayText": "-ic",
+    "meaningCn": "……的、与……有关（形容词）",
+    "allomorphs": [
+      "ic",
+      "tic"
+    ],
+    "level": 2,
+    "etymology": "希腊语/拉丁语形容词后缀",
+    "color": "green"
+  },
+  {
+    "id": "ure",
+    "type": "suffix",
+    "displayText": "-ure",
+    "meaningCn": "行为、状态、结果（名词）",
+    "allomorphs": [
+      "ure"
+    ],
+    "level": 3,
+    "etymology": "拉丁语名词后缀 -ura",
+    "color": "green"
+  },
+  {
+    "id": "ory",
+    "type": "suffix",
+    "displayText": "-ory",
+    "meaningCn": "……的场所（名词）",
+    "allomorphs": [
+      "ory",
+      "atory",
+      "tory"
+    ],
+    "level": 3,
+    "etymology": "拉丁语名词后缀 -orium 表示场所",
+    "color": "green"
+  },
+  {
+    "id": "ent",
+    "type": "suffix",
+    "displayText": "-ent",
+    "meaningCn": "做……的人、……的",
+    "allomorphs": [
+      "ent",
+      "ient"
+    ],
+    "level": 1,
+    "color": "green",
+    "etymology": "高频形容词/名词后缀；ient 为变体"
+  },
+  {
+    "id": "ence",
+    "type": "suffix",
+    "displayText": "-ence",
+    "meaningCn": "状态、性质（名词）",
+    "allomorphs": [
+      "ence"
+    ],
+    "level": 3,
+    "etymology": "拉丁语名词后缀 -entia",
+    "color": "green"
+  },
+  {
+    "id": "s",
+    "type": "suffix",
+    "displayText": "-s",
+    "meaningCn": "复数（名词）",
+    "allomorphs": [
+      "s"
+    ],
+    "level": 1,
+    "etymology": "英语复数词尾",
+    "color": "green"
+  },
+  {
+    "id": "ulum",
+    "type": "suffix",
+    "displayText": "-ulum",
+    "meaningCn": "……的工具、器具（名词）",
+    "allomorphs": [
+      "ulum"
+    ],
+    "level": 5,
+    "etymology": "拉丁语小称名词后缀",
+    "color": "green"
+  },
+  {
+    "id": "ice",
+    "type": "suffix",
+    "displayText": "-ice",
+    "meaningCn": "状态、性质（名词）",
+    "allomorphs": [
+      "ice"
+    ],
+    "level": 4,
+    "etymology": "拉丁语名词后缀 -itia",
+    "color": "green"
+  },
+  {
+    "id": "logy",
+    "type": "suffix",
+    "displayText": "-logy / -ology",
+    "meaningCn": "……学（名词）",
+    "allomorphs": [
+      "logy",
+      "ology"
+    ],
+    "level": 2,
+    "color": "green",
+    "etymology": "来自希腊语 logos，学问；ology 为接元音变体"
+  },
+  {
+    "id": "graphy",
+    "type": "suffix",
+    "displayText": "-graphy",
+    "meaningCn": "……的写法、记录（名词）",
+    "allomorphs": [
+      "graphy"
+    ],
+    "level": 4,
+    "etymology": "来自希腊语 -graphia，意为写法",
+    "color": "green"
+  },
+  {
+    "id": "ury",
+    "type": "suffix",
+    "displayText": "-ury",
+    "meaningCn": "状态、性质（名词）",
+    "allomorphs": [
+      "ury"
+    ],
+    "level": 5,
+    "etymology": "拉丁语名词后缀 -uria",
+    "color": "green"
+  },
+  {
+    "id": "enn",
+    "type": "suffix",
+    "displayText": "-enn",
+    "meaningCn": "年（名词）",
+    "allomorphs": [
+      "enn"
+    ],
+    "level": 5,
+    "etymology": "来自拉丁语 annus，意为年",
+    "color": "green"
+  },
+  {
+    "id": "ial",
+    "type": "suffix",
+    "displayText": "-ial",
+    "meaningCn": "……的（形容词）",
+    "allomorphs": [
+      "ial"
+    ],
+    "level": 3,
+    "etymology": "拉丁语形容词后缀 -ialis",
+    "color": "green"
+  },
+  {
+    "id": "er",
+    "type": "suffix",
+    "displayText": "-er",
+    "meaningCn": "做……的人或物（名词）",
+    "allomorphs": [
+      "er",
+      "or",
+      "ar"
+    ],
+    "level": 1,
+    "etymology": "英语施动者后缀",
+    "color": "green"
+  },
+  {
+    "id": "ue",
+    "type": "suffix",
+    "displayText": "-ue",
+    "meaningCn": "连接元音（名词）",
+    "allomorphs": [
+      "ue"
+    ],
+    "level": 5,
+    "etymology": "构词连接元音",
+    "color": "green"
+  },
+  {
+    "id": "ile",
+    "type": "suffix",
+    "displayText": "-ile",
+    "meaningCn": "可……的（形容词）",
+    "allomorphs": [
+      "ile",
+      "il"
+    ],
+    "level": 3,
+    "etymology": "拉丁语形容词后缀 -ilis",
+    "color": "green"
+  },
+  {
+    "id": "ility",
+    "type": "suffix",
+    "displayText": "-ility",
+    "meaningCn": "性质、状态（抽象名词）",
+    "allomorphs": [
+      "ility"
+    ],
+    "level": 3,
+    "etymology": "拉丁语抽象名词后缀 -itas",
+    "color": "green"
+  },
+  {
+    "id": "abul",
+    "type": "suffix",
+    "displayText": "-abul",
+    "meaningCn": "……的（形容词）",
+    "allomorphs": [
+      "abul"
+    ],
+    "level": 5,
+    "etymology": "拉丁语形容词后缀 -abilis",
+    "color": "green"
+  },
+  {
+    "id": "ite",
+    "type": "suffix",
+    "displayText": "-ite",
+    "meaningCn": "有……性质的（形/名）",
+    "allomorphs": [
+      "ite"
+    ],
+    "level": 4,
+    "etymology": "希腊语/拉丁语形容词或名词后缀",
+    "color": "green"
+  },
+  {
+    "id": "u",
+    "type": "suffix",
+    "displayText": "-um / -u",
+    "meaningCn": "连接元音、后缀",
+    "allomorphs": [
+      "u",
+      "um"
+    ],
+    "level": 3,
+    "color": "green",
+    "etymology": "拉丁中性名词词尾"
+  },
+  {
+    "id": "tech",
+    "type": "suffix",
+    "displayText": "-tech",
+    "meaningCn": "技艺、技术",
+    "allomorphs": [
+      "tech"
+    ],
+    "level": 3,
+    "etymology": "来自希腊语 techne，意为技艺（本阶段作后缀处理，避免单独成根触发 A23）",
+    "color": "green"
+  },
+  {
+    "id": "cor",
+    "type": "root",
+    "displayText": "cor / cord / cour",
+    "meaningCn": "心",
+    "allomorphs": [
+      "cor",
+      "cord",
+      "cour"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自拉丁语 cor/cordis，心"
+  },
+  {
+    "id": "vinc",
+    "type": "root",
+    "displayText": "vinc / vict",
+    "meaningCn": "征服",
+    "allomorphs": [
+      "vinc",
+      "vict",
+      "vince"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自拉丁语 vincere，征服、战胜"
+  },
+  {
+    "id": "pos",
+    "type": "root",
+    "displayText": "pos / pon",
+    "meaningCn": "放置",
+    "allomorphs": [
+      "pos",
+      "pon",
+      "pose",
+      "posit",
+      "pone"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自拉丁语 ponere/positum，放置"
+  },
+  {
+    "id": "prim",
+    "type": "root",
+    "displayText": "prim / prime",
+    "meaningCn": "第一、首要",
+    "allomorphs": [
+      "prim",
+      "prime",
+      "primit"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自拉丁语 primus，第一"
+  },
+  {
+    "id": "vac",
+    "type": "root",
+    "displayText": "vac",
+    "meaningCn": "空",
+    "allomorphs": [
+      "vac",
+      "vaccin"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自拉丁语 vacare，空、空闲"
+  },
+  {
+    "id": "pel",
+    "type": "root",
+    "displayText": "pel / puls",
+    "meaningCn": "驱动、推",
+    "allomorphs": [
+      "pel",
+      "puls",
+      "pulse"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自拉丁语 pellere/pulsum，推、驱赶"
+  },
+  {
+    "id": "flect",
+    "type": "root",
+    "displayText": "flect / flex",
+    "meaningCn": "弯曲",
+    "allomorphs": [
+      "flect",
+      "flex"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自拉丁语 flectere/flexum，弯曲"
+  },
+  {
+    "id": "form",
+    "type": "root",
+    "displayText": "form",
+    "meaningCn": "形状、形成",
+    "allomorphs": [
+      "form"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自拉丁语 forma，形状"
+  },
+  {
+    "id": "fort",
+    "type": "root",
+    "displayText": "fort",
+    "meaningCn": "强壮",
+    "allomorphs": [
+      "fort"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自拉丁语 fortis，强壮的"
+  },
+  {
+    "id": "fus",
+    "type": "root",
+    "displayText": "fus / fuse",
+    "meaningCn": "灌注、流",
+    "allomorphs": [
+      "fus",
+      "fuse"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自拉丁语 fundere/fusum，倾倒、灌注"
+  },
+  {
+    "id": "equ",
+    "type": "root",
+    "displayText": "equ / equat",
+    "meaningCn": "相等、平等",
+    "allomorphs": [
+      "equ",
+      "equat",
+      "equal"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自拉丁语 aequus，相等"
+  },
+  {
+    "id": "hydr",
+    "type": "root",
+    "displayText": "hydr / hydro / hydraul",
+    "meaningCn": "水",
+    "allomorphs": [
+      "hydr",
+      "hydro",
+      "hydraul"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自希腊语 hydor，水；hydro 为连接体变体"
+  },
+  {
+    "id": "therm",
+    "type": "root",
+    "displayText": "therm / thermo / thermos",
+    "meaningCn": "热",
+    "allomorphs": [
+      "therm",
+      "thermo",
+      "thermos"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自希腊语 thermos，热；thermo 为连接体变体"
+  },
+  {
+    "id": "hab",
+    "type": "root",
+    "displayText": "hab / hibit",
+    "meaningCn": "持有、居住",
+    "allomorphs": [
+      "hab",
+      "habit",
+      "hibit"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自拉丁语 habere，持有；hibit 是同化变体"
+  },
+  {
+    "id": "labor",
+    "type": "root",
+    "displayText": "labor / labour",
+    "meaningCn": "劳作",
+    "allomorphs": [
+      "labor",
+      "labour",
+      "laborat"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自拉丁语 labor，劳作、辛劳"
+  },
+  {
+    "id": "grat",
+    "type": "root",
+    "displayText": "grat / gratul",
+    "meaningCn": "高兴、感激",
+    "allomorphs": [
+      "grat",
+      "grate",
+      "gratul"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自拉丁语 gratus，令人高兴的、感激的"
+  },
+  {
+    "id": "sanct",
+    "type": "root",
+    "displayText": "sanct / sacr",
+    "meaningCn": "神圣",
+    "allomorphs": [
+      "sanct",
+      "sacr",
+      "sacri",
+      "saint",
+      "secr"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自拉丁语 sacer/sanctus，神圣的；sacr/secr 为变体"
+  },
+  {
+    "id": "test",
+    "type": "root",
+    "displayText": "test / testa",
+    "meaningCn": "见证、检验",
+    "allomorphs": [
+      "test",
+      "testa"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自拉丁语 testari，作证、见证"
+  },
+  {
+    "id": "liter",
+    "type": "root",
+    "displayText": "liter / literat",
+    "meaningCn": "文字、字母",
+    "allomorphs": [
+      "liter",
+      "literat"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自拉丁语 littera，字母"
+  },
+  {
+    "id": "lev",
+    "type": "root",
+    "displayText": "lev / levat",
+    "meaningCn": "轻、举起",
+    "allomorphs": [
+      "lev",
+      "levat"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自拉丁语 levis（轻）/ levare（举起）"
+  },
+  {
+    "id": "migr",
+    "type": "root",
+    "displayText": "migr / migrat",
+    "meaningCn": "迁移",
+    "allomorphs": [
+      "migr",
+      "migrat"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自拉丁语 migrare，迁移"
+  },
+  {
+    "id": "mir",
+    "type": "root",
+    "displayText": "mir / mirr",
+    "meaningCn": "惊奇、看",
+    "allomorphs": [
+      "mir",
+      "mirr",
+      "mire",
+      "miracul"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自拉丁语 mirari，惊奇、注视"
+  },
+  {
+    "id": "soci",
+    "type": "root",
+    "displayText": "soci",
+    "meaningCn": "同伴、社会",
+    "allomorphs": [
+      "soci"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自拉丁语 socius，同伴"
+  },
+  {
+    "id": "flu",
+    "type": "root",
+    "displayText": "flu / flux",
+    "meaningCn": "流",
+    "allomorphs": [
+      "flu",
+      "flux",
+      "fluct"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自拉丁语 fluere，流动"
+  },
+  {
+    "id": "tact",
+    "type": "root",
+    "displayText": "tact / tang",
+    "meaningCn": "触碰",
+    "allomorphs": [
+      "tact",
+      "tang",
+      "tag"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自拉丁语 tangere/tactum，触碰"
+  },
+  {
+    "id": "nov",
+    "type": "root",
+    "displayText": "nov",
+    "meaningCn": "新",
+    "allomorphs": [
+      "nov",
+      "novelt"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自拉丁语 novus，新的"
+  },
+  {
+    "id": "sal",
+    "type": "root",
+    "displayText": "sal",
+    "meaningCn": "盐",
+    "allomorphs": [
+      "sal",
+      "salar",
+      "saus",
+      "sauc",
+      "salad"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自拉丁语 sal，盐；salary 原指罗马士兵的买盐钱"
+  },
+  {
+    "id": "art",
+    "type": "root",
+    "displayText": "art / arti",
+    "meaningCn": "技艺、艺术",
+    "allomorphs": [
+      "art",
+      "arti"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自拉丁语 ars，技艺"
+  },
+  {
+    "id": "phys",
+    "type": "root",
+    "displayText": "phys / physi",
+    "meaningCn": "自然、身体",
+    "allomorphs": [
+      "phys",
+      "physi"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自希腊语 physis，自然、本性"
+  },
+  {
+    "id": "mit",
+    "type": "root",
+    "displayText": "mit / miss",
+    "meaningCn": "送、放",
+    "allomorphs": [
+      "mit",
+      "miss",
+      "mitt"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自拉丁语 mittere/missum，送出、放出"
+  },
+  {
+    "id": "cap",
+    "type": "root",
+    "displayText": "cap / cept",
+    "meaningCn": "抓取、拿",
+    "allomorphs": [
+      "cap",
+      "capt",
+      "cept",
+      "ceive",
+      "capac"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自拉丁语 capere/captum，抓取；cept/ceive 为变体"
+  },
+  {
+    "id": "fer",
+    "type": "root",
+    "displayText": "fer / fertil",
+    "meaningCn": "带来、承载",
+    "allomorphs": [
+      "fer",
+      "fertil"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自拉丁语 ferre，带来、承载"
+  },
+  {
+    "id": "medi",
+    "type": "root",
+    "displayText": "medi",
+    "meaningCn": "中间",
+    "allomorphs": [
+      "medi",
+      "media"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自拉丁语 medius，中间的"
+  },
+  {
+    "id": "metr",
+    "type": "root",
+    "displayText": "metr / meter",
+    "meaningCn": "测量",
+    "allomorphs": [
+      "metr",
+      "metre",
+      "meter",
+      "metry"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自希腊语 metron，测量"
+  },
+  {
+    "id": "jud",
+    "type": "root",
+    "displayText": "jud / judg / just",
+    "meaningCn": "判断、法律",
+    "allomorphs": [
+      "jud",
+      "judg",
+      "judge",
+      "just",
+      "judic"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自拉丁语 jus/judicare，法律、判断"
+  },
+  {
+    "id": "serv",
+    "type": "root",
+    "displayText": "serv / serve",
+    "meaningCn": "服务、保持",
+    "allomorphs": [
+      "serv",
+      "serve",
+      "servat"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自拉丁语 servare（保持）/ servire（服务）"
+  },
+  {
+    "id": "polit",
+    "type": "root",
+    "displayText": "polit / pol",
+    "meaningCn": "城市、公民",
+    "allomorphs": [
+      "polit",
+      "pol",
+      "polic",
+      "politic"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "来自希腊语 polis，城市；police/policy 同源"
+  },
+  {
+    "id": "scrib",
+    "type": "root",
+    "displayText": "scrib / script / scribe",
+    "meaningCn": "写",
+    "allomorphs": [
+      "scrib",
+      "script",
+      "scribe"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自拉丁语 scribere/scriptum，写"
+  },
+  {
+    "id": "ven",
+    "type": "root",
+    "displayText": "ven / vent",
+    "meaningCn": "来",
+    "allomorphs": [
+      "ven",
+      "vent",
+      "venture"
+    ],
+    "level": 1,
+    "color": "orange",
+    "etymology": "来自拉丁语 venire/ventum，来"
+  },
+  {
+    "id": "opt",
+    "type": "root",
+    "displayText": "opt / optim",
+    "meaningCn": "选择；眼睛",
+    "allomorphs": [
+      "opt",
+      "optim"
+    ],
+    "level": 2,
+    "color": "orange",
+    "etymology": "optimum 最佳选择；optikos 眼睛的"
+  },
+  {
+    "id": "ad",
+    "type": "prefix",
+    "displayText": "ad-",
+    "meaningCn": "朝、向；加强",
+    "allomorphs": [
+      "ad",
+      "ac",
+      "af",
+      "ag",
+      "ap",
+      "ar",
+      "as",
+      "al"
+    ],
+    "level": 2,
+    "color": "blue",
+    "etymology": "来自拉丁语 ad，朝向；ac/af/ag/ap/ar/as/al 为同化变体"
+  },
+  {
+    "id": "ob",
+    "type": "prefix",
+    "displayText": "ob-",
+    "meaningCn": "对着、逆；加强",
+    "allomorphs": [
+      "ob",
+      "of",
+      "op",
+      "oc"
+    ],
+    "level": 2,
+    "color": "blue",
+    "etymology": "来自拉丁语 ob，对着；of/op/oc 为同化变体"
+  },
+  {
+    "id": "un",
+    "type": "prefix",
+    "displayText": "un-",
+    "meaningCn": "不、相反",
+    "allomorphs": [
+      "un"
+    ],
+    "level": 1,
+    "color": "blue",
+    "etymology": "本土否定前缀"
+  },
+  {
+    "id": "trans",
+    "type": "prefix",
+    "displayText": "trans-",
+    "meaningCn": "横穿、转移",
+    "allomorphs": [
+      "trans"
+    ],
+    "level": 1,
+    "color": "blue",
+    "etymology": "来自拉丁语 trans，穿过、到对面"
+  },
+  {
+    "id": "post",
+    "type": "prefix",
+    "displayText": "post-",
+    "meaningCn": "后、延迟",
+    "allomorphs": [
+      "post"
+    ],
+    "level": 1,
+    "color": "blue",
+    "etymology": "来自拉丁语 post，之后"
+  },
+  {
+    "id": "inter",
+    "type": "prefix",
+    "displayText": "inter-",
+    "meaningCn": "在……之间",
+    "allomorphs": [
+      "inter"
+    ],
+    "level": 1,
+    "color": "blue",
+    "etymology": "来自拉丁语 inter，之间"
+  },
+  {
+    "id": "extra",
+    "type": "prefix",
+    "displayText": "extra-",
+    "meaningCn": "超出、以外",
+    "allomorphs": [
+      "extra"
+    ],
+    "level": 2,
+    "color": "blue",
+    "etymology": "来自拉丁语 extra，在外面"
+  },
+  {
+    "id": "hypo",
+    "type": "prefix",
+    "displayText": "hypo-",
+    "meaningCn": "低于、下",
+    "allomorphs": [
+      "hypo"
+    ],
+    "level": 3,
+    "color": "blue",
+    "etymology": "来自希腊语 hypo，在下"
+  },
+  {
+    "id": "centi",
+    "type": "prefix",
+    "displayText": "centi-",
+    "meaningCn": "百分之一",
+    "allomorphs": [
+      "centi"
+    ],
+    "level": 2,
+    "color": "blue",
+    "etymology": "来自拉丁语 centum，百"
+  },
+  {
+    "id": "kilo",
+    "type": "prefix",
+    "displayText": "kilo-",
+    "meaningCn": "千",
+    "allomorphs": [
+      "kilo"
+    ],
+    "level": 1,
+    "color": "blue",
+    "etymology": "来自希腊语 chilioi，千"
+  },
+  {
+    "id": "baro",
+    "type": "prefix",
+    "displayText": "baro-",
+    "meaningCn": "压力、重量",
+    "allomorphs": [
+      "baro"
+    ],
+    "level": 3,
+    "color": "blue",
+    "etymology": "来自希腊语 baros，重量"
+  },
+  {
+    "id": "peri",
+    "type": "prefix",
+    "displayText": "peri-",
+    "meaningCn": "周围、环绕",
+    "allomorphs": [
+      "peri"
+    ],
+    "level": 2,
+    "color": "blue",
+    "etymology": "来自希腊语 peri，周围"
+  },
+  {
+    "id": "sym",
+    "type": "prefix",
+    "displayText": "sym- / syn-",
+    "meaningCn": "相同、一起",
+    "allomorphs": [
+      "sym",
+      "syn"
+    ],
+    "level": 2,
+    "color": "blue",
+    "etymology": "来自希腊语 syn，一起；接 m/b/p 时写作 sym"
+  },
+  {
+    "id": "manu",
+    "type": "prefix",
+    "displayText": "manu-",
+    "meaningCn": "手",
+    "allomorphs": [
+      "manu"
+    ],
+    "level": 2,
+    "color": "blue",
+    "etymology": "来自拉丁语 manus，手"
+  },
+  {
+    "id": "metro",
+    "type": "prefix",
+    "displayText": "metro-",
+    "meaningCn": "母亲、都市",
+    "allomorphs": [
+      "metro"
+    ],
+    "level": 3,
+    "color": "blue",
+    "etymology": "来自希腊语 meter（母亲）；metropolis 母城→都市"
+  },
+  {
+    "id": "cosmo",
+    "type": "prefix",
+    "displayText": "cosmo-",
+    "meaningCn": "世界、宇宙",
+    "allomorphs": [
+      "cosmo"
+    ],
+    "level": 3,
+    "color": "blue",
+    "etymology": "来自希腊语 kosmos，世界、秩序"
+  },
+  {
+    "id": "ition",
+    "type": "suffix",
+    "displayText": "-ition",
+    "meaningCn": "动作、状态（名词）",
+    "allomorphs": [
+      "ition"
+    ],
+    "level": 2,
+    "color": "green",
+    "etymology": "名词后缀，-ition/-tion 家族"
+  },
+  {
+    "id": "ant",
+    "type": "suffix",
+    "displayText": "-ant",
+    "meaningCn": "……的；做……的人",
+    "allomorphs": [
+      "ant"
+    ],
+    "level": 1,
+    "color": "green",
+    "etymology": "形容词/施动者后缀"
+  },
+  {
+    "id": "ance",
+    "type": "suffix",
+    "displayText": "-ance",
+    "meaningCn": "性质、状态（名词）",
+    "allomorphs": [
+      "ance"
+    ],
+    "level": 1,
+    "color": "green",
+    "etymology": "抽象名词后缀"
+  },
+  {
+    "id": "al",
+    "type": "suffix",
+    "displayText": "-al",
+    "meaningCn": "……的（形容词）",
+    "allomorphs": [
+      "al"
+    ],
+    "level": 1,
+    "color": "green",
+    "etymology": "高频形容词后缀"
+  },
+  {
+    "id": "acy",
+    "type": "suffix",
+    "displayText": "-acy",
+    "meaningCn": "性质、状态（名词）",
+    "allomorphs": [
+      "acy"
+    ],
+    "level": 2,
+    "color": "green",
+    "etymology": "抽象名词后缀"
+  },
+  {
+    "id": "acle",
+    "type": "suffix",
+    "displayText": "-acle",
+    "meaningCn": "小东西（名词）",
+    "allomorphs": [
+      "acle"
+    ],
+    "level": 3,
+    "color": "green",
+    "etymology": "来自拉丁语 -aculum，小物件"
+  },
+  {
+    "id": "ify",
+    "type": "suffix",
+    "displayText": "-ify",
+    "meaningCn": "使……化（动词）",
+    "allomorphs": [
+      "ify"
+    ],
+    "level": 1,
+    "color": "green",
+    "etymology": "来自拉丁语 -facere，使成为"
+  },
+  {
+    "id": "izer",
+    "type": "suffix",
+    "displayText": "-izer",
+    "meaningCn": "使……的东西",
+    "allomorphs": [
+      "izer"
+    ],
+    "level": 3,
+    "color": "green",
+    "etymology": "-ize + -er 的复合施动者后缀"
+  },
+  {
+    "id": "ine",
+    "type": "suffix",
+    "displayText": "-ine",
+    "meaningCn": "……的（形容词）",
+    "allomorphs": [
+      "ine"
+    ],
+    "level": 2,
+    "color": "green",
+    "etymology": "形容词后缀"
+  },
+  {
+    "id": "id",
+    "type": "suffix",
+    "displayText": "-id",
+    "meaningCn": "……的（形容词）",
+    "allomorphs": [
+      "id"
+    ],
+    "level": 3,
+    "color": "green",
+    "etymology": "形容词后缀"
+  },
+  {
+    "id": "el",
+    "type": "suffix",
+    "displayText": "-el",
+    "meaningCn": "小（名词词尾）",
+    "allomorphs": [
+      "el"
+    ],
+    "level": 3,
+    "color": "green",
+    "etymology": "名词后缀，常带小意味"
+  },
+  {
+    "id": "ety",
+    "type": "suffix",
+    "displayText": "-ety",
+    "meaningCn": "性质、状态（名词）",
+    "allomorphs": [
+      "ety"
+    ],
+    "level": 3,
+    "color": "green",
+    "etymology": "-ety 为 -ity 的变体"
+  },
+  {
+    "id": "ian",
+    "type": "suffix",
+    "displayText": "-ian",
+    "meaningCn": "……的人（名词）",
+    "allomorphs": [
+      "ian"
+    ],
+    "level": 1,
+    "color": "green",
+    "etymology": "表人的名词后缀"
+  },
+  {
+    "id": "ious",
+    "type": "suffix",
+    "displayText": "-ious / -ous",
+    "meaningCn": "多……的（形容词）",
+    "allomorphs": [
+      "ious",
+      "ous"
+    ],
+    "level": 1,
+    "color": "green",
+    "etymology": "高频形容词后缀；ious 为变体"
+  },
+  {
+    "id": "ism",
+    "type": "suffix",
+    "displayText": "-ism",
+    "meaningCn": "主义、学说（名词）",
+    "allomorphs": [
+      "ism"
+    ],
+    "level": 1,
+    "color": "green",
+    "etymology": "来自希腊语 -ismos，主义"
+  },
+  {
+    "id": "ist",
+    "type": "suffix",
+    "displayText": "-ist",
+    "meaningCn": "……者、……家（名词）",
+    "allomorphs": [
+      "ist"
+    ],
+    "level": 1,
+    "color": "green",
+    "etymology": "表人的名词后缀"
+  },
+  {
+    "id": "itude",
+    "type": "suffix",
+    "displayText": "-itude",
+    "meaningCn": "状态、程度（名词）",
+    "allomorphs": [
+      "itude"
+    ],
+    "level": 3,
+    "color": "green",
+    "etymology": "抽象名词后缀"
+  },
+  {
+    "id": "ment",
+    "type": "suffix",
+    "displayText": "-ment",
+    "meaningCn": "行为、结果（名词）",
+    "allomorphs": [
+      "ment"
+    ],
+    "level": 1,
+    "color": "green",
+    "etymology": "高频名词后缀"
+  },
+  {
+    "id": "ress",
+    "type": "suffix",
+    "displayText": "-ress",
+    "meaningCn": "女性的……（名词）",
+    "allomorphs": [
+      "ress"
+    ],
+    "level": 3,
+    "color": "green",
+    "etymology": "-er 的阴性变体"
+  },
+  {
+    "id": "uary",
+    "type": "suffix",
+    "displayText": "-uary",
+    "meaningCn": "场所（名词）",
+    "allomorphs": [
+      "uary"
+    ],
+    "level": 3,
+    "color": "green",
+    "etymology": "表场所的名词后缀"
+  },
+  {
+    "id": "uum",
+    "type": "suffix",
+    "displayText": "-uum",
+    "meaningCn": "拉丁名词词尾",
+    "allomorphs": [
+      "uum"
+    ],
+    "level": 3,
+    "color": "green",
+    "etymology": "拉丁中性名词词尾"
+  },
+  {
+    "id": "eval",
+    "type": "suffix",
+    "displayText": "-eval",
+    "meaningCn": "时代（词根性后缀）",
+    "allomorphs": [
+      "eval"
+    ],
+    "level": 3,
+    "color": "green",
+    "etymology": "来自拉丁语 aevum，时代"
+  },
+  {
+    "id": "ocre",
+    "type": "suffix",
+    "displayText": "-ocre",
+    "meaningCn": "希腊词尾",
+    "allomorphs": [
+      "ocre"
+    ],
+    "level": 3,
+    "color": "green",
+    "etymology": "来自希腊语 okros，尖、平庸"
+  },
+  {
+    "id": "ful",
+    "type": "suffix",
+    "displayText": "-ful",
+    "meaningCn": "充满……的（形容词）",
+    "allomorphs": [
+      "ful"
+    ],
+    "level": 1,
+    "color": "green",
+    "etymology": "来自 full，充满"
+  },
+  {
+    "id": "ual",
+    "type": "suffix",
+    "displayText": "-ual",
+    "meaningCn": "……的（形容词）",
+    "allomorphs": [
+      "ual"
+    ],
+    "level": 2,
+    "color": "green",
+    "etymology": "形容词后缀，-ual 为 -al 变体"
+  },
+  {
+    "id": "ed",
+    "type": "suffix",
+    "displayText": "-ed",
+    "meaningCn": "有……的、已……的（形容词）",
+    "allomorphs": [
+      "ed"
+    ],
+    "level": 1,
+    "color": "green",
+    "etymology": "形容词后缀"
+  },
+  {
+    "id": "ia",
+    "type": "suffix",
+    "displayText": "-ia",
+    "meaningCn": "状态、病状（名词）",
+    "allomorphs": [
+      "ia"
+    ],
+    "level": 3,
+    "color": "green",
+    "etymology": "来自希腊语 -ia，状态词尾"
+  },
+  {
+    "id": "y",
+    "type": "suffix",
+    "displayText": "-y",
+    "meaningCn": "性质、状态（名词）",
+    "allomorphs": [
+      "y"
+    ],
+    "level": 1,
+    "color": "green",
+    "etymology": "高频名词/形容词词尾"
+  },
+  {
+    "id": "an",
+    "type": "suffix",
+    "displayText": "-an",
+    "meaningCn": "……地方的、……的人",
+    "allomorphs": [
+      "an"
+    ],
+    "level": 1,
+    "color": "green",
+    "etymology": "表属地/人物的形容词、名词后缀"
+  },
+  {
+    "id": "age",
+    "type": "suffix",
+    "displayText": "-age",
+    "meaningCn": "行为、集合、状态（名词）",
+    "allomorphs": [
+      "age"
+    ],
+    "level": 1,
+    "color": "green",
+    "etymology": "来自法语 -age，高频名词后缀"
+  }
+]

@@ -1,0 +1,795 @@
+{
+  "_comment": "Stage 2 释义文案 第 4 批 v2（干扰项内嵌外来义项；A14 已修）",
+  "capture": {
+    "modernMeaningCn": "捕获；夺得",
+    "literalMeaningCn": "抓取到手",
+    "metaphorMeaningCn": "张网把整群鱼收进舱",
+    "metaphorOptions": [
+      "张网把整群鱼收进舱",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "capt 抓取 + -ure（行为）：把整群鱼收进舱。",
+    "sourceNote": "capt（抓取）+ -ure（行为）：擒获之物。"
+  },
+  "capable": {
+    "modernMeaningCn": "有能力的；能干的",
+    "literalMeaningCn": "抓得住的",
+    "metaphorMeaningCn": "单手接住坠碗的人",
+    "metaphorOptions": [
+      "单手接住坠碗的人",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "cap 抓取 + -able（能够…的）：什么都接得住。",
+    "sourceNote": "cap（抓取）+ -able（…的）：能担当者。"
+  },
+  "accept": {
+    "modernMeaningCn": "接受；接纳",
+    "literalMeaningCn": "抓过来收下",
+    "metaphorMeaningCn": "把递来的橄榄枝握住",
+    "metaphorOptions": [
+      "把递来的橄榄枝握住",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "ac 朝 + cept 抓取：朝它抓过来收下。",
+    "sourceNote": "ac-（朝）+ cept（抓取）：纳之入手，即接受。"
+  },
+  "concept": {
+    "modernMeaningCn": "概念；观念",
+    "literalMeaningCn": "被抓住的想法",
+    "metaphorMeaningCn": "脑子里攥牢的那颗种子",
+    "metaphorOptions": [
+      "脑子里攥牢的那颗种子",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "con 共同 + cept 抓取：心里共同攥住的想法。",
+    "sourceNote": "con-（共）+ cept（抓取）：心所共执之念。"
+  },
+  "reception": {
+    "modernMeaningCn": "接待；接收；招待会",
+    "literalMeaningCn": "抓回来的动作",
+    "metaphorMeaningCn": "门口握手迎客的那排人",
+    "metaphorOptions": [
+      "门口握手迎客的那排人",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "re 回 + cept 抓取 + -ion（动作）：把客接进来。",
+    "sourceNote": "re-（回）+ cept（取）+ -ion（名词）：迎而纳之。"
+  },
+  "capacity": {
+    "modernMeaningCn": "容量；能力",
+    "literalMeaningCn": "能抓住的量",
+    "metaphorMeaningCn": "这个桶到线就一滴不进",
+    "metaphorOptions": [
+      "这个桶到线就一滴不进",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "capac 抓得住 + -ity（性质）：抓得下多少的器量。",
+    "sourceNote": "capac（能容）+ -ity（性质）：容受之量。"
+  },
+  "captive": {
+    "modernMeaningCn": "俘虏；被囚的",
+    "literalMeaningCn": "被抓走的",
+    "metaphorMeaningCn": "笼子里扑棱不开翅膀的鸟",
+    "metaphorOptions": [
+      "笼子里扑棱不开翅膀的鸟",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "capt 抓取 + -ive（…的）：被抓而失自由的。",
+    "sourceNote": "capt（抓取）+ -ive（…的）：被擒之身。"
+  },
+  "deceive": {
+    "modernMeaningCn": "欺骗；蒙骗",
+    "literalMeaningCn": "抓走你的判断",
+    "metaphorMeaningCn": "用假饵钓走你的心",
+    "metaphorOptions": [
+      "用假饵钓走你的心",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "de 离开 + ceive 抓取：把你的判断带偏。",
+    "sourceNote": "de-（偏离）+ ceive（抓取）：诱使错认，即欺骗。"
+  },
+  "offer": {
+    "modernMeaningCn": "提供；提议；出价",
+    "literalMeaningCn": "对着人递上",
+    "metaphorMeaningCn": "双手把伞递到你面前",
+    "metaphorOptions": [
+      "双手把伞递到你面前",
+      "周围开满野花的湖",
+      "把伞藏进自己怀里的路人"
+    ],
+    "mnemonicNote": "of 对着 + fer 带来：当面把伞送到你面前。",
+    "sourceNote": "of-（对着）+ fer（送）：当面奉上，即提供。"
+  },
+  "prefer": {
+    "modernMeaningCn": "更喜欢；宁愿",
+    "literalMeaningCn": "放在前面先拿",
+    "metaphorMeaningCn": "两个里先抓那个甜的",
+    "metaphorOptions": [
+      "两个里先抓那个甜的",
+      "周围开满野花的湖",
+      "进入梦乡的孩子"
+    ],
+    "mnemonicNote": "pre 预先 + fer 拿：先把喜欢的拿到手。",
+    "sourceNote": "pre-（先）+ fer（持）：置于先，即宁愿。"
+  },
+  "differ": {
+    "modernMeaningCn": "不同；相异",
+    "literalMeaningCn": "分开拿着",
+    "metaphorMeaningCn": "把两样东西摆到天平两头",
+    "metaphorOptions": [
+      "把两样东西摆到天平两头",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "dif 分开 + fer 持：各持各的，不重样。",
+    "sourceNote": "dif-（分开）+ fer（持）：所持各异，即不同。"
+  },
+  "transfer": {
+    "modernMeaningCn": "转移；换乘；转让",
+    "literalMeaningCn": "送过对面",
+    "metaphorMeaningCn": "把鸡蛋从左手倒到右手",
+    "metaphorOptions": [
+      "把鸡蛋从左手倒到右手",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "trans 转移 + fer 送：送到另一头去。",
+    "sourceNote": "trans-（越过）+ fer（送）：移之别处，即转移。"
+  },
+  "conference": {
+    "modernMeaningCn": "会议；讨论会",
+    "literalMeaningCn": "把意见一同带来",
+    "metaphorMeaningCn": "围着长桌把话摊开谈",
+    "metaphorOptions": [
+      "围着长桌把话摊开谈",
+      "周围开满野花的湖",
+      "各自对着墙壁自说自话"
+    ],
+    "mnemonicNote": "con 共同 + fer 携带 + -ence（状态）：共聚一堂协商。",
+    "sourceNote": "con-（共）+ fer（携）+ -ence（名词）：会而协商。"
+  },
+  "suffer": {
+    "modernMeaningCn": "受苦；遭受",
+    "literalMeaningCn": "在下面扛着",
+    "metaphorMeaningCn": "压弯了背还咬着牙扛",
+    "metaphorOptions": [
+      "压弯了背还咬着牙扛",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "suf 在下 + fer 承载：在下面硬扛着。",
+    "sourceNote": "suf-（在下）+ fer（承受）：负于其下，即遭受。"
+  },
+  "fertilizer": {
+    "modernMeaningCn": "肥料",
+    "literalMeaningCn": "使土地丰饶之物",
+    "metaphorMeaningCn": "让瘦田吃饱饭的黑金",
+    "metaphorOptions": [
+      "让瘦田吃饱饭的黑金",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "fertil 肥 + -izer（使……的东西）：喂饱土地的黑金。",
+    "sourceNote": "fertil（肥）+ -izer（物）：肥田之物。"
+  },
+  "medium": {
+    "modernMeaningCn": "媒介；中等的",
+    "literalMeaningCn": "在中间的东西",
+    "metaphorMeaningCn": "声音走的那条中间通道",
+    "metaphorOptions": [
+      "声音走的那条中间通道",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "medi 中间 + -um（名词）：居间传话搭桥的通道。",
+    "sourceNote": "medi（中间）+ -um（名词）：居间之物，即媒介。"
+  },
+  "immediate": {
+    "modernMeaningCn": "立即的；直接的",
+    "literalMeaningCn": "中间没有隔挡的",
+    "metaphorMeaningCn": "火苗蹿起当场就扑灭",
+    "metaphorOptions": [
+      "火苗蹿起当场就扑灭",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "im 无 + medi 中间 + -ate：中间不隔一站。",
+    "sourceNote": "im-（无）+ medi（中间）+ -ate：中间无隔，即立即。"
+  },
+  "media": {
+    "modernMeaningCn": "媒体；媒介",
+    "literalMeaningCn": "居中传信的东西",
+    "metaphorMeaningCn": "把消息送进千家万户的喇叭",
+    "metaphorOptions": [
+      "把消息送进千家万户的喇叭",
+      "周围开满野花的湖",
+      "只贴在自己门口的便条"
+    ],
+    "mnemonicNote": "media 即 medium 复数：把消息送到城里的传声筒。",
+    "sourceNote": "medi（中间）：居间传讯之器，即媒体。"
+  },
+  "medieval": {
+    "modernMeaningCn": "中世纪的；古老的",
+    "literalMeaningCn": "中间时代的",
+    "metaphorMeaningCn": "吊桥高墙里骑士的时代",
+    "metaphorOptions": [
+      "吊桥高墙里骑士的时代",
+      "周围开满野花的湖",
+      "霓虹闪烁的未来城市"
+    ],
+    "mnemonicNote": "medi 中间 + eval 时代：居古代中段的那几百年。",
+    "sourceNote": "medi（中间）+ eval（时代）：中间之世，即中世纪。"
+  },
+  "mediocre": {
+    "modernMeaningCn": "平庸的；中不溜的",
+    "literalMeaningCn": "停在中间的",
+    "metaphorMeaningCn": "不上不下卡在半山腰",
+    "metaphorOptions": [
+      "不上不下卡在半山腰",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "medi 中间 + ocre（希腊词尾）：只到半山的成绩。",
+    "sourceNote": "medi（中间）+ ocre（希腊词尾）：仅及中峰。"
+  },
+  "centimetre": {
+    "modernMeaningCn": "厘米",
+    "literalMeaningCn": "百分之一米",
+    "metaphorMeaningCn": "米尺上最小的那格",
+    "metaphorOptions": [
+      "米尺上最小的那格",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "centi 百分之一 + metre 测量单位：百分之一米长。",
+    "sourceNote": "centi（百分之一）+ metre（米）：百分之一米。"
+  },
+  "kilometre": {
+    "modernMeaningCn": "千米；公里",
+    "literalMeaningCn": "一千米",
+    "metaphorMeaningCn": "长跑表上跳过的一大格",
+    "metaphorOptions": [
+      "长跑表上跳过的一大格",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "kilo 千 + metre 米：一千个一米连起来。",
+    "sourceNote": "kilo-（千）+ metre（米）：千米之长。"
+  },
+  "diameter": {
+    "modernMeaningCn": "直径",
+    "literalMeaningCn": "穿过中间的量线",
+    "metaphorMeaningCn": "从圆心笔直贯穿的那条线",
+    "metaphorOptions": [
+      "从圆心笔直贯穿的那条线",
+      "贴着圆边环绕的那条弧",
+      "周围开满野花的湖"
+    ],
+    "mnemonicNote": "dia 贯穿 + meter 测量：从圆心量到对面。",
+    "sourceNote": "dia-（贯穿）+ meter（测量）：贯穿圆心之量。"
+  },
+  "symmetry": {
+    "modernMeaningCn": "对称；匀称",
+    "literalMeaningCn": "一起量得一样",
+    "metaphorMeaningCn": "折纸对齐后重合的两半",
+    "metaphorOptions": [
+      "折纸对齐后重合的两半",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "sym 相同 + metr 测量：两边量出来一样。",
+    "sourceNote": "sym-（相同）+ metr（测量）：两测相同，即对称。"
+  },
+  "barometer": {
+    "modernMeaningCn": "气压计；晴雨表",
+    "literalMeaningCn": "称量气压的表",
+    "metaphorMeaningCn": "预报出门带不带伞的表",
+    "metaphorOptions": [
+      "预报出门带不带伞的表",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "baro 压力/重量 + meter 测量：量空气轻重的表。",
+    "sourceNote": "baro（压力）+ meter（测量）：测气压之器。"
+  },
+  "perimeter": {
+    "modernMeaningCn": "周长；周界",
+    "literalMeaningCn": "绕着外面量一圈",
+    "metaphorMeaningCn": "绕操场边线跑的那一圈",
+    "metaphorOptions": [
+      "绕操场边线跑的那一圈",
+      "预先写好的字条",
+      "进入梦乡的孩子"
+    ],
+    "mnemonicNote": "peri 环绕 + meter 测量：沿边量一圈的长。",
+    "sourceNote": "peri-（环绕）+ meter（测量）：绕界一周之长。"
+  },
+  "metric": {
+    "modernMeaningCn": "公制的；度量标准",
+    "literalMeaningCn": "测量的",
+    "metaphorMeaningCn": "给万物量身高的那把尺",
+    "metaphorOptions": [
+      "给万物量身高的那把尺",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "metr 测量 + -ic（…的）：关于度量衡的一套标准。",
+    "sourceNote": "metr（测量）+ -ic（…的）：计度之法。"
+  },
+  "judge": {
+    "modernMeaningCn": "法官；判断；评判",
+    "literalMeaningCn": "执法断事的人",
+    "metaphorMeaningCn": "法槌一敲定分晓的人",
+    "metaphorOptions": [
+      "法槌一敲定分晓的人",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "judge 即 jud 法律：依律裁断的人。",
+    "sourceNote": "jud（法律）：依律裁断者，即法官。"
+  },
+  "justice": {
+    "modernMeaningCn": "正义；司法；公正",
+    "literalMeaningCn": "依法行事",
+    "metaphorMeaningCn": "蒙眼女神手里的那杆天平",
+    "metaphorOptions": [
+      "蒙眼女神手里的那杆天平",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "just 法律 + -ice（行为）：依法秉公裁处。",
+    "sourceNote": "just（法律）+ -ice（行为）：秉公执法，即正义。"
+  },
+  "justify": {
+    "modernMeaningCn": "证明…有理；辩护",
+    "literalMeaningCn": "使之合于法",
+    "metaphorMeaningCn": "给每一步都找到路标",
+    "metaphorOptions": [
+      "给每一步都找到路标",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "just 法律 + -ify（使成为）：让说法站得住脚。",
+    "sourceNote": "just（正当）+ -ify（使）：证其有理，即辩护。"
+  },
+  "adjust": {
+    "modernMeaningCn": "调整；适应",
+    "literalMeaningCn": "朝对的方向摆正",
+    "metaphorMeaningCn": "把歪掉的画框扶正那一下",
+    "metaphorOptions": [
+      "把歪掉的画框扶正那一下",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "ad 朝 + just 法律/正：把歪的扶到正位。",
+    "sourceNote": "ad-（朝）+ just（正）：正其所偏，即调整。"
+  },
+  "judgement": {
+    "modernMeaningCn": "判断；判决；看法",
+    "literalMeaningCn": "依法裁断的结果",
+    "metaphorMeaningCn": "落槌定音的那一下",
+    "metaphorOptions": [
+      "落槌定音的那一下",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "judg 法律 + -ment（结果）：落槌定音的那一下。",
+    "sourceNote": "judg（断）+ -ment（结果）：裁断之果，即判决。"
+  },
+  "prejudice": {
+    "modernMeaningCn": "偏见；成见",
+    "literalMeaningCn": "事先断定",
+    "metaphorMeaningCn": "没尝就皱眉说它苦",
+    "metaphorOptions": [
+      "没尝就皱眉说它苦",
+      "周围开满野花的湖",
+      "进入梦乡的孩子"
+    ],
+    "mnemonicNote": "pre 预先 + jud 判断 + -ice（行为）：还没尝就下结论。",
+    "sourceNote": "pre-（先）+ jud（判断）+ -ice：先断而后见，即成见。"
+  },
+  "judicious": {
+    "modernMeaningCn": "明智的；审慎的",
+    "literalMeaningCn": "依法明断的",
+    "metaphorMeaningCn": "落子前多看三步的棋手",
+    "metaphorOptions": [
+      "落子前多看三步的棋手",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "judic 法律 + -ious（…的）：处处细掂量的棋风。",
+    "sourceNote": "judic（判断）+ -ious（…的）：明于裁断。"
+  },
+  "serve": {
+    "modernMeaningCn": "服务；上菜；发球",
+    "literalMeaningCn": "作仆侍奉",
+    "metaphorMeaningCn": "把菜稳稳放到你面前",
+    "metaphorOptions": [
+      "把菜稳稳放到你面前",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "serv 服务：端茶送菜供人差遣。",
+    "sourceNote": "serv（服务）：供人差遣，即服务。"
+  },
+  "deserve": {
+    "modernMeaningCn": "应得；值得",
+    "literalMeaningCn": "从侍奉中换来",
+    "metaphorMeaningCn": "熬过整个夏天等来的收成",
+    "metaphorOptions": [
+      "熬过整个夏天等来的收成",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "de 从 + serve 服务：付出换来的那份收成。",
+    "sourceNote": "de-（出于）+ serve（服务）：由劳而得，即应得。"
+  },
+  "observe": {
+    "modernMeaningCn": "观察；遵守；评论",
+    "literalMeaningCn": "守在跟前看",
+    "metaphorMeaningCn": "趴在草丛记下虫的一举一动",
+    "metaphorOptions": [
+      "趴在草丛记下虫的一举一动",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "ob 对着 + serve 保持：守在对面细细地看。",
+    "sourceNote": "ob-（对着）+ serve（守持）：守而视之，即观察。"
+  },
+  "preserve": {
+    "modernMeaningCn": "保护；保存；果酱",
+    "literalMeaningCn": "预先守好",
+    "metaphorMeaningCn": "给老照片套上透明的膜",
+    "metaphorOptions": [
+      "给老照片套上透明的膜",
+      "周围开满野花的湖",
+      "进入梦乡的孩子"
+    ],
+    "mnemonicNote": "pre 预先 + serve 保持：提前护住不让坏。",
+    "sourceNote": "pre-（预先）+ serve（守持）：护之使存，即保存。"
+  },
+  "reserve": {
+    "modernMeaningCn": "预订；储备；保留",
+    "literalMeaningCn": "留着备用",
+    "metaphorMeaningCn": "旱季来临前封存的最后一缸水",
+    "metaphorOptions": [
+      "旱季来临前封存的最后一缸水",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "re 回 + serve 保持：存着留到以后用。",
+    "sourceNote": "re-（留）+ serve（守）：留而备之，即储备。"
+  },
+  "servant": {
+    "modernMeaningCn": "仆人；雇工",
+    "literalMeaningCn": "侍奉的人",
+    "metaphorMeaningCn": "捧着托盘随叫随到的人",
+    "metaphorOptions": [
+      "捧着托盘随叫随到的人",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "serv 服务 + -ant（人）：供差遣的人。",
+    "sourceNote": "serv（服务）+ -ant（人）：供役之人，即仆人。"
+  },
+  "observatory": {
+    "modernMeaningCn": "天文台；观象台",
+    "literalMeaningCn": "守望的场所",
+    "metaphorMeaningCn": "山顶上圆顶朝天的白塔",
+    "metaphorOptions": [
+      "山顶上圆顶朝天的白塔",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "ob+servat 保持守望 + -ory（场所）：观星守夜的塔。",
+    "sourceNote": "ob-（向）+ servat（守望）+ -ory（场所）：观天之台。"
+  },
+  "police": {
+    "modernMeaningCn": "警察；治安",
+    "literalMeaningCn": "管城邦的人",
+    "metaphorMeaningCn": "街角站岗维护秩序的人",
+    "metaphorOptions": [
+      "街角站岗维护秩序的人",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "pol 城市 + -ice（行为）：维护城市秩序的人。",
+    "sourceNote": "pol（城市）+ -ice（职能）：治城之吏，即警察。"
+  },
+  "policy": {
+    "modernMeaningCn": "政策；方针",
+    "literalMeaningCn": "治理城邦之策",
+    "metaphorMeaningCn": "城门口张贴的那张规矩榜",
+    "metaphorOptions": [
+      "城门口张贴的那张规矩榜",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "polic 城市 + -y（性质）：写在榜上的治城之方。",
+    "sourceNote": "polic（城市）+ -y（方略）：治城之策，即政策。"
+  },
+  "politics": {
+    "modernMeaningCn": "政治；政见",
+    "literalMeaningCn": "城邦事务",
+    "metaphorMeaningCn": "广场上人人争说的城事",
+    "metaphorOptions": [
+      "广场上人人争说的城事",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "politic 城市 + -s（复数）：城邦里的种种事务。",
+    "sourceNote": "politic（城市）+ -s（诸事）：城邦之务，即政治。"
+  },
+  "politician": {
+    "modernMeaningCn": "政治家；政客",
+    "literalMeaningCn": "操持城邦的人",
+    "metaphorMeaningCn": "台上挥手台下握手的人",
+    "metaphorOptions": [
+      "台上挥手台下握手的人",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "politic 城市 + -ian（人）：奔走于城邦事务的人。",
+    "sourceNote": "politic（城市）+ -ian（人）：从政之人。"
+  },
+  "political": {
+    "modernMeaningCn": "政治的；政党的",
+    "literalMeaningCn": "关于城邦的",
+    "metaphorMeaningCn": "选举日插满街道的旗",
+    "metaphorOptions": [
+      "选举日插满街道的旗",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "politic 城市 + -al（…的）：关乎全城的旗与票。",
+    "sourceNote": "politic（城市）+ -al（…的）：邦国之事。"
+  },
+  "metropolitan": {
+    "modernMeaningCn": "大都市的；大主教",
+    "literalMeaningCn": "母城的",
+    "metaphorMeaningCn": "高楼车流围成的漩涡中心",
+    "metaphorOptions": [
+      "高楼车流围成的漩涡中心",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "metro 母城 + polit 城 + -an：母城般的都会。",
+    "sourceNote": "metro-（母亲）+ polit（城市）+ -an：宗主大城。"
+  },
+  "cosmopolitan": {
+    "modernMeaningCn": "世界性的；四海为家的",
+    "literalMeaningCn": "属于整个世界之城的",
+    "metaphorMeaningCn": "一条街能听出十国口音",
+    "metaphorOptions": [
+      "一条街能听出十国口音",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "cosmo 世界 + polit 城市 + -an：把全世界当作一座城。",
+    "sourceNote": "cosmo-（世界）+ polit（城市）+ -an：以天下为邦。"
+  },
+  "describe": {
+    "modernMeaningCn": "描述；形容",
+    "literalMeaningCn": "写下来",
+    "metaphorMeaningCn": "把眼前的风景搬进信纸",
+    "metaphorOptions": [
+      "把眼前的风景搬进信纸",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "de 向下 + scribe 写：落笔把风景写下来。",
+    "sourceNote": "de-（下）+ scribe（写）：笔录其状，即描述。"
+  },
+  "prescription": {
+    "modernMeaningCn": "处方；药方",
+    "literalMeaningCn": "预先写好的方子",
+    "metaphorMeaningCn": "医生笔尖开出的那张单子",
+    "metaphorOptions": [
+      "医生笔尖开出的那张单子",
+      "周围开满野花的湖",
+      "自己乱抓的药渣"
+    ],
+    "mnemonicNote": "pre 预先 + script 写 + -ion（动作）：提前写好的单子。",
+    "sourceNote": "pre-（预先）+ script（写）+ -ion（名词）：先写之方。"
+  },
+  "subscribe": {
+    "modernMeaningCn": "订阅；署名认购",
+    "literalMeaningCn": "在下面签名",
+    "metaphorMeaningCn": "在契约末尾签下名字",
+    "metaphorOptions": [
+      "在契约末尾签下名字",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "sub 在下 + scribe 写：把自己的名字写在下方。",
+    "sourceNote": "sub-（下）+ scribe（写）：署名于下，即订阅。"
+  },
+  "script": {
+    "modernMeaningCn": "剧本；脚本；笔迹",
+    "literalMeaningCn": "写出的东西",
+    "metaphorMeaningCn": "演员手里写满台词的那沓纸",
+    "metaphorOptions": [
+      "演员手里写满台词的那沓纸",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "script 即 scribe 写：写成之稿。",
+    "sourceNote": "script（写）：所写之稿，即剧本。"
+  },
+  "manuscript": {
+    "modernMeaningCn": "手稿；原稿",
+    "literalMeaningCn": "手写的东西",
+    "metaphorMeaningCn": "还带着墨水味的亲笔稿纸",
+    "metaphorOptions": [
+      "还带着墨水味的亲笔稿纸",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "manu 手 + script 写：一笔一画亲手写就的稿。",
+    "sourceNote": "manu-（手）+ script（写）：手书之稿，即手稿。"
+  },
+  "circumscribe": {
+    "modernMeaningCn": "限制；圈定",
+    "literalMeaningCn": "在周围画线",
+    "metaphorMeaningCn": "用粉笔把活动范围圈死",
+    "metaphorOptions": [
+      "用粉笔把活动范围圈死",
+      "预先写好的字条",
+      "进入梦乡的孩子"
+    ],
+    "mnemonicNote": "circum 周围 + scribe 写：在四周画下界线。",
+    "sourceNote": "circum-（周围）+ scribe（写）：划界于外，即限制。"
+  },
+  "prevent": {
+    "modernMeaningCn": "阻止；预防",
+    "literalMeaningCn": "提前拦在前面",
+    "metaphorMeaningCn": "赶在洪水前筑起的高堤",
+    "metaphorOptions": [
+      "赶在洪水前筑起的高堤",
+      "周围开满野花的湖",
+      "进入梦乡的孩子"
+    ],
+    "mnemonicNote": "pre 预先 + vent 来：赶在它到来之前拦住。",
+    "sourceNote": "pre-（先）+ vent（来）：先至而拦，即阻止。"
+  },
+  "event": {
+    "modernMeaningCn": "事件；大事；比赛项目",
+    "literalMeaningCn": "到来的事",
+    "metaphorMeaningCn": "终于登场的那声开场锣",
+    "metaphorOptions": [
+      "终于登场的那声开场锣",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "e 向外 + vent 来：走出来亮相的那件事。",
+    "sourceNote": "e-（出）+ vent（来）：所发生之事，即事件。"
+  },
+  "invent": {
+    "modernMeaningCn": "发明；编造",
+    "literalMeaningCn": "把新东西弄出来",
+    "metaphorMeaningCn": "从无到有攒出会飞的机器",
+    "metaphorOptions": [
+      "从无到有攒出会飞的机器",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "in 进入 + vent 来：让新东西来到世上。",
+    "sourceNote": "in-（来）+ vent（来）：使新者出现，即发明。"
+  },
+  "adventure": {
+    "modernMeaningCn": "冒险；奇遇",
+    "literalMeaningCn": "向未知进发",
+    "metaphorMeaningCn": "驶向海图之外的那条船",
+    "metaphorOptions": [
+      "驶向海图之外的那条船",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "ad 朝 + venture 将至：朝将临之事驶去。",
+    "sourceNote": "ad-（朝）+ venture（将来之事）：迎险而行，即冒险。"
+  },
+  "convenient": {
+    "modernMeaningCn": "方便的；便利的",
+    "literalMeaningCn": "一起来得正好",
+    "metaphorMeaningCn": "刚好赶上末班车的那一步",
+    "metaphorOptions": [
+      "刚好赶上末班车的那一步",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "con 共同 + ven 来 + -ient（…的）：来得正凑巧。",
+    "sourceNote": "con-（合）+ ven（来）+ -ient（…的）：恰来相合。"
+  },
+  "convention": {
+    "modernMeaningCn": "惯例；大会；公约",
+    "literalMeaningCn": "共同来到的约定",
+    "metaphorMeaningCn": "全城默认不用说的老规矩",
+    "metaphorOptions": [
+      "全城默认不用说的老规矩",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "con 共同 + vent 来 + -ion（过程）：大家约好一起来定规矩。",
+    "sourceNote": "con-（共）+ vent（来）+ -ion（名词）：会盟成约，即公约。"
+  },
+  "circumvent": {
+    "modernMeaningCn": "绕过；智取",
+    "literalMeaningCn": "绕着圈来到",
+    "metaphorMeaningCn": "不攻城门绕后山偷进",
+    "metaphorOptions": [
+      "不攻城门绕后山偷进",
+      "预先写好的字条",
+      "进入梦乡的孩子"
+    ],
+    "mnemonicNote": "circum 环绕 + vent 来：绕一大圈再过来。",
+    "sourceNote": "circum-（环绕）+ vent（来）：绕行而至，即绕过。"
+  },
+  "adopt": {
+    "modernMeaningCn": "采纳；收养",
+    "literalMeaningCn": "抓到身边来",
+    "metaphorMeaningCn": "把流浪猫抱回家的那双手",
+    "metaphorOptions": [
+      "把流浪猫抱回家的那双手",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "ad 朝 + opt 选择：选中了就抱回家。",
+    "sourceNote": "ad-（朝）+ opt（选择）：择而取之，即收养。"
+  },
+  "option": {
+    "modernMeaningCn": "选项；选择权",
+    "literalMeaningCn": "可选取的东西",
+    "metaphorMeaningCn": "菜单上等着你点的那几行",
+    "metaphorOptions": [
+      "菜单上等着你点的那几行",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "opt 选择 + -ion（动作）：摆出来供你挑的那几行。",
+    "sourceNote": "opt（选择）+ -ion（名词）：可选之路，即选项。"
+  },
+  "optimism": {
+    "modernMeaningCn": "乐观；乐观主义",
+    "literalMeaningCn": "择最好的一面去看",
+    "metaphorMeaningCn": "雨天里认定彩虹会来的心",
+    "metaphorOptions": [
+      "雨天里认定彩虹会来的心",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "optim 选择最好 + -ism（主义）：凡事先认最好。",
+    "sourceNote": "optim（最好）+ -ism（主义）：取其最好，即乐观。"
+  },
+  "optimist": {
+    "modernMeaningCn": "乐观的人；乐天派",
+    "literalMeaningCn": "择善而看的人",
+    "metaphorMeaningCn": "半杯水里看见满的那双眼",
+    "metaphorOptions": [
+      "半杯水里看见满的那双眼",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "optim 选择最好 + -ist（人）：总信最好结果的人。",
+    "sourceNote": "optim（最好）+ -ist（人）：信其必善者，即乐天派。"
+  },
+  "optical": {
+    "modernMeaningCn": "视觉的；光学的",
+    "literalMeaningCn": "眼睛选取所见的",
+    "metaphorMeaningCn": "骗过眼睛的那张斜线图",
+    "metaphorOptions": [
+      "骗过眼睛的那张斜线图",
+      "周围开满野花的湖",
+      "预先写好的字条"
+    ],
+    "mnemonicNote": "opt 眼睛 + -ic + -al（…的）：骗过眼睛看的把戏。",
+    "sourceNote": "opt（目视）+ -ic + -al（…的）：目力所及，即视觉的。"
+  }
+}

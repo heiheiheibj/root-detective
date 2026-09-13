@@ -1,0 +1,615 @@
+{
+  "_comment": "Stage 1 新词（非 canary 的 51 词）的静态释义/handoff 数据。零成本、无 OpenRouter：由人工按 9.3 契约写好（literalMeaningCn<=12字、metaphorMeaningCn<=20字、metaphorOptions 恰3个且[0]=metaphor、mnemonicNote<=40字、sourceNote<=60字、modernMeaningCn 简洁词典义）。30-llm-prose.mjs 校验契约后透出；40-assemble 拼成最终 Word。",
+  "dictator": {
+    "modernMeaningCn": "独裁者；专制统治者",
+    "literalMeaningCn": "发号施令的人",
+    "metaphorMeaningCn": "一个人说了算，谁也拦不住",
+    "metaphorOptions": [
+      "一个人说了算，谁也拦不住",
+      "把话原样记录下来的人",
+      "靠双肩携带货物的人"
+    ],
+    "mnemonicNote": "dict 是说，ator 是施事者，合起来就是说了算的人。",
+    "sourceNote": "dict（说）+ -ator（做…的人）：一个人说了算即独裁者。"
+  },
+  "deport": {
+    "modernMeaningCn": "驱逐出境；放逐",
+    "literalMeaningCn": "带走、送走",
+    "metaphorMeaningCn": "把人原路送回老家",
+    "metaphorOptions": [
+      "把人原路送回老家",
+      "把货物移动到他处",
+      "把名字记录在册"
+    ],
+    "mnemonicNote": "de 离开 + port 携带：把人带走即驱逐。",
+    "sourceNote": "de（离开）+ port（携带）：强制带离国境即驱逐出境。"
+  },
+  "envision": {
+    "modernMeaningCn": "展望；构想",
+    "literalMeaningCn": "使看见的动作",
+    "metaphorMeaningCn": "在心里看见还没发生的事",
+    "metaphorOptions": [
+      "在心里看见还没发生的事",
+      "闭上眼睛的雕像",
+      "带来坏消息的乌鸦"
+    ],
+    "mnemonicNote": "en 使 + vid 看 + -ion（动作）：让眼睛提前看见。",
+    "sourceNote": "en-（使）+ vid（看）+ -ion（名词）：预先看见，即构想。"
+  },
+  "audience": {
+    "modernMeaningCn": "观众；听众",
+    "literalMeaningCn": "听的人",
+    "metaphorMeaningCn": "一群等着听你讲的人",
+    "metaphorOptions": [
+      "一群等着听你讲的人",
+      "排成一队向前走的人",
+      "一起记录画面的那伙人"
+    ],
+    "mnemonicNote": "aud 听 + ence（…的人）：听的人即观众。",
+    "sourceNote": "aud（听）+ -ence（…的人）：听的人即观众/听众。"
+  },
+  "audio": {
+    "modernMeaningCn": "音频的；声音的",
+    "literalMeaningCn": "关于听的",
+    "metaphorMeaningCn": "用耳朵接收的那段信号",
+    "metaphorOptions": [
+      "用耳朵接收的那段信号",
+      "被记录下来的一段画面",
+      "从机器里制造出的噪音"
+    ],
+    "mnemonicNote": "aud 是听，audio 就是「听的」。",
+    "sourceNote": "aud（听）的变体 audio：与声音/听觉相关。"
+  },
+  "audible": {
+    "modernMeaningCn": "听得见的；可闻的",
+    "literalMeaningCn": "能被听见的",
+    "metaphorMeaningCn": "声音大到耳朵抓得住",
+    "metaphorOptions": [
+      "声音大到耳朵抓得住",
+      "能在纸上看到的记录",
+      "能把东西移动起来的力量"
+    ],
+    "mnemonicNote": "aud 听 + able 能：能被听见的。",
+    "sourceNote": "aud（听）+ -able（能）：能被听见的。"
+  },
+  "biology": {
+    "modernMeaningCn": "生物学",
+    "literalMeaningCn": "研究生命的学问",
+    "metaphorMeaningCn": "搞懂动植物怎么活",
+    "metaphorOptions": [
+      "搞懂动植物怎么活",
+      "研究怎样制造机器",
+      "研究文字记录的方法"
+    ],
+    "mnemonicNote": "bio 生命 + logy 学：研究生命的科学。",
+    "sourceNote": "bio（生命）+ -logy（…学）：研究生命的学科。"
+  },
+  "biography": {
+    "modernMeaningCn": "传记；生平记",
+    "literalMeaningCn": "记录某人的生命",
+    "metaphorMeaningCn": "把人的一生写成长文",
+    "metaphorOptions": [
+      "把人的一生写成长文",
+      "按种类排列的清单",
+      "把见闻记录成册"
+    ],
+    "mnemonicNote": "bio 生命 + graphy 记录：记录一生的文字即传记。",
+    "sourceNote": "bio（生命）+ -graphy（记录）：记录人生即传记。"
+  },
+  "biotech": {
+    "modernMeaningCn": "生物技术",
+    "literalMeaningCn": "生命的技术",
+    "metaphorMeaningCn": "用科技摆弄生命",
+    "metaphorOptions": [
+      "用科技摆弄生命",
+      "把东西来回移动的本事",
+      "绘画与记录的手艺"
+    ],
+    "mnemonicNote": "bio 生命 + tech 技术：生命科学相关技术。",
+    "sourceNote": "bio（生命）+ tech（技术）：生命科学工程。"
+  },
+  "century": {
+    "modernMeaningCn": "世纪；百年",
+    "literalMeaningCn": "一百之数",
+    "metaphorMeaningCn": "整整一百年那么久",
+    "metaphorOptions": [
+      "整整一百年那么久",
+      "环绕山谷的那条小路",
+      "带来坏消息的乌鸦"
+    ],
+    "mnemonicNote": "cent 百 + -ury（词尾）：以百年为单位的时间。",
+    "sourceNote": "cent（百）+ -ury（名词词尾）：百年为一世。"
+  },
+  "percent": {
+    "modernMeaningCn": "百分之…",
+    "literalMeaningCn": "每一百里的份",
+    "metaphorMeaningCn": "一百份里占几份",
+    "metaphorOptions": [
+      "一百份里占几份",
+      "把东西制造出来",
+      "大家共同分一份"
+    ],
+    "mnemonicNote": "per 每 + cent 百：每一百中的占比即百分比。",
+    "sourceNote": "per（每）+ cent（百）：每一百中的部分即百分比。"
+  },
+  "centennial": {
+    "modernMeaningCn": "百年纪念；百周年庆典",
+    "literalMeaningCn": "一百年的",
+    "metaphorMeaningCn": "满一百岁的大庆典",
+    "metaphorOptions": [
+      "满一百岁的大庆典",
+      "把旧物彻底扔掉",
+      "把日子记录成册"
+    ],
+    "mnemonicNote": "cent 百 + enn 年 + ial：一百年的即百年纪念。",
+    "sourceNote": "cent（百）+ enn（年）+ -ial：一百年的。"
+  },
+  "credit": {
+    "modernMeaningCn": "信用；学分；赞扬",
+    "literalMeaningCn": "让人相信的",
+    "metaphorMeaningCn": "先信你，回头再算账",
+    "metaphorOptions": [
+      "先信你，回头再算账",
+      "把经过记录在册",
+      "把事情分成各种种类"
+    ],
+    "mnemonicNote": "cred 是相信，credit 就是「信得过」。",
+    "sourceNote": "cred（相信）的变体 credit：与信任/信用相关。"
+  },
+  "credential": {
+    "modernMeaningCn": "资格证书；凭证",
+    "literalMeaningCn": "让人相信的东西",
+    "metaphorMeaningCn": "证明你靠谱的那张纸",
+    "metaphorOptions": [
+      "证明你靠谱的那张纸",
+      "写满记录的旧本子",
+      "预先订好的规矩"
+    ],
+    "mnemonicNote": "cred 相信 + ent/ial：让人信得过的证明。",
+    "sourceNote": "cred（相信）+ -ent/-ial：使人相信的资历证明。"
+  },
+  "incredible": {
+    "modernMeaningCn": "难以置信的；极好的",
+    "literalMeaningCn": "不能相信的",
+    "metaphorMeaningCn": "好到让人不敢信",
+    "metaphorOptions": [
+      "好到让人不敢信",
+      "把两样东西绑在一起",
+      "扛着行李携带上路"
+    ],
+    "mnemonicNote": "in 不 + cred 相信 + able：不能相信的。",
+    "sourceNote": "in（不）+ cred（相信）+ -able：难以置信的。"
+  },
+  "gene": {
+    "modernMeaningCn": "基因",
+    "literalMeaningCn": "生命的出生单位",
+    "metaphorMeaningCn": "决定你是谁的密码",
+    "metaphorOptions": [
+      "决定你是谁的密码",
+      "排在旁边的一小块地方",
+      "干活时顺手的那件器具"
+    ],
+    "mnemonicNote": "gen 是出生/种类，gene 即遗传单位。",
+    "sourceNote": "gen（出生/种类）的变体 gene：遗传的基本单位。"
+  },
+  "generate": {
+    "modernMeaningCn": "产生；生成",
+    "literalMeaningCn": "使出生、使产生",
+    "metaphorMeaningCn": "凭空变出东西来",
+    "metaphorOptions": [
+      "凭空变出东西来",
+      "每一份都分得一样多",
+      "坐在教室旁边听课"
+    ],
+    "mnemonicNote": "gen 出生 + ate 使：使产生即生成。",
+    "sourceNote": "gen（出生）+ -ate（使）：使产生即生成。"
+  },
+  "genetics": {
+    "modernMeaningCn": "遗传学",
+    "literalMeaningCn": "研究出生的学问",
+    "metaphorMeaningCn": "研究你从哪来的科学",
+    "metaphorOptions": [
+      "研究你从哪来的科学",
+      "研究如何跨越边界",
+      "研究怎样制造机器"
+    ],
+    "mnemonicNote": "gen 出生 + ics 学：研究遗传的学科。",
+    "sourceNote": "gen（出生）+ -ics（…学）：研究遗传的学科。"
+  },
+  "grade": {
+    "modernMeaningCn": "年级；等级；成绩",
+    "literalMeaningCn": "一步、一级",
+    "metaphorMeaningCn": "爬楼梯的一级台阶",
+    "metaphorOptions": [
+      "爬楼梯的一级台阶",
+      "把两样东西分离开来",
+      "摆放在旁边的架子"
+    ],
+    "mnemonicNote": "grad 是步/级，grade 即等级。",
+    "sourceNote": "grad（步/级）的变体 grade：等级/年级。"
+  },
+  "graduate": {
+    "modernMeaningCn": "毕业；研究生",
+    "literalMeaningCn": "走完一级",
+    "metaphorMeaningCn": "爬到学业顶端那一刻",
+    "metaphorOptions": [
+      "爬到学业顶端那一刻",
+      "把东西悬挂在半空",
+      "收拾行李离开宿舍"
+    ],
+    "mnemonicNote": "grad 步 + ate：走完学业一级即毕业。",
+    "sourceNote": "grad（步/级）+ -ate：完成学业一级即毕业。"
+  },
+  "degrade": {
+    "modernMeaningCn": "降级；退化",
+    "literalMeaningCn": "向下走一步",
+    "metaphorMeaningCn": "一级级往下滑",
+    "metaphorOptions": [
+      "一级级往下滑",
+      "自己动手做一遍",
+      "跨过界线继续向前"
+    ],
+    "mnemonicNote": "de 向下 + grad 级：向下退一级即降级。",
+    "sourceNote": "de（向下）+ grad（级）：降级/退化。"
+  },
+  "project": {
+    "modernMeaningCn": "项目；计划；投射",
+    "literalMeaningCn": "向前投出",
+    "metaphorMeaningCn": "把想法甩到前头去",
+    "metaphorOptions": [
+      "把想法甩到前头去",
+      "最后得出的那个结果",
+      "把东西分成复数几份"
+    ],
+    "mnemonicNote": "pro 向前 + ject 投：向前投出即项目/投射。",
+    "sourceNote": "pro（向前）+ ject（投）：向前投出即计划/投射。"
+  },
+  "reject": {
+    "modernMeaningCn": "拒绝；驳回",
+    "literalMeaningCn": "投回去",
+    "metaphorMeaningCn": "把递来的东西甩回去",
+    "metaphorOptions": [
+      "把递来的东西甩回去",
+      "这种性质很稳定",
+      "自然界里的各种东西"
+    ],
+    "mnemonicNote": "re 回 + ject 投：投回即拒绝。",
+    "sourceNote": "re（回）+ ject（投）：扔回去即拒绝。"
+  },
+  "eject": {
+    "modernMeaningCn": "喷射；弹出",
+    "literalMeaningCn": "投出去",
+    "metaphorMeaningCn": "一按就弹出来",
+    "metaphorOptions": [
+      "一按就弹出来",
+      "把东西分成不同种类",
+      "一直向前走到头"
+    ],
+    "mnemonicNote": "e 向外 + ject 投：向外投出即弹出。",
+    "sourceNote": "e（向外）+ ject（投）：向外弹出即 eject。"
+  },
+  "dialogue": {
+    "modernMeaningCn": "对话",
+    "literalMeaningCn": "通过话语交流",
+    "metaphorMeaningCn": "两个人来回接话",
+    "metaphorOptions": [
+      "两个人来回接话",
+      "把重物压在下层",
+      "自己一个人自言自语"
+    ],
+    "mnemonicNote": "dia 是「通过、跨越」，log 是「说」：两边的话一来一回就成形了。",
+    "sourceNote": "dia（通过、跨越）+ log（说、词）：一来一往的言语交流。"
+  },
+  "logic": {
+    "modernMeaningCn": "逻辑；逻辑学",
+    "literalMeaningCn": "说话的条理",
+    "metaphorMeaningCn": "让理由排好队的规矩",
+    "metaphorOptions": [
+      "让理由排好队的规矩",
+      "照着记录一项项抄",
+      "把每一样都做到彻底"
+    ],
+    "mnemonicNote": "log 说 + ic：说话的条理即逻辑。",
+    "sourceNote": "log（说/词）+ -ic：言辞的条理即逻辑。"
+  },
+  "catalog": {
+    "modernMeaningCn": "目录；名录",
+    "literalMeaningCn": "把话逐一记下来",
+    "metaphorMeaningCn": "一列清单摆在面前",
+    "metaphorOptions": [
+      "一列清单摆在面前",
+      "最终得到的那个结果",
+      "把东西数成复数几份"
+    ],
+    "mnemonicNote": "cata 向下 + log 说：逐项记录的清单即目录。",
+    "sourceNote": "cata（向下/全）+ log（说）：逐项罗列即目录。"
+  },
+  "mobile": {
+    "modernMeaningCn": "可移动的；手机",
+    "literalMeaningCn": "能移动的",
+    "metaphorMeaningCn": "能随身带着跑的",
+    "metaphorOptions": [
+      "能随身带着跑的",
+      "随时保持干净的状态",
+      "把货物称量一下重量"
+    ],
+    "mnemonicNote": "mob 移动 + ile 可：可移动的。",
+    "sourceNote": "mob（移动）+ -ile（可）：可移动的。"
+  },
+  "mobility": {
+    "modernMeaningCn": "流动性；机动性",
+    "literalMeaningCn": "能移动的性质",
+    "metaphorMeaningCn": "说走就走的本事",
+    "metaphorOptions": [
+      "说走就走的本事",
+      "大家共同完成一件事",
+      "把东西彻底清空"
+    ],
+    "mnemonicNote": "mob 移动 + ility：移动的能力即机动性。",
+    "sourceNote": "mob（移动）+ -ility：可移动的性质。"
+  },
+  "automobile": {
+    "modernMeaningCn": "汽车",
+    "literalMeaningCn": "自己移动的东西",
+    "metaphorMeaningCn": "自己跑不用推的车",
+    "metaphorOptions": [
+      "自己跑不用推的车",
+      "在房子周围转一圈",
+      "能随身携带的小箱子"
+    ],
+    "mnemonicNote": "auto 自己 + mob 移动 + -ile：自己会跑的车。",
+    "sourceNote": "auto（自己）+ mob（移动）+ -ile：自动行驶的车子。"
+  },
+  "nature": {
+    "modernMeaningCn": "自然；本性",
+    "literalMeaningCn": "出生而来的状态",
+    "metaphorMeaningCn": "天生就有的样子",
+    "metaphorOptions": [
+      "天生就有的样子",
+      "发出很大的声音",
+      "把对方的说法否定掉"
+    ],
+    "mnemonicNote": "nat 出生/自然 + ure：天生的状态即自然。",
+    "sourceNote": "nat（出生/自然）+ -ure：天生的性质即自然。"
+  },
+  "nation": {
+    "modernMeaningCn": "国家；民族",
+    "literalMeaningCn": "同出生的一群人",
+    "metaphorMeaningCn": "同一根源的一大家",
+    "metaphorOptions": [
+      "同一根源的一大家",
+      "自己关起门来过日子",
+      "跨越边境搬过去住"
+    ],
+    "mnemonicNote": "nat 出生 + ion：同根源的群体即国家。",
+    "sourceNote": "nat（出生）+ -ion：同出生群体的共同体即民族/国家。"
+  },
+  "innate": {
+    "modernMeaningCn": "天生的；固有的",
+    "literalMeaningCn": "出生就带在里的",
+    "metaphorMeaningCn": "打娘胎里带出来的",
+    "metaphorOptions": [
+      "打娘胎里带出来的",
+      "照着记录抄写一遍",
+      "在房子周围走一圈"
+    ],
+    "mnemonicNote": "in 内 + nat 出生：出生起就在内部的即天赋。",
+    "sourceNote": "in（内）+ nat（出生）：出生起内在的即天生。"
+  },
+  "depend": {
+    "modernMeaningCn": "依赖；取决于",
+    "literalMeaningCn": "挂在下面",
+    "metaphorMeaningCn": "像吊着一样靠它撑着",
+    "metaphorOptions": [
+      "像吊着一样靠它撑着",
+      "一个人出生的地方",
+      "预先准备好的那根拐杖"
+    ],
+    "mnemonicNote": "de 下 + pend 悬挂：挂靠在…上即依赖。",
+    "sourceNote": "de（下）+ pend（悬挂）：悬挂依赖即 depend。"
+  },
+  "suspend": {
+    "modernMeaningCn": "暂停；悬挂；停职",
+    "literalMeaningCn": "吊在下面",
+    "metaphorMeaningCn": "先挂起等会儿再算",
+    "metaphorOptions": [
+      "先挂起等会儿再算",
+      "这种性质很难改变",
+      "自然界里常见的东西"
+    ],
+    "mnemonicNote": "sub 下 + pend 悬挂：吊起即暂停/悬挂。",
+    "sourceNote": "sub（下）+ pend（悬挂）：吊起暂存即暂停。"
+  },
+  "pendulum": {
+    "modernMeaningCn": "钟摆；摆",
+    "literalMeaningCn": "悬挂的东西",
+    "metaphorMeaningCn": "来回荡的那根杆",
+    "metaphorOptions": [
+      "来回荡的那根杆",
+      "转动时会发出声音的东西",
+      "一个干脆利落的动作"
+    ],
+    "mnemonicNote": "pend 悬挂 + ulum（工具）：悬挂摆动即摆。",
+    "sourceNote": "pend（悬挂）+ -ulum（工具）：悬挂摆动的装置即摆。"
+  },
+  "universe": {
+    "modernMeaningCn": "宇宙",
+    "literalMeaningCn": "一切转向的整体",
+    "metaphorMeaningCn": "万物归一的全体",
+    "metaphorOptions": [
+      "万物归一的全体",
+      "自己一个人待着的屋子",
+      "能被别人听到的声音"
+    ],
+    "mnemonicNote": "uni 一 + vers 转：万事万物转向同一个整体。",
+    "sourceNote": "uni（一）+ vers（转）：全都转向统一体的大全体。"
+  },
+  "version": {
+    "modernMeaningCn": "版本；说法",
+    "literalMeaningCn": "转出来的一个样",
+    "metaphorMeaningCn": "同一事的不同讲法",
+    "metaphorOptions": [
+      "同一事的不同讲法",
+      "从大门口进入",
+      "彼此相信的两个人"
+    ],
+    "mnemonicNote": "vers 转 + ion：转出的一个样即版本。",
+    "sourceNote": "vers（转）+ -ion：转出的样式即版本。"
+  },
+  "inverse": {
+    "modernMeaningCn": "相反的；倒转的",
+    "literalMeaningCn": "反着转的",
+    "metaphorMeaningCn": "调个个儿的反面",
+    "metaphorOptions": [
+      "调个个儿的反面",
+      "干活用的一件器具",
+      "祖传的一门技艺"
+    ],
+    "mnemonicNote": "in 反 + vers 转：反着转即相反/倒转。",
+    "sourceNote": "in（反）+ vers（转）：反转即 inverse。"
+  },
+  "vocabulary": {
+    "modernMeaningCn": "词汇；词汇量",
+    "literalMeaningCn": "关于叫/说的词库",
+    "metaphorMeaningCn": "肚子里攒的词儿",
+    "metaphorOptions": [
+      "肚子里攒的词儿",
+      "记录词句的册子",
+      "大家共同使用的工具"
+    ],
+    "mnemonicNote": "voc 声音/说 + ary：词语的集合即词汇。",
+    "sourceNote": "voc（声音/说）+ -ary：词语的集合即词汇。"
+  },
+  "vocation": {
+    "modernMeaningCn": "职业；天职",
+    "literalMeaningCn": "被召唤的事",
+    "metaphorMeaningCn": "天生该干的那行",
+    "metaphorOptions": [
+      "天生该干的那行",
+      "手里那件顺手的器具",
+      "一段被彻底抹去的记忆"
+    ],
+    "mnemonicNote": "voc 召唤 + ation：被召唤的工作即天职。",
+    "sourceNote": "voc（呼唤）+ -ation：受召唤的职业即天职。"
+  },
+  "paragraph": {
+    "modernMeaningCn": "段落",
+    "literalMeaningCn": "写在旁边的一段",
+    "metaphorMeaningCn": "文章里换一行起的一段",
+    "metaphorOptions": [
+      "文章里换一行起的一段",
+      "大家共同凑出来的一段",
+      "单一来源的一小段话"
+    ],
+    "mnemonicNote": "para 旁 + graph 写：在页边另写的一块。",
+    "sourceNote": "para（旁）+ graph（写）：另起一笔写下的内容块。"
+  },
+  "photograph": {
+    "modernMeaningCn": "照片",
+    "literalMeaningCn": "用光画下来",
+    "metaphorMeaningCn": "光帮着拍的那张图",
+    "metaphorOptions": [
+      "光帮着拍的那张图",
+      "把周围景色记录下来",
+      "从门口进入的瞬间"
+    ],
+    "mnemonicNote": "photo 光 + graph 写：用光留下的影像。",
+    "sourceNote": "photo（光）+ graph（写/画）：用光记录下的画面。"
+  },
+  "graphite": {
+    "modernMeaningCn": "石墨",
+    "literalMeaningCn": "能写画的东西",
+    "metaphorMeaningCn": "铅笔芯里那黑粉",
+    "metaphorOptions": [
+      "铅笔芯里那黑粉",
+      "带有某种性质的石头",
+      "向下层层挖出的矿"
+    ],
+    "mnemonicNote": "graph 写 + -ite：能书写的矿物。",
+    "sourceNote": "graph（写）+ -ite（物）：可书写的黑色矿物。"
+  },
+  "attract": {
+    "modernMeaningCn": "吸引",
+    "literalMeaningCn": "朝自己拉过来",
+    "metaphorMeaningCn": "像磁铁把人吸过来",
+    "metaphorOptions": [
+      "像磁铁把人吸过来",
+      "两条线笔直地平行摆着",
+      "把要点记录在纸上"
+    ],
+    "mnemonicNote": "at 向 + tract 拉：把东西拉向自己。",
+    "sourceNote": "at（向）+ tract（拉）：拉过来聚拢。"
+  },
+  "contract": {
+    "modernMeaningCn": "合同；收缩",
+    "literalMeaningCn": "共同拉到一起",
+    "metaphorMeaningCn": "双方拽着签的那张纸",
+    "metaphorOptions": [
+      "双方拽着签的那张纸",
+      "一整套办事的过程",
+      "一个人出生的那间屋子"
+    ],
+    "mnemonicNote": "con 共同 + tract 拉：拉到一起即合同/收缩。",
+    "sourceNote": "con（共同）+ tract（拉）：拉到一起即合同/收缩。"
+  },
+  "retract": {
+    "modernMeaningCn": "收回；缩回",
+    "literalMeaningCn": "拉回去",
+    "metaphorMeaningCn": "把说出的话扯回来",
+    "metaphorOptions": [
+      "把说出的话扯回来",
+      "彼此之间相互相信",
+      "把嗓子里的声音放出来"
+    ],
+    "mnemonicNote": "re 回 + tract 拉：拉回即收回。",
+    "sourceNote": "re（回）+ tract（拉）：拉回即收回/缩回。"
+  },
+  "factory": {
+    "modernMeaningCn": "工厂",
+    "literalMeaningCn": "做东西的场所",
+    "metaphorMeaningCn": "机器轰鸣的生产车间",
+    "metaphorOptions": [
+      "机器轰鸣的生产车间",
+      "人们日常的行为习惯",
+      "把材料彻底用完"
+    ],
+    "mnemonicNote": "fac 做 + -ory 场所：动手生产的地方。",
+    "sourceNote": "fac（做）+ -ory（场所）：专门制造的场所。"
+  },
+  "facility": {
+    "modernMeaningCn": "设施；场所",
+    "literalMeaningCn": "做某事的便利条件",
+    "metaphorMeaningCn": "干活的那个场子",
+    "metaphorOptions": [
+      "干活的那个场子",
+      "预先安排好的一切",
+      "有生命的一大片林子"
+    ],
+    "mnemonicNote": "fac 做 + ility：做事的便利条件即设施。",
+    "sourceNote": "fac（做）+ -ility：便利的设施/场所。"
+  },
+  "benefactor": {
+    "modernMeaningCn": "恩人；捐助者",
+    "literalMeaningCn": "做好事的人",
+    "metaphorMeaningCn": "暗中帮你一把的人",
+    "metaphorOptions": [
+      "暗中帮你一把的人",
+      "把东西随手移动的人",
+      "在周围照看一切的老人"
+    ],
+    "mnemonicNote": "ben 好 + fac 做 + or 人：行善者即恩人。",
+    "sourceNote": "ben（好）+ fac（做）+ -or（人）：做好事的人即恩人/捐助者。"
+  },
+  "vocal": {
+    "modernMeaningCn": "声音的；嗓音的",
+    "literalMeaningCn": "声音的",
+    "metaphorMeaningCn": "从喉咙里发出来的",
+    "metaphorOptions": [
+      "从喉咙里发出来的",
+      "占据城市广场的喇叭",
+      "被触碰就合拢的叶子"
+    ],
+    "mnemonicNote": "voc 声音 + -al（…的）：与嗓音有关的。",
+    "sourceNote": "voc（声音）+ -al（…的）：与声音有关，即嗓音的。"
+  }
+}

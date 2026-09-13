@@ -1,0 +1,17 @@
+{
+  "_comment": "Stage 1 之前的原始「垂直切片」12 词素。data.ts 手写版的内容源头；data.ts 之后会被 40-assemble 生成的 content/*.json 覆盖，所以管线必须从这里取这 12 个，而不是从生成的 data.ts 读。组装时 id 相同的老版胜出（spec/dict/port/vid 用这里的 allomorphs）。",
+  "morphemes": [
+    { "id": "circum", "displayText": "circum-", "type": "prefix", "meaningCn": "周围", "allomorphs": ["circum"], "etymology": "来自拉丁语 circum，意为 around（周围）", "level": 2, "color": "blue" },
+    { "id": "pre", "displayText": "pre-", "type": "prefix", "meaningCn": "前、预先", "allomorphs": ["pre"], "etymology": "来自拉丁语 prae，在前面", "level": 1, "color": "blue" },
+    { "id": "re", "displayText": "re-", "type": "prefix", "meaningCn": "再、回", "allomorphs": ["re"], "etymology": "来自拉丁语 re-，again / back", "level": 1, "color": "blue" },
+    { "id": "in", "displayText": "in- / im-", "type": "prefix", "meaningCn": "不；进入", "allomorphs": ["in", "im", "il", "ir"], "etymology": "来自拉丁语 in，表示否定或“进入”；im / il / ir 是同化变体", "level": 1, "color": "blue" },
+    { "id": "spec", "displayText": "spec / spect", "type": "root", "meaningCn": "看", "allomorphs": ["spec", "spect", "spic"], "etymology": "来自拉丁语 specere，看、观察", "level": 2, "color": "orange" },
+    { "id": "dict", "displayText": "dict / dic", "type": "root", "meaningCn": "说", "allomorphs": ["dict", "dic"], "etymology": "来自拉丁语 dicere，说、宣布", "level": 1, "color": "orange" },
+    { "id": "port", "displayText": "port", "type": "root", "meaningCn": "携带", "allomorphs": ["port"], "etymology": "来自拉丁语 portare，携带", "level": 1, "color": "orange" },
+    { "id": "vid", "displayText": "vid / vis", "type": "root", "meaningCn": "看", "allomorphs": ["vid", "vis", "vise"], "etymology": "来自拉丁语 videre，看见", "level": 1, "color": "orange" },
+    { "id": "ion", "displayText": "-ion", "type": "suffix", "meaningCn": "动作、过程（名词）", "allomorphs": ["tion", "sion", "ion"], "etymology": "高频名词后缀，标记动作或结果", "level": 1, "color": "green" },
+    { "id": "ive", "displayText": "-ive", "type": "suffix", "meaningCn": "具有……性质的（形容词）", "allomorphs": ["ive"], "etymology": "高频形容词后缀，表示倾向或性质", "level": 1, "color": "green" },
+    { "id": "able", "displayText": "-able / -ible", "type": "suffix", "meaningCn": "能够……的（形容词）", "allomorphs": ["able", "ible", "ibil"], "etymology": "高频形容词后缀，表示可能性或能力", "level": 1, "color": "green" },
+    { "id": "ity", "displayText": "-ity / -ty", "type": "suffix", "meaningCn": "性质、状态（抽象名词）", "allomorphs": ["ity", "ty"], "etymology": "高频抽象名词后缀", "level": 2, "color": "green" }
+  ]
+}
