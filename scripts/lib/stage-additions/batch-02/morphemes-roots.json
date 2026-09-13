@@ -1,5 +1,5 @@
 {
- "_comment": "3.1 中考批 新增 328 个词根（含零件词素，一律 type=root）",
+ "_comment": "3.1 中考批 新增 326 个词根（含零件词素，一律 type=root）",
  "morphemes": [
   {
    "id": "sent",
@@ -2844,18 +2844,6 @@
    "color": "orange"
   },
   {
-   "id": "pose",
-   "displayText": "pose",
-   "type": "root",
-   "meaningCn": "",
-   "allomorphs": [
-    "pose"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "orange"
-  },
-  {
    "id": "quest",
    "displayText": "quest",
    "type": "root",
@@ -3358,18 +3346,6 @@
    "meaningCn": "柔软的",
    "allomorphs": [
     "suppl"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "orange"
-  },
-  {
-   "id": "face",
-   "displayText": "face",
-   "type": "root",
-   "meaningCn": "脸",
-   "allomorphs": [
-    "face"
    ],
    "etymology": "",
    "level": 3,

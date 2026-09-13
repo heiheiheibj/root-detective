@@ -527,7 +527,7 @@
     "surface": "sup"
    },
    {
-    "id": "pose",
+    "id": "pos",
     "surface": "pose"
    }
   ],
@@ -537,7 +537,7 @@
     "surface": "sur"
    },
    {
-    "id": "face",
+    "id": "fac",
     "surface": "face"
    }
   ],

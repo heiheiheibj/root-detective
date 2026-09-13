@@ -17,14 +17,16 @@ const libDir = join(here, 'lib')
 
 const canary = new Set(['circumspect', 'inspection', 'respect', 'circumspection', 'predict', 'prediction', 'predictable', 'predictive', 'portable', 'import', 'report', 'porter', 'visible', 'vision', 'revise', 'visibility'])
 const splits = JSON.parse(readFileSync(join(derivedDir, 'words.splits.json'), 'utf8'))
-// handoff 两层：Stage 1 的 words-prose.json + Stage 2 的 words-prose-stage2/*.json（同名以后者为准）
+// handoff 分层：Stage 1 的 words-prose.json，加上各阶段的增量目录（同名以后者为准）。
+// 每加一个阶段就往这个数组里加一项 —— Stage 3 的 415 词落在 words-prose-stage3/。
 const handoffPath = join(libDir, 'handoff', 'words-prose.json')
 const handoff = JSON.parse(readFileSync(handoffPath, 'utf8'))
-const stage2Dir = join(libDir, 'handoff', 'words-prose-stage2')
-if (existsSync(stage2Dir)) {
-  for (const f of readdirSync(stage2Dir)) {
+for (const name of ['words-prose-stage2', 'words-prose-stage3']) {
+  const dir = join(libDir, 'handoff', name)
+  if (!existsSync(dir)) continue
+  for (const f of readdirSync(dir).sort()) {
     if (!f.endsWith('.json')) continue
-    for (const [k, v] of Object.entries(JSON.parse(readFileSync(join(stage2Dir, f), 'utf8')))) {
+    for (const [k, v] of Object.entries(JSON.parse(readFileSync(join(dir, f), 'utf8')))) {
       if (!k.startsWith('_')) handoff[k] = v
     }
   }

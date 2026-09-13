@@ -215,13 +215,65 @@ d5 从 error 降为 warning —— 它是「必须收冷门派生词」的选题
 | `sense-gallery` | 感知廊 | sent, vision, view |
 | `build-site` | 营造场 | stand, base, board |
 
-### 下一步（S6c 收尾 → S6d/e）
+### S6c 收尾（进行中）
 
-1. **改 A24 检查口径**：现在要求「每个词根都要挂世界」，但 batch-02 有 328 个词根、只有 17 个该挂。
-   新口径 = 只对「有 Wiktionary 词根词条或 ECDICT 实词证据 **且不是普通复合词部件**」的词根要求世界。
-2. **执行释义/翻译队列**：`.work/derived/morpheme-tasks.json`（A2 译 221 条 + A3/A4 释义 266 条）。
-3. **S6d 管线适配**（shard 大小、handoff 分片）、**S6e 跑通全链**。
-4. 仓库清理：`_t_*.mjs` 等杂物上次误用 `git add -A` 提交了，需 `git rm --cached`（之前执行时审批超时未完成）。
+**已修好并跑通的**：
+
+| 问题 | 修法 |
+|---|---|
+| 功能词被当教学词素（`her`/`every`/`not`） | `_teaching` 加 `isFunctionalWord` 判定（词性从 translation 开头取，ECDICT 的 pos 字段是空的），教学词素 354→343 |
+| 前后缀**全部丢失** | `morphemes-affixes.json` 结构要对齐 batch-01 的 `{overrides,prefixes,suffixes}` —— 写成 `{morphemes}` 会被 `build-stage3-config.mjs:50` 静默忽略 |
+| **循环依赖** | `build-batch-config` 原先拿 `stage3-content.json`（**产物**）当「已有」基准，重跑时增量归零；改为取真正的上游：`stage1-content.json` + 之前批次 |
+| 一词多家族 | 硬错误降为统计（`airport` 同为 air 和 port 的家族词，对产品无害） |
+| split 无家族 | 硬错误降为统计（只有教学词根建家族，`ability` 无家族是正常的） |
+| 家族覆盖 | batch-02 不再重建已有家族（否则 `port` 在 Stage 2 的 5 个家族词会被挤掉） |
+| A24 检查口径 | families 只对教学词根建（324 → 61），不把 260 个碎片拖进世界 |
+
+**当前状态**：`23 世界`、`121 家族`、`395 词`、`715 切分`、`594 词素`，`build-stage3-config` 自检**全绿**。
+
+**卡在 A23（选词阶段，20 号脚本）**：
+
+```
+❌ A23 失败 [sea]：词=1 d1=1 d5=0
+❌ A23 失败 [stand]：词=2 d1=2 d5=0
+```
+
+规则要求教学词素「d1、d5 各有一个词」，但新规模下 62 个教学词根大多只挂 1-2 个词
+（`sea`/`sun`/`west`/`night`…），d5 端必然缺。`contentRules.ts` 里的 A23 已经把
+**d5 降为 warning、d1 保留硬卡**，但选词脚本（20 号）还是旧口径 —— 要对齐。
+
+### S6d / S6e 【✅ 完成】—— 确定性管线全线跑通
+
+管线现在一路跑到 **30 号（LLM 文案）的 handoff 边界**才停下，这正是设计的分工线：
+
+```
+✓ build-stage3-config   121 家族 / 395 词 / 715 切分 / 594 词素 / 23 世界，自检全绿
+✓ 10/11/12/13  词源与词素释义
+✓ 20 选词      399 候选（257 d1 / 73 d3 / 69 d5），覆盖 119 家族
+✓ 21 切分      0 丢词
+✓ 22 例句
+→ 30 文案      停在 handoff（383 词待写释义，模板已生成）
+```
+
+**本轮修掉的坑**（都是「数据流对不上」，只有真跑一遍才暴露）：
+
+| 症状 | 根因 |
+|---|---|
+| `expose` 被丢 | 归一化只从切分表取 id，而 `pos` 是 Stage 2 人工定义的、切分表里没有，算不出 `pose→pos`。canon 输入要并入已有词素表的 id |
+| `alive` 被丢 | cigen 词源说 `a+life`，切分表给 `a+live`，21 号要求两边一致 —— 用逐词修正表 |
+| `used` 被丢 | `ed` 的 allomorphs 少了 `"d"`（`used` 切成 `us+d`），在 batch-01 的词素定义里补上 |
+| 前后缀**全丢** | `morphemes-affixes.json` 结构必须是 `{overrides,prefixes,suffixes}`，写成 `{morphemes}` 会被 `build-stage3-config` 静默忽略 |
+| 增量归零 | `build-batch-config` 拿 `stage3-content.json`（**产物**）当「已有」基准 → 改为取上游 `stage1-content.json` + 之前批次 |
+| `face` 世界失效 | `face→fac` 归一化后 `fac` 是 Stage 2 词素（已在 `word-mill` 世界），不能再挂 |
+
+### 下一步
+
+1. **填 handoff 释义**（当前唯一阻塞）：`scripts/lib/handoff/words-prose-stage3/batch-1~7.json`，
+   383 词 × 6 字段（`modernMeaningCn` 已预填）。填完 `npm run content:all` 就能一路跑到 40 总装。
+2. **词素义项队列**：`.work/derived/morpheme-tasks.json`（A2 译 221 条 + A3/A4 释义 266 条）。
+   ※ `her→stick`、`fall→to deceive`、`ceive→head`、`main→hand` 是 Wiktionary 错配，一并修掉。
+3. **A23 提示 8 项**：`air/body/thing/ground/room/day/ember/tooth` 缺 d5 档（不影响产出）。
+4. **仓库清理**：`_t_*.mjs` 等杂物上次误用 `git add -A` 提交了，需 `git rm --cached`（审批超时未完成）。
 
 <details><summary>原问题描述（背景）</summary>
 

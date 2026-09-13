@@ -1,25 +1,60 @@
 {
- "_comment": "3.1 中考批新增 4 个世界（+ 已有 12 个 = 16），只覆盖本批**已进词库**的 17 个拉丁/希腊词根。两条边界：① 世界按批次增量，本批 154 个教学词根里很多（tend/verb/law/text/sense…）属于未来批次的词，现在挂不上；② 110 多个普通英语复合词部件（day/book/sea/house/water…）只是拼词零件，没有主题归属，不挂世界 —— A24 的检查口径要按这两条改，见 docs/Stage3-执行TODO.md。",
+ "_comment": "3.1 中考批新增 11 个世界（+ 已有 12 个 = 23），覆盖本批 62 个教学词根家族。边界说明：① 世界按批次增量，本批只挂已进词库的词根；② 只有**教学词根**才建家族、才挂世界 —— 零件词根（`sorbe`/`enda` 这类出现 1-2 次的碎片或变体）不建家族，否则两百多个碎片会被 A24 拖进世界；③ 本批 62 个里既有拉丁词根（act/tain/sent），也有普通英语构词部件（day/book/sea）—— 后者确实是学生的构词零件（daytime/birthday），该有主题归属。",
  "worlds": [
   {
-   "id": "motion-yard",
-   "name": "行止院",
-   "morphemeIds": ["act", "ceed", "pass", "turn", "cycle"]
+   "id": "day-room",
+   "name": "起居室",
+   "morphemeIds": ["day", "room", "house", "bath", "chair", "night"]
+  },
+  {
+   "id": "body-clinic",
+   "name": "身体馆",
+   "morphemeIds": ["body", "hand", "foot", "tooth", "ache"]
+  },
+  {
+   "id": "nature-field",
+   "name": "原野",
+   "morphemeIds": ["sun", "sea", "rain", "water", "air", "ground"]
+  },
+  {
+   "id": "compass-tower",
+   "name": "四方塔",
+   "morphemeIds": ["north", "south", "west", "line", "direct", "position"]
   },
   {
    "id": "hold-vault",
    "name": "持握库",
-   "morphemeIds": ["tain", "ten", "prise", "ceive", "take", "quest"]
+   "morphemeIds": ["tain", "ten", "take", "prise", "ceive", "quest"]
+  },
+  {
+   "id": "motion-yard",
+   "name": "行止院",
+   "morphemeIds": ["act", "ceed", "pass", "turn", "cycle", "stand"]
   },
   {
    "id": "sense-gallery",
    "name": "感知廊",
-   "morphemeIds": ["sent", "vision", "view"]
+   "morphemeIds": ["sent", "vision", "view", "real", "mean"]
   },
   {
    "id": "build-site",
    "name": "营造场",
-   "morphemeIds": ["stand", "base", "board"]
+   "morphemeIds": ["base", "board", "cover", "break", "ember"]
+  },
+  {
+   "id": "life-street",
+   "name": "生活街",
+   "morphemeIds": ["live", "life", "use", "play", "car", "book", "week", "child"]
+  },
+  {
+   "id": "school-yard",
+   "name": "学堂院",
+   "morphemeIds": ["class", "success", "agree", "thing", "hard"]
+  },
+  {
+   "id": "craft-bench",
+   "name": "匠作台",
+   "morphemeIds": ["draw", "lead", "port"]
   }
  ]
 }

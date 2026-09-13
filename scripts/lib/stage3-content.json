@@ -1,5 +1,5 @@
 {
- "_comment": "Stage 3 内容配置：60 家族 / 316 词（由 build-stage3-config.mjs 合并 batch-01 生成；源头=stage1-content.json + stage-additions/*，不要手改本文件）。",
+ "_comment": "Stage 3 内容配置：119 家族 / 408 词（由 build-stage3-config.mjs 合并 batch-01 + batch-02 生成；源头=stage1-content.json + stage-additions/*，不要手改本文件）。",
  "families": {
   "spec": {
    "roots": [
@@ -720,6 +720,518 @@
     "optimist",
     "optical"
    ]
+  },
+  "sent": {
+   "roots": [
+    "sent"
+   ],
+   "words": [
+    "absent",
+    "present"
+   ]
+  },
+  "act": {
+   "roots": [
+    "act"
+   ],
+   "words": [
+    "action",
+    "active"
+   ]
+  },
+  "agree": {
+   "roots": [
+    "agree"
+   ],
+   "words": [
+    "agreement"
+   ]
+  },
+  "air": {
+   "roots": [
+    "air"
+   ],
+   "words": [
+    "airline",
+    "airplane",
+    "airport"
+   ]
+  },
+  "line": {
+   "roots": [
+    "line"
+   ],
+   "words": [
+    "airline"
+   ]
+  },
+  "live": {
+   "roots": [
+    "live"
+   ],
+   "words": [
+    "alive"
+   ]
+  },
+  "body": {
+   "roots": [
+    "body"
+   ],
+   "words": [
+    "anybody",
+    "everybody",
+    "somebody"
+   ]
+  },
+  "thing": {
+   "roots": [
+    "thing"
+   ],
+   "words": [
+    "anything",
+    "everything",
+    "something"
+   ]
+  },
+  "ground": {
+   "roots": [
+    "ground"
+   ],
+   "words": [
+    "background",
+    "playground",
+    "underground"
+   ]
+  },
+  "base": {
+   "roots": [
+    "base"
+   ],
+   "words": [
+    "baseball",
+    "basic"
+   ]
+  },
+  "bath": {
+   "roots": [
+    "bath"
+   ],
+   "words": [
+    "bathroom"
+   ]
+  },
+  "room": {
+   "roots": [
+    "room"
+   ],
+   "words": [
+    "bathroom",
+    "bedroom",
+    "classroom"
+   ]
+  },
+  "cycle": {
+   "roots": [
+    "cycle"
+   ],
+   "words": [
+    "bicycle",
+    "motorcycle"
+   ]
+  },
+  "day": {
+   "roots": [
+    "day"
+   ],
+   "words": [
+    "birthday",
+    "daily",
+    "everyday",
+    "holiday",
+    "monday",
+    "saturday",
+    "sunday",
+    "thursday",
+    "today",
+    "tuesday",
+    "weekday",
+    "yesterday"
+   ]
+  },
+  "board": {
+   "roots": [
+    "board"
+   ],
+   "words": [
+    "blackboard",
+    "keyboard"
+   ]
+  },
+  "break": {
+   "roots": [
+    "break"
+   ],
+   "words": [
+    "breakfast"
+   ]
+  },
+  "tain": {
+   "roots": [
+    "tain"
+   ],
+   "words": [
+    "captain"
+   ]
+  },
+  "car": {
+   "roots": [
+    "car"
+   ],
+   "words": [
+    "careful",
+    "careless"
+   ]
+  },
+  "chair": {
+   "roots": [
+    "chair"
+   ],
+   "words": [
+    "chairman"
+   ]
+  },
+  "class": {
+   "roots": [
+    "class"
+   ],
+   "words": [
+    "classmate",
+    "classroom"
+   ]
+  },
+  "position": {
+   "roots": [
+    "position"
+   ],
+   "words": [
+    "composition"
+   ]
+  },
+  "ember": {
+   "roots": [
+    "ember"
+   ],
+   "words": [
+    "december",
+    "november",
+    "september"
+   ]
+  },
+  "direct": {
+   "roots": [
+    "direct"
+   ],
+   "words": [
+    "direction",
+    "director"
+   ]
+  },
+  "cover": {
+   "roots": [
+    "cover"
+   ],
+   "words": [
+    "discover"
+   ]
+  },
+  "draw": {
+   "roots": [
+    "draw"
+   ],
+   "words": [
+    "drawer"
+   ]
+  },
+  "foot": {
+   "roots": [
+    "foot"
+   ],
+   "words": [
+    "football"
+   ]
+  },
+  "child": {
+   "roots": [
+    "child"
+   ],
+   "words": [
+    "grandchild"
+   ]
+  },
+  "hand": {
+   "roots": [
+    "hand"
+   ],
+   "words": [
+    "handbag",
+    "handsome"
+   ]
+  },
+  "hard": {
+   "roots": [
+    "hard"
+   ],
+   "words": [
+    "hardly"
+   ]
+  },
+  "ache": {
+   "roots": [
+    "ache"
+   ],
+   "words": [
+    "headache",
+    "toothache"
+   ]
+  },
+  "house": {
+   "roots": [
+    "house"
+   ],
+   "words": [
+    "housework"
+   ]
+  },
+  "view": {
+   "roots": [
+    "view"
+   ],
+   "words": [
+    "interview",
+    "review"
+   ]
+  },
+  "lead": {
+   "roots": [
+    "lead"
+   ],
+   "words": [
+    "leader"
+   ]
+  },
+  "mean": {
+   "roots": [
+    "mean"
+   ],
+   "words": [
+    "meaning"
+   ]
+  },
+  "take": {
+   "roots": [
+    "take"
+   ],
+   "words": [
+    "mistake"
+   ]
+  },
+  "north": {
+   "roots": [
+    "north"
+   ],
+   "words": [
+    "northern"
+   ]
+  },
+  "book": {
+   "roots": [
+    "book"
+   ],
+   "words": [
+    "notebook"
+   ]
+  },
+  "pass": {
+   "roots": [
+    "pass"
+   ],
+   "words": [
+    "passage"
+   ]
+  },
+  "play": {
+   "roots": [
+    "play"
+   ],
+   "words": [
+    "playground"
+   ]
+  },
+  "quest": {
+   "roots": [
+    "quest"
+   ],
+   "words": [
+    "question"
+   ]
+  },
+  "rain": {
+   "roots": [
+    "rain"
+   ],
+   "words": [
+    "raincoat"
+   ]
+  },
+  "real": {
+   "roots": [
+    "real"
+   ],
+   "words": [
+    "realise",
+    "really"
+   ]
+  },
+  "ceive": {
+   "roots": [
+    "ceive"
+   ],
+   "words": [
+    "receive"
+   ]
+  },
+  "turn": {
+   "roots": [
+    "turn"
+   ],
+   "words": [
+    "return"
+   ]
+  },
+  "sea": {
+   "roots": [
+    "sea"
+   ],
+   "words": [
+    "season"
+   ]
+  },
+  "south": {
+   "roots": [
+    "south"
+   ],
+   "words": [
+    "southern"
+   ]
+  },
+  "stand": {
+   "roots": [
+    "stand"
+   ],
+   "words": [
+    "standard",
+    "understand"
+   ]
+  },
+  "ceed": {
+   "roots": [
+    "ceed"
+   ],
+   "words": [
+    "succeed"
+   ]
+  },
+  "success": {
+   "roots": [
+    "success"
+   ],
+   "words": [
+    "successful"
+   ]
+  },
+  "sun": {
+   "roots": [
+    "sun"
+   ],
+   "words": [
+    "sunday"
+   ]
+  },
+  "prise": {
+   "roots": [
+    "prise"
+   ],
+   "words": [
+    "surprise"
+   ]
+  },
+  "vision": {
+   "roots": [
+    "vision"
+   ],
+   "words": [
+    "television"
+   ]
+  },
+  "ten": {
+   "roots": [
+    "ten"
+   ],
+   "words": [
+    "tenth"
+   ]
+  },
+  "night": {
+   "roots": [
+    "night"
+   ],
+   "words": [
+    "tonight"
+   ]
+  },
+  "tooth": {
+   "roots": [
+    "tooth"
+   ],
+   "words": [
+    "toothache",
+    "toothbrush",
+    "toothpaste"
+   ]
+  },
+  "use": {
+   "roots": [
+    "use"
+   ],
+   "words": [
+    "used",
+    "useful"
+   ]
+  },
+  "water": {
+   "roots": [
+    "water"
+   ],
+   "words": [
+    "watermelon"
+   ]
+  },
+  "week": {
+   "roots": [
+    "week"
+   ],
+   "words": [
+    "weekday",
+    "weekend"
+   ]
+  },
+  "west": {
+   "roots": [
+    "west"
+   ],
+   "words": [
+    "western"
+   ]
   }
  },
  "canary": [
@@ -811,7 +1323,8 @@
   "sacred": "sanct 家族补充；仅标 toefl/ielts，保送过 6.2",
   "medieval": "medi 家族补充；仅标 toefl/ielts，保送过 6.2",
   "sausage": "sal 家族补充；仅标 ielts，保送过 6.2",
-  "diameter": "metr 家族补充；仅标 toefl/ielts，保送过 6.2"
+  "diameter": "metr 家族补充；仅标 toefl/ielts，保送过 6.2",
+  "toothache": "tooth+ache 两个教学词根拼成的词，构词最直白，卡片能一眼看懂「牙 + 痛」；bnc 21284 略高于 20000 的常用度阈值，但它是 zk/gk 考试词。"
  },
  "splits": {
   "circumspect": [
@@ -4100,6 +4613,4160 @@
     "id": "al",
     "surface": "al"
    }
+  ],
+  "ability": [
+   {
+    "id": "able",
+    "surface": "abil"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "absent": [
+   {
+    "id": "ab",
+    "surface": "ab"
+   },
+   {
+    "id": "sent",
+    "surface": "sent"
+   }
+  ],
+  "action": [
+   {
+    "id": "act",
+    "surface": "act"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "active": [
+   {
+    "id": "act",
+    "surface": "act"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "activity": [
+   {
+    "id": "active",
+    "surface": "activ"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "advantage": [
+   {
+    "id": "ad",
+    "surface": "ad"
+   },
+   {
+    "id": "vantage",
+    "surface": "vantage"
+   }
+  ],
+  "advertisement": [
+   {
+    "id": "advertise",
+    "surface": "advertise"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "advise": [
+   {
+    "id": "ad",
+    "surface": "ad"
+   },
+   {
+    "id": "vis",
+    "surface": "vise"
+   }
+  ],
+  "afford": [
+   {
+    "id": "af",
+    "surface": "af"
+   },
+   {
+    "id": "ford",
+    "surface": "ford"
+   }
+  ],
+  "afternoon": [
+   {
+    "id": "after",
+    "surface": "after"
+   },
+   {
+    "id": "noon",
+    "surface": "noon"
+   }
+  ],
+  "again": [
+   {
+    "id": "on",
+    "surface": "a"
+   },
+   {
+    "id": "gain",
+    "surface": "gain"
+   }
+  ],
+  "against": [
+   {
+    "id": "again",
+    "surface": "again"
+   },
+   {
+    "id": "st",
+    "surface": "st"
+   }
+  ],
+  "agreement": [
+   {
+    "id": "agree",
+    "surface": "agree"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "airline": [
+   {
+    "id": "air",
+    "surface": "air"
+   },
+   {
+    "id": "line",
+    "surface": "line"
+   }
+  ],
+  "airplane": [
+   {
+    "id": "air",
+    "surface": "air"
+   },
+   {
+    "id": "plane",
+    "surface": "plane"
+   }
+  ],
+  "airport": [
+   {
+    "id": "air",
+    "surface": "air"
+   },
+   {
+    "id": "port",
+    "surface": "port"
+   }
+  ],
+  "alive": [
+   {
+    "id": "a",
+    "surface": "a"
+   },
+   {
+    "id": "life",
+    "surface": "live"
+   }
+  ],
+  "almost": [
+   {
+    "id": "al",
+    "surface": "al"
+   },
+   {
+    "id": "most",
+    "surface": "most"
+   }
+  ],
+  "alone": [
+   {
+    "id": "al",
+    "surface": "al"
+   },
+   {
+    "id": "on",
+    "surface": "one"
+   }
+  ],
+  "already": [
+   {
+    "id": "al",
+    "surface": "al"
+   },
+   {
+    "id": "ready",
+    "surface": "ready"
+   }
+  ],
+  "also": [
+   {
+    "id": "all",
+    "surface": "al"
+   },
+   {
+    "id": "so",
+    "surface": "so"
+   }
+  ],
+  "although": [
+   {
+    "id": "all",
+    "surface": "al"
+   },
+   {
+    "id": "though",
+    "surface": "though"
+   }
+  ],
+  "another": [
+   {
+    "id": "an",
+    "surface": "an"
+   },
+   {
+    "id": "other",
+    "surface": "other"
+   }
+  ],
+  "anybody": [
+   {
+    "id": "any",
+    "surface": "any"
+   },
+   {
+    "id": "body",
+    "surface": "body"
+   }
+  ],
+  "anyone": [
+   {
+    "id": "any",
+    "surface": "any"
+   },
+   {
+    "id": "on",
+    "surface": "one"
+   }
+  ],
+  "anything": [
+   {
+    "id": "any",
+    "surface": "any"
+   },
+   {
+    "id": "thing",
+    "surface": "thing"
+   }
+  ],
+  "anyway": [
+   {
+    "id": "any",
+    "surface": "any"
+   },
+   {
+    "id": "way",
+    "surface": "way"
+   }
+  ],
+  "anywhere": [
+   {
+    "id": "any",
+    "surface": "any"
+   },
+   {
+    "id": "where",
+    "surface": "where"
+   }
+  ],
+  "arrive": [
+   {
+    "id": "ar",
+    "surface": "ar"
+   },
+   {
+    "id": "rive",
+    "surface": "rive"
+   }
+  ],
+  "asian": [
+   {
+    "id": "asia",
+    "surface": "asia"
+   },
+   {
+    "id": "an",
+    "surface": "n"
+   }
+  ],
+  "asleep": [
+   {
+    "id": "a",
+    "surface": "a"
+   },
+   {
+    "id": "sleep",
+    "surface": "sleep"
+   }
+  ],
+  "attention": [
+   {
+    "id": "attend",
+    "surface": "atten"
+   },
+   {
+    "id": "tion",
+    "surface": "tion"
+   }
+  ],
+  "australia": [
+   {
+    "id": "austral",
+    "surface": "austral"
+   },
+   {
+    "id": "ia",
+    "surface": "ia"
+   }
+  ],
+  "australian": [
+   {
+    "id": "australia",
+    "surface": "australia"
+   },
+   {
+    "id": "an",
+    "surface": "n"
+   }
+  ],
+  "available": [
+   {
+    "id": "avail",
+    "surface": "avail"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "background": [
+   {
+    "id": "back",
+    "surface": "back"
+   },
+   {
+    "id": "ground",
+    "surface": "ground"
+   }
+  ],
+  "baseball": [
+   {
+    "id": "base",
+    "surface": "base"
+   },
+   {
+    "id": "ball",
+    "surface": "ball"
+   }
+  ],
+  "basic": [
+   {
+    "id": "base",
+    "surface": "bas"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "basketball": [
+   {
+    "id": "basket",
+    "surface": "basket"
+   },
+   {
+    "id": "ball",
+    "surface": "ball"
+   }
+  ],
+  "bathroom": [
+   {
+    "id": "bath",
+    "surface": "bath"
+   },
+   {
+    "id": "room",
+    "surface": "room"
+   }
+  ],
+  "beautiful": [
+   {
+    "id": "beauty",
+    "surface": "beauti"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "become": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "com",
+    "surface": "come"
+   }
+  ],
+  "bedroom": [
+   {
+    "id": "bed",
+    "surface": "bed"
+   },
+   {
+    "id": "room",
+    "surface": "room"
+   }
+  ],
+  "before": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "for",
+    "surface": "fore"
+   }
+  ],
+  "behind": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "hind",
+    "surface": "hind"
+   }
+  ],
+  "believe": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "leave",
+    "surface": "lieve"
+   }
+  ],
+  "below": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "low",
+    "surface": "low"
+   }
+  ],
+  "beside": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "side",
+    "surface": "side"
+   }
+  ],
+  "between": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "twain",
+    "surface": "tween"
+   }
+  ],
+  "beyond": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "eond",
+    "surface": "yond"
+   }
+  ],
+  "bicycle": [
+   {
+    "id": "bi",
+    "surface": "bi"
+   },
+   {
+    "id": "cycle",
+    "surface": "cycle"
+   }
+  ],
+  "birthday": [
+   {
+    "id": "birth",
+    "surface": "birth"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "bitter": [
+   {
+    "id": "bi",
+    "surface": "bitt"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "blackboard": [
+   {
+    "id": "black",
+    "surface": "black"
+   },
+   {
+    "id": "board",
+    "surface": "board"
+   }
+  ],
+  "boring": [
+   {
+    "id": "bore",
+    "surface": "bor"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "breakfast": [
+   {
+    "id": "break",
+    "surface": "break"
+   },
+   {
+    "id": "fast",
+    "surface": "fast"
+   }
+  ],
+  "building": [
+   {
+    "id": "build",
+    "surface": "build"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "business": [
+   {
+    "id": "busy",
+    "surface": "busi"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "but": [
+   {
+    "id": "be",
+    "surface": "b"
+   },
+   {
+    "id": "out",
+    "surface": "ut"
+   }
+  ],
+  "butter": [
+   {
+    "id": "butt",
+    "surface": "butt"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "butterfly": [
+   {
+    "id": "butter",
+    "surface": "butter"
+   },
+   {
+    "id": "fly",
+    "surface": "fly"
+   }
+  ],
+  "capital": [
+   {
+    "id": "capit",
+    "surface": "capit"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "captain": [
+   {
+    "id": "cap",
+    "surface": "cap"
+   },
+   {
+    "id": "tain",
+    "surface": "tain"
+   }
+  ],
+  "careful": [
+   {
+    "id": "car",
+    "surface": "care"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "careless": [
+   {
+    "id": "car",
+    "surface": "care"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "ceiling": [
+   {
+    "id": "ceil",
+    "surface": "ceil"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "chairman": [
+   {
+    "id": "chair",
+    "surface": "chair"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "chemistry": [
+   {
+    "id": "chemist",
+    "surface": "chemist"
+   },
+   {
+    "id": "ry",
+    "surface": "ry"
+   }
+  ],
+  "chicken": [
+   {
+    "id": "chick",
+    "surface": "chick"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "chinese": [
+   {
+    "id": "china",
+    "surface": "chin"
+   },
+   {
+    "id": "es",
+    "surface": "ese"
+   }
+  ],
+  "christmas": [
+   {
+    "id": "christ",
+    "surface": "christ"
+   },
+   {
+    "id": "mas",
+    "surface": "mas"
+   }
+  ],
+  "classmate": [
+   {
+    "id": "class",
+    "surface": "class"
+   },
+   {
+    "id": "mate",
+    "surface": "mate"
+   }
+  ],
+  "classroom": [
+   {
+    "id": "class",
+    "surface": "class"
+   },
+   {
+    "id": "room",
+    "surface": "room"
+   }
+  ],
+  "clothes": [
+   {
+    "id": "cloth",
+    "surface": "cloth"
+   },
+   {
+    "id": "es",
+    "surface": "es"
+   }
+  ],
+  "collect": [
+   {
+    "id": "col",
+    "surface": "col"
+   },
+   {
+    "id": "lect",
+    "surface": "lect"
+   }
+  ],
+  "communication": [
+   {
+    "id": "communicate",
+    "surface": "communicat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "company": [
+   {
+    "id": "comp",
+    "surface": "comp"
+   },
+   {
+    "id": "any",
+    "surface": "any"
+   }
+  ],
+  "compare": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "par",
+    "surface": "pare"
+   }
+  ],
+  "competition": [
+   {
+    "id": "compete",
+    "surface": "compet"
+   },
+   {
+    "id": "ition",
+    "surface": "ition"
+   }
+  ],
+  "complete": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "ple",
+    "surface": "plete"
+   }
+  ],
+  "composition": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "position",
+    "surface": "position"
+   }
+  ],
+  "computer": [
+   {
+    "id": "compute",
+    "surface": "compute"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "concert": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "cert",
+    "surface": "cert"
+   }
+  ],
+  "connect": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "necto",
+    "surface": "nect"
+   }
+  ],
+  "consider": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "sid",
+    "surface": "sid"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "conversation": [
+   {
+    "id": "converse",
+    "surface": "convers"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "cooker": [
+   {
+    "id": "cook",
+    "surface": "cook"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "corner": [
+   {
+    "id": "corn",
+    "surface": "corn"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "correct": [
+   {
+    "id": "cor",
+    "surface": "cor"
+   },
+   {
+    "id": "rect",
+    "surface": "rect"
+   }
+  ],
+  "country": [
+   {
+    "id": "coun",
+    "surface": "coun"
+   },
+   {
+    "id": "try",
+    "surface": "try"
+   }
+  ],
+  "countryside": [
+   {
+    "id": "country",
+    "surface": "country"
+   },
+   {
+    "id": "side",
+    "surface": "side"
+   }
+  ],
+  "crayon": [
+   {
+    "id": "craie",
+    "surface": "cray"
+   },
+   {
+    "id": "on",
+    "surface": "on"
+   }
+  ],
+  "daily": [
+   {
+    "id": "day",
+    "surface": "dai"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "dangerous": [
+   {
+    "id": "danger",
+    "surface": "danger"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "december": [
+   {
+    "id": "dec",
+    "surface": "dec"
+   },
+   {
+    "id": "ember",
+    "surface": "ember"
+   }
+  ],
+  "development": [
+   {
+    "id": "develop",
+    "surface": "develop"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "dictionary": [
+   {
+    "id": "diction",
+    "surface": "diction"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "difference": [
+   {
+    "id": "differ",
+    "surface": "differ"
+   },
+   {
+    "id": "ence",
+    "surface": "ence"
+   }
+  ],
+  "different": [
+   {
+    "id": "differ",
+    "surface": "differ"
+   },
+   {
+    "id": "ent",
+    "surface": "ent"
+   }
+  ],
+  "direction": [
+   {
+    "id": "direct",
+    "surface": "direct"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "director": [
+   {
+    "id": "direct",
+    "surface": "direct"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "discover": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "cover",
+    "surface": "cover"
+   }
+  ],
+  "discovery": [
+   {
+    "id": "discover",
+    "surface": "discover"
+   },
+   {
+    "id": "ery",
+    "surface": "y"
+   }
+  ],
+  "discuss": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "cuss",
+    "surface": "cuss"
+   }
+  ],
+  "discussion": [
+   {
+    "id": "discuss",
+    "surface": "discuss"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "disease": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "ease",
+    "surface": "ease"
+   }
+  ],
+  "disturb": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "turb",
+    "surface": "turb"
+   }
+  ],
+  "divide": [
+   {
+    "id": "di",
+    "surface": "di"
+   },
+   {
+    "id": "vid",
+    "surface": "vide"
+   }
+  ],
+  "downstairs": [
+   {
+    "id": "down",
+    "surface": "down"
+   },
+   {
+    "id": "stair",
+    "surface": "stairs"
+   }
+  ],
+  "drawer": [
+   {
+    "id": "draw",
+    "surface": "draw"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "driver": [
+   {
+    "id": "drive",
+    "surface": "drive"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "dumpling": [
+   {
+    "id": "dump",
+    "surface": "dump"
+   },
+   {
+    "id": "ling",
+    "surface": "ling"
+   }
+  ],
+  "during": [
+   {
+    "id": "dure",
+    "surface": "dur"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "duty": [
+   {
+    "id": "due",
+    "surface": "du"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "early": [
+   {
+    "id": "er",
+    "surface": "ear"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "education": [
+   {
+    "id": "educate",
+    "surface": "educat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "eighteen": [
+   {
+    "id": "eight",
+    "surface": "eight"
+   },
+   {
+    "id": "teen",
+    "surface": "een"
+   }
+  ],
+  "eighty": [
+   {
+    "id": "eight",
+    "surface": "eight"
+   },
+   {
+    "id": "ty",
+    "surface": "y"
+   }
+  ],
+  "engineer": [
+   {
+    "id": "engine",
+    "surface": "engine"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "england": [
+   {
+    "id": "eng",
+    "surface": "eng"
+   },
+   {
+    "id": "land",
+    "surface": "land"
+   }
+  ],
+  "enjoy": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "joy",
+    "surface": "joy"
+   }
+  ],
+  "environment": [
+   {
+    "id": "environ",
+    "surface": "environ"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "eraser": [
+   {
+    "id": "erase",
+    "surface": "erase"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "especially": [
+   {
+    "id": "especial",
+    "surface": "especial"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "european": [
+   {
+    "id": "europe",
+    "surface": "europe"
+   },
+   {
+    "id": "an",
+    "surface": "an"
+   }
+  ],
+  "evening": [
+   {
+    "id": "even",
+    "surface": "even"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "everybody": [
+   {
+    "id": "every",
+    "surface": "every"
+   },
+   {
+    "id": "body",
+    "surface": "body"
+   }
+  ],
+  "everyday": [
+   {
+    "id": "every",
+    "surface": "every"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "everyone": [
+   {
+    "id": "every",
+    "surface": "every"
+   },
+   {
+    "id": "on",
+    "surface": "one"
+   }
+  ],
+  "everything": [
+   {
+    "id": "every",
+    "surface": "every"
+   },
+   {
+    "id": "thing",
+    "surface": "thing"
+   }
+  ],
+  "everywhere": [
+   {
+    "id": "every",
+    "surface": "every"
+   },
+   {
+    "id": "where",
+    "surface": "where"
+   }
+  ],
+  "examination": [
+   {
+    "id": "examine",
+    "surface": "examin"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "example": [
+   {
+    "id": "exam",
+    "surface": "exam"
+   },
+   {
+    "id": "ple",
+    "surface": "ple"
+   }
+  ],
+  "excellent": [
+   {
+    "id": "excel",
+    "surface": "excell"
+   },
+   {
+    "id": "ent",
+    "surface": "ent"
+   }
+  ],
+  "expensive": [
+   {
+    "id": "expense",
+    "surface": "expens"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "famous": [
+   {
+    "id": "fame",
+    "surface": "fam"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "fantastic": [
+   {
+    "id": "fantasy",
+    "surface": "fantas"
+   },
+   {
+    "id": "tic",
+    "surface": "tic"
+   }
+  ],
+  "farmer": [
+   {
+    "id": "farm",
+    "surface": "farm"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "favourite": [
+   {
+    "id": "favour",
+    "surface": "favour"
+   },
+   {
+    "id": "it",
+    "surface": "ite"
+   }
+  ],
+  "feeling": [
+   {
+    "id": "feel",
+    "surface": "feel"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "festival": [
+   {
+    "id": "festive",
+    "surface": "festiv"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "fifteen": [
+   {
+    "id": "five",
+    "surface": "fif"
+   },
+   {
+    "id": "teen",
+    "surface": "teen"
+   }
+  ],
+  "fifty": [
+   {
+    "id": "five",
+    "surface": "fif"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "fisherman": [
+   {
+    "id": "fisher",
+    "surface": "fisher"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "flower": [
+   {
+    "id": "flow",
+    "surface": "flow"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "football": [
+   {
+    "id": "foot",
+    "surface": "foot"
+   },
+   {
+    "id": "ball",
+    "surface": "ball"
+   }
+  ],
+  "foreigner": [
+   {
+    "id": "foreign",
+    "surface": "foreign"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "forest": [
+   {
+    "id": "for",
+    "surface": "for"
+   },
+   {
+    "id": "est",
+    "surface": "est"
+   }
+  ],
+  "forget": [
+   {
+    "id": "for",
+    "surface": "for"
+   },
+   {
+    "id": "get",
+    "surface": "get"
+   }
+  ],
+  "forty": [
+   {
+    "id": "four",
+    "surface": "for"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "forward": [
+   {
+    "id": "for",
+    "surface": "for"
+   },
+   {
+    "id": "ward",
+    "surface": "ward"
+   }
+  ],
+  "fourteen": [
+   {
+    "id": "four",
+    "surface": "four"
+   },
+   {
+    "id": "teen",
+    "surface": "teen"
+   }
+  ],
+  "fourth": [
+   {
+    "id": "four",
+    "surface": "four"
+   },
+   {
+    "id": "th",
+    "surface": "th"
+   }
+  ],
+  "friend": [
+   {
+    "id": "free",
+    "surface": "frie"
+   },
+   {
+    "id": "and",
+    "surface": "nd"
+   }
+  ],
+  "friendly": [
+   {
+    "id": "friend",
+    "surface": "friend"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "friendship": [
+   {
+    "id": "friend",
+    "surface": "friend"
+   },
+   {
+    "id": "ship",
+    "surface": "ship"
+   }
+  ],
+  "gentleman": [
+   {
+    "id": "gentle",
+    "surface": "gentle"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "geography": [
+   {
+    "id": "geo",
+    "surface": "geo"
+   },
+   {
+    "id": "graphy",
+    "surface": "graphy"
+   }
+  ],
+  "golden": [
+   {
+    "id": "gold",
+    "surface": "gold"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "goodbye": [
+   {
+    "id": "good",
+    "surface": "good"
+   },
+   {
+    "id": "by",
+    "surface": "bye"
+   }
+  ],
+  "government": [
+   {
+    "id": "govern",
+    "surface": "govern"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "grammar": [
+   {
+    "id": "gram",
+    "surface": "gram"
+   },
+   {
+    "id": "mar",
+    "surface": "mar"
+   }
+  ],
+  "grandchild": [
+   {
+    "id": "grand",
+    "surface": "grand"
+   },
+   {
+    "id": "child",
+    "surface": "child"
+   }
+  ],
+  "granddaughter": [
+   {
+    "id": "grand",
+    "surface": "grand"
+   },
+   {
+    "id": "daughter",
+    "surface": "daughter"
+   }
+  ],
+  "grandfather": [
+   {
+    "id": "grand",
+    "surface": "grand"
+   },
+   {
+    "id": "father",
+    "surface": "father"
+   }
+  ],
+  "grandma": [
+   {
+    "id": "grand",
+    "surface": "grand"
+   },
+   {
+    "id": "ma",
+    "surface": "ma"
+   }
+  ],
+  "grandmother": [
+   {
+    "id": "grand",
+    "surface": "grand"
+   },
+   {
+    "id": "mother",
+    "surface": "mother"
+   }
+  ],
+  "grandpa": [
+   {
+    "id": "grand",
+    "surface": "grand"
+   },
+   {
+    "id": "pa",
+    "surface": "pa"
+   }
+  ],
+  "grandparent": [
+   {
+    "id": "grand",
+    "surface": "grand"
+   },
+   {
+    "id": "parent",
+    "surface": "parent"
+   }
+  ],
+  "grandson": [
+   {
+    "id": "grand",
+    "surface": "grand"
+   },
+   {
+    "id": "son",
+    "surface": "son"
+   }
+  ],
+  "greeting": [
+   {
+    "id": "greet",
+    "surface": "greet"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "hamburger": [
+   {
+    "id": "hamburg",
+    "surface": "hamburg"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "handbag": [
+   {
+    "id": "hand",
+    "surface": "hand"
+   },
+   {
+    "id": "bag",
+    "surface": "bag"
+   }
+  ],
+  "handsome": [
+   {
+    "id": "hand",
+    "surface": "hand"
+   },
+   {
+    "id": "some",
+    "surface": "some"
+   }
+  ],
+  "handwriting": [
+   {
+    "id": "handwrite",
+    "surface": "handwrit"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "hardly": [
+   {
+    "id": "hard",
+    "surface": "hard"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "headache": [
+   {
+    "id": "head",
+    "surface": "head"
+   },
+   {
+    "id": "ache",
+    "surface": "ache"
+   }
+  ],
+  "health": [
+   {
+    "id": "heal",
+    "surface": "heal"
+   },
+   {
+    "id": "th",
+    "surface": "th"
+   }
+  ],
+  "healthy": [
+   {
+    "id": "heal",
+    "surface": "heal"
+   },
+   {
+    "id": "thy",
+    "surface": "thy"
+   }
+  ],
+  "helpful": [
+   {
+    "id": "help",
+    "surface": "help"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "herself": [
+   {
+    "id": "her",
+    "surface": "her"
+   },
+   {
+    "id": "self",
+    "surface": "self"
+   }
+  ],
+  "himself": [
+   {
+    "id": "him",
+    "surface": "him"
+   },
+   {
+    "id": "self",
+    "surface": "self"
+   }
+  ],
+  "holiday": [
+   {
+    "id": "holy",
+    "surface": "holi"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "hometown": [
+   {
+    "id": "home",
+    "surface": "home"
+   },
+   {
+    "id": "town",
+    "surface": "town"
+   }
+  ],
+  "homework": [
+   {
+    "id": "home",
+    "surface": "home"
+   },
+   {
+    "id": "work",
+    "surface": "work"
+   }
+  ],
+  "hotdog": [
+   {
+    "id": "hot",
+    "surface": "hot"
+   },
+   {
+    "id": "dog",
+    "surface": "dog"
+   }
+  ],
+  "housework": [
+   {
+    "id": "house",
+    "surface": "house"
+   },
+   {
+    "id": "work",
+    "surface": "work"
+   }
+  ],
+  "however": [
+   {
+    "id": "how",
+    "surface": "how"
+   },
+   {
+    "id": "ever",
+    "surface": "ever"
+   }
+  ],
+  "humorous": [
+   {
+    "id": "humor",
+    "surface": "humor"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "icecream": [
+   {
+    "id": "iced",
+    "surface": "ice"
+   },
+   {
+    "id": "cream",
+    "surface": "cream"
+   }
+  ],
+  "illness": [
+   {
+    "id": "ill",
+    "surface": "ill"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "immediately": [
+   {
+    "id": "immediate",
+    "surface": "immediate"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "important": [
+   {
+    "id": "import",
+    "surface": "import"
+   },
+   {
+    "id": "ant",
+    "surface": "ant"
+   }
+  ],
+  "impossible": [
+   {
+    "id": "im",
+    "surface": "im"
+   },
+   {
+    "id": "possible",
+    "surface": "possible"
+   }
+  ],
+  "improve": [
+   {
+    "id": "imp",
+    "surface": "imp"
+   },
+   {
+    "id": "rove",
+    "surface": "rove"
+   }
+  ],
+  "indian": [
+   {
+    "id": "ind",
+    "surface": "ind"
+   },
+   {
+    "id": "ian",
+    "surface": "ian"
+   }
+  ],
+  "industry": [
+   {
+    "id": "indus",
+    "surface": "indus"
+   },
+   {
+    "id": "try",
+    "surface": "try"
+   }
+  ],
+  "inside": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "side",
+    "surface": "side"
+   }
+  ],
+  "instead": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "stead",
+    "surface": "stead"
+   }
+  ],
+  "instruction": [
+   {
+    "id": "instruct",
+    "surface": "instruct"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "intention": [
+   {
+    "id": "intent",
+    "surface": "intent"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "interest": [
+   {
+    "id": "inter",
+    "surface": "inter"
+   },
+   {
+    "id": "est",
+    "surface": "est"
+   }
+  ],
+  "interesting": [
+   {
+    "id": "interest",
+    "surface": "interest"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "international": [
+   {
+    "id": "inter",
+    "surface": "inter"
+   },
+   {
+    "id": "national",
+    "surface": "national"
+   }
+  ],
+  "internet": [
+   {
+    "id": "inter",
+    "surface": "inter"
+   },
+   {
+    "id": "net",
+    "surface": "net"
+   }
+  ],
+  "interview": [
+   {
+    "id": "inter",
+    "surface": "inter"
+   },
+   {
+    "id": "view",
+    "surface": "view"
+   }
+  ],
+  "into": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "to",
+    "surface": "to"
+   }
+  ],
+  "introduce": [
+   {
+    "id": "intro",
+    "surface": "intro"
+   },
+   {
+    "id": "duce",
+    "surface": "duce"
+   }
+  ],
+  "invention": [
+   {
+    "id": "invent",
+    "surface": "invent"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "island": [
+   {
+    "id": "ey",
+    "surface": "is"
+   },
+   {
+    "id": "land",
+    "surface": "land"
+   }
+  ],
+  "itself": [
+   {
+    "id": "it",
+    "surface": "it"
+   },
+   {
+    "id": "self",
+    "surface": "self"
+   }
+  ],
+  "japan": [
+   {
+    "id": "jap",
+    "surface": "jap"
+   },
+   {
+    "id": "an",
+    "surface": "an"
+   }
+  ],
+  "japanese": [
+   {
+    "id": "japan",
+    "surface": "japan"
+   },
+   {
+    "id": "es",
+    "surface": "ese"
+   }
+  ],
+  "keyboard": [
+   {
+    "id": "key",
+    "surface": "key"
+   },
+   {
+    "id": "board",
+    "surface": "board"
+   }
+  ],
+  "kilogram": [
+   {
+    "id": "kilo",
+    "surface": "kilo"
+   },
+   {
+    "id": "gram",
+    "surface": "gram"
+   }
+  ],
+  "king": [
+   {
+    "id": "kin",
+    "surface": "kin"
+   },
+   {
+    "id": "ing",
+    "surface": "g"
+   }
+  ],
+  "kitchen": [
+   {
+    "id": "kit",
+    "surface": "kit"
+   },
+   {
+    "id": "chen",
+    "surface": "chen"
+   }
+  ],
+  "knowledge": [
+   {
+    "id": "know",
+    "surface": "know"
+   },
+   {
+    "id": "ledge",
+    "surface": "ledge"
+   }
+  ],
+  "leader": [
+   {
+    "id": "lead",
+    "surface": "lead"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "lemonade": [
+   {
+    "id": "lemon",
+    "surface": "lemon"
+   },
+   {
+    "id": "ad",
+    "surface": "ade"
+   }
+  ],
+  "letter": [
+   {
+    "id": "let",
+    "surface": "lett"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "little": [
+   {
+    "id": "lout",
+    "surface": "litt"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "lively": [
+   {
+    "id": "life",
+    "surface": "live"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "lonely": [
+   {
+    "id": "lone",
+    "surface": "lone"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "lovely": [
+   {
+    "id": "love",
+    "surface": "love"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "manage": [
+   {
+    "id": "man",
+    "surface": "man"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "manager": [
+   {
+    "id": "manage",
+    "surface": "manage"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "marriage": [
+   {
+    "id": "marry",
+    "surface": "marri"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "master": [
+   {
+    "id": "mast",
+    "surface": "mast"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "mathematics": [
+   {
+    "id": "mathematic",
+    "surface": "mathematic"
+   },
+   {
+    "id": "ics",
+    "surface": "s"
+   }
+  ],
+  "maybe": [
+   {
+    "id": "may",
+    "surface": "may"
+   },
+   {
+    "id": "be",
+    "surface": "be"
+   }
+  ],
+  "meaning": [
+   {
+    "id": "mean",
+    "surface": "mean"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "meeting": [
+   {
+    "id": "meet",
+    "surface": "meet"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "mention": [
+   {
+    "id": "ment",
+    "surface": "ment"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "message": [
+   {
+    "id": "mess",
+    "surface": "mess"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "method": [
+   {
+    "id": "met",
+    "surface": "met"
+   },
+   {
+    "id": "hod",
+    "surface": "hod"
+   }
+  ],
+  "mistake": [
+   {
+    "id": "mis",
+    "surface": "mis"
+   },
+   {
+    "id": "take",
+    "surface": "take"
+   }
+  ],
+  "monday": [
+   {
+    "id": "moon",
+    "surface": "mon"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "monkey": [
+   {
+    "id": "monk",
+    "surface": "monk"
+   },
+   {
+    "id": "ey",
+    "surface": "ey"
+   }
+  ],
+  "morning": [
+   {
+    "id": "morn",
+    "surface": "morn"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "mother": [
+   {
+    "id": "moth",
+    "surface": "moth"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "motorcycle": [
+   {
+    "id": "motor",
+    "surface": "motor"
+   },
+   {
+    "id": "cycle",
+    "surface": "cycle"
+   }
+  ],
+  "music": [
+   {
+    "id": "muse",
+    "surface": "mus"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "myself": [
+   {
+    "id": "me",
+    "surface": "my"
+   },
+   {
+    "id": "self",
+    "surface": "self"
+   }
+  ],
+  "national": [
+   {
+    "id": "nation",
+    "surface": "nation"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "natural": [
+   {
+    "id": "nature",
+    "surface": "natur"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "nearly": [
+   {
+    "id": "near",
+    "surface": "near"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "neither": [
+   {
+    "id": "not",
+    "surface": "n"
+   },
+   {
+    "id": "either",
+    "surface": "either"
+   }
+  ],
+  "nervous": [
+   {
+    "id": "nerve",
+    "surface": "nerv"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "never": [
+   {
+    "id": "ne",
+    "surface": "ne"
+   },
+   {
+    "id": "ever",
+    "surface": "ver"
+   }
+  ],
+  "newspaper": [
+   {
+    "id": "news",
+    "surface": "news"
+   },
+   {
+    "id": "paper",
+    "surface": "paper"
+   }
+  ],
+  "nineteen": [
+   {
+    "id": "nine",
+    "surface": "nine"
+   },
+   {
+    "id": "teen",
+    "surface": "teen"
+   }
+  ],
+  "ninety": [
+   {
+    "id": "nine",
+    "surface": "nine"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "none": [
+   {
+    "id": "ne",
+    "surface": "n"
+   },
+   {
+    "id": "on",
+    "surface": "one"
+   }
+  ],
+  "nor": [
+   {
+    "id": "not",
+    "surface": "no"
+   },
+   {
+    "id": "or",
+    "surface": "r"
+   }
+  ],
+  "normal": [
+   {
+    "id": "norm",
+    "surface": "norm"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "northern": [
+   {
+    "id": "north",
+    "surface": "north"
+   },
+   {
+    "id": "ern",
+    "surface": "ern"
+   }
+  ],
+  "notebook": [
+   {
+    "id": "note",
+    "surface": "note"
+   },
+   {
+    "id": "book",
+    "surface": "book"
+   }
+  ],
+  "notice": [
+   {
+    "id": "not",
+    "surface": "not"
+   },
+   {
+    "id": "ice",
+    "surface": "ice"
+   }
+  ],
+  "november": [
+   {
+    "id": "nov",
+    "surface": "nov"
+   },
+   {
+    "id": "ember",
+    "surface": "ember"
+   }
+  ],
+  "number": [
+   {
+    "id": "numb",
+    "surface": "numb"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "officer": [
+   {
+    "id": "office",
+    "surface": "office"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "oneself": [
+   {
+    "id": "on",
+    "surface": "one"
+   },
+   {
+    "id": "self",
+    "surface": "self"
+   }
+  ],
+  "only": [
+   {
+    "id": "on",
+    "surface": "on"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "operation": [
+   {
+    "id": "operate",
+    "surface": "operat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "ourselves": [
+   {
+    "id": "our",
+    "surface": "our"
+   },
+   {
+    "id": "selves",
+    "surface": "selves"
+   }
+  ],
+  "outside": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "side",
+    "surface": "side"
+   }
+  ],
+  "overcoat": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "co",
+    "surface": "coat"
+   }
+  ],
+  "owner": [
+   {
+    "id": "own",
+    "surface": "own"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "package": [
+   {
+    "id": "pack",
+    "surface": "pack"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "pancake": [
+   {
+    "id": "pan",
+    "surface": "pan"
+   },
+   {
+    "id": "cake",
+    "surface": "cake"
+   }
+  ],
+  "passage": [
+   {
+    "id": "pass",
+    "surface": "pass"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "passport": [
+   {
+    "id": "passer",
+    "surface": "pass"
+   },
+   {
+    "id": "port",
+    "surface": "port"
+   }
+  ],
+  "perfect": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "fect",
+    "surface": "fect"
+   }
+  ],
+  "perhaps": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "hap",
+    "surface": "haps"
+   }
+  ],
+  "person": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "son",
+    "surface": "son"
+   }
+  ],
+  "personal": [
+   {
+    "id": "person",
+    "surface": "person"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "playground": [
+   {
+    "id": "play",
+    "surface": "play"
+   },
+   {
+    "id": "ground",
+    "surface": "ground"
+   }
+  ],
+  "pleasant": [
+   {
+    "id": "please",
+    "surface": "pleas"
+   },
+   {
+    "id": "ant",
+    "surface": "ant"
+   }
+  ],
+  "pleasure": [
+   {
+    "id": "plea",
+    "surface": "plea"
+   },
+   {
+    "id": "sur",
+    "surface": "sure"
+   }
+  ],
+  "pocket": [
+   {
+    "id": "poke",
+    "surface": "pocke"
+   },
+   {
+    "id": "et",
+    "surface": "t"
+   }
+  ],
+  "policeman": [
+   {
+    "id": "police",
+    "surface": "police"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "population": [
+   {
+    "id": "populate",
+    "surface": "populat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "postcard": [
+   {
+    "id": "post",
+    "surface": "post"
+   },
+   {
+    "id": "card",
+    "surface": "card"
+   }
+  ],
+  "postman": [
+   {
+    "id": "post",
+    "surface": "post"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "prepare": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "par",
+    "surface": "pare"
+   }
+  ],
+  "present": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "sent",
+    "surface": "sent"
+   }
+  ],
+  "prisoner": [
+   {
+    "id": "prison",
+    "surface": "prison"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "probably": [
+   {
+    "id": "probable",
+    "surface": "probabl"
+   },
+   {
+    "id": "ly",
+    "surface": "y"
+   }
+  ],
+  "programme": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "gramme",
+    "surface": "gramme"
+   }
+  ],
+  "progress": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "gress",
+    "surface": "gress"
+   }
+  ],
+  "promise": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "mis",
+    "surface": "mise"
+   }
+  ],
+  "proper": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "per",
+    "surface": "per"
+   }
+  ],
+  "purpose": [
+   {
+    "id": "pur",
+    "surface": "pur"
+   },
+   {
+    "id": "pos",
+    "surface": "pose"
+   }
+  ],
+  "question": [
+   {
+    "id": "quest",
+    "surface": "quest"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "railway": [
+   {
+    "id": "rail",
+    "surface": "rail"
+   },
+   {
+    "id": "way",
+    "surface": "way"
+   }
+  ],
+  "raincoat": [
+   {
+    "id": "rain",
+    "surface": "rain"
+   },
+   {
+    "id": "co",
+    "surface": "coat"
+   }
+  ],
+  "rather": [
+   {
+    "id": "rathe",
+    "surface": "rathe"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "realise": [
+   {
+    "id": "real",
+    "surface": "real"
+   },
+   {
+    "id": "ise",
+    "surface": "ise"
+   }
+  ],
+  "really": [
+   {
+    "id": "real",
+    "surface": "real"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "receive": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "ceive",
+    "surface": "ceive"
+   }
+  ],
+  "recite": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "cite",
+    "surface": "cite"
+   }
+  ],
+  "recorder": [
+   {
+    "id": "record",
+    "surface": "record"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "regret": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "greet",
+    "surface": "gret"
+   }
+  ],
+  "relation": [
+   {
+    "id": "relate",
+    "surface": "relat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "relax": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "lax",
+    "surface": "lax"
+   }
+  ],
+  "remember": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "member",
+    "surface": "member"
+   }
+  ],
+  "repair": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "pair",
+    "surface": "pair"
+   }
+  ],
+  "research": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "search",
+    "surface": "search"
+   }
+  ],
+  "rest": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "st",
+    "surface": "st"
+   }
+  ],
+  "retell": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "tell",
+    "surface": "tell"
+   }
+  ],
+  "return": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "turn",
+    "surface": "turn"
+   }
+  ],
+  "review": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "view",
+    "surface": "view"
+   }
+  ],
+  "riddle": [
+   {
+    "id": "rede",
+    "surface": "ridd"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "river": [
+   {
+    "id": "rive",
+    "surface": "rive"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "rubber": [
+   {
+    "id": "rub",
+    "surface": "rubb"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "ruler": [
+   {
+    "id": "rule",
+    "surface": "rule"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "russian": [
+   {
+    "id": "russia",
+    "surface": "russia"
+   },
+   {
+    "id": "an",
+    "surface": "n"
+   }
+  ],
+  "safety": [
+   {
+    "id": "safe",
+    "surface": "safe"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "sandwich": [
+   {
+    "id": "sand",
+    "surface": "sand"
+   },
+   {
+    "id": "wich",
+    "surface": "wich"
+   }
+  ],
+  "saturday": [
+   {
+    "id": "saturn",
+    "surface": "satur"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "schoolbag": [
+   {
+    "id": "school",
+    "surface": "school"
+   },
+   {
+    "id": "bag",
+    "surface": "bag"
+   }
+  ],
+  "season": [
+   {
+    "id": "sea",
+    "surface": "sea"
+   },
+   {
+    "id": "son",
+    "surface": "son"
+   }
+  ],
+  "september": [
+   {
+    "id": "sept",
+    "surface": "sept"
+   },
+   {
+    "id": "ember",
+    "surface": "ember"
+   }
+  ],
+  "seventeen": [
+   {
+    "id": "seven",
+    "surface": "seven"
+   },
+   {
+    "id": "teen",
+    "surface": "teen"
+   }
+  ],
+  "seventh": [
+   {
+    "id": "seven",
+    "surface": "seven"
+   },
+   {
+    "id": "th",
+    "surface": "th"
+   }
+  ],
+  "seventy": [
+   {
+    "id": "seven",
+    "surface": "seven"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "several": [
+   {
+    "id": "sever",
+    "surface": "sever"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "shower": [
+   {
+    "id": "show",
+    "surface": "show"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "situation": [
+   {
+    "id": "situate",
+    "surface": "situat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "sixteen": [
+   {
+    "id": "six",
+    "surface": "six"
+   },
+   {
+    "id": "teen",
+    "surface": "teen"
+   }
+  ],
+  "sixth": [
+   {
+    "id": "six",
+    "surface": "six"
+   },
+   {
+    "id": "th",
+    "surface": "th"
+   }
+  ],
+  "sixty": [
+   {
+    "id": "six",
+    "surface": "six"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "somebody": [
+   {
+    "id": "some",
+    "surface": "some"
+   },
+   {
+    "id": "body",
+    "surface": "body"
+   }
+  ],
+  "someone": [
+   {
+    "id": "some",
+    "surface": "some"
+   },
+   {
+    "id": "on",
+    "surface": "one"
+   }
+  ],
+  "something": [
+   {
+    "id": "some",
+    "surface": "some"
+   },
+   {
+    "id": "thing",
+    "surface": "thing"
+   }
+  ],
+  "sometimes": [
+   {
+    "id": "some",
+    "surface": "some"
+   },
+   {
+    "id": "times",
+    "surface": "times"
+   }
+  ],
+  "somewhere": [
+   {
+    "id": "some",
+    "surface": "some"
+   },
+   {
+    "id": "where",
+    "surface": "where"
+   }
+  ],
+  "southern": [
+   {
+    "id": "south",
+    "surface": "south"
+   },
+   {
+    "id": "ern",
+    "surface": "ern"
+   }
+  ],
+  "speaker": [
+   {
+    "id": "speak",
+    "surface": "speak"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "standard": [
+   {
+    "id": "stand",
+    "surface": "stand"
+   },
+   {
+    "id": "ard",
+    "surface": "ard"
+   }
+  ],
+  "station": [
+   {
+    "id": "st",
+    "surface": "stat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "strawberry": [
+   {
+    "id": "straw",
+    "surface": "straw"
+   },
+   {
+    "id": "berry",
+    "surface": "berry"
+   }
+  ],
+  "student": [
+   {
+    "id": "study",
+    "surface": "stud"
+   },
+   {
+    "id": "ent",
+    "surface": "ent"
+   }
+  ],
+  "succeed": [
+   {
+    "id": "suc",
+    "surface": "suc"
+   },
+   {
+    "id": "ceed",
+    "surface": "ceed"
+   }
+  ],
+  "successful": [
+   {
+    "id": "success",
+    "surface": "success"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "suggestion": [
+   {
+    "id": "suggest",
+    "surface": "suggest"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "summer": [
+   {
+    "id": "sum",
+    "surface": "summ"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "sunday": [
+   {
+    "id": "sun",
+    "surface": "sun"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "supermarket": [
+   {
+    "id": "super",
+    "surface": "super"
+   },
+   {
+    "id": "market",
+    "surface": "market"
+   }
+  ],
+  "supper": [
+   {
+    "id": "sup",
+    "surface": "supp"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "supply": [
+   {
+    "id": "supple",
+    "surface": "suppl"
+   },
+   {
+    "id": "ly",
+    "surface": "y"
+   }
+  ],
+  "suppose": [
+   {
+    "id": "sup",
+    "surface": "sup"
+   },
+   {
+    "id": "pos",
+    "surface": "pose"
+   }
+  ],
+  "surface": [
+   {
+    "id": "sur",
+    "surface": "sur"
+   },
+   {
+    "id": "fac",
+    "surface": "face"
+   }
+  ],
+  "surprise": [
+   {
+    "id": "sur",
+    "surface": "sur"
+   },
+   {
+    "id": "prise",
+    "surface": "prise"
+   }
+  ],
+  "sweater": [
+   {
+    "id": "sweat",
+    "surface": "sweat"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "swimming": [
+   {
+    "id": "swim",
+    "surface": "swimm"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "teacher": [
+   {
+    "id": "teach",
+    "surface": "teach"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "technology": [
+   {
+    "id": "techno",
+    "surface": "techno"
+   },
+   {
+    "id": "logy",
+    "surface": "logy"
+   }
+  ],
+  "telephone": [
+   {
+    "id": "tele",
+    "surface": "tele"
+   },
+   {
+    "id": "phone",
+    "surface": "phone"
+   }
+  ],
+  "television": [
+   {
+    "id": "tele",
+    "surface": "tele"
+   },
+   {
+    "id": "vision",
+    "surface": "vision"
+   }
+  ],
+  "tenth": [
+   {
+    "id": "ten",
+    "surface": "ten"
+   },
+   {
+    "id": "th",
+    "surface": "th"
+   }
+  ],
+  "terrible": [
+   {
+    "id": "terror",
+    "surface": "terr"
+   },
+   {
+    "id": "ible",
+    "surface": "ible"
+   }
+  ],
+  "themselves": [
+   {
+    "id": "them",
+    "surface": "them"
+   },
+   {
+    "id": "selves",
+    "surface": "selves"
+   }
+  ],
+  "thousand": [
+   {
+    "id": "thou",
+    "surface": "thou"
+   },
+   {
+    "id": "sand",
+    "surface": "sand"
+   }
+  ],
+  "thursday": [
+   {
+    "id": "thurs",
+    "surface": "thurs"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "today": [
+   {
+    "id": "to",
+    "surface": "to"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "tomorrow": [
+   {
+    "id": "to",
+    "surface": "to"
+   },
+   {
+    "id": "morrow",
+    "surface": "morrow"
+   }
+  ],
+  "tonight": [
+   {
+    "id": "to",
+    "surface": "to"
+   },
+   {
+    "id": "night",
+    "surface": "night"
+   }
+  ],
+  "toothache": [
+   {
+    "id": "tooth",
+    "surface": "tooth"
+   },
+   {
+    "id": "ache",
+    "surface": "ache"
+   }
+  ],
+  "toothbrush": [
+   {
+    "id": "tooth",
+    "surface": "tooth"
+   },
+   {
+    "id": "brush",
+    "surface": "brush"
+   }
+  ],
+  "toothpaste": [
+   {
+    "id": "tooth",
+    "surface": "tooth"
+   },
+   {
+    "id": "pas",
+    "surface": "paste"
+   }
+  ],
+  "tourist": [
+   {
+    "id": "tour",
+    "surface": "tour"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   }
+  ],
+  "toward": [
+   {
+    "id": "to",
+    "surface": "to"
+   },
+   {
+    "id": "ward",
+    "surface": "ward"
+   }
+  ],
+  "tower": [
+   {
+    "id": "tow",
+    "surface": "tow"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "traditional": [
+   {
+    "id": "tradition",
+    "surface": "tradition"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "training": [
+   {
+    "id": "train",
+    "surface": "train"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "translate": [
+   {
+    "id": "tran",
+    "surface": "tran"
+   },
+   {
+    "id": "slate",
+    "surface": "slate"
+   }
+  ],
+  "treatment": [
+   {
+    "id": "treat",
+    "surface": "treat"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "tuesday": [
+   {
+    "id": "tues",
+    "surface": "tues"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "twentieth": [
+   {
+    "id": "twenty",
+    "surface": "twenti"
+   },
+   {
+    "id": "eth",
+    "surface": "eth"
+   }
+  ],
+  "twenty": [
+   {
+    "id": "two",
+    "surface": "twen"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "twice": [
+   {
+    "id": "twi",
+    "surface": "twi"
+   },
+   {
+    "id": "ce",
+    "surface": "ce"
+   }
+  ],
+  "ugly": [
+   {
+    "id": "ug",
+    "surface": "ug"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "underground": [
+   {
+    "id": "under",
+    "surface": "under"
+   },
+   {
+    "id": "ground",
+    "surface": "ground"
+   }
+  ],
+  "understand": [
+   {
+    "id": "under",
+    "surface": "under"
+   },
+   {
+    "id": "stand",
+    "surface": "stand"
+   }
+  ],
+  "university": [
+   {
+    "id": "universe",
+    "surface": "univers"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "until": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "till",
+    "surface": "til"
+   }
+  ],
+  "upon": [
+   {
+    "id": "up",
+    "surface": "up"
+   },
+   {
+    "id": "on",
+    "surface": "on"
+   }
+  ],
+  "upstairs": [
+   {
+    "id": "up",
+    "surface": "up"
+   },
+   {
+    "id": "stair",
+    "surface": "stairs"
+   }
+  ],
+  "used": [
+   {
+    "id": "use",
+    "surface": "use"
+   },
+   {
+    "id": "ed",
+    "surface": "d"
+   }
+  ],
+  "useful": [
+   {
+    "id": "use",
+    "surface": "use"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "violin": [
+   {
+    "id": "viola",
+    "surface": "viol"
+   },
+   {
+    "id": "ino",
+    "surface": "in"
+   }
+  ],
+  "visitor": [
+   {
+    "id": "visit",
+    "surface": "visit"
+   },
+   {
+    "id": "er",
+    "surface": "or"
+   }
+  ],
+  "volleyball": [
+   {
+    "id": "volley",
+    "surface": "volley"
+   },
+   {
+    "id": "ball",
+    "surface": "ball"
+   }
+  ],
+  "watermelon": [
+   {
+    "id": "water",
+    "surface": "water"
+   },
+   {
+    "id": "melon",
+    "surface": "melon"
+   }
+  ],
+  "wealth": [
+   {
+    "id": "weal",
+    "surface": "weal"
+   },
+   {
+    "id": "th",
+    "surface": "th"
+   }
+  ],
+  "website": [
+   {
+    "id": "web",
+    "surface": "web"
+   },
+   {
+    "id": "sit",
+    "surface": "site"
+   }
+  ],
+  "weekday": [
+   {
+    "id": "week",
+    "surface": "week"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "weekend": [
+   {
+    "id": "week",
+    "surface": "week"
+   },
+   {
+    "id": "end",
+    "surface": "end"
+   }
+  ],
+  "welcome": [
+   {
+    "id": "will",
+    "surface": "wel"
+   },
+   {
+    "id": "com",
+    "surface": "come"
+   }
+  ],
+  "western": [
+   {
+    "id": "west",
+    "surface": "west"
+   },
+   {
+    "id": "ern",
+    "surface": "ern"
+   }
+  ],
+  "whatever": [
+   {
+    "id": "what",
+    "surface": "what"
+   },
+   {
+    "id": "ever",
+    "surface": "ever"
+   }
+  ],
+  "whenever": [
+   {
+    "id": "when",
+    "surface": "when"
+   },
+   {
+    "id": "ever",
+    "surface": "ever"
+   }
+  ],
+  "whether": [
+   {
+    "id": "whet",
+    "surface": "whet"
+   },
+   {
+    "id": "her",
+    "surface": "her"
+   }
+  ],
+  "wide": [
+   {
+    "id": "dwi",
+    "surface": "wi"
+   },
+   {
+    "id": "deh",
+    "surface": "de"
+   }
+  ],
+  "winner": [
+   {
+    "id": "win",
+    "surface": "winn"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "without": [
+   {
+    "id": "with",
+    "surface": "with"
+   },
+   {
+    "id": "out",
+    "surface": "out"
+   }
+  ],
+  "woman": [
+   {
+    "id": "wf",
+    "surface": "wo"
+   },
+   {
+    "id": "mann",
+    "surface": "man"
+   }
+  ],
+  "wonderful": [
+   {
+    "id": "wonder",
+    "surface": "wonder"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "worker": [
+   {
+    "id": "work",
+    "surface": "work"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "world": [
+   {
+    "id": "wer",
+    "surface": "wor"
+   },
+   {
+    "id": "eld",
+    "surface": "ld"
+   }
+  ],
+  "yesterday": [
+   {
+    "id": "yester",
+    "surface": "yester"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "yourself": [
+   {
+    "id": "your",
+    "surface": "your"
+   },
+   {
+    "id": "self",
+    "surface": "self"
+   }
+  ],
+  "yourselves": [
+   {
+    "id": "your",
+    "surface": "your"
+   },
+   {
+    "id": "selves",
+    "surface": "selves"
+   }
   ]
  },
  "extraMorphemes": [
@@ -5901,7 +10568,8 @@
    "displayText": "-ed",
    "meaningCn": "有……的、已……的（形容词）",
    "allomorphs": [
-    "ed"
+    "ed",
+    "d"
    ],
    "level": 1,
    "color": "green",
@@ -5954,6 +10622,5494 @@
    "level": 1,
    "color": "green",
    "etymology": "来自法语 -age，高频名词后缀"
+  },
+  {
+   "id": "sent",
+   "displayText": "sent",
+   "type": "root",
+   "meaningCn": "",
+   "allomorphs": [
+    "sent"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "act",
+   "displayText": "act",
+   "type": "root",
+   "meaningCn": "",
+   "allomorphs": [
+    "act",
+    "actu"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "active",
+   "displayText": "active",
+   "type": "root",
+   "meaningCn": "活跃的",
+   "allomorphs": [
+    "activ",
+    "active"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "vantage",
+   "displayText": "vantage",
+   "type": "root",
+   "meaningCn": "优势",
+   "allomorphs": [
+    "vantage"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "advertise",
+   "displayText": "advertise",
+   "type": "root",
+   "meaningCn": "做广告",
+   "allomorphs": [
+    "advertise"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "vis",
+   "displayText": "vis",
+   "type": "root",
+   "meaningCn": "医力",
+   "allomorphs": [
+    "vise"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ford",
+   "displayText": "ford",
+   "type": "root",
+   "meaningCn": "浅滩",
+   "allomorphs": [
+    "ford"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "noon",
+   "displayText": "noon",
+   "type": "root",
+   "meaningCn": "正午",
+   "allomorphs": [
+    "noon"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "agree",
+   "displayText": "agree",
+   "type": "root",
+   "meaningCn": "同意",
+   "allomorphs": [
+    "agree"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "air",
+   "displayText": "air",
+   "type": "root",
+   "meaningCn": "空气",
+   "allomorphs": [
+    "air",
+    "aire"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "line",
+   "displayText": "line",
+   "type": "root",
+   "meaningCn": "列",
+   "allomorphs": [
+    "line"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "plane",
+   "displayText": "plane",
+   "type": "root",
+   "meaningCn": "平面",
+   "allomorphs": [
+    "plane"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "port",
+   "displayText": "port",
+   "type": "root",
+   "meaningCn": "",
+   "allomorphs": [
+    "port"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "a",
+   "displayText": "a",
+   "type": "root",
+   "meaningCn": "第一个字母",
+   "allomorphs": [
+    "a"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "live",
+   "displayText": "live",
+   "type": "root",
+   "meaningCn": "活的",
+   "allomorphs": [
+    "live",
+    "liv"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "ready",
+   "displayText": "ready",
+   "type": "root",
+   "meaningCn": "预备好的状态",
+   "allomorphs": [
+    "ready",
+    "readi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "so",
+   "displayText": "so",
+   "type": "root",
+   "meaningCn": "自旋轨道分裂",
+   "allomorphs": [
+    "so"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "though",
+   "displayText": "though",
+   "type": "root",
+   "meaningCn": "然而",
+   "allomorphs": [
+    "though"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "other",
+   "displayText": "other",
+   "type": "root",
+   "meaningCn": "其他的",
+   "allomorphs": [
+    "other"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "any",
+   "displayText": "any",
+   "type": "root",
+   "meaningCn": "任何的任何",
+   "allomorphs": [
+    "any"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "body",
+   "displayText": "body",
+   "type": "root",
+   "meaningCn": "身体",
+   "allomorphs": [
+    "body"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "thing",
+   "displayText": "thing",
+   "type": "root",
+   "meaningCn": "事物",
+   "allomorphs": [
+    "thing"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "rive",
+   "displayText": "rive",
+   "type": "root",
+   "meaningCn": "撕开",
+   "allomorphs": [
+    "rive"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "asia",
+   "displayText": "asia",
+   "type": "root",
+   "meaningCn": "亚洲",
+   "allomorphs": [
+    "asia"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sleep",
+   "displayText": "sleep",
+   "type": "root",
+   "meaningCn": "睡眠",
+   "allomorphs": [
+    "sleep"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "attend",
+   "displayText": "attend",
+   "type": "root",
+   "meaningCn": "参加",
+   "allomorphs": [
+    "attend",
+    "atten"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "australia",
+   "displayText": "australia",
+   "type": "root",
+   "meaningCn": "澳洲",
+   "allomorphs": [
+    "australia"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "avail",
+   "displayText": "avail",
+   "type": "root",
+   "meaningCn": "有用",
+   "allomorphs": [
+    "avail"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ground",
+   "displayText": "ground",
+   "type": "root",
+   "meaningCn": "土地",
+   "allomorphs": [
+    "ground"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "base",
+   "displayText": "base",
+   "type": "root",
+   "meaningCn": "底部",
+   "allomorphs": [
+    "base",
+    "bas"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "basket",
+   "displayText": "basket",
+   "type": "root",
+   "meaningCn": "篮",
+   "allomorphs": [
+    "basket"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "bath",
+   "displayText": "bath",
+   "type": "root",
+   "meaningCn": "沐浴",
+   "allomorphs": [
+    "bath"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "room",
+   "displayText": "room",
+   "type": "root",
+   "meaningCn": "房间",
+   "allomorphs": [
+    "room"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "beauty",
+   "displayText": "beauty",
+   "type": "root",
+   "meaningCn": "美",
+   "allomorphs": [
+    "beauti"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "bed",
+   "displayText": "bed",
+   "type": "root",
+   "meaningCn": "床",
+   "allomorphs": [
+    "bed"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "hind",
+   "displayText": "hind",
+   "type": "root",
+   "meaningCn": "雌鹿后部的",
+   "allomorphs": [
+    "hind"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "leave",
+   "displayText": "leave",
+   "type": "root",
+   "meaningCn": "许可",
+   "allomorphs": [
+    "lieve"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "low",
+   "displayText": "low",
+   "type": "root",
+   "meaningCn": "低点",
+   "allomorphs": [
+    "low"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "twain",
+   "displayText": "twain",
+   "type": "root",
+   "meaningCn": "二",
+   "allomorphs": [
+    "tween"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "eond",
+   "displayText": "eond",
+   "type": "root",
+   "meaningCn": "经活期",
+   "allomorphs": [
+    "yond"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "cycle",
+   "displayText": "cycle",
+   "type": "root",
+   "meaningCn": "周期",
+   "allomorphs": [
+    "cycle",
+    "cycl"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "birth",
+   "displayText": "birth",
+   "type": "root",
+   "meaningCn": "出生",
+   "allomorphs": [
+    "birth"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "day",
+   "displayText": "day",
+   "type": "root",
+   "meaningCn": "天",
+   "allomorphs": [
+    "day",
+    "dai"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "black",
+   "displayText": "black",
+   "type": "root",
+   "meaningCn": "黑色",
+   "allomorphs": [
+    "black"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "board",
+   "displayText": "board",
+   "type": "root",
+   "meaningCn": "木板",
+   "allomorphs": [
+    "board"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "bore",
+   "displayText": "bore",
+   "type": "root",
+   "meaningCn": "令人讨厌的人",
+   "allomorphs": [
+    "bore",
+    "bor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "break",
+   "displayText": "break",
+   "type": "root",
+   "meaningCn": "休息",
+   "allomorphs": [
+    "break"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "fast",
+   "displayText": "fast",
+   "type": "root",
+   "meaningCn": "快速的",
+   "allomorphs": [
+    "fast"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "build",
+   "displayText": "build",
+   "type": "root",
+   "meaningCn": "建立",
+   "allomorphs": [
+    "build"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "busy",
+   "displayText": "busy",
+   "type": "root",
+   "meaningCn": "忙碌的",
+   "allomorphs": [
+    "busi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "butt",
+   "displayText": "butt",
+   "type": "root",
+   "meaningCn": "粗大的一头",
+   "allomorphs": [
+    "butt"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "butter",
+   "displayText": "butter",
+   "type": "root",
+   "meaningCn": "奶油",
+   "allomorphs": [
+    "butter"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "fly",
+   "displayText": "fly",
+   "type": "root",
+   "meaningCn": "苍蝇",
+   "allomorphs": [
+    "fly"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "capit",
+   "displayText": "capit",
+   "type": "root",
+   "meaningCn": "医头",
+   "allomorphs": [
+    "capit"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tain",
+   "displayText": "tain",
+   "type": "root",
+   "meaningCn": "",
+   "allomorphs": [
+    "tain"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "car",
+   "displayText": "car",
+   "type": "root",
+   "meaningCn": "汽车",
+   "allomorphs": [
+    "car",
+    "care"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "ceil",
+   "displayText": "ceil",
+   "type": "root",
+   "meaningCn": "装天花板",
+   "allomorphs": [
+    "ceil"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "chair",
+   "displayText": "chair",
+   "type": "root",
+   "meaningCn": "椅子",
+   "allomorphs": [
+    "chair"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "chemist",
+   "displayText": "chemist",
+   "type": "root",
+   "meaningCn": "化学家",
+   "allomorphs": [
+    "chemist"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "chick",
+   "displayText": "chick",
+   "type": "root",
+   "meaningCn": "小鸡",
+   "allomorphs": [
+    "chick"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "china",
+   "displayText": "china",
+   "type": "root",
+   "meaningCn": "中国",
+   "allomorphs": [
+    "chin"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "christ",
+   "displayText": "christ",
+   "type": "root",
+   "meaningCn": "基督",
+   "allomorphs": [
+    "christ"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "class",
+   "displayText": "class",
+   "type": "root",
+   "meaningCn": "班级",
+   "allomorphs": [
+    "class"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "cloth",
+   "displayText": "cloth",
+   "type": "root",
+   "meaningCn": "布料",
+   "allomorphs": [
+    "cloth"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "communicate",
+   "displayText": "communicate",
+   "type": "root",
+   "meaningCn": "显露",
+   "allomorphs": [
+    "communicat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "comp",
+   "displayText": "comp",
+   "type": "root",
+   "meaningCn": "计电脑及相关知识",
+   "allomorphs": [
+    "comp"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "compete",
+   "displayText": "compete",
+   "type": "root",
+   "meaningCn": "竞争",
+   "allomorphs": [
+    "compet"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "position",
+   "displayText": "position",
+   "type": "root",
+   "meaningCn": "位置",
+   "allomorphs": [
+    "position"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "compute",
+   "displayText": "compute",
+   "type": "root",
+   "meaningCn": "计算",
+   "allomorphs": [
+    "compute"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "cert",
+   "displayText": "cert",
+   "type": "root",
+   "meaningCn": "必然的事情计计算",
+   "allomorphs": [
+    "cert"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sid",
+   "displayText": "sid",
+   "type": "root",
+   "meaningCn": "计安全性标识",
+   "allomorphs": [
+    "sid"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "converse",
+   "displayText": "converse",
+   "type": "root",
+   "meaningCn": "相反的事物",
+   "allomorphs": [
+    "convers",
+    "converse"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "cook",
+   "displayText": "cook",
+   "type": "root",
+   "meaningCn": "厨子",
+   "allomorphs": [
+    "cook"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "coun",
+   "displayText": "coun",
+   "type": "root",
+   "meaningCn": "顾问",
+   "allomorphs": [
+    "coun"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "try",
+   "displayText": "try",
+   "type": "root",
+   "meaningCn": "尝试",
+   "allomorphs": [
+    "try"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "country",
+   "displayText": "country",
+   "type": "root",
+   "meaningCn": "国家",
+   "allomorphs": [
+    "country"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "craie",
+   "displayText": "craie",
+   "type": "root",
+   "meaningCn": "",
+   "allomorphs": [
+    "cray"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "danger",
+   "displayText": "danger",
+   "type": "root",
+   "meaningCn": "危险",
+   "allomorphs": [
+    "danger"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ember",
+   "displayText": "ember",
+   "type": "root",
+   "meaningCn": "灰烬",
+   "allomorphs": [
+    "ember"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "develop",
+   "displayText": "develop",
+   "type": "root",
+   "meaningCn": "发展",
+   "allomorphs": [
+    "develop"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "diction",
+   "displayText": "diction",
+   "type": "root",
+   "meaningCn": "措辞",
+   "allomorphs": [
+    "diction"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "differ",
+   "displayText": "differ",
+   "type": "root",
+   "meaningCn": "不一致",
+   "allomorphs": [
+    "differ"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "direct",
+   "displayText": "direct",
+   "type": "root",
+   "meaningCn": "直接的",
+   "allomorphs": [
+    "direct"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "cover",
+   "displayText": "cover",
+   "type": "root",
+   "meaningCn": "盖子",
+   "allomorphs": [
+    "cover"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "discover",
+   "displayText": "discover",
+   "type": "root",
+   "meaningCn": "发现",
+   "allomorphs": [
+    "discover"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "cuss",
+   "displayText": "cuss",
+   "type": "root",
+   "meaningCn": "诅咒",
+   "allomorphs": [
+    "cuss"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "discuss",
+   "displayText": "discuss",
+   "type": "root",
+   "meaningCn": "讨论",
+   "allomorphs": [
+    "discuss"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ease",
+   "displayText": "ease",
+   "type": "root",
+   "meaningCn": "安乐",
+   "allomorphs": [
+    "ease"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "turb",
+   "displayText": "turb",
+   "type": "root",
+   "meaningCn": "医湍流",
+   "allomorphs": [
+    "turb"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "vid",
+   "displayText": "vid",
+   "type": "root",
+   "meaningCn": "拉见",
+   "allomorphs": [
+    "vid",
+    "vide"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "stair",
+   "displayText": "stair",
+   "type": "root",
+   "meaningCn": "梯级",
+   "allomorphs": [
+    "stairs",
+    "stair"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "draw",
+   "displayText": "draw",
+   "type": "root",
+   "meaningCn": "拉",
+   "allomorphs": [
+    "draw"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "drive",
+   "displayText": "drive",
+   "type": "root",
+   "meaningCn": "驾车",
+   "allomorphs": [
+    "drive"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "dump",
+   "displayText": "dump",
+   "type": "root",
+   "meaningCn": "垃圾场倾倒",
+   "allomorphs": [
+    "dump"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "dure",
+   "displayText": "dure",
+   "type": "root",
+   "meaningCn": "古冷酷的",
+   "allomorphs": [
+    "dur"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "due",
+   "displayText": "due",
+   "type": "root",
+   "meaningCn": "应得的东西",
+   "allomorphs": [
+    "due",
+    "du"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "educate",
+   "displayText": "educate",
+   "type": "root",
+   "meaningCn": "教育",
+   "allomorphs": [
+    "educat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "eight",
+   "displayText": "eight",
+   "type": "root",
+   "meaningCn": "八",
+   "allomorphs": [
+    "eight"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "engine",
+   "displayText": "engine",
+   "type": "root",
+   "meaningCn": "引擎",
+   "allomorphs": [
+    "engine"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "eng",
+   "displayText": "eng",
+   "type": "root",
+   "meaningCn": "医眼震电流描记法",
+   "allomorphs": [
+    "eng"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "joy",
+   "displayText": "joy",
+   "type": "root",
+   "meaningCn": "欢喜",
+   "allomorphs": [
+    "joy"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "environ",
+   "displayText": "environ",
+   "type": "root",
+   "meaningCn": "包围",
+   "allomorphs": [
+    "environ"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "erase",
+   "displayText": "erase",
+   "type": "root",
+   "meaningCn": "抹去",
+   "allomorphs": [
+    "erase"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "especial",
+   "displayText": "especial",
+   "type": "root",
+   "meaningCn": "特别的",
+   "allomorphs": [
+    "especial"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "europe",
+   "displayText": "europe",
+   "type": "root",
+   "meaningCn": "欧洲",
+   "allomorphs": [
+    "europe"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "every",
+   "displayText": "every",
+   "type": "root",
+   "meaningCn": "每一",
+   "allomorphs": [
+    "every"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "examine",
+   "displayText": "examine",
+   "type": "root",
+   "meaningCn": "检查",
+   "allomorphs": [
+    "examin"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "exam",
+   "displayText": "exam",
+   "type": "root",
+   "meaningCn": "考试",
+   "allomorphs": [
+    "exam"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "excel",
+   "displayText": "excel",
+   "type": "root",
+   "meaningCn": "胜过",
+   "allomorphs": [
+    "excell"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "expense",
+   "displayText": "expense",
+   "type": "root",
+   "meaningCn": "费用",
+   "allomorphs": [
+    "expens"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "fame",
+   "displayText": "fame",
+   "type": "root",
+   "meaningCn": "名望",
+   "allomorphs": [
+    "fam"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "fantasy",
+   "displayText": "fantasy",
+   "type": "root",
+   "meaningCn": "幻想",
+   "allomorphs": [
+    "fantas"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "farm",
+   "displayText": "farm",
+   "type": "root",
+   "meaningCn": "农场",
+   "allomorphs": [
+    "farm"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "favour",
+   "displayText": "favour",
+   "type": "root",
+   "meaningCn": "好感",
+   "allomorphs": [
+    "favour"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "it",
+   "displayText": "it",
+   "type": "root",
+   "meaningCn": "它计信息论",
+   "allomorphs": [
+    "ite",
+    "it"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "feel",
+   "displayText": "feel",
+   "type": "root",
+   "meaningCn": "感觉",
+   "allomorphs": [
+    "feel"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "festive",
+   "displayText": "festive",
+   "type": "root",
+   "meaningCn": "庆祝的",
+   "allomorphs": [
+    "festiv"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "five",
+   "displayText": "five",
+   "type": "root",
+   "meaningCn": "五",
+   "allomorphs": [
+    "fif"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "fisher",
+   "displayText": "fisher",
+   "type": "root",
+   "meaningCn": "渔夫",
+   "allomorphs": [
+    "fisher"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "flow",
+   "displayText": "flow",
+   "type": "root",
+   "meaningCn": "流程",
+   "allomorphs": [
+    "flow"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "foot",
+   "displayText": "foot",
+   "type": "root",
+   "meaningCn": "脚",
+   "allomorphs": [
+    "foot"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "foreign",
+   "displayText": "foreign",
+   "type": "root",
+   "meaningCn": "外国的",
+   "allomorphs": [
+    "foreign"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "get",
+   "displayText": "get",
+   "type": "root",
+   "meaningCn": "得到",
+   "allomorphs": [
+    "get"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "four",
+   "displayText": "four",
+   "type": "root",
+   "meaningCn": "四",
+   "allomorphs": [
+    "four",
+    "for"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "gentle",
+   "displayText": "gentle",
+   "type": "root",
+   "meaningCn": "温和的",
+   "allomorphs": [
+    "gentle",
+    "gentl"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "gold",
+   "displayText": "gold",
+   "type": "root",
+   "meaningCn": "黄金",
+   "allomorphs": [
+    "gold"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "good",
+   "displayText": "good",
+   "type": "root",
+   "meaningCn": "善行",
+   "allomorphs": [
+    "good"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "govern",
+   "displayText": "govern",
+   "type": "root",
+   "meaningCn": "统治",
+   "allomorphs": [
+    "govern"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mar",
+   "displayText": "mar",
+   "type": "root",
+   "meaningCn": "损毁",
+   "allomorphs": [
+    "mar",
+    "mare"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "child",
+   "displayText": "child",
+   "type": "root",
+   "meaningCn": "孩子",
+   "allomorphs": [
+    "child"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "daughter",
+   "displayText": "daughter",
+   "type": "root",
+   "meaningCn": "女儿女儿的",
+   "allomorphs": [
+    "daughter"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "father",
+   "displayText": "father",
+   "type": "root",
+   "meaningCn": "父亲",
+   "allomorphs": [
+    "father"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ma",
+   "displayText": "ma",
+   "type": "root",
+   "meaningCn": "医智力年龄",
+   "allomorphs": [
+    "ma"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mother",
+   "displayText": "mother",
+   "type": "root",
+   "meaningCn": "母亲",
+   "allomorphs": [
+    "mother"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pa",
+   "displayText": "pa",
+   "type": "root",
+   "meaningCn": "每年医髓轴的",
+   "allomorphs": [
+    "pa"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "parent",
+   "displayText": "parent",
+   "type": "root",
+   "meaningCn": "父母",
+   "allomorphs": [
+    "parent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "greet",
+   "displayText": "greet",
+   "type": "root",
+   "meaningCn": "问候",
+   "allomorphs": [
+    "greet",
+    "gret"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "hamburg",
+   "displayText": "hamburg",
+   "type": "root",
+   "meaningCn": "汉堡德国城市",
+   "allomorphs": [
+    "hamburg"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "hand",
+   "displayText": "hand",
+   "type": "root",
+   "meaningCn": "手",
+   "allomorphs": [
+    "hand"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "bag",
+   "displayText": "bag",
+   "type": "root",
+   "meaningCn": "医颊轴龈的",
+   "allomorphs": [
+    "bag",
+    "bagg"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "handwrite",
+   "displayText": "handwrite",
+   "type": "root",
+   "meaningCn": "古用手写",
+   "allomorphs": [
+    "handwrit"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "hard",
+   "displayText": "hard",
+   "type": "root",
+   "meaningCn": "坚硬的",
+   "allomorphs": [
+    "hard"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ache",
+   "displayText": "ache",
+   "type": "root",
+   "meaningCn": "疼痛痛",
+   "allomorphs": [
+    "ache"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "heal",
+   "displayText": "heal",
+   "type": "root",
+   "meaningCn": "痊愈使复原",
+   "allomorphs": [
+    "heal"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "thy",
+   "displayText": "thy",
+   "type": "root",
+   "meaningCn": "你的",
+   "allomorphs": [
+    "thy"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "help",
+   "displayText": "help",
+   "type": "root",
+   "meaningCn": "帮忙",
+   "allomorphs": [
+    "help"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "her",
+   "displayText": "her",
+   "type": "root",
+   "meaningCn": "",
+   "allomorphs": [
+    "her",
+    "here"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "him",
+   "displayText": "him",
+   "type": "root",
+   "meaningCn": "他",
+   "allomorphs": [
+    "him"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "holy",
+   "displayText": "holy",
+   "type": "root",
+   "meaningCn": "神圣的",
+   "allomorphs": [
+    "holi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "town",
+   "displayText": "town",
+   "type": "root",
+   "meaningCn": "城镇",
+   "allomorphs": [
+    "town"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "hot",
+   "displayText": "hot",
+   "type": "root",
+   "meaningCn": "热的",
+   "allomorphs": [
+    "hot"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "dog",
+   "displayText": "dog",
+   "type": "root",
+   "meaningCn": "狗",
+   "allomorphs": [
+    "dog"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "house",
+   "displayText": "house",
+   "type": "root",
+   "meaningCn": "房子",
+   "allomorphs": [
+    "house"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "how",
+   "displayText": "how",
+   "type": "root",
+   "meaningCn": "如何",
+   "allomorphs": [
+    "how"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "humor",
+   "displayText": "humor",
+   "type": "root",
+   "meaningCn": "幽默",
+   "allomorphs": [
+    "humor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "iced",
+   "displayText": "iced",
+   "type": "root",
+   "meaningCn": "冰冷的",
+   "allomorphs": [
+    "ice"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "cream",
+   "displayText": "cream",
+   "type": "root",
+   "meaningCn": "乳酪",
+   "allomorphs": [
+    "cream"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ill",
+   "displayText": "ill",
+   "type": "root",
+   "meaningCn": "我将",
+   "allomorphs": [
+    "ill"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "immediate",
+   "displayText": "immediate",
+   "type": "root",
+   "meaningCn": "立即的",
+   "allomorphs": [
+    "immediate"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "import",
+   "displayText": "import",
+   "type": "root",
+   "meaningCn": "进口货",
+   "allomorphs": [
+    "import"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "possible",
+   "displayText": "possible",
+   "type": "root",
+   "meaningCn": "可能的",
+   "allomorphs": [
+    "possible",
+    "possibil",
+    "possibl"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "imp",
+   "displayText": "imp",
+   "type": "root",
+   "meaningCn": "顽童加强",
+   "allomorphs": [
+    "imp"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rove",
+   "displayText": "rove",
+   "type": "root",
+   "meaningCn": "徘徊",
+   "allomorphs": [
+    "rove"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ind",
+   "displayText": "ind",
+   "type": "root",
+   "meaningCn": "医每日",
+   "allomorphs": [
+    "ind"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "indus",
+   "displayText": "indus",
+   "type": "root",
+   "meaningCn": "印度河",
+   "allomorphs": [
+    "indus"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "stead",
+   "displayText": "stead",
+   "type": "root",
+   "meaningCn": "代替",
+   "allomorphs": [
+    "stead"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "instruct",
+   "displayText": "instruct",
+   "type": "root",
+   "meaningCn": "教",
+   "allomorphs": [
+    "instruct"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "intent",
+   "displayText": "intent",
+   "type": "root",
+   "meaningCn": "意图",
+   "allomorphs": [
+    "intent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "interest",
+   "displayText": "interest",
+   "type": "root",
+   "meaningCn": "兴趣",
+   "allomorphs": [
+    "interest"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "national",
+   "displayText": "national",
+   "type": "root",
+   "meaningCn": "国家的",
+   "allomorphs": [
+    "national"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "net",
+   "displayText": "net",
+   "type": "root",
+   "meaningCn": "网",
+   "allomorphs": [
+    "net"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "view",
+   "displayText": "view",
+   "type": "root",
+   "meaningCn": "视野",
+   "allomorphs": [
+    "view"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "duce",
+   "displayText": "duce",
+   "type": "root",
+   "meaningCn": "意首领",
+   "allomorphs": [
+    "duce"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "invent",
+   "displayText": "invent",
+   "type": "root",
+   "meaningCn": "发明",
+   "allomorphs": [
+    "invent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "jap",
+   "displayText": "jap",
+   "type": "root",
+   "meaningCn": "日本",
+   "allomorphs": [
+    "jap"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "japan",
+   "displayText": "japan",
+   "type": "root",
+   "meaningCn": "日本化天然漆",
+   "allomorphs": [
+    "japan"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "key",
+   "displayText": "key",
+   "type": "root",
+   "meaningCn": "钥匙",
+   "allomorphs": [
+    "key"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "kit",
+   "displayText": "kit",
+   "type": "root",
+   "meaningCn": "装备",
+   "allomorphs": [
+    "kit"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "chen",
+   "displayText": "chen",
+   "type": "root",
+   "meaningCn": "陈",
+   "allomorphs": [
+    "chen"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "know",
+   "displayText": "know",
+   "type": "root",
+   "meaningCn": "知道",
+   "allomorphs": [
+    "know"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ledge",
+   "displayText": "ledge",
+   "type": "root",
+   "meaningCn": "突出部分",
+   "allomorphs": [
+    "ledge"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "lead",
+   "displayText": "lead",
+   "type": "root",
+   "meaningCn": "铅",
+   "allomorphs": [
+    "lead"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "lemon",
+   "displayText": "lemon",
+   "type": "root",
+   "meaningCn": "柠檬",
+   "allomorphs": [
+    "lemon"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "lout",
+   "displayText": "lout",
+   "type": "root",
+   "meaningCn": "蠢人愚弄屈服",
+   "allomorphs": [
+    "litt"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "life",
+   "displayText": "life",
+   "type": "root",
+   "meaningCn": "生活",
+   "allomorphs": [
+    "life",
+    "live"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "lone",
+   "displayText": "lone",
+   "type": "root",
+   "meaningCn": "孤单的",
+   "allomorphs": [
+    "lone"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "love",
+   "displayText": "love",
+   "type": "root",
+   "meaningCn": "爱",
+   "allomorphs": [
+    "love"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "manage",
+   "displayText": "manage",
+   "type": "root",
+   "meaningCn": "处理管理",
+   "allomorphs": [
+    "manage"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "marry",
+   "displayText": "marry",
+   "type": "root",
+   "meaningCn": "与结婚",
+   "allomorphs": [
+    "marri"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mathematic",
+   "displayText": "mathematic",
+   "type": "root",
+   "meaningCn": "计数学的",
+   "allomorphs": [
+    "mathematic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "may",
+   "displayText": "may",
+   "type": "root",
+   "meaningCn": "五月愿能",
+   "allomorphs": [
+    "may"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mean",
+   "displayText": "mean",
+   "type": "root",
+   "meaningCn": "低劣的",
+   "allomorphs": [
+    "mean"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "meet",
+   "displayText": "meet",
+   "type": "root",
+   "meaningCn": "会",
+   "allomorphs": [
+    "meet"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mess",
+   "displayText": "mess",
+   "type": "root",
+   "meaningCn": "食堂",
+   "allomorphs": [
+    "mess"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "take",
+   "displayText": "take",
+   "type": "root",
+   "meaningCn": "拿",
+   "allomorphs": [
+    "take"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "moon",
+   "displayText": "moon",
+   "type": "root",
+   "meaningCn": "月亮",
+   "allomorphs": [
+    "moon",
+    "mon"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "monk",
+   "displayText": "monk",
+   "type": "root",
+   "meaningCn": "修道士",
+   "allomorphs": [
+    "monk"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "morn",
+   "displayText": "morn",
+   "type": "root",
+   "meaningCn": "早晨",
+   "allomorphs": [
+    "morn"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "moth",
+   "displayText": "moth",
+   "type": "root",
+   "meaningCn": "蛾害",
+   "allomorphs": [
+    "moth"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "muse",
+   "displayText": "muse",
+   "type": "root",
+   "meaningCn": "沉思",
+   "allomorphs": [
+    "mus"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "me",
+   "displayText": "me",
+   "type": "root",
+   "meaningCn": "我",
+   "allomorphs": [
+    "my",
+    "me"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "nation",
+   "displayText": "nation",
+   "type": "root",
+   "meaningCn": "国家",
+   "allomorphs": [
+    "nation"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "nature",
+   "displayText": "nature",
+   "type": "root",
+   "meaningCn": "自然",
+   "allomorphs": [
+    "natur"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "near",
+   "displayText": "near",
+   "type": "root",
+   "meaningCn": "近的",
+   "allomorphs": [
+    "near"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "not",
+   "displayText": "not",
+   "type": "root",
+   "meaningCn": "",
+   "allomorphs": [
+    "not",
+    "n",
+    "no",
+    "notat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "either",
+   "displayText": "either",
+   "type": "root",
+   "meaningCn": "两者之中任一的",
+   "allomorphs": [
+    "either"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "nerve",
+   "displayText": "nerve",
+   "type": "root",
+   "meaningCn": "精神",
+   "allomorphs": [
+    "nerv"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "news",
+   "displayText": "news",
+   "type": "root",
+   "meaningCn": "新闻",
+   "allomorphs": [
+    "news"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "paper",
+   "displayText": "paper",
+   "type": "root",
+   "meaningCn": "纸",
+   "allomorphs": [
+    "paper"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "nine",
+   "displayText": "nine",
+   "type": "root",
+   "meaningCn": "九",
+   "allomorphs": [
+    "nine"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "norm",
+   "displayText": "norm",
+   "type": "root",
+   "meaningCn": "基准",
+   "allomorphs": [
+    "norm"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "north",
+   "displayText": "north",
+   "type": "root",
+   "meaningCn": "北方",
+   "allomorphs": [
+    "north"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "note",
+   "displayText": "note",
+   "type": "root",
+   "meaningCn": "笔记",
+   "allomorphs": [
+    "not",
+    "note"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "book",
+   "displayText": "book",
+   "type": "root",
+   "meaningCn": "书",
+   "allomorphs": [
+    "book"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "numb",
+   "displayText": "numb",
+   "type": "root",
+   "meaningCn": "麻木的",
+   "allomorphs": [
+    "numb"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "office",
+   "displayText": "office",
+   "type": "root",
+   "meaningCn": "办公室",
+   "allomorphs": [
+    "office",
+    "offic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "operate",
+   "displayText": "operate",
+   "type": "root",
+   "meaningCn": "操作",
+   "allomorphs": [
+    "operat",
+    "operate"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "own",
+   "displayText": "own",
+   "type": "root",
+   "meaningCn": "自己的自己的",
+   "allomorphs": [
+    "own"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pack",
+   "displayText": "pack",
+   "type": "root",
+   "meaningCn": "包裹",
+   "allomorphs": [
+    "pack"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "cake",
+   "displayText": "cake",
+   "type": "root",
+   "meaningCn": "蛋糕",
+   "allomorphs": [
+    "cake"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pass",
+   "displayText": "pass",
+   "type": "root",
+   "meaningCn": "经过",
+   "allomorphs": [
+    "pass"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "passer",
+   "displayText": "passer",
+   "type": "root",
+   "meaningCn": "过路人",
+   "allomorphs": [
+    "pass"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "fect",
+   "displayText": "fect",
+   "type": "root",
+   "meaningCn": "电场效应",
+   "allomorphs": [
+    "fect"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "hap",
+   "displayText": "hap",
+   "type": "root",
+   "meaningCn": "偶然",
+   "allomorphs": [
+    "haps"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "play",
+   "displayText": "play",
+   "type": "root",
+   "meaningCn": "游戏",
+   "allomorphs": [
+    "play"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "please",
+   "displayText": "please",
+   "type": "root",
+   "meaningCn": "请使高兴",
+   "allomorphs": [
+    "please",
+    "pleas"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "plea",
+   "displayText": "plea",
+   "type": "root",
+   "meaningCn": "恳求",
+   "allomorphs": [
+    "plea"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "poke",
+   "displayText": "poke",
+   "type": "root",
+   "meaningCn": "刺",
+   "allomorphs": [
+    "pocke"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "police",
+   "displayText": "police",
+   "type": "root",
+   "meaningCn": "警察",
+   "allomorphs": [
+    "police"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "populate",
+   "displayText": "populate",
+   "type": "root",
+   "meaningCn": "使人口聚居在中",
+   "allomorphs": [
+    "populat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "card",
+   "displayText": "card",
+   "type": "root",
+   "meaningCn": "卡片",
+   "allomorphs": [
+    "card"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "prison",
+   "displayText": "prison",
+   "type": "root",
+   "meaningCn": "监狱",
+   "allomorphs": [
+    "prison"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "probable",
+   "displayText": "probable",
+   "type": "root",
+   "meaningCn": "很可能的",
+   "allomorphs": [
+    "probabl"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "gress",
+   "displayText": "gress",
+   "type": "root",
+   "meaningCn": "人名格雷斯",
+   "allomorphs": [
+    "gress"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "quest",
+   "displayText": "quest",
+   "type": "root",
+   "meaningCn": "",
+   "allomorphs": [
+    "quest"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "rail",
+   "displayText": "rail",
+   "type": "root",
+   "meaningCn": "横杆",
+   "allomorphs": [
+    "rail"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rain",
+   "displayText": "rain",
+   "type": "root",
+   "meaningCn": "雨",
+   "allomorphs": [
+    "rain"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "rathe",
+   "displayText": "rathe",
+   "type": "root",
+   "meaningCn": "较普通时刻时期早",
+   "allomorphs": [
+    "rathe"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "real",
+   "displayText": "real",
+   "type": "root",
+   "meaningCn": "真的",
+   "allomorphs": [
+    "real"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "ceive",
+   "displayText": "ceive",
+   "type": "root",
+   "meaningCn": "",
+   "allomorphs": [
+    "ceive"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "cite",
+   "displayText": "cite",
+   "type": "root",
+   "meaningCn": "引用",
+   "allomorphs": [
+    "citi",
+    "cite"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "record",
+   "displayText": "record",
+   "type": "root",
+   "meaningCn": "记录",
+   "allomorphs": [
+    "record"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "relate",
+   "displayText": "relate",
+   "type": "root",
+   "meaningCn": "讲",
+   "allomorphs": [
+    "relat",
+    "relate"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "lax",
+   "displayText": "lax",
+   "type": "root",
+   "meaningCn": "松的",
+   "allomorphs": [
+    "lax"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "member",
+   "displayText": "member",
+   "type": "root",
+   "meaningCn": "成员",
+   "allomorphs": [
+    "member"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pair",
+   "displayText": "pair",
+   "type": "root",
+   "meaningCn": "一双",
+   "allomorphs": [
+    "pair"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "search",
+   "displayText": "search",
+   "type": "root",
+   "meaningCn": "搜寻",
+   "allomorphs": [
+    "search"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tell",
+   "displayText": "tell",
+   "type": "root",
+   "meaningCn": "告诉",
+   "allomorphs": [
+    "tell"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "turn",
+   "displayText": "turn",
+   "type": "root",
+   "meaningCn": "转弯",
+   "allomorphs": [
+    "turn"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rede",
+   "displayText": "rede",
+   "type": "root",
+   "meaningCn": "忠告",
+   "allomorphs": [
+    "ridd"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rub",
+   "displayText": "rub",
+   "type": "root",
+   "meaningCn": "摩擦",
+   "allomorphs": [
+    "rubb"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rule",
+   "displayText": "rule",
+   "type": "root",
+   "meaningCn": "规则",
+   "allomorphs": [
+    "rule"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "russia",
+   "displayText": "russia",
+   "type": "root",
+   "meaningCn": "俄国",
+   "allomorphs": [
+    "russia"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sand",
+   "displayText": "sand",
+   "type": "root",
+   "meaningCn": "沙",
+   "allomorphs": [
+    "sand"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "saturn",
+   "displayText": "saturn",
+   "type": "root",
+   "meaningCn": "土星",
+   "allomorphs": [
+    "satur"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "school",
+   "displayText": "school",
+   "type": "root",
+   "meaningCn": "学校",
+   "allomorphs": [
+    "school"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sea",
+   "displayText": "sea",
+   "type": "root",
+   "meaningCn": "海",
+   "allomorphs": [
+    "sea"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "seven",
+   "displayText": "seven",
+   "type": "root",
+   "meaningCn": "七",
+   "allomorphs": [
+    "seven"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "sever",
+   "displayText": "sever",
+   "type": "root",
+   "meaningCn": "切断",
+   "allomorphs": [
+    "sever",
+    "severe"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "show",
+   "displayText": "show",
+   "type": "root",
+   "meaningCn": "显示",
+   "allomorphs": [
+    "show"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "situate",
+   "displayText": "situate",
+   "type": "root",
+   "meaningCn": "使位于",
+   "allomorphs": [
+    "situat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "six",
+   "displayText": "six",
+   "type": "root",
+   "meaningCn": "六",
+   "allomorphs": [
+    "six"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "times",
+   "displayText": "times",
+   "type": "root",
+   "meaningCn": "时代",
+   "allomorphs": [
+    "times"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "south",
+   "displayText": "south",
+   "type": "root",
+   "meaningCn": "南方",
+   "allomorphs": [
+    "south"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "stand",
+   "displayText": "stand",
+   "type": "root",
+   "meaningCn": "站立",
+   "allomorphs": [
+    "stand"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "straw",
+   "displayText": "straw",
+   "type": "root",
+   "meaningCn": "稻草",
+   "allomorphs": [
+    "straw"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "berry",
+   "displayText": "berry",
+   "type": "root",
+   "meaningCn": "浆果采集浆果",
+   "allomorphs": [
+    "berry"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "study",
+   "displayText": "study",
+   "type": "root",
+   "meaningCn": "学习",
+   "allomorphs": [
+    "stud"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "suc",
+   "displayText": "suc",
+   "type": "root",
+   "meaningCn": "成功",
+   "allomorphs": [
+    "suc"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ceed",
+   "displayText": "ceed",
+   "type": "root",
+   "meaningCn": "",
+   "allomorphs": [
+    "ceed"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "success",
+   "displayText": "success",
+   "type": "root",
+   "meaningCn": "成功",
+   "allomorphs": [
+    "success"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "suggest",
+   "displayText": "suggest",
+   "type": "root",
+   "meaningCn": "提议",
+   "allomorphs": [
+    "suggest"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sum",
+   "displayText": "sum",
+   "type": "root",
+   "meaningCn": "总数",
+   "allomorphs": [
+    "sum",
+    "summ"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sun",
+   "displayText": "sun",
+   "type": "root",
+   "meaningCn": "太阳",
+   "allomorphs": [
+    "sun"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "market",
+   "displayText": "market",
+   "type": "root",
+   "meaningCn": "市场",
+   "allomorphs": [
+    "market"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "supple",
+   "displayText": "supple",
+   "type": "root",
+   "meaningCn": "柔软的",
+   "allomorphs": [
+    "suppl"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "prise",
+   "displayText": "prise",
+   "type": "root",
+   "meaningCn": "",
+   "allomorphs": [
+    "prise"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "sweat",
+   "displayText": "sweat",
+   "type": "root",
+   "meaningCn": "汗",
+   "allomorphs": [
+    "sweat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "swim",
+   "displayText": "swim",
+   "type": "root",
+   "meaningCn": "游泳",
+   "allomorphs": [
+    "swimm"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "teach",
+   "displayText": "teach",
+   "type": "root",
+   "meaningCn": "教",
+   "allomorphs": [
+    "teach"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "vision",
+   "displayText": "vision",
+   "type": "root",
+   "meaningCn": "视觉",
+   "allomorphs": [
+    "vision"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "ten",
+   "displayText": "ten",
+   "type": "root",
+   "meaningCn": "",
+   "allomorphs": [
+    "ten"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "terror",
+   "displayText": "terror",
+   "type": "root",
+   "meaningCn": "恐怖",
+   "allomorphs": [
+    "terr",
+    "terror"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "them",
+   "displayText": "them",
+   "type": "root",
+   "meaningCn": "他们",
+   "allomorphs": [
+    "them"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "thou",
+   "displayText": "thou",
+   "type": "root",
+   "meaningCn": "汝",
+   "allomorphs": [
+    "thou"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "thurs",
+   "displayText": "thurs",
+   "type": "root",
+   "meaningCn": "经星期四",
+   "allomorphs": [
+    "thurs"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "morrow",
+   "displayText": "morrow",
+   "type": "root",
+   "meaningCn": "次日",
+   "allomorphs": [
+    "morrow"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "night",
+   "displayText": "night",
+   "type": "root",
+   "meaningCn": "夜",
+   "allomorphs": [
+    "night"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tooth",
+   "displayText": "tooth",
+   "type": "root",
+   "meaningCn": "牙齿",
+   "allomorphs": [
+    "tooth"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "brush",
+   "displayText": "brush",
+   "type": "root",
+   "meaningCn": "刷子",
+   "allomorphs": [
+    "brush"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pas",
+   "displayText": "pas",
+   "type": "root",
+   "meaningCn": "优先权",
+   "allomorphs": [
+    "pas",
+    "paste"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tour",
+   "displayText": "tour",
+   "type": "root",
+   "meaningCn": "旅游",
+   "allomorphs": [
+    "tour"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tow",
+   "displayText": "tow",
+   "type": "root",
+   "meaningCn": "拖",
+   "allomorphs": [
+    "tow"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tradition",
+   "displayText": "tradition",
+   "type": "root",
+   "meaningCn": "传说",
+   "allomorphs": [
+    "tradition"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "train",
+   "displayText": "train",
+   "type": "root",
+   "meaningCn": "火车",
+   "allomorphs": [
+    "train"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "slate",
+   "displayText": "slate",
+   "type": "root",
+   "meaningCn": "板岩",
+   "allomorphs": [
+    "slate"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "treat",
+   "displayText": "treat",
+   "type": "root",
+   "meaningCn": "宴请",
+   "allomorphs": [
+    "treat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tues",
+   "displayText": "tues",
+   "type": "root",
+   "meaningCn": "星期二",
+   "allomorphs": [
+    "tues"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "twenty",
+   "displayText": "twenty",
+   "type": "root",
+   "meaningCn": "二十",
+   "allomorphs": [
+    "twenti"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "two",
+   "displayText": "two",
+   "type": "root",
+   "meaningCn": "二",
+   "allomorphs": [
+    "twen"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ug",
+   "displayText": "ug",
+   "type": "root",
+   "meaningCn": "地下",
+   "allomorphs": [
+    "ug"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "universe",
+   "displayText": "universe",
+   "type": "root",
+   "meaningCn": "宇宙",
+   "allomorphs": [
+    "univers"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "till",
+   "displayText": "till",
+   "type": "root",
+   "meaningCn": "直到",
+   "allomorphs": [
+    "til"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "use",
+   "displayText": "use",
+   "type": "root",
+   "meaningCn": "使用",
+   "allomorphs": [
+    "use",
+    "us"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "viola",
+   "displayText": "viola",
+   "type": "root",
+   "meaningCn": "中提琴",
+   "allomorphs": [
+    "viol",
+    "violat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "visit",
+   "displayText": "visit",
+   "type": "root",
+   "meaningCn": "拜访",
+   "allomorphs": [
+    "visit"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "volley",
+   "displayText": "volley",
+   "type": "root",
+   "meaningCn": "群射",
+   "allomorphs": [
+    "volley"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "water",
+   "displayText": "water",
+   "type": "root",
+   "meaningCn": "水",
+   "allomorphs": [
+    "water"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "melon",
+   "displayText": "melon",
+   "type": "root",
+   "meaningCn": "瓜",
+   "allomorphs": [
+    "melon"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "weal",
+   "displayText": "weal",
+   "type": "root",
+   "meaningCn": "福利",
+   "allomorphs": [
+    "weal"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "web",
+   "displayText": "web",
+   "type": "root",
+   "meaningCn": "网",
+   "allomorphs": [
+    "web"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sit",
+   "displayText": "sit",
+   "type": "root",
+   "meaningCn": "坐",
+   "allomorphs": [
+    "sit",
+    "site"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "week",
+   "displayText": "week",
+   "type": "root",
+   "meaningCn": "星期",
+   "allomorphs": [
+    "week"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "will",
+   "displayText": "will",
+   "type": "root",
+   "meaningCn": "意志",
+   "allomorphs": [
+    "ill",
+    "wel",
+    "wil",
+    "will"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "west",
+   "displayText": "west",
+   "type": "root",
+   "meaningCn": "西方",
+   "allomorphs": [
+    "west"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "what",
+   "displayText": "what",
+   "type": "root",
+   "meaningCn": "什么怎么",
+   "allomorphs": [
+    "what"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "when",
+   "displayText": "when",
+   "type": "root",
+   "meaningCn": "当的时候何时",
+   "allomorphs": [
+    "when"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "whet",
+   "displayText": "whet",
+   "type": "root",
+   "meaningCn": "磨",
+   "allomorphs": [
+    "whet"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "deh",
+   "displayText": "deh",
+   "type": "root",
+   "meaningCn": "数字编码手册",
+   "allomorphs": [
+    "de"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "win",
+   "displayText": "win",
+   "type": "root",
+   "meaningCn": "赢得",
+   "allomorphs": [
+    "winn"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "wf",
+   "displayText": "wf",
+   "type": "root",
+   "meaningCn": "滤水器",
+   "allomorphs": [
+    "wo"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mann",
+   "displayText": "mann",
+   "type": "root",
+   "meaningCn": "曼姓氏",
+   "allomorphs": [
+    "man"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "wonder",
+   "displayText": "wonder",
+   "type": "root",
+   "meaningCn": "奇迹",
+   "allomorphs": [
+    "wonder"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "wer",
+   "displayText": "wer",
+   "type": "root",
+   "meaningCn": "文字差错率",
+   "allomorphs": [
+    "wor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "eld",
+   "displayText": "eld",
+   "type": "root",
+   "meaningCn": "古高龄",
+   "allomorphs": [
+    "ld"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "your",
+   "displayText": "your",
+   "type": "root",
+   "meaningCn": "你的",
+   "allomorphs": [
+    "your"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ab",
+   "displayText": "ab-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ab",
+    "a"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "af",
+   "displayText": "af-",
+   "type": "prefix",
+   "meaningCn": "视频",
+   "allomorphs": [
+    "af"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "after",
+   "displayText": "after-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "after"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "gain",
+   "displayText": "gain-",
+   "type": "prefix",
+   "meaningCn": "增益",
+   "allomorphs": [
+    "gain"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "again",
+   "displayText": "again-",
+   "type": "prefix",
+   "meaningCn": "再一次",
+   "allomorphs": [
+    "again"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "where",
+   "displayText": "where-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "where"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "austral",
+   "displayText": "austral-",
+   "type": "prefix",
+   "meaningCn": "南的",
+   "allomorphs": [
+    "austral"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "back",
+   "displayText": "back-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "back"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "be",
+   "displayText": "be-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "be",
+    "b",
+    "bee"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "com",
+   "displayText": "com-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "com",
+    "come"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "for",
+   "displayText": "for-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "for",
+    "fore"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "bi",
+   "displayText": "bi-",
+   "type": "prefix",
+   "meaningCn": "医棱底向内",
+   "allomorphs": [
+    "bi",
+    "bitt"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "out",
+   "displayText": "out-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "out",
+    "ut"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "col",
+   "displayText": "col-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "col"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "par",
+   "displayText": "par-",
+   "type": "prefix",
+   "meaningCn": "标准",
+   "allomorphs": [
+    "pare"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "necto",
+   "displayText": "necto-",
+   "type": "prefix",
+   "meaningCn": "游泳动物",
+   "allomorphs": [
+    "nect"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "rect",
+   "displayText": "rect-",
+   "type": "prefix",
+   "meaningCn": "矩形",
+   "allomorphs": [
+    "rect"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "dec",
+   "displayText": "dec-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "dec"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "di",
+   "displayText": "di-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "di",
+    "dy"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "down",
+   "displayText": "down-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "down"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "even",
+   "displayText": "even-",
+   "type": "prefix",
+   "meaningCn": "平坦的",
+   "allomorphs": [
+    "even"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "geo",
+   "displayText": "geo-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "geo"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "by",
+   "displayText": "by-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "by",
+    "bye"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "grand",
+   "displayText": "grand-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "grand"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "self",
+   "displayText": "self-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "self"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "home",
+   "displayText": "home-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "home"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "im",
+   "displayText": "im-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "im"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "in",
+   "displayText": "in-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "in",
+    "ine",
+    "im",
+    "inde"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "to",
+   "displayText": "to-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "to"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "intro",
+   "displayText": "intro-",
+   "type": "prefix",
+   "meaningCn": "介绍计简介",
+   "allomorphs": [
+    "intro"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "ag",
+   "displayText": "ag-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "age",
+    "ag"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "mast",
+   "displayText": "mast-",
+   "type": "prefix",
+   "meaningCn": "桅",
+   "allomorphs": [
+    "mast"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "met",
+   "displayText": "met-",
+   "type": "prefix",
+   "meaningCn": "的过去式和过去分",
+   "allomorphs": [
+    "met"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "mis",
+   "displayText": "mis-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "mis",
+    "mise"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "over",
+   "displayText": "over-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "over"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "co",
+   "displayText": "co-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "co",
+    "coat",
+    "cor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "pan",
+   "displayText": "pan-",
+   "type": "prefix",
+   "meaningCn": "平锅",
+   "allomorphs": [
+    "pan"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "sur",
+   "displayText": "sur-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "sur",
+    "sure"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "pr",
+   "displayText": "pr-",
+   "type": "prefix",
+   "meaningCn": "宾夕法尼亚雷丁海",
+   "allomorphs": [
+    "pre",
+    "pro"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "pur",
+   "displayText": "pur-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "pur",
+    "pure"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "re",
+   "displayText": "re-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "re"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "sept",
+   "displayText": "sept-",
+   "type": "prefix",
+   "meaningCn": "氏族经九月",
+   "allomorphs": [
+    "sept"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "super",
+   "displayText": "super-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "super"
+   ],
+   "etymology": "",
+   "level": 5,
+   "color": "blue"
+  },
+  {
+   "id": "sup",
+   "displayText": "sup-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "sup",
+    "supp"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "techno",
+   "displayText": "techno-",
+   "type": "prefix",
+   "meaningCn": "计技术",
+   "allomorphs": [
+    "techno"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "tele",
+   "displayText": "tele-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "tele"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "tran",
+   "displayText": "tran-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "tran"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "twi",
+   "displayText": "twi-",
+   "type": "prefix",
+   "meaningCn": "契维语属于克瓦语",
+   "allomorphs": [
+    "twi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "under",
+   "displayText": "under-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "under"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "up",
+   "displayText": "up-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "up",
+    "upp"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "dwi",
+   "displayText": "dwi-",
+   "type": "prefix",
+   "meaningCn": "酒醉后开车",
+   "allomorphs": [
+    "wi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "with",
+   "displayText": "with-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "with"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "yester",
+   "displayText": "yester-",
+   "type": "prefix",
+   "meaningCn": "在这以前的",
+   "allomorphs": [
+    "yester"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "able",
+   "displayText": "-able",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "able",
+    "abil"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ity",
+   "displayText": "-ity",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ity"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ion",
+   "displayText": "-ion",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ion",
+    "on"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "ive",
+   "displayText": "-ive",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ive"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "on",
+   "displayText": "-on",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "on",
+    "one",
+    "n",
+    "a"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "st",
+   "displayText": "-st",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "st",
+    "state",
+    "states",
+    "stat"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "most",
+   "displayText": "-most",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "most"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "all",
+   "displayText": "-all",
+   "type": "suffix",
+   "meaningCn": "所有的",
+   "allomorphs": [
+    "al",
+    "all"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "way",
+   "displayText": "-way",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "way"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "ar",
+   "displayText": "-ar",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ar"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "tion",
+   "displayText": "-tion",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "tion",
+    "ion"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "ball",
+   "displayText": "-ball",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ball"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "side",
+   "displayText": "-side",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "side"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "ing",
+   "displayText": "-ing",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ing",
+    "g"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "ness",
+   "displayText": "-ness",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ness"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "less",
+   "displayText": "-less",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "less"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "man",
+   "displayText": "-man",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "man",
+    "mann"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ry",
+   "displayText": "-ry",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ry"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "es",
+   "displayText": "-es",
+   "type": "suffix",
+   "meaningCn": "附于词尾为",
+   "allomorphs": [
+    "ese",
+    "es"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "mas",
+   "displayText": "-mas",
+   "type": "suffix",
+   "meaningCn": "医近视散光",
+   "allomorphs": [
+    "mas"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "mate",
+   "displayText": "-mate",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "mate"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "lect",
+   "displayText": "-lect",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "lect"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "ple",
+   "displayText": "-ple",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ple",
+    "plete"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "corn",
+   "displayText": "-corn",
+   "type": "suffix",
+   "meaningCn": "玉蜀黍",
+   "allomorphs": [
+    "corn"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ly",
+   "displayText": "-ly",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ly",
+    "y"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "ous",
+   "displayText": "-ous",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ous",
+    "us"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ery",
+   "displayText": "-ery",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ery",
+    "ry",
+    "y"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ling",
+   "displayText": "-ling",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ling"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ty",
+   "displayText": "-ty",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ty",
+    "y"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "teen",
+   "displayText": "-teen",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "teen",
+    "een"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "land",
+   "displayText": "-land",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "land"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "tic",
+   "displayText": "-tic",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "tic"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "est",
+   "displayText": "-est",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "est"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "ward",
+   "displayText": "-ward",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ward"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "th",
+   "displayText": "-th",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "th",
+    "the"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "free",
+   "displayText": "-free",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "free",
+    "frie"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "and",
+   "displayText": "-and",
+   "type": "suffix",
+   "meaningCn": "和",
+   "allomorphs": [
+    "and",
+    "nd"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "friend",
+   "displayText": "-friend",
+   "type": "suffix",
+   "meaningCn": "朋友",
+   "allomorphs": [
+    "friend"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ship",
+   "displayText": "-ship",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ship"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "gram",
+   "displayText": "-gram",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "gram"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "son",
+   "displayText": "-son",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "son"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "some",
+   "displayText": "-some",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "some"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "head",
+   "displayText": "-head",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "head"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "work",
+   "displayText": "-work",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "work"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ever",
+   "displayText": "-ever",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ever",
+    "ver"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ey",
+   "displayText": "-ey",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ey",
+    "eye",
+    "is"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "kin",
+   "displayText": "-kin",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "kin"
+   ],
+   "etymology": "",
+   "level": 5,
+   "color": "green"
+  },
+  {
+   "id": "let",
+   "displayText": "-let",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "let",
+    "lett"
+   ],
+   "etymology": "",
+   "level": 5,
+   "color": "green"
+  },
+  {
+   "id": "le",
+   "displayText": "-le",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "le",
+    "l"
+   ],
+   "etymology": "",
+   "level": 5,
+   "color": "green"
+  },
+  {
+   "id": "ics",
+   "displayText": "-ics",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ics",
+    "s"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "hod",
+   "displayText": "-hod",
+   "type": "suffix",
+   "meaningCn": "木制容器",
+   "allomorphs": [
+    "hod"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "motor",
+   "displayText": "-motor",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "motor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ne",
+   "displayText": "-ne",
+   "type": "suffix",
+   "meaningCn": "原姓的",
+   "allomorphs": [
+    "n",
+    "ne"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ern",
+   "displayText": "-ern",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ern"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "our",
+   "displayText": "-our",
+   "type": "suffix",
+   "meaningCn": "我们的",
+   "allomorphs": [
+    "our"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "selves",
+   "displayText": "-selves",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "selves"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "person",
+   "displayText": "-person",
+   "type": "suffix",
+   "meaningCn": "人",
+   "allomorphs": [
+    "person"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "et",
+   "displayText": "-et",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "et",
+    "t",
+    "ette"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "gramme",
+   "displayText": "-gramme",
+   "type": "suffix",
+   "meaningCn": "克医克",
+   "allomorphs": [
+    "gramme"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ise",
+   "displayText": "-ise",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ise"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "safe",
+   "displayText": "-safe",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "safe"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "wich",
+   "displayText": "-wich",
+   "type": "suffix",
+   "meaningCn": "苏湿草地",
+   "allomorphs": [
+    "wich"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "speak",
+   "displayText": "-speak",
+   "type": "suffix",
+   "meaningCn": "说话",
+   "allomorphs": [
+    "speak"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ard",
+   "displayText": "-ard",
+   "type": "suffix",
+   "meaningCn": "表示沉湎于的人",
+   "allomorphs": [
+    "ard"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "phone",
+   "displayText": "-phone",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "phone",
+    "pone"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ible",
+   "displayText": "-ible",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ible"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "green"
+  },
+  {
+   "id": "eth",
+   "displayText": "-eth",
+   "type": "suffix",
+   "meaningCn": "埃塞俄比亚全国运",
+   "allomorphs": [
+    "eth"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ce",
+   "displayText": "-ce",
+   "type": "suffix",
+   "meaningCn": "医氯仿醚",
+   "allomorphs": [
+    "ce"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ino",
+   "displayText": "-ino",
+   "type": "suffix",
+   "meaningCn": "进气阀打开",
+   "allomorphs": [
+    "in"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "end",
+   "displayText": "-end",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "end"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
   }
  ],
  "worlds": [
@@ -6087,6 +16243,133 @@
     "cap",
     "opt",
     "vac"
+   ]
+  },
+  {
+   "id": "day-room",
+   "name": "起居室",
+   "morphemeIds": [
+    "day",
+    "room",
+    "house",
+    "bath",
+    "chair",
+    "night"
+   ]
+  },
+  {
+   "id": "body-clinic",
+   "name": "身体馆",
+   "morphemeIds": [
+    "body",
+    "hand",
+    "foot",
+    "tooth",
+    "ache"
+   ]
+  },
+  {
+   "id": "nature-field",
+   "name": "原野",
+   "morphemeIds": [
+    "sun",
+    "sea",
+    "rain",
+    "water",
+    "air",
+    "ground"
+   ]
+  },
+  {
+   "id": "compass-tower",
+   "name": "四方塔",
+   "morphemeIds": [
+    "north",
+    "south",
+    "west",
+    "line",
+    "direct",
+    "position"
+   ]
+  },
+  {
+   "id": "hold-vault",
+   "name": "持握库",
+   "morphemeIds": [
+    "tain",
+    "ten",
+    "take",
+    "prise",
+    "ceive",
+    "quest"
+   ]
+  },
+  {
+   "id": "motion-yard",
+   "name": "行止院",
+   "morphemeIds": [
+    "act",
+    "ceed",
+    "pass",
+    "turn",
+    "cycle",
+    "stand"
+   ]
+  },
+  {
+   "id": "sense-gallery",
+   "name": "感知廊",
+   "morphemeIds": [
+    "sent",
+    "vision",
+    "view",
+    "real",
+    "mean"
+   ]
+  },
+  {
+   "id": "build-site",
+   "name": "营造场",
+   "morphemeIds": [
+    "base",
+    "board",
+    "cover",
+    "break",
+    "ember"
+   ]
+  },
+  {
+   "id": "life-street",
+   "name": "生活街",
+   "morphemeIds": [
+    "live",
+    "life",
+    "use",
+    "play",
+    "car",
+    "book",
+    "week",
+    "child"
+   ]
+  },
+  {
+   "id": "school-yard",
+   "name": "学堂院",
+   "morphemeIds": [
+    "class",
+    "success",
+    "agree",
+    "thing",
+    "hard"
+   ]
+  },
+  {
+   "id": "craft-bench",
+   "name": "匠作台",
+   "morphemeIds": [
+    "draw",
+    "lead",
+    "port"
    ]
   }
  ]

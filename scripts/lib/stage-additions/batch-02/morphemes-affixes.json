@@ -1,6 +1,665 @@
 {
- "_comment": "3.1 中考批 新增 123 个前后缀",
- "morphemes": [
+ "_comment": "3.1 中考批 新增 123 个前后缀（结构对齐 batch-01：prefixes/suffixes 分开）",
+ "prefixes": [
+  {
+   "id": "ab",
+   "displayText": "ab-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ab",
+    "a"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "af",
+   "displayText": "af-",
+   "type": "prefix",
+   "meaningCn": "视频",
+   "allomorphs": [
+    "af"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "after",
+   "displayText": "after-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "after"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "gain",
+   "displayText": "gain-",
+   "type": "prefix",
+   "meaningCn": "增益",
+   "allomorphs": [
+    "gain"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "again",
+   "displayText": "again-",
+   "type": "prefix",
+   "meaningCn": "再一次",
+   "allomorphs": [
+    "again"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "where",
+   "displayText": "where-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "where"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "austral",
+   "displayText": "austral-",
+   "type": "prefix",
+   "meaningCn": "南的",
+   "allomorphs": [
+    "austral"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "back",
+   "displayText": "back-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "back"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "be",
+   "displayText": "be-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "be",
+    "b",
+    "bee"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "com",
+   "displayText": "com-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "com",
+    "come"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "for",
+   "displayText": "for-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "for",
+    "fore"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "bi",
+   "displayText": "bi-",
+   "type": "prefix",
+   "meaningCn": "医棱底向内",
+   "allomorphs": [
+    "bi",
+    "bitt"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "out",
+   "displayText": "out-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "out",
+    "ut"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "col",
+   "displayText": "col-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "col"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "par",
+   "displayText": "par-",
+   "type": "prefix",
+   "meaningCn": "标准",
+   "allomorphs": [
+    "pare"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "necto",
+   "displayText": "necto-",
+   "type": "prefix",
+   "meaningCn": "游泳动物",
+   "allomorphs": [
+    "nect"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "rect",
+   "displayText": "rect-",
+   "type": "prefix",
+   "meaningCn": "矩形",
+   "allomorphs": [
+    "rect"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "dec",
+   "displayText": "dec-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "dec"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "di",
+   "displayText": "di-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "di",
+    "dy"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "down",
+   "displayText": "down-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "down"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "even",
+   "displayText": "even-",
+   "type": "prefix",
+   "meaningCn": "平坦的",
+   "allomorphs": [
+    "even"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "geo",
+   "displayText": "geo-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "geo"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "by",
+   "displayText": "by-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "by",
+    "bye"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "grand",
+   "displayText": "grand-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "grand"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "self",
+   "displayText": "self-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "self"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "home",
+   "displayText": "home-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "home"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "im",
+   "displayText": "im-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "im"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "in",
+   "displayText": "in-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "in",
+    "ine",
+    "im",
+    "inde"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "to",
+   "displayText": "to-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "to"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "intro",
+   "displayText": "intro-",
+   "type": "prefix",
+   "meaningCn": "介绍计简介",
+   "allomorphs": [
+    "intro"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "ag",
+   "displayText": "ag-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "age",
+    "ag"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "mast",
+   "displayText": "mast-",
+   "type": "prefix",
+   "meaningCn": "桅",
+   "allomorphs": [
+    "mast"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "met",
+   "displayText": "met-",
+   "type": "prefix",
+   "meaningCn": "的过去式和过去分",
+   "allomorphs": [
+    "met"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "mis",
+   "displayText": "mis-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "mis",
+    "mise"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "over",
+   "displayText": "over-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "over"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "co",
+   "displayText": "co-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "co",
+    "coat",
+    "cor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "pan",
+   "displayText": "pan-",
+   "type": "prefix",
+   "meaningCn": "平锅",
+   "allomorphs": [
+    "pan"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "sur",
+   "displayText": "sur-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "sur",
+    "sure"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "pr",
+   "displayText": "pr-",
+   "type": "prefix",
+   "meaningCn": "宾夕法尼亚雷丁海",
+   "allomorphs": [
+    "pre",
+    "pro"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "pur",
+   "displayText": "pur-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "pur",
+    "pure"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "re",
+   "displayText": "re-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "re"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "sept",
+   "displayText": "sept-",
+   "type": "prefix",
+   "meaningCn": "氏族经九月",
+   "allomorphs": [
+    "sept"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "super",
+   "displayText": "super-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "super"
+   ],
+   "etymology": "",
+   "level": 5,
+   "color": "blue"
+  },
+  {
+   "id": "sup",
+   "displayText": "sup-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "sup",
+    "supp"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "techno",
+   "displayText": "techno-",
+   "type": "prefix",
+   "meaningCn": "计技术",
+   "allomorphs": [
+    "techno"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "tele",
+   "displayText": "tele-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "tele"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "tran",
+   "displayText": "tran-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "tran"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "blue"
+  },
+  {
+   "id": "twi",
+   "displayText": "twi-",
+   "type": "prefix",
+   "meaningCn": "契维语属于克瓦语",
+   "allomorphs": [
+    "twi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "under",
+   "displayText": "under-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "under"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "up",
+   "displayText": "up-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "up",
+    "upp"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "dwi",
+   "displayText": "dwi-",
+   "type": "prefix",
+   "meaningCn": "酒醉后开车",
+   "allomorphs": [
+    "wi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "with",
+   "displayText": "with-",
+   "type": "prefix",
+   "meaningCn": "",
+   "allomorphs": [
+    "with"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "yester",
+   "displayText": "yester-",
+   "type": "prefix",
+   "meaningCn": "在这以前的",
+   "allomorphs": [
+    "yester"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  }
+ ],
+ "suffixes": [
   {
    "id": "able",
    "displayText": "-able",
@@ -25,19 +684,6 @@
    "etymology": "",
    "level": 3,
    "color": "green"
-  },
-  {
-   "id": "ab",
-   "displayText": "ab-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "ab",
-    "a"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "blue"
   },
   {
    "id": "ion",
@@ -65,30 +711,6 @@
    "color": "green"
   },
   {
-   "id": "af",
-   "displayText": "af-",
-   "type": "prefix",
-   "meaningCn": "视频",
-   "allomorphs": [
-    "af"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
-   "id": "after",
-   "displayText": "after-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "after"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
    "id": "on",
    "displayText": "-on",
    "type": "suffix",
@@ -102,30 +724,6 @@
    "etymology": "",
    "level": 3,
    "color": "green"
-  },
-  {
-   "id": "gain",
-   "displayText": "gain-",
-   "type": "prefix",
-   "meaningCn": "增益",
-   "allomorphs": [
-    "gain"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
-   "id": "again",
-   "displayText": "again-",
-   "type": "prefix",
-   "meaningCn": "再一次",
-   "allomorphs": [
-    "again"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
   },
   {
    "id": "st",
@@ -180,18 +778,6 @@
    "color": "green"
   },
   {
-   "id": "where",
-   "displayText": "where-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "where"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "blue"
-  },
-  {
    "id": "ar",
    "displayText": "-ar",
    "type": "suffix",
@@ -217,30 +803,6 @@
    "color": "green"
   },
   {
-   "id": "austral",
-   "displayText": "austral-",
-   "type": "prefix",
-   "meaningCn": "南的",
-   "allomorphs": [
-    "austral"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
-   "id": "back",
-   "displayText": "back-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "back"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
    "id": "ball",
    "displayText": "-ball",
    "type": "suffix",
@@ -253,46 +815,6 @@
    "color": "green"
   },
   {
-   "id": "be",
-   "displayText": "be-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "be",
-    "b",
-    "bee"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "blue"
-  },
-  {
-   "id": "com",
-   "displayText": "com-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "com",
-    "come"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "blue"
-  },
-  {
-   "id": "for",
-   "displayText": "for-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "for",
-    "fore"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "blue"
-  },
-  {
    "id": "side",
    "displayText": "-side",
    "type": "suffix",
@@ -303,19 +825,6 @@
    "etymology": "",
    "level": 1,
    "color": "green"
-  },
-  {
-   "id": "bi",
-   "displayText": "bi-",
-   "type": "prefix",
-   "meaningCn": "医棱底向内",
-   "allomorphs": [
-    "bi",
-    "bitt"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
   },
   {
    "id": "ing",
@@ -341,19 +850,6 @@
    "etymology": "",
    "level": 3,
    "color": "green"
-  },
-  {
-   "id": "out",
-   "displayText": "out-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "out",
-    "ut"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
   },
   {
    "id": "less",
@@ -430,18 +926,6 @@
    "color": "green"
   },
   {
-   "id": "col",
-   "displayText": "col-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "col"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "blue"
-  },
-  {
    "id": "lect",
    "displayText": "-lect",
    "type": "suffix",
@@ -452,18 +936,6 @@
    "etymology": "",
    "level": 1,
    "color": "green"
-  },
-  {
-   "id": "par",
-   "displayText": "par-",
-   "type": "prefix",
-   "meaningCn": "标准",
-   "allomorphs": [
-    "pare"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
   },
   {
    "id": "ple",
@@ -479,18 +951,6 @@
    "color": "green"
   },
   {
-   "id": "necto",
-   "displayText": "necto-",
-   "type": "prefix",
-   "meaningCn": "游泳动物",
-   "allomorphs": [
-    "nect"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
    "id": "corn",
    "displayText": "-corn",
    "type": "suffix",
@@ -501,18 +961,6 @@
    "etymology": "",
    "level": 3,
    "color": "green"
-  },
-  {
-   "id": "rect",
-   "displayText": "rect-",
-   "type": "prefix",
-   "meaningCn": "矩形",
-   "allomorphs": [
-    "rect"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
   },
   {
    "id": "ly",
@@ -541,18 +989,6 @@
    "color": "green"
   },
   {
-   "id": "dec",
-   "displayText": "dec-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "dec"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "blue"
-  },
-  {
    "id": "ery",
    "displayText": "-ery",
    "type": "suffix",
@@ -565,31 +1001,6 @@
    "etymology": "",
    "level": 3,
    "color": "green"
-  },
-  {
-   "id": "di",
-   "displayText": "di-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "di",
-    "dy"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "blue"
-  },
-  {
-   "id": "down",
-   "displayText": "down-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "down"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
   },
   {
    "id": "ling",
@@ -640,18 +1051,6 @@
    "etymology": "",
    "level": 1,
    "color": "green"
-  },
-  {
-   "id": "even",
-   "displayText": "even-",
-   "type": "prefix",
-   "meaningCn": "平坦的",
-   "allomorphs": [
-    "even"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
   },
   {
    "id": "tic",
@@ -753,31 +1152,6 @@
    "color": "green"
   },
   {
-   "id": "geo",
-   "displayText": "geo-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "geo"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "blue"
-  },
-  {
-   "id": "by",
-   "displayText": "by-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "by",
-    "bye"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
    "id": "gram",
    "displayText": "-gram",
    "type": "suffix",
@@ -788,18 +1162,6 @@
    "etymology": "",
    "level": 1,
    "color": "green"
-  },
-  {
-   "id": "grand",
-   "displayText": "grand-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "grand"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "blue"
   },
   {
    "id": "son",
@@ -838,30 +1200,6 @@
    "color": "green"
   },
   {
-   "id": "self",
-   "displayText": "self-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "self"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "blue"
-  },
-  {
-   "id": "home",
-   "displayText": "home-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "home"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "blue"
-  },
-  {
    "id": "work",
    "displayText": "-work",
    "type": "suffix",
@@ -885,57 +1223,6 @@
    "etymology": "",
    "level": 3,
    "color": "green"
-  },
-  {
-   "id": "im",
-   "displayText": "im-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "im"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
-   "id": "in",
-   "displayText": "in-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "in",
-    "ine",
-    "im",
-    "inde"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
-   "id": "to",
-   "displayText": "to-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "to"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
-   "id": "intro",
-   "displayText": "intro-",
-   "type": "prefix",
-   "meaningCn": "介绍计简介",
-   "allomorphs": [
-    "intro"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
   },
   {
    "id": "ey",
@@ -990,31 +1277,6 @@
    "color": "green"
   },
   {
-   "id": "ag",
-   "displayText": "ag-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "age",
-    "ag"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "blue"
-  },
-  {
-   "id": "mast",
-   "displayText": "mast-",
-   "type": "prefix",
-   "meaningCn": "桅",
-   "allomorphs": [
-    "mast"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
    "id": "ics",
    "displayText": "-ics",
    "type": "suffix",
@@ -1028,18 +1290,6 @@
    "color": "green"
   },
   {
-   "id": "met",
-   "displayText": "met-",
-   "type": "prefix",
-   "meaningCn": "的过去式和过去分",
-   "allomorphs": [
-    "met"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
    "id": "hod",
    "displayText": "-hod",
    "type": "suffix",
@@ -1050,19 +1300,6 @@
    "etymology": "",
    "level": 3,
    "color": "green"
-  },
-  {
-   "id": "mis",
-   "displayText": "mis-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "mis",
-    "mise"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
   },
   {
    "id": "motor",
@@ -1126,44 +1363,6 @@
    "color": "green"
   },
   {
-   "id": "over",
-   "displayText": "over-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "over"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
-   "id": "co",
-   "displayText": "co-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "co",
-    "coat",
-    "cor"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
-   "id": "pan",
-   "displayText": "pan-",
-   "type": "prefix",
-   "meaningCn": "平锅",
-   "allomorphs": [
-    "pan"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
    "id": "person",
    "displayText": "-person",
    "type": "suffix",
@@ -1174,19 +1373,6 @@
    "etymology": "",
    "level": 3,
    "color": "green"
-  },
-  {
-   "id": "sur",
-   "displayText": "sur-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "sur",
-    "sure"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "blue"
   },
   {
    "id": "et",
@@ -1203,19 +1389,6 @@
    "color": "green"
   },
   {
-   "id": "pr",
-   "displayText": "pr-",
-   "type": "prefix",
-   "meaningCn": "宾夕法尼亚雷丁海",
-   "allomorphs": [
-    "pre",
-    "pro"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
    "id": "gramme",
    "displayText": "-gramme",
    "type": "suffix",
@@ -1228,19 +1401,6 @@
    "color": "green"
   },
   {
-   "id": "pur",
-   "displayText": "pur-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "pur",
-    "pure"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "blue"
-  },
-  {
    "id": "ise",
    "displayText": "-ise",
    "type": "suffix",
@@ -1251,18 +1411,6 @@
    "etymology": "",
    "level": 1,
    "color": "green"
-  },
-  {
-   "id": "re",
-   "displayText": "re-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "re"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
   },
   {
    "id": "safe",
@@ -1289,18 +1437,6 @@
    "color": "green"
   },
   {
-   "id": "sept",
-   "displayText": "sept-",
-   "type": "prefix",
-   "meaningCn": "氏族经九月",
-   "allomorphs": [
-    "sept"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
    "id": "speak",
    "displayText": "-speak",
    "type": "suffix",
@@ -1323,55 +1459,6 @@
    "etymology": "",
    "level": 3,
    "color": "green"
-  },
-  {
-   "id": "super",
-   "displayText": "super-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "super"
-   ],
-   "etymology": "",
-   "level": 5,
-   "color": "blue"
-  },
-  {
-   "id": "sup",
-   "displayText": "sup-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "sup",
-    "supp"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "blue"
-  },
-  {
-   "id": "techno",
-   "displayText": "techno-",
-   "type": "prefix",
-   "meaningCn": "计技术",
-   "allomorphs": [
-    "techno"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
-   "id": "tele",
-   "displayText": "tele-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "tele"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "blue"
   },
   {
    "id": "phone",
@@ -1399,18 +1486,6 @@
    "color": "green"
   },
   {
-   "id": "tran",
-   "displayText": "tran-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "tran"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "blue"
-  },
-  {
    "id": "eth",
    "displayText": "-eth",
    "type": "suffix",
@@ -1423,18 +1498,6 @@
    "color": "green"
   },
   {
-   "id": "twi",
-   "displayText": "twi-",
-   "type": "prefix",
-   "meaningCn": "契维语属于克瓦语",
-   "allomorphs": [
-    "twi"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
    "id": "ce",
    "displayText": "-ce",
    "type": "suffix",
@@ -1445,31 +1508,6 @@
    "etymology": "",
    "level": 3,
    "color": "green"
-  },
-  {
-   "id": "under",
-   "displayText": "under-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "under"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
-   "id": "up",
-   "displayText": "up-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "up",
-    "upp"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
   },
   {
    "id": "ino",
@@ -1494,42 +1532,6 @@
    "etymology": "",
    "level": 3,
    "color": "green"
-  },
-  {
-   "id": "dwi",
-   "displayText": "dwi-",
-   "type": "prefix",
-   "meaningCn": "酒醉后开车",
-   "allomorphs": [
-    "wi"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
-   "id": "with",
-   "displayText": "with-",
-   "type": "prefix",
-   "meaningCn": "",
-   "allomorphs": [
-    "with"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
-  },
-  {
-   "id": "yester",
-   "displayText": "yester-",
-   "type": "prefix",
-   "meaningCn": "在这以前的",
-   "allomorphs": [
-    "yester"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "blue"
   }
  ]
 }

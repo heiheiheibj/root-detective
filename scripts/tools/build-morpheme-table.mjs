@@ -115,6 +115,25 @@ for (const [id, rec] of [...byId]) {
 }
 console.log(`id 归一化：${canon.size} 个变体并回词根（${byId.size} 个词素，归一化前 ${byId.size + canon.size}）`)
 
+// ── 功能词不是词根 ──
+// `her` 出现在 herself、`every` 出现在 everyday，但它们是代词/限定词 —— 学生拼 herself 时
+// 看到一张「her = 粘住」的卡片就荒谬了（那还是 Wiktionary 词缀数据的错配 gloss）。
+// ECDICT 的 pos 独立字段实测是空的，词性要从不 translation 开头取（"pron. 她的" / "num. 六"）。
+const FUNCTION_POS = new Set(['pron', 'adv', 'prep', 'conj', 'det', 'num', 'art', 'aux', 'int'])
+const ROOT_BLACKLIST = new Set(['her', 'not', 'every', 'any', 'there', 'how', 'app', 'por', 'clude'])
+const glossOf = (id) => lexBySurface.get(id)?.gloss || ''
+const isFunctionalWord = (id) => {
+  if (ROOT_BLACKLIST.has(id)) return true
+  // gloss 是「词根源义短语」才对（`ten` 的 "to hold"、`dict` 的 "speak, declare"）——
+  // `ten` 的 ECDICT 释义是「num. 十」，光看词性会把它误判成数词。
+  // 若 gloss 以词性开头（`seven` 的 "num. 七, 七个"），那只是 ECDICT 释义，仍要看词性。
+  const g = glossOf(id).trim()
+  if (g && !/^[a-z]+\.\s/.test(g) && /[,\s]/.test(g)) return false
+  const t = ecMeaning.get(id)
+  const m = t && String(t).match(/^([a-z]+)\.\s/)
+  return m ? FUNCTION_POS.has(m[1].toLowerCase()) : false
+}
+
 const LANG_CN = { Latin: '拉丁语', Greek: '希腊语', English: '英语', French: '法语', 'Old English': '古英语', Germanic: '日耳曼语', Italian: '意大利语', Spanish: '西班牙语' }
 const table = []
 const needsTranslation = []
@@ -149,7 +168,7 @@ for (const [id, rec] of byId) {
     level,
     color: type === 'prefix' ? 'blue' : type === 'suffix' ? 'green' : 'orange',
     _words: rec.words.size,
-    _teaching: Boolean(lex),
+    _teaching: Boolean(lex) && !isFunctionalWord(id),
     _meaningSource: meaningSource,
     _origin: originById.get(id) ? (LANG_CN[originById.get(id)] || originById.get(id)) : '',
   })

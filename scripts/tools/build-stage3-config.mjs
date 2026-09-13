@@ -105,18 +105,24 @@ for (const batch of batches) {
 const morphemeIds = new Set([...legacy.morphemes.map((m) => m.id), ...extraMorphemes.map((m) => m.id)])
 const usedWords = new Set()
 let splitCount = 0
+// 一词可属多家族：`airport` 同为 air 和 port 的家族词、`sunday` 同含 sun 和 day。
+// 这对产品无害（reward 屏的「同族词」多列一个），原先当硬错误是过严 —— 降为统计。
+const multiFamily = []
 for (const [fam, def] of Object.entries(allFamilies)) {
   for (const w of def.words) {
-    if (usedWords.has(w)) errors.push(`词「${w}」出现在多个家族（含 ${fam}）`)
+    if (usedWords.has(w)) multiFamily.push(`${w}∈${fam}`)
     usedWords.add(w)
     if (!allSplits[w]) errors.push(`缺 splits[${w}]（家族 ${fam}）`)
   }
 }
+const orphanSplits = []
 for (const [w, parts] of Object.entries(allSplits)) {
   splitCount += 1
   const assembled = parts.map((p) => p.surface).join('').toLowerCase()
   if (assembled !== w.toLowerCase() && !residueAllowlist.includes(w)) errors.push(`A5 ${w}: 拼出「${assembled}」`)
-  if (!usedWords.has(w) && !base.canary.includes(w)) errors.push(`split「${w}」不属于任何家族，也不是 canary`)
+  // split 不一定属于家族：只有教学词根才建家族，`ability`(ab+ility) 这类没有教学词根的普通词
+  // 本来就不在任何家族里。原先是硬错误，改为统计后由 70-report 报出来人工审视。
+  if (!usedWords.has(w) && !base.canary.includes(w)) orphanSplits.push(w)
   for (const p of parts) if (!morphemeIds.has(p.id)) errors.push(`${w}: 引用未建模词素 ${p.id}`)
 }
 // 世界覆盖：每个 root 都要落在某个世界里
@@ -124,6 +130,9 @@ const worldRoots = new Set(allWorlds.flatMap((w) => w.morphemeIds))
 const familyRoots = new Set(Object.values(allFamilies).flatMap((f) => f.roots))
 for (const r of familyRoots) if (!worldRoots.has(r)) errors.push(`词根 ${r} 不在任何世界`)
 for (const r of worldRoots) if (!familyRoots.has(r) && !morphemeIds.has(r)) errors.push(`世界引用了不存在的词根 ${r}`)
+
+if (multiFamily.length) console.log(`多家族词 ${multiFamily.length} 个（正常，样例：${multiFamily.slice(0, 4).join(' ')}）`)
+if (orphanSplits.length) console.log(`无家族 split ${orphanSplits.length} 个（没有教学词根的普通词，样例：${orphanSplits.slice(0, 4).join(' ')}）`)
 
 if (warnings.length) {
   console.warn(`⚠ 覆盖告警 ${warnings.length} 项（后者胜出，确认是有意为之就忽略）：`)
