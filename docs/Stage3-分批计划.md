@@ -53,7 +53,7 @@
 |---|---|---|---|
 | 1 | ✅ **精确词根供给测算**（已完成 2026-09-13） | 脚本 `supply-analysis-strict.mjs`：去子串 + cigen/MorphyNet/wordroot 三硬信号，并模拟 forceInclude | **目标锁定 250 词根**，详见 §一 |
 | 2 | ✅ **索引/详情分层拆包**（已完成 2026-09-13） | 详见下方「3.0 #2 完成记录」 | 首屏 101.8 KB gzip（300 词），详情分片按需加载，实机验证通过 |
-| 3 | **配置架构批次化** | 把 `stage2-additions/` 泛化为 `stage-additions/batch-NN/`，合并器累加所有批次 | 新增批次不用改合并脚本 |
+| 3 | ✅ **配置架构批次化**（已完成 2026-09-13） | 详见下方「3.0 #3 完成记录」 | 新增批次不用改合并脚本 |
 | 4 | **性能适配** | `.atlas-card` 加 `content-visibility: auto` 或折叠非当前 world | 300 词根地图页不掉帧 |
 | 5 | **测试适配** | `logic.test.ts:158-164` 必须重写（断言复习板顺序 `['spec','dict','port']`，词根多了不成立） | 全部测试绿 |
 | 6 | 补齐 error boundary | `main.tsx` 没有，懒加载分片 404 会白屏（计划书 line 311） | 分片加载失败有兜底 UI |
@@ -80,6 +80,21 @@ resource 记录只有 `index.js + CSS + shard-00`，shard-01/02/03 零请求；�
 重洗猜义选项（洗牌结果每次不同 → 选中项漂移 → 玩家点 A 变成提交 B）。必须 `useMemo` 固定合成引用。
 
 **verify-rerun** 已纳入 index/shards 共 9 个文件，两次重跑逐字节一致。
+
+### 3.0 #3 完成记录（2026-09-13）
+
+**架构**：
+- `scripts/lib/stage2-additions/` → `scripts/lib/stage-additions/batch-01/`（9 个片，`git mv` 保留历史）
+- `build-stage2-config.mjs` → `build-stage3-config.mjs`：**扫描 `batch-*/` 目录（名字排序=合并顺序）自动累加**，输出 `stage3-content.json`
+- 合并规则：`splits-*.json` 支持多片（token 限制友好）；`families/splits/forceInclude` 同键后者胜出**并告警**；
+  `worlds` id 重复、词素 id 重复**直接报错**；每次生成都跑完整自检（家族词↔split↔词素↔世界交叉检查）
+- `package.json` 的 `content:all` 三处参数引用同步换到 `stage3-content.json`
+
+**等价性证据**：新配置与旧 `stage2-content.json` **逐字节等价**（仅 `_comment` 文案不同）；
+全链重跑后 `data.ts` 哈希 `96e32266e4c9810c` 与改造前**完全一致** → 重构对下游零影响。
+
+**扩展点验收**：临时建空目录 `batch-02/` → 合并器自动识别、结果不变、无需改任何脚本 → 已删。
+3.1 落地时只需 `mkdir stage-additions/batch-02/` 并放入切片文件。
 
 ---
 
@@ -175,9 +190,10 @@ git tag stage3.N
 | Stage 1（67 词 / 20 根） | ✅ 完成 |
 | Stage 2（300 词 / 60 根） | ✅ 完成：闸门 0 错误、53 测试绿、实机双尺寸通过、两次重跑逐字节一致 |
 | **Stage 3.0 第 1 项（供给测算）** | ✅ **完成，目标锁定 250 词根**（用户选稳妥） |
-| **Stage 3.0 第 2 项（分层拆包）** | ✅ **完成**（2026-09-13，见 §三 完成记录） |
-| Stage 3.0 第 3 项（配置架构批次化） | ⏭️ **下一步** |
-| Stage 3.0 第 4~6 项 | ⬜ 待做 |
+| **Stage 3.0 第 2 项（分层拆包）** | ✅ **完成**（见 §三 完成记录） |
+| **Stage 3.0 第 3 项（配置批次化）** | ✅ **完成**（见 §三 完成记录，`batch-01` 已就位） |
+| Stage 3.0 第 4 项（性能适配） | ⏭️ **下一步** |
+| Stage 3.0 第 5~6 项 | ⬜ 待做 |
 | Stage 3.1~3.5（加词） | ⬜ 待做 |
 
 新会话读这三份即可恢复全部上下文：
@@ -189,16 +205,18 @@ git tag stage3.N
 ### 明天的启动指令（复制给我即可）
 
 ```
-读 docs/Stage3-分批计划.md，从 Stage 3.0 第 3 项（配置架构批次化）开始执行。
+读 docs/Stage3-分批计划.md，从 Stage 3.0 第 4 项（性能适配）开始执行。
 目标 2000 词 / 250 词根。3.0 全部做完再进 3.1。
 ```
 
-### 第 3 项要点（免得我明天重复探索）
+### 第 4 项要点（免得我明天重复探索）
 
-- 把 `scripts/lib/stage2-additions/` 泛化为 `stage-additions/batch-01/`（Stage 2 的产物挪进去做第一批）
-- `build-stage2-config.mjs` 改成遍历 `stage-additions/batch-*/` 全部累加合并，输出 `stage3-content.json`
-- 验收：3.1 只新增 `batch-02/` 目录、不改合并脚本就能加词
-- 注意 `npm run content:all` 里 20/21/40 号的参数引用要同步改（`stage2-content.json` → `stage3-content.json`）
+- 症状：`AtlasView` 一次性渲染 `worlds × morphemeIds` 全部卡片，250 词根时约 250 张 `.atlas-card`，
+  滚动/切页会掉帧（计划书 line 40）
+- 首选：给 `.atlas-card` 加 `content-visibility: auto` + `contain-intrinsic-size`（改动最小，不动 React 结构）；
+  备选：折叠非当前 world、或只渲染视口内卡片
+- 验收要拿数字：改前/改后各跑一次 devtools performance trace，比长任务和帧率，别只凭感觉说"流畅了"
+- 顺带看一眼 `ReviewView` 的配对面板（`wordsByRoot` 全量 + `shuffle`），250 词根时同样要量
 
 ### 环境自检
 

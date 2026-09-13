@@ -1,5 +1,5 @@
 {
- "_comment": "Stage 2 内容配置：60 家族 / 316 词（由 build-stage2-config.mjs 合并生成；源头=stage1-content.json + stage2-additions/*，不要手改本文件）。",
+ "_comment": "Stage 3 内容配置：60 家族 / 316 词（由 build-stage3-config.mjs 合并 batch-01 生成；源头=stage1-content.json + stage-additions/*，不要手改本文件）。",
  "families": {
   "spec": {
    "roots": [
