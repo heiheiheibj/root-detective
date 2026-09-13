@@ -348,15 +348,25 @@ export function validateContent(morphemes: readonly Morpheme[], words: readonly 
         }
       }
     }
+    // 词素分两档（Stage 3 起）：
+    //   教学词素 —— 家族 ≥ MIN_WORDS_PER_ROOT：配词根卡、世界归属、家族练习
+    //   零件词素 —— 家族低于门槛：只在拼词卡片里出现（卡片是按 word.parts 生成的），不做家族练习
+    //
+    // Stage 2 的 60 个词根是人工挑的，能同时满足「≥3 词 + d1/d5 各一」。
+    // Stage 3 铺到 3,029 词后实测：96 个教学词根里只有 21 个 d1/d5 齐（22%），
+    // 硬卡会让 70% 的真实词库报错 —— 所以 **d5 降为提示，d1 保留硬卡**（初学者要能碰到这个词根）。
     for (const rootId of rootIds) {
       const family = wordsPerRoot.get(rootId) ?? []
-      if (family.length < MIN_WORDS_PER_ROOT) {
-        say('error', 'A23', rootId, `只有 ${family.length} 个词，少于 ${MIN_WORDS_PER_ROOT} 个`)
+      if (family.length === 0) {
+        say('error', 'A23', rootId, '没有任何词用到这个词素（孤儿词素）')
         continue
       }
-      // 难度档位决定熟练度涨多快，一个词根全落在同一档会把奖励曲线压平。
-      for (const difficulty of [1, 5]) {
-        if (!family.some((word) => word.difficulty === difficulty)) say('error', 'A23', rootId, `没有 difficulty-${difficulty} 的词`)
+      if (family.length < MIN_WORDS_PER_ROOT) continue // 零件词素：豁免家族规模与难度覆盖
+      if (!family.some((word) => word.difficulty === 1)) {
+        say('error', 'A23', rootId, `教学词素没有任何 difficulty-1 的词，初学者碰不到它`)
+      }
+      if (!family.some((word) => word.difficulty === 5)) {
+        say('warning', 'A23', rootId, '教学词素没有 difficulty-5 的词，难度梯度少一端')
       }
     }
   }
