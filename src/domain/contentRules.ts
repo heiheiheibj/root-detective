@@ -375,7 +375,13 @@ export function validateContent(morphemes: readonly Morpheme[], words: readonly 
 }
 
 /** 世界定义与词根表的交叉检查；调色板之外的部分单独放，因为它收的是 data.ts 的 worlds。 */
-export function validateWorlds(morphemes: readonly Morpheme[], worlds: ReadonlyArray<{ id: string; morphemeIds: readonly string[] }>): Finding[] {
+export function validateWorlds(
+  morphemes: readonly Morpheme[],
+  worlds: ReadonlyArray<{ id: string; morphemeIds: readonly string[] }>,
+  /** 只检查这些词根是否挂了世界（教学词根）。缺省时检查全部词根 —— 铺库阶段词素表会带进
+   *  大量只出现在拼词卡片里的零件词根，它们本来就不上地图，不该报错。 */
+  teachingRootIds?: ReadonlySet<string>,
+): Finding[] {
   const findings: Finding[] = []
   const modeled = new Set(morphemes.map((morpheme) => morpheme.id))
   const rootIds = morphemes.filter((morpheme) => morpheme.type === 'root').map((morpheme) => morpheme.id)
@@ -390,7 +396,8 @@ export function validateWorlds(morphemes: readonly Morpheme[], worlds: ReadonlyA
       covered.add(morphemeId)
     }
   }
-  for (const rootId of rootIds) {
+  const toCheck = teachingRootIds ? rootIds.filter((id) => teachingRootIds.has(id)) : rootIds
+  for (const rootId of toCheck) {
     if (!covered.has(rootId)) findings.push({ level: 'error', rule: 'A24', target: rootId, message: '这个词根不属于任何世界，地图页上永远看不到它' })
   }
   return findings

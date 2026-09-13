@@ -4,7 +4,11 @@
   "modernMeaningCn": "击退",
   "literalMeaningCn": "往回推",
   "metaphorMeaningCn": "击退、排斥",
-  "metaphorOptions": ["击退、排斥", "吸引", "接纳"],
+  "metaphorOptions": [
+   "击退、排斥",
+   "一种宇宙的习俗",
+   "把五月愿能串起来"
+  ],
   "mnemonicNote": "re(回)+pel(推)：伸手把它推回原处",
   "sourceNote": "拉丁 repellere，re-(回) + pellere(推)"
  },
@@ -12,7 +16,11 @@
   "modernMeaningCn": "保留",
   "literalMeaningCn": "守住留下",
   "metaphorMeaningCn": "保留、储备",
-  "metaphorOptions": ["保留、储备", "用尽", "挥霍"],
+  "metaphorOptions": [
+   "保留、储备",
+   "向着欢喜去",
+   "监狱的地方"
+  ],
   "mnemonicNote": "re(回)+serve(守)：扣下一份不撒手，留着以后用",
   "sourceNote": "拉丁 reservare，re-(回) + servare(守)"
  },
@@ -20,7 +28,11 @@
   "modernMeaningCn": "收回",
   "literalMeaningCn": "往回拉",
   "metaphorMeaningCn": "收回、撤回",
-  "metaphorOptions": ["收回、撤回", "伸出", "坚持"],
+  "metaphorOptions": [
+   "收回、撤回",
+   "监狱的人",
+   "自旋轨道分裂的背面"
+  ],
   "mnemonicNote": "re(回)+tract(拉)：把说过的话拉回来",
   "sourceNote": "拉丁 retrahere，re-(回) + trahere(拉)"
  },
@@ -28,7 +40,11 @@
   "modernMeaningCn": "返回",
   "literalMeaningCn": "转回来",
   "metaphorMeaningCn": "返回、归还",
-  "metaphorOptions": ["返回、归还", "离开", "借走"],
+  "metaphorOptions": [
+   "返回、归还",
+   "驱动的地方",
+   "一种悬挂的习俗"
+  ],
   "mnemonicNote": "re(回)+turn(转)：绕一圈又转到原地",
   "sourceNote": "古法语 retorner，re-(回) + torner(转)"
  },
@@ -36,7 +52,11 @@
   "modernMeaningCn": "复习",
   "literalMeaningCn": "再看一遍",
   "metaphorMeaningCn": "复习、评论",
-  "metaphorOptions": ["复习、评论", "初读", "遗忘"],
+  "metaphorOptions": [
+   "复习、评论",
+   "一种它计信息论的习俗",
+   "把位置串起来"
+  ],
   "mnemonicNote": "re(再)+view(看)：把学过的东西回头再过一遍眼",
   "sourceNote": "中古英语 revuen，re-(再) + view(看)"
  },
@@ -44,7 +64,11 @@
   "modernMeaningCn": "神圣的",
   "literalMeaningCn": "被奉为圣的",
   "metaphorMeaningCn": "神圣的、不可侵犯的",
-  "metaphorOptions": ["神圣的、不可侵犯的", "世俗的", "卑劣的"],
+  "metaphorOptions": [
+   "神圣的、不可侵犯的",
+   "一种游戏的习俗",
+   "苍蝇的背面"
+  ],
   "mnemonicNote": "sacr(圣)+ed：划出来献给神、常人不能动",
   "sourceNote": "拉丁 sacrare(使神圣)，sacer(神圣的)"
  },
@@ -52,7 +76,11 @@
   "modernMeaningCn": "牺牲",
   "literalMeaningCn": "使成圣的献祭",
   "metaphorMeaningCn": "牺牲、献出",
-  "metaphorOptions": ["牺牲、献出", "索取", "保留"],
+  "metaphorOptions": [
+   "牺牲、献出",
+   "守着进气阀打开过活",
+   "把中提琴串起来"
+  ],
   "mnemonicNote": "sacri(圣)+fice(做)：把最珍贵的东西献给更高处",
   "sourceNote": "拉丁 sacrificium，sacer(神圣) + facere(做)"
  },
@@ -60,7 +88,11 @@
   "modernMeaningCn": "圣徒",
   "literalMeaningCn": "圣者",
   "metaphorMeaningCn": "圣徒、圣人",
-  "metaphorOptions": ["圣徒、圣人", "罪人", "凡人"],
+  "metaphorOptions": [
+   "圣徒、圣人",
+   "把太阳串起来",
+   "被我将的东西"
+  ],
   "mnemonicNote": "sanct(圣)：一生洁净、被人敬奉的那位",
   "sourceNote": "拉丁 sanctus(神圣的)，经古法语 saint"
  },
@@ -68,7 +100,11 @@
   "modernMeaningCn": "沙拉",
   "literalMeaningCn": "加了盐的菜",
   "metaphorMeaningCn": "沙拉、凉拌菜",
-  "metaphorOptions": ["沙拉、凉拌菜", "热汤", "主食"],
+  "metaphorOptions": [
+   "沙拉、凉拌菜",
+   "向着欢喜去",
+   "一种在前的习俗"
+  ],
   "mnemonicNote": "sal(盐)+ad：罗马人最先给生菜撒的就是盐",
   "sourceNote": "古法语 salade，拉丁 salare(加盐)，sal(盐)"
  },
@@ -76,7 +112,11 @@
   "modernMeaningCn": "薪水",
   "literalMeaningCn": "买盐的钱",
   "metaphorMeaningCn": "薪水、工资",
-  "metaphorOptions": ["薪水、工资", "罚款", "小费"],
+  "metaphorOptions": [
+   "薪水、工资",
+   "摩擦的过程",
+   "过程的背面"
+  ],
   "mnemonicNote": "salar(盐)+y：古罗马发给士兵买盐的津贴",
   "sourceNote": "拉丁 salarium，sal(盐) 的配给津贴"
  },
@@ -84,7 +124,11 @@
   "modernMeaningCn": "含盐的",
   "literalMeaningCn": "像盐一样的",
   "metaphorMeaningCn": "含盐的、咸的",
-  "metaphorOptions": ["含盐的、咸的", "无味的", "甘甜的"],
+  "metaphorOptions": [
+   "含盐的、咸的",
+   "经过的小站",
+   "平面的一角"
+  ],
   "mnemonicNote": "sal(盐)+ine：尝一口就知道有盐分",
   "sourceNote": "拉丁 salinus，sal(盐)"
  },
@@ -92,7 +136,11 @@
   "modernMeaningCn": "批准",
   "literalMeaningCn": "使其成圣",
   "metaphorMeaningCn": "批准、制裁",
-  "metaphorOptions": ["批准、制裁", "否决", "无视"],
+  "metaphorOptions": [
+   "批准、制裁",
+   "一种食堂的习俗",
+   "被游泳的东西"
+  ],
   "mnemonicNote": "sanct(圣)+ion：盖上认可的印，也可指处罚",
   "sourceNote": "拉丁 sanctio，sancire(使神圣、批准)"
  },
@@ -100,7 +148,11 @@
   "modernMeaningCn": "避难所",
   "literalMeaningCn": "神圣之处",
   "metaphorMeaningCn": "避难所、圣殿",
-  "metaphorOptions": ["避难所、圣殿", "闹市", "牢房"],
+  "metaphorOptions": [
+   "避难所、圣殿",
+   "应得的东西的一角",
+   "附于词尾为的地方"
+  ],
   "mnemonicNote": "sanct(圣)+uary(场所)：躲进殿里，官兵就不敢抓",
   "sourceNote": "拉丁 sanctuarium，sanctus(神圣的)"
  },
@@ -108,7 +160,11 @@
   "modernMeaningCn": "星期六",
   "literalMeaningCn": "土星之日",
   "metaphorMeaningCn": "星期六",
-  "metaphorOptions": ["星期六", "星期日", "星期三"],
+  "metaphorOptions": [
+   "星期六",
+   "热的的一角",
+   "空气的小站"
+  ],
   "mnemonicNote": "satur(土星)+day(日)：献给土星的那一天",
   "sourceNote": "古英语 sæterdaeg，拉丁 Saturni dies(土星日)"
  },
@@ -116,7 +172,11 @@
   "modernMeaningCn": "茶碟",
   "literalMeaningCn": "盛汁的小碟",
   "metaphorMeaningCn": "茶碟、浅碟",
-  "metaphorOptions": ["茶碟、浅碟", "大碗", "水壶"],
+  "metaphorOptions": [
+   "茶碟、浅碟",
+   "低于的背面",
+   "形成的过程"
+  ],
   "mnemonicNote": "sauc(汁)+er(物)：原本盛调味汁的小盘",
   "sourceNote": "古法语 saussier，拉丁 salsus(加盐的)"
  },
@@ -124,7 +184,11 @@
   "modernMeaningCn": "香肠",
   "literalMeaningCn": "盐腌的肉",
   "metaphorMeaningCn": "香肠、腊肠",
-  "metaphorOptions": ["香肠、腊肠", "鲜肉", "蔬菜"],
+  "metaphorOptions": [
+   "香肠、腊肠",
+   "一种文字差错率的习俗",
+   "被预备好的状态的东西"
+  ],
   "mnemonicNote": "saus(盐)+age：古代没有冰箱，靠盐把肉存住",
   "sourceNote": "古北法语 saussiche，拉丁 salsus(盐腌的)"
  },
@@ -132,7 +196,11 @@
   "modernMeaningCn": "脚本",
   "literalMeaningCn": "写下的东西",
   "metaphorMeaningCn": "脚本、手迹",
-  "metaphorOptions": ["脚本、手迹", "口述", "图画"],
+  "metaphorOptions": [
+   "脚本、手迹",
+   "一种使用的习俗",
+   "小东西的地方"
+  ],
   "mnemonicNote": "scrib(写)：一笔一划落在纸上的字迹",
   "sourceNote": "拉丁 scriptum，scribere(写) 的过去分词"
  },
@@ -140,7 +208,11 @@
   "modernMeaningCn": "季节",
   "literalMeaningCn": "播种之时",
   "metaphorMeaningCn": "季节、时节",
-  "metaphorOptions": ["季节、时节", "整天", "瞬间"],
+  "metaphorOptions": [
+   "季节、时节",
+   "布料的人",
+   "向着病状去"
+  ],
   "mnemonicNote": "古义是「播种的时候」，一年分了四段",
   "sourceNote": "拉丁 satio(播种)，serere(播种) 的名词"
  },
@@ -148,7 +220,11 @@
   "modernMeaningCn": "九月",
   "literalMeaningCn": "第七个月",
   "metaphorMeaningCn": "九月",
-  "metaphorOptions": ["九月", "七月", "十一月"],
+  "metaphorOptions": [
+   "九月",
+   "结果的背面",
+   "一种代替的习俗"
+  ],
   "mnemonicNote": "sept(七)+ember：罗马历里它本是第七个月",
   "sourceNote": "拉丁 September，septem(七)；罗马历岁首在三月"
  },
@@ -156,7 +232,11 @@
   "modernMeaningCn": "仆人",
   "literalMeaningCn": "服侍的人",
   "metaphorMeaningCn": "仆人、佣人",
-  "metaphorOptions": ["仆人、佣人", "主人", "客人"],
+  "metaphorOptions": [
+   "仆人、佣人",
+   "真的的小站",
+   "传说的工具"
+  ],
   "mnemonicNote": "serv(服务)+ant(人)：专替别人跑腿办事",
   "sourceNote": "古法语 servant，servir(服务)"
  },
@@ -164,7 +244,11 @@
   "modernMeaningCn": "服务",
   "literalMeaningCn": "服侍",
   "metaphorMeaningCn": "服务、供应",
-  "metaphorOptions": ["服务、供应", "索取", "命令"],
+  "metaphorOptions": [
+   "服务、供应",
+   "朋友的人",
+   "向着近的去"
+  ],
   "mnemonicNote": "serv(服侍)：替别人把事情办妥",
   "sourceNote": "拉丁 servire(服侍)，servus(奴仆)"
  },
@@ -172,7 +256,11 @@
   "modernMeaningCn": "好交际的",
   "literalMeaningCn": "能结伴的",
   "metaphorMeaningCn": "好交际的、友善的",
-  "metaphorOptions": ["好交际的、友善的", "孤僻的", "冷漠的"],
+  "metaphorOptions": [
+   "好交际的、友善的",
+   "盖子的一角",
+   "平坦的的工具"
+  ],
   "mnemonicNote": "soci(同伴)+able(能)：走到哪儿都能交上朋友",
   "sourceNote": "拉丁 sociabilis，socius(同伴)"
  },
@@ -180,7 +268,11 @@
   "modernMeaningCn": "社会的",
   "literalMeaningCn": "与同伴有关",
   "metaphorMeaningCn": "社会的、社交的",
-  "metaphorOptions": ["社会的、社交的", "独居的", "野生的"],
+  "metaphorOptions": [
+   "社会的、社交的",
+   "低于的小站",
+   "被医力的东西"
+  ],
   "mnemonicNote": "soci(同伴)+al：人跟人凑在一起才有的那部分",
   "sourceNote": "拉丁 socialis，socius(同伴)"
  },
@@ -188,7 +280,11 @@
   "modernMeaningCn": "社会",
   "literalMeaningCn": "结伴的状态",
   "metaphorMeaningCn": "社会、协会",
-  "metaphorOptions": ["社会、协会", "孤岛", "荒原"],
+  "metaphorOptions": [
+   "社会、协会",
+   "许可的一角",
+   "梯级的人"
+  ],
   "mnemonicNote": "soci(同伴)+ety：一群人结成一张网",
   "sourceNote": "拉丁 societas，socius(同伴)"
  },
@@ -196,7 +292,11 @@
   "modernMeaningCn": "社会学",
   "literalMeaningCn": "研究结伴之学",
   "metaphorMeaningCn": "社会学",
-  "metaphorOptions": ["社会学", "心理学", "经济学"],
+  "metaphorOptions": [
+   "社会学",
+   "心理学",
+   "经济学"
+  ],
   "mnemonicNote": "soci(同伴)+ology(学问)：专门琢磨人怎么凑成一群",
   "sourceNote": "拉丁 socius(同伴) + 希腊 logia(学问)"
  },
@@ -204,7 +304,11 @@
   "modernMeaningCn": "某人",
   "literalMeaningCn": "某一个身体",
   "metaphorMeaningCn": "某人、大人物",
-  "metaphorOptions": ["某人、大人物", "没有人", "所有人"],
+  "metaphorOptions": [
+   "某人、大人物",
+   "没有人",
+   "所有人"
+  ],
   "mnemonicNote": "some(某个)+body(身体)：不确定是哪一位",
   "sourceNote": "英语复合词，some + body"
  },
@@ -212,7 +316,11 @@
   "modernMeaningCn": "某事物",
   "literalMeaningCn": "某一个东西",
   "metaphorMeaningCn": "某事、某物",
-  "metaphorOptions": ["某事、某物", "什么都没有", "一切"],
+  "metaphorOptions": [
+   "某事、某物",
+   "被行为的东西",
+   "把许可串起来"
+  ],
   "mnemonicNote": "some(某个)+thing(东西)：说不上来是哪样",
   "sourceNote": "英语复合词，some + thing"
  },
@@ -220,7 +328,11 @@
   "modernMeaningCn": "南方的",
   "literalMeaningCn": "南边的",
   "metaphorMeaningCn": "南方的、南部的",
-  "metaphorOptions": ["南方的、南部的", "北方的", "西方的"],
+  "metaphorOptions": [
+   "南方的、南部的",
+   "守着压力过活",
+   "称量的工具"
+  ],
   "mnemonicNote": "south(南)+ern(方向)：朝着赤道那边",
   "sourceNote": "古英语 sutherne，suth + -erne"
  },
@@ -228,7 +340,11 @@
   "modernMeaningCn": "标准",
   "literalMeaningCn": "立着的标杆",
   "metaphorMeaningCn": "标准、规格",
-  "metaphorOptions": ["标准、规格", "变例", "随意"],
+  "metaphorOptions": [
+   "标准、规格",
+   "父亲的过程",
+   "保持的工具"
+  ],
   "mnemonicNote": "stand(立)+ard：军队把旗子一立，都朝它看齐",
   "sourceNote": "古法语 estandart，stand(立) 的引申"
  },
@@ -236,7 +352,11 @@
   "modernMeaningCn": "提交",
   "literalMeaningCn": "向上送呈",
   "metaphorMeaningCn": "提交、屈服",
-  "metaphorOptions": ["提交、屈服", "撤回", "反抗"],
+  "metaphorOptions": [
+   "提交、屈服",
+   "把使人口聚居在中串起来",
+   "警察的一角"
+  ],
   "mnemonicNote": "sub(下)+mit(送)：把自己和材料交到上级手里",
   "sourceNote": "拉丁 submittere，sub-(下) + mittere(送)"
  },
@@ -244,7 +364,11 @@
   "modernMeaningCn": "订阅",
   "literalMeaningCn": "在下面签名",
   "metaphorMeaningCn": "订阅、捐助",
-  "metaphorOptions": ["订阅、捐助", "退订", "撕毁"],
+  "metaphorOptions": [
+   "订阅、捐助",
+   "考试的过程",
+   "共同的背面"
+  ],
   "mnemonicNote": "sub(下)+scribe(写)：在文件末尾签名认下这笔",
   "sourceNote": "拉丁 subscribere，sub-(下) + scribere(写)"
  },
@@ -252,7 +376,11 @@
   "modernMeaningCn": "成功",
   "literalMeaningCn": "紧跟着走",
   "metaphorMeaningCn": "成功、继承",
-  "metaphorOptions": ["成功、继承", "失败", "放弃"],
+  "metaphorOptions": [
+   "成功、继承",
+   "月亮的人",
+   "承载的过程"
+  ],
   "mnemonicNote": "suc(紧随)+ceed(走)：一步步顺着走到底就成了",
   "sourceNote": "拉丁 succedere，sub-(紧随) + cedere(走)"
  },
@@ -260,7 +388,11 @@
   "modernMeaningCn": "成功的",
   "literalMeaningCn": "一路走成了的",
   "metaphorMeaningCn": "成功的、有成就的",
-  "metaphorOptions": ["成功的、有成就的", "失败的", "平庸的"],
+  "metaphorOptions": [
+   "成功的、有成就的",
+   "奶油的人",
+   "否定的过程"
+  ],
   "mnemonicNote": "success(成功)+ful(满)：结果圆满装了个满怀",
   "sourceNote": "英语 success(成功) + -ful(充满)"
  },
@@ -268,7 +400,11 @@
   "modernMeaningCn": "遭受",
   "literalMeaningCn": "在下面承受",
   "metaphorMeaningCn": "遭受、受苦",
-  "metaphorOptions": ["遭受、受苦", "享福", "逃脱"],
+  "metaphorOptions": [
+   "遭受、受苦",
+   "后缀的小站",
+   "相同的工具"
+  ],
   "mnemonicNote": "suf(下)+fer(带)：重担全压在身上扛着",
   "sourceNote": "拉丁 sufferre，sub-(下) + ferre(带、承受)"
  },
@@ -276,7 +412,11 @@
   "modernMeaningCn": "星期日",
   "literalMeaningCn": "太阳之日",
   "metaphorMeaningCn": "星期日",
-  "metaphorOptions": ["星期日", "星期一", "星期六"],
+  "metaphorOptions": [
+   "星期日",
+   "古用手写的人",
+   "被感觉的东西"
+  ],
   "mnemonicNote": "sun(太阳)+day(日)：一周里献给太阳的那天",
   "sourceNote": "古英语 sunnandaeg，拉丁 dies solis(太阳日)"
  },
@@ -284,7 +424,11 @@
   "modernMeaningCn": "惊讶",
   "literalMeaningCn": "从上面抓住",
   "metaphorMeaningCn": "惊讶、意外",
-  "metaphorOptions": ["惊讶、意外", "预料之中", "平淡"],
+  "metaphorOptions": [
+   "惊讶、意外",
+   "热的的背面",
+   "低点的过程"
+  ],
   "mnemonicNote": "sur(上)+prise(抓)：被人从头顶一把逮住",
   "sourceNote": "古法语 surprendre，sur-(上) + prendre(抓)"
  },
@@ -292,7 +436,11 @@
   "modernMeaningCn": "悬挂",
   "literalMeaningCn": "挂在下面",
   "metaphorMeaningCn": "悬挂、暂停",
-  "metaphorOptions": ["悬挂、暂停", "落地", "继续"],
+  "metaphorOptions": [
+   "悬挂、暂停",
+   "落地",
+   "继续"
+  ],
   "mnemonicNote": "sus(下)+pend(挂)：吊在半空，也就停在那儿了",
   "sourceNote": "拉丁 suspendere，sub-(下) + pendere(挂)"
  },
@@ -300,7 +448,11 @@
   "modernMeaningCn": "对称",
   "literalMeaningCn": "两边量得一样",
   "metaphorMeaningCn": "对称、匀称",
-  "metaphorOptions": ["对称、匀称", "歪斜", "杂乱"],
+  "metaphorOptions": [
+   "对称、匀称",
+   "一种服务的习俗",
+   "向着知道去"
+  ],
   "mnemonicNote": "sym(共同)+metry(量)：两边比着量，一般长",
   "sourceNote": "希腊 symmetria，syn-(共同) + metron(量度)"
  },
@@ -308,7 +460,11 @@
   "modernMeaningCn": "触觉的",
   "literalMeaningCn": "能触碰的",
   "metaphorMeaningCn": "触觉的、有触感的",
-  "metaphorOptions": ["触觉的、有触感的", "听觉的", "嗅觉的"],
+  "metaphorOptions": [
+   "触觉的、有触感的",
+   "应得的东西的过程",
+   "摩擦的背面"
+  ],
   "mnemonicNote": "tact(触)+ile：皮肤一碰就能感觉到",
   "sourceNote": "拉丁 tactilis，tangere(触)"
  },
@@ -316,7 +472,11 @@
   "modernMeaningCn": "有形的",
   "literalMeaningCn": "能摸到的",
   "metaphorMeaningCn": "有形的、确实的",
-  "metaphorOptions": ["有形的、确实的", "虚幻的", "抽象的"],
+  "metaphorOptions": [
+   "有形的、确实的",
+   "空气的一角",
+   "见证的人"
+  ],
   "mnemonicNote": "tang(触)+ible(能)：伸手就能摸得着的",
   "sourceNote": "拉丁 tangibilis，tangere(触)"
  },
@@ -324,7 +484,11 @@
   "modernMeaningCn": "电视",
   "literalMeaningCn": "远处看得见",
   "metaphorMeaningCn": "电视、电视机",
-  "metaphorOptions": ["电视、电视机", "收音机", "电话"],
+  "metaphorOptions": [
+   "电视、电视机",
+   "被什么怎么的东西",
+   "称量的小站"
+  ],
   "mnemonicNote": "tele(远)+vision(看)：在远处也能看见画面",
   "sourceNote": "希腊 tele(远) + 拉丁 visio(看)"
  },
@@ -332,7 +496,11 @@
   "modernMeaningCn": "第十",
   "literalMeaningCn": "排第十个",
   "metaphorMeaningCn": "第十、十分之一",
-  "metaphorOptions": ["第十、十分之一", "第一百", "第一个"],
+  "metaphorOptions": [
+   "第十、十分之一",
+   "向着沐浴去",
+   "把苍蝇串起来"
+  ],
   "mnemonicNote": "ten(十)+th(序数)：数到第十个那份",
   "sourceNote": "古英语 teotha，ten(十) 的序数形式"
  },
@@ -340,7 +508,11 @@
   "modernMeaningCn": "遗嘱",
   "literalMeaningCn": "见证之物",
   "metaphorMeaningCn": "遗嘱、证明",
-  "metaphorOptions": ["遗嘱、证明", "口传", "谣言"],
+  "metaphorOptions": [
+   "遗嘱、证明",
+   "他们的工具",
+   "守着形成过活"
+  ],
   "mnemonicNote": "testa(见证)+ment：留下字据替自己说话",
   "sourceNote": "拉丁 testamentum，testari(作证)"
  },
@@ -348,7 +520,11 @@
   "modernMeaningCn": "证明",
   "literalMeaningCn": "出面作证",
   "metaphorMeaningCn": "证明、作证",
-  "metaphorOptions": ["证明、作证", "否认", "沉默"],
+  "metaphorOptions": [
+   "证明、作证",
+   "否认",
+   "沉默"
+  ],
   "mnemonicNote": "test(作证)+ify(使)：站出来替事实说话",
   "sourceNote": "拉丁 testificari，testis(证人) + facere(使)"
  },
@@ -356,7 +532,11 @@
   "modernMeaningCn": "热的",
   "literalMeaningCn": "与热有关",
   "metaphorMeaningCn": "热的、保温的",
-  "metaphorOptions": ["热的、保温的", "冰冷的", "常温的"],
+  "metaphorOptions": [
+   "热的、保温的",
+   "一种木板的习俗",
+   "离开的工具"
+  ],
   "mnemonicNote": "therm(热)+al：围着「热」这件事打转",
   "sourceNote": "希腊 therme(热) + -al"
  },
@@ -364,7 +544,11 @@
   "modernMeaningCn": "温度计",
   "literalMeaningCn": "量热的器具",
   "metaphorMeaningCn": "温度计",
-  "metaphorOptions": ["温度计", "气压计", "湿度计"],
+  "metaphorOptions": [
+   "温度计",
+   "眼睛的小站",
+   "引擎的一角"
+  ],
   "mnemonicNote": "thermo(热)+meter(量)：那根随冷热上下的柱子",
   "sourceNote": "希腊 therme(热) + metron(量度)"
  },
@@ -372,7 +556,11 @@
   "modernMeaningCn": "保温瓶",
   "literalMeaningCn": "保温的瓶子",
   "metaphorMeaningCn": "热水瓶、保温杯",
-  "metaphorOptions": ["热水瓶、保温杯", "玻璃杯", "冰桶"],
+  "metaphorOptions": [
+   "热水瓶、保温杯",
+   "病状的工具",
+   "费用的小站"
+  ],
   "mnemonicNote": "therm(热)：商标名直接用了「热」这个词根",
   "sourceNote": "希腊 therme(热)，Thermos 原为商标名"
  },
@@ -380,7 +568,11 @@
   "modernMeaningCn": "星期四",
   "literalMeaningCn": "雷神之日",
   "metaphorMeaningCn": "星期四",
-  "metaphorOptions": ["星期四", "星期二", "星期五"],
+  "metaphorOptions": [
+   "星期四",
+   "守着行为过活",
+   "被胜过的东西"
+  ],
   "mnemonicNote": "thurs(雷神)+day(日)：献给雷神托尔的一天",
   "sourceNote": "古英语 thunresdaeg，Thunor(雷神)+daeg"
  },
@@ -388,7 +580,11 @@
   "modernMeaningCn": "今天",
   "literalMeaningCn": "这一天",
   "metaphorMeaningCn": "今天、现今",
-  "metaphorOptions": ["今天、现今", "昨天", "明天"],
+  "metaphorOptions": [
+   "今天、现今",
+   "偶然的小站",
+   "预先的工具"
+  ],
   "mnemonicNote": "to(这)+day(日)：手正指着的那一天",
   "sourceNote": "古英语 todæge，to(在) + dæg(日)"
  },
@@ -396,7 +592,11 @@
   "modernMeaningCn": "今晚",
   "literalMeaningCn": "这一夜",
   "metaphorMeaningCn": "今晚、今夜",
-  "metaphorOptions": ["今晚、今夜", "昨晚", "明晚"],
+  "metaphorOptions": [
+   "今晚、今夜",
+   "蛾害的人",
+   "高兴的背面"
+  ],
   "mnemonicNote": "to(这)+night(夜)：太阳下山后的这一夜",
   "sourceNote": "古英语 toniht，to(在) + niht(夜)"
  },
@@ -404,7 +604,11 @@
   "modernMeaningCn": "牙痛",
   "literalMeaningCn": "牙齿发疼",
   "metaphorMeaningCn": "牙痛",
-  "metaphorOptions": ["牙痛", "头痛", "胃痛"],
+  "metaphorOptions": [
+   "牙痛",
+   "向着周期去",
+   "一种苍蝇的习俗"
+  ],
   "mnemonicNote": "tooth(牙)+ache(痛)：半夜疼得直哼哼那种",
   "sourceNote": "古英语 tothaece，toth(牙) + ece(痛)"
  },
@@ -412,7 +616,11 @@
   "modernMeaningCn": "牙刷",
   "literalMeaningCn": "刷牙的刷子",
   "metaphorMeaningCn": "牙刷",
-  "metaphorOptions": ["牙刷", "梳子", "毛巾"],
+  "metaphorOptions": [
+   "牙刷",
+   "被撕开的东西",
+   "把椅子串起来"
+  ],
   "mnemonicNote": "tooth(牙)+brush(刷)：早晚伺候牙齿的那把小刷",
   "sourceNote": "英语复合词，tooth + brush"
  },
@@ -420,7 +628,11 @@
   "modernMeaningCn": "牙膏",
   "literalMeaningCn": "刷牙的膏",
   "metaphorMeaningCn": "牙膏",
-  "metaphorOptions": ["牙膏", "肥皂", "洗发水"],
+  "metaphorOptions": [
+   "牙膏",
+   "一种食堂的习俗",
+   "低劣的的工具"
+  ],
   "mnemonicNote": "tooth(牙)+paste(膏)：挤在刷子上的那条白",
   "sourceNote": "英语复合词，tooth + paste"
  },
@@ -428,7 +640,11 @@
   "modernMeaningCn": "转移",
   "literalMeaningCn": "带过另一边",
   "metaphorMeaningCn": "转移、换乘",
-  "metaphorOptions": ["转移、换乘", "原地不动", "扣留"],
+  "metaphorOptions": [
+   "转移、换乘",
+   "你的的过程",
+   "成功的人"
+  ],
   "mnemonicNote": "trans(横过)+fer(带)：从这一头搬到那一头",
   "sourceNote": "拉丁 transferre，trans-(横过) + ferre(带)"
  },
@@ -436,7 +652,11 @@
   "modernMeaningCn": "转变",
   "literalMeaningCn": "换个形状",
   "metaphorMeaningCn": "转变、改造",
-  "metaphorOptions": ["转变、改造", "维持原样", "退回"],
+  "metaphorOptions": [
+   "转变、改造",
+   "站立的一角",
+   "相同的工具"
+  ],
   "mnemonicNote": "trans(变)+form(形)：整个模样都改过来",
   "sourceNote": "拉丁 transformare，trans-(变) + forma(形状)"
  },
@@ -444,7 +664,11 @@
   "modernMeaningCn": "变压器",
   "literalMeaningCn": "改变形状之物",
   "metaphorMeaningCn": "变压器、变形金刚",
-  "metaphorOptions": ["变压器、变形金刚", "发电机", "电池"],
+  "metaphorOptions": [
+   "变压器、变形金刚",
+   "安乐的工具",
+   "守着费用过活"
+  ],
   "mnemonicNote": "trans+form(形)+er(物)：把电压换个身量",
   "sourceNote": "拉丁 transformare(改变形状) 的施事名词"
  },
@@ -452,7 +676,11 @@
   "modernMeaningCn": "传送",
   "literalMeaningCn": "送过去",
   "metaphorMeaningCn": "传送、传播",
-  "metaphorOptions": ["传送、传播", "拦截", "收回"],
+  "metaphorOptions": [
+   "传送、传播",
+   "时代的过程",
+   "把经过串起来"
+  ],
   "mnemonicNote": "trans(越过)+mit(送)：把信号送过这一段距离",
   "sourceNote": "拉丁 transmittere，trans-(越过) + mittere(送)"
  },
@@ -460,7 +688,11 @@
   "modernMeaningCn": "星期二",
   "literalMeaningCn": "战神之日",
   "metaphorMeaningCn": "星期二",
-  "metaphorOptions": ["星期二", "星期四", "星期日"],
+  "metaphorOptions": [
+   "星期二",
+   "向外的工具",
+   "使进入的人"
+  ],
   "mnemonicNote": "tues(战神)+day(日)：献给战神提尔的一天",
   "sourceNote": "古英语 tiwesdaeg，Tiw(战神) + daeg"
  }

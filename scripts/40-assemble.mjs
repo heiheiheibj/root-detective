@@ -44,8 +44,8 @@ function add(m, priority) {
 }
 legacy.morphemes.forEach((m) => add(m, 0))
 cfg.extraMorphemes.forEach((m) => add(m, 2))
-const morphemes = [...byId.values()].map(({ _p, ...m }) => m)
-const morphemeIds = new Set(morphemes.map((m) => m.id))
+let morphemes = [...byId.values()].map(({ _p, ...m }) => m)
+let morphemeIds = new Set(morphemes.map((m) => m.id))
 
 // ── POS 派生：ECDICT 的 pos 列在本数据集为空，POS 藏在中文 translation 前导标签里 ──
 const POS_NORM = { a: 'adj.', adj: 'adj.', n: 'n.', v: 'v.', vt: 'v.', vi: 'v.', adv: 'adv.', prep: 'prep.', conj: 'conj.', pron: 'pron.', num: 'num.', art: 'art.', int: 'int.' }
@@ -157,7 +157,10 @@ for (const c of candidates.words) {
 if (missingProse.length) { console.error(`✗ 缺 prose：${missingProse.join(', ')}`); process.exit(1) }
 if (missingExample.length) console.warn(`! 缺中文例句：${missingExample.join(', ')}`)
 
-// ── 家族词：共享任一词素，2–8 ──────────────────────────────────────────────
+// ── 家族词：共享任一词素，最多 8 个 ──────────────────────────────────────────
+// 不设下限：新铺开的词库里很多词根本身只挂 1-2 个词（`alive` 的 `life` 全库就这一个、
+// `breakfast` 的 `break` 也一样），凑不满 2 个同族词时 reward 屏不展示家族练习即可，
+// 不该让总装失败。canary 的家族词是手写锚点，不参与重算与下限检查。
 // 只重算【生成词】。canary 的 familyWordIds 是手写锚点的一部分——逐字节存活的验收
 // （13.2b）要求这 16 个词的每个字段都和 overrides 完全一致，重算等于把锚点磨掉。
 const allWords = [...canary, ...generated]
@@ -166,8 +169,10 @@ for (const w of generated) {
   const fam = allWords.filter((o) => o.id !== w.id && o.parts.some((p) => own.has(p.morphemeId))).map((o) => o.id)
   w.familyWordIds = fam.slice(0, 8)
 }
-const badFam = allWords.filter((w) => w.familyWordIds.length < 2 || w.familyWordIds.length > 8)
-if (badFam.length) { console.error(`✗ familyWordIds 数量越界：${badFam.map((w) => w.id + '(' + w.familyWordIds.length + ')').join(', ')}`); process.exit(1) }
+const thinFam = generated.filter((w) => w.familyWordIds.length < 2)
+if (thinFam.length) console.log(`! 家族词不足 2 个的词 ${thinFam.length} 个（不展示家族练习，样例：${thinFam.slice(0, 6).map((w) => w.id + '(' + w.familyWordIds.length + ')').join(' ')}）`)
+const badFam = generated.filter((w) => w.familyWordIds.length > 8)
+if (badFam.length) { console.error(`✗ familyWordIds 超上限：${badFam.map((w) => w.id + '(' + w.familyWordIds.length + ')').join(', ')}`); process.exit(1) }
 
 const words = allWords
 
@@ -178,6 +183,19 @@ const worlds = cfg.worlds.map((w) => ({
   description: `学习词根：${w.morphemeIds.join('、')}（${w.name}）`,
   morphemeIds: w.morphemeIds,
 }))
+
+// 孤儿词素清理：铺库时词素表按「全部已知词素」生成，会带进一批暂未被任何词用到的
+// （Stage 3 一批只上一部分词，其余的词在后面的批次）。留着会让校验报 245 个「孤儿词素」；
+// 但世界引用的词素要保留，否则 A24 会反过来报「引用了没建模的词素」。
+const worldMorphemeIds = new Set(worlds.flatMap((w) => w.morphemeIds))
+const usedMorphemeIds = new Set(words.flatMap((w) => w.parts.map((p) => p.morphemeId)))
+const morphemesBefore = morphemes.length
+morphemes = morphemes.filter((m) => usedMorphemeIds.has(m.id) || worldMorphemeIds.has(m.id))
+morphemeIds = new Set(morphemes.map((m) => m.id))
+console.log(`孤儿词素清理：${morphemesBefore} → ${morphemes.length}（移除 ${morphemesBefore - morphemes.length} 个暂未被引用的词素）`)
+// 清理后重算拼词干扰项：makeDistractors 挑的干扰词素可能落在被清理的词素里，
+// A15 会判「既不是词素 id 也不是变体」。
+for (const w of generated) w.distractors = makeDistractors(new Set(w.parts.map((p) => p.morphemeId)), w.id)
 
 // ── 落盘 JSON ───────────────────────────────────────────────────────────────
 writeFileSync(join(contentDir, 'morphemes.json'), `${JSON.stringify(morphemes, null, 2)}\n`)

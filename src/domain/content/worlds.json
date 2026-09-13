@@ -142,5 +142,143 @@
       "opt",
       "vac"
     ]
+  },
+  {
+    "id": "day-room",
+    "name": "起居室",
+    "description": "学习词根：day、room、house、bath、chair、night（起居室）",
+    "morphemeIds": [
+      "day",
+      "room",
+      "house",
+      "bath",
+      "chair",
+      "night"
+    ]
+  },
+  {
+    "id": "body-clinic",
+    "name": "身体馆",
+    "description": "学习词根：body、hand、foot、tooth、ache（身体馆）",
+    "morphemeIds": [
+      "body",
+      "hand",
+      "foot",
+      "tooth",
+      "ache"
+    ]
+  },
+  {
+    "id": "nature-field",
+    "name": "原野",
+    "description": "学习词根：sun、sea、rain、water、air、ground（原野）",
+    "morphemeIds": [
+      "sun",
+      "sea",
+      "rain",
+      "water",
+      "air",
+      "ground"
+    ]
+  },
+  {
+    "id": "compass-tower",
+    "name": "四方塔",
+    "description": "学习词根：north、south、west、line、direct、position（四方塔）",
+    "morphemeIds": [
+      "north",
+      "south",
+      "west",
+      "line",
+      "direct",
+      "position"
+    ]
+  },
+  {
+    "id": "hold-vault",
+    "name": "持握库",
+    "description": "学习词根：tain、ten、take、prise、ceive、quest（持握库）",
+    "morphemeIds": [
+      "tain",
+      "ten",
+      "take",
+      "prise",
+      "ceive",
+      "quest"
+    ]
+  },
+  {
+    "id": "motion-yard",
+    "name": "行止院",
+    "description": "学习词根：act、ceed、pass、turn、cycle、stand（行止院）",
+    "morphemeIds": [
+      "act",
+      "ceed",
+      "pass",
+      "turn",
+      "cycle",
+      "stand"
+    ]
+  },
+  {
+    "id": "sense-gallery",
+    "name": "感知廊",
+    "description": "学习词根：sent、vision、view、real、mean（感知廊）",
+    "morphemeIds": [
+      "sent",
+      "vision",
+      "view",
+      "real",
+      "mean"
+    ]
+  },
+  {
+    "id": "build-site",
+    "name": "营造场",
+    "description": "学习词根：base、board、cover、break、ember（营造场）",
+    "morphemeIds": [
+      "base",
+      "board",
+      "cover",
+      "break",
+      "ember"
+    ]
+  },
+  {
+    "id": "life-street",
+    "name": "生活街",
+    "description": "学习词根：live、life、use、play、car、book、week、child（生活街）",
+    "morphemeIds": [
+      "live",
+      "life",
+      "use",
+      "play",
+      "car",
+      "book",
+      "week",
+      "child"
+    ]
+  },
+  {
+    "id": "school-yard",
+    "name": "学堂院",
+    "description": "学习词根：class、success、agree、thing、hard（学堂院）",
+    "morphemeIds": [
+      "class",
+      "success",
+      "agree",
+      "thing",
+      "hard"
+    ]
+  },
+  {
+    "id": "craft-bench",
+    "name": "匠作台",
+    "description": "学习词根：draw、lead、port（匠作台）",
+    "morphemeIds": [
+      "draw",
+      "lead",
+      "port"
+    ]
   }
 ]

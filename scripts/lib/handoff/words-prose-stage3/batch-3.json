@@ -4,7 +4,11 @@
   "modernMeaningCn": "精心制作的",
   "literalMeaningCn": "做出来的",
   "metaphorMeaningCn": "精心制作的、详尽的",
-  "metaphorOptions": ["精心制作的、详尽的", "草率的", "简陋的"],
+  "metaphorOptions": [
+   "精心制作的、详尽的",
+   "精神的背面",
+   "医近视散光的过程"
+  ],
   "mnemonicNote": "e(出)+labor(劳动)+ate：肯下功夫做出来的",
   "sourceNote": "拉丁 elaborare，e-(出) + laborare(劳动)"
  },
@@ -12,7 +16,11 @@
   "modernMeaningCn": "举起",
   "literalMeaningCn": "使往上升",
   "metaphorMeaningCn": "举起、提高",
-  "metaphorOptions": ["举起、提高", "压低", "搁置"],
+  "metaphorOptions": [
+   "举起、提高",
+   "守着文字差错率过活",
+   "相同的工具"
+  ],
   "mnemonicNote": "e(出)+lev(升)+ate：把它举到高处",
   "sourceNote": "拉丁 elevare，e-(出) + levare(举起)"
  },
@@ -20,7 +28,11 @@
   "modernMeaningCn": "电梯",
   "literalMeaningCn": "使升起之物",
   "metaphorMeaningCn": "电梯、升降机",
-  "metaphorOptions": ["电梯、升降机", "楼梯", "滑梯"],
+  "metaphorOptions": [
+   "电梯、升降机",
+   "带来的一角",
+   "班级的工具"
+  ],
   "mnemonicNote": "e+levat(升)+or(物)：专门把人往上抬的箱子",
   "sourceNote": "拉丁 elevare(举起) 的施事名词"
  },
@@ -28,7 +40,11 @@
   "modernMeaningCn": "鼓励",
   "literalMeaningCn": "给人一颗心",
   "metaphorMeaningCn": "鼓励、激励",
-  "metaphorOptions": ["鼓励、激励", "打击", "无视"],
+  "metaphorOptions": [
+   "鼓励、激励",
+   "动作的背面",
+   "太阳的过程"
+  ],
   "mnemonicNote": "en(使)+cour(心)+age：往他心里添一把勇气",
   "sourceNote": "古法语 encoragier，en-(使) + cor(心)"
  },
@@ -36,7 +52,11 @@
   "modernMeaningCn": "设想",
   "literalMeaningCn": "在心中看见",
   "metaphorMeaningCn": "设想、展望",
-  "metaphorOptions": ["设想、展望", "无视", "遗忘"],
+  "metaphorOptions": [
+   "设想、展望",
+   "撕开的过程",
+   "保持的人"
+  ],
   "mnemonicNote": "en(使)+vis(看)+ion：把没发生的事先看一遍",
   "sourceNote": "en-(使) + 拉丁 videre(看) 的词干 vis-"
  },
@@ -44,7 +64,11 @@
   "modernMeaningCn": "平等的",
   "literalMeaningCn": "相等的",
   "metaphorMeaningCn": "平等的、对手",
-  "metaphorOptions": ["平等的、对手", "优越的", "低下的"],
+  "metaphorOptions": [
+   "平等的、对手",
+   "守着切断过活",
+   "被高兴的东西"
+  ],
   "mnemonicNote": "equ(相等)+al：两边一样重，谁也不欠谁",
   "sourceNote": "拉丁 aequalis，aequus(平等)"
  },
@@ -52,7 +76,11 @@
   "modernMeaningCn": "平等",
   "literalMeaningCn": "相等的状态",
   "metaphorMeaningCn": "平等、均等",
-  "metaphorOptions": ["平等、均等", "差别", "特权"],
+  "metaphorOptions": [
+   "平等、均等",
+   "分开的地方",
+   "被测量的东西"
+  ],
   "mnemonicNote": "equ(相等)+ality：把差距抹平之后的模样",
   "sourceNote": "拉丁 aequalitas，aequalis 的名词形式"
  },
@@ -60,7 +88,11 @@
   "modernMeaningCn": "方程式",
   "literalMeaningCn": "使相等的式子",
   "metaphorMeaningCn": "等式、方程式",
-  "metaphorOptions": ["等式、方程式", "不等式", "口算"],
+  "metaphorOptions": [
+   "等式、方程式",
+   "蛋糕的地方",
+   "一种意志的习俗"
+  ],
   "mnemonicNote": "equ(相等)+ation：两边摆平，等号才算数",
   "sourceNote": "拉丁 aequatio，aequatio(使相等)"
  },
@@ -68,7 +100,11 @@
   "modernMeaningCn": "赤道",
   "literalMeaningCn": "使昼夜相等之线",
   "metaphorMeaningCn": "赤道",
-  "metaphorOptions": ["赤道", "回归线", "经线"],
+  "metaphorOptions": [
+   "赤道",
+   "劳作的人",
+   "外国的的背面"
+  ],
   "mnemonicNote": "equat(使相等)+or：日夜等长的那条圈",
   "sourceNote": "拉丁 aequator，指「使昼夜均等者」"
  },
@@ -76,7 +112,11 @@
   "modernMeaningCn": "疏散",
   "literalMeaningCn": "把地方腾空",
   "metaphorMeaningCn": "疏散、撤离",
-  "metaphorOptions": ["疏散、撤离", "聚集", "坚守"],
+  "metaphorOptions": [
+   "疏散、撤离",
+   "出生的过程",
+   "显露的背面"
+  ],
   "mnemonicNote": "e(出)+vac(空)+uate：让场地里一个人都不剩",
   "sourceNote": "拉丁 evacuare，e-(出) + vacuus(空的)"
  },
@@ -84,7 +124,11 @@
   "modernMeaningCn": "事件",
   "literalMeaningCn": "到来的事",
   "metaphorMeaningCn": "事件、大事",
-  "metaphorOptions": ["事件、大事", "平常事", "传闻"],
+  "metaphorOptions": [
+   "事件、大事",
+   "监狱的地方",
+   "一种较普通时刻时期早的习俗"
+  ],
   "mnemonicNote": "e(出)+vent(来)：从时间里冒出来的那件事",
   "sourceNote": "拉丁 eventus，evenire(发生) 的过去分词"
  },
@@ -92,7 +136,11 @@
   "modernMeaningCn": "每个人",
   "literalMeaningCn": "每一个身体",
   "metaphorMeaningCn": "每个人",
-  "metaphorOptions": ["每个人", "没有人", "少数人"],
+  "metaphorOptions": [
+   "每个人",
+   "向下的小站",
+   "被蛾害的东西"
+  ],
   "mnemonicNote": "every(每一)+body(身体)：一个都不落下",
   "sourceNote": "英语复合词，every + body"
  },
@@ -100,7 +148,11 @@
   "modernMeaningCn": "每天的",
   "literalMeaningCn": "每一日都有",
   "metaphorMeaningCn": "日常的、每天的",
-  "metaphorOptions": ["日常的、每天的", "偶尔的", "节日的"],
+  "metaphorOptions": [
+   "日常的、每天的",
+   "向着使人口聚居在中去",
+   "一种在前的习俗"
+  ],
   "mnemonicNote": "every(每一)+day(日)：天天如此，不出奇",
   "sourceNote": "英语复合词，every + day"
  },
@@ -108,7 +160,11 @@
   "modernMeaningCn": "一切事物",
   "literalMeaningCn": "每一件东西",
   "metaphorMeaningCn": "一切、所有事物",
-  "metaphorOptions": ["一切、所有事物", "什么都没有", "某个东西"],
+  "metaphorOptions": [
+   "一切、所有事物",
+   "游泳动物的工具",
+   "守着使成为过活"
+  ],
   "mnemonicNote": "every(每一)+thing(东西)：一样都不缺",
   "sourceNote": "英语复合词，every + thing"
  },
@@ -116,7 +172,11 @@
   "modernMeaningCn": "展示",
   "literalMeaningCn": "拿出来持着",
   "metaphorMeaningCn": "陈列、展示",
-  "metaphorOptions": ["陈列、展示", "藏起", "销毁"],
+  "metaphorOptions": [
+   "陈列、展示",
+   "藏起",
+   "销毁"
+  ],
   "mnemonicNote": "ex(出)+hibit(持)：把东西端出来给大家看",
   "sourceNote": "拉丁 exhibere，ex-(出) + habere(持、有)"
  },
@@ -124,7 +184,11 @@
   "modernMeaningCn": "驱逐",
   "literalMeaningCn": "往外推",
   "metaphorMeaningCn": "驱逐、开除",
-  "metaphorOptions": ["驱逐、开除", "挽留", "招募"],
+  "metaphorOptions": [
+   "驱逐、开除",
+   "宾夕法尼亚雷丁海的背面",
+   "守着技艺过活"
+  ],
   "mnemonicNote": "ex(出)+pel(推)：推着人出大门",
   "sourceNote": "拉丁 expellere，ex-(出) + pellere(推)"
  },
@@ -132,7 +196,11 @@
   "modernMeaningCn": "阐述者",
   "literalMeaningCn": "摆出来的人",
   "metaphorMeaningCn": "阐述者、指数",
-  "metaphorOptions": ["阐述者、指数", "听众", "质疑者"],
+  "metaphorOptions": [
+   "阐述者、指数",
+   "把任何的任何串起来",
+   "被意首领的东西"
+  ],
   "mnemonicNote": "ex(出)+pon(放)+ent：把观点摆到台面上的人",
   "sourceNote": "拉丁 exponere，ex-(出) + ponere(放)"
  },
@@ -140,7 +208,11 @@
   "modernMeaningCn": "暴露",
   "literalMeaningCn": "放到外面",
   "metaphorMeaningCn": "暴露、揭露",
-  "metaphorOptions": ["暴露、揭露", "遮盖", "封存"],
+  "metaphorOptions": [
+   "暴露、揭露",
+   "周围的工具",
+   "幽默的过程"
+  ],
   "mnemonicNote": "ex(出)+pose(放)：把藏着的东西摆到明处",
   "sourceNote": "拉丁 exponere，ex-(出) + ponere(放)"
  },
@@ -148,7 +220,11 @@
   "modernMeaningCn": "设施",
   "literalMeaningCn": "做事的便利",
   "metaphorMeaningCn": "设施、便利",
-  "metaphorOptions": ["设施、便利", "障碍", "禁令"],
+  "metaphorOptions": [
+   "设施、便利",
+   "法律的工具",
+   "横杆的人"
+  ],
   "mnemonicNote": "fac(做)+ility：让事情好做的东西",
   "sourceNote": "拉丁 facilitas，facilis(容易) 的名词形式"
  },
@@ -156,7 +232,11 @@
   "modernMeaningCn": "工厂",
   "literalMeaningCn": "做事的地方",
   "metaphorMeaningCn": "工厂",
-  "metaphorOptions": ["工厂", "仓库", "商店"],
+  "metaphorOptions": [
+   "工厂",
+   "俄国的小站",
+   "重量的背面"
+  ],
   "mnemonicNote": "fac(做)+tory(场所)：一天到晚在做东西的院子",
   "sourceNote": "拉丁 factorium，facere(做) 的场所名词"
  },
@@ -164,7 +244,11 @@
   "modernMeaningCn": "肥料",
   "literalMeaningCn": "使多产之物",
   "metaphorMeaningCn": "肥料",
-  "metaphorOptions": ["肥料", "除草剂", "种子"],
+  "metaphorOptions": [
+   "肥料",
+   "的过去式和过去分的背面",
+   "游戏的人"
+  ],
   "mnemonicNote": "fertil(多产)+izer(物)：撒下去，庄稼就长得好",
   "sourceNote": "拉丁 fertilis(多产)，源自 ferre(带来、生产)"
  },
@@ -172,7 +256,11 @@
   "modernMeaningCn": "灵活的",
   "literalMeaningCn": "能弯的",
   "metaphorMeaningCn": "灵活的、可弯曲的",
-  "metaphorOptions": ["灵活的、可弯曲的", "僵硬的", "脆弱的"],
+  "metaphorOptions": [
+   "灵活的、可弯曲的",
+   "向着麻木的去",
+   "一种灰烬的习俗"
+  ],
   "mnemonicNote": "flex(弯)+ible(能)：压下去还能弹回来",
   "sourceNote": "拉丁 flectere(弯) 的词干 flex- + -ibilis"
  },
@@ -180,7 +268,11 @@
   "modernMeaningCn": "波动",
   "literalMeaningCn": "像水一样流",
   "metaphorMeaningCn": "波动、起伏",
-  "metaphorOptions": ["波动、起伏", "稳定", "停滞"],
+  "metaphorOptions": [
+   "波动、起伏",
+   "把粗大的一头串起来",
+   "一种正午的习俗"
+  ],
   "mnemonicNote": "fluct(流)+uate：像水面一样上上下下",
   "sourceNote": "拉丁 fluctuare，fluctus(波浪) 源自 fluere(流)"
  },
@@ -188,7 +280,11 @@
   "modernMeaningCn": "流利的",
   "literalMeaningCn": "流动的",
   "metaphorMeaningCn": "流利的、流畅的",
-  "metaphorOptions": ["流利的、流畅的", "结巴的", "生硬的"],
+  "metaphorOptions": [
+   "流利的、流畅的",
+   "再一次的地方",
+   "一种视频的习俗"
+  ],
   "mnemonicNote": "flu(流)+ent：话像水一样流出来",
   "sourceNote": "拉丁 fluere(流) 的现在分词 fluens"
  },
@@ -196,7 +292,11 @@
   "modernMeaningCn": "流体",
   "literalMeaningCn": "会流的东西",
   "metaphorMeaningCn": "流体、液体",
-  "metaphorOptions": ["流体、液体", "固体", "气体"],
+  "metaphorOptions": [
+   "流体、液体",
+   "向着使进入去",
+   "装备的地方"
+  ],
   "mnemonicNote": "flu(流)+id：一倒就走形的物质",
   "sourceNote": "拉丁 fluidus，fluere(流) 的形容词形式"
  },
@@ -204,7 +304,11 @@
   "modernMeaningCn": "足球",
   "literalMeaningCn": "用脚踢的球",
   "metaphorMeaningCn": "足球",
-  "metaphorOptions": ["足球", "篮球", "排球"],
+  "metaphorOptions": [
+   "足球",
+   "被警察的东西",
+   "经星期四的地方"
+  ],
   "mnemonicNote": "foot(脚)+ball(球)：规定不许上手的球戏",
   "sourceNote": "英语复合词，foot + ball"
  },
@@ -212,7 +316,11 @@
   "modernMeaningCn": "正式的",
   "literalMeaningCn": "按形式的",
   "metaphorMeaningCn": "正式的、合乎礼节的",
-  "metaphorOptions": ["正式的、合乎礼节的", "随意的", "粗鲁的"],
+  "metaphorOptions": [
+   "正式的、合乎礼节的",
+   "把空气串起来",
+   "被共同的东西"
+  ],
   "mnemonicNote": "form(形式)+al：一举一动都按规矩来",
   "sourceNote": "拉丁 formalis，forma(形式)"
  },
@@ -220,7 +328,11 @@
   "modernMeaningCn": "形成",
   "literalMeaningCn": "赋形之过程",
   "metaphorMeaningCn": "形成、编队",
-  "metaphorOptions": ["形成、编队", "解散", "解体"],
+  "metaphorOptions": [
+   "形成、编队",
+   "向着损毁去",
+   "把称量串起来"
+  ],
   "mnemonicNote": "form(形)+ation：慢慢成形的那个过程",
   "sourceNote": "拉丁 formatio，formare(使成形)"
  },
@@ -228,7 +340,11 @@
   "modernMeaningCn": "加强",
   "literalMeaningCn": "使变强壮",
   "metaphorMeaningCn": "加固、强化",
-  "metaphorOptions": ["加固、强化", "削弱", "拆毁"],
+  "metaphorOptions": [
+   "加固、强化",
+   "削弱",
+   "拆毁"
+  ],
   "mnemonicNote": "fort(强)+ify(使)：把墙垒厚，把身子养壮",
   "sourceNote": "拉丁 fortificare，fortis(强) + facere(使)"
  },
@@ -236,7 +352,11 @@
   "modernMeaningCn": "堡垒",
   "literalMeaningCn": "强固之处",
   "metaphorMeaningCn": "堡垒、要塞",
-  "metaphorOptions": ["堡垒、要塞", "营地", "村落"],
+  "metaphorOptions": [
+   "堡垒、要塞",
+   "把相反串起来",
+   "守着放置过活"
+  ],
   "mnemonicNote": "fort(强)+ress：修得又厚又硬的据点",
   "sourceNote": "古法语 forteresse，拉丁 fortis(强)"
  },
@@ -244,7 +364,11 @@
   "modernMeaningCn": "融合",
   "literalMeaningCn": "熔到一起",
   "metaphorMeaningCn": "融合、聚变",
-  "metaphorOptions": ["融合、聚变", "分裂", "隔离"],
+  "metaphorOptions": [
+   "融合、聚变",
+   "加强的工具",
+   "一种弯曲的习俗"
+  ],
   "mnemonicNote": "fus(熔)+ion：两样东西熔成一团",
   "sourceNote": "拉丁 fusio，fundere(倒、熔) 的名词形式"
  },
@@ -252,7 +376,11 @@
   "modernMeaningCn": "基因",
   "literalMeaningCn": "生成之物",
   "metaphorMeaningCn": "基因",
-  "metaphorOptions": ["基因", "细胞", "器官"],
+  "metaphorOptions": [
+   "基因",
+   "把什么怎么串起来",
+   "低点的过程"
+  ],
   "mnemonicNote": "gen(生)：决定你长成什么样的那一段",
   "sourceNote": "希腊 genos(种族、出生)，经丹麦语 gene"
  },
@@ -260,7 +388,11 @@
   "modernMeaningCn": "产生",
   "literalMeaningCn": "使生出",
   "metaphorMeaningCn": "产生、生成",
-  "metaphorOptions": ["产生、生成", "消耗", "毁灭"],
+  "metaphorOptions": [
+   "产生、生成",
+   "偶然的工具",
+   "劳作的一角"
+  ],
   "mnemonicNote": "gen(生)+er+ate：让新东西从无到有",
   "sourceNote": "拉丁 generare，genus(种族) 的同源动词"
  },
@@ -268,7 +400,11 @@
   "modernMeaningCn": "遗传学",
   "literalMeaningCn": "研究生成之物的学问",
   "metaphorMeaningCn": "遗传学",
-  "metaphorOptions": ["遗传学", "生态学", "解剖学"],
+  "metaphorOptions": [
+   "遗传学",
+   "平面的工具",
+   "一种统治的习俗"
+  ],
   "mnemonicNote": "gene(基因)+tic(学问)：专门研究传下去的东西",
   "sourceNote": "希腊 genetikos(关于出生的)，词根 gen-"
  },
@@ -276,7 +412,11 @@
   "modernMeaningCn": "等级",
   "literalMeaningCn": "台阶",
   "metaphorMeaningCn": "等级、年级",
-  "metaphorOptions": ["等级、年级", "平地", "深渊"],
+  "metaphorOptions": [
+   "等级、年级",
+   "竞争的过程",
+   "附于词尾为的工具"
+  ],
   "mnemonicNote": "grad(步)：一级一级的台阶，就是等级",
   "sourceNote": "拉丁 gradus(步、台阶)，gradi(走)"
  },
@@ -284,7 +424,11 @@
   "modernMeaningCn": "毕业",
   "literalMeaningCn": "走完台阶的人",
   "metaphorMeaningCn": "毕业、毕业生",
-  "metaphorOptions": ["毕业、毕业生", "入学", "退学"],
+  "metaphorOptions": [
+   "毕业、毕业生",
+   "入学",
+   "退学"
+  ],
   "mnemonicNote": "grad(步)+u+ate：一级级走完，就毕业了",
   "sourceNote": "中世纪拉丁 graduare，gradus(台阶、等级)"
  },
@@ -292,7 +436,11 @@
   "modernMeaningCn": "孙辈",
   "literalMeaningCn": "隔一代的孩子",
   "metaphorMeaningCn": "孙辈、孙儿",
-  "metaphorOptions": ["孙辈、孙儿", "父母", "表亲"],
+  "metaphorOptions": [
+   "孙辈、孙儿",
+   "父母",
+   "表亲"
+  ],
   "mnemonicNote": "grand(隔一代)+child(孩子)：比自己矮一辈",
   "sourceNote": "英语复合词，grand-(隔一辈) + child"
  },
@@ -300,7 +448,11 @@
   "modernMeaningCn": "石墨",
   "literalMeaningCn": "用来写之物",
   "metaphorMeaningCn": "石墨",
-  "metaphorOptions": ["石墨", "金刚石", "黏土"],
+  "metaphorOptions": [
+   "石墨",
+   "金刚石",
+   "黏土"
+  ],
   "mnemonicNote": "graph(写)+ite(矿物)：能留下字迹的碳",
   "sourceNote": "希腊 graphein(写)，因用于制铅笔而得名"
  },
@@ -308,7 +460,11 @@
   "modernMeaningCn": "感激的",
   "literalMeaningCn": "充满喜悦的",
   "metaphorMeaningCn": "感激的、感谢的",
-  "metaphorOptions": ["感激的、感谢的", "怨恨的", "冷漠的"],
+  "metaphorOptions": [
+   "感激的、感谢的",
+   "地下的小站",
+   "土地的一角"
+  ],
   "mnemonicNote": "grate(喜悦)+ful(满)：心里装满了道谢",
   "sourceNote": "拉丁 gratus(令人愉快的、感激的) + -ful"
  },
@@ -316,7 +472,11 @@
   "modernMeaningCn": "使满足",
   "literalMeaningCn": "使高兴",
   "metaphorMeaningCn": "使满足、使高兴",
-  "metaphorOptions": ["使满足、使高兴", "使失望", "使愤怒"],
+  "metaphorOptions": [
+   "使满足、使高兴",
+   "印度河的过程",
+   "把成功串起来"
+  ],
   "mnemonicNote": "grat(喜悦)+ify(使)：让对方笑出来",
   "sourceNote": "拉丁 gratificari，gratus(愉快) + facere(使)"
  },
@@ -324,7 +484,11 @@
   "modernMeaningCn": "感激",
   "literalMeaningCn": "喜悦之情",
   "metaphorMeaningCn": "感激、感恩",
-  "metaphorOptions": ["感激、感恩", "抱怨", "遗忘"],
+  "metaphorOptions": [
+   "感激、感恩",
+   "事物的过程",
+   "渔夫的地方"
+  ],
   "mnemonicNote": "grat(喜悦)+itude(状态)：心里那声「好在有你」",
   "sourceNote": "中世纪拉丁 gratitudo，gratus(感激的)"
  },
@@ -332,7 +496,11 @@
   "modernMeaningCn": "习惯",
   "literalMeaningCn": "保有的状态",
   "metaphorMeaningCn": "习惯、习性",
-  "metaphorOptions": ["习惯、习性", "偶然", "禁令"],
+  "metaphorOptions": [
+   "习惯、习性",
+   "太阳的过程",
+   "生活的小站"
+  ],
   "mnemonicNote": "hab(持、有)：长期抓在手里不放的那件事",
   "sourceNote": "拉丁 habitus，habere(持有) 的过去分词"
  },
@@ -340,7 +508,11 @@
   "modernMeaningCn": "习惯性的",
   "literalMeaningCn": "成了习惯的",
   "metaphorMeaningCn": "习惯性的、惯常的",
-  "metaphorOptions": ["习惯性的、惯常的", "突发的", "一次性的"],
+  "metaphorOptions": [
+   "习惯性的、惯常的",
+   "向着检查去",
+   "显露的人"
+  ],
   "mnemonicNote": "habit(习惯)+ual：不用想就自动做",
   "sourceNote": "拉丁 habitualis，habitus(习性)"
  },
@@ -348,7 +520,11 @@
   "modernMeaningCn": "手提包",
   "literalMeaningCn": "手拿的包",
   "metaphorMeaningCn": "手提包",
-  "metaphorOptions": ["手提包", "背包", "行李箱"],
+  "metaphorOptions": [
+   "手提包",
+   "把选择串起来",
+   "被同意的东西"
+  ],
   "mnemonicNote": "hand(手)+bag(包)：拎在手上出门的那只",
   "sourceNote": "英语复合词，hand + bag"
  },
@@ -356,7 +532,11 @@
   "modernMeaningCn": "英俊的",
   "literalMeaningCn": "手感顺眼的",
   "metaphorMeaningCn": "英俊的、可观的",
-  "metaphorOptions": ["英俊的、可观的", "丑陋的", "微薄的"],
+  "metaphorOptions": [
+   "英俊的、可观的",
+   "一种温和的的习俗",
+   "恐怖的工具"
+  ],
   "mnemonicNote": "hand(手)+some：古时说「拿在手里顺眼」，就是好看",
   "sourceNote": "中古英语 handsom，hand + -some(有…性质的)"
  },
@@ -364,7 +544,11 @@
   "modernMeaningCn": "几乎不",
   "literalMeaningCn": "以艰难的方式",
   "metaphorMeaningCn": "几乎不、简直不",
-  "metaphorOptions": ["几乎不、简直不", "十分", "偶尔"],
+  "metaphorOptions": [
+   "几乎不、简直不",
+   "分离的工具",
+   "埃塞俄比亚全国运的小站"
+  ],
   "mnemonicNote": "hard(难)+ly：难到「几乎做不到」的地步",
   "sourceNote": "古英语 heardlice，由「艰难地」引申为「几乎不」"
  },
@@ -372,7 +556,11 @@
   "modernMeaningCn": "头痛",
   "literalMeaningCn": "头在痛",
   "metaphorMeaningCn": "头痛、麻烦事",
-  "metaphorOptions": ["头痛、麻烦事", "轻松", "享受"],
+  "metaphorOptions": [
+   "头痛、麻烦事",
+   "布料的背面",
+   "一双的小站"
+  ],
   "mnemonicNote": "head(头)+ache(痛)：脑袋阵阵发疼",
   "sourceNote": "古英语复合词，heafod(头) + ece(痛)"
  },
@@ -380,7 +568,11 @@
   "modernMeaningCn": "假日",
   "literalMeaningCn": "神圣的日子",
   "metaphorMeaningCn": "假日、节日",
-  "metaphorOptions": ["假日、节日", "工作日", "加班日"],
+  "metaphorOptions": [
+   "假日、节日",
+   "工作日",
+   "加班日"
+  ],
   "mnemonicNote": "holi(神圣)+day(日)：原本指不用干活去敬神的日子",
   "sourceNote": "古英语 haligdaeg，halig(神圣) + daeg(日)"
  },
@@ -388,7 +580,11 @@
   "modernMeaningCn": "家务",
   "literalMeaningCn": "家里的活",
   "metaphorMeaningCn": "家务、家事",
-  "metaphorOptions": ["家务、家事", "公事", "农活"],
+  "metaphorOptions": [
+   "家务、家事",
+   "把恐怖串起来",
+   "被胜过的东西"
+  ],
   "mnemonicNote": "house(家)+work(活儿)：打扫收拾这些逃不掉的",
   "sourceNote": "英语复合词，house + work"
  },
@@ -396,7 +592,11 @@
   "modernMeaningCn": "消防栓",
   "literalMeaningCn": "出水之物",
   "metaphorMeaningCn": "消防栓、给水栓",
-  "metaphorOptions": ["消防栓、给水栓", "储水罐", "下水道"],
+  "metaphorOptions": [
+   "消防栓、给水栓",
+   "被预备好的状态的东西",
+   "所有的的小站"
+  ],
   "mnemonicNote": "hydr(水)+ant(物)：路边那个一开就喷水的家伙",
   "sourceNote": "希腊 hydor(水) + -ant(施事后缀)"
  },
@@ -404,7 +604,11 @@
   "modernMeaningCn": "水力的",
   "literalMeaningCn": "与水有关的",
   "metaphorMeaningCn": "水力的、液压的",
-  "metaphorOptions": ["水力的、液压的", "风力的", "电力的"],
+  "metaphorOptions": [
+   "水力的、液压的",
+   "表示沉湎于的人的一角",
+   "市场的小站"
+  ],
   "mnemonicNote": "hydr(水)+aulic(管)：靠水在管子里发力",
   "sourceNote": "希腊 hydor(水) + aulos(管子)"
  },
@@ -412,7 +616,11 @@
   "modernMeaningCn": "氢",
   "literalMeaningCn": "能生成水的元素",
   "metaphorMeaningCn": "氢",
-  "metaphorOptions": ["氢", "氧", "氦"],
+  "metaphorOptions": [
+   "氢",
+   "赢得的过程",
+   "奇迹的小站"
+  ],
   "mnemonicNote": "hydro(水)+gen(生)：烧起来会生出水，故名",
   "sourceNote": "法语 hydrogène，希腊 hydor(水) + gen-（生成）"
  },
@@ -420,7 +628,11 @@
   "modernMeaningCn": "低体温症",
   "literalMeaningCn": "热度过低",
   "metaphorMeaningCn": "低体温症、体温过低",
-  "metaphorOptions": ["低体温症、体温过低", "发烧", "中暑"],
+  "metaphorOptions": [
+   "低体温症、体温过低",
+   "发烧",
+   "中暑"
+  ],
   "mnemonicNote": "hypo(在下面)+therm(热)+ia：体温掉到正常线以下",
   "sourceNote": "希腊 hypo-(在下) + therme(热) + -ia(病症)"
  },
@@ -428,7 +640,11 @@
   "modernMeaningCn": "文盲的",
   "literalMeaningCn": "不识字的",
   "metaphorMeaningCn": "文盲的、不识字的",
-  "metaphorOptions": ["文盲的、不识字的", "博学的", "善于算的"],
+  "metaphorOptions": [
+   "文盲的、不识字的",
+   "形成的一角",
+   "母亲的小站"
+  ],
   "mnemonicNote": "il(不)+liter(文字)+ate：字母对他只是花纹",
   "sourceNote": "拉丁 illiteratus，il-(不) + littera(文字)"
  },
@@ -436,7 +652,11 @@
   "modernMeaningCn": "立即的",
   "literalMeaningCn": "中间没有隔的",
   "metaphorMeaningCn": "立即的、直接的",
-  "metaphorOptions": ["立即的、直接的", "拖延的", "间接的"],
+  "metaphorOptions": [
+   "立即的、直接的",
+   "守着危险过活",
+   "把奇迹串起来"
+  ],
   "mnemonicNote": "im(不)+medi(中间)+ate：中间不隔一层，马上就到",
   "sourceNote": "拉丁 immediatus，im-(不) + medius(中间)"
  },
@@ -444,7 +664,11 @@
   "modernMeaningCn": "移民",
   "literalMeaningCn": "迁进来的人",
   "metaphorMeaningCn": "移民、移入者",
-  "metaphorOptions": ["移民、移入者", "原住民", "游客"],
+  "metaphorOptions": [
+   "移民、移入者",
+   "守着浆果采集浆果过活",
+   "搜寻的地方"
+  ],
   "mnemonicNote": "im(入)+migr(迁移)+ant：走进这块土地定居的人",
   "sourceNote": "拉丁 immigrare，im-(入) + migrare(迁移)"
  },
@@ -452,7 +676,11 @@
   "modernMeaningCn": "移民入境",
   "literalMeaningCn": "迁入之行为",
   "metaphorMeaningCn": "移民、移居入境",
-  "metaphorOptions": ["移民、移居入境", "出境", "遣返"],
+  "metaphorOptions": [
+   "移民、移居入境",
+   "疼痛痛的地方",
+   "恐怖的过程"
+  ],
   "mnemonicNote": "im+migr(迁移)+ation：一批人搬进来的过程",
   "sourceNote": "拉丁 immigratio，immigrare 的名词形式"
  },
@@ -460,7 +688,11 @@
   "modernMeaningCn": "冲动",
   "literalMeaningCn": "内心被推一把",
   "metaphorMeaningCn": "冲动、凭一时的劲",
-  "metaphorOptions": ["冲动、凭一时的劲", "深思熟虑", "按兵不动"],
+  "metaphorOptions": [
+   "冲动、凭一时的劲",
+   "我将的背面",
+   "举起的小站"
+  ],
   "mnemonicNote": "im(向内)+pulse(推)：心里突然被人一推",
   "sourceNote": "拉丁 impulsus，impellere(推动) 的过去分词"
  },
@@ -468,7 +700,11 @@
   "modernMeaningCn": "不充分的",
   "literalMeaningCn": "达不到相等",
   "metaphorMeaningCn": "不充分的、不够格的",
-  "metaphorOptions": ["不充分的、不够格的", "绰绰有余", "刚刚好"],
+  "metaphorOptions": [
+   "不充分的、不够格的",
+   "重量的地方",
+   "汽车的一角"
+  ],
   "mnemonicNote": "in(不)+ad(朝向)+equ(相等)+ate：怎么凑也够不上那个数",
   "sourceNote": "in-(不) + 拉丁 adaequare(使相等)"
  },
@@ -476,7 +712,11 @@
   "modernMeaningCn": "难以置信的",
   "literalMeaningCn": "无法被相信的",
   "metaphorMeaningCn": "难以置信的、极好的",
-  "metaphorOptions": ["难以置信的、极好的", "平淡无奇的", "真实的"],
+  "metaphorOptions": [
+   "难以置信的、极好的",
+   "班级的工具",
+   "蛋糕的一角"
+  ],
   "mnemonicNote": "in(不)+cred(相信)+ible(能)：耳朵听不进这么离奇的事",
   "sourceNote": "拉丁 incredibilis，in-(不) + credere(相信)"
  }

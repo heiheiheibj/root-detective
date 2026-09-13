@@ -7,7 +7,7 @@ import { existsSync, readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 import { createInitialProfile, morphemes, rootMorphemes, worlds } from '../src/domain/data.ts'
-import { AGGREGATE_MIN_WORDS, summarize, TARGET_WORD_COUNT, validateContent, validateWorlds } from '../src/domain/contentRules.ts'
+import { AGGREGATE_MIN_WORDS, MIN_WORDS_PER_ROOT, summarize, TARGET_WORD_COUNT, validateContent, validateWorlds } from '../src/domain/contentRules.ts'
 
 // 浏览器侧 data.ts 只内联词条索引层（详情按分片懒加载）；校验要查详情字段，
 // 所以完整词表从 40 号产物 words.json 直接读——运行时和闸门共享同一份产物。
@@ -43,9 +43,15 @@ const canaryWordIds = [
 ]
 const canarySet = new Set(canaryWordIds)
 
+// A24 只要求「教学词根」挂世界：家族 ≥ MIN_WORDS_PER_ROOT 的才算教学词根。
+// 零件词根只出现在拼词卡片里、不上地图，把它们也拉进来会凭空多出 200 多个假错误。
+const famSize = new Map()
+for (const w of words) for (const p of w.parts) famSize.set(p.morphemeId, (famSize.get(p.morphemeId) || 0) + 1)
+const teachingRootIds = new Set([...famSize].filter(([, n]) => n >= MIN_WORDS_PER_ROOT).map(([id]) => id))
+
 const findings = [
   ...validateContent(morphemes, words, { residueAllowlist, unmodeledDistractorAllowlist, generated, handwrittenIds: canarySet }),
-  ...validateWorlds(morphemes, worlds),
+  ...validateWorlds(morphemes, worlds, teachingRootIds),
 ]
 
 const failures = []
@@ -54,7 +60,9 @@ for (const id of canaryWordIds) if (!wordIds.has(id)) failures.push(`canary 词�
 
 // TARGET_WORD_COUNT 是「这一阶段打算有多少个词」，和 canary 清单是两回事：
 // canary 保证老的没丢，这个保证新的数量对得上，防止生成器悄悄少产一半。
-if (words.length !== TARGET_WORD_COUNT) failures.push(`应有 ${TARGET_WORD_COUNT} 个词，实际 ${words.length} 个`)
+// Stage 3 起按批次往上铺词，词数只增不减 —— 改成「不少于」的下限检查，
+// 既防生成器悄悄少产一半，也不至于每加一批就回来改一次目标值。
+if (words.length < TARGET_WORD_COUNT) failures.push(`应不少于 ${TARGET_WORD_COUNT} 个词，实际 ${words.length} 个`)
 
 const progressCount = createInitialProfile().progress.length
 if (progressCount !== rootMorphemes.length) failures.push(`初始进度应有 ${rootMorphemes.length} 条，实际 ${progressCount} 条`)
