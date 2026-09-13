@@ -190,7 +190,38 @@ d5 从 error 降为 warning —— 它是「必须收冷门派生词」的选题
 
 **产物自洽已验证**：batch-02 的 415 词 / 484 词素，part id 在词素表里**缺失 0**。
 
-**S6c 仍待做**：① 执行队列（A2 译 221 条 + A3/A4 释义 266 条）② 世界划分（教学词根分 15~25 个世界并命名）
+### S6c 世界划分 【✅ 完成】
+
+提纯教学词根时暴露两个边界问题：
+
+1. **教学词根表里混着功能词与碎片**。判据原本只有「出现在 ≥3 个词里」，于是 `her`（代词，出现在 herself）、
+   `every`/`there`/`how`（副词）、`six`/`seven`（数词）、`por`（abbr.）、`app` 都成了「词根」，还有
+   `her→stick`、`fall→to deceive`、`ceive→head`、`main→hand` 这类错配 gloss。
+   新增 `scripts/tools/refine-teaching-roots.mjs` 提纯：**163 → 154**（剔除 9 个）。两条判据：
+   ① 有 Wiktionary 词根词条（`lexicon.glossSource === 'affix'`，`dict`/`sist`/`pel`/`ceed` 靠这条）；
+   ② ECDICT 里是实词（词性 n/v/a，`day`/`book`/`sea` 靠这条，`her`/`there` 是功能词被拦）。
+   **坑**：ECDICT 的 `pos` 独立字段实测是空的，词性得从 `translation` 开头取（`"n. 天, 日子"` / `"pron. 她的"`）。
+
+2. **154 个「教学词根」里只有约 40 个该挂世界**。其余 110 多个是普通英语复合词部件
+   （`day`→daytime、`book`→bookmark、`sea`→seaside），它们只是拼词零件，**没有主题归属**。
+   另外世界是**按批次增量**的，本批只能挂已进词库的词根。
+
+最终划出 4 个新世界（+ 已有 12 = 16）：
+
+| id | 名称 | 词根 |
+|---|---|---|
+| `motion-yard` | 行止院 | act, ceed, pass, turn, cycle |
+| `hold-vault` | 持握库 | tain, ten, prise, ceive, take, quest |
+| `sense-gallery` | 感知廊 | sent, vision, view |
+| `build-site` | 营造场 | stand, base, board |
+
+### 下一步（S6c 收尾 → S6d/e）
+
+1. **改 A24 检查口径**：现在要求「每个词根都要挂世界」，但 batch-02 有 328 个词根、只有 17 个该挂。
+   新口径 = 只对「有 Wiktionary 词根词条或 ECDICT 实词证据 **且不是普通复合词部件**」的词根要求世界。
+2. **执行释义/翻译队列**：`.work/derived/morpheme-tasks.json`（A2 译 221 条 + A3/A4 释义 266 条）。
+3. **S6d 管线适配**（shard 大小、handoff 分片）、**S6e 跑通全链**。
+4. 仓库清理：`_t_*.mjs` 等杂物上次误用 `git add -A` 提交了，需 `git rm --cached`（之前执行时审批超时未完成）。
 
 <details><summary>原问题描述（背景）</summary>
 

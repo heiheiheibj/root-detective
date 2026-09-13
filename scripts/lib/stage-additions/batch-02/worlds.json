@@ -1,0 +1,25 @@
+{
+ "_comment": "3.1 中考批新增 4 个世界（+ 已有 12 个 = 16），只覆盖本批**已进词库**的 17 个拉丁/希腊词根。两条边界：① 世界按批次增量，本批 154 个教学词根里很多（tend/verb/law/text/sense…）属于未来批次的词，现在挂不上；② 110 多个普通英语复合词部件（day/book/sea/house/water…）只是拼词零件，没有主题归属，不挂世界 —— A24 的检查口径要按这两条改，见 docs/Stage3-执行TODO.md。",
+ "worlds": [
+  {
+   "id": "motion-yard",
+   "name": "行止院",
+   "morphemeIds": ["act", "ceed", "pass", "turn", "cycle"]
+  },
+  {
+   "id": "hold-vault",
+   "name": "持握库",
+   "morphemeIds": ["tain", "ten", "prise", "ceive", "take", "quest"]
+  },
+  {
+   "id": "sense-gallery",
+   "name": "感知廊",
+   "morphemeIds": ["sent", "vision", "view"]
+  },
+  {
+   "id": "build-site",
+   "name": "营造场",
+   "morphemeIds": ["stand", "base", "board"]
+  }
+ ]
+}
