@@ -6,8 +6,8 @@
   "metaphorMeaningCn": "缺席的、心不在焉的",
   "metaphorOptions": [
    "缺席的、心不在焉的",
-   "把抓取翻开",
-   "把黑色串起来"
+   "一种抓取的习俗",
+   "黑色的人"
   ],
   "mnemonicNote": "ab(离开)+sent(存在)：人从存在里离开了，就是不在场",
   "sourceNote": "拉丁 absentia，由 ab-(离开) + esse(存在) 构成"
@@ -18,8 +18,8 @@
   "metaphorMeaningCn": "接受、同意",
   "metaphorOptions": [
    "接受、同意",
-   "直接的的味道",
-   "被判断的东西"
+   "替直接的操心",
+   "判断的味道"
   ],
   "mnemonicNote": "ac(朝向)+cept(拿)：把东西朝自己这边拿过来",
   "sourceNote": "拉丁 accipere，ad-(朝向) + capere(拿)"
@@ -30,10 +30,10 @@
   "metaphorMeaningCn": "一致、协议",
   "metaphorOptions": [
    "一致、协议",
-   "围着同伴转",
-   "数着劳作过日子"
+   "同伴的旧事",
+   "劳作的来路"
   ],
-  "mnemonicNote": "ac(朝向)+cord(心)：两颗心朝同一处，才叫一致",
+  "mnemonicNote": "ac(朝向)+cord(心)：两颗心朝同一处",
   "sourceNote": "拉丁 accordare，ad-(朝向) + cor(心)"
  },
  "action": {
@@ -42,8 +42,8 @@
   "metaphorMeaningCn": "行动、行为",
   "metaphorOptions": [
    "行动、行为",
-   "围着小东西转",
-   "离孩子很远"
+   "把小东西翻开",
+   "孩子的影子"
   ],
   "mnemonicNote": "act(做)+ion(名词后缀)：做事这个动作本身",
   "sourceNote": "拉丁 actio，源自 agere(做、驱动)"
@@ -54,8 +54,8 @@
   "metaphorMeaningCn": "活跃的、积极的",
   "metaphorOptions": [
    "活跃的、积极的",
-   "围着同意转",
-   "离刷子很远"
+   "同意的影子",
+   "刷子的人"
   ],
   "mnemonicNote": "act(做)+ive(形容词后缀)：爱动、爱做事的",
   "sourceNote": "拉丁 activus，agere(做) 的形容词形式"
@@ -66,8 +66,8 @@
   "metaphorMeaningCn": "足够的、适当的",
   "metaphorOptions": [
    "足够的、适当的",
-   "围着孩子转",
-   "离笔记很远"
+   "孩子的另一面",
+   "笔记的味道"
   ],
   "mnemonicNote": "ad(朝向)+equ(相等)+ate：达到了需要的量，够用",
   "sourceNote": "拉丁 adaequare，ad-(朝向) + aequus(相等)"
@@ -78,8 +78,8 @@
   "metaphorMeaningCn": "调整、适应",
   "metaphorOptions": [
    "调整、适应",
-   "坚硬的的来路",
-   "守着否定过活"
+   "一种坚硬的的习俗",
+   "否定的人"
   ],
   "mnemonicNote": "ad(朝向)+just(公正)：把偏差调回正位",
   "sourceNote": "古法语 adjuster，ad-(朝向) + justus(公正)"
@@ -90,8 +90,8 @@
   "metaphorMeaningCn": "赞赏、钦佩",
   "metaphorOptions": [
    "赞赏、钦佩",
-   "一种征服的习俗",
-   "汽车的一角"
+   "征服的小站",
+   "守着汽车过活"
   ],
   "mnemonicNote": "ad(朝向)+mir(惊奇)+ation：对着一个人越看越惊奇",
   "sourceNote": "拉丁 admiratio，ad-(朝向) + mirari(惊奇)"
@@ -102,8 +102,8 @@
   "metaphorMeaningCn": "赞美、钦佩",
   "metaphorOptions": [
    "赞美、钦佩",
-   "批评",
-   "无视"
+   "把宇宙翻开",
+   "每一的影子"
   ],
   "mnemonicNote": "ad(朝向)+mir(惊奇)：看着他就觉得了不起",
   "sourceNote": "拉丁 admirari，ad-(朝向) + mirari(惊奇)"
@@ -114,8 +114,8 @@
   "metaphorMeaningCn": "承认、准许进入",
   "metaphorOptions": [
    "承认、准许进入",
-   "否认",
-   "隐瞒"
+   "替汽车操心",
+   "次级的背面"
   ],
   "mnemonicNote": "ad(朝向)+mit(送)：把人送进门，也指把事实说出口",
   "sourceNote": "拉丁 admittere，ad-(朝向) + mittere(送)"
@@ -126,8 +126,8 @@
   "metaphorMeaningCn": "采用、收养",
   "metaphorOptions": [
    "采用、收养",
-   "休息的味道",
-   "被拉丁名词词尾的东西"
+   "把休息串起来",
+   "守着拉丁名词词尾过活"
   ],
   "mnemonicNote": "ad(朝向)+opt(选择)：挑过来当成自己的",
   "sourceNote": "拉丁 adoptare，ad-(朝向) + optare(选择)"
@@ -139,7 +139,7 @@
   "metaphorOptions": [
    "冒险、奇遇",
    "数着选择过日子",
-   "任何的任何的过程"
+   "任何的任何的地方"
   ],
   "mnemonicNote": "ad+ven(来)+ture：等着要降临到你头上的事",
   "sourceNote": "拉丁 adventura，adventus(到来) 的将来分词"
@@ -150,8 +150,8 @@
   "metaphorMeaningCn": "协议、同意",
   "metaphorOptions": [
    "协议、同意",
-   "北方的小站",
-   "牙齿的旧事"
+   "北方的过程",
+   "向着牙齿去"
   ],
   "mnemonicNote": "agree(同意)+ment(名词后缀)：谈成一致的结果",
   "sourceNote": "古法语 agreement，源自 agreer(使满意)"
@@ -162,8 +162,8 @@
   "metaphorMeaningCn": "航空公司、航线",
   "metaphorOptions": [
    "航空公司、航线",
-   "向着判断去",
-   "围着平行转"
+   "一种判断的习俗",
+   "平行的一角"
   ],
   "mnemonicNote": "air(空气)+line(线)：天上划出的那条线",
   "sourceNote": "20 世纪航空术语，air + line 直译组合"
@@ -174,8 +174,8 @@
   "metaphorMeaningCn": "飞机",
   "metaphorOptions": [
    "飞机",
-   "预先的人",
-   "浆果采集浆果的过程"
+   "预先的工具",
+   "把跨越翻开"
   ],
   "mnemonicNote": "air(空气)+plane(平面)：靠机翼在空气中滑行",
   "sourceNote": "法语 aéroplane，希腊 aer(空气) + planos(游荡)"
@@ -186,8 +186,8 @@
   "metaphorMeaningCn": "机场",
   "metaphorOptions": [
    "机场",
-   "一种直接的的习俗",
-   "日本化天然漆的工具"
+   "直接的的味道",
+   "拉丁名词词尾的小站"
   ],
   "mnemonicNote": "air(空气)+port(港口)：飞机停靠的港口",
   "sourceNote": "20 世纪航空术语，仿 seaport(海港) 造出"
@@ -199,7 +199,7 @@
   "metaphorOptions": [
    "活着的、有活力的",
    "检验的来路",
-   "守着出生过活"
+   "出生的旧事"
   ],
   "mnemonicNote": "a(在…之中)+live(生命)：还在生命的范围里",
   "sourceNote": "古英语 on life，字面就是「在生命里」"
@@ -210,7 +210,7 @@
   "metaphorMeaningCn": "减轻、缓解",
   "metaphorOptions": [
    "减轻、缓解",
-   "向着月亮去",
+   "月亮的小站",
    "钥匙的地方"
   ],
   "mnemonicNote": "al(朝向)+lev(轻)+iate：把重量往轻里调",
@@ -222,8 +222,8 @@
   "metaphorMeaningCn": "任何人",
   "metaphorOptions": [
    "任何人",
-   "被温和的的东西",
-   "什么怎么的小站"
+   "被字母的东西",
+   "北方的另一面"
   ],
   "mnemonicNote": "any(任何)+body(身体)：随便哪一个身体都行",
   "sourceNote": "古英语复合词，any + body"
@@ -234,8 +234,8 @@
   "metaphorMeaningCn": "任何事物",
   "metaphorOptions": [
    "任何事物",
-   "离北方很远",
-   "周围的小站"
+   "一种北方的习俗",
+   "周围的一角"
   ],
   "mnemonicNote": "any(任何)+thing(东西)：不计较是哪一个",
   "sourceNote": "古英语复合词，any + thing"
@@ -246,8 +246,8 @@
   "metaphorMeaningCn": "人工制品、遗物",
   "metaphorOptions": [
    "人工制品、遗物",
-   "被房间的东西",
-   "病状的一角"
+   "房间的过程",
+   "向着病状去"
   ],
   "mnemonicNote": "arti(技艺)+fact(做)：人手做出来的东西",
   "sourceNote": "拉丁 arte(技艺) + factum(做成之物)"
@@ -258,8 +258,8 @@
   "metaphorMeaningCn": "人造的、虚假的",
   "metaphorOptions": [
    "人造的、虚假的",
-   "离时代很远",
-   "完全的过程"
+   "替时代操心",
+   "离完全很远"
   ],
   "mnemonicNote": "art(技艺)+fic(做)+ial：靠手艺做出来的",
   "sourceNote": "拉丁 artificialis，ars(技艺) + facere(做)"
@@ -270,8 +270,8 @@
   "metaphorMeaningCn": "艺术的、有审美的",
   "metaphorOptions": [
    "艺术的、有审美的",
-   "把自动串起来",
-   "孩子的人"
+   "自动的地方",
+   "孩子的来路"
   ],
   "mnemonicNote": "art(技艺)+ist(人)+ic：懂技艺的人所具备的",
   "sourceNote": "拉丁 artisticus，ars(技艺) 的形容词形式"
@@ -282,11 +282,11 @@
   "metaphorMeaningCn": "同伴、同事",
   "metaphorOptions": [
    "同伴、同事",
-   "一种向外的习俗",
-   "公民的一角"
+   "向外的味道",
+   "被公民的东西"
   ],
-  "mnemonicNote": "as(朝向)+soci(同伴)+ate：把自己和别人结成一群",
-  "sourceNote": "拉丁 associare，ad-(朝向) + socius(同伴)"
+  "mnemonicNote": "as(朝向)+soci(结伴)+ate：把自己和别人结成一伙",
+  "sourceNote": "拉丁 associare，ad-(朝向) + socius(伙伴)"
  },
  "attract": {
   "modernMeaningCn": "吸引",
@@ -294,7 +294,7 @@
   "metaphorMeaningCn": "吸引",
   "metaphorOptions": [
    "吸引",
-   "被成功的东西",
+   "成功的地方",
    "木板的来路"
   ],
   "mnemonicNote": "at(朝向)+tract(拉)：往自己这边拉过来",
@@ -306,8 +306,8 @@
   "metaphorMeaningCn": "听得见的",
   "metaphorOptions": [
    "听得见的",
-   "使进入的工具",
-   "把测量串起来"
+   "把使进入翻开",
+   "测量的影子"
   ],
   "mnemonicNote": "aud(听)+ible(能被…的)：耳朵能接住的",
   "sourceNote": "拉丁 audibilis，audire(听) + -ibilis(能…的)"
@@ -318,8 +318,8 @@
   "metaphorMeaningCn": "听众、观众",
   "metaphorOptions": [
    "听众、观众",
-   "演讲者",
-   "路人"
+   "被快速的的东西",
+   "事物的背面"
   ],
   "mnemonicNote": "audi(听)+ence(名词后缀)：坐在那儿听的一群人",
   "sourceNote": "拉丁 audientia，audire(听) 的现在分词"
@@ -330,8 +330,8 @@
   "metaphorMeaningCn": "声音的、音频的",
   "metaphorOptions": [
    "声音的、音频的",
-   "图像的",
-   "文字的"
+   "守着星期过活",
+   "复数的地方"
   ],
   "mnemonicNote": "aud(听)+io：一切交给耳朵的信号",
   "sourceNote": "拉丁 audire(听)，audio 是「我听见」"
@@ -342,8 +342,8 @@
   "metaphorMeaningCn": "汽车",
   "metaphorOptions": [
    "汽车",
-   "拉丁名词词尾的来路",
-   "离过程很远"
+   "拉丁名词词尾的另一面",
+   "过程的一角"
   ],
   "mnemonicNote": "auto(自己)+mob(动)+ile：不靠马、自己会跑",
   "sourceNote": "法语 automobile，希腊 autos(自己) + 拉丁 mobilis(可动)"
@@ -354,8 +354,8 @@
   "metaphorMeaningCn": "背景、经历",
   "metaphorOptions": [
    "背景、经历",
-   "把母亲翻开",
-   "南方的影子"
+   "母亲的背面",
+   "南方的旧事"
   ],
   "mnemonicNote": "back(后面)+ground(地面)：画面后方那片底子",
   "sourceNote": "英语复合词，19 世纪绘画术语转义"
@@ -378,8 +378,8 @@
   "metaphorMeaningCn": "棒球",
   "metaphorOptions": [
    "棒球",
-   "足球",
-   "篮球"
+   "征服的来路",
+   "被离开的东西"
   ],
   "mnemonicNote": "base(垒)+ball(球)：围着四个垒跑的球戏",
   "sourceNote": "英语复合词，19 世纪美国起源"
@@ -390,8 +390,8 @@
   "metaphorMeaningCn": "基本的、基础的",
   "metaphorOptions": [
    "基本的、基础的",
-   "有用的小站",
-   "向着恐怖去"
+   "守着身体过活",
+   "带来的地方"
   ],
   "mnemonicNote": "bas(底)+ic：像地基一样压在底下的",
   "sourceNote": "希腊 basis(基底) 的形容词形式"
@@ -402,8 +402,8 @@
   "metaphorMeaningCn": "浴室、卫生间",
   "metaphorOptions": [
    "浴室、卫生间",
-   "离经星期四很远",
-   "声音的小站"
+   "数着经星期四过日子",
+   "声音的工具"
   ],
   "mnemonicNote": "bath(洗澡)+room(房间)：专门用来洗的地方",
   "sourceNote": "英语复合词，17 世纪起指沐浴的房间"
@@ -414,8 +414,8 @@
   "metaphorMeaningCn": "卧室",
   "metaphorOptions": [
    "卧室",
-   "把底部翻开",
-   "数着相同过日子"
+   "守着底部过活",
+   "替相同操心"
   ],
   "mnemonicNote": "bed(床)+room(房间)：摆得下床的那间",
   "sourceNote": "古英语复合词，bedd + rum"
@@ -426,8 +426,8 @@
   "metaphorMeaningCn": "恩人、资助者",
   "metaphorOptions": [
    "恩人、资助者",
-   "表示沉湎于的人的地方",
-   "替行为操心"
+   "替表示沉湎于的人操心",
+   "守着行为过活"
   ],
   "mnemonicNote": "bene(好)+fac(做)+tor(人)：给别人做好事的人",
   "sourceNote": "拉丁 benefactor，bene(好) + facere(做)"
@@ -438,8 +438,8 @@
   "metaphorMeaningCn": "自行车",
   "metaphorOptions": [
    "自行车",
-   "向前的来路",
-   "学说的一角"
+   "向前的背面",
+   "被学说的东西"
   ],
   "mnemonicNote": "bi(二)+cycle(轮)：只有两只轮子靠脚踩",
   "sourceNote": "法语 bicycle，bi-(二) + 希腊 kyklos(轮)"
@@ -450,8 +450,8 @@
   "metaphorMeaningCn": "传记",
   "metaphorOptions": [
    "传记",
-   "一种见证的习俗",
-   "经过的味道"
+   "见证的工具",
+   "数着经过过日子"
   ],
   "mnemonicNote": "bio(生命)+graphy(写)：把一个人的一生写下来",
   "sourceNote": "希腊 bios(生命) + graphia(书写)"
@@ -462,8 +462,8 @@
   "metaphorMeaningCn": "生物学",
   "metaphorOptions": [
    "生物学",
-   "向着快速的去",
-   "动作的过程"
+   "守着快速的过活",
+   "把动作串起来"
   ],
   "mnemonicNote": "bio(生命)+logy(学问)：专门解释生命的学科",
   "sourceNote": "希腊 bios(生命) + logia(学问)"
@@ -474,8 +474,8 @@
   "metaphorMeaningCn": "生物技术",
   "metaphorOptions": [
    "生物技术",
-   "中间的背面",
-   "钥匙的旧事"
+   "围着中间转",
+   "数着钥匙过日子"
   ],
   "mnemonicNote": "bio(生命)+tech(技术)：拿生命本身当工具的学问",
   "sourceNote": "biology + technology 的缩合词，20 世纪定名"
@@ -486,8 +486,8 @@
   "metaphorMeaningCn": "生日",
   "metaphorOptions": [
    "生日",
-   "守着在这以前的过活",
-   "完全的小站"
+   "数着在这以前的过日子",
+   "围着完全转"
   ],
   "mnemonicNote": "birth(出生)+day(日)：你来到世上的那天",
   "sourceNote": "古英语复合词，byrd(出生) + dæg(日)"
@@ -498,8 +498,8 @@
   "metaphorMeaningCn": "黑板",
   "metaphorOptions": [
    "黑板",
-   "游戏的一角",
-   "一种平等的习俗"
+   "游戏的过程",
+   "离平等很远"
   ],
   "mnemonicNote": "black(黑)+board(板)：涂黑的板子才能显白字",
   "sourceNote": "英语复合词，19 世纪随课堂教学普及"
@@ -510,8 +510,8 @@
   "metaphorMeaningCn": "早餐",
   "metaphorOptions": [
    "早餐",
-   "午餐",
-   "晚餐"
+   "被相反的东西",
+   "出生的来路"
   ],
   "mnemonicNote": "break(打破)+fast(禁食)：一夜没吃，早上开戒",
   "sourceNote": "古英语 brecan(打破) + fæstan(禁食)"
@@ -522,8 +522,8 @@
   "metaphorMeaningCn": "有能力的、能胜任的",
   "metaphorOptions": [
    "有能力的、能胜任的",
-   "进气阀打开的工具",
-   "什么怎么的小站"
+   "替预先操心",
+   "南方的过程"
   ],
   "mnemonicNote": "cap(拿)+able(能…的)：这活儿你拿得住",
   "sourceNote": "拉丁 capere(拿、抓住) + -abilis(能…的)"
@@ -534,8 +534,8 @@
   "metaphorMeaningCn": "容量、能力",
   "metaphorOptions": [
    "容量、能力",
-   "离转弯很远",
-   "征服的过程"
+   "守着转弯过活",
+   "替征服操心"
   ],
   "mnemonicNote": "capac(容纳)+ity(名词)：装得下多少的量",
   "sourceNote": "拉丁 capacitas，capere(容纳) 的名词形式"
@@ -546,8 +546,8 @@
   "metaphorMeaningCn": "船长、队长",
   "metaphorOptions": [
    "船长、队长",
-   "数着场所过日子",
-   "制造的过程"
+   "场所的过程",
+   "向着制造去"
   ],
   "mnemonicNote": "cap(头)+tain(持)：走在最前头、掌住局面的人",
   "sourceNote": "拉丁 caput(头)，经古法语 capitaine"
@@ -558,8 +558,8 @@
   "metaphorMeaningCn": "俘虏、被困的",
   "metaphorOptions": [
    "俘虏、被困的",
-   "守着笔记过活",
-   "替艺术操心"
+   "替笔记操心",
+   "艺术的味道"
   ],
   "mnemonicNote": "capt(拿)+ive：被人抓住、失去自由",
   "sourceNote": "拉丁 captivus，capere(抓) 的过去分词"
@@ -570,8 +570,8 @@
   "metaphorMeaningCn": "捕获、夺取",
   "metaphorOptions": [
    "捕获、夺取",
-   "惊奇的地方",
-   "氏族经九月的小站"
+   "一种惊奇的习俗",
+   "向着氏族经九月去"
   ],
   "mnemonicNote": "capt(拿)+ure(名词)：把人或物抓在手里的那一瞬",
   "sourceNote": "拉丁 capere(抓)，经法语 capture"
@@ -582,8 +582,8 @@
   "metaphorMeaningCn": "小心的、仔细的",
   "metaphorOptions": [
    "小心的、仔细的",
-   "第一的一角",
-   "旁边的影子"
+   "一种第一的习俗",
+   "旁边的一角"
   ],
   "mnemonicNote": "care(关心)+ful(满)：心里装满了在意",
   "sourceNote": "古英语 carful，caru(忧愁、关心) + -ful"
@@ -594,8 +594,8 @@
   "metaphorMeaningCn": "粗心的、漫不经心的",
   "metaphorOptions": [
    "粗心的、漫不经心的",
-   "事物的来路",
-   "都市的地方"
+   "事物的另一面",
+   "都市的味道"
   ],
   "mnemonicNote": "care(关心)+less(无)：一点在意都没有",
   "sourceNote": "古英语 carleas，caru(关心) + -leas(无)"
@@ -606,8 +606,8 @@
   "metaphorMeaningCn": "目录、系列",
   "metaphorOptions": [
    "目录、系列",
-   "直接的的背面",
-   "被木板的东西"
+   "直接的的过程",
+   "离木板很远"
   ],
   "mnemonicNote": "cata(向下)+log(说)：从上到下一条条列出来",
   "sourceNote": "希腊 katalogos，kata-(向下) + legein(说、列举)"
@@ -618,8 +618,8 @@
   "metaphorMeaningCn": "百年纪念",
   "metaphorOptions": [
    "百年纪念",
-   "被医眼震电流描记法的东西",
-   "结果的地方"
+   "被结果的东西",
+   "神圣的的另一面"
   ],
   "mnemonicNote": "cent(百)+enn(年)+ial：满一百年才轮到这一回",
   "sourceNote": "拉丁 centum(百) + annus(年)"
@@ -630,8 +630,8 @@
   "metaphorMeaningCn": "厘米",
   "metaphorOptions": [
    "厘米",
-   "举起的来路",
-   "惊奇的地方"
+   "离举起很远",
+   "惊奇的过程"
   ],
   "mnemonicNote": "centi(百)+metre(米)：一米切一百份，每份就是它",
   "sourceNote": "法语 centimètre，centi-(百分之一) + mètre(米)"
@@ -642,8 +642,8 @@
   "metaphorMeaningCn": "世纪",
   "metaphorOptions": [
    "世纪",
-   "被征服的东西",
-   "宾夕法尼亚雷丁海的一角"
+   "把征服翻开",
+   "宾夕法尼亚雷丁海的影子"
   ],
   "mnemonicNote": "cent(百)+ury：凑满一百年才算一世纪",
   "sourceNote": "拉丁 centuria，centum(百) 的分组单位"
@@ -654,8 +654,8 @@
   "metaphorMeaningCn": "主席、主任",
   "metaphorOptions": [
    "主席、主任",
-   "把视野串起来",
-   "离压力很远"
+   "视野的小站",
+   "压力的地方"
   ],
   "mnemonicNote": "chair(椅子)+man(人)：会场里坐首席那把椅子的人",
   "sourceNote": "英语复合词，chair(主席席位) + man"
@@ -666,8 +666,8 @@
   "metaphorMeaningCn": "限定范围、约束",
   "metaphorOptions": [
    "限定范围、约束",
-   "汉堡德国城市的地方",
-   "向着温和的去"
+   "在这以前的的过程",
+   "围着星期二转"
   ],
   "mnemonicNote": "circum(周围)+scribe(写)：沿边界画一圈，框住它",
   "sourceNote": "拉丁 circumscribere，circum-(周围) + scribere(写)"
@@ -678,8 +678,8 @@
   "metaphorMeaningCn": "绕过、规避",
   "metaphorOptions": [
    "绕过、规避",
-   "把技术翻开",
-   "数着周期过日子"
+   "技术的小站",
+   "守着周期过活"
   ],
   "mnemonicNote": "circum(周围)+vent(来)：不从正面过，绕一圈过去",
   "sourceNote": "拉丁 circumvenire，circum-(周围) + venire(来)"
@@ -690,8 +690,8 @@
   "metaphorMeaningCn": "同班同学",
   "metaphorOptions": [
    "同班同学",
-   "检验的旧事",
-   "集合的小站"
+   "离检验很远",
+   "替集合操心"
   ],
   "mnemonicNote": "class(班级)+mate(伙伴)：一个班里的同伴",
   "sourceNote": "英语复合词，class + mate(同伴)"

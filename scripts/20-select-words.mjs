@@ -82,6 +82,8 @@ function passes62(e) {
 
 // ── 组装候选 ───────────────────────────────────────────────────────────────
 const candidates = []
+/** 已收进候选的词 —— 一词可属多家族（airline 同属 air 和 line），按家族遍历会把它收两遍。 */
+const seenWords = new Set()
 const famStats = new Map()
 let anyFail = false
 
@@ -105,6 +107,10 @@ for (const [familyId, def] of Object.entries(families)) {
     if (difficulty === 1) stat.d1++
     if (difficulty === 5) stat.d5++
     stat.words.push(word)
+    // 家族统计照做（每个家族都要算上这个词），但候选只留一条 ——
+    // 否则 21 号会产出重复切分，到 40 号就是「词条重复」（A17）。
+    if (seenWords.has(word)) continue
+    seenWords.add(word)
     candidates.push({
       word, id: word, familyId, rootId,
       phonetic: entry.phonetic, partOfSpeech: entry.pos, translation: entry.translation,

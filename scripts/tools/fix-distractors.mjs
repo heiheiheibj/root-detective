@@ -101,14 +101,19 @@ for (const file of ['batch-1', 'batch-2', 'batch-3', 'batch-4', 'batch-5', 'batc
       .filter((g) => jaccard(answer, g) < 0.45)
       .sort((a, b) => seedOf(word + a) - seedOf(word + b))
     if (candidates.length < 2) { skipped++; continue }
-    // 模板组合也按种子挑，避免 383 个词全撞同一个句式
-    const t1 = TEMPLATES[Math.floor(seedOf(word + 't1') * TEMPLATES.length)]
-    const t2 = TEMPLATES[Math.floor(seedOf(word + 't2') * TEMPLATES.length)]
-    const d1 = t1(candidates[0])
-    const d2 = t2(candidates[1])
     // 终检：相似度 / 元话语 / 拉丁
     const ok = (d) => jaccard(answer, d) < 0.5 && !META.test(d) && !hasLatin(d)
-    if (!ok(d1) || !ok(d2) || d1 === d2) { skipped++; continue }
+    // 逐个候选往下试，取前两个能过终检的。只试排序后的前两个会有 67 个词凑不出合法干扰项
+    // （那个候选恰好和答案太像，后面明明还有能用的）。模板按候选序号取值，句式不会重样。
+    let d1 = null
+    let d2 = null
+    for (let i = 0; i < candidates.length && (!d1 || !d2); i += 1) {
+      const t = TEMPLATES[Math.floor(seedOf(word + i) * TEMPLATES.length)](candidates[i])
+      if (!ok(t) || t === d1) continue
+      if (!d1) d1 = t
+      else d2 = t
+    }
+    if (!d1 || !d2) { skipped++; continue }
     if (entry.metaphorOptions[1] !== d1 || entry.metaphorOptions[2] !== d2) {
       entry.metaphorOptions = [answer, d1, d2]
       changed = true
