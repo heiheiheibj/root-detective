@@ -266,6 +266,22 @@ d5 从 error 降为 warning —— 它是「必须收冷门派生词」的选题
 | 增量归零 | `build-batch-config` 拿 `stage3-content.json`（**产物**）当「已有」基准 → 改为取上游 `stage1-content.json` + 之前批次 |
 | `face` 世界失效 | `face→fac` 归一化后 `fac` 是 Stage 2 词素（已在 `word-mill` 世界），不能再挂 |
 
+### 剩余 3 个校验错误（Stage 3.1 收尾，都不影响出包）
+
+词库当前状态：**391 词 / 261 词素 / 23 世界**，选例句 391/391，40 号总装正常产出。
+
+1. **A20 `tele` / `under` 义项为空**
+   这两个词素在 `batch-02/morphemes-affixes.json` 里、type=prefix、meaningCn 为空，
+   但没被 `build-morpheme-table.mjs` 的 `FALLBACK_MEANINGS` 填上 —— 下一步先查 draft 里
+   这两个 id 的 `meaningCn` 实际是什么（可能已被 `deriveMeaning` 填进了一串非中文，
+   那样判定分支要再调）。
+
+2. **A23 `life` 判孤儿**
+   根因不是 life 本身，而是 **`alive` 根本没进候选词表**（`words.candidates.json` 里没有它），
+   20 号阶段就被筛掉了。要查是 6.2 常用度闸没过，还是家族归属出了问题
+   （alive 的家族是 `life`，而家族统计走 SPLIT_FIX 之后才对上）。
+   alive 若该收录，补回它的释义后这条自动消失。
+
 ### 下一步
 
 1. **handoff 释义 【✅ 完成】**：`words-prose-stage3/batch-1~7.json` 的 383 词已按 9.3 契约全部写完，
