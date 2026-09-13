@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { normalizeMorphemeKey } from '../src/domain/contentRules'
-import { createRootProgress, getMorpheme, getWord, initialProgress, morphemes, words, wordsByRoot } from '../src/domain/data'
+import { createRootProgress, getMorpheme, initialProgress, morphemes, wordsByRoot } from '../src/domain/data'
+import { fullWords as words, getFullWord as getWord } from './fullWords'
 import type { PlayerProfile, ReviewProgress } from '../src/domain/types'
 import {
   assimilationHint,

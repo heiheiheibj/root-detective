@@ -15,7 +15,7 @@
 //   src/domain/content/worlds.json
 //   scripts/.work/derived/provenance.json
 //   src/domain/data.ts                          （薄包装，import content 再透出，并保留 helper）
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
@@ -184,6 +184,27 @@ writeFileSync(join(contentDir, 'morphemes.json'), `${JSON.stringify(morphemes, n
 writeFileSync(join(contentDir, 'words.json'), `${JSON.stringify(words, null, 2)}\n`)
 writeFileSync(join(contentDir, 'worlds.json'), `${JSON.stringify(worlds, null, 2)}\n`)
 
+// ── 索引/详情分层（Stage 3.0 #2）──────────────────────────────────────────────
+// 浏览器首屏只内联索引层（WordCore 七个字段）；详情按 ~85 词一片写进 details/，
+// 运行时打开某个词才动态 import 对应分片。Node 侧（校验器/测试）仍直接读 words.json
+// 拿完整词条，两条路共享同一份 40 号产物，不会各说各话。
+const DETAIL_SHARD_SIZE = 85
+const INDEX_FIELDS = ['id', 'word', 'phonetic', 'partOfSpeech', 'modernMeaningCn', 'difficulty', 'parts']
+const DETAIL_FIELDS = ['literalMeaningCn', 'metaphorMeaningCn', 'metaphorOptions', 'exampleEn', 'exampleCn', 'distractors', 'familyWordIds', 'sourceNote', 'mnemonicNote']
+const wordIndex = words.map((word) => Object.fromEntries(INDEX_FIELDS.map((field) => [field, word[field]])))
+writeFileSync(join(contentDir, 'words-index.json'), `${JSON.stringify(wordIndex)}\n`)
+const detailsDir = join(contentDir, 'details')
+rmSync(detailsDir, { recursive: true, force: true })
+mkdirSync(detailsDir, { recursive: true })
+let detailShardCount = 0
+for (let shard = 0; shard * DETAIL_SHARD_SIZE < words.length; shard++) {
+  const slice = words
+    .slice(shard * DETAIL_SHARD_SIZE, (shard + 1) * DETAIL_SHARD_SIZE)
+    .map((word) => ({ id: word.id, ...Object.fromEntries(DETAIL_FIELDS.map((field) => [field, word[field]])) }))
+  writeFileSync(join(detailsDir, `shard-${String(shard).padStart(2, '0')}.json`), `${JSON.stringify(slice)}\n`)
+  detailShardCount++
+}
+
 const provenance = {
   generatedAt: new Date().toISOString(),
   generator: 'scripts/40-assemble.mjs',
@@ -278,11 +299,44 @@ function warnMissing(kind: string, id: string, fallbackId: string) {
   if (import.meta.env?.DEV) console.warn(\`[content] 找不到\${kind} \${id}，回退到 \${fallbackId}\`)
 }
 
-export function getWord(id: string): Word {
+export function getWordCore(id: string): WordCore {
   const found = wordById.get(id)
   if (found) return found
   warnMissing('词条', id, words[0].id)
   return words[0]
+}
+
+// ---------- 词条详情：分片懒加载 ----------
+// 浏览器打开某个词时才拉对应分片并缓存；Node 校验/测试读 content/words.json，不走这里。
+export const DETAIL_SHARD_SIZE = ${DETAIL_SHARD_SIZE}
+const detailCache = new Map<string, WordDetail>()
+const detailPromises = new Map<string, Promise<WordDetail>>()
+const shardOfWord = new Map(words.map((word, index) => [word.id, Math.floor(index / DETAIL_SHARD_SIZE)]))
+
+/** 详情已经加载过就同步拿到；App 在分片就绪前渲染占位。 */
+export function getWordDetailSync(id: string): WordDetail | undefined {
+  return detailCache.get(id)
+}
+
+export function loadWordDetail(id: string): Promise<WordDetail> {
+  const cached = detailCache.get(id)
+  if (cached) return Promise.resolve(cached)
+  const pending = detailPromises.get(id)
+  if (pending) return pending
+  const shard = shardOfWord.get(id) ?? 0
+  const promise = import(\`./content/details/shard-\${String(shard).padStart(2, '0')}.json\`)
+    .then((mod: { default: Array<WordDetail & { id: string }> }) => {
+      for (const entry of mod.default) {
+        const { id: entryId, ...detail } = entry
+        detailCache.set(entryId, detail)
+      }
+      const detail = detailCache.get(id)
+      if (!detail) throw new Error(\`[content] 详情分片里没有词条 \${id}\`)
+      return detail
+    })
+    .finally(() => { detailPromises.delete(id) })
+  detailPromises.set(id, promise)
+  return promise
 }
 
 /**
@@ -301,23 +355,25 @@ export function getMorpheme(id: string): Morpheme {
   return morphemes[0]
 }
 
-export function getFamilyWords(word: Word): Word[] {
+export function getFamilyWords(word: Word): WordCore[] {
   return word.familyWordIds
     .map((id) => wordById.get(id))
-    .filter((item): item is Word => Boolean(item))
+    .filter((item): item is WordCore => Boolean(item))
 }
 `
-const header = `import type { Morpheme, PlayerProfile, ReviewProgress, SessionStats, Word, WordCore, WorldDefinition } from './types'\n`
+const header = `import type { Morpheme, PlayerProfile, ReviewProgress, SessionStats, Word, WordCore, WordDetail, WorldDefinition } from './types'\n`
 const newData =
   header +
   `// 本文件由 scripts/40-assemble.mjs 生成。词素/词/世界的数据来自 scripts/.work/derived/*.json 与 scripts/overrides/*.json，\n` +
   `// 经 content 闸门校验。改词库请改管线产物并重新 assemble，不要手改这里。\n` +
-  `// 数据直接内联（不 import JSON），以便 Node 类型擦除加载与 tsc/vite 构建都无需 JSON 模块开关。\n` +
+  `// 词素/世界/词条索引内联（不 import JSON，Node 类型擦除加载无需 JSON 模块开关）；\n` +
+  `// 词条详情按 ~85 词一片写进 content/details/，浏览器打开某个词时才动态 import。完整词条\n` +
+  `// 的唯一权威副本是 content/words.json——Node 校验器和测试直接读它。\n` +
   `export const morphemes: Morpheme[] = ${JSON.stringify(morphemes)} as Morpheme[]\n\n` +
-  `export const words: Word[] = ${JSON.stringify(words)} as Word[]\n\n` +
+  `export const words: WordCore[] = ${JSON.stringify(wordIndex)} as WordCore[]\n\n` +
   `export const worlds: WorldDefinition[] = ${JSON.stringify(worlds)} as WorldDefinition[]\n` +
   HELPERS
 writeFileSync(dataTsPath, newData)
 
-console.log(`✓ 总装完成：${words.length} 词、${morphemes.length} 词素、${worlds.length} 世界。已回写 data.ts 与 content/*.json。`)
+console.log(`✓ 总装完成：${words.length} 词、${morphemes.length} 词素、${worlds.length} 世界，详情 ${detailShardCount} 片。已回写 data.ts 与 content/*.json。`)
 console.log(`  下一步：node scripts/validate-content.mjs`)

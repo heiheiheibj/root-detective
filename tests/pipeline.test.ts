@@ -2,7 +2,8 @@ import { readFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { describe, expect, it } from 'vitest'
-import { morphemes, words } from '../src/domain/data'
+import { morphemes } from '../src/domain/data'
+import { fullWords as words } from './fullWords'
 import { summarize, validateContent } from '../src/domain/contentRules'
 
 /**

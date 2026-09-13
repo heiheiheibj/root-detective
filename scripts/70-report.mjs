@@ -7,7 +7,7 @@
 //   - 切分分歧（21 号 vs cigen 的交叉验证结果）
 //   - 本次花销（handoff 模式 = 0）
 import { gzipSync } from 'node:zlib'
-import { readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
@@ -43,14 +43,28 @@ const severity = { ok: 0, minor: 0, major: 0 }
 for (const r of reviewed.results) severity[r.severity] += 1
 const quarantineRate = words.length ? severity.major / words.length : 0
 
-// ── 体积（gzip） ─────────────────────────────────────────────────────────────
+// ── 体积（gzip）：分层后分「首屏（索引层）」和「懒加载（详情分片）」两组 ──
 const sizes = []
-for (const name of ['morphemes.json', 'words.json', 'worlds.json']) {
+for (const name of ['morphemes.json', 'words-index.json', 'worlds.json']) {
   const buf = readFileSync(join(contentDir, name))
   sizes.push({ name, raw: buf.length, gzip: gzipSync(buf).length })
 }
+const detailsDir = join(contentDir, 'details')
+if (existsSync(detailsDir)) {
+  let detailRaw = 0
+  let detailGzip = 0
+  let detailCount = 0
+  for (const name of readdirSync(detailsDir)) {
+    if (!name.endsWith('.json')) continue
+    const buf = readFileSync(join(detailsDir, name))
+    detailRaw += buf.length
+    detailGzip += gzipSync(buf).length
+    detailCount++
+  }
+  sizes.push({ name: `details/ × ${detailCount}（懒加载）`, raw: detailRaw, gzip: detailGzip })
+}
 const dataTs = readFileSync(join(here, '..', 'src', 'domain', 'data.ts'))
-sizes.push({ name: 'data.ts', raw: dataTs.length, gzip: gzipSync(dataTs).length })
+sizes.push({ name: 'data.ts（首屏，内联索引层）', raw: dataTs.length, gzip: gzipSync(dataTs).length })
 const totalGzip = sizes.reduce((n, s) => n + s.gzip, 0)
 
 // ── 切分分歧（cigen 交叉验证） ───────────────────────────────────────────────

@@ -2,13 +2,20 @@
 // 第一次运行写基线；第二次运行比对并报告。
 // 跑法：node scripts/tools/verify-rerun.mjs
 import { createHash } from 'node:crypto'
-import { existsSync, readFileSync, writeFileSync, unlinkSync } from 'node:fs'
+import { existsSync, readFileSync, readdirSync, writeFileSync, unlinkSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
 const here = dirname(fileURLToPath(import.meta.url))
 const root = join(here, '..', '..')
-const files = ['src/domain/content/words.json', 'src/domain/content/morphemes.json', 'src/domain/content/worlds.json', 'src/domain/data.ts']
+const files = [
+  'src/domain/content/words.json',
+  'src/domain/content/words-index.json',
+  'src/domain/content/morphemes.json',
+  'src/domain/content/worlds.json',
+  ...readdirSync(join(root, 'src', 'domain', 'content', 'details')).filter((name) => name.endsWith('.json')).map((name) => `src/domain/content/details/${name}`),
+  'src/domain/data.ts',
+]
 const baselinePath = join(here, '..', '.work', 'rerun-baseline.json')
 
 const sums = {}

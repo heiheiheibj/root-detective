@@ -52,11 +52,34 @@
 | # | 任务 | 说明 | 验收 |
 |---|---|---|---|
 | 1 | ✅ **精确词根供给测算**（已完成 2026-09-13） | 脚本 `supply-analysis-strict.mjs`：去子串 + cigen/MorphyNet/wordroot 三硬信号，并模拟 forceInclude | **目标锁定 250 词根**，详见 §一 |
-| 2 | **索引/详情分层拆包** | 立即加载索引层（`id word phonetic partOfSpeech modernMeaningCn difficulty parts`）；`WordDetail` 切 ~24 片懒加载 | 2000 词时首屏 gzip ≈ 180 KB（计划书 line 59） |
+| 2 | ✅ **索引/详情分层拆包**（已完成 2026-09-13） | 详见下方「3.0 #2 完成记录」 | 首屏 101.8 KB gzip（300 词），详情分片按需加载，实机验证通过 |
 | 3 | **配置架构批次化** | 把 `stage2-additions/` 泛化为 `stage-additions/batch-NN/`，合并器累加所有批次 | 新增批次不用改合并脚本 |
 | 4 | **性能适配** | `.atlas-card` 加 `content-visibility: auto` 或折叠非当前 world | 300 词根地图页不掉帧 |
 | 5 | **测试适配** | `logic.test.ts:158-164` 必须重写（断言复习板顺序 `['spec','dict','port']`，词根多了不成立） | 全部测试绿 |
 | 6 | 补齐 error boundary | `main.tsx` 没有，懒加载分片 404 会白屏（计划书 line 311） | 分片加载失败有兜底 UI |
+
+### 3.0 #2 完成记录（2026-09-13）
+
+**架构**：
+- 40 号新产物：`content/words-index.json`（WordCore 七字段）+ `content/details/shard-NN.json`（85 词/片，片数 = ⌈词数/85⌉，rmSync 重建避免孤儿片）
+- `data.ts`：`words` 类型改 `WordCore[]`（索引层内联）；新增 `getWordCore` / `getWordDetailSync` / `loadWordDetail`（动态 import 分片 + Map 缓存 + in-flight 去重）；`getWord` 已删除；`getFamilyWords` 返回 `WordCore[]`
+- `App.tsx`：`useWord(wordId)` hook 合成完整 Word，详情没到返回 null，拼词区渲染占位；`chooseWord` 不再同步算猜义选项，改 `useEffect([word])` 详情就绪后生成
+- Node 侧（validate + content/logic/pipeline 测试）完整词表改读 `content/words.json`（`tests/fullWords.ts` 共享 helper），与浏览器共享同一份产物
+- 接缝保持：`logic.ts` 依旧不 import data；`getRootId`/`pickNextWord` 本来就是 `WordCore` 接缝
+
+**实测数字（300 词 / 60 根）**：
+- 首屏：`index.js` 101.8 KB gzip + CSS 7.2 KB（React+应用代码+索引层+词素表）
+- 懒加载：4 片详情共 ~56.8 KB gzip，**打开词条才拉对应那一片**
+- 整包对比：拆包前 data 口径 98.4 KB → 现在首屏数据面只含索引层；2000 词时详情约 380 KB gzip 全部留在分片里
+- ⚠️ 180 KB 首屏目标是 2000 词口径；届时索引层会涨到 ~130 KB gzip，3.1 批次结束后用 `npm run build` 实测曲线再校
+
+**实机验证**（vite preview + Playwright）：今天→拼词→猜义→结果全流程通；
+resource 记录只有 `index.js + CSS + shard-00`，shard-01/02/03 零请求；截图 `stage3-shard-verify.png`。
+
+**踩坑（新）**：`useWord` 若每次渲染直接返回 `{...core, ...detail}` 新对象，`useEffect([word])` 会死循环
+重洗猜义选项（洗牌结果每次不同 → 选中项漂移 → 玩家点 A 变成提交 B）。必须 `useMemo` 固定合成引用。
+
+**verify-rerun** 已纳入 index/shards 共 9 个文件，两次重跑逐字节一致。
 
 ---
 
@@ -152,8 +175,9 @@ git tag stage3.N
 | Stage 1（67 词 / 20 根） | ✅ 完成 |
 | Stage 2（300 词 / 60 根） | ✅ 完成：闸门 0 错误、53 测试绿、实机双尺寸通过、两次重跑逐字节一致 |
 | **Stage 3.0 第 1 项（供给测算）** | ✅ **完成，目标锁定 250 词根**（用户选稳妥） |
-| Stage 3.0 第 2 项（分层拆包） | ⏭️ **下一步** |
-| Stage 3.0 第 3~6 项 | ⬜ 待做 |
+| **Stage 3.0 第 2 项（分层拆包）** | ✅ **完成**（2026-09-13，见 §三 完成记录） |
+| Stage 3.0 第 3 项（配置架构批次化） | ⏭️ **下一步** |
+| Stage 3.0 第 4~6 项 | ⬜ 待做 |
 | Stage 3.1~3.5（加词） | ⬜ 待做 |
 
 新会话读这三份即可恢复全部上下文：
@@ -165,20 +189,16 @@ git tag stage3.N
 ### 明天的启动指令（复制给我即可）
 
 ```
-读 docs/Stage3-分批计划.md，从 Stage 3.0 第 2 项（索引/详情分层拆包）开始执行。
-目标 2000 词 / 250 词根。先只做 3.0 第 2 项，做完把 gzip 数字报给我。
+读 docs/Stage3-分批计划.md，从 Stage 3.0 第 3 项（配置架构批次化）开始执行。
+目标 2000 词 / 250 词根。3.0 全部做完再进 3.1。
 ```
 
-### 第 2 项要点（免得我明天重复探索）
+### 第 3 项要点（免得我明天重复探索）
 
-- **索引层字段**：`id word phonetic partOfSpeech modernMeaningCn difficulty parts`
-- **`WordDetail` 切 ~24 片懒加载**（每片 ~85 词），打开某个词时 `import('./details/shard-NN.json')`，配 `Map` 缓存
-- **接缝约束（关键）**：`logic.ts` 至今不 import data（`getMorpheme`/`allWords` 是注入参数），**必须保持住**；
-  `pickNextWord`/`getReviewBoard` 只读 `id` 和 `parts`，参数类型改成 `readonly WordCore[]`，
-  领域层永远不知道分层存在
-- **目标**：2000 词时首屏 gzip ≈ 180 KB（计划书 line 59）
-- **40 号组装器**要同时产出 `words-index.json` + `details/shard-NN.json`；
-  `data.ts` 保持薄包装层，这样 `App.tsx`/`logic.test.ts`/`persistence.ts`/`content.test.ts` 的 import 路径全不用改
+- 把 `scripts/lib/stage2-additions/` 泛化为 `stage-additions/batch-01/`（Stage 2 的产物挪进去做第一批）
+- `build-stage2-config.mjs` 改成遍历 `stage-additions/batch-*/` 全部累加合并，输出 `stage3-content.json`
+- 验收：3.1 只新增 `batch-02/` 目录、不改合并脚本就能加词
+- 注意 `npm run content:all` 里 20/21/40 号的参数引用要同步改（`stage2-content.json` → `stage3-content.json`）
 
 ### 环境自检
 

@@ -7,7 +7,8 @@ import {
   validateContent,
   validateWorlds,
 } from '../src/domain/contentRules'
-import { createInitialProgress, morphemes, rootMorphemes, words, wordsByRoot, worlds } from '../src/domain/data'
+import { createInitialProgress, morphemes, rootMorphemes, wordsByRoot, worlds } from '../src/domain/data'
+import { fullWords as words } from './fullWords'
 import { residueAllowlist, unmodeledDistractorAllowlist } from './gates'
 
 const options = { residueAllowlist, unmodeledDistractorAllowlist, generated: false }

@@ -6,8 +6,12 @@
 import { existsSync, readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
-import { createInitialProfile, morphemes, rootMorphemes, words, worlds } from '../src/domain/data.ts'
+import { createInitialProfile, morphemes, rootMorphemes, worlds } from '../src/domain/data.ts'
 import { AGGREGATE_MIN_WORDS, summarize, TARGET_WORD_COUNT, validateContent, validateWorlds } from '../src/domain/contentRules.ts'
+
+// 浏览器侧 data.ts 只内联词条索引层（详情按分片懒加载）；校验要查详情字段，
+// 所以完整词表从 40 号产物 words.json 直接读——运行时和闸门共享同一份产物。
+const words = JSON.parse(readFileSync(join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'domain', 'content', 'words.json'), 'utf8'))
 
 const here = dirname(fileURLToPath(import.meta.url))
 const gatesDir = join(here, 'gates')

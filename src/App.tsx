@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { normalizeMorphemeKey } from './domain/contentRules'
-import { createInitialProfile, createRootProgress, findMorpheme, getFamilyWords, getMorpheme, getWord, words, wordsByRoot, worlds } from './domain/data'
+import { createInitialProfile, createRootProgress, findMorpheme, getFamilyWords, getMorpheme, getWordCore, getWordDetailSync, loadWordDetail, words, wordsByRoot, worlds } from './domain/data'
 import { applyCompletedCase, applyIncorrectAttempt, applyMatchReview, assimilationHint, createMetaphorDiagnosis, createSplitDiagnosis, getContinuationMode, getCurrentStreak, getLevelInfo, getMasteredRootCount, getMistakeEventId, getReviewBoard, getReviewQueue, getRootId, getStabilityBand, getWorldUnlockStatus, isDuplicateSubmit, isSplitCorrect, migrationRate, pickNextWord, shuffledMetaphorOptions, shuffle } from './domain/logic'
 import { loadProfile, PROFILE_STORAGE_KEY, serializeProfile } from './domain/persistence'
 import HelpOverlay from './HelpOverlay'
 import { canSpeak, speak } from './speak'
-import type { CaseMode, CaseRun, DebugDiagnosis, Morpheme, PlayerProfile, PuzzleStage, RewardSummary, ReviewProgress, Word } from './domain/types'
+import type { CaseMode, CaseRun, DebugDiagnosis, Morpheme, PlayerProfile, PuzzleStage, RewardSummary, ReviewProgress, Word, WordCore, WordDetail } from './domain/types'
 
 const navItems = [
   { id: 'today', label: '今天', icon: '⌁' },
@@ -34,7 +34,7 @@ function difficultyLabel(difficulty: Word['difficulty']) {
 }
 
 function makeCaseRun(wordId: string, mode: CaseMode, profile: PlayerProfile, originMode?: CaseMode): CaseRun {
-  const word = getWord(wordId)
+  const word = getWordCore(wordId)
   const rootId = getRootId(word, getMorpheme)
   const current = profile.progress.find((item) => item.morphemeId === rootId)
   const normalizedMode = mode === 'debugger' ? 'debugger' : mode
@@ -60,7 +60,8 @@ function App() {
   const [toast, setToast] = useState('')
   const [helpOpen, setHelpOpen] = useState(() => !profile.helpSeen)
   const seenEventIds = useRef(new Set<string>())
-  const [shuffledOptions, setShuffledOptions] = useState(() => shuffledMetaphorOptions(getWord('circumspect')))
+  // 猜义选项在词条详情就绪后由下面的 useEffect 生成；首帧详情还没到，先空着。
+  const [shuffledOptions, setShuffledOptions] = useState<Array<{ text: string; correct: boolean }>>([])
 
   // 词根涨到几百条后档案序列化有好几十 KB，每次 setState 都写会卡手；停手 500ms 再落盘。
   const latestProfile = useRef(profile)
@@ -78,20 +79,25 @@ function App() {
     return () => { window.removeEventListener('pagehide', writeProfile); writeProfile() }
   }, [])
 
-  const word = getWord(wordId)
-  const root = getMorpheme(caseRun.rootId || getRootId(word, getMorpheme))
+  // 词条分两层：索引层同步可得；详情分片懒加载，就绪前 word 为 null，拼词区渲染占位。
+  const word = useWord(wordId)
+  const root = getMorpheme(caseRun.rootId || (word ? getRootId(word, getMorpheme) : ''))
   // 词根涨到几百条后，逐个 find 会把地图页变成 O(world×root×progress)；先建一次 Map 传下去。
   const progressByRoot = useMemo(() => new Map(profile.progress.map((item) => [item.morphemeId, item])), [profile.progress])
   const currentProgress = progressByRoot.get(root.id) ?? createRootProgress(root.id)
   const reviewQueue = useMemo(() => getReviewQueue(profile.progress), [profile.progress])
-  const availableCards = useMemo(() => getAvailableCards(word), [word])
-  const family = useMemo(() => getFamilyWords(word), [word])
-  const hint = useMemo(() => assimilationHint(word, getMorpheme), [word])
+  const availableCards = useMemo(() => (word ? getAvailableCards(word) : []), [word])
+  const family = useMemo(() => (word ? getFamilyWords(word) : []), [word])
+  const hint = useMemo(() => (word ? assimilationHint(word, getMorpheme) : null), [word])
   const levelInfo = getLevelInfo(profile.xp)
   const currentStreak = getCurrentStreak(profile.activityDays)
 
+  // 详情一到就生成猜义选项；换词后 word 变化时同样会重算一次。
+  useEffect(() => {
+    if (word) setShuffledOptions(shuffledMetaphorOptions(word))
+  }, [word])
+
   function chooseWord(nextWordId: string, mode: CaseMode = 'compiler', originMode?: CaseMode) {
-    const nextWord = getWord(nextWordId)
     const stableMode = mode === 'debugger' ? originMode === 'regression' ? 'regression' : 'compiler' : mode
     setWordId(nextWordId)
     setCaseRun(makeCaseRun(nextWordId, mode, profile, stableMode))
@@ -104,7 +110,6 @@ function App() {
     setForgeFeedback('idle')
     setForgeAttempts(0)
     setRewardSummary(null)
-    setShuffledOptions(shuffledMetaphorOptions(nextWord))
     setActiveView('case')
   }
 
@@ -130,7 +135,7 @@ function App() {
   }
 
   function selectCard(id: string) {
-    if (stage !== 'build') return
+    if (stage !== 'build' || !word) return
     setSelected((items) => items.includes(id) ? items.filter((item) => item !== id) : items.length >= word.parts.length ? items : [...items, id])
     setBuildFeedback('idle')
     setDiagnosis(null)
@@ -138,6 +143,7 @@ function App() {
 
   /** 检查拼写。答错原地提示，不换页面。 */
   function submitBuild() {
+    if (!word) return
     if (isSplitCorrect(word, selected)) {
       setDiagnosis(null)
       setBuildFeedback('idle')
@@ -163,7 +169,7 @@ function App() {
 
   /** 确认词义。答错原地重选。 */
   function submitForge() {
-    if (forgeChoice === null) return
+    if (forgeChoice === null || !word) return
     const correct = shuffledOptions[forgeChoice]?.correct ?? false
     if (correct) {
       setDiagnosis(null)
@@ -181,6 +187,7 @@ function App() {
   }
 
   function finishWord() {
+    if (!word) return
     const eventId = `${caseRun.id}:complete`
     if (isDuplicateSubmit(eventId, seenEventIds.current)) return
     const result = applyCompletedCase(profile, caseRun, word, getMorpheme)
@@ -200,6 +207,7 @@ function App() {
   }
 
   function nextWord() {
+    if (!word) return
     chooseWord(pickSiblingWordId(root.id, currentProgress.testedWordIds, word.id), getContinuationMode(caseRun))
   }
 
@@ -227,7 +235,7 @@ function App() {
     <main className="main-content">
       <header className="topbar"><div><span className="eyebrow">{formatToday()}</span><h1>{navItems.find((item) => item.id === activeView)?.label ?? '今天'}</h1></div><div className="top-actions"><div className="points"><span className="points-dot" aria-hidden="true">✦</span><strong>{profile.insightPoints}</strong><span>洞察点</span></div></div></header>
       {activeView === 'today' && <TodayView profile={profile} levelInfo={levelInfo} currentStreak={currentStreak} reviewCount={navCount} onboardingCompleted={profile.onboardingCompleted} onStart={startTodayPrimary} onContinue={() => setActiveView('case')} />}
-      {activeView === 'case' && <CaseRoom word={word} root={root} currentProgress={currentProgress} diagnosis={diagnosis} stage={stage} selected={selected} availableCards={availableCards} hint={hint} buildFeedback={buildFeedback} buildAttempts={buildAttempts} shuffledOptions={shuffledOptions} forgeChoice={forgeChoice} forgeFeedback={forgeFeedback} forgeAttempts={forgeAttempts} rewardSummary={rewardSummary} family={family} onSelectCard={selectCard} onSubmitBuild={submitBuild} onSelectForge={selectForgeOption} onSubmitForge={submitForge} onFinish={finishWord} onNextWord={nextWord} onReview={() => setActiveView('regression')} onChooseWord={(id) => chooseWord(id, getContinuationMode(caseRun))} />}
+      {activeView === 'case' && (word ? <CaseRoom word={word} root={root} currentProgress={currentProgress} diagnosis={diagnosis} stage={stage} selected={selected} availableCards={availableCards} hint={hint} buildFeedback={buildFeedback} buildAttempts={buildAttempts} shuffledOptions={shuffledOptions} forgeChoice={forgeChoice} forgeFeedback={forgeFeedback} forgeAttempts={forgeAttempts} rewardSummary={rewardSummary} family={family} onSelectCard={selectCard} onSubmitBuild={submitBuild} onSelectForge={selectForgeOption} onSubmitForge={submitForge} onFinish={finishWord} onNextWord={nextWord} onReview={() => setActiveView('regression')} onChooseWord={(id) => chooseWord(id, getContinuationMode(caseRun))} /> : <section className="page-section case-page"><div className="empty-state"><span className="eyebrow">装载中</span><h3>词条详情马上就到</h3><p>详情按需加载，只这一瞬。</p></div></section>)}
       {activeView === 'regression' && <ReviewView profile={profile} onFinishRound={finishMatchReview} />}
       {activeView === 'atlas' && <AtlasView profile={profile} progressByRoot={progressByRoot} />}
       {toast && <div className="toast" role="status" aria-live="polite">{toast}</div>}
@@ -240,6 +248,34 @@ export default App
 
 function formatToday() {
   return new Intl.DateTimeFormat('zh-CN', { weekday: 'long', month: 'long', day: 'numeric' }).format(new Date())
+}
+
+/**
+ * 词条分两层：索引层同步可得，详情按分片懒加载。详情没到就返回 null，调用方渲染占位；
+ * logic.ts 的领域函数拿到的始终是合成好的完整 Word——领域层不知道分层存在。
+ * loaded 记下 id：换词的那一帧 core 已是新词、detail 还是旧词，靠 id 校验挡住错配。
+ */
+function useWord(wordId: string): Word | null {
+  const core = getWordCore(wordId)
+  const [loaded, setLoaded] = useState<{ id: string; detail: WordDetail } | null>(() => {
+    const cached = getWordDetailSync(wordId)
+    return cached ? { id: wordId, detail: cached } : null
+  })
+  useEffect(() => {
+    let alive = true
+    const cached = getWordDetailSync(wordId)
+    setLoaded(cached ? { id: wordId, detail: cached } : null)
+    loadWordDetail(wordId)
+      .then((detail) => { if (alive) setLoaded({ id: wordId, detail }) })
+      .catch(() => { /* 分片失败保持 null 占位，不闪错误屏 */ })
+    return () => { alive = false }
+  }, [wordId])
+  // 合成结果必须引用稳定：每次渲染都造新对象会把「word 变了」的 effect 变成死循环，
+  // 猜义选项会被反复重洗。core 来自 wordById、loaded 来自 state，引用都稳定。
+  return useMemo(
+    () => (loaded && loaded.id === core.id ? { ...core, ...loaded.detail } : null),
+    [core, loaded],
+  )
 }
 
 /** 未建模的干扰项（形近变体、同化变体等）用干扰类型作副标题，避免把词形重复显示两遍。 */
@@ -280,7 +316,7 @@ function LiteralEquation({ word }: { word: Word }) {
   return <div className="literal-equation">{word.parts.map((part) => <span key={part.position}><b>{getMorpheme(part.morphemeId).meaningCn}</b>{part.position < word.parts.length - 1 && <i>+</i>}</span>)}<i>=</i><strong>{word.literalMeaningCn}</strong></div>
 }
 
-function CaseRoom({ word, root, currentProgress, diagnosis, stage, selected, availableCards, hint, buildFeedback, buildAttempts, shuffledOptions, forgeChoice, forgeFeedback, forgeAttempts, rewardSummary, family, onSelectCard, onSubmitBuild, onSelectForge, onSubmitForge, onFinish, onNextWord, onReview, onChooseWord }: { word: Word; root: ReturnType<typeof getMorpheme>; currentProgress: ReviewProgress; diagnosis: DebugDiagnosis | null; stage: PuzzleStage; selected: string[]; availableCards: ReturnType<typeof getAvailableCards>; hint: string | null; buildFeedback: string; buildAttempts: number; shuffledOptions: Array<{ text: string; correct: boolean }>; forgeChoice: number | null; forgeFeedback: string; forgeAttempts: number; rewardSummary: RewardSummary | null; family: Word[]; onSelectCard: (id: string) => void; onSubmitBuild: () => void; onSelectForge: (index: number) => void; onSubmitForge: () => void; onFinish: () => void; onNextWord: () => void; onReview: () => void; onChooseWord: (id: string) => void }) {
+function CaseRoom({ word, root, currentProgress, diagnosis, stage, selected, availableCards, hint, buildFeedback, buildAttempts, shuffledOptions, forgeChoice, forgeFeedback, forgeAttempts, rewardSummary, family, onSelectCard, onSubmitBuild, onSelectForge, onSubmitForge, onFinish, onNextWord, onReview, onChooseWord }: { word: Word; root: ReturnType<typeof getMorpheme>; currentProgress: ReviewProgress; diagnosis: DebugDiagnosis | null; stage: PuzzleStage; selected: string[]; availableCards: ReturnType<typeof getAvailableCards>; hint: string | null; buildFeedback: string; buildAttempts: number; shuffledOptions: Array<{ text: string; correct: boolean }>; forgeChoice: number | null; forgeFeedback: string; forgeAttempts: number; rewardSummary: RewardSummary | null; family: WordCore[]; onSelectCard: (id: string) => void; onSubmitBuild: () => void; onSelectForge: (index: number) => void; onSubmitForge: () => void; onFinish: () => void; onNextWord: () => void; onReview: () => void; onChooseWord: (id: string) => void }) {
   const missing = Math.max(0, word.parts.length - selected.length)
   const forged = forgeFeedback === 'correct'
   const stepIndex = stage === 'reward' ? 2 : visibleSteps.findIndex((step) => step.key === stage)
