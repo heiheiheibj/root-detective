@@ -1,0 +1,605 @@
+{
+ "_comment": "3.1 中考批 切分 F：第 301–360 词",
+ "splits": {
+  "receive": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "ceive",
+    "surface": "ceive"
+   }
+  ],
+  "recite": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "cite",
+    "surface": "cite"
+   }
+  ],
+  "recorder": [
+   {
+    "id": "record",
+    "surface": "record"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "regret": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "greet",
+    "surface": "gret"
+   }
+  ],
+  "relation": [
+   {
+    "id": "relate",
+    "surface": "relat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "relax": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "lax",
+    "surface": "lax"
+   }
+  ],
+  "remember": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "member",
+    "surface": "member"
+   }
+  ],
+  "repair": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "pair",
+    "surface": "pair"
+   }
+  ],
+  "research": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "search",
+    "surface": "search"
+   }
+  ],
+  "rest": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "st",
+    "surface": "st"
+   }
+  ],
+  "retell": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "tell",
+    "surface": "tell"
+   }
+  ],
+  "return": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "turn",
+    "surface": "turn"
+   }
+  ],
+  "review": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "view",
+    "surface": "view"
+   }
+  ],
+  "riddle": [
+   {
+    "id": "rede",
+    "surface": "ridd"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "river": [
+   {
+    "id": "rive",
+    "surface": "rive"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "rubber": [
+   {
+    "id": "rub",
+    "surface": "rubb"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "ruler": [
+   {
+    "id": "rule",
+    "surface": "rule"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "russian": [
+   {
+    "id": "russia",
+    "surface": "russia"
+   },
+   {
+    "id": "an",
+    "surface": "n"
+   }
+  ],
+  "safety": [
+   {
+    "id": "safe",
+    "surface": "safe"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "sandwich": [
+   {
+    "id": "sand",
+    "surface": "sand"
+   },
+   {
+    "id": "wich",
+    "surface": "wich"
+   }
+  ],
+  "saturday": [
+   {
+    "id": "saturn",
+    "surface": "satur"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "schoolbag": [
+   {
+    "id": "school",
+    "surface": "school"
+   },
+   {
+    "id": "bag",
+    "surface": "bag"
+   }
+  ],
+  "season": [
+   {
+    "id": "sea",
+    "surface": "sea"
+   },
+   {
+    "id": "son",
+    "surface": "son"
+   }
+  ],
+  "september": [
+   {
+    "id": "sept",
+    "surface": "sept"
+   },
+   {
+    "id": "ember",
+    "surface": "ember"
+   }
+  ],
+  "seventeen": [
+   {
+    "id": "seven",
+    "surface": "seven"
+   },
+   {
+    "id": "teen",
+    "surface": "teen"
+   }
+  ],
+  "seventh": [
+   {
+    "id": "seven",
+    "surface": "seven"
+   },
+   {
+    "id": "th",
+    "surface": "th"
+   }
+  ],
+  "seventy": [
+   {
+    "id": "seven",
+    "surface": "seven"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "several": [
+   {
+    "id": "sever",
+    "surface": "sever"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "shower": [
+   {
+    "id": "show",
+    "surface": "show"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "situation": [
+   {
+    "id": "situate",
+    "surface": "situat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "sixteen": [
+   {
+    "id": "six",
+    "surface": "six"
+   },
+   {
+    "id": "teen",
+    "surface": "teen"
+   }
+  ],
+  "sixth": [
+   {
+    "id": "six",
+    "surface": "six"
+   },
+   {
+    "id": "th",
+    "surface": "th"
+   }
+  ],
+  "sixty": [
+   {
+    "id": "six",
+    "surface": "six"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "somebody": [
+   {
+    "id": "some",
+    "surface": "some"
+   },
+   {
+    "id": "body",
+    "surface": "body"
+   }
+  ],
+  "someone": [
+   {
+    "id": "some",
+    "surface": "some"
+   },
+   {
+    "id": "one",
+    "surface": "one"
+   }
+  ],
+  "something": [
+   {
+    "id": "some",
+    "surface": "some"
+   },
+   {
+    "id": "thing",
+    "surface": "thing"
+   }
+  ],
+  "sometimes": [
+   {
+    "id": "some",
+    "surface": "some"
+   },
+   {
+    "id": "times",
+    "surface": "times"
+   }
+  ],
+  "somewhere": [
+   {
+    "id": "some",
+    "surface": "some"
+   },
+   {
+    "id": "where",
+    "surface": "where"
+   }
+  ],
+  "southern": [
+   {
+    "id": "south",
+    "surface": "south"
+   },
+   {
+    "id": "ern",
+    "surface": "ern"
+   }
+  ],
+  "speaker": [
+   {
+    "id": "speak",
+    "surface": "speak"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "standard": [
+   {
+    "id": "stand",
+    "surface": "stand"
+   },
+   {
+    "id": "ard",
+    "surface": "ard"
+   }
+  ],
+  "station": [
+   {
+    "id": "stat",
+    "surface": "stat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "strawberry": [
+   {
+    "id": "straw",
+    "surface": "straw"
+   },
+   {
+    "id": "berry",
+    "surface": "berry"
+   }
+  ],
+  "student": [
+   {
+    "id": "study",
+    "surface": "stud"
+   },
+   {
+    "id": "ent",
+    "surface": "ent"
+   }
+  ],
+  "succeed": [
+   {
+    "id": "suc",
+    "surface": "suc"
+   },
+   {
+    "id": "ceed",
+    "surface": "ceed"
+   }
+  ],
+  "successful": [
+   {
+    "id": "success",
+    "surface": "success"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "suggestion": [
+   {
+    "id": "suggest",
+    "surface": "suggest"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "summer": [
+   {
+    "id": "sum",
+    "surface": "summ"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "sunday": [
+   {
+    "id": "sun",
+    "surface": "sun"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "supermarket": [
+   {
+    "id": "super",
+    "surface": "super"
+   },
+   {
+    "id": "market",
+    "surface": "market"
+   }
+  ],
+  "supper": [
+   {
+    "id": "sup",
+    "surface": "supp"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "supply": [
+   {
+    "id": "supple",
+    "surface": "suppl"
+   },
+   {
+    "id": "ly",
+    "surface": "y"
+   }
+  ],
+  "suppose": [
+   {
+    "id": "sup",
+    "surface": "sup"
+   },
+   {
+    "id": "pose",
+    "surface": "pose"
+   }
+  ],
+  "surface": [
+   {
+    "id": "sur",
+    "surface": "sur"
+   },
+   {
+    "id": "face",
+    "surface": "face"
+   }
+  ],
+  "surprise": [
+   {
+    "id": "sur",
+    "surface": "sur"
+   },
+   {
+    "id": "prise",
+    "surface": "prise"
+   }
+  ],
+  "sweater": [
+   {
+    "id": "sweat",
+    "surface": "sweat"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "swimming": [
+   {
+    "id": "swim",
+    "surface": "swimm"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "teacher": [
+   {
+    "id": "teach",
+    "surface": "teach"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "technology": [
+   {
+    "id": "techno",
+    "surface": "techno"
+   },
+   {
+    "id": "logy",
+    "surface": "logy"
+   }
+  ],
+  "telephone": [
+   {
+    "id": "tele",
+    "surface": "tele"
+   },
+   {
+    "id": "phone",
+    "surface": "phone"
+   }
+  ]
+ }
+}

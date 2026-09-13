@@ -1,0 +1,605 @@
+{
+ "_comment": "3.1 中考批 切分 A：第 1–60 词",
+ "splits": {
+  "ability": [
+   {
+    "id": "able",
+    "surface": "abil"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "absent": [
+   {
+    "id": "ab",
+    "surface": "ab"
+   },
+   {
+    "id": "sent",
+    "surface": "sent"
+   }
+  ],
+  "action": [
+   {
+    "id": "act",
+    "surface": "act"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "active": [
+   {
+    "id": "act",
+    "surface": "act"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "activity": [
+   {
+    "id": "active",
+    "surface": "activ"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "advantage": [
+   {
+    "id": "ad",
+    "surface": "ad"
+   },
+   {
+    "id": "vantage",
+    "surface": "vantage"
+   }
+  ],
+  "advertisement": [
+   {
+    "id": "advertise",
+    "surface": "advertise"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "advise": [
+   {
+    "id": "ad",
+    "surface": "ad"
+   },
+   {
+    "id": "vis",
+    "surface": "vise"
+   }
+  ],
+  "afford": [
+   {
+    "id": "af",
+    "surface": "af"
+   },
+   {
+    "id": "ford",
+    "surface": "ford"
+   }
+  ],
+  "afternoon": [
+   {
+    "id": "after",
+    "surface": "after"
+   },
+   {
+    "id": "noon",
+    "surface": "noon"
+   }
+  ],
+  "again": [
+   {
+    "id": "on",
+    "surface": "a"
+   },
+   {
+    "id": "gain",
+    "surface": "gain"
+   }
+  ],
+  "against": [
+   {
+    "id": "again",
+    "surface": "again"
+   },
+   {
+    "id": "st",
+    "surface": "st"
+   }
+  ],
+  "agreement": [
+   {
+    "id": "agree",
+    "surface": "agree"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "airline": [
+   {
+    "id": "air",
+    "surface": "air"
+   },
+   {
+    "id": "line",
+    "surface": "line"
+   }
+  ],
+  "airplane": [
+   {
+    "id": "air",
+    "surface": "air"
+   },
+   {
+    "id": "plane",
+    "surface": "plane"
+   }
+  ],
+  "airport": [
+   {
+    "id": "air",
+    "surface": "air"
+   },
+   {
+    "id": "port",
+    "surface": "port"
+   }
+  ],
+  "alive": [
+   {
+    "id": "a",
+    "surface": "a"
+   },
+   {
+    "id": "live",
+    "surface": "live"
+   }
+  ],
+  "almost": [
+   {
+    "id": "al",
+    "surface": "al"
+   },
+   {
+    "id": "most",
+    "surface": "most"
+   }
+  ],
+  "alone": [
+   {
+    "id": "al",
+    "surface": "al"
+   },
+   {
+    "id": "one",
+    "surface": "one"
+   }
+  ],
+  "already": [
+   {
+    "id": "al",
+    "surface": "al"
+   },
+   {
+    "id": "ready",
+    "surface": "ready"
+   }
+  ],
+  "also": [
+   {
+    "id": "all",
+    "surface": "al"
+   },
+   {
+    "id": "so",
+    "surface": "so"
+   }
+  ],
+  "although": [
+   {
+    "id": "all",
+    "surface": "al"
+   },
+   {
+    "id": "though",
+    "surface": "though"
+   }
+  ],
+  "another": [
+   {
+    "id": "an",
+    "surface": "an"
+   },
+   {
+    "id": "other",
+    "surface": "other"
+   }
+  ],
+  "anybody": [
+   {
+    "id": "any",
+    "surface": "any"
+   },
+   {
+    "id": "body",
+    "surface": "body"
+   }
+  ],
+  "anyone": [
+   {
+    "id": "any",
+    "surface": "any"
+   },
+   {
+    "id": "one",
+    "surface": "one"
+   }
+  ],
+  "anything": [
+   {
+    "id": "any",
+    "surface": "any"
+   },
+   {
+    "id": "thing",
+    "surface": "thing"
+   }
+  ],
+  "anyway": [
+   {
+    "id": "any",
+    "surface": "any"
+   },
+   {
+    "id": "way",
+    "surface": "way"
+   }
+  ],
+  "anywhere": [
+   {
+    "id": "any",
+    "surface": "any"
+   },
+   {
+    "id": "where",
+    "surface": "where"
+   }
+  ],
+  "arrive": [
+   {
+    "id": "ar",
+    "surface": "ar"
+   },
+   {
+    "id": "rive",
+    "surface": "rive"
+   }
+  ],
+  "asian": [
+   {
+    "id": "asia",
+    "surface": "asia"
+   },
+   {
+    "id": "an",
+    "surface": "n"
+   }
+  ],
+  "asleep": [
+   {
+    "id": "a",
+    "surface": "a"
+   },
+   {
+    "id": "sleep",
+    "surface": "sleep"
+   }
+  ],
+  "attention": [
+   {
+    "id": "attend",
+    "surface": "atten"
+   },
+   {
+    "id": "tion",
+    "surface": "tion"
+   }
+  ],
+  "australia": [
+   {
+    "id": "austral",
+    "surface": "austral"
+   },
+   {
+    "id": "ia",
+    "surface": "ia"
+   }
+  ],
+  "australian": [
+   {
+    "id": "australia",
+    "surface": "australia"
+   },
+   {
+    "id": "an",
+    "surface": "n"
+   }
+  ],
+  "available": [
+   {
+    "id": "avail",
+    "surface": "avail"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "background": [
+   {
+    "id": "back",
+    "surface": "back"
+   },
+   {
+    "id": "ground",
+    "surface": "ground"
+   }
+  ],
+  "baseball": [
+   {
+    "id": "base",
+    "surface": "base"
+   },
+   {
+    "id": "ball",
+    "surface": "ball"
+   }
+  ],
+  "basic": [
+   {
+    "id": "base",
+    "surface": "bas"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "basketball": [
+   {
+    "id": "basket",
+    "surface": "basket"
+   },
+   {
+    "id": "ball",
+    "surface": "ball"
+   }
+  ],
+  "bathroom": [
+   {
+    "id": "bath",
+    "surface": "bath"
+   },
+   {
+    "id": "room",
+    "surface": "room"
+   }
+  ],
+  "beautiful": [
+   {
+    "id": "beauty",
+    "surface": "beauti"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "become": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "come",
+    "surface": "come"
+   }
+  ],
+  "bedroom": [
+   {
+    "id": "bed",
+    "surface": "bed"
+   },
+   {
+    "id": "room",
+    "surface": "room"
+   }
+  ],
+  "before": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "fore",
+    "surface": "fore"
+   }
+  ],
+  "behind": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "hind",
+    "surface": "hind"
+   }
+  ],
+  "believe": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "leave",
+    "surface": "lieve"
+   }
+  ],
+  "below": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "low",
+    "surface": "low"
+   }
+  ],
+  "beside": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "side",
+    "surface": "side"
+   }
+  ],
+  "between": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "twain",
+    "surface": "tween"
+   }
+  ],
+  "beyond": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "eond",
+    "surface": "yond"
+   }
+  ],
+  "bicycle": [
+   {
+    "id": "bi",
+    "surface": "bi"
+   },
+   {
+    "id": "cycle",
+    "surface": "cycle"
+   }
+  ],
+  "birthday": [
+   {
+    "id": "birth",
+    "surface": "birth"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "bitter": [
+   {
+    "id": "bite",
+    "surface": "bitt"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "blackboard": [
+   {
+    "id": "black",
+    "surface": "black"
+   },
+   {
+    "id": "board",
+    "surface": "board"
+   }
+  ],
+  "boring": [
+   {
+    "id": "bore",
+    "surface": "bor"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "breakfast": [
+   {
+    "id": "break",
+    "surface": "break"
+   },
+   {
+    "id": "fast",
+    "surface": "fast"
+   }
+  ],
+  "building": [
+   {
+    "id": "build",
+    "surface": "build"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "business": [
+   {
+    "id": "busy",
+    "surface": "busi"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "but": [
+   {
+    "id": "be",
+    "surface": "b"
+   },
+   {
+    "id": "out",
+    "surface": "ut"
+   }
+  ],
+  "butter": [
+   {
+    "id": "butt",
+    "surface": "butt"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ]
+ }
+}

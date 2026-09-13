@@ -1,0 +1,605 @@
+{
+ "_comment": "3.1 中考批 切分 D：第 181–240 词",
+ "splits": {
+  "herself": [
+   {
+    "id": "her",
+    "surface": "her"
+   },
+   {
+    "id": "self",
+    "surface": "self"
+   }
+  ],
+  "himself": [
+   {
+    "id": "him",
+    "surface": "him"
+   },
+   {
+    "id": "self",
+    "surface": "self"
+   }
+  ],
+  "holiday": [
+   {
+    "id": "holy",
+    "surface": "holi"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "hometown": [
+   {
+    "id": "home",
+    "surface": "home"
+   },
+   {
+    "id": "town",
+    "surface": "town"
+   }
+  ],
+  "homework": [
+   {
+    "id": "home",
+    "surface": "home"
+   },
+   {
+    "id": "work",
+    "surface": "work"
+   }
+  ],
+  "hotdog": [
+   {
+    "id": "hot",
+    "surface": "hot"
+   },
+   {
+    "id": "dog",
+    "surface": "dog"
+   }
+  ],
+  "housework": [
+   {
+    "id": "house",
+    "surface": "house"
+   },
+   {
+    "id": "work",
+    "surface": "work"
+   }
+  ],
+  "however": [
+   {
+    "id": "how",
+    "surface": "how"
+   },
+   {
+    "id": "ever",
+    "surface": "ever"
+   }
+  ],
+  "humorous": [
+   {
+    "id": "humor",
+    "surface": "humor"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "icecream": [
+   {
+    "id": "iced",
+    "surface": "ice"
+   },
+   {
+    "id": "cream",
+    "surface": "cream"
+   }
+  ],
+  "illness": [
+   {
+    "id": "ill",
+    "surface": "ill"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "immediately": [
+   {
+    "id": "immediate",
+    "surface": "immediate"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "important": [
+   {
+    "id": "import",
+    "surface": "import"
+   },
+   {
+    "id": "ant",
+    "surface": "ant"
+   }
+  ],
+  "impossible": [
+   {
+    "id": "im",
+    "surface": "im"
+   },
+   {
+    "id": "possible",
+    "surface": "possible"
+   }
+  ],
+  "improve": [
+   {
+    "id": "imp",
+    "surface": "imp"
+   },
+   {
+    "id": "rove",
+    "surface": "rove"
+   }
+  ],
+  "indian": [
+   {
+    "id": "ind",
+    "surface": "ind"
+   },
+   {
+    "id": "ian",
+    "surface": "ian"
+   }
+  ],
+  "industry": [
+   {
+    "id": "indus",
+    "surface": "indus"
+   },
+   {
+    "id": "try",
+    "surface": "try"
+   }
+  ],
+  "inside": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "side",
+    "surface": "side"
+   }
+  ],
+  "instead": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "stead",
+    "surface": "stead"
+   }
+  ],
+  "instruction": [
+   {
+    "id": "instruct",
+    "surface": "instruct"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "intention": [
+   {
+    "id": "intent",
+    "surface": "intent"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "interest": [
+   {
+    "id": "inter",
+    "surface": "inter"
+   },
+   {
+    "id": "est",
+    "surface": "est"
+   }
+  ],
+  "interesting": [
+   {
+    "id": "interest",
+    "surface": "interest"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "international": [
+   {
+    "id": "inter",
+    "surface": "inter"
+   },
+   {
+    "id": "national",
+    "surface": "national"
+   }
+  ],
+  "internet": [
+   {
+    "id": "inter",
+    "surface": "inter"
+   },
+   {
+    "id": "net",
+    "surface": "net"
+   }
+  ],
+  "interview": [
+   {
+    "id": "inter",
+    "surface": "inter"
+   },
+   {
+    "id": "view",
+    "surface": "view"
+   }
+  ],
+  "into": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "to",
+    "surface": "to"
+   }
+  ],
+  "introduce": [
+   {
+    "id": "intro",
+    "surface": "intro"
+   },
+   {
+    "id": "duce",
+    "surface": "duce"
+   }
+  ],
+  "invention": [
+   {
+    "id": "invent",
+    "surface": "invent"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "island": [
+   {
+    "id": "ey",
+    "surface": "is"
+   },
+   {
+    "id": "land",
+    "surface": "land"
+   }
+  ],
+  "itself": [
+   {
+    "id": "it",
+    "surface": "it"
+   },
+   {
+    "id": "self",
+    "surface": "self"
+   }
+  ],
+  "japan": [
+   {
+    "id": "jap",
+    "surface": "jap"
+   },
+   {
+    "id": "an",
+    "surface": "an"
+   }
+  ],
+  "japanese": [
+   {
+    "id": "japan",
+    "surface": "japan"
+   },
+   {
+    "id": "ese",
+    "surface": "ese"
+   }
+  ],
+  "keyboard": [
+   {
+    "id": "key",
+    "surface": "key"
+   },
+   {
+    "id": "board",
+    "surface": "board"
+   }
+  ],
+  "kilogram": [
+   {
+    "id": "kilo",
+    "surface": "kilo"
+   },
+   {
+    "id": "gram",
+    "surface": "gram"
+   }
+  ],
+  "king": [
+   {
+    "id": "kin",
+    "surface": "kin"
+   },
+   {
+    "id": "ing",
+    "surface": "g"
+   }
+  ],
+  "kitchen": [
+   {
+    "id": "kit",
+    "surface": "kit"
+   },
+   {
+    "id": "chen",
+    "surface": "chen"
+   }
+  ],
+  "knowledge": [
+   {
+    "id": "know",
+    "surface": "know"
+   },
+   {
+    "id": "ledge",
+    "surface": "ledge"
+   }
+  ],
+  "leader": [
+   {
+    "id": "lead",
+    "surface": "lead"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "lemonade": [
+   {
+    "id": "lemon",
+    "surface": "lemon"
+   },
+   {
+    "id": "ade",
+    "surface": "ade"
+   }
+  ],
+  "letter": [
+   {
+    "id": "let",
+    "surface": "lett"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "little": [
+   {
+    "id": "lout",
+    "surface": "litt"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "lively": [
+   {
+    "id": "life",
+    "surface": "live"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "lonely": [
+   {
+    "id": "lone",
+    "surface": "lone"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "lovely": [
+   {
+    "id": "love",
+    "surface": "love"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "manage": [
+   {
+    "id": "man",
+    "surface": "man"
+   },
+   {
+    "id": "age",
+    "surface": "age"
+   }
+  ],
+  "manager": [
+   {
+    "id": "manage",
+    "surface": "manage"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "marriage": [
+   {
+    "id": "marry",
+    "surface": "marri"
+   },
+   {
+    "id": "age",
+    "surface": "age"
+   }
+  ],
+  "master": [
+   {
+    "id": "mast",
+    "surface": "mast"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "mathematics": [
+   {
+    "id": "mathematic",
+    "surface": "mathematic"
+   },
+   {
+    "id": "ics",
+    "surface": "s"
+   }
+  ],
+  "maybe": [
+   {
+    "id": "may",
+    "surface": "may"
+   },
+   {
+    "id": "be",
+    "surface": "be"
+   }
+  ],
+  "meaning": [
+   {
+    "id": "mean",
+    "surface": "mean"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "meeting": [
+   {
+    "id": "meet",
+    "surface": "meet"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "mention": [
+   {
+    "id": "ment",
+    "surface": "ment"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "message": [
+   {
+    "id": "mess",
+    "surface": "mess"
+   },
+   {
+    "id": "age",
+    "surface": "age"
+   }
+  ],
+  "method": [
+   {
+    "id": "met",
+    "surface": "met"
+   },
+   {
+    "id": "hod",
+    "surface": "hod"
+   }
+  ],
+  "mistake": [
+   {
+    "id": "mis",
+    "surface": "mis"
+   },
+   {
+    "id": "take",
+    "surface": "take"
+   }
+  ],
+  "monday": [
+   {
+    "id": "moon",
+    "surface": "mon"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "monkey": [
+   {
+    "id": "monk",
+    "surface": "monk"
+   },
+   {
+    "id": "ey",
+    "surface": "ey"
+   }
+  ],
+  "morning": [
+   {
+    "id": "morn",
+    "surface": "morn"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ]
+ }
+}

@@ -1,0 +1,605 @@
+{
+ "_comment": "3.1 中考批 切分 C：第 121–180 词",
+ "splits": {
+  "enjoy": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "joy",
+    "surface": "joy"
+   }
+  ],
+  "environment": [
+   {
+    "id": "environ",
+    "surface": "environ"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "eraser": [
+   {
+    "id": "erase",
+    "surface": "erase"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "especially": [
+   {
+    "id": "especial",
+    "surface": "especial"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "european": [
+   {
+    "id": "europe",
+    "surface": "europe"
+   },
+   {
+    "id": "an",
+    "surface": "an"
+   }
+  ],
+  "evening": [
+   {
+    "id": "even",
+    "surface": "even"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "everybody": [
+   {
+    "id": "every",
+    "surface": "every"
+   },
+   {
+    "id": "body",
+    "surface": "body"
+   }
+  ],
+  "everyday": [
+   {
+    "id": "every",
+    "surface": "every"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "everyone": [
+   {
+    "id": "every",
+    "surface": "every"
+   },
+   {
+    "id": "one",
+    "surface": "one"
+   }
+  ],
+  "everything": [
+   {
+    "id": "every",
+    "surface": "every"
+   },
+   {
+    "id": "thing",
+    "surface": "thing"
+   }
+  ],
+  "everywhere": [
+   {
+    "id": "every",
+    "surface": "every"
+   },
+   {
+    "id": "where",
+    "surface": "where"
+   }
+  ],
+  "examination": [
+   {
+    "id": "examine",
+    "surface": "examin"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "example": [
+   {
+    "id": "exam",
+    "surface": "exam"
+   },
+   {
+    "id": "ple",
+    "surface": "ple"
+   }
+  ],
+  "excellent": [
+   {
+    "id": "excel",
+    "surface": "excell"
+   },
+   {
+    "id": "ent",
+    "surface": "ent"
+   }
+  ],
+  "expensive": [
+   {
+    "id": "expense",
+    "surface": "expens"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "famous": [
+   {
+    "id": "fame",
+    "surface": "fam"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "fantastic": [
+   {
+    "id": "fantasy",
+    "surface": "fantas"
+   },
+   {
+    "id": "tic",
+    "surface": "tic"
+   }
+  ],
+  "farmer": [
+   {
+    "id": "farm",
+    "surface": "farm"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "favourite": [
+   {
+    "id": "favour",
+    "surface": "favour"
+   },
+   {
+    "id": "ite",
+    "surface": "ite"
+   }
+  ],
+  "feeling": [
+   {
+    "id": "feel",
+    "surface": "feel"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "festival": [
+   {
+    "id": "festive",
+    "surface": "festiv"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "fifteen": [
+   {
+    "id": "five",
+    "surface": "fif"
+   },
+   {
+    "id": "teen",
+    "surface": "teen"
+   }
+  ],
+  "fifty": [
+   {
+    "id": "five",
+    "surface": "fif"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "fisherman": [
+   {
+    "id": "fisher",
+    "surface": "fisher"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "flower": [
+   {
+    "id": "flow",
+    "surface": "flow"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "football": [
+   {
+    "id": "foot",
+    "surface": "foot"
+   },
+   {
+    "id": "ball",
+    "surface": "ball"
+   }
+  ],
+  "foreigner": [
+   {
+    "id": "foreign",
+    "surface": "foreign"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "forest": [
+   {
+    "id": "for",
+    "surface": "for"
+   },
+   {
+    "id": "est",
+    "surface": "est"
+   }
+  ],
+  "forget": [
+   {
+    "id": "for",
+    "surface": "for"
+   },
+   {
+    "id": "get",
+    "surface": "get"
+   }
+  ],
+  "forty": [
+   {
+    "id": "four",
+    "surface": "for"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "forward": [
+   {
+    "id": "fore",
+    "surface": "for"
+   },
+   {
+    "id": "ward",
+    "surface": "ward"
+   }
+  ],
+  "fourteen": [
+   {
+    "id": "four",
+    "surface": "four"
+   },
+   {
+    "id": "teen",
+    "surface": "teen"
+   }
+  ],
+  "fourth": [
+   {
+    "id": "four",
+    "surface": "four"
+   },
+   {
+    "id": "th",
+    "surface": "th"
+   }
+  ],
+  "friend": [
+   {
+    "id": "free",
+    "surface": "frie"
+   },
+   {
+    "id": "and",
+    "surface": "nd"
+   }
+  ],
+  "friendly": [
+   {
+    "id": "friend",
+    "surface": "friend"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "friendship": [
+   {
+    "id": "friend",
+    "surface": "friend"
+   },
+   {
+    "id": "ship",
+    "surface": "ship"
+   }
+  ],
+  "gentleman": [
+   {
+    "id": "gentle",
+    "surface": "gentle"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "geography": [
+   {
+    "id": "geo",
+    "surface": "geo"
+   },
+   {
+    "id": "graphy",
+    "surface": "graphy"
+   }
+  ],
+  "golden": [
+   {
+    "id": "gold",
+    "surface": "gold"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "goodbye": [
+   {
+    "id": "good",
+    "surface": "good"
+   },
+   {
+    "id": "bye",
+    "surface": "bye"
+   }
+  ],
+  "government": [
+   {
+    "id": "govern",
+    "surface": "govern"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "grammar": [
+   {
+    "id": "gram",
+    "surface": "gram"
+   },
+   {
+    "id": "mar",
+    "surface": "mar"
+   }
+  ],
+  "grandchild": [
+   {
+    "id": "grand",
+    "surface": "grand"
+   },
+   {
+    "id": "child",
+    "surface": "child"
+   }
+  ],
+  "granddaughter": [
+   {
+    "id": "grand",
+    "surface": "grand"
+   },
+   {
+    "id": "daughter",
+    "surface": "daughter"
+   }
+  ],
+  "grandfather": [
+   {
+    "id": "grand",
+    "surface": "grand"
+   },
+   {
+    "id": "father",
+    "surface": "father"
+   }
+  ],
+  "grandma": [
+   {
+    "id": "grand",
+    "surface": "grand"
+   },
+   {
+    "id": "ma",
+    "surface": "ma"
+   }
+  ],
+  "grandmother": [
+   {
+    "id": "grand",
+    "surface": "grand"
+   },
+   {
+    "id": "mother",
+    "surface": "mother"
+   }
+  ],
+  "grandpa": [
+   {
+    "id": "grand",
+    "surface": "grand"
+   },
+   {
+    "id": "pa",
+    "surface": "pa"
+   }
+  ],
+  "grandparent": [
+   {
+    "id": "grand",
+    "surface": "grand"
+   },
+   {
+    "id": "parent",
+    "surface": "parent"
+   }
+  ],
+  "grandson": [
+   {
+    "id": "grand",
+    "surface": "grand"
+   },
+   {
+    "id": "son",
+    "surface": "son"
+   }
+  ],
+  "greeting": [
+   {
+    "id": "greet",
+    "surface": "greet"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "hamburger": [
+   {
+    "id": "hamburg",
+    "surface": "hamburg"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "handbag": [
+   {
+    "id": "hand",
+    "surface": "hand"
+   },
+   {
+    "id": "bag",
+    "surface": "bag"
+   }
+  ],
+  "handsome": [
+   {
+    "id": "hand",
+    "surface": "hand"
+   },
+   {
+    "id": "some",
+    "surface": "some"
+   }
+  ],
+  "handwriting": [
+   {
+    "id": "handwrite",
+    "surface": "handwrit"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "hardly": [
+   {
+    "id": "hard",
+    "surface": "hard"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "headache": [
+   {
+    "id": "head",
+    "surface": "head"
+   },
+   {
+    "id": "ache",
+    "surface": "ache"
+   }
+  ],
+  "health": [
+   {
+    "id": "heal",
+    "surface": "heal"
+   },
+   {
+    "id": "th",
+    "surface": "th"
+   }
+  ],
+  "healthy": [
+   {
+    "id": "heal",
+    "surface": "heal"
+   },
+   {
+    "id": "thy",
+    "surface": "thy"
+   }
+  ],
+  "helpful": [
+   {
+    "id": "help",
+    "surface": "help"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ]
+ }
+}

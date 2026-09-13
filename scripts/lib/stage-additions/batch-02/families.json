@@ -1,0 +1,2423 @@
+{
+ "_comment": "3.1 中考批 新增 298 个词根家族",
+ "families": {
+  "sent": {
+   "roots": [
+    "sent"
+   ],
+   "words": [
+    "absent",
+    "present"
+   ]
+  },
+  "act": {
+   "roots": [
+    "act"
+   ],
+   "words": [
+    "action",
+    "active"
+   ]
+  },
+  "active": {
+   "roots": [
+    "active"
+   ],
+   "words": [
+    "activity"
+   ]
+  },
+  "vantage": {
+   "roots": [
+    "vantage"
+   ],
+   "words": [
+    "advantage"
+   ]
+  },
+  "advertise": {
+   "roots": [
+    "advertise"
+   ],
+   "words": [
+    "advertisement"
+   ]
+  },
+  "vis": {
+   "roots": [
+    "vis"
+   ],
+   "words": [
+    "advise"
+   ]
+  },
+  "ford": {
+   "roots": [
+    "ford"
+   ],
+   "words": [
+    "afford"
+   ]
+  },
+  "noon": {
+   "roots": [
+    "noon"
+   ],
+   "words": [
+    "afternoon"
+   ]
+  },
+  "agree": {
+   "roots": [
+    "agree"
+   ],
+   "words": [
+    "agreement"
+   ]
+  },
+  "plane": {
+   "roots": [
+    "plane"
+   ],
+   "words": [
+    "airplane"
+   ]
+  },
+  "port": {
+   "roots": [
+    "port"
+   ],
+   "words": [
+    "airport",
+    "passport"
+   ]
+  },
+  "a": {
+   "roots": [
+    "a"
+   ],
+   "words": [
+    "alive",
+    "asleep"
+   ]
+  },
+  "live": {
+   "roots": [
+    "live"
+   ],
+   "words": [
+    "alive"
+   ]
+  },
+  "ready": {
+   "roots": [
+    "ready"
+   ],
+   "words": [
+    "already"
+   ]
+  },
+  "so": {
+   "roots": [
+    "so"
+   ],
+   "words": [
+    "also"
+   ]
+  },
+  "though": {
+   "roots": [
+    "though"
+   ],
+   "words": [
+    "although"
+   ]
+  },
+  "other": {
+   "roots": [
+    "other"
+   ],
+   "words": [
+    "another"
+   ]
+  },
+  "any": {
+   "roots": [
+    "any"
+   ],
+   "words": [
+    "anybody",
+    "anyone",
+    "anything",
+    "anyway",
+    "anywhere",
+    "company"
+   ]
+  },
+  "rive": {
+   "roots": [
+    "rive"
+   ],
+   "words": [
+    "arrive",
+    "river"
+   ]
+  },
+  "asia": {
+   "roots": [
+    "asia"
+   ],
+   "words": [
+    "asian"
+   ]
+  },
+  "sleep": {
+   "roots": [
+    "sleep"
+   ],
+   "words": [
+    "asleep"
+   ]
+  },
+  "attend": {
+   "roots": [
+    "attend"
+   ],
+   "words": [
+    "attention"
+   ]
+  },
+  "australia": {
+   "roots": [
+    "australia"
+   ],
+   "words": [
+    "australian"
+   ]
+  },
+  "avail": {
+   "roots": [
+    "avail"
+   ],
+   "words": [
+    "available"
+   ]
+  },
+  "base": {
+   "roots": [
+    "base"
+   ],
+   "words": [
+    "baseball",
+    "basic"
+   ]
+  },
+  "basket": {
+   "roots": [
+    "basket"
+   ],
+   "words": [
+    "basketball"
+   ]
+  },
+  "beauty": {
+   "roots": [
+    "beauty"
+   ],
+   "words": [
+    "beautiful"
+   ]
+  },
+  "bed": {
+   "roots": [
+    "bed"
+   ],
+   "words": [
+    "bedroom"
+   ]
+  },
+  "hind": {
+   "roots": [
+    "hind"
+   ],
+   "words": [
+    "behind"
+   ]
+  },
+  "leave": {
+   "roots": [
+    "leave"
+   ],
+   "words": [
+    "believe"
+   ]
+  },
+  "low": {
+   "roots": [
+    "low"
+   ],
+   "words": [
+    "below"
+   ]
+  },
+  "twain": {
+   "roots": [
+    "twain"
+   ],
+   "words": [
+    "between"
+   ]
+  },
+  "eond": {
+   "roots": [
+    "eond"
+   ],
+   "words": [
+    "beyond"
+   ]
+  },
+  "birth": {
+   "roots": [
+    "birth"
+   ],
+   "words": [
+    "birthday"
+   ]
+  },
+  "bite": {
+   "roots": [
+    "bite"
+   ],
+   "words": [
+    "bitter"
+   ]
+  },
+  "black": {
+   "roots": [
+    "black"
+   ],
+   "words": [
+    "blackboard"
+   ]
+  },
+  "bore": {
+   "roots": [
+    "bore"
+   ],
+   "words": [
+    "boring"
+   ]
+  },
+  "break": {
+   "roots": [
+    "break"
+   ],
+   "words": [
+    "breakfast"
+   ]
+  },
+  "fast": {
+   "roots": [
+    "fast"
+   ],
+   "words": [
+    "breakfast"
+   ]
+  },
+  "build": {
+   "roots": [
+    "build"
+   ],
+   "words": [
+    "building"
+   ]
+  },
+  "busy": {
+   "roots": [
+    "busy"
+   ],
+   "words": [
+    "business"
+   ]
+  },
+  "butt": {
+   "roots": [
+    "butt"
+   ],
+   "words": [
+    "butter"
+   ]
+  },
+  "butter": {
+   "roots": [
+    "butter"
+   ],
+   "words": [
+    "butterfly"
+   ]
+  },
+  "fly": {
+   "roots": [
+    "fly"
+   ],
+   "words": [
+    "butterfly"
+   ]
+  },
+  "capit": {
+   "roots": [
+    "capit"
+   ],
+   "words": [
+    "capital"
+   ]
+  },
+  "tain": {
+   "roots": [
+    "tain"
+   ],
+   "words": [
+    "captain"
+   ]
+  },
+  "ceil": {
+   "roots": [
+    "ceil"
+   ],
+   "words": [
+    "ceiling"
+   ]
+  },
+  "chair": {
+   "roots": [
+    "chair"
+   ],
+   "words": [
+    "chairman"
+   ]
+  },
+  "chemist": {
+   "roots": [
+    "chemist"
+   ],
+   "words": [
+    "chemistry"
+   ]
+  },
+  "chick": {
+   "roots": [
+    "chick"
+   ],
+   "words": [
+    "chicken"
+   ]
+  },
+  "china": {
+   "roots": [
+    "china"
+   ],
+   "words": [
+    "chinese"
+   ]
+  },
+  "christ": {
+   "roots": [
+    "christ"
+   ],
+   "words": [
+    "christmas"
+   ]
+  },
+  "cloth": {
+   "roots": [
+    "cloth"
+   ],
+   "words": [
+    "clothes"
+   ]
+  },
+  "communicate": {
+   "roots": [
+    "communicate"
+   ],
+   "words": [
+    "communication"
+   ]
+  },
+  "comp": {
+   "roots": [
+    "comp"
+   ],
+   "words": [
+    "company"
+   ]
+  },
+  "compete": {
+   "roots": [
+    "compete"
+   ],
+   "words": [
+    "competition"
+   ]
+  },
+  "compute": {
+   "roots": [
+    "compute"
+   ],
+   "words": [
+    "computer"
+   ]
+  },
+  "cert": {
+   "roots": [
+    "cert"
+   ],
+   "words": [
+    "concert"
+   ]
+  },
+  "sid": {
+   "roots": [
+    "sid"
+   ],
+   "words": [
+    "consider"
+   ]
+  },
+  "converse": {
+   "roots": [
+    "converse"
+   ],
+   "words": [
+    "conversation"
+   ]
+  },
+  "cook": {
+   "roots": [
+    "cook"
+   ],
+   "words": [
+    "cooker"
+   ]
+  },
+  "coun": {
+   "roots": [
+    "coun"
+   ],
+   "words": [
+    "country"
+   ]
+  },
+  "try": {
+   "roots": [
+    "try"
+   ],
+   "words": [
+    "country",
+    "industry"
+   ]
+  },
+  "country": {
+   "roots": [
+    "country"
+   ],
+   "words": [
+    "countryside"
+   ]
+  },
+  "craie": {
+   "roots": [
+    "craie"
+   ],
+   "words": [
+    "crayon"
+   ]
+  },
+  "danger": {
+   "roots": [
+    "danger"
+   ],
+   "words": [
+    "dangerous"
+   ]
+  },
+  "develop": {
+   "roots": [
+    "develop"
+   ],
+   "words": [
+    "development"
+   ]
+  },
+  "diction": {
+   "roots": [
+    "diction"
+   ],
+   "words": [
+    "dictionary"
+   ]
+  },
+  "differ": {
+   "roots": [
+    "differ"
+   ],
+   "words": [
+    "difference",
+    "different"
+   ]
+  },
+  "direct": {
+   "roots": [
+    "direct"
+   ],
+   "words": [
+    "direction",
+    "director"
+   ]
+  },
+  "discover": {
+   "roots": [
+    "discover"
+   ],
+   "words": [
+    "discovery"
+   ]
+  },
+  "cuss": {
+   "roots": [
+    "cuss"
+   ],
+   "words": [
+    "discuss"
+   ]
+  },
+  "discuss": {
+   "roots": [
+    "discuss"
+   ],
+   "words": [
+    "discussion"
+   ]
+  },
+  "ease": {
+   "roots": [
+    "ease"
+   ],
+   "words": [
+    "disease"
+   ]
+  },
+  "turb": {
+   "roots": [
+    "turb"
+   ],
+   "words": [
+    "disturb"
+   ]
+  },
+  "vide": {
+   "roots": [
+    "vide"
+   ],
+   "words": [
+    "divide"
+   ]
+  },
+  "stair": {
+   "roots": [
+    "stair"
+   ],
+   "words": [
+    "downstairs",
+    "upstairs"
+   ]
+  },
+  "draw": {
+   "roots": [
+    "draw"
+   ],
+   "words": [
+    "drawer"
+   ]
+  },
+  "drive": {
+   "roots": [
+    "drive"
+   ],
+   "words": [
+    "driver"
+   ]
+  },
+  "dump": {
+   "roots": [
+    "dump"
+   ],
+   "words": [
+    "dumpling"
+   ]
+  },
+  "dure": {
+   "roots": [
+    "dure"
+   ],
+   "words": [
+    "during"
+   ]
+  },
+  "due": {
+   "roots": [
+    "due"
+   ],
+   "words": [
+    "duty"
+   ]
+  },
+  "ere": {
+   "roots": [
+    "ere"
+   ],
+   "words": [
+    "early"
+   ]
+  },
+  "educate": {
+   "roots": [
+    "educate"
+   ],
+   "words": [
+    "education"
+   ]
+  },
+  "eight": {
+   "roots": [
+    "eight"
+   ],
+   "words": [
+    "eighteen",
+    "eighty"
+   ]
+  },
+  "engine": {
+   "roots": [
+    "engine"
+   ],
+   "words": [
+    "engineer"
+   ]
+  },
+  "eng": {
+   "roots": [
+    "eng"
+   ],
+   "words": [
+    "england"
+   ]
+  },
+  "joy": {
+   "roots": [
+    "joy"
+   ],
+   "words": [
+    "enjoy"
+   ]
+  },
+  "environ": {
+   "roots": [
+    "environ"
+   ],
+   "words": [
+    "environment"
+   ]
+  },
+  "erase": {
+   "roots": [
+    "erase"
+   ],
+   "words": [
+    "eraser"
+   ]
+  },
+  "especial": {
+   "roots": [
+    "especial"
+   ],
+   "words": [
+    "especially"
+   ]
+  },
+  "europe": {
+   "roots": [
+    "europe"
+   ],
+   "words": [
+    "european"
+   ]
+  },
+  "examine": {
+   "roots": [
+    "examine"
+   ],
+   "words": [
+    "examination"
+   ]
+  },
+  "exam": {
+   "roots": [
+    "exam"
+   ],
+   "words": [
+    "example"
+   ]
+  },
+  "excel": {
+   "roots": [
+    "excel"
+   ],
+   "words": [
+    "excellent"
+   ]
+  },
+  "expense": {
+   "roots": [
+    "expense"
+   ],
+   "words": [
+    "expensive"
+   ]
+  },
+  "fame": {
+   "roots": [
+    "fame"
+   ],
+   "words": [
+    "famous"
+   ]
+  },
+  "fantasy": {
+   "roots": [
+    "fantasy"
+   ],
+   "words": [
+    "fantastic"
+   ]
+  },
+  "farm": {
+   "roots": [
+    "farm"
+   ],
+   "words": [
+    "farmer"
+   ]
+  },
+  "favour": {
+   "roots": [
+    "favour"
+   ],
+   "words": [
+    "favourite"
+   ]
+  },
+  "feel": {
+   "roots": [
+    "feel"
+   ],
+   "words": [
+    "feeling"
+   ]
+  },
+  "festive": {
+   "roots": [
+    "festive"
+   ],
+   "words": [
+    "festival"
+   ]
+  },
+  "five": {
+   "roots": [
+    "five"
+   ],
+   "words": [
+    "fifteen",
+    "fifty"
+   ]
+  },
+  "fisher": {
+   "roots": [
+    "fisher"
+   ],
+   "words": [
+    "fisherman"
+   ]
+  },
+  "flow": {
+   "roots": [
+    "flow"
+   ],
+   "words": [
+    "flower"
+   ]
+  },
+  "foreign": {
+   "roots": [
+    "foreign"
+   ],
+   "words": [
+    "foreigner"
+   ]
+  },
+  "get": {
+   "roots": [
+    "get"
+   ],
+   "words": [
+    "forget"
+   ]
+  },
+  "four": {
+   "roots": [
+    "four"
+   ],
+   "words": [
+    "forty",
+    "fourteen",
+    "fourth"
+   ]
+  },
+  "gentle": {
+   "roots": [
+    "gentle"
+   ],
+   "words": [
+    "gentleman"
+   ]
+  },
+  "gold": {
+   "roots": [
+    "gold"
+   ],
+   "words": [
+    "golden"
+   ]
+  },
+  "good": {
+   "roots": [
+    "good"
+   ],
+   "words": [
+    "goodbye"
+   ]
+  },
+  "bye": {
+   "roots": [
+    "bye"
+   ],
+   "words": [
+    "goodbye"
+   ]
+  },
+  "govern": {
+   "roots": [
+    "govern"
+   ],
+   "words": [
+    "government"
+   ]
+  },
+  "mar": {
+   "roots": [
+    "mar"
+   ],
+   "words": [
+    "grammar"
+   ]
+  },
+  "child": {
+   "roots": [
+    "child"
+   ],
+   "words": [
+    "grandchild"
+   ]
+  },
+  "daughter": {
+   "roots": [
+    "daughter"
+   ],
+   "words": [
+    "granddaughter"
+   ]
+  },
+  "father": {
+   "roots": [
+    "father"
+   ],
+   "words": [
+    "grandfather"
+   ]
+  },
+  "ma": {
+   "roots": [
+    "ma"
+   ],
+   "words": [
+    "grandma"
+   ]
+  },
+  "mother": {
+   "roots": [
+    "mother"
+   ],
+   "words": [
+    "grandmother"
+   ]
+  },
+  "pa": {
+   "roots": [
+    "pa"
+   ],
+   "words": [
+    "grandpa"
+   ]
+  },
+  "parent": {
+   "roots": [
+    "parent"
+   ],
+   "words": [
+    "grandparent"
+   ]
+  },
+  "greet": {
+   "roots": [
+    "greet"
+   ],
+   "words": [
+    "greeting",
+    "regret"
+   ]
+  },
+  "hamburg": {
+   "roots": [
+    "hamburg"
+   ],
+   "words": [
+    "hamburger"
+   ]
+  },
+  "hand": {
+   "roots": [
+    "hand"
+   ],
+   "words": [
+    "handbag",
+    "handsome"
+   ]
+  },
+  "bag": {
+   "roots": [
+    "bag"
+   ],
+   "words": [
+    "handbag",
+    "schoolbag"
+   ]
+  },
+  "handwrite": {
+   "roots": [
+    "handwrite"
+   ],
+   "words": [
+    "handwriting"
+   ]
+  },
+  "heal": {
+   "roots": [
+    "heal"
+   ],
+   "words": [
+    "health",
+    "healthy"
+   ]
+  },
+  "thy": {
+   "roots": [
+    "thy"
+   ],
+   "words": [
+    "healthy"
+   ]
+  },
+  "help": {
+   "roots": [
+    "help"
+   ],
+   "words": [
+    "helpful"
+   ]
+  },
+  "her": {
+   "roots": [
+    "her"
+   ],
+   "words": [
+    "herself",
+    "whether"
+   ]
+  },
+  "him": {
+   "roots": [
+    "him"
+   ],
+   "words": [
+    "himself"
+   ]
+  },
+  "holy": {
+   "roots": [
+    "holy"
+   ],
+   "words": [
+    "holiday"
+   ]
+  },
+  "town": {
+   "roots": [
+    "town"
+   ],
+   "words": [
+    "hometown"
+   ]
+  },
+  "hot": {
+   "roots": [
+    "hot"
+   ],
+   "words": [
+    "hotdog"
+   ]
+  },
+  "dog": {
+   "roots": [
+    "dog"
+   ],
+   "words": [
+    "hotdog"
+   ]
+  },
+  "house": {
+   "roots": [
+    "house"
+   ],
+   "words": [
+    "housework"
+   ]
+  },
+  "how": {
+   "roots": [
+    "how"
+   ],
+   "words": [
+    "however"
+   ]
+  },
+  "humor": {
+   "roots": [
+    "humor"
+   ],
+   "words": [
+    "humorous"
+   ]
+  },
+  "iced": {
+   "roots": [
+    "iced"
+   ],
+   "words": [
+    "icecream"
+   ]
+  },
+  "cream": {
+   "roots": [
+    "cream"
+   ],
+   "words": [
+    "icecream"
+   ]
+  },
+  "ill": {
+   "roots": [
+    "ill"
+   ],
+   "words": [
+    "illness"
+   ]
+  },
+  "immediate": {
+   "roots": [
+    "immediate"
+   ],
+   "words": [
+    "immediately"
+   ]
+  },
+  "import": {
+   "roots": [
+    "import"
+   ],
+   "words": [
+    "important"
+   ]
+  },
+  "possible": {
+   "roots": [
+    "possible"
+   ],
+   "words": [
+    "impossible"
+   ]
+  },
+  "imp": {
+   "roots": [
+    "imp"
+   ],
+   "words": [
+    "improve"
+   ]
+  },
+  "rove": {
+   "roots": [
+    "rove"
+   ],
+   "words": [
+    "improve"
+   ]
+  },
+  "ind": {
+   "roots": [
+    "ind"
+   ],
+   "words": [
+    "indian"
+   ]
+  },
+  "indus": {
+   "roots": [
+    "indus"
+   ],
+   "words": [
+    "industry"
+   ]
+  },
+  "stead": {
+   "roots": [
+    "stead"
+   ],
+   "words": [
+    "instead"
+   ]
+  },
+  "instruct": {
+   "roots": [
+    "instruct"
+   ],
+   "words": [
+    "instruction"
+   ]
+  },
+  "intent": {
+   "roots": [
+    "intent"
+   ],
+   "words": [
+    "intention"
+   ]
+  },
+  "interest": {
+   "roots": [
+    "interest"
+   ],
+   "words": [
+    "interesting"
+   ]
+  },
+  "national": {
+   "roots": [
+    "national"
+   ],
+   "words": [
+    "international"
+   ]
+  },
+  "net": {
+   "roots": [
+    "net"
+   ],
+   "words": [
+    "internet"
+   ]
+  },
+  "view": {
+   "roots": [
+    "view"
+   ],
+   "words": [
+    "interview",
+    "review"
+   ]
+  },
+  "duce": {
+   "roots": [
+    "duce"
+   ],
+   "words": [
+    "introduce"
+   ]
+  },
+  "invent": {
+   "roots": [
+    "invent"
+   ],
+   "words": [
+    "invention"
+   ]
+  },
+  "it": {
+   "roots": [
+    "it"
+   ],
+   "words": [
+    "itself"
+   ]
+  },
+  "jap": {
+   "roots": [
+    "jap"
+   ],
+   "words": [
+    "japan"
+   ]
+  },
+  "japan": {
+   "roots": [
+    "japan"
+   ],
+   "words": [
+    "japanese"
+   ]
+  },
+  "key": {
+   "roots": [
+    "key"
+   ],
+   "words": [
+    "keyboard"
+   ]
+  },
+  "kit": {
+   "roots": [
+    "kit"
+   ],
+   "words": [
+    "kitchen"
+   ]
+  },
+  "chen": {
+   "roots": [
+    "chen"
+   ],
+   "words": [
+    "kitchen"
+   ]
+  },
+  "know": {
+   "roots": [
+    "know"
+   ],
+   "words": [
+    "knowledge"
+   ]
+  },
+  "ledge": {
+   "roots": [
+    "ledge"
+   ],
+   "words": [
+    "knowledge"
+   ]
+  },
+  "lead": {
+   "roots": [
+    "lead"
+   ],
+   "words": [
+    "leader"
+   ]
+  },
+  "lemon": {
+   "roots": [
+    "lemon"
+   ],
+   "words": [
+    "lemonade"
+   ]
+  },
+  "lout": {
+   "roots": [
+    "lout"
+   ],
+   "words": [
+    "little"
+   ]
+  },
+  "life": {
+   "roots": [
+    "life"
+   ],
+   "words": [
+    "lively"
+   ]
+  },
+  "lone": {
+   "roots": [
+    "lone"
+   ],
+   "words": [
+    "lonely"
+   ]
+  },
+  "love": {
+   "roots": [
+    "love"
+   ],
+   "words": [
+    "lovely"
+   ]
+  },
+  "manage": {
+   "roots": [
+    "manage"
+   ],
+   "words": [
+    "manager"
+   ]
+  },
+  "marry": {
+   "roots": [
+    "marry"
+   ],
+   "words": [
+    "marriage"
+   ]
+  },
+  "mathematic": {
+   "roots": [
+    "mathematic"
+   ],
+   "words": [
+    "mathematics"
+   ]
+  },
+  "may": {
+   "roots": [
+    "may"
+   ],
+   "words": [
+    "maybe"
+   ]
+  },
+  "meet": {
+   "roots": [
+    "meet"
+   ],
+   "words": [
+    "meeting"
+   ]
+  },
+  "mess": {
+   "roots": [
+    "mess"
+   ],
+   "words": [
+    "message"
+   ]
+  },
+  "moon": {
+   "roots": [
+    "moon"
+   ],
+   "words": [
+    "monday"
+   ]
+  },
+  "monk": {
+   "roots": [
+    "monk"
+   ],
+   "words": [
+    "monkey"
+   ]
+  },
+  "morn": {
+   "roots": [
+    "morn"
+   ],
+   "words": [
+    "morning"
+   ]
+  },
+  "moth": {
+   "roots": [
+    "moth"
+   ],
+   "words": [
+    "mother"
+   ]
+  },
+  "muse": {
+   "roots": [
+    "muse"
+   ],
+   "words": [
+    "music"
+   ]
+  },
+  "me": {
+   "roots": [
+    "me"
+   ],
+   "words": [
+    "myself"
+   ]
+  },
+  "nation": {
+   "roots": [
+    "nation"
+   ],
+   "words": [
+    "national"
+   ]
+  },
+  "nature": {
+   "roots": [
+    "nature"
+   ],
+   "words": [
+    "natural"
+   ]
+  },
+  "near": {
+   "roots": [
+    "near"
+   ],
+   "words": [
+    "nearly"
+   ]
+  },
+  "not": {
+   "roots": [
+    "not"
+   ],
+   "words": [
+    "neither",
+    "nor",
+    "notice"
+   ]
+  },
+  "either": {
+   "roots": [
+    "either"
+   ],
+   "words": [
+    "neither"
+   ]
+  },
+  "nerve": {
+   "roots": [
+    "nerve"
+   ],
+   "words": [
+    "nervous"
+   ]
+  },
+  "news": {
+   "roots": [
+    "news"
+   ],
+   "words": [
+    "newspaper"
+   ]
+  },
+  "paper": {
+   "roots": [
+    "paper"
+   ],
+   "words": [
+    "newspaper"
+   ]
+  },
+  "nine": {
+   "roots": [
+    "nine"
+   ],
+   "words": [
+    "nineteen",
+    "ninety"
+   ]
+  },
+  "norm": {
+   "roots": [
+    "norm"
+   ],
+   "words": [
+    "normal"
+   ]
+  },
+  "note": {
+   "roots": [
+    "note"
+   ],
+   "words": [
+    "notebook"
+   ]
+  },
+  "book": {
+   "roots": [
+    "book"
+   ],
+   "words": [
+    "notebook"
+   ]
+  },
+  "numb": {
+   "roots": [
+    "numb"
+   ],
+   "words": [
+    "number"
+   ]
+  },
+  "office": {
+   "roots": [
+    "office"
+   ],
+   "words": [
+    "officer"
+   ]
+  },
+  "operate": {
+   "roots": [
+    "operate"
+   ],
+   "words": [
+    "operation"
+   ]
+  },
+  "coat": {
+   "roots": [
+    "coat"
+   ],
+   "words": [
+    "overcoat",
+    "raincoat"
+   ]
+  },
+  "own": {
+   "roots": [
+    "own"
+   ],
+   "words": [
+    "owner"
+   ]
+  },
+  "pack": {
+   "roots": [
+    "pack"
+   ],
+   "words": [
+    "package"
+   ]
+  },
+  "cake": {
+   "roots": [
+    "cake"
+   ],
+   "words": [
+    "pancake"
+   ]
+  },
+  "pass": {
+   "roots": [
+    "pass"
+   ],
+   "words": [
+    "passage"
+   ]
+  },
+  "passer": {
+   "roots": [
+    "passer"
+   ],
+   "words": [
+    "passport"
+   ]
+  },
+  "fect": {
+   "roots": [
+    "fect"
+   ],
+   "words": [
+    "perfect"
+   ]
+  },
+  "hap": {
+   "roots": [
+    "hap"
+   ],
+   "words": [
+    "perhaps"
+   ]
+  },
+  "please": {
+   "roots": [
+    "please"
+   ],
+   "words": [
+    "pleasant"
+   ]
+  },
+  "plea": {
+   "roots": [
+    "plea"
+   ],
+   "words": [
+    "pleasure"
+   ]
+  },
+  "poke": {
+   "roots": [
+    "poke"
+   ],
+   "words": [
+    "pocket"
+   ]
+  },
+  "police": {
+   "roots": [
+    "police"
+   ],
+   "words": [
+    "policeman"
+   ]
+  },
+  "populate": {
+   "roots": [
+    "populate"
+   ],
+   "words": [
+    "population"
+   ]
+  },
+  "card": {
+   "roots": [
+    "card"
+   ],
+   "words": [
+    "postcard"
+   ]
+  },
+  "pare": {
+   "roots": [
+    "pare"
+   ],
+   "words": [
+    "prepare"
+   ]
+  },
+  "prison": {
+   "roots": [
+    "prison"
+   ],
+   "words": [
+    "prisoner"
+   ]
+  },
+  "probable": {
+   "roots": [
+    "probable"
+   ],
+   "words": [
+    "probably"
+   ]
+  },
+  "gress": {
+   "roots": [
+    "gress"
+   ],
+   "words": [
+    "progress"
+   ]
+  },
+  "mise": {
+   "roots": [
+    "mise"
+   ],
+   "words": [
+    "promise"
+   ]
+  },
+  "pose": {
+   "roots": [
+    "pose"
+   ],
+   "words": [
+    "purpose",
+    "suppose"
+   ]
+  },
+  "quest": {
+   "roots": [
+    "quest"
+   ],
+   "words": [
+    "question"
+   ]
+  },
+  "rail": {
+   "roots": [
+    "rail"
+   ],
+   "words": [
+    "railway"
+   ]
+  },
+  "rain": {
+   "roots": [
+    "rain"
+   ],
+   "words": [
+    "raincoat"
+   ]
+  },
+  "rathe": {
+   "roots": [
+    "rathe"
+   ],
+   "words": [
+    "rather"
+   ]
+  },
+  "ceive": {
+   "roots": [
+    "ceive"
+   ],
+   "words": [
+    "receive"
+   ]
+  },
+  "cite": {
+   "roots": [
+    "cite"
+   ],
+   "words": [
+    "recite"
+   ]
+  },
+  "record": {
+   "roots": [
+    "record"
+   ],
+   "words": [
+    "recorder"
+   ]
+  },
+  "relate": {
+   "roots": [
+    "relate"
+   ],
+   "words": [
+    "relation"
+   ]
+  },
+  "lax": {
+   "roots": [
+    "lax"
+   ],
+   "words": [
+    "relax"
+   ]
+  },
+  "member": {
+   "roots": [
+    "member"
+   ],
+   "words": [
+    "remember"
+   ]
+  },
+  "pair": {
+   "roots": [
+    "pair"
+   ],
+   "words": [
+    "repair"
+   ]
+  },
+  "search": {
+   "roots": [
+    "search"
+   ],
+   "words": [
+    "research"
+   ]
+  },
+  "tell": {
+   "roots": [
+    "tell"
+   ],
+   "words": [
+    "retell"
+   ]
+  },
+  "turn": {
+   "roots": [
+    "turn"
+   ],
+   "words": [
+    "return"
+   ]
+  },
+  "rede": {
+   "roots": [
+    "rede"
+   ],
+   "words": [
+    "riddle"
+   ]
+  },
+  "rub": {
+   "roots": [
+    "rub"
+   ],
+   "words": [
+    "rubber"
+   ]
+  },
+  "rule": {
+   "roots": [
+    "rule"
+   ],
+   "words": [
+    "ruler"
+   ]
+  },
+  "russia": {
+   "roots": [
+    "russia"
+   ],
+   "words": [
+    "russian"
+   ]
+  },
+  "sand": {
+   "roots": [
+    "sand"
+   ],
+   "words": [
+    "sandwich",
+    "thousand"
+   ]
+  },
+  "saturn": {
+   "roots": [
+    "saturn"
+   ],
+   "words": [
+    "saturday"
+   ]
+  },
+  "school": {
+   "roots": [
+    "school"
+   ],
+   "words": [
+    "schoolbag"
+   ]
+  },
+  "sever": {
+   "roots": [
+    "sever"
+   ],
+   "words": [
+    "several"
+   ]
+  },
+  "show": {
+   "roots": [
+    "show"
+   ],
+   "words": [
+    "shower"
+   ]
+  },
+  "situate": {
+   "roots": [
+    "situate"
+   ],
+   "words": [
+    "situation"
+   ]
+  },
+  "times": {
+   "roots": [
+    "times"
+   ],
+   "words": [
+    "sometimes"
+   ]
+  },
+  "stand": {
+   "roots": [
+    "stand"
+   ],
+   "words": [
+    "standard",
+    "understand"
+   ]
+  },
+  "straw": {
+   "roots": [
+    "straw"
+   ],
+   "words": [
+    "strawberry"
+   ]
+  },
+  "berry": {
+   "roots": [
+    "berry"
+   ],
+   "words": [
+    "strawberry"
+   ]
+  },
+  "study": {
+   "roots": [
+    "study"
+   ],
+   "words": [
+    "student"
+   ]
+  },
+  "suc": {
+   "roots": [
+    "suc"
+   ],
+   "words": [
+    "succeed"
+   ]
+  },
+  "ceed": {
+   "roots": [
+    "ceed"
+   ],
+   "words": [
+    "succeed"
+   ]
+  },
+  "suggest": {
+   "roots": [
+    "suggest"
+   ],
+   "words": [
+    "suggestion"
+   ]
+  },
+  "sum": {
+   "roots": [
+    "sum"
+   ],
+   "words": [
+    "summer"
+   ]
+  },
+  "market": {
+   "roots": [
+    "market"
+   ],
+   "words": [
+    "supermarket"
+   ]
+  },
+  "supple": {
+   "roots": [
+    "supple"
+   ],
+   "words": [
+    "supply"
+   ]
+  },
+  "prise": {
+   "roots": [
+    "prise"
+   ],
+   "words": [
+    "surprise"
+   ]
+  },
+  "sweat": {
+   "roots": [
+    "sweat"
+   ],
+   "words": [
+    "sweater"
+   ]
+  },
+  "swim": {
+   "roots": [
+    "swim"
+   ],
+   "words": [
+    "swimming"
+   ]
+  },
+  "teach": {
+   "roots": [
+    "teach"
+   ],
+   "words": [
+    "teacher"
+   ]
+  },
+  "ten": {
+   "roots": [
+    "ten"
+   ],
+   "words": [
+    "tenth"
+   ]
+  },
+  "terror": {
+   "roots": [
+    "terror"
+   ],
+   "words": [
+    "terrible"
+   ]
+  },
+  "them": {
+   "roots": [
+    "them"
+   ],
+   "words": [
+    "themselves"
+   ]
+  },
+  "thou": {
+   "roots": [
+    "thou"
+   ],
+   "words": [
+    "thousand"
+   ]
+  },
+  "thurs": {
+   "roots": [
+    "thurs"
+   ],
+   "words": [
+    "thursday"
+   ]
+  },
+  "morrow": {
+   "roots": [
+    "morrow"
+   ],
+   "words": [
+    "tomorrow"
+   ]
+  },
+  "brush": {
+   "roots": [
+    "brush"
+   ],
+   "words": [
+    "toothbrush"
+   ]
+  },
+  "paste": {
+   "roots": [
+    "paste"
+   ],
+   "words": [
+    "toothpaste"
+   ]
+  },
+  "tour": {
+   "roots": [
+    "tour"
+   ],
+   "words": [
+    "tourist"
+   ]
+  },
+  "tow": {
+   "roots": [
+    "tow"
+   ],
+   "words": [
+    "tower"
+   ]
+  },
+  "tradition": {
+   "roots": [
+    "tradition"
+   ],
+   "words": [
+    "traditional"
+   ]
+  },
+  "train": {
+   "roots": [
+    "train"
+   ],
+   "words": [
+    "training"
+   ]
+  },
+  "slate": {
+   "roots": [
+    "slate"
+   ],
+   "words": [
+    "translate"
+   ]
+  },
+  "treat": {
+   "roots": [
+    "treat"
+   ],
+   "words": [
+    "treatment"
+   ]
+  },
+  "tues": {
+   "roots": [
+    "tues"
+   ],
+   "words": [
+    "tuesday"
+   ]
+  },
+  "twenty": {
+   "roots": [
+    "twenty"
+   ],
+   "words": [
+    "twentieth"
+   ]
+  },
+  "two": {
+   "roots": [
+    "two"
+   ],
+   "words": [
+    "twenty"
+   ]
+  },
+  "ug": {
+   "roots": [
+    "ug"
+   ],
+   "words": [
+    "ugly"
+   ]
+  },
+  "universe": {
+   "roots": [
+    "universe"
+   ],
+   "words": [
+    "university"
+   ]
+  },
+  "till": {
+   "roots": [
+    "till"
+   ],
+   "words": [
+    "until"
+   ]
+  },
+  "use": {
+   "roots": [
+    "use"
+   ],
+   "words": [
+    "used",
+    "useful"
+   ]
+  },
+  "viola": {
+   "roots": [
+    "viola"
+   ],
+   "words": [
+    "violin"
+   ]
+  },
+  "visit": {
+   "roots": [
+    "visit"
+   ],
+   "words": [
+    "visitor"
+   ]
+  },
+  "volley": {
+   "roots": [
+    "volley"
+   ],
+   "words": [
+    "volleyball"
+   ]
+  },
+  "melon": {
+   "roots": [
+    "melon"
+   ],
+   "words": [
+    "watermelon"
+   ]
+  },
+  "weal": {
+   "roots": [
+    "weal"
+   ],
+   "words": [
+    "wealth"
+   ]
+  },
+  "web": {
+   "roots": [
+    "web"
+   ],
+   "words": [
+    "website"
+   ]
+  },
+  "site": {
+   "roots": [
+    "site"
+   ],
+   "words": [
+    "website"
+   ]
+  },
+  "will": {
+   "roots": [
+    "will"
+   ],
+   "words": [
+    "welcome"
+   ]
+  },
+  "west": {
+   "roots": [
+    "west"
+   ],
+   "words": [
+    "western"
+   ]
+  },
+  "what": {
+   "roots": [
+    "what"
+   ],
+   "words": [
+    "whatever"
+   ]
+  },
+  "when": {
+   "roots": [
+    "when"
+   ],
+   "words": [
+    "whenever"
+   ]
+  },
+  "whet": {
+   "roots": [
+    "whet"
+   ],
+   "words": [
+    "whether"
+   ]
+  },
+  "deh": {
+   "roots": [
+    "deh"
+   ],
+   "words": [
+    "wide"
+   ]
+  },
+  "win": {
+   "roots": [
+    "win"
+   ],
+   "words": [
+    "winner"
+   ]
+  },
+  "wf": {
+   "roots": [
+    "wf"
+   ],
+   "words": [
+    "woman"
+   ]
+  },
+  "mann": {
+   "roots": [
+    "mann"
+   ],
+   "words": [
+    "woman"
+   ]
+  },
+  "wonder": {
+   "roots": [
+    "wonder"
+   ],
+   "words": [
+    "wonderful"
+   ]
+  },
+  "wer": {
+   "roots": [
+    "wer"
+   ],
+   "words": [
+    "world"
+   ]
+  },
+  "eld": {
+   "roots": [
+    "eld"
+   ],
+   "words": [
+    "world"
+   ]
+  },
+  "your": {
+   "roots": [
+    "your"
+   ],
+   "words": [
+    "yourself",
+    "yourselves"
+   ]
+  }
+ }
+}

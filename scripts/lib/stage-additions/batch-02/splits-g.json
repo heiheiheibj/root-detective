@@ -1,0 +1,555 @@
+{
+ "_comment": "3.1 中考批 切分 G：第 361–415 词",
+ "splits": {
+  "television": [
+   {
+    "id": "tele",
+    "surface": "tele"
+   },
+   {
+    "id": "vision",
+    "surface": "vision"
+   }
+  ],
+  "tenth": [
+   {
+    "id": "ten",
+    "surface": "ten"
+   },
+   {
+    "id": "th",
+    "surface": "th"
+   }
+  ],
+  "terrible": [
+   {
+    "id": "terror",
+    "surface": "terr"
+   },
+   {
+    "id": "ible",
+    "surface": "ible"
+   }
+  ],
+  "themselves": [
+   {
+    "id": "them",
+    "surface": "them"
+   },
+   {
+    "id": "selves",
+    "surface": "selves"
+   }
+  ],
+  "thousand": [
+   {
+    "id": "thou",
+    "surface": "thou"
+   },
+   {
+    "id": "sand",
+    "surface": "sand"
+   }
+  ],
+  "thursday": [
+   {
+    "id": "thurs",
+    "surface": "thurs"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "today": [
+   {
+    "id": "to",
+    "surface": "to"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "tomorrow": [
+   {
+    "id": "to",
+    "surface": "to"
+   },
+   {
+    "id": "morrow",
+    "surface": "morrow"
+   }
+  ],
+  "tonight": [
+   {
+    "id": "to",
+    "surface": "to"
+   },
+   {
+    "id": "night",
+    "surface": "night"
+   }
+  ],
+  "toothache": [
+   {
+    "id": "tooth",
+    "surface": "tooth"
+   },
+   {
+    "id": "ache",
+    "surface": "ache"
+   }
+  ],
+  "toothbrush": [
+   {
+    "id": "tooth",
+    "surface": "tooth"
+   },
+   {
+    "id": "brush",
+    "surface": "brush"
+   }
+  ],
+  "toothpaste": [
+   {
+    "id": "tooth",
+    "surface": "tooth"
+   },
+   {
+    "id": "paste",
+    "surface": "paste"
+   }
+  ],
+  "tourist": [
+   {
+    "id": "tour",
+    "surface": "tour"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   }
+  ],
+  "toward": [
+   {
+    "id": "to",
+    "surface": "to"
+   },
+   {
+    "id": "ward",
+    "surface": "ward"
+   }
+  ],
+  "tower": [
+   {
+    "id": "tow",
+    "surface": "tow"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "traditional": [
+   {
+    "id": "tradition",
+    "surface": "tradition"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "training": [
+   {
+    "id": "train",
+    "surface": "train"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "translate": [
+   {
+    "id": "tran",
+    "surface": "tran"
+   },
+   {
+    "id": "slate",
+    "surface": "slate"
+   }
+  ],
+  "treatment": [
+   {
+    "id": "treat",
+    "surface": "treat"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "tuesday": [
+   {
+    "id": "tues",
+    "surface": "tues"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "twentieth": [
+   {
+    "id": "twenty",
+    "surface": "twenti"
+   },
+   {
+    "id": "eth",
+    "surface": "eth"
+   }
+  ],
+  "twenty": [
+   {
+    "id": "two",
+    "surface": "twen"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "twice": [
+   {
+    "id": "twi",
+    "surface": "twi"
+   },
+   {
+    "id": "ce",
+    "surface": "ce"
+   }
+  ],
+  "ugly": [
+   {
+    "id": "ug",
+    "surface": "ug"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "underground": [
+   {
+    "id": "under",
+    "surface": "under"
+   },
+   {
+    "id": "ground",
+    "surface": "ground"
+   }
+  ],
+  "understand": [
+   {
+    "id": "under",
+    "surface": "under"
+   },
+   {
+    "id": "stand",
+    "surface": "stand"
+   }
+  ],
+  "university": [
+   {
+    "id": "universe",
+    "surface": "univers"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "until": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "till",
+    "surface": "til"
+   }
+  ],
+  "upon": [
+   {
+    "id": "up",
+    "surface": "up"
+   },
+   {
+    "id": "on",
+    "surface": "on"
+   }
+  ],
+  "upstairs": [
+   {
+    "id": "up",
+    "surface": "up"
+   },
+   {
+    "id": "stair",
+    "surface": "stairs"
+   }
+  ],
+  "used": [
+   {
+    "id": "use",
+    "surface": "use"
+   },
+   {
+    "id": "ed",
+    "surface": "d"
+   }
+  ],
+  "useful": [
+   {
+    "id": "use",
+    "surface": "use"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "violin": [
+   {
+    "id": "viola",
+    "surface": "viol"
+   },
+   {
+    "id": "ino",
+    "surface": "in"
+   }
+  ],
+  "visitor": [
+   {
+    "id": "visit",
+    "surface": "visit"
+   },
+   {
+    "id": "er",
+    "surface": "or"
+   }
+  ],
+  "volleyball": [
+   {
+    "id": "volley",
+    "surface": "volley"
+   },
+   {
+    "id": "ball",
+    "surface": "ball"
+   }
+  ],
+  "watermelon": [
+   {
+    "id": "water",
+    "surface": "water"
+   },
+   {
+    "id": "melon",
+    "surface": "melon"
+   }
+  ],
+  "wealth": [
+   {
+    "id": "weal",
+    "surface": "weal"
+   },
+   {
+    "id": "th",
+    "surface": "th"
+   }
+  ],
+  "website": [
+   {
+    "id": "web",
+    "surface": "web"
+   },
+   {
+    "id": "site",
+    "surface": "site"
+   }
+  ],
+  "weekday": [
+   {
+    "id": "week",
+    "surface": "week"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "weekend": [
+   {
+    "id": "week",
+    "surface": "week"
+   },
+   {
+    "id": "end",
+    "surface": "end"
+   }
+  ],
+  "welcome": [
+   {
+    "id": "will",
+    "surface": "wel"
+   },
+   {
+    "id": "come",
+    "surface": "come"
+   }
+  ],
+  "western": [
+   {
+    "id": "west",
+    "surface": "west"
+   },
+   {
+    "id": "ern",
+    "surface": "ern"
+   }
+  ],
+  "whatever": [
+   {
+    "id": "what",
+    "surface": "what"
+   },
+   {
+    "id": "ever",
+    "surface": "ever"
+   }
+  ],
+  "whenever": [
+   {
+    "id": "when",
+    "surface": "when"
+   },
+   {
+    "id": "ever",
+    "surface": "ever"
+   }
+  ],
+  "whether": [
+   {
+    "id": "whet",
+    "surface": "whet"
+   },
+   {
+    "id": "her",
+    "surface": "her"
+   }
+  ],
+  "wide": [
+   {
+    "id": "dwi",
+    "surface": "wi"
+   },
+   {
+    "id": "deh",
+    "surface": "de"
+   }
+  ],
+  "winner": [
+   {
+    "id": "win",
+    "surface": "winn"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "without": [
+   {
+    "id": "with",
+    "surface": "with"
+   },
+   {
+    "id": "out",
+    "surface": "out"
+   }
+  ],
+  "woman": [
+   {
+    "id": "wf",
+    "surface": "wo"
+   },
+   {
+    "id": "mann",
+    "surface": "man"
+   }
+  ],
+  "wonderful": [
+   {
+    "id": "wonder",
+    "surface": "wonder"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "worker": [
+   {
+    "id": "work",
+    "surface": "work"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "world": [
+   {
+    "id": "wer",
+    "surface": "wor"
+   },
+   {
+    "id": "eld",
+    "surface": "ld"
+   }
+  ],
+  "yesterday": [
+   {
+    "id": "yester",
+    "surface": "yester"
+   },
+   {
+    "id": "day",
+    "surface": "day"
+   }
+  ],
+  "yourself": [
+   {
+    "id": "your",
+    "surface": "your"
+   },
+   {
+    "id": "self",
+    "surface": "self"
+   }
+  ],
+  "yourselves": [
+   {
+    "id": "your",
+    "surface": "your"
+   },
+   {
+    "id": "selves",
+    "surface": "selves"
+   }
+  ]
+ }
+}

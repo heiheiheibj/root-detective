@@ -1,0 +1,609 @@
+{
+ "_comment": "3.1 中考批 切分 B：第 61–120 词",
+ "splits": {
+  "butterfly": [
+   {
+    "id": "butter",
+    "surface": "butter"
+   },
+   {
+    "id": "fly",
+    "surface": "fly"
+   }
+  ],
+  "capital": [
+   {
+    "id": "capit",
+    "surface": "capit"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "captain": [
+   {
+    "id": "cap",
+    "surface": "cap"
+   },
+   {
+    "id": "tain",
+    "surface": "tain"
+   }
+  ],
+  "careful": [
+   {
+    "id": "care",
+    "surface": "care"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "careless": [
+   {
+    "id": "care",
+    "surface": "care"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "ceiling": [
+   {
+    "id": "ceil",
+    "surface": "ceil"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "chairman": [
+   {
+    "id": "chair",
+    "surface": "chair"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "chemistry": [
+   {
+    "id": "chemist",
+    "surface": "chemist"
+   },
+   {
+    "id": "ry",
+    "surface": "ry"
+   }
+  ],
+  "chicken": [
+   {
+    "id": "chick",
+    "surface": "chick"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "chinese": [
+   {
+    "id": "china",
+    "surface": "chin"
+   },
+   {
+    "id": "ese",
+    "surface": "ese"
+   }
+  ],
+  "christmas": [
+   {
+    "id": "christ",
+    "surface": "christ"
+   },
+   {
+    "id": "mas",
+    "surface": "mas"
+   }
+  ],
+  "classmate": [
+   {
+    "id": "class",
+    "surface": "class"
+   },
+   {
+    "id": "mate",
+    "surface": "mate"
+   }
+  ],
+  "classroom": [
+   {
+    "id": "class",
+    "surface": "class"
+   },
+   {
+    "id": "room",
+    "surface": "room"
+   }
+  ],
+  "clothes": [
+   {
+    "id": "cloth",
+    "surface": "cloth"
+   },
+   {
+    "id": "es",
+    "surface": "es"
+   }
+  ],
+  "collect": [
+   {
+    "id": "col",
+    "surface": "col"
+   },
+   {
+    "id": "lect",
+    "surface": "lect"
+   }
+  ],
+  "communication": [
+   {
+    "id": "communicate",
+    "surface": "communicat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "company": [
+   {
+    "id": "comp",
+    "surface": "comp"
+   },
+   {
+    "id": "any",
+    "surface": "any"
+   }
+  ],
+  "compare": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "par",
+    "surface": "pare"
+   }
+  ],
+  "competition": [
+   {
+    "id": "compete",
+    "surface": "compet"
+   },
+   {
+    "id": "ition",
+    "surface": "ition"
+   }
+  ],
+  "complete": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "ple",
+    "surface": "plete"
+   }
+  ],
+  "composition": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "position",
+    "surface": "position"
+   }
+  ],
+  "computer": [
+   {
+    "id": "compute",
+    "surface": "compute"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "concert": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "cert",
+    "surface": "cert"
+   }
+  ],
+  "connect": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "necto",
+    "surface": "nect"
+   }
+  ],
+  "consider": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "sid",
+    "surface": "sid"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "conversation": [
+   {
+    "id": "converse",
+    "surface": "convers"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "cooker": [
+   {
+    "id": "cook",
+    "surface": "cook"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "corner": [
+   {
+    "id": "corn",
+    "surface": "corn"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "correct": [
+   {
+    "id": "cor",
+    "surface": "cor"
+   },
+   {
+    "id": "rect",
+    "surface": "rect"
+   }
+  ],
+  "country": [
+   {
+    "id": "coun",
+    "surface": "coun"
+   },
+   {
+    "id": "try",
+    "surface": "try"
+   }
+  ],
+  "countryside": [
+   {
+    "id": "country",
+    "surface": "country"
+   },
+   {
+    "id": "side",
+    "surface": "side"
+   }
+  ],
+  "crayon": [
+   {
+    "id": "craie",
+    "surface": "cray"
+   },
+   {
+    "id": "on",
+    "surface": "on"
+   }
+  ],
+  "daily": [
+   {
+    "id": "day",
+    "surface": "dai"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "dangerous": [
+   {
+    "id": "danger",
+    "surface": "danger"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "december": [
+   {
+    "id": "dec",
+    "surface": "dec"
+   },
+   {
+    "id": "ember",
+    "surface": "ember"
+   }
+  ],
+  "development": [
+   {
+    "id": "develop",
+    "surface": "develop"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "dictionary": [
+   {
+    "id": "diction",
+    "surface": "diction"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "difference": [
+   {
+    "id": "differ",
+    "surface": "differ"
+   },
+   {
+    "id": "ence",
+    "surface": "ence"
+   }
+  ],
+  "different": [
+   {
+    "id": "differ",
+    "surface": "differ"
+   },
+   {
+    "id": "ent",
+    "surface": "ent"
+   }
+  ],
+  "direction": [
+   {
+    "id": "direct",
+    "surface": "direct"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "director": [
+   {
+    "id": "direct",
+    "surface": "direct"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "discover": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "cover",
+    "surface": "cover"
+   }
+  ],
+  "discovery": [
+   {
+    "id": "discover",
+    "surface": "discover"
+   },
+   {
+    "id": "ery",
+    "surface": "y"
+   }
+  ],
+  "discuss": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "cuss",
+    "surface": "cuss"
+   }
+  ],
+  "discussion": [
+   {
+    "id": "discuss",
+    "surface": "discuss"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "disease": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "ease",
+    "surface": "ease"
+   }
+  ],
+  "disturb": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "turb",
+    "surface": "turb"
+   }
+  ],
+  "divide": [
+   {
+    "id": "di",
+    "surface": "di"
+   },
+   {
+    "id": "vide",
+    "surface": "vide"
+   }
+  ],
+  "downstairs": [
+   {
+    "id": "down",
+    "surface": "down"
+   },
+   {
+    "id": "stair",
+    "surface": "stairs"
+   }
+  ],
+  "drawer": [
+   {
+    "id": "draw",
+    "surface": "draw"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "driver": [
+   {
+    "id": "drive",
+    "surface": "drive"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "dumpling": [
+   {
+    "id": "dump",
+    "surface": "dump"
+   },
+   {
+    "id": "ling",
+    "surface": "ling"
+   }
+  ],
+  "during": [
+   {
+    "id": "dure",
+    "surface": "dur"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "duty": [
+   {
+    "id": "due",
+    "surface": "du"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "early": [
+   {
+    "id": "ere",
+    "surface": "ear"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "education": [
+   {
+    "id": "educate",
+    "surface": "educat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "eighteen": [
+   {
+    "id": "eight",
+    "surface": "eight"
+   },
+   {
+    "id": "teen",
+    "surface": "een"
+   }
+  ],
+  "eighty": [
+   {
+    "id": "eight",
+    "surface": "eight"
+   },
+   {
+    "id": "ty",
+    "surface": "y"
+   }
+  ],
+  "engineer": [
+   {
+    "id": "engine",
+    "surface": "engine"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "england": [
+   {
+    "id": "eng",
+    "surface": "eng"
+   },
+   {
+    "id": "land",
+    "surface": "land"
+   }
+  ]
+ }
+}

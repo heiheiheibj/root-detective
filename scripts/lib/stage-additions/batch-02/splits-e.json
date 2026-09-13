@@ -1,0 +1,605 @@
+{
+ "_comment": "3.1 中考批 切分 E：第 241–300 词",
+ "splits": {
+  "mother": [
+   {
+    "id": "moth",
+    "surface": "moth"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "motorcycle": [
+   {
+    "id": "motor",
+    "surface": "motor"
+   },
+   {
+    "id": "cycle",
+    "surface": "cycle"
+   }
+  ],
+  "music": [
+   {
+    "id": "muse",
+    "surface": "mus"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "myself": [
+   {
+    "id": "me",
+    "surface": "my"
+   },
+   {
+    "id": "self",
+    "surface": "self"
+   }
+  ],
+  "national": [
+   {
+    "id": "nation",
+    "surface": "nation"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "natural": [
+   {
+    "id": "nature",
+    "surface": "natur"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "nearly": [
+   {
+    "id": "near",
+    "surface": "near"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "neither": [
+   {
+    "id": "not",
+    "surface": "n"
+   },
+   {
+    "id": "either",
+    "surface": "either"
+   }
+  ],
+  "nervous": [
+   {
+    "id": "nerve",
+    "surface": "nerv"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "never": [
+   {
+    "id": "ne",
+    "surface": "ne"
+   },
+   {
+    "id": "ever",
+    "surface": "ver"
+   }
+  ],
+  "newspaper": [
+   {
+    "id": "news",
+    "surface": "news"
+   },
+   {
+    "id": "paper",
+    "surface": "paper"
+   }
+  ],
+  "nineteen": [
+   {
+    "id": "nine",
+    "surface": "nine"
+   },
+   {
+    "id": "teen",
+    "surface": "teen"
+   }
+  ],
+  "ninety": [
+   {
+    "id": "nine",
+    "surface": "nine"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "none": [
+   {
+    "id": "ne",
+    "surface": "n"
+   },
+   {
+    "id": "one",
+    "surface": "one"
+   }
+  ],
+  "nor": [
+   {
+    "id": "not",
+    "surface": "no"
+   },
+   {
+    "id": "or",
+    "surface": "r"
+   }
+  ],
+  "normal": [
+   {
+    "id": "norm",
+    "surface": "norm"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "northern": [
+   {
+    "id": "north",
+    "surface": "north"
+   },
+   {
+    "id": "ern",
+    "surface": "ern"
+   }
+  ],
+  "notebook": [
+   {
+    "id": "note",
+    "surface": "note"
+   },
+   {
+    "id": "book",
+    "surface": "book"
+   }
+  ],
+  "notice": [
+   {
+    "id": "not",
+    "surface": "not"
+   },
+   {
+    "id": "ice",
+    "surface": "ice"
+   }
+  ],
+  "november": [
+   {
+    "id": "nov",
+    "surface": "nov"
+   },
+   {
+    "id": "ember",
+    "surface": "ember"
+   }
+  ],
+  "number": [
+   {
+    "id": "numb",
+    "surface": "numb"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "officer": [
+   {
+    "id": "office",
+    "surface": "office"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "oneself": [
+   {
+    "id": "one",
+    "surface": "one"
+   },
+   {
+    "id": "self",
+    "surface": "self"
+   }
+  ],
+  "only": [
+   {
+    "id": "one",
+    "surface": "on"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "operation": [
+   {
+    "id": "operate",
+    "surface": "operat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "ourselves": [
+   {
+    "id": "our",
+    "surface": "our"
+   },
+   {
+    "id": "selves",
+    "surface": "selves"
+   }
+  ],
+  "outside": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "side",
+    "surface": "side"
+   }
+  ],
+  "overcoat": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "coat",
+    "surface": "coat"
+   }
+  ],
+  "owner": [
+   {
+    "id": "own",
+    "surface": "own"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "package": [
+   {
+    "id": "pack",
+    "surface": "pack"
+   },
+   {
+    "id": "age",
+    "surface": "age"
+   }
+  ],
+  "pancake": [
+   {
+    "id": "pan",
+    "surface": "pan"
+   },
+   {
+    "id": "cake",
+    "surface": "cake"
+   }
+  ],
+  "passage": [
+   {
+    "id": "pass",
+    "surface": "pass"
+   },
+   {
+    "id": "age",
+    "surface": "age"
+   }
+  ],
+  "passport": [
+   {
+    "id": "passer",
+    "surface": "pass"
+   },
+   {
+    "id": "port",
+    "surface": "port"
+   }
+  ],
+  "perfect": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "fect",
+    "surface": "fect"
+   }
+  ],
+  "perhaps": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "hap",
+    "surface": "haps"
+   }
+  ],
+  "person": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "son",
+    "surface": "son"
+   }
+  ],
+  "personal": [
+   {
+    "id": "person",
+    "surface": "person"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "playground": [
+   {
+    "id": "play",
+    "surface": "play"
+   },
+   {
+    "id": "ground",
+    "surface": "ground"
+   }
+  ],
+  "pleasant": [
+   {
+    "id": "please",
+    "surface": "pleas"
+   },
+   {
+    "id": "ant",
+    "surface": "ant"
+   }
+  ],
+  "pleasure": [
+   {
+    "id": "plea",
+    "surface": "plea"
+   },
+   {
+    "id": "sure",
+    "surface": "sure"
+   }
+  ],
+  "pocket": [
+   {
+    "id": "poke",
+    "surface": "pocke"
+   },
+   {
+    "id": "et",
+    "surface": "t"
+   }
+  ],
+  "policeman": [
+   {
+    "id": "police",
+    "surface": "police"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "population": [
+   {
+    "id": "populate",
+    "surface": "populat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "postcard": [
+   {
+    "id": "post",
+    "surface": "post"
+   },
+   {
+    "id": "card",
+    "surface": "card"
+   }
+  ],
+  "postman": [
+   {
+    "id": "post",
+    "surface": "post"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "prepare": [
+   {
+    "id": "pre",
+    "surface": "pre"
+   },
+   {
+    "id": "pare",
+    "surface": "pare"
+   }
+  ],
+  "present": [
+   {
+    "id": "pre",
+    "surface": "pre"
+   },
+   {
+    "id": "sent",
+    "surface": "sent"
+   }
+  ],
+  "prisoner": [
+   {
+    "id": "prison",
+    "surface": "prison"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "probably": [
+   {
+    "id": "probable",
+    "surface": "probabl"
+   },
+   {
+    "id": "ly",
+    "surface": "y"
+   }
+  ],
+  "programme": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "gramme",
+    "surface": "gramme"
+   }
+  ],
+  "progress": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "gress",
+    "surface": "gress"
+   }
+  ],
+  "promise": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "mise",
+    "surface": "mise"
+   }
+  ],
+  "proper": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "per",
+    "surface": "per"
+   }
+  ],
+  "purpose": [
+   {
+    "id": "pur",
+    "surface": "pur"
+   },
+   {
+    "id": "pose",
+    "surface": "pose"
+   }
+  ],
+  "question": [
+   {
+    "id": "quest",
+    "surface": "quest"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "railway": [
+   {
+    "id": "rail",
+    "surface": "rail"
+   },
+   {
+    "id": "way",
+    "surface": "way"
+   }
+  ],
+  "raincoat": [
+   {
+    "id": "rain",
+    "surface": "rain"
+   },
+   {
+    "id": "coat",
+    "surface": "coat"
+   }
+  ],
+  "rather": [
+   {
+    "id": "rathe",
+    "surface": "rathe"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "realise": [
+   {
+    "id": "real",
+    "surface": "real"
+   },
+   {
+    "id": "ise",
+    "surface": "ise"
+   }
+  ],
+  "really": [
+   {
+    "id": "real",
+    "surface": "real"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ]
+ }
+}
