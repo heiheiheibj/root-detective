@@ -88,6 +88,8 @@ export function getWordCore(id: string): WordCore {
 
 // ---------- 词条详情：分片懒加载 ----------
 // 浏览器打开某个词时才拉对应分片并缓存；Node 校验/测试读 content/words.json，不走这里。
+// ⚠️ 分片加载失败无法在页内重试：浏览器会把「模块加载失败」记在模块表里，同一 URL 再 import
+// 会立即以同一个错误 reject（实测重试零网络请求）。所以 UI 层的重试是整页重新加载。
 export const DETAIL_SHARD_SIZE = 85
 const detailCache = new Map<string, WordDetail>()
 const detailPromises = new Map<string, Promise<WordDetail>>()

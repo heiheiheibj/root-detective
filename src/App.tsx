@@ -80,7 +80,7 @@ function App() {
   }, [])
 
   // 词条分两层：索引层同步可得；详情分片懒加载，就绪前 word 为 null，拼词区渲染占位。
-  const word = useWord(wordId)
+  const { word, failed: wordFailed } = useWord(wordId)
   const root = getMorpheme(caseRun.rootId || (word ? getRootId(word, getMorpheme) : ''))
   // 词根涨到几百条后，逐个 find 会把地图页变成 O(world×root×progress)；先建一次 Map 传下去。
   const progressByRoot = useMemo(() => new Map(profile.progress.map((item) => [item.morphemeId, item])), [profile.progress])
@@ -235,7 +235,7 @@ function App() {
     <main className="main-content">
       <header className="topbar"><div><span className="eyebrow">{formatToday()}</span><h1>{navItems.find((item) => item.id === activeView)?.label ?? '今天'}</h1></div><div className="top-actions"><div className="points"><span className="points-dot" aria-hidden="true">✦</span><strong>{profile.insightPoints}</strong><span>洞察点</span></div></div></header>
       {activeView === 'today' && <TodayView profile={profile} levelInfo={levelInfo} currentStreak={currentStreak} reviewCount={navCount} onboardingCompleted={profile.onboardingCompleted} onStart={startTodayPrimary} onContinue={() => setActiveView('case')} />}
-      {activeView === 'case' && (word ? <CaseRoom word={word} root={root} currentProgress={currentProgress} diagnosis={diagnosis} stage={stage} selected={selected} availableCards={availableCards} hint={hint} buildFeedback={buildFeedback} buildAttempts={buildAttempts} shuffledOptions={shuffledOptions} forgeChoice={forgeChoice} forgeFeedback={forgeFeedback} forgeAttempts={forgeAttempts} rewardSummary={rewardSummary} family={family} onSelectCard={selectCard} onSubmitBuild={submitBuild} onSelectForge={selectForgeOption} onSubmitForge={submitForge} onFinish={finishWord} onNextWord={nextWord} onReview={() => setActiveView('regression')} onChooseWord={(id) => chooseWord(id, getContinuationMode(caseRun))} /> : <section className="page-section case-page"><div className="empty-state"><span className="eyebrow">装载中</span><h3>词条详情马上就到</h3><p>详情按需加载，只这一瞬。</p></div></section>)}
+      {activeView === 'case' && (word ? <CaseRoom word={word} root={root} currentProgress={currentProgress} diagnosis={diagnosis} stage={stage} selected={selected} availableCards={availableCards} hint={hint} buildFeedback={buildFeedback} buildAttempts={buildAttempts} shuffledOptions={shuffledOptions} forgeChoice={forgeChoice} forgeFeedback={forgeFeedback} forgeAttempts={forgeAttempts} rewardSummary={rewardSummary} family={family} onSelectCard={selectCard} onSubmitBuild={submitBuild} onSelectForge={selectForgeOption} onSubmitForge={submitForge} onFinish={finishWord} onNextWord={nextWord} onReview={() => setActiveView('regression')} onChooseWord={(id) => chooseWord(id, getContinuationMode(caseRun))} /> : <section className="page-section case-page"><div className="empty-state">{wordFailed ? <><span className="eyebrow">加载失败</span><h3>词条详情没加载出来</h3><p>分片没能取到，重新加载一次试试。</p><button className="primary-button" onClick={() => window.location.reload()}>重新加载</button></> : <><span className="eyebrow">装载中</span><h3>词条详情马上就到</h3><p>详情按需加载，只这一瞬。</p></>}</div></section>)}
       {activeView === 'regression' && <ReviewView profile={profile} onFinishRound={finishMatchReview} />}
       {activeView === 'atlas' && <AtlasView profile={profile} progressByRoot={progressByRoot} />}
       {toast && <div className="toast" role="status" aria-live="polite">{toast}</div>}
@@ -255,27 +255,30 @@ function formatToday() {
  * logic.ts 的领域函数拿到的始终是合成好的完整 Word——领域层不知道分层存在。
  * loaded 记下 id：换词的那一帧 core 已是新词、detail 还是旧词，靠 id 校验挡住错配。
  */
-function useWord(wordId: string): Word | null {
+function useWord(wordId: string): { word: Word | null; failed: boolean } {
   const core = getWordCore(wordId)
   const [loaded, setLoaded] = useState<{ id: string; detail: WordDetail } | null>(() => {
     const cached = getWordDetailSync(wordId)
     return cached ? { id: wordId, detail: cached } : null
   })
+  const [failed, setFailed] = useState(false)
   useEffect(() => {
     let alive = true
     const cached = getWordDetailSync(wordId)
     setLoaded(cached ? { id: wordId, detail: cached } : null)
+    setFailed(false)
     loadWordDetail(wordId)
       .then((detail) => { if (alive) setLoaded({ id: wordId, detail }) })
-      .catch(() => { /* 分片失败保持 null 占位，不闪错误屏 */ })
+      .catch(() => { if (alive) setFailed(true) }) // 不白屏：占位区给「重新加载」
     return () => { alive = false }
   }, [wordId])
   // 合成结果必须引用稳定：每次渲染都造新对象会把「word 变了」的 effect 变成死循环，
   // 猜义选项会被反复重洗。core 来自 wordById、loaded 来自 state，引用都稳定。
-  return useMemo(
+  const word = useMemo(
     () => (loaded && loaded.id === core.id ? { ...core, ...loaded.detail } : null),
     [core, loaded],
   )
+  return { word, failed }
 }
 
 /** 未建模的干扰项（形近变体、同化变体等）用干扰类型作副标题，避免把词形重复显示两遍。 */

@@ -17,7 +17,8 @@ const format = (findings: ReturnType<typeof validateContent>) => findings.map((f
 describe('结构化内容校验', () => {
   it('词条数量等于生成器声明的目标数量', () => {
     // 测试和生成器读同一个常量，避免「生成器产 400 个、测试还在要求 16 个」这种各说各话。
-    expect(words).toHaveLength(TARGET_WORD_COUNT)
+    // 分批发词时每批都要同步改这个常量——所以失败信息里直接写清楚改哪儿。
+    expect(words.length, `词数是 ${words.length}，TARGET_WORD_COUNT 还是 ${TARGET_WORD_COUNT}：加词后请同步改 src/domain/contentRules.ts 的常量`).toBe(TARGET_WORD_COUNT)
     for (const word of words) {
       expect(word.id).toBe(word.word)
       expect(word.phonetic).toMatch(/^\/.+\/$/)

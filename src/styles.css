@@ -209,6 +209,11 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .case-steps li.current, .case-steps li.done { color: var(--cream); }
 .case-steps li.current > span, .case-steps li.done > span { border-color: var(--blue); color: var(--blue); }
 .empty-state { padding: 55px 25px; border: 1px solid var(--line); text-align: center; background: var(--panel); }
+/* ErrorBoundary 兜底页：占满视口居中，避免白屏。 */
+.crash-screen { display: grid; place-items: center; min-height: 100vh; padding: 24px; }
+.crash-screen .empty-state { max-width: 520px; width: 100%; }
+.crash-screen .primary-button { margin-top: 18px; }
+.empty-state > .primary-button { margin-top: 18px; }
 .empty-state h3 { margin: 12px 0 6px; font-size: 26px; color: var(--cream); }
 .empty-state p { margin: 0; color: var(--muted); font-size: 16px; }
 .atlas-overview { display: flex; flex-wrap: wrap; gap: 22px; margin: -8px 0 22px; color: var(--muted); font: 14px ui-monospace, Consolas, monospace; }
