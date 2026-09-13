@@ -5,7 +5,7 @@
    "id": "ab",
    "displayText": "ab-",
    "type": "prefix",
-   "meaningCn": "离开",
+   "meaningCn": "",
    "allomorphs": [
     "ab",
     "a"
@@ -30,7 +30,7 @@
    "id": "after",
    "displayText": "after-",
    "type": "prefix",
-   "meaningCn": "在之后",
+   "meaningCn": "",
    "allomorphs": [
     "after"
    ],
@@ -90,7 +90,7 @@
    "id": "back",
    "displayText": "back-",
    "type": "prefix",
-   "meaningCn": "向后",
+   "meaningCn": "",
    "allomorphs": [
     "back"
    ],
@@ -116,7 +116,7 @@
    "id": "com",
    "displayText": "com-",
    "type": "prefix",
-   "meaningCn": "共同",
+   "meaningCn": "",
    "allomorphs": [
     "com",
     "come"
@@ -216,7 +216,7 @@
    "id": "dec",
    "displayText": "dec-",
    "type": "prefix",
-   "meaningCn": "十",
+   "meaningCn": "",
    "allomorphs": [
     "dec"
    ],
@@ -290,7 +290,7 @@
    "id": "grand",
    "displayText": "grand-",
    "type": "prefix",
-   "meaningCn": "大、隔一代",
+   "meaningCn": "",
    "allomorphs": [
     "grand"
    ],
@@ -353,7 +353,7 @@
    "id": "to",
    "displayText": "to-",
    "type": "prefix",
-   "meaningCn": "到、向",
+   "meaningCn": "",
    "allomorphs": [
     "to"
    ],
@@ -377,7 +377,7 @@
    "id": "ag",
    "displayText": "ag-",
    "type": "prefix",
-   "meaningCn": "朝向",
+   "meaningCn": "",
    "allomorphs": [
     "age",
     "ag"
@@ -414,7 +414,7 @@
    "id": "mis",
    "displayText": "mis-",
    "type": "prefix",
-   "meaningCn": "错、坏",
+   "meaningCn": "",
    "allomorphs": [
     "mis",
     "mise"
@@ -439,7 +439,7 @@
    "id": "co",
    "displayText": "co-",
    "type": "prefix",
-   "meaningCn": "共同",
+   "meaningCn": "",
    "allomorphs": [
     "co",
     "coat",
@@ -465,7 +465,7 @@
    "id": "sur",
    "displayText": "sur-",
    "type": "prefix",
-   "meaningCn": "在上",
+   "meaningCn": "",
    "allomorphs": [
     "sur",
     "sure"
@@ -565,7 +565,7 @@
    "id": "tele",
    "displayText": "tele-",
    "type": "prefix",
-   "meaningCn": "远",
+   "meaningCn": "",
    "allomorphs": [
     "tele"
    ],
@@ -601,7 +601,7 @@
    "id": "under",
    "displayText": "under-",
    "type": "prefix",
-   "meaningCn": "在下",
+   "meaningCn": "",
    "allomorphs": [
     "under"
    ],
@@ -806,7 +806,7 @@
    "id": "ball",
    "displayText": "-ball",
    "type": "suffix",
-   "meaningCn": "球",
+   "meaningCn": "",
    "allomorphs": [
     "ball"
    ],
@@ -830,7 +830,7 @@
    "id": "ing",
    "displayText": "-ing",
    "type": "suffix",
-   "meaningCn": "正在",
+   "meaningCn": "",
    "allomorphs": [
     "ing",
     "g"
@@ -855,7 +855,7 @@
    "id": "less",
    "displayText": "-less",
    "type": "suffix",
-   "meaningCn": "无、不",
+   "meaningCn": "",
    "allomorphs": [
     "less"
    ],
@@ -867,7 +867,7 @@
    "id": "man",
    "displayText": "-man",
    "type": "suffix",
-   "meaningCn": "人",
+   "meaningCn": "",
    "allomorphs": [
     "man",
     "mann"
@@ -917,7 +917,7 @@
    "id": "mate",
    "displayText": "-mate",
    "type": "suffix",
-   "meaningCn": "伙伴",
+   "meaningCn": "",
    "allomorphs": [
     "mate"
    ],
@@ -966,7 +966,7 @@
    "id": "ly",
    "displayText": "-ly",
    "type": "suffix",
-   "meaningCn": "…地",
+   "meaningCn": "",
    "allomorphs": [
     "ly",
     "y"
@@ -1092,7 +1092,7 @@
    "id": "th",
    "displayText": "-th",
    "type": "suffix",
-   "meaningCn": "第…",
+   "meaningCn": "",
    "allomorphs": [
     "th",
     "the"
@@ -1167,7 +1167,7 @@
    "id": "son",
    "displayText": "-son",
    "type": "suffix",
-   "meaningCn": "儿子",
+   "meaningCn": "",
    "allomorphs": [
     "son"
    ],
@@ -1179,7 +1179,7 @@
    "id": "some",
    "displayText": "-some",
    "type": "suffix",
-   "meaningCn": "有点…的",
+   "meaningCn": "",
    "allomorphs": [
     "some"
    ],
@@ -1191,7 +1191,7 @@
    "id": "head",
    "displayText": "-head",
    "type": "suffix",
-   "meaningCn": "头",
+   "meaningCn": "",
    "allomorphs": [
     "head"
    ],
@@ -1203,7 +1203,7 @@
    "id": "work",
    "displayText": "-work",
    "type": "suffix",
-   "meaningCn": "工作",
+   "meaningCn": "",
    "allomorphs": [
     "work"
    ],
@@ -1305,7 +1305,7 @@
    "id": "motor",
    "displayText": "-motor",
    "type": "suffix",
-   "meaningCn": "发动机",
+   "meaningCn": "",
    "allomorphs": [
     "motor"
    ],
@@ -1330,7 +1330,7 @@
    "id": "ern",
    "displayText": "-ern",
    "type": "suffix",
-   "meaningCn": "…方向",
+   "meaningCn": "",
    "allomorphs": [
     "ern"
    ],
@@ -1404,7 +1404,7 @@
    "id": "ise",
    "displayText": "-ise",
    "type": "suffix",
-   "meaningCn": "使…化",
+   "meaningCn": "",
    "allomorphs": [
     "ise"
    ],
@@ -1525,7 +1525,7 @@
    "id": "end",
    "displayText": "-end",
    "type": "suffix",
-   "meaningCn": "末端",
+   "meaningCn": "",
    "allomorphs": [
     "end"
    ],

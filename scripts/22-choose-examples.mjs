@@ -25,11 +25,13 @@ const targetWords = words.map((w) => w.word)
 
 // 手写兜底例句（handoff）：本阶段无 LLM，缺中文对照的词由静态数据补，零成本。
 // Stage 1 与 Stage 2 两份，同名词条以 Stage 2 为准（新的覆盖旧的）。
-const handoffPath = join(here, 'lib', 'handoff', 'words-examples.json')
-const handoffPath2 = join(here, 'lib', 'handoff', 'words-examples-stage2.json')
-const handoff = existsSync(handoffPath) ? new Map(Object.entries(JSON.parse(readFileSync(handoffPath, 'utf8')))) : new Map()
-if (existsSync(handoffPath2)) {
-  for (const [k, v] of Object.entries(JSON.parse(readFileSync(handoffPath2, 'utf8')))) if (!k.startsWith('_')) handoff.set(k, v)
+// 与 30 号的释义 handoff 一样分层：Stage 1 → Stage 2 → Stage 3，同名词以更晚的为准。
+const handoffPaths = ['words-examples.json', 'words-examples-stage2.json', 'words-examples-stage3.json']
+  .map((name) => join(here, 'lib', 'handoff', name))
+const handoff = new Map()
+for (const p of handoffPaths) {
+  if (!existsSync(p)) continue
+  for (const [k, v] of Object.entries(JSON.parse(readFileSync(p, 'utf8')))) if (!k.startsWith('_')) handoff.set(k, v)
 }
 // handoff 兜底数据也要过同一道专名闸：静态数据坏了比 Tatoeba 挑不到更糟（它优先级最高）。
 for (const [word, entry] of handoff) {

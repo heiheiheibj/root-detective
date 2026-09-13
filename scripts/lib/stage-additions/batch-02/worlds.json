@@ -44,7 +44,7 @@
   {
    "id": "life-street",
    "name": "生活街",
-   "morphemeIds": ["live", "life", "use", "play", "car", "book", "week", "child"]
+   "morphemeIds": ["life", "use", "play", "car", "book", "week", "child", "every"]
   },
   {
    "id": "school-yard",

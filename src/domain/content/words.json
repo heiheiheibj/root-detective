@@ -1393,7 +1393,7 @@
       "centennial"
     ],
     "sourceNote": "拉丁 centuria，centum(百) 的分组单位",
-    "mnemonicNote": "cent(百)+ury：凑满一百年才算一世纪"
+    "mnemonicNote": "cent(百)+ury"
   },
   {
     "id": "percent",
@@ -1557,7 +1557,7 @@
       "incredible"
     ],
     "sourceNote": "拉丁 creditum，credere(相信) 的过去分词",
-    "mnemonicNote": "cred(相信)：别人肯信你，你就有了信用"
+    "mnemonicNote": "cred(相信)"
   },
   {
     "id": "credential",
@@ -1910,7 +1910,7 @@
       "degrade"
     ],
     "sourceNote": "拉丁 gradus(步、台阶)，gradi(走)",
-    "mnemonicNote": "grad(步)：一级一级的台阶，就是等级"
+    "mnemonicNote": "grad(步)"
   },
   {
     "id": "graduate",
@@ -1974,7 +1974,7 @@
       "inadequate"
     ],
     "sourceNote": "中世纪拉丁 graduare，gradus(台阶、等级)",
-    "mnemonicNote": "grad(步)+u+ate：一级级走完，就毕业了"
+    "mnemonicNote": "grad(步)+u+ate"
   },
   {
     "id": "degrade",
@@ -5355,7 +5355,7 @@
       "relevant",
       "immigrant"
     ],
-    "sourceNote": "拉丁 vacare(空着)，vacuus(空的)",
+    "sourceNote": "拉丁 vacare(空着)",
     "mnemonicNote": "vac(空)+ant：里面一个人、一件东西也没有"
   },
   {
@@ -9144,7 +9144,7 @@
       "successful",
       "useful"
     ],
-    "sourceNote": "拉丁 gratus(令人愉快的、感激的) + -ful",
+    "sourceNote": "拉丁 gratus(令人愉快的、) + -ful",
     "mnemonicNote": "grate(喜悦)+ful(满)：心里装满了道谢"
   },
   {
@@ -9327,7 +9327,7 @@
       "congratulation",
       "gratify"
     ],
-    "sourceNote": "中世纪拉丁 gratitudo，gratus(感激的)",
+    "sourceNote": "中世纪拉丁 gratitudo",
     "mnemonicNote": "grat(喜悦)+itude(状态)：心里那声「好在有你」"
   },
   {
@@ -9501,7 +9501,7 @@
       "consecrate",
       "used"
     ],
-    "sourceNote": "拉丁 sacrare(使神圣)，sacer(神圣的)",
+    "sourceNote": "拉丁 sacrare(使神圣)",
     "mnemonicNote": "sacr(圣)+ed：划出来献给神、常人不能动"
   },
   {
@@ -9667,7 +9667,7 @@
       "version",
       "conviction"
     ],
-    "sourceNote": "拉丁 sanctio，sancire(使神圣、批准)",
+    "sourceNote": "拉丁 sanctio",
     "mnemonicNote": "sanct(圣)+ion：盖上认可的印，也可指处罚"
   },
   {
@@ -9731,7 +9731,7 @@
       "compose",
       "component"
     ],
-    "sourceNote": "拉丁 consecrare，com-(加强) + sacrare(使神圣)",
+    "sourceNote": "拉丁 consecrare",
     "mnemonicNote": "con(加强)+secr(神圣)+ate：把它彻底交给神"
   },
   {
@@ -10700,7 +10700,7 @@
       "evacuate",
       "vaccinate"
     ],
-    "sourceNote": "拉丁 elevare，e-(出) + levare(举起)",
+    "sourceNote": "拉丁 elevare",
     "mnemonicNote": "e(出)+lev(升)+ate：把它举到高处"
   },
   {
@@ -12019,7 +12019,7 @@
       "compel"
     ],
     "sourceNote": "拉丁 contingere，com-(一起) + tangere(触)",
-    "mnemonicNote": "con(一起)+tact(触)：两头碰上，才谈得上联系"
+    "mnemonicNote": "con(一起)+tact(触)"
   },
   {
     "id": "intact",
@@ -17919,7 +17919,7 @@
       "judgement"
     ],
     "sourceNote": "古法语 agreement，源自 agreer(使满意)",
-    "mnemonicNote": "agree(同意)+ment(名词后缀)：谈成一致的结果"
+    "mnemonicNote": "agree(同意)+ment(名词后缀)"
   },
   {
     "id": "airline",
@@ -19602,8 +19602,8 @@
       "把检验串起来",
       "把灰烬翻开"
     ],
-    "exampleEn": "She works 9-5 every weekday.",
-    "exampleCn": "",
+    "exampleEn": "I take the bus to work on every weekday.",
+    "exampleCn": "我每个工作日都坐公交车上班。",
     "difficulty": 1,
     "parts": [
       {
@@ -19808,7 +19808,7 @@
     "familyWordIds": [
       "blackboard"
     ],
-    "sourceNote": "英语复合词，19 世纪指钢琴键盘",
+    "sourceNote": "英语复合词",
     "mnemonicNote": "key(键)+board(板)：一排按键铺成的板子"
   },
   {
@@ -20074,7 +20074,7 @@
       }
     ],
     "familyWordIds": [],
-    "sourceNote": "英语复合词，chair(主席席位) + man",
+    "sourceNote": "英语复合词",
     "mnemonicNote": "chair(椅子)+man(人)：会场里坐首席那把椅子的人"
   },
   {
@@ -20568,7 +20568,7 @@
       "saucer",
       "leader"
     ],
-    "sourceNote": "英语 draw(拉) + -er(表物)，16 世纪起指抽屉",
+    "sourceNote": "英语 draw(拉) + -er(表物)",
     "mnemonicNote": "draw(拉)+er(物)：一拉就出来的那格"
   },
   {
@@ -20636,8 +20636,8 @@
       "把声音串起来",
       "围着文字转"
     ],
-    "exampleEn": "My grandchild is eight.",
-    "exampleCn": "",
+    "exampleEn": "She is taking care of her grandchild.",
+    "exampleCn": "她在照看她的孙辈。",
     "difficulty": 1,
     "parts": [
       {
@@ -20829,7 +20829,7 @@
       "daily",
       "really"
     ],
-    "sourceNote": "古英语 heardlice，由「艰难地」引申为「几乎不」",
+    "sourceNote": "古英语 heardlice",
     "mnemonicNote": "hard(难)+ly：难到「几乎做不到」的地步"
   },
   {
@@ -22167,8 +22167,8 @@
       "守着沐浴过活",
       "强壮的小站"
     ],
-    "exampleEn": "I'm a tenth grader.",
-    "exampleCn": "",
+    "exampleEn": "She finished tenth in the race.",
+    "exampleCn": "她在比赛中得了第十名。",
     "difficulty": 1,
     "parts": [
       {
@@ -22202,7 +22202,7 @@
     ],
     "familyWordIds": [],
     "sourceNote": "古英语 teotha，ten(十) 的序数形式",
-    "mnemonicNote": "ten(十)+th(序数)：数到第十个那份"
+    "mnemonicNote": "ten(十)+th(序数)"
   },
   {
     "id": "tonight",

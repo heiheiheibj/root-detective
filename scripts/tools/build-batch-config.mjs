@@ -120,6 +120,9 @@ for (const id of newMorphemeIds) {
   // batch-02 若重建只有 2 个词，会把 Stage 2 的家族词整批挤掉。
   if (existing.families[id]) continue
   const words = (wordsPerMorpheme.get(id) || []).filter((w) => batchWordSet.has(w))
+  // 本批一个词都没有的词根不建家族：`live` 就是这种情况（alive 归一成了 life），
+  // 建了家族会被 A24 要求挂世界，而它又无词可挂，两边打架。
+  if (!words.length) continue
   families[id] = { roots: [id], words }
 }
 
