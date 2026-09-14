@@ -1,483 +1,723 @@
 {
- "_comment": "Stage 3 待写释义（batch-29，本批 60 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "_comment": "Stage 3 待写释义（batch-29，本批 60 词，四级批第 5 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
  "indirect": {
   "modernMeaningCn": "间接的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "不直着来的",
+  "metaphorMeaningCn": "间接的、迂回的",
+  "metaphorOptions": [
+   "间接的、迂回的",
+   "直截了当的",
+   "开门见山的"
+  ],
+  "mnemonicNote": "in(不)+direct(径直)：不照直来，绕了个弯",
+  "sourceNote": "拉丁 indirectus，in-(不) + dirigere(使直)"
  },
  "indispensable": {
-  "modernMeaningCn": "不可缺少之物不可",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "不可缺少的",
+  "literalMeaningCn": "免不掉的",
+  "metaphorMeaningCn": "不可缺少的、必需的",
+  "metaphorOptions": [
+   "不可缺少的、必需的",
+   "可有可无的",
+   "备而不用"
+  ],
+  "mnemonicNote": "in(不)+dispensable(可免除)：少了它就转不动",
+  "sourceNote": "中世纪拉丁 indispensabilis，in-(不) + dispensare(免除)"
  },
  "indoor": {
-  "modernMeaningCn": "户内的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "室内的",
+  "literalMeaningCn": "门里头的",
+  "metaphorMeaningCn": "室内的、户内的",
+  "metaphorOptions": [
+   "室内的、户内的",
+   "露天的",
+   "野外的"
+  ],
+  "mnemonicNote": "in(内)+door(门)：门里头那一方天地",
+  "sourceNote": "英语复合词，in + door"
  },
  "indoors": {
-  "modernMeaningCn": "在户内",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "在室内",
+  "literalMeaningCn": "在门里头",
+  "metaphorMeaningCn": "在室内、在屋里",
+  "metaphorOptions": [
+   "在室内、在屋里",
+   "在户外",
+   "在野外"
+  ],
+  "mnemonicNote": "in(内)+doors(门)：进了屋，鞋一脱就不想出去",
+  "sourceNote": "英语复合词，in + doors"
  },
  "industrial": {
   "modernMeaningCn": "工业的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "与工厂有关",
+  "metaphorMeaningCn": "工业的、产业的",
+  "metaphorOptions": [
+   "工业的、产业的",
+   "农业的",
+   "手工业的"
+  ],
+  "mnemonicNote": "industri(厂业)+al：车间烟囱那一整摊",
+  "sourceNote": "拉丁 industria(勤勉) + -al"
  },
  "industrialize": {
-  "modernMeaningCn": "使工业化实现工业",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "使工业化",
+  "literalMeaningCn": "使办起工厂",
+  "metaphorMeaningCn": "使工业化、工业化",
+  "metaphorOptions": [
+   "使工业化、工业化",
+   "使回归田园",
+   "去产能"
+  ],
+  "mnemonicNote": "industrial(厂业的)+ize(使)：一乡一乡都竖起了烟囱",
+  "sourceNote": "拉丁 industria(勤勉) + -ize(使动)"
  },
  "inefficient": {
-  "modernMeaningCn": "无效率的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "低效的",
+  "literalMeaningCn": "使不上劲的",
+  "metaphorMeaningCn": "低效的、效率低的",
+  "metaphorOptions": [
+   "低效的、效率低的",
+   "事半功倍的",
+   "得心应手的"
+  ],
+  "mnemonicNote": "in(不)+efficient(得力)：三个人干一个人的活",
+  "sourceNote": "拉丁 inefficiens，in-(不) + efficere(做出)"
  },
  "inevitable": {
   "modernMeaningCn": "不可避免的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "躲不开的",
+  "metaphorMeaningCn": "不可避免的、必然的",
+  "metaphorOptions": [
+   "不可避免的、必然的",
+   "侥幸躲过的",
+   "可以绕开的"
+  ],
+  "mnemonicNote": "in(不)+evitable(可避开)：怎么绕都会撞上",
+  "sourceNote": "拉丁 inevitabilis，in-(不) + evitare(避开)"
  },
  "inexpensive": {
   "modernMeaningCn": "便宜的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "不费钱的",
+  "metaphorMeaningCn": "便宜的、价钱公道的",
+  "metaphorOptions": [
+   "便宜的、价钱公道的",
+   "价格高昂的",
+   "贵得离谱的"
+  ],
+  "mnemonicNote": "in(不)+expensive(费钱)：掏几张零票就够",
+  "sourceNote": "拉丁 in-(不) + expendere(支出)"
  },
  "infamous": {
-  "modernMeaningCn": "无耻的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "声名狼藉的",
+  "literalMeaningCn": "出名出得难听",
+  "metaphorMeaningCn": "声名狼藉的、臭名昭著的",
+  "metaphorOptions": [
+   "声名狼藉的、臭名昭著的",
+   "有口皆碑的",
+   "德高望重的"
+  ],
+  "mnemonicNote": "in(不)+famous(有名)：名头是有了，可不好听",
+  "sourceNote": "拉丁 infamis，in-(不) + fama(名声)"
  },
  "infinite": {
-  "modernMeaningCn": "无限",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "无限的",
+  "literalMeaningCn": "没有边的",
+  "metaphorMeaningCn": "无限的、无穷的",
+  "metaphorOptions": [
+   "无限的、无穷的",
+   "屈指可数的",
+   "有限的"
+  ],
+  "mnemonicNote": "in(不)+finite(有限)：顺着往下数，没有尽头",
+  "sourceNote": "拉丁 infinitus，in-(不) + finis(边界)"
  },
  "influential": {
-  "modernMeaningCn": "有影响的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "有影响力的",
+  "literalMeaningCn": "能左右人的",
+  "metaphorMeaningCn": "有影响力的、有权势的",
+  "metaphorOptions": [
+   "有影响力的、有权势的",
+   "人微言轻的",
+   "无足轻重的"
+  ],
+  "mnemonicNote": "influent(影响)+ial：他一句话能左右一屋子人",
+  "sourceNote": "中世纪拉丁 influentia，influere(流入)"
  },
  "inhabitant": {
   "modernMeaningCn": "居民",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "住在这儿的人",
+  "metaphorMeaningCn": "居民、住户",
+  "metaphorOptions": [
+   "居民、住户",
+   "过路客",
+   "外来移民"
+  ],
+  "mnemonicNote": "inhabit(居住)+ant(人)：户口落在这条街上的人",
+  "sourceNote": "拉丁 inhabitare，in-(在内) + habitare(居住)"
  },
  "initiative": {
-  "modernMeaningCn": "主动行动",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "主动性",
+  "literalMeaningCn": "先动手的那一步",
+  "metaphorMeaningCn": "主动性、倡议",
+  "metaphorOptions": [
+   "主动性、倡议",
+   "被动等待",
+   "听凭差遣"
+  ],
+  "mnemonicNote": "initiat(发起)+ive：不用人吩咐，自己先动手",
+  "sourceNote": "拉丁 initiare(开始) + -ive"
  },
  "injection": {
   "modernMeaningCn": "注射",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "打进去这件事",
+  "metaphorMeaningCn": "注射、注入",
+  "metaphorOptions": [
+   "注射、注入",
+   "抽取",
+   "放血"
+  ],
+  "mnemonicNote": "inject(注入)+ion：针管一推，药就进去了",
+  "sourceNote": "拉丁 iniectio，inicere(投入)"
  },
  "input": {
   "modernMeaningCn": "输入",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "放进去的东西",
+  "metaphorMeaningCn": "输入、投入",
+  "metaphorOptions": [
+   "输入、投入",
+   "输出",
+   "产出"
+  ],
+  "mnemonicNote": "in(进入)+put(放)：从这头喂进去的那部分",
+  "sourceNote": "英语复合词，in + put，20 世纪计算机术语"
  },
  "insight": {
-  "modernMeaningCn": "察看",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "洞察力",
+  "literalMeaningCn": "看到里头去",
+  "metaphorMeaningCn": "洞察力、见解",
+  "metaphorOptions": [
+   "洞察力、见解",
+   "见而不识",
+   "浮光掠影"
+  ],
+  "mnemonicNote": "in(进入)+sight(看)：一眼看到里头那一层",
+  "sourceNote": "中古英语 insiht，in + sight"
  },
  "insignificant": {
-  "modernMeaningCn": "无关紧要的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "不重要的",
+  "literalMeaningCn": "不占分量的",
+  "metaphorMeaningCn": "不重要的、微不足道的",
+  "metaphorOptions": [
+   "不重要的、微不足道的",
+   "举足轻重的",
+   "事关重大的"
+  ],
+  "mnemonicNote": "in(不)+significant(要紧)：提起来也没人在意",
+  "sourceNote": "拉丁 insignificans，in-(不) + significare(表示)"
  },
  "installation": {
   "modernMeaningCn": "安装",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "装上去这件事",
+  "metaphorMeaningCn": "安装、装置",
+  "metaphorOptions": [
+   "安装、装置",
+   "拆卸",
+   "打包封存"
+  ],
+  "mnemonicNote": "install(装配)+ation：把机器固定到位那一趟活",
+  "sourceNote": "中世纪拉丁 installare，in-(进入) + stallum(座位)"
  },
  "instantly": {
-  "modernMeaningCn": "立即地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "立即",
+  "literalMeaningCn": "连一瞬都不等",
+  "metaphorMeaningCn": "立即、马上",
+  "metaphorOptions": [
+   "立即、马上",
+   "拖了很久",
+   "姗姗来迟"
+  ],
+  "mnemonicNote": "instant(即刻)+ly：话音没落人就到了",
+  "sourceNote": "拉丁 instans，instare(逼近、立于其上)"
  },
  "insufficient": {
-  "modernMeaningCn": "不够的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "不足的",
+  "literalMeaningCn": "分量不够",
+  "metaphorMeaningCn": "不足的、不够的",
+  "metaphorOptions": [
+   "不足的、不够的",
+   "绰绰有余的",
+   "取之不尽的"
+  ],
+  "mnemonicNote": "in(不)+sufficient(充裕)：碗里就剩这么一点",
+  "sourceNote": "拉丁 insufficiens，in-(不) + sufficere(足够)"
  },
  "intellectual": {
-  "modernMeaningCn": "有知识者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "知识分子",
+  "literalMeaningCn": "靠脑子吃饭的",
+  "metaphorMeaningCn": "知识分子、智力的",
+  "metaphorOptions": [
+   "知识分子、智力的",
+   "文盲",
+   "粗人"
+  ],
+  "mnemonicNote": "intellect(心智)+ual：一辈子跟书本打交道的人",
+  "sourceNote": "拉丁 intellectualis，intellectus(理解)"
  },
  "intensity": {
-  "modernMeaningCn": "强烈",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "强度",
+  "literalMeaningCn": "绷得紧的程度",
+  "metaphorMeaningCn": "强度、剧烈",
+  "metaphorOptions": [
+   "强度、剧烈",
+   "微弱",
+   "舒缓"
+  ],
+  "mnemonicNote": "intens(强烈)+ity：弦绷到快断的那种程度",
+  "sourceNote": "拉丁 intensus，intendere(拉紧)"
  },
  "intensive": {
-  "modernMeaningCn": "加强的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "密集的",
+  "literalMeaningCn": "下猛劲的",
+  "metaphorMeaningCn": "密集的、加强的",
+  "metaphorOptions": [
+   "密集的、加强的",
+   "松散的",
+   "敷衍了事的"
+  ],
+  "mnemonicNote": "intens(强烈)+ive：几天里塞进别人半年的量",
+  "sourceNote": "拉丁 intensus，intendere(拉紧)"
  },
  "intentional": {
   "modernMeaningCn": "故意的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "存心这么干的",
+  "metaphorMeaningCn": "故意的、有意的",
+  "metaphorOptions": [
+   "故意的、有意的",
+   "无心的",
+   "失手所致"
+  ],
+  "mnemonicNote": "intention(意图)+al：事先想好的，不是失手",
+  "sourceNote": "拉丁 intentio，intendere(伸向、打算)"
  },
  "interaction": {
-  "modernMeaningCn": "交互作用",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "相互作用",
+  "literalMeaningCn": "彼此之间来回使力",
+  "metaphorMeaningCn": "相互作用、互动",
+  "metaphorOptions": [
+   "相互作用、互动",
+   "各自独处",
+   "互不相干"
+  ],
+  "mnemonicNote": "inter(之间)+action(作用)：你来我往，各自都变了",
+  "sourceNote": "拉丁 inter-(之间) + agere(做)"
  },
  "internal": {
-  "modernMeaningCn": "内在的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "内部的",
+  "literalMeaningCn": "里头的",
+  "metaphorMeaningCn": "内部的、体内的",
+  "metaphorOptions": [
+   "内部的、体内的",
+   "表面的",
+   "外露的"
+  ],
+  "mnemonicNote": "intern(内里)+al：关起门来说的那些事",
+  "sourceNote": "拉丁 internus，inter(在…之间)"
  },
  "interpretation": {
   "modernMeaningCn": "解释",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "把意思讲出来",
+  "metaphorMeaningCn": "解释、口译",
+  "metaphorOptions": [
+   "解释、口译",
+   "照本誊抄",
+   "原封不动"
+  ],
+  "mnemonicNote": "interpret(诠释)+ation：把拗口的话换成人话",
+  "sourceNote": "拉丁 interpretatio，interpres(中间人)"
  },
  "interruption": {
   "modernMeaningCn": "打扰",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "话头被截断",
+  "metaphorMeaningCn": "打扰、中断",
+  "metaphorOptions": [
+   "打扰、中断",
+   "接连不断",
+   "一气呵成"
+  ],
+  "mnemonicNote": "interrupt(打断)+ion：正说着，话头被人截了",
+  "sourceNote": "拉丁 interruptio，interrumpere(打断)"
  },
  "investigate": {
   "modernMeaningCn": "调查",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "顺着脚印追",
+  "metaphorMeaningCn": "调查、审查",
+  "metaphorOptions": [
+   "调查、审查",
+   "视而不见",
+   "一笔带过"
+  ],
+  "mnemonicNote": "in(进入)+vestig(足迹)+ate：顺着脚印一路追下去",
+  "sourceNote": "拉丁 investigare，in-(进入) + vestigium(足迹)"
  },
  "investigation": {
   "modernMeaningCn": "调查",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "追查这件事",
+  "metaphorMeaningCn": "调查、侦查",
+  "metaphorOptions": [
+   "调查、侦查",
+   "草草了事",
+   "不予受理"
+  ],
+  "mnemonicNote": "investigat(追查)+ion：一趟趟跑、一条条问",
+  "sourceNote": "拉丁 investigatio，investigare(追查)"
  },
  "investment": {
-  "modernMeaningCn": "投资医包埋料",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "投资",
+  "literalMeaningCn": "把本钱投进去",
+  "metaphorMeaningCn": "投资、投入",
+  "metaphorOptions": [
+   "投资、投入",
+   "撤资",
+   "套现离场"
+  ],
+  "mnemonicNote": "invest(投入)+ment：先把本钱压进去，等着长出来",
+  "sourceNote": "拉丁 investire(穿戴、投入) + -ment"
  },
  "invisible": {
   "modernMeaningCn": "看不见的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "瞧不见的",
+  "metaphorMeaningCn": "看不见的、无形的",
+  "metaphorOptions": [
+   "看不见的、无形的",
+   "清晰可辨的",
+   "一目了然的"
+  ],
+  "mnemonicNote": "in(不)+visible(可见)：睁大眼也找不着",
+  "sourceNote": "拉丁 invisibilis，in-(不) + videre(看)"
  },
  "irregular": {
-  "modernMeaningCn": "不规则物",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "不规则的",
+  "literalMeaningCn": "不合规矩的",
+  "metaphorMeaningCn": "不规则的、不规律的",
+  "metaphorOptions": [
+   "不规则的、不规律的",
+   "整齐划一的",
+   "循规蹈矩的"
+  ],
+  "mnemonicNote": "ir(不)+regular(规则)：长短不齐，没个准数",
+  "sourceNote": "古法语 irreguler，ir-(不) + reguler(合规则)"
  },
  "isolate": {
-  "modernMeaningCn": "使隔离",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "隔离",
+  "literalMeaningCn": "单独放到一边",
+  "metaphorMeaningCn": "隔离、使孤立",
+  "metaphorOptions": [
+   "隔离、使孤立",
+   "混作一处",
+   "聚拢起来"
+  ],
+  "mnemonicNote": "iso(单独)+late：把一个人单独挪到一边",
+  "sourceNote": "意大利 isolato，拉丁 insula(岛)"
  },
  "jewish": {
   "modernMeaningCn": "犹太人的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "犹太族的",
+  "metaphorMeaningCn": "犹太人的、犹太教的",
+  "metaphorOptions": [
+   "犹太人的、犹太教的",
+   "阿拉伯人的",
+   "波斯人的"
+  ],
+  "mnemonicNote": "jew(犹太)+ish：那一支古老而漂泊的族裔",
+  "sourceNote": "希腊 Ioudaios，经拉丁 Judaeus"
  },
  "joyful": {
-  "modernMeaningCn": "欢喜的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "快乐的",
+  "literalMeaningCn": "满是欢喜的",
+  "metaphorMeaningCn": "快乐的、令人高兴的",
+  "metaphorOptions": [
+   "快乐的、令人高兴的",
+   "愁眉苦脸的",
+   "闷闷不乐的"
+  ],
+  "mnemonicNote": "joy(欢欣)+ful：眉眼都笑开了",
+  "sourceNote": "古法语 joie(欢欣) + -ful"
  },
  "kneel": {
   "modernMeaningCn": "跪下",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "膝盖着地",
+  "metaphorMeaningCn": "跪下、下跪",
+  "metaphorOptions": [
+   "跪下、下跪",
+   "站立",
+   "端坐"
+  ],
+  "mnemonicNote": "knee(膝盖)+l：两膝往地上一落",
+  "sourceNote": "古英语 cneowlian，cneow(膝)"
  },
  "landlady": {
   "modernMeaningCn": "女房东",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "管房子的那位太太",
+  "metaphorMeaningCn": "女房东、女店主",
+  "metaphorOptions": [
+   "女房东、女店主",
+   "女租客",
+   "女管家"
+  ],
+  "mnemonicNote": "land(房产)+lady(女士)：每月上门收租那位",
+  "sourceNote": "英语复合词，land + lady"
  },
  "largely": {
-  "modernMeaningCn": "大量地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "很大程度上",
+  "literalMeaningCn": "以大份算",
+  "metaphorMeaningCn": "很大程度上、主要地",
+  "metaphorOptions": [
+   "很大程度上、主要地",
+   "极小一部分",
+   "几乎不是"
+  ],
+  "mnemonicNote": "large(大)+ly：大半的原因都在这儿",
+  "sourceNote": "古法语 large(宽大) + -ly"
  },
  "layer": {
   "modernMeaningCn": "层",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "铺上去的一层",
+  "metaphorMeaningCn": "层、层次",
+  "metaphorOptions": [
+   "层、层次",
+   "空档",
+   "缝隙"
+  ],
+  "mnemonicNote": "lay(铺)+er(物)：铺上去的一叠，越码越高",
+  "sourceNote": "中古英语 leier，leggen(铺放)"
  },
  "layout": {
   "modernMeaningCn": "布局",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "摊开摆好的样子",
+  "metaphorMeaningCn": "布局、版面设计",
+  "metaphorOptions": [
+   "布局、版面设计",
+   "一团乱麻",
+   "随意堆叠"
+  ],
+  "mnemonicNote": "lay(摆放)+out(出来)：摊开来看的那种排法",
+  "sourceNote": "英语复合词，lay + out"
  },
  "leadership": {
-  "modernMeaningCn": "领导能力",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "领导力",
+  "literalMeaningCn": "当头的本事",
+  "metaphorMeaningCn": "领导力、领导层",
+  "metaphorOptions": [
+   "领导力、领导层",
+   "随从",
+   "群众"
+  ],
+  "mnemonicNote": "leader(领头)+ship(身份)：带队那一套能耐",
+  "sourceNote": "古英语 lædan(带领) + -ship(身份)"
  },
  "learning": {
   "modernMeaningCn": "学问",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "学来的那些",
+  "metaphorMeaningCn": "学问、学识",
+  "metaphorOptions": [
+   "学问、学识",
+   "无知",
+   "愚昧"
+  ],
+  "mnemonicNote": "learn(学习)+ing：经年累月攒下的那点门道",
+  "sourceNote": "古英语 leornian(学习) + -ing"
  },
  "legend": {
   "modernMeaningCn": "传说",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "该读的东西",
+  "metaphorMeaningCn": "传说、图例",
+  "metaphorOptions": [
+   "传说、图例",
+   "实录",
+   "档案"
+  ],
+  "mnemonicNote": "leg(读)+end：口耳相传、一代代往下讲",
+  "sourceNote": "拉丁 legenda，legere(读)"
  },
  "legislation": {
   "modernMeaningCn": "立法",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "制定律条",
+  "metaphorMeaningCn": "立法、法规",
+  "metaphorOptions": [
+   "立法、法规",
+   "废法",
+   "无法可依"
+  ],
+  "mnemonicNote": "legislat(立规)+ion：议会举手表决那一整套",
+  "sourceNote": "拉丁 legislatio，lex(法) + ferre(提出)"
  },
  "leverage": {
   "modernMeaningCn": "杠杆作用",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "撬动的效力",
+  "metaphorMeaningCn": "杠杆作用、影响力",
+  "metaphorOptions": [
+   "杠杆作用、影响力",
+   "徒劳之力",
+   "无用之功"
+  ],
+  "mnemonicNote": "lever(杠杆)+age：给我一个支点就能撬动",
+  "sourceNote": "古法语 lever(抬起) + -age"
  },
  "lieutenant": {
   "modernMeaningCn": "中尉",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "替上面管事的人",
+  "metaphorMeaningCn": "中尉、副职",
+  "metaphorOptions": [
+   "中尉、副职",
+   "主帅",
+   "元首"
+  ],
+  "mnemonicNote": "lieu(代替)+tenant(持有)：替上头管事的那一级",
+  "sourceNote": "古法语 lieu(位置) + tenant(持有者)"
  },
  "lighten": {
   "modernMeaningCn": "照亮",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "使亮起来",
+  "metaphorMeaningCn": "照亮、减轻",
+  "metaphorOptions": [
+   "照亮、减轻",
+   "使昏暗",
+   "加重负担"
+  ],
+  "mnemonicNote": "light(光)+en(使)：黑屋子一下亮了",
+  "sourceNote": "古英语 leoht(光) + -en(使动)"
  },
  "lightly": {
   "modernMeaningCn": "轻轻地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "以轻的劲",
+  "metaphorMeaningCn": "轻轻地、轻微地",
+  "metaphorOptions": [
+   "轻轻地、轻微地",
+   "重重地",
+   "狠狠地下手"
+  ],
+  "mnemonicNote": "light(轻)+ly：下手不敢使一点劲",
+  "sourceNote": "古英语 leoht(轻) + -lice"
  },
  "likelihood": {
-  "modernMeaningCn": "可能",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "可能性",
+  "literalMeaningCn": "像要发生的样子",
+  "metaphorMeaningCn": "可能性、或然性",
+  "metaphorOptions": [
+   "可能性、或然性",
+   "绝无可能",
+   "断无此事"
+  ],
+  "mnemonicNote": "likeli(像要)+hood：照这势头，八成会成",
+  "sourceNote": "古诺尔斯语 likligr(可能的) + -hood"
  },
  "limitation": {
   "modernMeaningCn": "限制",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "画下的框框",
+  "metaphorMeaningCn": "限制、局限",
+  "metaphorOptions": [
+   "限制、局限",
+   "放开",
+   "不加约束"
+  ],
+  "mnemonicNote": "limit(界限)+ation：一圈线画在那儿，越不过去",
+  "sourceNote": "拉丁 limitatio，limes(边界)"
  },
  "listener": {
-  "modernMeaningCn": "收听者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "听众",
+  "literalMeaningCn": "在听的人",
+  "metaphorMeaningCn": "听众、收听者",
+  "metaphorOptions": [
+   "听众、收听者",
+   "主讲人",
+   "发言人"
+  ],
+  "mnemonicNote": "listen(听)+er(人)：台下一声不吭在听那几位",
+  "sourceNote": "古英语 hlysnan(听) + -er"
  },
  "livestock": {
-  "modernMeaningCn": "家畜经牲畜",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "家畜",
+  "literalMeaningCn": "活的家当",
+  "metaphorMeaningCn": "家畜、牲畜",
+  "metaphorOptions": [
+   "家畜、牲畜",
+   "野禽",
+   "农具"
+  ],
+  "mnemonicNote": "live(活的)+stock(家当)：圈里那几头会喘气的家当",
+  "sourceNote": "英语复合词，live + stock"
  },
  "location": {
   "modernMeaningCn": "位置",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "落在哪儿",
+  "metaphorMeaningCn": "位置、地点",
+  "metaphorOptions": [
+   "位置、地点",
+   "方向",
+   "远近"
+  ],
+  "mnemonicNote": "locat(定位)+ion：地图上那个小点",
+  "sourceNote": "拉丁 locatio，locus(地方)"
  },
  "locomotive": {
-  "modernMeaningCn": "火车头",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "机车",
+  "literalMeaningCn": "从一地挪到另一地",
+  "metaphorMeaningCn": "机车、火车头",
+  "metaphorOptions": [
+   "机车、火车头",
+   "车厢",
+   "铁轨"
+  ],
+  "mnemonicNote": "loco(地方)+motive(移动)：从这站拽到那站那个铁家伙",
+  "sourceNote": "拉丁 locus(地方) + motivus(移动的)"
  },
  "lower": {
-  "modernMeaningCn": "低的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "较低的",
+  "literalMeaningCn": "矮一截的",
+  "metaphorMeaningCn": "较低的、降低",
+  "metaphorOptions": [
+   "较低的、降低",
+   "较高的",
+   "抬升"
+  ],
+  "mnemonicNote": "low(低)+er(比较级)：比旁边那栋矮一截",
+  "sourceNote": "中古英语 lah(低) 的比较级"
  },
  "loyalty": {
-  "modernMeaningCn": "忠贞",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "忠诚",
+  "literalMeaningCn": "一条心到底",
+  "metaphorMeaningCn": "忠诚、忠心",
+  "metaphorOptions": [
+   "忠诚、忠心",
+   "背叛",
+   "二三其德"
+  ],
+  "mnemonicNote": "loyal(一心)+ty：认定了就不改",
+  "sourceNote": "古法语 loial(守法的) + -ty"
  },
  "mainly": {
   "modernMeaningCn": "主要地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "以主干而言",
+  "metaphorMeaningCn": "主要地、大体上",
+  "metaphorOptions": [
+   "主要地、大体上",
+   "次要地",
+   "附带提一句"
+  ],
+  "mnemonicNote": "main(主干)+ly：拣大头的说",
+  "sourceNote": "古英语 mægen(力量、主要) + -ly"
  },
  "maintain": {
   "modernMeaningCn": "维持",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一直用手托住",
+  "metaphorMeaningCn": "维持、保养、主张",
+  "metaphorOptions": [
+   "维持、保养、主张",
+   "放任不管",
+   "任其荒废"
+  ],
+  "mnemonicNote": "main(手)+tain(持)：一直托着不让它塌下去",
+  "sourceNote": "古法语 maintenir，拉丁 manu tenere(用手持)"
  }
 }
