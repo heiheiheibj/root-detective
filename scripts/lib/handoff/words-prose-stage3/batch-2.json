@@ -6,8 +6,8 @@
   "metaphorMeaningCn": "教室",
   "metaphorOptions": [
    "教室",
-   "中心的背面",
-   "被打架的东西"
+   "火花的背面",
+   "被中心的东西"
   ],
   "mnemonicNote": "class(班级)+room(房间)：一个班待着的房间",
   "sourceNote": "英语复合词，19 世纪随班级授课制出现"
@@ -18,8 +18,8 @@
   "metaphorMeaningCn": "合作、协作",
   "metaphorOptions": [
    "合作、协作",
-   "使开化的来路",
-   "现在的地方"
+   "在之中的来路",
+   "使开化的地方"
   ],
   "mnemonicNote": "col(共同)+labor(劳动)+ate：一块儿出力",
   "sourceNote": "拉丁 collaborare，com-(共同) + laborare(劳动)"
@@ -30,8 +30,8 @@
   "metaphorMeaningCn": "合作、协作",
   "metaphorOptions": [
    "合作、协作",
-   "包围的背面",
-   "被栖木的东西"
+   "密集的的背面",
+   "被包围的东西"
   ],
   "mnemonicNote": "col(共同)+labor(劳动)+ation：两人共出一份力",
   "sourceNote": "拉丁 collaboratio，collaborare 的名词形式"
@@ -79,7 +79,7 @@
   "metaphorOptions": [
    "组成部分、元件",
    "准备击球姿势的影子",
-   "把百万翻开"
+   "把忍受翻开"
   ],
   "mnemonicNote": "com(一起)+pon(放)+ent：被摆到一起的那个零件",
   "sourceNote": "拉丁 componere，com-(一起) + ponere(放)"
@@ -90,8 +90,8 @@
   "metaphorMeaningCn": "组成、创作",
   "metaphorOptions": [
    "组成、创作",
-   "离记录很远",
-   "解放的过程"
+   "离保证很远",
+   "记录的过程"
   ],
   "mnemonicNote": "com(一起)+pose(放)：把零件摆到一块儿",
   "sourceNote": "拉丁 componere，com-(一起) + ponere(放)"
@@ -127,7 +127,7 @@
   "metaphorOptions": [
    "概念、观念",
    "替法国人操心",
-   "离休息很远"
+   "离熟食店很远"
   ],
   "mnemonicNote": "con(一起)+cept(拿)：脑子里把特征拢成一把",
   "sourceNote": "拉丁 concipere，com-(一起) + capere(拿)"
@@ -138,8 +138,8 @@
   "metaphorMeaningCn": "会议、研讨会",
   "metaphorOptions": [
    "会议、研讨会",
-   "消遣的另一面",
-   "数着低于过日子"
+   "滋养的另一面",
+   "数着消遣过日子"
   ],
   "mnemonicNote": "con(一起)+fer(带)+ence：各人把看法带来碰头",
   "sourceNote": "拉丁 conferre，com-(一起) + ferre(带)"
@@ -150,8 +150,8 @@
   "metaphorMeaningCn": "使糊涂、混淆",
   "metaphorOptions": [
    "使糊涂、混淆",
-   "麻木的的地方",
-   "修道士的来路"
+   "蒸馏室的地方",
+   "麻木的的来路"
   ],
   "mnemonicNote": "con(一起)+fuse(倒)：全倒进一个锅，分不清了",
   "sourceNote": "拉丁 confundere，com-(一起) + fundere(倒)"
@@ -162,8 +162,8 @@
   "metaphorMeaningCn": "混乱、困惑",
   "metaphorOptions": [
    "混乱、困惑",
-   "庆祝的的影子",
-   "离包裹很远"
+   "煮沸的影子",
+   "离庆祝的很远"
   ],
   "mnemonicNote": "con+fus(倒)+ion：东西全倒在一块，找不着了",
   "sourceNote": "拉丁 confusio，confundere 的名词形式"
@@ -174,8 +174,8 @@
   "metaphorMeaningCn": "祝贺",
   "metaphorOptions": [
    "祝贺",
-   "向着荒野去",
-   "绳索的过程"
+   "向着人名特拉汉去",
+   "荒野的过程"
   ],
   "mnemonicNote": "con(共同)+gratul(喜悦)+ate：为你的好事一起高兴",
   "sourceNote": "拉丁 congratulari，com-(共同) + gratulari(道喜)"
@@ -187,7 +187,7 @@
   "metaphorOptions": [
    "祝贺、贺词",
    "守着越过过活",
-   "替种植操心"
+   "替自动手枪操心"
   ],
   "mnemonicNote": "con+gratul(喜悦)+ation：把高兴说出口",
   "sourceNote": "拉丁 congratulatio，congratulari 的名词形式"
@@ -210,8 +210,8 @@
   "metaphorMeaningCn": "联系、接触",
   "metaphorOptions": [
    "联系、接触",
-   "活跃的的背面",
-   "大门的旧事"
+   "研究的背面",
+   "早先的的旧事"
   ],
   "mnemonicNote": "con(一起)+tact(触)",
   "sourceNote": "拉丁 contingere，com-(一起) + tangere(触)"
@@ -235,7 +235,7 @@
   "metaphorOptions": [
    "竞赛、争夺",
    "医湍流的旧事",
-   "使用的来路"
+   "化合价的来路"
   ],
   "mnemonicNote": "con(一起)+test(作证)：各摆证据，看谁站得住",
   "sourceNote": "拉丁 contestari，com-(一起) + testari(作证)"
@@ -247,7 +247,7 @@
   "metaphorOptions": [
    "参赛者、竞争者",
    "守着相片过活",
-   "收集的旧事"
+   "定义的旧事"
   ],
   "mnemonicNote": "con+test(作证)+ant(人)：站上台摆证据的那个",
   "sourceNote": "拉丁 contestari 的现在分词，法语 contestant"
@@ -258,8 +258,8 @@
   "metaphorMeaningCn": "合同、收缩",
   "metaphorOptions": [
    "合同、收缩",
-   "文字差错率的另一面",
-   "显示的味道"
+   "跳跃的东西的另一面",
+   "文字差错率的味道"
   ],
   "mnemonicNote": "con(一起)+tract(拉)：两张纸拉到一起就成约",
   "sourceNote": "拉丁 contrahere，com-(一起) + trahere(拉)"
@@ -270,8 +270,8 @@
   "metaphorMeaningCn": "方便的、合适的",
   "metaphorOptions": [
    "方便的、合适的",
-   "守着文字差错率过活",
-   "嘉奖的小站"
+   "守着契维语属于克瓦语过活",
+   "文字差错率的小站"
   ],
   "mnemonicNote": "con(一起)+ven(来)+ient：正好能凑上，就不费事",
   "sourceNote": "拉丁 convenire，com-(一起) + venire(来)"
@@ -294,8 +294,8 @@
   "metaphorMeaningCn": "定罪、囚犯",
   "metaphorOptions": [
    "定罪、囚犯",
-   "记录的人",
-   "一种向前的的习俗"
+   "寓所的人",
+   "一种记录的习俗"
   ],
   "mnemonicNote": "con(彻底)+vict(征服)：证据把他说服到底",
   "sourceNote": "拉丁 convincere，com-(加强) + vincere(征服)"
@@ -318,8 +318,8 @@
   "metaphorMeaningCn": "说服、使信服",
   "metaphorOptions": [
    "说服、使信服",
-   "替邀请操心",
-   "守着工作过活"
+   "替诗人操心",
+   "守着处理管理过活"
   ],
   "mnemonicNote": "con(彻底)+vince(胜)：把对方的疑虑彻底打赢",
   "sourceNote": "拉丁 convincere，com-(加强) + vincere(征服)"
@@ -355,7 +355,7 @@
   "metaphorOptions": [
    "勇气",
    "数着末端过日子",
-   "基准的工具"
+   "以前的工具"
   ],
   "mnemonicNote": "cour(心)+age(名词)：心里那股劲儿",
   "sourceNote": "拉丁 cor(心)，经古法语 corage"
@@ -378,8 +378,8 @@
   "metaphorMeaningCn": "信用、学分",
   "metaphorOptions": [
    "信用、学分",
-   "可能的的旧事",
-   "俚充当男性角色的的背面"
+   "中断的旧事",
+   "表示形成的的背面"
   ],
   "mnemonicNote": "cred(相信)",
   "sourceNote": "拉丁 creditum，credere(相信) 的过去分词"
@@ -391,7 +391,7 @@
   "metaphorOptions": [
    "每日的、日常的",
    "把外出串起来",
-   "雪茄的工具"
+   "英运动会的工具"
   ],
   "mnemonicNote": "dai(日)+ly(每…的)：一天一轮回",
   "sourceNote": "古英语 dæglic，dæg(日) + -lic(像…的)"
@@ -403,7 +403,7 @@
   "metaphorOptions": [
    "欺骗、误导",
    "离南方很远",
-   "替装天花板操心"
+   "替恐吓操心"
   ],
   "mnemonicNote": "de(偏离)+ceive(拿)：把人往错的方向领走",
   "sourceNote": "拉丁 decipere，de-(离开) + capere(拿)"
@@ -415,7 +415,7 @@
   "metaphorOptions": [
    "十二月",
    "贮存谷物等的容器的过程",
-   "离简单的很远"
+   "离宣称很远"
   ],
   "mnemonicNote": "dec(十)+ember：罗马历里它本是第十个月",
   "sourceNote": "拉丁 December，decem(十)；罗马历岁首在三月"
@@ -439,7 +439,7 @@
   "metaphorOptions": [
    "偏斜、偏差",
    "一种论争的习俗",
-   "单一的人"
+   "罚款的人"
   ],
   "mnemonicNote": "de+flect(弯)+ion：本该直走却拐了弯",
   "sourceNote": "拉丁 deflexio，deflectere 的名词形式"
@@ -450,8 +450,8 @@
   "metaphorMeaningCn": "使降级、贬低",
   "metaphorOptions": [
    "使降级、贬低",
-   "被感觉的东西",
-   "过路人的另一面"
+   "被用正餐的东西",
+   "感觉的背面"
   ],
   "mnemonicNote": "de(向下)+grade(等级)：把等级往下压",
   "sourceNote": "拉丁 degradare，de-(向下) + gradus(等级)"
@@ -462,8 +462,8 @@
   "metaphorMeaningCn": "使脱水、使干燥",
   "metaphorOptions": [
    "使脱水、使干燥",
-   "一种主修课的习俗",
-   "经过的一角"
+   "一种来源的习俗",
+   "主修课的一角"
   ],
   "mnemonicNote": "de(去掉)+hydr(水)+ate：把水抽出来",
   "sourceNote": "de-(去除) + 希腊 hydor(水) 的词干 hydr-"
@@ -474,8 +474,8 @@
   "metaphorMeaningCn": "脱水、干燥",
   "metaphorOptions": [
    "脱水、干燥",
-   "律看来好象的小站",
-   "新闻的地方"
+   "救球解救的小站",
+   "律看来好象的地方"
   ],
   "mnemonicNote": "de+hydr(水)+ation：身体里的水被拿走",
   "sourceNote": "de-(去除) + 希腊 hydor(水) + -ation"
@@ -498,8 +498,8 @@
   "metaphorMeaningCn": "驱逐出境",
   "metaphorOptions": [
    "驱逐出境",
-   "一会儿的影子",
-   "令人讨厌的人的人"
+   "犬儒学派的人的影子",
+   "一会儿的人"
   ],
   "mnemonicNote": "de(离开)+port(运)：把人运出国境线",
   "sourceNote": "拉丁 deportare，de-(离开) + portare(运)"
@@ -511,7 +511,7 @@
   "metaphorOptions": [
    "存款、沉淀",
    "数着皮特等于过日子",
-   "代替的工具"
+   "医直电流的工具"
   ],
   "mnemonicNote": "de(向下)+posit(放)：把钱放到柜台底下",
   "sourceNote": "拉丁 deponere，de-(向下) + ponere(放)"
@@ -546,8 +546,8 @@
   "metaphorMeaningCn": "厌恶、憎恨",
   "metaphorOptions": [
    "厌恶、憎恨",
-   "把直接的串起来",
-   "公开的工具"
+   "把承租人串起来",
+   "直接的的工具"
   ],
   "mnemonicNote": "de(反)+test(作证)：心里给它投反对票",
   "sourceNote": "拉丁 detestari，de-(反) + testari(作证)"
@@ -559,7 +559,7 @@
   "metaphorOptions": [
    "对话、对白",
    "围着确定的转",
-   "数着委员会过日子"
+   "数着搜索救援过日子"
   ],
   "mnemonicNote": "dia(穿过)+logue(说)：话从这边穿到那边",
   "sourceNote": "希腊 dialogos，dia-(穿过) + legein(说)"
@@ -582,8 +582,8 @@
   "metaphorMeaningCn": "独裁者",
   "metaphorOptions": [
    "独裁者",
-   "酒醉后开车的人",
-   "一种教育的习俗"
+   "生物的人",
+   "一种使降级的习俗"
   ],
   "mnemonicNote": "dict(说)+ator(人)：所有话都由他一个人说",
   "sourceNote": "拉丁 dictator，dictare(口授、下令)"
@@ -606,8 +606,8 @@
   "metaphorMeaningCn": "扩散、散布",
   "metaphorOptions": [
    "扩散、散布",
-   "越过的来路",
-   "他们的地方"
+   "焚香的来路",
+   "越过的地方"
   ],
   "mnemonicNote": "dif(散开)+fuse(倒)：水倒下去，向四面流开",
   "sourceNote": "拉丁 diffundere，dis-(散开) + fundere(倒)"
@@ -630,8 +630,8 @@
   "metaphorMeaningCn": "主管、导演",
   "metaphorOptions": [
    "主管、导演",
-   "选择的来路",
-   "经活期的地方"
+   "任务的来路",
+   "临近的的地方"
   ],
   "mnemonicNote": "direct(指挥)+or(人)：负责把人往一条线上带",
   "sourceNote": "拉丁 dirigere(指挥) 的施事名词"
@@ -643,7 +643,7 @@
   "metaphorOptions": [
    "不和、争执",
    "向着丰人去",
-   "围着惊奇转"
+   "围着亲爱的人亲爱的转"
   ],
   "mnemonicNote": "dis(分开)+cord(心)：心不朝一处，就生嫌隙",
   "sourceNote": "拉丁 discordia，dis-(分开) + cor(心)"
@@ -654,8 +654,8 @@
   "metaphorMeaningCn": "发现、找到",
   "metaphorOptions": [
    "发现、找到",
-   "灰烬的人",
-   "拉丁名词词尾的影子"
+   "中性的的人",
+   "灰烬的影子"
   ],
   "mnemonicNote": "dis(去掉)+cover(盖子)：把盖着的东西露出来",
   "sourceNote": "古法语 descovrir，des-(去掉) + covrir(盖)"
@@ -667,7 +667,7 @@
   "metaphorOptions": [
    "抽屉",
    "健康的的背面",
-   "做广告的过程"
+   "苦的的过程"
   ],
   "mnemonicNote": "draw(拉)+er(物)：一拉就出来的那格",
   "sourceNote": "英语 draw(拉) + -er(表物)"
@@ -678,8 +678,8 @@
   "metaphorMeaningCn": "努力、尽力",
   "metaphorOptions": [
    "努力、尽力",
-   "守着景观过活",
-   "替习惯操心"
+   "守着马房过活",
+   "替景观操心"
   ],
   "mnemonicNote": "ef(出)+fort(强)：把身上那股劲往外使",
   "sourceNote": "古法语 esforz，es-(出) + 拉丁 fortis(强)"
@@ -691,7 +691,7 @@
   "metaphorOptions": [
    "喷出、逐出",
    "进位的人",
-   "波兰人的影子"
+   "哑子的影子"
   ],
   "mnemonicNote": "e(出)+ject(投)：往外一扔",
   "sourceNote": "拉丁 eicere，ex-(出) + iacere(投)"

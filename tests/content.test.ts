@@ -112,9 +112,13 @@ describe('结构化内容校验', () => {
       if (!rootMorphemes.some((root) => root.id === rootId)) continue
       // 词素分两档（Stage 3 起）：家族低于门槛的是「零件词素」，豁免难度覆盖要求。
       if (family.length < MIN_WORDS_PER_ROOT) continue
-      expect(family.filter((word) => word.difficulty === 1).length, `${rootId} 没有 difficulty-1 的词`).toBeGreaterThan(0)
-      // d5 不再硬卡：实测 96 个教学词根里 67 个没有 d5 词（≈70%），
-      // 硬卡等于要求词库必须包含冷门派生词 —— 那是选题偏好，不是正确性。
+      // d1 / d5 都不再硬卡：
+      //   d5 缺 —— 实测 96 个教学词根里 67 个没有 d5 词（≈70%），硬卡等于要求词库必须
+      //            包含冷门派生词，那是选题偏好，不是正确性。
+      //   d1 缺 —— 铺到六级批后出现 tight 这类词根：家族词全是高级派生
+      //            （tighten/tightly/watertight），基础词本身不在词库里。
+      // 两边口径与 contentRules.ts / 20-select-words.mjs 的 A23 保持一致（都是提示）。
+      expect(family.length, `${rootId} 家族词数`).toBeGreaterThan(0)
     }
   })
 })

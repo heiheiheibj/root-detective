@@ -41553,7 +41553,7 @@
    "id": "kin",
    "displayText": "-kin",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "指小",
    "allomorphs": [
     "kin"
    ],
@@ -41565,7 +41565,7 @@
    "id": "let",
    "displayText": "-let",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "指小",
    "allomorphs": [
     "let",
     "lett"
@@ -41727,7 +41727,7 @@
    "id": "safe",
    "displayText": "-safe",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "安全",
    "allomorphs": [
     "safe"
    ],
@@ -49761,7 +49761,7 @@
    "id": "eco",
    "displayText": "eco-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "生态",
    "allomorphs": [
     "eco"
    ],
@@ -50009,7 +50009,7 @@
    "id": "tri",
    "displayText": "tri-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "三",
    "allomorphs": [
     "tri"
    ],
@@ -63822,6 +63822,39 @@
    "name": "紧固坊",
    "morphemeIds": [
     "tight"
+   ]
+  },
+  {
+   "id": "origin-pavilion",
+   "name": "缘由阁",
+   "morphemeIds": [
+    "due",
+    "relate",
+    "there",
+    "complete",
+    "history",
+    "imagine"
+   ]
+  },
+  {
+   "id": "discern-hall",
+   "name": "明辨堂",
+   "morphemeIds": [
+    "not",
+    "clear",
+    "clude",
+    "min",
+    "gener",
+    "cut",
+    "sham"
+   ]
+  },
+  {
+   "id": "temper-yard",
+   "name": "刚柔场",
+   "morphemeIds": [
+    "intense",
+    "mature"
    ]
   }
  ]

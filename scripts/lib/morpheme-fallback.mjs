@@ -43,6 +43,7 @@ export const FALLBACK_MEANINGS = {
   // 六级批新增（cigen 词源库带出来的拉丁词干，非英语词根）
   acquisite: '获取', vergere: '倾向', entreprendre: '着手',
   forthcome: '出现', candesco: '变白', revelate: '揭示',
+  kin: '指小', let: '指小', safe: '安全', eco: '生态', tri: '三',
 }
 
 /** 义项里没有汉字就算缺（deriveMeaning 有时会填进一串英文，那种也过不了 A20）。 */

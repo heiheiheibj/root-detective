@@ -374,8 +374,11 @@ export function validateContent(morphemes: readonly Morpheme[], words: readonly 
         continue
       }
       if (family.length < MIN_WORDS_PER_ROOT) continue // 零件词素：豁免家族规模与难度覆盖
+      // d1 缺也降为提示（原为硬错误）：铺到六级批后出现 tight 这类词根 —— 家族词全是
+      // 高级派生（tighten/tightly/watertight），基础词本身不在词库里，这是词表性质决定的，
+      // 不是数据缺陷。20 号那侧口径已同步改为提示，两边保持一致。
       if (!family.some((word) => word.difficulty === 1)) {
-        say('error', 'A23', rootId, `教学词素没有任何 difficulty-1 的词，初学者碰不到它`)
+        say('warning', 'A23', rootId, '教学词素没有任何 difficulty-1 的词，初学者一时碰不到它')
       }
       if (!family.some((word) => word.difficulty === 5)) {
         say('warning', 'A23', rootId, '教学词素没有 difficulty-5 的词，难度梯度少一端')

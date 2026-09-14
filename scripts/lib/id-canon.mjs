@@ -47,3 +47,38 @@ export function buildCanon(ids) {
 export function canonOf(map, id) {
   return map.get(id) || id
 }
+
+/**
+ * 「同一个词根、两种拼法」的分组。词素表里两边各存了一份：
+ *   cigen 用拉丁词干全形（trah / puls / mitt / minimus / passer / dc…）
+ *   切分算法按**词形**定 id（tract / pel / mit / minim / pass / duce…）
+ *
+ * 21 号的 cigen 交叉验证要求「cigen 标出的词根必须都在切分里」，不认这层对照就会把这些词
+ * 当冲突丢掉 —— 实测 26 个词因此进不了词库，例如
+ *   retract / distract / extract / transmit / dismiss / adjust / unjust / introduce /
+ *   minimum / minimal / peninsula / activity / exact / counteract / aggression /
+ *   progress / bypass / surpass / encourage / discourage / notice / impulse
+ * 注意是**双向**的：retract 切到 tract 而 cigen 说 trah，distract 反过来切到 trah
+ * 而 cigen 说 tract，两个方向都要认。
+ */
+export const CIGEN_ROOT_GROUPS = [
+  ['tract', 'trah'],
+  ['cor', 'courage'],
+  ['pel', 'puls'],
+  ['mit', 'miss', 'mitt'],
+  ['jud', 'just'],
+  ['active', 'act'],
+  ['duce', 'dc'],
+  ['aggress', 'gress'],
+  ['minim', 'minimum', 'minimus'],
+  ['insula', 'nsula'],
+  ['pass', 'passer'],
+  ['not', 'note', 'iced'],
+]
+
+/** 词库 id → 可接受的一组同根 id（含自己）。命中任一即算对上。 */
+export const CIGEN_ROOT_ALIAS = new Map()
+for (const group of CIGEN_ROOT_GROUPS) for (const id of group) CIGEN_ROOT_ALIAS.set(id, group)
+
+/** cigen 多标出来、本阶段切分不单独建模的前缀/词尾，交叉验证时直接跳过。 */
+export const CIGEN_ROOT_IGNORE = new Set(['deh'])

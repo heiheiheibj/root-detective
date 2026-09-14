@@ -29,5 +29,60 @@
   "exampleEn": "They found a large oilfield in the desert.",
   "exampleCn": "他们在沙漠里发现了一个大油田。",
   "sentenceId": "handoff"
+ },
+ "calibration": {
+  "exampleEn": "The calibration of the instrument takes a few minutes.",
+  "exampleCn": "这台仪器的校准要花几分钟。",
+  "sentenceId": "handoff"
+ },
+ "deformation": {
+  "exampleEn": "The deformation of the metal was clearly visible.",
+  "exampleCn": "金属的变形清晰可见。",
+  "sentenceId": "handoff"
+ },
+ "despatch": {
+  "exampleEn": "We will despatch the goods tomorrow morning.",
+  "exampleCn": "我们明天早上发货。",
+  "sentenceId": "handoff"
+ },
+ "firmness": {
+  "exampleEn": "He answered with great firmness.",
+  "exampleCn": "他十分坚决地回答。",
+  "sentenceId": "handoff"
+ },
+ "interconnect": {
+  "exampleEn": "These two systems interconnect through a shared cable.",
+  "exampleCn": "这两个系统通过一根共用电缆互连。",
+  "sentenceId": "handoff"
+ },
+ "maturation": {
+  "exampleEn": "The maturation of the fruit takes several weeks.",
+  "exampleCn": "果实的成熟需要好几周。",
+  "sentenceId": "handoff"
+ },
+ "predominant": {
+  "exampleEn": "Blue is the predominant colour in this room.",
+  "exampleCn": "蓝色是这个房间的主色调。",
+  "sentenceId": "handoff"
+ },
+ "resultant": {
+  "exampleEn": "The resultant damage was far worse than expected.",
+  "exampleCn": "由此造成的损失远比预想严重。",
+  "sentenceId": "handoff"
+ },
+ "southwards": {
+  "exampleEn": "The river flows southwards to the sea.",
+  "exampleCn": "这条河向南流入大海。",
+  "sentenceId": "handoff"
+ },
+ "subdivide": {
+  "exampleEn": "They decided to subdivide the land into four plots.",
+  "exampleCn": "他们决定把这块地再分成四块。",
+  "sentenceId": "handoff"
+ },
+ "transverse": {
+  "exampleEn": "Make a transverse cut across the stem.",
+  "exampleCn": "在茎上横切一刀。",
+  "sentenceId": "handoff"
  }
 }

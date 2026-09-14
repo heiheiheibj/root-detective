@@ -1,5 +1,5 @@
 {
- "_comment": "3.4 六级批新增 2 个世界（+ 之前 37 个 = 39）。本批家族极少（只有 2 个），符合规划预期：六级的增量主要是「零件词素」和少量长尾词根，可拆讲的教学词根基本在前三批里已经上过地图了。",
+ "_comment": "3.4 六级批新增 5 个世界（+ 之前 37 个 = 42）。前两个来自本批自身的家族（只有 2 个，符合规划预期：六级增量主要是「零件词素」和少量长尾词根）；后三个是总装后 A24 报出的 15 个孤儿词根补齐的 —— 修好 cigen↔词库词根拼法对照（id-canon.mjs 的 CIGEN_ROOT_GROUPS）后新进词库的那批词，把它们原先没挂世界的词根带了出来。",
  "worlds": [
   {
    "id": "nature-study",
@@ -10,6 +10,21 @@
    "id": "fasten-forge",
    "name": "紧固坊",
    "morphemeIds": ["tight"]
+  },
+  {
+   "id": "origin-pavilion",
+   "name": "缘由阁",
+   "morphemeIds": ["due", "relate", "there", "complete", "history", "imagine"]
+  },
+  {
+   "id": "discern-hall",
+   "name": "明辨堂",
+   "morphemeIds": ["not", "clear", "clude", "min", "gener", "cut", "sham"]
+  },
+  {
+   "id": "temper-yard",
+   "name": "刚柔场",
+   "morphemeIds": ["intense", "mature"]
   }
  ]
 }

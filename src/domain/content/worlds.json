@@ -480,5 +480,57 @@
       "rob",
       "commune"
     ]
+  },
+  {
+    "id": "nature-study",
+    "name": "格物斋",
+    "description": "学习词根：physic（格物斋）",
+    "morphemeIds": [
+      "physic"
+    ]
+  },
+  {
+    "id": "fasten-forge",
+    "name": "紧固坊",
+    "description": "学习词根：tight（紧固坊）",
+    "morphemeIds": [
+      "tight"
+    ]
+  },
+  {
+    "id": "origin-pavilion",
+    "name": "缘由阁",
+    "description": "学习词根：due、relate、there、complete、history、imagine（缘由阁）",
+    "morphemeIds": [
+      "due",
+      "relate",
+      "there",
+      "complete",
+      "history",
+      "imagine"
+    ]
+  },
+  {
+    "id": "discern-hall",
+    "name": "明辨堂",
+    "description": "学习词根：not、clear、clude、min、gener、cut、sham（明辨堂）",
+    "morphemeIds": [
+      "not",
+      "clear",
+      "clude",
+      "min",
+      "gener",
+      "cut",
+      "sham"
+    ]
+  },
+  {
+    "id": "temper-yard",
+    "name": "刚柔场",
+    "description": "学习词根：intense、mature（刚柔场）",
+    "morphemeIds": [
+      "intense",
+      "mature"
+    ]
   }
 ]

@@ -15,6 +15,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
+import { CIGEN_ROOT_ALIAS, CIGEN_ROOT_IGNORE } from './lib/id-canon.mjs'
 
 const here = dirname(fileURLToPath(import.meta.url))
 const libDir = join(here, 'lib')
@@ -111,12 +112,21 @@ for (const cand of candidates.words) {
   if (cigenByWord && cigenByWord.has(word)) {
     const ce = cigenByWord.get(word)
     const toks = (ce.components || []).map((c) => (c.morpheme || '').toLowerCase()).filter(Boolean)
-    const cigenRoots = [...new Set(toks.map((t) => rootSurfaceToId.get(t)).filter(Boolean))]
+    // cigen 把词根拼成拉丁词干全形（trah / mitt / dc / minimus / passer…），词库按词形定的 id
+    // 是另一套拼法（tract / mit / duce / minim / pass…），两边同一个词根。先落到词库 id，
+    // 再查别名表拿到「可接受的 id 集合」—— 同一个 token 可能对上不止一个 id
+    // （minimus 既对 minimum 也对 minimal），所以是「任一匹配即可」，不是全都要在。
+    const cigenRoots = []
+    for (const t of toks) {
+      const id = rootSurfaceToId.get(t)
+      if (!id || CIGEN_ROOT_IGNORE.has(id)) continue
+      cigenRoots.push(CIGEN_ROOT_ALIAS.get(id) || [id])
+    }
     if (cigenRoots.length > 0) {
       const ourRoots = new Set(parts.filter((p) => morphemes.get(p.morphemeId)?.type === 'root').map((p) => p.morphemeId))
-      const missing = cigenRoots.filter((r) => !ourRoots.has(r))
+      const missing = cigenRoots.filter((accept) => accept.length > 0 && !accept.some((r) => ourRoots.has(r)))
       if (missing.length > 0) {
-        console.error(`❌ cigen ${word}：cigen 标了本阶段没拆出的词根 ${missing.join('/')}（cigen=${cigenRoots.join('+')} 本阶段=${[...ourRoots].join('+')}）`)
+        console.error(`❌ cigen ${word}：cigen 标了本阶段没拆出的词根 ${missing.map((a) => a.join('|')).join('/')}（cigen=${cigenRoots.map((a) => a.join('|')).join('+')} 本阶段=${[...ourRoots].join('+')}）`)
         dropped.push(word); anyFail = true; continue
       }
     }
