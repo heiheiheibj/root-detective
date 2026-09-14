@@ -1,0 +1,723 @@
+{
+ "_comment": "Stage 3 待写释义（batch-8，本批 60 词，高考批第 1 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "abnormal": {
+  "modernMeaningCn": "反常的",
+  "literalMeaningCn": "偏离常态",
+  "metaphorMeaningCn": "反常的、异常的",
+  "metaphorOptions": [
+   "反常的、异常的",
+   "正常的",
+   "平淡的"
+  ],
+  "mnemonicNote": "ab(离开)+normal(常态)：从那条标准线上离开了",
+  "sourceNote": "拉丁 abnormis，ab-(离开) + norma(规矩)"
+ },
+ "abortion": {
+  "modernMeaningCn": "流产",
+  "literalMeaningCn": "中途止住",
+  "metaphorMeaningCn": "流产、中途失败",
+  "metaphorOptions": [
+   "流产、中途失败",
+   "顺利生产",
+   "顺利推进"
+  ],
+  "mnemonicNote": "abort(中止)+ion：事情走到一半硬停下了",
+  "sourceNote": "拉丁 abortio，ab-(离开) + oriri(出生)"
+ },
+ "absorb": {
+  "modernMeaningCn": "吸收",
+  "literalMeaningCn": "吸走",
+  "metaphorMeaningCn": "吸收、使专心",
+  "metaphorOptions": [
+   "吸收、使专心",
+   "排出",
+   "排斥"
+  ],
+  "mnemonicNote": "ab(离开)+sorb(吸)：把东西朝自己这边吸干",
+  "sourceNote": "拉丁 absorbere，ab-(离开) + sorbere(吸)"
+ },
+ "abstract": {
+  "modernMeaningCn": "抽象的",
+  "literalMeaningCn": "抽离具体",
+  "metaphorMeaningCn": "抽象的、摘要",
+  "metaphorOptions": [
+   "抽象的、摘要",
+   "具体的",
+   "详细的"
+  ],
+  "mnemonicNote": "abs(离开)+tract(拉)：把要点从实物里拉出来",
+  "sourceNote": "拉丁 abstractus，abs-(离开) + trahere(拉)"
+ },
+ "abuse": {
+  "modernMeaningCn": "滥用",
+  "literalMeaningCn": "用偏了",
+  "metaphorMeaningCn": "滥用、虐待",
+  "metaphorOptions": [
+   "滥用、虐待",
+   "善用",
+   "珍惜"
+  ],
+  "mnemonicNote": "ab(偏离)+use(使用)：好东西用到了岔路上",
+  "sourceNote": "拉丁 abuti，ab-(偏离) + uti(使用)"
+ },
+ "academic": {
+  "modernMeaningCn": "学术的",
+  "literalMeaningCn": "与学园有关",
+  "metaphorMeaningCn": "学术的、学院的",
+  "metaphorOptions": [
+   "学术的、学院的",
+   "商业的",
+   "实践的"
+  ],
+  "mnemonicNote": "academy(学园)+ic：柏拉图讲学那处园子的事",
+  "sourceNote": "希腊 Akademeia，柏拉图讲学的园林"
+ },
+ "accessible": {
+  "modernMeaningCn": "易接近的",
+  "literalMeaningCn": "能进得去",
+  "metaphorMeaningCn": "可接近的、易懂的",
+  "metaphorOptions": [
+   "可接近的、易懂的",
+   "封闭的",
+   "深奥的"
+  ],
+  "mnemonicNote": "access(通路)+ible(能)：路通着，谁都能到",
+  "sourceNote": "拉丁 accedere，ad-(朝向) + cedere(走)"
+ },
+ "accommodation": {
+  "modernMeaningCn": "住处",
+  "literalMeaningCn": "照应安排",
+  "metaphorMeaningCn": "住处、膳宿",
+  "metaphorOptions": [
+   "住处、膳宿",
+   "旅途劳顿",
+   "拒之门外"
+  ],
+  "mnemonicNote": "accommodat(使适应)+ion：把环境照你的需要安排好",
+  "sourceNote": "拉丁 accommodare，ad-(朝向) + commodus(合适)"
+ },
+ "accompany": {
+  "modernMeaningCn": "陪伴",
+  "literalMeaningCn": "与人为伴",
+  "metaphorMeaningCn": "陪伴、伴随",
+  "metaphorOptions": [
+   "陪伴、伴随",
+   "独行",
+   "分离"
+  ],
+  "mnemonicNote": "ac(朝向)+company(同伴)：走到人身边做他的伴",
+  "sourceNote": "古法语 acompaignier，a-(朝向) + compaign(同伴)"
+ },
+ "accountant": {
+  "modernMeaningCn": "会计",
+  "literalMeaningCn": "管账的人",
+  "metaphorMeaningCn": "会计、会计师",
+  "metaphorOptions": [
+   "会计、会计师",
+   "出纳员",
+   "推销员"
+  ],
+  "mnemonicNote": "account(账目)+ant(人)：天天跟数字账本打交道的那位",
+  "sourceNote": "古法语 aconter(计算)，a-(朝向) + conter(数)"
+ },
+ "accustomed": {
+  "modernMeaningCn": "惯常的",
+  "literalMeaningCn": "已经习惯",
+  "metaphorMeaningCn": "惯常的、习惯于",
+  "metaphorOptions": [
+   "惯常的、习惯于",
+   "生疏的",
+   "别扭的"
+  ],
+  "mnemonicNote": "accustom(使习惯)+ed：日子久了就顺手了",
+  "sourceNote": "古法语 acostumer，a-(朝向) + costume(习俗)"
+ },
+ "achievement": {
+  "modernMeaningCn": "成就",
+  "literalMeaningCn": "达成之事",
+  "metaphorMeaningCn": "成就、成绩",
+  "metaphorOptions": [
+   "成就、成绩",
+   "失败",
+   "空谈"
+  ],
+  "mnemonicNote": "achieve(达成)+ment：咬着牙做成的那件事",
+  "sourceNote": "古法语 achever(完成)，a-(朝向) + chief(头)"
+ },
+ "acknowledge": {
+  "modernMeaningCn": "承认",
+  "literalMeaningCn": "承认知道",
+  "metaphorMeaningCn": "承认、致谢",
+  "metaphorOptions": [
+   "承认、致谢",
+   "否认",
+   "装糊涂"
+  ],
+  "mnemonicNote": "ac(朝向)+knowledge(知道)：点头认下「我知道」",
+  "sourceNote": "古英语 on + cnawan(知道)，配上 -ledge 后缀"
+ },
+ "acquaintance": {
+  "modernMeaningCn": "熟人",
+  "literalMeaningCn": "已经熟悉",
+  "metaphorMeaningCn": "熟人、相识",
+  "metaphorOptions": [
+   "熟人、相识",
+   "陌生人",
+   "至亲"
+  ],
+  "mnemonicNote": "acquaint(使熟悉)+ance：打过照面、叫得上名字那位",
+  "sourceNote": "古法语 acointier，拉丁 accognoscere(认识)"
+ },
+ "acquisition": {
+  "modernMeaningCn": "获得",
+  "literalMeaningCn": "取得之物",
+  "metaphorMeaningCn": "获得、收购",
+  "metaphorOptions": [
+   "获得、收购",
+   "失去",
+   "放弃"
+  ],
+  "mnemonicNote": "acquis(取得)+ition：一点点攒到手的过程",
+  "sourceNote": "拉丁 acquisitio，acquirere(取得)"
+ },
+ "actor": {
+  "modernMeaningCn": "男演员",
+  "literalMeaningCn": "表演的人",
+  "metaphorMeaningCn": "演员、行动者",
+  "metaphorOptions": [
+   "演员、行动者",
+   "观众",
+   "编剧"
+  ],
+  "mnemonicNote": "act(做)+or(人)：在台上替角色做事的人",
+  "sourceNote": "拉丁 actor，agere(做、演) 的施事名词"
+ },
+ "actress": {
+  "modernMeaningCn": "女演员",
+  "literalMeaningCn": "女表演者",
+  "metaphorMeaningCn": "女演员",
+  "metaphorOptions": [
+   "女演员",
+   "男演员",
+   "导演"
+  ],
+  "mnemonicNote": "actr(表演)+ess(女性)：-ess 是旧时表女性的后缀",
+  "sourceNote": "拉丁 actor + -ess(女性后缀)，法语 actrice"
+ },
+ "actual": {
+  "modernMeaningCn": "实际的",
+  "literalMeaningCn": "已做成的",
+  "metaphorMeaningCn": "实际的、真实的",
+  "metaphorOptions": [
+   "实际的、真实的",
+   "虚构的",
+   "计划的"
+  ],
+  "mnemonicNote": "actu(做)+al：落到行动上、真发生了的",
+  "sourceNote": "拉丁 actualis，agere(做) 的分词词干"
+ },
+ "adapt": {
+  "modernMeaningCn": "适应",
+  "literalMeaningCn": "使其合适",
+  "metaphorMeaningCn": "适应、改编",
+  "metaphorOptions": [
+   "适应、改编",
+   "硬扛",
+   "对抗"
+  ],
+  "mnemonicNote": "ad(朝向)+apt(合适)：往合适的方向调一调",
+  "sourceNote": "拉丁 adaptare，ad-(朝向) + aptus(合适的)"
+ },
+ "adaptation": {
+  "modernMeaningCn": "适应",
+  "literalMeaningCn": "调合适的过程",
+  "metaphorMeaningCn": "适应、改编本",
+  "metaphorOptions": [
+   "适应、改编本",
+   "原封不动",
+   "格格不入"
+  ],
+  "mnemonicNote": "adapt(使合适)+ation：把自己调到能合上拍",
+  "sourceNote": "拉丁 adaptatio，adaptare 的名词形式"
+ },
+ "adjustment": {
+  "modernMeaningCn": "调整",
+  "literalMeaningCn": "调回正位",
+  "metaphorMeaningCn": "调整、调节",
+  "metaphorOptions": [
+   "调整、调节",
+   "放任不管",
+   "拆掉重来"
+  ],
+  "mnemonicNote": "adjust(调准)+ment：一毫米一毫米地拧到位",
+  "sourceNote": "古法语 adjuster 的名词形式，ad-(朝向) + justus(公正)"
+ },
+ "administration": {
+  "modernMeaningCn": "管理",
+  "literalMeaningCn": "管事的行为",
+  "metaphorMeaningCn": "管理、行政部门",
+  "metaphorOptions": [
+   "管理、行政部门",
+   "放任",
+   "罢工"
+  ],
+  "mnemonicNote": "administrat(管事)+ion：让一摊子事各就各位",
+  "sourceNote": "拉丁 administratio，ad-(朝向) + ministrare(服务)"
+ },
+ "admirable": {
+  "modernMeaningCn": "令人钦佩的",
+  "literalMeaningCn": "值得惊叹",
+  "metaphorMeaningCn": "令人钦佩的、极好的",
+  "metaphorOptions": [
+   "令人钦佩的、极好的",
+   "可鄙的",
+   "平平无奇"
+  ],
+  "mnemonicNote": "admir(惊叹)+able：看一眼就让人服气",
+  "sourceNote": "拉丁 admirabilis，admirari(惊叹)"
+ },
+ "advantage": {
+  "modernMeaningCn": "优势",
+  "literalMeaningCn": "处在前面",
+  "metaphorMeaningCn": "优势、好处",
+  "metaphorOptions": [
+   "优势、好处",
+   "劣势",
+   "平手"
+  ],
+  "mnemonicNote": "ad(朝向)+vantage(前位)：抢到了靠前那个位置",
+  "sourceNote": "古法语 avantage，avant(在前)"
+ },
+ "advertise": {
+  "modernMeaningCn": "做广告",
+  "literalMeaningCn": "使人转向",
+  "metaphorMeaningCn": "做广告、宣传",
+  "metaphorOptions": [
+   "做广告、宣传",
+   "保密",
+   "压价"
+  ],
+  "mnemonicNote": "advert(转向)+ise：把路人的目光拨到自家招牌上",
+  "sourceNote": "拉丁 advertere，ad-(朝向) + vertere(转)"
+ },
+ "advertisement": {
+  "modernMeaningCn": "广告",
+  "literalMeaningCn": "引人注意之物",
+  "metaphorMeaningCn": "广告、启事",
+  "metaphorOptions": [
+   "广告、启事",
+   "密函",
+   "账本"
+  ],
+  "mnemonicNote": "advertise(宣传)+ment：贴在街头拉你注意的那张纸",
+  "sourceNote": "法语 avertissement，advertere(使注意)"
+ },
+ "advise": {
+  "modernMeaningCn": "劝告",
+  "literalMeaningCn": "替人看清",
+  "metaphorMeaningCn": "劝告、建议",
+  "metaphorOptions": [
+   "劝告、建议",
+   "强迫",
+   "沉默"
+  ],
+  "mnemonicNote": "ad(朝向)+vise(看)：把利害替你看明白了说给你",
+  "sourceNote": "拉丁 advisare，ad-(朝向) + videre(看)"
+ },
+ "aeroplane": {
+  "modernMeaningCn": "飞机",
+  "literalMeaningCn": "空中滑行之物",
+  "metaphorMeaningCn": "飞机",
+  "metaphorOptions": [
+   "飞机",
+   "轮船",
+   "热气球"
+  ],
+  "mnemonicNote": "aero(空气)+plane(平面)：靠翅膀在气流上滑",
+  "sourceNote": "法语 aéroplane，希腊 aer(空气) + planos(游荡)"
+ },
+ "affection": {
+  "modernMeaningCn": "喜爱",
+  "literalMeaningCn": "被触动之情",
+  "metaphorMeaningCn": "喜爱、感情",
+  "metaphorOptions": [
+   "喜爱、感情",
+   "厌恶",
+   "漠然"
+  ],
+  "mnemonicNote": "affect(影响)+ion：心里被谁轻轻碰了一下",
+  "sourceNote": "拉丁 affectio，afficere(作用于、触动)"
+ },
+ "afford": {
+  "modernMeaningCn": "买得起",
+  "literalMeaningCn": "能往前带",
+  "metaphorMeaningCn": "买得起、承担得起",
+  "metaphorOptions": [
+   "买得起、承担得起",
+   "买不起",
+   "借不到"
+  ],
+  "mnemonicNote": "af(朝向)+ford(前)：口袋里那点钱够把东西带走",
+  "sourceNote": "古英语 geforthian，forth(向前) 的动词形式"
+ },
+ "afternoon": {
+  "modernMeaningCn": "下午",
+  "literalMeaningCn": "正午之后",
+  "metaphorMeaningCn": "下午、午后",
+  "metaphorOptions": [
+   "下午、午后",
+   "清晨",
+   "深夜"
+  ],
+  "mnemonicNote": "after(之后)+noon(正午)：太阳偏西的那半天",
+  "sourceNote": "古英语 æfter(之后) + non(第九时，正午)"
+ },
+ "agenda": {
+  "modernMeaningCn": "议程",
+  "literalMeaningCn": "待做之事",
+  "metaphorMeaningCn": "议程、议事日程",
+  "metaphorOptions": [
+   "议程、议事日程",
+   "结论",
+   "散会"
+  ],
+  "mnemonicNote": "ag(做)+enda：拉丁语「该做的事」的复数",
+  "sourceNote": "拉丁 agenda，agere(做) 的将来分词复数"
+ },
+ "aggressive": {
+  "modernMeaningCn": "好斗的",
+  "literalMeaningCn": "爱进攻的",
+  "metaphorMeaningCn": "好斗的、有闯劲的",
+  "metaphorOptions": [
+   "好斗的、有闯劲的",
+   "温和的",
+   "退缩的"
+  ],
+  "mnemonicNote": "aggress(进攻)+ive：先迈出那一步的人",
+  "sourceNote": "拉丁 aggredi，ad-(朝向) + gradi(走)"
+ },
+ "agricultural": {
+  "modernMeaningCn": "农业的",
+  "literalMeaningCn": "与种地有关",
+  "metaphorMeaningCn": "农业的、农用的",
+  "metaphorOptions": [
+   "农业的、农用的",
+   "工业的",
+   "商业的"
+  ],
+  "mnemonicNote": "agricultur(耕种)+al：围着田地和收成打转",
+  "sourceNote": "拉丁 agriculturalis，ager(田) + cultura(耕作)"
+ },
+ "agriculture": {
+  "modernMeaningCn": "农业",
+  "literalMeaningCn": "田地的耕作",
+  "metaphorMeaningCn": "农业、农学",
+  "metaphorOptions": [
+   "农业、农学",
+   "渔业",
+   "矿业"
+  ],
+  "mnemonicNote": "agri(田地)+culture(耕作)：把地养熟的那套本事",
+  "sourceNote": "拉丁 ager(田地) + cultura(耕作)"
+ },
+ "ahead": {
+  "modernMeaningCn": "领先的",
+  "literalMeaningCn": "在头的前面",
+  "metaphorMeaningCn": "领先、在前",
+  "metaphorOptions": [
+   "领先、在前",
+   "落后",
+   "并列"
+  ],
+  "mnemonicNote": "a(在)+head(头)：走在队伍最前面那颗头",
+  "sourceNote": "古英语 on heafod，字面「在头上／在头前」"
+ },
+ "aircraft": {
+  "modernMeaningCn": "航空器",
+  "literalMeaningCn": "空中之器",
+  "metaphorMeaningCn": "飞机、航空器",
+  "metaphorOptions": [
+   "飞机、航空器",
+   "船只",
+   "车辆"
+  ],
+  "mnemonicNote": "air(空气)+craft(器具)：能靠着空气飞起来的家伙",
+  "sourceNote": "英语复合词，air + craft(技艺、器)"
+ },
+ "airspace": {
+  "modernMeaningCn": "领空",
+  "literalMeaningCn": "空中的范围",
+  "metaphorMeaningCn": "领空、空域",
+  "metaphorOptions": [
+   "领空、空域",
+   "海域",
+   "陆地"
+  ],
+  "mnemonicNote": "air(空气)+space(空间)：悬在国界之上的那片天",
+  "sourceNote": "英语复合词，20 世纪随航空法出现"
+ },
+ "alcoholic": {
+  "modernMeaningCn": "含酒精的",
+  "literalMeaningCn": "含酒精的",
+  "metaphorMeaningCn": "含酒精的、酗酒的",
+  "metaphorOptions": [
+   "含酒精的、酗酒的",
+   "无酒精的",
+   "清淡的"
+  ],
+  "mnemonicNote": "alcohol(酒精)+ic：杯子里带着那股上头的味",
+  "sourceNote": "阿拉伯 al-kuhl(锑粉、蒸馏物)，经中世纪拉丁传入"
+ },
+ "allergic": {
+  "modernMeaningCn": "过敏的",
+  "literalMeaningCn": "对某物起反应",
+  "metaphorMeaningCn": "过敏的、反感的",
+  "metaphorOptions": [
+   "过敏的、反感的",
+   "免疫的",
+   "喜欢的"
+  ],
+  "mnemonicNote": "allerg(过敏)+ic：身体把无害的东西当成了敌人",
+  "sourceNote": "希腊 allos(别的) + ergon(作用)，19 世纪造词"
+ },
+ "allocate": {
+  "modernMeaningCn": "分配",
+  "literalMeaningCn": "安排到各处",
+  "metaphorMeaningCn": "分配、拨给",
+  "metaphorOptions": [
+   "分配、拨给",
+   "全部占用",
+   "搁置"
+  ],
+  "mnemonicNote": "al(朝向)+locate(安置)：一笔一笔放到该去的位置",
+  "sourceNote": "中世纪拉丁 allocare，ad-(朝向) + locus(地方)"
+ },
+ "allowance": {
+  "modernMeaningCn": "津贴",
+  "literalMeaningCn": "被允准给的",
+  "metaphorMeaningCn": "津贴、零用钱",
+  "metaphorOptions": [
+   "津贴、零用钱",
+   "罚款",
+   "欠款"
+  ],
+  "mnemonicNote": "allow(允许)+ance：长辈点头给的那份钱",
+  "sourceNote": "古法语 alouance，allouer(准许)"
+ },
+ "alongside": {
+  "modernMeaningCn": "在旁边",
+  "literalMeaningCn": "沿着边",
+  "metaphorMeaningCn": "在旁边、并肩",
+  "metaphorOptions": [
+   "在旁边、并肩",
+   "对面",
+   "后方"
+  ],
+  "mnemonicNote": "along(沿着)+side(边)：贴着船舷走的那一路",
+  "sourceNote": "英语复合词，along + side"
+ },
+ "alphabet": {
+  "modernMeaningCn": "字母表",
+  "literalMeaningCn": "头两个字母",
+  "metaphorMeaningCn": "字母表、入门",
+  "metaphorOptions": [
+   "字母表、入门",
+   "算术",
+   "语法书"
+  ],
+  "mnemonicNote": "alpha(α)+bet(β)：希腊人拿开头两个字母命名它",
+  "sourceNote": "希腊 alphabetos，alpha + beta"
+ },
+ "already": {
+  "modernMeaningCn": "已经",
+  "literalMeaningCn": "全都准备好了",
+  "metaphorMeaningCn": "已经、早已",
+  "metaphorOptions": [
+   "已经、早已",
+   "尚未",
+   "即将"
+  ],
+  "mnemonicNote": "al(全)+ready(准备好)：事情早就在那儿等着了",
+  "sourceNote": "中古英语 al(全) + redy(准备好的)"
+ },
+ "also": {
+  "modernMeaningCn": "也",
+  "literalMeaningCn": "全都如此",
+  "metaphorMeaningCn": "也、同样",
+  "metaphorOptions": [
+   "也、同样",
+   "唯独",
+   "相反"
+  ],
+  "mnemonicNote": "al(全)+so(如此)：这一个如此，那一个同样如此",
+  "sourceNote": "古英语 ealswa，eall(全) + swa(如此)"
+ },
+ "alternative": {
+  "modernMeaningCn": "可供替代的",
+  "literalMeaningCn": "可以换着来的",
+  "metaphorMeaningCn": "可替代的、另一选择",
+  "metaphorOptions": [
+   "可替代的、另一选择",
+   "唯一的",
+   "取消的"
+  ],
+  "mnemonicNote": "alternat(交替)+ive：这条路走不通就换那条",
+  "sourceNote": "拉丁 alternare(交替)，alter(另一个)"
+ },
+ "although": {
+  "modernMeaningCn": "虽然",
+  "literalMeaningCn": "即便如此",
+  "metaphorMeaningCn": "虽然、尽管",
+  "metaphorOptions": [
+   "虽然、尽管",
+   "因此",
+   "倘若"
+  ],
+  "mnemonicNote": "al(全)+though(让步)：把话头先让一步再接回来",
+  "sourceNote": "中古英语 al(即使) + though(让步语气)"
+ },
+ "altogether": {
+  "modernMeaningCn": "完全地",
+  "literalMeaningCn": "全都合在一起",
+  "metaphorMeaningCn": "完全地、总共",
+  "metaphorOptions": [
+   "完全地、总共",
+   "部分地",
+   "大约"
+  ],
+  "mnemonicNote": "al(全)+together(一起)：一块儿堆起来算总账",
+  "sourceNote": "中古英语 al(全) + togeder(一起)"
+ },
+ "aluminium": {
+  "modernMeaningCn": "铝",
+  "literalMeaningCn": "一种金属元素",
+  "metaphorMeaningCn": "铝",
+  "metaphorOptions": [
+   "铝",
+   "铜",
+   "铁"
+  ],
+  "mnemonicNote": "alumin(明矾)+ium(元素)：从明矾里提出来的轻金属",
+  "sourceNote": "拉丁 alumen(明矾) + -ium(金属元素后缀)"
+ },
+ "amazing": {
+  "modernMeaningCn": "令人惊异的",
+  "literalMeaningCn": "让人发懵的",
+  "metaphorMeaningCn": "令人惊叹的、了不起的",
+  "metaphorOptions": [
+   "令人惊叹的、了不起的",
+   "平平无奇的",
+   "令人厌倦的"
+  ],
+  "mnemonicNote": "amaz(使惊愕)+ing：一下把人钉在原地的那种",
+  "sourceNote": "古英语 amasian(使困惑)，a-(加强) + masian(迷惑)"
+ },
+ "ambition": {
+  "modernMeaningCn": "雄心",
+  "literalMeaningCn": "想要扩张的心",
+  "metaphorMeaningCn": "雄心、抱负",
+  "metaphorOptions": [
+   "雄心、抱负",
+   "知足",
+   "倦怠"
+  ],
+  "mnemonicNote": "ambit(巡行)+ion：古罗马人为了求官四处奔走拉票",
+  "sourceNote": "拉丁 ambitio，ambire(四处走) 的名词形式"
+ },
+ "amusement": {
+  "modernMeaningCn": "娱乐",
+  "literalMeaningCn": "让人开心的活动",
+  "metaphorMeaningCn": "娱乐、消遣",
+  "metaphorOptions": [
+   "娱乐、消遣",
+   "苦役",
+   "正事"
+  ],
+  "mnemonicNote": "amuse(使消遣)+ment：把无聊那半天填满的那点乐子",
+  "sourceNote": "古法语 amuser(使发呆)，a-(使) + muser(发呆)"
+ },
+ "announce": {
+  "modernMeaningCn": "宣布",
+  "literalMeaningCn": "向众人报告",
+  "metaphorMeaningCn": "宣布、宣告",
+  "metaphorOptions": [
+   "宣布、宣告",
+   "隐瞒",
+   "私下商量"
+  ],
+  "mnemonicNote": "an(朝向)+nounce(报告)：站到人前把话报出去",
+  "sourceNote": "拉丁 annuntiare，ad-(朝向) + nuntiare(报告)"
+ },
+ "announcement": {
+  "modernMeaningCn": "公告",
+  "literalMeaningCn": "宣布之事",
+  "metaphorMeaningCn": "公告、通知",
+  "metaphorOptions": [
+   "公告、通知",
+   "密约",
+   "谣言"
+  ],
+  "mnemonicNote": "announce(宣布)+ment：贴出来给所有人看的那张",
+  "sourceNote": "法语 annoncement，annuntiare(报告)"
+ },
+ "annual": {
+  "modernMeaningCn": "每年的",
+  "literalMeaningCn": "按年来算的",
+  "metaphorMeaningCn": "每年的、年度的",
+  "metaphorOptions": [
+   "每年的、年度的",
+   "每月的",
+   "每天的"
+  ],
+  "mnemonicNote": "ann(年)+ual：过一圈回到同一个日子",
+  "sourceNote": "拉丁 annualis，annus(年)"
+ },
+ "another": {
+  "modernMeaningCn": "另一个",
+  "literalMeaningCn": "再加一个别的",
+  "metaphorMeaningCn": "另一个、另外的",
+  "metaphorOptions": [
+   "另一个、另外的",
+   "同一个",
+   "唯一的"
+  ],
+  "mnemonicNote": "an(一个)+other(其他)：不是这个，是另外那个",
+  "sourceNote": "中古英语 an(一个) + other(其他)"
+ },
+ "antarctic": {
+  "modernMeaningCn": "南极的",
+  "literalMeaningCn": "与北极相对",
+  "metaphorMeaningCn": "南极的、南极地区",
+  "metaphorOptions": [
+   "南极的、南极地区",
+   "北极的",
+   "赤道的"
+  ],
+  "mnemonicNote": "ant(相反)+arctic(北极)：地球另一头的那片冰",
+  "sourceNote": "希腊 antarktikos，anti-(相反) + arktos(熊、北极)"
+ },
+ "antique": {
+  "modernMeaningCn": "古董",
+  "literalMeaningCn": "从前之物",
+  "metaphorMeaningCn": "古董、古老之物",
+  "metaphorOptions": [
+   "古董、古老之物",
+   "新货",
+   "赝品"
+  ],
+  "mnemonicNote": "anti(前)+que：站在时间前面的老东西",
+  "sourceNote": "拉丁 antiquus，ante(在…之前)"
+ },
+ "anyhow": {
+  "modernMeaningCn": "无论如何",
+  "literalMeaningCn": "不管怎样",
+  "metaphorMeaningCn": "无论如何、随便地",
+  "metaphorOptions": [
+   "无论如何、随便地",
+   "绝无可能",
+   "必须如此"
+  ],
+  "mnemonicNote": "any(任何)+how(方式)：哪种法子都行，反正要把事办了",
+  "sourceNote": "英语复合词，any + how"
+ }
+}

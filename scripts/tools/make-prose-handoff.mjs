@@ -9,10 +9,11 @@
 //   sourceNote       ≤60 字                   —— 词源小注
 //   字面义 ≠ 隐喻义
 //
-// 预填 modernMeaningCn（取 ECDICT 第一个中文义），其余留空 —— 留空项正是 30 号报出来的待办。
+// **增量生成**：已有释义的词不再生成模板，批次号从已有最大编号往后排。
+// 中考批的 batch-1~7 已经写好并过闸，重跑本脚本绝不能把它们覆盖回空白模板。
 //
 // 跑法：node scripts/tools/make-prose-handoff.mjs [每批词数，默认 60]
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
@@ -34,16 +35,30 @@ const shortMean = (t) => String(t || '')
   .replace(/[^\u4e00-\u9fff]/g, '')
   .slice(0, 8)
 
-const words = splits.words.map((w) => w.word).filter((w) => !canary.has(w)).sort()
+const outDir = join(libDir, 'handoff', 'words-prose-stage3')
+
+// ── 已有释义的词与批次编号 ──
+const existing = new Set()
+let lastIndex = 0
+if (existsSync(outDir)) {
+  for (const f of readdirSync(outDir).filter((x) => /^batch-\d+\.json$/.test(x))) {
+    lastIndex = Math.max(lastIndex, Number(f.match(/^batch-(\d+)\.json$/)[1]))
+    for (const k of Object.keys(JSON.parse(readFileSync(join(outDir, f), 'utf8')))) {
+      if (!k.startsWith('_')) existing.add(k)
+    }
+  }
+}
+
+const words = splits.words.map((w) => w.word).filter((w) => !canary.has(w) && !existing.has(w)).sort()
 const chunks = []
 for (let i = 0; i < words.length; i += batchSize) chunks.push(words.slice(i, i + batchSize))
 
-const outDir = join(libDir, 'handoff', 'words-prose-stage3')
 if (!existsSync(outDir)) mkdirSync(outDir, { recursive: true })
 
 chunks.forEach((group, i) => {
+  const index = lastIndex + i + 1
   const obj = {
-    _comment: `Stage 3 待写释义（第 ${i + 1}/${chunks.length} 批，共 ${words.length} 词）。`
+    _comment: `Stage 3 待写释义（batch-${index}，本批 ${group.length} 词）。`
       + '按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) /'
       + ' mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。',
   }
@@ -57,10 +72,11 @@ chunks.forEach((group, i) => {
       sourceNote: '',
     }
   }
-  writeFileSync(join(outDir, `batch-${i + 1}.json`), `${JSON.stringify(obj, null, 1)}\n`, 'utf8')
+  writeFileSync(join(outDir, `batch-${index}.json`), `${JSON.stringify(obj, null, 1)}\n`, 'utf8')
 })
 
-console.log(`handoff 模板：${words.length} 词 → ${chunks.length} 批（每批 ≤${batchSize}）`)
+console.log(`已有释义 ${existing.size} 词（batch-1~${lastIndex}），本次新增 ${words.length} 词 → ${chunks.length} 批`)
+console.log(`新批编号：batch-${lastIndex + 1} ~ batch-${lastIndex + chunks.length}（每批 ≤${batchSize}）`)
 console.log(`输出目录：scripts/lib/handoff/words-prose-stage3/`)
 const noMean = words.filter((w) => !shortMean(byWord.get(w)?.translation)).length
 console.log(`modernMeaningCn 已预填 ${words.length - noMean} 个，${noMean} 个需人工补（词典无中文义）`)
