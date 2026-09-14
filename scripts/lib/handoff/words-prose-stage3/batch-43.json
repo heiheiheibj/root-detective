@@ -1,483 +1,723 @@
 {
- "_comment": "Stage 3 待写释义（batch-43，本批 60 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "_comment": "Stage 3 待写释义（batch-43，本批 60 词，六级批第 8 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
  "nought": {
-  "modernMeaningCn": "没有",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "零、无",
+  "literalMeaningCn": "什么都没有",
+  "metaphorMeaningCn": "零、无",
+  "metaphorOptions": [
+   "零、无",
+   "满盈",
+   "数不清"
+  ],
+  "mnemonicNote": "n(不)+ought(东西)：一个子儿都没有",
+  "sourceNote": "古英语 nowiht，ne(不) + owiht(东西)"
  },
  "nourishment": {
-  "modernMeaningCn": "滋养品",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "营养品、食物",
+  "literalMeaningCn": "养身子的那些东西",
+  "metaphorMeaningCn": "营养品、食物",
+  "metaphorOptions": [
+   "营养品、食物",
+   "毒物",
+   "空口白话"
+  ],
+  "mnemonicNote": "nourish(滋养)+ment：养身子用的那些东西",
+  "sourceNote": "古法语 norrir(养育) + -ment"
  },
  "numerical": {
   "modernMeaningCn": "数字的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "用数目表示的",
+  "metaphorMeaningCn": "数字的、数值的",
+  "metaphorOptions": [
+   "数字的、数值的",
+   "文字的",
+   "图画的"
+  ],
+  "mnemonicNote": "numeric(数目)+al：拿数目来说事",
+  "sourceNote": "拉丁 numerus(数目) + -ical"
  },
  "obsession": {
-  "modernMeaningCn": "困扰",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "痴迷、困扰",
+  "literalMeaningCn": "被念头缠住",
+  "metaphorMeaningCn": "痴迷、困扰",
+  "metaphorOptions": [
+   "痴迷、困扰",
+   "淡然处之",
+   "毫不在意"
+  ],
+  "mnemonicNote": "obsess(缠住)+ion：一个念头缠着不走",
+  "sourceNote": "拉丁 obsessio，obsidere(围困)"
  },
  "offspring": {
   "modernMeaningCn": "子孙",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "从身上生出来的",
+  "metaphorMeaningCn": "后代、子孙",
+  "metaphorOptions": [
+   "后代、子孙",
+   "祖辈",
+   "上代人"
+  ],
+  "mnemonicNote": "off(离开)+spring(生出)：从身上生出去那一批",
+  "sourceNote": "古英语 ofspring，of(从) + springan(生出)"
  },
  "orchard": {
   "modernMeaningCn": "果园",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "种果树那片地",
+  "metaphorMeaningCn": "果园",
+  "metaphorOptions": [
+   "果园",
+   "菜畦",
+   "花圃"
+  ],
+  "mnemonicNote": "orc(园)+hard：圈起来专种果树那片地",
+  "sourceNote": "古英语 ortgeard，拉丁 hortus(园)"
  },
  "ordinarily": {
   "modernMeaningCn": "通常",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "照平常那样",
+  "metaphorMeaningCn": "通常、平常",
+  "metaphorOptions": [
+   "通常、平常",
+   "特例",
+   "破天荒"
+  ],
+  "mnemonicNote": "ordinari(平常)+ly：照平常那样来",
+  "sourceNote": "拉丁 ordinarius(按常规的) + -ly"
  },
  "orientation": {
-  "modernMeaningCn": "定方位",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "定位、方向、迎新",
+  "literalMeaningCn": "找准东南西北",
+  "metaphorMeaningCn": "定位、方向、迎新",
+  "metaphorOptions": [
+   "定位、方向、迎新",
+   "迷失",
+   "晕头转向"
+  ],
+  "mnemonicNote": "orient(定向)+ation：先把方位找准",
+  "sourceNote": "拉丁 oriens(日出、东方) + -ation"
  },
  "ornamental": {
-  "modernMeaningCn": "装饰物",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "装饰性的、装饰物",
+  "literalMeaningCn": "只作点缀的",
+  "metaphorMeaningCn": "装饰性的、装饰物",
+  "metaphorOptions": [
+   "装饰性的、装饰物",
+   "实用为主的",
+   "结构性的"
+  ],
+  "mnemonicNote": "ornament(点缀)+al：只作点缀那一类",
+  "sourceNote": "拉丁 ornamentum，ornare(装饰)"
  },
  "orthodox": {
   "modernMeaningCn": "正统的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "见解端端正正的",
+  "metaphorMeaningCn": "正统的、传统的",
+  "metaphorOptions": [
+   "正统的、传统的",
+   "离经叛道的",
+   "标新立异的"
+  ],
+  "mnemonicNote": "ortho(正)+dox(见解)：看法端端正正不走偏",
+  "sourceNote": "希腊 orthodoxos，orthos(正) + doxa(见解)"
  },
  "outbreak": {
   "modernMeaningCn": "爆发",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一下子破出来",
+  "metaphorMeaningCn": "爆发、暴发",
+  "metaphorOptions": [
+   "爆发、暴发",
+   "平息",
+   "压下去"
+  ],
+  "mnemonicNote": "out(出)+break(破)：一下子破开冲出来",
+  "sourceNote": "英语复合词，out + break"
  },
  "outcry": {
-  "modernMeaningCn": "尖叫",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "强烈抗议、呐喊",
+  "literalMeaningCn": "忍不住喊出声",
+  "metaphorMeaningCn": "强烈抗议、呐喊",
+  "metaphorOptions": [
+   "强烈抗议、呐喊",
+   "默不作声",
+   "无动于衷"
+  ],
+  "mnemonicNote": "out(出)+cry(喊)：实在憋不住喊出来",
+  "sourceNote": "英语复合词，out + cry"
  },
  "outlaw": {
-  "modernMeaningCn": "被剥夺法律保护的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "宣布非法、亡命之徒",
+  "literalMeaningCn": "被赶到法网外边",
+  "metaphorMeaningCn": "宣布非法、亡命之徒",
+  "metaphorOptions": [
+   "宣布非法、亡命之徒",
+   "守法良民",
+   "受法律庇护的"
+  ],
+  "mnemonicNote": "out(出)+law(法律)：把人赶到法网之外",
+  "sourceNote": "古诺尔斯语 utlagi，ut(出) + lag(法律)"
  },
  "outrage": {
   "modernMeaningCn": "暴行",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "怒到没了边",
+  "metaphorMeaningCn": "暴行、愤慨",
+  "metaphorOptions": [
+   "暴行、愤慨",
+   "善举",
+   "义行"
+  ],
+  "mnemonicNote": "out(超出)+rage(狂怒)：气焰烧得没了边",
+  "sourceNote": "古法语 outrage，outre(超出) + -age"
  },
  "overestimate": {
-  "modernMeaningCn": "评价过高",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "高估",
+  "literalMeaningCn": "估得过了头",
+  "metaphorMeaningCn": "高估",
+  "metaphorOptions": [
+   "高估",
+   "低估",
+   "恰如其分的估计"
+  ],
+  "mnemonicNote": "over(过)+estimate(估价)：把数估得高了",
+  "sourceNote": "over-(超过) + estimate(估计)"
  },
  "overflow": {
-  "modernMeaningCn": "溢值",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "溢出、过剩",
+  "literalMeaningCn": "满出来淌走",
+  "metaphorMeaningCn": "溢出、过剩",
+  "metaphorOptions": [
+   "溢出、过剩",
+   "见底",
+   "枯竭"
+  ],
+  "mnemonicNote": "over(过)+flow(流)：装满了往外淌",
+  "sourceNote": "古英语 oferflowan，ofer(过) + flowan(流)"
  },
  "overhang": {
-  "modernMeaningCn": "突出部份",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "悬垂、突出部分",
+  "literalMeaningCn": "悬在上头",
+  "metaphorMeaningCn": "悬垂、突出部分",
+  "metaphorOptions": [
+   "悬垂、突出部分",
+   "凹进去的",
+   "平齐的边"
+  ],
+  "mnemonicNote": "over(在上)+hang(挂)：悬在头顶上头",
+  "sourceNote": "古英语 oferhangen，ofer(在上) + hangian(挂)"
  },
  "overhear": {
   "modernMeaningCn": "无意中听到",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "从旁边听来",
+  "metaphorMeaningCn": "无意中听到、偷听",
+  "metaphorOptions": [
+   "无意中听到、偷听",
+   "当面直言",
+   "公开宣读"
+  ],
+  "mnemonicNote": "over(旁)+hear(听)：从旁边不知不觉听来的",
+  "sourceNote": "古英语 oferhieran，ofer(旁) + hieran(听)"
  },
  "overlap": {
   "modernMeaningCn": "重叠",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "压着搭上去",
+  "metaphorMeaningCn": "重叠、部分相同",
+  "metaphorOptions": [
+   "重叠、部分相同",
+   "错开",
+   "各占一边"
+  ],
+  "mnemonicNote": "over(在上)+lap(搭)：一层压着一层搭过去",
+  "sourceNote": "over-(在上) + lap(搭叠)"
  },
  "overload": {
   "modernMeaningCn": "超载",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "装得过了量",
+  "metaphorMeaningCn": "超载、负担过重",
+  "metaphorOptions": [
+   "超载、负担过重",
+   "轻装",
+   "空载"
+  ],
+  "mnemonicNote": "over(过)+load(装载)：货装得过了量",
+  "sourceNote": "over-(超过) + load(装载)"
  },
  "overthrow": {
   "modernMeaningCn": "推翻",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "翻个个儿扔下去",
+  "metaphorMeaningCn": "推翻、打倒",
+  "metaphorOptions": [
+   "推翻、打倒",
+   "拥立",
+   "扶上台"
+  ],
+  "mnemonicNote": "over(翻转)+throw(扔)：翻个个儿扔下去",
+  "sourceNote": "中古英语 over-throwen，over + throwen(扔)"
  },
  "overwhelm": {
   "modernMeaningCn": "淹没",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "整个盖过头顶",
+  "metaphorMeaningCn": "压倒、淹没",
+  "metaphorOptions": [
+   "压倒、淹没",
+   "轻轻托起",
+   "视而不见"
+  ],
+  "mnemonicNote": "over(在上)+whelm(盖过)：水一下子盖过头顶",
+  "sourceNote": "中古英语 whelmen(倾覆)，over + whelmen"
  },
  "overwhelming": {
   "modernMeaningCn": "压倒性的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "盖过一切的",
+  "metaphorMeaningCn": "压倒性的、势不可挡的",
+  "metaphorOptions": [
+   "压倒性的、势不可挡的",
+   "势均力敌的",
+   "勉强应付的"
+  ],
+  "mnemonicNote": "overwhelm(盖过)+ing：那股势头盖过一切",
+  "sourceNote": "中古英语 whelmen(倾覆) + -ing"
  },
  "oxidize": {
   "modernMeaningCn": "使氧化",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "跟氧化合",
+  "metaphorMeaningCn": "使氧化、生锈",
+  "metaphorOptions": [
+   "使氧化、生锈",
+   "防锈",
+   "真空封存"
+  ],
+  "mnemonicNote": "oxid(氧)+ize(使)：跟氧搭上就变了样",
+  "sourceNote": "法语 oxygène(氧) + -ize"
  },
  "panther": {
   "modernMeaningCn": "豹",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "扑食前闷声喘息的那种",
+  "metaphorMeaningCn": "豹、黑豹",
+  "metaphorOptions": [
+   "豹、黑豹",
+   "鹿",
+   "狼"
+  ],
+  "mnemonicNote": "pant(喘)+her：扑食前闷着声喘息那只大猫",
+  "sourceNote": "希腊 panthera，pan-(全部) + ther(野兽)"
  },
  "parachute": {
-  "modernMeaningCn": "降落伞跳伞",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "降落伞、跳伞",
+  "literalMeaningCn": "防着往下掉那件",
+  "metaphorMeaningCn": "降落伞、跳伞",
+  "metaphorOptions": [
+   "降落伞、跳伞",
+   "热气球",
+   "滑翔翼"
+  ],
+  "mnemonicNote": "para(防)+chute(坠落)：防着往下摔的那顶伞",
+  "sourceNote": "法语 parachute，para-(防) + chute(坠落)"
  },
  "paradox": {
-  "modernMeaningCn": "似非而是的论点",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "悖论、自相矛盾的事",
+  "literalMeaningCn": "跟常理拧着的说法",
+  "metaphorMeaningCn": "悖论、自相矛盾的事",
+  "metaphorOptions": [
+   "悖论、自相矛盾的事",
+   "常理",
+   "公认之论"
+  ],
+  "mnemonicNote": "para(相反)+dox(见解)：跟常理别着劲的说法",
+  "sourceNote": "希腊 paradoxos，para-(相反) + doxa(见解)"
  },
  "paradoxically": {
-  "modernMeaningCn": "反论",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "反论地、看似矛盾地",
+  "literalMeaningCn": "拧着常理地",
+  "metaphorMeaningCn": "反论地、看似矛盾地",
+  "metaphorOptions": [
+   "反论地、看似矛盾地",
+   "顺理成章地",
+   "合乎常识地"
+  ],
+  "mnemonicNote": "paradoxical(别着劲)+ly：越拧着反而越像真的",
+  "sourceNote": "希腊 paradoxos(悖理) + -ally"
  },
  "paralyze": {
   "modernMeaningCn": "使瘫痪",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "半边身子松了劲",
+  "metaphorMeaningCn": "使瘫痪、使麻痹",
+  "metaphorOptions": [
+   "使瘫痪、使麻痹",
+   "使其恢复",
+   "使其活络"
+  ],
+  "mnemonicNote": "para(旁)+lyze(松开)：半边身子一下松了劲",
+  "sourceNote": "希腊 paralyein，para-(旁) + lyein(松开)"
  },
  "patriot": {
   "modernMeaningCn": "爱国者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "认着祖上那片土的人",
+  "metaphorMeaningCn": "爱国者、爱国人士",
+  "metaphorOptions": [
+   "爱国者、爱国人士",
+   "叛国者",
+   "流亡者"
+  ],
+  "mnemonicNote": "pat(父)+riot：认着祖上那片土的人",
+  "sourceNote": "希腊 patriotes，patris(父邦)"
  },
  "patriotic": {
   "modernMeaningCn": "爱国的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "心里装着故土的",
+  "metaphorMeaningCn": "爱国的",
+  "metaphorOptions": [
+   "爱国的",
+   "卖国的",
+   "吃里扒外的"
+  ],
+  "mnemonicNote": "patriot(念祖)+ic：心里装着故乡那片土",
+  "sourceNote": "希腊 patris(父邦) + -otic"
  },
  "payoff": {
-  "modernMeaningCn": "发工资",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "回报、结果",
+  "literalMeaningCn": "账结清之后到手的",
+  "metaphorMeaningCn": "回报、结果",
+  "metaphorOptions": [
+   "回报、结果",
+   "本钱",
+   "投入"
+  ],
+  "mnemonicNote": "pay(付)+off(结清)：一笔结清之后到手那些",
+  "sourceNote": "英语复合词，pay + off"
  },
  "peacock": {
   "modernMeaningCn": "孔雀",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "会开屏那种大鸟",
+  "metaphorMeaningCn": "孔雀、爱炫耀的人",
+  "metaphorOptions": [
+   "孔雀、爱炫耀的人",
+   "麻雀",
+   "燕子"
+  ],
+  "mnemonicNote": "pea(羽屏)+cock(雄鸟)：尾巴一开一大片那种鸟",
+  "sourceNote": "古英语 pawa(羽屏鸟) + cocc(雄鸟)"
  },
  "peculiarity": {
   "modernMeaningCn": "特质",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "独一份的那点",
+  "metaphorMeaningCn": "特点、怪癖",
+  "metaphorOptions": [
+   "特点、怪癖",
+   "共性",
+   "通性"
+  ],
+  "mnemonicNote": "peculiar(奇特)+ity：只此一家那点脾性",
+  "sourceNote": "拉丁 peculiaris(私有的、特有的) + -ity"
  },
  "penetration": {
   "modernMeaningCn": "穿透",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一路扎进去",
+  "metaphorMeaningCn": "渗透、洞察力",
+  "metaphorOptions": [
+   "渗透、洞察力",
+   "表面功夫",
+   "浅尝辄止"
+  ],
+  "mnemonicNote": "penetrat(扎进)+ion：一路扎进去这件事",
+  "sourceNote": "拉丁 penetratio，penetrare(深入)"
  },
  "perception": {
-  "modernMeaningCn": "知觉",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "感知、看法",
+  "literalMeaningCn": "察觉到的那一下",
+  "metaphorMeaningCn": "感知、看法",
+  "metaphorOptions": [
+   "感知、看法",
+   "无知无觉",
+   "麻木不仁"
+  ],
+  "mnemonicNote": "percept(察觉)+ion：心里察觉到的那个印象",
+  "sourceNote": "拉丁 perceptio，percipere(领会)"
  },
  "perfection": {
   "modernMeaningCn": "完美",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "挑不出错的状态",
+  "metaphorMeaningCn": "完美、尽善尽美",
+  "metaphorOptions": [
+   "完美、尽善尽美",
+   "破绽",
+   "残缺"
+  ],
+  "mnemonicNote": "perfect(无瑕)+ion：一处毛病都挑不出来的状态",
+  "sourceNote": "拉丁 perfectio，perficere(完成)"
  },
  "periodic": {
   "modernMeaningCn": "周期的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "隔一阵来一次",
+  "metaphorMeaningCn": "周期的、定期的",
+  "metaphorOptions": [
+   "周期的、定期的",
+   "随机的",
+   "毫无规律的"
+  ],
+  "mnemonicNote": "period(周期)+ic：隔一阵准来一次",
+  "sourceNote": "希腊 periodos，peri-(周围) + hodos(路)"
  },
  "periodical": {
-  "modernMeaningCn": "期刊定期出版的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "期刊、定期的",
+  "literalMeaningCn": "按期出的那种",
+  "metaphorMeaningCn": "期刊、定期的",
+  "metaphorOptions": [
+   "期刊、定期的",
+   "单行本",
+   "一次性读物"
+  ],
+  "mnemonicNote": "period(周期)+ical：按期一册一册出的",
+  "sourceNote": "希腊 periodikos，periodos(周期)"
  },
  "peripheral": {
-  "modernMeaningCn": "周边的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "外围的、次要的",
+  "literalMeaningCn": "围在边上那一圈",
+  "metaphorMeaningCn": "外围的、次要的",
+  "metaphorOptions": [
+   "外围的、次要的",
+   "核心的",
+   "中枢的"
+  ],
+  "mnemonicNote": "peri(周围)+pher(带)+al：围着中间那一圈",
+  "sourceNote": "希腊 periphereia，peri-(周围) + pherein(带)"
  },
  "permissible": {
   "modernMeaningCn": "可允许的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "放得过去的",
+  "metaphorMeaningCn": "可允许的、许可的",
+  "metaphorOptions": [
+   "可允许的、许可的",
+   "明令禁止的",
+   "断不可行的"
+  ],
+  "mnemonicNote": "per(通过)+miss(放)+ible：这关放得过去",
+  "sourceNote": "拉丁 permittere(放行) + -ible"
  },
  "persistence": {
-  "modernMeaningCn": "固执",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "执着、持续",
+  "literalMeaningCn": "咬住不放这件事",
+  "metaphorMeaningCn": "执着、持续",
+  "metaphorOptions": [
+   "执着、持续",
+   "半途松手",
+   "知难而退"
+  ],
+  "mnemonicNote": "persist(咬住)+ence：咬住不放这件事",
+  "sourceNote": "拉丁 persistere，per-(始终) + sistere(站)"
  },
  "persistent": {
-  "modernMeaningCn": "固执的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "执着的、持续的",
+  "literalMeaningCn": "咬住不松口的",
+  "metaphorMeaningCn": "执着的、持续的",
+  "metaphorOptions": [
+   "执着的、持续的",
+   "一触即退的",
+   "三分钟热度"
+  ],
+  "mnemonicNote": "persist(咬住)+ent：咬着不松口",
+  "sourceNote": "拉丁 persistere(坚持) + -ent"
  },
  "perspiration": {
   "modernMeaningCn": "汗",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "从皮肤里渗出来的水",
+  "metaphorMeaningCn": "汗、出汗",
+  "metaphorOptions": [
+   "汗、出汗",
+   "眼泪",
+   "血"
+  ],
+  "mnemonicNote": "perspir(渗)+ation：顺着皮肤渗出来那点水",
+  "sourceNote": "拉丁 perspirare，per-(透过) + spirare(呼吸)"
  },
  "persuasion": {
   "modernMeaningCn": "说服",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "把话说透",
+  "metaphorMeaningCn": "说服、信念",
+  "metaphorOptions": [
+   "说服、信念",
+   "强令",
+   "硬压"
+  ],
+  "mnemonicNote": "per(彻底)+suasion(劝)：把道理讲到人心里去",
+  "sourceNote": "拉丁 persuasio，persuadere(劝服)"
  },
  "petition": {
   "modernMeaningCn": "请愿",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "递上去的请求",
+  "metaphorMeaningCn": "请愿、申请书",
+  "metaphorOptions": [
+   "请愿、申请书",
+   "判决书",
+   "传票"
+  ],
+  "mnemonicNote": "petit(请求)+ion：递上去那一纸请求",
+  "sourceNote": "拉丁 petitio，petere(寻求)"
  },
  "physically": {
-  "modernMeaningCn": "按自然规律",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "身体上、物理上",
+  "literalMeaningCn": "从身子那一头讲",
+  "metaphorMeaningCn": "身体上、物理上",
+  "metaphorOptions": [
+   "身体上、物理上",
+   "精神上",
+   "心理上"
+  ],
+  "mnemonicNote": "physic(身子)+ally：从身体那一头讲",
+  "sourceNote": "希腊 physis(自然、身体) + -ally"
  },
  "pickle": {
-  "modernMeaningCn": "盐卤",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "泡菜、腌菜、困境",
+  "literalMeaningCn": "拿盐卤泡起来",
+  "metaphorMeaningCn": "泡菜、腌菜、困境",
+  "metaphorOptions": [
+   "泡菜、腌菜、困境",
+   "鲜货",
+   "现摘现吃"
+  ],
+  "mnemonicNote": "pick(腌)+le：拿盐水泡起来好存",
+  "sourceNote": "中古荷兰语 pekel(盐水)"
  },
  "polarity": {
   "modernMeaningCn": "极性",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "分作两头那件事",
+  "metaphorMeaningCn": "极性、对立",
+  "metaphorOptions": [
+   "极性、对立",
+   "同一",
+   "混为一体"
+  ],
+  "mnemonicNote": "polar(极)+ity：分成正负两头",
+  "sourceNote": "拉丁 polaris，polus(极)"
  },
  "popularity": {
-  "modernMeaningCn": "名声",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "声望、流行",
+  "literalMeaningCn": "受不受人待见",
+  "metaphorMeaningCn": "声望、流行",
+  "metaphorOptions": [
+   "声望、流行",
+   "无人问津",
+   "冷落"
+  ],
+  "mnemonicNote": "popular(受待见)+ity：有多少人愿意买账",
+  "sourceNote": "拉丁 popularis(大众的) + -ity"
  },
  "portray": {
   "modernMeaningCn": "描绘",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一笔笔勾出来",
+  "metaphorMeaningCn": "描绘、扮演",
+  "metaphorOptions": [
+   "描绘、扮演",
+   "涂抹掉",
+   "略去不提"
+  ],
+  "mnemonicNote": "por(向前)+tray(拉)：一笔一笔勾出模样",
+  "sourceNote": "古法语 portraire，por-(向前) + traire(拉、画)"
  },
  "positively": {
   "modernMeaningCn": "明确地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "毫不含糊地",
+  "metaphorMeaningCn": "明确地、肯定地",
+  "metaphorOptions": [
+   "明确地、肯定地",
+   "支支吾吾地",
+   "含糊其辞地"
+  ],
+  "mnemonicNote": "positive(肯定)+ly：话里没有一点含糊",
+  "sourceNote": "拉丁 positivus，ponere(放置) + -ly"
  },
  "poultry": {
   "modernMeaningCn": "家禽",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "院里养的那群鸟",
+  "metaphorMeaningCn": "家禽、禽肉",
+  "metaphorOptions": [
+   "家禽、禽肉",
+   "野兽",
+   "观赏鸟"
+  ],
+  "mnemonicNote": "poult(雏禽)+ry(总称)：院里圈着养的那群鸟",
+  "sourceNote": "古法语 pouletrie，poulet(小鸡)"
  },
  "precede": {
   "modernMeaningCn": "在之前",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "走在头里",
+  "metaphorMeaningCn": "在之前、先于",
+  "metaphorOptions": [
+   "在之前、先于",
+   "紧随其后",
+   "垫在后面"
+  ],
+  "mnemonicNote": "pre(在前)+cede(走)：走在头里那一个",
+  "sourceNote": "拉丁 praecedere，prae-(在前) + cedere(走)"
  },
  "preclude": {
-  "modernMeaningCn": "预先排除",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "排除、阻止",
+  "literalMeaningCn": "事先把门关死",
+  "metaphorMeaningCn": "排除、阻止",
+  "metaphorOptions": [
+   "排除、阻止",
+   "大开方便之门",
+   "听之任之"
+  ],
+  "mnemonicNote": "pre(预先)+clude(关闭)：事先把门关死了",
+  "sourceNote": "拉丁 praecludere，prae-(预先) + claudere(关闭)"
  },
  "predominant": {
-  "modernMeaningCn": "占主导地位的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "主要的、占优势的",
+  "literalMeaningCn": "压过其他的",
+  "metaphorMeaningCn": "主要的、占优势的",
+  "metaphorOptions": [
+   "主要的、占优势的",
+   "势均力敌的",
+   "势单力薄的"
+  ],
+  "mnemonicNote": "pre(在前)+dominant(支配)：一直压着其他那些",
+  "sourceNote": "中世纪拉丁 praedominans，prae-(在前) + dominari(支配)"
  },
  "predominantly": {
-  "modernMeaningCn": "主要地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "主要地、大多数情况下",
+  "literalMeaningCn": "大半个都是",
+  "metaphorMeaningCn": "主要地、大多数情况下",
+  "metaphorOptions": [
+   "主要地、大多数情况下",
+   "极少数情况",
+   "偶见"
+  ],
+  "mnemonicNote": "predominant(占优)+ly：十成里占了七八成",
+  "sourceNote": "中世纪拉丁 praedominans(占优) + -ly"
  },
  "predominate": {
-  "modernMeaningCn": "掌握",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "占主导、占优势",
+  "literalMeaningCn": "把场子压住",
+  "metaphorMeaningCn": "占主导、占优势",
+  "metaphorOptions": [
+   "占主导、占优势",
+   "甘居下风",
+   "退居其次"
+  ],
+  "mnemonicNote": "pre(在前)+dominate(支配)：把整场都压住了",
+  "sourceNote": "中世纪拉丁 praedominari，prae-(在前) + dominari(支配)"
  },
  "premature": {
-  "modernMeaningCn": "早产的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "过早的、早产的",
+  "literalMeaningCn": "没到时候就熟了",
+  "metaphorMeaningCn": "过早的、早产的",
+  "metaphorOptions": [
+   "过早的、早产的",
+   "瓜熟蒂落",
+   "水到渠成"
+  ],
+  "mnemonicNote": "pre(预先)+mature(成熟)：时候没到就先熟了",
+  "sourceNote": "拉丁 praematurus，prae-(预先) + maturus(成熟)"
  },
  "prerequisite": {
-  "modernMeaningCn": "先决条件的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "前提条件、先决条件",
+  "literalMeaningCn": "事先就得有的",
+  "metaphorMeaningCn": "前提条件、先决条件",
+  "metaphorOptions": [
+   "前提条件、先决条件",
+   "事后补办",
+   "可有可无"
+  ],
+  "mnemonicNote": "pre(预先)+requisite(必需)：动手之前就得有那样",
+  "sourceNote": "拉丁 praerequisitus，prae-(预先) + requirere(需要)"
  }
 }
