@@ -1,0 +1,609 @@
+{
+ "_comment": "3.4 六级批 切分 B：第 61–120 词",
+ "splits": {
+  "bluntly": [
+   {
+    "id": "blunt",
+    "surface": "blunt"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "boiler": [
+   {
+    "id": "boil",
+    "surface": "boil"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "breakdown": [
+   {
+    "id": "break",
+    "surface": "break"
+   },
+   {
+    "id": "down",
+    "surface": "down"
+   }
+  ],
+  "bridle": [
+   {
+    "id": "braid",
+    "surface": "brid"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "brightness": [
+   {
+    "id": "bright",
+    "surface": "bright"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "broaden": [
+   {
+    "id": "broad",
+    "surface": "broad"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "bulletin": [
+   {
+    "id": "bullet",
+    "surface": "bullet"
+   },
+   {
+    "id": "in",
+    "surface": "in"
+   }
+  ],
+  "bureaucracy": [
+   {
+    "id": "bureau",
+    "surface": "bureau"
+   },
+   {
+    "id": "cracy",
+    "surface": "cracy"
+   }
+  ],
+  "burner": [
+   {
+    "id": "burn",
+    "surface": "burn"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "bypass": [
+   {
+    "id": "by",
+    "surface": "by"
+   },
+   {
+    "id": "pass",
+    "surface": "pass"
+   }
+  ],
+  "byproduct": [
+   {
+    "id": "by",
+    "surface": "by"
+   },
+   {
+    "id": "product",
+    "surface": "product"
+   }
+  ],
+  "calibration": [
+   {
+    "id": "calibrate",
+    "surface": "calibrat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "capability": [
+   {
+    "id": "capable",
+    "surface": "capabil"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "capacitance": [
+   {
+    "id": "capacity",
+    "surface": "capacit"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "capacitor": [
+   {
+    "id": "capacity",
+    "surface": "capacit"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "cartridge": [
+   {
+    "id": "cart",
+    "surface": "cart"
+   },
+   {
+    "id": "ridge",
+    "surface": "ridge"
+   }
+  ],
+  "casualty": [
+   {
+    "id": "casual",
+    "surface": "casual"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "causal": [
+   {
+    "id": "cause",
+    "surface": "caus"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "centralize": [
+   {
+    "id": "central",
+    "surface": "central"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "cereal": [
+   {
+    "id": "ceres",
+    "surface": "cere"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "charcoal": [
+   {
+    "id": "char",
+    "surface": "char"
+   },
+   {
+    "id": "coal",
+    "surface": "coal"
+   }
+  ],
+  "charter": [
+   {
+    "id": "chart",
+    "surface": "chart"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "chatter": [
+   {
+    "id": "chat",
+    "surface": "chatt"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "chestnut": [
+   {
+    "id": "chest",
+    "surface": "chest"
+   },
+   {
+    "id": "nut",
+    "surface": "nut"
+   }
+  ],
+  "chronic": [
+   {
+    "id": "chron",
+    "surface": "chron"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "chronicle": [
+   {
+    "id": "chron",
+    "surface": "chron"
+   },
+   {
+    "id": "icle",
+    "surface": "icle"
+   }
+  ],
+  "circulation": [
+   {
+    "id": "circulate",
+    "surface": "circulat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "cleanliness": [
+   {
+    "id": "cleanly",
+    "surface": "cleanli"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "clearing": [
+   {
+    "id": "clear",
+    "surface": "clear"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "clinical": [
+   {
+    "id": "clinic",
+    "surface": "clinic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "clockwise": [
+   {
+    "id": "clock",
+    "surface": "clock"
+   },
+   {
+    "id": "wise",
+    "surface": "wise"
+   }
+  ],
+  "closet": [
+   {
+    "id": "clos",
+    "surface": "clos"
+   },
+   {
+    "id": "et",
+    "surface": "et"
+   }
+  ],
+  "coastal": [
+   {
+    "id": "coast",
+    "surface": "coast"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "coherent": [
+   {
+    "id": "cohere",
+    "surface": "cohere"
+   },
+   {
+    "id": "ent",
+    "surface": "nt"
+   }
+  ],
+  "colonial": [
+   {
+    "id": "colony",
+    "surface": "coloni"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "combustion": [
+   {
+    "id": "combust",
+    "surface": "combust"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "commend": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "mand",
+    "surface": "mend"
+   }
+  ],
+  "commentary": [
+   {
+    "id": "comment",
+    "surface": "comment"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "commonplace": [
+   {
+    "id": "common",
+    "surface": "common"
+   },
+   {
+    "id": "place",
+    "surface": "place"
+   }
+  ],
+  "commonsense": [
+   {
+    "id": "common",
+    "surface": "common"
+   },
+   {
+    "id": "sense",
+    "surface": "sense"
+   }
+  ],
+  "commonwealth": [
+   {
+    "id": "common",
+    "surface": "common"
+   },
+   {
+    "id": "wealth",
+    "surface": "wealth"
+   }
+  ],
+  "commute": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "mute",
+    "surface": "mute"
+   }
+  ],
+  "compact": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "pact",
+    "surface": "pact"
+   }
+  ],
+  "compatibility": [
+   {
+    "id": "compatible",
+    "surface": "compatibil"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "compatriot": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "patriot",
+    "surface": "patriot"
+   }
+  ],
+  "compensation": [
+   {
+    "id": "compensate",
+    "surface": "compensat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "completion": [
+   {
+    "id": "complete",
+    "surface": "complet"
+   },
+   {
+    "id": "tion",
+    "surface": "ion"
+   }
+  ],
+  "complexity": [
+   {
+    "id": "complex",
+    "surface": "complex"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "complication": [
+   {
+    "id": "complicate",
+    "surface": "complicat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "composer": [
+   {
+    "id": "compose",
+    "surface": "compose"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "compression": [
+   {
+    "id": "compress",
+    "surface": "compress"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "concede": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "cede",
+    "surface": "cede"
+   }
+  ],
+  "conceit": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "ceit",
+    "surface": "ceit"
+   }
+  ],
+  "conceive": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "ceive",
+    "surface": "ceive"
+   }
+  ],
+  "conception": [
+   {
+    "id": "concept",
+    "surface": "concept"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "concession": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "cess",
+    "surface": "cess"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "confer": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "fer",
+    "surface": "fer"
+   }
+  ],
+  "configuration": [
+   {
+    "id": "configure",
+    "surface": "configur"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "confirmation": [
+   {
+    "id": "confirm",
+    "surface": "confirm"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "conform": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "form",
+    "surface": "form"
+   }
+  ]
+ }
+}

@@ -1,0 +1,605 @@
+{
+ "_comment": "3.4 六级批 切分 M：第 721–780 词",
+ "splits": {
+  "superficially": [
+   {
+    "id": "superficial",
+    "surface": "superficial"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "superiority": [
+   {
+    "id": "superior",
+    "surface": "superior"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "supersonic": [
+   {
+    "id": "super",
+    "surface": "super"
+   },
+   {
+    "id": "sonic",
+    "surface": "sonic"
+   }
+  ],
+  "supervise": [
+   {
+    "id": "super",
+    "surface": "super"
+   },
+   {
+    "id": "vis",
+    "surface": "vise"
+   }
+  ],
+  "supervision": [
+   {
+    "id": "super",
+    "surface": "super"
+   },
+   {
+    "id": "vision",
+    "surface": "vision"
+   }
+  ],
+  "supplementary": [
+   {
+    "id": "supplement",
+    "surface": "supplement"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "suppress": [
+   {
+    "id": "sup",
+    "surface": "sup"
+   },
+   {
+    "id": "press",
+    "surface": "press"
+   }
+  ],
+  "surpass": [
+   {
+    "id": "sur",
+    "surface": "sur"
+   },
+   {
+    "id": "pass",
+    "surface": "pass"
+   }
+  ],
+  "sweeten": [
+   {
+    "id": "sweet",
+    "surface": "sweet"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "sweetness": [
+   {
+    "id": "sweet",
+    "surface": "sweet"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "symmetrical": [
+   {
+    "id": "symmetry",
+    "surface": "symmetr"
+   },
+   {
+    "id": "ical",
+    "surface": "ical"
+   }
+  ],
+  "synthesis": [
+   {
+    "id": "syn",
+    "surface": "syn"
+   },
+   {
+    "id": "thesis",
+    "surface": "thesis"
+   }
+  ],
+  "synthesize": [
+   {
+    "id": "synthesis",
+    "surface": "synthesi"
+   },
+   {
+    "id": "ize",
+    "surface": "ze"
+   }
+  ],
+  "systematically": [
+   {
+    "id": "systematic",
+    "surface": "systematic"
+   },
+   {
+    "id": "ally",
+    "surface": "ally"
+   }
+  ],
+  "tabulate": [
+   {
+    "id": "table",
+    "surface": "tabul"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "tactics": [
+   {
+    "id": "tact",
+    "surface": "tact"
+   },
+   {
+    "id": "ics",
+    "surface": "ics"
+   }
+  ],
+  "taper": [
+   {
+    "id": "tape",
+    "surface": "tape"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "tenable": [
+   {
+    "id": "ten",
+    "surface": "ten"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "terrace": [
+   {
+    "id": "ter",
+    "surface": "ter"
+   },
+   {
+    "id": "race",
+    "surface": "race"
+   }
+  ],
+  "terrain": [
+   {
+    "id": "ter",
+    "surface": "ter"
+   },
+   {
+    "id": "rain",
+    "surface": "rain"
+   }
+  ],
+  "terrorist": [
+   {
+    "id": "terror",
+    "surface": "terror"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   }
+  ],
+  "thanksgiving": [
+   {
+    "id": "thanks",
+    "surface": "thanks"
+   },
+   {
+    "id": "giving",
+    "surface": "giving"
+   }
+  ],
+  "theorem": [
+   {
+    "id": "theo",
+    "surface": "theo"
+   },
+   {
+    "id": "rem",
+    "surface": "rem"
+   }
+  ],
+  "thereafter": [
+   {
+    "id": "there",
+    "surface": "there"
+   },
+   {
+    "id": "after",
+    "surface": "after"
+   }
+  ],
+  "therein": [
+   {
+    "id": "there",
+    "surface": "there"
+   },
+   {
+    "id": "in",
+    "surface": "in"
+   }
+  ],
+  "thereof": [
+   {
+    "id": "there",
+    "surface": "there"
+   },
+   {
+    "id": "of",
+    "surface": "of"
+   }
+  ],
+  "thicken": [
+   {
+    "id": "thick",
+    "surface": "thick"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "thoroughly": [
+   {
+    "id": "thorough",
+    "surface": "thorough"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "thoughtless": [
+   {
+    "id": "thought",
+    "surface": "thought"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "threshold": [
+   {
+    "id": "thresh",
+    "surface": "thresh"
+   },
+   {
+    "id": "old",
+    "surface": "old"
+   }
+  ],
+  "tickle": [
+   {
+    "id": "tick",
+    "surface": "tick"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "tighten": [
+   {
+    "id": "tight",
+    "surface": "tight"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "tightly": [
+   {
+    "id": "tight",
+    "surface": "tight"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "timely": [
+   {
+    "id": "time",
+    "surface": "time"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "tiresome": [
+   {
+    "id": "tire",
+    "surface": "tire"
+   },
+   {
+    "id": "some",
+    "surface": "some"
+   }
+  ],
+  "touchable": [
+   {
+    "id": "touch",
+    "surface": "touch"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "trademark": [
+   {
+    "id": "trade",
+    "surface": "trade"
+   },
+   {
+    "id": "mark",
+    "surface": "mark"
+   }
+  ],
+  "trader": [
+   {
+    "id": "trade",
+    "surface": "trade"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "tradesman": [
+   {
+    "id": "trade",
+    "surface": "trades"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "trample": [
+   {
+    "id": "tramp",
+    "surface": "tramp"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "transaction": [
+   {
+    "id": "trans",
+    "surface": "trans"
+   },
+   {
+    "id": "action",
+    "surface": "action"
+   }
+  ],
+  "transcend": [
+   {
+    "id": "trans",
+    "surface": "trans"
+   },
+   {
+    "id": "scend",
+    "surface": "cend"
+   }
+  ],
+  "transit": [
+   {
+    "id": "tran",
+    "surface": "tran"
+   },
+   {
+    "id": "sit",
+    "surface": "sit"
+   }
+  ],
+  "transition": [
+   {
+    "id": "transit",
+    "surface": "transit"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "transverse": [
+   {
+    "id": "trans",
+    "surface": "trans"
+   },
+   {
+    "id": "vers",
+    "surface": "verse"
+   }
+  ],
+  "tremendously": [
+   {
+    "id": "tremendous",
+    "surface": "tremendous"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "triangular": [
+   {
+    "id": "tri",
+    "surface": "tri"
+   },
+   {
+    "id": "angular",
+    "surface": "angular"
+   }
+  ],
+  "tribute": [
+   {
+    "id": "tri",
+    "surface": "tri"
+   },
+   {
+    "id": "bute",
+    "surface": "bute"
+   }
+  ],
+  "triple": [
+   {
+    "id": "tri",
+    "surface": "tri"
+   },
+   {
+    "id": "ple",
+    "surface": "ple"
+   }
+  ],
+  "triumphant": [
+   {
+    "id": "triumph",
+    "surface": "triumph"
+   },
+   {
+    "id": "ant",
+    "surface": "ant"
+   }
+  ],
+  "trivial": [
+   {
+    "id": "tri",
+    "surface": "tri"
+   },
+   {
+    "id": "vial",
+    "surface": "vial"
+   }
+  ],
+  "trolley": [
+   {
+    "id": "troll",
+    "surface": "troll"
+   },
+   {
+    "id": "ey",
+    "surface": "ey"
+   }
+  ],
+  "turnover": [
+   {
+    "id": "turn",
+    "surface": "turn"
+   },
+   {
+    "id": "over",
+    "surface": "over"
+   }
+  ],
+  "twilight": [
+   {
+    "id": "twi",
+    "surface": "twi"
+   },
+   {
+    "id": "light",
+    "surface": "light"
+   }
+  ],
+  "ultrasonic": [
+   {
+    "id": "ultra",
+    "surface": "ultra"
+   },
+   {
+    "id": "sonic",
+    "surface": "sonic"
+   }
+  ],
+  "ultraviolet": [
+   {
+    "id": "ultra",
+    "surface": "ultra"
+   },
+   {
+    "id": "violet",
+    "surface": "violet"
+   }
+  ],
+  "unavoidable": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "avoidable",
+    "surface": "avoidable"
+   }
+  ],
+  "unconventional": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "conventional",
+    "surface": "conventional"
+   }
+  ],
+  "underestimate": [
+   {
+    "id": "under",
+    "surface": "under"
+   },
+   {
+    "id": "estimate",
+    "surface": "estimate"
+   }
+  ],
+  "underlying": [
+   {
+    "id": "underlie",
+    "surface": "underly"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ]
+ }
+}

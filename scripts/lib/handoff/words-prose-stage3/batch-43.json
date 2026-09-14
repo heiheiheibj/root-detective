@@ -1,0 +1,483 @@
+{
+ "_comment": "Stage 3 待写释义（batch-43，本批 60 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "nought": {
+  "modernMeaningCn": "没有",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "nourishment": {
+  "modernMeaningCn": "滋养品",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "numerical": {
+  "modernMeaningCn": "数字的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "obsession": {
+  "modernMeaningCn": "困扰",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "offspring": {
+  "modernMeaningCn": "子孙",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "orchard": {
+  "modernMeaningCn": "果园",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "ordinarily": {
+  "modernMeaningCn": "通常",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "orientation": {
+  "modernMeaningCn": "定方位",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "ornamental": {
+  "modernMeaningCn": "装饰物",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "orthodox": {
+  "modernMeaningCn": "正统的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "outbreak": {
+  "modernMeaningCn": "爆发",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "outcry": {
+  "modernMeaningCn": "尖叫",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "outlaw": {
+  "modernMeaningCn": "被剥夺法律保护的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "outrage": {
+  "modernMeaningCn": "暴行",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "overestimate": {
+  "modernMeaningCn": "评价过高",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "overflow": {
+  "modernMeaningCn": "溢值",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "overhang": {
+  "modernMeaningCn": "突出部份",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "overhear": {
+  "modernMeaningCn": "无意中听到",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "overlap": {
+  "modernMeaningCn": "重叠",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "overload": {
+  "modernMeaningCn": "超载",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "overthrow": {
+  "modernMeaningCn": "推翻",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "overwhelm": {
+  "modernMeaningCn": "淹没",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "overwhelming": {
+  "modernMeaningCn": "压倒性的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "oxidize": {
+  "modernMeaningCn": "使氧化",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "panther": {
+  "modernMeaningCn": "豹",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "parachute": {
+  "modernMeaningCn": "降落伞跳伞",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "paradox": {
+  "modernMeaningCn": "似非而是的论点",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "paradoxically": {
+  "modernMeaningCn": "反论",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "paralyze": {
+  "modernMeaningCn": "使瘫痪",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "patriot": {
+  "modernMeaningCn": "爱国者",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "patriotic": {
+  "modernMeaningCn": "爱国的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "payoff": {
+  "modernMeaningCn": "发工资",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "peacock": {
+  "modernMeaningCn": "孔雀",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "peculiarity": {
+  "modernMeaningCn": "特质",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "penetration": {
+  "modernMeaningCn": "穿透",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "perception": {
+  "modernMeaningCn": "知觉",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "perfection": {
+  "modernMeaningCn": "完美",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "periodic": {
+  "modernMeaningCn": "周期的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "periodical": {
+  "modernMeaningCn": "期刊定期出版的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "peripheral": {
+  "modernMeaningCn": "周边的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "permissible": {
+  "modernMeaningCn": "可允许的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "persistence": {
+  "modernMeaningCn": "固执",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "persistent": {
+  "modernMeaningCn": "固执的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "perspiration": {
+  "modernMeaningCn": "汗",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "persuasion": {
+  "modernMeaningCn": "说服",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "petition": {
+  "modernMeaningCn": "请愿",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "physically": {
+  "modernMeaningCn": "按自然规律",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "pickle": {
+  "modernMeaningCn": "盐卤",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "polarity": {
+  "modernMeaningCn": "极性",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "popularity": {
+  "modernMeaningCn": "名声",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "portray": {
+  "modernMeaningCn": "描绘",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "positively": {
+  "modernMeaningCn": "明确地",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "poultry": {
+  "modernMeaningCn": "家禽",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "precede": {
+  "modernMeaningCn": "在之前",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "preclude": {
+  "modernMeaningCn": "预先排除",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "predominant": {
+  "modernMeaningCn": "占主导地位的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "predominantly": {
+  "modernMeaningCn": "主要地",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "predominate": {
+  "modernMeaningCn": "掌握",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "premature": {
+  "modernMeaningCn": "早产的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "prerequisite": {
+  "modernMeaningCn": "先决条件的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ }
+}

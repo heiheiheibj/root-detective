@@ -1,0 +1,625 @@
+{
+ "_comment": "3.4 六级批 切分 J：第 541–600 词",
+ "splits": {
+  "periodic": [
+   {
+    "id": "period",
+    "surface": "period"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "periodical": [
+   {
+    "id": "period",
+    "surface": "period"
+   },
+   {
+    "id": "ical",
+    "surface": "ical"
+   }
+  ],
+  "peripheral": [
+   {
+    "id": "peri",
+    "surface": "peri"
+   },
+   {
+    "id": "pher",
+    "surface": "pher"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "perish": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "ish",
+    "surface": "ish"
+   }
+  ],
+  "permeate": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "me",
+    "surface": "me"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "permissible": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "miss",
+    "surface": "miss"
+   },
+   {
+    "id": "ible",
+    "surface": "ible"
+   }
+  ],
+  "perplex": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "plex",
+    "surface": "plex"
+   }
+  ],
+  "persistence": [
+   {
+    "id": "persist",
+    "surface": "persist"
+   },
+   {
+    "id": "ence",
+    "surface": "ence"
+   }
+  ],
+  "persistent": [
+   {
+    "id": "persist",
+    "surface": "persist"
+   },
+   {
+    "id": "ent",
+    "surface": "ent"
+   }
+  ],
+  "perspiration": [
+   {
+    "id": "perspire",
+    "surface": "perspir"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "persuasion": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "suasion",
+    "surface": "suasion"
+   }
+  ],
+  "petition": [
+   {
+    "id": "petit",
+    "surface": "petit"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "philanthropy": [
+   {
+    "id": "phil",
+    "surface": "phil"
+   },
+   {
+    "id": "anthropy",
+    "surface": "anthropy"
+   }
+  ],
+  "photoelectric": [
+   {
+    "id": "photo",
+    "surface": "photo"
+   },
+   {
+    "id": "electric",
+    "surface": "electric"
+   }
+  ],
+  "photography": [
+   {
+    "id": "photo",
+    "surface": "photo"
+   },
+   {
+    "id": "graphy",
+    "surface": "graphy"
+   }
+  ],
+  "physically": [
+   {
+    "id": "physic",
+    "surface": "physic"
+   },
+   {
+    "id": "ally",
+    "surface": "ally"
+   }
+  ],
+  "physiological": [
+   {
+    "id": "physio",
+    "surface": "physio"
+   },
+   {
+    "id": "logical",
+    "surface": "logical"
+   }
+  ],
+  "pickle": [
+   {
+    "id": "pick",
+    "surface": "pick"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "plutocrat": [
+   {
+    "id": "pluto",
+    "surface": "pluto"
+   },
+   {
+    "id": "crat",
+    "surface": "crat"
+   }
+  ],
+  "polarity": [
+   {
+    "id": "polar",
+    "surface": "polar"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "polymer": [
+   {
+    "id": "poly",
+    "surface": "poly"
+   },
+   {
+    "id": "mer",
+    "surface": "mer"
+   }
+  ],
+  "popularity": [
+   {
+    "id": "popular",
+    "surface": "popular"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "portray": [
+   {
+    "id": "por",
+    "surface": "por"
+   },
+   {
+    "id": "tray",
+    "surface": "tray"
+   }
+  ],
+  "positively": [
+   {
+    "id": "positive",
+    "surface": "positive"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "postal": [
+   {
+    "id": "post",
+    "surface": "post"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "poultry": [
+   {
+    "id": "poult",
+    "surface": "poult"
+   },
+   {
+    "id": "ry",
+    "surface": "ry"
+   }
+  ],
+  "precede": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "cede",
+    "surface": "cede"
+   }
+  ],
+  "precedent": [
+   {
+    "id": "precede",
+    "surface": "precede"
+   },
+   {
+    "id": "ent",
+    "surface": "nt"
+   }
+  ],
+  "precipitate": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "cipit",
+    "surface": "cipit"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "preclude": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "clude",
+    "surface": "clude"
+   }
+  ],
+  "predestine": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "destine",
+    "surface": "destine"
+   }
+  ],
+  "predominant": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "dominant",
+    "surface": "dominant"
+   }
+  ],
+  "predominantly": [
+   {
+    "id": "predominant",
+    "surface": "predominant"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "predominate": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "dominate",
+    "surface": "dominate"
+   }
+  ],
+  "premature": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "mature",
+    "surface": "mature"
+   }
+  ],
+  "premise": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "mis",
+    "surface": "mise"
+   }
+  ],
+  "prerequisite": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "requisite",
+    "surface": "requisite"
+   }
+  ],
+  "preservation": [
+   {
+    "id": "preserve",
+    "surface": "preserv"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "preset": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "set",
+    "surface": "set"
+   }
+  ],
+  "preside": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "side",
+    "surface": "side"
+   }
+  ],
+  "pretext": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "text",
+    "surface": "text"
+   }
+  ],
+  "prevailing": [
+   {
+    "id": "prevail",
+    "surface": "prevail"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "prevalence": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "valence",
+    "surface": "valence"
+   }
+  ],
+  "prevalent": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "valent",
+    "surface": "valent"
+   }
+  ],
+  "prevention": [
+   {
+    "id": "prevent",
+    "surface": "prevent"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "principally": [
+   {
+    "id": "principal",
+    "surface": "principal"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "proceeding": [
+   {
+    "id": "proceed",
+    "surface": "proceed"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "producer": [
+   {
+    "id": "produce",
+    "surface": "produce"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "productivity": [
+   {
+    "id": "productive",
+    "surface": "productiv"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "profile": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "file",
+    "surface": "file"
+   }
+  ],
+  "profound": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "found",
+    "surface": "found"
+   }
+  ],
+  "prohibition": [
+   {
+    "id": "prohibit",
+    "surface": "prohibit"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "projecting": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "ject",
+    "surface": "ject"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "projector": [
+   {
+    "id": "project",
+    "surface": "project"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "prolong": [
+   {
+    "id": "pr",
+    "surface": "pro"
+   },
+   {
+    "id": "long",
+    "surface": "long"
+   }
+  ],
+  "promotion": [
+   {
+    "id": "promote",
+    "surface": "promot"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "promptly": [
+   {
+    "id": "prompt",
+    "surface": "prompt"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "propagation": [
+   {
+    "id": "propagate",
+    "surface": "propagat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "propeller": [
+   {
+    "id": "propel",
+    "surface": "propell"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "proposition": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "position",
+    "surface": "position"
+   }
+  ]
+ }
+}

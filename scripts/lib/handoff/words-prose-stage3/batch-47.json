@@ -1,0 +1,235 @@
+{
+ "_comment": "Stage 3 待写释义（batch-47，本批 29 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "upgrade": {
+  "modernMeaningCn": "上坡",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "uphold": {
+  "modernMeaningCn": "支撑",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "uproar": {
+  "modernMeaningCn": "骚动",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "utilization": {
+  "modernMeaningCn": "利用医利用",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "validity": {
+  "modernMeaningCn": "有效性",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "vengeance": {
+  "modernMeaningCn": "复仇",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "verbal": {
+  "modernMeaningCn": "用言辞的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "vicinity": {
+  "modernMeaningCn": "附近",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "violation": {
+  "modernMeaningCn": "违反",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "violently": {
+  "modernMeaningCn": "猛烈地",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "visualize": {
+  "modernMeaningCn": "使看得见",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "vividly": {
+  "modernMeaningCn": "鲜艳",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "vocational": {
+  "modernMeaningCn": "职业的法职业上的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "vowel": {
+  "modernMeaningCn": "元音元音的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "wardrobe": {
+  "modernMeaningCn": "衣橱",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "warfare": {
+  "modernMeaningCn": "战争",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "warrant": {
+  "modernMeaningCn": "授权",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "wasteful": {
+  "modernMeaningCn": "浪费的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "watchful": {
+  "modernMeaningCn": "注意的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "watertight": {
+  "modernMeaningCn": "不透水的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "whisker": {
+  "modernMeaningCn": "腮须",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "wholesome": {
+  "modernMeaningCn": "有益健康的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "wilful": {
+  "modernMeaningCn": "任性的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "winding": {
+  "modernMeaningCn": "绕",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "windmill": {
+  "modernMeaningCn": "风车",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "withhold": {
+  "modernMeaningCn": "使停止",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "woodpecker": {
+  "modernMeaningCn": "啄木鸟",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "wretched": {
+  "modernMeaningCn": "可怜的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "yielding": {
+  "modernMeaningCn": "生产的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ }
+}

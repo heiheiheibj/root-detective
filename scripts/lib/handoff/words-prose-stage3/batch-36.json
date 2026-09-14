@@ -1,0 +1,483 @@
+{
+ "_comment": "Stage 3 待写释义（batch-36，本批 60 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "abbreviation": {
+  "modernMeaningCn": "缩写词",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "absorption": {
+  "modernMeaningCn": "吸收",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "abundance": {
+  "modernMeaningCn": "丰富",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "accomplishment": {
+  "modernMeaningCn": "成就",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "addict": {
+  "modernMeaningCn": "使沉溺",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "adjacent": {
+  "modernMeaningCn": "毗连的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "adjoin": {
+  "modernMeaningCn": "邻接",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "adjustable": {
+  "modernMeaningCn": "可调节的电可调整",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "adoption": {
+  "modernMeaningCn": "采用",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "advantageous": {
+  "modernMeaningCn": "有利的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "aerial": {
+  "modernMeaningCn": "空中的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "aerospace": {
+  "modernMeaningCn": "航天空间",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "affective": {
+  "modernMeaningCn": "情感的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "affirm": {
+  "modernMeaningCn": "断言",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "agitation": {
+  "modernMeaningCn": "激动",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "agreeable": {
+  "modernMeaningCn": "令人愉快的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "alignment": {
+  "modernMeaningCn": "队列",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "allegation": {
+  "modernMeaningCn": "断言",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "ambitious": {
+  "modernMeaningCn": "有野心的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "amplitude": {
+  "modernMeaningCn": "广阔",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "analogous": {
+  "modernMeaningCn": "类似的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "analytical": {
+  "modernMeaningCn": "分析的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "annually": {
+  "modernMeaningCn": "一年一次",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "anonymous": {
+  "modernMeaningCn": "姓氏不详的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "antisocial": {
+  "modernMeaningCn": "不爱社交的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "appealing": {
+  "modernMeaningCn": "有感染力的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "appraisal": {
+  "modernMeaningCn": "评价",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "appraise": {
+  "modernMeaningCn": "评价",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "aspiration": {
+  "modernMeaningCn": "热望",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "assault": {
+  "modernMeaningCn": "攻击",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "assertive": {
+  "modernMeaningCn": "武断的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "assimilation": {
+  "modernMeaningCn": "同化",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "assurance": {
+  "modernMeaningCn": "保证",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "astonishment": {
+  "modernMeaningCn": "惊异",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "attachment": {
+  "modernMeaningCn": "连接",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "attendance": {
+  "modernMeaningCn": "出席",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "attendant": {
+  "modernMeaningCn": "随从",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "availability": {
+  "modernMeaningCn": "有效性",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "axial": {
+  "modernMeaningCn": "轴的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "backbone": {
+  "modernMeaningCn": "脊椎",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "banker": {
+  "modernMeaningCn": "银行家",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "bankruptcy": {
+  "modernMeaningCn": "破产者经破产",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "bearing": {
+  "modernMeaningCn": "举止",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "bestow": {
+  "modernMeaningCn": "授予",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "biased": {
+  "modernMeaningCn": "有偏见的计边缘的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "bitterness": {
+  "modernMeaningCn": "苦味",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "blacksmith": {
+  "modernMeaningCn": "铁匠机铁匠",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "blunder": {
+  "modernMeaningCn": "大错",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "bluntly": {
+  "modernMeaningCn": "坦率地",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "boiler": {
+  "modernMeaningCn": "煮器",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "breakdown": {
+  "modernMeaningCn": "崩溃",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "bridle": {
+  "modernMeaningCn": "马勒",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "brightness": {
+  "modernMeaningCn": "光亮",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "broaden": {
+  "modernMeaningCn": "变宽",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "bulletin": {
+  "modernMeaningCn": "公告",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "bureaucracy": {
+  "modernMeaningCn": "官僚",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "burner": {
+  "modernMeaningCn": "火炉",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "calibration": {
+  "modernMeaningCn": "口径测定",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "capability": {
+  "modernMeaningCn": "能力",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "capacitance": {
+  "modernMeaningCn": "电容化电容",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ }
+}

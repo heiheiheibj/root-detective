@@ -1,0 +1,483 @@
+{
+ "_comment": "Stage 3 待写释义（batch-39，本批 60 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "disruptive": {
+  "modernMeaningCn": "分裂的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "dissatisfaction": {
+  "modernMeaningCn": "不满",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "disservice": {
+  "modernMeaningCn": "伤害",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "distinctive": {
+  "modernMeaningCn": "有特色的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "distinctly": {
+  "modernMeaningCn": "显然地",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "distortion": {
+  "modernMeaningCn": "扭曲",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "distract": {
+  "modernMeaningCn": "转移",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "disturbance": {
+  "modernMeaningCn": "扰乱",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "diverge": {
+  "modernMeaningCn": "分歧",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "diversify": {
+  "modernMeaningCn": "使多样化",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "diversion": {
+  "modernMeaningCn": "转移医转向",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "documentary": {
+  "modernMeaningCn": "记录片文件的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "dormant": {
+  "modernMeaningCn": "睡眠状态的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "downturn": {
+  "modernMeaningCn": "尤指经济方面的衰",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "drainage": {
+  "modernMeaningCn": "排水医引流法",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "dreadful": {
+  "modernMeaningCn": "可怕的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "earthenware": {
+  "modernMeaningCn": "陶器化陶器",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "eastward": {
+  "modernMeaningCn": "朝东方向向东方的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "economically": {
+  "modernMeaningCn": "节约地",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "ecosystem": {
+  "modernMeaningCn": "生态系统医生态系",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "electrician": {
+  "modernMeaningCn": "电学家",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "elemental": {
+  "modernMeaningCn": "元素的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "elevation": {
+  "modernMeaningCn": "海拔",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "elliptical": {
+  "modernMeaningCn": "椭圆的医椭圆形的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "embody": {
+  "modernMeaningCn": "具体表达",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "emigrate": {
+  "modernMeaningCn": "使移居",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "empirical": {
+  "modernMeaningCn": "完全跟据经验的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "enchant": {
+  "modernMeaningCn": "施魔法",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "endanger": {
+  "modernMeaningCn": "危及法使危险",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "endurance": {
+  "modernMeaningCn": "忍耐",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "energize": {
+  "modernMeaningCn": "使活跃",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "engagement": {
+  "modernMeaningCn": "诺言",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "enrich": {
+  "modernMeaningCn": "使富足",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "entail": {
+  "modernMeaningCn": "使成为必需",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "entrepreneur": {
+  "modernMeaningCn": "企业家",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "environmental": {
+  "modernMeaningCn": "周围的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "epidemic": {
+  "modernMeaningCn": "传染病",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "equilibrium": {
+  "modernMeaningCn": "平衡",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "erosion": {
+  "modernMeaningCn": "腐蚀",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "eruption": {
+  "modernMeaningCn": "爆发",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "ethical": {
+  "modernMeaningCn": "伦理的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "evaluation": {
+  "modernMeaningCn": "评估",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "evaporation": {
+  "modernMeaningCn": "蒸发",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "everlasting": {
+  "modernMeaningCn": "永恒的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "evolutionary": {
+  "modernMeaningCn": "展开的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "exceptional": {
+  "modernMeaningCn": "例外的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "excessively": {
+  "modernMeaningCn": "过多",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "execution": {
+  "modernMeaningCn": "实行",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "experimentally": {
+  "modernMeaningCn": "实验式地",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "experimentation": {
+  "modernMeaningCn": "实验",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "exploitation": {
+  "modernMeaningCn": "开发",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "exploration": {
+  "modernMeaningCn": "探险",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "extinction": {
+  "modernMeaningCn": "消失",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "extract": {
+  "modernMeaningCn": "榨出物",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "extraction": {
+  "modernMeaningCn": "抽出",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "extracurricular": {
+  "modernMeaningCn": "课外的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "extraordinarily": {
+  "modernMeaningCn": "非凡",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "extravagant": {
+  "modernMeaningCn": "奢侈的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "fabrication": {
+  "modernMeaningCn": "制造",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "faction": {
+  "modernMeaningCn": "小派系",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ }
+}

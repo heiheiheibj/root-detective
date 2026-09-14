@@ -1,0 +1,605 @@
+{
+ "_comment": "3.4 六级批 切分 I：第 481–540 词",
+ "splits": {
+  "multitude": [
+   {
+    "id": "multi",
+    "surface": "multi"
+   },
+   {
+    "id": "itude",
+    "surface": "tude"
+   }
+  ],
+  "napkin": [
+   {
+    "id": "nap",
+    "surface": "nap"
+   },
+   {
+    "id": "kin",
+    "surface": "kin"
+   }
+  ],
+  "negotiation": [
+   {
+    "id": "negotiate",
+    "surface": "negotiat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "neighbouring": [
+   {
+    "id": "neighbour",
+    "surface": "neighbour"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "neuron": [
+   {
+    "id": "neuro",
+    "surface": "neuro"
+   },
+   {
+    "id": "on",
+    "surface": "n"
+   }
+  ],
+  "neutron": [
+   {
+    "id": "neutral",
+    "surface": "neutr"
+   },
+   {
+    "id": "on",
+    "surface": "on"
+   }
+  ],
+  "nickname": [
+   {
+    "id": "nick",
+    "surface": "nick"
+   },
+   {
+    "id": "name",
+    "surface": "name"
+   }
+  ],
+  "nightmare": [
+   {
+    "id": "night",
+    "surface": "night"
+   },
+   {
+    "id": "mar",
+    "surface": "mare"
+   }
+  ],
+  "normalization": [
+   {
+    "id": "normal",
+    "surface": "normal"
+   },
+   {
+    "id": "ization",
+    "surface": "ization"
+   }
+  ],
+  "northward": [
+   {
+    "id": "north",
+    "surface": "north"
+   },
+   {
+    "id": "ward",
+    "surface": "ward"
+   }
+  ],
+  "notable": [
+   {
+    "id": "note",
+    "surface": "not"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "notation": [
+   {
+    "id": "not",
+    "surface": "notat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "notwithstanding": [
+   {
+    "id": "not",
+    "surface": "not"
+   },
+   {
+    "id": "withstanding",
+    "surface": "withstanding"
+   }
+  ],
+  "nought": [
+   {
+    "id": "ne",
+    "surface": "n"
+   },
+   {
+    "id": "ought",
+    "surface": "ought"
+   }
+  ],
+  "nourishment": [
+   {
+    "id": "nourish",
+    "surface": "nourish"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "numerical": [
+   {
+    "id": "numeric",
+    "surface": "numeric"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "obsession": [
+   {
+    "id": "obsess",
+    "surface": "obsess"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "offset": [
+   {
+    "id": "off",
+    "surface": "off"
+   },
+   {
+    "id": "set",
+    "surface": "set"
+   }
+  ],
+  "offspring": [
+   {
+    "id": "off",
+    "surface": "off"
+   },
+   {
+    "id": "spring",
+    "surface": "spring"
+   }
+  ],
+  "onward": [
+   {
+    "id": "on",
+    "surface": "on"
+   },
+   {
+    "id": "ward",
+    "surface": "ward"
+   }
+  ],
+  "onwards": [
+   {
+    "id": "on",
+    "surface": "on"
+   },
+   {
+    "id": "wards",
+    "surface": "wards"
+   }
+  ],
+  "orchard": [
+   {
+    "id": "orc",
+    "surface": "orc"
+   },
+   {
+    "id": "hard",
+    "surface": "hard"
+   }
+  ],
+  "ordinarily": [
+   {
+    "id": "ordinary",
+    "surface": "ordinari"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "orientation": [
+   {
+    "id": "orient",
+    "surface": "orient"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "ornamental": [
+   {
+    "id": "ornament",
+    "surface": "ornament"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "orthodox": [
+   {
+    "id": "ortho",
+    "surface": "ortho"
+   },
+   {
+    "id": "dox",
+    "surface": "dox"
+   }
+  ],
+  "outbreak": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "break",
+    "surface": "break"
+   }
+  ],
+  "outcry": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "cry",
+    "surface": "cry"
+   }
+  ],
+  "outermost": [
+   {
+    "id": "outer",
+    "surface": "outer"
+   },
+   {
+    "id": "most",
+    "surface": "most"
+   }
+  ],
+  "outlaw": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "law",
+    "surface": "law"
+   }
+  ],
+  "outrage": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "rage",
+    "surface": "rage"
+   }
+  ],
+  "overestimate": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "estimate",
+    "surface": "estimate"
+   }
+  ],
+  "overflow": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "flow",
+    "surface": "flow"
+   }
+  ],
+  "overhang": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "hang",
+    "surface": "hang"
+   }
+  ],
+  "overhear": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "hear",
+    "surface": "hear"
+   }
+  ],
+  "overlap": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "lap",
+    "surface": "lap"
+   }
+  ],
+  "overload": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "load",
+    "surface": "load"
+   }
+  ],
+  "overthrow": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "throw",
+    "surface": "throw"
+   }
+  ],
+  "overwhelm": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "whelm",
+    "surface": "whelm"
+   }
+  ],
+  "overwhelming": [
+   {
+    "id": "overwhelm",
+    "surface": "overwhelm"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "oxide": [
+   {
+    "id": "ox",
+    "surface": "ox"
+   },
+   {
+    "id": "id",
+    "surface": "ide"
+   }
+  ],
+  "oxidize": [
+   {
+    "id": "oxide",
+    "surface": "oxid"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "panther": [
+   {
+    "id": "pant",
+    "surface": "pant"
+   },
+   {
+    "id": "her",
+    "surface": "her"
+   }
+  ],
+  "parachute": [
+   {
+    "id": "para",
+    "surface": "para"
+   },
+   {
+    "id": "chute",
+    "surface": "chute"
+   }
+  ],
+  "paradox": [
+   {
+    "id": "para",
+    "surface": "para"
+   },
+   {
+    "id": "dox",
+    "surface": "dox"
+   }
+  ],
+  "paradoxically": [
+   {
+    "id": "paradoxical",
+    "surface": "paradoxical"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "paralysis": [
+   {
+    "id": "para",
+    "surface": "para"
+   },
+   {
+    "id": "lysis",
+    "surface": "lysis"
+   }
+  ],
+  "paralyze": [
+   {
+    "id": "para",
+    "surface": "para"
+   },
+   {
+    "id": "lyze",
+    "surface": "lyze"
+   }
+  ],
+  "parameter": [
+   {
+    "id": "para",
+    "surface": "para"
+   },
+   {
+    "id": "meter",
+    "surface": "meter"
+   }
+  ],
+  "pathetic": [
+   {
+    "id": "path",
+    "surface": "path"
+   },
+   {
+    "id": "etic",
+    "surface": "etic"
+   }
+  ],
+  "patriot": [
+   {
+    "id": "pat",
+    "surface": "pat"
+   },
+   {
+    "id": "riot",
+    "surface": "riot"
+   }
+  ],
+  "patriotic": [
+   {
+    "id": "patriot",
+    "surface": "patriot"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "payoff": [
+   {
+    "id": "pay",
+    "surface": "pay"
+   },
+   {
+    "id": "off",
+    "surface": "off"
+   }
+  ],
+  "peacock": [
+   {
+    "id": "pea",
+    "surface": "pea"
+   },
+   {
+    "id": "cock",
+    "surface": "cock"
+   }
+  ],
+  "peculiarity": [
+   {
+    "id": "peculiar",
+    "surface": "peculiar"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "pedal": [
+   {
+    "id": "ped",
+    "surface": "ped"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "peer": [
+   {
+    "id": "pee",
+    "surface": "pee"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "penetration": [
+   {
+    "id": "penetrate",
+    "surface": "penetrat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "perception": [
+   {
+    "id": "percept",
+    "surface": "percept"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "perfection": [
+   {
+    "id": "perfect",
+    "surface": "perfect"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ]
+ }
+}

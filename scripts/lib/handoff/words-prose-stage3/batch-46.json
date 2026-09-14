@@ -1,0 +1,483 @@
+{
+ "_comment": "Stage 3 待写释义（batch-46，本批 60 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "substantially": {
+  "modernMeaningCn": "实质上",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "superficially": {
+  "modernMeaningCn": "表面",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "superiority": {
+  "modernMeaningCn": "优越",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "supersonic": {
+  "modernMeaningCn": "超声波的医超声波",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "supervise": {
+  "modernMeaningCn": "监督",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "supervision": {
+  "modernMeaningCn": "监督",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "supplementary": {
+  "modernMeaningCn": "补足的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "suppress": {
+  "modernMeaningCn": "镇压",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "sweeten": {
+  "modernMeaningCn": "使变甜",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "sweetness": {
+  "modernMeaningCn": "甜蜜",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "symmetrical": {
+  "modernMeaningCn": "对称的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "synthesis": {
+  "modernMeaningCn": "综合",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "synthesize": {
+  "modernMeaningCn": "综合",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "systematically": {
+  "modernMeaningCn": "有系统地",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "tenable": {
+  "modernMeaningCn": "可守的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "terrain": {
+  "modernMeaningCn": "地带",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "terrorist": {
+  "modernMeaningCn": "恐怖分子法恐怖份",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "thanksgiving": {
+  "modernMeaningCn": "感谢",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "theorem": {
+  "modernMeaningCn": "定理",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "thereafter": {
+  "modernMeaningCn": "其后",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "therein": {
+  "modernMeaningCn": "在其中",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "thereof": {
+  "modernMeaningCn": "在其中",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "thicken": {
+  "modernMeaningCn": "变浓",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "threshold": {
+  "modernMeaningCn": "门槛",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "tickle": {
+  "modernMeaningCn": "胳肢",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "tighten": {
+  "modernMeaningCn": "勒紧",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "tightly": {
+  "modernMeaningCn": "紧紧地",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "tiresome": {
+  "modernMeaningCn": "累人的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "trademark": {
+  "modernMeaningCn": "商标法商标",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "tradesman": {
+  "modernMeaningCn": "零售商",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "trample": {
+  "modernMeaningCn": "践踏声",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "transaction": {
+  "modernMeaningCn": "交易",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "transcend": {
+  "modernMeaningCn": "超越",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "transit": {
+  "modernMeaningCn": "经过",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "transition": {
+  "modernMeaningCn": "转变",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "transverse": {
+  "modernMeaningCn": "横断物横的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "tremendously": {
+  "modernMeaningCn": "极大地",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "tribute": {
+  "modernMeaningCn": "贡物",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "triumphant": {
+  "modernMeaningCn": "得胜的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "trivial": {
+  "modernMeaningCn": "琐碎的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "trolley": {
+  "modernMeaningCn": "电车",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "turnover": {
+  "modernMeaningCn": "翻倒",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "twilight": {
+  "modernMeaningCn": "暮光",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "ultraviolet": {
+  "modernMeaningCn": "紫外线的化紫外线",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "unavoidable": {
+  "modernMeaningCn": "不可避免的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "unconventional": {
+  "modernMeaningCn": "不依惯例的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "underestimate": {
+  "modernMeaningCn": "低估低估",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "underlying": {
+  "modernMeaningCn": "在下面的经优先的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "undermine": {
+  "modernMeaningCn": "在下面挖",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "undesirable": {
+  "modernMeaningCn": "不受欢迎的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "uniformly": {
+  "modernMeaningCn": "一样",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "universally": {
+  "modernMeaningCn": "宇宙",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "unlimited": {
+  "modernMeaningCn": "无限的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "unorthodox": {
+  "modernMeaningCn": "非正统的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "unpaid": {
+  "modernMeaningCn": "未付款的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "unprecedented": {
+  "modernMeaningCn": "空前的经空前的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "unreasonable": {
+  "modernMeaningCn": "不合理的",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "unreliable": {
+  "modernMeaningCn": "不可靠的法不可靠",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "untie": {
+  "modernMeaningCn": "解开松开",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ },
+ "update": {
+  "modernMeaningCn": "更新",
+  "literalMeaningCn": "",
+  "metaphorMeaningCn": "",
+  "metaphorOptions": [],
+  "mnemonicNote": "",
+  "sourceNote": ""
+ }
+}

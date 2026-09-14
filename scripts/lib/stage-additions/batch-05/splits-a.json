@@ -1,0 +1,617 @@
+{
+ "_comment": "3.4 六级批 切分 A：第 1–60 词",
+ "splits": {
+  "abbreviation": [
+   {
+    "id": "abbreviate",
+    "surface": "abbreviat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "absorption": [
+   {
+    "id": "absorb",
+    "surface": "absorp"
+   },
+   {
+    "id": "tion",
+    "surface": "tion"
+   }
+  ],
+  "abundance": [
+   {
+    "id": "abound",
+    "surface": "abund"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "accessary": [
+   {
+    "id": "access",
+    "surface": "access"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "accomplishment": [
+   {
+    "id": "accomplish",
+    "surface": "accomplish"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "acquisitive": [
+   {
+    "id": "acquisite",
+    "surface": "acquisit"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "addict": [
+   {
+    "id": "ad",
+    "surface": "ad"
+   },
+   {
+    "id": "dict",
+    "surface": "dict"
+   }
+  ],
+  "adjacent": [
+   {
+    "id": "ad",
+    "surface": "ad"
+   },
+   {
+    "id": "jacent",
+    "surface": "jacent"
+   }
+  ],
+  "adjoin": [
+   {
+    "id": "ad",
+    "surface": "ad"
+   },
+   {
+    "id": "join",
+    "surface": "join"
+   }
+  ],
+  "adjustable": [
+   {
+    "id": "adjust",
+    "surface": "adjust"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "adoption": [
+   {
+    "id": "adopt",
+    "surface": "adopt"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "advantageous": [
+   {
+    "id": "advantage",
+    "surface": "advantage"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "aerial": [
+   {
+    "id": "aeri",
+    "surface": "aeri"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "aerospace": [
+   {
+    "id": "aero",
+    "surface": "aero"
+   },
+   {
+    "id": "space",
+    "surface": "space"
+   }
+  ],
+  "affective": [
+   {
+    "id": "affect",
+    "surface": "affect"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "affirm": [
+   {
+    "id": "af",
+    "surface": "af"
+   },
+   {
+    "id": "firm",
+    "surface": "firm"
+   }
+  ],
+  "aggravate": [
+   {
+    "id": "ag",
+    "surface": "ag"
+   },
+   {
+    "id": "grav",
+    "surface": "grav"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "agitation": [
+   {
+    "id": "agitate",
+    "surface": "agitat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "agreeable": [
+   {
+    "id": "agree",
+    "surface": "agree"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "alignment": [
+   {
+    "id": "align",
+    "surface": "align"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "allegation": [
+   {
+    "id": "allege",
+    "surface": "alleg"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "alliance": [
+   {
+    "id": "ally",
+    "surface": "alli"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "alteration": [
+   {
+    "id": "alter",
+    "surface": "alter"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "ambitious": [
+   {
+    "id": "ambit",
+    "surface": "ambit"
+   },
+   {
+    "id": "ious",
+    "surface": "ious"
+   }
+  ],
+  "amplitude": [
+   {
+    "id": "ample",
+    "surface": "ampl"
+   },
+   {
+    "id": "itude",
+    "surface": "itude"
+   }
+  ],
+  "analogous": [
+   {
+    "id": "analogue",
+    "surface": "analog"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "analogue": [
+   {
+    "id": "ana",
+    "surface": "ana"
+   },
+   {
+    "id": "logue",
+    "surface": "logue"
+   }
+  ],
+  "analytical": [
+   {
+    "id": "analytic",
+    "surface": "analytic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "annually": [
+   {
+    "id": "annual",
+    "surface": "annual"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "anonymous": [
+   {
+    "id": "anonym",
+    "surface": "anonym"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "antisocial": [
+   {
+    "id": "anti",
+    "surface": "anti"
+   },
+   {
+    "id": "social",
+    "surface": "social"
+   }
+  ],
+  "appealing": [
+   {
+    "id": "appeal",
+    "surface": "appeal"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "appraisal": [
+   {
+    "id": "appraise",
+    "surface": "apprais"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "appraise": [
+   {
+    "id": "app",
+    "surface": "app"
+   },
+   {
+    "id": "raise",
+    "surface": "raise"
+   }
+  ],
+  "aspiration": [
+   {
+    "id": "aspire",
+    "surface": "aspir"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "assassinate": [
+   {
+    "id": "assassin",
+    "surface": "assassin"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "assault": [
+   {
+    "id": "as",
+    "surface": "as"
+   },
+   {
+    "id": "saul",
+    "surface": "sault"
+   }
+  ],
+  "assertive": [
+   {
+    "id": "assert",
+    "surface": "assert"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "assimilate": [
+   {
+    "id": "as",
+    "surface": "as"
+   },
+   {
+    "id": "simil",
+    "surface": "simil"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "assimilation": [
+   {
+    "id": "assimilate",
+    "surface": "assimilat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "assurance": [
+   {
+    "id": "assure",
+    "surface": "assur"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "astonishment": [
+   {
+    "id": "astonish",
+    "surface": "astonish"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "attachment": [
+   {
+    "id": "attach",
+    "surface": "attach"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "attendance": [
+   {
+    "id": "at",
+    "surface": "at"
+   },
+   {
+    "id": "tend",
+    "surface": "tend"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "attendant": [
+   {
+    "id": "attend",
+    "surface": "attend"
+   },
+   {
+    "id": "ant",
+    "surface": "ant"
+   }
+  ],
+  "automate": [
+   {
+    "id": "auto",
+    "surface": "auto"
+   },
+   {
+    "id": "mate",
+    "surface": "mate"
+   }
+  ],
+  "availability": [
+   {
+    "id": "available",
+    "surface": "availabil"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "avert": [
+   {
+    "id": "ab",
+    "surface": "a"
+   },
+   {
+    "id": "vert",
+    "surface": "vert"
+   }
+  ],
+  "axial": [
+   {
+    "id": "axis",
+    "surface": "axi"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "backbone": [
+   {
+    "id": "back",
+    "surface": "back"
+   },
+   {
+    "id": "bon",
+    "surface": "bone"
+   }
+  ],
+  "banker": [
+   {
+    "id": "bank",
+    "surface": "bank"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "bankruptcy": [
+   {
+    "id": "bankrupt",
+    "surface": "bankrupt"
+   },
+   {
+    "id": "cy",
+    "surface": "cy"
+   }
+  ],
+  "bearing": [
+   {
+    "id": "bear",
+    "surface": "bear"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "bestow": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "stow",
+    "surface": "stow"
+   }
+  ],
+  "beware": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "war",
+    "surface": "ware"
+   }
+  ],
+  "bewilder": [
+   {
+    "id": "be",
+    "surface": "be"
+   },
+   {
+    "id": "wilder",
+    "surface": "wilder"
+   }
+  ],
+  "biased": [
+   {
+    "id": "bias",
+    "surface": "bias"
+   },
+   {
+    "id": "ed",
+    "surface": "ed"
+   }
+  ],
+  "bitterness": [
+   {
+    "id": "bitter",
+    "surface": "bitter"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "blacksmith": [
+   {
+    "id": "black",
+    "surface": "black"
+   },
+   {
+    "id": "smith",
+    "surface": "smith"
+   }
+  ],
+  "blunder": [
+   {
+    "id": "blend",
+    "surface": "blund"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ]
+ }
+}

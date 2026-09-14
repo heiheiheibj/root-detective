@@ -1,0 +1,489 @@
+{
+ "_comment": "3.4 六级批 切分 N：第 781–828 词",
+ "splits": {
+  "undermine": [
+   {
+    "id": "under",
+    "surface": "under"
+   },
+   {
+    "id": "min",
+    "surface": "mine"
+   }
+  ],
+  "undesirable": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "desirable",
+    "surface": "desirable"
+   }
+  ],
+  "uniformly": [
+   {
+    "id": "uniform",
+    "surface": "uniform"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "universally": [
+   {
+    "id": "universal",
+    "surface": "universal"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "unlimited": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "limited",
+    "surface": "limited"
+   }
+  ],
+  "unlock": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "lock",
+    "surface": "lock"
+   }
+  ],
+  "unorthodox": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "orthodox",
+    "surface": "orthodox"
+   }
+  ],
+  "unpaid": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "paid",
+    "surface": "paid"
+   }
+  ],
+  "unprecedented": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "precedent",
+    "surface": "precedent"
+   },
+   {
+    "id": "ed",
+    "surface": "ed"
+   }
+  ],
+  "unreasonable": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "reasonable",
+    "surface": "reasonable"
+   }
+  ],
+  "unreliable": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "reliable",
+    "surface": "reliable"
+   }
+  ],
+  "untie": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "tie",
+    "surface": "tie"
+   }
+  ],
+  "update": [
+   {
+    "id": "up",
+    "surface": "up"
+   },
+   {
+    "id": "date",
+    "surface": "date"
+   }
+  ],
+  "upgrade": [
+   {
+    "id": "up",
+    "surface": "up"
+   },
+   {
+    "id": "grad",
+    "surface": "grade"
+   }
+  ],
+  "uphold": [
+   {
+    "id": "up",
+    "surface": "up"
+   },
+   {
+    "id": "hold",
+    "surface": "hold"
+   }
+  ],
+  "uproar": [
+   {
+    "id": "up",
+    "surface": "up"
+   },
+   {
+    "id": "roar",
+    "surface": "roar"
+   }
+  ],
+  "utilization": [
+   {
+    "id": "utilize",
+    "surface": "utiliz"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "validity": [
+   {
+    "id": "valid",
+    "surface": "valid"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "vengeance": [
+   {
+    "id": "venge",
+    "surface": "venge"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "verbal": [
+   {
+    "id": "verb",
+    "surface": "verb"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "vicinity": [
+   {
+    "id": "vicine",
+    "surface": "vicin"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "vicious": [
+   {
+    "id": "vice",
+    "surface": "vici"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "violation": [
+   {
+    "id": "viola",
+    "surface": "violat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "violently": [
+   {
+    "id": "violent",
+    "surface": "violent"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "visualize": [
+   {
+    "id": "visual",
+    "surface": "visual"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "vitamine": [
+   {
+    "id": "vita",
+    "surface": "vita"
+   },
+   {
+    "id": "min",
+    "surface": "mine"
+   }
+  ],
+  "vividly": [
+   {
+    "id": "vivid",
+    "surface": "vivid"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "vocational": [
+   {
+    "id": "vocation",
+    "surface": "vocation"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "vowel": [
+   {
+    "id": "vow",
+    "surface": "vow"
+   },
+   {
+    "id": "el",
+    "surface": "el"
+   }
+  ],
+  "wardrobe": [
+   {
+    "id": "ward",
+    "surface": "ward"
+   },
+   {
+    "id": "rob",
+    "surface": "robe"
+   }
+  ],
+  "warfare": [
+   {
+    "id": "war",
+    "surface": "war"
+   },
+   {
+    "id": "fare",
+    "surface": "fare"
+   }
+  ],
+  "warrant": [
+   {
+    "id": "war",
+    "surface": "war"
+   },
+   {
+    "id": "rant",
+    "surface": "rant"
+   }
+  ],
+  "wasteful": [
+   {
+    "id": "waste",
+    "surface": "waste"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "watchful": [
+   {
+    "id": "watch",
+    "surface": "watch"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "watertight": [
+   {
+    "id": "water",
+    "surface": "water"
+   },
+   {
+    "id": "tight",
+    "surface": "tight"
+   }
+  ],
+  "waver": [
+   {
+    "id": "wave",
+    "surface": "wave"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "weaver": [
+   {
+    "id": "weave",
+    "surface": "weave"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "whereby": [
+   {
+    "id": "where",
+    "surface": "where"
+   },
+   {
+    "id": "by",
+    "surface": "by"
+   }
+  ],
+  "whisker": [
+   {
+    "id": "whisk",
+    "surface": "whisk"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "wholesome": [
+   {
+    "id": "whole",
+    "surface": "whole"
+   },
+   {
+    "id": "some",
+    "surface": "some"
+   }
+  ],
+  "wilful": [
+   {
+    "id": "will",
+    "surface": "wil"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "winding": [
+   {
+    "id": "wind",
+    "surface": "wind"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "windmill": [
+   {
+    "id": "wind",
+    "surface": "wind"
+   },
+   {
+    "id": "mill",
+    "surface": "mill"
+   }
+  ],
+  "withhold": [
+   {
+    "id": "with",
+    "surface": "with"
+   },
+   {
+    "id": "hold",
+    "surface": "hold"
+   }
+  ],
+  "woodpecker": [
+   {
+    "id": "wood",
+    "surface": "wood"
+   },
+   {
+    "id": "pecker",
+    "surface": "pecker"
+   }
+  ],
+  "workpiece": [
+   {
+    "id": "work",
+    "surface": "work"
+   },
+   {
+    "id": "piece",
+    "surface": "piece"
+   }
+  ],
+  "wretched": [
+   {
+    "id": "wretch",
+    "surface": "wretch"
+   },
+   {
+    "id": "ed",
+    "surface": "ed"
+   }
+  ],
+  "yielding": [
+   {
+    "id": "yield",
+    "surface": "yield"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ]
+ }
+}

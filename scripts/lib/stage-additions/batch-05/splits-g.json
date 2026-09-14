@@ -1,0 +1,613 @@
+{
+ "_comment": "3.4 六级批 切分 G：第 361–420 词",
+ "splits": {
+  "incense": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "cense",
+    "surface": "cense"
+   }
+  ],
+  "incentive": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "cent",
+    "surface": "cent"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "incidentally": [
+   {
+    "id": "incidental",
+    "surface": "incidental"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "inclination": [
+   {
+    "id": "incline",
+    "surface": "inclin"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "incompatible": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "compatible",
+    "surface": "compatible"
+   }
+  ],
+  "incomplete": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "complete",
+    "surface": "complete"
+   }
+  ],
+  "incorporate": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "corporate",
+    "surface": "corporate"
+   }
+  ],
+  "indefinitely": [
+   {
+    "id": "indefinite",
+    "surface": "indefinite"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "indicative": [
+   {
+    "id": "indicate",
+    "surface": "indicat"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "indiscriminately": [
+   {
+    "id": "indiscriminate",
+    "surface": "indiscriminate"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "induce": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "dc",
+    "surface": "duce"
+   }
+  ],
+  "induction": [
+   {
+    "id": "induct",
+    "surface": "induct"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "inevitably": [
+   {
+    "id": "inevitable",
+    "surface": "inevitabl"
+   },
+   {
+    "id": "ly",
+    "surface": "y"
+   }
+  ],
+  "infectious": [
+   {
+    "id": "infect",
+    "surface": "infect"
+   },
+   {
+    "id": "ious",
+    "surface": "ious"
+   }
+  ],
+  "inference": [
+   {
+    "id": "infer",
+    "surface": "infer"
+   },
+   {
+    "id": "ence",
+    "surface": "ence"
+   }
+  ],
+  "inferiority": [
+   {
+    "id": "inferior",
+    "surface": "inferior"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "infinitely": [
+   {
+    "id": "infinite",
+    "surface": "infinite"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "inflation": [
+   {
+    "id": "inflate",
+    "surface": "inflat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "infrastructure": [
+   {
+    "id": "infra",
+    "surface": "infra"
+   },
+   {
+    "id": "structure",
+    "surface": "structure"
+   }
+  ],
+  "initially": [
+   {
+    "id": "initial",
+    "surface": "initial"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "inlet": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "let",
+    "surface": "let"
+   }
+  ],
+  "innumerable": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "numerable",
+    "surface": "numerable"
+   }
+  ],
+  "inorganic": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "organic",
+    "surface": "organic"
+   }
+  ],
+  "insane": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "sane",
+    "surface": "sane"
+   }
+  ],
+  "insanity": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "sanity",
+    "surface": "sanity"
+   }
+  ],
+  "insistent": [
+   {
+    "id": "insist",
+    "surface": "insist"
+   },
+   {
+    "id": "ent",
+    "surface": "ent"
+   }
+  ],
+  "inspector": [
+   {
+    "id": "inspect",
+    "surface": "inspect"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "inspiration": [
+   {
+    "id": "inspire",
+    "surface": "inspir"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "instability": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "stability",
+    "surface": "stability"
+   }
+  ],
+  "installment": [
+   {
+    "id": "install",
+    "surface": "install"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "instinctively": [
+   {
+    "id": "instinctive",
+    "surface": "instinctive"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "instructor": [
+   {
+    "id": "instruct",
+    "surface": "instruct"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "instrumental": [
+   {
+    "id": "instrument",
+    "surface": "instrument"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "insulate": [
+   {
+    "id": "nsula",
+    "surface": "insula"
+   },
+   {
+    "id": "at",
+    "surface": "te"
+   }
+  ],
+  "insulator": [
+   {
+    "id": "insula",
+    "surface": "insulat"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "intake": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "take",
+    "surface": "take"
+   }
+  ],
+  "intellectually": [
+   {
+    "id": "intellectual",
+    "surface": "intellectual"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "intensify": [
+   {
+    "id": "intense",
+    "surface": "intens"
+   },
+   {
+    "id": "ify",
+    "surface": "ify"
+   }
+  ],
+  "interact": [
+   {
+    "id": "inter",
+    "surface": "inter"
+   },
+   {
+    "id": "act",
+    "surface": "act"
+   }
+  ],
+  "interconnect": [
+   {
+    "id": "inter",
+    "surface": "inter"
+   },
+   {
+    "id": "connect",
+    "surface": "connect"
+   }
+  ],
+  "intercourse": [
+   {
+    "id": "inter",
+    "surface": "inter"
+   },
+   {
+    "id": "course",
+    "surface": "course"
+   }
+  ],
+  "interface": [
+   {
+    "id": "inter",
+    "surface": "inter"
+   },
+   {
+    "id": "fac",
+    "surface": "face"
+   }
+  ],
+  "intersection": [
+   {
+    "id": "intersect",
+    "surface": "intersect"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "intervene": [
+   {
+    "id": "inter",
+    "surface": "inter"
+   },
+   {
+    "id": "ven",
+    "surface": "vene"
+   }
+  ],
+  "intervention": [
+   {
+    "id": "intervene",
+    "surface": "interven"
+   },
+   {
+    "id": "tion",
+    "surface": "tion"
+   }
+  ],
+  "intuition": [
+   {
+    "id": "intuit",
+    "surface": "intuit"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "invalid": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "valid",
+    "surface": "valid"
+   }
+  ],
+  "invaluable": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "valuable",
+    "surface": "valuable"
+   }
+  ],
+  "invariably": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "variably",
+    "surface": "variably"
+   }
+  ],
+  "inversely": [
+   {
+    "id": "inverse",
+    "surface": "inverse"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "ironically": [
+   {
+    "id": "ironic",
+    "surface": "ironic"
+   },
+   {
+    "id": "ally",
+    "surface": "ally"
+   }
+  ],
+  "irregularity": [
+   {
+    "id": "irregular",
+    "surface": "irregular"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "irrespective": [
+   {
+    "id": "ir",
+    "surface": "ir"
+   },
+   {
+    "id": "respective",
+    "surface": "respective"
+   }
+  ],
+  "irritate": [
+   {
+    "id": "ir",
+    "surface": "ir"
+   },
+   {
+    "id": "rit",
+    "surface": "rit"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "jewellery": [
+   {
+    "id": "jewel",
+    "surface": "jewell"
+   },
+   {
+    "id": "ery",
+    "surface": "ery"
+   }
+  ],
+  "kidnap": [
+   {
+    "id": "kid",
+    "surface": "kid"
+   },
+   {
+    "id": "nap",
+    "surface": "nap"
+   }
+  ],
+  "kilowatt": [
+   {
+    "id": "kilo",
+    "surface": "kilo"
+   },
+   {
+    "id": "watt",
+    "surface": "watt"
+   }
+  ],
+  "lamentation": [
+   {
+    "id": "lament",
+    "surface": "lament"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "landscape": [
+   {
+    "id": "land",
+    "surface": "land"
+   },
+   {
+    "id": "scape",
+    "surface": "scape"
+   }
+  ],
+  "lawsuit": [
+   {
+    "id": "law",
+    "surface": "law"
+   },
+   {
+    "id": "suit",
+    "surface": "suit"
+   }
+  ]
+ }
+}

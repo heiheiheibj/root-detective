@@ -1,0 +1,15 @@
+{
+ "_comment": "3.4 六级批新增 2 个世界（+ 之前 37 个 = 39）。本批家族极少（只有 2 个），符合规划预期：六级的增量主要是「零件词素」和少量长尾词根，可拆讲的教学词根基本在前三批里已经上过地图了。",
+ "worlds": [
+  {
+   "id": "nature-study",
+   "name": "格物斋",
+   "morphemeIds": ["physic"]
+  },
+  {
+   "id": "fasten-forge",
+   "name": "紧固坊",
+   "morphemeIds": ["tight"]
+  }
+ ]
+}

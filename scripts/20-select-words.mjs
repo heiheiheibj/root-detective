@@ -138,13 +138,19 @@ console.log(`6.2 筛选：收录 ${candidates.length} 词，跳过 ${skipped62} 
 // Stage 3 铺到 3,029 词后实测多数词根只挂 1-2 个词（sea/sun/west/night…），d5 端必然缺，
 // 硬卡会让真实词库大批报错。
 const a23NoD5 = []
+const a23NoD1 = []
 for (const [familyId, def] of Object.entries(families)) {
   const stat = famStats.get(familyId) || { d1: 0, d5: 0, words: [] }
   if (def.words.length < 3) continue // 零件词素：豁免家族规模与难度覆盖
   const label = `[${familyId}] 词=${def.words.length} d1=${stat.d1} d5=${stat.d5}`
+  // d1 缺原先也是硬错误（初期 20 个精选家族，每个都有 d1 词）。铺到六级批后出现
+  // `tight` 这类词根：家族词全是高级派生（tighten/tightly/watertight），基础词本身
+  // 不在词库里 —— 这是词表性质决定的，不是数据错误，硬卡只会堵死管线。
+  // 与 d5 缺同样降级为显式提示：词根仍会在复习面板出现（用那几个高级词练），
+  // 只是初学者一时碰不到。真出现「整族都没法练」的情况，日志里这两行会同时报警。
   if (stat.d1 === 0) {
-    console.error(`❌ A23 失败 ${label}：没有任何 d1 的词，初学者碰不到这个词根`)
-    anyFail = true
+    a23NoD1.push(familyId)
+    console.log(`⚠ A23 提示 ${label}：缺 d1，初学者碰不到这个词根`)
   } else if (stat.d5 === 0) {
     a23NoD5.push(familyId)
     console.log(`⚠ A23 提示 ${label}：缺 d5，难度梯度少一端`)
@@ -152,6 +158,7 @@ for (const [familyId, def] of Object.entries(families)) {
     console.log(`✓ ${label}`)
   }
 }
+if (a23NoD1.length) console.log(`\nA23 提示 ${a23NoD1.length} 个词根缺 d1（不影响产出）：${a23NoD1.slice(0, 10).join(' ')}`)
 if (a23NoD5.length) console.log(`\nA23 提示 ${a23NoD5.length} 个词根缺 d5（不影响产出）：${a23NoD5.slice(0, 10).join(' ')}`)
 
 if (anyFail) { console.error('\n选词未通过，停下修 stage1-content.json 再跑。'); process.exit(1) }

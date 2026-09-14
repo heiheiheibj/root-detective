@@ -40,6 +40,9 @@ export const FALLBACK_MEANINGS = {
   // 四级批新增
   verb: '词', just: '公正的', ally: '结盟', meter: '测量',
   st: '站立', est: '最高级', ir: '不', wave: '波浪', ster: '人', stock: '存货',
+  // 六级批新增（cigen 词源库带出来的拉丁词干，非英语词根）
+  acquisite: '获取', vergere: '倾向', entreprendre: '着手',
+  forthcome: '出现', candesco: '变白', revelate: '揭示',
 }
 
 /** 义项里没有汉字就算缺（deriveMeaning 有时会填进一串英文，那种也过不了 A20）。 */

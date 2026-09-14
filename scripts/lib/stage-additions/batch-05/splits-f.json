@@ -1,0 +1,609 @@
+{
+ "_comment": "3.4 六级批 切分 F：第 301–360 词",
+ "splits": {
+  "funding": [
+   {
+    "id": "fund",
+    "surface": "fund"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "gamble": [
+   {
+    "id": "game",
+    "surface": "gamb"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "gangster": [
+   {
+    "id": "gang",
+    "surface": "gang"
+   },
+   {
+    "id": "ster",
+    "surface": "ster"
+   }
+  ],
+  "gathering": [
+   {
+    "id": "gather",
+    "surface": "gather"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "generalization": [
+   {
+    "id": "general",
+    "surface": "general"
+   },
+   {
+    "id": "ization",
+    "surface": "ization"
+   }
+  ],
+  "generalize": [
+   {
+    "id": "general",
+    "surface": "general"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "generosity": [
+   {
+    "id": "generous",
+    "surface": "generos"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "geographical": [
+   {
+    "id": "geography",
+    "surface": "geograph"
+   },
+   {
+    "id": "ical",
+    "surface": "ical"
+   }
+  ],
+  "geometrical": [
+   {
+    "id": "geometric",
+    "surface": "geometric"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "gigantic": [
+   {
+    "id": "gig",
+    "surface": "gig"
+   },
+   {
+    "id": "antic",
+    "surface": "antic"
+   }
+  ],
+  "glamour": [
+   {
+    "id": "glam",
+    "surface": "glam"
+   },
+   {
+    "id": "our",
+    "surface": "our"
+   }
+  ],
+  "glider": [
+   {
+    "id": "glide",
+    "surface": "glide"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "glossary": [
+   {
+    "id": "gloss",
+    "surface": "gloss"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "goddess": [
+   {
+    "id": "god",
+    "surface": "godd"
+   },
+   {
+    "id": "ess",
+    "surface": "ess"
+   }
+  ],
+  "gossip": [
+   {
+    "id": "god",
+    "surface": "gos"
+   },
+   {
+    "id": "sib",
+    "surface": "sip"
+   }
+  ],
+  "grasshopper": [
+   {
+    "id": "grass",
+    "surface": "grass"
+   },
+   {
+    "id": "hopper",
+    "surface": "hopper"
+   }
+  ],
+  "gutter": [
+   {
+    "id": "gut",
+    "surface": "gutt"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "handbook": [
+   {
+    "id": "hand",
+    "surface": "hand"
+   },
+   {
+    "id": "book",
+    "surface": "book"
+   }
+  ],
+  "handout": [
+   {
+    "id": "hand",
+    "surface": "hand"
+   },
+   {
+    "id": "out",
+    "surface": "out"
+   }
+  ],
+  "harmonious": [
+   {
+    "id": "harmony",
+    "surface": "harmoni"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "hassle": [
+   {
+    "id": "haste",
+    "surface": "hass"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "hazardous": [
+   {
+    "id": "hazard",
+    "surface": "hazard"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "headlong": [
+   {
+    "id": "head",
+    "surface": "head"
+   },
+   {
+    "id": "long",
+    "surface": "long"
+   }
+  ],
+  "heater": [
+   {
+    "id": "heat",
+    "surface": "heat"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "heighten": [
+   {
+    "id": "height",
+    "surface": "height"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "hemisphere": [
+   {
+    "id": "hemi",
+    "surface": "hemi"
+   },
+   {
+    "id": "sphere",
+    "surface": "sphere"
+   }
+  ],
+  "henceforth": [
+   {
+    "id": "hence",
+    "surface": "hence"
+   },
+   {
+    "id": "forth",
+    "surface": "forth"
+   }
+  ],
+  "heritage": [
+   {
+    "id": "herit",
+    "surface": "herit"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "hierarchy": [
+   {
+    "id": "hiero",
+    "surface": "hier"
+   },
+   {
+    "id": "archy",
+    "surface": "archy"
+   }
+  ],
+  "hindrance": [
+   {
+    "id": "hinder",
+    "surface": "hindr"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "historian": [
+   {
+    "id": "history",
+    "surface": "histor"
+   },
+   {
+    "id": "ian",
+    "surface": "ian"
+   }
+  ],
+  "historic": [
+   {
+    "id": "history",
+    "surface": "histor"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "hitherto": [
+   {
+    "id": "hither",
+    "surface": "hither"
+   },
+   {
+    "id": "to",
+    "surface": "to"
+   }
+  ],
+  "homely": [
+   {
+    "id": "home",
+    "surface": "home"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "hospitality": [
+   {
+    "id": "hospital",
+    "surface": "hospital"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "hostage": [
+   {
+    "id": "host",
+    "surface": "host"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "hover": [
+   {
+    "id": "hove",
+    "surface": "hove"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "huddle": [
+   {
+    "id": "hide",
+    "surface": "hudd"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "humanitarian": [
+   {
+    "id": "humanity",
+    "surface": "humanit"
+   },
+   {
+    "id": "arian",
+    "surface": "arian"
+   }
+  ],
+  "humanity": [
+   {
+    "id": "human",
+    "surface": "human"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "humidity": [
+   {
+    "id": "humid",
+    "surface": "humid"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "humiliation": [
+   {
+    "id": "humiliate",
+    "surface": "humiliat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "hydrocarbon": [
+   {
+    "id": "hydro",
+    "surface": "hydro"
+   },
+   {
+    "id": "carbon",
+    "surface": "carbon"
+   }
+  ],
+  "hysterical": [
+   {
+    "id": "hysteric",
+    "surface": "hysteric"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "idealism": [
+   {
+    "id": "ideal",
+    "surface": "ideal"
+   },
+   {
+    "id": "ism",
+    "surface": "ism"
+   }
+  ],
+  "ideally": [
+   {
+    "id": "ideal",
+    "surface": "ideal"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "idiot": [
+   {
+    "id": "idi",
+    "surface": "idi"
+   },
+   {
+    "id": "ot",
+    "surface": "ot"
+   }
+  ],
+  "idleness": [
+   {
+    "id": "idle",
+    "surface": "idle"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "illuminate": [
+   {
+    "id": "il",
+    "surface": "il"
+   },
+   {
+    "id": "lumin",
+    "surface": "lumin"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "imaginative": [
+   {
+    "id": "imagine",
+    "surface": "imagin"
+   },
+   {
+    "id": "ative",
+    "surface": "ative"
+   }
+  ],
+  "immortal": [
+   {
+    "id": "im",
+    "surface": "im"
+   },
+   {
+    "id": "mortal",
+    "surface": "mortal"
+   }
+  ],
+  "immunity": [
+   {
+    "id": "immune",
+    "surface": "immun"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "impartial": [
+   {
+    "id": "in",
+    "surface": "im"
+   },
+   {
+    "id": "partial",
+    "surface": "partial"
+   }
+  ],
+  "implore": [
+   {
+    "id": "imp",
+    "surface": "imp"
+   },
+   {
+    "id": "lore",
+    "surface": "lore"
+   }
+  ],
+  "improper": [
+   {
+    "id": "im",
+    "surface": "im"
+   },
+   {
+    "id": "proper",
+    "surface": "proper"
+   }
+  ],
+  "impurity": [
+   {
+    "id": "impure",
+    "surface": "impur"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "inaccessible": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "accessible",
+    "surface": "accessible"
+   }
+  ],
+  "inaccurate": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "accurate",
+    "surface": "accurate"
+   }
+  ],
+  "incandescent": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "candesco",
+    "surface": "candescent"
+   }
+  ],
+  "incapable": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "capable",
+    "surface": "capable"
+   }
+  ]
+ }
+}

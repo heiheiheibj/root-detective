@@ -1,0 +1,609 @@
+{
+ "_comment": "3.4 六级批 切分 L：第 661–720 词",
+ "splits": {
+  "scarlet": [
+   {
+    "id": "scar",
+    "surface": "scar"
+   },
+   {
+    "id": "let",
+    "surface": "let"
+   }
+  ],
+  "scramble": [
+   {
+    "id": "scramb",
+    "surface": "scramb"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "scripture": [
+   {
+    "id": "script",
+    "surface": "script"
+   },
+   {
+    "id": "ure",
+    "surface": "ure"
+   }
+  ],
+  "secondhand": [
+   {
+    "id": "second",
+    "surface": "second"
+   },
+   {
+    "id": "hand",
+    "surface": "hand"
+   }
+  ],
+  "seemingly": [
+   {
+    "id": "seeming",
+    "surface": "seeming"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "senator": [
+   {
+    "id": "senate",
+    "surface": "senat"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "senseless": [
+   {
+    "id": "sense",
+    "surface": "sense"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "sensitivity": [
+   {
+    "id": "sensitive",
+    "surface": "sensitiv"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "sensor": [
+   {
+    "id": "sense",
+    "surface": "sens"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "setback": [
+   {
+    "id": "set",
+    "surface": "set"
+   },
+   {
+    "id": "back",
+    "surface": "back"
+   }
+  ],
+  "shameful": [
+   {
+    "id": "sham",
+    "surface": "shame"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "sheriff": [
+   {
+    "id": "sh",
+    "surface": "she"
+   },
+   {
+    "id": "riff",
+    "surface": "riff"
+   }
+  ],
+  "shipbuilding": [
+   {
+    "id": "ship",
+    "surface": "ship"
+   },
+   {
+    "id": "building",
+    "surface": "building"
+   }
+  ],
+  "shipment": [
+   {
+    "id": "ship",
+    "surface": "ship"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "shipwreck": [
+   {
+    "id": "ship",
+    "surface": "ship"
+   },
+   {
+    "id": "wrack",
+    "surface": "wreck"
+   }
+  ],
+  "shortcut": [
+   {
+    "id": "short",
+    "surface": "short"
+   },
+   {
+    "id": "cut",
+    "surface": "cut"
+   }
+  ],
+  "shorten": [
+   {
+    "id": "short",
+    "surface": "short"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "shortfall": [
+   {
+    "id": "short",
+    "surface": "short"
+   },
+   {
+    "id": "fall",
+    "surface": "fall"
+   }
+  ],
+  "shorthand": [
+   {
+    "id": "short",
+    "surface": "short"
+   },
+   {
+    "id": "hand",
+    "surface": "hand"
+   }
+  ],
+  "shrewd": [
+   {
+    "id": "shrew",
+    "surface": "shrew"
+   },
+   {
+    "id": "ed",
+    "surface": "d"
+   }
+  ],
+  "shutter": [
+   {
+    "id": "shut",
+    "surface": "shutt"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "similarity": [
+   {
+    "id": "similar",
+    "surface": "similar"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "simultaneously": [
+   {
+    "id": "simultaneous",
+    "surface": "simultaneous"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "sincerity": [
+   {
+    "id": "sincere",
+    "surface": "sincer"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "sittingroom": [
+   {
+    "id": "sitting",
+    "surface": "sitting"
+   },
+   {
+    "id": "room",
+    "surface": "room"
+   }
+  ],
+  "skeptical": [
+   {
+    "id": "skeptic",
+    "surface": "skeptic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "snobbish": [
+   {
+    "id": "snob",
+    "surface": "snobb"
+   },
+   {
+    "id": "ish",
+    "surface": "ish"
+   }
+  ],
+  "sodium": [
+   {
+    "id": "soda",
+    "surface": "sod"
+   },
+   {
+    "id": "ium",
+    "surface": "ium"
+   }
+  ],
+  "soften": [
+   {
+    "id": "soft",
+    "surface": "soft"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "softness": [
+   {
+    "id": "soft",
+    "surface": "soft"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "solidarity": [
+   {
+    "id": "solidary",
+    "surface": "solidar"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "solidify": [
+   {
+    "id": "solid",
+    "surface": "solid"
+   },
+   {
+    "id": "ify",
+    "surface": "ify"
+   }
+  ],
+  "solvable": [
+   {
+    "id": "solve",
+    "surface": "solv"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "sorrowful": [
+   {
+    "id": "sorrow",
+    "surface": "sorrow"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "southwards": [
+   {
+    "id": "south",
+    "surface": "south"
+   },
+   {
+    "id": "wards",
+    "surface": "wards"
+   }
+  ],
+  "spacious": [
+   {
+    "id": "space",
+    "surface": "spac"
+   },
+   {
+    "id": "ious",
+    "surface": "ious"
+   }
+  ],
+  "specifically": [
+   {
+    "id": "specific",
+    "surface": "specific"
+   },
+   {
+    "id": "ally",
+    "surface": "ally"
+   }
+  ],
+  "specification": [
+   {
+    "id": "specific",
+    "surface": "specific"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "spectator": [
+   {
+    "id": "spect",
+    "surface": "spectat"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "spinal": [
+   {
+    "id": "spine",
+    "surface": "spin"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "spokesman": [
+   {
+    "id": "spoke",
+    "surface": "spokes"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "stabilize": [
+   {
+    "id": "stable",
+    "surface": "stabil"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "stagger": [
+   {
+    "id": "stag",
+    "surface": "stagg"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "stairway": [
+   {
+    "id": "stair",
+    "surface": "stair"
+   },
+   {
+    "id": "way",
+    "surface": "way"
+   }
+  ],
+  "standardize": [
+   {
+    "id": "standard",
+    "surface": "standard"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "stationary": [
+   {
+    "id": "station",
+    "surface": "station"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "stereotype": [
+   {
+    "id": "stereo",
+    "surface": "stereo"
+   },
+   {
+    "id": "type",
+    "surface": "type"
+   }
+  ],
+  "stiffness": [
+   {
+    "id": "stiff",
+    "surface": "stiff"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "stillness": [
+   {
+    "id": "still",
+    "surface": "still"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "stockholder": [
+   {
+    "id": "stock",
+    "surface": "stock"
+   },
+   {
+    "id": "holder",
+    "surface": "holder"
+   }
+  ],
+  "straighten": [
+   {
+    "id": "straight",
+    "surface": "straight"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "strangler": [
+   {
+    "id": "strangle",
+    "surface": "strangle"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "streamline": [
+   {
+    "id": "stream",
+    "surface": "stream"
+   },
+   {
+    "id": "line",
+    "surface": "line"
+   }
+  ],
+  "subdivide": [
+   {
+    "id": "sub",
+    "surface": "sub"
+   },
+   {
+    "id": "divide",
+    "surface": "divide"
+   }
+  ],
+  "subdue": [
+   {
+    "id": "sub",
+    "surface": "sub"
+   },
+   {
+    "id": "due",
+    "surface": "due"
+   }
+  ],
+  "subordinate": [
+   {
+    "id": "sub",
+    "surface": "sub"
+   },
+   {
+    "id": "ordin",
+    "surface": "ordin"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "subscript": [
+   {
+    "id": "sub",
+    "surface": "sub"
+   },
+   {
+    "id": "script",
+    "surface": "script"
+   }
+  ],
+  "subscription": [
+   {
+    "id": "script",
+    "surface": "subscript"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "subsequently": [
+   {
+    "id": "subsequent",
+    "surface": "subsequent"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "substantially": [
+   {
+    "id": "substantial",
+    "surface": "substantial"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ]
+ }
+}

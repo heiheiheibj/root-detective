@@ -1,0 +1,765 @@
+{
+ "_comment": "3.4 六级批 新增 63 个前后缀（结构对齐 batch-01：prefixes/suffixes 分开）",
+ "prefixes": [
+  {
+   "id": "alter",
+   "displayText": "alter-",
+   "type": "prefix",
+   "meaningCn": "改变",
+   "allomorphs": [
+    "alter"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "chron",
+   "displayText": "chron-",
+   "type": "prefix",
+   "meaningCn": "时",
+   "allomorphs": [
+    "chron"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "veni",
+   "displayText": "veni-",
+   "type": "prefix",
+   "meaningCn": "人名阿韦尼",
+   "allomorphs": [
+    "vene"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "counter",
+   "displayText": "counter-",
+   "type": "prefix",
+   "meaningCn": "计算器",
+   "allomorphs": [
+    "counter"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "deci",
+   "displayText": "deci-",
+   "type": "prefix",
+   "meaningCn": "计十分之一",
+   "allomorphs": [
+    "deci"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "mal",
+   "displayText": "mal-",
+   "type": "prefix",
+   "meaningCn": "医疾病",
+   "allomorphs": [
+    "mal"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "electro",
+   "displayText": "electro-",
+   "type": "prefix",
+   "meaningCn": "电镀物品",
+   "allomorphs": [
+    "electro"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "eur",
+   "displayText": "eur-",
+   "type": "prefix",
+   "meaningCn": "欧洲",
+   "allomorphs": [
+    "ur"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "epi",
+   "displayText": "epi-",
+   "type": "prefix",
+   "meaningCn": "直沙嘴",
+   "allomorphs": [
+    "epi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "ethno",
+   "displayText": "ethno-",
+   "type": "prefix",
+   "meaningCn": "辨证法人种心理学",
+   "allomorphs": [
+    "ethn"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "exo",
+   "displayText": "exo-",
+   "type": "prefix",
+   "meaningCn": "表多糖",
+   "allomorphs": [
+    "exo"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "ferro",
+   "displayText": "ferro-",
+   "type": "prefix",
+   "meaningCn": "计铁共振",
+   "allomorphs": [
+    "ferro"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "gloss",
+   "displayText": "gloss-",
+   "type": "prefix",
+   "meaningCn": "光彩",
+   "allomorphs": [
+    "gloss"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "god",
+   "displayText": "god-",
+   "type": "prefix",
+   "meaningCn": "上帝",
+   "allomorphs": [
+    "godd",
+    "gos"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "hemi",
+   "displayText": "hemi-",
+   "type": "prefix",
+   "meaningCn": "半",
+   "allomorphs": [
+    "hemi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "hiero",
+   "displayText": "hiero-",
+   "type": "prefix",
+   "meaningCn": "人名",
+   "allomorphs": [
+    "hier"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "hydro",
+   "displayText": "hydro-",
+   "type": "prefix",
+   "meaningCn": "水疗医院",
+   "allomorphs": [
+    "hydro"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "idi",
+   "displayText": "idi-",
+   "type": "prefix",
+   "meaningCn": "以色列钻石协会",
+   "allomorphs": [
+    "idi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "ot",
+   "displayText": "ot-",
+   "type": "prefix",
+   "meaningCn": "泰晤士河上",
+   "allomorphs": [
+    "ot"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "infra",
+   "displayText": "infra-",
+   "type": "prefix",
+   "meaningCn": "在下",
+   "allomorphs": [
+    "infra"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "lip",
+   "displayText": "lip-",
+   "type": "prefix",
+   "meaningCn": "唇",
+   "allomorphs": [
+    "lip"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "mono",
+   "displayText": "mono-",
+   "type": "prefix",
+   "meaningCn": "单声道的",
+   "allomorphs": [
+    "mon",
+    "mono"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "poly",
+   "displayText": "poly-",
+   "type": "prefix",
+   "meaningCn": "理工学院",
+   "allomorphs": [
+    "poly"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "neuro",
+   "displayText": "neuro-",
+   "type": "prefix",
+   "meaningCn": "神经",
+   "allomorphs": [
+    "neuro"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "ortho",
+   "displayText": "ortho-",
+   "type": "prefix",
+   "meaningCn": "原",
+   "allomorphs": [
+    "ortho"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "ox",
+   "displayText": "ox-",
+   "type": "prefix",
+   "meaningCn": "牛",
+   "allomorphs": [
+    "ox"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "pant",
+   "displayText": "pant-",
+   "type": "prefix",
+   "meaningCn": "喘息",
+   "allomorphs": [
+    "pant"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "ped",
+   "displayText": "ped-",
+   "type": "prefix",
+   "meaningCn": "个人设备资料",
+   "allomorphs": [
+    "ped"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "phil",
+   "displayText": "phil-",
+   "type": "prefix",
+   "meaningCn": "哲学",
+   "allomorphs": [
+    "phil"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "physio",
+   "displayText": "physio-",
+   "type": "prefix",
+   "meaningCn": "理疗",
+   "allomorphs": [
+    "physio"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "pluto",
+   "displayText": "pluto-",
+   "type": "prefix",
+   "meaningCn": "冥王星",
+   "allomorphs": [
+    "pluto"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "retro",
+   "displayText": "retro-",
+   "type": "prefix",
+   "meaningCn": "制动火箭",
+   "allomorphs": [
+    "retro"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "stereo",
+   "displayText": "stereo-",
+   "type": "prefix",
+   "meaningCn": "铅版",
+   "allomorphs": [
+    "stereo"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "syn",
+   "displayText": "syn-",
+   "type": "prefix",
+   "meaningCn": "计同步字符",
+   "allomorphs": [
+    "syn"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "theo",
+   "displayText": "theo-",
+   "type": "prefix",
+   "meaningCn": "理论上的",
+   "allomorphs": [
+    "theo"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "of",
+   "displayText": "of-",
+   "type": "prefix",
+   "meaningCn": "的",
+   "allomorphs": [
+    "of"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "thorough",
+   "displayText": "thorough-",
+   "type": "prefix",
+   "meaningCn": "十分的",
+   "allomorphs": [
+    "thorough"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "ultra",
+   "displayText": "ultra-",
+   "type": "prefix",
+   "meaningCn": "过分的",
+   "allomorphs": [
+    "ultra"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "vice",
+   "displayText": "vice-",
+   "type": "prefix",
+   "meaningCn": "恶习",
+   "allomorphs": [
+    "vici"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  }
+ ],
+ "suffixes": [
+  {
+   "id": "cy",
+   "displayText": "-cy",
+   "type": "suffix",
+   "meaningCn": "表示性质",
+   "allomorphs": [
+    "cy"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "icle",
+   "displayText": "-icle",
+   "type": "suffix",
+   "meaningCn": "人名西克",
+   "allomorphs": [
+    "icle"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "clinic",
+   "displayText": "-clinic",
+   "type": "suffix",
+   "meaningCn": "临床",
+   "allomorphs": [
+    "clinic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "uous",
+   "displayText": "-uous",
+   "type": "suffix",
+   "meaningCn": "费力的",
+   "allomorphs": [
+    "uous"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "esy",
+   "displayText": "-esy",
+   "type": "suffix",
+   "meaningCn": "电子系统",
+   "allomorphs": [
+    "esy"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "tort",
+   "displayText": "-tort",
+   "type": "suffix",
+   "meaningCn": "民事侵权行为经侵",
+   "allomorphs": [
+    "tort"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "centric",
+   "displayText": "-centric",
+   "type": "suffix",
+   "meaningCn": "以为中心",
+   "allomorphs": [
+    "centric"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ode",
+   "displayText": "-ode",
+   "type": "suffix",
+   "meaningCn": "表示电极",
+   "allomorphs": [
+    "de"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "fix",
+   "displayText": "-fix",
+   "type": "suffix",
+   "meaningCn": "使固定",
+   "allomorphs": [
+    "fix"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ture",
+   "displayText": "-ture",
+   "type": "suffix",
+   "meaningCn": "油温测量装置",
+   "allomorphs": [
+    "ture"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "path",
+   "displayText": "-path",
+   "type": "suffix",
+   "meaningCn": "道路",
+   "allomorphs": [
+    "path"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "full",
+   "displayText": "-full",
+   "type": "suffix",
+   "meaningCn": "全部",
+   "allomorphs": [
+    "ful"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ization",
+   "displayText": "-ization",
+   "type": "suffix",
+   "meaningCn": "构成以结尾的动词",
+   "allomorphs": [
+    "ization"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "archy",
+   "displayText": "-archy",
+   "type": "suffix",
+   "meaningCn": "表示管理",
+   "allomorphs": [
+    "archy"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "arian",
+   "displayText": "-arian",
+   "type": "suffix",
+   "meaningCn": "构成形容词或名词",
+   "allomorphs": [
+    "arian"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "nap",
+   "displayText": "-nap",
+   "type": "suffix",
+   "meaningCn": "小睡",
+   "allomorphs": [
+    "nap"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "scape",
+   "displayText": "-scape",
+   "type": "suffix",
+   "meaningCn": "景色",
+   "allomorphs": [
+    "scape"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "mans",
+   "displayText": "-mans",
+   "type": "suffix",
+   "meaningCn": "的复数人",
+   "allomorphs": [
+    "mans"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "arch",
+   "displayText": "-arch",
+   "type": "suffix",
+   "meaningCn": "表示原始的",
+   "allomorphs": [
+    "arch"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "anthropy",
+   "displayText": "-anthropy",
+   "type": "suffix",
+   "meaningCn": "医远人症",
+   "allomorphs": [
+    "anthropy"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "logical",
+   "displayText": "-logical",
+   "type": "suffix",
+   "meaningCn": "合逻辑的",
+   "allomorphs": [
+    "logical"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "crat",
+   "displayText": "-crat",
+   "type": "suffix",
+   "meaningCn": "表示参与或支持某",
+   "allomorphs": [
+    "crat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "angular",
+   "displayText": "-angular",
+   "type": "suffix",
+   "meaningCn": "有角的",
+   "allomorphs": [
+    "angular"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "lock",
+   "displayText": "-lock",
+   "type": "suffix",
+   "meaningCn": "锁",
+   "allomorphs": [
+    "lock"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "_comment": "3.4 六级批 新增 2 个词根家族",
+ "families": {
+  "physic": {
+   "roots": [
+    "physic"
+   ],
+   "words": [
+    "physically"
+   ]
+  },
+  "tight": {
+   "roots": [
+    "tight"
+   ],
+   "words": [
+    "tighten",
+    "tightly",
+    "watertight"
+   ]
+  }
+ }
+}

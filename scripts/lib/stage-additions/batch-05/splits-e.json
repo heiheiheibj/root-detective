@@ -1,0 +1,617 @@
+{
+ "_comment": "3.4 六级批 切分 E：第 241–300 词",
+ "splits": {
+  "energize": [
+   {
+    "id": "energy",
+    "surface": "energ"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "engagement": [
+   {
+    "id": "engage",
+    "surface": "engage"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "enrich": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "rich",
+    "surface": "rich"
+   }
+  ],
+  "entail": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "tail",
+    "surface": "tail"
+   }
+  ],
+  "entrepreneur": [
+   {
+    "id": "entreprendre",
+    "surface": "entreprene"
+   },
+   {
+    "id": "eur",
+    "surface": "ur"
+   }
+  ],
+  "environmental": [
+   {
+    "id": "environment",
+    "surface": "environment"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "epidemic": [
+   {
+    "id": "epi",
+    "surface": "epi"
+   },
+   {
+    "id": "dem",
+    "surface": "demic"
+   }
+  ],
+  "equilibrium": [
+   {
+    "id": "equi",
+    "surface": "equi"
+   },
+   {
+    "id": "libr",
+    "surface": "libr"
+   },
+   {
+    "id": "ium",
+    "surface": "ium"
+   }
+  ],
+  "erosion": [
+   {
+    "id": "eros",
+    "surface": "eros"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "eruption": [
+   {
+    "id": "erupt",
+    "surface": "erupt"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "ethical": [
+   {
+    "id": "ethic",
+    "surface": "ethic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "ethnic": [
+   {
+    "id": "ethno",
+    "surface": "ethn"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "evaluation": [
+   {
+    "id": "evaluate",
+    "surface": "evaluat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "evaporation": [
+   {
+    "id": "evaporate",
+    "surface": "evaporat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "evenly": [
+   {
+    "id": "even",
+    "surface": "even"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "everlasting": [
+   {
+    "id": "ever",
+    "surface": "ever"
+   },
+   {
+    "id": "lasting",
+    "surface": "lasting"
+   }
+  ],
+  "evolutionary": [
+   {
+    "id": "evolution",
+    "surface": "evolution"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "exceptional": [
+   {
+    "id": "exception",
+    "surface": "exception"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "excessively": [
+   {
+    "id": "excessive",
+    "surface": "excessive"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "execution": [
+   {
+    "id": "execute",
+    "surface": "execut"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "exotic": [
+   {
+    "id": "exo",
+    "surface": "exo"
+   },
+   {
+    "id": "tic",
+    "surface": "tic"
+   }
+  ],
+  "experimentally": [
+   {
+    "id": "experimental",
+    "surface": "experimental"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "experimentation": [
+   {
+    "id": "experiment",
+    "surface": "experiment"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "exploitation": [
+   {
+    "id": "exploit",
+    "surface": "exploit"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "exploration": [
+   {
+    "id": "explore",
+    "surface": "explor"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "extinction": [
+   {
+    "id": "extinct",
+    "surface": "extinct"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "extract": [
+   {
+    "id": "ex",
+    "surface": "ex"
+   },
+   {
+    "id": "trah",
+    "surface": "tract"
+   }
+  ],
+  "extraction": [
+   {
+    "id": "extract",
+    "surface": "extract"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "extracurricular": [
+   {
+    "id": "extra",
+    "surface": "extra"
+   },
+   {
+    "id": "curricular",
+    "surface": "curricular"
+   }
+  ],
+  "extraordinarily": [
+   {
+    "id": "extraordinary",
+    "surface": "extraordinari"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "extravagant": [
+   {
+    "id": "extra",
+    "surface": "extra"
+   },
+   {
+    "id": "vag",
+    "surface": "vag"
+   },
+   {
+    "id": "ant",
+    "surface": "ant"
+   }
+  ],
+  "fabrication": [
+   {
+    "id": "fabricate",
+    "surface": "fabricat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "faction": [
+   {
+    "id": "fact",
+    "surface": "fact"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "fastener": [
+   {
+    "id": "fasten",
+    "surface": "fasten"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "faultless": [
+   {
+    "id": "fault",
+    "surface": "fault"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "fearless": [
+   {
+    "id": "fear",
+    "surface": "fear"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "fellowship": [
+   {
+    "id": "fellow",
+    "surface": "fellow"
+   },
+   {
+    "id": "ship",
+    "surface": "ship"
+   }
+  ],
+  "ferrous": [
+   {
+    "id": "ferro",
+    "surface": "ferro"
+   },
+   {
+    "id": "ous",
+    "surface": "us"
+   }
+  ],
+  "finely": [
+   {
+    "id": "fine",
+    "surface": "fine"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "firmness": [
+   {
+    "id": "firm",
+    "surface": "firm"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "firstrate": [
+   {
+    "id": "first",
+    "surface": "first"
+   },
+   {
+    "id": "rate",
+    "surface": "rate"
+   }
+  ],
+  "fitness": [
+   {
+    "id": "fit",
+    "surface": "fit"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "fitting": [
+   {
+    "id": "fit",
+    "surface": "fitt"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "fixture": [
+   {
+    "id": "fix",
+    "surface": "fix"
+   },
+   {
+    "id": "ture",
+    "surface": "ture"
+   }
+  ],
+  "flatten": [
+   {
+    "id": "flat",
+    "surface": "flat"
+   },
+   {
+    "id": "ten",
+    "surface": "ten"
+   }
+  ],
+  "flatter": [
+   {
+    "id": "flat",
+    "surface": "flatt"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "fluctuation": [
+   {
+    "id": "fluctuate",
+    "surface": "fluctuat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "fluorescent": [
+   {
+    "id": "fluoresce",
+    "surface": "fluoresce"
+   },
+   {
+    "id": "ent",
+    "surface": "nt"
+   }
+  ],
+  "flutter": [
+   {
+    "id": "float",
+    "surface": "flutt"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "follower": [
+   {
+    "id": "follow",
+    "surface": "follow"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "footpath": [
+   {
+    "id": "foot",
+    "surface": "foot"
+   },
+   {
+    "id": "path",
+    "surface": "path"
+   }
+  ],
+  "formerly": [
+   {
+    "id": "former",
+    "surface": "former"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "formidable": [
+   {
+    "id": "for",
+    "surface": "for"
+   },
+   {
+    "id": "mid",
+    "surface": "mid"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "formulate": [
+   {
+    "id": "formula",
+    "surface": "formula"
+   },
+   {
+    "id": "at",
+    "surface": "te"
+   }
+  ],
+  "formulation": [
+   {
+    "id": "formula",
+    "surface": "formula"
+   },
+   {
+    "id": "tion",
+    "surface": "tion"
+   }
+  ],
+  "forsake": [
+   {
+    "id": "for",
+    "surface": "for"
+   },
+   {
+    "id": "sake",
+    "surface": "sake"
+   }
+  ],
+  "forthcoming": [
+   {
+    "id": "forthcome",
+    "surface": "forthcom"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "freshen": [
+   {
+    "id": "fresh",
+    "surface": "fresh"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "frightful": [
+   {
+    "id": "fright",
+    "surface": "fright"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "fulfill": [
+   {
+    "id": "full",
+    "surface": "ful"
+   },
+   {
+    "id": "fill",
+    "surface": "fill"
+   }
+  ]
+ }
+}

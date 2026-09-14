@@ -1,0 +1,609 @@
+{
+ "_comment": "3.4 六级批 切分 H：第 421–480 词",
+ "splits": {
+  "layman": [
+   {
+    "id": "lay",
+    "surface": "lay"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "leaflet": [
+   {
+    "id": "leaf",
+    "surface": "leaf"
+   },
+   {
+    "id": "let",
+    "surface": "let"
+   }
+  ],
+  "leakage": [
+   {
+    "id": "leak",
+    "surface": "leak"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "lengthen": [
+   {
+    "id": "length",
+    "surface": "length"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "liability": [
+   {
+    "id": "liable",
+    "surface": "liabil"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "lighter": [
+   {
+    "id": "light",
+    "surface": "light"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "likeness": [
+   {
+    "id": "like",
+    "surface": "like"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "limestone": [
+   {
+    "id": "lime",
+    "surface": "lime"
+   },
+   {
+    "id": "stone",
+    "surface": "stone"
+   }
+  ],
+  "linger": [
+   {
+    "id": "long",
+    "surface": "ling"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "linguistic": [
+   {
+    "id": "linguist",
+    "surface": "linguist"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "lipstick": [
+   {
+    "id": "lip",
+    "surface": "lip"
+   },
+   {
+    "id": "stick",
+    "surface": "stick"
+   }
+  ],
+  "literally": [
+   {
+    "id": "literal",
+    "surface": "literal"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "locality": [
+   {
+    "id": "local",
+    "surface": "local"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "lodging": [
+   {
+    "id": "lodge",
+    "surface": "lodg"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "logistics": [
+   {
+    "id": "log",
+    "surface": "log"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   },
+   {
+    "id": "ics",
+    "surface": "ics"
+   }
+  ],
+  "longing": [
+   {
+    "id": "long",
+    "surface": "long"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "longitude": [
+   {
+    "id": "long",
+    "surface": "long"
+   },
+   {
+    "id": "itude",
+    "surface": "itude"
+   }
+  ],
+  "loosely": [
+   {
+    "id": "loose",
+    "surface": "loose"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "luxurious": [
+   {
+    "id": "luxury",
+    "surface": "luxuri"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "magician": [
+   {
+    "id": "magic",
+    "surface": "magic"
+   },
+   {
+    "id": "ian",
+    "surface": "ian"
+   }
+  ],
+  "magnetism": [
+   {
+    "id": "magnet",
+    "surface": "magnet"
+   },
+   {
+    "id": "ism",
+    "surface": "ism"
+   }
+  ],
+  "maiden": [
+   {
+    "id": "maid",
+    "surface": "maid"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "makeup": [
+   {
+    "id": "make",
+    "surface": "make"
+   },
+   {
+    "id": "up",
+    "surface": "up"
+   }
+  ],
+  "malicious": [
+   {
+    "id": "malice",
+    "surface": "malic"
+   },
+   {
+    "id": "ious",
+    "surface": "ious"
+   }
+  ],
+  "malpractice": [
+   {
+    "id": "mal",
+    "surface": "mal"
+   },
+   {
+    "id": "practic",
+    "surface": "practice"
+   }
+  ],
+  "managerial": [
+   {
+    "id": "manager",
+    "surface": "manager"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "manoeuvre": [
+   {
+    "id": "man",
+    "surface": "man"
+   },
+   {
+    "id": "oeuvre",
+    "surface": "oeuvre"
+   }
+  ],
+  "mansion": [
+   {
+    "id": "mans",
+    "surface": "mans"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "marginal": [
+   {
+    "id": "margin",
+    "surface": "margin"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "marshal": [
+   {
+    "id": "mars",
+    "surface": "mars"
+   },
+   {
+    "id": "hal",
+    "surface": "hal"
+   }
+  ],
+  "marxism": [
+   {
+    "id": "marx",
+    "surface": "marx"
+   },
+   {
+    "id": "ism",
+    "surface": "ism"
+   }
+  ],
+  "masculinity": [
+   {
+    "id": "masculine",
+    "surface": "masculin"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "massacre": [
+   {
+    "id": "mass",
+    "surface": "mass"
+   },
+   {
+    "id": "acre",
+    "surface": "acre"
+   }
+  ],
+  "maturation": [
+   {
+    "id": "mature",
+    "surface": "matur"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "maturity": [
+   {
+    "id": "mature",
+    "surface": "matur"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "meaningful": [
+   {
+    "id": "meaning",
+    "surface": "meaning"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "membership": [
+   {
+    "id": "member",
+    "surface": "member"
+   },
+   {
+    "id": "ship",
+    "surface": "ship"
+   }
+  ],
+  "merchandise": [
+   {
+    "id": "merchant",
+    "surface": "merchand"
+   },
+   {
+    "id": "ise",
+    "surface": "ise"
+   }
+  ],
+  "metallic": [
+   {
+    "id": "metal",
+    "surface": "metall"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "meteorite": [
+   {
+    "id": "meteor",
+    "surface": "meteor"
+   },
+   {
+    "id": "it",
+    "surface": "ite"
+   }
+  ],
+  "microprocessor": [
+   {
+    "id": "micro",
+    "surface": "micro"
+   },
+   {
+    "id": "processor",
+    "surface": "processor"
+   }
+  ],
+  "microscopic": [
+   {
+    "id": "microscope",
+    "surface": "microscop"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "mingle": [
+   {
+    "id": "ming",
+    "surface": "ming"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "minimal": [
+   {
+    "id": "minimum",
+    "surface": "minim"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "minimize": [
+   {
+    "id": "minimus",
+    "surface": "minim"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "misery": [
+   {
+    "id": "mis",
+    "surface": "mis"
+   },
+   {
+    "id": "ery",
+    "surface": "ery"
+   }
+  ],
+  "misfortune": [
+   {
+    "id": "mis",
+    "surface": "mis"
+   },
+   {
+    "id": "fortune",
+    "surface": "fortune"
+   }
+  ],
+  "missionary": [
+   {
+    "id": "mission",
+    "surface": "mission"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "mixer": [
+   {
+    "id": "mix",
+    "surface": "mix"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "moderately": [
+   {
+    "id": "moderate",
+    "surface": "moderate"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "modification": [
+   {
+    "id": "modify",
+    "surface": "modif"
+   },
+   {
+    "id": "ication",
+    "surface": "ication"
+   }
+  ],
+  "modulate": [
+   {
+    "id": "module",
+    "surface": "modul"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "momentary": [
+   {
+    "id": "moment",
+    "surface": "moment"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "monarch": [
+   {
+    "id": "mono",
+    "surface": "mon"
+   },
+   {
+    "id": "arch",
+    "surface": "arch"
+   }
+  ],
+  "monopoly": [
+   {
+    "id": "mono",
+    "surface": "mono"
+   },
+   {
+    "id": "poly",
+    "surface": "poly"
+   }
+  ],
+  "monster": [
+   {
+    "id": "mons",
+    "surface": "mons"
+   },
+   {
+    "id": "ter",
+    "surface": "ter"
+   }
+  ],
+  "monstrous": [
+   {
+    "id": "monster",
+    "surface": "monstr"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "morality": [
+   {
+    "id": "moral",
+    "surface": "moral"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "motorway": [
+   {
+    "id": "motor",
+    "surface": "motor"
+   },
+   {
+    "id": "way",
+    "surface": "way"
+   }
+  ],
+  "multiplication": [
+   {
+    "id": "multiplicate",
+    "surface": "multiplicat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ]
+ }
+}
