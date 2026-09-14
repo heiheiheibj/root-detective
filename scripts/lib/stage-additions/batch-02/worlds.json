@@ -1,5 +1,5 @@
 {
- "_comment": "3.1 中考批新增 11 个世界（+ 已有 12 个 = 23），覆盖本批 62 个教学词根家族。边界说明：① 世界按批次增量，本批只挂已进词库的词根；② 只有**教学词根**才建家族、才挂世界 —— 零件词根（`sorbe`/`enda` 这类出现 1-2 次的碎片或变体）不建家族，否则两百多个碎片会被 A24 拖进世界；③ 本批 62 个里既有拉丁词根（act/tain/sent），也有普通英语构词部件（day/book/sea）—— 后者确实是学生的构词零件（daytime/birthday），该有主题归属。",
+ "_comment": "3.1 中考批新增 11 个世界（+ 已有 12 个 = 23），覆盖本批 62 个教学词根家族。边界说明：① 世界按批次增量，本批只挂已进词库的词根；② 只有**教学词根**才建家族、才挂世界 —— 零件词根（`sorbe`/`enda` 这类出现 1-2 次的碎片或变体）不建家族，否则两百多个碎片会被 A24 拖进世界；③ 本批 62 个里既有拉丁词根（act/tain/sent），也有普通英语构词部件（day/book/sea）—— 后者确实是学生的构词零件（daytime/birthday），该有主题归属。④ 行止院后面补进的 `gress` 来自 3.4 六级批：词素 id 合并把 `aggress`（aggression/aggressive）并进 `gress`（progress/congress），家族从 2 词涨到 4 词、升级成教学词根，按词义（走、步）归到这一院。",
  "worlds": [
   {
    "id": "day-room",
@@ -29,7 +29,7 @@
   {
    "id": "motion-yard",
    "name": "行止院",
-   "morphemeIds": ["act", "ceed", "pass", "turn", "cycle", "stand"]
+   "morphemeIds": ["act", "ceed", "pass", "turn", "cycle", "stand", "gress"]
   },
   {
    "id": "sense-gallery",

@@ -210,14 +210,15 @@
   {
     "id": "motion-yard",
     "name": "行止院",
-    "description": "学习词根：act、ceed、pass、turn、cycle、stand（行止院）",
+    "description": "学习词根：act、ceed、pass、turn、cycle、stand、gress（行止院）",
     "morphemeIds": [
       "act",
       "ceed",
       "pass",
       "turn",
       "cycle",
-      "stand"
+      "stand",
+      "gress"
     ]
   },
   {
@@ -367,7 +368,7 @@
   {
     "id": "reading-loft",
     "name": "识读阁",
-    "description": "学习词根：sign、mark、distinct、consider、correct、text、detect、sight、rest（识读阁）",
+    "description": "学习词根：sign、mark、distinct、consider、correct、text、detect、sight、rest、note（识读阁）",
     "morphemeIds": [
       "sign",
       "mark",
@@ -377,7 +378,8 @@
       "text",
       "detect",
       "sight",
-      "rest"
+      "rest",
+      "note"
     ]
   },
   {

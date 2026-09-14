@@ -102,6 +102,83 @@ for (const batch of batches) {
   }
 }
 
+// ── 词素 id 合并：同一个词根被登记成两条记录 ──────────────────────────────────────
+//
+// 21 号按 cigen 给的词根拼法定 id，而 cigen 对不同词给的拼法不一样 —— 同一个拉丁词根会散成
+// 两条词素记录，各自带显示名和义项。后果是词详情页里同一词根出现两个名字：拼 distract 显示
+// 「trah」、拼 extract 显示「tract」；两条都挂了世界时地图上还会出两张卡。
+//
+// 只在「两条记录确实是同一个东西」时合并。家族里混了两个词源的不合并（见下面 WORD_PART_FIX）：
+// 那是切分指错了词根，该改切分，合并只会把两种意思焊到一张卡上。
+const MORPHEME_MERGE = {
+  trah: 'tract', // distract/extract 落在 trah，attract/contract 落在 tract —— 同一词根 trah-
+  puls: 'pel', // propulsion 落在 puls；pel 的变体表里本来就有 puls/pulse
+  dc: 'duce', // induce 落在 dc（cigen 给的缩写）
+  aggress: 'gress', // aggression/aggressive 落在 aggress —— 词根本体是 gress（走）
+  minimum: 'minim', // minimal 落在 minimum
+  minimus: 'minim', // minimize 落在 minimus
+  passer: 'pass', // passport 落在 passer —— 词根本体是 pass（经过）
+  active: 'act', // activity/radioactive 落在 active —— 词根本体是 act（做）
+}
+
+// 切分修正：把词指回**正确的**词根（不是合并记录）。
+// `not` 家族混了两个词源 —— notice/notation 是词根 not-（知道），neither/notwithstanding 是
+// 副词 not（不）。四个词原先都挂在 not 下，一张卡得同时管「知道」和「不」两种意思。
+// notice/notation 改挂 note（知道、标记）之后，两条记录各自都正确，也就没有「同一词根两张卡」。
+const WORD_PART_FIX = {
+  notice: { not: 'note' },
+  notation: { not: 'note' },
+}
+
+// 「冰」的词素被登记成 id=iced（`ice` 这个 id 被名词后缀 -ice 占着，notice/police/justice 在用）。
+// 语义没错，只是显示名 `iced` 不像是「冰」。注意：它现在**没有实际落到产物里** —— 唯一用它的
+// 词是 icecream，而 icecream 不在词库里（splits 里有、20 号没选进来），所以这个词素本身也没被
+// 40 号产出来。留着这条是给 icecream 将来进词库时预备的，改一行显示名比事后查快。
+const DISPLAY_FIX = { iced: { displayText: 'ice' } }
+
+const rewritten = []
+for (const [word, parts] of Object.entries(allSplits)) {
+  for (const part of parts) {
+    const target = WORD_PART_FIX[word]?.[part.id] || MORPHEME_MERGE[part.id]
+    if (!target) continue
+    rewritten.push(`${word}: ${part.id} → ${target}`)
+    part.id = target
+  }
+}
+if (rewritten.length) console.log(`词素 id 合并/改写 ${rewritten.length} 处：\n  ${rewritten.join('\n  ')}`)
+
+// 受影响词素的变体表重算：目标词素要收下原先落在源 id 上的表面（A6 要求 part.surface ∈
+// allomorphs），源 id 上不再被用到的变体也要摘掉（否则 A22 报「死变体」—— notation 改挂 note
+// 之后，not 的 `notat` 就是这种）。
+const touched = new Set([
+  ...Object.keys(MORPHEME_MERGE),
+  ...Object.values(MORPHEME_MERGE),
+  ...Object.keys(DISPLAY_FIX),
+  // WORD_PART_FIX 的两侧都要收：改挂之后源词素会掉一个变体（notation 走了，not 的 `notat`
+  // 就没人用了），目标词素会多一个 —— 只收目标那一侧会漏掉前者。
+  ...Object.values(WORD_PART_FIX).flatMap((fix) => [...Object.keys(fix), ...Object.values(fix)]),
+])
+const usedSurfaces = new Map()
+for (const parts of Object.values(allSplits)) {
+  for (const part of parts) {
+    if (!touched.has(part.id)) continue
+    if (!usedSurfaces.has(part.id)) usedSurfaces.set(part.id, new Set())
+    usedSurfaces.get(part.id).add(part.surface)
+  }
+}
+for (const m of extraMorphemes) {
+  if (DISPLAY_FIX[m.id]) Object.assign(m, DISPLAY_FIX[m.id])
+  const used = usedSurfaces.get(m.id)
+  if (!used) continue
+  const kept = m.allomorphs.filter((surface) => used.has(surface))
+  m.allomorphs = [...new Set([...kept, ...used])]
+}
+// 源 id 的记录整条删掉：已经没有任何切分指向它们（下面「完整性自检」会兜底验证这一点）
+const droppedIds = new Set(Object.keys(MORPHEME_MERGE).filter((id) => !(id in DISPLAY_FIX)))
+for (let i = extraMorphemes.length - 1; i >= 0; i -= 1) {
+  if (droppedIds.has(extraMorphemes[i].id)) extraMorphemes.splice(i, 1)
+}
+
 // 兜底义项：A20 要求 meaningCn 是 1–8 汉字。词素来自三处（stage1 的 extraMorphemes、
 // 各批 morphemes-roots、各批 morphemes-affixes），任何一处都可能带进没义项的词根或前后缀
 // （where/be/for/im/sist/tend…）。在这里统一兜一次，比在每个生成器里各补一遍可靠。

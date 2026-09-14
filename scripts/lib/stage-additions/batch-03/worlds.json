@@ -1,5 +1,5 @@
 {
- "_comment": "3.2 高考批新增 9 个世界（+ 之前 23 个 = 32），覆盖本批全部教学词根家族。口径同 batch-02：世界按批次增量，只挂本批已进词库的词根；families 只对教学词根建，零件词根不上地图。",
+ "_comment": "3.2 高考批新增 9 个世界（+ 之前 23 个 = 32），覆盖本批全部教学词根家族。口径同 batch-02：世界按批次增量，只挂本批已进词库的词根；families 只对教学词根建，零件词根不上地图。识读阁后面补进的 `note` 来自 3.4 六级批的切分修正：notice/notation 原先误挂在 `not`（那张卡要同时管词根 not-(知道) 和副词 not(不) 两种意思），改挂 `note`(知道、标记) 后两条记录各自正确，note 家族涨到 4 词、升级成教学词根，按词义归到这里（sign/mark/detect 同族）；`not` 留在明辨堂管 neither/notwithstanding。",
  "worlds": [
   {
    "id": "market-lane",
@@ -34,7 +34,7 @@
   {
    "id": "reading-loft",
    "name": "识读阁",
-   "morphemeIds": ["sign", "mark", "distinct", "consider", "correct", "text", "detect", "sight", "rest"]
+   "morphemeIds": ["sign", "mark", "distinct", "consider", "correct", "text", "detect", "sight", "rest", "note"]
   },
   {
    "id": "lumber-store",

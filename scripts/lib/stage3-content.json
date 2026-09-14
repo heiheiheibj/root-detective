@@ -5371,7 +5371,7 @@
   ],
   "activity": [
    {
-    "id": "active",
+    "id": "act",
     "surface": "activ"
    },
    {
@@ -7915,7 +7915,7 @@
   ],
   "notice": [
    {
-    "id": "not",
+    "id": "note",
     "surface": "not"
    },
    {
@@ -8055,7 +8055,7 @@
   ],
   "passport": [
    {
-    "id": "passer",
+    "id": "pass",
     "surface": "pass"
    },
    {
@@ -9819,7 +9819,7 @@
   ],
   "aggression": [
    {
-    "id": "aggress",
+    "id": "gress",
     "surface": "aggress"
    },
    {
@@ -9829,7 +9829,7 @@
   ],
   "aggressive": [
    {
-    "id": "aggress",
+    "id": "gress",
     "surface": "aggress"
    },
    {
@@ -15851,7 +15851,7 @@
     "surface": "radio"
    },
    {
-    "id": "active",
+    "id": "act",
     "surface": "active"
    }
   ],
@@ -28283,7 +28283,7 @@
     "surface": "dis"
    },
    {
-    "id": "trah",
+    "id": "tract",
     "surface": "tract"
    }
   ],
@@ -28827,7 +28827,7 @@
     "surface": "ex"
    },
    {
-    "id": "trah",
+    "id": "tract",
     "surface": "tract"
    }
   ],
@@ -29883,7 +29883,7 @@
     "surface": "in"
    },
    {
-    "id": "dc",
+    "id": "duce",
     "surface": "duce"
    }
   ],
@@ -30817,7 +30817,7 @@
   ],
   "minimal": [
    {
-    "id": "minimum",
+    "id": "minim",
     "surface": "minim"
    },
    {
@@ -30827,7 +30827,7 @@
   ],
   "minimize": [
    {
-    "id": "minimus",
+    "id": "minim",
     "surface": "minim"
    },
    {
@@ -31097,7 +31097,7 @@
   ],
   "notation": [
    {
-    "id": "not",
+    "id": "note",
     "surface": "notat"
    },
    {
@@ -32211,7 +32211,7 @@
     "surface": "pro"
    },
    {
-    "id": "puls",
+    "id": "pel",
     "surface": "puls"
    },
    {
@@ -36375,23 +36375,12 @@
    "meaningCn": "做、行动",
    "allomorphs": [
     "act",
-    "actu"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "orange"
-  },
-  {
-   "id": "active",
-   "displayText": "active",
-   "type": "root",
-   "meaningCn": "做、行动",
-   "allomorphs": [
+    "actu",
     "activ",
     "active"
    ],
    "etymology": "",
-   "level": 3,
+   "level": 1,
    "color": "orange"
   },
   {
@@ -38240,9 +38229,9 @@
   },
   {
    "id": "iced",
-   "displayText": "iced",
+   "displayText": "ice",
    "type": "root",
-   "meaningCn": "冰冷的",
+   "meaningCn": "冰",
    "allomorphs": [
     "ice"
    ],
@@ -38835,12 +38824,11 @@
    "id": "not",
    "displayText": "not",
    "type": "root",
-   "meaningCn": "知道、标记",
+   "meaningCn": "不",
    "allomorphs": [
     "not",
     "n",
-    "no",
-    "notat"
+    "no"
    ],
    "etymology": "",
    "level": 3,
@@ -38937,7 +38925,8 @@
    "meaningCn": "知道、标记",
    "allomorphs": [
     "not",
-    "note"
+    "note",
+    "notat"
    ],
    "etymology": "",
    "level": 3,
@@ -39039,18 +39028,6 @@
    ],
    "etymology": "",
    "level": 1,
-   "color": "orange"
-  },
-  {
-   "id": "passer",
-   "displayText": "passer",
-   "type": "root",
-   "meaningCn": "经过",
-   "allomorphs": [
-    "pass"
-   ],
-   "etymology": "",
-   "level": 3,
    "color": "orange"
   },
   {
@@ -39192,7 +39169,8 @@
    "type": "root",
    "meaningCn": "走、步",
    "allomorphs": [
-    "gress"
+    "gress",
+    "aggress"
    ],
    "etymology": "",
    "level": 3,
@@ -42140,18 +42118,6 @@
    "meaningCn": "待办",
    "allomorphs": [
     "enda"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "orange"
-  },
-  {
-   "id": "aggress",
-   "displayText": "aggress",
-   "type": "root",
-   "meaningCn": "攻击",
-   "allomorphs": [
-    "aggress"
    ],
    "etymology": "",
    "level": 3,
@@ -58209,18 +58175,6 @@
    "color": "orange"
   },
   {
-   "id": "trah",
-   "displayText": "trah",
-   "type": "root",
-   "meaningCn": "拉、拖",
-   "allomorphs": [
-    "tract"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "orange"
-  },
-  {
    "id": "verge",
    "displayText": "verge",
    "type": "root",
@@ -59434,18 +59388,6 @@
    "color": "orange"
   },
   {
-   "id": "dc",
-   "displayText": "dc",
-   "type": "root",
-   "meaningCn": "引导",
-   "allomorphs": [
-    "duce"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "orange"
-  },
-  {
    "id": "induct",
    "displayText": "induct",
    "type": "root",
@@ -60209,30 +60151,6 @@
    "meaningCn": "明朝",
    "allomorphs": [
     "ming"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "orange"
-  },
-  {
-   "id": "minimum",
-   "displayText": "minimum",
-   "type": "root",
-   "meaningCn": "最小",
-   "allomorphs": [
-    "minim"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "orange"
-  },
-  {
-   "id": "minimus",
-   "displayText": "minimus",
-   "type": "root",
-   "meaningCn": "最小",
-   "allomorphs": [
-    "minim"
    ],
    "etymology": "",
    "level": 3,
@@ -61073,19 +60991,6 @@
    "meaningCn": "推进",
    "allomorphs": [
     "propell"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "orange"
-  },
-  {
-   "id": "puls",
-   "displayText": "puls",
-   "type": "root",
-   "meaningCn": "驱动、推",
-   "allomorphs": [
-    "puls",
-    "pulse"
    ],
    "etymology": "",
    "level": 3,
@@ -63565,7 +63470,8 @@
     "pass",
     "turn",
     "cycle",
-    "stand"
+    "stand",
+    "gress"
    ]
   },
   {
@@ -63713,7 +63619,8 @@
     "text",
     "detect",
     "sight",
-    "rest"
+    "rest",
+    "note"
    ]
   },
   {

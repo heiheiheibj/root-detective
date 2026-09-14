@@ -85,9 +85,14 @@ export const OVERRIDE_MEANINGS = {
   // 后缀/前缀：同样撞上了缩写词条
   semi: '半', milli: '千分之一', multi: '多', iso: '相等', uum: '名词词尾',
   ency: '名词后缀', sion: '名词后缀', um: '名词后缀',
-  // 3.4 六级批的同根变体：这些 id 拼法来自 cigen，各自需要独立义项（第 1 层合并前先兜对）
-  aggress: '攻击', note: '知道、标记', not: '知道、标记', active: '做、行动',
-  courage: '心', just: '判断、公正', passer: '经过',
+  // 同根变体：这些 id 的拼法来自 cigen（同一词根散成两条记录），第 1/2 层合并前先各兜对义项。
+  // 标注「合并后作废」的条目在 id 合并之后就没有记录会用到，留着是防合并被回退时义项又变回垃圾。
+  aggress: '攻击',                              // 合并后作废（并入 gress）
+  active: '做、行动',                            // 合并后作废（并入 act）
+  passer: '经过',                                // 合并后作废（并入 pass）
+  note: '知道、标记', not: '不',                 // 不合并：notice/notation 是词根 not-(知道)，neither/notwithstanding 是副词 not(不)
+  courage: '心', just: '判断、公正',             // 第 2 层合并（courage→cor、just→jud）
+  iced: '冰',                                   // 不是 not 家族：icecream = ice + cream
 }
 
 /**
