@@ -1,483 +1,483 @@
 {
- "_comment": "Stage 3 待写释义（batch-30，本批 60 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "_comment": "Stage 3 待写释义（batch-30，本批 60 词，四级批第 6 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
  "maintenance": {
   "modernMeaningCn": "维护",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一直托着的活",
+  "metaphorMeaningCn": "维护、保养",
+  "metaphorOptions": ["维护、保养", "弃之不顾", "任其荒废"],
+  "mnemonicNote": "mainten(保持)+ance：定期上油、常换零件",
+  "sourceNote": "古法语 maintenir(保持) + -ance"
  },
  "management": {
-  "modernMeaningCn": "经营",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "管理",
+  "literalMeaningCn": "张罗事情这件事",
+  "metaphorMeaningCn": "管理、管理层",
+  "metaphorOptions": ["管理、管理层", "放任不管", "撒手不管"],
+  "mnemonicNote": "manage(张罗)+ment：人财物怎么调配那一摊",
+  "sourceNote": "意大利 maneggiare(驾驭、掌管) + -ment"
  },
  "marvelous": {
   "modernMeaningCn": "令人惊异的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "叫人称奇的",
+  "metaphorMeaningCn": "了不起的、绝妙的",
+  "metaphorOptions": ["了不起的、绝妙的", "平平无奇的", "乏善可陈的"],
+  "mnemonicNote": "marvel(惊奇)+ous：看完忍不住连声叫好",
+  "sourceNote": "古法语 merveille(奇事) + -ous"
  },
  "marxist": {
-  "modernMeaningCn": "马克思主义的马克",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "马克思主义的",
+  "literalMeaningCn": "信奉那一学说的",
+  "metaphorMeaningCn": "马克思主义的、马克思主义者",
+  "metaphorOptions": ["马克思主义的、马克思主义者", "无政府主义者", "保守派"],
+  "mnemonicNote": "marx(马克思)+ist：主张那一套学说的人",
+  "sourceNote": "德语 Marxist，源自 Karl Marx 之名"
  },
  "massive": {
-  "modernMeaningCn": "大而重的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "巨大的",
+  "literalMeaningCn": "一大坨的",
+  "metaphorMeaningCn": "巨大的、大量的",
+  "metaphorOptions": ["巨大的、大量的", "细如毫发的", "微不足道的"],
+  "mnemonicNote": "mass(块)+ive：一整块压在那儿，挪都挪不动",
+  "sourceNote": "拉丁 massa(团块) + -ive"
  },
  "masterpiece": {
   "modernMeaningCn": "杰作",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "出自大师之手那件",
+  "metaphorMeaningCn": "杰作、代表作",
+  "metaphorOptions": ["杰作、代表作", "习作", "草稿"],
+  "mnemonicNote": "master(大师)+piece(作品)：一生里最拿得出手那一件",
+  "sourceNote": "荷兰语 meesterstuk，meester(大师) + stuk(作品)"
  },
  "materialism": {
   "modernMeaningCn": "唯物主义",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "以物质为本的学说",
+  "metaphorMeaningCn": "唯物主义、物质主义",
+  "metaphorOptions": ["唯物主义、物质主义", "唯心主义", "禁欲主义"],
+  "mnemonicNote": "material(物质)+ism：认定先有物、后有心的那派",
+  "sourceNote": "拉丁 materialis，materia(物质) + -ism"
  },
  "meantime": {
-  "modernMeaningCn": "间隔时间",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "其间",
+  "literalMeaningCn": "两事中间那段",
+  "metaphorMeaningCn": "其间、同时",
+  "metaphorOptions": ["其间、同时", "很久以后", "事过境迁"],
+  "mnemonicNote": "mean(中间)+time(时间)：两件事当中那一截",
+  "sourceNote": "中古英语 mean(中间) + time"
  },
  "measurable": {
   "modernMeaningCn": "可测量的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "量得出来的",
+  "metaphorMeaningCn": "可测量的、显著的",
+  "metaphorOptions": ["可测量的、显著的", "无从计量的", "难以捉摸的"],
+  "mnemonicNote": "measur(量度)+able：往尺子上一放就有数",
+  "sourceNote": "古法语 mesurer(量度) + -able"
  },
  "measurement": {
-  "modernMeaningCn": "尺寸",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "测量",
+  "literalMeaningCn": "量出来的数",
+  "metaphorMeaningCn": "测量、尺寸",
+  "metaphorOptions": ["测量、尺寸", "估计", "目测"],
+  "mnemonicNote": "measure(量度)+ment：长宽高一量就出来了",
+  "sourceNote": "古法语 mesurer(量度) + -ment"
  },
  "mechanical": {
   "modernMeaningCn": "机械的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "靠齿轮转的",
+  "metaphorMeaningCn": "机械的、呆板的",
+  "metaphorOptions": ["机械的、呆板的", "灵巧的", "随机应变的"],
+  "mnemonicNote": "mechanic(机工)+al：全靠齿轮连杆带动的",
+  "sourceNote": "希腊 mekhanikos，mekhane(装置)"
  },
  "mechanically": {
-  "modernMeaningCn": "机械",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "机械地",
+  "literalMeaningCn": "像机器那样",
+  "metaphorMeaningCn": "机械地、呆板地",
+  "metaphorOptions": ["机械地、呆板地", "灵活地", "随机应变地"],
+  "mnemonicNote": "mechanical(机工的)+ly：一下一下像上了发条",
+  "sourceNote": "希腊 mekhanikos(机巧的) + -ly"
  },
  "millimetre": {
-  "modernMeaningCn": "毫米机公厘",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "毫米",
+  "literalMeaningCn": "千分之一米",
+  "metaphorMeaningCn": "毫米、公厘",
+  "metaphorOptions": ["毫米、公厘", "公里", "厘米"],
+  "mnemonicNote": "milli(千分之一)+metre(米)：尺子上最细那几格",
+  "sourceNote": "法语 millimètre，milli-(千分之一) + mètre(米)"
  },
  "miserable": {
-  "modernMeaningCn": "悲惨的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "痛苦的",
+  "literalMeaningCn": "让人生怜的",
+  "metaphorMeaningCn": "痛苦的、悲惨的",
+  "metaphorOptions": ["痛苦的、悲惨的", "舒心惬意的", "得意洋洋的"],
+  "mnemonicNote": "miser(可怜)+able：日子过得没一点盼头",
+  "sourceNote": "拉丁 miserabilis，miser(可怜)"
  },
  "mislead": {
   "modernMeaningCn": "误导",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "引错方向",
+  "metaphorMeaningCn": "误导、使误解",
+  "metaphorOptions": ["误导、使误解", "指条明路", "据实相告"],
+  "mnemonicNote": "mis(错)+lead(引导)：把话往岔道上带",
+  "sourceNote": "古英语 mis-(错) + lædan(引导)"
  },
  "missing": {
-  "modernMeaningCn": "不见的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "失踪的",
+  "literalMeaningCn": "该在却没在",
+  "metaphorMeaningCn": "失踪的、缺失的",
+  "metaphorOptions": ["失踪的、缺失的", "在场", "完好无缺的"],
+  "mnemonicNote": "miss(缺失)+ing：点名的时候没人应",
+  "sourceNote": "古英语 missan(错过) + -ing"
  },
  "mister": {
   "modernMeaningCn": "先生",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "对男子的称呼",
+  "metaphorMeaningCn": "先生、阁下",
+  "metaphorOptions": ["先生、阁下", "女士", "小姐"],
+  "mnemonicNote": "mist(称呼)+er：信抬头那两个字母",
+  "sourceNote": "master 的弱化形式，16 世纪起作称呼"
  },
  "moderate": {
   "modernMeaningCn": "适度的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "守着分寸的",
+  "metaphorMeaningCn": "适度的、温和的",
+  "metaphorOptions": ["适度的、温和的", "极端的", "过火的"],
+  "mnemonicNote": "mode(分寸)+rate：不偏不倚，刚刚好",
+  "sourceNote": "拉丁 moderatus，modus(尺度)"
  },
  "moisture": {
   "modernMeaningCn": "湿气",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "潮潮的那点水",
+  "metaphorMeaningCn": "湿气、水分",
+  "metaphorOptions": ["湿气、水分", "干旱", "燥热"],
+  "mnemonicNote": "moist(潮润)+ure：墙角那一层潮乎乎的水汽",
+  "sourceNote": "古法语 moiste(潮润) + -ure"
  },
  "monthly": {
-  "modernMeaningCn": "月刊每月的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "每月的",
+  "literalMeaningCn": "按月来的",
+  "metaphorMeaningCn": "每月的、月刊",
+  "metaphorOptions": ["每月的、月刊", "每日的", "每年的"],
+  "mnemonicNote": "month(月)+ly：一到月底就出一期",
+  "sourceNote": "古英语 monath(月) + -ly"
  },
  "multiple": {
-  "modernMeaningCn": "倍数",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "多个的",
+  "literalMeaningCn": "折了好几叠",
+  "metaphorMeaningCn": "多个的、多重的",
+  "metaphorOptions": ["多个的、多重的", "单一的", "唯一的"],
+  "mnemonicNote": "multi(多)+ple(折)：折了好几叠，不止一层",
+  "sourceNote": "拉丁 multiplex，multus(多) + plicare(折)"
  },
  "murderer": {
   "modernMeaningCn": "凶手",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "下了毒手的人",
+  "metaphorMeaningCn": "凶手、杀人犯",
+  "metaphorOptions": ["凶手、杀人犯", "受害人家属", "现场目击者"],
+  "mnemonicNote": "murder(谋杀)+er(人)：动了刀子的那位",
+  "sourceNote": "古英语 morþor(谋杀) + -er"
  },
  "mysterious": {
   "modernMeaningCn": "神秘的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "摸不着底的",
+  "metaphorMeaningCn": "神秘的、难以理解的",
+  "metaphorOptions": ["神秘的、难以理解的", "一望便知的", "直白无隐的"],
+  "mnemonicNote": "mysteri(隐奥)+ous：问十句答不上一句",
+  "sourceNote": "希腊 mysterion，mystes(入门者)"
  },
  "namely": {
   "modernMeaningCn": "即",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "点上名的那个",
+  "metaphorMeaningCn": "也就是、具体说来",
+  "metaphorOptions": ["也就是、具体说来", "除此之外", "恰恰相反"],
+  "mnemonicNote": "name(名称)+ly：把那个名字直接点出来",
+  "sourceNote": "中古英语 nameliche，name + -ly"
  },
  "naturally": {
   "modernMeaningCn": "自然地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "顺着本性来",
+  "metaphorMeaningCn": "自然地、当然",
+  "metaphorOptions": ["自然地、当然", "刻意为之", "勉勉强强地"],
+  "mnemonicNote": "natural(天然)+ly：不刻意，顺着性子走",
+  "sourceNote": "拉丁 naturalis，natura(本性) + -ly"
  },
  "naval": {
   "modernMeaningCn": "海军的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "与舰船有关",
+  "metaphorMeaningCn": "海军的、军舰的",
+  "metaphorOptions": ["海军的、军舰的", "陆军的", "空军的"],
+  "mnemonicNote": "nav(船)+al：舰队那一整摊",
+  "sourceNote": "拉丁 navalis，navis(船)"
  },
  "navigation": {
   "modernMeaningCn": "航行",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "驾船走这条道",
+  "metaphorMeaningCn": "航行、导航",
+  "metaphorOptions": ["航行、导航", "停泊", "搁浅"],
+  "mnemonicNote": "navigat(驾船)+ion：看着星辨着向往前走",
+  "sourceNote": "拉丁 navigatio，navigare(驾船)"
  },
  "necessarily": {
   "modernMeaningCn": "必然地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "少不得地",
+  "metaphorMeaningCn": "必然地、必定",
+  "metaphorOptions": ["必然地、必定", "纯属巧合", "未必如此"],
+  "mnemonicNote": "necessari(必要)+ly：绕不过去的那一环",
+  "sourceNote": "拉丁 necessarius(必要的) + -ly"
  },
  "needless": {
-  "modernMeaningCn": "不需要的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "不必要的",
+  "literalMeaningCn": "不必的",
+  "metaphorMeaningCn": "不必要的、多余的",
+  "metaphorOptions": ["不必要的、多余的", "缺它不可的", "必不可少的"],
+  "mnemonicNote": "need(需要)+less(无)：这钱花得没道理",
+  "sourceNote": "古英语 nead(需要) + -less(无)"
  },
  "neighborhood": {
-  "modernMeaningCn": "附近",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "街区",
+  "literalMeaningCn": "左邻右舍这一圈",
+  "metaphorMeaningCn": "街区、邻近地区",
+  "metaphorOptions": ["街区、邻近地区", "异乡", "远方"],
+  "mnemonicNote": "neighbor(邻居)+hood：前后几条街加上四邻",
+  "sourceNote": "古英语 neahgebur(邻居) + -hood"
  },
  "neutral": {
-  "modernMeaningCn": "中立者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "中立的",
+  "literalMeaningCn": "不偏哪一边",
+  "metaphorMeaningCn": "中立的、中性的",
+  "metaphorOptions": ["中立的、中性的", "偏袒一方的", "旗帜鲜明"],
+  "mnemonicNote": "neutr(两者皆非)+al：两边都不站",
+  "sourceNote": "拉丁 neutralis，neuter(两者皆非)"
  },
  "nevertheless": {
   "modernMeaningCn": "然而",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "尽管如此",
+  "metaphorMeaningCn": "然而、不过",
+  "metaphorOptions": ["然而、不过", "正因如此", "顺理成章"],
+  "mnemonicNote": "never(绝不)+the+less(更少)：都这样了，话还得拐回来",
+  "sourceNote": "中古英语 never the less(一点也不因此减少)"
  },
  "nitrogen": {
-  "modernMeaningCn": "氮化氮",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "氮",
+  "literalMeaningCn": "硝石里跑出来的气",
+  "metaphorMeaningCn": "氮、氮气",
+  "metaphorOptions": ["氮、氮气", "氧气", "氢气"],
+  "mnemonicNote": "nitro(硝石)+gen(生成物)：空气里最多那种不爱搭伙的气体",
+  "sourceNote": "法语 nitrogène，nitre(硝石) + gène(生成)"
  },
  "nonsense": {
-  "modernMeaningCn": "无意义的事",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "胡说",
+  "literalMeaningCn": "没道理的话",
+  "metaphorMeaningCn": "胡说、荒唐事",
+  "metaphorOptions": ["胡说、荒唐事", "至理名言", "金玉良言"],
+  "mnemonicNote": "non(非)+sense(道理)：听着像话，细想全不通",
+  "sourceNote": "non-(非) + 拉丁 sensus(意义)"
  },
  "normally": {
-  "modernMeaningCn": "正规地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "通常",
+  "literalMeaningCn": "照常理来",
+  "metaphorMeaningCn": "通常、正常地",
+  "metaphorOptions": ["通常、正常地", "一反常态", "破例为之"],
+  "mnemonicNote": "normal(常态)+ly：不出岔子的时候都这样",
+  "sourceNote": "拉丁 normalis，norma(尺规) + -ly"
  },
  "noticeable": {
   "modernMeaningCn": "显而易见的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一眼就瞧见的",
+  "metaphorMeaningCn": "显而易见的、显著的",
+  "metaphorOptions": ["显而易见的、显著的", "难以察觉的", "隐而不显的"],
+  "mnemonicNote": "notice(注目)+able：走过去一眼就看到了",
+  "sourceNote": "拉丁 notitia(知晓) + -able"
  },
  "objection": {
-  "modernMeaningCn": "异议",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "反对",
+  "literalMeaningCn": "顶回去的那句",
+  "metaphorMeaningCn": "反对、异议",
+  "metaphorOptions": ["反对、异议", "附议", "举手赞成"],
+  "mnemonicNote": "object(顶回)+ion：举手表决时那句不同意",
+  "sourceNote": "拉丁 obiectio，obicere(扔向、反驳)"
  },
  "objective": {
-  "modernMeaningCn": "目的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "客观的",
+  "literalMeaningCn": "对着实物来的",
+  "metaphorMeaningCn": "客观的、目标",
+  "metaphorOptions": ["客观的、目标", "主观臆断的", "先入为主的"],
+  "mnemonicNote": "object(客体)+ive：对着事实说话，不带私心",
+  "sourceNote": "中世纪拉丁 obiectivus，obicere(置于前)"
  },
  "oblige": {
-  "modernMeaningCn": "强制",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "使有义务",
+  "literalMeaningCn": "把人绑住",
+  "metaphorMeaningCn": "使有义务、施恩于",
+  "metaphorOptions": ["使有义务、施恩于", "解除束缚", "放任自流"],
+  "mnemonicNote": "ob(朝向)+lige(捆绑)：情义上把人拴住了",
+  "sourceNote": "拉丁 obligare，ob-(朝向) + ligare(捆绑)"
  },
  "observation": {
   "modernMeaningCn": "观察",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "盯着看这件事",
+  "metaphorMeaningCn": "观察、评论",
+  "metaphorOptions": ["观察、评论", "眼不见为净", "视若无睹"],
+  "mnemonicNote": "observ(注视)+ation：蹲在那儿看了大半天",
+  "sourceNote": "拉丁 observatio，observare(注视)"
  },
  "obviously": {
-  "modernMeaningCn": "显而易见地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "显然",
+  "literalMeaningCn": "摆在明面上",
+  "metaphorMeaningCn": "显然、明显地",
+  "metaphorOptions": ["显然、明显地", "隐晦难辨地", "似有若无地"],
+  "mnemonicNote": "obvious(明显)+ly：藏都藏不住，谁看都知道",
+  "sourceNote": "拉丁 obvius，ob viam(在路上) + -ly"
  },
  "occasional": {
-  "modernMeaningCn": "偶然的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "偶尔的",
+  "literalMeaningCn": "赶巧碰上的",
+  "metaphorMeaningCn": "偶尔的、不经常的",
+  "metaphorOptions": ["偶尔的、不经常的", "一贯如此的", "天天不断的"],
+  "mnemonicNote": "occasion(时机)+al：巧了才碰上一回",
+  "sourceNote": "拉丁 occasio(时机) + -al"
  },
  "occasionally": {
-  "modernMeaningCn": "有时候",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "偶尔",
+  "literalMeaningCn": "隔三差五地",
+  "metaphorMeaningCn": "偶尔、间或",
+  "metaphorOptions": ["偶尔、间或", "每回都是", "向来如此"],
+  "mnemonicNote": "occasional(偶一)+ly：隔三差五来一次",
+  "sourceNote": "拉丁 occasio(时机) + -al + -ly"
  },
  "occurrence": {
   "modernMeaningCn": "发生",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "事情冒出来",
+  "metaphorMeaningCn": "发生、事件",
+  "metaphorOptions": ["发生、事件", "杳无音信", "从未有过"],
+  "mnemonicNote": "occurr(冒出)+ence：事情就这么冒出来了",
+  "sourceNote": "拉丁 occurrere，ob-(朝向) + currere(跑)"
  },
  "operational": {
-  "modernMeaningCn": "操作的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "运作的",
+  "literalMeaningCn": "处于能转的状态",
+  "metaphorMeaningCn": "运作的、可使用的",
+  "metaphorOptions": ["运作的、可使用的", "停摆的", "报废的"],
+  "mnemonicNote": "operation(运转)+al：机器还能转得起来",
+  "sourceNote": "拉丁 operatio，operari(工作)"
  },
  "opportunity": {
   "modernMeaningCn": "机会",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "赶上好时机",
+  "metaphorMeaningCn": "机会、良机",
+  "metaphorOptions": ["机会、良机", "绝境", "死胡同"],
+  "mnemonicNote": "opportun(适逢)+ity：时候赶巧，门正好开着",
+  "sourceNote": "拉丁 opportunitas，ob portum(朝向港口)"
  },
  "optics": {
-  "modernMeaningCn": "光学化光学",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "光学",
+  "literalMeaningCn": "研究看东西的学问",
+  "metaphorMeaningCn": "光学",
+  "metaphorOptions": ["光学", "声学", "力学"],
+  "mnemonicNote": "optic(视觉)+s(学科)：研究光和眼睛那一门",
+  "sourceNote": "希腊 optikos，optos(可见的) + -ics"
  },
  "orderly": {
   "modernMeaningCn": "有秩序的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "按次序来的",
+  "metaphorMeaningCn": "有秩序的、整齐的",
+  "metaphorOptions": ["有秩序的、整齐的", "杂乱无章的", "横七竖八的"],
+  "mnemonicNote": "order(次序)+ly：一排排站得齐齐整整",
+  "sourceNote": "古法语 ordre(次序) + -ly"
  },
  "organic": {
-  "modernMeaningCn": "器官的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "有机的",
+  "literalMeaningCn": "与器官有关",
+  "metaphorMeaningCn": "有机的、生物的",
+  "metaphorOptions": ["有机的、生物的", "无机的", "人工合成的"],
+  "mnemonicNote": "organ(器官)+ic：没打过药、自然长起来的",
+  "sourceNote": "希腊 organikos，organon(器官、工具)"
  },
  "organism": {
   "modernMeaningCn": "生物",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "有器官的活体",
+  "metaphorMeaningCn": "生物、有机体",
+  "metaphorOptions": ["生物、有机体", "矿物", "死物"],
+  "mnemonicNote": "organ(器官)+ism(体)：各个器官凑成的活体",
+  "sourceNote": "希腊 organon(器官) + -ism"
  },
  "organize": {
   "modernMeaningCn": "组织",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "使像器官那样分工",
+  "metaphorMeaningCn": "组织、安排",
+  "metaphorOptions": ["组织、安排", "打散拆开", "放任自流"],
+  "mnemonicNote": "organ(器官)+ize(使)：像器官那样分好工、排好位",
+  "sourceNote": "中世纪拉丁 organizare，organum(器官)"
  },
  "oriental": {
-  "modernMeaningCn": "东方人",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "东方的",
+  "literalMeaningCn": "日出那边的",
+  "metaphorMeaningCn": "东方的、东方人",
+  "metaphorOptions": ["东方的、东方人", "西方的", "北方的"],
+  "mnemonicNote": "orient(日出)+al：太阳升起来那一边",
+  "sourceNote": "拉丁 orientalis，oriens(日出)"
  },
  "original": {
   "modernMeaningCn": "最初的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "源头那份",
+  "metaphorMeaningCn": "最初的、原创的",
+  "metaphorOptions": ["最初的、原创的", "后来的", "仿制的"],
+  "mnemonicNote": "origin(源头)+al：源头那一份，没改动过",
+  "sourceNote": "拉丁 originalis，origo(起源)"
  },
  "outdoor": {
   "modernMeaningCn": "户外的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "门外的",
+  "metaphorMeaningCn": "户外的、野外的",
+  "metaphorOptions": ["户外的、野外的", "室内的", "屋檐下的"],
+  "mnemonicNote": "out(外)+door(门)：门外头那一片",
+  "sourceNote": "英语复合词，out + door"
  },
  "outlook": {
   "modernMeaningCn": "观点",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "向外看的那个角度",
+  "metaphorMeaningCn": "观点、前景",
+  "metaphorOptions": ["观点、前景", "眼前所见", "内心独白"],
+  "mnemonicNote": "out(外)+look(看)：从自己这儿朝外瞅的那个角度",
+  "sourceNote": "英语复合词，out + look"
  },
  "overdue": {
   "modernMeaningCn": "过期的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "过了该到的日子",
+  "metaphorMeaningCn": "过期的、迟到的",
+  "metaphorOptions": ["过期的、迟到的", "如期而至", "提前办好"],
+  "mnemonicNote": "over(超过)+due(应到)：该还的日子早过了",
+  "sourceNote": "英语复合词，over + due"
  },
  "overnight": {
-  "modernMeaningCn": "前一天晚上",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "一夜之间",
+  "literalMeaningCn": "过了一个晚上",
+  "metaphorMeaningCn": "通宵、一夜之间",
+  "metaphorOptions": ["通宵、一夜之间", "经年累月", "日积月累"],
+  "mnemonicNote": "over(越过)+night(夜)：睡了一觉事情就变了",
+  "sourceNote": "中古英语 over night"
  },
  "overtake": {
-  "modernMeaningCn": "赶上",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "超过",
+  "literalMeaningCn": "从旁追上去",
+  "metaphorMeaningCn": "超过、赶上",
+  "metaphorOptions": ["超过、赶上", "被远远甩开", "望尘莫及"],
+  "mnemonicNote": "over(越过)+take(拿)：从旁边赶上去，把它甩在后头",
+  "sourceNote": "中古英语 overtaken，over + taken"
  },
  "partial": {
   "modernMeaningCn": "部分的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "只占一块的",
+  "metaphorMeaningCn": "部分的、偏袒的",
+  "metaphorOptions": ["部分的、偏袒的", "全盘的", "不偏不倚的"],
+  "mnemonicNote": "part(块)+ial：只占其中一块",
+  "sourceNote": "拉丁 partialis，pars(部分)"
  },
  "partially": {
   "modernMeaningCn": "部分地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "只做一半",
+  "metaphorMeaningCn": "部分地、不完全地",
+  "metaphorOptions": ["部分地、不完全地", "彻底地", "一干二净地"],
+  "mnemonicNote": "partial(偏一头的)+ly：只做了一半就停了",
+  "sourceNote": "拉丁 partialis(部分的) + -ly"
  }
 }
