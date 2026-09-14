@@ -1,0 +1,121 @@
+// 一次性修补：词典（ECDICT）首义在部分词条上是拼接残留（如 underneath「在下面在的下面」、
+// unsuitable「不适合的法不适合」、videotape「录相磁带把电视节」），或者与非词根义偏离
+// （resolution「解析」、resistant「抵抗者」）。这里按词表统一改成适合本阶段的释义。
+//
+// 只动 modernMeaningCn，不碰 literal/metaphor/options —— 那几项由人工按 9.3 契约写过。
+import { readdirSync, readFileSync, writeFileSync } from 'node:fs'
+import { fileURLToPath } from 'node:url'
+import { dirname, join } from 'node:path'
+
+const here = dirname(fileURLToPath(import.meta.url))
+const dir = join(here, '..', 'lib', 'handoff', 'words-prose-stage3')
+
+const FIX = {
+  // 四级批（batch-25~34）
+  underneath: '在下面、底下',
+  unjust: '不公正的、不公平的',
+  unload: '卸货、卸下',
+  unsuitable: '不合适的、不相称的',
+  videotape: '录像带',
+  superficial: '表面的、肤浅的',
+  tender: '温柔的、嫩的',
+  variable: '可变的、变量',
+  variation: '变化、变体',
+  technician: '技术人员、技师',
+  transformation: '转变、变革',
+  transplant: '移植、迁移',
+  turning: '转弯处、转折点',
+  ultimately: '最终、归根结底',
+  surprisingly: '令人惊讶地',
+  terrific: '极好的、了不起的',
+  thoughtful: '体贴的、沉思的',
+  removal: '移除、免职',
+  render: '使成为、给予',
+  retreat: '撤退、隐居处',
+  resistant: '抵抗的、有抵抗力的',
+  resolution: '决心、决议',
+  resolve: '解决、决心',
+  republican: '共和党人、共和国的',
+  remarkable: '非凡的、显著的',
+  reliability: '可靠性',
+  severely: '严厉地、严重地',
+  shampoo: '洗发剂',
+  sole: '唯一的',
+  submerge: '淹没、浸没',
+  substantial: '大量的、实质的',
+  suburb: '郊区、城郊',
+  successfully: '成功地',
+  successive: '连续的、相继的',
+  sufficiently: '充足地、足够地',
+  specialize: '专攻、专门研究',
+  startle: '使惊吓、使吃惊',
+  simplicity: '简单、朴素',
+  solely: '仅仅、只',
+  somewhat: '有几分、稍微',
+  somehow: '不知怎么地',
+  slightly: '稍微、略微',
+  similarly: '同样地、类似地',
+  smoothly: '顺利地、平稳地',
+  suddenly: '突然、忽然',
+  shortage: '短缺、不足',
+  statistical: '统计的、统计学的',
+  steadily: '稳步地、持续地',
+  stiffen: '使变硬、使僵硬',
+  springtime: '春季、春天',
+  slipper: '拖鞋、便鞋',
+  slowly: '慢慢地、缓慢地',
+  scarcely: '几乎不、勉强',
+  // 中考批（batch-1~24）里同类问题
+  banner: '横幅、旗帜',
+  beloved: '心爱的',
+  bullet: '子弹',
+  concerning: '关于',
+  democratic: '民主的',
+  density: '密度',
+  dependent: '依赖的',
+  governor: '州长',
+  gunpowder: '火药',
+  horsepower: '马力',
+  radioactivity: '放射性',
+  rebellion: '反叛、起义',
+  recognition: '认出、认可',
+  relativity: '相对性、相对论',
+  readily: '乐意地、容易地',
+  realize: '意识到、实现',
+  indispensable: '不可缺少的',
+}
+
+let total = 0
+const changed = []
+for (const file of readdirSync(dir).filter((f) => /^batch-\d+\.json$/.test(f))) {
+  const path = join(dir, file)
+  const data = JSON.parse(readFileSync(path, 'utf8'))
+  let dirty = false
+  for (const [word, next] of Object.entries(FIX)) {
+    const entry = data[word]
+    if (!entry || entry.modernMeaningCn === next) continue
+    changed.push(`${file} ${word}：「${entry.modernMeaningCn}」->「${next}」`)
+    entry.modernMeaningCn = next
+    total += 1
+    dirty = true
+  }
+  if (dirty) writeFileSync(path, JSON.stringify(data, null, 1), 'utf8')
+}
+
+console.log(`已修 ${total} 处 modernMeaningCn：`)
+console.log(changed.join('\n'))
+
+// 顺手体检：还有哪些 modernMeaningCn 长到不像一个释义（>10 字且不带顿号分隔的，多半是残留）
+const suspects = []
+for (const file of readdirSync(dir).filter((f) => /^batch-\d+\.json$/.test(f))) {
+  const data = JSON.parse(readFileSync(join(dir, file), 'utf8'))
+  for (const [word, entry] of Object.entries(data)) {
+    if (word.startsWith('_')) continue
+    const g = String(entry.modernMeaningCn || '')
+    if (g.length > 10 && !g.includes('、')) suspects.push(`${file} ${word}：${g}`)
+  }
+}
+if (suspects.length) {
+  console.log(`\n仍可人工过一眼的（>10 字且无顿号）${suspects.length} 条：`)
+  console.log(suspects.join('\n'))
+}
