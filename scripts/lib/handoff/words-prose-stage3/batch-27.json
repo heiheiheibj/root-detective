@@ -1,483 +1,723 @@
 {
- "_comment": "Stage 3 待写释义（batch-27，本批 60 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "_comment": "Stage 3 待写释义（batch-27，本批 60 词，四级批第 3 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
  "disclose": {
   "modernMeaningCn": "揭露",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "把盖着的打开",
+  "metaphorMeaningCn": "揭露、透露",
+  "metaphorOptions": [
+   "揭露、透露",
+   "捂得更严",
+   "守口如瓶"
+  ],
+  "mnemonicNote": "dis(去掉)+close(关闭)：把扣紧的盖子掀开给大家看",
+  "sourceNote": "古法语 desclore，des-(去掉) + clore(关闭)"
  },
  "disguise": {
-  "modernMeaningCn": "假面目",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "伪装",
+  "literalMeaningCn": "换个样子",
+  "metaphorMeaningCn": "伪装、假扮",
+  "metaphorOptions": [
+   "伪装、假扮",
+   "露出本来面目",
+   "卸下装扮"
+  ],
+  "mnemonicNote": "dis(加强)+guise(方式)：戴上假发换成另一副面孔",
+  "sourceNote": "古法语 desguiser，des-(加强) + guise(方式)"
  },
  "disgust": {
   "modernMeaningCn": "厌恶",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "味道不对胃口",
+  "metaphorMeaningCn": "厌恶、反感",
+  "metaphorOptions": [
+   "厌恶、反感",
+   "垂涎欲滴",
+   "食指大动"
+  ],
+  "mnemonicNote": "dis(不)+gust(味道)：闻一口就皱起鼻子往后缩",
+  "sourceNote": "古法语 desgouster，des-(不) + gouster(尝)"
  },
  "disorder": {
-  "modernMeaningCn": "杂乱",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "混乱",
+  "literalMeaningCn": "秩序没了",
+  "metaphorMeaningCn": "混乱、失调",
+  "metaphorOptions": [
+   "混乱、失调",
+   "井井有条",
+   "条理分明"
+  ],
+  "mnemonicNote": "dis(无)+order(次序)：桌上东西全翻了个底朝天",
+  "sourceNote": "古法语 desordre，des-(无) + ordre(次序)"
  },
  "display": {
-  "modernMeaningCn": "显示",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "展示",
+  "literalMeaningCn": "把折起的展开",
+  "metaphorMeaningCn": "展示、陈列",
+  "metaphorOptions": [
+   "展示、陈列",
+   "收起来",
+   "藏进柜子"
+  ],
+  "mnemonicNote": "dis(分开)+play(折叠)：把叠着的那张纸摊平给人瞧",
+  "sourceNote": "古法语 despleier，des-(分开) + pleier(折)"
  },
  "displease": {
-  "modernMeaningCn": "使不愉快",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "使不悦",
+  "literalMeaningCn": "没讨着好",
+  "metaphorMeaningCn": "使不快、得罪",
+  "metaphorOptions": [
+   "使不快、得罪",
+   "逗人开怀",
+   "讨人欢心"
+  ],
+  "mnemonicNote": "dis(不)+please(取悦)：一句话说岔了，对方脸色沉下来",
+  "sourceNote": "古法语 desplaire，des-(不) + plaire(取悦)"
  },
  "disposal": {
-  "modernMeaningCn": "丢掉",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "处理",
+  "literalMeaningCn": "安置这件事",
+  "metaphorMeaningCn": "处置、丢弃",
+  "metaphorOptions": [
+   "处置、丢弃",
+   "收着不放",
+   "囤积起来"
+  ],
+  "mnemonicNote": "dispos(布置)+al：东西归谁、往哪儿放，全听安排",
+  "sourceNote": "古法语 disposer，dis-(分开) + poser(放置)"
  },
  "dispose": {
-  "modernMeaningCn": "处理",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "处置",
+  "literalMeaningCn": "分开放置",
+  "metaphorMeaningCn": "处置、使倾向于",
+  "metaphorOptions": [
+   "处置、使倾向于",
+   "原封不动",
+   "置之不理"
+  ],
+  "mnemonicNote": "dis(分开)+pos(放)：一样样安置妥当，各得其所",
+  "sourceNote": "古法语 disposer，dis-(分开) + poser(放置)"
  },
  "dissolve": {
   "modernMeaningCn": "溶解",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "松开散掉",
+  "metaphorMeaningCn": "溶解、解散",
+  "metaphorOptions": [
+   "溶解、解散",
+   "凝成硬块",
+   "结成一体"
+  ],
+  "mnemonicNote": "dis(分开)+solve(松开)：糖块在水里化得没了影",
+  "sourceNote": "拉丁 dissolvere，dis-(分开) + solvere(松开)"
  },
  "distress": {
-  "modernMeaningCn": "苦恼",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "痛苦",
+  "literalMeaningCn": "被扯得紧绷",
+  "metaphorMeaningCn": "痛苦、困境",
+  "metaphorOptions": [
+   "痛苦、困境",
+   "舒坦",
+   "无忧无虑"
+  ],
+  "mnemonicNote": "dis(分开)+tress(拉紧)：心像被两只手往两头拽",
+  "sourceNote": "古法语 destresse，拉丁 distringere(拉紧)"
  },
  "distribution": {
-  "modernMeaningCn": "分配计分布",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "分配",
+  "literalMeaningCn": "分发出去",
+  "metaphorMeaningCn": "分配、分布",
+  "metaphorOptions": [
+   "分配、分布",
+   "全揽在手",
+   "集中一处"
+  ],
+  "mnemonicNote": "distribut(分发)+ion：一份份递到各家各户手上",
+  "sourceNote": "拉丁 distributio，distribuere(分发)"
  },
  "doubtful": {
   "modernMeaningCn": "可疑的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "满是疑问的",
+  "metaphorMeaningCn": "可疑的、没把握的",
+  "metaphorOptions": [
+   "可疑的、没把握的",
+   "板上钉钉的",
+   "确凿无疑的"
+  ],
+  "mnemonicNote": "doubt(疑惑)+ful：心里那杆秤怎么也压不平",
+  "sourceNote": "古法语 douter(疑惑) + -ful"
  },
  "doubtless": {
   "modernMeaningCn": "无疑的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "没疑问的",
+  "metaphorMeaningCn": "无疑的、肯定",
+  "metaphorOptions": [
+   "无疑的、肯定",
+   "说不准",
+   "两可之间"
+  ],
+  "mnemonicNote": "doubt(疑惑)+less(无)：这事的答案早就摆在那儿了",
+  "sourceNote": "古法语 douter(疑惑) + -less(无)"
  },
  "dramatic": {
   "modernMeaningCn": "戏剧性的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "像戏一样的",
+  "metaphorMeaningCn": "戏剧性的、剧烈的",
+  "metaphorOptions": [
+   "戏剧性的、剧烈的",
+   "平淡无奇的",
+   "波澜不惊的"
+  ],
+  "mnemonicNote": "drama(戏剧)+tic：转折来得又急又猛，像台上的情节",
+  "sourceNote": "希腊 dramatikos，drama(戏)"
  },
  "dwelling": {
-  "modernMeaningCn": "住处医住房",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "住处",
+  "literalMeaningCn": "住下来的地方",
+  "metaphorMeaningCn": "住处、寓所",
+  "metaphorOptions": [
+   "住处、寓所",
+   "旅途",
+   "临时落脚点"
+  ],
+  "mnemonicNote": "dwell(长住)+ing：安了门牌、一住多年的那栋房子",
+  "sourceNote": "古英语 dwellan(停留) + -ing"
  },
  "earnest": {
-  "modernMeaningCn": "定金",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "认真的",
+  "literalMeaningCn": "当真其事",
+  "metaphorMeaningCn": "认真的、诚挚的",
+  "metaphorOptions": [
+   "认真的、诚挚的",
+   "敷衍了事的",
+   "嬉皮笑脸的"
+  ],
+  "mnemonicNote": "earn(挣得)+est：把话当回事，一字一字都有分量",
+  "sourceNote": "古英语 eornost(严肃、热忱)"
  },
  "economic": {
-  "modernMeaningCn": "经济上的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "经济的",
+  "literalMeaningCn": "与持家有关",
+  "metaphorMeaningCn": "经济的、经济学的",
+  "metaphorOptions": [
+   "经济的、经济学的",
+   "文化的",
+   "军事的"
+  ],
+  "mnemonicNote": "econom(家计)+ic：一国一城的收支账目那一摊",
+  "sourceNote": "希腊 oikonomia，oikos(家) + nomos(管理)"
  },
  "economical": {
-  "modernMeaningCn": "节俭的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "节约的",
+  "literalMeaningCn": "会过日子的",
+  "metaphorMeaningCn": "节约的、实惠的",
+  "metaphorOptions": [
+   "节约的、实惠的",
+   "挥霍的",
+   "大手大脚的"
+  ],
+  "mnemonicNote": "economic(家计的)+al：一文钱掰成两半花",
+  "sourceNote": "希腊 oikonomia(持家) + -al"
  },
  "editorial": {
   "modernMeaningCn": "社论",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "编辑部写的那篇",
+  "metaphorMeaningCn": "社论、编辑的",
+  "metaphorOptions": [
+   "社论、编辑的",
+   "读者来信",
+   "分类广告"
+  ],
+  "mnemonicNote": "editor(主编)+ial：报纸头版不署名的那篇重头文章",
+  "sourceNote": "拉丁 editor(编者) + -ial"
  },
  "effective": {
   "modernMeaningCn": "有效的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "能见效的",
+  "metaphorMeaningCn": "有效的、生效的",
+  "metaphorOptions": [
+   "有效的、生效的",
+   "形同虚设的",
+   "无济于事的"
+  ],
+  "mnemonicNote": "effect(效果)+ive：药吃下去第二天就轻快了",
+  "sourceNote": "拉丁 effectus，efficere(做出)"
  },
  "elbow": {
   "modernMeaningCn": "手肘",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "小臂弯折处",
+  "metaphorMeaningCn": "肘、用肘挤",
+  "metaphorOptions": [
+   "肘、用肘挤",
+   "手腕",
+   "肩膀"
+  ],
+  "mnemonicNote": "el(前臂)+bow(弯)：胳膊中间那个能屈能伸的关节",
+  "sourceNote": "古英语 elnboga，eln(前臂) + boga(弯)"
  },
  "elderly": {
-  "modernMeaningCn": "过了中年的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "上了年纪的",
+  "literalMeaningCn": "年岁大的",
+  "metaphorMeaningCn": "上了年纪的、年长的",
+  "metaphorOptions": [
+   "上了年纪的、年长的",
+   "年幼的",
+   "初出茅庐的"
+  ],
+  "mnemonicNote": "elder(年长)+ly：头发花白、走路慢下来的那几位",
+  "sourceNote": "古英语 eldra(更老的) + -ly"
  },
  "electron": {
-  "modernMeaningCn": "电子化电子",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "电子",
+  "literalMeaningCn": "电的小颗粒",
+  "metaphorMeaningCn": "电子",
+  "metaphorOptions": [
+   "电子",
+   "质子",
+   "光子"
+  ],
+  "mnemonicNote": "electr(电)+on(粒子)：绕原子核转个不停那一颗",
+  "sourceNote": "希腊 elektron(琥珀)，摩擦起电由此得名"
  },
  "electronics": {
-  "modernMeaningCn": "电子学计电子学",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "电子学",
+  "literalMeaningCn": "研究电子的学问",
+  "metaphorMeaningCn": "电子学、电子设备",
+  "metaphorOptions": [
+   "电子学、电子设备",
+   "机械工程",
+   "土木工程"
+  ],
+  "mnemonicNote": "electron(电子)+ics(学科)：芯片、电路那一整门",
+  "sourceNote": "electron(电子) + -ics(学科)"
  },
  "elementary": {
-  "modernMeaningCn": "初步的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "基本的",
+  "literalMeaningCn": "最底层的",
+  "metaphorMeaningCn": "基本的、初级的",
+  "metaphorOptions": [
+   "基本的、初级的",
+   "高深的",
+   "登峰造极的"
+  ],
+  "mnemonicNote": "element(要素)+ary：还没拆出更小块的起点那一步",
+  "sourceNote": "拉丁 elementarius，elementum(要素)"
  },
  "elimination": {
-  "modernMeaningCn": "除去",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "消除",
+  "literalMeaningCn": "清出去的过程",
+  "metaphorMeaningCn": "消除、淘汰",
+  "metaphorOptions": [
+   "消除、淘汰",
+   "留下",
+   "收纳"
+  ],
+  "mnemonicNote": "eliminat(排除)+ion：一轮轮比下来，名单越剩越短",
+  "sourceNote": "拉丁 eliminare，e-(出) + limen(门槛)"
  },
  "elsewhere": {
   "modernMeaningCn": "在别处",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "别的地方",
+  "metaphorMeaningCn": "在别处、他处",
+  "metaphorOptions": [
+   "在别处、他处",
+   "就在此地",
+   "近在眼前"
+  ],
+  "mnemonicNote": "else(其他)+where(地方)：这儿找不到，就往另一处看",
+  "sourceNote": "古英语 elles(其他) + hwær(何处)"
  },
  "embrace": {
-  "modernMeaningCn": "拥抱拥抱",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "拥抱",
+  "literalMeaningCn": "收进臂弯",
+  "metaphorMeaningCn": "拥抱、欣然接受",
+  "metaphorOptions": [
+   "拥抱、欣然接受",
+   "推开",
+   "拒人门外"
+  ],
+  "mnemonicNote": "em(进入)+brace(手臂)：张开两臂把对方圈进来",
+  "sourceNote": "古法语 embracier，em-(进入) + brace(手臂)"
  },
  "emotional": {
-  "modernMeaningCn": "情绪的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "情感的",
+  "literalMeaningCn": "与情绪有关",
+  "metaphorMeaningCn": "情感的、易动情的",
+  "metaphorOptions": [
+   "情感的、易动情的",
+   "铁石心肠的",
+   "冷若冰霜的"
+  ],
+  "mnemonicNote": "emotion(情绪)+al：话没说两句眼圈先红了",
+  "sourceNote": "拉丁 emovere，e-(出) + movere(动)"
  },
  "emphasize": {
   "modernMeaningCn": "强调",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "把重音压上去",
+  "metaphorMeaningCn": "强调、着重指出",
+  "metaphorOptions": [
+   "强调、着重指出",
+   "轻描淡写",
+   "一带而过"
+  ],
+  "mnemonicNote": "emphasis(重读)+ize：那句话他说了三遍，还顿了一顿",
+  "sourceNote": "希腊 emphasis，en-(进入) + phainein(显示)"
  },
  "employee": {
-  "modernMeaningCn": "职员",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "雇员",
+  "literalMeaningCn": "被雇的人",
+  "metaphorMeaningCn": "雇员、员工",
+  "metaphorOptions": [
+   "雇员、员工",
+   "雇主",
+   "股东"
+  ],
+  "mnemonicNote": "employ(雇用)+ee(受动者)：工资条上领钱那一方",
+  "sourceNote": "法语 employé，employer(雇用) 的过去分词"
  },
  "employer": {
   "modernMeaningCn": "雇主",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "雇人的人",
+  "metaphorMeaningCn": "雇主、老板",
+  "metaphorOptions": [
+   "雇主、老板",
+   "雇员",
+   "顾客"
+  ],
+  "mnemonicNote": "employ(雇用)+er(人)：发工资、签合同那一方",
+  "sourceNote": "法语 employeur，employer(雇用)"
  },
  "employment": {
   "modernMeaningCn": "雇用",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "雇人这件事",
+  "metaphorMeaningCn": "雇用、职业",
+  "metaphorOptions": [
+   "雇用、职业",
+   "失业",
+   "闲居"
+  ],
+  "mnemonicNote": "employ(雇工)+ment：靠一份差事养家那种状态",
+  "sourceNote": "古法语 employer(雇工) + -ment"
  },
  "enclose": {
-  "modernMeaningCn": "围绕",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "围住",
+  "literalMeaningCn": "圈起来关住",
+  "metaphorMeaningCn": "围住、随信附上",
+  "metaphorOptions": [
+   "围住、随信附上",
+   "敞开",
+   "拆掉围墙"
+  ],
+  "mnemonicNote": "en(使)+close(关闭)：四面砌上墙，把人圈在里头",
+  "sourceNote": "古法语 enclore，en-(使) + clore(关闭)"
  },
  "enforce": {
-  "modernMeaningCn": "强迫",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "执行",
+  "literalMeaningCn": "使有力量",
+  "metaphorMeaningCn": "执行、强制执行",
+  "metaphorOptions": [
+   "执行、强制执行",
+   "废弛",
+   "网开一面"
+  ],
+  "mnemonicNote": "en(使)+force(力量)：给规矩配上牙齿，谁违谁挨罚",
+  "sourceNote": "古法语 enforcier，en-(使) + force(力量)"
  },
  "engage": {
-  "modernMeaningCn": "答应",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "从事",
+  "literalMeaningCn": "把自己押上去",
+  "metaphorMeaningCn": "从事、订婚",
+  "metaphorOptions": [
+   "从事、订婚",
+   "抽身事外",
+   "挂冠而去"
+  ],
+  "mnemonicNote": "en(使)+gage(抵押)：先把自个儿押进去，再谈别的",
+  "sourceNote": "古法语 engagier，en-(使) + gage(抵押)"
  },
  "engineering": {
   "modernMeaningCn": "工程学",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "造机器的学问",
+  "metaphorMeaningCn": "工程学、工程",
+  "metaphorOptions": [
+   "工程学、工程",
+   "文学",
+   "史学"
+  ],
+  "mnemonicNote": "engineer(工程师)+ing：画图纸、算受力那一整套本事",
+  "sourceNote": "拉丁 ingenium(才智) + -ing"
  },
  "englishman": {
   "modernMeaningCn": "英国人",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "英格兰人",
+  "metaphorMeaningCn": "英国人、英格兰人",
+  "metaphorOptions": [
+   "英国人、英格兰人",
+   "法国人",
+   "德国人"
+  ],
+  "mnemonicNote": "english(英格兰)+man(人)：泰晤士河边那个岛上的居民",
+  "sourceNote": "古英语 Englisc(英格兰的) + mann(人)"
  },
  "enroll": {
-  "modernMeaningCn": "登记",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "注册",
+  "literalMeaningCn": "写进名册",
+  "metaphorMeaningCn": "注册、报名",
+  "metaphorOptions": [
+   "注册、报名",
+   "除名",
+   "退学"
+  ],
+  "mnemonicNote": "en(使)+roll(名册)：名字被一笔写上那张表",
+  "sourceNote": "古法语 enroller，en-(使) + rolle(名册)"
  },
  "entitle": {
-  "modernMeaningCn": "给权利",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "使有权利",
+  "literalMeaningCn": "给个名分",
+  "metaphorMeaningCn": "使有权利、题名",
+  "metaphorOptions": [
+   "使有权利、题名",
+   "剥夺资格",
+   "取消名分"
+  ],
+  "mnemonicNote": "en(使)+title(名分)：写上你的名字，这份就该你得",
+  "sourceNote": "古法语 entitler，en-(使) + title(名分)"
  },
  "establishment": {
-  "modernMeaningCn": "确立",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "建立",
+  "literalMeaningCn": "立起来这件事",
+  "metaphorMeaningCn": "建立、机构",
+  "metaphorOptions": [
+   "建立、机构",
+   "拆台",
+   "取缔"
+  ],
+  "mnemonicNote": "establish(立稳)+ment：从打地基到挂牌子那一整套",
+  "sourceNote": "古法语 establir，拉丁 stabilire(使稳固)"
  },
  "exceed": {
   "modernMeaningCn": "超过",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "走出界限",
+  "metaphorMeaningCn": "超过、超越",
+  "metaphorOptions": [
+   "超过、超越",
+   "落在后头",
+   "尚不及"
+  ],
+  "mnemonicNote": "ex(出)+ceed(走)：一脚跨过那条画好的线",
+  "sourceNote": "拉丁 excedere，ex-(出) + cedere(走)"
  },
  "exceedingly": {
-  "modernMeaningCn": "极端地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "极其",
+  "literalMeaningCn": "超出一般程度",
+  "metaphorMeaningCn": "极其、非常",
+  "metaphorOptions": [
+   "极其、非常",
+   "稍稍",
+   "略微"
+  ],
+  "mnemonicNote": "exceeding(超出)+ly：好到没边，实在没什么可挑的",
+  "sourceNote": "拉丁 excedere(超出) + -ly"
  },
  "exception": {
   "modernMeaningCn": "例外",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "被挑出去的那个",
+  "metaphorMeaningCn": "例外、异议",
+  "metaphorOptions": [
+   "例外、异议",
+   "通例",
+   "惯例"
+  ],
+  "mnemonicNote": "except(除外)+ion：满纸规矩里那一条不适用的人或事",
+  "sourceNote": "拉丁 exceptio，excipere(取出)"
  },
  "excessive": {
   "modernMeaningCn": "过度的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "超出该有的",
+  "metaphorMeaningCn": "过度的、过分的",
+  "metaphorOptions": [
+   "过度的、过分的",
+   "适可而止的",
+   "恰如其分的"
+  ],
+  "mnemonicNote": "excess(过量)+ive：好过了头，反倒成了负担",
+  "sourceNote": "拉丁 excessus，excedere(超出)"
  },
  "excitement": {
-  "modernMeaningCn": "刺激",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "兴奋",
+  "literalMeaningCn": "被激起的状态",
+  "metaphorMeaningCn": "兴奋、刺激",
+  "metaphorOptions": [
+   "兴奋、刺激",
+   "索然无味",
+   "无动于衷"
+  ],
+  "mnemonicNote": "excite(激起)+ment：心跳快了几拍，坐也坐不住",
+  "sourceNote": "拉丁 excitare，ex-(出) + citare(唤起)"
  },
  "exclude": {
-  "modernMeaningCn": "除外",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "排除",
+  "literalMeaningCn": "关在门外",
+  "metaphorMeaningCn": "排除、不包括",
+  "metaphorOptions": [
+   "排除、不包括",
+   "纳入其中",
+   "一并收进"
+  ],
+  "mnemonicNote": "ex(出)+clude(关闭)：门一关，名单上没有他",
+  "sourceNote": "拉丁 excludere，ex-(出) + claudere(关闭)"
  },
  "exclusively": {
-  "modernMeaningCn": "排他地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "专门地",
+  "literalMeaningCn": "只此一家地",
+  "metaphorMeaningCn": "专门地、仅仅",
+  "metaphorOptions": [
+   "专门地、仅仅",
+   "兼而有之",
+   "来者不拒"
+  ],
+  "mnemonicNote": "exclusive(独家的)+ly：门只朝这一家开，别人免谈",
+  "sourceNote": "拉丁 exclusivus，excludere(排除) + -ly"
  },
  "execute": {
   "modernMeaningCn": "执行",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一路跟着办完",
+  "metaphorMeaningCn": "执行、处决",
+  "metaphorOptions": [
+   "执行、处决",
+   "束之高阁",
+   "阳奉阴违"
+  ],
+  "mnemonicNote": "ex(出)+secut(跟随)：命令一出，始终跟到底不走样",
+  "sourceNote": "拉丁 exsequi，ex-(出) + sequi(跟随)"
  },
  "exert": {
-  "modernMeaningCn": "发挥",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "施加",
+  "literalMeaningCn": "把力气使出去",
+  "metaphorMeaningCn": "施加、发挥",
+  "metaphorOptions": [
+   "施加、发挥",
+   "收着力气",
+   "袖手旁观"
+  ],
+  "mnemonicNote": "ex(出)+ert(编织)：把劲儿一股股往外使在事情上",
+  "sourceNote": "拉丁 exserere，ex-(出) + serere(编、连)"
  },
  "exhaustion": {
-  "modernMeaningCn": "抽空",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "精疲力竭",
+  "literalMeaningCn": "被抽干的状态",
+  "metaphorMeaningCn": "精疲力竭、耗尽",
+  "metaphorOptions": [
+   "精疲力竭、耗尽",
+   "精神饱满",
+   "生龙活虎"
+  ],
+  "mnemonicNote": "exhaust(抽干)+ion：一天下来连话都不想多说一句",
+  "sourceNote": "拉丁 exhaustio，exhaurire(抽干)"
  },
  "expansion": {
-  "modernMeaningCn": "扩充",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "扩张",
+  "literalMeaningCn": "摊开的过程",
+  "metaphorMeaningCn": "扩张、膨胀",
+  "metaphorOptions": [
+   "扩张、膨胀",
+   "收缩",
+   "萎缩"
+  ],
+  "mnemonicNote": "expan(展开)+sion：厂房一片片往外接，厂区越来越大",
+  "sourceNote": "拉丁 expansio，expandere(展开)"
  },
  "experimental": {
   "modernMeaningCn": "实验的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "还在试的",
+  "metaphorMeaningCn": "实验的、试验性的",
+  "metaphorOptions": [
+   "实验的、试验性的",
+   "已成定论的",
+   "循例照办的"
+  ],
+  "mnemonicNote": "experiment(试验)+al：先小范围试试，成了再推广",
+  "sourceNote": "拉丁 experimentum，experiri(尝试)"
  },
  "exposure": {
   "modernMeaningCn": "暴露",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "露在外头的状态",
+  "metaphorMeaningCn": "暴露、曝光",
+  "metaphorOptions": [
+   "暴露、曝光",
+   "遮蔽",
+   "掩藏"
+  ],
+  "mnemonicNote": "expos(露出)+ure：原本捂着的事被摊在光底下",
+  "sourceNote": "拉丁 expositura，exponere(摆出)"
  },
  "faithful": {
-  "modernMeaningCn": "忠实的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "忠诚的",
+  "literalMeaningCn": "守着信义的",
+  "metaphorMeaningCn": "忠诚的、如实的",
+  "metaphorOptions": [
+   "忠诚的、如实的",
+   "背信的",
+   "朝秦暮楚的"
+  ],
+  "mnemonicNote": "faith(信义)+ful：答应过的事，风雨里也不改口",
+  "sourceNote": "古法语 feid(信义) + -ful"
  },
  "farewell": {
-  "modernMeaningCn": "辞别",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "告别",
+  "literalMeaningCn": "走好",
+  "metaphorMeaningCn": "告别、再见",
+  "metaphorOptions": [
+   "告别、再见",
+   "久别重逢",
+   "不期而遇"
+  ],
+  "mnemonicNote": "fare(行走)+well(安好)：临上路时互道的那一声珍重",
+  "sourceNote": "中古英语 fare wel，fare(行走) + wel(好)"
  },
  "farther": {
   "modernMeaningCn": "更远的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "更远一些",
+  "metaphorMeaningCn": "更远的、进一步",
+  "metaphorOptions": [
+   "更远的、进一步",
+   "更近的",
+   "眼前的"
+  ],
+  "mnemonicNote": "far(远)+ther(比较级)：一步一步又往那头挪了一程",
+  "sourceNote": "中古英语 ferther，far 的比较级"
  },
  "fashionable": {
   "modernMeaningCn": "时髦的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "跟得上风气的",
+  "metaphorMeaningCn": "时髦的、流行的",
+  "metaphorOptions": [
+   "时髦的、流行的",
+   "过时的",
+   "老气横秋的"
+  ],
+  "mnemonicNote": "fashion(风气)+able：街上今年流行什么，她身上就有",
+  "sourceNote": "古法语 façon(式样) + -able"
  },
  "favorable": {
   "modernMeaningCn": "有利的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "给好脸色的",
+  "metaphorMeaningCn": "有利的、赞同的",
+  "metaphorOptions": [
+   "有利的、赞同的",
+   "不利的",
+   "处处掣肘的"
+  ],
+  "mnemonicNote": "favor(善意)+able：天时地利都往这边偏",
+  "sourceNote": "拉丁 favor(善意) + -able"
  },
  "favorite": {
-  "modernMeaningCn": "喜欢的事物",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "最喜爱的",
+  "literalMeaningCn": "被偏爱的那个",
+  "metaphorMeaningCn": "最喜爱的、最爱的人或物",
+  "metaphorOptions": [
+   "最喜爱的、最爱的人或物",
+   "最厌恶的",
+   "最不在意的"
+  ],
+  "mnemonicNote": "favor(偏爱)+ite(人/物)：一桌子菜里最先伸筷子的那道",
+  "sourceNote": "意大利 favorito，favorire(偏爱)"
  }
 }
