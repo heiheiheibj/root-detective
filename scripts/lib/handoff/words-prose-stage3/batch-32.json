@@ -1,483 +1,483 @@
 {
- "_comment": "Stage 3 待写释义（batch-32，本批 60 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "_comment": "Stage 3 待写释义（batch-32，本批 60 词，四级批第 8 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
  "rapidly": {
   "modernMeaningCn": "飞快地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "以极快的速度",
+  "metaphorMeaningCn": "飞快地、迅速地",
+  "metaphorOptions": ["飞快地、迅速地", "慢吞吞地", "一步三摇"],
+  "mnemonicNote": "rapid(急速)+ly：转眼就到眼前",
+  "sourceNote": "拉丁 rapidus，rapere(抢夺、疾行) + -ly"
  },
  "rarely": {
   "modernMeaningCn": "很少地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "难得碰上一回",
+  "metaphorMeaningCn": "很少地、难得",
+  "metaphorOptions": ["很少地、难得", "回回都有", "十拿九稳"],
+  "mnemonicNote": "rare(稀少)+ly：一年到头也遇不上几遭",
+  "sourceNote": "拉丁 rarus(稀疏) + -ly"
  },
  "reaction": {
   "modernMeaningCn": "反应",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "受力后的回弹",
+  "metaphorMeaningCn": "反应、反作用",
+  "metaphorOptions": ["反应、反作用", "无动于衷", "置若罔闻"],
+  "mnemonicNote": "react(应对)+ion：外力一推，立刻回弹",
+  "sourceNote": "中世纪拉丁 reactio，re-(回) + agere(做)"
  },
  "reader": {
   "modernMeaningCn": "读者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "在看书的人",
+  "metaphorMeaningCn": "读者、读本",
+  "metaphorOptions": ["读者、读本", "作者", "出版者"],
+  "mnemonicNote": "read(阅读)+er(人)：捧着书看的那位",
+  "sourceNote": "古英语 rædan(读) + -er"
  },
  "readily": {
-  "modernMeaningCn": "迅速地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "乐意地、容易地",
+  "literalMeaningCn": "不用催就动手",
+  "metaphorMeaningCn": "乐意地、容易地",
+  "metaphorOptions": ["乐意地、容易地", "推三阻四", "千难万难"],
+  "mnemonicNote": "readi(爽快)+ly：话没说完手就伸出去了",
+  "sourceNote": "古英语 ræde(有准备的) + -ly"
  },
  "realize": {
-  "modernMeaningCn": "了解",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "意识到、实现",
+  "literalMeaningCn": "使成真、看真切",
+  "metaphorMeaningCn": "意识到、实现",
+  "metaphorOptions": ["意识到、实现", "浑然不觉", "化为泡影"],
+  "mnemonicNote": "real(真实)+ize(使)：让事情成真，也指忽然看真",
+  "sourceNote": "古法语 reel，晚期拉丁 realis(真实的)"
  },
  "rebellion": {
-  "modernMeaningCn": "谋反",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "反叛、起义",
+  "literalMeaningCn": "掉头对着干",
+  "metaphorMeaningCn": "反叛、起义",
+  "metaphorOptions": ["反叛、起义", "俯首听命", "唯唯诺诺"],
+  "mnemonicNote": "rebell(造反)+ion：掉转枪口对着上头",
+  "sourceNote": "拉丁 rebellio，re-(再) + bellum(战争)"
  },
  "recall": {
   "modernMeaningCn": "回忆",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "把旧的叫回来",
+  "metaphorMeaningCn": "回忆、召回",
+  "metaphorOptions": ["回忆、召回", "忘得一干二净", "抛诸脑后"],
+  "mnemonicNote": "re(回)+call(叫)：把旧事从脑子里叫回来",
+  "sourceNote": "re-(回) + call(呼叫)"
  },
  "recently": {
   "modernMeaningCn": "最近",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "就在前些天",
+  "metaphorMeaningCn": "最近、近来",
+  "metaphorOptions": ["最近、近来", "很久以前", "陈年旧事"],
+  "mnemonicNote": "recent(新近)+ly：前些天刚发生的事",
+  "sourceNote": "拉丁 recens(新鲜的) + -ly"
  },
  "recognition": {
-  "modernMeaningCn": "赞誉",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "认出、认可",
+  "literalMeaningCn": "再认一遍",
+  "metaphorMeaningCn": "认出、认可",
+  "metaphorOptions": ["认出、认可", "形同陌路", "视同路人"],
+  "mnemonicNote": "re(再)+cognition(认知)：再看一眼就对上号了",
+  "sourceNote": "拉丁 recognitio，recognoscere(再认识)"
  },
  "recognize": {
   "modernMeaningCn": "认出",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一照面就对上号",
+  "metaphorMeaningCn": "认出、承认",
+  "metaphorOptions": ["认出、承认", "对面不识", "装作不见"],
+  "mnemonicNote": "re(再)+cognize(认识)：再见面，一眼就对上",
+  "sourceNote": "拉丁 recognoscere，re-(再) + cognoscere(认识)"
  },
  "recollect": {
-  "modernMeaningCn": "回忆",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "回忆起",
+  "literalMeaningCn": "把碎片重新收拢",
+  "metaphorMeaningCn": "回忆起、想起",
+  "metaphorOptions": ["回忆起、想起", "忘得干干净净", "记忆全无"],
+  "mnemonicNote": "re(重新)+collect(收集)：把散落的片段重新收拢",
+  "sourceNote": "拉丁 recolligere，re-(重新) + colligere(收集)"
  },
  "recommendation": {
   "modernMeaningCn": "推荐",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "说好话举荐这件事",
+  "metaphorMeaningCn": "推荐、建议",
+  "metaphorOptions": ["推荐、建议", "背地里使坏", "泼冷水"],
+  "mnemonicNote": "recommend(举荐)+ation：替人说好话举荐这件事",
+  "sourceNote": "中世纪拉丁 recommendare(托付、举荐)"
  },
  "reduction": {
   "modernMeaningCn": "减少",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "往下削掉一截",
+  "metaphorMeaningCn": "减少、降价",
+  "metaphorOptions": ["减少、降价", "增加", "水涨船高"],
+  "mnemonicNote": "reduc(削减)+tion：往下削掉一块",
+  "sourceNote": "拉丁 reductio，reducere(带回、削减)"
  },
  "refine": {
-  "modernMeaningCn": "精炼",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "提炼",
+  "literalMeaningCn": "再精一遍",
+  "metaphorMeaningCn": "提炼、精炼",
+  "metaphorOptions": ["提炼、精炼", "掺进杂质", "粗制滥造"],
+  "mnemonicNote": "re(再)+fine(精细)：一遍遍过筛，越提越纯",
+  "sourceNote": "re-(再) + 古法语 fin(精细)"
  },
  "refreshment": {
-  "modernMeaningCn": "点心",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "茶点",
+  "literalMeaningCn": "提神的东西",
+  "metaphorMeaningCn": "茶点、饮料",
+  "metaphorOptions": ["茶点、饮料", "正餐", "烈酒"],
+  "mnemonicNote": "refresh(提神)+ment：歇脚时垫肚子的那几样",
+  "sourceNote": "古法语 refreschier(使清新) + -ment"
  },
  "regarding": {
   "modernMeaningCn": "关于",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "说到那件事",
+  "metaphorMeaningCn": "关于、就…而言",
+  "metaphorOptions": ["关于、就…而言", "与…无涉", "避而不谈"],
+  "mnemonicNote": "regard(关涉)+ing：话头落在这一件事上",
+  "sourceNote": "古法语 regarder(看、关涉) + -ing"
  },
  "regularly": {
-  "modernMeaningCn": "有规则地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "定期地",
+  "literalMeaningCn": "按规矩来",
+  "metaphorMeaningCn": "定期地、有规律地",
+  "metaphorOptions": ["定期地、有规律地", "三天打鱼", "毫无准头"],
+  "mnemonicNote": "regular(规律)+ly：按着钟点来，一回不落",
+  "sourceNote": "拉丁 regularis，regula(尺规) + -ly"
  },
  "rehearsal": {
-  "modernMeaningCn": "预演",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "排练",
+  "literalMeaningCn": "正式前先走一遍",
+  "metaphorMeaningCn": "排练、彩排",
+  "metaphorOptions": ["排练、彩排", "正式公演", "临时救场"],
+  "mnemonicNote": "rehears(走台)+al：开场之前先走一遍台",
+  "sourceNote": "古法语 rehercier(反复耙、反复讲) + -al"
  },
  "reinforce": {
   "modernMeaningCn": "加强",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "再添把劲",
+  "metaphorMeaningCn": "加强、增援",
+  "metaphorOptions": ["加强、增援", "削弱", "釜底抽薪"],
+  "mnemonicNote": "re(再)+inforce(使有力)：再添一把劲",
+  "sourceNote": "re-(再) + enforce(使有力)"
  },
  "relatively": {
   "modernMeaningCn": "相对地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "两下比着说",
+  "metaphorMeaningCn": "相对地、比较上",
+  "metaphorOptions": ["相对地、比较上", "绝对地", "一概而论"],
+  "mnemonicNote": "relative(比着看)+ly：跟旁边那个比着说才成立",
+  "sourceNote": "拉丁 relativus，referre(关联) + -ly"
  },
  "relativity": {
-  "modernMeaningCn": "有关系",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "相对性、相对论",
+  "literalMeaningCn": "相对着才成立",
+  "metaphorMeaningCn": "相对性、相对论",
+  "metaphorOptions": ["相对性、相对论", "绝对性", "永恒不变"],
+  "mnemonicNote": "relativ(比着)+ity：离了参照物就无从谈起",
+  "sourceNote": "拉丁 relativus(相对的) + -ity"
  },
  "release": {
   "modernMeaningCn": "释放",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "松手放开",
+  "metaphorMeaningCn": "释放、发行",
+  "metaphorOptions": ["释放、发行", "扣住不放", "死死攥着"],
+  "mnemonicNote": "re(去掉)+lease(松)：松开手，让它走",
+  "sourceNote": "古法语 relesser，re-(去掉) + laissier(放开)"
  },
  "reliability": {
-  "modernMeaningCn": "信度",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "可靠性",
+  "literalMeaningCn": "靠得住的程度",
+  "metaphorMeaningCn": "可靠性、信度",
+  "metaphorOptions": ["可靠性、信度", "虚浮难凭", "朝令夕改"],
+  "mnemonicNote": "reliabil(靠得住)+ity：靠得住到什么程度",
+  "sourceNote": "rely(依靠) + -able + -ity"
  },
  "reliance": {
-  "modernMeaningCn": "信任",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "依赖",
+  "literalMeaningCn": "把身家托付过去",
+  "metaphorMeaningCn": "依赖、信任",
+  "metaphorOptions": ["依赖、信任", "自作主张", "各干各的"],
+  "mnemonicNote": "reli(依靠)+ance：把身家托付过去",
+  "sourceNote": "rely(依靠) + -ance"
  },
  "reluctant": {
   "modernMeaningCn": "不情愿的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "心里拧着劲的",
+  "metaphorMeaningCn": "不情愿的、勉强的",
+  "metaphorOptions": ["不情愿的、勉强的", "求之不得的", "争先恐后的"],
+  "mnemonicNote": "reluct(挣扎)+ant：心里拧着劲，脚步拖着",
+  "sourceNote": "拉丁 reluctari，re-(反) + luctari(挣扎)"
  },
  "remarkable": {
   "modernMeaningCn": "不平常的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "值得多看一眼的",
+  "metaphorMeaningCn": "非凡的、显著的",
+  "metaphorOptions": ["非凡的、显著的", "平平无奇的", "毫不起眼的"],
+  "mnemonicNote": "remark(注意)+able：值得让人多看几眼的",
+  "sourceNote": "法语 remarquer(注意) + -able"
  },
  "removal": {
   "modernMeaningCn": "移动",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "搬走这件事",
+  "metaphorMeaningCn": "移除、免职",
+  "metaphorOptions": ["移除、免职", "就职上任", "原地安放"],
+  "mnemonicNote": "remov(移走)+al：把它从原来的位子上搬开",
+  "sourceNote": "古法语 removoir(移开) + -al"
  },
  "render": {
   "modernMeaningCn": "回报",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "交出来",
+  "metaphorMeaningCn": "使成为、给予、表达",
+  "metaphorOptions": ["使成为、给予、表达", "一毛不拔", "只进不出"],
+  "mnemonicNote": "rend(给)+er：把该交的双手奉上",
+  "sourceNote": "古法语 rendre(交还)，拉丁 reddere"
  },
  "repeatedly": {
   "modernMeaningCn": "重复地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一遍又一遍",
+  "metaphorMeaningCn": "反复地、再三",
+  "metaphorOptions": ["反复地、再三", "仅此一回", "绝无二次"],
+  "mnemonicNote": "repeated(反复)+ly：一遍又一遍，没完没了",
+  "sourceNote": "拉丁 repetere(再求、重做) + -ly"
  },
  "repetition": {
   "modernMeaningCn": "重复",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "再来一遍",
+  "metaphorMeaningCn": "重复、反复",
+  "metaphorOptions": ["重复、反复", "一次了结", "各不相同"],
+  "mnemonicNote": "repet(再来)+ition：同样的动作又走一遍",
+  "sourceNote": "拉丁 repetitio，repetere(重做)"
  },
  "reproach": {
   "modernMeaningCn": "责备",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "凑上去数落",
+  "metaphorMeaningCn": "责备、指责",
+  "metaphorOptions": ["责备、指责", "称赞", "好言相劝"],
+  "mnemonicNote": "re(回)+proach(靠近)：凑上前数落几句",
+  "sourceNote": "古法语 reprochier，re-(回) + proche(近)"
  },
  "reproduce": {
   "modernMeaningCn": "繁殖",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "再生出一批",
+  "metaphorMeaningCn": "繁殖、复制",
+  "metaphorOptions": ["繁殖、复制", "灭绝", "断子绝孙"],
+  "mnemonicNote": "re(再)+produce(产生)：再生出一批来",
+  "sourceNote": "re-(再) + produce(产生)"
  },
  "republican": {
   "modernMeaningCn": "共和主义者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "主张共和那一派",
+  "metaphorMeaningCn": "共和党人、共和国的",
+  "metaphorOptions": ["共和党人、共和国的", "保皇派", "君主论者"],
+  "mnemonicNote": "republic(共和)+an(人)：主张那一派的人",
+  "sourceNote": "拉丁 res publica(公共之事) + -an"
  },
  "researcher": {
   "modernMeaningCn": "研究人员",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "做研究的人",
+  "metaphorMeaningCn": "研究人员、调查者",
+  "metaphorOptions": ["研究人员、调查者", "门外汉", "旁观者"],
+  "mnemonicNote": "research(探究)+er(人)：蹲在实验室里那位",
+  "sourceNote": "古法语 recerche(探究) + -er"
  },
  "resignation": {
   "modernMeaningCn": "辞职",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "交还职务这件事",
+  "metaphorMeaningCn": "辞职、顺从",
+  "metaphorOptions": ["辞职、顺从", "就任", "走马上任"],
+  "mnemonicNote": "resign(辞去)+ation：把职务交还回去",
+  "sourceNote": "拉丁 resignatio，resignare(交还、注销)"
  },
  "resistance": {
   "modernMeaningCn": "抵抗力",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "顶住不松的劲",
+  "metaphorMeaningCn": "抵抗力、阻力",
+  "metaphorOptions": ["抵抗力、阻力", "不堪一击", "拱手而降"],
+  "mnemonicNote": "resist(顶住)+ance：硬顶着不让进",
+  "sourceNote": "拉丁 resistere，re-(反) + sistere(站)"
  },
  "resistant": {
   "modernMeaningCn": "抵抗者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "顶得住的",
+  "metaphorMeaningCn": "抵抗的、有抵抗力的",
+  "metaphorOptions": ["抵抗的、有抵抗力的", "一触即溃的", "逆来顺受的"],
+  "mnemonicNote": "resist(顶住)+ant：药也压不下去那种顶劲",
+  "sourceNote": "拉丁 resistere(顶住) + -ant"
  },
  "resolution": {
   "modernMeaningCn": "解析",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "把疙瘩解开",
+  "metaphorMeaningCn": "决心、决议、分辨率",
+  "metaphorOptions": ["决心、决议、分辨率", "犹豫不决", "悬而未决"],
+  "mnemonicNote": "re(加强)+solution(解开)：把乱麻解开那一下",
+  "sourceNote": "拉丁 resolutio，resolvere(解开)"
  },
  "resolve": {
   "modernMeaningCn": "决定",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "把结打开",
+  "metaphorMeaningCn": "解决、决心",
+  "metaphorOptions": ["解决、决心", "搁置不理", "推给旁人"],
+  "mnemonicNote": "re(加强)+solve(解开)：把死结一点点打开",
+  "sourceNote": "拉丁 resolvere，re-(加强) + solvere(松开)"
  },
  "resort": {
   "modernMeaningCn": "度假胜地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "常去的那地方",
+  "metaphorMeaningCn": "度假胜地、求助",
+  "metaphorOptions": ["度假胜地、求助", "荒僻之地", "闭门不出"],
+  "mnemonicNote": "re(反复)+sort(出去)：一到假期就奔那儿去",
+  "sourceNote": "古法语 resortir，re-(反复) + sortir(出去)"
  },
  "resource": {
   "modernMeaningCn": "资源",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "能再冒东西的源",
+  "metaphorMeaningCn": "资源、办法",
+  "metaphorOptions": ["资源、办法", "枯竭", "弹尽粮绝"],
+  "mnemonicNote": "re(再)+source(源头)：用完还能再冒出来的那个源",
+  "sourceNote": "法语 ressource，re-(再) + sourdre(涌出)"
  },
  "respectful": {
   "modernMeaningCn": "表示尊敬的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "存着敬意的",
+  "metaphorMeaningCn": "恭敬的、有礼的",
+  "metaphorOptions": ["恭敬的、有礼的", "出言不逊的", "轻慢无礼的"],
+  "mnemonicNote": "respect(敬重)+ful：心里存着敬意，话就说得分寸",
+  "sourceNote": "拉丁 respectus(回看、敬重) + -ful"
  },
  "respective": {
   "modernMeaningCn": "分别的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "各看各的",
+  "metaphorMeaningCn": "各自的、分别的",
+  "metaphorOptions": ["各自的、分别的", "共同的", "混作一谈"],
+  "mnemonicNote": "respect(分看)+ive：各看各的，不混在一块说",
+  "sourceNote": "中世纪拉丁 respectivus，respicere(回看)"
  },
  "respectively": {
   "modernMeaningCn": "各自地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一个一个对着来",
+  "metaphorMeaningCn": "分别地、各自地",
+  "metaphorOptions": ["分别地、各自地", "一并而论", "笼统言之"],
+  "mnemonicNote": "respective(各自的)+ly：一个一个按次序对着来",
+  "sourceNote": "中世纪拉丁 respectivus(各自) + -ly"
  },
  "responsible": {
   "modernMeaningCn": "有责任的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "得出来答话的",
+  "metaphorMeaningCn": "有责任的、可靠的",
+  "metaphorOptions": ["有责任的、可靠的", "推卸责任的", "置身事外的"],
+  "mnemonicNote": "respons(回应)+ible：出了事得来答话的",
+  "sourceNote": "拉丁 respondere(回应) + -ible"
  },
  "restless": {
   "modernMeaningCn": "不安静的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "歇不下来的",
+  "metaphorMeaningCn": "焦躁的、不安的",
+  "metaphorOptions": ["焦躁的、不安的", "安之若素的", "气定神闲的"],
+  "mnemonicNote": "rest(歇息)+less(无)：坐也坐不住，来回踱步",
+  "sourceNote": "古英语 rest(歇息) + -less(无)"
  },
  "restore": {
   "modernMeaningCn": "回复",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "重新放回原处",
+  "metaphorMeaningCn": "恢复、修复",
+  "metaphorOptions": ["恢复、修复", "破坏殆尽", "一去不返"],
+  "mnemonicNote": "re(再)+store(存放)：重新放回原来的位置",
+  "sourceNote": "古法语 restorer，拉丁 restaurare(重建)"
  },
  "restrain": {
   "modernMeaningCn": "抑制",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "往回拽住",
+  "metaphorMeaningCn": "抑制、约束",
+  "metaphorOptions": ["抑制、约束", "放任自流", "推波助澜"],
+  "mnemonicNote": "re(往后)+strain(拉紧)：往回拽住不让它动",
+  "sourceNote": "古法语 restreindre，拉丁 re-(往后) + stringere(拉紧)"
  },
  "resume": {
   "modernMeaningCn": "重新开始",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "重新拿起来",
+  "metaphorMeaningCn": "恢复、简历",
+  "metaphorOptions": ["恢复、简历", "撂下不管", "就此搁笔"],
+  "mnemonicNote": "re(再)+sume(取)：把撂下的事重新拿起来",
+  "sourceNote": "拉丁 resumere，re-(再) + sumere(取)"
  },
  "retreat": {
   "modernMeaningCn": "休息寓所",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "往回撤",
+  "metaphorMeaningCn": "撤退、隐居处",
+  "metaphorOptions": ["撤退、隐居处", "冲锋在前", "迎头而上"],
+  "mnemonicNote": "re(往回)+treat(拉)：往后撤，退到清静地方",
+  "sourceNote": "古法语 retret，retraire(往回拉)"
  },
  "revenue": {
   "modernMeaningCn": "收入",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "收回来的钱",
+  "metaphorMeaningCn": "收入、税收",
+  "metaphorOptions": ["收入、税收", "支出", "开销"],
+  "mnemonicNote": "re(回)+venue(来)：流回来的那一笔钱",
+  "sourceNote": "古法语 revenue，拉丁 revenire(回来)"
  },
  "reverse": {
   "modernMeaningCn": "相反",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "掉个头",
+  "metaphorMeaningCn": "颠倒、相反、倒车",
+  "metaphorOptions": ["颠倒、相反、倒车", "照旧进行", "原样推进"],
+  "mnemonicNote": "re(往回)+verse(转)：掉个个儿，前后易位",
+  "sourceNote": "拉丁 reversus，revertere(回转)"
  },
  "revolt": {
   "modernMeaningCn": "叛乱",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "翻过身来",
+  "metaphorMeaningCn": "反叛、起义",
+  "metaphorOptions": ["反叛、起义", "俯首帖耳", "逆来顺受"],
+  "mnemonicNote": "re(往回)+volt(滚)：翻身起来对着干",
+  "sourceNote": "法语 revolter，意大利 rivoltare(翻转)"
  },
  "revolutionary": {
   "modernMeaningCn": "革命者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "要掀翻旧局那一派",
+  "metaphorMeaningCn": "革命的、革命者",
+  "metaphorOptions": ["革命的、革命者", "守旧的", "抱残守缺的"],
+  "mnemonicNote": "revolution(变革)+ary：要掀翻旧局那一路人",
+  "sourceNote": "拉丁 revolutio(翻转) + -ary"
  },
  "robber": {
   "modernMeaningCn": "强盗",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "动手抢的人",
+  "metaphorMeaningCn": "强盗、劫匪",
+  "metaphorOptions": ["强盗、劫匪", "失主", "巡逻者"],
+  "mnemonicNote": "robb(抢夺)+er(人)：动手抢东西那位",
+  "sourceNote": "古法语 rober(抢夺) + -er"
  },
  "robbery": {
   "modernMeaningCn": "抢掠",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "抢东西这件事",
+  "metaphorMeaningCn": "抢劫、盗窃",
+  "metaphorOptions": ["抢劫、盗窃", "馈赠", "拾金不昧"],
+  "mnemonicNote": "robb(抢夺)+ery(行为)：抢东西这件事本身",
+  "sourceNote": "古法语 roberie，rober(抢夺)"
  },
  "roman": {
-  "modernMeaningCn": "罗马人罗马人的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "罗马人",
+  "literalMeaningCn": "罗马城的",
+  "metaphorMeaningCn": "罗马人、罗马的",
+  "metaphorOptions": ["罗马人、罗马的", "希腊人", "埃及人"],
+  "mnemonicNote": "rom(罗马)+an：台伯河边那座城的人",
+  "sourceNote": "拉丁 Romanus，Roma(罗马)"
  },
  "romantic": {
   "modernMeaningCn": "浪漫的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "像传奇故事那样",
+  "metaphorMeaningCn": "浪漫的、多情的",
+  "metaphorOptions": ["浪漫的、多情的", "刻板无趣的", "务实到底的"],
+  "mnemonicNote": "romant(传奇)+ic：像老故事里那样，不太过日子",
+  "sourceNote": "古法语 romant(传奇故事) + -ic"
  },
  "rotation": {
   "modernMeaningCn": "旋转",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "绕圈转这件事",
+  "metaphorMeaningCn": "旋转、轮换",
+  "metaphorOptions": ["旋转、轮换", "静止不动", "定住不动"],
+  "mnemonicNote": "rotat(转)+ion：绕着一个点一圈圈转",
+  "sourceNote": "拉丁 rotatio，rotare(转动)"
  }
 }
