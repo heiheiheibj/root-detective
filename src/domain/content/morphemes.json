@@ -1868,7 +1868,7 @@
     "id": "uum",
     "type": "suffix",
     "displayText": "-uum",
-    "meaningCn": "拉丁名词词尾",
+    "meaningCn": "名词词尾",
     "allomorphs": [
       "uum"
     ],
@@ -2014,7 +2014,7 @@
     "id": "active",
     "displayText": "active",
     "type": "root",
-    "meaningCn": "活跃的",
+    "meaningCn": "做、行动",
     "allomorphs": [
       "activ",
       "active"
@@ -2051,7 +2051,7 @@
     "id": "vis",
     "displayText": "vis",
     "type": "root",
-    "meaningCn": "医力",
+    "meaningCn": "看",
     "allomorphs": [
       "vise"
     ],
@@ -2599,7 +2599,7 @@
     "id": "capit",
     "displayText": "capit",
     "type": "root",
-    "meaningCn": "医头",
+    "meaningCn": "头",
     "allomorphs": [
       "capit"
     ],
@@ -2744,7 +2744,7 @@
     "id": "comp",
     "displayText": "comp",
     "type": "root",
-    "meaningCn": "计电脑及相关知识",
+    "meaningCn": "共同",
     "allomorphs": [
       "comp"
     ],
@@ -2792,7 +2792,7 @@
     "id": "sid",
     "displayText": "sid",
     "type": "root",
-    "meaningCn": "计安全性标识",
+    "meaningCn": "坐",
     "allomorphs": [
       "sid"
     ],
@@ -3009,7 +3009,7 @@
     "id": "turb",
     "displayText": "turb",
     "type": "root",
-    "meaningCn": "医湍流",
+    "meaningCn": "搅动",
     "allomorphs": [
       "turb"
     ],
@@ -3058,7 +3058,7 @@
     "id": "dure",
     "displayText": "dure",
     "type": "root",
-    "meaningCn": "古冷酷的",
+    "meaningCn": "持续",
     "allomorphs": [
       "dur"
     ],
@@ -3119,7 +3119,7 @@
     "id": "eng",
     "displayText": "eng",
     "type": "root",
-    "meaningCn": "医眼震电流描记法",
+    "meaningCn": "英格",
     "allomorphs": [
       "eng"
     ],
@@ -3507,7 +3507,7 @@
     "id": "ma",
     "displayText": "ma",
     "type": "root",
-    "meaningCn": "医智力年龄",
+    "meaningCn": "妈",
     "allomorphs": [
       "ma"
     ],
@@ -3592,7 +3592,7 @@
     "id": "bag",
     "displayText": "bag",
     "type": "root",
-    "meaningCn": "医颊轴龈的",
+    "meaningCn": "袋",
     "allomorphs": [
       "bag",
       "bagg"
@@ -3605,7 +3605,7 @@
     "id": "handwrite",
     "displayText": "handwrite",
     "type": "root",
-    "meaningCn": "古用手写",
+    "meaningCn": "手写",
     "allomorphs": [
       "handwrit"
     ],
@@ -3786,7 +3786,7 @@
     "id": "import",
     "displayText": "import",
     "type": "root",
-    "meaningCn": "进口货",
+    "meaningCn": "带入",
     "allomorphs": [
       "import"
     ],
@@ -3836,7 +3836,7 @@
     "id": "ind",
     "displayText": "ind",
     "type": "root",
-    "meaningCn": "医每日",
+    "meaningCn": "印度",
     "allomorphs": [
       "ind"
     ],
@@ -3944,7 +3944,7 @@
     "id": "duce",
     "displayText": "duce",
     "type": "root",
-    "meaningCn": "意首领",
+    "meaningCn": "引导",
     "allomorphs": [
       "duce"
     ],
@@ -4137,7 +4137,7 @@
     "id": "mathematic",
     "displayText": "mathematic",
     "type": "root",
-    "meaningCn": "计数学的",
+    "meaningCn": "数学",
     "allomorphs": [
       "mathematic"
     ],
@@ -4319,7 +4319,7 @@
     "id": "not",
     "displayText": "not",
     "type": "root",
-    "meaningCn": "不",
+    "meaningCn": "知道、标记",
     "allomorphs": [
       "not",
       "n",
@@ -4418,7 +4418,7 @@
     "id": "note",
     "displayText": "note",
     "type": "root",
-    "meaningCn": "笔记",
+    "meaningCn": "知道、标记",
     "allomorphs": [
       "not",
       "note"
@@ -4529,7 +4529,7 @@
     "id": "passer",
     "displayText": "passer",
     "type": "root",
-    "meaningCn": "过路人",
+    "meaningCn": "经过",
     "allomorphs": [
       "pass"
     ],
@@ -4674,7 +4674,7 @@
     "id": "gress",
     "displayText": "gress",
     "type": "root",
-    "meaningCn": "人名格雷斯",
+    "meaningCn": "走、步",
     "allomorphs": [
       "gress"
     ],
@@ -5706,7 +5706,7 @@
     "id": "mann",
     "displayText": "mann",
     "type": "root",
-    "meaningCn": "曼姓氏",
+    "meaningCn": "人",
     "allomorphs": [
       "man"
     ],
@@ -5742,7 +5742,7 @@
     "id": "eld",
     "displayText": "eld",
     "type": "root",
-    "meaningCn": "古高龄",
+    "meaningCn": "年代",
     "allomorphs": [
       "ld"
     ],
@@ -5867,7 +5867,7 @@
     "id": "bi",
     "displayText": "bi-",
     "type": "prefix",
-    "meaningCn": "医棱底向内",
+    "meaningCn": "二",
     "allomorphs": [
       "bi",
       "bitt"
@@ -6455,7 +6455,7 @@
     "id": "mas",
     "displayText": "-mas",
     "type": "suffix",
-    "meaningCn": "医近视散光",
+    "meaningCn": "弥撒",
     "allomorphs": [
       "mas"
     ],
@@ -7158,7 +7158,7 @@
     "id": "apt",
     "displayText": "apt",
     "type": "root",
-    "meaningCn": "医明矾沉淀类毒素",
+    "meaningCn": "适合",
     "allomorphs": [
       "apt"
     ],
@@ -7242,7 +7242,7 @@
     "id": "enda",
     "displayText": "enda",
     "type": "root",
-    "meaningCn": "人名恩达",
+    "meaningCn": "待办",
     "allomorphs": [
       "enda"
     ],
@@ -7254,7 +7254,7 @@
     "id": "aggress",
     "displayText": "aggress",
     "type": "root",
-    "meaningCn": "挑畔",
+    "meaningCn": "攻击",
     "allomorphs": [
       "aggress"
     ],
@@ -7545,7 +7545,7 @@
     "id": "app",
     "displayText": "app",
     "type": "root",
-    "meaningCn": "计应用",
+    "meaningCn": "朝向",
     "allomorphs": [
       "app"
     ],
@@ -7969,7 +7969,7 @@
     "id": "awk",
     "displayText": "awk",
     "type": "root",
-    "meaningCn": "计一种编程及数据",
+    "meaningCn": "反手",
     "allomorphs": [
       "awk"
     ],
@@ -8429,7 +8429,7 @@
     "id": "butch",
     "displayText": "butch",
     "type": "root",
-    "meaningCn": "俚充当男性角色的",
+    "meaningCn": "屠宰",
     "allomorphs": [
       "butch"
     ],
@@ -8478,7 +8478,7 @@
     "id": "rot",
     "displayText": "rot",
     "type": "root",
-    "meaningCn": "医右枕横胎位",
+    "meaningCn": "轮转",
     "allomorphs": [
       "rot",
       "rotat"
@@ -8684,7 +8684,7 @@
     "id": "circ",
     "displayText": "circ",
     "type": "root",
-    "meaningCn": "计广义圈",
+    "meaningCn": "圆",
     "allomorphs": [
       "circ"
     ],
@@ -9287,7 +9287,7 @@
     "id": "cube",
     "displayText": "cube",
     "type": "root",
-    "meaningCn": "立方体",
+    "meaningCn": "立方",
     "allomorphs": [
       "cub"
     ],
@@ -9590,7 +9590,7 @@
     "id": "courage",
     "displayText": "courage",
     "type": "root",
-    "meaningCn": "勇气",
+    "meaningCn": "心",
     "allomorphs": [
       "courage"
     ],
@@ -9819,7 +9819,7 @@
     "id": "barrass",
     "displayText": "barrass",
     "type": "root",
-    "meaningCn": "人名巴拉斯",
+    "meaningCn": "阻碍",
     "allomorphs": [
       "barrass"
     ],
@@ -10885,7 +10885,7 @@
     "id": "rupt",
     "displayText": "rupt",
     "type": "root",
-    "meaningCn": "医破裂",
+    "meaningCn": "破裂",
     "allomorphs": [
       "rupt"
     ],
@@ -11260,7 +11260,7 @@
     "id": "minim",
     "displayText": "minim",
     "type": "root",
-    "meaningCn": "量滴液量单位",
+    "meaningCn": "最小",
     "allomorphs": [
       "minim"
     ],
@@ -11644,7 +11644,7 @@
     "id": "spoken",
     "displayText": "spoken",
     "type": "root",
-    "meaningCn": "口头讲的",
+    "meaningCn": "说",
     "allomorphs": [
       "spoken"
     ],
@@ -11896,7 +11896,7 @@
     "id": "lute",
     "displayText": "lute",
     "type": "root",
-    "meaningCn": "鲁特诗琴",
+    "meaningCn": "冲洗",
     "allomorphs": [
       "lute"
     ],
@@ -12077,7 +12077,7 @@
     "id": "cess",
     "displayText": "cess",
     "type": "root",
-    "meaningCn": "地方税",
+    "meaningCn": "走、让",
     "allomorphs": [
       "cess"
     ],
@@ -13933,7 +13933,7 @@
     "id": "rn",
     "displayText": "rn",
     "type": "root",
-    "meaningCn": "医注册护士",
+    "meaningCn": "走",
     "allomorphs": [
       "r"
     ],
@@ -14005,7 +14005,7 @@
     "id": "well",
     "displayText": "well",
     "type": "root",
-    "meaningCn": "或的常用口语形式",
+    "meaningCn": "好",
     "allomorphs": [
       "well",
       "wel"
@@ -14030,7 +14030,7 @@
     "id": "western",
     "displayText": "western",
     "type": "root",
-    "meaningCn": "西方人",
+    "meaningCn": "西",
     "allomorphs": [
       "western"
     ],
@@ -14174,7 +14174,7 @@
     "id": "abs",
     "displayText": "abs-",
     "type": "prefix",
-    "meaningCn": "计绝对",
+    "meaningCn": "离开",
     "allomorphs": [
       "abs"
     ],
@@ -14457,7 +14457,7 @@
     "id": "semi",
     "displayText": "semi-",
     "type": "prefix",
-    "meaningCn": "计半",
+    "meaningCn": "半",
     "allomorphs": [
       "semi"
     ],
@@ -14531,7 +14531,7 @@
     "id": "ency",
     "displayText": "-ency",
     "type": "suffix",
-    "meaningCn": "见",
+    "meaningCn": "名词后缀",
     "allomorphs": [
       "ency"
     ],
@@ -14678,7 +14678,7 @@
     "id": "sion",
     "displayText": "-sion",
     "type": "suffix",
-    "meaningCn": "见",
+    "meaningCn": "名词后缀",
     "allomorphs": [
       "sion"
     ],
@@ -14762,7 +14762,7 @@
     "id": "yer",
     "displayText": "-yer",
     "type": "suffix",
-    "meaningCn": "俚你的等于",
+    "meaningCn": "人",
     "allomorphs": [
       "yer"
     ],
@@ -14798,7 +14798,7 @@
     "id": "um",
     "displayText": "-um",
     "type": "suffix",
-    "meaningCn": "嗯表示迟疑人名",
+    "meaningCn": "名词后缀",
     "allomorphs": [
       "um"
     ],
@@ -15137,7 +15137,7 @@
     "id": "cip",
     "displayText": "cip",
     "type": "root",
-    "meaningCn": "计汉字交换程序",
+    "meaningCn": "拿取",
     "allomorphs": [
       "cip"
     ],
@@ -15331,7 +15331,7 @@
     "id": "bull",
     "displayText": "bull",
     "type": "root",
-    "meaningCn": "公牛法买方",
+    "meaningCn": "公牛",
     "allomorphs": [
       "bull"
     ],
@@ -15622,7 +15622,7 @@
     "id": "sci",
     "displayText": "sci",
     "type": "root",
-    "meaningCn": "计串行通信接口",
+    "meaningCn": "知道",
     "allomorphs": [
       "sci"
     ],
@@ -16549,7 +16549,7 @@
     "id": "gas",
     "displayText": "gas",
     "type": "root",
-    "meaningCn": "医全身适应综合征",
+    "meaningCn": "气",
     "allomorphs": [
       "gas"
     ],
@@ -16778,7 +16778,7 @@
     "id": "lus",
     "displayText": "lus",
     "type": "root",
-    "meaningCn": "人名",
+    "meaningCn": "戏弄",
     "allomorphs": [
       "lus"
     ],
@@ -17767,7 +17767,7 @@
     "id": "lig",
     "displayText": "lig",
     "type": "root",
-    "meaningCn": "口闲逛方言",
+    "meaningCn": "捆绑",
     "allomorphs": [
       "lige"
     ],
@@ -17960,7 +17960,7 @@
     "id": "insula",
     "displayText": "insula",
     "type": "root",
-    "meaningCn": "医岛",
+    "meaningCn": "岛",
     "allomorphs": [
       "insula",
       "insulat"
@@ -18009,7 +18009,7 @@
     "id": "soph",
     "displayText": "soph",
     "type": "root",
-    "meaningCn": "美口",
+    "meaningCn": "智慧",
     "allomorphs": [
       "soph"
     ],
@@ -19129,7 +19129,7 @@
     "id": "sprink",
     "displayText": "sprink",
     "type": "root",
-    "meaningCn": "人名斯普林克尔",
+    "meaningCn": "洒",
     "allomorphs": [
       "sprink"
     ],
@@ -19286,7 +19286,7 @@
     "id": "urbs",
     "displayText": "urbs",
     "type": "root",
-    "meaningCn": "的复数都市的",
+    "meaningCn": "都市",
     "allomorphs": [
       "urb"
     ],
@@ -19610,7 +19610,7 @@
     "id": "just",
     "displayText": "just",
     "type": "root",
-    "meaningCn": "公正的",
+    "meaningCn": "判断、公正",
     "allomorphs": [
       "just"
     ],
@@ -19816,7 +19816,7 @@
     "id": "who",
     "displayText": "who",
     "type": "root",
-    "meaningCn": "医世界卫生组织",
+    "meaningCn": "谁",
     "allomorphs": [
       "who"
     ],
@@ -19913,7 +19913,7 @@
     "id": "zeal",
     "displayText": "zeal",
     "type": "root",
-    "meaningCn": "医玉蜀黍属",
+    "meaningCn": "热忱",
     "allomorphs": [
       "zeal"
     ],
@@ -19974,7 +19974,7 @@
     "id": "iso",
     "displayText": "iso-",
     "type": "prefix",
-    "meaningCn": "计国际标准化组织",
+    "meaningCn": "相等",
     "allomorphs": [
       "iso"
     ],
@@ -19986,7 +19986,7 @@
     "id": "milli",
     "displayText": "milli-",
     "type": "prefix",
-    "meaningCn": "计毫",
+    "meaningCn": "千分之一",
     "allomorphs": [
       "milli"
     ],
@@ -19998,7 +19998,7 @@
     "id": "multi",
     "displayText": "multi-",
     "type": "prefix",
-    "meaningCn": "计多",
+    "meaningCn": "多",
     "allomorphs": [
       "multi"
     ],
@@ -20034,7 +20034,7 @@
     "id": "philo",
     "displayText": "philo-",
     "type": "prefix",
-    "meaningCn": "斐洛古犹太神秘主",
+    "meaningCn": "爱",
     "allomorphs": [
       "philo"
     ],
@@ -20144,7 +20144,7 @@
     "id": "eous",
     "displayText": "-eous",
     "type": "suffix",
-    "meaningCn": "医具油滴的",
+    "meaningCn": "…的",
     "allomorphs": [
       "eous"
     ],
@@ -20217,7 +20217,7 @@
     "id": "abbreviate",
     "displayText": "abbreviate",
     "type": "root",
-    "meaningCn": "缩写",
+    "meaningCn": "缩短",
     "allomorphs": [
       "abbreviat"
     ],
@@ -20710,7 +20710,7 @@
     "id": "calibrate",
     "displayText": "calibrate",
     "type": "root",
-    "meaningCn": "测定口径",
+    "meaningCn": "口径",
     "allomorphs": [
       "calibrat"
     ],
@@ -21216,7 +21216,7 @@
     "id": "secut",
     "displayText": "secut",
     "type": "root",
-    "meaningCn": "装备盾剑的古罗马",
+    "meaningCn": "跟随",
     "allomorphs": [
       "secut"
     ],
@@ -21804,7 +21804,7 @@
     "id": "trah",
     "displayText": "trah",
     "type": "root",
-    "meaningCn": "人名特拉汉",
+    "meaningCn": "拉、拖",
     "allomorphs": [
       "tract"
     ],
@@ -21936,7 +21936,7 @@
     "id": "emi",
     "displayText": "emi",
     "type": "root",
-    "meaningCn": "计电磁干扰",
+    "meaningCn": "出去",
     "allomorphs": [
       "emi"
     ],
@@ -22032,7 +22032,7 @@
     "id": "dem",
     "displayText": "dem",
     "type": "root",
-    "meaningCn": "计解调器",
+    "meaningCn": "民众",
     "allomorphs": [
       "demic"
     ],
@@ -22681,7 +22681,7 @@
     "id": "hospital",
     "displayText": "hospital",
     "type": "root",
-    "meaningCn": "医院医医院",
+    "meaningCn": "招待",
     "allomorphs": [
       "hospital"
     ],
@@ -22945,7 +22945,7 @@
     "id": "dc",
     "displayText": "dc",
     "type": "root",
-    "meaningCn": "医直电流",
+    "meaningCn": "引导",
     "allomorphs": [
       "duce"
     ],
@@ -23545,7 +23545,7 @@
     "id": "hal",
     "displayText": "hal",
     "type": "root",
-    "meaningCn": "计硬件描象层",
+    "meaningCn": "仆役",
     "allomorphs": [
       "hal"
     ],
@@ -23678,7 +23678,7 @@
     "id": "minimum",
     "displayText": "minimum",
     "type": "root",
-    "meaningCn": "最小的",
+    "meaningCn": "最小",
     "allomorphs": [
       "minim"
     ],
@@ -23690,7 +23690,7 @@
     "id": "minimus",
     "displayText": "minimus",
     "type": "root",
-    "meaningCn": "最年轻的",
+    "meaningCn": "最小",
     "allomorphs": [
       "minim"
     ],
@@ -23750,7 +23750,7 @@
     "id": "mons",
     "displayText": "mons",
     "type": "root",
-    "meaningCn": "医山",
+    "meaningCn": "警示",
     "allomorphs": [
       "mons"
     ],
@@ -24482,7 +24482,7 @@
     "id": "puls",
     "displayText": "puls",
     "type": "root",
-    "meaningCn": "的复数普尔阿富汗",
+    "meaningCn": "驱动、推",
     "allomorphs": [
       "puls",
       "pulse"
@@ -24735,7 +24735,7 @@
     "id": "der",
     "displayText": "der",
     "type": "root",
-    "meaningCn": "医变性反应",
+    "meaningCn": "剩下",
     "allomorphs": [
       "der"
     ],
@@ -24843,7 +24843,7 @@
     "id": "tardus",
     "displayText": "tardus",
     "type": "root",
-    "meaningCn": "医慢震颤",
+    "meaningCn": "慢",
     "allomorphs": [
       "tard"
     ],
@@ -25937,7 +25937,7 @@
     "id": "counter",
     "displayText": "counter-",
     "type": "prefix",
-    "meaningCn": "计算器",
+    "meaningCn": "反",
     "allomorphs": [
       "counter"
     ],
@@ -25949,7 +25949,7 @@
     "id": "mal",
     "displayText": "mal-",
     "type": "prefix",
-    "meaningCn": "医疾病",
+    "meaningCn": "坏",
     "allomorphs": [
       "mal"
     ],
@@ -26058,7 +26058,7 @@
     "id": "syn",
     "displayText": "syn-",
     "type": "prefix",
-    "meaningCn": "计同步字符",
+    "meaningCn": "共同",
     "allomorphs": [
       "syn"
     ],

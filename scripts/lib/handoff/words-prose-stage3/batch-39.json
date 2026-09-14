@@ -246,8 +246,8 @@
   "metaphorMeaningCn": "电工、电气技师",
   "metaphorOptions": [
    "电工、电气技师",
-   "医注册护士的影子",
-   "把社会翻开"
+   "社会的影子",
+   "把否定翻开"
   ],
   "mnemonicNote": "electric(电)+ian(人)：拉线装灯那位",
   "sourceNote": "希腊 elektron(琥珀) + -ian"
@@ -319,7 +319,7 @@
   "metaphorOptions": [
    "经验的、实证的",
    "表示空气的过程",
-   "向着次级去"
+   "向着名词词尾去"
   ],
   "mnemonicNote": "empiric(试验)+al：不靠空想，靠一次次试出来",
   "sourceNote": "希腊 empeiria，en-(在内) + peira(试验)"
@@ -415,7 +415,7 @@
   "metaphorOptions": [
    "企业家、创业者",
    "正午的背面",
-   "被计算器的东西"
+   "被叮当声的东西"
   ],
   "mnemonicNote": "entreprene(着手)+ur(人)：敢第一个动手揽事那位",
   "sourceNote": "法语 entreprendre(着手、承担) + -eur"
@@ -534,8 +534,8 @@
   "metaphorMeaningCn": "进化的、演变的",
   "metaphorOptions": [
    "进化的、演变的",
-   "手臂的背面",
-   "被跨越的东西"
+   "警示的背面",
+   "被手臂的东西"
   ],
   "mnemonicNote": "evolution(演化)+ary：一步步变过来的那一路",
   "sourceNote": "拉丁 evolutio，evolvere(展开)"
@@ -582,8 +582,8 @@
   "metaphorMeaningCn": "实验性地、试验地",
   "metaphorOptions": [
    "实验性地、试验地",
-   "守着医眼震电流描记法过活",
-   "呼吸的小站"
+   "守着呼吸过活",
+   "使用的小站"
   ],
   "mnemonicNote": "experimental(试出来的)+ly：先在实验室里试过",
   "sourceNote": "拉丁 experimentum(试验) + -al + -ly"
@@ -606,8 +606,8 @@
   "metaphorMeaningCn": "开发、剥削",
   "metaphorOptions": [
    "开发、剥削",
-   "医世界卫生组织的人",
-   "一种打赌的习俗"
+   "打赌的人",
+   "一种临近的的习俗"
   ],
   "mnemonicNote": "exploit(利用)+ation：把资源榨出来用，也可能是压榨人",
   "sourceNote": "古法语 esploitier，拉丁 explicare(展开)"
@@ -655,7 +655,7 @@
   "metaphorOptions": [
    "抽取、拔除",
    "伸展的一角",
-   "一种最年轻的的习俗"
+   "一种延迟的习俗"
   ],
   "mnemonicNote": "extract(拉出)+ion：把它从里面拔出来",
   "sourceNote": "晚期拉丁 extractio，extrahere(拉出)"

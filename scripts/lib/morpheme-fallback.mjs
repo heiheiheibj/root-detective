@@ -48,3 +48,51 @@ export const FALLBACK_MEANINGS = {
 
 /** 义项里没有汉字就算缺（deriveMeaning 有时会填进一串英文，那种也过不了 A20）。 */
 export const hasHanzi = (text) => /[\u4e00-\u9fff]/.test(String(text || ''))
+
+/**
+ * 强制覆盖义项：这些词素的 meaningCn **有汉字、但意义完全不对**，兜底表兜不住。
+ *
+ * 成因：生成词素表时按 id 去 ECDICT 查义项，而很多词根/词干的拼法**正好撞上一个英文缩写或
+ * 俚语词条**，于是拿回来的是那个词条的释义 —— 真实存在，但与词根毫无关系：
+ *   trah  → 「人名特拉汉」（Trah 人名）      puls → 「的复数普尔阿富汗」（阿富汗货币 pul）
+ *   dc    → 「医直电流」（DC 直流电）        who  → 「医世界卫生组织」（WHO）
+ *   sci   → 「计串行通信接口」（SCI 接口）    iso  → 「计国际标准化组织」（ISO）
+ *   minim → 「量滴液量单位」（minim 药量单位） urbs → 「的复数都市的」
+ *   gress → 「人名格雷斯」（Grace 人名）      mons → 「医山」（mons 拉丁解剖术语）
+ * 最扎眼的是 `minim`：它挂在「杂物仓」世界，家族词是 minimum —— 玩家会看到一张写着
+ * 「minim＝量滴液量单位」的教学卡，然后学 minimum。
+ *
+ * 与 FALLBACK_MEANINGS 的分工：那张表只在**没有汉字**时兜（A20 空值），这张表是**无条件覆盖**
+ * （值错了也要改）。两处都在 build-stage3-config.mjs 的统一收敛点上应用 —— 那里是唯一的
+ * 汇合处，比在生成器里各补一遍可靠（词素来自 stage1 + 各批 additions 三处）。
+ */
+export const OVERRIDE_MEANINGS = {
+  // 词根：被当成英文缩写/专名/术语查了
+  vis: '看', capit: '头', comp: '共同', sid: '坐', turb: '搅动', dure: '持续',
+  eng: '英格', ma: '妈', bag: '袋', handwrite: '手写', ind: '印度', duce: '引导',
+  mathematic: '数学', gress: '走、步', mann: '人', eld: '年代', bi: '二', mas: '弥撒',
+  apt: '适合', enda: '待办', app: '朝向', awk: '反手', butch: '屠宰', rot: '轮转',
+  circ: '圆', barrass: '阻碍', rupt: '破裂', minim: '最小', minimus: '最小',
+  minimum: '最小', rn: '走', abs: '离开', yer: '人', cip: '拿取', sci: '知道',
+  gas: '气', lus: '戏弄', lig: '捆绑', insula: '岛', soph: '智慧', sprink: '洒',
+  urbs: '都市', who: '谁', zeal: '热忱', eous: '…的', trah: '拉、拖', emi: '出去',
+  dem: '民众', hospital: '招待', dc: '引导', hal: '仆役', mons: '警示',
+  puls: '驱动、推', der: '剩下', tardus: '慢', tard: '慢', mal: '坏', syn: '共同',
+  secut: '跟随', lute: '冲洗', cess: '走、让', philo: '爱',
+  popul: '人口', import: '带入', bull: '公牛', well: '好',
+  western: '西', cube: '立方', poet: '诗人', abbreviate: '缩短', calibrate: '口径',
+  spoken: '说', counter: '反',
+  // 后缀/前缀：同样撞上了缩写词条
+  semi: '半', milli: '千分之一', multi: '多', iso: '相等', uum: '名词词尾',
+  ency: '名词后缀', sion: '名词后缀', um: '名词后缀',
+  // 3.4 六级批的同根变体：这些 id 拼法来自 cigen，各自需要独立义项（第 1 层合并前先兜对）
+  aggress: '攻击', note: '知道、标记', not: '知道、标记', active: '做、行动',
+  courage: '心', just: '判断、公正', passer: '经过',
+}
+
+/**
+ * 词典兜底痕迹的特征——用于校验时报警（不是判错，是提示人工过一眼）。
+ * 只收「绝不可能是一个词根义项」的标记，避免误伤（`美`(beauty)、`计`(计算)、`方`(方向)
+ * 这类单字开头都可能是正常义项，所以不放进去）。
+ */
+export const DICT_ARTIFACT_RE = /^医|^俚|^古|^略|^变体|^见$|人名|姓氏|的复数|量滴|液量单位/

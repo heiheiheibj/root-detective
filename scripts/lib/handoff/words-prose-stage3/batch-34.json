@@ -186,8 +186,8 @@
   "metaphorMeaningCn": "极好的、了不起的",
   "metaphorOptions": [
    "极好的、了不起的",
-   "计汉字交换程序的旧事",
-   "网际网工程备忘录的影子"
+   "网际网工程备忘录的旧事",
+   "警示的影子"
   ],
   "mnemonicNote": "terrif(使惊骇)+ic：好到让人吓一跳",
   "sourceNote": "拉丁 terrificus，terrere(使惊骇)"
@@ -307,7 +307,7 @@
   "metaphorOptions": [
    "移植、迁移",
    "把同意串起来",
-   "计安全性标识的工具"
+   "轻蔑的工具"
   ],
   "mnemonicNote": "trans(越过)+plant(栽)：挪到另一块地里栽下去",
   "sourceNote": "拉丁 transplantare，trans-(越过) + plantare(栽)"
@@ -438,8 +438,8 @@
   "metaphorMeaningCn": "毫无疑问、肯定",
   "metaphorOptions": [
    "毫无疑问、肯定",
-   "把工作串起来",
-   "周期的工具"
+   "把带入串起来",
+   "工作的工具"
   ],
   "mnemonicNote": "undoubted(没得辩)+ly：摆在那儿，辩也辩不动",
   "sourceNote": "un-(不) + doubt(疑惑) + -ed + -ly"
@@ -475,7 +475,7 @@
   "metaphorOptions": [
    "不公正的、不公平的",
    "英方用指甲或爪子的人",
-   "犯错的影子"
+   "轮转的影子"
   ],
   "mnemonicNote": "un(不)+just(公道)：秤砣偷偷往一边挪",
   "sourceNote": "un-(不) + 拉丁 justus(公道)"
@@ -558,8 +558,8 @@
   "metaphorMeaningCn": "不合适的、不相称的",
   "metaphorOptions": [
    "不合适的、不相称的",
-   "替活跃的操心",
-   "犯错的味道"
+   "替犯错操心",
+   "相反的事物的味道"
   ],
   "mnemonicNote": "un(不)+suitable(对路)：尺码不对，套不上",
   "sourceNote": "un-(不) + suit(适合) + -able"
@@ -618,8 +618,8 @@
   "metaphorMeaningCn": "变量、可变的",
   "metaphorOptions": [
    "变量、可变的",
-   "计电磁干扰的过程",
-   "向着滤水器去"
+   "滤水器的过程",
+   "向着环境去"
   ],
   "mnemonicNote": "vari(变化)+able：会变的那个量",
   "sourceNote": "拉丁 variabilis，variare(变化)"
@@ -643,7 +643,7 @@
   "metaphorOptions": [
    "振动、颤动",
    "把一致翻开",
-   "进口货的影子"
+   "后缀的影子"
   ],
   "mnemonicNote": "vibrat(震颤)+ion：来来回回地颤",
   "sourceNote": "拉丁 vibrare(颤动) + -ion"

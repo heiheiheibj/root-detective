@@ -13,7 +13,7 @@
 import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
-import { FALLBACK_MEANINGS, hasHanzi } from '../lib/morpheme-fallback.mjs'
+import { FALLBACK_MEANINGS, hasHanzi, OVERRIDE_MEANINGS } from '../lib/morpheme-fallback.mjs'
 
 const here = dirname(fileURLToPath(import.meta.url))
 const libDir = join(here, '..', 'lib')
@@ -108,6 +108,18 @@ for (const batch of batches) {
 for (const m of extraMorphemes) {
   if (!hasHanzi(m.meaningCn) && FALLBACK_MEANINGS[m.id]) m.meaningCn = FALLBACK_MEANINGS[m.id]
 }
+
+// 强制覆盖：有一批词素的拼法正好撞上英文缩写/俚语条目，ECDICT 拿回来的是那个条目的释义 ——
+// 有汉字、过得了 A20，但意义与词根毫无关系（trah=人名特拉汉、dc=医直电流、minim=量滴液量单位）。
+// 这类兜底表兜不住，必须无条件覆盖。用「有汉字也改」体现「值错了也要纠正」。
+const overridden = []
+for (const m of extraMorphemes) {
+  if (OVERRIDE_MEANINGS[m.id]) {
+    if (m.meaningCn !== OVERRIDE_MEANINGS[m.id]) overridden.push(`${m.id}：「${m.meaningCn || '空'}」->「${OVERRIDE_MEANINGS[m.id]}」`)
+    m.meaningCn = OVERRIDE_MEANINGS[m.id]
+  }
+}
+if (overridden.length) console.log(`词素义项强制覆盖 ${overridden.length} 处：\n  ${overridden.join('\n  ')}`)
 
 // ── 完整性自检：每个家族词都有 split；split 引用的词素都已建模 ──────────────
 const morphemeIds = new Set([...legacy.morphemes.map((m) => m.id), ...extraMorphemes.map((m) => m.id)])

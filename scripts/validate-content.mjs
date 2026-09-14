@@ -8,6 +8,7 @@ import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 import { createInitialProfile, morphemes, rootMorphemes, worlds } from '../src/domain/data.ts'
 import { AGGREGATE_MIN_WORDS, MIN_WORDS_PER_ROOT, summarize, TARGET_WORD_COUNT, validateContent, validateWorlds } from '../src/domain/contentRules.ts'
+import { DICT_ARTIFACT_RE } from './lib/morpheme-fallback.mjs'
 
 // 浏览器侧 data.ts 只内联词条索引层（详情按分片懒加载）；校验要查详情字段，
 // 所以完整词表从 40 号产物 words.json 直接读——运行时和闸门共享同一份产物。
@@ -53,6 +54,20 @@ const findings = [
   ...validateContent(morphemes, words, { residueAllowlist, unmodeledDistractorAllowlist, generated, handwrittenIds: canarySet }),
   ...validateWorlds(morphemes, worlds, teachingRootIds),
 ]
+
+// 「词典兜底痕迹」自检（A20b，只报警不算错）。
+// 有一批词素的拼法**正好撞上一个英文缩写或俚语词条**，生成时按 id 去 ECDICT 查义项，拿回来的
+// 是那个词条的释义 —— 有汉字、过得了 A20，但意义与词根毫无关系（trah=人名特拉汉、dc=医直电流、
+// who=医世界卫生组织、minim=量滴液量单位）。这类值兜底表兜不住，只能人工覆盖 ——
+// 见 scripts/lib/morpheme-fallback.mjs 的 OVERRIDE_MEANINGS。
+// 正则只认「绝不可能是一个词根义项」的词典标记（医/俚/古/人名/姓氏/的复数…），
+// 所以偶尔会有误报，判 warning 不判 error。规则放在脚本层是因为签名与覆盖表是同一份东西，
+// 分到 contentRules.ts（TS、不能带值 import）就得抄一遍正则 —— 那正是当初义项表抄成两份的起因。
+for (const m of morphemes) {
+  if (m.meaningCn && DICT_ARTIFACT_RE.test(m.meaningCn)) {
+    findings.push({ level: 'warning', rule: 'A20b', target: m.id, message: `义项「${m.meaningCn}」像是把这个词素当缩写/专名查了，请人工确认` })
+  }
+}
 
 const failures = []
 const wordIds = new Set(words.map((word) => word.id))
