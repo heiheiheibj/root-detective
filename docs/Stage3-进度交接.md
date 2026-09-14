@@ -142,6 +142,17 @@ ECDICT 查义项，而很多词根/词干的拼法正好撞上一个英文缩写
 > 但产物已经归一。把 `CIGEN_ROOT_GROUPS` 接进 `buildCanon` 可从源头消除，收益仅是省掉这张
 > 手写合并表，风险是改动全部批次的词素 id —— 不值得做。
 
+**这一轮改动的已知薄弱处**（复核时优先看这些）：
+
+| 薄弱处 | 说明 |
+|---|---|
+| **85 处覆盖义项没有第三方校验** | `OVERRIDE_MEANINGS` 的值是一个 AI 逐个拍出来的，只有「家族词是否相符」这一层自证。这是本轮最需要外部核对的部分。 |
+| **`not` 家族的划分是编辑判断** | 拆成「副词 not(不) → neither/notwithstanding」与「词根 note(知道、标记) → notice/notation/notebook/notable」。划分合理，但换个人可能划得不一样。 |
+| **`cigen` 与切分两套拼法的根源没动** | 只做了产物层归一。若将来 cigen 数据更新或新增批次，同样的重复记录会再次出现 —— 得再补 `MORPHEME_MERGE`。 |
+| **`A20b` / `A24b` 只报警不算错** | `A20b` 的正则只认「绝不可能当词素义项」的词典标记（医/俚/古/人名/姓氏/的复数/量滴），像 `dc=医直电流` 能抓到，`counter=计算器` 抓不到（`计` 开头也可能是正常义项如「计算」）。覆盖面是有限的一层网，不是完备检查。 |
+| **`DISPLAY_FIX`（iced→ice）目前是空跑** | 唯一用它的是 `icecream`，而 `icecream` 不在词库里，所以这个词素根本没被产出。留着是给将来预备。 |
+| **1035 个警告没处理** | 主要是 A23 的「缺 d1/d5」（难度梯度少一端）。属于选题而非纠错。 |
+
 ```bash
 node scripts/tools/build-batch-config.mjs 3      # 生成 batch-05（0-based：3=3.4）
 # 前置 1：新建 scripts/lib/stage-additions/batch-05/worlds.json，按语义分组覆盖本批
