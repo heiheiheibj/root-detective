@@ -9,17 +9,16 @@
 
 | 项 | 值 |
 |---|---|
-| **已发布词库** | **1995 词 / 1639 词素（含 1371 词根）/ 37 世界**（校验 0 错误，可发布） |
-| **管线已推进到** | **3.4 六级批：切分通过 2679 词，例句 2668/2679**（+684 词待写释义） |
-| **当前阻塞** | **3.4 的 689 个词缺释义**（`batch-36` ~ `batch-47`，每批 ≤60） |
-| 详情分片 | 24 片（3.4 完成后会再增） |
+| **当前词库** | **2698 词 / 2155 词素（含 1853 词根）/ 42 世界** |
+| **内容校验** | **0 错误 / 1037 警告**（警告多为 A23 难度梯度提示） |
+| **当前阻塞** | **无 —— Stage 3 四批（中考/高考/四级/六级）全部完成，可发布** |
+| 详情分片 | 32 片 |
 | 测试 | **53/53 通过** |
-| 构建 | 成功，919.95 kB / gzip 188.01 kB |
-| 已完成批次 | 3.1 中考、3.2 高考、3.3 四级 |
-| 释义批次 | `batch-1` ~ `batch-35` 共 1981 词，全量自检 0 问题 |
-| 例句覆盖 | 3.1~3.3 全部有中文对照；3.4 有 11 个词缺 |
+| 构建 | 成功，1146.75 kB / gzip 225.46 kB |
+| 释义批次 | `batch-1` ~ `batch-48` 共 2698 词，全量自检 0 问题 |
+| 例句覆盖 | 2698/2698 全部有中文对照 |
 | 词素义项 | 全部有中文义项（`scripts/lib/morpheme-fallback.mjs` 统一兜底） |
-| 世界 | 37 个（3.4 完成后 39：新增格物斋、紧固坊） |
+| 世界 | 42 个 |
 
 ---
 
@@ -62,7 +61,37 @@ node scripts/21-split-morphemes.mjs scripts/lib/stage3-content.json
 （这次删了 `transmit`/`adjust`，已用 `scripts/tools/restore-pruned-handoff.mjs`
 从 git HEAD 恢复）。`prune-handoff-words.mjs` 现在有防线：splits 少于 500 词直接停下。
 
-### 步骤 4：铺 3.4 六级批（850 词）【配置就绪，待写释义 689 词 / 12 批】
+### 步骤 4：铺 3.4 六级批（850 词）【✅ 已完成】
+
+释义 `batch-36` ~ `batch-48` 共 689 词写完；实收后全库 **2698 词 / 2155 词素 / 42 世界**。
+
+总装路上又踩到六类闸门，都已修好并沉淀：
+
+| 闸门 | 现象 | 修法 |
+|---|---|---|
+| A12 | 657 个新词的干扰项没依据（`fix-distractors` **不在 `content:all` 里**，每写完一批都要手动跑一次） | `node scripts/tools/fix-distractors.mjs` |
+| A28 | `clockwise` 的 option[0]/[1]（顺时针的／逆时针的）相似度过高 | 改写选项 |
+| A1/A7/A9 | 11 个词在 Tatoeba 里找不到合格例句 | 补进 `scripts/lib/handoff/words-examples-stage3.json` |
+| A20 | `kin`/`let`/`safe`/`eco`/`tri` 5 个词素缺中文义项 | 补进 `scripts/lib/morpheme-fallback.mjs` |
+| A24 | 15 个孤儿词根（due/not/relate/sham/clear/clude/min/gener/cut/there/complete/history/imagine/intense/mature） | `batch-05/worlds.json` 加「缘由阁」「明辨堂」「刚柔场」 |
+| A23 | `tight` 这类词根的家族词全是高级派生（tighten/tightly/watertight），基础词不在词库里 —— d1 缺从硬错误降为提示 | `20-select-words.mjs` + `contentRules.ts` + `tests/content.test.ts` 三处同步 |
+
+**⚠ 顺手修好的一个隐蔽问题：cigen↔词库的词根拼法对照（救回 19 个词）**
+
+21 号的 cigen 交叉验证要求「cigen 标出的词根必须都在切分里」，但两边拼法不同 ——
+cigen 用拉丁词干全形（`trah` / `mitt` / `dc` / `minimus` / `passer` / `puls` / `nsula`），
+切分算法按**词形**定的 id 是另一套（`tract` / `mit` / `duce` / `minim` / `pass` / `pel` / `insula`）。
+19 个词因此被当「冲突」丢掉：retract transmit adjust introduce minimum peninsula activity
+aggression bypass surpass detect depress depict design notice impulse dismiss encourage minimal。
+
+修法：`scripts/lib/id-canon.mjs` 新增 `CIGEN_ROOT_GROUPS`（同根分组，**双向**认 ——
+retract 切到 tract 而 cigen 说 trah，distract 反过来）+ `CIGEN_ROOT_IGNORE`
+（cigen 多标的前缀 `deh`）；21 号改为「任一匹配即可」（`minimus` 既对 minimum 也对 minimal）。
+冲突 19 → 0，切分 2679 → **2698**。
+
+> 遗留（不影响发布）：这些词根在词素表里仍各存了两份（`trah` 与 `tract` 是两条记录），
+> 地图上同一词根可能出现两张卡。要彻底合并得把 `CIGEN_ROOT_GROUPS` 接进 `buildCanon`，
+> 让上游生成时就归一到同一个 id —— 那会改动全部批次的词素 id 与世界引用，风险大，留待专门做。
 
 ```bash
 node scripts/tools/build-batch-config.mjs 3      # 生成 batch-05（0-based：3=3.4）
@@ -163,7 +192,13 @@ node scripts/validate-content.mjs                # 看剩余错误
 | 3.1 中考 | 434 | ✅ 完成（实收 391） |
 | 3.2 高考 | 974 | ✅ 完成（释义 `batch-8`~`24`，实收后全库 1379 词） |
 | 3.3 四级 | 771 | ✅ 完成（释义 `batch-25`~`35`，实收后全库 **1995 词**） |
-| 3.4 六级 | 850 | ⬜ 未开始（下一批） |
+| 3.4 六级 | 850 | ✅ 完成（释义 `batch-36`~`48`，实收后全库 **2698 词**） |
+
+**Stage 3 四批全部完成。** 剩余可做的事（按价值排序）：
+
+1. **跑起来看**：`npm run dev`，走一遍地图页 → 词根卡 → 拼词 → 复习面板，确认 2698 词 / 42 世界在实际交互里没有布局或性能问题（构建产物已达 1.15 MB / gzip 225 KB，值得看首屏）。
+2. **合并重复词根**：见上节「遗留」——把 `CIGEN_ROOT_GROUPS` 接进 `buildCanon`，消除 `trah`/`tract` 这类同根两条记录。
+3. **1037 个警告过一遍**：主要是 A23 的「缺 d1/d5」（难度梯度少一端）。若要真修，得往词库里补相应难度的家族词，属于选题而非纠错。
 
 ---
 
