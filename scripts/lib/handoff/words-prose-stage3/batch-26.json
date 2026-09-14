@@ -1,483 +1,723 @@
 {
- "_comment": "Stage 3 待写释义（batch-26，本批 60 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "_comment": "Stage 3 待写释义（batch-26，本批 60 词，四级批第 2 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
  "compile": {
-  "modernMeaningCn": "编译",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "汇编",
+  "literalMeaningCn": "堆到一处",
+  "metaphorMeaningCn": "汇编、编译",
+  "metaphorOptions": [
+   "汇编、编译",
+   "拆散分发",
+   "逐条删除"
+  ],
+  "mnemonicNote": "com(一起)+pile(堆)：把散落各处的材料摞成一册",
+  "sourceNote": "拉丁 compilare，com-(一起) + pilare(压紧)"
  },
  "complain": {
   "modernMeaningCn": "抱怨",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "捶着胸诉苦",
+  "metaphorMeaningCn": "抱怨、投诉",
+  "metaphorOptions": [
+   "抱怨、投诉",
+   "满口称赞",
+   "默默忍受"
+  ],
+  "mnemonicNote": "com(加强)+plain(捶胸)：一肚子委屈全倒出来",
+  "sourceNote": "拉丁 complangere，com-(加强) + plangere(捶胸)"
  },
  "completely": {
   "modernMeaningCn": "完全地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "以完整的方式",
+  "metaphorMeaningCn": "完全地、彻底地",
+  "metaphorOptions": [
+   "完全地、彻底地",
+   "部分地",
+   "半途停下"
+  ],
+  "mnemonicNote": "complete(完整)+ly：一处不缺、一点不剩",
+  "sourceNote": "拉丁 completus，complere(装满)"
  },
  "compound": {
   "modernMeaningCn": "混合物",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "放到一处的东西",
+  "metaphorMeaningCn": "混合物、复合的",
+  "metaphorOptions": [
+   "混合物、复合的",
+   "单一成分",
+   "纯质"
+  ],
+  "mnemonicNote": "com(一起)+pound(放置)：几样东西搅在一块儿",
+  "sourceNote": "拉丁 componere，com-(一起) + ponere(放)"
  },
  "compress": {
   "modernMeaningCn": "压缩",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "往一块儿压",
+  "metaphorMeaningCn": "压缩、压制",
+  "metaphorOptions": [
+   "压缩、压制",
+   "撑开",
+   "任其膨胀"
+  ],
+  "mnemonicNote": "com(一起)+press(压)：使劲把体积挤小",
+  "sourceNote": "拉丁 comprimere，com-(一起) + premere(压)"
  },
  "comprise": {
   "modernMeaningCn": "包含",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一把抓住所有",
+  "metaphorMeaningCn": "包含、由…组成",
+  "metaphorOptions": [
+   "包含、由…组成",
+   "排除在外",
+   "仅取其一"
+  ],
+  "mnemonicNote": "com(一起)+prise(抓取)：伸手把全部拢在掌中",
+  "sourceNote": "古法语 comprendre，com-(一起) + prendre(抓)"
  },
  "concentration": {
   "modernMeaningCn": "集中",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "往中心聚拢",
+  "metaphorMeaningCn": "集中、浓度",
+  "metaphorOptions": [
+   "集中、浓度",
+   "涣散",
+   "稀释"
+  ],
+  "mnemonicNote": "con(一起)+centr(中心)+ation：所有东西朝圆心收",
+  "sourceNote": "拉丁 concentratio，com-(一起) + centrum(中心)"
  },
  "concerning": {
-  "modernMeaningCn": "关于法关于",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "关于",
+  "literalMeaningCn": "牵涉到那件事",
+  "metaphorMeaningCn": "关于、就…而言",
+  "metaphorOptions": [
+   "关于、就…而言",
+   "与…无关",
+   "避而不谈"
+  ],
+  "mnemonicNote": "concern(涉及)+ing：话头落在那件事上",
+  "sourceNote": "拉丁 concernere，com-(共同) + cernere(筛、辨别)"
  },
  "condense": {
-  "modernMeaningCn": "使浓缩",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "浓缩",
+  "literalMeaningCn": "使变稠密",
+  "metaphorMeaningCn": "浓缩、压缩",
+  "metaphorOptions": [
+   "浓缩、压缩",
+   "冲淡",
+   "稀释"
+  ],
+  "mnemonicNote": "con(加强)+dense(稠密)：把水汽挤掉，剩下的更浓",
+  "sourceNote": "拉丁 condensare，com-(加强) + densus(稠密的)"
  },
  "confine": {
   "modernMeaningCn": "限制",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "圈在界线内",
+  "metaphorMeaningCn": "限制、禁闭",
+  "metaphorOptions": [
+   "限制、禁闭",
+   "放开",
+   "任其扩散"
+  ],
+  "mnemonicNote": "con(加强)+fine(界限)：一条线画在脚下，不许越",
+  "sourceNote": "拉丁 confinis，com-(共同) + finis(边界)"
  },
  "congress": {
   "modernMeaningCn": "国会",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "聚到一起议事",
+  "metaphorMeaningCn": "国会、代表大会",
+  "metaphorOptions": [
+   "国会、代表大会",
+   "独裁者",
+   "散兵游勇"
+  ],
+  "mnemonicNote": "con(一起)+gress(走)：各地的代表走到一处坐下来",
+  "sourceNote": "拉丁 congressus，com-(一起) + gradi(走)"
  },
  "conjunction": {
-  "modernMeaningCn": "连接词",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "连词",
+  "literalMeaningCn": "起连接作用的东西",
+  "metaphorMeaningCn": "连词、结合",
+  "metaphorOptions": [
+   "连词、结合",
+   "断开的符号",
+   "独立的句子"
+  ],
+  "mnemonicNote": "conjunct(连接)+ion：把两个句子扣在一起那个小词",
+  "sourceNote": "拉丁 coniunctio，coniungere(连接)"
  },
  "conquer": {
-  "modernMeaningCn": "克服",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "征服",
+  "literalMeaningCn": "彻底拿到手",
+  "metaphorMeaningCn": "征服、克服",
+  "metaphorOptions": [
+   "征服、克服",
+   "拱手相让",
+   "半途撤兵"
+  ],
+  "mnemonicNote": "con(加强)+quer(寻求)：一路打过去，全归自己",
+  "sourceNote": "拉丁 conquirere，com-(加强) + quaerere(寻求)"
  },
  "conquest": {
-  "modernMeaningCn": "战胜",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "征服",
+  "literalMeaningCn": "夺到手的结果",
+  "metaphorMeaningCn": "征服、战利品",
+  "metaphorOptions": [
+   "征服、战利品",
+   "退让",
+   "议和"
+  ],
+  "mnemonicNote": "con+quest(寻求)：城头上换了旗子那一件事",
+  "sourceNote": "古法语 conqueste，conquerre(夺取)"
  },
  "conscious": {
   "modernMeaningCn": "有意识的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "心里明白的",
+  "metaphorMeaningCn": "有意识的、察觉到的",
+  "metaphorOptions": [
+   "有意识的、察觉到的",
+   "浑然不觉",
+   "昏迷不醒"
+  ],
+  "mnemonicNote": "con(共同)+sci(知道)+ous：自己清楚在做什么",
+  "sourceNote": "拉丁 conscius，com-(共同) + scire(知道)"
  },
  "consciousness": {
   "modernMeaningCn": "意识",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "明白的状态",
+  "metaphorMeaningCn": "意识、知觉",
+  "metaphorOptions": [
+   "意识、知觉",
+   "昏迷",
+   "失神"
+  ],
+  "mnemonicNote": "conscious(明白)+ness：人醒着、认得出四周那种状态",
+  "sourceNote": "拉丁 conscius(知情的) + -ness(状态)"
  },
  "consent": {
   "modernMeaningCn": "同意",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "想法一致",
+  "metaphorMeaningCn": "同意、许可",
+  "metaphorOptions": [
+   "同意、许可",
+   "反对",
+   "断然拒绝"
+  ],
+  "mnemonicNote": "con(共同)+sent(感觉)：两边心里想的是同一件事",
+  "sourceNote": "拉丁 consentire，com-(共同) + sentire(感觉)"
  },
  "consequently": {
-  "modernMeaningCn": "所以",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "因此",
+  "literalMeaningCn": "跟着来的结果",
+  "metaphorMeaningCn": "因此、所以",
+  "metaphorOptions": [
+   "因此、所以",
+   "毫无关联",
+   "恰恰相反"
+  ],
+  "mnemonicNote": "consequent(随之)+ly：前面那一脚，踢出后面这一声",
+  "sourceNote": "拉丁 consequi(跟随) + -ly"
  },
  "conserve": {
-  "modernMeaningCn": "蜜饯",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "保存",
+  "literalMeaningCn": "好好守住",
+  "metaphorMeaningCn": "保存、蜜饯",
+  "metaphorOptions": [
+   "保存、蜜饯",
+   "挥霍",
+   "任其腐坏"
+  ],
+  "mnemonicNote": "con(加强)+serve(守)：糖渍起来，果子能存一冬",
+  "sourceNote": "拉丁 conservare，com-(加强) + servare(守)"
  },
  "considerable": {
-  "modernMeaningCn": "相当的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "相当大的",
+  "literalMeaningCn": "值得认真对待的",
+  "metaphorMeaningCn": "相当大的、可观的",
+  "metaphorOptions": [
+   "相当大的、可观的",
+   "微不足道的",
+   "不值一提的"
+  ],
+  "mnemonicNote": "consider(掂量)+able：一上秤分量不轻，不能不当回事",
+  "sourceNote": "拉丁 considerabilis，considerare(细看)"
  },
  "consumption": {
   "modernMeaningCn": "消费",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "用掉的过程",
+  "metaphorMeaningCn": "消费、消耗量",
+  "metaphorOptions": [
+   "消费、消耗量",
+   "积存",
+   "囤积"
+  ],
+  "mnemonicNote": "consump(耗用)+tion：一顿饭下来，桌上那份少了一截",
+  "sourceNote": "拉丁 consumptio，consumere(用尽)"
  },
  "contempt": {
   "modernMeaningCn": "轻视",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "打心底瞧不上",
+  "metaphorMeaningCn": "轻视、蔑视",
+  "metaphorOptions": [
+   "轻视、蔑视",
+   "敬重",
+   "仰慕"
+  ],
+  "mnemonicNote": "con(加强)+tempt(轻蔑)：眼角扫过去那一下的鄙夷",
+  "sourceNote": "拉丁 contemptus，contemnere(轻蔑)"
  },
  "continual": {
-  "modernMeaningCn": "持续不断的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "持续的",
+  "literalMeaningCn": "接得上茬的",
+  "metaphorMeaningCn": "持续的、不断的",
+  "metaphorOptions": [
+   "持续的、不断的",
+   "断断续续",
+   "一次就停"
+  ],
+  "mnemonicNote": "continu(连续)+al：一波接一波，中间不留缝",
+  "sourceNote": "拉丁 continuus，continere(保持不断)"
  },
  "contradiction": {
-  "modernMeaningCn": "反驳",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "矛盾",
+  "literalMeaningCn": "话与话打架",
+  "metaphorMeaningCn": "矛盾、反驳",
+  "metaphorOptions": [
+   "矛盾、反驳",
+   "前后一致",
+   "自圆其说"
+  ],
+  "mnemonicNote": "contradict(说反话)+ion：上一句还没凉，下一句就顶回来",
+  "sourceNote": "拉丁 contradictio，contradicere(反驳)"
  },
  "conversely": {
-  "modernMeaningCn": "相反",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "相反地",
+  "literalMeaningCn": "反过来看",
+  "metaphorMeaningCn": "相反地、反之",
+  "metaphorOptions": [
+   "相反地、反之",
+   "同理可得",
+   "照着原样"
+  ],
+  "mnemonicNote": "converse(相反)+ly：把这件事翻个面，话就颠倒过来",
+  "sourceNote": "拉丁 conversus，convertere(翻转)"
  },
  "cooperate": {
   "modernMeaningCn": "合作",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一起动手",
+  "metaphorMeaningCn": "合作、配合",
+  "metaphorOptions": [
+   "合作、配合",
+   "各自为政",
+   "互相拆台"
+  ],
+  "mnemonicNote": "co(共同)+operate(做事)：两双手朝一个方向使劲",
+  "sourceNote": "拉丁 cooperari，co-(共同) + operari(工作)"
  },
  "coordinate": {
-  "modernMeaningCn": "同等的人或物",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "协调",
+  "literalMeaningCn": "让各方排好次序",
+  "metaphorMeaningCn": "协调、坐标",
+  "metaphorOptions": [
+   "协调、坐标",
+   "各行其是",
+   "彼此错位"
+  ],
+  "mnemonicNote": "co(共同)+ordinate(次序)：叫各路人马按同一张表站位",
+  "sourceNote": "拉丁 coordinare，co-(共同) + ordinare(安排次序)"
  },
  "copper": {
   "modernMeaningCn": "铜",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "那种红褐色的金属",
+  "metaphorMeaningCn": "铜、铜币",
+  "metaphorOptions": [
+   "铜、铜币",
+   "铁",
+   "锡"
+  ],
+  "mnemonicNote": "copp(赤色金属)+er：电线芯里剥出来那股赤红",
+  "sourceNote": "拉丁 cuprum，源自塞浦路斯岛名 Cyprus"
  },
  "correspondent": {
   "modernMeaningCn": "通讯记者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "来回通信的人",
+  "metaphorMeaningCn": "通讯记者、通信者",
+  "metaphorOptions": [
+   "通讯记者、通信者",
+   "读者",
+   "编辑"
+  ],
+  "mnemonicNote": "correspond(通信)+ent(人)：稿子一封封往总部寄那位",
+  "sourceNote": "中世纪拉丁 correspondere(通信) + -ent"
  },
  "corresponding": {
-  "modernMeaningCn": "相当的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "相应的",
+  "literalMeaningCn": "对得上的",
+  "metaphorMeaningCn": "相应的、一致的",
+  "metaphorOptions": [
+   "相应的、一致的",
+   "对不上的",
+   "牛头不对马嘴"
+  ],
+  "mnemonicNote": "correspond(相符)+ing：左边一栏改了，右边那栏跟着改",
+  "sourceNote": "中世纪拉丁 correspondere(相符) + -ing"
  },
  "creative": {
   "modernMeaningCn": "有创造力的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "能造出新东西的",
+  "metaphorMeaningCn": "有创造力的、创造性的",
+  "metaphorOptions": [
+   "有创造力的、创造性的",
+   "照本宣科的",
+   "循规蹈矩的"
+  ],
+  "mnemonicNote": "creat(创造)+ive：别人没见过的东西从他手里出来",
+  "sourceNote": "拉丁 creare(创造) + -ive"
  },
  "cripple": {
-  "modernMeaningCn": "跛者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "使残废",
+  "literalMeaningCn": "走路打颤的",
+  "metaphorMeaningCn": "使残废、削弱",
+  "metaphorOptions": [
+   "使残废、削弱",
+   "治好",
+   "使其强健"
+  ],
+  "mnemonicNote": "cripp(爬行)+le：腿脚不听使唤，只能一点点挪",
+  "sourceNote": "古英语 crypel，creopan(爬行)"
  },
  "critical": {
   "modernMeaningCn": "批评的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "爱挑毛病的",
+  "metaphorMeaningCn": "批评的、关键的",
+  "metaphorOptions": [
+   "批评的、关键的",
+   "一味叫好的",
+   "无关紧要的"
+  ],
+  "mnemonicNote": "critic(评判)+al：事事都要分出个好坏对错",
+  "sourceNote": "希腊 kritikos，krinein(判断)"
  },
  "criticism": {
   "modernMeaningCn": "批评",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "挑毛病那套做法",
+  "metaphorMeaningCn": "批评、评论",
+  "metaphorOptions": [
+   "批评、评论",
+   "颂扬",
+   "溢美之词"
+  ],
+  "mnemonicNote": "critic(评判)+ism：一条条列出来的不足之处",
+  "sourceNote": "希腊 kritike(评判之术) + -ism"
  },
  "criticize": {
   "modernMeaningCn": "批评",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "指出它的毛病",
+  "metaphorMeaningCn": "批评、指责",
+  "metaphorOptions": [
+   "批评、指责",
+   "称赞",
+   "视而不见"
+  ],
+  "mnemonicNote": "critic(评判)+ize(使)：拿红笔在稿边写下意见",
+  "sourceNote": "希腊 krinein(判断) + -ize"
  },
  "curiosity": {
   "modernMeaningCn": "好奇心",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "想弄明白的劲",
+  "metaphorMeaningCn": "好奇心、奇物",
+  "metaphorOptions": [
+   "好奇心、奇物",
+   "漠不关心",
+   "心如死灰"
+  ],
+  "mnemonicNote": "curios(想知道)+ity：非要掀开盖子看一眼不可",
+  "sourceNote": "拉丁 curiositas，curiosus(好奇的)"
  },
  "darling": {
   "modernMeaningCn": "亲爱的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "心尖上的小人儿",
+  "metaphorMeaningCn": "亲爱的、宠儿",
+  "metaphorOptions": [
+   "亲爱的、宠儿",
+   "陌路人",
+   "冤家对头"
+  ],
+  "mnemonicNote": "dar(亲爱)+ling(小)：叫出口就带着疼惜那两个字",
+  "sourceNote": "古英语 deorling，deore(宝贝的) + -ling(指小)"
  },
  "deadly": {
   "modernMeaningCn": "致命的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "能要命的",
+  "metaphorMeaningCn": "致命的、极度的",
+  "metaphorOptions": [
+   "致命的、极度的",
+   "无关痛痒的",
+   "有益身心的"
+  ],
+  "mnemonicNote": "dead(死)+ly：沾上一点就再没回头的余地",
+  "sourceNote": "古英语 deadlic，dead + -lic"
  },
  "deepen": {
-  "modernMeaningCn": "深化使加深",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "加深",
+  "literalMeaningCn": "使往下更深",
+  "metaphorMeaningCn": "加深、深化",
+  "metaphorOptions": [
+   "加深、深化",
+   "变浅",
+   "浮于表面"
+  ],
+  "mnemonicNote": "deep(深)+en(使)：往下再挖一尺",
+  "sourceNote": "古英语 deop(深) + -en(使动)"
  },
  "definitely": {
-  "modernMeaningCn": "明确无疑地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "明确地",
+  "literalMeaningCn": "以确凿的方式",
+  "metaphorMeaningCn": "明确地、肯定地",
+  "metaphorOptions": [
+   "明确地、肯定地",
+   "模棱两可地",
+   "含含糊糊地"
+  ],
+  "mnemonicNote": "definite(确定)+ly：一句话砸下去，没有回旋的余地",
+  "sourceNote": "拉丁 definitus，definire(限定)"
  },
  "definition": {
   "modernMeaningCn": "定义",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "划出的边界",
+  "metaphorMeaningCn": "定义、清晰度",
+  "metaphorOptions": [
+   "定义、清晰度",
+   "含糊其辞",
+   "界限模糊"
+  ],
+  "mnemonicNote": "defin(界定)+ition：把范围圈死，越出去就不是它了",
+  "sourceNote": "拉丁 definitio，definire(划定界限)"
  },
  "deliberate": {
   "modernMeaningCn": "深思熟虑的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "掂量过的",
+  "metaphorMeaningCn": "深思熟虑的、故意的",
+  "metaphorOptions": [
+   "深思熟虑的、故意的",
+   "脱口而出的",
+   "不假思索的"
+  ],
+  "mnemonicNote": "de(加强)+liber(天平)+ate：放在秤上反复称过才做",
+  "sourceNote": "拉丁 deliberare，de-(加强) + librare(称量)"
  },
  "delivery": {
   "modernMeaningCn": "递送",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "交到手上的事",
+  "metaphorMeaningCn": "递送、演讲",
+  "metaphorOptions": [
+   "递送、演讲",
+   "收取",
+   "囤在仓库"
+  ],
+  "mnemonicNote": "deli(交出)+very：包裹从这一手递到那一手",
+  "sourceNote": "古法语 delivrer，de-(出) + liberare(释放)"
  },
  "democratic": {
-  "modernMeaningCn": "民主的法民主的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "民主的",
+  "literalMeaningCn": "由民众做主的",
+  "metaphorMeaningCn": "民主的、有民主精神的",
+  "metaphorOptions": [
+   "民主的、有民主精神的",
+   "专断的",
+   "独裁的"
+  ],
+  "mnemonicNote": "democrat(民主)+ic：大事不靠一个人拍板，看票数",
+  "sourceNote": "希腊 demokratia，demos(民众) + kratos(权力)"
  },
  "density": {
-  "modernMeaningCn": "密度化密度",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "密度",
+  "literalMeaningCn": "挤得紧的程度",
+  "metaphorMeaningCn": "密度、稠密",
+  "metaphorOptions": [
+   "密度、稠密",
+   "稀疏",
+   "空旷"
+  ],
+  "mnemonicNote": "dens(稠密)+ity：一立方米里塞进多少东西",
+  "sourceNote": "拉丁 densitas，densus(稠密的)"
  },
  "dependent": {
-  "modernMeaningCn": "依赖他人者依赖的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "依赖的",
+  "literalMeaningCn": "挂在别人身上的",
+  "metaphorMeaningCn": "依赖的、受抚养的",
+  "metaphorOptions": [
+   "依赖的、受抚养的",
+   "自立的",
+   "独当一面的"
+  ],
+  "mnemonicNote": "depend(依靠)+ent：离了那根柱子就站不住",
+  "sourceNote": "拉丁 dependere，de-(向下) + pendere(悬挂)"
  },
  "depression": {
-  "modernMeaningCn": "不景气",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "萧条",
+  "literalMeaningCn": "被压下去的状态",
+  "metaphorMeaningCn": "萧条、抑郁",
+  "metaphorOptions": [
+   "萧条、抑郁",
+   "繁荣",
+   "振奋"
+  ],
+  "mnemonicNote": "depress(压低)+ion：整条街的铺子都拉下了卷帘",
+  "sourceNote": "拉丁 depressio，deprimere(压下)"
  },
  "desirable": {
-  "modernMeaningCn": "令人想望的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "令人满意的",
+  "literalMeaningCn": "值得想要的",
+  "metaphorMeaningCn": "令人满意的、可取的",
+  "metaphorOptions": [
+   "令人满意的、可取的",
+   "令人却步的",
+   "讨人嫌的"
+  ],
+  "mnemonicNote": "desir(渴望)+able：人人见了都想伸手要",
+  "sourceNote": "古法语 desirer(渴望) + -able"
  },
  "despair": {
   "modernMeaningCn": "绝望",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "指望全没了",
+  "metaphorMeaningCn": "绝望、丧失信心",
+  "metaphorOptions": [
+   "绝望、丧失信心",
+   "重燃希望",
+   "柳暗花明"
+  ],
+  "mnemonicNote": "des(失去)+pair(指望)：最后一盏灯也灭了",
+  "sourceNote": "拉丁 desperare，de-(失去) + sperare(希望)"
  },
  "despite": {
-  "modernMeaningCn": "轻视",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "尽管",
+  "literalMeaningCn": "看轻那一点",
+  "metaphorMeaningCn": "尽管、不顾",
+  "metaphorOptions": [
+   "尽管、不顾",
+   "正因为如此",
+   "完全照办"
+  ],
+  "mnemonicNote": "de(向下)+spite(轻视)：把拦路那件事先搁一边不管",
+  "sourceNote": "古法语 despit，拉丁 despicere(俯视、轻视)"
  },
  "destruction": {
   "modernMeaningCn": "破坏",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "推倒这件事",
+  "metaphorMeaningCn": "破坏、毁灭",
+  "metaphorOptions": [
+   "破坏、毁灭",
+   "重建",
+   "修缮"
+  ],
+  "mnemonicNote": "destruct(拆毁)+ion：一阵过后只剩满地碎砖",
+  "sourceNote": "拉丁 destructio，destruere(拆毁)"
  },
  "destructive": {
   "modernMeaningCn": "毁灭性的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "能拆毁的",
+  "metaphorMeaningCn": "毁灭性的、破坏性的",
+  "metaphorOptions": [
+   "毁灭性的、破坏性的",
+   "建设性的",
+   "有益无害的"
+  ],
+  "mnemonicNote": "destruct(拆毁)+ive：风过之后屋顶掀走一半",
+  "sourceNote": "拉丁 destructivus，destruere(拆毁)"
  },
  "detail": {
   "modernMeaningCn": "细节",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "切碎的小块",
+  "metaphorMeaningCn": "细节、详情",
+  "metaphorOptions": [
+   "细节、详情",
+   "梗概",
+   "大纲"
+  ],
+  "mnemonicNote": "de(加强)+tail(切割)：把整件事切成一段段来看",
+  "sourceNote": "法语 détail，de-(加强) + tailler(切割)"
  },
  "detection": {
-  "modernMeaningCn": "发现",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "察觉",
+  "literalMeaningCn": "发现的过程",
+  "metaphorMeaningCn": "察觉、探测",
+  "metaphorOptions": [
+   "察觉、探测",
+   "忽略",
+   "视若无睹"
+  ],
+  "mnemonicNote": "detect(揪出)+ion：一点点蛛丝马迹被揪出来",
+  "sourceNote": "拉丁 detectio，detegere(揭开)"
  },
  "dialog": {
-  "modernMeaningCn": "会话",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "对话",
+  "literalMeaningCn": "来回交谈",
+  "metaphorMeaningCn": "对话、会话",
+  "metaphorOptions": [
+   "对话、会话",
+   "独白",
+   "各说各话"
+  ],
+  "mnemonicNote": "dia(穿过)+log(说)：话从这边穿到那边再穿回来",
+  "sourceNote": "希腊 dialogos，dia-(穿过) + legein(说)"
  },
  "directly": {
-  "modernMeaningCn": "径直地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "直接地",
+  "literalMeaningCn": "不拐弯地",
+  "metaphorMeaningCn": "直接地、立刻",
+  "metaphorOptions": [
+   "直接地、立刻",
+   "绕着弯子",
+   "隔了好几层"
+  ],
+  "mnemonicNote": "direct(径直)+ly：两点之间那条最短的线",
+  "sourceNote": "拉丁 dirigere(引导、使直) + -ly"
  },
  "disapprove": {
   "modernMeaningCn": "不赞成",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "摇着头不认",
+  "metaphorMeaningCn": "不赞成、反对",
+  "metaphorOptions": [
+   "不赞成、反对",
+   "点头认可",
+   "拍手称快"
+  ],
+  "mnemonicNote": "dis(不)+approve(认可)：这份方案他不肯签字",
+  "sourceNote": "dis-(不) + 拉丁 approbare(认可)"
  },
  "discard": {
   "modernMeaningCn": "丢弃",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "把牌打出去",
+  "metaphorMeaningCn": "丢弃、抛弃",
+  "metaphorOptions": [
+   "丢弃、抛弃",
+   "捡起留着",
+   "视若珍宝"
+  ],
+  "mnemonicNote": "dis(去掉)+card(牌)：手里用不上的那张甩到桌上",
+  "sourceNote": "dis-(去掉) + card(纸牌)，原为打牌术语"
  },
  "discharge": {
   "modernMeaningCn": "卸下",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "把货卸掉",
+  "metaphorMeaningCn": "卸下、排放、解雇",
+  "metaphorOptions": [
+   "卸下、排放、解雇",
+   "装船",
+   "留用"
+  ],
+  "mnemonicNote": "dis(去掉)+charge(负载)：肩上那批货一件件搬下来",
+  "sourceNote": "古法语 deschargier，des-(去掉) + chargier(装载)"
  },
  "discipline": {
-  "modernMeaningCn": "训练",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "纪律",
+  "literalMeaningCn": "约束那条线",
+  "metaphorMeaningCn": "纪律、训练",
+  "metaphorOptions": [
+   "纪律、训练",
+   "放任",
+   "各行其是"
+  ],
+  "mnemonicNote": "dis(加强)+cip(拿)+line(线)：一把尺子横在那儿不许越",
+  "sourceNote": "拉丁 disciplina，discere(学习)"
  }
 }
