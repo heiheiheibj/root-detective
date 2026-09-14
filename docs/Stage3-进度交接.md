@@ -9,13 +9,13 @@
 
 | 项 | 值 |
 |---|---|
-| 已发布词库 | **391 词**（3.1 中考批，校验 0 错误） |
-| **管线已推进到** | **切分通过 1379 词**（3.1 + 3.2 合并），选例句 1377/1379 |
-| **当前阻塞** | **929 个词缺释义**（`batch-9` ~ `batch-24`，每批 60 词）；`batch-8` 已完成 |
-| 词素 | 1342（其中 world 覆盖 180 家族） |
-| 世界 | 31 |
+| **当前词库** | **1379 词 / 1200 词素（含 960 词根）/ 32 世界** |
+| **内容校验** | **0 错误 / 357 警告**（警告多为 A23 难度梯度提示） |
+| 详情分片 | 17 片 |
 | 测试 | **53/53 通过** |
-| 构建 | 成功，393.90 kB / gzip 106 kB |
+| 构建 | 成功，726.81 kB / gzip 157.95 kB |
+| 已完成批次 | 3.1 中考（434 词）、3.2 高考（974 词，实收 988 净增） |
+| 释义批次 | `batch-1` ~ `batch-24` 共 1365 词，全量自检 0 问题 |
 
 ---
 
@@ -29,7 +29,28 @@
 
 效果：收录数 392 → **1601**，切分通过 **1379 词**（丢 222 个无词根的复合词）。
 
-### 步骤 2：为 989 个词写释义 —— **这是当前唯一的阻塞点**
+### 步骤 2：为 989 个词写释义 【✅ 已完成】
+
+batch-8 ~ batch-24 共 989 词已全部写完，全量自检 0 问题（合计 1365 词）。
+
+### 步骤 3：铺 3.3 四级批（771 词）—— 下一步
+
+```bash
+node scripts/tools/build-batch-config.mjs 2      # 生成 batch-04
+node scripts/tools/make-prose-handoff.mjs 60     # 增量生成待写释义模板（不覆盖已有批次）
+# 逐批填写 scripts/lib/handoff/words-prose-stage3/batch-N.json
+node scripts/tools/fix-distractors.mjs           # 自动补 A12 干扰项（遍历全部批次）
+node scripts/tools/check-prose-batch.mjs         # 单批契约自检，写一批查一批
+node scripts/tools/fix-a14.mjs                   # 自动修助记里逐字抄答案的
+node scripts/30-llm-prose.mjs                    # 校验 9.3 契约
+npm run content:all && node scripts/validate-content.mjs
+```
+
+**两个必做的前置**：
+1. **给新词根划世界**：新建 `scripts/lib/stage-additions/batch-04/worlds.json`，
+   按语义分组覆盖本批全部教学词根家族（参考 batch-02/03 的写法），否则 A24 报错。
+2. **补词素义项**：新批的词根/前后缀若在 `scripts/lib/morpheme-fallback.mjs` 里没有，
+   往里加一条（`build-stage3-config` 会统一兜底应用）。
 
 30 号报 `handoff 缺释义` 989 条。做法与中考批一致（参考 `words-prose-stage3/batch-1~7.json` 的成熟写法）：
 
