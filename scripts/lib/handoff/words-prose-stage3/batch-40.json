@@ -1,483 +1,723 @@
 {
- "_comment": "Stage 3 待写释义（batch-40，本批 60 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "_comment": "Stage 3 待写释义（batch-40，本批 60 词，六级批第 5 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
  "fastener": {
-  "modernMeaningCn": "结扎工",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "紧固件、扣件",
+  "literalMeaningCn": "把东西系住的家伙",
+  "metaphorMeaningCn": "紧固件、扣件",
+  "metaphorOptions": [
+   "紧固件、扣件",
+   "散开的零件",
+   "松脱的接口"
+  ],
+  "mnemonicNote": "fasten(系紧)+er(物)：把两块东西系住的家伙",
+  "sourceNote": "古英语 fæstnian(使牢固) + -er"
  },
  "faultless": {
   "modernMeaningCn": "完美的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "挑不出毛病的",
+  "metaphorMeaningCn": "完美的、无懈可击的",
+  "metaphorOptions": [
+   "完美的、无懈可击的",
+   "破绽百出的",
+   "漏洞百出的"
+  ],
+  "mnemonicNote": "fault(过失)+less(无)：挑不出一点毛病",
+  "sourceNote": "古法语 faute(过失) + -less(无)"
  },
  "fearless": {
   "modernMeaningCn": "大胆的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "心里没怕字的",
+  "metaphorMeaningCn": "无畏的、大胆的",
+  "metaphorOptions": [
+   "无畏的、大胆的",
+   "胆小如鼠的",
+   "畏首畏尾的"
+  ],
+  "mnemonicNote": "fear(畏惧)+less(无)：心里没装着怕字",
+  "sourceNote": "古英语 fær(危险) + -less(无)"
  },
  "fellowship": {
   "modernMeaningCn": "伙伴关系",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "同袍之间的情分",
+  "metaphorMeaningCn": "伙伴关系、奖学金",
+  "metaphorOptions": [
+   "伙伴关系、奖学金",
+   "陌路",
+   "疏远隔膜"
+  ],
+  "mnemonicNote": "fellow(同伴)+ship(关系)：同袍之间那份情分",
+  "sourceNote": "古英语 feolaga(伙伴) + -ship(身份、关系)"
  },
  "finely": {
-  "modernMeaningCn": "雅致地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "精细地、雅致地",
+  "literalMeaningCn": "细细地",
+  "metaphorMeaningCn": "精细地、雅致地",
+  "metaphorOptions": [
+   "精细地、雅致地",
+   "粗粗地",
+   "草草了事地"
+  ],
+  "mnemonicNote": "fine(精细)+ly：切得细细的，也指做得雅致",
+  "sourceNote": "古法语 fin(精细) + -ly"
  },
  "firmness": {
   "modernMeaningCn": "坚固",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "结实挺括的程度",
+  "metaphorMeaningCn": "坚固、坚定",
+  "metaphorOptions": [
+   "坚固、坚定",
+   "松软",
+   "摇摇欲坠"
+  ],
+  "mnemonicNote": "firm(结实)+ness：硬挺挺那股劲",
+  "sourceNote": "拉丁 firmus(牢固) + -ness"
  },
  "fitness": {
-  "modernMeaningCn": "适合",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "健康、适合",
+  "literalMeaningCn": "合宜的程度",
+  "metaphorMeaningCn": "健康、适合",
+  "metaphorOptions": [
+   "健康、适合",
+   "体弱",
+   "不合宜"
+  ],
+  "mnemonicNote": "fit(合宜)+ness：合不合宜、体格好不好",
+  "sourceNote": "中古英语 fitten(适合) + -ness"
  },
  "fitting": {
-  "modernMeaningCn": "适宜的试穿",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "合适的、试穿",
+  "literalMeaningCn": "量体裁出来的",
+  "metaphorMeaningCn": "合适的、试穿",
+  "metaphorOptions": [
+   "合适的、试穿",
+   "不合身",
+   "毫不相干"
+  ],
+  "mnemonicNote": "fitt(适合)+ing：量体裁出来的那一件",
+  "sourceNote": "中古英语 fitten(适合) + -ing"
  },
  "flatten": {
-  "modernMeaningCn": "使不活跃",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "使平坦、压倒",
+  "literalMeaningCn": "把鼓的压平",
+  "metaphorMeaningCn": "使平坦、压倒",
+  "metaphorOptions": [
+   "使平坦、压倒",
+   "使其鼓起",
+   "撑得饱满"
+  ],
+  "mnemonicNote": "flat(平)+ten(使)：把鼓起来的地方压平",
+  "sourceNote": "古诺尔斯语 flatr(平) + -en(使动)"
  },
  "flatter": {
   "modernMeaningCn": "奉承",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "把话说得顺耳",
+  "metaphorMeaningCn": "奉承、使显得好看",
+  "metaphorOptions": [
+   "奉承、使显得好看",
+   "当面数落",
+   "直言相告"
+  ],
+  "mnemonicNote": "flatt(平滑)+er：把话说得又平又顺耳",
+  "sourceNote": "古法语 flater(哄骗)"
  },
  "fluctuation": {
-  "modernMeaningCn": "变动",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "波动、涨落",
+  "literalMeaningCn": "忽上忽下这件事",
+  "metaphorMeaningCn": "波动、涨落",
+  "metaphorOptions": [
+   "波动、涨落",
+   "平稳如线",
+   "一成不变"
+  ],
+  "mnemonicNote": "fluctuat(起伏)+ion：数字忽上忽下",
+  "sourceNote": "拉丁 fluctuatio，fluctus(波浪)"
  },
  "flutter": {
-  "modernMeaningCn": "摆动",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "振翅、飘动",
+  "literalMeaningCn": "上下扑打",
+  "metaphorMeaningCn": "振翅、飘动",
+  "metaphorOptions": [
+   "振翅、飘动",
+   "稳稳不动",
+   "纹丝不动"
+  ],
+  "mnemonicNote": "flutt(飘)+er：上下扑打不停",
+  "sourceNote": "古英语 floterian(上下扑动)"
  },
  "follower": {
-  "modernMeaningCn": "从者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "追随者、信徒",
+  "literalMeaningCn": "跟在后面的人",
+  "metaphorMeaningCn": "追随者、信徒",
+  "metaphorOptions": [
+   "追随者、信徒",
+   "领头人",
+   "开创者"
+  ],
+  "mnemonicNote": "follow(跟随)+er(人)：一直跟在后面的那位",
+  "sourceNote": "古英语 folgian(跟随) + -er"
  },
  "footpath": {
-  "modernMeaningCn": "步道",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "小路、人行道",
+  "literalMeaningCn": "只走人的道",
+  "metaphorMeaningCn": "小路、人行道",
+  "metaphorOptions": [
+   "小路、人行道",
+   "车行道",
+   "高速路"
+  ],
+  "mnemonicNote": "foot(脚)+path(道)：只走人、不走车的那条",
+  "sourceNote": "古英语 fot(脚) + pæth(小径)"
  },
  "formerly": {
   "modernMeaningCn": "从前",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "在那之前的年月",
+  "metaphorMeaningCn": "从前、以前",
+  "metaphorOptions": [
+   "从前、以前",
+   "如今",
+   "往后"
+  ],
+  "mnemonicNote": "former(以前的)+ly：早先那些年月",
+  "sourceNote": "古英语 forma(最前的) + -ly"
  },
  "formulation": {
-  "modernMeaningCn": "系统陈述",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "表述、配方",
+  "literalMeaningCn": "写成条文这件事",
+  "metaphorMeaningCn": "表述、配方",
+  "metaphorOptions": [
+   "表述、配方",
+   "随口一说",
+   "含糊带过"
+  ],
+  "mnemonicNote": "formula(公式)+tion：写成一条条框框这件事",
+  "sourceNote": "拉丁 formula(小格式、公式) + -ation"
  },
  "forsake": {
   "modernMeaningCn": "放弃",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "撒手不管了",
+  "metaphorMeaningCn": "抛弃、舍弃",
+  "metaphorOptions": [
+   "抛弃、舍弃",
+   "死死守住",
+   "寸步不离"
+  ],
+  "mnemonicNote": "for(否定)+sake(争执)：不再争了，撒手不管",
+  "sourceNote": "古英语 forsacan，for-(否定) + sacan(争执)"
  },
  "forthcoming": {
-  "modernMeaningCn": "即将来临的来临",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "即将到来的",
+  "literalMeaningCn": "正要到眼前",
+  "metaphorMeaningCn": "即将到来的、乐于提供的",
+  "metaphorOptions": [
+   "即将到来的、乐于提供的",
+   "早已过去的",
+   "迟迟不来"
+  ],
+  "mnemonicNote": "forthcom(将临)+ing：转眼就要到眼前",
+  "sourceNote": "古英语 forth(向前) + cuman(来) + -ing"
  },
  "freshen": {
   "modernMeaningCn": "使显得新鲜",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "让东西回鲜",
+  "metaphorMeaningCn": "使新鲜、使精神一振",
+  "metaphorOptions": [
+   "使新鲜、使精神一振",
+   "使变馊",
+   "使陈腐"
+  ],
+  "mnemonicNote": "fresh(新鲜)+en(使)：让搁久的重新回鲜",
+  "sourceNote": "古英语 fersc(新鲜) + -en(使动)"
  },
  "frightful": {
   "modernMeaningCn": "可怕的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "叫人吓一跳的",
+  "metaphorMeaningCn": "可怕的、极坏的",
+  "metaphorOptions": [
+   "可怕的、极坏的",
+   "令人安心的",
+   "舒心惬意的"
+  ],
+  "mnemonicNote": "fright(惊吓)+ful：冷不丁叫人一跳",
+  "sourceNote": "古英语 fyrhto(恐惧) + -ful"
  },
  "fulfill": {
-  "modernMeaningCn": "实践",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "履行、实现",
+  "literalMeaningCn": "把它填满",
+  "metaphorMeaningCn": "履行、实现",
+  "metaphorOptions": [
+   "履行、实现",
+   "食言而肥",
+   "中途变卦"
+  ],
+  "mnemonicNote": "ful(满)+fill(填)：答应过的事一件件填满",
+  "sourceNote": "古英语 fullfyllan，full(满) + fyllan(填)"
  },
  "funding": {
-  "modernMeaningCn": "经债务转期",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "资金、拨款",
+  "literalMeaningCn": "把钱备出来这件事",
+  "metaphorMeaningCn": "资金、拨款",
+  "metaphorOptions": [
+   "资金、拨款",
+   "断供",
+   "抽走本钱"
+  ],
+  "mnemonicNote": "fund(基金)+ing：先把钱备出来这件事",
+  "sourceNote": "拉丁 fundus(底、基金) + -ing"
  },
  "gamble": {
   "modernMeaningCn": "赌博",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "掷骰子博一把",
+  "metaphorMeaningCn": "赌博、冒险",
+  "metaphorOptions": [
+   "赌博、冒险",
+   "稳操胜券",
+   "万无一失"
+  ],
+  "mnemonicNote": "gamb(骰子)+le：掷骰子博上一把",
+  "sourceNote": "古英语 gamen(游戏、骰子)"
  },
  "gangster": {
-  "modernMeaningCn": "流氓",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "歹徒、黑帮分子",
+  "literalMeaningCn": "入伙的那号人",
+  "metaphorMeaningCn": "歹徒、黑帮分子",
+  "metaphorOptions": [
+   "歹徒、黑帮分子",
+   "良民",
+   "守法商贩"
+  ],
+  "mnemonicNote": "gang(帮伙)+ster(人)：入伙混道上那号人",
+  "sourceNote": "古英语 gang(一伙人) + -ster(人)"
  },
  "gathering": {
-  "modernMeaningCn": "聚集",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "聚会、集会",
+  "literalMeaningCn": "凑到一块儿这件事",
+  "metaphorMeaningCn": "聚会、集会",
+  "metaphorOptions": [
+   "聚会、集会",
+   "散场",
+   "各自散去"
+  ],
+  "mnemonicNote": "gather(凑齐)+ing：人凑到一块儿这件事",
+  "sourceNote": "古英语 gaderian(聚集) + -ing"
  },
  "generalization": {
-  "modernMeaningCn": "一般化",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "概括、普遍化",
+  "literalMeaningCn": "往一般上说",
+  "metaphorMeaningCn": "概括、普遍化",
+  "metaphorOptions": [
+   "概括、普遍化",
+   "逐条列举",
+   "就事论事"
+  ],
+  "mnemonicNote": "general(一般)+ization：从个别往一般上推",
+  "sourceNote": "拉丁 generalis(一般的) + -ization"
  },
  "generalize": {
-  "modernMeaningCn": "一般化",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "概括、推广",
+  "literalMeaningCn": "从个别推到一般",
+  "metaphorMeaningCn": "概括、推广",
+  "metaphorOptions": [
+   "概括、推广",
+   "限定个例",
+   "只谈特例"
+  ],
+  "mnemonicNote": "general(一般)+ize(使)：由个别推到一般去",
+  "sourceNote": "拉丁 generalis(一般的) + -ize"
  },
  "generosity": {
   "modernMeaningCn": "慷慨",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "出手大方的品性",
+  "metaphorMeaningCn": "慷慨、大方",
+  "metaphorOptions": [
+   "慷慨、大方",
+   "吝啬",
+   "一钱如命"
+  ],
+  "mnemonicNote": "generos(大方)+ity：出手大方那份品性",
+  "sourceNote": "拉丁 generositas，generosus(出身高贵、豁达)"
  },
  "geographical": {
   "modernMeaningCn": "地理学的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "与山川方位有关",
+  "metaphorMeaningCn": "地理的、地理学的",
+  "metaphorOptions": [
+   "地理的、地理学的",
+   "历史的",
+   "政治的"
+  ],
+  "mnemonicNote": "geograph(地理)+ical：跟山川方位有关那一路",
+  "sourceNote": "希腊 geographia，ge(地) + graphein(写)"
  },
  "geometrical": {
   "modernMeaningCn": "几何学的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "与图形度量有关",
+  "metaphorMeaningCn": "几何的、几何学的",
+  "metaphorOptions": [
+   "几何的、几何学的",
+   "代数的",
+   "统计的"
+  ],
+  "mnemonicNote": "geometric(几何)+al：量图形的长短方圆",
+  "sourceNote": "希腊 geometria，ge(地) + metrein(量)"
  },
  "gigantic": {
   "modernMeaningCn": "巨人般的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "像巨人那样大",
+  "metaphorMeaningCn": "巨大的、庞大的",
+  "metaphorOptions": [
+   "巨大的、庞大的",
+   "细小的",
+   "微乎其微的"
+  ],
+  "mnemonicNote": "gig(巨人)+antic：像巨人那样大的块头",
+  "sourceNote": "希腊 gigas(巨人) + -ic"
  },
  "glamour": {
   "modernMeaningCn": "魅力",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "让人目眩的那股劲",
+  "metaphorMeaningCn": "魅力、吸引力",
+  "metaphorOptions": [
+   "魅力、吸引力",
+   "乏味",
+   "索然无趣"
+  ],
+  "mnemonicNote": "glam(魔力)+our：让人看得发怔那股劲",
+  "sourceNote": "苏格兰语 glamer(魔法、魅惑)"
  },
  "gossip": {
-  "modernMeaningCn": "闲聊",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "闲话、流言",
+  "literalMeaningCn": "以教亲名义闲扯",
+  "metaphorMeaningCn": "闲话、流言",
+  "metaphorOptions": [
+   "闲话、流言",
+   "缄口不言",
+   "守口如瓶"
+  ],
+  "mnemonicNote": "gos(教亲)+sip：借着教亲名义东家长西家短",
+  "sourceNote": "古英语 godsibb(教父、教母)，后转「爱嚼舌根」"
  },
  "grasshopper": {
   "modernMeaningCn": "蚱蜢",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "草里蹦跳的",
+  "metaphorMeaningCn": "蚱蜢、蝗虫",
+  "metaphorOptions": [
+   "蚱蜢、蝗虫",
+   "蚂蚁",
+   "蜜蜂"
+  ],
+  "mnemonicNote": "grass(草)+hopper(跳跃者)：草棵里蹦跳那位",
+  "sourceNote": "古英语 græs(草) + hoppian(跳)"
  },
  "gutter": {
   "modernMeaningCn": "排水沟",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "让水淌走的那条沟",
+  "metaphorMeaningCn": "排水沟、贫民窟",
+  "metaphorOptions": [
+   "排水沟、贫民窟",
+   "蓄水池",
+   "自来水塔"
+  ],
+  "mnemonicNote": "gutt(淌)+er(物)：让屋檐水淌走那条沟",
+  "sourceNote": "拉丁 gutta(水滴) + -er"
  },
  "handbook": {
-  "modernMeaningCn": "手册计手册",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "手册、指南",
+  "literalMeaningCn": "随手能翻的小书",
+  "metaphorMeaningCn": "手册、指南",
+  "metaphorOptions": [
+   "手册、指南",
+   "长篇小说",
+   "画册"
+  ],
+  "mnemonicNote": "hand(手)+book(书)：随手能翻开的小书",
+  "sourceNote": "古英语 hand(手) + boc(书)"
  },
  "handout": {
-  "modernMeaningCn": "施舍物",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "讲义、施舍物",
+  "literalMeaningCn": "递出去的那一份",
+  "metaphorMeaningCn": "讲义、施舍物",
+  "metaphorOptions": [
+   "讲义、施舍物",
+   "收回的旧纸",
+   "存底的档案"
+  ],
+  "mnemonicNote": "hand(手)+out(出去)：随手递出去的那一份",
+  "sourceNote": "英语复合词，hand + out"
  },
  "harmonious": {
-  "modernMeaningCn": "和睦的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "和谐的、融洽的",
+  "literalMeaningCn": "音调合得上",
+  "metaphorMeaningCn": "和谐的、融洽的",
+  "metaphorOptions": [
+   "和谐的、融洽的",
+   "格格不入的",
+   "龃龉不断的"
+  ],
+  "mnemonicNote": "harmoni(和声)+ous：几个音调合得上",
+  "sourceNote": "希腊 harmonia(接合、和声)"
  },
  "hassle": {
-  "modernMeaningCn": "激烈而持久的争论",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "麻烦、争吵",
+  "literalMeaningCn": "扯不清的纠缠",
+  "metaphorMeaningCn": "麻烦、争吵",
+  "metaphorOptions": [
+   "麻烦、争吵",
+   "顺当",
+   "一帆风顺"
+  ],
+  "mnemonicNote": "hass(纠缠)+le：扯来扯去扯不清",
+  "sourceNote": "20 世纪美国英语，haggle(讨价还价) 的变体"
  },
  "hazardous": {
   "modernMeaningCn": "危险的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "暗藏风险的",
+  "metaphorMeaningCn": "危险的、有危害的",
+  "metaphorOptions": [
+   "危险的、有危害的",
+   "稳妥的",
+   "万无一失的"
+  ],
+  "mnemonicNote": "hazard(风险)+ous：脚底下埋着风险",
+  "sourceNote": "阿拉伯 az-zahr(骰子)，经西班牙语 hazard"
  },
  "heater": {
   "modernMeaningCn": "加热器",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "出热的那件",
+  "metaphorMeaningCn": "加热器、暖气",
+  "metaphorOptions": [
+   "加热器、暖气",
+   "冰箱",
+   "风扇"
+  ],
+  "mnemonicNote": "heat(热)+er(物)：专门往外送热那件",
+  "sourceNote": "古英语 hætu(热) + -er"
  },
  "heighten": {
-  "modernMeaningCn": "增高",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "加强、加剧",
+  "literalMeaningCn": "把高度往上提",
+  "metaphorMeaningCn": "加强、加剧",
+  "metaphorOptions": [
+   "加强、加剧",
+   "削弱",
+   "缓和下来"
+  ],
+  "mnemonicNote": "height(高度)+en(使)：把高度往上提一截",
+  "sourceNote": "古英语 heahthu(高度) + -en(使动)"
  },
  "henceforth": {
   "modernMeaningCn": "自此以后",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "打这儿往后再",
+  "metaphorMeaningCn": "从今往后、自此以后",
+  "metaphorOptions": [
+   "从今往后、自此以后",
+   "在此之前",
+   "打一开始"
+  ],
+  "mnemonicNote": "hence(从此)+forth(向前)：打这儿往后再怎么着",
+  "sourceNote": "中古英语 hennes(从此) + forth(向前)"
  },
  "heritage": {
   "modernMeaningCn": "遗产",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "继承下来的东西",
+  "metaphorMeaningCn": "遗产、传统",
+  "metaphorOptions": [
+   "遗产、传统",
+   "新置的产业",
+   "另起炉灶"
+  ],
+  "mnemonicNote": "herit(继承)+age：从上一辈手里接下来那些",
+  "sourceNote": "古法语 heritage，拉丁 heres(继承人)"
  },
  "hindrance": {
-  "modernMeaningCn": "妨害",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "妨碍、障碍",
+  "literalMeaningCn": "挡在后头拖住",
+  "metaphorMeaningCn": "妨碍、障碍",
+  "metaphorOptions": [
+   "妨碍、障碍",
+   "帮手",
+   "助力"
+  ],
+  "mnemonicNote": "hindr(拖住)+ance：在后头拖着不让走",
+  "sourceNote": "古英语 hindrian(阻碍) + -ance"
  },
  "historian": {
   "modernMeaningCn": "历史学家",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "研究过往的人",
+  "metaphorMeaningCn": "历史学家、史学家",
+  "metaphorOptions": [
+   "历史学家、史学家",
+   "预言家",
+   "小说家"
+  ],
+  "mnemonicNote": "histor(历史)+ian(人)：专门翻旧账的人",
+  "sourceNote": "希腊 historia(探究) + -ian"
  },
  "historic": {
-  "modernMeaningCn": "历史上著名的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "有历史意义的、历史性的",
+  "literalMeaningCn": "写进史册的",
+  "metaphorMeaningCn": "有历史意义的、历史性的",
+  "metaphorOptions": [
+   "有历史意义的、历史性的",
+   "无足轻重的",
+   "过眼云烟的"
+  ],
+  "mnemonicNote": "histor(历史)+ic：够得上写进史册的",
+  "sourceNote": "希腊 historikos，historia(记述)"
  },
  "hitherto": {
-  "modernMeaningCn": "迄今",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "迄今为止、至今",
+  "literalMeaningCn": "一直到这会儿",
+  "metaphorMeaningCn": "迄今为止、至今",
+  "metaphorOptions": [
+   "迄今为止、至今",
+   "从今往后",
+   "来日方长"
+  ],
+  "mnemonicNote": "hither(到此)+to(到)：一路到这会儿为止",
+  "sourceNote": "古英语 hider(到此) + to(到)"
  },
  "hospitality": {
-  "modernMeaningCn": "款待",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "好客、款待",
+  "literalMeaningCn": "把客人当上宾待",
+  "metaphorMeaningCn": "好客、款待",
+  "metaphorOptions": [
+   "好客、款待",
+   "闭门谢客",
+   "下逐客令"
+  ],
+  "mnemonicNote": "hospital(招待)+ity：把客人当上宾一样待",
+  "sourceNote": "拉丁 hospitalitas，hospes(客人、主人)"
  },
  "hostage": {
   "modernMeaningCn": "人质",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "被扣住作保的人",
+  "metaphorMeaningCn": "人质、抵押品",
+  "metaphorOptions": [
+   "人质、抵押品",
+   "自由人",
+   "担保方"
+  ],
+  "mnemonicNote": "host(主人)+age：被扣在人家手里作保的那个",
+  "sourceNote": "古法语 ostage，拉丁 obsidaticus(作保)"
  },
  "huddle": {
-  "modernMeaningCn": "杂乱一团",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "挤作一团、密谈",
+  "literalMeaningCn": "缩成一堆",
+  "metaphorMeaningCn": "挤作一团、密谈",
+  "metaphorOptions": [
+   "挤作一团、密谈",
+   "四散开来",
+   "各占一方"
+  ],
+  "mnemonicNote": "hudd(藏)+le：缩成一堆挤在一处",
+  "sourceNote": "16 世纪英语，与 hide(藏) 同源"
  },
  "humanitarian": {
-  "modernMeaningCn": "人道主义者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "人道主义的、人道主义者",
+  "literalMeaningCn": "把人当人看的",
+  "metaphorMeaningCn": "人道主义的、人道主义者",
+  "metaphorOptions": [
+   "人道主义的、人道主义者",
+   "见死不救的",
+   "铁石心肠的"
+  ],
+  "mnemonicNote": "humanit(人性)+arian：凡事把人当人看的",
+  "sourceNote": "拉丁 humanitas(人性) + -arian"
  },
  "humanity": {
-  "modernMeaningCn": "人性",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "人类、人性",
+  "literalMeaningCn": "人这一类",
+  "metaphorMeaningCn": "人类、人性",
+  "metaphorOptions": [
+   "人类、人性",
+   "禽兽",
+   "兽性"
+  ],
+  "mnemonicNote": "human(人)+ity：人这一类共有的东西",
+  "sourceNote": "拉丁 humanitas，humanus(人的)"
  },
  "humidity": {
-  "modernMeaningCn": "湿气",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "湿度、潮湿",
+  "literalMeaningCn": "空气里的水汽多少",
+  "metaphorMeaningCn": "湿度、潮湿",
+  "metaphorOptions": [
+   "湿度、潮湿",
+   "干燥",
+   "干旱"
+  ],
+  "mnemonicNote": "humid(潮湿)+ity：空气里含多少水汽",
+  "sourceNote": "拉丁 humidus(潮湿) + -ity"
  },
  "humiliation": {
-  "modernMeaningCn": "耻辱",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "羞辱、屈辱",
+  "literalMeaningCn": "被按在地上这件事",
+  "metaphorMeaningCn": "羞辱、屈辱",
+  "metaphorOptions": [
+   "羞辱、屈辱",
+   "荣耀",
+   "扬眉吐气"
+  ],
+  "mnemonicNote": "humiliat(使丢脸)+ion：被按在地上那一遭",
+  "sourceNote": "晚期拉丁 humiliatio，humilis(低下)"
  },
  "hydrocarbon": {
-  "modernMeaningCn": "碳氢化合物化烃",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "碳氢化合物",
+  "literalMeaningCn": "氢和碳搭起来的东西",
+  "metaphorMeaningCn": "碳氢化合物、烃",
+  "metaphorOptions": [
+   "碳氢化合物、烃",
+   "氧化物",
+   "氮化物"
+  ],
+  "mnemonicNote": "hydro(氢)+carbon(碳)：氢和碳搭起来那一族",
+  "sourceNote": "希腊 hydor(水、氢) + 拉丁 carbo(炭)"
  },
  "hysterical": {
   "modernMeaningCn": "歇斯底里的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "情绪脱了缰的",
+  "metaphorMeaningCn": "歇斯底里的、狂乱的",
+  "metaphorOptions": [
+   "歇斯底里的、狂乱的",
+   "气定神闲的",
+   "不动声色的"
+  ],
+  "mnemonicNote": "hysteric(癔症)+al：情绪脱了缰",
+  "sourceNote": "希腊 hystera(子宫)，旧时误以为此症与子宫有关"
  },
  "idealism": {
   "modernMeaningCn": "唯心主义",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "拿理想当尺子",
+  "metaphorMeaningCn": "理想主义、唯心主义",
+  "metaphorOptions": [
+   "理想主义、唯心主义",
+   "务实主义",
+   "唯利是图"
+  ],
+  "mnemonicNote": "ideal(理想)+ism(主义)：拿理想当尺子量世界",
+  "sourceNote": "希腊 idea(理念) + -ism"
  },
  "ideally": {
-  "modernMeaningCn": "完美地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "理想地、最好",
+  "literalMeaningCn": "照最称心的来",
+  "metaphorMeaningCn": "理想地、最好",
+  "metaphorOptions": [
+   "理想地、最好",
+   "最糟不过",
+   "退而求其次"
+  ],
+  "mnemonicNote": "ideal(理想)+ly：照最称心的样子来",
+  "sourceNote": "晚期拉丁 idealis，idea(理念) + -ly"
  },
  "idleness": {
-  "modernMeaningCn": "懒惰",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "闲散、懒惰",
+  "literalMeaningCn": "闲着的状态",
+  "metaphorMeaningCn": "闲散、懒惰",
+  "metaphorOptions": [
+   "闲散、懒惰",
+   "勤勉",
+   "孜孜不倦"
+  ],
+  "mnemonicNote": "idle(闲着)+ness：手头没事那个状态",
+  "sourceNote": "古英语 idel(空的、闲的) + -ness"
  }
 }
