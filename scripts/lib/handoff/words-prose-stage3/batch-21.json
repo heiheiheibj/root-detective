@@ -1,483 +1,723 @@
 {
- "_comment": "Stage 3 待写释义（batch-21，本批 60 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "_comment": "Stage 3 待写释义（batch-21，本批 60 词，高考批第 14 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
  "settlement": {
-  "modernMeaningCn": "安顿",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "定居点",
+  "literalMeaningCn": "安顿下来的地方",
+  "metaphorMeaningCn": "定居点、解决",
+  "metaphorOptions": [
+   "定居点、解决",
+   "漂泊",
+   "悬而未决"
+  ],
+  "mnemonicNote": "settle(安顿)+ment：一群人扎下根、搭起屋那片",
+  "sourceNote": "古英语 setlan(安放) + -ment"
  },
  "seventeen": {
   "modernMeaningCn": "十七",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "七加上十",
+  "metaphorMeaningCn": "十七、十七个",
+  "metaphorOptions": [
+   "十七、十七个",
+   "七十",
+   "第七"
+  ],
+  "mnemonicNote": "seven(七)+teen(十)：十个指头数完再添七个",
+  "sourceNote": "古英语 seofontyne，seofon(七) + tyne(十)"
  },
  "seventh": {
   "modernMeaningCn": "第七",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "排第七的",
+  "metaphorMeaningCn": "第七、七分之一",
+  "metaphorOptions": [
+   "第七、七分之一",
+   "第十七",
+   "全部"
+  ],
+  "mnemonicNote": "seven(七)+th(序数)：数到七的那一位",
+  "sourceNote": "古英语 seofotha，seofon(七) 的序数形式"
  },
  "seventy": {
   "modernMeaningCn": "七十",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "七个十",
+  "metaphorMeaningCn": "七十、七十个",
+  "metaphorOptions": [
+   "七十、七十个",
+   "十七",
+   "第七十"
+  ],
+  "mnemonicNote": "seven(七)+ty(十)：七捆十根扎成一扎",
+  "sourceNote": "古英语 seofontig，seofon(七) + tig(十)"
  },
  "several": {
   "modernMeaningCn": "几个的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "各自分开的几个",
+  "metaphorMeaningCn": "几个、若干",
+  "metaphorOptions": [
+   "几个、若干",
+   "成百上千",
+   "仅此一个"
+  ],
+  "mnemonicNote": "sever(分开)+al：数得过来但不止一个那几个",
+  "sourceNote": "中世纪拉丁 separalis，separ(分开)"
  },
  "sharpen": {
-  "modernMeaningCn": "使尖锐",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "削尖",
+  "literalMeaningCn": "使变锋利",
+  "metaphorMeaningCn": "削尖、加强",
+  "metaphorOptions": [
+   "削尖、加强",
+   "磨钝",
+   "削弱"
+  ],
+  "mnemonicNote": "sharp(锋利)+en(使)：在石头上蹭几下就快了",
+  "sourceNote": "古英语 scearp(锐利) + -en(使动)"
  },
  "shooting": {
-  "modernMeaningCn": "发射",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "射击",
+  "literalMeaningCn": "发弹的动作",
+  "metaphorMeaningCn": "射击、拍摄",
+  "metaphorOptions": [
+   "射击、拍摄",
+   "收枪",
+   "停机"
+  ],
+  "mnemonicNote": "shoot(射)+ing：扳机一扣那一声响",
+  "sourceNote": "古英语 sceotan(射、投) + -ing"
  },
  "shopkeeper": {
-  "modernMeaningCn": "零售商",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "店主",
+  "literalMeaningCn": "看店的人",
+  "metaphorMeaningCn": "店主、小老板",
+  "metaphorOptions": [
+   "店主、小老板",
+   "顾客",
+   "伙计"
+  ],
+  "mnemonicNote": "shop(店铺)+keeper(看守人)：站柜台后面算账那位",
+  "sourceNote": "英语复合词，shop + keeper"
  },
  "shopping": {
-  "modernMeaningCn": "买东西",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "购物",
+  "literalMeaningCn": "逛店这件事",
+  "metaphorMeaningCn": "购物、买东西",
+  "metaphorOptions": [
+   "购物、买东西",
+   "退货",
+   "典当"
+  ],
+  "mnemonicNote": "shopp(采买)+ing：周末拎着袋子一家家逛",
+  "sourceNote": "古英语 sceoppa(货棚) + -ing"
  },
  "shortcoming": {
   "modernMeaningCn": "缺点",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "短了一截之处",
+  "metaphorMeaningCn": "缺点、短处",
+  "metaphorOptions": [
+   "缺点、短处",
+   "长处",
+   "过人之处"
+  ],
+  "mnemonicNote": "short(短)+coming(来时)：跟人一比就差那么一截",
+  "sourceNote": "英语复合词，short + coming"
  },
  "shortly": {
   "modernMeaningCn": "不久",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "隔不了多久",
+  "metaphorMeaningCn": "不久、简短地",
+  "metaphorOptions": [
+   "不久、简短地",
+   "很久以后",
+   "遥遥无期"
+  ],
+  "mnemonicNote": "short(短)+ly：掐着表算也就一会儿",
+  "sourceNote": "古英语 sceort(短) + -lice"
  },
  "shower": {
   "modernMeaningCn": "阵雨",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "泼下来的水",
+  "metaphorMeaningCn": "阵雨、淋浴",
+  "metaphorOptions": [
+   "阵雨、淋浴",
+   "烈日",
+   "干旱"
+  ],
+  "mnemonicNote": "show(倾泻)+er(物)：哗一下浇透、转眼又停",
+  "sourceNote": "古英语 scur，与 scieran(劈开) 同源，指骤来骤去的一阵"
  },
  "shuttle": {
   "modernMeaningCn": "穿梭",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "像梭子来回穿",
+  "metaphorMeaningCn": "穿梭、班车",
+  "metaphorOptions": [
+   "穿梭、班车",
+   "单程一趟",
+   "停运"
+  ],
+  "mnemonicNote": "shutt(梭)+le：织布梭那样两头来回跑",
+  "sourceNote": "古英语 scytel(飞镖、梭)，sceotan(射)"
  },
  "sickness": {
   "modernMeaningCn": "疾病",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "生病这件事",
+  "metaphorMeaningCn": "疾病、恶心",
+  "metaphorOptions": [
+   "疾病、恶心",
+   "康复",
+   "强健"
+  ],
+  "mnemonicNote": "sick(病)+ness：卧床那几天昏昏沉沉",
+  "sourceNote": "古英语 seoc(病) + -nes(状态)"
  },
  "sightseeing": {
   "modernMeaningCn": "观光",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "看景色这件事",
+  "metaphorMeaningCn": "观光、游览",
+  "metaphorOptions": [
+   "观光、游览",
+   "闭门不出",
+   "原地歇着"
+  ],
+  "mnemonicNote": "sight(景物)+seeing(看)：一天跑遍城里八个景点",
+  "sourceNote": "英语复合词，sight + seeing"
  },
  "simplify": {
-  "modernMeaningCn": "单一化",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "简化",
+  "literalMeaningCn": "使变简单",
+  "metaphorMeaningCn": "简化、使简明",
+  "metaphorOptions": [
+   "简化、使简明",
+   "复杂化",
+   "层层加码"
+  ],
+  "mnemonicNote": "simpl(简单)+ify(使)：把绕来绕去的说明砍成两句",
+  "sourceNote": "法语 simplifier，拉丁 simplus(单一的)"
  },
  "simply": {
   "modernMeaningCn": "简单地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "以简单的方式",
+  "metaphorMeaningCn": "简单地、仅仅",
+  "metaphorOptions": [
+   "简单地、仅仅",
+   "拐弯抹角地",
+   "大费周章地"
+  ],
+  "mnemonicNote": "simpl(单一)+y：不绕弯子，一句话说到点上",
+  "sourceNote": "拉丁 simplus(单一的) + -ly"
  },
  "sincerely": {
   "modernMeaningCn": "真诚地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "以真心实意",
+  "metaphorMeaningCn": "真诚地、由衷地",
+  "metaphorOptions": [
+   "真诚地、由衷地",
+   "虚与委蛇地",
+   "阳奉阴违地"
+  ],
+  "mnemonicNote": "sincere(诚恳)+ly：信末写的那两个字，不是客套",
+  "sourceNote": "拉丁 sincerus(纯净的)"
  },
  "singer": {
   "modernMeaningCn": "歌手",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "唱歌的人",
+  "metaphorMeaningCn": "歌手、歌唱家",
+  "metaphorOptions": [
+   "歌手、歌唱家",
+   "听众",
+   "乐手"
+  ],
+  "mnemonicNote": "sing(唱)+er(人)：一开口全场就静下来的那位",
+  "sourceNote": "古英语 singan(唱) + -er"
  },
  "situation": {
-  "modernMeaningCn": "情形",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "情况",
+  "literalMeaningCn": "所处的境况",
+  "metaphorMeaningCn": "情况、处境",
+  "metaphorOptions": [
+   "情况、处境",
+   "脱离现实",
+   "置身事外"
+  ],
+  "mnemonicNote": "situat(位于)+ion：眼下你站在哪一步、周围什么样",
+  "sourceNote": "中世纪拉丁 situatio，situs(位置)"
  },
  "sixteen": {
   "modernMeaningCn": "十六",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "六加上十",
+  "metaphorMeaningCn": "十六、十六个",
+  "metaphorOptions": [
+   "十六、十六个",
+   "六十",
+   "第六"
+  ],
+  "mnemonicNote": "six(六)+teen(十)：数满十个再添六个",
+  "sourceNote": "古英语 siextyne，siex(六) + tyne(十)"
  },
  "sixteenth": {
   "modernMeaningCn": "第十六",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "排第十六的",
+  "metaphorMeaningCn": "第十六、十六分之一",
+  "metaphorOptions": [
+   "第十六、十六分之一",
+   "第六",
+   "全部"
+  ],
+  "mnemonicNote": "six(六)+teen(十)+th(序数)：数到十六的那一位",
+  "sourceNote": "古英语 siextetha 的扩展形式"
  },
  "sixth": {
   "modernMeaningCn": "第六",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "排第六的",
+  "metaphorMeaningCn": "第六、六分之一",
+  "metaphorOptions": [
+   "第六、六分之一",
+   "第十六",
+   "全部"
+  ],
+  "mnemonicNote": "six(六)+th(序数)：数到六的那一位",
+  "sourceNote": "古英语 siexta，siex(六) 的序数形式"
  },
  "sixty": {
   "modernMeaningCn": "六十",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "六个十",
+  "metaphorMeaningCn": "六十、六十个",
+  "metaphorOptions": [
+   "六十、六十个",
+   "十六",
+   "第六十"
+  ],
+  "mnemonicNote": "six(六)+ty(十)：六捆十根扎成一扎",
+  "sourceNote": "古英语 siextig，siex(六) + tig(十)"
  },
  "skateboard": {
-  "modernMeaningCn": "溜冰板",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "滑板",
+  "literalMeaningCn": "脚下滑行的板",
+  "metaphorMeaningCn": "滑板",
+  "metaphorOptions": [
+   "滑板",
+   "旱冰鞋",
+   "自行车"
+  ],
+  "mnemonicNote": "skate(滑行)+board(板)：装四个轮子的那块长板",
+  "sourceNote": "荷兰语 schaats(冰鞋) + 古英语 bord(板)"
  },
  "skilled": {
-  "modernMeaningCn": "熟练的经熟练的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "熟练的",
+  "literalMeaningCn": "练出本事的",
+  "metaphorMeaningCn": "熟练的、有技能的",
+  "metaphorOptions": [
+   "熟练的、有技能的",
+   "生手的",
+   "没上过手的"
+  ],
+  "mnemonicNote": "skill(技艺)+ed：手上活儿看一眼就知道练过",
+  "sourceNote": "古诺尔斯语 skil(辨别、技艺) + -ed"
  },
  "skillful": {
   "modernMeaningCn": "熟练的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "技艺满身的",
+  "metaphorMeaningCn": "熟练的、灵巧的",
+  "metaphorOptions": [
+   "熟练的、灵巧的",
+   "笨手笨脚的",
+   "毛手毛脚的"
+  ],
+  "mnemonicNote": "skill(技艺)+ful(满)：什么工具到他手里都听话",
+  "sourceNote": "古诺尔斯语 skil(技艺) + -ful"
  },
  "skillfully": {
-  "modernMeaningCn": "巧妙地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "熟练地",
+  "literalMeaningCn": "以巧手的方式",
+  "metaphorMeaningCn": "熟练地、巧妙地",
+  "metaphorOptions": [
+   "熟练地、巧妙地",
+   "笨拙地",
+   "乱来一气"
+  ],
+  "mnemonicNote": "skillful(手上利落)+ly：三下两下就把活干完",
+  "sourceNote": "古诺尔斯语 skil(技艺) + -ful + -ly"
  },
  "slavery": {
-  "modernMeaningCn": "奴隶的身分",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "奴隶制",
+  "literalMeaningCn": "当牛做马的境况",
+  "metaphorMeaningCn": "奴隶制、奴役",
+  "metaphorOptions": [
+   "奴隶制、奴役",
+   "自由身",
+   "解放"
+  ],
+  "mnemonicNote": "slave(奴)+ry：人身被当成货物买卖那套制度",
+  "sourceNote": "中世纪拉丁 sclavus(斯拉夫人、奴隶) + -ery"
  },
  "smoking": {
-  "modernMeaningCn": "抽烟",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "吸烟",
+  "literalMeaningCn": "冒烟这件事",
+  "metaphorMeaningCn": "吸烟、熏制",
+  "metaphorOptions": [
+   "吸烟、熏制",
+   "戒烟",
+   "禁烟区"
+  ],
+  "mnemonicNote": "smok(冒烟)+ing：两指夹着那根冒烟的东西",
+  "sourceNote": "古英语 smocian(冒烟) + -ing"
  },
  "sneaker": {
-  "modernMeaningCn": "鬼鬼祟祟做事的人",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "运动鞋",
+  "literalMeaningCn": "走路不出声的鞋",
+  "metaphorMeaningCn": "运动鞋、胶鞋",
+  "metaphorOptions": [
+   "运动鞋、胶鞋",
+   "皮鞋",
+   "拖鞋"
+  ],
+  "mnemonicNote": "sneak(潜行)+er(物)：橡胶底踩上去没什么声响",
+  "sourceNote": "古英语 snican(潜行) + -er"
  },
  "snowball": {
   "modernMeaningCn": "雪球",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "团成的雪团",
+  "metaphorMeaningCn": "雪球、滚雪球",
+  "metaphorOptions": [
+   "雪球、滚雪球",
+   "冰块",
+   "雨点"
+  ],
+  "mnemonicNote": "snow(雪)+ball(球)：滚着滚着越裹越大那一团",
+  "sourceNote": "古英语 snaw(雪) + 古诺尔斯语 bollr(球)"
  },
  "snowman": {
   "modernMeaningCn": "雪人",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "用雪堆的人形",
+  "metaphorMeaningCn": "雪人",
+  "metaphorOptions": [
+   "雪人",
+   "冰雕",
+   "稻草人"
+  ],
+  "mnemonicNote": "snow(雪)+man(人)：院子里那三个球摞起来的东西",
+  "sourceNote": "英语复合词，snow + man"
  },
  "socialism": {
   "modernMeaningCn": "社会主义",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "主张公有的主义",
+  "metaphorMeaningCn": "社会主义",
+  "metaphorOptions": [
+   "社会主义",
+   "个人主义",
+   "无政府主义"
+  ],
+  "mnemonicNote": "social(社会的)+ism：主张财产归社会共有那套",
+  "sourceNote": "法语 socialisme，拉丁 socialis(社会的)"
  },
  "socialist": {
   "modernMeaningCn": "社会主义者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "主张公有之人",
+  "metaphorMeaningCn": "社会主义者、社会主义的",
+  "metaphorOptions": [
+   "社会主义者、社会主义的",
+   "资本家",
+   "保守派"
+  ],
+  "mnemonicNote": "social(社会的)+ist(信奉者)：主张大家一起分那位",
+  "sourceNote": "法语 socialiste，socialis(社会的)"
  },
  "sometimes": {
   "modernMeaningCn": "有时",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "有些时候",
+  "metaphorMeaningCn": "有时、间或",
+  "metaphorOptions": [
+   "有时、间或",
+   "一贯如此",
+   "从不发生"
+  ],
+  "mnemonicNote": "some(某些)+times(次)：不是每回，但隔三差五会有",
+  "sourceNote": "中古英语 som tyme，some + time"
  },
  "southeast": {
   "modernMeaningCn": "东南",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "南与东之间",
+  "metaphorMeaningCn": "东南、东南部",
+  "metaphorOptions": [
+   "东南、东南部",
+   "西北",
+   "正中"
+  ],
+  "mnemonicNote": "south(南)+east(东)：罗盘上夹在两者当中那一格",
+  "sourceNote": "古英语 suth(南) + east(东)"
  },
  "southwest": {
   "modernMeaningCn": "西南",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "南与西之间",
+  "metaphorMeaningCn": "西南、西南部",
+  "metaphorOptions": [
+   "西南、西南部",
+   "东北",
+   "正中"
+  ],
+  "mnemonicNote": "south(南)+west(西)：罗盘上夹在两者当中那一格",
+  "sourceNote": "古英语 suth(南) + west(西)"
  },
  "spaceship": {
   "modernMeaningCn": "宇宙飞船",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "太空里的船",
+  "metaphorMeaningCn": "宇宙飞船、航天器",
+  "metaphorOptions": [
+   "宇宙飞船、航天器",
+   "潜水艇",
+   "热气球"
+  ],
+  "mnemonicNote": "space(太空)+ship(船)：载着人往星星那边开",
+  "sourceNote": "英语复合词，20 世纪航天术语"
  },
  "spanish": {
-  "modernMeaningCn": "西班牙人",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "西班牙的",
+  "literalMeaningCn": "西班牙的",
+  "metaphorMeaningCn": "西班牙人、西班牙语",
+  "metaphorOptions": [
+   "西班牙人、西班牙语",
+   "葡萄牙人",
+   "意大利人"
+  ],
+  "mnemonicNote": "span(西班牙)+ish(…人/语)：伊比利亚半岛上那一门",
+  "sourceNote": "拉丁 Hispania(伊比利亚半岛)，经古法语 Espaigne"
  },
  "sparrow": {
   "modernMeaningCn": "麻雀",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "屋檐下的小雀",
+  "metaphorMeaningCn": "麻雀",
+  "metaphorOptions": [
+   "麻雀",
+   "燕子",
+   "鸽子"
+  ],
+  "mnemonicNote": "spar(雀)+row：房檐下一群叽叽喳喳那种小雀",
+  "sourceNote": "古英语 spearwa，与希腊 spergoulos 同源"
  },
  "specialist": {
-  "modernMeaningCn": "专门医师",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "专家",
+  "literalMeaningCn": "专攻一门的人",
+  "metaphorMeaningCn": "专家、专科医生",
+  "metaphorOptions": [
+   "专家、专科医生",
+   "门外汉",
+   "杂家"
+  ],
+  "mnemonicNote": "special(专门)+ist(人)：一辈子只钻那一门学问",
+  "sourceNote": "拉丁 specialis(专门的) + -ist(人)"
  },
  "spelling": {
-  "modernMeaningCn": "拼",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "拼写",
+  "literalMeaningCn": "拼字母这件事",
+  "metaphorMeaningCn": "拼写、拼法",
+  "metaphorOptions": [
+   "拼写、拼法",
+   "发音",
+   "字义"
+  ],
+  "mnemonicNote": "spell(拼读)+ing：一个字母一个字母念出来",
+  "sourceNote": "古法语 espeler(拼读) + -ing"
  },
  "spiritual": {
-  "modernMeaningCn": "精神上的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "精神的",
+  "literalMeaningCn": "与心灵有关",
+  "metaphorMeaningCn": "精神的、心灵的",
+  "metaphorOptions": [
+   "精神的、心灵的",
+   "肉体的",
+   "物质的"
+  ],
+  "mnemonicNote": "spirit(心灵)+ual：看不见摸不着、却撑着人的那部分",
+  "sourceNote": "拉丁 spiritualis，spiritus(呼吸、灵魂)"
  },
  "spoonful": {
-  "modernMeaningCn": "一匙医一匙",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "一勺",
+  "literalMeaningCn": "一勺的量",
+  "metaphorMeaningCn": "一勺、一匙",
+  "metaphorOptions": [
+   "一勺、一匙",
+   "一整碗",
+   "一整锅"
+  ],
+  "mnemonicNote": "spoon(勺)+ful(满)：盛得冒尖那么一点",
+  "sourceNote": "古英语 spon(木片、勺) + -ful(充满)"
  },
  "stainless": {
-  "modernMeaningCn": "无瑕疵的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "不锈的",
+  "literalMeaningCn": "不沾污的",
+  "metaphorMeaningCn": "不锈的、无瑕的",
+  "metaphorOptions": [
+   "不锈的、无瑕的",
+   "锈迹斑斑的",
+   "污点累累的"
+  ],
+  "mnemonicNote": "stain(污渍)+less(无)：沾了水也不留斑那一种钢",
+  "sourceNote": "古法语 desteindre(褪色) + -less(无)"
  },
  "starvation": {
   "modernMeaningCn": "饥饿",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "饿到极点的境地",
+  "metaphorMeaningCn": "饥饿、饿死",
+  "metaphorOptions": [
+   "饥饿、饿死",
+   "饱足",
+   "丰衣足食"
+  ],
+  "mnemonicNote": "starv(挨饿)+ation：连着好多天碗里空着",
+  "sourceNote": "古英语 steorfan(死亡、饿死) + -ation"
  },
  "steward": {
-  "modernMeaningCn": "管理人",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "乘务员",
+  "literalMeaningCn": "管舱室的人",
+  "metaphorMeaningCn": "乘务员、管家",
+  "metaphorOptions": [
+   "乘务员、管家",
+   "乘客",
+   "船长"
+  ],
+  "mnemonicNote": "ste(厅堂)+ward(看守)：船舱里端茶递水那位",
+  "sourceNote": "古英语 stiward，stig(厅堂) + weard(看守)"
  },
  "stewardess": {
-  "modernMeaningCn": "空中小姐",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "空姐",
+  "literalMeaningCn": "女乘务员",
+  "metaphorMeaningCn": "空姐、女乘务员",
+  "metaphorOptions": [
+   "空姐、女乘务员",
+   "乘客",
+   "机长"
+  ],
+  "mnemonicNote": "steward(乘务)+ess(女性)：过道上推着餐车那位",
+  "sourceNote": "古英语 stiward(管家) + -ess(女性)"
  },
  "storage": {
-  "modernMeaningCn": "存储器",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "贮藏",
+  "literalMeaningCn": "存东西的地方",
+  "metaphorMeaningCn": "贮藏、仓储",
+  "metaphorOptions": [
+   "贮藏、仓储",
+   "取用",
+   "清空"
+  ],
+  "mnemonicNote": "stor(存放)+age：货栈里一层层码着那些箱子",
+  "sourceNote": "古法语 estorage，estorer(储备)"
  },
  "straightforward": {
-  "modernMeaningCn": "笔直的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "直率的",
+  "literalMeaningCn": "直着往前",
+  "metaphorMeaningCn": "直率的、简单明了的",
+  "metaphorOptions": [
+   "直率的、简单明了的",
+   "拐弯抹角的",
+   "含含糊糊的"
+  ],
+  "mnemonicNote": "straight(直)+forward(向前)：话不绕圈，一条道说到头",
+  "sourceNote": "英语复合词，straight + forward"
  },
  "strawberry": {
   "modernMeaningCn": "草莓",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "草茎上的浆果",
+  "metaphorMeaningCn": "草莓",
+  "metaphorOptions": [
+   "草莓",
+   "桑葚",
+   "蓝莓"
+  ],
+  "mnemonicNote": "straw(草茎)+berry(浆果)：贴着地面长、红点点那颗",
+  "sourceNote": "古英语 streawberige，streaw(草) + berie(浆果)"
  },
  "strengthen": {
   "modernMeaningCn": "加强",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "使变强壮",
+  "metaphorMeaningCn": "加强、巩固",
+  "metaphorOptions": [
+   "加强、巩固",
+   "削弱",
+   "瓦解"
+  ],
+  "mnemonicNote": "strength(力气)+en(使)：再添一股劲进去",
+  "sourceNote": "古英语 strengþu(力量) + -en(使动)"
  },
  "stubborn": {
-  "modernMeaningCn": "顽固的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "固执的",
+  "literalMeaningCn": "像树桩一样",
+  "metaphorMeaningCn": "固执的、顽固的",
+  "metaphorOptions": [
+   "固执的、顽固的",
+   "随和的",
+   "听得进劝的"
+  ],
+  "mnemonicNote": "stub(树桩)+born：钉在地里，谁说都不挪",
+  "sourceNote": "中古英语 stiborn，stub(树桩) + -born"
  },
  "student": {
   "modernMeaningCn": "学生",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "在学的人",
+  "metaphorMeaningCn": "学生、研究者",
+  "metaphorOptions": [
+   "学生、研究者",
+   "教师",
+   "退学者"
+  ],
+  "mnemonicNote": "stud(用功)+ent(人)：一天到晚泡在书里那位",
+  "sourceNote": "拉丁 studens，studere(用功、热心)"
  },
  "subject": {
   "modernMeaningCn": "科目",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "摆在下面供讨论的",
+  "metaphorMeaningCn": "科目、主题",
+  "metaphorOptions": [
+   "科目、主题",
+   "旁枝末节",
+   "闲话"
+  ],
+  "mnemonicNote": "sub(在下)+ject(投)：课表上摆着的那几门",
+  "sourceNote": "拉丁 subiectus，sub-(在下) + iacere(投)"
  },
  "subjective": {
   "modernMeaningCn": "主观的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "从自己出发的",
+  "metaphorMeaningCn": "主观的、个人的",
+  "metaphorOptions": [
+   "主观的、个人的",
+   "客观的",
+   "中立的"
+  ],
+  "mnemonicNote": "subject(主体)+ive：全凭自己那双眼怎么看",
+  "sourceNote": "拉丁 subiectivus，subicere(置于其下)"
  },
  "suffering": {
-  "modernMeaningCn": "苦难",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "痛苦",
+  "literalMeaningCn": "扛着的那份苦",
+  "metaphorMeaningCn": "痛苦、苦难",
+  "metaphorOptions": [
+   "痛苦、苦难",
+   "安乐",
+   "舒心"
+  ],
+  "mnemonicNote": "suffer(承受)+ing：咬着牙一天天熬过去那些",
+  "sourceNote": "拉丁 sufferre(承受) + -ing"
  },
  "suggestion": {
-  "modernMeaningCn": "提议",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "建议",
+  "literalMeaningCn": "递上来的主意",
+  "metaphorMeaningCn": "建议、提议",
+  "metaphorOptions": [
+   "建议、提议",
+   "命令",
+   "驳回"
+  ],
+  "mnemonicNote": "suggest(提出)+ion：低声在你耳边提的那一句",
+  "sourceNote": "拉丁 suggestio，suggerere(带到下面、提出)"
  },
  "suitable": {
-  "modernMeaningCn": "适当的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "合适的",
+  "literalMeaningCn": "能配上套的",
+  "metaphorMeaningCn": "合适的、适宜的",
+  "metaphorOptions": [
+   "合适的、适宜的",
+   "不搭调的",
+   "格格不入的"
+  ],
+  "mnemonicNote": "suit(合身)+able：穿上正合身、用上正顺手",
+  "sourceNote": "古法语 suite(相配) + -able"
  }
 }
