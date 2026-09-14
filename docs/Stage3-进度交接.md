@@ -9,14 +9,15 @@
 
 | 项 | 值 |
 |---|---|
-| **当前词库** | **1379 词 / 1200 词素（含 960 词根）/ 32 世界** |
-| **内容校验** | **0 错误 / 357 警告**（警告多为 A23 难度梯度提示） |
-| 详情分片 | 17 片 |
+| **当前词库** | **1995 词 / 1639 词素（含 1371 词根）/ 37 世界** |
+| **内容校验** | **0 错误 / 598 警告**（警告多为 A23 难度梯度提示） |
+| 详情分片 | 24 片 |
 | 测试 | **53/53 通过** |
-| 构建 | 成功，726.81 kB / gzip 157.95 kB |
-| 已完成批次 | 3.1 中考（434 词）、3.2 高考（974 词，实收 988 净增） |
-| 释义批次 | `batch-1` ~ `batch-24` 共 1365 词，全量自检 0 问题 |
-| **3.3 四级批** | 配置就绪（切分通过 1995 词），**释义进行中：`batch-25`~`26` 已完成，剩 `batch-27`~`35`（498 词）** |
+| 构建 | 成功，919.95 kB / gzip 188.01 kB |
+| 已完成批次 | 3.1 中考、3.2 高考、3.3 四级 —— **Stage 3 三批全部完成** |
+| 释义批次 | `batch-1` ~ `batch-35` 共 1981 词，全量自检 0 问题 |
+| 例句覆盖 | 1995/1995 全部有中文对照（0 缺） |
+| 词素义项 | 全部有中文义项（`scripts/lib/morpheme-fallback.mjs` 统一兜底） |
 
 ---
 
@@ -34,7 +35,50 @@
 
 batch-8 ~ batch-24 共 989 词已全部写完，全量自检 0 问题（合计 1365 词）。
 
-### 步骤 3：铺 3.3 四级批（771 词）—— 下一步
+### 步骤 3：铺 3.3 四级批（771 词）【✅ 已完成】
+
+释义 `batch-25` ~ `batch-35` 共 618 词写完；实收后全库 1995 词、1639 词素、37 世界。
+
+总装路上又踩到四类闸门，都已修好并沉淀成脚本：
+
+| 闸门 | 现象 | 修法 |
+|---|---|---|
+| A28 | `option[0]` 里带省略号（「在…之中」）被判为占位符，拦下 amongst / characterize / comprise / concerning / regarding | `scripts/tools/fix-ellipsis-glosses.mjs` 改写成具体措辞 |
+| A20 | `st`/`est`/`ir`/`wave`/`ster`/`stock` 6 个词素无中文义项 | 补进 `scripts/lib/morpheme-fallback.mjs` |
+| A24 | 13 个孤儿词根（stair/how/possible/operate/please/will/rob/store/commune/por/simple/skill/vary）没挂世界 | `batch-04/worlds.json` 加「生计巷」「人家院」两个世界 |
+| 词典残留 | ECDICT 首义在 51 个词条上是拼接串（`underneath`「在下面在的下面」、`videotape`「录相磁带把电视节」），或偏离词根义（`resolution`「解析」、`readily`「迅速地」） | `scripts/tools/fix-modern-glosses.mjs` 一次修 51 处，并体检所有 >10 字无顿号的释义 |
+
+**⚠ 事故记录（下次别重犯）**：手动跑切分时漏了配置参数 ——
+`node scripts/21-split-morphemes.mjs` **必须带** `scripts/lib/stage3-content.json`：
+
+```bash
+node scripts/21-split-morphemes.mjs scripts/lib/stage3-content.json
+```
+
+漏参数的后果是它退回默认配置只切出 66 个词并**覆盖** `words.splits.json`；此时若跑
+`prune-handoff-words.mjs`，它拿这份坏 splits 反查，会把上千真实词条当「多余词」删掉
+（这次删了 `transmit`/`adjust`，已用 `scripts/tools/restore-pruned-handoff.mjs`
+从 git HEAD 恢复）。`prune-handoff-words.mjs` 现在有防线：splits 少于 500 词直接停下。
+
+### 步骤 4：铺 3.4 六级批（850 词）—— 下一步
+
+```bash
+node scripts/tools/build-batch-config.mjs 3      # 生成 batch-05（0-based：3=3.4）
+# 前置 1：新建 scripts/lib/stage-additions/batch-05/worlds.json，按语义分组覆盖本批
+#         全部教学词根家族（参考 batch-02/03/04），否则 A24 报错
+# 前置 2：新词素若不在 scripts/lib/morpheme-fallback.mjs 里，补一条
+node scripts/tools/make-prose-handoff.mjs 60     # 增量生成待写释义模板（不覆盖已有批次）
+# 逐批填写 scripts/lib/handoff/words-prose-stage3/batch-N.json
+node scripts/tools/check-prose-batch.mjs N       # 写一批查一批（N=批号）
+node scripts/tools/fix-distractors.mjs           # 自动补 A12 干扰项（遍历全部批次）
+node scripts/tools/fix-a14.mjs                   # 自动修助记里逐字抄答案的
+npm run content:all && node scripts/validate-content.mjs
+```
+
+写释义的要点（前两批总结）：
+- 字面义按词根直译（≤12 汉字）；隐喻义给真义（≤20 字）；`metaphorOptions[0]` 必须与隐喻义一字不差
+- 三个选项先自己想两个干扰项，`fix-distractors` 会按词素义项池自动补/覆写
+- 助记与词源**都不能逐字出现现代义**（A14 会拦）；也不能出现中文省略号「…」（A28 会拦）
 
 ```bash
 node scripts/tools/build-batch-config.mjs 2      # 生成 batch-04
@@ -115,9 +159,9 @@ node scripts/validate-content.mjs                # 看剩余错误
 | 批次 | 词数 | 状态 |
 |---|---|---|
 | 3.1 中考 | 434 | ✅ 完成（实收 391） |
-| 3.2 高考 | 974 | ⏳ 配置已生成，待改 20 号后写释义 |
-| 3.3 四级 | 771 | ⬜ 未开始 |
-| 3.4 六级 | 850 | ⬜ 未开始 |
+| 3.2 高考 | 974 | ✅ 完成（释义 `batch-8`~`24`，实收后全库 1379 词） |
+| 3.3 四级 | 771 | ✅ 完成（释义 `batch-25`~`35`，实收后全库 **1995 词**） |
+| 3.4 六级 | 850 | ⬜ 未开始（下一批） |
 
 ---
 
