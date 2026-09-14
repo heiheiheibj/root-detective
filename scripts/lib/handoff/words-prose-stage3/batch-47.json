@@ -1,235 +1,351 @@
 {
- "_comment": "Stage 3 待写释义（batch-47，本批 29 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "_comment": "Stage 3 待写释义（batch-47，本批 29 词，六级批最后一批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
  "upgrade": {
-  "modernMeaningCn": "上坡",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "升级、提升",
+  "literalMeaningCn": "往上一档",
+  "metaphorMeaningCn": "升级、提升",
+  "metaphorOptions": [
+   "升级、提升",
+   "降级",
+   "往下调"
+  ],
+  "mnemonicNote": "up(向上)+grade(等级)：往上一档",
+  "sourceNote": "英语复合词，up + grade(等级)"
  },
  "uphold": {
-  "modernMeaningCn": "支撑",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "支持、维护",
+  "literalMeaningCn": "从下往上托着",
+  "metaphorMeaningCn": "支持、维护",
+  "metaphorOptions": [
+   "支持、维护",
+   "拆台",
+   "推翻不算"
+  ],
+  "mnemonicNote": "up(向上)+hold(持)：从底下一直托着",
+  "sourceNote": "古英语 upphealdan，up + healdan(持)"
  },
  "uproar": {
-  "modernMeaningCn": "骚动",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "喧嚣、骚动",
+  "literalMeaningCn": "吼声掀起来",
+  "metaphorMeaningCn": "喧嚣、骚动",
+  "metaphorOptions": [
+   "喧嚣、骚动",
+   "鸦雀无声",
+   "一片死寂"
+  ],
+  "mnemonicNote": "up(向上)+roar(吼)：吼声一下子掀起来",
+  "sourceNote": "荷兰语 oproer，op(向上) + roeren(搅动)"
  },
  "utilization": {
-  "modernMeaningCn": "利用医利用",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "利用、使用",
+  "literalMeaningCn": "把它派上用场",
+  "metaphorMeaningCn": "利用、使用",
+  "metaphorOptions": [
+   "利用、使用",
+   "闲置",
+   "束之高阁"
+  ],
+  "mnemonicNote": "utiliz(派用场)+ation：把这东西派上用场",
+  "sourceNote": "法语 utiliser，拉丁 uti(使用)"
  },
  "validity": {
   "modernMeaningCn": "有效性",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "站得住的那个性质",
+  "metaphorMeaningCn": "有效性、合法性",
+  "metaphorOptions": [
+   "有效性、合法性",
+   "形同虚设",
+   "一纸空文"
+  ],
+  "mnemonicNote": "valid(站得住)+ity：立得住那个性质",
+  "sourceNote": "拉丁 validitas，validus(强壮、有效)"
  },
  "vengeance": {
   "modernMeaningCn": "复仇",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "讨回那一刀",
+  "metaphorMeaningCn": "报复、复仇",
+  "metaphorOptions": [
+   "报复、复仇",
+   "宽恕",
+   "一笑泯恩仇"
+  ],
+  "mnemonicNote": "venge(讨回)+ance：把这笔账讨回来",
+  "sourceNote": "古法语 vengeance，vengier(报仇)"
  },
  "verbal": {
-  "modernMeaningCn": "用言辞的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "口头的、言辞的",
+  "literalMeaningCn": "落在字词上的",
+  "metaphorMeaningCn": "口头的、言辞的",
+  "metaphorOptions": [
+   "口头的、言辞的",
+   "书面的",
+   "白纸黑字"
+  ],
+  "mnemonicNote": "verb(词)+al：落在字词上那一路",
+  "sourceNote": "拉丁 verbalis，verbum(词)"
  },
  "vicinity": {
   "modernMeaningCn": "附近",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "挨着的那一圈",
+  "metaphorMeaningCn": "附近、邻近",
+  "metaphorOptions": [
+   "附近、邻近",
+   "远方",
+   "千里之外"
+  ],
+  "mnemonicNote": "vicin(邻近)+ity：挨着的那一圈地方",
+  "sourceNote": "拉丁 vicinitas，vicinus(邻居)"
  },
  "violation": {
   "modernMeaningCn": "违反",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "越界这件事",
+  "metaphorMeaningCn": "违反、侵犯",
+  "metaphorOptions": [
+   "违反、侵犯",
+   "恪守",
+   "秋毫无犯"
+  ],
+  "mnemonicNote": "violat(越界)+ion：一脚踩过界这件事",
+  "sourceNote": "拉丁 violatio，violare(施暴、破坏)"
  },
  "violently": {
   "modernMeaningCn": "猛烈地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "带着冲劲地",
+  "metaphorMeaningCn": "猛烈地、激烈地",
+  "metaphorOptions": [
+   "猛烈地、激烈地",
+   "和缓地",
+   "润物无声地"
+  ],
+  "mnemonicNote": "violent(暴烈)+ly：带着一股冲劲",
+  "sourceNote": "拉丁 violentus，vis(力量) + -ly"
  },
  "visualize": {
-  "modernMeaningCn": "使看得见",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "想象、使形象化",
+  "literalMeaningCn": "在眼前画出图",
+  "metaphorMeaningCn": "想象、使形象化",
+  "metaphorOptions": [
+   "想象、使形象化",
+   "视而不见",
+   "一片空白"
+  ],
+  "mnemonicNote": "visual(视觉)+ize(使)：在眼前画出图来",
+  "sourceNote": "拉丁 visualis，videre(看) + -ize"
  },
  "vividly": {
-  "modernMeaningCn": "鲜艳",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "生动地、鲜明地",
+  "literalMeaningCn": "像在眼前一样",
+  "metaphorMeaningCn": "生动地、鲜明地",
+  "metaphorOptions": [
+   "生动地、鲜明地",
+   "模糊地",
+   "影影绰绰地"
+  ],
+  "mnemonicNote": "vivid(鲜明)+ly：像正摆在眼前那么清楚",
+  "sourceNote": "拉丁 vividus，vivere(活) + -ly"
  },
  "vocational": {
-  "modernMeaningCn": "职业的法职业上的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "职业的、职业培训的",
+  "literalMeaningCn": "跟本行有关的",
+  "metaphorMeaningCn": "职业的、职业培训的",
+  "metaphorOptions": [
+   "职业的、职业培训的",
+   "业余的",
+   "娱乐性的"
+  ],
+  "mnemonicNote": "vocation(本行)+al：跟本行手艺有关的",
+  "sourceNote": "拉丁 vocatio(召唤、天职) + -al"
  },
  "vowel": {
-  "modernMeaningCn": "元音元音的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "元音",
+  "literalMeaningCn": "张口就出的那个音",
+  "metaphorMeaningCn": "元音",
+  "metaphorOptions": [
+   "元音",
+   "辅音",
+   "声调"
+  ],
+  "mnemonicNote": "vow(出声)+el：不用挡就出来的那个音",
+  "sourceNote": "拉丁 vocalis(发声的)，vox(声音)"
  },
  "wardrobe": {
   "modernMeaningCn": "衣橱",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "挂袍子那件柜",
+  "metaphorMeaningCn": "衣柜、全部行头",
+  "metaphorOptions": [
+   "衣柜、全部行头",
+   "鞋架",
+   "储物箱"
+  ],
+  "mnemonicNote": "ward(看守)+robe(袍)：挂长袍那件高柜",
+  "sourceNote": "古北法语 warderobe，warder(看守) + robe(袍)"
  },
  "warfare": {
   "modernMeaningCn": "战争",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "动刀兵那套做法",
+  "metaphorMeaningCn": "战争、作战",
+  "metaphorOptions": [
+   "战争、作战",
+   "议和",
+   "太平无事"
+  ],
+  "mnemonicNote": "war(打)+fare(行事)：动刀兵那一套做法",
+  "sourceNote": "中古英语 werre(战乱) + fare(行事)"
  },
  "warrant": {
-  "modernMeaningCn": "授权",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "授权令、使有正当理由",
+  "literalMeaningCn": "给了个凭据",
+  "metaphorMeaningCn": "授权令、使有正当理由",
+  "metaphorOptions": [
+   "授权令、使有正当理由",
+   "空口无凭",
+   "一面之词"
+  ],
+  "mnemonicNote": "war(保证)+rant：把凭据交到你手上",
+  "sourceNote": "古北法语 warant(担保、凭据)"
  },
  "wasteful": {
   "modernMeaningCn": "浪费的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "糟蹋东西的",
+  "metaphorMeaningCn": "浪费的、挥霍的",
+  "metaphorOptions": [
+   "浪费的、挥霍的",
+   "俭省的",
+   "精打细算的"
+  ],
+  "mnemonicNote": "waste(糟蹋)+ful：好好的东西随手糟蹋",
+  "sourceNote": "古北法语 wast(荒废) + -ful"
  },
  "watchful": {
-  "modernMeaningCn": "注意的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "警惕的、注意的",
+  "literalMeaningCn": "眼睛不挪开的",
+  "metaphorMeaningCn": "警惕的、注意的",
+  "metaphorOptions": [
+   "警惕的、注意的",
+   "麻痹大意",
+   "高枕无忧"
+  ],
+  "mnemonicNote": "watch(注视)+ful：眼睛一直不挪开",
+  "sourceNote": "古英语 wæccan(守夜) + -ful"
  },
  "watertight": {
   "modernMeaningCn": "不透水的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "连水都漏不进",
+  "metaphorMeaningCn": "不透水的、无懈可击的",
+  "metaphorOptions": [
+   "不透水的、无懈可击的",
+   "漏洞百出的",
+   "四处透风"
+  ],
+  "mnemonicNote": "water(水)+tight(紧)：连水都渗不进来",
+  "sourceNote": "英语复合词，water + tight"
  },
  "whisker": {
-  "modernMeaningCn": "腮须",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "胡须、络腮胡",
+  "literalMeaningCn": "像小扫帚那几根",
+  "metaphorMeaningCn": "胡须、络腮胡",
+  "metaphorOptions": [
+   "胡须、络腮胡",
+   "眉毛",
+   "睫毛"
+  ],
+  "mnemonicNote": "whisk(扫)+er(物)：像小扫帚那几根",
+  "sourceNote": "中古英语 whisk(扫、挥) + -er"
  },
  "wholesome": {
   "modernMeaningCn": "有益健康的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "对整个人都好的",
+  "metaphorMeaningCn": "有益健康的、健全的",
+  "metaphorOptions": [
+   "有益健康的、健全的",
+   "有害身心的",
+   "伤身的"
+  ],
+  "mnemonicNote": "whole(整个)+some：对整个人都有好处",
+  "sourceNote": "古英语 hal(健全) + -some(引起)"
  },
  "wilful": {
   "modernMeaningCn": "任性的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "由着自己性子",
+  "metaphorMeaningCn": "任性的、故意的",
+  "metaphorOptions": [
+   "任性的、故意的",
+   "循规蹈矩的",
+   "逆来顺受的"
+  ],
+  "mnemonicNote": "wil(意愿)+ful：由着自己性子来",
+  "sourceNote": "古英语 wil(意愿) + -ful"
  },
  "winding": {
-  "modernMeaningCn": "绕",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "蜿蜒的、缠绕的",
+  "literalMeaningCn": "盘来盘去",
+  "metaphorMeaningCn": "蜿蜒的、缠绕的",
+  "metaphorOptions": [
+   "蜿蜒的、缠绕的",
+   "笔直的",
+   "一马平川"
+  ],
+  "mnemonicNote": "wind(绕)+ing：盘来盘去绕了好几道弯",
+  "sourceNote": "古英语 windan(缠绕) + -ing"
  },
  "windmill": {
   "modernMeaningCn": "风车",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "借风转的磨坊",
+  "metaphorMeaningCn": "风车、风磨",
+  "metaphorOptions": [
+   "风车、风磨",
+   "水车",
+   "水井"
+  ],
+  "mnemonicNote": "wind(风)+mill(磨坊)：借风转起来那座磨坊",
+  "sourceNote": "中古英语 windmylne，wind + mylne(磨坊)"
  },
  "withhold": {
-  "modernMeaningCn": "使停止",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "抑制、拒给",
+  "literalMeaningCn": "握着不给",
+  "metaphorMeaningCn": "抑制、拒给",
+  "metaphorOptions": [
+   "抑制、拒给",
+   "如数交出",
+   "倾囊相授"
+  ],
+  "mnemonicNote": "with(往回)+hold(持)：握着往回缩不给",
+  "sourceNote": "中古英语 withholden，with-(往回) + holden(持)"
  },
  "woodpecker": {
   "modernMeaningCn": "啄木鸟",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "专啄木头那位",
+  "metaphorMeaningCn": "啄木鸟",
+  "metaphorOptions": [
+   "啄木鸟",
+   "麻雀",
+   "喜鹊"
+  ],
+  "mnemonicNote": "wood(木)+pecker(啄者)：专啄树干那位",
+  "sourceNote": "英语复合词，wood + pecker(啄者)"
  },
  "wretched": {
   "modernMeaningCn": "可怜的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "苦到没边",
+  "metaphorMeaningCn": "可怜的、糟糕的",
+  "metaphorOptions": [
+   "可怜的、糟糕的",
+   "舒坦的",
+   "风光体面的"
+  ],
+  "mnemonicNote": "wretch(苦命人)+ed：日子苦得没边",
+  "sourceNote": "古英语 wrecca(流亡者) + -ed"
  },
  "yielding": {
-  "modernMeaningCn": "生产的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "顺从的、出产的",
+  "literalMeaningCn": "一压就让",
+  "metaphorMeaningCn": "顺从的、出产的",
+  "metaphorOptions": [
+   "顺从的、出产的",
+   "寸步不让",
+   "硬顶到底"
+  ],
+  "mnemonicNote": "yield(让)+ing：一压就往下让",
+  "sourceNote": "古英语 gieldan(付、让) + -ing"
  }
 }
