@@ -660,18 +660,6 @@
   "mnemonicNote": "dis(去掉)+cover(盖子)：把盖着的东西露出来",
   "sourceNote": "古法语 descovrir，des-(去掉) + covrir(盖)"
  },
- "dismiss": {
-  "modernMeaningCn": "解散",
-  "literalMeaningCn": "送走",
-  "metaphorMeaningCn": "解散、开除",
-  "metaphorOptions": [
-   "解散、开除",
-   "宾夕法尼亚雷丁海的一角",
-   "性质的味道"
-  ],
-  "mnemonicNote": "dis(离开)+miss(送)：把人都送出门去",
-  "sourceNote": "拉丁 dimittere，dis-(离开) + mittere(送)"
- },
  "drawer": {
   "modernMeaningCn": "抽屉",
   "literalMeaningCn": "能被拉的东西",

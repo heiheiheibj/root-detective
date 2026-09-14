@@ -13,6 +13,7 @@
 import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
+import { FALLBACK_MEANINGS, hasHanzi } from '../lib/morpheme-fallback.mjs'
 
 const here = dirname(fileURLToPath(import.meta.url))
 const libDir = join(here, '..', 'lib')
@@ -99,6 +100,13 @@ for (const batch of batches) {
     morphemeMap.set(m.id, m)
     extraMorphemes.push(m)
   }
+}
+
+// 兜底义项：A20 要求 meaningCn 是 1–8 汉字。词素来自三处（stage1 的 extraMorphemes、
+// 各批 morphemes-roots、各批 morphemes-affixes），任何一处都可能带进没义项的词根或前后缀
+// （where/be/for/im/sist/tend…）。在这里统一兜一次，比在每个生成器里各补一遍可靠。
+for (const m of extraMorphemes) {
+  if (!hasHanzi(m.meaningCn) && FALLBACK_MEANINGS[m.id]) m.meaningCn = FALLBACK_MEANINGS[m.id]
 }
 
 // ── 完整性自检：每个家族词都有 split；split 引用的词素都已建模 ──────────────

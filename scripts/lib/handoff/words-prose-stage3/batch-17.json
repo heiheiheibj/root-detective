@@ -4,7 +4,11 @@
   "modernMeaningCn": "大陆",
   "literalMeaningCn": "主要的陆地",
   "metaphorMeaningCn": "大陆、本土",
-  "metaphorOptions": ["大陆、本土", "孤岛", "半岛一角"],
+  "metaphorOptions": [
+   "大陆、本土",
+   "星期二的背面",
+   "离旁边很远"
+  ],
   "mnemonicNote": "main(主要)+land(陆地)：隔海望过去那一大片连着的地",
   "sourceNote": "英语复合词，main(主要的) + land"
  },
@@ -12,7 +16,11 @@
   "modernMeaningCn": "多数",
   "literalMeaningCn": "较大的那部分",
   "metaphorMeaningCn": "多数、大多数",
-  "metaphorOptions": ["多数、大多数", "极少数", "零星几个"],
+  "metaphorOptions": [
+   "多数、大多数",
+   "把向下翻开",
+   "把场所串起来"
+  ],
   "mnemonicNote": "major(较大)+ity：一票票数下来占了上风那边",
   "sourceNote": "中世纪拉丁 majoritas，major(较大的)"
  },
@@ -20,7 +28,11 @@
   "modernMeaningCn": "婚姻",
   "literalMeaningCn": "结成夫妻之事",
   "metaphorMeaningCn": "婚姻、婚礼",
-  "metaphorOptions": ["婚姻、婚礼", "独身", "离异"],
+  "metaphorOptions": [
+   "婚姻、婚礼",
+   "使用的人",
+   "一种医棱底向内的习俗"
+  ],
   "mnemonicNote": "marri(成婚)+age：两家人摆酒认下的那层关系",
   "sourceNote": "古法语 mariage，marier(结婚)"
  },
@@ -28,7 +40,11 @@
   "modernMeaningCn": "已婚的",
   "literalMeaningCn": "成了家的",
   "metaphorMeaningCn": "已婚的、婚姻的",
-  "metaphorOptions": ["已婚的、婚姻的", "未婚的", "独身的"],
+  "metaphorOptions": [
+   "已婚的、婚姻的",
+   "一种在这以前的的习俗",
+   "产生的一角"
+  ],
   "mnemonicNote": "marri(成婚)+ed：户口本上那一栏已经填了",
   "sourceNote": "古法语 marier(结婚) + -ed"
  },
@@ -36,7 +52,11 @@
   "modernMeaningCn": "数学",
   "literalMeaningCn": "求知的学问",
   "metaphorMeaningCn": "数学",
-  "metaphorOptions": ["数学", "语文", "历史"],
+  "metaphorOptions": [
+   "数学",
+   "集合的另一面",
+   "刷子的味道"
+  ],
   "mnemonicNote": "mathematic(学问的)+s：古希腊人眼里最该学的那几门",
   "sourceNote": "希腊 mathematike，mathema(学问)"
  },
@@ -44,7 +64,11 @@
   "modernMeaningCn": "也许",
   "literalMeaningCn": "可能是",
   "metaphorMeaningCn": "也许、大概",
-  "metaphorOptions": ["也许、大概", "绝无可能", "板上钉钉"],
+  "metaphorOptions": [
+   "也许、大概",
+   "向外的一角",
+   "保持的另一面"
+  ],
   "mnemonicNote": "may(可能)+be(是)：话留了半句，没把死",
   "sourceNote": "中古英语 it may be(它可能是) 的缩合"
  },
@@ -52,7 +76,11 @@
   "modernMeaningCn": "同时",
   "literalMeaningCn": "在中间那段时间",
   "metaphorMeaningCn": "同时、与此同时",
-  "metaphorOptions": ["同时、与此同时", "事后", "事前"],
+  "metaphorOptions": [
+   "同时、与此同时",
+   "一种单一的习俗",
+   "房间的一角"
+  ],
   "mnemonicNote": "mean(中间)+while(时段)：这边忙着的当口，那边也动起来了",
   "sourceNote": "中古英语 mean(中间的) + while(时间)"
  },
@@ -60,7 +88,11 @@
   "modernMeaningCn": "会议",
   "literalMeaningCn": "见面的场合",
   "metaphorMeaningCn": "会议、集会",
-  "metaphorOptions": ["会议、集会", "散场", "独处"],
+  "metaphorOptions": [
+   "会议、集会",
+   "把南方翻开",
+   "把带来串起来"
+  ],
   "mnemonicNote": "meet(碰头)+ing：一屋子人围着长桌坐下那件事",
   "sourceNote": "古英语 metan(相遇) + -ing"
  },
@@ -68,7 +100,11 @@
   "modernMeaningCn": "纪念碑",
   "literalMeaningCn": "用来记着的东西",
   "metaphorMeaningCn": "纪念碑、纪念的",
-  "metaphorOptions": ["纪念碑、纪念的", "遗忘之物", "临时标记"],
+  "metaphorOptions": [
+   "纪念碑、纪念的",
+   "时代的背面",
+   "状态的旧事"
+  ],
   "mnemonicNote": "memor(记忆)+ial：立在那儿提醒后人别忘",
   "sourceNote": "拉丁 memorialis，memoria(记忆)"
  },
@@ -76,7 +112,11 @@
   "modernMeaningCn": "精神上",
   "literalMeaningCn": "在心里方面",
   "metaphorMeaningCn": "精神上、脑力上",
-  "metaphorOptions": ["精神上、脑力上", "体格上", "外表上"],
+  "metaphorOptions": [
+   "精神上、脑力上",
+   "一种孩子的习俗",
+   "服务的一角"
+  ],
   "mnemonicNote": "mental(心智的)+ly：不在身上，全在脑子里那部分",
   "sourceNote": "拉丁 mentalis，mens(心智)"
  },
@@ -84,7 +124,11 @@
   "modernMeaningCn": "仁慈的",
   "literalMeaningCn": "满心怜悯的",
   "metaphorMeaningCn": "仁慈的、宽大的",
-  "metaphorOptions": ["仁慈的、宽大的", "残忍的", "铁石心肠的"],
+  "metaphorOptions": [
+   "仁慈的、宽大的",
+   "太阳的影子",
+   "把休息翻开"
+  ],
   "mnemonicNote": "merci(怜悯)+ful：手里握着罚人的权却抬了手",
   "sourceNote": "古法语 merci(怜悯)，拉丁 merces(报酬、恩惠)"
  },
@@ -92,7 +136,11 @@
   "modernMeaningCn": "消息",
   "literalMeaningCn": "送出去的话",
   "metaphorMeaningCn": "消息、信息",
-  "metaphorOptions": ["消息、信息", "沉默", "封锁"],
+  "metaphorOptions": [
+   "消息、信息",
+   "预先的味道",
+   "动作的另一面"
+  ],
   "mnemonicNote": "mess(送出)+age：托人捎到你手上的那几句",
   "sourceNote": "古法语 message，拉丁 mittere(送)"
  },
@@ -100,7 +148,11 @@
   "modernMeaningCn": "微型计算机",
   "literalMeaningCn": "小巧的计算器",
   "metaphorMeaningCn": "微型计算机、微机",
-  "metaphorOptions": ["微型计算机、微机", "巨型主机", "算盘"],
+  "metaphorOptions": [
+   "微型计算机、微机",
+   "学说的另一面",
+   "守着都市过活"
+  ],
   "mnemonicNote": "micro(微小)+computer(计算机)：整台机器缩到一张桌上",
   "sourceNote": "希腊 mikros(微小) + 拉丁 computare(计算)"
  },
@@ -108,7 +160,11 @@
   "modernMeaningCn": "正午",
   "literalMeaningCn": "白天的正当中",
   "metaphorMeaningCn": "正午、中午",
-  "metaphorOptions": ["正午、中午", "黎明", "黄昏"],
+  "metaphorOptions": [
+   "正午、中午",
+   "守着形成过活",
+   "测量的另一面"
+  ],
   "mnemonicNote": "mid(中间)+day(白天)：太阳升到头顶那一会儿",
   "sourceNote": "古英语 middæg，mid(中间) + dæg(日)"
  },
@@ -116,7 +172,11 @@
   "modernMeaningCn": "午夜",
   "literalMeaningCn": "黑夜的正当中",
   "metaphorMeaningCn": "午夜、半夜",
-  "metaphorOptions": ["午夜、半夜", "清晨", "傍晚"],
+  "metaphorOptions": [
+   "午夜、半夜",
+   "替百分之一操心",
+   "离星期很远"
+  ],
   "mnemonicNote": "mid(中间)+night(夜)：钟敲十二下那一刻",
   "sourceNote": "古英语 midniht，mid(中间) + niht(夜)"
  },
@@ -124,7 +184,11 @@
   "modernMeaningCn": "百万",
   "literalMeaningCn": "一千个一千",
   "metaphorMeaningCn": "百万、无数",
-  "metaphorOptions": ["百万、无数", "一千", "十来个"],
+  "metaphorOptions": [
+   "百万、无数",
+   "数着文字过日子",
+   "西方的工具"
+  ],
   "mnemonicNote": "milli(千)+on(大)：一千再乘一千那个数",
   "sourceNote": "意大利 milione，mille(千) 的增义形式"
  },
@@ -132,7 +196,11 @@
   "modernMeaningCn": "百万富翁",
   "literalMeaningCn": "有百万家财的人",
   "metaphorMeaningCn": "百万富翁",
-  "metaphorOptions": ["百万富翁", "穷光蛋", "负债者"],
+  "metaphorOptions": [
+   "百万富翁",
+   "制造的来路",
+   "母亲的旧事"
+  ],
   "mnemonicNote": "million(百万)+aire(人)：数到手抽筋那位",
   "sourceNote": "法语 millionnaire，million(百万)"
  },
@@ -140,7 +208,11 @@
   "modernMeaningCn": "中巴",
   "literalMeaningCn": "小一号的客车",
   "metaphorMeaningCn": "中巴、面包车",
-  "metaphorOptions": ["中巴、面包车", "大卡车", "轿车"],
+  "metaphorOptions": [
+   "中巴、面包车",
+   "病状的另一面",
+   "经星期四的一角"
+  ],
   "mnemonicNote": "mini(小)+bus(车)：十几个座位、跑短途那种",
   "sourceNote": "拉丁 minimus(最小) + omnibus(公共车辆)"
  },
@@ -148,7 +220,11 @@
   "modernMeaningCn": "最小值",
   "literalMeaningCn": "最小的那个数",
   "metaphorMeaningCn": "最小值、最低限度",
-  "metaphorOptions": ["最小值、最低限度", "最大值", "平均数"],
+  "metaphorOptions": [
+   "最小值、最低限度",
+   "被世界的东西",
+   "触碰的背面"
+  ],
   "mnemonicNote": "minim(最小)+um：一排数里最矮那个",
   "sourceNote": "拉丁 minimus(最小的)"
  },
@@ -156,7 +232,11 @@
   "modernMeaningCn": "少数",
   "literalMeaningCn": "较少的那部分",
   "metaphorMeaningCn": "少数、少数民族",
-  "metaphorOptions": ["少数、少数民族", "绝大多数", "全体一致"],
+  "metaphorOptions": [
+   "少数、少数民族",
+   "灰烬的地方",
+   "守着彻底过活"
+  ],
   "mnemonicNote": "minor(较小)+ity：表决时举手的只有寥寥几个",
   "sourceNote": "中世纪拉丁 minoritas，minor(较小的)"
  },
@@ -164,7 +244,11 @@
   "modernMeaningCn": "导弹",
   "literalMeaningCn": "被投出去的东西",
   "metaphorMeaningCn": "导弹、发射物",
-  "metaphorOptions": ["导弹、发射物", "盾牌", "靶子"],
+  "metaphorOptions": [
+   "导弹、发射物",
+   "被拿取的东西",
+   "称量的背面"
+  ],
   "mnemonicNote": "miss(送)+ile(物)：一点火就朝目标飞出去",
   "sourceNote": "拉丁 missilis，mittere(送、投)"
  },
@@ -172,7 +256,11 @@
   "modernMeaningCn": "误解",
   "literalMeaningCn": "理解错了",
   "metaphorMeaningCn": "误解、误会",
-  "metaphorOptions": ["误解、误会", "心领神会", "一听就懂"],
+  "metaphorOptions": [
+   "误解、误会",
+   "每一的味道",
+   "把希腊词尾串起来"
+  ],
   "mnemonicNote": "mis(错)+understand(领会)：话听岔了，意思全拧",
   "sourceNote": "mis-(错) + 古英语 understandan(领会)"
  },
@@ -180,7 +268,11 @@
   "modernMeaningCn": "猴子",
   "literalMeaningCn": "树上那类小兽",
   "metaphorMeaningCn": "猴子、顽童",
-  "metaphorOptions": ["猴子、顽童", "老虎", "大象"],
+  "metaphorOptions": [
+   "猴子、顽童",
+   "被神圣的东西",
+   "公民的味道"
+  ],
   "mnemonicNote": "monk(猴)+ey：一天到晚在树上荡来荡去那位",
   "sourceNote": "中古低地德语 Moneke，猿猴故事里的名字"
  },
@@ -188,7 +280,11 @@
   "modernMeaningCn": "早晨",
   "literalMeaningCn": "天刚亮的时候",
   "metaphorMeaningCn": "早晨、上午",
-  "metaphorOptions": ["早晨、上午", "傍晚", "深夜"],
+  "metaphorOptions": [
+   "早晨、上午",
+   "一种平行的习俗",
+   "预先的一角"
+  ],
   "mnemonicNote": "morn(晨)+ing：鸡叫头遍、露水还没干那阵",
   "sourceNote": "中古英语 morwen(晨) + -ing"
  },
@@ -196,7 +292,11 @@
   "modernMeaningCn": "母亲",
   "literalMeaningCn": "生养的人",
   "metaphorMeaningCn": "母亲、妈妈",
-  "metaphorOptions": ["母亲、妈妈", "父亲", "陌生人"],
+  "metaphorOptions": [
+   "母亲、妈妈",
+   "宾夕法尼亚雷丁海的人",
+   "灌注的影子"
+  ],
   "mnemonicNote": "moth(母)+er(人)：怀里抱着你长大那位",
   "sourceNote": "古英语 modor，与拉丁 mater 同源"
  },
@@ -204,7 +304,11 @@
   "modernMeaningCn": "祖国",
   "literalMeaningCn": "像母亲的土地",
   "metaphorMeaningCn": "祖国、母国",
-  "metaphorOptions": ["祖国、母国", "异国", "殖民地"],
+  "metaphorOptions": [
+   "祖国、母国",
+   "站立的过程",
+   "转弯的背面"
+  ],
   "mnemonicNote": "mother(母亲)+land(土地)：生你养你的那片土",
   "sourceNote": "英语复合词，mother + land，仿德语 Vaterland"
  },
@@ -212,7 +316,11 @@
   "modernMeaningCn": "摩托车",
   "literalMeaningCn": "带引擎的两轮车",
   "metaphorMeaningCn": "摩托车",
-  "metaphorOptions": ["摩托车", "自行车", "三轮车"],
+  "metaphorOptions": [
+   "摩托车",
+   "寻求的小站",
+   "守着母亲过活"
+  ],
   "mnemonicNote": "motor(发动机)+bike(单车)：脚下蹬子换成了油门",
   "sourceNote": "拉丁 motor(推动者) + bicycle(双轮车)"
  },
@@ -220,7 +328,11 @@
   "modernMeaningCn": "多山的",
   "literalMeaningCn": "满是山的",
   "metaphorMeaningCn": "多山的、山地的",
-  "metaphorOptions": ["多山的、山地的", "一马平川的", "沼泽遍地的"],
+  "metaphorOptions": [
+   "多山的、山地的",
+   "围着星期转",
+   "数着使成为过日子"
+  ],
   "mnemonicNote": "mountain(山)+ous：抬眼四望全是坡和脊",
   "sourceNote": "古法语 montaigne(山) + -ous"
  },
@@ -228,7 +340,11 @@
   "modernMeaningCn": "一口",
   "literalMeaningCn": "塞满一嘴的量",
   "metaphorMeaningCn": "一口、少量",
-  "metaphorOptions": ["一口、少量", "整桌菜", "成堆食物"],
+  "metaphorOptions": [
+   "一口、少量",
+   "预先的地方",
+   "贯穿的小站"
+  ],
   "mnemonicNote": "mouth(嘴)+ful(满)：腮帮子鼓起来那么大",
   "sourceNote": "古英语 muþ(嘴) + -ful(充满)"
  },
@@ -236,7 +352,11 @@
   "modernMeaningCn": "运动",
   "literalMeaningCn": "移动的行为",
   "metaphorMeaningCn": "运动、动作",
-  "metaphorOptions": ["运动、动作", "静止", "凝固"],
+  "metaphorOptions": [
+   "运动、动作",
+   "被视觉的东西",
+   "拿取的味道"
+  ],
   "mnemonicNote": "move(移动)+ment：身体或一群人动起来那件事",
   "sourceNote": "古法语 movement，movoir(移动)"
  },
@@ -244,7 +364,11 @@
   "modernMeaningCn": "乘",
   "literalMeaningCn": "使变成多倍",
   "metaphorMeaningCn": "乘、繁殖",
-  "metaphorOptions": ["乘、繁殖", "相减", "除尽"],
+  "metaphorOptions": [
+   "乘、繁殖",
+   "替法律操心",
+   "离横穿很远"
+  ],
   "mnemonicNote": "multipl(多倍)+y：一个数照着另一个数翻上去",
   "sourceNote": "拉丁 multiplicare，multiplex(多重的)"
  },
@@ -252,7 +376,11 @@
   "modernMeaningCn": "音乐",
   "literalMeaningCn": "缪斯的艺术",
   "metaphorMeaningCn": "音乐、乐曲",
-  "metaphorOptions": ["音乐、乐曲", "噪音", "静默"],
+  "metaphorOptions": [
+   "音乐、乐曲",
+   "替坚硬的操心",
+   "守着居住过活"
+  ],
   "mnemonicNote": "mus(缪斯)+ic：古希腊掌管文艺那几位女神的手艺",
   "sourceNote": "希腊 mousike，Mousa(缪斯)"
  },
@@ -260,7 +388,11 @@
   "modernMeaningCn": "音乐的",
   "literalMeaningCn": "与乐曲有关",
   "metaphorMeaningCn": "音乐的、音乐剧",
-  "metaphorOptions": ["音乐的、音乐剧", "杂技", "哑剧"],
+  "metaphorOptions": [
+   "音乐的、音乐剧",
+   "离强壮很远",
+   "征服的过程"
+  ],
   "mnemonicNote": "music(乐曲)+al：能唱的、能奏的那一类",
   "sourceNote": "中世纪拉丁 musicalis，musica(音乐)"
  },
@@ -268,7 +400,11 @@
   "modernMeaningCn": "音乐家",
   "literalMeaningCn": "弄音乐的人",
   "metaphorMeaningCn": "音乐家、乐师",
-  "metaphorOptions": ["音乐家、乐师", "听众", "票友"],
+  "metaphorOptions": [
+   "音乐家、乐师",
+   "向着公民去",
+   "相信的过程"
+  ],
   "mnemonicNote": "music(乐曲)+ian(人)：手指一落就能成调那位",
   "sourceNote": "古法语 musicien，musique(音乐)"
  },
@@ -276,7 +412,11 @@
   "modernMeaningCn": "我自己",
   "literalMeaningCn": "我本人",
   "metaphorMeaningCn": "我自己、我本人",
-  "metaphorOptions": ["我自己、我本人", "别人", "大家"],
+  "metaphorOptions": [
+   "我自己、我本人",
+   "替自然操心",
+   "离状态很远"
+  ],
   "mnemonicNote": "my(我)+self(自身)：没假手旁人，就是本人",
   "sourceNote": "古英语 min self，my + self"
  },
@@ -284,7 +424,11 @@
   "modernMeaningCn": "国家的",
   "literalMeaningCn": "属于国家的",
   "metaphorMeaningCn": "国家的、全国的",
-  "metaphorOptions": ["国家的、全国的", "地方性的", "个人的"],
+  "metaphorOptions": [
+   "国家的、全国的",
+   "自己的人",
+   "一种视野的习俗"
+  ],
   "mnemonicNote": "nation(邦国)+al：盖着国徽那一路的事",
   "sourceNote": "法语 national，拉丁 natio(民族)"
  },
@@ -292,7 +436,11 @@
   "modernMeaningCn": "国籍",
   "literalMeaningCn": "所属的国别",
   "metaphorMeaningCn": "国籍、民族",
-  "metaphorOptions": ["国籍、民族", "户籍地", "居住地"],
+  "metaphorOptions": [
+   "国籍、民族",
+   "替向后操心",
+   "守着下面过活"
+  ],
   "mnemonicNote": "national(国家的)+ity：护照上印着的那一栏",
   "sourceNote": "法语 nationalité，natio(民族)"
  },
@@ -300,7 +448,11 @@
   "modernMeaningCn": "全国性的",
   "literalMeaningCn": "遍及全国的",
   "metaphorMeaningCn": "全国性的、举国的",
-  "metaphorOptions": ["全国性的、举国的", "仅限一隅", "地方性的"],
+  "metaphorOptions": [
+   "全国性的、举国的",
+   "替位置操心",
+   "离制造很远"
+  ],
   "mnemonicNote": "nation(国家)+wide(遍及)：从南到北一条规矩",
   "sourceNote": "英语复合词，nation + wide"
  },
@@ -308,7 +460,11 @@
   "modernMeaningCn": "自然的",
   "literalMeaningCn": "天生的样子",
   "metaphorMeaningCn": "自然的、天然的",
-  "metaphorOptions": ["自然的、天然的", "人造的", "做作的"],
+  "metaphorOptions": [
+   "自然的、天然的",
+   "集合的另一面",
+   "被同意的东西"
+  ],
   "mnemonicNote": "natur(本性)+al：没经人手、随它长成的",
   "sourceNote": "拉丁 naturalis，natura(本性)"
  },
@@ -316,7 +472,11 @@
   "modernMeaningCn": "附近的",
   "literalMeaningCn": "就在旁边",
   "metaphorMeaningCn": "附近的、近旁的",
-  "metaphorOptions": ["附近的、近旁的", "远隔千里", "遥不可及"],
+  "metaphorOptions": [
+   "附近的、近旁的",
+   "把刷子翻开",
+   "带来的影子"
+  ],
   "mnemonicNote": "near(近)+by(旁边)：抬脚走几步就到",
   "sourceNote": "中古英语 ner(近) + by(在旁边)"
  },
@@ -324,7 +484,11 @@
   "modernMeaningCn": "几乎",
   "literalMeaningCn": "已经很接近",
   "metaphorMeaningCn": "几乎、差不多",
-  "metaphorOptions": ["几乎、差不多", "差得远", "完全不是"],
+  "metaphorOptions": [
+   "几乎、差不多",
+   "经星期四的味道",
+   "南方的人"
+  ],
   "mnemonicNote": "near(近)+ly：手指头已经碰到那个数了",
   "sourceNote": "古英语 near(近) + -lice"
  },
@@ -332,7 +496,11 @@
   "modernMeaningCn": "项链",
   "literalMeaningCn": "脖子上那圈带",
   "metaphorMeaningCn": "项链、颈饰",
-  "metaphorOptions": ["项链、颈饰", "手镯", "戒指"],
+  "metaphorOptions": [
+   "项链、颈饰",
+   "优先权的旧事",
+   "形成的影子"
+  ],
   "mnemonicNote": "neck(颈)+lace(带子)：绕在脖子上那串",
   "sourceNote": "中古英语 nekke(颈) + las(带)"
  },
@@ -340,7 +508,11 @@
   "modernMeaningCn": "领带",
   "literalMeaningCn": "系在颈上的带",
   "metaphorMeaningCn": "领带、领结",
-  "metaphorOptions": ["领带、领结", "腰带", "围巾"],
+  "metaphorOptions": [
+   "领带、领结",
+   "中间的背面",
+   "被隔一代的东西"
+  ],
   "mnemonicNote": "neck(颈)+tie(系)：衬衫领口那道结",
   "sourceNote": "英语复合词，neck + tie"
  },
@@ -348,7 +520,11 @@
   "modernMeaningCn": "街区",
   "literalMeaningCn": "邻里一带",
   "metaphorMeaningCn": "街区、邻近地区",
-  "metaphorOptions": ["街区、邻近地区", "荒郊", "异国他乡"],
+  "metaphorOptions": [
+   "街区、邻近地区",
+   "感激的来路",
+   "低劣的的一角"
+  ],
   "mnemonicNote": "neighbour(邻居)+hood(范围)：几户人家共用的那一片",
   "sourceNote": "古英语 neahgebur(近邻) + -had(范围)"
  },
@@ -356,7 +532,11 @@
   "modernMeaningCn": "两者都不",
   "literalMeaningCn": "两个都不是",
   "metaphorMeaningCn": "两者都不、也不",
-  "metaphorOptions": ["两者都不、也不", "两个都", "二者之一"],
+  "metaphorOptions": [
+   "两者都不、也不",
+   "被预先的东西",
+   "南方的味道"
+  ],
   "mnemonicNote": "n(不)+either(任一)：摆出来两个，一个都不挑",
   "sourceNote": "古英语 na(不) + ægther(两者之一)"
  },
@@ -364,7 +544,11 @@
   "modernMeaningCn": "紧张的",
   "literalMeaningCn": "神经绷紧的",
   "metaphorMeaningCn": "紧张的、担忧的",
-  "metaphorOptions": ["紧张的、担忧的", "镇定自若的", "胸有成竹的"],
+  "metaphorOptions": [
+   "紧张的、担忧的",
+   "惊奇的一角",
+   "快速的的另一面"
+  ],
   "mnemonicNote": "nerv(神经)+ous：心口发紧、手心冒汗那种",
   "sourceNote": "拉丁 nervus(筋、神经)"
  },
@@ -372,7 +556,11 @@
   "modernMeaningCn": "网络",
   "literalMeaningCn": "交织成网的东西",
   "metaphorMeaningCn": "网络、关系网",
-  "metaphorOptions": ["网络、关系网", "孤立个体", "断开的线"],
+  "metaphorOptions": [
+   "网络、关系网",
+   "视野的背面",
+   "西方的旧事"
+  ],
   "mnemonicNote": "net(网)+work(结构)：一根根线互相搭起来",
   "sourceNote": "英语复合词，net + work"
  },
@@ -380,7 +568,11 @@
   "modernMeaningCn": "报纸",
   "literalMeaningCn": "印新闻的纸",
   "metaphorMeaningCn": "报纸、报刊",
-  "metaphorOptions": ["报纸、报刊", "杂志", "传单"],
+  "metaphorOptions": [
+   "报纸、报刊",
+   "刷子的过程",
+   "离底部很远"
+  ],
   "mnemonicNote": "news(消息)+paper(纸)：清早塞进门缝那一叠",
   "sourceNote": "英语复合词，17 世纪出现"
  },
@@ -388,7 +580,11 @@
   "modernMeaningCn": "十九",
   "literalMeaningCn": "九加上十",
   "metaphorMeaningCn": "十九、十九个",
-  "metaphorOptions": ["十九、十九个", "九十", "第九"],
+  "metaphorOptions": [
+   "十九、十九个",
+   "一种相反的习俗",
+   "形成的一角"
+  ],
   "mnemonicNote": "nine(九)+teen(十)：数满十个再添九个",
   "sourceNote": "古英语 nigontyne，nigon(九) + tyne(十)"
  },
@@ -396,7 +592,11 @@
   "modernMeaningCn": "九十",
   "literalMeaningCn": "九个十",
   "metaphorMeaningCn": "九十、九十个",
-  "metaphorOptions": ["九十、九十个", "十九", "第九十"],
+  "metaphorOptions": [
+   "九十、九十个",
+   "把病状串起来",
+   "弯曲的工具"
+  ],
   "mnemonicNote": "nine(九)+ty(十)：九捆十根扎到一起",
   "sourceNote": "古英语 nigontig，nigon(九) + tig(十)"
  },
@@ -404,7 +604,11 @@
   "modernMeaningCn": "吵闹地",
   "literalMeaningCn": "以喧闹的方式",
   "metaphorMeaningCn": "吵闹地、大声地",
-  "metaphorOptions": ["吵闹地、大声地", "悄无声息地", "安安静静地"],
+  "metaphorOptions": [
+   "吵闹地、大声地",
+   "南方的人",
+   "出生的一角"
+  ],
   "mnemonicNote": "noisi(喧哗)+ly：锅碗瓢盆碰得叮当响",
   "sourceNote": "古法语 noise(喧哗) + -ly"
  },
@@ -412,7 +616,11 @@
   "modernMeaningCn": "正常的",
   "literalMeaningCn": "合乎规矩的",
   "metaphorMeaningCn": "正常的、常态的",
-  "metaphorOptions": ["正常的、常态的", "反常的", "离奇的"],
+  "metaphorOptions": [
+   "正常的、常态的",
+   "守着携带过活",
+   "城市的小站"
+  ],
   "mnemonicNote": "norm(规矩)+al：拿尺子一量，不偏不倚",
   "sourceNote": "拉丁 normalis，norma(木匠的角尺)"
  },
@@ -420,7 +628,11 @@
   "modernMeaningCn": "东北",
   "literalMeaningCn": "北与东之间",
   "metaphorMeaningCn": "东北、东北部",
-  "metaphorOptions": ["东北、东北部", "西南", "正中"],
+  "metaphorOptions": [
+   "东北、东北部",
+   "数着优先权过日子",
+   "使成为的工具"
+  ],
   "mnemonicNote": "north(北)+east(东)：罗盘上夹在两者当中那一格",
   "sourceNote": "英语复合词，north + east"
  },
@@ -428,7 +640,11 @@
   "modernMeaningCn": "向北",
   "literalMeaningCn": "朝着北的方向",
   "metaphorMeaningCn": "向北、朝北",
-  "metaphorOptions": ["向北、朝北", "向南", "原地打转"],
+  "metaphorOptions": [
+   "向北、朝北",
+   "盖子的来路",
+   "拉丁名词词尾的地方"
+  ],
   "mnemonicNote": "north(北)+wards(朝…)：车头一直冲着北斗那边",
   "sourceNote": "古英语 north + -weard(朝向)"
  },
@@ -436,7 +652,11 @@
   "modernMeaningCn": "西北",
   "literalMeaningCn": "北与西之间",
   "metaphorMeaningCn": "西北、西北部",
-  "metaphorOptions": ["西北、西北部", "东南", "正中"],
+  "metaphorOptions": [
+   "西北、西北部",
+   "替同意操心",
+   "疼痛痛的味道"
+  ],
   "mnemonicNote": "north(北)+west(西)：罗盘上夹在两者当中那一格",
   "sourceNote": "英语复合词，north + west"
  },
@@ -444,7 +664,11 @@
   "modernMeaningCn": "小说家",
   "literalMeaningCn": "写小说的人",
   "metaphorMeaningCn": "小说家",
-  "metaphorOptions": ["小说家", "诗人", "评论家"],
+  "metaphorOptions": [
+   "小说家",
+   "围着刷子转",
+   "母亲的来路"
+  ],
   "mnemonicNote": "novel(小说)+ist(人)：一写就是几十万字那位",
   "sourceNote": "意大利 novella(故事) + -ist"
  },
@@ -452,7 +676,11 @@
   "modernMeaningCn": "如今",
   "literalMeaningCn": "这些日子里",
   "metaphorMeaningCn": "如今、现今",
-  "metaphorOptions": ["如今、现今", "古时候", "从前"],
+  "metaphorOptions": [
+   "如今、现今",
+   "形状的另一面",
+   "使用的味道"
+  ],
   "mnemonicNote": "now(当下)+adays(日子)：眼下这段光景",
   "sourceNote": "中古英语 now on dayes，now + day"
  },
@@ -460,7 +688,11 @@
   "modernMeaningCn": "无处",
   "literalMeaningCn": "哪里都不在",
   "metaphorMeaningCn": "无处、什么地方都不",
-  "metaphorOptions": ["无处、什么地方都不", "到处都有", "处处皆是"],
+  "metaphorOptions": [
+   "无处、什么地方都不",
+   "测量的背面",
+   "行走的另一面"
+  ],
   "mnemonicNote": "now(不)+here(这里)：翻遍地图也找不到那个点",
   "sourceNote": "古英语 na hwær，na(不) + hwær(何处)"
  },
@@ -468,7 +700,11 @@
   "modernMeaningCn": "数字",
   "literalMeaningCn": "用来数的记号",
   "metaphorMeaningCn": "数字、号码",
-  "metaphorOptions": ["数字、号码", "文字", "图画"],
+  "metaphorOptions": [
+   "数字、号码",
+   "被母亲的东西",
+   "文字的味道"
+  ],
   "mnemonicNote": "numb(数)+er：一个一个点过去留下的记号",
   "sourceNote": "拉丁 numerus(数)，经古法语 nombre"
  },
@@ -476,7 +712,11 @@
   "modernMeaningCn": "托儿所",
   "literalMeaningCn": "照看孩子的地方",
   "metaphorMeaningCn": "托儿所、苗圃",
-  "metaphorOptions": ["托儿所、苗圃", "养老院", "书房"],
+  "metaphorOptions": [
+   "托儿所、苗圃",
+   "保持的影子",
+   "选择的人"
+  ],
   "mnemonicNote": "nurse(照料)+ry(场所)：一排小床、一群娃娃那间屋",
   "sourceNote": "古法语 norricerie，norrir(养育)"
  }

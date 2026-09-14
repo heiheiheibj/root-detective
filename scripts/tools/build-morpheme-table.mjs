@@ -151,6 +151,22 @@ const FALLBACK_MEANINGS = {
   ball: '球', ing: '正在', less: '无、不', man: '人', mate: '伙伴',
   ly: '…地', th: '第…', son: '儿子', some: '有点…的', head: '头',
   work: '工作', motor: '发动机', ern: '…方向', ise: '使…化', end: '末端',
+  // 高考批新增（铺到 1,379 词后暴露的：功能词、常见前后缀、拉丁词根）
+  where: '何处', be: '是', for: '为了', out: '向外', col: '共同', di: '二',
+  down: '向下', by: '在旁边', self: '自身', home: '家', over: '在上', pur: '向前',
+  super: '超', sup: '在下', tran: '越过', up: '向上', with: '伴随', on: '在之上',
+  way: '路', ar: '朝向', side: '边', ple: '折叠', ling: '指小', ty: '十',
+  teen: '十', land: '土地', ward: '朝向', ship: '身份', gram: '写', ever: '无论',
+  ey: '指小', le: '小', selves: '自身', et: '指小', ible: '能…的', sist: '站立',
+  tend: '伸展', firm: '坚固', found: '奠基', host: '主人', late: '携带',
+  main: '主要', miss: '送', fall: '落下', text: '编织', ac: '朝向', anti: '反',
+  ap: '朝向', as: '朝向', ter: '三次', des: '除去', em: '进入', ex: '出',
+  il: '不', micro: '微小', mid: '中间', mini: '小', sus: '在下', ess: '女性',
+  ium: '元素', ize: '使…化', ical: '…的', ish: '…的', hood: '身份', woman: '女人',
+  ee: '被…者', ative: '…的', wards: '朝向', etic: '…的', dom: '领域', time: '时间',
+  wide: '广泛', off: '离开', wise: '方式', set: '放置', type: '字模',
+  craie: '白垩', technicus: '技艺的', ness: '状态', ry: '…的行为', ous: '…的',
+  ery: '场所', tic: '…的', ics: '学问', tion: '名词后缀',
 }
 
 const LANG_CN = { Latin: '拉丁语', Greek: '希腊语', English: '英语', French: '法语', 'Old English': '古英语', Germanic: '日耳曼语', Italian: '意大利语', Spanish: '西班牙语' }

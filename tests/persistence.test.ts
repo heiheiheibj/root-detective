@@ -13,8 +13,8 @@ describe('档案持久化', () => {
       version: 1,
       xp: -4.8,
       insightPoints: 2.9,
-      progress: [{ morphemeId: 'spec', state: 'learning', stability: 140, dueAt: '2026-01-01T00:00:00.000Z', testedWordIds: ['circumspect', 'circumspect', 'unknown'], migrationCorrect: 2.9, migrationAttempts: -1, streak: 1.8 }, { morphemeId: 'pre', stability: 99 }],
-      completedWordIds: ['predict', 'predict', 'unknown'],
+      progress: [{ morphemeId: 'spec', state: 'learning', stability: 140, dueAt: '2026-01-01T00:00:00.000Z', testedWordIds: ['circumspect', 'circumspect', 'zzz-not-a-word'], migrationCorrect: 2.9, migrationAttempts: -1, streak: 1.8 }, { morphemeId: 'pre', stability: 99 }],
+      completedWordIds: ['predict', 'predict', 'zzz-not-a-word'],
       activityDays: ['2026-09-10', '2026-09-10', 'bad-date'],
       onboardingCompleted: true,
     })

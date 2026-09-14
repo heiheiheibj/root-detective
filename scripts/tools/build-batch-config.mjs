@@ -14,6 +14,7 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 import { buildCanon } from '../lib/id-canon.mjs'
+import { FALLBACK_MEANINGS, hasHanzi } from '../lib/morpheme-fallback.mjs'
 
 const here = dirname(fileURLToPath(import.meta.url))
 const libDir = join(here, '..', 'lib')
@@ -76,7 +77,10 @@ const newMorphemeIds = [...usedMorphemeIds].filter((id) => !existingMorphemeIds.
 const publicMorpheme = (id) => {
   const m = draftById.get(id)
   if (!m) return null
-  const { displayText, type, meaningCn, allomorphs, etymology, level, color } = m
+  const { displayText, type, allomorphs, etymology, level, color } = m
+  // 义项：draft 里没有汉字的（拉丁词根 sist/tend/firm、常见前后缀 micro/mid/sus）用共用
+  // 兜底表补上 —— A20 要求 1–8 汉字，空着过不了闸门（batch-03 曾一次报 43 条）。
+  const meaningCn = hasHanzi(m.meaningCn) ? m.meaningCn : (FALLBACK_MEANINGS[id] ?? m.meaningCn)
   // id 用归一化后的那个：draft 里这条记录的 id 可能是未归一化的 `pose`，而产物要用 `pos`
   // （与 Stage 2 已有的词素对齐），否则 21 号会认为「本阶段没拆出这个词根」而丢词。
   return { id, displayText, type, meaningCn, allomorphs, etymology, level, color }

@@ -4,7 +4,11 @@
   "modernMeaningCn": "任何人",
   "literalMeaningCn": "随便哪一个",
   "metaphorMeaningCn": "任何人、随便谁",
-  "metaphorOptions": ["任何人、随便谁", "没有人", "特定某人"],
+  "metaphorOptions": [
+   "任何人、随便谁",
+   "惊奇的人",
+   "一种检验的习俗"
+  ],
   "mnemonicNote": "any(任何)+one(一个)：圈里划多大都算数",
   "sourceNote": "古英语 ænig + an，两个词直接拼合"
  },
@@ -12,7 +16,11 @@
   "modernMeaningCn": "无论如何",
   "literalMeaningCn": "哪条路都行",
   "metaphorMeaningCn": "反正、无论如何",
-  "metaphorOptions": ["反正、无论如何", "绝无可能", "必须照办"],
+  "metaphorOptions": [
+   "反正、无论如何",
+   "重量的另一面",
+   "疼痛痛的一角"
+  ],
   "mnemonicNote": "any(任何)+way(路)：走哪条都绕不开这个结果",
   "sourceNote": "英语复合词，any + way"
  },
@@ -20,7 +28,11 @@
   "modernMeaningCn": "任何地方",
   "literalMeaningCn": "随便哪个地方",
   "metaphorMeaningCn": "任何地方、随便哪儿",
-  "metaphorOptions": ["任何地方、随便哪儿", "原地不动", "唯一去处"],
+  "metaphorOptions": [
+   "任何地方、随便哪儿",
+   "替城市操心",
+   "守着自己过活"
+  ],
   "mnemonicNote": "any(任何)+where(何地)：摊开地图圈哪都行",
   "sourceNote": "古英语 ænig + hwær，两个疑问词拼合"
  },
@@ -28,7 +40,11 @@
   "modernMeaningCn": "公寓",
   "literalMeaningCn": "隔出来的住处",
   "metaphorMeaningCn": "公寓、一套房",
-  "metaphorOptions": ["公寓、一套房", "独栋小楼", "合伙铺面"],
+  "metaphorOptions": [
+   "公寓、一套房",
+   "都市的背面",
+   "把通过翻开"
+  ],
   "mnemonicNote": "apart(分开)+ment：把一层楼隔成互不相干几家",
   "sourceNote": "法语 appartement，意大利 appartare(分开)"
  },
@@ -36,7 +52,11 @@
   "modernMeaningCn": "道歉",
   "literalMeaningCn": "说辞解脱",
   "metaphorMeaningCn": "道歉、赔不是",
-  "metaphorOptions": ["道歉、赔不是", "强词夺理", "置之不理"],
+  "metaphorOptions": [
+   "道歉、赔不是",
+   "同意的小站",
+   "守着向后过活"
+  ],
   "mnemonicNote": "apolog(辩解)+ize：把话说明白，把自己摘出来",
   "sourceNote": "希腊 apologia，apo-(离开) + logos(言说)"
  },
@@ -44,7 +64,11 @@
   "modernMeaningCn": "明显的",
   "literalMeaningCn": "自己显现的",
   "metaphorMeaningCn": "明显的、表面上的",
-  "metaphorOptions": ["明显的、表面上的", "隐蔽的", "含糊的"],
+  "metaphorOptions": [
+   "明显的、表面上的",
+   "守着移动过活",
+   "把表示沉湎于的人串起来"
+  ],
   "mnemonicNote": "app(朝向)+arent(显现)：东西自己摆到眼前来了",
   "sourceNote": "拉丁 apparere，ad-(朝向) + parere(出现)"
  },
@@ -52,7 +76,11 @@
   "modernMeaningCn": "外貌",
   "literalMeaningCn": "露面的样子",
   "metaphorMeaningCn": "外貌、露面",
-  "metaphorOptions": ["外貌、露面", "消失", "本色"],
+  "metaphorOptions": [
+   "外貌、露面",
+   "离相信很远",
+   "形成的过程"
+  ],
   "mnemonicNote": "appear(露面)+ance：站到人前时的那副模样",
   "sourceNote": "古法语 aparance，apparere(出现)"
  },
@@ -60,7 +88,11 @@
   "modernMeaningCn": "鼓掌",
   "literalMeaningCn": "朝人喝彩",
   "metaphorMeaningCn": "鼓掌、称赞",
-  "metaphorOptions": ["鼓掌、称赞", "喝倒彩", "无动于衷"],
+  "metaphorOptions": [
+   "鼓掌、称赞",
+   "把拿取串起来",
+   "下面的人"
+  ],
   "mnemonicNote": "ap(朝向)+laud(称赞)：巴掌朝着台上拍起来",
   "sourceNote": "拉丁 applaudere，ad-(朝向) + plaudere(拍手)"
  },
@@ -68,7 +100,11 @@
   "modernMeaningCn": "申请",
   "literalMeaningCn": "贴上去的表格",
   "metaphorMeaningCn": "申请、应用",
-  "metaphorOptions": ["申请、应用", "撤回", "驳回"],
+  "metaphorOptions": [
+   "申请、应用",
+   "完全的背面",
+   "百分之一的旧事"
+  ],
   "mnemonicNote": "appl(贴上)+ication：把表格贴到办事窗口上",
   "sourceNote": "拉丁 applicatio，ad-(朝向) + plicare(折、贴)"
  },
@@ -76,7 +112,11 @@
   "modernMeaningCn": "任命",
   "literalMeaningCn": "指定某人",
   "metaphorMeaningCn": "任命、约定",
-  "metaphorOptions": ["任命、约定", "免职", "推辞"],
+  "metaphorOptions": [
+   "任命、约定",
+   "一种末端的习俗",
+   "形成的地方"
+  ],
   "mnemonicNote": "ap(朝向)+point(指)：手指一点，位置就落到他头上",
   "sourceNote": "古法语 apointier，a-(朝向) + point(点)"
  },
@@ -84,7 +124,11 @@
   "modernMeaningCn": "约会",
   "literalMeaningCn": "定下的见面",
   "metaphorMeaningCn": "约会、预约",
-  "metaphorOptions": ["约会、预约", "爽约", "偶遇"],
+  "metaphorOptions": [
+   "约会、预约",
+   "技艺的味道",
+   "土星的另一面"
+  ],
   "mnemonicNote": "appoint(指定)+ment：双方把时间钉死那一刻",
   "sourceNote": "古法语 apointement，apointier(安排)"
  },
@@ -92,7 +136,11 @@
   "modernMeaningCn": "感激",
   "literalMeaningCn": "给价认可",
   "metaphorMeaningCn": "感激、欣赏",
-  "metaphorOptions": ["感激、欣赏", "轻视", "挑剔"],
+  "metaphorOptions": [
+   "感激、欣赏",
+   "向着形成去",
+   "转移的工具"
+  ],
   "mnemonicNote": "appreciat(估价)+ion：认得出别人那份好",
   "sourceNote": "拉丁 appretiare，ad-(朝向) + pretium(价钱)"
  },
@@ -100,7 +148,11 @@
   "modernMeaningCn": "接近",
   "literalMeaningCn": "一步步走拢",
   "metaphorMeaningCn": "接近、方法",
-  "metaphorOptions": ["接近、方法", "远离", "回避"],
+  "metaphorOptions": [
+   "接近、方法",
+   "一种相反的习俗",
+   "横穿的一角"
+  ],
   "mnemonicNote": "ap(朝向)+roach(近)：脚步朝着那边挪过去",
   "sourceNote": "拉丁 appropiare，ad-(朝向) + prope(近)"
  },
@@ -108,7 +160,11 @@
   "modernMeaningCn": "赞成",
   "literalMeaningCn": "认为它好",
   "metaphorMeaningCn": "赞成、批准",
-  "metaphorOptions": ["赞成、批准", "否决", "搁置"],
+  "metaphorOptions": [
+   "赞成、批准",
+   "使用的工具",
+   "强壮的味道"
+  ],
   "mnemonicNote": "ap(朝向)+prove(证明)：看过证据就点了头",
   "sourceNote": "拉丁 approbare，ad-(朝向) + probare(证明)"
  },
@@ -116,7 +172,11 @@
   "modernMeaningCn": "大约",
   "literalMeaningCn": "以靠近的方式",
   "metaphorMeaningCn": "大约、大概",
-  "metaphorOptions": ["大约、大概", "精确到分", "相差悬殊"],
+  "metaphorOptions": [
+   "大约、大概",
+   "数着迁移过日子",
+   "围着分开转"
+  ],
   "mnemonicNote": "approximate(接近)+ly：两头都往中间凑一凑",
   "sourceNote": "拉丁 approximare，ad-(朝向) + proximus(最近的)"
  },
@@ -124,7 +184,11 @@
   "modernMeaningCn": "阿拉伯语",
   "literalMeaningCn": "阿拉伯的",
   "metaphorMeaningCn": "阿拉伯语、阿拉伯的",
-  "metaphorOptions": ["阿拉伯语、阿拉伯的", "拉丁语", "希腊语"],
+  "metaphorOptions": [
+   "阿拉伯语、阿拉伯的",
+   "视觉的地方",
+   "隔一代的小站"
+  ],
   "mnemonicNote": "arab(阿拉伯)+ic：从右往左写的那门语言",
   "sourceNote": "拉丁 Arabicus，Arabia(阿拉伯半岛)"
  },
@@ -132,7 +196,11 @@
   "modernMeaningCn": "建筑学",
   "literalMeaningCn": "盖房的手艺",
   "metaphorMeaningCn": "建筑学、建筑风格",
-  "metaphorOptions": ["建筑学、建筑风格", "园艺", "雕塑"],
+  "metaphorOptions": [
+   "建筑学、建筑风格",
+   "木板的味道",
+   "快速的的另一面"
+  ],
   "mnemonicNote": "architect(建筑师)+ure：画图纸到封顶那一整套学问",
   "sourceNote": "拉丁 architectura，希腊 arkhitekton(总匠师)"
  },
@@ -140,7 +208,11 @@
   "modernMeaningCn": "争论",
   "literalMeaningCn": "来回掰扯",
   "metaphorMeaningCn": "争论、论点",
-  "metaphorOptions": ["争论、论点", "一致同意", "沉默"],
+  "metaphorOptions": [
+   "争论、论点",
+   "在这以前的的人",
+   "神圣的影子"
+  ],
   "mnemonicNote": "argu(辩论)+ment：一句话顶一句话地推过去",
   "sourceNote": "拉丁 argumentum，arguere(使明白、辩)"
  },
@@ -148,7 +220,11 @@
   "modernMeaningCn": "扶手椅",
   "literalMeaningCn": "有臂托的椅子",
   "metaphorMeaningCn": "扶手椅",
-  "metaphorOptions": ["扶手椅", "长板凳", "小马扎"],
+  "metaphorOptions": [
+   "扶手椅",
+   "相信的旧事",
+   "隔一代的地方"
+  ],
   "mnemonicNote": "arm(手臂)+chair(椅子)：两侧伸出胳膊给你搭着",
   "sourceNote": "英语复合词，16 世纪起指带扶手的椅子"
  },
@@ -156,7 +232,11 @@
   "modernMeaningCn": "安排",
   "literalMeaningCn": "排成行列",
   "metaphorMeaningCn": "安排、整理",
-  "metaphorOptions": ["安排、整理", "弄乱", "就地放着"],
+  "metaphorOptions": [
+   "安排、整理",
+   "移动的另一面",
+   "迁移的味道"
+  ],
   "mnemonicNote": "ar(朝向)+range(排列)：让每样东西站进自己的位子",
   "sourceNote": "古法语 arengier，a-(朝向) + rang(行列)"
  },
@@ -164,7 +244,11 @@
   "modernMeaningCn": "布置",
   "literalMeaningCn": "排好的样子",
   "metaphorMeaningCn": "布置、安排",
-  "metaphorOptions": ["布置、安排", "打乱", "随手堆着"],
+  "metaphorOptions": [
+   "布置、安排",
+   "离在这以前的很远",
+   "声音的过程"
+  ],
   "mnemonicNote": "arrange(排列)+ment：各就各位之后那副整齐样",
   "sourceNote": "法语 arrangement，arengier(排列)"
  },
@@ -172,7 +256,11 @@
   "modernMeaningCn": "逮捕",
   "literalMeaningCn": "使其停住",
   "metaphorMeaningCn": "逮捕、阻止",
-  "metaphorOptions": ["逮捕、阻止", "释放", "放行"],
+  "metaphorOptions": [
+   "逮捕、阻止",
+   "学说的小站",
+   "产生的来路"
+  ],
   "mnemonicNote": "ar(朝向)+rest(停)：当场把人拦下来",
   "sourceNote": "拉丁 arrestare，ad-(朝向) + restare(停住)"
  },
@@ -180,7 +268,11 @@
   "modernMeaningCn": "到达",
   "literalMeaningCn": "靠岸的那一刻",
   "metaphorMeaningCn": "到达、到来",
-  "metaphorOptions": ["到达、到来", "启程", "迷途"],
+  "metaphorOptions": [
+   "到达、到来",
+   "一种母亲的习俗",
+   "种类的人"
+  ],
   "mnemonicNote": "arriv(靠岸)+al：船头碰上码头的那个瞬间",
   "sourceNote": "中古英语 arrivaille，arriver(到岸)"
  },
@@ -188,7 +280,11 @@
   "modernMeaningCn": "到达",
   "literalMeaningCn": "朝岸边靠",
   "metaphorMeaningCn": "到达、抵达",
-  "metaphorOptions": ["到达、抵达", "出发", "绕行"],
+  "metaphorOptions": [
+   "到达、抵达",
+   "向着经星期四去",
+   "神圣的过程"
+  ],
   "mnemonicNote": "ar(朝向)+rive(岸)：风把船吹到岸边上",
   "sourceNote": "拉丁 adripare，ad-(朝向) + ripa(河岸)"
  },
@@ -196,7 +292,11 @@
   "modernMeaningCn": "艺术家",
   "literalMeaningCn": "有手艺的人",
   "metaphorMeaningCn": "艺术家、画家",
-  "metaphorOptions": ["艺术家、画家", "观众", "工匠学徒"],
+  "metaphorOptions": [
+   "艺术家、画家",
+   "数着神圣的过日子",
+   "围着判断转"
+  ],
   "mnemonicNote": "art(技艺)+ist(人)：手上活儿练到旁人做不来",
   "sourceNote": "法语 artiste，拉丁 ars(技艺)"
  },
@@ -204,7 +304,11 @@
   "modernMeaningCn": "惭愧的",
   "literalMeaningCn": "被羞住的",
   "metaphorMeaningCn": "惭愧的、羞于见人的",
-  "metaphorOptions": ["惭愧的、羞于见人的", "理直气壮的", "满不在乎的"],
+  "metaphorOptions": [
+   "惭愧的、羞于见人的",
+   "状态的地方",
+   "眼睛的来路"
+  ],
   "mnemonicNote": "a(在)+shame(羞)+d：脸上挂不住那个劲儿",
   "sourceNote": "古英语 asceamod，a-(加强) + sceamu(羞耻)"
  },
@@ -212,7 +316,11 @@
   "modernMeaningCn": "在旁边",
   "literalMeaningCn": "挪到一侧",
   "metaphorMeaningCn": "在旁边、搁置",
-  "metaphorOptions": ["在旁边、搁置", "正中间", "正对着"],
+  "metaphorOptions": [
+   "在旁边、搁置",
+   "守着持有过活",
+   "替过程操心"
+  ],
   "mnemonicNote": "a(在)+side(边)：往边上让开半步",
   "sourceNote": "中古英语 a(在) + side(边)"
  },
@@ -220,7 +328,11 @@
   "modernMeaningCn": "睡着的",
   "literalMeaningCn": "沉在睡里",
   "metaphorMeaningCn": "睡着的、熟睡的",
-  "metaphorOptions": ["睡着的、熟睡的", "清醒的", "辗转难眠的"],
+  "metaphorOptions": [
+   "睡着的、熟睡的",
+   "把种类串起来",
+   "把相信翻开"
+  ],
   "mnemonicNote": "a(在)+sleep(睡)：整个人已经浸进去了",
   "sourceNote": "古英语 on slæpe，字面「在睡眠之中」"
  },
@@ -228,7 +340,11 @@
   "modernMeaningCn": "评估",
   "literalMeaningCn": "定量的行为",
   "metaphorMeaningCn": "评估、估价",
-  "metaphorOptions": ["评估、估价", "随意拍板", "置之不理"],
+  "metaphorOptions": [
+   "评估、估价",
+   "保持的工具",
+   "把土地串起来"
+  ],
   "mnemonicNote": "assess(定税)+ment：坐下来给它评出个高低",
   "sourceNote": "中世纪拉丁 assessare，assidere(坐在旁边评定)"
  },
@@ -236,7 +352,11 @@
   "modernMeaningCn": "帮助",
   "literalMeaningCn": "站到身旁",
   "metaphorMeaningCn": "帮助、协助",
-  "metaphorOptions": ["帮助、协助", "袖手旁观", "从中作梗"],
+  "metaphorOptions": [
+   "帮助、协助",
+   "离医棱底向内很远",
+   "替学说操心"
+  ],
   "mnemonicNote": "as(朝向)+sist(站)：往人身旁一站，搭上手",
   "sourceNote": "拉丁 assistere，ad-(朝向) + sistere(站)"
  },
@@ -244,7 +364,11 @@
   "modernMeaningCn": "援助",
   "literalMeaningCn": "站身旁搭手",
   "metaphorMeaningCn": "援助、帮助",
-  "metaphorOptions": ["援助、帮助", "拒绝", "旁观"],
+  "metaphorOptions": [
+   "援助、帮助",
+   "跨越的来路",
+   "向着母亲去"
+  ],
   "mnemonicNote": "assist(搭手)+ance：伸过来的那只手",
   "sourceNote": "中世纪拉丁 assistentia，assistere(站在旁边)"
  },
@@ -252,7 +376,11 @@
   "modernMeaningCn": "助手",
   "literalMeaningCn": "站旁边的人",
   "metaphorMeaningCn": "助手、助理",
-  "metaphorOptions": ["助手、助理", "主管", "外人"],
+  "metaphorOptions": [
+   "助手、助理",
+   "低劣的的人",
+   "一种种类的习俗"
+  ],
   "mnemonicNote": "assist(搭手)+ant(人)：专给人递工具那位",
   "sourceNote": "拉丁 assistens，assistere 的现在分词"
  },
@@ -260,7 +388,11 @@
   "modernMeaningCn": "协会",
   "literalMeaningCn": "结成一伙",
   "metaphorMeaningCn": "协会、关联",
-  "metaphorOptions": ["协会、关联", "解散", "孤立"],
+  "metaphorOptions": [
+   "协会、关联",
+   "替驱动操心",
+   "守着母亲过活"
+  ],
   "mnemonicNote": "associat(联合)+ion：一群人绑到同一面旗子下",
   "sourceNote": "拉丁 associatio，associare(结成同伴)"
  },
@@ -268,7 +400,11 @@
   "modernMeaningCn": "天文学家",
   "literalMeaningCn": "数星星的人",
   "metaphorMeaningCn": "天文学家、天文工作者",
-  "metaphorOptions": ["天文学家、天文工作者", "占星术士", "地理学家"],
+  "metaphorOptions": [
+   "天文学家、天文工作者",
+   "社会的小站",
+   "城市的旧事"
+  ],
   "mnemonicNote": "astronom(天文)+er(人)：整夜守着星图的那位",
   "sourceNote": "希腊 astronomos，astron(星) + nomos(规律)"
  },
@@ -276,7 +412,11 @@
   "modernMeaningCn": "运动的",
   "literalMeaningCn": "与竞技有关",
   "metaphorMeaningCn": "运动的、健壮的",
-  "metaphorOptions": ["运动的、健壮的", "文弱的", "慵懒的"],
+  "metaphorOptions": [
+   "运动的、健壮的",
+   "离向前很远",
+   "集合的过程"
+  ],
   "mnemonicNote": "athlet(竞技)+ic：常在场上跑跳的那类身板",
   "sourceNote": "希腊 athletikos，athletes(竞技者)"
  },
@@ -284,7 +424,11 @@
   "modernMeaningCn": "附上",
   "literalMeaningCn": "钉到一起",
   "metaphorMeaningCn": "附上、贴附",
-  "metaphorOptions": ["附上、贴附", "撕下", "分开"],
+  "metaphorOptions": [
+   "附上、贴附",
+   "西方的背面",
+   "被在上的东西"
+  ],
   "mnemonicNote": "at(朝向)+tach(钉)：拿钉子把它俩凑成一堆",
   "sourceNote": "古法语 atachier，a-(朝向) + tache(钉、扣)"
  },
@@ -292,7 +436,11 @@
   "modernMeaningCn": "达到",
   "literalMeaningCn": "伸手够到",
   "metaphorMeaningCn": "达到、获得",
-  "metaphorOptions": ["达到、获得", "够不着", "半途放弃"],
+  "metaphorOptions": [
+   "达到、获得",
+   "替形成操心",
+   "守着平面过活"
+  ],
   "mnemonicNote": "at(朝向)+tain(持)：踮起脚把它攥在手里",
   "sourceNote": "拉丁 attingere，ad-(朝向) + tangere(触)"
  },
@@ -300,7 +448,11 @@
   "modernMeaningCn": "尝试",
   "literalMeaningCn": "伸手去试",
   "metaphorMeaningCn": "尝试、试图",
-  "metaphorOptions": ["尝试、试图", "放弃", "观望"],
+  "metaphorOptions": [
+   "尝试、试图",
+   "共同的旧事",
+   "强壮的地方"
+  ],
   "mnemonicNote": "at(朝向)+tempt(试探)：先伸出一只手探探路",
   "sourceNote": "拉丁 attemptare，ad-(朝向) + temptare(试)"
  },
@@ -308,7 +460,11 @@
   "modernMeaningCn": "出席",
   "literalMeaningCn": "心思伸过去",
   "metaphorMeaningCn": "出席、照料",
-  "metaphorOptions": ["出席、照料", "缺席", "敷衍"],
+  "metaphorOptions": [
+   "出席、照料",
+   "称量的人",
+   "一种平行的习俗"
+  ],
   "mnemonicNote": "at(朝向)+tend(伸展)：人到了场，心也跟着过去",
   "sourceNote": "拉丁 attendere，ad-(朝向) + tendere(伸展)"
  },
@@ -316,7 +472,11 @@
   "modernMeaningCn": "注意",
   "literalMeaningCn": "心思全拽过来",
   "metaphorMeaningCn": "注意、关注",
-  "metaphorOptions": ["注意、关注", "走神", "无视"],
+  "metaphorOptions": [
+   "注意、关注",
+   "一种站立的习俗",
+   "状态的一角"
+  ],
   "mnemonicNote": "atten(专注)+tion：眼睛和脑子同时架在这件事上",
   "sourceNote": "拉丁 attentio，attendere(把心思伸向)"
  },
@@ -324,7 +484,11 @@
   "modernMeaningCn": "专心地",
   "literalMeaningCn": "以专注的方式",
   "metaphorMeaningCn": "专心地、聚精会神地",
-  "metaphorOptions": ["专心地、聚精会神地", "心不在焉地", "马马虎虎地"],
+  "metaphorOptions": [
+   "专心地、聚精会神地",
+   "刷子的来路",
+   "带来的旧事"
+  ],
   "mnemonicNote": "attentive(专注)+ly：眼睛一眨不眨地盯着",
   "sourceNote": "拉丁 attentivus + -ly(副词后缀)"
  },
@@ -332,7 +496,11 @@
   "modernMeaningCn": "吸引力",
   "literalMeaningCn": "把人拽住的力",
   "metaphorMeaningCn": "吸引力、景点",
-  "metaphorOptions": ["吸引力、景点", "排斥力", "冷清角落"],
+  "metaphorOptions": [
+   "吸引力、景点",
+   "盖子的地方",
+   "休息的来路"
+  ],
   "mnemonicNote": "attract(拉过来)+ion：像磁铁那样把目光吸住",
   "sourceNote": "拉丁 attractio，attrahere(拉向自己)"
  },
@@ -340,7 +508,11 @@
   "modernMeaningCn": "有吸引力的",
   "literalMeaningCn": "能把人拉住的",
   "metaphorMeaningCn": "有吸引力的、迷人的",
-  "metaphorOptions": ["有吸引力的、迷人的", "令人反感的", "平淡的"],
+  "metaphorOptions": [
+   "有吸引力的、迷人的",
+   "彻底的人",
+   "称量的影子"
+  ],
   "mnemonicNote": "attract(拉过来)+ive：路过的人都忍不住多看两眼",
   "sourceNote": "拉丁 attractivus，attrahere(拉向自己)"
  },
@@ -348,7 +520,11 @@
   "modernMeaningCn": "自治的",
   "literalMeaningCn": "自己给自己定规矩",
   "metaphorMeaningCn": "自治的、自主的",
-  "metaphorOptions": ["自治的、自主的", "受人管辖的", "依附他人的"],
+  "metaphorOptions": [
+   "自治的、自主的",
+   "劳作的另一面",
+   "性质的味道"
+  ],
   "mnemonicNote": "autonom(自主)+ous：自己的事自己拍板",
   "sourceNote": "希腊 autonomos，autos(自己) + nomos(法律)"
  },
@@ -356,7 +532,11 @@
   "modernMeaningCn": "可获得的",
   "literalMeaningCn": "能派上用场的",
   "metaphorMeaningCn": "可获得的、有空的",
-  "metaphorOptions": ["可获得的、有空的", "已被占用的", "无从下手的"],
+  "metaphorOptions": [
+   "可获得的、有空的",
+   "在前的小站",
+   "相反的地方"
+  ],
   "mnemonicNote": "avail(有效用)+able：伸手就能拿到手",
   "sourceNote": "古法语 avail(有用)，拉丁 valere(有力、有效)"
  },
@@ -364,7 +544,11 @@
   "modernMeaningCn": "平均的",
   "literalMeaningCn": "摊平下来的数",
   "metaphorMeaningCn": "平均的、普通的",
-  "metaphorOptions": ["平均的、普通的", "极端的", "罕见的"],
+  "metaphorOptions": [
+   "平均的、普通的",
+   "守着主义过活",
+   "周期的小站"
+  ],
   "mnemonicNote": "古时海上货损要摊到各家，摊出的那个数",
   "sourceNote": "阿拉伯 awariya(损坏的货物)，经意大利语传入"
  },
@@ -372,7 +556,11 @@
   "modernMeaningCn": "了不起的",
   "literalMeaningCn": "带着敬畏的",
   "metaphorMeaningCn": "了不起的、极好的",
-  "metaphorOptions": ["了不起的、极好的", "乏善可陈的", "令人失望的"],
+  "metaphorOptions": [
+   "了不起的、极好的",
+   "向前的地方",
+   "加强的来路"
+  ],
   "mnemonicNote": "awe(敬畏)+some：让人心里一凛的那种好",
   "sourceNote": "古英语 egesa(恐惧) + -sum(有…性质的)"
  },
@@ -380,7 +568,11 @@
   "modernMeaningCn": "糟糕的",
   "literalMeaningCn": "满是敬畏的",
   "metaphorMeaningCn": "糟糕的、可怕的",
-  "metaphorOptions": ["糟糕的、可怕的", "妙不可言的", "无关痛痒的"],
+  "metaphorOptions": [
+   "糟糕的、可怕的",
+   "向着横穿去",
+   "离完全很远"
+  ],
   "mnemonicNote": "aw(敬畏)+ful(满)：吓到人头皮发麻",
   "sourceNote": "古英语 egefull，ege(恐惧) + -full"
  },
@@ -388,7 +580,11 @@
   "modernMeaningCn": "笨拙的",
   "literalMeaningCn": "方向反着来",
   "metaphorMeaningCn": "笨拙的、尴尬的",
-  "metaphorOptions": ["笨拙的、尴尬的", "灵巧的", "自然的"],
+  "metaphorOptions": [
+   "笨拙的、尴尬的",
+   "被真的的东西",
+   "集合的味道"
+  ],
   "mnemonicNote": "awk(反手)+ward(方向)：左右手用倒了那种别扭",
   "sourceNote": "古诺尔斯语 afugr(反着)，af-(反) + hverfa(转)"
  },
@@ -396,7 +592,11 @@
   "modernMeaningCn": "严重地",
   "literalMeaningCn": "以坏的方式",
   "metaphorMeaningCn": "严重地、很差地",
-  "metaphorOptions": ["严重地、很差地", "轻描淡写地", "恰到好处地"],
+  "metaphorOptions": [
+   "严重地、很差地",
+   "数着发动机过日子",
+   "优先权的工具"
+  ],
   "mnemonicNote": "bad(坏)+ly：坏到不是三言两语能盖过的",
   "sourceNote": "中古英语 badde(坏) + -lice(副词后缀)"
  },
@@ -404,7 +604,11 @@
   "modernMeaningCn": "羽毛球",
   "literalMeaningCn": "庄园里玩的球戏",
   "metaphorMeaningCn": "羽毛球、羽毛球运动",
-  "metaphorOptions": ["羽毛球、羽毛球运动", "乒乓球", "网球"],
+  "metaphorOptions": [
+   "羽毛球、羽毛球运动",
+   "过程的旧事",
+   "神圣的的来路"
+  ],
   "mnemonicNote": "从博福特公爵的庄园里传出来的一种球戏",
   "sourceNote": "英国 Badminton 庄园，19 世纪在此定形"
  },
@@ -412,7 +616,11 @@
   "modernMeaningCn": "行李",
   "literalMeaningCn": "一堆包",
   "metaphorMeaningCn": "行李、包袱",
-  "metaphorOptions": ["行李、包袱", "轻装", "随身小物"],
+  "metaphorOptions": [
+   "行李、包袱",
+   "压力的过程",
+   "向着房间去"
+  ],
   "mnemonicNote": "bagg(包)+age：大包小包凑成的那一堆",
   "sourceNote": "古法语 bagage，bage(包裹)"
  },
@@ -420,7 +628,11 @@
   "modernMeaningCn": "面包店",
   "literalMeaningCn": "烤食物的铺子",
   "metaphorMeaningCn": "面包店、烘焙坊",
-  "metaphorOptions": ["面包店、烘焙坊", "肉铺", "杂货摊"],
+  "metaphorOptions": [
+   "面包店、烘焙坊",
+   "使用的味道",
+   "被延迟的东西"
+  ],
   "mnemonicNote": "bake(烤)+ry(场所)：隔着街就闻见麦香那家",
   "sourceNote": "中古英语 baken(烤) + -ery(场所后缀)"
  },
@@ -428,7 +640,11 @@
   "modernMeaningCn": "绷带",
   "literalMeaningCn": "缠上去的带",
   "metaphorMeaningCn": "绷带、包扎",
-  "metaphorOptions": ["绷带、包扎", "夹板", "药膏"],
+  "metaphorOptions": [
+   "绷带、包扎",
+   "把休息串起来",
+   "守着坚硬的过活"
+  ],
   "mnemonicNote": "band(带)+age：一圈一圈往伤口上绕",
   "sourceNote": "法语 bandage，bande(带子)"
  },
@@ -436,7 +652,11 @@
   "modernMeaningCn": "理发店",
   "literalMeaningCn": "剃头匠的铺子",
   "metaphorMeaningCn": "理发店",
-  "metaphorOptions": ["理发店", "裁缝铺", "杂货铺"],
+  "metaphorOptions": [
+   "理发店",
+   "悬挂的来路",
+   "行为的地方"
+  ],
   "mnemonicNote": "barber(剃头匠)+shop(店)：门口转着灯筒那家",
   "sourceNote": "英语复合词，barber 源自拉丁 barba(胡须)"
  },
@@ -444,7 +664,11 @@
   "modernMeaningCn": "地下室",
   "literalMeaningCn": "地面下的那层",
   "metaphorMeaningCn": "地下室、底座层",
-  "metaphorOptions": ["地下室、底座层", "阁楼", "门厅"],
+  "metaphorOptions": [
+   "地下室、底座层",
+   "钥匙的过程",
+   "离正在很远"
+  ],
   "mnemonicNote": "base(底部)+ment：往下再挖出来的那一层",
   "sourceNote": "意大利 basamento，base(基底)"
  },
@@ -452,7 +676,11 @@
   "modernMeaningCn": "篮球",
   "literalMeaningCn": "投进篮筐的球",
   "metaphorMeaningCn": "篮球、篮球运动",
-  "metaphorOptions": ["篮球、篮球运动", "足球", "排球"],
+  "metaphorOptions": [
+   "篮球、篮球运动",
+   "离感觉很远",
+   "替判断操心"
+  ],
   "mnemonicNote": "basket(篮子)+ball(球)：最早真拿桃筐当球门",
   "sourceNote": "英语复合词，1891 年美国发明时用桃篮"
  },
@@ -460,7 +688,11 @@
   "modernMeaningCn": "浴衣",
   "literalMeaningCn": "洗澡后披的袍",
   "metaphorMeaningCn": "浴衣、睡袍",
-  "metaphorOptions": ["浴衣、睡袍", "外套", "围裙"],
+  "metaphorOptions": [
+   "浴衣、睡袍",
+   "一种医颊轴龈的的习俗",
+   "携带的人"
+  ],
   "mnemonicNote": "bath(沐浴)+robe(长袍)：出了浴缸随手裹上的那件",
   "sourceNote": "英语复合词，bath + robe(袍服)"
  },
@@ -468,7 +700,11 @@
   "modernMeaningCn": "浴缸",
   "literalMeaningCn": "洗澡用的大桶",
   "metaphorMeaningCn": "浴缸、澡盆",
-  "metaphorOptions": ["浴缸、澡盆", "水缸", "洗脸池"],
+  "metaphorOptions": [
+   "浴缸、澡盆",
+   "围着周围转",
+   "数着感觉过日子"
+  ],
   "mnemonicNote": "bath(沐浴)+tub(桶)：整个人能泡进去的那个盆",
   "sourceNote": "英语复合词，bath + tub(木桶)"
  },
@@ -476,7 +712,11 @@
   "modernMeaningCn": "战场",
   "literalMeaningCn": "交战的那片地",
   "metaphorMeaningCn": "战场、斗争领域",
-  "metaphorOptions": ["战场、斗争领域", "后花园", "中立地带"],
+  "metaphorOptions": [
+   "战场、斗争领域",
+   "向下的影子",
+   "把生命翻开"
+  ],
   "mnemonicNote": "battle(交战)+ground(地面)：两军撞上的那块地",
   "sourceNote": "英语复合词，battle + ground"
  }

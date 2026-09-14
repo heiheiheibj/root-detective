@@ -1,5 +1,5 @@
 {
- "_comment": "3.2 高考批新增 8 个世界（+ 之前 23 个 = 31），覆盖本批 62 个教学词根家族。口径同 batch-02：世界按批次增量，只挂本批已进词库的词根；families 只对教学词根建，零件词根不上地图。本批 62 个家族全部在此，一个不落。",
+ "_comment": "3.2 高考批新增 9 个世界（+ 之前 23 个 = 32），覆盖本批全部教学词根家族。口径同 batch-02：世界按批次增量，只挂本批已进词库的词根；families 只对教学词根建，零件词根不上地图。",
  "worlds": [
   {
    "id": "market-lane",
@@ -40,6 +40,11 @@
    "id": "lumber-store",
    "name": "杂物仓",
    "morphemeIds": ["box", "case", "fit", "load", "organ", "access", "minim", "special", "fresh", "main", "host"]
+  },
+  {
+   "id": "common-lane",
+   "name": "寻常巷",
+   "morphemeIds": ["a", "any", "it", "her", "app", "happy", "life", "four", "seven", "six"]
   }
  ]
 }

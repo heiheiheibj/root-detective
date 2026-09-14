@@ -11,7 +11,7 @@
 //   A13  不能有拉丁字母
 //
 // 跑法：node scripts/tools/fix-distractors.mjs
-import { readFileSync, writeFileSync } from 'node:fs'
+import { readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
@@ -80,8 +80,13 @@ const TEMPLATES = [
 
 let fixed = 0
 let skipped = 0
-for (const file of ['batch-1', 'batch-2', 'batch-3', 'batch-4', 'batch-5', 'batch-6', 'batch-7']) {
-  const path = join(handoffDir, `${file}.json`)
+// 遍历目录下全部批次。这里原先是硬编码的 batch-1~7 —— 高考批扩到 batch-24 之后就漏了，
+// 新批的干扰项一个都没补上，而脚本还报「已补 0 个词」显得一切正常（最会骗人的假成功）。
+const batches = readdirSync(handoffDir)
+  .filter((f) => /^batch-\d+\.json$/.test(f))
+  .sort((a, b) => Number(a.match(/\d+/)[0]) - Number(b.match(/\d+/)[0]))
+for (const file of batches) {
+  const path = join(handoffDir, file)
   const data = JSON.parse(readFileSync(path, 'utf8'))
   let changed = false
   for (const [word, entry] of Object.entries(data)) {

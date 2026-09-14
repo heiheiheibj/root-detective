@@ -1,5 +1,5 @@
 {
- "_comment": "Stage 3 手写兜底例句：这些词在 Tatoeba 里的英文句要么没有中文对照、要么中文句里夹着拉丁字母（Tom 之类），22 号选不出合格例句，由静态数据补（零成本、无 LLM）。格式与 words-examples.json / words-examples-stage2.json 一致，22 号按 Stage 1 → 2 → 3 的顺序合并，同名词以更晚的为准。注意：例句中除句首和 I 之外的任何大写词都会被 22 号当成专名拦下，月份（June）也算。",
+ "_comment": "Stage 3 手写兜底例句：这些词在 Tatoeba 里的英文句要么没有中文对照、要么中文句里夹着拉丁字母（人名/品牌名），22 号选不出合格例句，由静态数据补（零成本、无 LLM）。格式与 words-examples.json / words-examples-stage2.json 一致，22 号按 Stage 1 → 2 → 3 的顺序合并，同名词以更晚的为准。注意：例句中除句首和 I 之外的任何大写词都会被 22 号当成专名拦下，月份（June）也算。",
  "weekday": {
   "exampleEn": "I take the bus to work on every weekday.",
   "exampleCn": "我每个工作日都坐公交车上班。",
@@ -18,6 +18,16 @@
  "background": {
   "exampleEn": "He has a background in medicine.",
   "exampleCn": "他有医学背景。",
+  "sentenceId": "handoff"
+ },
+ "northwards": {
+  "exampleEn": "The birds flew northwards for the winter.",
+  "exampleCn": "这些鸟朝北飞去过冬。",
+  "sentenceId": "handoff"
+ },
+ "oilfield": {
+  "exampleEn": "They found a large oilfield in the desert.",
+  "exampleCn": "他们在沙漠里发现了一个大油田。",
   "sentenceId": "handoff"
  }
 }

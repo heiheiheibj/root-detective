@@ -66,7 +66,7 @@
    "id": "where",
    "displayText": "where-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "何处",
    "allomorphs": [
     "where"
    ],
@@ -102,7 +102,7 @@
    "id": "be",
    "displayText": "be-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "是",
    "allomorphs": [
     "be",
     "b",
@@ -129,7 +129,7 @@
    "id": "for",
    "displayText": "for-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "为了",
    "allomorphs": [
     "for",
     "fore"
@@ -155,7 +155,7 @@
    "id": "out",
    "displayText": "out-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "向外",
    "allomorphs": [
     "out",
     "ut"
@@ -168,7 +168,7 @@
    "id": "col",
    "displayText": "col-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "共同",
    "allomorphs": [
     "col"
    ],
@@ -228,7 +228,7 @@
    "id": "di",
    "displayText": "di-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "二",
    "allomorphs": [
     "di",
     "dy"
@@ -241,7 +241,7 @@
    "id": "down",
    "displayText": "down-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "向下",
    "allomorphs": [
     "down"
    ],
@@ -277,7 +277,7 @@
    "id": "by",
    "displayText": "by-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "在旁边",
    "allomorphs": [
     "by",
     "bye"
@@ -302,7 +302,7 @@
    "id": "self",
    "displayText": "self-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "自身",
    "allomorphs": [
     "self"
    ],
@@ -314,7 +314,7 @@
    "id": "home",
    "displayText": "home-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "家",
    "allomorphs": [
     "home"
    ],
@@ -326,7 +326,7 @@
    "id": "im",
    "displayText": "im-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "不",
    "allomorphs": [
     "im"
    ],
@@ -427,7 +427,7 @@
    "id": "over",
    "displayText": "over-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "在上",
    "allomorphs": [
     "over"
    ],
@@ -491,7 +491,7 @@
    "id": "pur",
    "displayText": "pur-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "向前",
    "allomorphs": [
     "pur",
     "pure"
@@ -528,7 +528,7 @@
    "id": "super",
    "displayText": "super-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "超",
    "allomorphs": [
     "super"
    ],
@@ -540,7 +540,7 @@
    "id": "sup",
    "displayText": "sup-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "在下",
    "allomorphs": [
     "sup",
     "supp"
@@ -577,7 +577,7 @@
    "id": "tran",
    "displayText": "tran-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "越过",
    "allomorphs": [
     "tran"
    ],
@@ -613,7 +613,7 @@
    "id": "up",
    "displayText": "up-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "向上",
    "allomorphs": [
     "up",
     "upp"
@@ -638,7 +638,7 @@
    "id": "with",
    "displayText": "with-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "伴随",
    "allomorphs": [
     "with"
    ],
@@ -714,7 +714,7 @@
    "id": "on",
    "displayText": "-on",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "在之上",
    "allomorphs": [
     "on",
     "one",
@@ -769,7 +769,7 @@
    "id": "way",
    "displayText": "-way",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "路",
    "allomorphs": [
     "way"
    ],
@@ -781,7 +781,7 @@
    "id": "ar",
    "displayText": "-ar",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "朝向",
    "allomorphs": [
     "ar"
    ],
@@ -793,7 +793,7 @@
    "id": "tion",
    "displayText": "-tion",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "名词后缀",
    "allomorphs": [
     "tion",
     "ion"
@@ -818,7 +818,7 @@
    "id": "side",
    "displayText": "-side",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "边",
    "allomorphs": [
     "side"
    ],
@@ -843,7 +843,7 @@
    "id": "ness",
    "displayText": "-ness",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "状态",
    "allomorphs": [
     "ness"
    ],
@@ -880,7 +880,7 @@
    "id": "ry",
    "displayText": "-ry",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "…的行为",
    "allomorphs": [
     "ry"
    ],
@@ -941,7 +941,7 @@
    "id": "ple",
    "displayText": "-ple",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "折叠",
    "allomorphs": [
     "ple",
     "plete"
@@ -979,7 +979,7 @@
    "id": "ous",
    "displayText": "-ous",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "…的",
    "allomorphs": [
     "ous",
     "us"
@@ -992,7 +992,7 @@
    "id": "ery",
    "displayText": "-ery",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "场所",
    "allomorphs": [
     "ery",
     "ry",
@@ -1006,7 +1006,7 @@
    "id": "ling",
    "displayText": "-ling",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "指小",
    "allomorphs": [
     "ling"
    ],
@@ -1018,7 +1018,7 @@
    "id": "ty",
    "displayText": "-ty",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "十",
    "allomorphs": [
     "ty",
     "y"
@@ -1031,7 +1031,7 @@
    "id": "teen",
    "displayText": "-teen",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "十",
    "allomorphs": [
     "teen",
     "een"
@@ -1044,7 +1044,7 @@
    "id": "land",
    "displayText": "-land",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "土地",
    "allomorphs": [
     "land"
    ],
@@ -1056,7 +1056,7 @@
    "id": "tic",
    "displayText": "-tic",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "…的",
    "allomorphs": [
     "tic"
    ],
@@ -1080,7 +1080,7 @@
    "id": "ward",
    "displayText": "-ward",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "朝向",
    "allomorphs": [
     "ward"
    ],
@@ -1143,7 +1143,7 @@
    "id": "ship",
    "displayText": "-ship",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "身份",
    "allomorphs": [
     "ship"
    ],
@@ -1155,7 +1155,7 @@
    "id": "gram",
    "displayText": "-gram",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "写",
    "allomorphs": [
     "gram"
    ],
@@ -1215,7 +1215,7 @@
    "id": "ever",
    "displayText": "-ever",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "无论",
    "allomorphs": [
     "ever",
     "ver"
@@ -1228,7 +1228,7 @@
    "id": "ey",
    "displayText": "-ey",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "指小",
    "allomorphs": [
     "ey",
     "eye",
@@ -1267,7 +1267,7 @@
    "id": "le",
    "displayText": "-le",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "小",
    "allomorphs": [
     "le",
     "l"
@@ -1280,7 +1280,7 @@
    "id": "ics",
    "displayText": "-ics",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "学问",
    "allomorphs": [
     "ics",
     "s"
@@ -1354,7 +1354,7 @@
    "id": "selves",
    "displayText": "-selves",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "自身",
    "allomorphs": [
     "selves"
    ],
@@ -1378,7 +1378,7 @@
    "id": "et",
    "displayText": "-et",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "指小",
    "allomorphs": [
     "et",
     "t",
@@ -1477,7 +1477,7 @@
    "id": "ible",
    "displayText": "-ible",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "能…的",
    "allomorphs": [
     "ible"
    ],

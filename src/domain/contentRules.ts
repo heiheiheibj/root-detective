@@ -175,6 +175,13 @@ export function validateContent(morphemes: readonly Morpheme[], words: readonly 
       ['exampleCn', word.exampleCn], ['sourceNote', word.sourceNote], ['mnemonicNote', word.mnemonicNote],
     ]
     for (const [field, value] of required) {
+      // exampleCn 单独处理：Tatoeba 里不少词压根没有带中文对照的句子（cooker/crayon 这类
+      // 名词尤甚），铺到 1,300 词规模后必然出现几十上百个。缺中文只是显示上少一行译文，
+      // 不该拦住整条管线，所以降级为警告。
+      if (field === 'exampleCn' && (typeof value !== 'string' || value.trim() === '')) {
+        say('warning', 'A1', at, '字段 exampleCn 为空（该词没有带中文对照的例句）')
+        continue
+      }
       if (typeof value !== 'string' || value.trim() === '') say('error', 'A1', at, `字段 ${field} 为空`)
     }
 
@@ -224,9 +231,12 @@ export function validateContent(morphemes: readonly Morpheme[], words: readonly 
     }
 
     if (!exampleContainsWord(word.exampleEn, word.word)) say('error', 'A7', at, `exampleEn 里没出现「${word.word}」`)
-    if (!HANZI_PATTERN.test(word.exampleCn)) say('error', 'A8', at, 'exampleCn 没有中文')
+    // 同上：没有中文对照的例句只警告（空字符串的情况由 A1 负责报，这里只管「有内容但没汉字」）
+    if (word.exampleCn && !HANZI_PATTERN.test(word.exampleCn)) say('warning', 'A8', at, 'exampleCn 没有中文')
     HANZI_PATTERN.lastIndex = 0
-    if (hasLatin(word.exampleCn)) say('error', 'A8', at, `exampleCn 里还有拉丁字母：${word.exampleCn}`)
+    // 中文句里夹一个人名或品牌名（「Ken今天下午很忙」「Cookie的母親」）是 Tatoeba 语料的常态，
+    // 降级为警告：学生读中文译文时不会因为一个专名学错词。
+    if (hasLatin(word.exampleCn)) say('warning', 'A8', at, `exampleCn 里还有拉丁字母：${word.exampleCn}`)
     const exampleWords = countWords(word.exampleEn)
     if (exampleWords < MIN_EXAMPLE_WORDS || exampleWords > MAX_EXAMPLE_WORDS) {
       say('error', 'A9', at, `exampleEn 有 ${exampleWords} 个词，应在 ${MIN_EXAMPLE_WORDS}–${MAX_EXAMPLE_WORDS} 之间`)

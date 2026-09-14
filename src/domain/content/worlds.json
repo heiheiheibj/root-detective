@@ -279,5 +279,140 @@
       "lead",
       "port"
     ]
+  },
+  {
+    "id": "market-lane",
+    "name": "市集巷",
+    "description": "学习词根：shop、place、fair、sales、suit、fare（市集巷）",
+    "morphemeIds": [
+      "shop",
+      "place",
+      "fair",
+      "sales",
+      "suit",
+      "fare"
+    ]
+  },
+  {
+    "id": "hearth-forge",
+    "name": "炉火坊",
+    "description": "学习词根：fire、light、electric、wind、snow、wood、plant（炉火坊）",
+    "morphemeIds": [
+      "fire",
+      "light",
+      "electric",
+      "wind",
+      "snow",
+      "wood",
+      "plant"
+    ]
+  },
+  {
+    "id": "measure-terrace",
+    "name": "度量台",
+    "description": "学习词根：east、short、high、space、point、normal（度量台）",
+    "morphemeIds": [
+      "east",
+      "short",
+      "high",
+      "space",
+      "point",
+      "normal"
+    ]
+  },
+  {
+    "id": "will-hall",
+    "name": "心志堂",
+    "description": "学习词根：sist、tempt、courage、willing、firm、certain（心志堂）",
+    "morphemeIds": [
+      "sist",
+      "tempt",
+      "courage",
+      "willing",
+      "firm",
+      "certain"
+    ]
+  },
+  {
+    "id": "force-yard",
+    "name": "运力场",
+    "description": "学习词根：tend、late、miss、found、press、collect、lay、fall（运力场）",
+    "morphemeIds": [
+      "tend",
+      "late",
+      "miss",
+      "found",
+      "press",
+      "collect",
+      "lay",
+      "fall"
+    ]
+  },
+  {
+    "id": "council-chamber",
+    "name": "议事厅",
+    "description": "学习词根：present、public、social、custom、court、law、part、proper、regard（议事厅）",
+    "morphemeIds": [
+      "present",
+      "public",
+      "social",
+      "custom",
+      "court",
+      "law",
+      "part",
+      "proper",
+      "regard"
+    ]
+  },
+  {
+    "id": "reading-loft",
+    "name": "识读阁",
+    "description": "学习词根：sign、mark、distinct、consider、correct、text、detect、sight、rest（识读阁）",
+    "morphemeIds": [
+      "sign",
+      "mark",
+      "distinct",
+      "consider",
+      "correct",
+      "text",
+      "detect",
+      "sight",
+      "rest"
+    ]
+  },
+  {
+    "id": "lumber-store",
+    "name": "杂物仓",
+    "description": "学习词根：box、case、fit、load、organ、access、minim、special、fresh、main、host（杂物仓）",
+    "morphemeIds": [
+      "box",
+      "case",
+      "fit",
+      "load",
+      "organ",
+      "access",
+      "minim",
+      "special",
+      "fresh",
+      "main",
+      "host"
+    ]
+  },
+  {
+    "id": "common-lane",
+    "name": "寻常巷",
+    "description": "学习词根：a、any、it、her、app、happy、life、four、seven、six（寻常巷）",
+    "morphemeIds": [
+      "a",
+      "any",
+      "it",
+      "her",
+      "app",
+      "happy",
+      "life",
+      "four",
+      "seven",
+      "six"
+    ]
   }
 ]

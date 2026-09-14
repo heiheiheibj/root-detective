@@ -119,13 +119,16 @@ function makeDistractors(ownIds, wordId) {
 const generated = []
 const missingProse = []
 const missingExample = []
+const skippedNoSplit = []
 for (const c of candidates.words) {
   const id = c.id
   if (canaryMap.has(id)) continue // canary 后面整体并入
   const sp = splitMap.get(id)
   const pr = proseMap.get(id)
   const ex = exampleMap.get(id)
-  if (!sp) { console.error(`✗ 缺 split：${id}`); process.exit(1) }
+  // 21 号会把「没有 root 词素」的词丢掉（within/wherever/wisdom 这类复合词或功能词派生），
+  // 而 20 号的候选列表里没有这个信息 —— 这里缺 split 属于正常筛除，跳过即可。
+  if (!sp) { skippedNoSplit.push(id); continue }
   if (!pr) missingProse.push(id)
   if (!ex || !ex.exampleCn) missingExample.push(id)
   const parts = sp.parts.map((p) => ({
