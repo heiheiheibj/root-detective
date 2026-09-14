@@ -1,483 +1,723 @@
 {
- "_comment": "Stage 3 待写释义（batch-16，本批 60 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "_comment": "Stage 3 待写释义（batch-16，本批 60 词，高考批第 9 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
  "importance": {
-  "modernMeaningCn": "重要",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "重要性",
+  "literalMeaningCn": "有分量的性质",
+  "metaphorMeaningCn": "重要性、重大",
+  "metaphorOptions": [
+   "重要性、重大",
+   "琐碎",
+   "无关紧要"
+  ],
+  "mnemonicNote": "import(带入)+ance：掂在手里就觉得压手",
+  "sourceNote": "拉丁 importare，in-(入) + portare(携带)"
  },
  "important": {
   "modernMeaningCn": "重要的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "有分量的",
+  "metaphorMeaningCn": "重要的、重大的",
+  "metaphorOptions": [
+   "重要的、重大的",
+   "琐碎的",
+   "可有可无的"
+  ],
+  "mnemonicNote": "import(带入)+ant：一件事压在心里放不下",
+  "sourceNote": "中世纪拉丁 importans，importare(带入、有关系)"
  },
  "impossible": {
   "modernMeaningCn": "不可能的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "做不到的",
+  "metaphorMeaningCn": "不可能的、无法忍受的",
+  "metaphorOptions": [
+   "不可能的、无法忍受的",
+   "轻而易举的",
+   "手到擒来的"
+  ],
+  "mnemonicNote": "im(不)+possible(能)：这条路从一开始就走不通",
+  "sourceNote": "拉丁 impossibilis，im-(不) + possibilis(可能的)"
  },
  "impress": {
-  "modernMeaningCn": "印象",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "使印象深刻",
+  "literalMeaningCn": "往里面压",
+  "metaphorMeaningCn": "使铭记、给…印象",
+  "metaphorOptions": [
+   "使铭记、给…印象",
+   "使人淡忘",
+   "无动于衷"
+  ],
+  "mnemonicNote": "im(内)+press(压)：拿印章在心上摁出个深印",
+  "sourceNote": "拉丁 imprimere，in-(入) + premere(压)"
  },
  "impression": {
   "modernMeaningCn": "印象",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "压出来的印痕",
+  "metaphorMeaningCn": "印象、感想",
+  "metaphorOptions": [
+   "印象、感想",
+   "空白",
+   "遗忘"
+  ],
+  "mnemonicNote": "impress(压出印)+ion：见过一面后心里留下的那点痕",
+  "sourceNote": "拉丁 impressio，imprimere(压入)"
  },
  "improve": {
-  "modernMeaningCn": "改良",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "改进",
+  "literalMeaningCn": "往好里做",
+  "metaphorMeaningCn": "改进、提高",
+  "metaphorOptions": [
+   "改进、提高",
+   "弄糟",
+   "退步"
+  ],
+  "mnemonicNote": "im(内)+prove(好)：一点点把它往好里挪",
+  "sourceNote": "古法语 emprower，en-(使) + prou(有利)"
  },
  "incorrect": {
-  "modernMeaningCn": "不正确的法不正确",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "不正确的",
+  "literalMeaningCn": "没摆正的",
+  "metaphorMeaningCn": "不正确的、错误的",
+  "metaphorOptions": [
+   "不正确的、错误的",
+   "准确无误的",
+   "分毫不差的"
+  ],
+  "mnemonicNote": "in(不)+correct(正确)：歪着放，对不上那条基准线",
+  "sourceNote": "拉丁 incorrectus，in-(不) + corrigere(改正)"
  },
  "indeed": {
   "modernMeaningCn": "的确",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "事实上就是",
+  "metaphorMeaningCn": "的确、确实",
+  "metaphorOptions": [
+   "的确、确实",
+   "未必如此",
+   "纯属空谈"
+  ],
+  "mnemonicNote": "in(在)+deed(事实)：把事摆出来，一点不含糊",
+  "sourceNote": "中古英语 in dede，字面「在事实中」"
  },
  "independent": {
-  "modernMeaningCn": "独立自主者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "独立的",
+  "literalMeaningCn": "不靠别人的",
+  "metaphorMeaningCn": "独立的、自主的",
+  "metaphorOptions": [
+   "独立的、自主的",
+   "依附他人的",
+   "仰人鼻息的"
+  ],
+  "mnemonicNote": "in(不)+dependent(依赖)：自己站着，不用扶",
+  "sourceNote": "in-(不) + 拉丁 dependere(依赖)"
  },
  "indian": {
-  "modernMeaningCn": "印度人",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "印度的",
+  "literalMeaningCn": "印度河边的",
+  "metaphorMeaningCn": "印度人、印度的",
+  "metaphorOptions": [
+   "印度人、印度的",
+   "阿拉伯人",
+   "波斯人"
+  ],
+  "mnemonicNote": "ind(印度)+ian：恒河两岸那片古国的人",
+  "sourceNote": "波斯 Hindu，源自梵语 sindhu(河流)"
  },
  "industry": {
-  "modernMeaningCn": "勤劳",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "工业",
+  "literalMeaningCn": "埋头苦干",
+  "metaphorMeaningCn": "工业、行业",
+  "metaphorOptions": [
+   "工业、行业",
+   "农闲",
+   "无所事事"
+  ],
+  "mnemonicNote": "indus(内)+try：一群人挤在厂房里赶工那股劲",
+  "sourceNote": "拉丁 industria(勤勉)，ind-(在内) + struere(建造)"
  },
  "inform": {
   "modernMeaningCn": "通知",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "使他知道",
+  "metaphorMeaningCn": "通知、告知",
+  "metaphorOptions": [
+   "通知、告知",
+   "隐瞒",
+   "封锁消息"
+  ],
+  "mnemonicNote": "in(进入)+form(形状)：把事情的样子装进他脑子里",
+  "sourceNote": "拉丁 informare，in-(入) + forma(形状)"
  },
  "insert": {
-  "modernMeaningCn": "插入物插入",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "插入",
+  "literalMeaningCn": "放进去",
+  "metaphorMeaningCn": "插入、嵌入",
+  "metaphorOptions": [
+   "插入、嵌入",
+   "抽出",
+   "拔除"
+  ],
+  "mnemonicNote": "in(进入)+sert(放置)：把卡片塞进那本书里",
+  "sourceNote": "拉丁 inserere，in-(入) + serere(放置、连接)"
  },
  "inspire": {
-  "modernMeaningCn": "使感动",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "激励",
+  "literalMeaningCn": "吹进一口气",
+  "metaphorMeaningCn": "激励、启发",
+  "metaphorOptions": [
+   "激励、启发",
+   "打击",
+   "挫伤"
+  ],
+  "mnemonicNote": "in(进入)+spire(呼吸)：往人心里渡一口气",
+  "sourceNote": "拉丁 inspirare，in-(入) + spirare(呼吸)"
  },
  "instead": {
-  "modernMeaningCn": "作为替代",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "代替",
+  "literalMeaningCn": "占那个位置",
+  "metaphorMeaningCn": "代替、反而",
+  "metaphorOptions": [
+   "代替、反而",
+   "照着原样",
+   "一模一样"
+  ],
+  "mnemonicNote": "in(在)+stead(位置)：站到它本该在的那个位子上",
+  "sourceNote": "中古英语 in stede，stede(位置)"
  },
  "institution": {
   "modernMeaningCn": "机构",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "立起来的组织",
+  "metaphorMeaningCn": "机构、制度",
+  "metaphorOptions": [
+   "机构、制度",
+   "临时摊子",
+   "散兵游勇"
+  ],
+  "mnemonicNote": "institut(设立)+ion：立在那儿一直不倒的那一套",
+  "sourceNote": "拉丁 institutio，instituere(设立)"
  },
  "instruction": {
-  "modernMeaningCn": "指令",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "指导",
+  "literalMeaningCn": "教给他的东西",
+  "metaphorMeaningCn": "指导、说明",
+  "metaphorOptions": [
+   "指导、说明",
+   "放任",
+   "自作主张"
+  ],
+  "mnemonicNote": "instruct(教导)+ion：一条条告诉你该怎么下手",
+  "sourceNote": "拉丁 instructio，instruere(装备、教导)"
  },
  "insurance": {
   "modernMeaningCn": "保险",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "保平安的办法",
+  "metaphorMeaningCn": "保险、保险费",
+  "metaphorOptions": [
+   "保险、保险费",
+   "赌博",
+   "空口保证"
+  ],
+  "mnemonicNote": "insur(使安全)+ance：先交一笔，出了事有人兜",
+  "sourceNote": "古法语 enseurance，enseurer(使安全)"
  },
  "intention": {
   "modernMeaningCn": "意图",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "心里绷着的方向",
+  "metaphorMeaningCn": "意图、打算",
+  "metaphorOptions": [
+   "意图、打算",
+   "无心之举",
+   "临时起意"
+  ],
+  "mnemonicNote": "intent(专注)+ion：心思早朝着那边使劲了",
+  "sourceNote": "拉丁 intentio，intendere(伸向、专注)"
  },
  "interesting": {
   "modernMeaningCn": "有趣的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "勾住人的",
+  "metaphorMeaningCn": "有趣的、引人入胜的",
+  "metaphorOptions": [
+   "有趣的、引人入胜的",
+   "枯燥的",
+   "味同嚼蜡的"
+  ],
+  "mnemonicNote": "interest(牵挂)+ing：一听开头就舍不得走",
+  "sourceNote": "拉丁 interesse(在中间、有关系) + -ing"
  },
  "international": {
-  "modernMeaningCn": "国际的国别设定计",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "国际的",
+  "literalMeaningCn": "国与国之间的",
+  "metaphorMeaningCn": "国际的、世界的",
+  "metaphorOptions": [
+   "国际的、世界的",
+   "国内的",
+   "本地的"
+  ],
+  "mnemonicNote": "inter(之间)+national(国家的)：跨过国界那一段",
+  "sourceNote": "inter-(之间) + 拉丁 natio(民族)"
  },
  "internet": {
-  "modernMeaningCn": "计因特网",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "互联网",
+  "literalMeaningCn": "网与网相连",
+  "metaphorMeaningCn": "互联网、因特网",
+  "metaphorOptions": [
+   "互联网、因特网",
+   "局域网",
+   "单机"
+  ],
+  "mnemonicNote": "inter(之间)+net(网)：把各地的网互相扣起来",
+  "sourceNote": "inter-(之间) + net(网)，1970 年代造词"
  },
  "interpreter": {
-  "modernMeaningCn": "直译程序",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "口译员",
+  "literalMeaningCn": "替人说明的人",
+  "metaphorMeaningCn": "口译员、解释程序",
+  "metaphorOptions": [
+   "口译员、解释程序",
+   "发言人",
+   "记录员"
+  ],
+  "mnemonicNote": "interpret(解释)+er(人)：两边的话都经他嘴里过一道",
+  "sourceNote": "拉丁 interpres，inter-(之间) + pretium(价格、说合)"
  },
  "interrupt": {
   "modernMeaningCn": "中断",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "从中间打断",
+  "metaphorMeaningCn": "中断、打扰",
+  "metaphorOptions": [
+   "中断、打扰",
+   "一路顺畅",
+   "接着说下去"
+  ],
+  "mnemonicNote": "inter(之间)+rupt(断裂)：话说一半被人接了下半句",
+  "sourceNote": "拉丁 interrumpere，inter-(之间) + rumpere(断)"
  },
  "interval": {
   "modernMeaningCn": "间隔",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "两堵墙之间",
+  "metaphorMeaningCn": "间隔、幕间",
+  "metaphorOptions": [
+   "间隔、幕间",
+   "紧挨着",
+   "连成一片"
+  ],
+  "mnemonicNote": "inter(之间)+val(墙)：两段东西中间空出来的那截",
+  "sourceNote": "拉丁 intervallum，inter-(之间) + vallum(壁垒)"
  },
  "introduce": {
   "modernMeaningCn": "介绍",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "把人引进来",
+  "metaphorMeaningCn": "介绍、引进",
+  "metaphorOptions": [
+   "介绍、引进",
+   "隐瞒不提",
+   "拒之门外"
+  ],
+  "mnemonicNote": "intro(向内)+duce(引导)：牵着新人的手带进门",
+  "sourceNote": "拉丁 introducere，intro-(向内) + ducere(引导)"
  },
  "invention": {
   "modernMeaningCn": "发明",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "想出来的东西",
+  "metaphorMeaningCn": "发明、虚构",
+  "metaphorOptions": [
+   "发明、虚构",
+   "仿制",
+   "拾人牙慧"
+  ],
+  "mnemonicNote": "invent(想出)+ion：脑子里凭空冒出来的新玩意",
+  "sourceNote": "拉丁 inventio，invenire(找到、想出)"
  },
  "inventor": {
-  "modernMeaningCn": "发明家法发明人",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "发明家",
+  "literalMeaningCn": "想出东西的人",
+  "metaphorMeaningCn": "发明家、发明者",
+  "metaphorOptions": [
+   "发明家、发明者",
+   "模仿者",
+   "使用者"
+  ],
+  "mnemonicNote": "invent(想出)+or(人)：别人没见过的东西从他手里出来",
+  "sourceNote": "拉丁 inventor，invenire(想出)"
  },
  "invitation": {
   "modernMeaningCn": "邀请",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "请人来的话",
+  "metaphorMeaningCn": "邀请、请柬",
+  "metaphorOptions": [
+   "邀请、请柬",
+   "逐客令",
+   "拒信"
+  ],
+  "mnemonicNote": "invit(相邀)+ation：一张片子递过来，请你赏光",
+  "sourceNote": "拉丁 invitatio，invitare(相邀)"
  },
  "itself": {
-  "modernMeaningCn": "它本身",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "它自己",
+  "literalMeaningCn": "它本物",
+  "metaphorMeaningCn": "它自己、它本身",
+  "metaphorOptions": [
+   "它自己、它本身",
+   "别的东西",
+   "其他一切"
+  ],
+  "mnemonicNote": "it(它)+self(自身)：说的就是它，不牵扯旁的",
+  "sourceNote": "古英语 hit self，it + self"
  },
  "japan": {
-  "modernMeaningCn": "日本化天然漆",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "日本",
+  "literalMeaningCn": "漆器之邦",
+  "metaphorMeaningCn": "日本、日本漆器",
+  "metaphorOptions": [
+   "日本、日本漆器",
+   "朝鲜",
+   "越南"
+  ],
+  "mnemonicNote": "jap(漆)+an：欧洲人最早从那儿买到的漆器",
+  "sourceNote": "马来语 Japang，经葡萄牙语传入欧洲"
  },
  "japanese": {
-  "modernMeaningCn": "日本人",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "日本的",
+  "literalMeaningCn": "日本的",
+  "metaphorMeaningCn": "日本人、日语",
+  "metaphorOptions": [
+   "日本人、日语",
+   "韩国人",
+   "越南人"
+  ],
+  "mnemonicNote": "japan(日本)+ese(…人/语)：隔海那串岛上的人",
+  "sourceNote": "日语 Nihon(日本) 经马来语转译"
  },
  "jewelry": {
   "modernMeaningCn": "珠宝",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "宝石饰物",
+  "metaphorMeaningCn": "珠宝、首饰",
+  "metaphorOptions": [
+   "珠宝、首饰",
+   "粗布",
+   "铜器"
+  ],
+  "mnemonicNote": "jewel(宝石)+ry：一盒子亮闪闪、锁在柜里的",
+  "sourceNote": "古法语 joel(宝石)，拉丁 jocale(玩物)"
  },
  "journalist": {
-  "modernMeaningCn": "新闻记者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "记者",
+  "literalMeaningCn": "办报的人",
+  "metaphorMeaningCn": "记者、新闻工作者",
+  "metaphorOptions": [
+   "记者、新闻工作者",
+   "读者",
+   "排字工"
+  ],
+  "mnemonicNote": "journal(日报)+ist(人)：天天往现场跑、回来赶稿那位",
+  "sourceNote": "古法语 journal(每日的)，拉丁 diurnalis"
  },
  "keeper": {
-  "modernMeaningCn": "监护人",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "看守人",
+  "literalMeaningCn": "看管的人",
+  "metaphorMeaningCn": "看守人、守门员",
+  "metaphorOptions": [
+   "看守人、守门员",
+   "闯入者",
+   "过路人"
+  ],
+  "mnemonicNote": "keep(看守)+er(人)：钥匙挂在他腰上",
+  "sourceNote": "古英语 cepan(看守) + -er"
  },
  "kingdom": {
   "modernMeaningCn": "王国",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "国王管的疆域",
+  "metaphorMeaningCn": "王国、领域",
+  "metaphorOptions": [
+   "王国、领域",
+   "荒原",
+   "无主之地"
+  ],
+  "mnemonicNote": "king(国王)+dom(领地)：一纸敕令划到边的那些地",
+  "sourceNote": "古英语 cyningdom，cyning(王) + -dom(领域)"
  },
  "kitchen": {
   "modernMeaningCn": "厨房",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "做饭的地方",
+  "metaphorMeaningCn": "厨房、灶间",
+  "metaphorOptions": [
+   "厨房、灶间",
+   "客厅",
+   "书房"
+  ],
+  "mnemonicNote": "kit(灶)+chen：一进门就是油烟和饭香那间",
+  "sourceNote": "古英语 cycene，拉丁 coquina(灶房)"
  },
  "knowledge": {
   "modernMeaningCn": "知识",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "知道的东西",
+  "metaphorMeaningCn": "知识、学识",
+  "metaphorOptions": [
+   "知识、学识",
+   "愚昧",
+   "无知"
+  ],
+  "mnemonicNote": "know(知道)+ledge：一样样装进脑子里的那些",
+  "sourceNote": "中古英语 knowlechen(认识)，know + -ledge"
  },
  "labourer": {
   "modernMeaningCn": "劳动者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "出力气的人",
+  "metaphorMeaningCn": "劳动者、体力工人",
+  "metaphorOptions": [
+   "劳动者、体力工人",
+   "雇主",
+   "监工"
+  ],
+  "mnemonicNote": "labour(劳作)+er(人)：太阳底下扛活那位",
+  "sourceNote": "拉丁 laborare(劳作) + -er(人)"
  },
  "lantern": {
   "modernMeaningCn": "灯笼",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "提着照路的灯",
+  "metaphorMeaningCn": "灯笼、提灯",
+  "metaphorOptions": [
+   "灯笼、提灯",
+   "火把",
+   "手电"
+  ],
+  "mnemonicNote": "lan(灯)+tern：纸糊的罩子里那点火苗",
+  "sourceNote": "拉丁 lanterna，希腊 lamptér(灯)"
  },
  "lately": {
-  "modernMeaningCn": "近来",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "最近",
+  "literalMeaningCn": "直到近日",
+  "metaphorMeaningCn": "最近、近来",
+  "metaphorOptions": [
+   "最近、近来",
+   "很久以前",
+   "亘古以来"
+  ],
+  "mnemonicNote": "late(近日)+ly：掐着指头数得过来的这几天",
+  "sourceNote": "古英语 læt(迟) + -lice"
  },
  "latter": {
   "modernMeaningCn": "后者的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "靠后那个",
+  "metaphorMeaningCn": "后者的、后半的",
+  "metaphorOptions": [
+   "后者的、后半的",
+   "前者的",
+   "开头的"
+  ],
+  "mnemonicNote": "latt(晚)+er(比较)：两个里排在后面那一位",
+  "sourceNote": "古英语 lætra，læt(迟) 的比较级"
  },
  "laughter": {
-  "modernMeaningCn": "笑",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "笑声",
+  "literalMeaningCn": "笑出的声响",
+  "metaphorMeaningCn": "笑声、笑",
+  "metaphorOptions": [
+   "笑声、笑",
+   "哭声",
+   "叹息"
+  ],
+  "mnemonicNote": "laugh(笑)+ter：一屋子人笑得前仰后合那片动静",
+  "sourceNote": "古英语 hleahtor，hlihhan(笑)"
  },
  "lawyer": {
-  "modernMeaningCn": "律师经律师",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "律师",
+  "literalMeaningCn": "熟法条的人",
+  "metaphorMeaningCn": "律师",
+  "metaphorOptions": [
+   "律师",
+   "法官",
+   "当事人"
+  ],
+  "mnemonicNote": "law(法律)+yer(人)：厚厚一摞条文背得滚瓜烂熟",
+  "sourceNote": "中古英语 law(法律) + -yer"
  },
  "leading": {
-  "modernMeaningCn": "领导",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "领先的",
+  "literalMeaningCn": "走在头里的",
+  "metaphorMeaningCn": "领先的、主要的",
+  "metaphorOptions": [
+   "领先的、主要的",
+   "落后的",
+   "跟随的"
+  ],
+  "mnemonicNote": "lead(带领)+ing：队伍最前面那个背影",
+  "sourceNote": "古英语 lædan(带领) + -ing"
  },
  "learned": {
-  "modernMeaningCn": "有学问的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "博学的",
+  "literalMeaningCn": "学出来的",
+  "metaphorMeaningCn": "博学的、有学问的",
+  "metaphorOptions": [
+   "博学的、有学问的",
+   "目不识丁的",
+   "才疏学浅的"
+  ],
+  "mnemonicNote": "learn(习得)+ed：书架上一排排翻旧的书撑起来的名声",
+  "sourceNote": "古英语 leornian(学习) + -ed"
  },
  "leftover": {
-  "modernMeaningCn": "剩货",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "剩余的",
+  "literalMeaningCn": "剩下没吃完的",
+  "metaphorMeaningCn": "剩余的、剩饭菜",
+  "metaphorOptions": [
+   "剩余的、剩饭菜",
+   "刚出锅的",
+   "新添的"
+  ],
+  "mnemonicNote": "left(留下)+over(超过)：吃不完留在盘里那点",
+  "sourceNote": "英语复合词，left + over"
  },
  "liberation": {
-  "modernMeaningCn": "释放",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "解放",
+  "literalMeaningCn": "放出来的行为",
+  "metaphorMeaningCn": "解放、释放",
+  "metaphorOptions": [
+   "解放、释放",
+   "囚禁",
+   "束缚"
+  ],
+  "mnemonicNote": "liberat(使自由)+ion：把绑着的绳子一刀割开",
+  "sourceNote": "拉丁 liberatio，liberare(使自由)"
  },
  "librarian": {
-  "modernMeaningCn": "图书馆员",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "图书管理员",
+  "literalMeaningCn": "管书的人",
+  "metaphorMeaningCn": "图书管理员、图书馆员",
+  "metaphorOptions": [
+   "图书管理员、图书馆员",
+   "借书人",
+   "出版商"
+  ],
+  "mnemonicNote": "librari(藏书楼)+an(人)：一排排架子上的书都经他手",
+  "sourceNote": "拉丁 librarius(与书有关的)，liber(书)"
  },
  "lifetime": {
   "modernMeaningCn": "一生",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "生命的全长",
+  "metaphorMeaningCn": "一生、终生",
+  "metaphorOptions": [
+   "一生、终生",
+   "一年半载",
+   "朝夕之间"
+  ],
+  "mnemonicNote": "life(生命)+time(时间)：从落地到闭眼那段长度",
+  "sourceNote": "英语复合词，life + time"
  },
  "lightning": {
-  "modernMeaningCn": "闪电闪电闪电的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "闪电",
+  "literalMeaningCn": "一瞬的亮",
+  "metaphorMeaningCn": "闪电、电光",
+  "metaphorOptions": [
+   "闪电、电光",
+   "浓雾",
+   "细雨"
+  ],
+  "mnemonicNote": "lightn(照亮)+ing：乌云里忽然劈下来那道光",
+  "sourceNote": "中古英语 lightnen(照亮)，light(光)"
  },
  "little": {
-  "modernMeaningCn": "一点点",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "小的",
+  "literalMeaningCn": "一点点",
+  "metaphorMeaningCn": "小的、少的",
+  "metaphorOptions": [
+   "小的、少的",
+   "硕大的",
+   "成堆的"
+  ],
+  "mnemonicNote": "litt(小)+le：伸手一捧就够装下",
+  "sourceNote": "古英语 lytel(小)"
  },
  "lively": {
   "modernMeaningCn": "活泼的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "活气十足的",
+  "metaphorMeaningCn": "活泼的、生动的",
+  "metaphorOptions": [
+   "活泼的、生动的",
+   "死气沉沉的",
+   "呆板的"
+  ],
+  "mnemonicNote": "live(活)+ly：坐不住、一说就笑那种",
+  "sourceNote": "古英语 liflic，lif(生命) + -lic"
  },
  "living": {
   "modernMeaningCn": "生活",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "活着的状态",
+  "metaphorMeaningCn": "生活、生计",
+  "metaphorOptions": [
+   "生活、生计",
+   "去世",
+   "停止"
+  ],
+  "mnemonicNote": "liv(活)+ing：一天天接着过下去的那些事",
+  "sourceNote": "古英语 lifian(活着) + -ing"
  },
  "lonely": {
-  "modernMeaningCn": "孤单的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "孤独的",
+  "literalMeaningCn": "独自一个的",
+  "metaphorMeaningCn": "孤独的、偏僻的",
+  "metaphorOptions": [
+   "孤独的、偏僻的",
+   "热闹的",
+   "成群结队的"
+  ],
+  "mnemonicNote": "lone(单独)+ly：屋里只有自己一个人的影子",
+  "sourceNote": "中古英语 lone(单独) + -ly"
  },
  "loudly": {
-  "modernMeaningCn": "高声地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "大声地",
+  "literalMeaningCn": "以响亮的方式",
+  "metaphorMeaningCn": "大声地、响亮地",
+  "metaphorOptions": [
+   "大声地、响亮地",
+   "轻声细语地",
+   "含含糊糊地"
+  ],
+  "mnemonicNote": "loud(响)+ly：隔着两条街也能听见",
+  "sourceNote": "古英语 hlud(响) + -lice"
  },
  "loudspeaker": {
-  "modernMeaningCn": "扩音器",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "扬声器",
+  "literalMeaningCn": "把声音放大之物",
+  "metaphorMeaningCn": "扬声器、喇叭",
+  "metaphorOptions": [
+   "扬声器、喇叭",
+   "听筒",
+   "耳机"
+  ],
+  "mnemonicNote": "loud(响)+speaker(发声器)：挂在杆子上喊话那个盒子",
+  "sourceNote": "英语复合词，loud + speaker"
  },
  "lovely": {
   "modernMeaningCn": "可爱的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "让人喜爱的",
+  "metaphorMeaningCn": "可爱的、美好的",
+  "metaphorOptions": [
+   "可爱的、美好的",
+   "可憎的",
+   "令人反感的"
+  ],
+  "mnemonicNote": "love(爱)+ly：看一眼就想伸手抱一下",
+  "sourceNote": "古英语 luflic，lufu(爱) + -lic"
  },
  "luggage": {
   "modernMeaningCn": "行李",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "拖着走的东西",
+  "metaphorMeaningCn": "行李、行装",
+  "metaphorOptions": [
+   "行李、行装",
+   "随身小物",
+   "轻装"
+  ],
+  "mnemonicNote": "lugg(拖拽)+age：箱子上那两个轮子一路响",
+  "sourceNote": "古诺尔斯语 lugge(拖、拉) + -age"
  },
  "mailbox": {
-  "modernMeaningCn": "邮筒",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "邮箱",
+  "literalMeaningCn": "收信的箱子",
+  "metaphorMeaningCn": "邮箱、信箱",
+  "metaphorOptions": [
+   "邮箱、信箱",
+   "垃圾桶",
+   "储物柜"
+  ],
+  "mnemonicNote": "mail(信件)+box(箱)：钉在门口等投递那个铁皮盒",
+  "sourceNote": "英语复合词，mail + box"
  }
 }
