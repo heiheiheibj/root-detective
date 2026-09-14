@@ -1,483 +1,723 @@
 {
- "_comment": "Stage 3 待写释义（batch-22，本批 60 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "_comment": "Stage 3 待写释义（batch-22，本批 60 词，高考批第 15 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
  "suitcase": {
   "modernMeaningCn": "手提箱",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "装衣物的箱子",
+  "metaphorMeaningCn": "手提箱、行李箱",
+  "metaphorOptions": [
+   "手提箱、行李箱",
+   "背包",
+   "纸箱"
+  ],
+  "mnemonicNote": "suit(套装)+case(箱)：出差前把衣服码进的方箱子",
+  "sourceNote": "英语复合词，suit(套装) + case(箱)"
  },
  "summary": {
   "modernMeaningCn": "摘要",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "抓总的几句话",
+  "metaphorMeaningCn": "摘要、总结",
+  "metaphorOptions": [
+   "摘要、总结",
+   "全文",
+   "细节"
+  ],
+  "mnemonicNote": "sum(总和)+mary：把一大篇掐头去尾只剩要点",
+  "sourceNote": "拉丁 summarium，summa(总和)"
  },
  "summer": {
-  "modernMeaningCn": "夏季",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "夏天",
+  "literalMeaningCn": "最热那一季",
+  "metaphorMeaningCn": "夏天、夏季",
+  "metaphorOptions": [
+   "夏天、夏季",
+   "严冬",
+   "深秋"
+  ],
+  "mnemonicNote": "summ(夏)+er：蝉叫得最凶那几个月",
+  "sourceNote": "古英语 sumor，与梵语 sama(季节) 同源"
  },
  "sunglasses": {
   "modernMeaningCn": "太阳镜",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "挡太阳的镜",
+  "metaphorMeaningCn": "太阳镜、墨镜",
+  "metaphorOptions": [
+   "太阳镜、墨镜",
+   "近视镜",
+   "护目镜"
+  ],
+  "mnemonicNote": "sun(太阳)+glasses(镜)：大太阳底下架在鼻梁上那副",
+  "sourceNote": "英语复合词，sun + glasses"
  },
  "sunlight": {
-  "modernMeaningCn": "日光医日光",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "日光",
+  "literalMeaningCn": "太阳洒下的光",
+  "metaphorMeaningCn": "日光、阳光",
+  "metaphorOptions": [
+   "日光、阳光",
+   "月色",
+   "灯火"
+  ],
+  "mnemonicNote": "sun(太阳)+light(光)：从早晒到晚那一片亮",
+  "sourceNote": "英语复合词，sun + light"
  },
  "sunrise": {
   "modernMeaningCn": "日出",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "太阳升上来",
+  "metaphorMeaningCn": "日出、黎明",
+  "metaphorOptions": [
+   "日出、黎明",
+   "黄昏",
+   "深夜"
+  ],
+  "mnemonicNote": "sun(太阳)+rise(升起)：东边天刚泛白那一刻",
+  "sourceNote": "英语复合词，sun + rise"
  },
  "sunset": {
   "modernMeaningCn": "日落",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "太阳沉下去",
+  "metaphorMeaningCn": "日落、黄昏",
+  "metaphorOptions": [
+   "日落、黄昏",
+   "破晓",
+   "正午"
+  ],
+  "mnemonicNote": "sun(太阳)+set(落下)：日头沉到山后那阵子",
+  "sourceNote": "英语复合词，sun + set"
  },
  "sunshine": {
   "modernMeaningCn": "阳光",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "太阳照着",
+  "metaphorMeaningCn": "阳光、晴朗",
+  "metaphorOptions": [
+   "阳光、晴朗",
+   "阴雨",
+   "浓雾"
+  ],
+  "mnemonicNote": "sun(太阳)+shine(照耀)：晒得人睁不开眼那种天气",
+  "sourceNote": "英语复合词，sun + shine"
  },
  "supermarket": {
-  "modernMeaningCn": "超级市场经超级市",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "超市",
+  "literalMeaningCn": "规模大的市场",
+  "metaphorMeaningCn": "超级市场、超市",
+  "metaphorOptions": [
+   "超级市场、超市",
+   "专卖店",
+   "露天集市"
+  ],
+  "mnemonicNote": "super(超级)+market(市场)：推着车自己挑那种大店",
+  "sourceNote": "英语复合词，super-(超级) + market"
  },
  "supply": {
-  "modernMeaningCn": "补给",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "供应",
+  "literalMeaningCn": "把缺的填上",
+  "metaphorMeaningCn": "供应、补给",
+  "metaphorOptions": [
+   "供应、补给",
+   "断绝",
+   "耗空"
+  ],
+  "mnemonicNote": "suppl(填满)+y：缺什么就往里补什么",
+  "sourceNote": "拉丁 supplere，sub-(在下) + plere(填满)"
  },
  "support": {
   "modernMeaningCn": "支持",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "从下面托住",
+  "metaphorMeaningCn": "支持、支撑",
+  "metaphorOptions": [
+   "支持、支撑",
+   "拆台",
+   "推倒"
+  ],
+  "mnemonicNote": "sup(在下)+port(搬运)：在底下使着劲不让它塌",
+  "sourceNote": "拉丁 supportare，sub-(在下) + portare(搬)"
  },
  "suppose": {
-  "modernMeaningCn": "推想",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "猜想",
+  "literalMeaningCn": "先在底下放个前提",
+  "metaphorMeaningCn": "猜想、假设",
+  "metaphorOptions": [
+   "猜想、假设",
+   "确知",
+   "亲眼所见"
+  ],
+  "mnemonicNote": "sup(在下)+pose(放)：先在下面垫一个想当然的前提",
+  "sourceNote": "拉丁 supponere，sub-(在下) + ponere(放)"
  },
  "surround": {
   "modernMeaningCn": "包围",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "从四面绕住",
+  "metaphorMeaningCn": "包围、环绕",
+  "metaphorOptions": [
+   "包围、环绕",
+   "散开",
+   "突围而出"
+  ],
+  "mnemonicNote": "sur(在上)+round(绕圈)：一圈人把它围在当中",
+  "sourceNote": "古法语 suronder，sur-(在上) + unda(波浪)"
  },
  "surrounding": {
-  "modernMeaningCn": "环境周围的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "周围的",
+  "literalMeaningCn": "围着的那一圈",
+  "metaphorMeaningCn": "周围的、环境",
+  "metaphorOptions": [
+   "周围的、环境",
+   "正中央",
+   "远方"
+  ],
+  "mnemonicNote": "surround(环绕)+ing：前后左右那一片全算上",
+  "sourceNote": "古法语 suronder(漫过、环绕) + -ing"
  },
  "survival": {
   "modernMeaningCn": "生存",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "活下来的本事",
+  "metaphorMeaningCn": "生存、幸存",
+  "metaphorOptions": [
+   "生存、幸存",
+   "灭亡",
+   "绝迹"
+  ],
+  "mnemonicNote": "surviv(活得比…久)+al：风浪里最后还站着",
+  "sourceNote": "古法语 survivre，sur-(超过) + vivre(活)"
  },
  "suspect": {
-  "modernMeaningCn": "被怀疑者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "怀疑",
+  "literalMeaningCn": "从下往上打量",
+  "metaphorMeaningCn": "怀疑、嫌疑犯",
+  "metaphorOptions": [
+   "怀疑、嫌疑犯",
+   "确信",
+   "亲眼证实"
+  ],
+  "mnemonicNote": "sus(在下)+pect(看)：斜着眼从下往上把人打量一遍",
+  "sourceNote": "拉丁 suspicere，sub-(在下) + specere(看)"
  },
  "sweater": {
   "modernMeaningCn": "毛衣",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "穿上会出汗的",
+  "metaphorMeaningCn": "毛衣、针织衫",
+  "metaphorOptions": [
+   "毛衣、针织衫",
+   "短袖",
+   "薄衬衫"
+  ],
+  "mnemonicNote": "sweat(出汗)+er(物)：冬天裹上就冒汗那件",
+  "sourceNote": "古英语 swætan(出汗) + -er"
  },
  "swimming": {
   "modernMeaningCn": "游泳",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "在水里划动",
+  "metaphorMeaningCn": "游泳、游泳运动",
+  "metaphorOptions": [
+   "游泳、游泳运动",
+   "跑步",
+   "骑车"
+  ],
+  "mnemonicNote": "swimm(游)+ing：手臂一下下拨开水那件事",
+  "sourceNote": "古英语 swimman(游) + -ing"
  },
  "switzerland": {
   "modernMeaningCn": "瑞士",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "施维茨人的地",
+  "metaphorMeaningCn": "瑞士",
+  "metaphorOptions": [
+   "瑞士",
+   "奥地利",
+   "比利时"
+  ],
+  "mnemonicNote": "switzer(施维茨)+land(土地)：阿尔卑斯山间那个联邦",
+  "sourceNote": "德语 Schwyz(施维茨州) + land(土地)"
  },
  "systematic": {
-  "modernMeaningCn": "有系统的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "系统的",
+  "literalMeaningCn": "有条有理的",
+  "metaphorMeaningCn": "系统的、有条理的",
+  "metaphorOptions": [
+   "系统的、有条理的",
+   "杂乱无章的",
+   "信手拈来的"
+  ],
+  "mnemonicNote": "system(体系)+atic：一样样归好类，按次序来",
+  "sourceNote": "希腊 systematikos，systema(组合体)"
  },
  "tanker": {
-  "modernMeaningCn": "坦克手",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "油轮",
+  "literalMeaningCn": "装罐的船",
+  "metaphorMeaningCn": "油轮、罐车",
+  "metaphorOptions": [
+   "油轮、罐车",
+   "渔船",
+   "客轮"
+  ],
+  "mnemonicNote": "tank(大罐)+er(物)：整个船身就是一只大罐子",
+  "sourceNote": "印度来源 tank(水池) + -er，20 世纪造词"
  },
  "tasteless": {
-  "modernMeaningCn": "没味道的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "无味的",
+  "literalMeaningCn": "尝不出味的",
+  "metaphorMeaningCn": "无味的、庸俗的",
+  "metaphorOptions": [
+   "无味的、庸俗的",
+   "可口的",
+   "雅致的"
+  ],
+  "mnemonicNote": "taste(味道)+less(无)：吃一口像在嚼白水",
+  "sourceNote": "古法语 tast(味道) + -less(无)"
  },
  "teacher": {
   "modernMeaningCn": "教师",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "教书的人",
+  "metaphorMeaningCn": "教师、老师",
+  "metaphorOptions": [
+   "教师、老师",
+   "学生",
+   "校长"
+  ],
+  "mnemonicNote": "teach(教)+er(人)：站在黑板前一遍遍讲那位",
+  "sourceNote": "古英语 tæcan(教) + -er"
  },
  "teamwork": {
-  "modernMeaningCn": "协同作业",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "团队合作",
+  "literalMeaningCn": "一队人合着干",
+  "metaphorMeaningCn": "团队合作、协作",
+  "metaphorOptions": [
+   "团队合作、协作",
+   "各自为政",
+   "单打独斗"
+  ],
+  "mnemonicNote": "team(队伍)+work(干活)：你传球我投篮那套配合",
+  "sourceNote": "英语复合词，team + work"
  },
  "teapot": {
   "modernMeaningCn": "茶壶",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "沏茶的壶",
+  "metaphorMeaningCn": "茶壶、茶水壶",
+  "metaphorOptions": [
+   "茶壶、茶水壶",
+   "茶杯",
+   "咖啡壶"
+  ],
+  "mnemonicNote": "tea(茶)+pot(壶)：带嘴带盖、往杯里倒水那把",
+  "sourceNote": "英语复合词，tea + pot"
  },
  "technical": {
-  "modernMeaningCn": "技术上的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "技术的",
+  "literalMeaningCn": "与技艺有关",
+  "metaphorMeaningCn": "技术的、专业的",
+  "metaphorOptions": [
+   "技术的、专业的",
+   "艺术的",
+   "随意的"
+  ],
+  "mnemonicNote": "technic(技艺)+al：讲的全是行内那套门道",
+  "sourceNote": "希腊 tekhnikos，tekhne(技艺)"
  },
  "telegraph": {
   "modernMeaningCn": "电报",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "远距离写字",
+  "metaphorMeaningCn": "电报、电报机",
+  "metaphorOptions": [
+   "电报、电报机",
+   "电话",
+   "书信"
+  ],
+  "mnemonicNote": "tele(远)+graph(写)：靠滴答声把字送到千里外",
+  "sourceNote": "希腊 tele(远) + graphein(写)，19 世纪造词"
  },
  "temptation": {
   "modernMeaningCn": "诱惑",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "引人伸手的东西",
+  "metaphorMeaningCn": "诱惑、引诱",
+  "metaphorOptions": [
+   "诱惑、引诱",
+   "劝诫",
+   "警戒"
+  ],
+  "mnemonicNote": "tempt(试探)+ation：摆在眼前让你挪不开眼那件事",
+  "sourceNote": "拉丁 temptatio，temptare(试探)"
  },
  "tendency": {
-  "modernMeaningCn": "趋向",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "倾向",
+  "literalMeaningCn": "往那边偏的势",
+  "metaphorMeaningCn": "倾向、趋势",
+  "metaphorOptions": [
+   "倾向、趋势",
+   "反向而行",
+   "毫无规律"
+  ],
+  "mnemonicNote": "tend(伸展)+ency：像树枝总往有光那侧长",
+  "sourceNote": "中世纪拉丁 tendentia，tendere(伸展)"
  },
  "terrible": {
   "modernMeaningCn": "可怕的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "让人心惊的",
+  "metaphorMeaningCn": "可怕的、糟糕的",
+  "metaphorOptions": [
+   "可怕的、糟糕的",
+   "喜人的",
+   "令人向往的"
+  ],
+  "mnemonicNote": "terr(恐惧)+ible：光听描述心里就发紧",
+  "sourceNote": "拉丁 terribilis，terrere(使恐惧)"
  },
  "textbook": {
   "modernMeaningCn": "教科书",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "按课文编的书",
+  "metaphorMeaningCn": "教科书、课本",
+  "metaphorOptions": [
+   "教科书、课本",
+   "小说",
+   "画册"
+  ],
+  "mnemonicNote": "text(课文)+book(书)：开学时包上书皮那本",
+  "sourceNote": "拉丁 textus(编排、文本) + 古英语 boc(书)"
  },
  "thankful": {
-  "modernMeaningCn": "感谢的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "感激的",
+  "literalMeaningCn": "心里存着谢意",
+  "metaphorMeaningCn": "感激的、欣慰的",
+  "metaphorOptions": [
+   "感激的、欣慰的",
+   "满腹怨气",
+   "无动于衷的"
+  ],
+  "mnemonicNote": "thank(道谢)+ful(满)：逢人就说多亏了你那次",
+  "sourceNote": "古英语 þanc(感谢) + -ful"
  },
  "themselves": {
   "modernMeaningCn": "他们自己",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "他们本人",
+  "metaphorMeaningCn": "他们自己、他们本人",
+  "metaphorOptions": [
+   "他们自己、他们本人",
+   "旁人",
+   "所有人"
+  ],
+  "mnemonicNote": "them(他们)+selves(自身)：没劳烦别人，就是那几位",
+  "sourceNote": "中古英语 hem self，them + self"
  },
  "theoretical": {
   "modernMeaningCn": "理论的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "停在道理层面的",
+  "metaphorMeaningCn": "理论的、假设的",
+  "metaphorOptions": [
+   "理论的、假设的",
+   "实践的",
+   "实打实的"
+  ],
+  "mnemonicNote": "theoretic(思辨)+al：纸上推得通，还没上过手",
+  "sourceNote": "希腊 theoretikos，theorein(观看、思辨)"
  },
  "therefore": {
   "modernMeaningCn": "因此",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "为了那个缘故",
+  "metaphorMeaningCn": "因此、所以",
+  "metaphorOptions": [
+   "因此、所以",
+   "尽管这样",
+   "无缘无故"
+  ],
+  "mnemonicNote": "there(那个)+fore(因为)：前面那笔账推下来就是这个果",
+  "sourceNote": "中古英语 therfore，there + for"
  },
  "thinking": {
   "modernMeaningCn": "思考",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "动脑子的过程",
+  "metaphorMeaningCn": "思考、思想",
+  "metaphorOptions": [
+   "思考、思想",
+   "发呆",
+   "睡眠"
+  ],
+  "mnemonicNote": "think(想)+ing：眉头皱着在屋里来回踱步那阵",
+  "sourceNote": "古英语 þencan(想) + -ing"
  },
  "thousand": {
-  "modernMeaningCn": "千成千的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "千",
+  "literalMeaningCn": "十个百",
+  "metaphorMeaningCn": "千、成千上万",
+  "metaphorOptions": [
+   "千、成千上万",
+   "十",
+   "百"
+  ],
+  "mnemonicNote": "thou(大量)+sand：数到手酸才到头的那个数",
+  "sourceNote": "古英语 þusend"
  },
  "thriller": {
-  "modernMeaningCn": "使人激动的东西",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "惊悚片",
+  "literalMeaningCn": "让人心跳的东西",
+  "metaphorMeaningCn": "惊悚小说、惊险片",
+  "metaphorOptions": [
+   "惊悚小说、惊险片",
+   "喜剧",
+   "纪录片"
+  ],
+  "mnemonicNote": "thrill(战栗)+er(物)：看得手心冒汗那种故事",
+  "sourceNote": "古英语 þyrlian(刺穿) + -er"
  },
  "throughout": {
-  "modernMeaningCn": "到处",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "遍及",
+  "literalMeaningCn": "从头穿到尾",
+  "metaphorMeaningCn": "遍及、自始至终",
+  "metaphorOptions": [
+   "遍及、自始至终",
+   "只在开头",
+   "仅限一处"
+  ],
+  "mnemonicNote": "through(穿过)+out(外层)：屋里屋外、从头到尾全算上",
+  "sourceNote": "古英语 þurhut，þurh(穿过) + ut(出)"
  },
  "thunderstorm": {
-  "modernMeaningCn": "雷暴雨",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "雷雨",
+  "literalMeaningCn": "带雷的暴雨",
+  "metaphorMeaningCn": "雷雨、雷暴",
+  "metaphorOptions": [
+   "雷雨、雷暴",
+   "晴日",
+   "微风"
+  ],
+  "mnemonicNote": "thunder(雷)+storm(暴雨)：闪一下、轰一声、雨倒下来",
+  "sourceNote": "古英语 þunor(雷) + storm(风暴)"
  },
  "timetable": {
-  "modernMeaningCn": "时间表",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "时刻表",
+  "literalMeaningCn": "排好时间的表",
+  "metaphorMeaningCn": "时刻表、课程表",
+  "metaphorOptions": [
+   "时刻表、课程表",
+   "便签",
+   "账本"
+  ],
+  "mnemonicNote": "time(时间)+table(表)：钉在墙上那格一格的安排",
+  "sourceNote": "英语复合词，time + table"
  },
  "tomorrow": {
   "modernMeaningCn": "明天",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "下一个日子",
+  "metaphorMeaningCn": "明天、未来",
+  "metaphorOptions": [
+   "明天、未来",
+   "昨天",
+   "当下"
+  ],
+  "mnemonicNote": "to(到)+morrow(次日)：睡一觉就到那一天",
+  "sourceNote": "古英语 to morgenne，to(在) + morgen(晨)"
  },
  "totally": {
   "modernMeaningCn": "完全地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "以整体的方式",
+  "metaphorMeaningCn": "完全地、全部地",
+  "metaphorOptions": [
+   "完全地、全部地",
+   "部分地",
+   "略微"
+  ],
+  "mnemonicNote": "total(总数)+ly：一点不剩，全算进去",
+  "sourceNote": "中世纪拉丁 totalis，totus(全部)"
  },
  "tourism": {
-  "modernMeaningCn": "观光业",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "旅游业",
+  "literalMeaningCn": "游历的行当",
+  "metaphorMeaningCn": "旅游业、观光业",
+  "metaphorOptions": [
+   "旅游业、观光业",
+   "制造业",
+   "种植业"
+  ],
+  "mnemonicNote": "tour(游历)+ism：靠迎来送往吃饭那门生意",
+  "sourceNote": "法语 tourisme，tour(游历)"
  },
  "tourist": {
-  "modernMeaningCn": "观光客",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "游客",
+  "literalMeaningCn": "外出游历的人",
+  "metaphorMeaningCn": "游客、旅行者",
+  "metaphorOptions": [
+   "游客、旅行者",
+   "本地居民",
+   "导游"
+  ],
+  "mnemonicNote": "tour(游历)+ist(人)：挎着相机、手里拿着地图那位",
+  "sourceNote": "法语 touriste，tour(游历)"
  },
  "tower": {
   "modernMeaningCn": "塔",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "高高立起之物",
+  "metaphorMeaningCn": "塔、塔楼",
+  "metaphorOptions": [
+   "塔、塔楼",
+   "平房",
+   "地窖"
+  ],
+  "mnemonicNote": "tow(高耸)+er(物)：城中心那截戳得最高的",
+  "sourceNote": "古英语 torr，拉丁 turris(高耸的楼)"
  },
  "tractor": {
-  "modernMeaningCn": "牵引器",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "拖拉机",
+  "literalMeaningCn": "会拉的机器",
+  "metaphorMeaningCn": "拖拉机、牵引机",
+  "metaphorOptions": [
+   "拖拉机、牵引机",
+   "收割机",
+   "播种机"
+  ],
+  "mnemonicNote": "tract(拉)+or(物)：后面挂上犁，一路把地翻开",
+  "sourceNote": "拉丁 trahere(拉) + -or(表物)"
  },
  "traditional": {
   "modernMeaningCn": "传统的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "祖上这么来的",
+  "metaphorMeaningCn": "传统的、惯例的",
+  "metaphorOptions": [
+   "传统的、惯例的",
+   "新潮的",
+   "标新立异的"
+  ],
+  "mnemonicNote": "tradition(传承)+al：一代代照着老规矩做下来",
+  "sourceNote": "拉丁 traditio，tradere(交出、传下)"
  },
  "trainer": {
-  "modernMeaningCn": "训练员",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "教练",
+  "literalMeaningCn": "带人练的人",
+  "metaphorMeaningCn": "教练、训练员",
+  "metaphorOptions": [
+   "教练、训练员",
+   "队员",
+   "观众"
+  ],
+  "mnemonicNote": "train(训练)+er(人)：场边吹着哨子那位",
+  "sourceNote": "古法语 trainer(拖、训练) + -er"
  },
  "training": {
   "modernMeaningCn": "训练",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "反复练的过程",
+  "metaphorMeaningCn": "训练、培训",
+  "metaphorOptions": [
+   "训练、培训",
+   "休息",
+   "荒废"
+  ],
+  "mnemonicNote": "train(受训)+ing：天不亮就跑圈那几个月",
+  "sourceNote": "古法语 trainer(拖、牵引) + -ing"
  },
  "translate": {
   "modernMeaningCn": "翻译",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "把话搬过语言",
+  "metaphorMeaningCn": "翻译、转化",
+  "metaphorOptions": [
+   "翻译、转化",
+   "原文照录",
+   "搁笔不译"
+  ],
+  "mnemonicNote": "trans(越过)+late(带)：把这边的意思搬到那边去",
+  "sourceNote": "拉丁 translatus，transferre(搬过去)"
  },
  "translation": {
   "modernMeaningCn": "翻译",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "搬过去的那份文字",
+  "metaphorMeaningCn": "翻译、译文",
+  "metaphorOptions": [
+   "翻译、译文",
+   "原文",
+   "手稿"
+  ],
+  "mnemonicNote": "translat(搬运)+ion：换成另一种话写出来的那份",
+  "sourceNote": "拉丁 translatio，transferre(搬过去)"
  },
  "translator": {
-  "modernMeaningCn": "翻译者计翻译程序",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "译者",
+  "literalMeaningCn": "搬语言的人",
+  "metaphorMeaningCn": "翻译者、译员",
+  "metaphorOptions": [
+   "翻译者、译员",
+   "作者",
+   "读者"
+  ],
+  "mnemonicNote": "translat(搬运)+or(人)：两种话之间来回搬那位",
+  "sourceNote": "拉丁 translator，transferre(搬过去)"
  },
  "transport": {
   "modernMeaningCn": "运输",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "从这头搬到那头",
+  "metaphorMeaningCn": "运输、交通",
+  "metaphorOptions": [
+   "运输、交通",
+   "原地堆放",
+   "就地销毁"
+  ],
+  "mnemonicNote": "trans(越过)+port(搬运)：装上车子跨过这段路",
+  "sourceNote": "拉丁 transportare，trans-(越过) + portare(搬)"
  },
  "traveler": {
   "modernMeaningCn": "旅行者",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "在外行走的人",
+  "metaphorMeaningCn": "旅行者、旅客",
+  "metaphorOptions": [
+   "旅行者、旅客",
+   "留守者",
+   "宅家者"
+  ],
+  "mnemonicNote": "travel(远行)+er(人)：一个包走遍好几个省那位",
+  "sourceNote": "古法语 travailler(劳苦、跋涉) + -er"
  },
  "treatment": {
   "modernMeaningCn": "治疗",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "处置的办法",
+  "metaphorMeaningCn": "治疗、对待",
+  "metaphorOptions": [
+   "治疗、对待",
+   "放任不管",
+   "误诊"
+  ],
+  "mnemonicNote": "treat(处置)+ment：大夫开的那套方子",
+  "sourceNote": "古法语 traitier(处置) + -ment"
  },
  "troublesome": {
   "modernMeaningCn": "麻烦的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "招麻烦的",
+  "metaphorMeaningCn": "麻烦的、棘手的",
+  "metaphorOptions": [
+   "麻烦的、棘手的",
+   "省心的",
+   "顺手就办的"
+  ],
+  "mnemonicNote": "trouble(麻烦)+some：摊上它就得脱一层皮",
+  "sourceNote": "古法语 trouble(混乱) + -some"
  },
  "truly": {
-  "modernMeaningCn": "真实地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "真正地",
+  "literalMeaningCn": "以真实的方式",
+  "metaphorMeaningCn": "真正地、确实",
+  "metaphorOptions": [
+   "真正地、确实",
+   "表面上",
+   "虚情假意地"
+  ],
+  "mnemonicNote": "tru(真实)+ly：从里到外都对得上那句话",
+  "sourceNote": "古英语 treowe(忠实) + -lice"
  },
  "turkey": {
   "modernMeaningCn": "火鸡",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "土耳其来的禽",
+  "metaphorMeaningCn": "火鸡、土耳其",
+  "metaphorOptions": [
+   "火鸡、土耳其",
+   "鹅",
+   "鸭"
+  ],
+  "mnemonicNote": "turk(土耳其)+ey：欧洲人以为是那边传来的大鸟",
+  "sourceNote": "欧洲人误以为它来自土耳其，故名"
  },
  "twentieth": {
   "modernMeaningCn": "第二十",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "排第二十的",
+  "metaphorMeaningCn": "第二十、二十分之一",
+  "metaphorOptions": [
+   "第二十、二十分之一",
+   "第十二",
+   "全部"
+  ],
+  "mnemonicNote": "twenti(二十)+eth(序数)：数到二十的那一位",
+  "sourceNote": "古英语 twentigotha，twentig(二十) 的序数"
  }
 }
