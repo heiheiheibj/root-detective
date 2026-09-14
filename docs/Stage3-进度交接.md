@@ -9,39 +9,47 @@
 
 | 项 | 值 |
 |---|---|
-| 词库 | **391 词**（3.1 中考批完成） |
-| 词素 | 260（含 137 个词根） |
-| 世界 | 23 |
-| 内容校验 | **0 错误 / 72 警告** |
-| 测试 | **53/53 通过**（4 个文件） |
-| 构建 | 成功，393.90 kB / gzip 106 kB，5 个详情分片 |
-| 3.2 批配置 | 已生成（922 新词 / 750 词素 / 16 片 / 62 家族 / 8 个新世界） |
+| 已发布词库 | **391 词**（3.1 中考批，校验 0 错误） |
+| **管线已推进到** | **切分通过 1379 词**（3.1 + 3.2 合并），选例句 1377/1379 |
+| **当前阻塞** | **989 个词缺释义**（30 号 handoff），这是唯一没做完的事 |
+| 词素 | 1342（其中 world 覆盖 180 家族） |
+| 世界 | 31 |
+| 测试 | **53/53 通过** |
+| 构建 | 成功，393.90 kB / gzip 106 kB |
 
 ---
 
 ## 二、下一步（按顺序做）
 
-### 步骤 1：改 20 号的收录逻辑 —— **这是当前唯一的阻塞点**
+### 步骤 1：改 20 号的收录逻辑 【✅ 已完成】
 
-`scripts/20-select-words.mjs` 现在是**按 families 遍历收词**，而 `families` 只建给教学词根（家族 ≥3 词）。
-结果：3.2 有 **1135 个 split 不属于任何家族**，对应的词永远进不了候选 —— 3.2 的 974 词只进了约 111 词。
+改动：候选改为遍历 `Object.keys(splits)`（切分表里的全部词），`famStats` 单独按 families 统计；
+6.2 从「硬卡」改为「筛选」（不达标跳过，不中断）。21 号的「丢词即中断」也改成「报告后继续」
+（`within`/`wherever`/`wisdom` 这类复合词没有 root 词素，A18 必然拦下，属正常筛除）。
 
-改法：候选改为遍历 `Object.keys(cfg.splits)`（全部词），`famStats` 单独按 families 统计（A23 用）。
+效果：收录数 392 → **1601**，切分通过 **1379 词**（丢 222 个无词根的复合词）。
 
-改完预期：3.2 的 922 词全部进入候选。
+### 步骤 2：为 989 个词写释义 —— **这是当前唯一的阻塞点**
 
-### 步骤 2：为 3.2 的新词写释义（922 词，务必分小批）
+30 号报 `handoff 缺释义` 989 条。做法与中考批一致（参考 `words-prose-stage3/batch-1~7.json` 的成熟写法）：
 
 ```bash
-node scripts/tools/make-prose-handoff.mjs        # 生成模板（注意它会覆盖已有批次，按需调整）
+node scripts/tools/make-prose-handoff.mjs 60     # 重新生成模板（注意：会覆盖已有 7 批，先备份！）
 # 逐批填写 scripts/lib/handoff/words-prose-stage3/batch-N.json
-node scripts/tools/fix-distractors.mjs           # 自动补 A12 干扰项
-node scripts/30-llm-prose.mjs                    # 校验契约
+node scripts/tools/fix-distractors.mjs           # 自动补 A12 干扰项（选项里嵌真实义项）
+node scripts/tools/fix-a14.mjs                   # 自动修助记里逐字抄答案的
+node scripts/30-llm-prose.mjs                    # 校验 9.3 契约
 npm run content:all
 node scripts/validate-content.mjs                # 看剩余错误
 ```
 
-**每完成一批就 commit 一次**，并在本文档「进度」表格里更新，方便中断后续接。
+**989 词建议分 8–10 小批（每批 ~100–130 词），每批写完就 commit**，
+并在本文档更新进度，方便中断后续接。
+
+**写释义时的三条经验**（中考批踩出来的）：
+1. `literalMeaningCn` 按词根直译，`metaphorMeaningCn` 是真义，两者不能一字不差
+2. `metaphorOptions[1][2]` 要嵌一个**本词之外**的真实义项（A12），跑 `fix-distractors` 自动补
+3. `mnemonicNote` / `sourceNote` 里不能逐字出现 `modernMeaningCn`（A14），跑 `fix-a14` 自动修
 
 ---
 

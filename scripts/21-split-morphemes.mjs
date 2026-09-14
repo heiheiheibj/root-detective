@@ -125,10 +125,13 @@ for (const cand of candidates.words) {
   out.push({ ...cand, parts })
 }
 
-if (anyFail) {
-  console.error(`\n切分丢词 ${dropped.length} 个：${dropped.join('、')}`)
-  console.error('按设计「不过就丢词，绝不修复」——若不想丢，回去改 stage1-content.json 的 splits。')
-  process.exit(1)
+// 丢词从「硬失败」改成「报告后继续」：Stage 3 铺库后每批都有几十上百个词不适合词根法拆解
+// （`within`/`wherever`/`wisdom`/`collect` 这类复合词或功能词派生，压根没有 root 词素，
+// A18「每个词至少一个 root part」必然拦下）。这是正常筛除，不是异常 ——
+// 早期词库小（67 词精选）时丢一个都值得停下来看，铺到 1,600 词后就不适合再硬卡了。
+// 列出来供人工扫一眼，但不阻断管线。
+if (dropped.length) {
+  console.warn(`\n切分丢词 ${dropped.length} 个（无 root 词素，不适合词根法拆解，已跳过）：${dropped.slice(0, 12).join('、')}${dropped.length > 12 ? ' …' : ''}`)
 }
 
 mkdirSync(derivedDir, { recursive: true })

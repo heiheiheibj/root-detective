@@ -80,46 +80,54 @@ function passes62(e) {
   return { passTag, passCom, ok: passTag && passCom }
 }
 
-// ── 组装候选 ───────────────────────────────────────────────────────────────
-const candidates = []
-/** 已收进候选的词 —— 一词可属多家族（airline 同属 air 和 line），按家族遍历会把它收两遍。 */
-const seenWords = new Set()
+// ── 家族统计：A23 要看每个家族有多少词、难度有没有铺开 ─────────────────────────────
 const famStats = new Map()
 let anyFail = false
-
 for (const [familyId, def] of Object.entries(families)) {
-  const rootId = (def.roots && def.roots[0]) || familyId
-  if (!famStats.has(familyId)) famStats.set(familyId, { d1: 0, d5: 0, words: [] })
+  const stat = { d1: 0, d5: 0, words: [] }
+  famStats.set(familyId, stat)
   for (const word of def.words) {
     const entry = ecdict.get(word)
-    if (!entry) { console.error(`❌「${word}」不在 ECDICT，检查 stage1-content.json 拼写`); anyFail = true; continue }
-    const isCanary = canary.has(word)
-    const isForce = forceInclude.has(word)
-    const g = passes62(entry)
-    if (!isCanary && !isForce && !g.ok) {
-      console.error(`❌ 6.2 不通过「${word}」：passTag=${g.passTag} passCom=${g.passCom} tag=[${entry.tag.join(' ')}] bnc=${entry.bnc} frq=${entry.frq}（如需保送，加入 forceInclude 并写理由）`)
-      anyFail = true
-    }
-    const split = splits[word]
-    if (!split) { console.error(`❌ stage1-content.json 缺 splits["${word}"]`); anyFail = true }
+    if (!entry) continue
     const difficulty = difficultyFor(entry)
-    const stat = famStats.get(familyId)
     if (difficulty === 1) stat.d1++
     if (difficulty === 5) stat.d5++
     stat.words.push(word)
-    // 家族统计照做（每个家族都要算上这个词），但候选只留一条 ——
-    // 否则 21 号会产出重复切分，到 40 号就是「词条重复」（A17）。
-    if (seenWords.has(word)) continue
-    seenWords.add(word)
-    candidates.push({
-      word, id: word, familyId, rootId,
-      phonetic: entry.phonetic, partOfSpeech: entry.pos, translation: entry.translation,
-      tags: entry.tag, collins: entry.collins, oxford: entry.oxford, bnc: entry.bnc, frq: entry.frq,
-      difficulty, score: scoreFor(entry),
-      split: split || [], canary: isCanary, forceInclude: isForce,
-    })
   }
 }
+/** 词 → 它所属的第一个家族（一词可属多家族：airline 同属 air 和 line）。 */
+const familyOfWord = new Map()
+for (const [familyId, def] of Object.entries(families)) {
+  for (const word of def.words) if (!familyOfWord.has(word)) familyOfWord.set(word, familyId)
+}
+const rootOfFamily = new Map(Object.entries(families).map(([fid, def]) => [fid, (def.roots && def.roots[0]) || fid]))
+
+// ── 收录：切分表里的**全部词** ─────────────────────────────────────────────────
+// 不能只收家族词 —— families 只建给教学词根（家族 ≥3 词），Stage 3 要铺 3,029 词，
+// 大批词不属于任何家族，只收家族词会让它们永远进不来
+// （3.2 高考批 974 词里只进了 111 个，就是卡在这里）。
+//
+// 6.2 也从「硬卡」改成「筛选」：不达标就跳过，不中断。
+// 它是选词闸不是校验闸 —— 3.2 有 922 个词，硬卡的话每批都跑不动。
+// canary 与 forceInclude 仍照旧豁免，保证回归锚点和保送词不会掉。
+const candidates = []
+let skipped62 = 0
+for (const word of Object.keys(splits)) {
+  const entry = ecdict.get(word)
+  if (!entry) { console.error(`❌「${word}」不在 ECDICT，检查切分来源`); anyFail = true; continue }
+  const isCanary = canary.has(word)
+  const isForce = forceInclude.has(word)
+  if (!isCanary && !isForce && !passes62(entry).ok) { skipped62++; continue }
+  const familyId = familyOfWord.get(word) || ''
+  candidates.push({
+    word, id: word, familyId, rootId: rootOfFamily.get(familyId) || familyId,
+    phonetic: entry.phonetic, partOfSpeech: entry.pos, translation: entry.translation,
+    tags: entry.tag, collins: entry.collins, oxford: entry.oxford, bnc: entry.bnc, frq: entry.frq,
+    difficulty: difficultyFor(entry), score: scoreFor(entry),
+    split: splits[word], canary: isCanary, forceInclude: isForce,
+  })
+}
+console.log(`6.2 筛选：收录 ${candidates.length} 词，跳过 ${skipped62} 词（考试词标签或常用度未达标）`)
 
 // ── A23：教学词素要 d1/d5 各有词。口径对齐 src/domain/contentRules.ts ─────────────
 // 家族 <3 词的按零件词素豁免；d1 缺是硬错误（初学者碰不到这个词根）；d5 缺只是提示 ——
