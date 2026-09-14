@@ -32642,7 +32642,7 @@
    "id": "st",
    "displayText": "-st",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "站立",
    "allomorphs": [
     "st",
     "state",
@@ -32981,7 +32981,7 @@
    "id": "est",
    "displayText": "-est",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "最高级",
    "allomorphs": [
     "est"
    ],
@@ -41439,7 +41439,7 @@
    "id": "ir",
    "displayText": "ir-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "不",
    "allomorphs": [
     "ir",
     "ire"
@@ -42195,7 +42195,7 @@
    "id": "wave",
    "displayText": "-wave",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "波浪",
    "allomorphs": [
     "wave"
    ],
@@ -42219,7 +42219,7 @@
    "id": "ster",
    "displayText": "-ster",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "人",
    "allomorphs": [
     "ster"
    ],
@@ -42340,7 +42340,7 @@
    "id": "stock",
    "displayText": "-stock",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "存货",
    "allomorphs": [
     "stock"
    ],
@@ -48583,6 +48583,31 @@
     "common",
     "general",
     "orient"
+   ]
+  },
+  {
+   "id": "livelihood-lane",
+   "name": "生计巷",
+   "morphemeIds": [
+    "operate",
+    "possible",
+    "skill",
+    "simple",
+    "vary",
+    "por",
+    "store"
+   ]
+  },
+  {
+   "id": "household-yard",
+   "name": "人家院",
+   "morphemeIds": [
+    "stair",
+    "how",
+    "please",
+    "will",
+    "rob",
+    "commune"
    ]
   }
  ]

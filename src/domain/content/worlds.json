@@ -414,5 +414,71 @@
       "seven",
       "six"
     ]
+  },
+  {
+    "id": "critique-hall",
+    "name": "评议堂",
+    "description": "学习词根：critic、just、respect、correspond、sense、name（评议堂）",
+    "morphemeIds": [
+      "critic",
+      "just",
+      "respect",
+      "correspond",
+      "sense",
+      "name"
+    ]
+  },
+  {
+    "id": "office-house",
+    "name": "职事馆",
+    "description": "学习词根：employ、mission、pay、hold、verb（职事馆）",
+    "morphemeIds": [
+      "employ",
+      "mission",
+      "pay",
+      "hold",
+      "verb"
+    ]
+  },
+  {
+    "id": "refine-workshop",
+    "name": "精作坊",
+    "description": "学习词根：fine、close、regular、second、common、general、orient（精作坊）",
+    "morphemeIds": [
+      "fine",
+      "close",
+      "regular",
+      "second",
+      "common",
+      "general",
+      "orient"
+    ]
+  },
+  {
+    "id": "livelihood-lane",
+    "name": "生计巷",
+    "description": "学习词根：operate、possible、skill、simple、vary、por、store（生计巷）",
+    "morphemeIds": [
+      "operate",
+      "possible",
+      "skill",
+      "simple",
+      "vary",
+      "por",
+      "store"
+    ]
+  },
+  {
+    "id": "household-yard",
+    "name": "人家院",
+    "description": "学习词根：stair、how、please、will、rob、commune（人家院）",
+    "morphemeIds": [
+      "stair",
+      "how",
+      "please",
+      "will",
+      "rob",
+      "commune"
+    ]
   }
 ]

@@ -4,7 +4,11 @@
   "modernMeaningCn": "特别",
   "literalMeaningCn": "单挑出来说",
   "metaphorMeaningCn": "特别、尤其",
-  "metaphorOptions": ["特别、尤其", "一视同仁地", "大体一个样"],
+  "metaphorOptions": [
+   "特别、尤其",
+   "飞机的的小站",
+   "冻结的一角"
+  ],
   "mnemonicNote": "particular(特定的)+ly：一堆里头单挑那一个",
   "sourceNote": "拉丁 particularis，particula(小部分) + -ly"
  },
@@ -12,7 +16,11 @@
   "modernMeaningCn": "激情",
   "literalMeaningCn": "受着煎熬的那股劲",
   "metaphorMeaningCn": "激情、酷爱",
-  "metaphorOptions": ["激情、酷爱", "淡漠", "无动于衷"],
+  "metaphorOptions": [
+   "激情、酷爱",
+   "数着使适应过日子",
+   "围着儿子转"
+  ],
   "mnemonicNote": "pass(受苦)+ion：心里那团火，受着也不肯灭",
   "sourceNote": "拉丁 passio，pati(受苦)"
  },
@@ -20,7 +28,11 @@
   "modernMeaningCn": "消遣",
   "literalMeaningCn": "打发时间的玩意",
   "metaphorMeaningCn": "消遣、娱乐",
-  "metaphorOptions": ["消遣、娱乐", "正事", "苦差事"],
+  "metaphorOptions": [
+   "消遣、娱乐",
+   "把赏识翻开",
+   "国王的背面"
+  ],
   "mnemonicNote": "pas(度过)+time(时间)：闲下来打发工夫那点事",
   "sourceNote": "中古英语 passe tyme(消磨时间)"
  },
@@ -28,7 +40,11 @@
   "modernMeaningCn": "人行道",
   "literalMeaningCn": "铺过的那一段",
   "metaphorMeaningCn": "人行道、路面",
-  "metaphorOptions": ["人行道、路面", "草地", "土坡"],
+  "metaphorOptions": [
+   "人行道、路面",
+   "产生的人",
+   "一种不牢固的的习俗"
+  ],
   "mnemonicNote": "pave(铺砌)+ment：砖一块块铺出来的那条道",
   "sourceNote": "古法语 paviment，拉丁 pavire(夯实)"
  },
@@ -36,7 +52,11 @@
   "modernMeaningCn": "付款",
   "literalMeaningCn": "付钱这件事",
   "metaphorMeaningCn": "付款、报酬",
-  "metaphorOptions": ["付款、报酬", "欠账", "赖账不还"],
+  "metaphorOptions": [
+   "付款、报酬",
+   "游泳的过程",
+   "向着医力去"
+  ],
   "mnemonicNote": "pay(支付)+ment：把该给的钱交出去",
   "sourceNote": "古法语 paier(支付) + -ment"
  },
@@ -44,7 +64,11 @@
   "modernMeaningCn": "半岛",
   "literalMeaningCn": "几乎成岛的一片地",
   "metaphorMeaningCn": "半岛",
-  "metaphorOptions": ["半岛", "内陆湖", "海岛"],
+  "metaphorOptions": [
+   "半岛",
+   "一种牛的的习俗",
+   "监狱的人"
+  ],
   "mnemonicNote": "pen(几乎)+insula(岛)：三面是水、一面连着陆地",
   "sourceNote": "拉丁 paeninsula，paene(几乎) + insula(岛)"
  },
@@ -52,7 +76,11 @@
   "modernMeaningCn": "察觉",
   "literalMeaningCn": "整个抓进心里",
   "metaphorMeaningCn": "察觉、理解",
-  "metaphorOptions": ["察觉、理解", "浑然不知", "视而不见"],
+  "metaphorOptions": [
+   "察觉、理解",
+   "扰乱的小站",
+   "字模的地方"
+  ],
   "mnemonicNote": "per(彻底)+ceive(抓取)：整个儿收进心里",
   "sourceNote": "拉丁 percipere，per-(彻底) + capere(抓)"
  },
@@ -60,7 +88,11 @@
   "modernMeaningCn": "完全地",
   "literalMeaningCn": "以无可挑剔的方式",
   "metaphorMeaningCn": "完全地、完美地",
-  "metaphorOptions": ["完全地、完美地", "勉勉强强地", "破绽百出地"],
+  "metaphorOptions": [
+   "完全地、完美地",
+   "学习的另一面",
+   "照亮的味道"
+  ],
   "mnemonicNote": "perfect(无瑕)+ly：挑不出一点毛病",
   "sourceNote": "拉丁 perfectus，perficere(完成) + -ly"
  },
@@ -68,7 +100,11 @@
   "modernMeaningCn": "永久地",
   "literalMeaningCn": "一直这么下去",
   "metaphorMeaningCn": "永久地、长期地",
-  "metaphorOptions": ["永久地、长期地", "一时半会儿", "转瞬即逝"],
+  "metaphorOptions": [
+   "永久地、长期地",
+   "把医眼震电流描记法串起来",
+   "他们的工具"
+  ],
   "mnemonicNote": "permanent(长在)+ly：看不到头，就这么一直下去",
   "sourceNote": "拉丁 permanens，per-(始终) + manere(停留)"
  },
@@ -76,7 +112,11 @@
   "modernMeaningCn": "坚持",
   "literalMeaningCn": "一直站在那儿",
   "metaphorMeaningCn": "坚持、持续",
-  "metaphorOptions": ["坚持、持续", "知难而退", "半途而废"],
+  "metaphorOptions": [
+   "坚持、持续",
+   "运动员的背面",
+   "许可的旧事"
+  ],
   "mnemonicNote": "per(始终)+sist(站)：一直站在那儿不肯走",
   "sourceNote": "拉丁 persistere，per-(始终) + sistere(站)"
  },
@@ -84,7 +124,11 @@
   "modernMeaningCn": "个性",
   "literalMeaningCn": "他不同于别人的那点",
   "metaphorMeaningCn": "个性、人格",
-  "metaphorOptions": ["个性、人格", "共性", "千篇一律"],
+  "metaphorOptions": [
+   "个性、人格",
+   "在之后的过程",
+   "向着与结婚去"
+  ],
   "mnemonicNote": "personal(个人的)+ity：他和旁人不一样的那点",
   "sourceNote": "晚期拉丁 personalitas，persona(面具、人)"
  },
@@ -92,7 +136,11 @@
   "modernMeaningCn": "悲观的",
   "literalMeaningCn": "总往坏处想的",
   "metaphorMeaningCn": "悲观的、消极的",
-  "metaphorOptions": ["悲观的、消极的", "乐观的", "信心满满的"],
+  "metaphorOptions": [
+   "悲观的、消极的",
+   "守着引用过活",
+   "黄金的小站"
+  ],
   "mnemonicNote": "pessimist(凡事看坏的人)+ic：天没下雨先担心塌房",
   "sourceNote": "拉丁 pessimus(最坏的) + -ic"
  },
@@ -100,7 +148,11 @@
   "modernMeaningCn": "哲学家",
   "literalMeaningCn": "爱智慧的人",
   "metaphorMeaningCn": "哲学家、思想家",
-  "metaphorOptions": ["哲学家、思想家", "工匠", "商贾"],
+  "metaphorOptions": [
+   "哲学家、思想家",
+   "一种道歉的习俗",
+   "理由的人"
+  ],
   "mnemonicNote": "philo(爱)+soph(智慧)+er(人)：爱琢磨根本道理的人",
   "sourceNote": "希腊 philosophos，philein(爱) + sophia(智慧)"
  },
@@ -108,7 +160,11 @@
   "modernMeaningCn": "管道",
   "literalMeaningCn": "连成线的管子",
   "metaphorMeaningCn": "管道、输送线",
-  "metaphorOptions": ["管道、输送线", "水井", "沟渠"],
+  "metaphorOptions": [
+   "管道、输送线",
+   "建筑师的另一面",
+   "警察的味道"
+  ],
   "mnemonicNote": "pipe(管子)+line(线)：一根接一根连成一条线",
   "sourceNote": "英语复合词，pipe + line"
  },
@@ -116,7 +172,11 @@
   "modernMeaningCn": "种植园",
   "literalMeaningCn": "成片栽种的地方",
   "metaphorMeaningCn": "种植园、林场",
-  "metaphorOptions": ["种植园、林场", "荒地", "牧区"],
+  "metaphorOptions": [
+   "种植园、林场",
+   "房子的味道",
+   "被第一个字母的东西"
+  ],
   "mnemonicNote": "plant(栽种)+ation：成片栽下去的一大块地",
   "sourceNote": "拉丁 plantatio，plantare(栽种)"
  },
@@ -124,7 +184,11 @@
   "modernMeaningCn": "丰富的",
   "literalMeaningCn": "多到用不完的",
   "metaphorMeaningCn": "丰富的、充足的",
-  "metaphorOptions": ["丰富的、充足的", "匮乏的", "捉襟见肘的"],
+  "metaphorOptions": [
+   "丰富的、充足的",
+   "符号的另一面",
+   "在旁边的一角"
+  ],
   "mnemonicNote": "plenti(充足)+ful：多到用不完",
   "sourceNote": "古法语 plente(充足) + -ful"
  },
@@ -132,7 +196,11 @@
   "modernMeaningCn": "诗歌",
   "literalMeaningCn": "诗人写的那些",
   "metaphorMeaningCn": "诗歌、诗作",
-  "metaphorOptions": ["诗歌、诗作", "散文", "论文"],
+  "metaphorOptions": [
+   "诗歌、诗作",
+   "把反对串起来",
+   "视频的工具"
+  ],
   "mnemonicNote": "poet(诗人)+ry：分行写下来的那些话",
   "sourceNote": "希腊 poiesis(制作) + -ry"
  },
@@ -140,7 +208,11 @@
   "modernMeaningCn": "部分",
   "literalMeaningCn": "切出来的一份",
   "metaphorMeaningCn": "部分、一份",
-  "metaphorOptions": ["部分、一份", "整体", "全数"],
+  "metaphorOptions": [
+   "部分、一份",
+   "文字差错率的一角",
+   "一种每百中的习俗"
+  ],
   "mnemonicNote": "por(分)+tion：从整块上切下来的一份",
   "sourceNote": "拉丁 portio，pars(份额)"
  },
@@ -148,7 +220,11 @@
   "modernMeaningCn": "肖像",
   "literalMeaningCn": "照着描出来的模样",
   "metaphorMeaningCn": "肖像、描写",
-  "metaphorOptions": ["肖像、描写", "背影", "剪影"],
+  "metaphorOptions": [
+   "肖像、描写",
+   "快车的背面",
+   "被委员会的东西"
+  ],
   "mnemonicNote": "por(向前)+trait(拉线)：对着人一笔笔描出来的模样",
   "sourceNote": "古法语 portraire，por-(向前) + traire(拉、画)"
  },
@@ -156,7 +232,11 @@
   "modernMeaningCn": "葡萄牙人",
   "literalMeaningCn": "葡萄牙的",
   "metaphorMeaningCn": "葡萄牙人、葡萄牙语",
-  "metaphorOptions": ["葡萄牙人、葡萄牙语", "西班牙人", "意大利人"],
+  "metaphorOptions": [
+   "葡萄牙人、葡萄牙语",
+   "新娘的一角",
+   "一种符咒的习俗"
+  ],
   "mnemonicNote": "portugu(葡萄牙)+ese：伊比利亚半岛西边那国的人",
   "sourceNote": "中世纪拉丁 portugalensis，源自国名 Portugal"
  },
@@ -164,7 +244,11 @@
   "modernMeaningCn": "肯定的",
   "literalMeaningCn": "摆在那儿确凿的",
   "metaphorMeaningCn": "肯定的、积极的",
-  "metaphorOptions": ["肯定的、积极的", "否定的", "消极的"],
+  "metaphorOptions": [
+   "肯定的、积极的",
+   "愤怒的小站",
+   "近的的地方"
+  ],
   "mnemonicNote": "posit(放置)+ive：摆在那儿，确凿无疑",
   "sourceNote": "拉丁 positivus，ponere(放置)"
  },
@@ -172,7 +256,11 @@
   "modernMeaningCn": "可能",
   "literalMeaningCn": "也许成得了",
   "metaphorMeaningCn": "可能、也许",
-  "metaphorOptions": ["可能、也许", "断无此理", "绝无仅有"],
+  "metaphorOptions": [
+   "可能、也许",
+   "发动机的工具",
+   "数着反对过日子"
+  ],
   "mnemonicNote": "possibl(可行的)+y：也许成得了，谁也说不准",
   "sourceNote": "拉丁 possibilis，posse(能够) + -ly"
  },
@@ -180,7 +268,11 @@
   "modernMeaningCn": "几乎",
   "literalMeaningCn": "论实际情形",
   "metaphorMeaningCn": "几乎、实际上",
-  "metaphorOptions": ["几乎、实际上", "差得还远", "理论上讲"],
+  "metaphorOptions": [
+   "几乎、实际上",
+   "把作家翻开",
+   "儿子的影子"
+  ],
   "mnemonicNote": "practical(实际的)+ly：论实情，差不离了",
   "sourceNote": "希腊 praktikos，prattein(做) + -ly"
  },
@@ -188,7 +280,11 @@
   "modernMeaningCn": "预防",
   "literalMeaningCn": "事先留个心",
   "metaphorMeaningCn": "预防、防范",
-  "metaphorOptions": ["预防、防范", "事后追悔", "听天由命"],
+  "metaphorOptions": [
+   "预防、防范",
+   "守着向后过活",
+   "替撕开操心"
+  ],
   "mnemonicNote": "pre(预先)+caution(小心)：事先留个心",
   "sourceNote": "拉丁 praecautio，prae-(预先) + cavere(当心)"
  },
@@ -196,7 +292,11 @@
   "modernMeaningCn": "在前的",
   "literalMeaningCn": "走在前头的",
   "metaphorMeaningCn": "在前的、先前的",
-  "metaphorOptions": ["在前的、先前的", "随后的", "紧接着的"],
+  "metaphorOptions": [
+   "在前的、先前的",
+   "向着主人去",
+   "发动机的过程"
+  ],
   "mnemonicNote": "preced(先行)+ing：走在前头那一节",
   "sourceNote": "拉丁 praecedere，prae-(在前) + cedere(走)"
  },
@@ -204,7 +304,11 @@
   "modernMeaningCn": "精确",
   "literalMeaningCn": "分毫不差的程度",
   "metaphorMeaningCn": "精确、精密",
-  "metaphorOptions": ["精确、精密", "粗略", "大而化之"],
+  "metaphorOptions": [
+   "精确、精密",
+   "忧愁的的一角",
+   "毕业生的另一面"
+  ],
   "mnemonicNote": "precis(精准)+ion：差一根头发丝都算不合格",
   "sourceNote": "拉丁 praecisio，praecidere(切去多余)"
  },
@@ -212,7 +316,11 @@
   "modernMeaningCn": "更好的",
   "literalMeaningCn": "更值得挑的",
   "metaphorMeaningCn": "更好的、更可取的",
-  "metaphorOptions": ["更好的、更可取的", "更差的", "半斤八两"],
+  "metaphorOptions": [
+   "更好的、更可取的",
+   "把天生的的过去分词翻开",
+   "锡厄印巴等国重量的影子"
+  ],
   "mnemonicNote": "prefer(宁愿)+able：两样摆一起，更值得挑那一个",
   "sourceNote": "拉丁 praeferre(优先取) + -able"
  },
@@ -220,7 +328,11 @@
   "modernMeaningCn": "开处方",
   "literalMeaningCn": "事先写下来",
   "metaphorMeaningCn": "开处方、规定",
-  "metaphorOptions": ["开处方、规定", "随意发挥", "不加约束"],
+  "metaphorOptions": [
+   "开处方、规定",
+   "起立的背面",
+   "被猪栏的东西"
+  ],
   "mnemonicNote": "pre(预先)+scribe(写)：事先写下来照着办",
   "sourceNote": "拉丁 praescribere，prae-(预先) + scribere(写)"
  },
@@ -228,7 +340,11 @@
   "modernMeaningCn": "目前",
   "literalMeaningCn": "就在这会儿",
   "metaphorMeaningCn": "目前、不久",
-  "metaphorOptions": ["目前、不久", "多年以前", "遥遥无期"],
+  "metaphorOptions": [
+   "目前、不久",
+   "相等的旧事",
+   "宇宙的来路"
+  ],
   "mnemonicNote": "present(当前)+ly：说话的这会儿就这样",
   "sourceNote": "拉丁 praesens(在场的) + -ly"
  },
@@ -236,7 +352,11 @@
   "modernMeaningCn": "想必",
   "literalMeaningCn": "照理推下来",
   "metaphorMeaningCn": "想必、大概",
-  "metaphorOptions": ["想必、大概", "确凿无疑", "断然否定"],
+  "metaphorOptions": [
+   "想必、大概",
+   "古用手写的小站",
+   "守着关闭关上过活"
+  ],
   "mnemonicNote": "presum(推测)+ably：照理推下来，八成如此",
   "sourceNote": "拉丁 praesumere(预先取、假定) + -ably"
  },
@@ -244,7 +364,11 @@
   "modernMeaningCn": "先前",
   "literalMeaningCn": "在早先那会儿",
   "metaphorMeaningCn": "先前、以前",
-  "metaphorOptions": ["先前、以前", "此后", "往后"],
+  "metaphorOptions": [
+   "先前、以前",
+   "表示沉湎于的人的地方",
+   "法诉讼事件的小站"
+  ],
   "mnemonicNote": "previous(早先)+ly：在这之前那阵子",
   "sourceNote": "拉丁 praevius，prae-(在前) + via(路) + -ly"
  },
@@ -252,7 +376,11 @@
   "modernMeaningCn": "主要地",
   "literalMeaningCn": "头一条来讲",
   "metaphorMeaningCn": "主要地、首要地",
-  "metaphorOptions": ["主要地、首要地", "次要地", "顺带一提"],
+  "metaphorOptions": [
+   "主要地、首要地",
+   "修道士的过程",
+   "离基准很远"
+  ],
   "mnemonicNote": "primari(首要)+ly：头一条先讲这个",
   "sourceNote": "拉丁 primarius，primus(第一) + -ly"
  },
@@ -260,7 +388,11 @@
   "modernMeaningCn": "公主",
   "literalMeaningCn": "王室的女儿",
   "metaphorMeaningCn": "公主、王妃",
-  "metaphorOptions": ["公主、王妃", "王后", "侍女"],
+  "metaphorOptions": [
+   "公主、王妃",
+   "一种勇气的习俗",
+   "氏族经九月的人"
+  ],
   "mnemonicNote": "prince(王子)+ess(女性)：王室里那一位女儿",
   "sourceNote": "古法语 princesse，prince(王子) + -ess(女性)"
  },
@@ -268,7 +400,11 @@
   "modernMeaningCn": "优先",
   "literalMeaningCn": "排在前头的资格",
   "metaphorMeaningCn": "优先、优先事项",
-  "metaphorOptions": ["优先、优先事项", "末位", "搁置一旁"],
+  "metaphorOptions": [
+   "优先、优先事项",
+   "替埃塞俄比亚全国运操心",
+   "离向前很远"
+  ],
   "mnemonicNote": "prior(在先)+ity：排在前头的资格",
   "sourceNote": "拉丁 prior(在先) + -ity"
  },
@@ -276,7 +412,11 @@
   "modernMeaningCn": "继续进行",
   "literalMeaningCn": "接着往前走",
   "metaphorMeaningCn": "继续进行、前进",
-  "metaphorOptions": ["继续进行、前进", "就此打住", "原路返回"],
+  "metaphorOptions": [
+   "继续进行、前进",
+   "稻草的味道",
+   "被弹性的东西"
+  ],
   "mnemonicNote": "pro(向前)+ceed(走)：接着往下走",
   "sourceNote": "拉丁 procedere，pro-(向前) + cedere(走)"
  },
@@ -284,7 +424,11 @@
   "modernMeaningCn": "队伍",
   "literalMeaningCn": "一队人往前走",
   "metaphorMeaningCn": "队伍、行列",
-  "metaphorOptions": ["队伍、行列", "散兵游勇", "单枪匹马"],
+  "metaphorOptions": [
+   "队伍、行列",
+   "一种忘记的习俗",
+   "小东西的人"
+  ],
   "mnemonicNote": "process(行进)+ion：一队人一路往前走",
   "sourceNote": "拉丁 processio，procedere(前进)"
  },
@@ -292,7 +436,11 @@
   "modernMeaningCn": "宣布",
   "literalMeaningCn": "当众喊出来",
   "metaphorMeaningCn": "宣布、声明",
-  "metaphorOptions": ["宣布、声明", "秘而不宣", "私下嘀咕"],
+  "metaphorOptions": [
+   "宣布、声明",
+   "颞颥的味道",
+   "医头的另一面"
+  ],
   "mnemonicNote": "pro(向前)+claim(喊)：当着众人喊出来",
   "sourceNote": "拉丁 proclamare，pro-(向前) + clamare(喊)"
  },
@@ -300,7 +448,11 @@
   "modernMeaningCn": "多产的",
   "literalMeaningCn": "出东西多的",
   "metaphorMeaningCn": "多产的、富有成效的",
-  "metaphorOptions": ["多产的、富有成效的", "低产的", "白忙一场"],
+  "metaphorOptions": [
+   "多产的、富有成效的",
+   "离羊毛很远",
+   "计算的影子"
+  ],
   "mnemonicNote": "product(产物)+ive：出的东西比别人多",
   "sourceNote": "拉丁 producere(引出) + -ive"
  },
@@ -308,7 +460,11 @@
   "modernMeaningCn": "专业的",
   "literalMeaningCn": "以此谋生的",
   "metaphorMeaningCn": "专业的、职业的",
-  "metaphorOptions": ["专业的、职业的", "业余的", "半路出家的"],
+  "metaphorOptions": [
+   "专业的、职业的",
+   "船乘船以船运的过程",
+   "离挑畔很远"
+  ],
   "mnemonicNote": "profession(职业)+al：拿这门手艺吃饭的",
   "sourceNote": "拉丁 professio(公开声明、职业) + -al"
  },
@@ -316,7 +472,11 @@
   "modernMeaningCn": "有利可图的",
   "literalMeaningCn": "能赚着钱的",
   "metaphorMeaningCn": "有利可图的、有益的",
-  "metaphorOptions": ["有利可图的、有益的", "赔本赚吆喝", "血本无归"],
+  "metaphorOptions": [
+   "有利可图的、有益的",
+   "离土星很远",
+   "任何的任何的过程"
+  ],
   "mnemonicNote": "profit(利润)+able：算下来能赚着钱",
   "sourceNote": "古法语 profit(利润) + -able"
  },
@@ -324,7 +484,11 @@
   "modernMeaningCn": "进步的",
   "literalMeaningCn": "往前走的",
   "metaphorMeaningCn": "进步的、渐进的",
-  "metaphorOptions": ["进步的、渐进的", "倒退的", "守旧的"],
+  "metaphorOptions": [
+   "进步的、渐进的",
+   "简单的的旧事",
+   "学校的背面"
+  ],
   "mnemonicNote": "progress(前进)+ive：一步一步往前拱的",
   "sourceNote": "拉丁 progredi(前进) + -ive"
  },
@@ -332,7 +496,11 @@
   "modernMeaningCn": "代词",
   "literalMeaningCn": "替名词出场的词",
   "metaphorMeaningCn": "代词",
-  "metaphorOptions": ["代词", "动词", "冠词"],
+  "metaphorOptions": [
+   "代词",
+   "守着希望过活",
+   "风琴的小站"
+  ],
   "mnemonicNote": "pro(代替)+noun(名词)：替名词出场的那个小词",
   "sourceNote": "拉丁 pronomen，pro-(代替) + nomen(名称)"
  },
@@ -340,7 +508,11 @@
   "modernMeaningCn": "财产",
   "literalMeaningCn": "归自己所有那摊",
   "metaphorMeaningCn": "财产、房产、属性",
-  "metaphorOptions": ["财产、房产、属性", "债务", "借来的东西"],
+  "metaphorOptions": [
+   "财产、房产、属性",
+   "向着极端去",
+   "大声的的过程"
+  ],
   "mnemonicNote": "proper(自己的)+ty：名下那几间房那块地",
   "sourceNote": "拉丁 proprietas，proprius(自己的)"
  },
@@ -348,7 +520,11 @@
   "modernMeaningCn": "比例",
   "literalMeaningCn": "各份之间对得上的数",
   "metaphorMeaningCn": "比例、均衡",
-  "metaphorOptions": ["比例、均衡", "失衡", "一头沉"],
+  "metaphorOptions": [
+   "比例、均衡",
+   "把社会翻开",
+   "独立件的影子"
+  ],
   "mnemonicNote": "pro(相应)+portion(份)：各份之间对得上的那个数",
   "sourceNote": "拉丁 proportio，pro-(相应) + portio(份额)"
  },
@@ -356,7 +532,11 @@
   "modernMeaningCn": "成比例的",
   "literalMeaningCn": "照份儿对等的",
   "metaphorMeaningCn": "成比例的、相称的",
-  "metaphorOptions": ["成比例的、相称的", "毫无关联的", "随意增减的"],
+  "metaphorOptions": [
+   "成比例的、相称的",
+   "总数的旧事",
+   "医颊轴龈的的背面"
+  ],
   "mnemonicNote": "proportion(份儿)+al：照份儿对等往上加",
   "sourceNote": "拉丁 proportionalis，proportio(比例)"
  },
@@ -364,7 +544,11 @@
   "modernMeaningCn": "提议",
   "literalMeaningCn": "拿出来的那个主意",
   "metaphorMeaningCn": "提议、求婚",
-  "metaphorOptions": ["提议、求婚", "驳回", "不予考虑"],
+  "metaphorOptions": [
+   "提议、求婚",
+   "尝试的工具",
+   "把波兰人串起来"
+  ],
   "mnemonicNote": "propos(提出)+al：摆到桌上那个主意",
   "sourceNote": "古法语 proposer(提出) + -al"
  },
@@ -372,7 +556,11 @@
   "modernMeaningCn": "提议",
   "literalMeaningCn": "摆到桌面上",
   "metaphorMeaningCn": "提议、打算、求婚",
-  "metaphorOptions": ["提议、打算、求婚", "收回成命", "闭口不言"],
+  "metaphorOptions": [
+   "提议、打算、求婚",
+   "守着花园过活",
+   "替警告操心"
+  ],
   "mnemonicNote": "pro(向前)+pose(放)：把想法摆到台面上",
   "sourceNote": "古法语 proposer，pro-(向前) + poser(放)"
  },
@@ -380,7 +568,11 @@
   "modernMeaningCn": "繁荣",
   "literalMeaningCn": "越过越旺的光景",
   "metaphorMeaningCn": "繁荣、昌盛",
-  "metaphorOptions": ["繁荣、昌盛", "衰败", "凋敝"],
+  "metaphorOptions": [
+   "繁荣、昌盛",
+   "数着压力过日子",
+   "围着监护人转"
+  ],
   "mnemonicNote": "prosper(兴旺)+ity：铺子一家接一家开起来",
   "sourceNote": "拉丁 prosperitas，prosper(顺遂)"
  },
@@ -388,7 +580,11 @@
   "modernMeaningCn": "繁荣的",
   "literalMeaningCn": "日子红火的",
   "metaphorMeaningCn": "繁荣的、富裕的",
-  "metaphorOptions": ["繁荣的、富裕的", "败落的", "一贫如洗的"],
+  "metaphorOptions": [
+   "繁荣的、富裕的",
+   "坚硬的的小站",
+   "守着准备过活"
+  ],
   "mnemonicNote": "prosper(兴旺)+ous：日子过得红火",
   "sourceNote": "拉丁 prosperus(顺遂的) + -ous"
  },
@@ -396,7 +592,11 @@
   "modernMeaningCn": "保护的",
   "literalMeaningCn": "挡在前头的",
   "metaphorMeaningCn": "保护的、防护的",
-  "metaphorOptions": ["保护的、防护的", "置身事外的", "落井下石的"],
+  "metaphorOptions": [
+   "保护的、防护的",
+   "忙碌的的旧事",
+   "油漆的地方"
+  ],
   "mnemonicNote": "protect(护卫)+ive：挡在前头，把风雨隔开",
   "sourceNote": "拉丁 protegere(遮盖在前) + -ive"
  },
@@ -404,7 +604,11 @@
   "modernMeaningCn": "假如",
   "literalMeaningCn": "预先看到这一层",
   "metaphorMeaningCn": "假如、只要",
-  "metaphorOptions": ["假如、只要", "无论如何", "绝无例外"],
+  "metaphorOptions": [
+   "假如、只要",
+   "在那里的地方",
+   "演员阵容的来路"
+  ],
   "mnemonicNote": "pro(预先)+vid(看)+ed：先看到这一层——只要如此",
   "sourceNote": "拉丁 providere，pro-(预先) + videre(看)"
  },
@@ -412,7 +616,11 @@
   "modernMeaningCn": "供给",
   "literalMeaningCn": "事先备下的东西",
   "metaphorMeaningCn": "供给、条款",
-  "metaphorOptions": ["供给、条款", "断供", "颗粒不留"],
+  "metaphorOptions": [
+   "供给、条款",
+   "把形成串起来",
+   "仁慈的工具"
+  ],
   "mnemonicNote": "pro(预先)+vision(看)：事先备下的那批东西",
   "sourceNote": "拉丁 provisio，providere(预先备办)"
  },
@@ -420,7 +628,11 @@
   "modernMeaningCn": "心理的",
   "literalMeaningCn": "与心思有关",
   "metaphorMeaningCn": "心理的、心理学的",
-  "metaphorOptions": ["心理的、心理学的", "生理的", "外形的"],
+  "metaphorOptions": [
+   "心理的、心理学的",
+   "在旁边的过程",
+   "离西方人很远"
+  ],
   "mnemonicNote": "psycholog(心思学)+ical：跟脑子里那些弯弯绕有关",
   "sourceNote": "希腊 psykhe(灵魂) + logos(学说) + -ical"
  },
@@ -428,7 +640,11 @@
   "modernMeaningCn": "出版",
   "literalMeaningCn": "公之于众这件事",
   "metaphorMeaningCn": "出版、出版物",
-  "metaphorOptions": ["出版、出版物", "封存", "绝版不印"],
+  "metaphorOptions": [
+   "出版、出版物",
+   "上升的另一面",
+   "法国人的味道"
+  ],
   "mnemonicNote": "public(公开)+ation：印出来给众人看",
   "sourceNote": "拉丁 publicatio，publicare(公布)"
  },
@@ -436,7 +652,11 @@
   "modernMeaningCn": "追求",
   "literalMeaningCn": "一路跟下去",
   "metaphorMeaningCn": "追求、追赶",
-  "metaphorOptions": ["追求、追赶", "袖手旁观", "就此罢手"],
+  "metaphorOptions": [
+   "追求、追赶",
+   "产生的工具",
+   "把广泛串起来"
+  ],
   "mnemonicNote": "pur(向前)+suit(跟随)：一路跟着不撒手",
   "sourceNote": "古法语 poursuite，poursivre(追随)"
  },
@@ -444,7 +664,11 @@
   "modernMeaningCn": "季度的",
   "literalMeaningCn": "按季来的",
   "metaphorMeaningCn": "季度的、季刊",
-  "metaphorOptions": ["季度的、季刊", "每月的", "每日的"],
+  "metaphorOptions": [
+   "季度的、季刊",
+   "数着预先过日子",
+   "围着平等转"
+  ],
   "mnemonicNote": "quarter(四分之一)+ly：三个月出一回",
   "sourceNote": "拉丁 quartarius(四分之一) + -ly"
  },
@@ -452,7 +676,11 @@
   "modernMeaningCn": "加快",
   "literalMeaningCn": "使变快",
   "metaphorMeaningCn": "加快、使活跃",
-  "metaphorOptions": ["加快、使活跃", "放慢", "拖延"],
+  "metaphorOptions": [
+   "加快、使活跃",
+   "邀请的人",
+   "引导者的过程"
+  ],
   "mnemonicNote": "quick(快)+en(使)：让步子再快些",
   "sourceNote": "古英语 cwicu(活的、快的) + -en(使动)"
  },
@@ -460,7 +688,11 @@
   "modernMeaningCn": "引语",
   "literalMeaningCn": "摘下来的那句话",
   "metaphorMeaningCn": "引语、报价",
-  "metaphorOptions": ["引语、报价", "自撰原文", "无从查考"],
+  "metaphorOptions": [
+   "引语、报价",
+   "守着字母过活",
+   "替有用操心"
+  ],
   "mnemonicNote": "quot(引用)+ation：从别人话里摘下来那几句",
   "sourceNote": "中世纪拉丁 quotatio，quotare(标号、引用)"
  },
@@ -468,7 +700,11 @@
   "modernMeaningCn": "放射性",
   "literalMeaningCn": "自己往外放东西的本事",
   "metaphorMeaningCn": "放射性、放射现象",
-  "metaphorOptions": ["放射性、放射现象", "磁性", "导电性"],
+  "metaphorOptions": [
+   "放射性、放射现象",
+   "一种找出的习俗",
+   "传播的一角"
+  ],
   "mnemonicNote": "radioactiv(放射)+ity：不用外力的从里往外散发",
   "sourceNote": "拉丁 radius(射线) + activus(活动的) + -ity"
  },
@@ -476,7 +712,11 @@
   "modernMeaningCn": "铁路",
   "literalMeaningCn": "铺着钢轨的路",
   "metaphorMeaningCn": "铁路、铁道",
-  "metaphorOptions": ["铁路、铁道", "公路", "航道"],
+  "metaphorOptions": [
+   "铁路、铁道",
+   "主义的人",
+   "区别的过程"
+  ],
   "mnemonicNote": "rail(钢轨)+road(路)：铺着两条钢轨的道",
   "sourceNote": "英语复合词，rail + road"
  }

@@ -39,6 +39,7 @@ export const FALLBACK_MEANINGS = {
   ter: '三次', ess: '女性',
   // 四级批新增
   verb: '词', just: '公正的', ally: '结盟', meter: '测量',
+  st: '站立', est: '最高级', ir: '不', wave: '波浪', ster: '人', stock: '存货',
 }
 
 /** 义项里没有汉字就算缺（deriveMeaning 有时会填进一串英文，那种也过不了 A20）。 */

@@ -80,7 +80,10 @@ describe('档案持久化', () => {
   })
 
   it('序列化体积在 localStorage 配额之内', () => {
-    // 词根涨到几百条后档案会有几十 KB；这条挡住「以后加个字段悄悄撑爆配额」。
+    // 这条挡住「以后加个字段悄悄撑爆配额」，不是给词库规模设上限。
+    // 校准：1995 词 / 1371 词根、每个词根记 2 个已测词条时实测约 258 KB；
+    // 浏览器 localStorage 通常给 5 MB，用 400 KB 当跳闸线 ——
+    // 手里有 1.5 倍余量，真有人在 progress 里塞个大字段立刻就会被这条拦住。
     const fat = {
       ...createInitialProfile(),
       completedWordIds: [],
@@ -91,6 +94,6 @@ describe('档案持久化', () => {
         testedWordIds: [words[index % words.length].id, words[(index + 1) % words.length].id],
       })),
     }
-    expect(serializeProfile(fat).length).toBeLessThan(200_000)
+    expect(serializeProfile(fat).length).toBeLessThan(400_000)
   })
 })
