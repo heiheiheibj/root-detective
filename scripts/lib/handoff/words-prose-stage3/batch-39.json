@@ -1,483 +1,723 @@
 {
- "_comment": "Stage 3 待写释义（batch-39，本批 60 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。填完跑 30-llm-prose.mjs 校验。",
+ "_comment": "Stage 3 待写释义（batch-39，本批 60 词，六级批第 4 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
  "disruptive": {
-  "modernMeaningCn": "分裂的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "破坏性的、扰乱性的",
+  "literalMeaningCn": "能把秩序扯断的",
+  "metaphorMeaningCn": "破坏性的、扰乱性的",
+  "metaphorOptions": [
+   "破坏性的、扰乱性的",
+   "维护秩序的",
+   "息事宁人的"
+  ],
+  "mnemonicNote": "disrupt(扯断)+ive：能把秩序一把扯断",
+  "sourceNote": "拉丁 disruptus，dis-(分开) + rumpere(断裂) + -ive"
  },
  "dissatisfaction": {
   "modernMeaningCn": "不满",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "心里不痛快",
+  "metaphorMeaningCn": "不满、不满意",
+  "metaphorOptions": [
+   "不满、不满意",
+   "称心如意",
+   "心花怒放"
+  ],
+  "mnemonicNote": "dis(不)+satisfaction(满意)：那口气怎么都顺不下去",
+  "sourceNote": "dis-(不) + 拉丁 satisfactio(满足)"
  },
  "disservice": {
-  "modernMeaningCn": "伤害",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "危害、帮倒忙",
+  "literalMeaningCn": "帮的是倒忙",
+  "metaphorMeaningCn": "危害、帮倒忙",
+  "metaphorOptions": [
+   "危害、帮倒忙",
+   "雪中送炭",
+   "有求必应"
+  ],
+  "mnemonicNote": "dis(坏)+service(服务)：本意想帮忙，落地成了倒忙",
+  "sourceNote": "dis-(坏) + 拉丁 servitium(服务)"
  },
  "distinctive": {
   "modernMeaningCn": "有特色的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "跟别人分得开的",
+  "metaphorMeaningCn": "独特的、有特色的",
+  "metaphorOptions": [
+   "独特的、有特色的",
+   "泯然众矣",
+   "千篇一律的"
+  ],
+  "mnemonicNote": "distinct(分明)+ive：一眼就能跟别人分开",
+  "sourceNote": "拉丁 distinguere(区分) + -ive"
  },
  "distinctly": {
-  "modernMeaningCn": "显然地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "清楚地、明显地",
+  "literalMeaningCn": "界限分明地",
+  "metaphorMeaningCn": "清楚地、明显地",
+  "metaphorOptions": [
+   "清楚地、明显地",
+   "模模糊糊地",
+   "影影绰绰地"
+  ],
+  "mnemonicNote": "distinct(分明)+ly：界限分得清清楚楚",
+  "sourceNote": "拉丁 distinctus，distinguere(区分) + -ly"
  },
  "distortion": {
   "modernMeaningCn": "扭曲",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "被拧歪这件事",
+  "metaphorMeaningCn": "扭曲、失真",
+  "metaphorOptions": [
+   "扭曲、失真",
+   "如实摹写",
+   "原音重现"
+  ],
+  "mnemonicNote": "distort(拧歪)+ion：被拧得不成原样",
+  "sourceNote": "拉丁 distortio，distorquere(扭歪)"
  },
  "distract": {
-  "modernMeaningCn": "转移",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "分散注意力、使分心",
+  "literalMeaningCn": "把心思拉开",
+  "metaphorMeaningCn": "分散注意力、使分心",
+  "metaphorOptions": [
+   "分散注意力、使分心",
+   "聚精会神",
+   "心无旁骛"
+  ],
+  "mnemonicNote": "dis(分开)+tract(拉)：把心思往旁边拉开",
+  "sourceNote": "拉丁 distrahere，dis-(分开) + trahere(拉)"
  },
  "disturbance": {
-  "modernMeaningCn": "扰乱",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "干扰、骚乱",
+  "literalMeaningCn": "被搅乱这件事",
+  "metaphorMeaningCn": "干扰、骚乱",
+  "metaphorOptions": [
+   "干扰、骚乱",
+   "风平浪静",
+   "一团和气"
+  ],
+  "mnemonicNote": "disturb(搅扰)+ance：好端端被人搅了一通",
+  "sourceNote": "拉丁 disturbare，dis-(加强) + turbare(搅乱)"
  },
  "diverge": {
   "modernMeaningCn": "分歧",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "朝两头斜开",
+  "metaphorMeaningCn": "分歧、分叉",
+  "metaphorOptions": [
+   "分歧、分叉",
+   "合流",
+   "殊途同归"
+  ],
+  "mnemonicNote": "di(分开)+verge(倾向)：两条路朝两头斜开",
+  "sourceNote": "拉丁 divergere，dis-(分开) + vergere(倾向)"
  },
  "diversify": {
   "modernMeaningCn": "使多样化",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "使变得各式各样",
+  "metaphorMeaningCn": "使多样化、多元化",
+  "metaphorOptions": [
+   "使多样化、多元化",
+   "使整齐划一",
+   "使千篇一律"
+  ],
+  "mnemonicNote": "divers(各样)+ify(使)：花样越添越多",
+  "sourceNote": "拉丁 diversus(各异的) + facere(做)"
  },
  "diversion": {
-  "modernMeaningCn": "转移医转向",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "转移、消遣",
+  "literalMeaningCn": "把方向拧开",
+  "metaphorMeaningCn": "转移、消遣",
+  "metaphorOptions": [
+   "转移、消遣",
+   "正面对冲",
+   "迎面直上"
+  ],
+  "mnemonicNote": "divers(转向)+ion：把方向拧到别处去",
+  "sourceNote": "晚期拉丁 diversio，divertere(转向)"
  },
  "documentary": {
-  "modernMeaningCn": "记录片文件的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "纪录片、纪实的",
+  "literalMeaningCn": "以档案为底的",
+  "metaphorMeaningCn": "纪录片、纪实的",
+  "metaphorOptions": [
+   "纪录片、纪实的",
+   "虚构片",
+   "动画片"
+  ],
+  "mnemonicNote": "document(档案)+ary：拿真实档案当底子拍的片子",
+  "sourceNote": "拉丁 documentum(凭证、文件) + -ary"
  },
  "dormant": {
-  "modernMeaningCn": "睡眠状态的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "休眠的、潜伏的",
+  "literalMeaningCn": "睡着不动的",
+  "metaphorMeaningCn": "休眠的、潜伏的",
+  "metaphorOptions": [
+   "休眠的、潜伏的",
+   "活跃的",
+   "一触即发的"
+  ],
+  "mnemonicNote": "dorm(睡)+ant：睡着不动，等时候到了再醒",
+  "sourceNote": "拉丁 dormire(睡) + -ant"
  },
  "downturn": {
-  "modernMeaningCn": "尤指经济方面的衰",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "下滑、衰退",
+  "literalMeaningCn": "往下拐的那一下",
+  "metaphorMeaningCn": "下滑、衰退",
+  "metaphorOptions": [
+   "下滑、衰退",
+   "回升",
+   "一路上扬"
+  ],
+  "mnemonicNote": "down(下)+turn(转)：曲线往下拐的那一下",
+  "sourceNote": "英语复合词，down + turn"
  },
  "drainage": {
-  "modernMeaningCn": "排水医引流法",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "排水、排水系统",
+  "literalMeaningCn": "把水放走这件事",
+  "metaphorMeaningCn": "排水、排水系统",
+  "metaphorOptions": [
+   "排水、排水系统",
+   "蓄水",
+   "积水成涝"
+  ],
+  "mnemonicNote": "drain(排)+age：把积住的水放走这件事",
+  "sourceNote": "古英语 dreahnian(排干) + -age"
  },
  "dreadful": {
   "modernMeaningCn": "可怕的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "叫人发怵的",
+  "metaphorMeaningCn": "可怕的、糟透的",
+  "metaphorOptions": [
+   "可怕的、糟透的",
+   "令人神往的",
+   "赏心悦目的"
+  ],
+  "mnemonicNote": "dread(畏惧)+ful：一想起来就先发怵",
+  "sourceNote": "古英语 drædan(畏惧) + -ful"
  },
  "earthenware": {
-  "modernMeaningCn": "陶器化陶器",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "陶器",
+  "literalMeaningCn": "泥烧出来的家什",
+  "metaphorMeaningCn": "陶器",
+  "metaphorOptions": [
+   "陶器",
+   "瓷器",
+   "玻璃器皿"
+  ],
+  "mnemonicNote": "earthen(土做的)+ware(器)：泥里烧出来的家什",
+  "sourceNote": "古英语 eorthen(土制的) + waru(器物)"
  },
  "eastward": {
-  "modernMeaningCn": "朝东方向向东方的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "向东的、朝东",
+  "literalMeaningCn": "朝着太阳升起那边",
+  "metaphorMeaningCn": "向东的、朝东",
+  "metaphorOptions": [
+   "向东的、朝东",
+   "向西的",
+   "向南的"
+  ],
+  "mnemonicNote": "east(东)+ward(朝向)：一路冲着日出那边",
+  "sourceNote": "古英语 east + -weard(朝向)"
  },
  "economically": {
   "modernMeaningCn": "节约地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "省着来地",
+  "metaphorMeaningCn": "节约地、在经济上",
+  "metaphorOptions": [
+   "节约地、在经济上",
+   "铺张地",
+   "大手大脚地"
+  ],
+  "mnemonicNote": "economical(省着用)+ly：一文钱掰成两半花",
+  "sourceNote": "希腊 oikonomia(持家) + -al + -ly"
  },
  "ecosystem": {
-  "modernMeaningCn": "生态系统医生态系",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "生态系统",
+  "literalMeaningCn": "生物与环境那套体系",
+  "metaphorMeaningCn": "生态系统",
+  "metaphorOptions": [
+   "生态系统",
+   "单项物种",
+   "孤立个体"
+  ],
+  "mnemonicNote": "eco(生态)+system(体系)：草木鸟兽加上水土那一整套",
+  "sourceNote": "希腊 oikos(住所) + systema(体系)"
  },
  "electrician": {
-  "modernMeaningCn": "电学家",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "电工、电气技师",
+  "literalMeaningCn": "跟电打交道的人",
+  "metaphorMeaningCn": "电工、电气技师",
+  "metaphorOptions": [
+   "电工、电气技师",
+   "水管工",
+   "木工"
+  ],
+  "mnemonicNote": "electric(电)+ian(人)：拉线装灯那位",
+  "sourceNote": "希腊 elektron(琥珀) + -ian"
  },
  "elemental": {
-  "modernMeaningCn": "元素的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "基本的、元素的",
+  "literalMeaningCn": "最底层那几个要素的",
+  "metaphorMeaningCn": "基本的、元素的",
+  "metaphorOptions": [
+   "基本的、元素的",
+   "复合的",
+   "衍生出来的"
+  ],
+  "mnemonicNote": "element(要素)+al：最底层那几样东西的",
+  "sourceNote": "拉丁 elementum(要素) + -al"
  },
  "elevation": {
   "modernMeaningCn": "海拔",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "抬高了多少",
+  "metaphorMeaningCn": "海拔、提升",
+  "metaphorOptions": [
+   "海拔、提升",
+   "下沉",
+   "谷底"
+  ],
+  "mnemonicNote": "elevat(抬高)+ion：比海平面高出多少",
+  "sourceNote": "拉丁 elevatio，elevare(举起)"
  },
  "elliptical": {
-  "modernMeaningCn": "椭圆的医椭圆形的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "椭圆的、省略的",
+  "literalMeaningCn": "像压扁的圆",
+  "metaphorMeaningCn": "椭圆的、省略的",
+  "metaphorOptions": [
+   "椭圆的、省略的",
+   "正圆的",
+   "方方正正的"
+  ],
+  "mnemonicNote": "elliptic(椭圆)+al：像被两边压扁的圆",
+  "sourceNote": "希腊 elleipsis(欠缺、椭圆)"
  },
  "embody": {
-  "modernMeaningCn": "具体表达",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "体现、包含",
+  "literalMeaningCn": "让抽象的有身子",
+  "metaphorMeaningCn": "体现、包含",
+  "metaphorOptions": [
+   "体现、包含",
+   "抽象空谈",
+   "悬在半空"
+  ],
+  "mnemonicNote": "em(进入)+body(身体)：让虚的道理有了身子",
+  "sourceNote": "em-(进入) + body(身体)"
  },
  "emigrate": {
-  "modernMeaningCn": "使移居",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "移居国外、移民",
+  "literalMeaningCn": "迁出去",
+  "metaphorMeaningCn": "移居国外、移民",
+  "metaphorOptions": [
+   "移居国外、移民",
+   "回国定居",
+   "叶落归根"
+  ],
+  "mnemonicNote": "emi(出去)+grate(迁移)：整家迁出这道国门",
+  "sourceNote": "拉丁 emigrare，e-(出) + migrare(迁移)"
  },
  "empirical": {
-  "modernMeaningCn": "完全跟据经验的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "经验的、实证的",
+  "literalMeaningCn": "靠试出来那一路的",
+  "metaphorMeaningCn": "经验的、实证的",
+  "metaphorOptions": [
+   "经验的、实证的",
+   "凭空推想的",
+   "纸上谈兵的"
+  ],
+  "mnemonicNote": "empiric(试验)+al：不靠空想，靠一次次试出来",
+  "sourceNote": "希腊 empeiria，en-(在内) + peira(试验)"
  },
  "enchant": {
-  "modernMeaningCn": "施魔法",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "使着迷、施魔法",
+  "literalMeaningCn": "用歌声把魂勾走",
+  "metaphorMeaningCn": "使着迷、施魔法",
+  "metaphorOptions": [
+   "使着迷、施魔法",
+   "使生厌",
+   "使作呕"
+  ],
+  "mnemonicNote": "en(使)+chant(唱)：用歌声把人的魂勾走",
+  "sourceNote": "古法语 enchanter，拉丁 incantare(念咒)"
  },
  "endanger": {
-  "modernMeaningCn": "危及法使危险",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "危及、使遭危险",
+  "literalMeaningCn": "使陷进危险",
+  "metaphorMeaningCn": "危及、使遭危险",
+  "metaphorOptions": [
+   "危及、使遭危险",
+   "化险为夷",
+   "安然脱身"
+  ],
+  "mnemonicNote": "en(使)+danger(危险)：把人往险处推",
+  "sourceNote": "en-(使) + 古法语 dangier(危险)"
  },
  "endurance": {
-  "modernMeaningCn": "忍耐",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "忍耐力、耐久性",
+  "literalMeaningCn": "能熬的那股劲",
+  "metaphorMeaningCn": "忍耐力、耐久性",
+  "metaphorOptions": [
+   "忍耐力、耐久性",
+   "一碰就碎",
+   "弱不禁风"
+  ],
+  "mnemonicNote": "endur(忍受)+ance：能扛多久那股劲",
+  "sourceNote": "拉丁 indurare(使坚硬)，in-(在内) + durare(持续)"
  },
  "energize": {
-  "modernMeaningCn": "使活跃",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "使有活力、激励",
+  "literalMeaningCn": "给添上一把劲",
+  "metaphorMeaningCn": "使有活力、激励",
+  "metaphorOptions": [
+   "使有活力、激励",
+   "使萎靡",
+   "使泄气"
+  ],
+  "mnemonicNote": "energ(能量)+ize(使)：往身上添一把劲",
+  "sourceNote": "希腊 energeia，en-(在内) + ergon(工作)"
  },
  "engagement": {
-  "modernMeaningCn": "诺言",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "约定、订婚、参与",
+  "literalMeaningCn": "把事说定这件事",
+  "metaphorMeaningCn": "约定、订婚、参与",
+  "metaphorOptions": [
+   "约定、订婚、参与",
+   "毁约",
+   "抽身退出"
+  ],
+  "mnemonicNote": "engage(说定)+ment：把事说定这一桩",
+  "sourceNote": "古法语 engagier(抵押、约定) + -ment"
  },
  "enrich": {
-  "modernMeaningCn": "使富足",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "使富裕、充实",
+  "literalMeaningCn": "使富起来",
+  "metaphorMeaningCn": "使富裕、充实",
+  "metaphorOptions": [
+   "使富裕、充实",
+   "使贫瘠",
+   "搜刮一空"
+  ],
+  "mnemonicNote": "en(使)+rich(富)：不光是钱多，见识也跟着厚",
+  "sourceNote": "en-(使) + 古法语 riche(富有)"
  },
  "entail": {
   "modernMeaningCn": "使成为必需",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "把这份切给你",
+  "metaphorMeaningCn": "使必要、牵涉",
+  "metaphorOptions": [
+   "使必要、牵涉",
+   "与此无涉",
+   "全不相干"
+  ],
+  "mnemonicNote": "en(使)+tail(切分)：这件事也得切一份给你",
+  "sourceNote": "en-(使) + 古法语 taille(切割、份额)"
  },
  "entrepreneur": {
   "modernMeaningCn": "企业家",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "敢揽事的人",
+  "metaphorMeaningCn": "企业家、创业者",
+  "metaphorOptions": [
+   "企业家、创业者",
+   "雇员",
+   "看客"
+  ],
+  "mnemonicNote": "entreprene(着手)+ur(人)：敢第一个动手揽事那位",
+  "sourceNote": "法语 entreprendre(着手、承担) + -eur"
  },
  "environmental": {
-  "modernMeaningCn": "周围的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "环境的、环保的",
+  "literalMeaningCn": "四周那一圈的",
+  "metaphorMeaningCn": "环境的、环保的",
+  "metaphorOptions": [
+   "环境的、环保的",
+   "自身的",
+   "内在的"
+  ],
+  "mnemonicNote": "environment(四周)+al：跟身边这一圈有关的",
+  "sourceNote": "古法语 environ(周围) + -ment + -al"
  },
  "epidemic": {
-  "modernMeaningCn": "传染病",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "流行病、泛滥",
+  "literalMeaningCn": "在人群上头传开的",
+  "metaphorMeaningCn": "流行病、泛滥",
+  "metaphorOptions": [
+   "流行病、泛滥",
+   "个别病例",
+   "零星发生"
+  ],
+  "mnemonicNote": "epi(在上)+demic(民众)：在人群上头一路传开",
+  "sourceNote": "希腊 epidemos，epi-(在上) + demos(民众)"
  },
  "equilibrium": {
   "modernMeaningCn": "平衡",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "两头一样重",
+  "metaphorMeaningCn": "平衡、均衡",
+  "metaphorOptions": [
+   "平衡、均衡",
+   "失衡",
+   "一边倒"
+  ],
+  "mnemonicNote": "equi(相等)+libr(天平)+ium：两头一样重",
+  "sourceNote": "拉丁 aequilibrium，aequus(相等) + libra(天平)"
  },
  "erosion": {
-  "modernMeaningCn": "腐蚀",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "侵蚀、削弱",
+  "literalMeaningCn": "一点点啃掉",
+  "metaphorMeaningCn": "侵蚀、削弱",
+  "metaphorOptions": [
+   "侵蚀、削弱",
+   "加固",
+   "日见其长"
+  ],
+  "mnemonicNote": "eros(啃蚀)+ion：被水风一点点啃掉",
+  "sourceNote": "拉丁 erosio，erodere(啃蚀)"
  },
  "eruption": {
   "modernMeaningCn": "爆发",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "从里头冲出来",
+  "metaphorMeaningCn": "爆发、喷发",
+  "metaphorOptions": [
+   "爆发、喷发",
+   "平息",
+   "悄无声息"
+  ],
+  "mnemonicNote": "erupt(喷出)+ion：从里头猛地冲出来",
+  "sourceNote": "拉丁 eruptio，erumpere(爆出)"
  },
  "ethical": {
-  "modernMeaningCn": "伦理的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "道德的、伦理的",
+  "literalMeaningCn": "与是非规矩有关",
+  "metaphorMeaningCn": "道德的、伦理的",
+  "metaphorOptions": [
+   "道德的、伦理的",
+   "无法无天的",
+   "不择手段的"
+  ],
+  "mnemonicNote": "ethic(是非规矩)+al：讲的是该不该这么做",
+  "sourceNote": "希腊 ethikos，ethos(风俗、品性)"
  },
  "evaluation": {
   "modernMeaningCn": "评估",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "给个值",
+  "metaphorMeaningCn": "评估、评价",
+  "metaphorOptions": [
+   "评估、评价",
+   "不置一词",
+   "一概不理"
+  ],
+  "mnemonicNote": "evaluat(估价)+ion：给个值，说个高低",
+  "sourceNote": "古法语 value(价值) + -ation"
  },
  "evaporation": {
   "modernMeaningCn": "蒸发",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "变成汽跑掉",
+  "metaphorMeaningCn": "蒸发、消失",
+  "metaphorOptions": [
+   "蒸发、消失",
+   "凝结",
+   "沉到水底"
+  ],
+  "mnemonicNote": "evaporat(汽化)+ion：水变成汽飘走了",
+  "sourceNote": "拉丁 evaporare，e-(出) + vapor(蒸气)"
  },
  "everlasting": {
   "modernMeaningCn": "永恒的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "一直不停",
+  "metaphorMeaningCn": "永恒的、持久的",
+  "metaphorOptions": [
+   "永恒的、持久的",
+   "转瞬即逝的",
+   "昙花一现的"
+  ],
+  "mnemonicNote": "ever(永远)+lasting(持续)：一直不停，看不到头",
+  "sourceNote": "古英语 æfre(永远) + læstan(持续)"
  },
  "evolutionary": {
-  "modernMeaningCn": "展开的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "进化的、演变的",
+  "literalMeaningCn": "一步步演变过来的",
+  "metaphorMeaningCn": "进化的、演变的",
+  "metaphorOptions": [
+   "进化的、演变的",
+   "一成不变的",
+   "骤然巨变的"
+  ],
+  "mnemonicNote": "evolution(演化)+ary：一步步变过来的那一路",
+  "sourceNote": "拉丁 evolutio，evolvere(展开)"
  },
  "exceptional": {
   "modernMeaningCn": "例外的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "破例出来的",
+  "metaphorMeaningCn": "例外的、杰出的",
+  "metaphorOptions": [
+   "例外的、杰出的",
+   "普通的",
+   "平平常常的"
+  ],
+  "mnemonicNote": "exception(特例)+al：破例拿出来说的那一个",
+  "sourceNote": "拉丁 exceptio，excipere(取出)"
  },
  "excessively": {
-  "modernMeaningCn": "过多",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "过度地、过分地",
+  "literalMeaningCn": "过了头地",
+  "metaphorMeaningCn": "过度地、过分地",
+  "metaphorOptions": [
+   "过度地、过分地",
+   "适可而止地",
+   "恰到好处地"
+  ],
+  "mnemonicNote": "excessive(过了头)+ly：好得过了头",
+  "sourceNote": "拉丁 excessus，excedere(超出) + -ly"
  },
  "execution": {
-  "modernMeaningCn": "实行",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "执行、处决",
+  "literalMeaningCn": "照着办到底",
+  "metaphorMeaningCn": "执行、处决",
+  "metaphorOptions": [
+   "执行、处决",
+   "束之高阁",
+   "半途而废"
+  ],
+  "mnemonicNote": "execut(实施)+ion：照着办到底，不走样",
+  "sourceNote": "拉丁 executio，exsequi(跟到底)"
  },
  "experimentally": {
-  "modernMeaningCn": "实验式地",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "实验性地、试验地",
+  "literalMeaningCn": "靠试出来地",
+  "metaphorMeaningCn": "实验性地、试验地",
+  "metaphorOptions": [
+   "实验性地、试验地",
+   "照本宣科地",
+   "凭空断定地"
+  ],
+  "mnemonicNote": "experimental(试出来的)+ly：先在实验室里试过",
+  "sourceNote": "拉丁 experimentum(试验) + -al + -ly"
  },
  "experimentation": {
   "modernMeaningCn": "实验",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "反复试这件事",
+  "metaphorMeaningCn": "实验、试验",
+  "metaphorOptions": [
+   "实验、试验",
+   "纸上推演",
+   "闭门造车"
+  ],
+  "mnemonicNote": "experiment(试验)+ation：一遍遍试这件事",
+  "sourceNote": "拉丁 experimentum(试验) + -ation"
  },
  "exploitation": {
-  "modernMeaningCn": "开发",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "开发、剥削",
+  "literalMeaningCn": "把资源榨出来用",
+  "metaphorMeaningCn": "开发、剥削",
+  "metaphorOptions": [
+   "开发、剥削",
+   "善待",
+   "养护"
+  ],
+  "mnemonicNote": "exploit(利用)+ation：把资源榨出来用，也可能是压榨人",
+  "sourceNote": "古法语 esploitier，拉丁 explicare(展开)"
  },
  "exploration": {
-  "modernMeaningCn": "探险",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "勘探、探索",
+  "literalMeaningCn": "走到没去过的地方看",
+  "metaphorMeaningCn": "勘探、探索",
+  "metaphorOptions": [
+   "勘探、探索",
+   "固守原地",
+   "足不出户"
+  ],
+  "mnemonicNote": "explor(探查)+ation：走到没人去过的地方看",
+  "sourceNote": "拉丁 exploratio，explorare(探查)"
  },
  "extinction": {
-  "modernMeaningCn": "消失",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "灭绝、消亡",
+  "literalMeaningCn": "像灯一样灭掉",
+  "metaphorMeaningCn": "灭绝、消亡",
+  "metaphorOptions": [
+   "灭绝、消亡",
+   "繁衍",
+   "生生不息"
+  ],
+  "mnemonicNote": "extinct(熄灭)+ion：一茬一茬地灭掉",
+  "sourceNote": "拉丁 extinctio，exstinguere(熄灭)"
  },
  "extract": {
-  "modernMeaningCn": "榨出物",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "提取、摘录",
+  "literalMeaningCn": "从里头拉出来",
+  "metaphorMeaningCn": "提取、摘录",
+  "metaphorOptions": [
+   "提取、摘录",
+   "整体吞下",
+   "原样留存"
+  ],
+  "mnemonicNote": "ex(出)+tract(拉)：从里头一点点拉出来",
+  "sourceNote": "拉丁 extrahere，ex-(出) + trahere(拉)"
  },
  "extraction": {
-  "modernMeaningCn": "抽出",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "抽取、拔除",
+  "literalMeaningCn": "拉出来这件事",
+  "metaphorMeaningCn": "抽取、拔除",
+  "metaphorOptions": [
+   "抽取、拔除",
+   "嵌回原处",
+   "原封不动"
+  ],
+  "mnemonicNote": "extract(拉出)+ion：把它从里面拔出来",
+  "sourceNote": "晚期拉丁 extractio，extrahere(拉出)"
  },
  "extracurricular": {
   "modernMeaningCn": "课外的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "课表之外的",
+  "metaphorMeaningCn": "课外的、业余的",
+  "metaphorOptions": [
+   "课外的、业余的",
+   "必修的",
+   "课堂内的"
+  ],
+  "mnemonicNote": "extra(额外)+curricular(课程的)：课表之外另外加的",
+  "sourceNote": "拉丁 extra-(之外) + curriculum(课程)"
  },
  "extraordinarily": {
-  "modernMeaningCn": "非凡",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "非凡地、极其",
+  "literalMeaningCn": "超出寻常地",
+  "metaphorMeaningCn": "非凡地、极其",
+  "metaphorOptions": [
+   "非凡地、极其",
+   "平淡无奇地",
+   "不起眼地"
+  ],
+  "mnemonicNote": "extraordinari(超出寻常)+ly：寻常的尺子量不出来",
+  "sourceNote": "拉丁 extraordinarius，extra-(之外) + ordo(常规) + -ly"
  },
  "extravagant": {
   "modernMeaningCn": "奢侈的",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "没边地漫出去",
+  "metaphorMeaningCn": "奢侈的、过度的",
+  "metaphorOptions": [
+   "奢侈的、过度的",
+   "俭省的",
+   "锱铢必较的"
+  ],
+  "mnemonicNote": "extra(超出)+vag(游荡)+ant：钱撒出去漫无边际",
+  "sourceNote": "中世纪拉丁 extravagans，extra-(之外) + vagari(游荡)"
  },
  "fabrication": {
   "modernMeaningCn": "制造",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "literalMeaningCn": "拼装出来的东西",
+  "metaphorMeaningCn": "制造、捏造",
+  "metaphorOptions": [
+   "制造、捏造",
+   "据实记录",
+   "实录其事"
+  ],
+  "mnemonicNote": "fabricat(拼装)+ion：拼出来的一件东西，也可能纯属编造",
+  "sourceNote": "拉丁 fabricatio，faber(工匠)"
  },
  "faction": {
-  "modernMeaningCn": "小派系",
-  "literalMeaningCn": "",
-  "metaphorMeaningCn": "",
-  "metaphorOptions": [],
-  "mnemonicNote": "",
-  "sourceNote": ""
+  "modernMeaningCn": "派系、内讧",
+  "literalMeaningCn": "抱团干的那一小拨",
+  "metaphorMeaningCn": "派系、内讧",
+  "metaphorOptions": [
+   "派系、内讧",
+   "同心同德",
+   "上下齐心"
+  ],
+  "mnemonicNote": "fact(做)+ion：关起门来自己干的那一小拨",
+  "sourceNote": "拉丁 factio，facere(做)"
  }
 }
