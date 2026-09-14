@@ -1,0 +1,605 @@
+{
+ "_comment": "3.3 四级批 切分 J：第 541–600 词",
+ "splits": {
+  "republican": [
+   {
+    "id": "republic",
+    "surface": "republic"
+   },
+   {
+    "id": "an",
+    "surface": "an"
+   }
+  ],
+  "researcher": [
+   {
+    "id": "research",
+    "surface": "research"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "residence": [
+   {
+    "id": "reside",
+    "surface": "reside"
+   },
+   {
+    "id": "ence",
+    "surface": "nce"
+   }
+  ],
+  "resident": [
+   {
+    "id": "reside",
+    "surface": "reside"
+   },
+   {
+    "id": "ent",
+    "surface": "nt"
+   }
+  ],
+  "resignation": [
+   {
+    "id": "resign",
+    "surface": "resign"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "resistance": [
+   {
+    "id": "resist",
+    "surface": "resist"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "resistant": [
+   {
+    "id": "resist",
+    "surface": "resist"
+   },
+   {
+    "id": "ant",
+    "surface": "ant"
+   }
+  ],
+  "resolution": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "solution",
+    "surface": "solution"
+   }
+  ],
+  "resolve": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "solve",
+    "surface": "solve"
+   }
+  ],
+  "resort": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "sort",
+    "surface": "sort"
+   }
+  ],
+  "resource": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "source",
+    "surface": "source"
+   }
+  ],
+  "respectful": [
+   {
+    "id": "respect",
+    "surface": "respect"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "respective": [
+   {
+    "id": "respect",
+    "surface": "respect"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "respectively": [
+   {
+    "id": "respective",
+    "surface": "respective"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "responsible": [
+   {
+    "id": "response",
+    "surface": "respons"
+   },
+   {
+    "id": "ible",
+    "surface": "ible"
+   }
+  ],
+  "restless": [
+   {
+    "id": "rest",
+    "surface": "rest"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "restore": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "store",
+    "surface": "store"
+   }
+  ],
+  "restrain": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "strain",
+    "surface": "strain"
+   }
+  ],
+  "resume": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "sumere",
+    "surface": "sume"
+   }
+  ],
+  "retreat": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "treat",
+    "surface": "treat"
+   }
+  ],
+  "revenue": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "venire",
+    "surface": "venue"
+   }
+  ],
+  "reverse": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "vers",
+    "surface": "verse"
+   }
+  ],
+  "revolt": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "volt",
+    "surface": "volt"
+   }
+  ],
+  "revolutionary": [
+   {
+    "id": "revolution",
+    "surface": "revolution"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "rider": [
+   {
+    "id": "ride",
+    "surface": "ride"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "robber": [
+   {
+    "id": "rob",
+    "surface": "robb"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "robbery": [
+   {
+    "id": "rob",
+    "surface": "robb"
+   },
+   {
+    "id": "ery",
+    "surface": "ery"
+   }
+  ],
+  "roman": [
+   {
+    "id": "rome",
+    "surface": "rom"
+   },
+   {
+    "id": "an",
+    "surface": "an"
+   }
+  ],
+  "romantic": [
+   {
+    "id": "romant",
+    "surface": "romant"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "rotation": [
+   {
+    "id": "rot",
+    "surface": "rotat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "roughly": [
+   {
+    "id": "rough",
+    "surface": "rough"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "sadly": [
+   {
+    "id": "sad",
+    "surface": "sad"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "safely": [
+   {
+    "id": "safe",
+    "surface": "safe"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "saving": [
+   {
+    "id": "save",
+    "surface": "sav"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "scandal": [
+   {
+    "id": "scan",
+    "surface": "scan"
+   },
+   {
+    "id": "dal",
+    "surface": "dal"
+   }
+  ],
+  "scarcely": [
+   {
+    "id": "scarce",
+    "surface": "scarce"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "seaport": [
+   {
+    "id": "sea",
+    "surface": "sea"
+   },
+   {
+    "id": "port",
+    "surface": "port"
+   }
+  ],
+  "secondary": [
+   {
+    "id": "second",
+    "surface": "second"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "secondly": [
+   {
+    "id": "second",
+    "surface": "second"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "selection": [
+   {
+    "id": "select",
+    "surface": "select"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "seller": [
+   {
+    "id": "sell",
+    "surface": "sell"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "semiconductor": [
+   {
+    "id": "semi",
+    "surface": "semi"
+   },
+   {
+    "id": "conductor",
+    "surface": "conductor"
+   }
+  ],
+  "seriously": [
+   {
+    "id": "serious",
+    "surface": "serious"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "setting": [
+   {
+    "id": "set",
+    "surface": "set"
+   },
+   {
+    "id": "ting",
+    "surface": "ting"
+   }
+  ],
+  "severely": [
+   {
+    "id": "sever",
+    "surface": "severe"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "sexual": [
+   {
+    "id": "sex",
+    "surface": "sex"
+   },
+   {
+    "id": "ual",
+    "surface": "ual"
+   }
+  ],
+  "shampoo": [
+   {
+    "id": "sham",
+    "surface": "sham"
+   },
+   {
+    "id": "poo",
+    "surface": "poo"
+   }
+  ],
+  "sharply": [
+   {
+    "id": "sharp",
+    "surface": "sharp"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "shed": [
+   {
+    "id": "sh",
+    "surface": "sh"
+   },
+   {
+    "id": "ed",
+    "surface": "ed"
+   }
+  ],
+  "shepherd": [
+   {
+    "id": "sheep",
+    "surface": "shep"
+   },
+   {
+    "id": "herd",
+    "surface": "herd"
+   }
+  ],
+  "shilling": [
+   {
+    "id": "skill",
+    "surface": "shill"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "shortage": [
+   {
+    "id": "short",
+    "surface": "short"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "similarly": [
+   {
+    "id": "similar",
+    "surface": "similar"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "simplicity": [
+   {
+    "id": "simple",
+    "surface": "simpl"
+   },
+   {
+    "id": "icity",
+    "surface": "icity"
+   }
+  ],
+  "slightly": [
+   {
+    "id": "slight",
+    "surface": "slight"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "slipper": [
+   {
+    "id": "slip",
+    "surface": "slipp"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "slippery": [
+   {
+    "id": "slip",
+    "surface": "slipp"
+   },
+   {
+    "id": "er",
+    "surface": "ery"
+   }
+  ],
+  "slowly": [
+   {
+    "id": "slow",
+    "surface": "slow"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "smoothly": [
+   {
+    "id": "smooth",
+    "surface": "smooth"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "snowstorm": [
+   {
+    "id": "snow",
+    "surface": "snow"
+   },
+   {
+    "id": "storm",
+    "surface": "storm"
+   }
+  ]
+ }
+}

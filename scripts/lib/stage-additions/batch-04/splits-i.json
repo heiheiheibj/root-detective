@@ -1,0 +1,621 @@
+{
+ "_comment": "3.3 四级批 切分 I：第 481–540 词",
+ "splits": {
+  "promising": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "mis",
+    "surface": "mis"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "pronoun": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "noun",
+    "surface": "noun"
+   }
+  ],
+  "property": [
+   {
+    "id": "proper",
+    "surface": "proper"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "proportion": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "portion",
+    "surface": "portion"
+   }
+  ],
+  "proportional": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "portion",
+    "surface": "portion"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "proposal": [
+   {
+    "id": "propose",
+    "surface": "propos"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "propose": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "pos",
+    "surface": "pose"
+   }
+  ],
+  "prospect": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "spect",
+    "surface": "spect"
+   }
+  ],
+  "prosperity": [
+   {
+    "id": "prosper",
+    "surface": "prosper"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "prosperous": [
+   {
+    "id": "prosper",
+    "surface": "prosper"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "protective": [
+   {
+    "id": "protect",
+    "surface": "protect"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "protein": [
+   {
+    "id": "proto",
+    "surface": "prot"
+   },
+   {
+    "id": "ein",
+    "surface": "ein"
+   }
+  ],
+  "provided": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "vid",
+    "surface": "vid"
+   },
+   {
+    "id": "ed",
+    "surface": "ed"
+   }
+  ],
+  "provision": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "vision",
+    "surface": "vision"
+   }
+  ],
+  "psychological": [
+   {
+    "id": "psychology",
+    "surface": "psycholog"
+   },
+   {
+    "id": "ical",
+    "surface": "ical"
+   }
+  ],
+  "publication": [
+   {
+    "id": "public",
+    "surface": "public"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "purely": [
+   {
+    "id": "pur",
+    "surface": "pure"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "purity": [
+   {
+    "id": "pur",
+    "surface": "pur"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "pursuit": [
+   {
+    "id": "pur",
+    "surface": "pur"
+   },
+   {
+    "id": "suit",
+    "surface": "suit"
+   }
+  ],
+  "quarterly": [
+   {
+    "id": "quarter",
+    "surface": "quarter"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "quicken": [
+   {
+    "id": "quick",
+    "surface": "quick"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "quotation": [
+   {
+    "id": "quote",
+    "surface": "quot"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "radioactivity": [
+   {
+    "id": "radioactive",
+    "surface": "radioactiv"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "railroad": [
+   {
+    "id": "rail",
+    "surface": "rail"
+   },
+   {
+    "id": "road",
+    "surface": "road"
+   }
+  ],
+  "rapidly": [
+   {
+    "id": "rapid",
+    "surface": "rapid"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "rarely": [
+   {
+    "id": "rare",
+    "surface": "rare"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "reaction": [
+   {
+    "id": "react",
+    "surface": "react"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "reader": [
+   {
+    "id": "read",
+    "surface": "read"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "readily": [
+   {
+    "id": "ready",
+    "surface": "readi"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "realize": [
+   {
+    "id": "real",
+    "surface": "real"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "rebellion": [
+   {
+    "id": "rebel",
+    "surface": "rebell"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "recall": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "call",
+    "surface": "call"
+   }
+  ],
+  "recently": [
+   {
+    "id": "recent",
+    "surface": "recent"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "recognition": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "cognition",
+    "surface": "cognition"
+   }
+  ],
+  "recognize": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "cognize",
+    "surface": "cognize"
+   }
+  ],
+  "recollect": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "collect",
+    "surface": "collect"
+   }
+  ],
+  "recommendation": [
+   {
+    "id": "recommend",
+    "surface": "recommend"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "reduction": [
+   {
+    "id": "reduce",
+    "surface": "reduc"
+   },
+   {
+    "id": "tion",
+    "surface": "tion"
+   }
+  ],
+  "refine": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "fine",
+    "surface": "fine"
+   }
+  ],
+  "reflexion": [
+   {
+    "id": "reflex",
+    "surface": "reflex"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "refreshment": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "fresh",
+    "surface": "fresh"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "refute": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "ful",
+    "surface": "fute"
+   }
+  ],
+  "regarding": [
+   {
+    "id": "regard",
+    "surface": "regard"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "regularly": [
+   {
+    "id": "regular",
+    "surface": "regular"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "rehearsal": [
+   {
+    "id": "rehearse",
+    "surface": "rehears"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "reinforce": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "inforce",
+    "surface": "inforce"
+   }
+  ],
+  "relatively": [
+   {
+    "id": "relative",
+    "surface": "relative"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "relativity": [
+   {
+    "id": "relative",
+    "surface": "relativ"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "release": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "lease",
+    "surface": "lease"
+   }
+  ],
+  "reliability": [
+   {
+    "id": "reliable",
+    "surface": "reliabil"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "reliance": [
+   {
+    "id": "rely",
+    "surface": "reli"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "reluctant": [
+   {
+    "id": "reluct",
+    "surface": "reluct"
+   },
+   {
+    "id": "ant",
+    "surface": "ant"
+   }
+  ],
+  "remarkable": [
+   {
+    "id": "remark",
+    "surface": "remark"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "removal": [
+   {
+    "id": "remove",
+    "surface": "remov"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "render": [
+   {
+    "id": "rend",
+    "surface": "rend"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "renew": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "new",
+    "surface": "new"
+   }
+  ],
+  "repeatedly": [
+   {
+    "id": "repeated",
+    "surface": "repeated"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "repetition": [
+   {
+    "id": "repeat",
+    "surface": "repet"
+   },
+   {
+    "id": "ition",
+    "surface": "ition"
+   }
+  ],
+  "reproach": [
+   {
+    "id": "rep",
+    "surface": "rep"
+   },
+   {
+    "id": "roach",
+    "surface": "roach"
+   }
+  ],
+  "reproduce": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "produce",
+    "surface": "produce"
+   }
+  ]
+ }
+}

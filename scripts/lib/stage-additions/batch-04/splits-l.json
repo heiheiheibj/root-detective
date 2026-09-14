@@ -1,0 +1,613 @@
+{
+ "_comment": "3.3 四级批 切分 L：第 661–720 词",
+ "splits": {
+  "thoughtful": [
+   {
+    "id": "thought",
+    "surface": "thought"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "threaten": [
+   {
+    "id": "threat",
+    "surface": "threat"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "torrent": [
+   {
+    "id": "tor",
+    "surface": "tor"
+   },
+   {
+    "id": "rent",
+    "surface": "rent"
+   }
+  ],
+  "towards": [
+   {
+    "id": "to",
+    "surface": "to"
+   },
+   {
+    "id": "wards",
+    "surface": "wards"
+   }
+  ],
+  "transformation": [
+   {
+    "id": "transform",
+    "surface": "transform"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "transistor": [
+   {
+    "id": "trans",
+    "surface": "trans"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "transmission": [
+   {
+    "id": "trans",
+    "surface": "trans"
+   },
+   {
+    "id": "mission",
+    "surface": "mission"
+   }
+  ],
+  "transplant": [
+   {
+    "id": "trans",
+    "surface": "trans"
+   },
+   {
+    "id": "plant",
+    "surface": "plant"
+   }
+  ],
+  "transportation": [
+   {
+    "id": "transport",
+    "surface": "transport"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "tropical": [
+   {
+    "id": "tropic",
+    "surface": "tropic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "trumpet": [
+   {
+    "id": "trump",
+    "surface": "trump"
+   },
+   {
+    "id": "et",
+    "surface": "et"
+   }
+  ],
+  "turning": [
+   {
+    "id": "turn",
+    "surface": "turn"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "twinkle": [
+   {
+    "id": "twink",
+    "surface": "twink"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "ultimately": [
+   {
+    "id": "ultimate",
+    "surface": "ultimate"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "uncover": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "cover",
+    "surface": "cover"
+   }
+  ],
+  "undergo": [
+   {
+    "id": "under",
+    "surface": "under"
+   },
+   {
+    "id": "go",
+    "surface": "go"
+   }
+  ],
+  "undergraduate": [
+   {
+    "id": "under",
+    "surface": "under"
+   },
+   {
+    "id": "graduate",
+    "surface": "graduate"
+   }
+  ],
+  "underneath": [
+   {
+    "id": "under",
+    "surface": "under"
+   },
+   {
+    "id": "neath",
+    "surface": "neath"
+   }
+  ],
+  "undertaking": [
+   {
+    "id": "undertake",
+    "surface": "undertak"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "undoubtedly": [
+   {
+    "id": "undoubted",
+    "surface": "undoubted"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "uneasy": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "easy",
+    "surface": "easy"
+   }
+  ],
+  "unexpected": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "expected",
+    "surface": "expected"
+   }
+  ],
+  "unjust": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "just",
+    "surface": "just"
+   }
+  ],
+  "unkind": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "kind",
+    "surface": "kind"
+   }
+  ],
+  "unlikely": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "likely",
+    "surface": "likely"
+   }
+  ],
+  "unload": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "load",
+    "surface": "load"
+   }
+  ],
+  "unlucky": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "lucky",
+    "surface": "lucky"
+   }
+  ],
+  "unnecessary": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "necessary",
+    "surface": "necessary"
+   }
+  ],
+  "unsatisfactory": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "satisfactory",
+    "surface": "satisfactory"
+   }
+  ],
+  "unstable": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "stable",
+    "surface": "stable"
+   }
+  ],
+  "unsuitable": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "suitable",
+    "surface": "suitable"
+   }
+  ],
+  "unusually": [
+   {
+    "id": "unusual",
+    "surface": "unusual"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "upright": [
+   {
+    "id": "up",
+    "surface": "up"
+   },
+   {
+    "id": "right",
+    "surface": "right"
+   }
+  ],
+  "uptodate": [
+   {
+    "id": "up",
+    "surface": "up"
+   },
+   {
+    "id": "to",
+    "surface": "to"
+   },
+   {
+    "id": "date",
+    "surface": "date"
+   }
+  ],
+  "upwards": [
+   {
+    "id": "up",
+    "surface": "up"
+   },
+   {
+    "id": "wards",
+    "surface": "wards"
+   }
+  ],
+  "usage": [
+   {
+    "id": "use",
+    "surface": "us"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "utmost": [
+   {
+    "id": "out",
+    "surface": "ut"
+   },
+   {
+    "id": "most",
+    "surface": "most"
+   }
+  ],
+  "vanity": [
+   {
+    "id": "vain",
+    "surface": "van"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "variable": [
+   {
+    "id": "vary",
+    "surface": "vari"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "variation": [
+   {
+    "id": "vary",
+    "surface": "vari"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "vibration": [
+   {
+    "id": "vibrate",
+    "surface": "vibrat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "videotape": [
+   {
+    "id": "video",
+    "surface": "video"
+   },
+   {
+    "id": "tape",
+    "surface": "tape"
+   }
+  ],
+  "viewpoint": [
+   {
+    "id": "view",
+    "surface": "view"
+   },
+   {
+    "id": "point",
+    "surface": "point"
+   }
+  ],
+  "vigorous": [
+   {
+    "id": "vigor",
+    "surface": "vigor"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "virtually": [
+   {
+    "id": "virtual",
+    "surface": "virtual"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "vitally": [
+   {
+    "id": "vital",
+    "surface": "vital"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "vitamin": [
+   {
+    "id": "vita",
+    "surface": "vita"
+   },
+   {
+    "id": "min",
+    "surface": "min"
+   }
+  ],
+  "voltage": [
+   {
+    "id": "volt",
+    "surface": "volt"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "waterfall": [
+   {
+    "id": "water",
+    "surface": "water"
+   },
+   {
+    "id": "fall",
+    "surface": "fall"
+   }
+  ],
+  "waterproof": [
+   {
+    "id": "water",
+    "surface": "water"
+   },
+   {
+    "id": "proof",
+    "surface": "proof"
+   }
+  ],
+  "wavelength": [
+   {
+    "id": "wave",
+    "surface": "wave"
+   },
+   {
+    "id": "length",
+    "surface": "length"
+   }
+  ],
+  "weaken": [
+   {
+    "id": "weak",
+    "surface": "weak"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "wellknown": [
+   {
+    "id": "well",
+    "surface": "well"
+   },
+   {
+    "id": "known",
+    "surface": "known"
+   }
+  ],
+  "westward": [
+   {
+    "id": "west",
+    "surface": "west"
+   },
+   {
+    "id": "ward",
+    "surface": "ward"
+   }
+  ],
+  "whereas": [
+   {
+    "id": "where",
+    "surface": "where"
+   },
+   {
+    "id": "as",
+    "surface": "as"
+   }
+  ],
+  "whitewash": [
+   {
+    "id": "white",
+    "surface": "white"
+   },
+   {
+    "id": "wash",
+    "surface": "wash"
+   }
+  ],
+  "whoever": [
+   {
+    "id": "who",
+    "surface": "who"
+   },
+   {
+    "id": "ever",
+    "surface": "ever"
+   }
+  ],
+  "wholly": [
+   {
+    "id": "whole",
+    "surface": "whol"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "widely": [
+   {
+    "id": "wide",
+    "surface": "wide"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "wireless": [
+   {
+    "id": "wire",
+    "surface": "wire"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ]
+ }
+}

@@ -1,0 +1,617 @@
+{
+ "_comment": "3.3 四级批 切分 B：第 61–120 词",
+ "splits": {
+  "combination": [
+   {
+    "id": "combine",
+    "surface": "combin"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "commander": [
+   {
+    "id": "command",
+    "surface": "command"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "commercial": [
+   {
+    "id": "commerce",
+    "surface": "commerc"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "commission": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "mission",
+    "surface": "mission"
+   }
+  ],
+  "commonly": [
+   {
+    "id": "common",
+    "surface": "common"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "community": [
+   {
+    "id": "commune",
+    "surface": "commun"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "comparable": [
+   {
+    "id": "compare",
+    "surface": "compar"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "comparatively": [
+   {
+    "id": "comparative",
+    "surface": "comparative"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "comparison": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "pari",
+    "surface": "pari"
+   },
+   {
+    "id": "son",
+    "surface": "son"
+   }
+  ],
+  "compile": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "pile",
+    "surface": "pile"
+   }
+  ],
+  "complain": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "plain",
+    "surface": "plain"
+   }
+  ],
+  "completely": [
+   {
+    "id": "complete",
+    "surface": "complete"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "compound": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "pound",
+    "surface": "pound"
+   }
+  ],
+  "compress": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "press",
+    "surface": "press"
+   }
+  ],
+  "comprise": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "prise",
+    "surface": "prise"
+   }
+  ],
+  "concentration": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "centre",
+    "surface": "centr"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "concerning": [
+   {
+    "id": "concern",
+    "surface": "concern"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "condense": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "dense",
+    "surface": "dense"
+   }
+  ],
+  "confidence": [
+   {
+    "id": "confide",
+    "surface": "confide"
+   },
+   {
+    "id": "ence",
+    "surface": "nce"
+   }
+  ],
+  "confine": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "fine",
+    "surface": "fine"
+   }
+  ],
+  "congress": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "gress",
+    "surface": "gress"
+   }
+  ],
+  "conjunction": [
+   {
+    "id": "conjunct",
+    "surface": "conjunct"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "conquer": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "quer",
+    "surface": "quer"
+   }
+  ],
+  "conquest": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "quest",
+    "surface": "quest"
+   }
+  ],
+  "conscious": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "sci",
+    "surface": "sci"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "consciousness": [
+   {
+    "id": "conscious",
+    "surface": "conscious"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "consent": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "sent",
+    "surface": "sent"
+   }
+  ],
+  "consequently": [
+   {
+    "id": "consequent",
+    "surface": "consequent"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "conserve": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "serv",
+    "surface": "serve"
+   }
+  ],
+  "considerable": [
+   {
+    "id": "consider",
+    "surface": "consider"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "consumer": [
+   {
+    "id": "consume",
+    "surface": "consume"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "consumption": [
+   {
+    "id": "consume",
+    "surface": "consump"
+   },
+   {
+    "id": "tion",
+    "surface": "tion"
+   }
+  ],
+  "contempt": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "tempt",
+    "surface": "tempt"
+   }
+  ],
+  "continual": [
+   {
+    "id": "continue",
+    "surface": "continu"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "contradiction": [
+   {
+    "id": "contradict",
+    "surface": "contradict"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "conversely": [
+   {
+    "id": "converse",
+    "surface": "converse"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "conversion": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "version",
+    "surface": "version"
+   }
+  ],
+  "convert": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "vert",
+    "surface": "vert"
+   }
+  ],
+  "cooperate": [
+   {
+    "id": "co",
+    "surface": "co"
+   },
+   {
+    "id": "operate",
+    "surface": "operate"
+   }
+  ],
+  "coordinate": [
+   {
+    "id": "co",
+    "surface": "co"
+   },
+   {
+    "id": "ordin",
+    "surface": "ordinate"
+   }
+  ],
+  "copper": [
+   {
+    "id": "cop",
+    "surface": "copp"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "core": [
+   {
+    "id": "co",
+    "surface": "co"
+   },
+   {
+    "id": "re",
+    "surface": "re"
+   }
+  ],
+  "correspondent": [
+   {
+    "id": "correspond",
+    "surface": "correspond"
+   },
+   {
+    "id": "ent",
+    "surface": "ent"
+   }
+  ],
+  "corresponding": [
+   {
+    "id": "correspond",
+    "surface": "correspond"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "costly": [
+   {
+    "id": "cost",
+    "surface": "cost"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "creative": [
+   {
+    "id": "create",
+    "surface": "creat"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "cripple": [
+   {
+    "id": "creep",
+    "surface": "cripp"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "critical": [
+   {
+    "id": "critic",
+    "surface": "critic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "criticism": [
+   {
+    "id": "critic",
+    "surface": "critic"
+   },
+   {
+    "id": "ism",
+    "surface": "ism"
+   }
+  ],
+  "criticize": [
+   {
+    "id": "critic",
+    "surface": "critic"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "cunning": [
+   {
+    "id": "con",
+    "surface": "cunn"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "curiosity": [
+   {
+    "id": "curious",
+    "surface": "curios"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "darling": [
+   {
+    "id": "dear",
+    "surface": "dar"
+   },
+   {
+    "id": "ling",
+    "surface": "ling"
+   }
+  ],
+  "deadly": [
+   {
+    "id": "dead",
+    "surface": "dead"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "deepen": [
+   {
+    "id": "deep",
+    "surface": "deep"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "definitely": [
+   {
+    "id": "definite",
+    "surface": "definite"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "definition": [
+   {
+    "id": "define",
+    "surface": "defin"
+   },
+   {
+    "id": "ition",
+    "surface": "ition"
+   }
+  ],
+  "deliberate": [
+   {
+    "id": "deli",
+    "surface": "deli"
+   },
+   {
+    "id": "berate",
+    "surface": "berate"
+   }
+  ],
+  "delivery": [
+   {
+    "id": "deli",
+    "surface": "deli"
+   },
+   {
+    "id": "very",
+    "surface": "very"
+   }
+  ],
+  "democracy": [
+   {
+    "id": "demo",
+    "surface": "demo"
+   },
+   {
+    "id": "cracy",
+    "surface": "cracy"
+   }
+  ]
+ }
+}

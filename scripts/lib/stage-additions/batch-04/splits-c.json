@@ -1,0 +1,613 @@
+{
+ "_comment": "3.3 四级批 切分 C：第 121–180 词",
+ "splits": {
+  "democratic": [
+   {
+    "id": "democrat",
+    "surface": "democrat"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "density": [
+   {
+    "id": "dense",
+    "surface": "dens"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "dependent": [
+   {
+    "id": "depend",
+    "surface": "depend"
+   },
+   {
+    "id": "ent",
+    "surface": "ent"
+   }
+  ],
+  "depress": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "press",
+    "surface": "press"
+   }
+  ],
+  "depression": [
+   {
+    "id": "depress",
+    "surface": "depress"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "desirable": [
+   {
+    "id": "desire",
+    "surface": "desir"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "despair": [
+   {
+    "id": "des",
+    "surface": "des"
+   },
+   {
+    "id": "pair",
+    "surface": "pair"
+   }
+  ],
+  "despite": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "spite",
+    "surface": "spite"
+   }
+  ],
+  "destruction": [
+   {
+    "id": "destruct",
+    "surface": "destruct"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "destructive": [
+   {
+    "id": "destruct",
+    "surface": "destruct"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "detail": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "tail",
+    "surface": "tail"
+   }
+  ],
+  "detect": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "tect",
+    "surface": "tect"
+   }
+  ],
+  "detection": [
+   {
+    "id": "detect",
+    "surface": "detect"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "dialect": [
+   {
+    "id": "dia",
+    "surface": "dia"
+   },
+   {
+    "id": "lect",
+    "surface": "lect"
+   }
+  ],
+  "dialog": [
+   {
+    "id": "dia",
+    "surface": "dia"
+   },
+   {
+    "id": "log",
+    "surface": "log"
+   }
+  ],
+  "directly": [
+   {
+    "id": "direct",
+    "surface": "direct"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "disable": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "disapprove": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "approve",
+    "surface": "approve"
+   }
+  ],
+  "discard": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "card",
+    "surface": "card"
+   }
+  ],
+  "discharge": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "charge",
+    "surface": "charge"
+   }
+  ],
+  "discipline": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "cip",
+    "surface": "cip"
+   },
+   {
+    "id": "line",
+    "surface": "line"
+   }
+  ],
+  "disclose": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "close",
+    "surface": "close"
+   }
+  ],
+  "disguise": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "guise",
+    "surface": "guise"
+   }
+  ],
+  "disgust": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "gust",
+    "surface": "gust"
+   }
+  ],
+  "dishonour": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "honour",
+    "surface": "honour"
+   }
+  ],
+  "disorder": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "order",
+    "surface": "order"
+   }
+  ],
+  "display": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "play",
+    "surface": "play"
+   }
+  ],
+  "displease": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "please",
+    "surface": "please"
+   }
+  ],
+  "disposal": [
+   {
+    "id": "dispose",
+    "surface": "dispos"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "dispose": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "pos",
+    "surface": "pose"
+   }
+  ],
+  "dissatisfy": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "satisfy",
+    "surface": "satisfy"
+   }
+  ],
+  "dissolve": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "solve",
+    "surface": "solve"
+   }
+  ],
+  "distress": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "tress",
+    "surface": "tress"
+   }
+  ],
+  "distribution": [
+   {
+    "id": "distribute",
+    "surface": "distribut"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "doubtful": [
+   {
+    "id": "doubt",
+    "surface": "doubt"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "doubtless": [
+   {
+    "id": "doubt",
+    "surface": "doubt"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "dramatic": [
+   {
+    "id": "drama",
+    "surface": "drama"
+   },
+   {
+    "id": "tic",
+    "surface": "tic"
+   }
+  ],
+  "dwelling": [
+   {
+    "id": "dwell",
+    "surface": "dwell"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "dying": [
+   {
+    "id": "di",
+    "surface": "dy"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "earnest": [
+   {
+    "id": "earn",
+    "surface": "earn"
+   },
+   {
+    "id": "est",
+    "surface": "est"
+   }
+  ],
+  "economic": [
+   {
+    "id": "economy",
+    "surface": "econom"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "economical": [
+   {
+    "id": "economic",
+    "surface": "economic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "economics": [
+   {
+    "id": "eco",
+    "surface": "eco"
+   },
+   {
+    "id": "nom",
+    "surface": "nom"
+   },
+   {
+    "id": "ics",
+    "surface": "ics"
+   }
+  ],
+  "economy": [
+   {
+    "id": "eco",
+    "surface": "eco"
+   },
+   {
+    "id": "nomy",
+    "surface": "nomy"
+   }
+  ],
+  "editorial": [
+   {
+    "id": "editor",
+    "surface": "editor"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "effective": [
+   {
+    "id": "effect",
+    "surface": "effect"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "elbow": [
+   {
+    "id": "ell",
+    "surface": "el"
+   },
+   {
+    "id": "bow",
+    "surface": "bow"
+   }
+  ],
+  "elderly": [
+   {
+    "id": "elder",
+    "surface": "elder"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "election": [
+   {
+    "id": "elect",
+    "surface": "elect"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "electron": [
+   {
+    "id": "elect",
+    "surface": "elect"
+   },
+   {
+    "id": "ron",
+    "surface": "ron"
+   }
+  ],
+  "electronics": [
+   {
+    "id": "electron",
+    "surface": "electron"
+   },
+   {
+    "id": "ics",
+    "surface": "ics"
+   }
+  ],
+  "elementary": [
+   {
+    "id": "element",
+    "surface": "element"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "elimination": [
+   {
+    "id": "eliminate",
+    "surface": "eliminat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "elsewhere": [
+   {
+    "id": "else",
+    "surface": "else"
+   },
+   {
+    "id": "where",
+    "surface": "where"
+   }
+  ],
+  "embrace": [
+   {
+    "id": "em",
+    "surface": "em"
+   },
+   {
+    "id": "brace",
+    "surface": "brace"
+   }
+  ],
+  "emotional": [
+   {
+    "id": "emotion",
+    "surface": "emotion"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "emphasize": [
+   {
+    "id": "emphasis",
+    "surface": "emphasi"
+   },
+   {
+    "id": "ize",
+    "surface": "ze"
+   }
+  ],
+  "employee": [
+   {
+    "id": "employ",
+    "surface": "employ"
+   },
+   {
+    "id": "ee",
+    "surface": "ee"
+   }
+  ],
+  "employer": [
+   {
+    "id": "employ",
+    "surface": "employ"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "employment": [
+   {
+    "id": "employ",
+    "surface": "employ"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ]
+ }
+}

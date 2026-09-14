@@ -1,0 +1,115 @@
+{
+ "_comment": "3.3 四级批 切分 M：第 721–731 词",
+ "splits": {
+  "withstand": [
+   {
+    "id": "with",
+    "surface": "with"
+   },
+   {
+    "id": "stand",
+    "surface": "stand"
+   }
+  ],
+  "workman": [
+   {
+    "id": "work",
+    "surface": "work"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "workshop": [
+   {
+    "id": "work",
+    "surface": "work"
+   },
+   {
+    "id": "shop",
+    "surface": "shop"
+   }
+  ],
+  "worldwide": [
+   {
+    "id": "world",
+    "surface": "world"
+   },
+   {
+    "id": "wide",
+    "surface": "wide"
+   }
+  ],
+  "worship": [
+   {
+    "id": "worth",
+    "surface": "wor"
+   },
+   {
+    "id": "ship",
+    "surface": "ship"
+   }
+  ],
+  "wreckage": [
+   {
+    "id": "wreck",
+    "surface": "wreck"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "writer": [
+   {
+    "id": "write",
+    "surface": "write"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "yearly": [
+   {
+    "id": "year",
+    "surface": "year"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "youngster": [
+   {
+    "id": "young",
+    "surface": "young"
+   },
+   {
+    "id": "ster",
+    "surface": "ster"
+   }
+  ],
+  "youthful": [
+   {
+    "id": "youth",
+    "surface": "youth"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "zealous": [
+   {
+    "id": "zeal",
+    "surface": "zeal"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ]
+ }
+}

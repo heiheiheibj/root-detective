@@ -1,0 +1,20 @@
+{
+ "_comment": "3.3 四级批新增 3 个世界（+ 之前 32 个 = 35），覆盖本批全部 18 个教学词根家族。口径同 batch-02/03：世界按批次增量，只挂本批已进词库的词根。本批家族少（18 个），因为四级词多为长派生词，词根集中在少数几个已经上过地图的家族上。",
+ "worlds": [
+  {
+   "id": "critique-hall",
+   "name": "评议堂",
+   "morphemeIds": ["critic", "just", "respect", "correspond", "sense", "name"]
+  },
+  {
+   "id": "office-house",
+   "name": "职事馆",
+   "morphemeIds": ["employ", "mission", "pay", "hold", "verb"]
+  },
+  {
+   "id": "refine-workshop",
+   "name": "精作坊",
+   "morphemeIds": ["fine", "close", "regular", "second", "common", "general", "orient"]
+  }
+ ]
+}

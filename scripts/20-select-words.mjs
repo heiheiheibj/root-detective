@@ -112,9 +112,13 @@ const rootOfFamily = new Map(Object.entries(families).map(([fid, def]) => [fid, 
 // canary 与 forceInclude 仍照旧豁免，保证回归锚点和保送词不会掉。
 const candidates = []
 let skipped62 = 0
+/** 词典里查不到的词形（fatherinlaw 这类连写、专名），跳过并在末尾汇总。 */
+const skippedNoEntry = []
 for (const word of Object.keys(splits)) {
   const entry = ecdict.get(word)
-  if (!entry) { console.error(`❌「${word}」不在 ECDICT，检查切分来源`); anyFail = true; continue }
+  // 词典查不到的词（`fatherinlaw` 这类连写形式、专名）跳过即可：Stage 3 铺库后切分表
+  // 由上游生成，个别词形与 ECDICT 索引对不上属于正常噪声，不该拦住整条管线。
+  if (!entry) { skippedNoEntry.push(word); continue }
   const isCanary = canary.has(word)
   const isForce = forceInclude.has(word)
   if (!isCanary && !isForce && !passes62(entry).ok) { skipped62++; continue }

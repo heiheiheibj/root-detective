@@ -1,0 +1,613 @@
+{
+ "_comment": "3.3 四级批 切分 H：第 421–480 词",
+ "splits": {
+  "outdoor": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "door",
+    "surface": "door"
+   }
+  ],
+  "outlet": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "let",
+    "surface": "let"
+   }
+  ],
+  "outlook": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "look",
+    "surface": "look"
+   }
+  ],
+  "outset": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "set",
+    "surface": "set"
+   }
+  ],
+  "outskirt": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "skirt",
+    "surface": "skirt"
+   }
+  ],
+  "outwards": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "wards",
+    "surface": "wards"
+   }
+  ],
+  "overall": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "all",
+    "surface": "all"
+   }
+  ],
+  "overdue": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "due",
+    "surface": "due"
+   }
+  ],
+  "overnight": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "night",
+    "surface": "night"
+   }
+  ],
+  "overtake": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "take",
+    "surface": "take"
+   }
+  ],
+  "overtime": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "time",
+    "surface": "time"
+   }
+  ],
+  "partial": [
+   {
+    "id": "part",
+    "surface": "part"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "partially": [
+   {
+    "id": "partial",
+    "surface": "partial"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "particularly": [
+   {
+    "id": "particular",
+    "surface": "particular"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "passion": [
+   {
+    "id": "pass",
+    "surface": "pass"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "pastime": [
+   {
+    "id": "pas",
+    "surface": "pas"
+   },
+   {
+    "id": "time",
+    "surface": "time"
+   }
+  ],
+  "pavement": [
+   {
+    "id": "pave",
+    "surface": "pave"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "payment": [
+   {
+    "id": "pay",
+    "surface": "pay"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "peninsula": [
+   {
+    "id": "pen",
+    "surface": "pen"
+   },
+   {
+    "id": "insula",
+    "surface": "insula"
+   }
+  ],
+  "perceive": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "ceive",
+    "surface": "ceive"
+   }
+  ],
+  "perfectly": [
+   {
+    "id": "perfect",
+    "surface": "perfect"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "permanently": [
+   {
+    "id": "permanent",
+    "surface": "permanent"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "persist": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "sist",
+    "surface": "sist"
+   }
+  ],
+  "personality": [
+   {
+    "id": "personal",
+    "surface": "personal"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "perspective": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "spect",
+    "surface": "spect"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "pessimistic": [
+   {
+    "id": "pessimist",
+    "surface": "pessimist"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "philosopher": [
+   {
+    "id": "philo",
+    "surface": "philo"
+   },
+   {
+    "id": "soph",
+    "surface": "soph"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "philosophy": [
+   {
+    "id": "philo",
+    "surface": "philo"
+   },
+   {
+    "id": "sophy",
+    "surface": "sophy"
+   }
+  ],
+  "photographic": [
+   {
+    "id": "photo",
+    "surface": "photo"
+   },
+   {
+    "id": "graphic",
+    "surface": "graphic"
+   }
+  ],
+  "pipeline": [
+   {
+    "id": "pipe",
+    "surface": "pipe"
+   },
+   {
+    "id": "line",
+    "surface": "line"
+   }
+  ],
+  "plantation": [
+   {
+    "id": "plant",
+    "surface": "plant"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "plentiful": [
+   {
+    "id": "plenty",
+    "surface": "plenti"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "poetry": [
+   {
+    "id": "poet",
+    "surface": "poet"
+   },
+   {
+    "id": "ry",
+    "surface": "ry"
+   }
+  ],
+  "portion": [
+   {
+    "id": "por",
+    "surface": "por"
+   },
+   {
+    "id": "tion",
+    "surface": "tion"
+   }
+  ],
+  "portrait": [
+   {
+    "id": "por",
+    "surface": "por"
+   },
+   {
+    "id": "trait",
+    "surface": "trait"
+   }
+  ],
+  "portuguese": [
+   {
+    "id": "portugal",
+    "surface": "portugu"
+   },
+   {
+    "id": "es",
+    "surface": "ese"
+   }
+  ],
+  "positive": [
+   {
+    "id": "posit",
+    "surface": "posit"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "possibly": [
+   {
+    "id": "possible",
+    "surface": "possibl"
+   },
+   {
+    "id": "ly",
+    "surface": "y"
+   }
+  ],
+  "practically": [
+   {
+    "id": "practical",
+    "surface": "practical"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "precaution": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "caution",
+    "surface": "caution"
+   }
+  ],
+  "preceding": [
+   {
+    "id": "precede",
+    "surface": "preced"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "precision": [
+   {
+    "id": "precise",
+    "surface": "precis"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "preface": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "fac",
+    "surface": "face"
+   }
+  ],
+  "preferable": [
+   {
+    "id": "prefer",
+    "surface": "prefer"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "preposition": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "position",
+    "surface": "position"
+   }
+  ],
+  "prescribe": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "scrib",
+    "surface": "scribe"
+   }
+  ],
+  "presently": [
+   {
+    "id": "present",
+    "surface": "present"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "presumably": [
+   {
+    "id": "presume",
+    "surface": "presum"
+   },
+   {
+    "id": "ably",
+    "surface": "ably"
+   }
+  ],
+  "previously": [
+   {
+    "id": "previous",
+    "surface": "previous"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "primarily": [
+   {
+    "id": "primary",
+    "surface": "primari"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "princess": [
+   {
+    "id": "prince",
+    "surface": "prince"
+   },
+   {
+    "id": "ess",
+    "surface": "ss"
+   }
+  ],
+  "priority": [
+   {
+    "id": "prior",
+    "surface": "prior"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "proceed": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "ceed",
+    "surface": "ceed"
+   }
+  ],
+  "procession": [
+   {
+    "id": "process",
+    "surface": "process"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "proclaim": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "claim",
+    "surface": "claim"
+   }
+  ],
+  "productive": [
+   {
+    "id": "product",
+    "surface": "product"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "professional": [
+   {
+    "id": "profession",
+    "surface": "profession"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "profitable": [
+   {
+    "id": "profit",
+    "surface": "profit"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "program": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "gram",
+    "surface": "gram"
+   }
+  ],
+  "progressive": [
+   {
+    "id": "progress",
+    "surface": "progress"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ]
+ }
+}

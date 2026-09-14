@@ -1,0 +1,609 @@
+{
+ "_comment": "3.3 四级批 切分 G：第 361–420 词",
+ "splits": {
+  "masterpiece": [
+   {
+    "id": "master",
+    "surface": "master"
+   },
+   {
+    "id": "piece",
+    "surface": "piece"
+   }
+  ],
+  "materialism": [
+   {
+    "id": "material",
+    "surface": "material"
+   },
+   {
+    "id": "ism",
+    "surface": "ism"
+   }
+  ],
+  "meantime": [
+   {
+    "id": "mean",
+    "surface": "mean"
+   },
+   {
+    "id": "time",
+    "surface": "time"
+   }
+  ],
+  "measurable": [
+   {
+    "id": "measure",
+    "surface": "measur"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "measurement": [
+   {
+    "id": "measure",
+    "surface": "measure"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "mechanical": [
+   {
+    "id": "mechanic",
+    "surface": "mechanic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "mechanically": [
+   {
+    "id": "mechanical",
+    "surface": "mechanical"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "microphone": [
+   {
+    "id": "micro",
+    "surface": "micro"
+   },
+   {
+    "id": "phone",
+    "surface": "phone"
+   }
+  ],
+  "millimetre": [
+   {
+    "id": "milli",
+    "surface": "milli"
+   },
+   {
+    "id": "metr",
+    "surface": "metre"
+   }
+  ],
+  "miner": [
+   {
+    "id": "min",
+    "surface": "mine"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "miserable": [
+   {
+    "id": "miser",
+    "surface": "miser"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "mislead": [
+   {
+    "id": "mis",
+    "surface": "mis"
+   },
+   {
+    "id": "lead",
+    "surface": "lead"
+   }
+  ],
+  "missing": [
+   {
+    "id": "miss",
+    "surface": "miss"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "mister": [
+   {
+    "id": "mist",
+    "surface": "mist"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "moan": [
+   {
+    "id": "moa",
+    "surface": "moa"
+   },
+   {
+    "id": "an",
+    "surface": "n"
+   }
+  ],
+  "moderate": [
+   {
+    "id": "mode",
+    "surface": "mode"
+   },
+   {
+    "id": "rate",
+    "surface": "rate"
+   }
+  ],
+  "moisture": [
+   {
+    "id": "moist",
+    "surface": "moist"
+   },
+   {
+    "id": "ure",
+    "surface": "ure"
+   }
+  ],
+  "monthly": [
+   {
+    "id": "month",
+    "surface": "month"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "moreover": [
+   {
+    "id": "more",
+    "surface": "more"
+   },
+   {
+    "id": "over",
+    "surface": "over"
+   }
+  ],
+  "mostly": [
+   {
+    "id": "most",
+    "surface": "most"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "motivate": [
+   {
+    "id": "motive",
+    "surface": "motiv"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "multiple": [
+   {
+    "id": "multi",
+    "surface": "multi"
+   },
+   {
+    "id": "pile",
+    "surface": "ple"
+   }
+  ],
+  "murderer": [
+   {
+    "id": "murder",
+    "surface": "murder"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "mysterious": [
+   {
+    "id": "mystery",
+    "surface": "mysteri"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "namely": [
+   {
+    "id": "name",
+    "surface": "name"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "naturally": [
+   {
+    "id": "natural",
+    "surface": "natural"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "naval": [
+   {
+    "id": "navy",
+    "surface": "nav"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "navigation": [
+   {
+    "id": "navigate",
+    "surface": "navigat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "necessarily": [
+   {
+    "id": "necessary",
+    "surface": "necessari"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "needless": [
+   {
+    "id": "need",
+    "surface": "need"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "neighborhood": [
+   {
+    "id": "neighbor",
+    "surface": "neighborh"
+   },
+   {
+    "id": "red",
+    "surface": "ood"
+   }
+  ],
+  "neutral": [
+   {
+    "id": "neuter",
+    "surface": "neutr"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "nevertheless": [
+   {
+    "id": "never",
+    "surface": "never"
+   },
+   {
+    "id": "th",
+    "surface": "the"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "newly": [
+   {
+    "id": "new",
+    "surface": "new"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "nitrogen": [
+   {
+    "id": "nitro",
+    "surface": "nitro"
+   },
+   {
+    "id": "gen",
+    "surface": "gen"
+   }
+  ],
+  "nonsense": [
+   {
+    "id": "non",
+    "surface": "non"
+   },
+   {
+    "id": "sense",
+    "surface": "sense"
+   }
+  ],
+  "normally": [
+   {
+    "id": "normal",
+    "surface": "normal"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "noticeable": [
+   {
+    "id": "notice",
+    "surface": "notice"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "numerous": [
+   {
+    "id": "numero",
+    "surface": "numero"
+   },
+   {
+    "id": "ous",
+    "surface": "us"
+   }
+  ],
+  "objection": [
+   {
+    "id": "object",
+    "surface": "object"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "objective": [
+   {
+    "id": "object",
+    "surface": "object"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "oblige": [
+   {
+    "id": "ob",
+    "surface": "ob"
+   },
+   {
+    "id": "lig",
+    "surface": "lige"
+   }
+  ],
+  "observation": [
+   {
+    "id": "observe",
+    "surface": "observ"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "observer": [
+   {
+    "id": "observe",
+    "surface": "observe"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "obviously": [
+   {
+    "id": "obvious",
+    "surface": "obvious"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "occasional": [
+   {
+    "id": "occasion",
+    "surface": "occasion"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "occasionally": [
+   {
+    "id": "occasional",
+    "surface": "occasional"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "occurrence": [
+   {
+    "id": "occur",
+    "surface": "occurr"
+   },
+   {
+    "id": "ence",
+    "surface": "ence"
+   }
+  ],
+  "offend": [
+   {
+    "id": "off",
+    "surface": "off"
+   },
+   {
+    "id": "end",
+    "surface": "end"
+   }
+  ],
+  "omit": [
+   {
+    "id": "ob",
+    "surface": "o"
+   },
+   {
+    "id": "mitt",
+    "surface": "mit"
+   }
+  ],
+  "operational": [
+   {
+    "id": "operation",
+    "surface": "operation"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "opportunity": [
+   {
+    "id": "opportune",
+    "surface": "opportun"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "optics": [
+   {
+    "id": "optic",
+    "surface": "optic"
+   },
+   {
+    "id": "ics",
+    "surface": "s"
+   }
+  ],
+  "orderly": [
+   {
+    "id": "order",
+    "surface": "order"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "organic": [
+   {
+    "id": "organ",
+    "surface": "organ"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "organism": [
+   {
+    "id": "organ",
+    "surface": "organ"
+   },
+   {
+    "id": "ism",
+    "surface": "ism"
+   }
+  ],
+  "organize": [
+   {
+    "id": "organ",
+    "surface": "organ"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "oriental": [
+   {
+    "id": "orient",
+    "surface": "orient"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "original": [
+   {
+    "id": "origin",
+    "surface": "origin"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "originate": [
+   {
+    "id": "origin",
+    "surface": "origin"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ]
+ }
+}

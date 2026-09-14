@@ -37,6 +37,8 @@ export const FALLBACK_MEANINGS = {
   set: '放置', type: '字模', craie: '白垩', technicus: '技艺的', ness: '状态',
   ry: '…的行为', ous: '…的', ery: '场所', tic: '…的', ics: '学问', tion: '名词后缀',
   ter: '三次', ess: '女性',
+  // 四级批新增
+  verb: '词', just: '公正的', ally: '结盟', meter: '测量',
 }
 
 /** 义项里没有汉字就算缺（deriveMeaning 有时会填进一串英文，那种也过不了 A20）。 */

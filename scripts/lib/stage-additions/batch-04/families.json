@@ -1,0 +1,162 @@
+{
+ "_comment": "3.3 四级批 新增 18 个词根家族",
+ "families": {
+  "verb": {
+   "roots": [
+    "verb"
+   ],
+   "words": [
+    "adverb"
+   ]
+  },
+  "close": {
+   "roots": [
+    "close"
+   ],
+   "words": [
+    "closely",
+    "disclose",
+    "enclose"
+   ]
+  },
+  "mission": {
+   "roots": [
+    "mission"
+   ],
+   "words": [
+    "commission",
+    "transmission"
+   ]
+  },
+  "common": {
+   "roots": [
+    "common"
+   ],
+   "words": [
+    "commonly"
+   ]
+  },
+  "fine": {
+   "roots": [
+    "fine"
+   ],
+   "words": [
+    "confine",
+    "refine"
+   ]
+  },
+  "correspond": {
+   "roots": [
+    "correspond"
+   ],
+   "words": [
+    "correspondent",
+    "corresponding"
+   ]
+  },
+  "critic": {
+   "roots": [
+    "critic"
+   ],
+   "words": [
+    "critical",
+    "criticism",
+    "criticize"
+   ]
+  },
+  "employ": {
+   "roots": [
+    "employ"
+   ],
+   "words": [
+    "employee",
+    "employer",
+    "employment"
+   ]
+  },
+  "general": {
+   "roots": [
+    "general"
+   ],
+   "words": [
+    "generally"
+   ]
+  },
+  "hold": {
+   "roots": [
+    "hold"
+   ],
+   "words": [
+    "household"
+   ]
+  },
+  "regular": {
+   "roots": [
+    "regular"
+   ],
+   "words": [
+    "irregular",
+    "regularly"
+   ]
+  },
+  "name": {
+   "roots": [
+    "name"
+   ],
+   "words": [
+    "namely",
+    "surname"
+   ]
+  },
+  "sense": {
+   "roots": [
+    "sense"
+   ],
+   "words": [
+    "nonsense"
+   ]
+  },
+  "orient": {
+   "roots": [
+    "orient"
+   ],
+   "words": [
+    "oriental"
+   ]
+  },
+  "pay": {
+   "roots": [
+    "pay"
+   ],
+   "words": [
+    "payment"
+   ]
+  },
+  "respect": {
+   "roots": [
+    "respect"
+   ],
+   "words": [
+    "respectful",
+    "respective"
+   ]
+  },
+  "second": {
+   "roots": [
+    "second"
+   ],
+   "words": [
+    "secondary",
+    "secondly"
+   ]
+  },
+  "just": {
+   "roots": [
+    "just"
+   ],
+   "words": [
+    "unjust"
+   ]
+  }
+ }
+}

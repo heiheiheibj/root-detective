@@ -1,0 +1,5081 @@
+{
+ "_comment": "3.3 四级批 新增 421 个词根（含零件词素，一律 type=root）",
+ "morphemes": [
+  {
+   "id": "absolute",
+   "displayText": "absolute",
+   "type": "root",
+   "meaningCn": "绝对的",
+   "allomorphs": [
+    "absolute"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "accelerate",
+   "displayText": "accelerate",
+   "type": "root",
+   "meaningCn": "加速",
+   "allomorphs": [
+    "accelerat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "accept",
+   "displayText": "accept",
+   "type": "root",
+   "meaningCn": "接受",
+   "allomorphs": [
+    "accept"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "accident",
+   "displayText": "accident",
+   "type": "root",
+   "meaningCn": "意外事件",
+   "allomorphs": [
+    "accident"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "accord",
+   "displayText": "accord",
+   "type": "root",
+   "meaningCn": "一致",
+   "allomorphs": [
+    "accord"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "according",
+   "displayText": "according",
+   "type": "root",
+   "meaningCn": "相符的",
+   "allomorphs": [
+    "according"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "actual",
+   "displayText": "actual",
+   "type": "root",
+   "meaningCn": "真实的",
+   "allomorphs": [
+    "actual"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "addition",
+   "displayText": "addition",
+   "type": "root",
+   "meaningCn": "加法",
+   "allomorphs": [
+    "addition"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "advance",
+   "displayText": "advance",
+   "type": "root",
+   "meaningCn": "前进",
+   "allomorphs": [
+    "advance"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "verb",
+   "displayText": "verb",
+   "type": "root",
+   "meaningCn": "",
+   "allomorphs": [
+    "verb"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "advise",
+   "displayText": "advise",
+   "type": "root",
+   "meaningCn": "劝告",
+   "allomorphs": [
+    "advis"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "among",
+   "displayText": "among",
+   "type": "root",
+   "meaningCn": "在之中",
+   "allomorphs": [
+    "among"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ample",
+   "displayText": "ample",
+   "type": "root",
+   "meaningCn": "大量的",
+   "allomorphs": [
+    "ampl"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "cip",
+   "displayText": "cip",
+   "type": "root",
+   "meaningCn": "计汉字交换程序",
+   "allomorphs": [
+    "cip"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pease",
+   "displayText": "pease",
+   "type": "root",
+   "meaningCn": "豌豆",
+   "allomorphs": [
+    "plause"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "approve",
+   "displayText": "approve",
+   "type": "root",
+   "meaningCn": "赞同",
+   "allomorphs": [
+    "approv",
+    "approve"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "proximate",
+   "displayText": "proximate",
+   "type": "root",
+   "meaningCn": "最近的",
+   "allomorphs": [
+    "proximate"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "assign",
+   "displayText": "assign",
+   "type": "root",
+   "meaningCn": "分配",
+   "allomorphs": [
+    "assign"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "atom",
+   "displayText": "atom",
+   "type": "root",
+   "meaningCn": "原子",
+   "allomorphs": [
+    "atom"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "biography",
+   "displayText": "biography",
+   "type": "root",
+   "meaningCn": "传记",
+   "allomorphs": [
+    "biography"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "automatic",
+   "displayText": "automatic",
+   "type": "root",
+   "meaningCn": "自动手枪",
+   "allomorphs": [
+    "automatic",
+    "automati"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "awful",
+   "displayText": "awful",
+   "type": "root",
+   "meaningCn": "可怕的",
+   "allomorphs": [
+    "awful"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ban",
+   "displayText": "ban",
+   "type": "root",
+   "meaningCn": "禁令禁止",
+   "allomorphs": [
+    "bann"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "basic",
+   "displayText": "basic",
+   "type": "root",
+   "meaningCn": "基本原理",
+   "allomorphs": [
+    "basic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "before",
+   "displayText": "before",
+   "type": "root",
+   "meaningCn": "在之前",
+   "allomorphs": [
+    "before"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "behave",
+   "displayText": "behave",
+   "type": "root",
+   "meaningCn": "举止端正",
+   "allomorphs": [
+    "behav"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "belove",
+   "displayText": "belove",
+   "type": "root",
+   "meaningCn": "通常用于被动语态",
+   "allomorphs": [
+    "belove"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "bitter",
+   "displayText": "bitter",
+   "type": "root",
+   "meaningCn": "苦的",
+   "allomorphs": [
+    "bitter"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "bright",
+   "displayText": "bright",
+   "type": "root",
+   "meaningCn": "明亮的",
+   "allomorphs": [
+    "bright"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "bull",
+   "displayText": "bull",
+   "type": "root",
+   "meaningCn": "公牛法买方",
+   "allomorphs": [
+    "bull"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "cabin",
+   "displayText": "cabin",
+   "type": "root",
+   "meaningCn": "小屋",
+   "allomorphs": [
+    "cabin"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "calculate",
+   "displayText": "calculate",
+   "type": "root",
+   "meaningCn": "计算",
+   "allomorphs": [
+    "calculat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "charm",
+   "displayText": "charm",
+   "type": "root",
+   "meaningCn": "吸引力",
+   "allomorphs": [
+    "charm"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ch",
+   "displayText": "ch",
+   "type": "root",
+   "meaningCn": "克劳斯汉兹",
+   "allomorphs": [
+    "ch"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ular",
+   "displayText": "ular",
+   "type": "root",
+   "meaningCn": "解咽喉的",
+   "allomorphs": [
+    "ular"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "close",
+   "displayText": "close",
+   "type": "root",
+   "meaningCn": "结束",
+   "allomorphs": [
+    "close"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "lapse",
+   "displayText": "lapse",
+   "type": "root",
+   "meaningCn": "过失",
+   "allomorphs": [
+    "lapse"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "combine",
+   "displayText": "combine",
+   "type": "root",
+   "meaningCn": "使联合",
+   "allomorphs": [
+    "combin"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "command",
+   "displayText": "command",
+   "type": "root",
+   "meaningCn": "命令",
+   "allomorphs": [
+    "command"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "commerce",
+   "displayText": "commerce",
+   "type": "root",
+   "meaningCn": "商业",
+   "allomorphs": [
+    "commerc"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mission",
+   "displayText": "mission",
+   "type": "root",
+   "meaningCn": "任务",
+   "allomorphs": [
+    "mission"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "common",
+   "displayText": "common",
+   "type": "root",
+   "meaningCn": "通常的",
+   "allomorphs": [
+    "common"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "compare",
+   "displayText": "compare",
+   "type": "root",
+   "meaningCn": "比较",
+   "allomorphs": [
+    "compar"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "comparative",
+   "displayText": "comparative",
+   "type": "root",
+   "meaningCn": "比较的",
+   "allomorphs": [
+    "comparative"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pile",
+   "displayText": "pile",
+   "type": "root",
+   "meaningCn": "堆",
+   "allomorphs": [
+    "pile",
+    "ple"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "plain",
+   "displayText": "plain",
+   "type": "root",
+   "meaningCn": "平原",
+   "allomorphs": [
+    "plain"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "complete",
+   "displayText": "complete",
+   "type": "root",
+   "meaningCn": "完全的",
+   "allomorphs": [
+    "complete",
+    "complet"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pound",
+   "displayText": "pound",
+   "type": "root",
+   "meaningCn": "磅",
+   "allomorphs": [
+    "pound"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "concern",
+   "displayText": "concern",
+   "type": "root",
+   "meaningCn": "关心",
+   "allomorphs": [
+    "concern"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "dense",
+   "displayText": "dense",
+   "type": "root",
+   "meaningCn": "密集的",
+   "allomorphs": [
+    "dense",
+    "dens"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "confide",
+   "displayText": "confide",
+   "type": "root",
+   "meaningCn": "吐露",
+   "allomorphs": [
+    "confide"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "fine",
+   "displayText": "fine",
+   "type": "root",
+   "meaningCn": "罚款",
+   "allomorphs": [
+    "fine"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "conjunct",
+   "displayText": "conjunct",
+   "type": "root",
+   "meaningCn": "结合的",
+   "allomorphs": [
+    "conjunct"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "quer",
+   "displayText": "quer",
+   "type": "root",
+   "meaningCn": "德横的",
+   "allomorphs": [
+    "quer"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sci",
+   "displayText": "sci",
+   "type": "root",
+   "meaningCn": "计串行通信接口",
+   "allomorphs": [
+    "sci"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "consequent",
+   "displayText": "consequent",
+   "type": "root",
+   "meaningCn": "随后发生的事情",
+   "allomorphs": [
+    "consequent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "consume",
+   "displayText": "consume",
+   "type": "root",
+   "meaningCn": "消耗",
+   "allomorphs": [
+    "consume",
+    "consump"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "continue",
+   "displayText": "continue",
+   "type": "root",
+   "meaningCn": "继续",
+   "allomorphs": [
+    "continu"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ordin",
+   "displayText": "ordin",
+   "type": "root",
+   "meaningCn": "序数顺序的",
+   "allomorphs": [
+    "ordin",
+    "ordinate"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "cop",
+   "displayText": "cop",
+   "type": "root",
+   "meaningCn": "化冷冻系数",
+   "allomorphs": [
+    "copp"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "correspond",
+   "displayText": "correspond",
+   "type": "root",
+   "meaningCn": "符合",
+   "allomorphs": [
+    "correspond"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "creep",
+   "displayText": "creep",
+   "type": "root",
+   "meaningCn": "爬",
+   "allomorphs": [
+    "cripp"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "critic",
+   "displayText": "critic",
+   "type": "root",
+   "meaningCn": "批评家",
+   "allomorphs": [
+    "critic"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "curious",
+   "displayText": "curious",
+   "type": "root",
+   "meaningCn": "好奇的",
+   "allomorphs": [
+    "curios"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "dear",
+   "displayText": "dear",
+   "type": "root",
+   "meaningCn": "亲爱的人亲爱的",
+   "allomorphs": [
+    "dar"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "definite",
+   "displayText": "definite",
+   "type": "root",
+   "meaningCn": "明确的",
+   "allomorphs": [
+    "definite"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "define",
+   "displayText": "define",
+   "type": "root",
+   "meaningCn": "定义",
+   "allomorphs": [
+    "defin"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "deli",
+   "displayText": "deli",
+   "type": "root",
+   "meaningCn": "熟食店",
+   "allomorphs": [
+    "deli"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "berate",
+   "displayText": "berate",
+   "type": "root",
+   "meaningCn": "严责",
+   "allomorphs": [
+    "berate"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "very",
+   "displayText": "very",
+   "type": "root",
+   "meaningCn": "真正的",
+   "allomorphs": [
+    "very"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "democrat",
+   "displayText": "democrat",
+   "type": "root",
+   "meaningCn": "民主人士",
+   "allomorphs": [
+    "democrat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "depend",
+   "displayText": "depend",
+   "type": "root",
+   "meaningCn": "靠",
+   "allomorphs": [
+    "depend"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "depress",
+   "displayText": "depress",
+   "type": "root",
+   "meaningCn": "使沮丧",
+   "allomorphs": [
+    "depress"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "desire",
+   "displayText": "desire",
+   "type": "root",
+   "meaningCn": "欲望",
+   "allomorphs": [
+    "desir"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "spite",
+   "displayText": "spite",
+   "type": "root",
+   "meaningCn": "恶意",
+   "allomorphs": [
+    "spite"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "destruct",
+   "displayText": "destruct",
+   "type": "root",
+   "meaningCn": "自毁自毁",
+   "allomorphs": [
+    "destruct"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tail",
+   "displayText": "tail",
+   "type": "root",
+   "meaningCn": "尾部",
+   "allomorphs": [
+    "tail"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tect",
+   "displayText": "tect",
+   "type": "root",
+   "meaningCn": "涕必灵",
+   "allomorphs": [
+    "tect"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "charge",
+   "displayText": "charge",
+   "type": "root",
+   "meaningCn": "指控",
+   "allomorphs": [
+    "charge"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "guise",
+   "displayText": "guise",
+   "type": "root",
+   "meaningCn": "相似",
+   "allomorphs": [
+    "guise"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "gust",
+   "displayText": "gust",
+   "type": "root",
+   "meaningCn": "突然一阵",
+   "allomorphs": [
+    "gust"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "honour",
+   "displayText": "honour",
+   "type": "root",
+   "meaningCn": "荣誉",
+   "allomorphs": [
+    "honour"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "order",
+   "displayText": "order",
+   "type": "root",
+   "meaningCn": "次序",
+   "allomorphs": [
+    "order"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "dispose",
+   "displayText": "dispose",
+   "type": "root",
+   "meaningCn": "处理",
+   "allomorphs": [
+    "dispos"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "satisfy",
+   "displayText": "satisfy",
+   "type": "root",
+   "meaningCn": "使满意",
+   "allomorphs": [
+    "satisfy"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "solve",
+   "displayText": "solve",
+   "type": "root",
+   "meaningCn": "解决",
+   "allomorphs": [
+    "solve",
+    "solv"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tress",
+   "displayText": "tress",
+   "type": "root",
+   "meaningCn": "一绺头发",
+   "allomorphs": [
+    "tress"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "distribute",
+   "displayText": "distribute",
+   "type": "root",
+   "meaningCn": "分配",
+   "allomorphs": [
+    "distribut"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "doubt",
+   "displayText": "doubt",
+   "type": "root",
+   "meaningCn": "怀疑",
+   "allomorphs": [
+    "doubt"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "drama",
+   "displayText": "drama",
+   "type": "root",
+   "meaningCn": "戏剧",
+   "allomorphs": [
+    "drama"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "dwell",
+   "displayText": "dwell",
+   "type": "root",
+   "meaningCn": "居住",
+   "allomorphs": [
+    "dwell"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "earn",
+   "displayText": "earn",
+   "type": "root",
+   "meaningCn": "赚得",
+   "allomorphs": [
+    "earn"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "economy",
+   "displayText": "economy",
+   "type": "root",
+   "meaningCn": "经济",
+   "allomorphs": [
+    "econom"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "economic",
+   "displayText": "economic",
+   "type": "root",
+   "meaningCn": "经济上的",
+   "allomorphs": [
+    "economic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "editor",
+   "displayText": "editor",
+   "type": "root",
+   "meaningCn": "编者",
+   "allomorphs": [
+    "editor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "effect",
+   "displayText": "effect",
+   "type": "root",
+   "meaningCn": "结果",
+   "allomorphs": [
+    "effect"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ell",
+   "displayText": "ell",
+   "type": "root",
+   "meaningCn": "厄尔英国旧时量布",
+   "allomorphs": [
+    "el"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "elder",
+   "displayText": "elder",
+   "type": "root",
+   "meaningCn": "年长者",
+   "allomorphs": [
+    "elder"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ron",
+   "displayText": "ron",
+   "type": "root",
+   "meaningCn": "研究法辛烷值",
+   "allomorphs": [
+    "ron"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "element",
+   "displayText": "element",
+   "type": "root",
+   "meaningCn": "元件",
+   "allomorphs": [
+    "element"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "eliminate",
+   "displayText": "eliminate",
+   "type": "root",
+   "meaningCn": "除去",
+   "allomorphs": [
+    "eliminat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "else",
+   "displayText": "else",
+   "type": "root",
+   "meaningCn": "别的",
+   "allomorphs": [
+    "else"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "brace",
+   "displayText": "brace",
+   "type": "root",
+   "meaningCn": "支柱",
+   "allomorphs": [
+    "brace"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "emotion",
+   "displayText": "emotion",
+   "type": "root",
+   "meaningCn": "情绪",
+   "allomorphs": [
+    "emotion"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "emphasis",
+   "displayText": "emphasis",
+   "type": "root",
+   "meaningCn": "强调",
+   "allomorphs": [
+    "emphasi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "employ",
+   "displayText": "employ",
+   "type": "root",
+   "meaningCn": "雇用雇用",
+   "allomorphs": [
+    "employ"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "gage",
+   "displayText": "gage",
+   "type": "root",
+   "meaningCn": "抵押品",
+   "allomorphs": [
+    "gage"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "engineer",
+   "displayText": "engineer",
+   "type": "root",
+   "meaningCn": "工程师",
+   "allomorphs": [
+    "engineer"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "english",
+   "displayText": "english",
+   "type": "root",
+   "meaningCn": "英语英文的",
+   "allomorphs": [
+    "english"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "title",
+   "displayText": "title",
+   "type": "root",
+   "meaningCn": "头衔",
+   "allomorphs": [
+    "title"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "establish",
+   "displayText": "establish",
+   "type": "root",
+   "meaningCn": "建立",
+   "allomorphs": [
+    "establish"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "exceeding",
+   "displayText": "exceeding",
+   "type": "root",
+   "meaningCn": "超越的",
+   "allomorphs": [
+    "exceeding"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "except",
+   "displayText": "except",
+   "type": "root",
+   "meaningCn": "除",
+   "allomorphs": [
+    "except"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "excess",
+   "displayText": "excess",
+   "type": "root",
+   "meaningCn": "过度",
+   "allomorphs": [
+    "excess"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "excite",
+   "displayText": "excite",
+   "type": "root",
+   "meaningCn": "刺激",
+   "allomorphs": [
+    "excite"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "exclusive",
+   "displayText": "exclusive",
+   "type": "root",
+   "meaningCn": "排外的",
+   "allomorphs": [
+    "exclusive"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "exhaust",
+   "displayText": "exhaust",
+   "type": "root",
+   "meaningCn": "排气",
+   "allomorphs": [
+    "exhaust"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "expand",
+   "displayText": "expand",
+   "type": "root",
+   "meaningCn": "使膨胀",
+   "allomorphs": [
+    "expan"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "experiment",
+   "displayText": "experiment",
+   "type": "root",
+   "meaningCn": "实验",
+   "allomorphs": [
+    "experiment"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "expo",
+   "displayText": "expo",
+   "type": "root",
+   "meaningCn": "经展览会",
+   "allomorphs": [
+    "expo"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "faith",
+   "displayText": "faith",
+   "type": "root",
+   "meaningCn": "信心",
+   "allomorphs": [
+    "faith"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "fart",
+   "displayText": "fart",
+   "type": "root",
+   "meaningCn": "屁放屁",
+   "allomorphs": [
+    "fart"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "fashion",
+   "displayText": "fashion",
+   "type": "root",
+   "meaningCn": "流行",
+   "allomorphs": [
+    "fashion"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "favor",
+   "displayText": "favor",
+   "type": "root",
+   "meaningCn": "好意",
+   "allomorphs": [
+    "favor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "fear",
+   "displayText": "fear",
+   "type": "root",
+   "meaningCn": "恐怖",
+   "allomorphs": [
+    "fear"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "feed",
+   "displayText": "feed",
+   "type": "root",
+   "meaningCn": "饲料",
+   "allomorphs": [
+    "feed"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "final",
+   "displayText": "final",
+   "type": "root",
+   "meaningCn": "期末考试",
+   "allomorphs": [
+    "final"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "finance",
+   "displayText": "finance",
+   "type": "root",
+   "meaningCn": "财政",
+   "allomorphs": [
+    "financ"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "find",
+   "displayText": "find",
+   "type": "root",
+   "meaningCn": "发现",
+   "allomorphs": [
+    "find"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "frequent",
+   "displayText": "frequent",
+   "type": "root",
+   "meaningCn": "时常发生的",
+   "allomorphs": [
+    "frequent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "fruit",
+   "displayText": "fruit",
+   "type": "root",
+   "meaningCn": "水果",
+   "allomorphs": [
+    "fruit"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "further",
+   "displayText": "further",
+   "type": "root",
+   "meaningCn": "更远的",
+   "allomorphs": [
+    "further"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "gas",
+   "displayText": "gas",
+   "type": "root",
+   "meaningCn": "医全身适应综合征",
+   "allomorphs": [
+    "gas"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "general",
+   "displayText": "general",
+   "type": "root",
+   "meaningCn": "一般",
+   "allomorphs": [
+    "general"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "globe",
+   "displayText": "globe",
+   "type": "root",
+   "meaningCn": "球",
+   "allomorphs": [
+    "glob"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "glory",
+   "displayText": "glory",
+   "type": "root",
+   "meaningCn": "光荣",
+   "allomorphs": [
+    "glori"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "grace",
+   "displayText": "grace",
+   "type": "root",
+   "meaningCn": "优雅",
+   "allomorphs": [
+    "grace"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "grammatic",
+   "displayText": "grammatic",
+   "type": "root",
+   "meaningCn": "网络语法",
+   "allomorphs": [
+    "grammatic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "gun",
+   "displayText": "gun",
+   "type": "root",
+   "meaningCn": "枪医枪",
+   "allomorphs": [
+    "gun"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "powder",
+   "displayText": "powder",
+   "type": "root",
+   "meaningCn": "粉",
+   "allomorphs": [
+    "powder"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "hate",
+   "displayText": "hate",
+   "type": "root",
+   "meaningCn": "憎恨",
+   "allomorphs": [
+    "hate",
+    "hat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "quarters",
+   "displayText": "quarters",
+   "type": "root",
+   "meaningCn": "寓所",
+   "allomorphs": [
+    "quarters"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "heat",
+   "displayText": "heat",
+   "type": "root",
+   "meaningCn": "热",
+   "allomorphs": [
+    "heat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "history",
+   "displayText": "history",
+   "type": "root",
+   "meaningCn": "历史",
+   "allomorphs": [
+    "histor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "honey",
+   "displayText": "honey",
+   "type": "root",
+   "meaningCn": "蜂蜜",
+   "allomorphs": [
+    "honey"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "horizon",
+   "displayText": "horizon",
+   "type": "root",
+   "meaningCn": "地平线",
+   "allomorphs": [
+    "horizon"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "horse",
+   "displayText": "horse",
+   "type": "root",
+   "meaningCn": "马",
+   "allomorphs": [
+    "horse"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "hold",
+   "displayText": "hold",
+   "type": "root",
+   "meaningCn": "把握",
+   "allomorphs": [
+    "hold"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "hum",
+   "displayText": "hum",
+   "type": "root",
+   "meaningCn": "嗡嗡声",
+   "allomorphs": [
+    "humb"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "idea",
+   "displayText": "idea",
+   "type": "root",
+   "meaningCn": "主意",
+   "allomorphs": [
+    "idea"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "identic",
+   "displayText": "identic",
+   "type": "root",
+   "meaningCn": "同一的",
+   "allomorphs": [
+    "identic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ignore",
+   "displayText": "ignore",
+   "type": "root",
+   "meaningCn": "不理睬",
+   "allomorphs": [
+    "ignor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "lus",
+   "displayText": "lus",
+   "type": "root",
+   "meaningCn": "人名",
+   "allomorphs": [
+    "lus"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "illustrate",
+   "displayText": "illustrate",
+   "type": "root",
+   "meaningCn": "举例说明",
+   "allomorphs": [
+    "illustrat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "imagine",
+   "displayText": "imagine",
+   "type": "root",
+   "meaningCn": "想像",
+   "allomorphs": [
+    "imagin"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "patient",
+   "displayText": "patient",
+   "type": "root",
+   "meaningCn": "病人",
+   "allomorphs": [
+    "patient"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "implicate",
+   "displayText": "implicate",
+   "type": "root",
+   "meaningCn": "涉及",
+   "allomorphs": [
+    "implicat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "improve",
+   "displayText": "improve",
+   "type": "root",
+   "meaningCn": "改良",
+   "allomorphs": [
+    "improve"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "inc",
+   "displayText": "inc",
+   "type": "root",
+   "meaningCn": "根据法律组成的公",
+   "allomorphs": [
+    "inc"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "increasing",
+   "displayText": "increasing",
+   "type": "root",
+   "meaningCn": "经递增",
+   "allomorphs": [
+    "increasing"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "indicate",
+   "displayText": "indicate",
+   "type": "root",
+   "meaningCn": "显示",
+   "allomorphs": [
+    "indicat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "different",
+   "displayText": "different",
+   "type": "root",
+   "meaningCn": "不同的机差动",
+   "allomorphs": [
+    "different"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "dispensable",
+   "displayText": "dispensable",
+   "type": "root",
+   "meaningCn": "不是必要的",
+   "allomorphs": [
+    "dispensable"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "door",
+   "displayText": "door",
+   "type": "root",
+   "meaningCn": "门",
+   "allomorphs": [
+    "door"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "industry",
+   "displayText": "industry",
+   "type": "root",
+   "meaningCn": "勤劳",
+   "allomorphs": [
+    "industri"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "industrial",
+   "displayText": "industrial",
+   "type": "root",
+   "meaningCn": "工业的",
+   "allomorphs": [
+    "industrial"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "efficient",
+   "displayText": "efficient",
+   "type": "root",
+   "meaningCn": "有效率的",
+   "allomorphs": [
+    "efficient"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "evitable",
+   "displayText": "evitable",
+   "type": "root",
+   "meaningCn": "可以避免的",
+   "allomorphs": [
+    "evitable"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "expensive",
+   "displayText": "expensive",
+   "type": "root",
+   "meaningCn": "贵的",
+   "allomorphs": [
+    "expensive"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "famous",
+   "displayText": "famous",
+   "type": "root",
+   "meaningCn": "出名的",
+   "allomorphs": [
+    "famous"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "finite",
+   "displayText": "finite",
+   "type": "root",
+   "meaningCn": "有限的",
+   "allomorphs": [
+    "finite"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "influence",
+   "displayText": "influence",
+   "type": "root",
+   "meaningCn": "影响力",
+   "allomorphs": [
+    "influent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "inhabit",
+   "displayText": "inhabit",
+   "type": "root",
+   "meaningCn": "居住于",
+   "allomorphs": [
+    "inhabit"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "initiate",
+   "displayText": "initiate",
+   "type": "root",
+   "meaningCn": "入会",
+   "allomorphs": [
+    "initiat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "inject",
+   "displayText": "inject",
+   "type": "root",
+   "meaningCn": "注射",
+   "allomorphs": [
+    "inject"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "significant",
+   "displayText": "significant",
+   "type": "root",
+   "meaningCn": "重要的",
+   "allomorphs": [
+    "significant"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "install",
+   "displayText": "install",
+   "type": "root",
+   "meaningCn": "安装",
+   "allomorphs": [
+    "install"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "instant",
+   "displayText": "instant",
+   "type": "root",
+   "meaningCn": "立即",
+   "allomorphs": [
+    "instant"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sufficient",
+   "displayText": "sufficient",
+   "type": "root",
+   "meaningCn": "充分的",
+   "allomorphs": [
+    "sufficient"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "intellect",
+   "displayText": "intellect",
+   "type": "root",
+   "meaningCn": "智力",
+   "allomorphs": [
+    "intellect"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "intense",
+   "displayText": "intense",
+   "type": "root",
+   "meaningCn": "非常的",
+   "allomorphs": [
+    "intens"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "intention",
+   "displayText": "intention",
+   "type": "root",
+   "meaningCn": "意图",
+   "allomorphs": [
+    "intention"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "action",
+   "displayText": "action",
+   "type": "root",
+   "meaningCn": "行动",
+   "allomorphs": [
+    "action"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "interfere",
+   "displayText": "interfere",
+   "type": "root",
+   "meaningCn": "妨碍",
+   "allomorphs": [
+    "interfere"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "intern",
+   "displayText": "intern",
+   "type": "root",
+   "meaningCn": "实习生",
+   "allomorphs": [
+    "intern"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "interrupt",
+   "displayText": "interrupt",
+   "type": "root",
+   "meaningCn": "中断",
+   "allomorphs": [
+    "interrupt"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "vestigate",
+   "displayText": "vestigate",
+   "type": "root",
+   "meaningCn": "调查",
+   "allomorphs": [
+    "vestigate"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "investigate",
+   "displayText": "investigate",
+   "type": "root",
+   "meaningCn": "调查",
+   "allomorphs": [
+    "investigat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "invest",
+   "displayText": "invest",
+   "type": "root",
+   "meaningCn": "投资",
+   "allomorphs": [
+    "invest"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "visible",
+   "displayText": "visible",
+   "type": "root",
+   "meaningCn": "看得见的",
+   "allomorphs": [
+    "visible"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "regular",
+   "displayText": "regular",
+   "type": "root",
+   "meaningCn": "规则的",
+   "allomorphs": [
+    "regular"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "jew",
+   "displayText": "jew",
+   "type": "root",
+   "meaningCn": "犹太人",
+   "allomorphs": [
+    "jew"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "knee",
+   "displayText": "knee",
+   "type": "root",
+   "meaningCn": "膝",
+   "allomorphs": [
+    "knee"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "lady",
+   "displayText": "lady",
+   "type": "root",
+   "meaningCn": "淑女",
+   "allomorphs": [
+    "lady"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "leader",
+   "displayText": "leader",
+   "type": "root",
+   "meaningCn": "领导者",
+   "allomorphs": [
+    "leader"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "leg",
+   "displayText": "leg",
+   "type": "root",
+   "meaningCn": "腿",
+   "allomorphs": [
+    "leg"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "legislate",
+   "displayText": "legislate",
+   "type": "root",
+   "meaningCn": "制定法律用立法规",
+   "allomorphs": [
+    "legislat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "lever",
+   "displayText": "lever",
+   "type": "root",
+   "meaningCn": "杠杆",
+   "allomorphs": [
+    "lever"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "lieu",
+   "displayText": "lieu",
+   "type": "root",
+   "meaningCn": "场所",
+   "allomorphs": [
+    "lieu"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tenant",
+   "displayText": "tenant",
+   "type": "root",
+   "meaningCn": "承租人",
+   "allomorphs": [
+    "tenant"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "likely",
+   "displayText": "likely",
+   "type": "root",
+   "meaningCn": "有可能的",
+   "allomorphs": [
+    "likeli",
+    "likely"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "limit",
+   "displayText": "limit",
+   "type": "root",
+   "meaningCn": "界限",
+   "allomorphs": [
+    "limit"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "listen",
+   "displayText": "listen",
+   "type": "root",
+   "meaningCn": "听",
+   "allomorphs": [
+    "listen"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "living",
+   "displayText": "living",
+   "type": "root",
+   "meaningCn": "生活",
+   "allomorphs": [
+    "living"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "loco",
+   "displayText": "loco",
+   "type": "root",
+   "meaningCn": "疯草病",
+   "allomorphs": [
+    "loco"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "motive",
+   "displayText": "motive",
+   "type": "root",
+   "meaningCn": "动机",
+   "allomorphs": [
+    "motive",
+    "motiv"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "loyal",
+   "displayText": "loyal",
+   "type": "root",
+   "meaningCn": "忠诚的",
+   "allomorphs": [
+    "loyal"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "maintain",
+   "displayText": "maintain",
+   "type": "root",
+   "meaningCn": "维持",
+   "allomorphs": [
+    "mainten"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "manufacture",
+   "displayText": "manufacture",
+   "type": "root",
+   "meaningCn": "产品",
+   "allomorphs": [
+    "manufacture"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "marvel",
+   "displayText": "marvel",
+   "type": "root",
+   "meaningCn": "奇异事物",
+   "allomorphs": [
+    "marvel"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "marx",
+   "displayText": "marx",
+   "type": "root",
+   "meaningCn": "马克思无产阶级的",
+   "allomorphs": [
+    "marx"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mass",
+   "displayText": "mass",
+   "type": "root",
+   "meaningCn": "块",
+   "allomorphs": [
+    "mass"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "piece",
+   "displayText": "piece",
+   "type": "root",
+   "meaningCn": "块",
+   "allomorphs": [
+    "piece"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "material",
+   "displayText": "material",
+   "type": "root",
+   "meaningCn": "材料",
+   "allomorphs": [
+    "material"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "measure",
+   "displayText": "measure",
+   "type": "root",
+   "meaningCn": "尺寸",
+   "allomorphs": [
+    "measur",
+    "measure"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mechanic",
+   "displayText": "mechanic",
+   "type": "root",
+   "meaningCn": "机械工",
+   "allomorphs": [
+    "mechanic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mechanical",
+   "displayText": "mechanical",
+   "type": "root",
+   "meaningCn": "机械的",
+   "allomorphs": [
+    "mechanical"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "miser",
+   "displayText": "miser",
+   "type": "root",
+   "meaningCn": "守财奴",
+   "allomorphs": [
+    "miser"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mist",
+   "displayText": "mist",
+   "type": "root",
+   "meaningCn": "雾",
+   "allomorphs": [
+    "mist"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "moa",
+   "displayText": "moa",
+   "type": "root",
+   "meaningCn": "恐鸟",
+   "allomorphs": [
+    "moa"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mode",
+   "displayText": "mode",
+   "type": "root",
+   "meaningCn": "模态",
+   "allomorphs": [
+    "mode"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rate",
+   "displayText": "rate",
+   "type": "root",
+   "meaningCn": "比率",
+   "allomorphs": [
+    "rate"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "moist",
+   "displayText": "moist",
+   "type": "root",
+   "meaningCn": "潮湿的",
+   "allomorphs": [
+    "moist"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "month",
+   "displayText": "month",
+   "type": "root",
+   "meaningCn": "月经月",
+   "allomorphs": [
+    "month"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "murder",
+   "displayText": "murder",
+   "type": "root",
+   "meaningCn": "谋杀谋杀",
+   "allomorphs": [
+    "murder"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mystery",
+   "displayText": "mystery",
+   "type": "root",
+   "meaningCn": "秘密",
+   "allomorphs": [
+    "mysteri"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "name",
+   "displayText": "name",
+   "type": "root",
+   "meaningCn": "名字",
+   "allomorphs": [
+    "name"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "natural",
+   "displayText": "natural",
+   "type": "root",
+   "meaningCn": "白痴自然的",
+   "allomorphs": [
+    "natural"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "navy",
+   "displayText": "navy",
+   "type": "root",
+   "meaningCn": "海军",
+   "allomorphs": [
+    "nav"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "navigate",
+   "displayText": "navigate",
+   "type": "root",
+   "meaningCn": "航行航行于",
+   "allomorphs": [
+    "navigat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "necessary",
+   "displayText": "necessary",
+   "type": "root",
+   "meaningCn": "必要的",
+   "allomorphs": [
+    "necessari",
+    "necessary"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "need",
+   "displayText": "need",
+   "type": "root",
+   "meaningCn": "需要",
+   "allomorphs": [
+    "need"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "neighbor",
+   "displayText": "neighbor",
+   "type": "root",
+   "meaningCn": "邻居邻接毗邻而居",
+   "allomorphs": [
+    "neighborh"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "neuter",
+   "displayText": "neuter",
+   "type": "root",
+   "meaningCn": "中性的",
+   "allomorphs": [
+    "neutr"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "never",
+   "displayText": "never",
+   "type": "root",
+   "meaningCn": "从不",
+   "allomorphs": [
+    "never"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sense",
+   "displayText": "sense",
+   "type": "root",
+   "meaningCn": "感应",
+   "allomorphs": [
+    "sense",
+    "sens"
+   ],
+   "etymology": "",
+   "level": 5,
+   "color": "orange"
+  },
+  {
+   "id": "notice",
+   "displayText": "notice",
+   "type": "root",
+   "meaningCn": "注意",
+   "allomorphs": [
+    "notice"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "object",
+   "displayText": "object",
+   "type": "root",
+   "meaningCn": "物体",
+   "allomorphs": [
+    "object"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "lig",
+   "displayText": "lig",
+   "type": "root",
+   "meaningCn": "口闲逛方言",
+   "allomorphs": [
+    "lige"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "observe",
+   "displayText": "observe",
+   "type": "root",
+   "meaningCn": "觉察到",
+   "allomorphs": [
+    "observ",
+    "observe"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "obvious",
+   "displayText": "obvious",
+   "type": "root",
+   "meaningCn": "明显的",
+   "allomorphs": [
+    "obvious"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "occasion",
+   "displayText": "occasion",
+   "type": "root",
+   "meaningCn": "场合",
+   "allomorphs": [
+    "occasion"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "occasional",
+   "displayText": "occasional",
+   "type": "root",
+   "meaningCn": "偶然的",
+   "allomorphs": [
+    "occasional"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "occur",
+   "displayText": "occur",
+   "type": "root",
+   "meaningCn": "发生",
+   "allomorphs": [
+    "occurr"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mitt",
+   "displayText": "mitt",
+   "type": "root",
+   "meaningCn": "棒球手套",
+   "allomorphs": [
+    "mit"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "operation",
+   "displayText": "operation",
+   "type": "root",
+   "meaningCn": "操作",
+   "allomorphs": [
+    "operation"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "opportune",
+   "displayText": "opportune",
+   "type": "root",
+   "meaningCn": "恰好的",
+   "allomorphs": [
+    "opportun"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "optic",
+   "displayText": "optic",
+   "type": "root",
+   "meaningCn": "眼睛的",
+   "allomorphs": [
+    "optic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "orient",
+   "displayText": "orient",
+   "type": "root",
+   "meaningCn": "东方",
+   "allomorphs": [
+    "orient"
+   ],
+   "etymology": "",
+   "level": 5,
+   "color": "orange"
+  },
+  {
+   "id": "origin",
+   "displayText": "origin",
+   "type": "root",
+   "meaningCn": "起源",
+   "allomorphs": [
+    "origin"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "partial",
+   "displayText": "partial",
+   "type": "root",
+   "meaningCn": "部分的",
+   "allomorphs": [
+    "partial"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "particular",
+   "displayText": "particular",
+   "type": "root",
+   "meaningCn": "一项或条点",
+   "allomorphs": [
+    "particular"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pave",
+   "displayText": "pave",
+   "type": "root",
+   "meaningCn": "铺设",
+   "allomorphs": [
+    "pave"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pay",
+   "displayText": "pay",
+   "type": "root",
+   "meaningCn": "薪资",
+   "allomorphs": [
+    "pay"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pen",
+   "displayText": "pen",
+   "type": "root",
+   "meaningCn": "钢笔",
+   "allomorphs": [
+    "pen"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "insula",
+   "displayText": "insula",
+   "type": "root",
+   "meaningCn": "医岛",
+   "allomorphs": [
+    "insula",
+    "insulat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "perfect",
+   "displayText": "perfect",
+   "type": "root",
+   "meaningCn": "完成时完美的",
+   "allomorphs": [
+    "perfect"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "permanent",
+   "displayText": "permanent",
+   "type": "root",
+   "meaningCn": "永久的",
+   "allomorphs": [
+    "permanent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pessimist",
+   "displayText": "pessimist",
+   "type": "root",
+   "meaningCn": "悲观者",
+   "allomorphs": [
+    "pessimist"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "soph",
+   "displayText": "soph",
+   "type": "root",
+   "meaningCn": "美口",
+   "allomorphs": [
+    "soph"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pipe",
+   "displayText": "pipe",
+   "type": "root",
+   "meaningCn": "管",
+   "allomorphs": [
+    "pipe"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "plenty",
+   "displayText": "plenty",
+   "type": "root",
+   "meaningCn": "充分",
+   "allomorphs": [
+    "plenti"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "poet",
+   "displayText": "poet",
+   "type": "root",
+   "meaningCn": "诗人",
+   "allomorphs": [
+    "poet"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "trait",
+   "displayText": "trait",
+   "type": "root",
+   "meaningCn": "特征",
+   "allomorphs": [
+    "trait"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "portugal",
+   "displayText": "portugal",
+   "type": "root",
+   "meaningCn": "葡萄牙",
+   "allomorphs": [
+    "portugu"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "posit",
+   "displayText": "posit",
+   "type": "root",
+   "meaningCn": "假设",
+   "allomorphs": [
+    "posit"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "practical",
+   "displayText": "practical",
+   "type": "root",
+   "meaningCn": "实际的",
+   "allomorphs": [
+    "practical"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "precede",
+   "displayText": "precede",
+   "type": "root",
+   "meaningCn": "在之前",
+   "allomorphs": [
+    "precede",
+    "preced"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "precise",
+   "displayText": "precise",
+   "type": "root",
+   "meaningCn": "精确的",
+   "allomorphs": [
+    "precis"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "presume",
+   "displayText": "presume",
+   "type": "root",
+   "meaningCn": "假定",
+   "allomorphs": [
+    "presum"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "previous",
+   "displayText": "previous",
+   "type": "root",
+   "meaningCn": "早先的",
+   "allomorphs": [
+    "previous"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "primary",
+   "displayText": "primary",
+   "type": "root",
+   "meaningCn": "最主要者",
+   "allomorphs": [
+    "primari"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "prince",
+   "displayText": "prince",
+   "type": "root",
+   "meaningCn": "王子",
+   "allomorphs": [
+    "prince"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "prior",
+   "displayText": "prior",
+   "type": "root",
+   "meaningCn": "更重要的",
+   "allomorphs": [
+    "prior"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "process",
+   "displayText": "process",
+   "type": "root",
+   "meaningCn": "程序",
+   "allomorphs": [
+    "process"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "claim",
+   "displayText": "claim",
+   "type": "root",
+   "meaningCn": "要求",
+   "allomorphs": [
+    "claim"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "product",
+   "displayText": "product",
+   "type": "root",
+   "meaningCn": "产品",
+   "allomorphs": [
+    "product"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "profession",
+   "displayText": "profession",
+   "type": "root",
+   "meaningCn": "职业",
+   "allomorphs": [
+    "profession"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "profit",
+   "displayText": "profit",
+   "type": "root",
+   "meaningCn": "利润",
+   "allomorphs": [
+    "profit"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "progress",
+   "displayText": "progress",
+   "type": "root",
+   "meaningCn": "进步",
+   "allomorphs": [
+    "progress"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "noun",
+   "displayText": "noun",
+   "type": "root",
+   "meaningCn": "名词",
+   "allomorphs": [
+    "noun"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "portion",
+   "displayText": "portion",
+   "type": "root",
+   "meaningCn": "部分",
+   "allomorphs": [
+    "portion"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "propose",
+   "displayText": "propose",
+   "type": "root",
+   "meaningCn": "计划",
+   "allomorphs": [
+    "propos"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "prosper",
+   "displayText": "prosper",
+   "type": "root",
+   "meaningCn": "繁荣",
+   "allomorphs": [
+    "prosper"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "psychology",
+   "displayText": "psychology",
+   "type": "root",
+   "meaningCn": "心理学",
+   "allomorphs": [
+    "psycholog"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "quarter",
+   "displayText": "quarter",
+   "type": "root",
+   "meaningCn": "四分之一",
+   "allomorphs": [
+    "quarter"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "quick",
+   "displayText": "quick",
+   "type": "root",
+   "meaningCn": "快的",
+   "allomorphs": [
+    "quick"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "quote",
+   "displayText": "quote",
+   "type": "root",
+   "meaningCn": "引用引述",
+   "allomorphs": [
+    "quot"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "radioactive",
+   "displayText": "radioactive",
+   "type": "root",
+   "meaningCn": "放射性的",
+   "allomorphs": [
+    "radioactiv"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "road",
+   "displayText": "road",
+   "type": "root",
+   "meaningCn": "路",
+   "allomorphs": [
+    "road"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rapid",
+   "displayText": "rapid",
+   "type": "root",
+   "meaningCn": "迅速的",
+   "allomorphs": [
+    "rapid"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rare",
+   "displayText": "rare",
+   "type": "root",
+   "meaningCn": "稀罕的",
+   "allomorphs": [
+    "rare"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "react",
+   "displayText": "react",
+   "type": "root",
+   "meaningCn": "重做",
+   "allomorphs": [
+    "react"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rebel",
+   "displayText": "rebel",
+   "type": "root",
+   "meaningCn": "叛徒",
+   "allomorphs": [
+    "rebell"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "call",
+   "displayText": "call",
+   "type": "root",
+   "meaningCn": "呼叫",
+   "allomorphs": [
+    "call"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "recent",
+   "displayText": "recent",
+   "type": "root",
+   "meaningCn": "最近的",
+   "allomorphs": [
+    "recent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "cognition",
+   "displayText": "cognition",
+   "type": "root",
+   "meaningCn": "认识",
+   "allomorphs": [
+    "cognition"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "cognize",
+   "displayText": "cognize",
+   "type": "root",
+   "meaningCn": "认知",
+   "allomorphs": [
+    "cognize"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "recommend",
+   "displayText": "recommend",
+   "type": "root",
+   "meaningCn": "推荐",
+   "allomorphs": [
+    "recommend"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "reduce",
+   "displayText": "reduce",
+   "type": "root",
+   "meaningCn": "减少",
+   "allomorphs": [
+    "reduc"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "reflex",
+   "displayText": "reflex",
+   "type": "root",
+   "meaningCn": "反射",
+   "allomorphs": [
+    "reflex"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rehearse",
+   "displayText": "rehearse",
+   "type": "root",
+   "meaningCn": "预演",
+   "allomorphs": [
+    "rehears"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "inforce",
+   "displayText": "inforce",
+   "type": "root",
+   "meaningCn": "大规模地",
+   "allomorphs": [
+    "inforce"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "relative",
+   "displayText": "relative",
+   "type": "root",
+   "meaningCn": "亲戚",
+   "allomorphs": [
+    "relative",
+    "relativ"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "lease",
+   "displayText": "lease",
+   "type": "root",
+   "meaningCn": "租约",
+   "allomorphs": [
+    "lease"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "reliable",
+   "displayText": "reliable",
+   "type": "root",
+   "meaningCn": "可靠的",
+   "allomorphs": [
+    "reliabil",
+    "reliable"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "reluct",
+   "displayText": "reluct",
+   "type": "root",
+   "meaningCn": "反抗",
+   "allomorphs": [
+    "reluct"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "remark",
+   "displayText": "remark",
+   "type": "root",
+   "meaningCn": "重标记",
+   "allomorphs": [
+    "remark"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "remove",
+   "displayText": "remove",
+   "type": "root",
+   "meaningCn": "移动",
+   "allomorphs": [
+    "remov"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rend",
+   "displayText": "rend",
+   "type": "root",
+   "meaningCn": "分裂",
+   "allomorphs": [
+    "rend"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "repeated",
+   "displayText": "repeated",
+   "type": "root",
+   "meaningCn": "重复的",
+   "allomorphs": [
+    "repeated"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "repeat",
+   "displayText": "repeat",
+   "type": "root",
+   "meaningCn": "重复",
+   "allomorphs": [
+    "repet"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rep",
+   "displayText": "rep",
+   "type": "root",
+   "meaningCn": "棱纹平布",
+   "allomorphs": [
+    "rep"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "republic",
+   "displayText": "republic",
+   "type": "root",
+   "meaningCn": "共和国",
+   "allomorphs": [
+    "republic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "research",
+   "displayText": "research",
+   "type": "root",
+   "meaningCn": "研究",
+   "allomorphs": [
+    "research"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "reside",
+   "displayText": "reside",
+   "type": "root",
+   "meaningCn": "住",
+   "allomorphs": [
+    "reside"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "resign",
+   "displayText": "resign",
+   "type": "root",
+   "meaningCn": "再签署",
+   "allomorphs": [
+    "resign"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "resist",
+   "displayText": "resist",
+   "type": "root",
+   "meaningCn": "抵抗",
+   "allomorphs": [
+    "resist"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "solution",
+   "displayText": "solution",
+   "type": "root",
+   "meaningCn": "解决",
+   "allomorphs": [
+    "solution"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sort",
+   "displayText": "sort",
+   "type": "root",
+   "meaningCn": "种类",
+   "allomorphs": [
+    "sort"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "source",
+   "displayText": "source",
+   "type": "root",
+   "meaningCn": "来源",
+   "allomorphs": [
+    "source"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "respect",
+   "displayText": "respect",
+   "type": "root",
+   "meaningCn": "尊敬",
+   "allomorphs": [
+    "respect"
+   ],
+   "etymology": "",
+   "level": 5,
+   "color": "orange"
+  },
+  {
+   "id": "respective",
+   "displayText": "respective",
+   "type": "root",
+   "meaningCn": "分别的",
+   "allomorphs": [
+    "respective"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "response",
+   "displayText": "response",
+   "type": "root",
+   "meaningCn": "反应",
+   "allomorphs": [
+    "respons"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "strain",
+   "displayText": "strain",
+   "type": "root",
+   "meaningCn": "紧张",
+   "allomorphs": [
+    "strain"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sumere",
+   "displayText": "sumere",
+   "type": "root",
+   "meaningCn": "经消费者经济学",
+   "allomorphs": [
+    "sume"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "venire",
+   "displayText": "venire",
+   "type": "root",
+   "meaningCn": "律陪审员召集令",
+   "allomorphs": [
+    "venue"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "volt",
+   "displayText": "volt",
+   "type": "root",
+   "meaningCn": "伏特化伏特",
+   "allomorphs": [
+    "volt"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "revolution",
+   "displayText": "revolution",
+   "type": "root",
+   "meaningCn": "革命",
+   "allomorphs": [
+    "revolution"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ride",
+   "displayText": "ride",
+   "type": "root",
+   "meaningCn": "骑马",
+   "allomorphs": [
+    "ride"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rome",
+   "displayText": "rome",
+   "type": "root",
+   "meaningCn": "罗马",
+   "allomorphs": [
+    "rom"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "romant",
+   "displayText": "romant",
+   "type": "root",
+   "meaningCn": "浪漫的",
+   "allomorphs": [
+    "romant"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rough",
+   "displayText": "rough",
+   "type": "root",
+   "meaningCn": "粗糙的东西",
+   "allomorphs": [
+    "rough"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "save",
+   "displayText": "save",
+   "type": "root",
+   "meaningCn": "救球解救",
+   "allomorphs": [
+    "sav"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "scan",
+   "displayText": "scan",
+   "type": "root",
+   "meaningCn": "审视",
+   "allomorphs": [
+    "scan"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "dal",
+   "displayText": "dal",
+   "type": "root",
+   "meaningCn": "植木豆等于",
+   "allomorphs": [
+    "dal"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "scarce",
+   "displayText": "scarce",
+   "type": "root",
+   "meaningCn": "难得的",
+   "allomorphs": [
+    "scarce",
+    "scarc"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "second",
+   "displayText": "second",
+   "type": "root",
+   "meaningCn": "秒",
+   "allomorphs": [
+    "second"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "select",
+   "displayText": "select",
+   "type": "root",
+   "meaningCn": "挑选出来的",
+   "allomorphs": [
+    "select"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sell",
+   "displayText": "sell",
+   "type": "root",
+   "meaningCn": "卖",
+   "allomorphs": [
+    "sell"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "conductor",
+   "displayText": "conductor",
+   "type": "root",
+   "meaningCn": "领导者",
+   "allomorphs": [
+    "conductor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "serious",
+   "displayText": "serious",
+   "type": "root",
+   "meaningCn": "严肃的",
+   "allomorphs": [
+    "serious"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ting",
+   "displayText": "ting",
+   "type": "root",
+   "meaningCn": "叮当声",
+   "allomorphs": [
+    "ting"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sheep",
+   "displayText": "sheep",
+   "type": "root",
+   "meaningCn": "羊",
+   "allomorphs": [
+    "shep"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "herd",
+   "displayText": "herd",
+   "type": "root",
+   "meaningCn": "兽群",
+   "allomorphs": [
+    "herd"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "similar",
+   "displayText": "similar",
+   "type": "root",
+   "meaningCn": "相似的",
+   "allomorphs": [
+    "similar"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "slight",
+   "displayText": "slight",
+   "type": "root",
+   "meaningCn": "轻蔑",
+   "allomorphs": [
+    "slight"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "slip",
+   "displayText": "slip",
+   "type": "root",
+   "meaningCn": "滑",
+   "allomorphs": [
+    "slipp"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "slow",
+   "displayText": "slow",
+   "type": "root",
+   "meaningCn": "慢的",
+   "allomorphs": [
+    "slow"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "smooth",
+   "displayText": "smooth",
+   "type": "root",
+   "meaningCn": "平滑的",
+   "allomorphs": [
+    "smooth"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sow",
+   "displayText": "sow",
+   "type": "root",
+   "meaningCn": "母猪",
+   "allomorphs": [
+    "so"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sole",
+   "displayText": "sole",
+   "type": "root",
+   "meaningCn": "脚掌",
+   "allomorphs": [
+    "sole"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "spark",
+   "displayText": "spark",
+   "type": "root",
+   "meaningCn": "火花",
+   "allomorphs": [
+    "spark"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sports",
+   "displayText": "sports",
+   "type": "root",
+   "meaningCn": "英运动会",
+   "allomorphs": [
+    "sports"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "spring",
+   "displayText": "spring",
+   "type": "root",
+   "meaningCn": "春天",
+   "allomorphs": [
+    "spring"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sprink",
+   "displayText": "sprink",
+   "type": "root",
+   "meaningCn": "人名斯普林克尔",
+   "allomorphs": [
+    "sprink"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "start",
+   "displayText": "start",
+   "type": "root",
+   "meaningCn": "惊起",
+   "allomorphs": [
+    "start"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "statistic",
+   "displayText": "statistic",
+   "type": "root",
+   "meaningCn": "统计量统计的",
+   "allomorphs": [
+    "statistic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "steady",
+   "displayText": "steady",
+   "type": "root",
+   "meaningCn": "稳定的",
+   "allomorphs": [
+    "steadi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "steam",
+   "displayText": "steam",
+   "type": "root",
+   "meaningCn": "蒸汽",
+   "allomorphs": [
+    "steam"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "stiff",
+   "displayText": "stiff",
+   "type": "root",
+   "meaningCn": "坚硬的",
+   "allomorphs": [
+    "stiff"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "strict",
+   "displayText": "strict",
+   "type": "root",
+   "meaningCn": "严厉的",
+   "allomorphs": [
+    "strict"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "strong",
+   "displayText": "strong",
+   "type": "root",
+   "meaningCn": "强壮的",
+   "allomorphs": [
+    "strong"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "structure",
+   "displayText": "structure",
+   "type": "root",
+   "meaningCn": "结构",
+   "allomorphs": [
+    "structure",
+    "structur"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "marine",
+   "displayText": "marine",
+   "type": "root",
+   "meaningCn": "舰队",
+   "allomorphs": [
+    "marine"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "merge",
+   "displayText": "merge",
+   "type": "root",
+   "meaningCn": "使合并",
+   "allomorphs": [
+    "merge"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sequent",
+   "displayText": "sequent",
+   "type": "root",
+   "meaningCn": "后果",
+   "allomorphs": [
+    "sequent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sd",
+   "displayText": "sd",
+   "type": "root",
+   "meaningCn": "化磺胺嘧啶",
+   "allomorphs": [
+    "sidy"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "urbs",
+   "displayText": "urbs",
+   "type": "root",
+   "meaningCn": "的复数都市的",
+   "allomorphs": [
+    "urb"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sudden",
+   "displayText": "sudden",
+   "type": "root",
+   "meaningCn": "突然",
+   "allomorphs": [
+    "sudden"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "summary",
+   "displayText": "summary",
+   "type": "root",
+   "meaningCn": "摘要",
+   "allomorphs": [
+    "summar"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "fic",
+   "displayText": "fic",
+   "type": "root",
+   "meaningCn": "表示形成的",
+   "allomorphs": [
+    "fic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "surprise",
+   "displayText": "surprise",
+   "type": "root",
+   "meaningCn": "惊奇",
+   "allomorphs": [
+    "surpris"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "surprising",
+   "displayText": "surprising",
+   "type": "root",
+   "meaningCn": "令人惊讶的",
+   "allomorphs": [
+    "surprising"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rendre",
+   "displayText": "rendre",
+   "type": "root",
+   "meaningCn": "法年终报告",
+   "allomorphs": [
+    "render"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "suspect",
+   "displayText": "suspect",
+   "type": "root",
+   "meaningCn": "被怀疑者",
+   "allomorphs": [
+    "suspic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sympathy",
+   "displayText": "sympathy",
+   "type": "root",
+   "meaningCn": "同情",
+   "allomorphs": [
+    "sympath"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "technic",
+   "displayText": "technic",
+   "type": "root",
+   "meaningCn": "技巧",
+   "allomorphs": [
+    "technic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tedium",
+   "displayText": "tedium",
+   "type": "root",
+   "meaningCn": "单调乏味",
+   "allomorphs": [
+    "tedi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "terrify",
+   "displayText": "terrify",
+   "type": "root",
+   "meaningCn": "使恐惧",
+   "allomorphs": [
+    "terrif"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "thick",
+   "displayText": "thick",
+   "type": "root",
+   "meaningCn": "厚的",
+   "allomorphs": [
+    "thick"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "third",
+   "displayText": "third",
+   "type": "root",
+   "meaningCn": "第三",
+   "allomorphs": [
+    "third"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "thought",
+   "displayText": "thought",
+   "type": "root",
+   "meaningCn": "想法",
+   "allomorphs": [
+    "thought"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "threat",
+   "displayText": "threat",
+   "type": "root",
+   "meaningCn": "恐吓",
+   "allomorphs": [
+    "threat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tor",
+   "displayText": "tor",
+   "type": "root",
+   "meaningCn": "石山",
+   "allomorphs": [
+    "tor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rent",
+   "displayText": "rent",
+   "type": "root",
+   "meaningCn": "租金",
+   "allomorphs": [
+    "rent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "transform",
+   "displayText": "transform",
+   "type": "root",
+   "meaningCn": "化反式",
+   "allomorphs": [
+    "transform"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "transport",
+   "displayText": "transport",
+   "type": "root",
+   "meaningCn": "运输",
+   "allomorphs": [
+    "transport"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "trump",
+   "displayText": "trump",
+   "type": "root",
+   "meaningCn": "王牌",
+   "allomorphs": [
+    "trump"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "twink",
+   "displayText": "twink",
+   "type": "root",
+   "meaningCn": "游戏用语高等级带",
+   "allomorphs": [
+    "twink"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ultimate",
+   "displayText": "ultimate",
+   "type": "root",
+   "meaningCn": "终极",
+   "allomorphs": [
+    "ultimate"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "go",
+   "displayText": "go",
+   "type": "root",
+   "meaningCn": "去",
+   "allomorphs": [
+    "go"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "undertake",
+   "displayText": "undertake",
+   "type": "root",
+   "meaningCn": "试图",
+   "allomorphs": [
+    "undertak"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "undoubted",
+   "displayText": "undoubted",
+   "type": "root",
+   "meaningCn": "无疑的",
+   "allomorphs": [
+    "undoubted"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "expected",
+   "displayText": "expected",
+   "type": "root",
+   "meaningCn": "预期的",
+   "allomorphs": [
+    "expected"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "just",
+   "displayText": "just",
+   "type": "root",
+   "meaningCn": "",
+   "allomorphs": [
+    "just"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "lucky",
+   "displayText": "lucky",
+   "type": "root",
+   "meaningCn": "幸运的",
+   "allomorphs": [
+    "lucky"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "satisfactory",
+   "displayText": "satisfactory",
+   "type": "root",
+   "meaningCn": "满意的",
+   "allomorphs": [
+    "satisfactori",
+    "satisfactory"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "stable",
+   "displayText": "stable",
+   "type": "root",
+   "meaningCn": "马房",
+   "allomorphs": [
+    "stabil",
+    "stable"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "suitable",
+   "displayText": "suitable",
+   "type": "root",
+   "meaningCn": "适当的",
+   "allomorphs": [
+    "suitable"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "unusual",
+   "displayText": "unusual",
+   "type": "root",
+   "meaningCn": "不寻常的",
+   "allomorphs": [
+    "unusual"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "right",
+   "displayText": "right",
+   "type": "root",
+   "meaningCn": "权利",
+   "allomorphs": [
+    "right"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "date",
+   "displayText": "date",
+   "type": "root",
+   "meaningCn": "日期",
+   "allomorphs": [
+    "date"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "vain",
+   "displayText": "vain",
+   "type": "root",
+   "meaningCn": "无价值的",
+   "allomorphs": [
+    "van"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "vibrate",
+   "displayText": "vibrate",
+   "type": "root",
+   "meaningCn": "振动",
+   "allomorphs": [
+    "vibrat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tape",
+   "displayText": "tape",
+   "type": "root",
+   "meaningCn": "带子",
+   "allomorphs": [
+    "tape"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "vigor",
+   "displayText": "vigor",
+   "type": "root",
+   "meaningCn": "精力",
+   "allomorphs": [
+    "vigor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "virtual",
+   "displayText": "virtual",
+   "type": "root",
+   "meaningCn": "实际上起作用的",
+   "allomorphs": [
+    "virtual"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "vital",
+   "displayText": "vital",
+   "type": "root",
+   "meaningCn": "生命的",
+   "allomorphs": [
+    "vital"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "vita",
+   "displayText": "vita",
+   "type": "root",
+   "meaningCn": "个人简历医生活",
+   "allomorphs": [
+    "vita"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "length",
+   "displayText": "length",
+   "type": "root",
+   "meaningCn": "长度",
+   "allomorphs": [
+    "length"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "white",
+   "displayText": "white",
+   "type": "root",
+   "meaningCn": "白色",
+   "allomorphs": [
+    "white"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "who",
+   "displayText": "who",
+   "type": "root",
+   "meaningCn": "医世界卫生组织",
+   "allomorphs": [
+    "who"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "whole",
+   "displayText": "whole",
+   "type": "root",
+   "meaningCn": "全部",
+   "allomorphs": [
+    "whole",
+    "whol"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "wire",
+   "displayText": "wire",
+   "type": "root",
+   "meaningCn": "电线",
+   "allomorphs": [
+    "wire"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "world",
+   "displayText": "world",
+   "type": "root",
+   "meaningCn": "世界",
+   "allomorphs": [
+    "world"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "wreck",
+   "displayText": "wreck",
+   "type": "root",
+   "meaningCn": "失事",
+   "allomorphs": [
+    "wreck"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "year",
+   "displayText": "year",
+   "type": "root",
+   "meaningCn": "年",
+   "allomorphs": [
+    "year"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "young",
+   "displayText": "young",
+   "type": "root",
+   "meaningCn": "年轻的",
+   "allomorphs": [
+    "young"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "youth",
+   "displayText": "youth",
+   "type": "root",
+   "meaningCn": "年轻",
+   "allomorphs": [
+    "youth"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "zeal",
+   "displayText": "zeal",
+   "type": "root",
+   "meaningCn": "医玉蜀黍属",
+   "allomorphs": [
+    "zeal"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  }
+ ]
+}

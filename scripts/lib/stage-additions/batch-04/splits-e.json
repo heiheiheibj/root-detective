@@ -1,0 +1,609 @@
+{
+ "_comment": "3.3 四级批 切分 E：第 241–300 词",
+ "splits": {
+  "greenhouse": [
+   {
+    "id": "green",
+    "surface": "green"
+   },
+   {
+    "id": "house",
+    "surface": "house"
+   }
+  ],
+  "gunpowder": [
+   {
+    "id": "gun",
+    "surface": "gun"
+   },
+   {
+    "id": "powder",
+    "surface": "powder"
+   }
+  ],
+  "harden": [
+   {
+    "id": "hard",
+    "surface": "hard"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "hardware": [
+   {
+    "id": "hard",
+    "surface": "hard"
+   },
+   {
+    "id": "war",
+    "surface": "ware"
+   }
+  ],
+  "hateful": [
+   {
+    "id": "hate",
+    "surface": "hate"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "hatred": [
+   {
+    "id": "hate",
+    "surface": "hat"
+   },
+   {
+    "id": "red",
+    "surface": "red"
+   }
+  ],
+  "heading": [
+   {
+    "id": "head",
+    "surface": "head"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "headquarters": [
+   {
+    "id": "head",
+    "surface": "head"
+   },
+   {
+    "id": "quarters",
+    "surface": "quarters"
+   }
+  ],
+  "heating": [
+   {
+    "id": "heat",
+    "surface": "heat"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "helpless": [
+   {
+    "id": "help",
+    "surface": "help"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "heroic": [
+   {
+    "id": "hero",
+    "surface": "hero"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "highlight": [
+   {
+    "id": "high",
+    "surface": "high"
+   },
+   {
+    "id": "light",
+    "surface": "light"
+   }
+  ],
+  "highly": [
+   {
+    "id": "high",
+    "surface": "high"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "historical": [
+   {
+    "id": "history",
+    "surface": "histor"
+   },
+   {
+    "id": "ical",
+    "surface": "ical"
+   }
+  ],
+  "honeymoon": [
+   {
+    "id": "honey",
+    "surface": "honey"
+   },
+   {
+    "id": "moon",
+    "surface": "moon"
+   }
+  ],
+  "honourable": [
+   {
+    "id": "honour",
+    "surface": "honour"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "horizontal": [
+   {
+    "id": "horizon",
+    "surface": "horizon"
+   },
+   {
+    "id": "tal",
+    "surface": "tal"
+   }
+  ],
+  "horsepower": [
+   {
+    "id": "horse",
+    "surface": "horse"
+   },
+   {
+    "id": "power",
+    "surface": "power"
+   }
+  ],
+  "hostile": [
+   {
+    "id": "host",
+    "surface": "host"
+   },
+   {
+    "id": "il",
+    "surface": "ile"
+   }
+  ],
+  "household": [
+   {
+    "id": "house",
+    "surface": "house"
+   },
+   {
+    "id": "hold",
+    "surface": "hold"
+   }
+  ],
+  "humble": [
+   {
+    "id": "hum",
+    "surface": "humb"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "ideal": [
+   {
+    "id": "idea",
+    "surface": "idea"
+   },
+   {
+    "id": "al",
+    "surface": "l"
+   }
+  ],
+  "identical": [
+   {
+    "id": "identic",
+    "surface": "identic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "ignorant": [
+   {
+    "id": "ignore",
+    "surface": "ignor"
+   },
+   {
+    "id": "ant",
+    "surface": "ant"
+   }
+  ],
+  "illusion": [
+   {
+    "id": "il",
+    "surface": "il"
+   },
+   {
+    "id": "lus",
+    "surface": "lus"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "illustration": [
+   {
+    "id": "illustrate",
+    "surface": "illustrat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "imaginary": [
+   {
+    "id": "imagine",
+    "surface": "imagin"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "imagination": [
+   {
+    "id": "imagine",
+    "surface": "imagin"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "immigrate": [
+   {
+    "id": "im",
+    "surface": "im"
+   },
+   {
+    "id": "migr",
+    "surface": "migrate"
+   }
+  ],
+  "impatient": [
+   {
+    "id": "im",
+    "surface": "im"
+   },
+   {
+    "id": "patient",
+    "surface": "patient"
+   }
+  ],
+  "implication": [
+   {
+    "id": "implicate",
+    "surface": "implicat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "impressive": [
+   {
+    "id": "impress",
+    "surface": "impress"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "imprison": [
+   {
+    "id": "im",
+    "surface": "im"
+   },
+   {
+    "id": "prison",
+    "surface": "prison"
+   }
+  ],
+  "improvement": [
+   {
+    "id": "improve",
+    "surface": "improve"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "incline": [
+   {
+    "id": "inc",
+    "surface": "inc"
+   },
+   {
+    "id": "line",
+    "surface": "line"
+   }
+  ],
+  "increasingly": [
+   {
+    "id": "increasing",
+    "surface": "increasing"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "indefinite": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "definite",
+    "surface": "definite"
+   }
+  ],
+  "indication": [
+   {
+    "id": "indicate",
+    "surface": "indicat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "indifferent": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "different",
+    "surface": "different"
+   }
+  ],
+  "indirect": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "direct",
+    "surface": "direct"
+   }
+  ],
+  "indispensable": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "dispensable",
+    "surface": "dispensable"
+   }
+  ],
+  "indoor": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "door",
+    "surface": "door"
+   }
+  ],
+  "indoors": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "doors",
+    "surface": "doors"
+   }
+  ],
+  "industrial": [
+   {
+    "id": "industry",
+    "surface": "industri"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "industrialize": [
+   {
+    "id": "industrial",
+    "surface": "industrial"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "inefficient": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "efficient",
+    "surface": "efficient"
+   }
+  ],
+  "inevitable": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "evitable",
+    "surface": "evitable"
+   }
+  ],
+  "inexpensive": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "expensive",
+    "surface": "expensive"
+   }
+  ],
+  "infamous": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "famous",
+    "surface": "famous"
+   }
+  ],
+  "infinite": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "finite",
+    "surface": "finite"
+   }
+  ],
+  "influential": [
+   {
+    "id": "influence",
+    "surface": "influent"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "inhabitant": [
+   {
+    "id": "inhabit",
+    "surface": "inhabit"
+   },
+   {
+    "id": "ant",
+    "surface": "ant"
+   }
+  ],
+  "initiative": [
+   {
+    "id": "initiate",
+    "surface": "initiat"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "injection": [
+   {
+    "id": "inject",
+    "surface": "inject"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "input": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "put",
+    "surface": "put"
+   }
+  ],
+  "insight": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "sight",
+    "surface": "sight"
+   }
+  ],
+  "insignificant": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "significant",
+    "surface": "significant"
+   }
+  ],
+  "installation": [
+   {
+    "id": "install",
+    "surface": "install"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "instantly": [
+   {
+    "id": "instant",
+    "surface": "instant"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "insufficient": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "sufficient",
+    "surface": "sufficient"
+   }
+  ]
+ }
+}

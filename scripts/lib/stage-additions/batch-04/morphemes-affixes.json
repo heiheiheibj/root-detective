@@ -1,0 +1,576 @@
+{
+ "_comment": "3.3 四级批 新增 47 个前后缀（结构对齐 batch-01：prefixes/suffixes 分开）",
+ "prefixes": [
+  {
+   "id": "alt",
+   "displayText": "alt-",
+   "type": "prefix",
+   "meaningCn": "高音调高音调的计",
+   "allomorphs": [
+    "alt"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "avi",
+   "displayText": "avi-",
+   "type": "prefix",
+   "meaningCn": "多媒体文件格式",
+   "allomorphs": [
+    "avi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "pari",
+   "displayText": "pari-",
+   "type": "prefix",
+   "meaningCn": "帕里球员名",
+   "allomorphs": [
+    "pari"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "cost",
+   "displayText": "cost-",
+   "type": "prefix",
+   "meaningCn": "代价",
+   "allomorphs": [
+    "cost"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "demo",
+   "displayText": "demo-",
+   "type": "prefix",
+   "meaningCn": "演示",
+   "allomorphs": [
+    "demo"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "equi",
+   "displayText": "equi-",
+   "type": "prefix",
+   "meaningCn": "马科动物包括马",
+   "allomorphs": [
+    "equi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "step",
+   "displayText": "step-",
+   "type": "prefix",
+   "meaningCn": "步骤",
+   "allomorphs": [
+    "step"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "forth",
+   "displayText": "forth-",
+   "type": "prefix",
+   "meaningCn": "往前",
+   "allomorphs": [
+    "furth",
+    "forth"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "great",
+   "displayText": "great-",
+   "type": "prefix",
+   "meaningCn": "大的",
+   "allomorphs": [
+    "great"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "tal",
+   "displayText": "tal-",
+   "type": "prefix",
+   "meaningCn": "事物处理应用语言",
+   "allomorphs": [
+    "tal"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "iso",
+   "displayText": "iso-",
+   "type": "prefix",
+   "meaningCn": "计国际标准化组织",
+   "allomorphs": [
+    "iso"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "magnet",
+   "displayText": "magnet-",
+   "type": "prefix",
+   "meaningCn": "磁铁",
+   "allomorphs": [
+    "magnet"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "milli",
+   "displayText": "milli-",
+   "type": "prefix",
+   "meaningCn": "计毫",
+   "allomorphs": [
+    "milli"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "multi",
+   "displayText": "multi-",
+   "type": "prefix",
+   "meaningCn": "计多",
+   "allomorphs": [
+    "multi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "new",
+   "displayText": "new-",
+   "type": "prefix",
+   "meaningCn": "新的",
+   "allomorphs": [
+    "new"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "nitro",
+   "displayText": "nitro-",
+   "type": "prefix",
+   "meaningCn": "硝基",
+   "allomorphs": [
+    "nitro"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "non",
+   "displayText": "non-",
+   "type": "prefix",
+   "meaningCn": "非",
+   "allomorphs": [
+    "non"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "numero",
+   "displayText": "numero-",
+   "type": "prefix",
+   "meaningCn": "号",
+   "allomorphs": [
+    "numero"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "philo",
+   "displayText": "philo-",
+   "type": "prefix",
+   "meaningCn": "斐洛古犹太神秘主",
+   "allomorphs": [
+    "philo"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "proto",
+   "displayText": "proto-",
+   "type": "prefix",
+   "meaningCn": "计原型",
+   "allomorphs": [
+    "proto",
+    "prot"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "sex",
+   "displayText": "sex-",
+   "type": "prefix",
+   "meaningCn": "性别",
+   "allomorphs": [
+    "sex"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "sh",
+   "displayText": "sh-",
+   "type": "prefix",
+   "meaningCn": "嘘",
+   "allomorphs": [
+    "sh",
+    "she"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  }
+ ],
+ "suffixes": [
+  {
+   "id": "ally",
+   "displayText": "-ally",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "ally",
+    "alli"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ior",
+   "displayText": "-ior",
+   "type": "suffix",
+   "meaningCn": "输入输出寄存器",
+   "allomorphs": [
+    "ior"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "eer",
+   "displayText": "-eer",
+   "type": "suffix",
+   "meaningCn": "与有关的人",
+   "allomorphs": [
+    "eer"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ification",
+   "displayText": "-ification",
+   "type": "suffix",
+   "meaningCn": "奉为神",
+   "allomorphs": [
+    "ification"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "version",
+   "displayText": "-version",
+   "type": "suffix",
+   "meaningCn": "一种描述",
+   "allomorphs": [
+    "version"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "vert",
+   "displayText": "-vert",
+   "type": "suffix",
+   "meaningCn": "草木",
+   "allomorphs": [
+    "vert"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "cracy",
+   "displayText": "-cracy",
+   "type": "suffix",
+   "meaningCn": "的政府",
+   "allomorphs": [
+    "cracy"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "nom",
+   "displayText": "-nom",
+   "type": "suffix",
+   "meaningCn": "名义上的等于",
+   "allomorphs": [
+    "nom"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "elect",
+   "displayText": "-elect",
+   "type": "suffix",
+   "meaningCn": "当选人",
+   "allomorphs": [
+    "elect"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "valent",
+   "displayText": "-valent",
+   "type": "suffix",
+   "meaningCn": "医价的",
+   "allomorphs": [
+    "valent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "inlaw",
+   "displayText": "-inlaw",
+   "type": "suffix",
+   "meaningCn": "法依法",
+   "allomorphs": [
+    "inlaw"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "more",
+   "displayText": "-more",
+   "type": "suffix",
+   "meaningCn": "更多多的",
+   "allomorphs": [
+    "more"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "eous",
+   "displayText": "-eous",
+   "type": "suffix",
+   "meaningCn": "医具油滴的",
+   "allomorphs": [
+    "eous"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "red",
+   "displayText": "-red",
+   "type": "suffix",
+   "meaningCn": "红的",
+   "allomorphs": [
+    "red",
+    "ood"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "meter",
+   "displayText": "-meter",
+   "type": "suffix",
+   "meaningCn": "",
+   "allomorphs": [
+    "meter"
+   ],
+   "etymology": "",
+   "level": 5,
+   "color": "green"
+  },
+  {
+   "id": "lord",
+   "displayText": "-lord",
+   "type": "suffix",
+   "meaningCn": "统治者",
+   "allomorphs": [
+    "lord"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "logic",
+   "displayText": "-logic",
+   "type": "suffix",
+   "meaningCn": "逻辑",
+   "allomorphs": [
+    "logic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "sophy",
+   "displayText": "-sophy",
+   "type": "suffix",
+   "meaningCn": "表示知识",
+   "allomorphs": [
+    "sophy"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "graphic",
+   "displayText": "-graphic",
+   "type": "suffix",
+   "meaningCn": "形象的",
+   "allomorphs": [
+    "graphic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ably",
+   "displayText": "-ably",
+   "type": "suffix",
+   "meaningCn": "构成与结尾的形容",
+   "allomorphs": [
+    "ably"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ein",
+   "displayText": "-ein",
+   "type": "suffix",
+   "meaningCn": "计欧洲情报网",
+   "allomorphs": [
+    "ein"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "poo",
+   "displayText": "-poo",
+   "type": "suffix",
+   "meaningCn": "邮政汇票",
+   "allomorphs": [
+    "poo"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "icity",
+   "displayText": "-icity",
+   "type": "suffix",
+   "meaningCn": "化合价",
+   "allomorphs": [
+    "icity"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "tropic",
+   "displayText": "-tropic",
+   "type": "suffix",
+   "meaningCn": "回归线",
+   "allomorphs": [
+    "tropic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "proof",
+   "displayText": "-proof",
+   "type": "suffix",
+   "meaningCn": "证据",
+   "allomorphs": [
+    "proof"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  }
+ ]
+}

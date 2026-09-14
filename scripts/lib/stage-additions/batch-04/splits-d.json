@@ -1,0 +1,605 @@
+{
+ "_comment": "3.3 四级批 切分 D：第 181–240 词",
+ "splits": {
+  "enable": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "enclose": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "close",
+    "surface": "close"
+   }
+  ],
+  "enforce": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "force",
+    "surface": "force"
+   }
+  ],
+  "engage": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "gage",
+    "surface": "gage"
+   }
+  ],
+  "engineering": [
+   {
+    "id": "engineer",
+    "surface": "engineer"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "englishman": [
+   {
+    "id": "english",
+    "surface": "english"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "enroll": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "roll",
+    "surface": "roll"
+   }
+  ],
+  "ensure": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "sur",
+    "surface": "sure"
+   }
+  ],
+  "entitle": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "title",
+    "surface": "title"
+   }
+  ],
+  "equivalent": [
+   {
+    "id": "equi",
+    "surface": "equi"
+   },
+   {
+    "id": "valent",
+    "surface": "valent"
+   }
+  ],
+  "establishment": [
+   {
+    "id": "establish",
+    "surface": "establish"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "exceed": [
+   {
+    "id": "ex",
+    "surface": "ex"
+   },
+   {
+    "id": "ceed",
+    "surface": "ceed"
+   }
+  ],
+  "exceedingly": [
+   {
+    "id": "exceeding",
+    "surface": "exceeding"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "exception": [
+   {
+    "id": "except",
+    "surface": "except"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "excessive": [
+   {
+    "id": "excess",
+    "surface": "excess"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "excitement": [
+   {
+    "id": "excite",
+    "surface": "excite"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "exclude": [
+   {
+    "id": "ex",
+    "surface": "ex"
+   },
+   {
+    "id": "clude",
+    "surface": "clude"
+   }
+  ],
+  "exclusively": [
+   {
+    "id": "exclusive",
+    "surface": "exclusive"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "execute": [
+   {
+    "id": "ex",
+    "surface": "exe"
+   },
+   {
+    "id": "cut",
+    "surface": "cute"
+   }
+  ],
+  "exert": [
+   {
+    "id": "ex",
+    "surface": "ex"
+   },
+   {
+    "id": "ser",
+    "surface": "ert"
+   }
+  ],
+  "exhaustion": [
+   {
+    "id": "exhaust",
+    "surface": "exhaust"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "expansion": [
+   {
+    "id": "expand",
+    "surface": "expan"
+   },
+   {
+    "id": "sion",
+    "surface": "sion"
+   }
+  ],
+  "experimental": [
+   {
+    "id": "experiment",
+    "surface": "experiment"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "exposure": [
+   {
+    "id": "expo",
+    "surface": "expo"
+   },
+   {
+    "id": "sur",
+    "surface": "sure"
+   }
+  ],
+  "faithful": [
+   {
+    "id": "faith",
+    "surface": "faith"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "farewell": [
+   {
+    "id": "fare",
+    "surface": "fare"
+   },
+   {
+    "id": "well",
+    "surface": "well"
+   }
+  ],
+  "farther": [
+   {
+    "id": "fart",
+    "surface": "fart"
+   },
+   {
+    "id": "her",
+    "surface": "her"
+   }
+  ],
+  "fashionable": [
+   {
+    "id": "fashion",
+    "surface": "fashion"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "fatherinlaw": [
+   {
+    "id": "father",
+    "surface": "father"
+   },
+   {
+    "id": "inlaw",
+    "surface": "inlaw"
+   }
+  ],
+  "favorable": [
+   {
+    "id": "favor",
+    "surface": "favor"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "favorite": [
+   {
+    "id": "favor",
+    "surface": "favor"
+   },
+   {
+    "id": "it",
+    "surface": "ite"
+   }
+  ],
+  "favourable": [
+   {
+    "id": "favour",
+    "surface": "favour"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "fearful": [
+   {
+    "id": "fear",
+    "surface": "fear"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "feedback": [
+   {
+    "id": "feed",
+    "surface": "feed"
+   },
+   {
+    "id": "back",
+    "surface": "back"
+   }
+  ],
+  "finally": [
+   {
+    "id": "final",
+    "surface": "final"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "financial": [
+   {
+    "id": "finance",
+    "surface": "financ"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "finding": [
+   {
+    "id": "find",
+    "surface": "find"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "fireman": [
+   {
+    "id": "fire",
+    "surface": "fire"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "footstep": [
+   {
+    "id": "foot",
+    "surface": "foot"
+   },
+   {
+    "id": "step",
+    "surface": "step"
+   }
+  ],
+  "foremost": [
+   {
+    "id": "for",
+    "surface": "fore"
+   },
+   {
+    "id": "most",
+    "surface": "most"
+   }
+  ],
+  "fortunately": [
+   {
+    "id": "fortunate",
+    "surface": "fortunate"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "foundation": [
+   {
+    "id": "found",
+    "surface": "found"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "freely": [
+   {
+    "id": "free",
+    "surface": "free"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "frequently": [
+   {
+    "id": "frequent",
+    "surface": "frequent"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "fruitful": [
+   {
+    "id": "fruit",
+    "surface": "fruit"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "further": [
+   {
+    "id": "forth",
+    "surface": "furth"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "furthermore": [
+   {
+    "id": "further",
+    "surface": "further"
+   },
+   {
+    "id": "more",
+    "surface": "more"
+   }
+  ],
+  "gardener": [
+   {
+    "id": "garden",
+    "surface": "garden"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "gaseous": [
+   {
+    "id": "gas",
+    "surface": "gas"
+   },
+   {
+    "id": "eous",
+    "surface": "eous"
+   }
+  ],
+  "generally": [
+   {
+    "id": "general",
+    "surface": "general"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "generator": [
+   {
+    "id": "gener",
+    "surface": "generat"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "genetic": [
+   {
+    "id": "gen",
+    "surface": "gene"
+   },
+   {
+    "id": "tic",
+    "surface": "tic"
+   }
+  ],
+  "gently": [
+   {
+    "id": "gentle",
+    "surface": "gentl"
+   },
+   {
+    "id": "ly",
+    "surface": "y"
+   }
+  ],
+  "geology": [
+   {
+    "id": "geo",
+    "surface": "geo"
+   },
+   {
+    "id": "logy",
+    "surface": "logy"
+   }
+  ],
+  "global": [
+   {
+    "id": "globe",
+    "surface": "glob"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "glorious": [
+   {
+    "id": "glory",
+    "surface": "glori"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "governor": [
+   {
+    "id": "govern",
+    "surface": "govern"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "graceful": [
+   {
+    "id": "grace",
+    "surface": "grace"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "grammatical": [
+   {
+    "id": "grammatic",
+    "surface": "grammatic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "greatly": [
+   {
+    "id": "great",
+    "surface": "great"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ]
+ }
+}

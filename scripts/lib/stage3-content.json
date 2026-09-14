@@ -1,5 +1,5 @@
 {
- "_comment": "Stage 3 内容配置：180 家族 / 518 词（由 build-stage3-config.mjs 合并 batch-01 + batch-02 + batch-03 生成；源头=stage1-content.json + stage-additions/*，不要手改本文件）。",
+ "_comment": "Stage 3 内容配置：198 家族 / 549 词（由 build-stage3-config.mjs 合并 batch-01 + batch-02 + batch-03 + batch-04 生成；源头=stage1-content.json + stage-additions/*，不要手改本文件）。",
  "families": {
   "spec": {
    "roots": [
@@ -1771,6 +1771,163 @@
    ],
    "words": [
     "welfare"
+   ]
+  },
+  "verb": {
+   "roots": [
+    "verb"
+   ],
+   "words": [
+    "adverb"
+   ]
+  },
+  "close": {
+   "roots": [
+    "close"
+   ],
+   "words": [
+    "closely",
+    "disclose",
+    "enclose"
+   ]
+  },
+  "mission": {
+   "roots": [
+    "mission"
+   ],
+   "words": [
+    "commission",
+    "transmission"
+   ]
+  },
+  "common": {
+   "roots": [
+    "common"
+   ],
+   "words": [
+    "commonly"
+   ]
+  },
+  "fine": {
+   "roots": [
+    "fine"
+   ],
+   "words": [
+    "confine",
+    "refine"
+   ]
+  },
+  "correspond": {
+   "roots": [
+    "correspond"
+   ],
+   "words": [
+    "correspondent",
+    "corresponding"
+   ]
+  },
+  "critic": {
+   "roots": [
+    "critic"
+   ],
+   "words": [
+    "critical",
+    "criticism",
+    "criticize"
+   ]
+  },
+  "employ": {
+   "roots": [
+    "employ"
+   ],
+   "words": [
+    "employee",
+    "employer",
+    "employment"
+   ]
+  },
+  "general": {
+   "roots": [
+    "general"
+   ],
+   "words": [
+    "generally"
+   ]
+  },
+  "hold": {
+   "roots": [
+    "hold"
+   ],
+   "words": [
+    "household"
+   ]
+  },
+  "regular": {
+   "roots": [
+    "regular"
+   ],
+   "words": [
+    "irregular",
+    "regularly"
+   ]
+  },
+  "name": {
+   "roots": [
+    "name"
+   ],
+   "words": [
+    "namely",
+    "surname"
+   ]
+  },
+  "sense": {
+   "roots": [
+    "sense"
+   ],
+   "words": [
+    "nonsense"
+   ]
+  },
+  "orient": {
+   "roots": [
+    "orient"
+   ],
+   "words": [
+    "oriental"
+   ]
+  },
+  "pay": {
+   "roots": [
+    "pay"
+   ],
+   "words": [
+    "payment"
+   ]
+  },
+  "respect": {
+   "roots": [
+    "respect"
+   ],
+   "words": [
+    "respectful",
+    "respective"
+   ]
+  },
+  "second": {
+   "roots": [
+    "second"
+   ],
+   "words": [
+    "secondary",
+    "secondly"
+   ]
+  },
+  "just": {
+   "roots": [
+    "just"
+   ],
+   "words": [
+    "unjust"
    ]
   }
  },
@@ -18563,6 +18720,7388 @@
     "id": "er",
     "surface": "er"
    }
+  ],
+  "absolutely": [
+   {
+    "id": "absolute",
+    "surface": "absolute"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "acceleration": [
+   {
+    "id": "accelerate",
+    "surface": "accelerat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "acceptable": [
+   {
+    "id": "accept",
+    "surface": "accept"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "acceptance": [
+   {
+    "id": "accept",
+    "surface": "accept"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "accessory": [
+   {
+    "id": "access",
+    "surface": "access"
+   },
+   {
+    "id": "ory",
+    "surface": "ory"
+   }
+  ],
+  "accidental": [
+   {
+    "id": "accident",
+    "surface": "accident"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "accordance": [
+   {
+    "id": "accord",
+    "surface": "accord"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "accordingly": [
+   {
+    "id": "according",
+    "surface": "according"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "accustom": [
+   {
+    "id": "ac",
+    "surface": "ac"
+   },
+   {
+    "id": "custom",
+    "surface": "custom"
+   }
+  ],
+  "actually": [
+   {
+    "id": "actual",
+    "surface": "actual"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "additional": [
+   {
+    "id": "addition",
+    "surface": "addition"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "adhere": [
+   {
+    "id": "ad",
+    "surface": "ad"
+   },
+   {
+    "id": "her",
+    "surface": "here"
+   }
+  ],
+  "advanced": [
+   {
+    "id": "advance",
+    "surface": "advance"
+   },
+   {
+    "id": "ed",
+    "surface": "d"
+   }
+  ],
+  "adverb": [
+   {
+    "id": "ad",
+    "surface": "ad"
+   },
+   {
+    "id": "verb",
+    "surface": "verb"
+   }
+  ],
+  "advisable": [
+   {
+    "id": "advise",
+    "surface": "advis"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "alter": [
+   {
+    "id": "alt",
+    "surface": "alt"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "amongst": [
+   {
+    "id": "among",
+    "surface": "among"
+   },
+   {
+    "id": "st",
+    "surface": "st"
+   }
+  ],
+  "amplify": [
+   {
+    "id": "ample",
+    "surface": "ampl"
+   },
+   {
+    "id": "ify",
+    "surface": "ify"
+   }
+  ],
+  "announcer": [
+   {
+    "id": "announce",
+    "surface": "announce"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "anticipate": [
+   {
+    "id": "anti",
+    "surface": "anti"
+   },
+   {
+    "id": "cip",
+    "surface": "cip"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "applause": [
+   {
+    "id": "ap",
+    "surface": "ap"
+   },
+   {
+    "id": "pease",
+    "surface": "plause"
+   }
+  ],
+  "appliance": [
+   {
+    "id": "apply",
+    "surface": "appli"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "approval": [
+   {
+    "id": "approve",
+    "surface": "approv"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "approximate": [
+   {
+    "id": "ap",
+    "surface": "ap"
+   },
+   {
+    "id": "proximate",
+    "surface": "proximate"
+   }
+  ],
+  "arabian": [
+   {
+    "id": "arab",
+    "surface": "arab"
+   },
+   {
+    "id": "ian",
+    "surface": "ian"
+   }
+  ],
+  "assign": [
+   {
+    "id": "ad",
+    "surface": "as"
+   },
+   {
+    "id": "sign",
+    "surface": "sign"
+   }
+  ],
+  "assignment": [
+   {
+    "id": "assign",
+    "surface": "assign"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "assure": [
+   {
+    "id": "as",
+    "surface": "as"
+   },
+   {
+    "id": "sur",
+    "surface": "sure"
+   }
+  ],
+  "atomic": [
+   {
+    "id": "atom",
+    "surface": "atom"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "autobiography": [
+   {
+    "id": "auto",
+    "surface": "auto"
+   },
+   {
+    "id": "biography",
+    "surface": "biography"
+   }
+  ],
+  "automatically": [
+   {
+    "id": "automatic",
+    "surface": "automatic"
+   },
+   {
+    "id": "ally",
+    "surface": "ally"
+   }
+  ],
+  "automation": [
+   {
+    "id": "automatic",
+    "surface": "automati"
+   },
+   {
+    "id": "ion",
+    "surface": "on"
+   }
+  ],
+  "aviation": [
+   {
+    "id": "avi",
+    "surface": "avi"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "awfully": [
+   {
+    "id": "awful",
+    "surface": "awful"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "banner": [
+   {
+    "id": "ban",
+    "surface": "bann"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "barely": [
+   {
+    "id": "bar",
+    "surface": "bare"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "basically": [
+   {
+    "id": "basic",
+    "surface": "basic"
+   },
+   {
+    "id": "ally",
+    "surface": "ally"
+   }
+  ],
+  "beforehand": [
+   {
+    "id": "before",
+    "surface": "before"
+   },
+   {
+    "id": "hand",
+    "surface": "hand"
+   }
+  ],
+  "beginner": [
+   {
+    "id": "begin",
+    "surface": "beginn"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "behavior": [
+   {
+    "id": "behave",
+    "surface": "behav"
+   },
+   {
+    "id": "ior",
+    "surface": "ior"
+   }
+  ],
+  "beloved": [
+   {
+    "id": "belove",
+    "surface": "belove"
+   },
+   {
+    "id": "ed",
+    "surface": "d"
+   }
+  ],
+  "bitterly": [
+   {
+    "id": "bitter",
+    "surface": "bitter"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "brighten": [
+   {
+    "id": "bright",
+    "surface": "bright"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "brittle": [
+   {
+    "id": "brit",
+    "surface": "britt"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "bullet": [
+   {
+    "id": "bull",
+    "surface": "bull"
+   },
+   {
+    "id": "et",
+    "surface": "et"
+   }
+  ],
+  "cabinet": [
+   {
+    "id": "cabin",
+    "surface": "cabin"
+   },
+   {
+    "id": "et",
+    "surface": "et"
+   }
+  ],
+  "calculation": [
+   {
+    "id": "calculate",
+    "surface": "calculat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "calculator": [
+   {
+    "id": "calculate",
+    "surface": "calculat"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "career": [
+   {
+    "id": "car",
+    "surface": "car"
+   },
+   {
+    "id": "eer",
+    "surface": "eer"
+   }
+  ],
+  "certainty": [
+   {
+    "id": "certain",
+    "surface": "certain"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "characterize": [
+   {
+    "id": "character",
+    "surface": "character"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "charming": [
+   {
+    "id": "charm",
+    "surface": "charm"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "childish": [
+   {
+    "id": "child",
+    "surface": "child"
+   },
+   {
+    "id": "ish",
+    "surface": "ish"
+   }
+  ],
+  "chill": [
+   {
+    "id": "ch",
+    "surface": "ch"
+   },
+   {
+    "id": "will",
+    "surface": "ill"
+   }
+  ],
+  "circular": [
+   {
+    "id": "circ",
+    "surface": "circ"
+   },
+   {
+    "id": "ular",
+    "surface": "ular"
+   }
+  ],
+  "civilize": [
+   {
+    "id": "civil",
+    "surface": "civil"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "classification": [
+   {
+    "id": "class",
+    "surface": "class"
+   },
+   {
+    "id": "ification",
+    "surface": "ification"
+   }
+  ],
+  "closely": [
+   {
+    "id": "close",
+    "surface": "close"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "collapse": [
+   {
+    "id": "col",
+    "surface": "col"
+   },
+   {
+    "id": "lapse",
+    "surface": "lapse"
+   }
+  ],
+  "collective": [
+   {
+    "id": "collect",
+    "surface": "collect"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "combination": [
+   {
+    "id": "combine",
+    "surface": "combin"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "commander": [
+   {
+    "id": "command",
+    "surface": "command"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "commercial": [
+   {
+    "id": "commerce",
+    "surface": "commerc"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "commission": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "mission",
+    "surface": "mission"
+   }
+  ],
+  "commonly": [
+   {
+    "id": "common",
+    "surface": "common"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "community": [
+   {
+    "id": "commune",
+    "surface": "commun"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "comparable": [
+   {
+    "id": "compare",
+    "surface": "compar"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "comparatively": [
+   {
+    "id": "comparative",
+    "surface": "comparative"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "comparison": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "pari",
+    "surface": "pari"
+   },
+   {
+    "id": "son",
+    "surface": "son"
+   }
+  ],
+  "compile": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "pile",
+    "surface": "pile"
+   }
+  ],
+  "complain": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "plain",
+    "surface": "plain"
+   }
+  ],
+  "completely": [
+   {
+    "id": "complete",
+    "surface": "complete"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "compound": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "pound",
+    "surface": "pound"
+   }
+  ],
+  "compress": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "press",
+    "surface": "press"
+   }
+  ],
+  "comprise": [
+   {
+    "id": "com",
+    "surface": "com"
+   },
+   {
+    "id": "prise",
+    "surface": "prise"
+   }
+  ],
+  "concentration": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "centre",
+    "surface": "centr"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "concerning": [
+   {
+    "id": "concern",
+    "surface": "concern"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "condense": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "dense",
+    "surface": "dense"
+   }
+  ],
+  "confidence": [
+   {
+    "id": "confide",
+    "surface": "confide"
+   },
+   {
+    "id": "ence",
+    "surface": "nce"
+   }
+  ],
+  "confine": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "fine",
+    "surface": "fine"
+   }
+  ],
+  "congress": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "gress",
+    "surface": "gress"
+   }
+  ],
+  "conjunction": [
+   {
+    "id": "conjunct",
+    "surface": "conjunct"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "conquer": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "quer",
+    "surface": "quer"
+   }
+  ],
+  "conquest": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "quest",
+    "surface": "quest"
+   }
+  ],
+  "conscious": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "sci",
+    "surface": "sci"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "consciousness": [
+   {
+    "id": "conscious",
+    "surface": "conscious"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "consent": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "sent",
+    "surface": "sent"
+   }
+  ],
+  "consequently": [
+   {
+    "id": "consequent",
+    "surface": "consequent"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "conserve": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "serv",
+    "surface": "serve"
+   }
+  ],
+  "considerable": [
+   {
+    "id": "consider",
+    "surface": "consider"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "consumer": [
+   {
+    "id": "consume",
+    "surface": "consume"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "consumption": [
+   {
+    "id": "consume",
+    "surface": "consump"
+   },
+   {
+    "id": "tion",
+    "surface": "tion"
+   }
+  ],
+  "contempt": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "tempt",
+    "surface": "tempt"
+   }
+  ],
+  "continual": [
+   {
+    "id": "continue",
+    "surface": "continu"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "contradiction": [
+   {
+    "id": "contradict",
+    "surface": "contradict"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "conversely": [
+   {
+    "id": "converse",
+    "surface": "converse"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "conversion": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "version",
+    "surface": "version"
+   }
+  ],
+  "convert": [
+   {
+    "id": "con",
+    "surface": "con"
+   },
+   {
+    "id": "vert",
+    "surface": "vert"
+   }
+  ],
+  "cooperate": [
+   {
+    "id": "co",
+    "surface": "co"
+   },
+   {
+    "id": "operate",
+    "surface": "operate"
+   }
+  ],
+  "coordinate": [
+   {
+    "id": "co",
+    "surface": "co"
+   },
+   {
+    "id": "ordin",
+    "surface": "ordinate"
+   }
+  ],
+  "copper": [
+   {
+    "id": "cop",
+    "surface": "copp"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "core": [
+   {
+    "id": "co",
+    "surface": "co"
+   },
+   {
+    "id": "re",
+    "surface": "re"
+   }
+  ],
+  "correspondent": [
+   {
+    "id": "correspond",
+    "surface": "correspond"
+   },
+   {
+    "id": "ent",
+    "surface": "ent"
+   }
+  ],
+  "corresponding": [
+   {
+    "id": "correspond",
+    "surface": "correspond"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "costly": [
+   {
+    "id": "cost",
+    "surface": "cost"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "creative": [
+   {
+    "id": "create",
+    "surface": "creat"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "cripple": [
+   {
+    "id": "creep",
+    "surface": "cripp"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "critical": [
+   {
+    "id": "critic",
+    "surface": "critic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "criticism": [
+   {
+    "id": "critic",
+    "surface": "critic"
+   },
+   {
+    "id": "ism",
+    "surface": "ism"
+   }
+  ],
+  "criticize": [
+   {
+    "id": "critic",
+    "surface": "critic"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "cunning": [
+   {
+    "id": "con",
+    "surface": "cunn"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "curiosity": [
+   {
+    "id": "curious",
+    "surface": "curios"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "darling": [
+   {
+    "id": "dear",
+    "surface": "dar"
+   },
+   {
+    "id": "ling",
+    "surface": "ling"
+   }
+  ],
+  "deadly": [
+   {
+    "id": "dead",
+    "surface": "dead"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "deepen": [
+   {
+    "id": "deep",
+    "surface": "deep"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "definitely": [
+   {
+    "id": "definite",
+    "surface": "definite"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "definition": [
+   {
+    "id": "define",
+    "surface": "defin"
+   },
+   {
+    "id": "ition",
+    "surface": "ition"
+   }
+  ],
+  "deliberate": [
+   {
+    "id": "deli",
+    "surface": "deli"
+   },
+   {
+    "id": "berate",
+    "surface": "berate"
+   }
+  ],
+  "delivery": [
+   {
+    "id": "deli",
+    "surface": "deli"
+   },
+   {
+    "id": "very",
+    "surface": "very"
+   }
+  ],
+  "democracy": [
+   {
+    "id": "demo",
+    "surface": "demo"
+   },
+   {
+    "id": "cracy",
+    "surface": "cracy"
+   }
+  ],
+  "democratic": [
+   {
+    "id": "democrat",
+    "surface": "democrat"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "density": [
+   {
+    "id": "dense",
+    "surface": "dens"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "dependent": [
+   {
+    "id": "depend",
+    "surface": "depend"
+   },
+   {
+    "id": "ent",
+    "surface": "ent"
+   }
+  ],
+  "depress": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "press",
+    "surface": "press"
+   }
+  ],
+  "depression": [
+   {
+    "id": "depress",
+    "surface": "depress"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "desirable": [
+   {
+    "id": "desire",
+    "surface": "desir"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "despair": [
+   {
+    "id": "des",
+    "surface": "des"
+   },
+   {
+    "id": "pair",
+    "surface": "pair"
+   }
+  ],
+  "despite": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "spite",
+    "surface": "spite"
+   }
+  ],
+  "destruction": [
+   {
+    "id": "destruct",
+    "surface": "destruct"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "destructive": [
+   {
+    "id": "destruct",
+    "surface": "destruct"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "detail": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "tail",
+    "surface": "tail"
+   }
+  ],
+  "detect": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "tect",
+    "surface": "tect"
+   }
+  ],
+  "detection": [
+   {
+    "id": "detect",
+    "surface": "detect"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "dialect": [
+   {
+    "id": "dia",
+    "surface": "dia"
+   },
+   {
+    "id": "lect",
+    "surface": "lect"
+   }
+  ],
+  "dialog": [
+   {
+    "id": "dia",
+    "surface": "dia"
+   },
+   {
+    "id": "log",
+    "surface": "log"
+   }
+  ],
+  "directly": [
+   {
+    "id": "direct",
+    "surface": "direct"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "disable": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "disapprove": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "approve",
+    "surface": "approve"
+   }
+  ],
+  "discard": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "card",
+    "surface": "card"
+   }
+  ],
+  "discharge": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "charge",
+    "surface": "charge"
+   }
+  ],
+  "discipline": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "cip",
+    "surface": "cip"
+   },
+   {
+    "id": "line",
+    "surface": "line"
+   }
+  ],
+  "disclose": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "close",
+    "surface": "close"
+   }
+  ],
+  "disguise": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "guise",
+    "surface": "guise"
+   }
+  ],
+  "disgust": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "gust",
+    "surface": "gust"
+   }
+  ],
+  "dishonour": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "honour",
+    "surface": "honour"
+   }
+  ],
+  "disorder": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "order",
+    "surface": "order"
+   }
+  ],
+  "display": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "play",
+    "surface": "play"
+   }
+  ],
+  "displease": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "please",
+    "surface": "please"
+   }
+  ],
+  "disposal": [
+   {
+    "id": "dispose",
+    "surface": "dispos"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "dispose": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "pos",
+    "surface": "pose"
+   }
+  ],
+  "dissatisfy": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "satisfy",
+    "surface": "satisfy"
+   }
+  ],
+  "dissolve": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "solve",
+    "surface": "solve"
+   }
+  ],
+  "distress": [
+   {
+    "id": "dis",
+    "surface": "dis"
+   },
+   {
+    "id": "tress",
+    "surface": "tress"
+   }
+  ],
+  "distribution": [
+   {
+    "id": "distribute",
+    "surface": "distribut"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "doubtful": [
+   {
+    "id": "doubt",
+    "surface": "doubt"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "doubtless": [
+   {
+    "id": "doubt",
+    "surface": "doubt"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "dramatic": [
+   {
+    "id": "drama",
+    "surface": "drama"
+   },
+   {
+    "id": "tic",
+    "surface": "tic"
+   }
+  ],
+  "dwelling": [
+   {
+    "id": "dwell",
+    "surface": "dwell"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "dying": [
+   {
+    "id": "di",
+    "surface": "dy"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "earnest": [
+   {
+    "id": "earn",
+    "surface": "earn"
+   },
+   {
+    "id": "est",
+    "surface": "est"
+   }
+  ],
+  "economic": [
+   {
+    "id": "economy",
+    "surface": "econom"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "economical": [
+   {
+    "id": "economic",
+    "surface": "economic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "economics": [
+   {
+    "id": "eco",
+    "surface": "eco"
+   },
+   {
+    "id": "nom",
+    "surface": "nom"
+   },
+   {
+    "id": "ics",
+    "surface": "ics"
+   }
+  ],
+  "economy": [
+   {
+    "id": "eco",
+    "surface": "eco"
+   },
+   {
+    "id": "nomy",
+    "surface": "nomy"
+   }
+  ],
+  "editorial": [
+   {
+    "id": "editor",
+    "surface": "editor"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "effective": [
+   {
+    "id": "effect",
+    "surface": "effect"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "elbow": [
+   {
+    "id": "ell",
+    "surface": "el"
+   },
+   {
+    "id": "bow",
+    "surface": "bow"
+   }
+  ],
+  "elderly": [
+   {
+    "id": "elder",
+    "surface": "elder"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "election": [
+   {
+    "id": "elect",
+    "surface": "elect"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "electron": [
+   {
+    "id": "elect",
+    "surface": "elect"
+   },
+   {
+    "id": "ron",
+    "surface": "ron"
+   }
+  ],
+  "electronics": [
+   {
+    "id": "electron",
+    "surface": "electron"
+   },
+   {
+    "id": "ics",
+    "surface": "ics"
+   }
+  ],
+  "elementary": [
+   {
+    "id": "element",
+    "surface": "element"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "elimination": [
+   {
+    "id": "eliminate",
+    "surface": "eliminat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "elsewhere": [
+   {
+    "id": "else",
+    "surface": "else"
+   },
+   {
+    "id": "where",
+    "surface": "where"
+   }
+  ],
+  "embrace": [
+   {
+    "id": "em",
+    "surface": "em"
+   },
+   {
+    "id": "brace",
+    "surface": "brace"
+   }
+  ],
+  "emotional": [
+   {
+    "id": "emotion",
+    "surface": "emotion"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "emphasize": [
+   {
+    "id": "emphasis",
+    "surface": "emphasi"
+   },
+   {
+    "id": "ize",
+    "surface": "ze"
+   }
+  ],
+  "employee": [
+   {
+    "id": "employ",
+    "surface": "employ"
+   },
+   {
+    "id": "ee",
+    "surface": "ee"
+   }
+  ],
+  "employer": [
+   {
+    "id": "employ",
+    "surface": "employ"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "employment": [
+   {
+    "id": "employ",
+    "surface": "employ"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "enable": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "enclose": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "close",
+    "surface": "close"
+   }
+  ],
+  "enforce": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "force",
+    "surface": "force"
+   }
+  ],
+  "engage": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "gage",
+    "surface": "gage"
+   }
+  ],
+  "engineering": [
+   {
+    "id": "engineer",
+    "surface": "engineer"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "englishman": [
+   {
+    "id": "english",
+    "surface": "english"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "enroll": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "roll",
+    "surface": "roll"
+   }
+  ],
+  "ensure": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "sur",
+    "surface": "sure"
+   }
+  ],
+  "entitle": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "title",
+    "surface": "title"
+   }
+  ],
+  "equivalent": [
+   {
+    "id": "equi",
+    "surface": "equi"
+   },
+   {
+    "id": "valent",
+    "surface": "valent"
+   }
+  ],
+  "establishment": [
+   {
+    "id": "establish",
+    "surface": "establish"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "exceed": [
+   {
+    "id": "ex",
+    "surface": "ex"
+   },
+   {
+    "id": "ceed",
+    "surface": "ceed"
+   }
+  ],
+  "exceedingly": [
+   {
+    "id": "exceeding",
+    "surface": "exceeding"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "exception": [
+   {
+    "id": "except",
+    "surface": "except"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "excessive": [
+   {
+    "id": "excess",
+    "surface": "excess"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "excitement": [
+   {
+    "id": "excite",
+    "surface": "excite"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "exclude": [
+   {
+    "id": "ex",
+    "surface": "ex"
+   },
+   {
+    "id": "clude",
+    "surface": "clude"
+   }
+  ],
+  "exclusively": [
+   {
+    "id": "exclusive",
+    "surface": "exclusive"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "execute": [
+   {
+    "id": "ex",
+    "surface": "exe"
+   },
+   {
+    "id": "cut",
+    "surface": "cute"
+   }
+  ],
+  "exert": [
+   {
+    "id": "ex",
+    "surface": "ex"
+   },
+   {
+    "id": "ser",
+    "surface": "ert"
+   }
+  ],
+  "exhaustion": [
+   {
+    "id": "exhaust",
+    "surface": "exhaust"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "expansion": [
+   {
+    "id": "expand",
+    "surface": "expan"
+   },
+   {
+    "id": "sion",
+    "surface": "sion"
+   }
+  ],
+  "experimental": [
+   {
+    "id": "experiment",
+    "surface": "experiment"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "exposure": [
+   {
+    "id": "expo",
+    "surface": "expo"
+   },
+   {
+    "id": "sur",
+    "surface": "sure"
+   }
+  ],
+  "faithful": [
+   {
+    "id": "faith",
+    "surface": "faith"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "farewell": [
+   {
+    "id": "fare",
+    "surface": "fare"
+   },
+   {
+    "id": "well",
+    "surface": "well"
+   }
+  ],
+  "farther": [
+   {
+    "id": "fart",
+    "surface": "fart"
+   },
+   {
+    "id": "her",
+    "surface": "her"
+   }
+  ],
+  "fashionable": [
+   {
+    "id": "fashion",
+    "surface": "fashion"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "fatherinlaw": [
+   {
+    "id": "father",
+    "surface": "father"
+   },
+   {
+    "id": "inlaw",
+    "surface": "inlaw"
+   }
+  ],
+  "favorable": [
+   {
+    "id": "favor",
+    "surface": "favor"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "favorite": [
+   {
+    "id": "favor",
+    "surface": "favor"
+   },
+   {
+    "id": "it",
+    "surface": "ite"
+   }
+  ],
+  "favourable": [
+   {
+    "id": "favour",
+    "surface": "favour"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "fearful": [
+   {
+    "id": "fear",
+    "surface": "fear"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "feedback": [
+   {
+    "id": "feed",
+    "surface": "feed"
+   },
+   {
+    "id": "back",
+    "surface": "back"
+   }
+  ],
+  "finally": [
+   {
+    "id": "final",
+    "surface": "final"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "financial": [
+   {
+    "id": "finance",
+    "surface": "financ"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "finding": [
+   {
+    "id": "find",
+    "surface": "find"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "fireman": [
+   {
+    "id": "fire",
+    "surface": "fire"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "footstep": [
+   {
+    "id": "foot",
+    "surface": "foot"
+   },
+   {
+    "id": "step",
+    "surface": "step"
+   }
+  ],
+  "foremost": [
+   {
+    "id": "for",
+    "surface": "fore"
+   },
+   {
+    "id": "most",
+    "surface": "most"
+   }
+  ],
+  "fortunately": [
+   {
+    "id": "fortunate",
+    "surface": "fortunate"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "foundation": [
+   {
+    "id": "found",
+    "surface": "found"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "freely": [
+   {
+    "id": "free",
+    "surface": "free"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "frequently": [
+   {
+    "id": "frequent",
+    "surface": "frequent"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "fruitful": [
+   {
+    "id": "fruit",
+    "surface": "fruit"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "further": [
+   {
+    "id": "forth",
+    "surface": "furth"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "furthermore": [
+   {
+    "id": "further",
+    "surface": "further"
+   },
+   {
+    "id": "more",
+    "surface": "more"
+   }
+  ],
+  "gardener": [
+   {
+    "id": "garden",
+    "surface": "garden"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "gaseous": [
+   {
+    "id": "gas",
+    "surface": "gas"
+   },
+   {
+    "id": "eous",
+    "surface": "eous"
+   }
+  ],
+  "generally": [
+   {
+    "id": "general",
+    "surface": "general"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "generator": [
+   {
+    "id": "gener",
+    "surface": "generat"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "genetic": [
+   {
+    "id": "gen",
+    "surface": "gene"
+   },
+   {
+    "id": "tic",
+    "surface": "tic"
+   }
+  ],
+  "gently": [
+   {
+    "id": "gentle",
+    "surface": "gentl"
+   },
+   {
+    "id": "ly",
+    "surface": "y"
+   }
+  ],
+  "geology": [
+   {
+    "id": "geo",
+    "surface": "geo"
+   },
+   {
+    "id": "logy",
+    "surface": "logy"
+   }
+  ],
+  "global": [
+   {
+    "id": "globe",
+    "surface": "glob"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "glorious": [
+   {
+    "id": "glory",
+    "surface": "glori"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "governor": [
+   {
+    "id": "govern",
+    "surface": "govern"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "graceful": [
+   {
+    "id": "grace",
+    "surface": "grace"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "grammatical": [
+   {
+    "id": "grammatic",
+    "surface": "grammatic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "greatly": [
+   {
+    "id": "great",
+    "surface": "great"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "greenhouse": [
+   {
+    "id": "green",
+    "surface": "green"
+   },
+   {
+    "id": "house",
+    "surface": "house"
+   }
+  ],
+  "gunpowder": [
+   {
+    "id": "gun",
+    "surface": "gun"
+   },
+   {
+    "id": "powder",
+    "surface": "powder"
+   }
+  ],
+  "harden": [
+   {
+    "id": "hard",
+    "surface": "hard"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "hardware": [
+   {
+    "id": "hard",
+    "surface": "hard"
+   },
+   {
+    "id": "war",
+    "surface": "ware"
+   }
+  ],
+  "hateful": [
+   {
+    "id": "hate",
+    "surface": "hate"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "hatred": [
+   {
+    "id": "hate",
+    "surface": "hat"
+   },
+   {
+    "id": "red",
+    "surface": "red"
+   }
+  ],
+  "heading": [
+   {
+    "id": "head",
+    "surface": "head"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "headquarters": [
+   {
+    "id": "head",
+    "surface": "head"
+   },
+   {
+    "id": "quarters",
+    "surface": "quarters"
+   }
+  ],
+  "heating": [
+   {
+    "id": "heat",
+    "surface": "heat"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "helpless": [
+   {
+    "id": "help",
+    "surface": "help"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "heroic": [
+   {
+    "id": "hero",
+    "surface": "hero"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "highlight": [
+   {
+    "id": "high",
+    "surface": "high"
+   },
+   {
+    "id": "light",
+    "surface": "light"
+   }
+  ],
+  "highly": [
+   {
+    "id": "high",
+    "surface": "high"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "historical": [
+   {
+    "id": "history",
+    "surface": "histor"
+   },
+   {
+    "id": "ical",
+    "surface": "ical"
+   }
+  ],
+  "honeymoon": [
+   {
+    "id": "honey",
+    "surface": "honey"
+   },
+   {
+    "id": "moon",
+    "surface": "moon"
+   }
+  ],
+  "honourable": [
+   {
+    "id": "honour",
+    "surface": "honour"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "horizontal": [
+   {
+    "id": "horizon",
+    "surface": "horizon"
+   },
+   {
+    "id": "tal",
+    "surface": "tal"
+   }
+  ],
+  "horsepower": [
+   {
+    "id": "horse",
+    "surface": "horse"
+   },
+   {
+    "id": "power",
+    "surface": "power"
+   }
+  ],
+  "hostile": [
+   {
+    "id": "host",
+    "surface": "host"
+   },
+   {
+    "id": "il",
+    "surface": "ile"
+   }
+  ],
+  "household": [
+   {
+    "id": "house",
+    "surface": "house"
+   },
+   {
+    "id": "hold",
+    "surface": "hold"
+   }
+  ],
+  "humble": [
+   {
+    "id": "hum",
+    "surface": "humb"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "ideal": [
+   {
+    "id": "idea",
+    "surface": "idea"
+   },
+   {
+    "id": "al",
+    "surface": "l"
+   }
+  ],
+  "identical": [
+   {
+    "id": "identic",
+    "surface": "identic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "ignorant": [
+   {
+    "id": "ignore",
+    "surface": "ignor"
+   },
+   {
+    "id": "ant",
+    "surface": "ant"
+   }
+  ],
+  "illusion": [
+   {
+    "id": "il",
+    "surface": "il"
+   },
+   {
+    "id": "lus",
+    "surface": "lus"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "illustration": [
+   {
+    "id": "illustrate",
+    "surface": "illustrat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "imaginary": [
+   {
+    "id": "imagine",
+    "surface": "imagin"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "imagination": [
+   {
+    "id": "imagine",
+    "surface": "imagin"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "immigrate": [
+   {
+    "id": "im",
+    "surface": "im"
+   },
+   {
+    "id": "migr",
+    "surface": "migrate"
+   }
+  ],
+  "impatient": [
+   {
+    "id": "im",
+    "surface": "im"
+   },
+   {
+    "id": "patient",
+    "surface": "patient"
+   }
+  ],
+  "implication": [
+   {
+    "id": "implicate",
+    "surface": "implicat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "impressive": [
+   {
+    "id": "impress",
+    "surface": "impress"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "imprison": [
+   {
+    "id": "im",
+    "surface": "im"
+   },
+   {
+    "id": "prison",
+    "surface": "prison"
+   }
+  ],
+  "improvement": [
+   {
+    "id": "improve",
+    "surface": "improve"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "incline": [
+   {
+    "id": "inc",
+    "surface": "inc"
+   },
+   {
+    "id": "line",
+    "surface": "line"
+   }
+  ],
+  "increasingly": [
+   {
+    "id": "increasing",
+    "surface": "increasing"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "indefinite": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "definite",
+    "surface": "definite"
+   }
+  ],
+  "indication": [
+   {
+    "id": "indicate",
+    "surface": "indicat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "indifferent": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "different",
+    "surface": "different"
+   }
+  ],
+  "indirect": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "direct",
+    "surface": "direct"
+   }
+  ],
+  "indispensable": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "dispensable",
+    "surface": "dispensable"
+   }
+  ],
+  "indoor": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "door",
+    "surface": "door"
+   }
+  ],
+  "indoors": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "doors",
+    "surface": "doors"
+   }
+  ],
+  "industrial": [
+   {
+    "id": "industry",
+    "surface": "industri"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "industrialize": [
+   {
+    "id": "industrial",
+    "surface": "industrial"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "inefficient": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "efficient",
+    "surface": "efficient"
+   }
+  ],
+  "inevitable": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "evitable",
+    "surface": "evitable"
+   }
+  ],
+  "inexpensive": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "expensive",
+    "surface": "expensive"
+   }
+  ],
+  "infamous": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "famous",
+    "surface": "famous"
+   }
+  ],
+  "infinite": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "finite",
+    "surface": "finite"
+   }
+  ],
+  "influential": [
+   {
+    "id": "influence",
+    "surface": "influent"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "inhabitant": [
+   {
+    "id": "inhabit",
+    "surface": "inhabit"
+   },
+   {
+    "id": "ant",
+    "surface": "ant"
+   }
+  ],
+  "initiative": [
+   {
+    "id": "initiate",
+    "surface": "initiat"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "injection": [
+   {
+    "id": "inject",
+    "surface": "inject"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "input": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "put",
+    "surface": "put"
+   }
+  ],
+  "insight": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "sight",
+    "surface": "sight"
+   }
+  ],
+  "insignificant": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "significant",
+    "surface": "significant"
+   }
+  ],
+  "installation": [
+   {
+    "id": "install",
+    "surface": "install"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "instantly": [
+   {
+    "id": "instant",
+    "surface": "instant"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "insufficient": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "sufficient",
+    "surface": "sufficient"
+   }
+  ],
+  "intellectual": [
+   {
+    "id": "intellect",
+    "surface": "intellect"
+   },
+   {
+    "id": "ual",
+    "surface": "ual"
+   }
+  ],
+  "intensity": [
+   {
+    "id": "intense",
+    "surface": "intens"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "intensive": [
+   {
+    "id": "intense",
+    "surface": "intens"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "intentional": [
+   {
+    "id": "intention",
+    "surface": "intention"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "interaction": [
+   {
+    "id": "inter",
+    "surface": "inter"
+   },
+   {
+    "id": "action",
+    "surface": "action"
+   }
+  ],
+  "interference": [
+   {
+    "id": "interfere",
+    "surface": "interfere"
+   },
+   {
+    "id": "ence",
+    "surface": "nce"
+   }
+  ],
+  "intermediate": [
+   {
+    "id": "inter",
+    "surface": "inter"
+   },
+   {
+    "id": "medi",
+    "surface": "mediate"
+   }
+  ],
+  "internal": [
+   {
+    "id": "intern",
+    "surface": "intern"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "interpretation": [
+   {
+    "id": "interpret",
+    "surface": "interpret"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "interruption": [
+   {
+    "id": "interrupt",
+    "surface": "interrupt"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "investigate": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "vestigate",
+    "surface": "vestigate"
+   }
+  ],
+  "investigation": [
+   {
+    "id": "investigate",
+    "surface": "investigat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "investment": [
+   {
+    "id": "invest",
+    "surface": "invest"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "invisible": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "visible",
+    "surface": "visible"
+   }
+  ],
+  "inward": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "ward",
+    "surface": "ward"
+   }
+  ],
+  "irregular": [
+   {
+    "id": "ir",
+    "surface": "ir"
+   },
+   {
+    "id": "regular",
+    "surface": "regular"
+   }
+  ],
+  "isolate": [
+   {
+    "id": "iso",
+    "surface": "iso"
+   },
+   {
+    "id": "late",
+    "surface": "late"
+   }
+  ],
+  "jewish": [
+   {
+    "id": "jew",
+    "surface": "jew"
+   },
+   {
+    "id": "ish",
+    "surface": "ish"
+   }
+  ],
+  "joyful": [
+   {
+    "id": "joy",
+    "surface": "joy"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "kilometer": [
+   {
+    "id": "kilo",
+    "surface": "kilo"
+   },
+   {
+    "id": "meter",
+    "surface": "meter"
+   }
+  ],
+  "kneel": [
+   {
+    "id": "knee",
+    "surface": "knee"
+   },
+   {
+    "id": "le",
+    "surface": "l"
+   }
+  ],
+  "landing": [
+   {
+    "id": "land",
+    "surface": "land"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "landlady": [
+   {
+    "id": "land",
+    "surface": "land"
+   },
+   {
+    "id": "lady",
+    "surface": "lady"
+   }
+  ],
+  "landlord": [
+   {
+    "id": "land",
+    "surface": "land"
+   },
+   {
+    "id": "lord",
+    "surface": "lord"
+   }
+  ],
+  "largely": [
+   {
+    "id": "large",
+    "surface": "large"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "layer": [
+   {
+    "id": "lay",
+    "surface": "lay"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "layout": [
+   {
+    "id": "lay",
+    "surface": "lay"
+   },
+   {
+    "id": "out",
+    "surface": "out"
+   }
+  ],
+  "leadership": [
+   {
+    "id": "leader",
+    "surface": "leader"
+   },
+   {
+    "id": "ship",
+    "surface": "ship"
+   }
+  ],
+  "learning": [
+   {
+    "id": "learn",
+    "surface": "learn"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "legend": [
+   {
+    "id": "leg",
+    "surface": "leg"
+   },
+   {
+    "id": "end",
+    "surface": "end"
+   }
+  ],
+  "legislation": [
+   {
+    "id": "legislate",
+    "surface": "legislat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "lessen": [
+   {
+    "id": "less",
+    "surface": "less"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "leverage": [
+   {
+    "id": "lever",
+    "surface": "lever"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "lieutenant": [
+   {
+    "id": "lieu",
+    "surface": "lieu"
+   },
+   {
+    "id": "tenant",
+    "surface": "tenant"
+   }
+  ],
+  "lighten": [
+   {
+    "id": "light",
+    "surface": "light"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "lightly": [
+   {
+    "id": "light",
+    "surface": "light"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "likelihood": [
+   {
+    "id": "likely",
+    "surface": "likeli"
+   },
+   {
+    "id": "hood",
+    "surface": "hood"
+   }
+  ],
+  "likewise": [
+   {
+    "id": "like",
+    "surface": "like"
+   },
+   {
+    "id": "wise",
+    "surface": "wise"
+   }
+  ],
+  "limitation": [
+   {
+    "id": "limit",
+    "surface": "limit"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "liner": [
+   {
+    "id": "line",
+    "surface": "line"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "listener": [
+   {
+    "id": "listen",
+    "surface": "listen"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "liver": [
+   {
+    "id": "live",
+    "surface": "live"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "livestock": [
+   {
+    "id": "live",
+    "surface": "live"
+   },
+   {
+    "id": "stock",
+    "surface": "stock"
+   }
+  ],
+  "livingroom": [
+   {
+    "id": "living",
+    "surface": "living"
+   },
+   {
+    "id": "room",
+    "surface": "room"
+   }
+  ],
+  "location": [
+   {
+    "id": "locate",
+    "surface": "locat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "locomotive": [
+   {
+    "id": "loco",
+    "surface": "loco"
+   },
+   {
+    "id": "motive",
+    "surface": "motive"
+   }
+  ],
+  "logical": [
+   {
+    "id": "logic",
+    "surface": "logic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "lover": [
+   {
+    "id": "love",
+    "surface": "love"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "lower": [
+   {
+    "id": "low",
+    "surface": "low"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "loyalty": [
+   {
+    "id": "loyal",
+    "surface": "loyal"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "magnetic": [
+   {
+    "id": "magnet",
+    "surface": "magnet"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "mainly": [
+   {
+    "id": "main",
+    "surface": "main"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "maintain": [
+   {
+    "id": "main",
+    "surface": "main"
+   },
+   {
+    "id": "tain",
+    "surface": "tain"
+   }
+  ],
+  "maintenance": [
+   {
+    "id": "maintain",
+    "surface": "mainten"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "management": [
+   {
+    "id": "manage",
+    "surface": "manage"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "manly": [
+   {
+    "id": "man",
+    "surface": "man"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "manufacturer": [
+   {
+    "id": "manufacture",
+    "surface": "manufacture"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "marvelous": [
+   {
+    "id": "marvel",
+    "surface": "marvel"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "marxist": [
+   {
+    "id": "marx",
+    "surface": "marx"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   }
+  ],
+  "massive": [
+   {
+    "id": "mass",
+    "surface": "mass"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "masterpiece": [
+   {
+    "id": "master",
+    "surface": "master"
+   },
+   {
+    "id": "piece",
+    "surface": "piece"
+   }
+  ],
+  "materialism": [
+   {
+    "id": "material",
+    "surface": "material"
+   },
+   {
+    "id": "ism",
+    "surface": "ism"
+   }
+  ],
+  "meantime": [
+   {
+    "id": "mean",
+    "surface": "mean"
+   },
+   {
+    "id": "time",
+    "surface": "time"
+   }
+  ],
+  "measurable": [
+   {
+    "id": "measure",
+    "surface": "measur"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "measurement": [
+   {
+    "id": "measure",
+    "surface": "measure"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "mechanical": [
+   {
+    "id": "mechanic",
+    "surface": "mechanic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "mechanically": [
+   {
+    "id": "mechanical",
+    "surface": "mechanical"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "microphone": [
+   {
+    "id": "micro",
+    "surface": "micro"
+   },
+   {
+    "id": "phone",
+    "surface": "phone"
+   }
+  ],
+  "millimetre": [
+   {
+    "id": "milli",
+    "surface": "milli"
+   },
+   {
+    "id": "metr",
+    "surface": "metre"
+   }
+  ],
+  "miner": [
+   {
+    "id": "min",
+    "surface": "mine"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "miserable": [
+   {
+    "id": "miser",
+    "surface": "miser"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "mislead": [
+   {
+    "id": "mis",
+    "surface": "mis"
+   },
+   {
+    "id": "lead",
+    "surface": "lead"
+   }
+  ],
+  "missing": [
+   {
+    "id": "miss",
+    "surface": "miss"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "mister": [
+   {
+    "id": "mist",
+    "surface": "mist"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "moan": [
+   {
+    "id": "moa",
+    "surface": "moa"
+   },
+   {
+    "id": "an",
+    "surface": "n"
+   }
+  ],
+  "moderate": [
+   {
+    "id": "mode",
+    "surface": "mode"
+   },
+   {
+    "id": "rate",
+    "surface": "rate"
+   }
+  ],
+  "moisture": [
+   {
+    "id": "moist",
+    "surface": "moist"
+   },
+   {
+    "id": "ure",
+    "surface": "ure"
+   }
+  ],
+  "monthly": [
+   {
+    "id": "month",
+    "surface": "month"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "moreover": [
+   {
+    "id": "more",
+    "surface": "more"
+   },
+   {
+    "id": "over",
+    "surface": "over"
+   }
+  ],
+  "mostly": [
+   {
+    "id": "most",
+    "surface": "most"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "motivate": [
+   {
+    "id": "motive",
+    "surface": "motiv"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "multiple": [
+   {
+    "id": "multi",
+    "surface": "multi"
+   },
+   {
+    "id": "pile",
+    "surface": "ple"
+   }
+  ],
+  "murderer": [
+   {
+    "id": "murder",
+    "surface": "murder"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "mysterious": [
+   {
+    "id": "mystery",
+    "surface": "mysteri"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "namely": [
+   {
+    "id": "name",
+    "surface": "name"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "naturally": [
+   {
+    "id": "natural",
+    "surface": "natural"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "naval": [
+   {
+    "id": "navy",
+    "surface": "nav"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "navigation": [
+   {
+    "id": "navigate",
+    "surface": "navigat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "necessarily": [
+   {
+    "id": "necessary",
+    "surface": "necessari"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "needless": [
+   {
+    "id": "need",
+    "surface": "need"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "neighborhood": [
+   {
+    "id": "neighbor",
+    "surface": "neighborh"
+   },
+   {
+    "id": "red",
+    "surface": "ood"
+   }
+  ],
+  "neutral": [
+   {
+    "id": "neuter",
+    "surface": "neutr"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "nevertheless": [
+   {
+    "id": "never",
+    "surface": "never"
+   },
+   {
+    "id": "th",
+    "surface": "the"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "newly": [
+   {
+    "id": "new",
+    "surface": "new"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "nitrogen": [
+   {
+    "id": "nitro",
+    "surface": "nitro"
+   },
+   {
+    "id": "gen",
+    "surface": "gen"
+   }
+  ],
+  "nonsense": [
+   {
+    "id": "non",
+    "surface": "non"
+   },
+   {
+    "id": "sense",
+    "surface": "sense"
+   }
+  ],
+  "normally": [
+   {
+    "id": "normal",
+    "surface": "normal"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "noticeable": [
+   {
+    "id": "notice",
+    "surface": "notice"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "numerous": [
+   {
+    "id": "numero",
+    "surface": "numero"
+   },
+   {
+    "id": "ous",
+    "surface": "us"
+   }
+  ],
+  "objection": [
+   {
+    "id": "object",
+    "surface": "object"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "objective": [
+   {
+    "id": "object",
+    "surface": "object"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "oblige": [
+   {
+    "id": "ob",
+    "surface": "ob"
+   },
+   {
+    "id": "lig",
+    "surface": "lige"
+   }
+  ],
+  "observation": [
+   {
+    "id": "observe",
+    "surface": "observ"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "observer": [
+   {
+    "id": "observe",
+    "surface": "observe"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "obviously": [
+   {
+    "id": "obvious",
+    "surface": "obvious"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "occasional": [
+   {
+    "id": "occasion",
+    "surface": "occasion"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "occasionally": [
+   {
+    "id": "occasional",
+    "surface": "occasional"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "occurrence": [
+   {
+    "id": "occur",
+    "surface": "occurr"
+   },
+   {
+    "id": "ence",
+    "surface": "ence"
+   }
+  ],
+  "offend": [
+   {
+    "id": "off",
+    "surface": "off"
+   },
+   {
+    "id": "end",
+    "surface": "end"
+   }
+  ],
+  "omit": [
+   {
+    "id": "ob",
+    "surface": "o"
+   },
+   {
+    "id": "mitt",
+    "surface": "mit"
+   }
+  ],
+  "operational": [
+   {
+    "id": "operation",
+    "surface": "operation"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "opportunity": [
+   {
+    "id": "opportune",
+    "surface": "opportun"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "optics": [
+   {
+    "id": "optic",
+    "surface": "optic"
+   },
+   {
+    "id": "ics",
+    "surface": "s"
+   }
+  ],
+  "orderly": [
+   {
+    "id": "order",
+    "surface": "order"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "organic": [
+   {
+    "id": "organ",
+    "surface": "organ"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "organism": [
+   {
+    "id": "organ",
+    "surface": "organ"
+   },
+   {
+    "id": "ism",
+    "surface": "ism"
+   }
+  ],
+  "organize": [
+   {
+    "id": "organ",
+    "surface": "organ"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "oriental": [
+   {
+    "id": "orient",
+    "surface": "orient"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "original": [
+   {
+    "id": "origin",
+    "surface": "origin"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "originate": [
+   {
+    "id": "origin",
+    "surface": "origin"
+   },
+   {
+    "id": "at",
+    "surface": "ate"
+   }
+  ],
+  "outdoor": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "door",
+    "surface": "door"
+   }
+  ],
+  "outlet": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "let",
+    "surface": "let"
+   }
+  ],
+  "outlook": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "look",
+    "surface": "look"
+   }
+  ],
+  "outset": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "set",
+    "surface": "set"
+   }
+  ],
+  "outskirt": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "skirt",
+    "surface": "skirt"
+   }
+  ],
+  "outwards": [
+   {
+    "id": "out",
+    "surface": "out"
+   },
+   {
+    "id": "wards",
+    "surface": "wards"
+   }
+  ],
+  "overall": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "all",
+    "surface": "all"
+   }
+  ],
+  "overdue": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "due",
+    "surface": "due"
+   }
+  ],
+  "overnight": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "night",
+    "surface": "night"
+   }
+  ],
+  "overtake": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "take",
+    "surface": "take"
+   }
+  ],
+  "overtime": [
+   {
+    "id": "over",
+    "surface": "over"
+   },
+   {
+    "id": "time",
+    "surface": "time"
+   }
+  ],
+  "partial": [
+   {
+    "id": "part",
+    "surface": "part"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "partially": [
+   {
+    "id": "partial",
+    "surface": "partial"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "particularly": [
+   {
+    "id": "particular",
+    "surface": "particular"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "passion": [
+   {
+    "id": "pass",
+    "surface": "pass"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "pastime": [
+   {
+    "id": "pas",
+    "surface": "pas"
+   },
+   {
+    "id": "time",
+    "surface": "time"
+   }
+  ],
+  "pavement": [
+   {
+    "id": "pave",
+    "surface": "pave"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "payment": [
+   {
+    "id": "pay",
+    "surface": "pay"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "peninsula": [
+   {
+    "id": "pen",
+    "surface": "pen"
+   },
+   {
+    "id": "insula",
+    "surface": "insula"
+   }
+  ],
+  "perceive": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "ceive",
+    "surface": "ceive"
+   }
+  ],
+  "perfectly": [
+   {
+    "id": "perfect",
+    "surface": "perfect"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "permanently": [
+   {
+    "id": "permanent",
+    "surface": "permanent"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "persist": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "sist",
+    "surface": "sist"
+   }
+  ],
+  "personality": [
+   {
+    "id": "personal",
+    "surface": "personal"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "perspective": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "spect",
+    "surface": "spect"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "pessimistic": [
+   {
+    "id": "pessimist",
+    "surface": "pessimist"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "philosopher": [
+   {
+    "id": "philo",
+    "surface": "philo"
+   },
+   {
+    "id": "soph",
+    "surface": "soph"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "philosophy": [
+   {
+    "id": "philo",
+    "surface": "philo"
+   },
+   {
+    "id": "sophy",
+    "surface": "sophy"
+   }
+  ],
+  "photographic": [
+   {
+    "id": "photo",
+    "surface": "photo"
+   },
+   {
+    "id": "graphic",
+    "surface": "graphic"
+   }
+  ],
+  "pipeline": [
+   {
+    "id": "pipe",
+    "surface": "pipe"
+   },
+   {
+    "id": "line",
+    "surface": "line"
+   }
+  ],
+  "plantation": [
+   {
+    "id": "plant",
+    "surface": "plant"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "plentiful": [
+   {
+    "id": "plenty",
+    "surface": "plenti"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "poetry": [
+   {
+    "id": "poet",
+    "surface": "poet"
+   },
+   {
+    "id": "ry",
+    "surface": "ry"
+   }
+  ],
+  "portion": [
+   {
+    "id": "por",
+    "surface": "por"
+   },
+   {
+    "id": "tion",
+    "surface": "tion"
+   }
+  ],
+  "portrait": [
+   {
+    "id": "por",
+    "surface": "por"
+   },
+   {
+    "id": "trait",
+    "surface": "trait"
+   }
+  ],
+  "portuguese": [
+   {
+    "id": "portugal",
+    "surface": "portugu"
+   },
+   {
+    "id": "es",
+    "surface": "ese"
+   }
+  ],
+  "positive": [
+   {
+    "id": "posit",
+    "surface": "posit"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "possibly": [
+   {
+    "id": "possible",
+    "surface": "possibl"
+   },
+   {
+    "id": "ly",
+    "surface": "y"
+   }
+  ],
+  "practically": [
+   {
+    "id": "practical",
+    "surface": "practical"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "precaution": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "caution",
+    "surface": "caution"
+   }
+  ],
+  "preceding": [
+   {
+    "id": "precede",
+    "surface": "preced"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "precision": [
+   {
+    "id": "precise",
+    "surface": "precis"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "preface": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "fac",
+    "surface": "face"
+   }
+  ],
+  "preferable": [
+   {
+    "id": "prefer",
+    "surface": "prefer"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "preposition": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "position",
+    "surface": "position"
+   }
+  ],
+  "prescribe": [
+   {
+    "id": "pr",
+    "surface": "pre"
+   },
+   {
+    "id": "scrib",
+    "surface": "scribe"
+   }
+  ],
+  "presently": [
+   {
+    "id": "present",
+    "surface": "present"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "presumably": [
+   {
+    "id": "presume",
+    "surface": "presum"
+   },
+   {
+    "id": "ably",
+    "surface": "ably"
+   }
+  ],
+  "previously": [
+   {
+    "id": "previous",
+    "surface": "previous"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "primarily": [
+   {
+    "id": "primary",
+    "surface": "primari"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "princess": [
+   {
+    "id": "prince",
+    "surface": "prince"
+   },
+   {
+    "id": "ess",
+    "surface": "ss"
+   }
+  ],
+  "priority": [
+   {
+    "id": "prior",
+    "surface": "prior"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "proceed": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "ceed",
+    "surface": "ceed"
+   }
+  ],
+  "procession": [
+   {
+    "id": "process",
+    "surface": "process"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "proclaim": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "claim",
+    "surface": "claim"
+   }
+  ],
+  "productive": [
+   {
+    "id": "product",
+    "surface": "product"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "professional": [
+   {
+    "id": "profession",
+    "surface": "profession"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "profitable": [
+   {
+    "id": "profit",
+    "surface": "profit"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "program": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "gram",
+    "surface": "gram"
+   }
+  ],
+  "progressive": [
+   {
+    "id": "progress",
+    "surface": "progress"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "promising": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "mis",
+    "surface": "mis"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "pronoun": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "noun",
+    "surface": "noun"
+   }
+  ],
+  "property": [
+   {
+    "id": "proper",
+    "surface": "proper"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "proportion": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "portion",
+    "surface": "portion"
+   }
+  ],
+  "proportional": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "portion",
+    "surface": "portion"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "proposal": [
+   {
+    "id": "propose",
+    "surface": "propos"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "propose": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "pos",
+    "surface": "pose"
+   }
+  ],
+  "prospect": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "spect",
+    "surface": "spect"
+   }
+  ],
+  "prosperity": [
+   {
+    "id": "prosper",
+    "surface": "prosper"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "prosperous": [
+   {
+    "id": "prosper",
+    "surface": "prosper"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "protective": [
+   {
+    "id": "protect",
+    "surface": "protect"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "protein": [
+   {
+    "id": "proto",
+    "surface": "prot"
+   },
+   {
+    "id": "ein",
+    "surface": "ein"
+   }
+  ],
+  "provided": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "vid",
+    "surface": "vid"
+   },
+   {
+    "id": "ed",
+    "surface": "ed"
+   }
+  ],
+  "provision": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "vision",
+    "surface": "vision"
+   }
+  ],
+  "psychological": [
+   {
+    "id": "psychology",
+    "surface": "psycholog"
+   },
+   {
+    "id": "ical",
+    "surface": "ical"
+   }
+  ],
+  "publication": [
+   {
+    "id": "public",
+    "surface": "public"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "purely": [
+   {
+    "id": "pur",
+    "surface": "pure"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "purity": [
+   {
+    "id": "pur",
+    "surface": "pur"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "pursuit": [
+   {
+    "id": "pur",
+    "surface": "pur"
+   },
+   {
+    "id": "suit",
+    "surface": "suit"
+   }
+  ],
+  "quarterly": [
+   {
+    "id": "quarter",
+    "surface": "quarter"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "quicken": [
+   {
+    "id": "quick",
+    "surface": "quick"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "quotation": [
+   {
+    "id": "quote",
+    "surface": "quot"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "radioactivity": [
+   {
+    "id": "radioactive",
+    "surface": "radioactiv"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "railroad": [
+   {
+    "id": "rail",
+    "surface": "rail"
+   },
+   {
+    "id": "road",
+    "surface": "road"
+   }
+  ],
+  "rapidly": [
+   {
+    "id": "rapid",
+    "surface": "rapid"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "rarely": [
+   {
+    "id": "rare",
+    "surface": "rare"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "reaction": [
+   {
+    "id": "react",
+    "surface": "react"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "reader": [
+   {
+    "id": "read",
+    "surface": "read"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "readily": [
+   {
+    "id": "ready",
+    "surface": "readi"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "realize": [
+   {
+    "id": "real",
+    "surface": "real"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "rebellion": [
+   {
+    "id": "rebel",
+    "surface": "rebell"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "recall": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "call",
+    "surface": "call"
+   }
+  ],
+  "recently": [
+   {
+    "id": "recent",
+    "surface": "recent"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "recognition": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "cognition",
+    "surface": "cognition"
+   }
+  ],
+  "recognize": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "cognize",
+    "surface": "cognize"
+   }
+  ],
+  "recollect": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "collect",
+    "surface": "collect"
+   }
+  ],
+  "recommendation": [
+   {
+    "id": "recommend",
+    "surface": "recommend"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "reduction": [
+   {
+    "id": "reduce",
+    "surface": "reduc"
+   },
+   {
+    "id": "tion",
+    "surface": "tion"
+   }
+  ],
+  "refine": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "fine",
+    "surface": "fine"
+   }
+  ],
+  "reflexion": [
+   {
+    "id": "reflex",
+    "surface": "reflex"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "refreshment": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "fresh",
+    "surface": "fresh"
+   },
+   {
+    "id": "ment",
+    "surface": "ment"
+   }
+  ],
+  "refute": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "ful",
+    "surface": "fute"
+   }
+  ],
+  "regarding": [
+   {
+    "id": "regard",
+    "surface": "regard"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "regularly": [
+   {
+    "id": "regular",
+    "surface": "regular"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "rehearsal": [
+   {
+    "id": "rehearse",
+    "surface": "rehears"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "reinforce": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "inforce",
+    "surface": "inforce"
+   }
+  ],
+  "relatively": [
+   {
+    "id": "relative",
+    "surface": "relative"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "relativity": [
+   {
+    "id": "relative",
+    "surface": "relativ"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "release": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "lease",
+    "surface": "lease"
+   }
+  ],
+  "reliability": [
+   {
+    "id": "reliable",
+    "surface": "reliabil"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "reliance": [
+   {
+    "id": "rely",
+    "surface": "reli"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "reluctant": [
+   {
+    "id": "reluct",
+    "surface": "reluct"
+   },
+   {
+    "id": "ant",
+    "surface": "ant"
+   }
+  ],
+  "remarkable": [
+   {
+    "id": "remark",
+    "surface": "remark"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "removal": [
+   {
+    "id": "remove",
+    "surface": "remov"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "render": [
+   {
+    "id": "rend",
+    "surface": "rend"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "renew": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "new",
+    "surface": "new"
+   }
+  ],
+  "repeatedly": [
+   {
+    "id": "repeated",
+    "surface": "repeated"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "repetition": [
+   {
+    "id": "repeat",
+    "surface": "repet"
+   },
+   {
+    "id": "ition",
+    "surface": "ition"
+   }
+  ],
+  "reproach": [
+   {
+    "id": "rep",
+    "surface": "rep"
+   },
+   {
+    "id": "roach",
+    "surface": "roach"
+   }
+  ],
+  "reproduce": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "produce",
+    "surface": "produce"
+   }
+  ],
+  "republican": [
+   {
+    "id": "republic",
+    "surface": "republic"
+   },
+   {
+    "id": "an",
+    "surface": "an"
+   }
+  ],
+  "researcher": [
+   {
+    "id": "research",
+    "surface": "research"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "residence": [
+   {
+    "id": "reside",
+    "surface": "reside"
+   },
+   {
+    "id": "ence",
+    "surface": "nce"
+   }
+  ],
+  "resident": [
+   {
+    "id": "reside",
+    "surface": "reside"
+   },
+   {
+    "id": "ent",
+    "surface": "nt"
+   }
+  ],
+  "resignation": [
+   {
+    "id": "resign",
+    "surface": "resign"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "resistance": [
+   {
+    "id": "resist",
+    "surface": "resist"
+   },
+   {
+    "id": "ance",
+    "surface": "ance"
+   }
+  ],
+  "resistant": [
+   {
+    "id": "resist",
+    "surface": "resist"
+   },
+   {
+    "id": "ant",
+    "surface": "ant"
+   }
+  ],
+  "resolution": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "solution",
+    "surface": "solution"
+   }
+  ],
+  "resolve": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "solve",
+    "surface": "solve"
+   }
+  ],
+  "resort": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "sort",
+    "surface": "sort"
+   }
+  ],
+  "resource": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "source",
+    "surface": "source"
+   }
+  ],
+  "respectful": [
+   {
+    "id": "respect",
+    "surface": "respect"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "respective": [
+   {
+    "id": "respect",
+    "surface": "respect"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "respectively": [
+   {
+    "id": "respective",
+    "surface": "respective"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "responsible": [
+   {
+    "id": "response",
+    "surface": "respons"
+   },
+   {
+    "id": "ible",
+    "surface": "ible"
+   }
+  ],
+  "restless": [
+   {
+    "id": "rest",
+    "surface": "rest"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "restore": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "store",
+    "surface": "store"
+   }
+  ],
+  "restrain": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "strain",
+    "surface": "strain"
+   }
+  ],
+  "resume": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "sumere",
+    "surface": "sume"
+   }
+  ],
+  "retreat": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "treat",
+    "surface": "treat"
+   }
+  ],
+  "revenue": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "venire",
+    "surface": "venue"
+   }
+  ],
+  "reverse": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "vers",
+    "surface": "verse"
+   }
+  ],
+  "revolt": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "volt",
+    "surface": "volt"
+   }
+  ],
+  "revolutionary": [
+   {
+    "id": "revolution",
+    "surface": "revolution"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "rider": [
+   {
+    "id": "ride",
+    "surface": "ride"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "robber": [
+   {
+    "id": "rob",
+    "surface": "robb"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "robbery": [
+   {
+    "id": "rob",
+    "surface": "robb"
+   },
+   {
+    "id": "ery",
+    "surface": "ery"
+   }
+  ],
+  "roman": [
+   {
+    "id": "rome",
+    "surface": "rom"
+   },
+   {
+    "id": "an",
+    "surface": "an"
+   }
+  ],
+  "romantic": [
+   {
+    "id": "romant",
+    "surface": "romant"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "rotation": [
+   {
+    "id": "rot",
+    "surface": "rotat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "roughly": [
+   {
+    "id": "rough",
+    "surface": "rough"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "sadly": [
+   {
+    "id": "sad",
+    "surface": "sad"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "safely": [
+   {
+    "id": "safe",
+    "surface": "safe"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "saving": [
+   {
+    "id": "save",
+    "surface": "sav"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "scandal": [
+   {
+    "id": "scan",
+    "surface": "scan"
+   },
+   {
+    "id": "dal",
+    "surface": "dal"
+   }
+  ],
+  "scarcely": [
+   {
+    "id": "scarce",
+    "surface": "scarce"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "seaport": [
+   {
+    "id": "sea",
+    "surface": "sea"
+   },
+   {
+    "id": "port",
+    "surface": "port"
+   }
+  ],
+  "secondary": [
+   {
+    "id": "second",
+    "surface": "second"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "secondly": [
+   {
+    "id": "second",
+    "surface": "second"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "selection": [
+   {
+    "id": "select",
+    "surface": "select"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "seller": [
+   {
+    "id": "sell",
+    "surface": "sell"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "semiconductor": [
+   {
+    "id": "semi",
+    "surface": "semi"
+   },
+   {
+    "id": "conductor",
+    "surface": "conductor"
+   }
+  ],
+  "seriously": [
+   {
+    "id": "serious",
+    "surface": "serious"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "setting": [
+   {
+    "id": "set",
+    "surface": "set"
+   },
+   {
+    "id": "ting",
+    "surface": "ting"
+   }
+  ],
+  "severely": [
+   {
+    "id": "sever",
+    "surface": "severe"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "sexual": [
+   {
+    "id": "sex",
+    "surface": "sex"
+   },
+   {
+    "id": "ual",
+    "surface": "ual"
+   }
+  ],
+  "shampoo": [
+   {
+    "id": "sham",
+    "surface": "sham"
+   },
+   {
+    "id": "poo",
+    "surface": "poo"
+   }
+  ],
+  "sharply": [
+   {
+    "id": "sharp",
+    "surface": "sharp"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "shed": [
+   {
+    "id": "sh",
+    "surface": "sh"
+   },
+   {
+    "id": "ed",
+    "surface": "ed"
+   }
+  ],
+  "shepherd": [
+   {
+    "id": "sheep",
+    "surface": "shep"
+   },
+   {
+    "id": "herd",
+    "surface": "herd"
+   }
+  ],
+  "shilling": [
+   {
+    "id": "skill",
+    "surface": "shill"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "shortage": [
+   {
+    "id": "short",
+    "surface": "short"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "similarly": [
+   {
+    "id": "similar",
+    "surface": "similar"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "simplicity": [
+   {
+    "id": "simple",
+    "surface": "simpl"
+   },
+   {
+    "id": "icity",
+    "surface": "icity"
+   }
+  ],
+  "slightly": [
+   {
+    "id": "slight",
+    "surface": "slight"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "slipper": [
+   {
+    "id": "slip",
+    "surface": "slipp"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "slippery": [
+   {
+    "id": "slip",
+    "surface": "slipp"
+   },
+   {
+    "id": "er",
+    "surface": "ery"
+   }
+  ],
+  "slowly": [
+   {
+    "id": "slow",
+    "surface": "slow"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "smoothly": [
+   {
+    "id": "smooth",
+    "surface": "smooth"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "snowstorm": [
+   {
+    "id": "snow",
+    "surface": "snow"
+   },
+   {
+    "id": "storm",
+    "surface": "storm"
+   }
+  ],
+  "softly": [
+   {
+    "id": "soft",
+    "surface": "soft"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "sole": [
+   {
+    "id": "sow",
+    "surface": "so"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "solely": [
+   {
+    "id": "sole",
+    "surface": "sole"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "somehow": [
+   {
+    "id": "some",
+    "surface": "some"
+   },
+   {
+    "id": "how",
+    "surface": "how"
+   }
+  ],
+  "sometime": [
+   {
+    "id": "some",
+    "surface": "some"
+   },
+   {
+    "id": "time",
+    "surface": "time"
+   }
+  ],
+  "somewhat": [
+   {
+    "id": "some",
+    "surface": "some"
+   },
+   {
+    "id": "what",
+    "surface": "what"
+   }
+  ],
+  "spacecraft": [
+   {
+    "id": "space",
+    "surface": "space"
+   },
+   {
+    "id": "craft",
+    "surface": "craft"
+   }
+  ],
+  "sparkle": [
+   {
+    "id": "spark",
+    "surface": "spark"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "speciality": [
+   {
+    "id": "special",
+    "surface": "special"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "specialize": [
+   {
+    "id": "special",
+    "surface": "special"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "specially": [
+   {
+    "id": "special",
+    "surface": "special"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "sportsman": [
+   {
+    "id": "sports",
+    "surface": "sports"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "springtime": [
+   {
+    "id": "spring",
+    "surface": "spring"
+   },
+   {
+    "id": "time",
+    "surface": "time"
+   }
+  ],
+  "sprinkle": [
+   {
+    "id": "sprink",
+    "surface": "sprink"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "staircase": [
+   {
+    "id": "stair",
+    "surface": "stair"
+   },
+   {
+    "id": "case",
+    "surface": "case"
+   }
+  ],
+  "standpoint": [
+   {
+    "id": "stand",
+    "surface": "stand"
+   },
+   {
+    "id": "point",
+    "surface": "point"
+   }
+  ],
+  "startle": [
+   {
+    "id": "start",
+    "surface": "start"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "statesman": [
+   {
+    "id": "st",
+    "surface": "states"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "statistical": [
+   {
+    "id": "statistic",
+    "surface": "statistic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "steadily": [
+   {
+    "id": "steady",
+    "surface": "steadi"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "steamer": [
+   {
+    "id": "steam",
+    "surface": "steam"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "stiffen": [
+   {
+    "id": "stiff",
+    "surface": "stiff"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "strictly": [
+   {
+    "id": "strict",
+    "surface": "strict"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "strongly": [
+   {
+    "id": "strong",
+    "surface": "strong"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "structural": [
+   {
+    "id": "structure",
+    "surface": "structur"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "submarine": [
+   {
+    "id": "sub",
+    "surface": "sub"
+   },
+   {
+    "id": "marine",
+    "surface": "marine"
+   }
+  ],
+  "submerge": [
+   {
+    "id": "sub",
+    "surface": "sub"
+   },
+   {
+    "id": "merge",
+    "surface": "merge"
+   }
+  ],
+  "subsequent": [
+   {
+    "id": "sub",
+    "surface": "sub"
+   },
+   {
+    "id": "sequent",
+    "surface": "sequent"
+   }
+  ],
+  "subsidy": [
+   {
+    "id": "sub",
+    "surface": "sub"
+   },
+   {
+    "id": "sd",
+    "surface": "sidy"
+   }
+  ],
+  "substance": [
+   {
+    "id": "sub",
+    "surface": "sub"
+   },
+   {
+    "id": "stance",
+    "surface": "stance"
+   }
+  ],
+  "substantial": [
+   {
+    "id": "sub",
+    "surface": "sub"
+   },
+   {
+    "id": "stant",
+    "surface": "stant"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "subtract": [
+   {
+    "id": "sub",
+    "surface": "sub"
+   },
+   {
+    "id": "tract",
+    "surface": "tract"
+   }
+  ],
+  "suburb": [
+   {
+    "id": "sub",
+    "surface": "sub"
+   },
+   {
+    "id": "urbs",
+    "surface": "urb"
+   }
+  ],
+  "subway": [
+   {
+    "id": "sub",
+    "surface": "sub"
+   },
+   {
+    "id": "way",
+    "surface": "way"
+   }
+  ],
+  "successfully": [
+   {
+    "id": "successful",
+    "surface": "successful"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "succession": [
+   {
+    "id": "success",
+    "surface": "success"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "successive": [
+   {
+    "id": "success",
+    "surface": "success"
+   },
+   {
+    "id": "ive",
+    "surface": "ive"
+   }
+  ],
+  "suddenly": [
+   {
+    "id": "sudden",
+    "surface": "sudden"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "sufficiently": [
+   {
+    "id": "sufficient",
+    "surface": "sufficient"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "summarize": [
+   {
+    "id": "summary",
+    "surface": "summar"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "superficial": [
+   {
+    "id": "super",
+    "surface": "super"
+   },
+   {
+    "id": "fic",
+    "surface": "fic"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "surely": [
+   {
+    "id": "sur",
+    "surface": "sure"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "surname": [
+   {
+    "id": "sur",
+    "surface": "sur"
+   },
+   {
+    "id": "name",
+    "surface": "name"
+   }
+  ],
+  "surprising": [
+   {
+    "id": "surprise",
+    "surface": "surpris"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "surprisingly": [
+   {
+    "id": "surprising",
+    "surface": "surprising"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "surrender": [
+   {
+    "id": "sur",
+    "surface": "sur"
+   },
+   {
+    "id": "rendre",
+    "surface": "render"
+   }
+  ],
+  "suspicion": [
+   {
+    "id": "suspect",
+    "surface": "suspic"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "sustain": [
+   {
+    "id": "sus",
+    "surface": "sus"
+   },
+   {
+    "id": "tain",
+    "surface": "tain"
+   }
+  ],
+  "sympathetic": [
+   {
+    "id": "sympathy",
+    "surface": "sympath"
+   },
+   {
+    "id": "etic",
+    "surface": "etic"
+   }
+  ],
+  "sympathize": [
+   {
+    "id": "sympathy",
+    "surface": "sympath"
+   },
+   {
+    "id": "ize",
+    "surface": "ize"
+   }
+  ],
+  "teaching": [
+   {
+    "id": "teach",
+    "surface": "teach"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "technician": [
+   {
+    "id": "technic",
+    "surface": "technic"
+   },
+   {
+    "id": "ian",
+    "surface": "ian"
+   }
+  ],
+  "tedious": [
+   {
+    "id": "tedium",
+    "surface": "tedi"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "tenant": [
+   {
+    "id": "ten",
+    "surface": "ten"
+   },
+   {
+    "id": "ant",
+    "surface": "ant"
+   }
+  ],
+  "tender": [
+   {
+    "id": "tend",
+    "surface": "tend"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   }
+  ],
+  "terrific": [
+   {
+    "id": "terrify",
+    "surface": "terrif"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "textile": [
+   {
+    "id": "text",
+    "surface": "text"
+   },
+   {
+    "id": "il",
+    "surface": "ile"
+   }
+  ],
+  "thereby": [
+   {
+    "id": "there",
+    "surface": "there"
+   },
+   {
+    "id": "by",
+    "surface": "by"
+   }
+  ],
+  "thickness": [
+   {
+    "id": "thick",
+    "surface": "thick"
+   },
+   {
+    "id": "ness",
+    "surface": "ness"
+   }
+  ],
+  "thirdly": [
+   {
+    "id": "third",
+    "surface": "third"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "thoughtful": [
+   {
+    "id": "thought",
+    "surface": "thought"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "threaten": [
+   {
+    "id": "threat",
+    "surface": "threat"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "torrent": [
+   {
+    "id": "tor",
+    "surface": "tor"
+   },
+   {
+    "id": "rent",
+    "surface": "rent"
+   }
+  ],
+  "towards": [
+   {
+    "id": "to",
+    "surface": "to"
+   },
+   {
+    "id": "wards",
+    "surface": "wards"
+   }
+  ],
+  "transformation": [
+   {
+    "id": "transform",
+    "surface": "transform"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "transistor": [
+   {
+    "id": "trans",
+    "surface": "trans"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "transmission": [
+   {
+    "id": "trans",
+    "surface": "trans"
+   },
+   {
+    "id": "mission",
+    "surface": "mission"
+   }
+  ],
+  "transplant": [
+   {
+    "id": "trans",
+    "surface": "trans"
+   },
+   {
+    "id": "plant",
+    "surface": "plant"
+   }
+  ],
+  "transportation": [
+   {
+    "id": "transport",
+    "surface": "transport"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "tropical": [
+   {
+    "id": "tropic",
+    "surface": "tropic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "trumpet": [
+   {
+    "id": "trump",
+    "surface": "trump"
+   },
+   {
+    "id": "et",
+    "surface": "et"
+   }
+  ],
+  "turning": [
+   {
+    "id": "turn",
+    "surface": "turn"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "twinkle": [
+   {
+    "id": "twink",
+    "surface": "twink"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "ultimately": [
+   {
+    "id": "ultimate",
+    "surface": "ultimate"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "uncover": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "cover",
+    "surface": "cover"
+   }
+  ],
+  "undergo": [
+   {
+    "id": "under",
+    "surface": "under"
+   },
+   {
+    "id": "go",
+    "surface": "go"
+   }
+  ],
+  "undergraduate": [
+   {
+    "id": "under",
+    "surface": "under"
+   },
+   {
+    "id": "graduate",
+    "surface": "graduate"
+   }
+  ],
+  "underneath": [
+   {
+    "id": "under",
+    "surface": "under"
+   },
+   {
+    "id": "neath",
+    "surface": "neath"
+   }
+  ],
+  "undertaking": [
+   {
+    "id": "undertake",
+    "surface": "undertak"
+   },
+   {
+    "id": "ing",
+    "surface": "ing"
+   }
+  ],
+  "undoubtedly": [
+   {
+    "id": "undoubted",
+    "surface": "undoubted"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "uneasy": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "easy",
+    "surface": "easy"
+   }
+  ],
+  "unexpected": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "expected",
+    "surface": "expected"
+   }
+  ],
+  "unjust": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "just",
+    "surface": "just"
+   }
+  ],
+  "unkind": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "kind",
+    "surface": "kind"
+   }
+  ],
+  "unlikely": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "likely",
+    "surface": "likely"
+   }
+  ],
+  "unload": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "load",
+    "surface": "load"
+   }
+  ],
+  "unlucky": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "lucky",
+    "surface": "lucky"
+   }
+  ],
+  "unnecessary": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "necessary",
+    "surface": "necessary"
+   }
+  ],
+  "unsatisfactory": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "satisfactory",
+    "surface": "satisfactory"
+   }
+  ],
+  "unstable": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "stable",
+    "surface": "stable"
+   }
+  ],
+  "unsuitable": [
+   {
+    "id": "un",
+    "surface": "un"
+   },
+   {
+    "id": "suitable",
+    "surface": "suitable"
+   }
+  ],
+  "unusually": [
+   {
+    "id": "unusual",
+    "surface": "unusual"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "upright": [
+   {
+    "id": "up",
+    "surface": "up"
+   },
+   {
+    "id": "right",
+    "surface": "right"
+   }
+  ],
+  "uptodate": [
+   {
+    "id": "up",
+    "surface": "up"
+   },
+   {
+    "id": "to",
+    "surface": "to"
+   },
+   {
+    "id": "date",
+    "surface": "date"
+   }
+  ],
+  "upwards": [
+   {
+    "id": "up",
+    "surface": "up"
+   },
+   {
+    "id": "wards",
+    "surface": "wards"
+   }
+  ],
+  "usage": [
+   {
+    "id": "use",
+    "surface": "us"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "utmost": [
+   {
+    "id": "out",
+    "surface": "ut"
+   },
+   {
+    "id": "most",
+    "surface": "most"
+   }
+  ],
+  "vanity": [
+   {
+    "id": "vain",
+    "surface": "van"
+   },
+   {
+    "id": "ity",
+    "surface": "ity"
+   }
+  ],
+  "variable": [
+   {
+    "id": "vary",
+    "surface": "vari"
+   },
+   {
+    "id": "able",
+    "surface": "able"
+   }
+  ],
+  "variation": [
+   {
+    "id": "vary",
+    "surface": "vari"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "vibration": [
+   {
+    "id": "vibrate",
+    "surface": "vibrat"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "videotape": [
+   {
+    "id": "video",
+    "surface": "video"
+   },
+   {
+    "id": "tape",
+    "surface": "tape"
+   }
+  ],
+  "viewpoint": [
+   {
+    "id": "view",
+    "surface": "view"
+   },
+   {
+    "id": "point",
+    "surface": "point"
+   }
+  ],
+  "vigorous": [
+   {
+    "id": "vigor",
+    "surface": "vigor"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "virtually": [
+   {
+    "id": "virtual",
+    "surface": "virtual"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "vitally": [
+   {
+    "id": "vital",
+    "surface": "vital"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "vitamin": [
+   {
+    "id": "vita",
+    "surface": "vita"
+   },
+   {
+    "id": "min",
+    "surface": "min"
+   }
+  ],
+  "voltage": [
+   {
+    "id": "volt",
+    "surface": "volt"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "waterfall": [
+   {
+    "id": "water",
+    "surface": "water"
+   },
+   {
+    "id": "fall",
+    "surface": "fall"
+   }
+  ],
+  "waterproof": [
+   {
+    "id": "water",
+    "surface": "water"
+   },
+   {
+    "id": "proof",
+    "surface": "proof"
+   }
+  ],
+  "wavelength": [
+   {
+    "id": "wave",
+    "surface": "wave"
+   },
+   {
+    "id": "length",
+    "surface": "length"
+   }
+  ],
+  "weaken": [
+   {
+    "id": "weak",
+    "surface": "weak"
+   },
+   {
+    "id": "en",
+    "surface": "en"
+   }
+  ],
+  "wellknown": [
+   {
+    "id": "well",
+    "surface": "well"
+   },
+   {
+    "id": "known",
+    "surface": "known"
+   }
+  ],
+  "westward": [
+   {
+    "id": "west",
+    "surface": "west"
+   },
+   {
+    "id": "ward",
+    "surface": "ward"
+   }
+  ],
+  "whereas": [
+   {
+    "id": "where",
+    "surface": "where"
+   },
+   {
+    "id": "as",
+    "surface": "as"
+   }
+  ],
+  "whitewash": [
+   {
+    "id": "white",
+    "surface": "white"
+   },
+   {
+    "id": "wash",
+    "surface": "wash"
+   }
+  ],
+  "whoever": [
+   {
+    "id": "who",
+    "surface": "who"
+   },
+   {
+    "id": "ever",
+    "surface": "ever"
+   }
+  ],
+  "wholly": [
+   {
+    "id": "whole",
+    "surface": "whol"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "widely": [
+   {
+    "id": "wide",
+    "surface": "wide"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "wireless": [
+   {
+    "id": "wire",
+    "surface": "wire"
+   },
+   {
+    "id": "less",
+    "surface": "less"
+   }
+  ],
+  "withstand": [
+   {
+    "id": "with",
+    "surface": "with"
+   },
+   {
+    "id": "stand",
+    "surface": "stand"
+   }
+  ],
+  "workman": [
+   {
+    "id": "work",
+    "surface": "work"
+   },
+   {
+    "id": "man",
+    "surface": "man"
+   }
+  ],
+  "workshop": [
+   {
+    "id": "work",
+    "surface": "work"
+   },
+   {
+    "id": "shop",
+    "surface": "shop"
+   }
+  ],
+  "worldwide": [
+   {
+    "id": "world",
+    "surface": "world"
+   },
+   {
+    "id": "wide",
+    "surface": "wide"
+   }
+  ],
+  "worship": [
+   {
+    "id": "worth",
+    "surface": "wor"
+   },
+   {
+    "id": "ship",
+    "surface": "ship"
+   }
+  ],
+  "wreckage": [
+   {
+    "id": "wreck",
+    "surface": "wreck"
+   },
+   {
+    "id": "ag",
+    "surface": "age"
+   }
+  ],
+  "writer": [
+   {
+    "id": "write",
+    "surface": "write"
+   },
+   {
+    "id": "er",
+    "surface": "r"
+   }
+  ],
+  "yearly": [
+   {
+    "id": "year",
+    "surface": "year"
+   },
+   {
+    "id": "ly",
+    "surface": "ly"
+   }
+  ],
+  "youngster": [
+   {
+    "id": "young",
+    "surface": "young"
+   },
+   {
+    "id": "ster",
+    "surface": "ster"
+   }
+  ],
+  "youthful": [
+   {
+    "id": "youth",
+    "surface": "youth"
+   },
+   {
+    "id": "ful",
+    "surface": "ful"
+   }
+  ],
+  "zealous": [
+   {
+    "id": "zeal",
+    "surface": "zeal"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
   ]
  },
  "extraMorphemes": [
@@ -34978,6 +42517,5651 @@
    "etymology": "",
    "level": 3,
    "color": "green"
+  },
+  {
+   "id": "absolute",
+   "displayText": "absolute",
+   "type": "root",
+   "meaningCn": "绝对的",
+   "allomorphs": [
+    "absolute"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "accelerate",
+   "displayText": "accelerate",
+   "type": "root",
+   "meaningCn": "加速",
+   "allomorphs": [
+    "accelerat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "accept",
+   "displayText": "accept",
+   "type": "root",
+   "meaningCn": "接受",
+   "allomorphs": [
+    "accept"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "accident",
+   "displayText": "accident",
+   "type": "root",
+   "meaningCn": "意外事件",
+   "allomorphs": [
+    "accident"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "accord",
+   "displayText": "accord",
+   "type": "root",
+   "meaningCn": "一致",
+   "allomorphs": [
+    "accord"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "according",
+   "displayText": "according",
+   "type": "root",
+   "meaningCn": "相符的",
+   "allomorphs": [
+    "according"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "actual",
+   "displayText": "actual",
+   "type": "root",
+   "meaningCn": "真实的",
+   "allomorphs": [
+    "actual"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "addition",
+   "displayText": "addition",
+   "type": "root",
+   "meaningCn": "加法",
+   "allomorphs": [
+    "addition"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "advance",
+   "displayText": "advance",
+   "type": "root",
+   "meaningCn": "前进",
+   "allomorphs": [
+    "advance"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "verb",
+   "displayText": "verb",
+   "type": "root",
+   "meaningCn": "词",
+   "allomorphs": [
+    "verb"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "advise",
+   "displayText": "advise",
+   "type": "root",
+   "meaningCn": "劝告",
+   "allomorphs": [
+    "advis"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "among",
+   "displayText": "among",
+   "type": "root",
+   "meaningCn": "在之中",
+   "allomorphs": [
+    "among"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ample",
+   "displayText": "ample",
+   "type": "root",
+   "meaningCn": "大量的",
+   "allomorphs": [
+    "ampl"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "cip",
+   "displayText": "cip",
+   "type": "root",
+   "meaningCn": "计汉字交换程序",
+   "allomorphs": [
+    "cip"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pease",
+   "displayText": "pease",
+   "type": "root",
+   "meaningCn": "豌豆",
+   "allomorphs": [
+    "plause"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "approve",
+   "displayText": "approve",
+   "type": "root",
+   "meaningCn": "赞同",
+   "allomorphs": [
+    "approv",
+    "approve"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "proximate",
+   "displayText": "proximate",
+   "type": "root",
+   "meaningCn": "最近的",
+   "allomorphs": [
+    "proximate"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "assign",
+   "displayText": "assign",
+   "type": "root",
+   "meaningCn": "分配",
+   "allomorphs": [
+    "assign"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "atom",
+   "displayText": "atom",
+   "type": "root",
+   "meaningCn": "原子",
+   "allomorphs": [
+    "atom"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "biography",
+   "displayText": "biography",
+   "type": "root",
+   "meaningCn": "传记",
+   "allomorphs": [
+    "biography"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "automatic",
+   "displayText": "automatic",
+   "type": "root",
+   "meaningCn": "自动手枪",
+   "allomorphs": [
+    "automatic",
+    "automati"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "awful",
+   "displayText": "awful",
+   "type": "root",
+   "meaningCn": "可怕的",
+   "allomorphs": [
+    "awful"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ban",
+   "displayText": "ban",
+   "type": "root",
+   "meaningCn": "禁令禁止",
+   "allomorphs": [
+    "bann"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "basic",
+   "displayText": "basic",
+   "type": "root",
+   "meaningCn": "基本原理",
+   "allomorphs": [
+    "basic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "before",
+   "displayText": "before",
+   "type": "root",
+   "meaningCn": "在之前",
+   "allomorphs": [
+    "before"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "behave",
+   "displayText": "behave",
+   "type": "root",
+   "meaningCn": "举止端正",
+   "allomorphs": [
+    "behav"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "belove",
+   "displayText": "belove",
+   "type": "root",
+   "meaningCn": "通常用于被动语态",
+   "allomorphs": [
+    "belove"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "bitter",
+   "displayText": "bitter",
+   "type": "root",
+   "meaningCn": "苦的",
+   "allomorphs": [
+    "bitter"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "bright",
+   "displayText": "bright",
+   "type": "root",
+   "meaningCn": "明亮的",
+   "allomorphs": [
+    "bright"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "bull",
+   "displayText": "bull",
+   "type": "root",
+   "meaningCn": "公牛法买方",
+   "allomorphs": [
+    "bull"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "cabin",
+   "displayText": "cabin",
+   "type": "root",
+   "meaningCn": "小屋",
+   "allomorphs": [
+    "cabin"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "calculate",
+   "displayText": "calculate",
+   "type": "root",
+   "meaningCn": "计算",
+   "allomorphs": [
+    "calculat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "charm",
+   "displayText": "charm",
+   "type": "root",
+   "meaningCn": "吸引力",
+   "allomorphs": [
+    "charm"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ch",
+   "displayText": "ch",
+   "type": "root",
+   "meaningCn": "克劳斯汉兹",
+   "allomorphs": [
+    "ch"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ular",
+   "displayText": "ular",
+   "type": "root",
+   "meaningCn": "解咽喉的",
+   "allomorphs": [
+    "ular"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "close",
+   "displayText": "close",
+   "type": "root",
+   "meaningCn": "结束",
+   "allomorphs": [
+    "close"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "lapse",
+   "displayText": "lapse",
+   "type": "root",
+   "meaningCn": "过失",
+   "allomorphs": [
+    "lapse"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "combine",
+   "displayText": "combine",
+   "type": "root",
+   "meaningCn": "使联合",
+   "allomorphs": [
+    "combin"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "command",
+   "displayText": "command",
+   "type": "root",
+   "meaningCn": "命令",
+   "allomorphs": [
+    "command"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "commerce",
+   "displayText": "commerce",
+   "type": "root",
+   "meaningCn": "商业",
+   "allomorphs": [
+    "commerc"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mission",
+   "displayText": "mission",
+   "type": "root",
+   "meaningCn": "任务",
+   "allomorphs": [
+    "mission"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "common",
+   "displayText": "common",
+   "type": "root",
+   "meaningCn": "通常的",
+   "allomorphs": [
+    "common"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "compare",
+   "displayText": "compare",
+   "type": "root",
+   "meaningCn": "比较",
+   "allomorphs": [
+    "compar"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "comparative",
+   "displayText": "comparative",
+   "type": "root",
+   "meaningCn": "比较的",
+   "allomorphs": [
+    "comparative"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pile",
+   "displayText": "pile",
+   "type": "root",
+   "meaningCn": "堆",
+   "allomorphs": [
+    "pile",
+    "ple"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "plain",
+   "displayText": "plain",
+   "type": "root",
+   "meaningCn": "平原",
+   "allomorphs": [
+    "plain"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "complete",
+   "displayText": "complete",
+   "type": "root",
+   "meaningCn": "完全的",
+   "allomorphs": [
+    "complete",
+    "complet"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pound",
+   "displayText": "pound",
+   "type": "root",
+   "meaningCn": "磅",
+   "allomorphs": [
+    "pound"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "concern",
+   "displayText": "concern",
+   "type": "root",
+   "meaningCn": "关心",
+   "allomorphs": [
+    "concern"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "dense",
+   "displayText": "dense",
+   "type": "root",
+   "meaningCn": "密集的",
+   "allomorphs": [
+    "dense",
+    "dens"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "confide",
+   "displayText": "confide",
+   "type": "root",
+   "meaningCn": "吐露",
+   "allomorphs": [
+    "confide"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "fine",
+   "displayText": "fine",
+   "type": "root",
+   "meaningCn": "罚款",
+   "allomorphs": [
+    "fine"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "conjunct",
+   "displayText": "conjunct",
+   "type": "root",
+   "meaningCn": "结合的",
+   "allomorphs": [
+    "conjunct"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "quer",
+   "displayText": "quer",
+   "type": "root",
+   "meaningCn": "德横的",
+   "allomorphs": [
+    "quer"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sci",
+   "displayText": "sci",
+   "type": "root",
+   "meaningCn": "计串行通信接口",
+   "allomorphs": [
+    "sci"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "consequent",
+   "displayText": "consequent",
+   "type": "root",
+   "meaningCn": "随后发生的事情",
+   "allomorphs": [
+    "consequent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "consume",
+   "displayText": "consume",
+   "type": "root",
+   "meaningCn": "消耗",
+   "allomorphs": [
+    "consume",
+    "consump"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "continue",
+   "displayText": "continue",
+   "type": "root",
+   "meaningCn": "继续",
+   "allomorphs": [
+    "continu"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ordin",
+   "displayText": "ordin",
+   "type": "root",
+   "meaningCn": "序数顺序的",
+   "allomorphs": [
+    "ordin",
+    "ordinate"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "cop",
+   "displayText": "cop",
+   "type": "root",
+   "meaningCn": "化冷冻系数",
+   "allomorphs": [
+    "copp"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "correspond",
+   "displayText": "correspond",
+   "type": "root",
+   "meaningCn": "符合",
+   "allomorphs": [
+    "correspond"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "creep",
+   "displayText": "creep",
+   "type": "root",
+   "meaningCn": "爬",
+   "allomorphs": [
+    "cripp"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "critic",
+   "displayText": "critic",
+   "type": "root",
+   "meaningCn": "批评家",
+   "allomorphs": [
+    "critic"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "curious",
+   "displayText": "curious",
+   "type": "root",
+   "meaningCn": "好奇的",
+   "allomorphs": [
+    "curios"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "dear",
+   "displayText": "dear",
+   "type": "root",
+   "meaningCn": "亲爱的人亲爱的",
+   "allomorphs": [
+    "dar"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "definite",
+   "displayText": "definite",
+   "type": "root",
+   "meaningCn": "明确的",
+   "allomorphs": [
+    "definite"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "define",
+   "displayText": "define",
+   "type": "root",
+   "meaningCn": "定义",
+   "allomorphs": [
+    "defin"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "deli",
+   "displayText": "deli",
+   "type": "root",
+   "meaningCn": "熟食店",
+   "allomorphs": [
+    "deli"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "berate",
+   "displayText": "berate",
+   "type": "root",
+   "meaningCn": "严责",
+   "allomorphs": [
+    "berate"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "very",
+   "displayText": "very",
+   "type": "root",
+   "meaningCn": "真正的",
+   "allomorphs": [
+    "very"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "democrat",
+   "displayText": "democrat",
+   "type": "root",
+   "meaningCn": "民主人士",
+   "allomorphs": [
+    "democrat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "depend",
+   "displayText": "depend",
+   "type": "root",
+   "meaningCn": "靠",
+   "allomorphs": [
+    "depend"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "depress",
+   "displayText": "depress",
+   "type": "root",
+   "meaningCn": "使沮丧",
+   "allomorphs": [
+    "depress"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "desire",
+   "displayText": "desire",
+   "type": "root",
+   "meaningCn": "欲望",
+   "allomorphs": [
+    "desir"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "spite",
+   "displayText": "spite",
+   "type": "root",
+   "meaningCn": "恶意",
+   "allomorphs": [
+    "spite"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "destruct",
+   "displayText": "destruct",
+   "type": "root",
+   "meaningCn": "自毁自毁",
+   "allomorphs": [
+    "destruct"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tail",
+   "displayText": "tail",
+   "type": "root",
+   "meaningCn": "尾部",
+   "allomorphs": [
+    "tail"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tect",
+   "displayText": "tect",
+   "type": "root",
+   "meaningCn": "涕必灵",
+   "allomorphs": [
+    "tect"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "charge",
+   "displayText": "charge",
+   "type": "root",
+   "meaningCn": "指控",
+   "allomorphs": [
+    "charge"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "guise",
+   "displayText": "guise",
+   "type": "root",
+   "meaningCn": "相似",
+   "allomorphs": [
+    "guise"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "gust",
+   "displayText": "gust",
+   "type": "root",
+   "meaningCn": "突然一阵",
+   "allomorphs": [
+    "gust"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "honour",
+   "displayText": "honour",
+   "type": "root",
+   "meaningCn": "荣誉",
+   "allomorphs": [
+    "honour"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "order",
+   "displayText": "order",
+   "type": "root",
+   "meaningCn": "次序",
+   "allomorphs": [
+    "order"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "dispose",
+   "displayText": "dispose",
+   "type": "root",
+   "meaningCn": "处理",
+   "allomorphs": [
+    "dispos"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "satisfy",
+   "displayText": "satisfy",
+   "type": "root",
+   "meaningCn": "使满意",
+   "allomorphs": [
+    "satisfy"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "solve",
+   "displayText": "solve",
+   "type": "root",
+   "meaningCn": "解决",
+   "allomorphs": [
+    "solve",
+    "solv"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tress",
+   "displayText": "tress",
+   "type": "root",
+   "meaningCn": "一绺头发",
+   "allomorphs": [
+    "tress"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "distribute",
+   "displayText": "distribute",
+   "type": "root",
+   "meaningCn": "分配",
+   "allomorphs": [
+    "distribut"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "doubt",
+   "displayText": "doubt",
+   "type": "root",
+   "meaningCn": "怀疑",
+   "allomorphs": [
+    "doubt"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "drama",
+   "displayText": "drama",
+   "type": "root",
+   "meaningCn": "戏剧",
+   "allomorphs": [
+    "drama"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "dwell",
+   "displayText": "dwell",
+   "type": "root",
+   "meaningCn": "居住",
+   "allomorphs": [
+    "dwell"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "earn",
+   "displayText": "earn",
+   "type": "root",
+   "meaningCn": "赚得",
+   "allomorphs": [
+    "earn"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "economy",
+   "displayText": "economy",
+   "type": "root",
+   "meaningCn": "经济",
+   "allomorphs": [
+    "econom"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "economic",
+   "displayText": "economic",
+   "type": "root",
+   "meaningCn": "经济上的",
+   "allomorphs": [
+    "economic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "editor",
+   "displayText": "editor",
+   "type": "root",
+   "meaningCn": "编者",
+   "allomorphs": [
+    "editor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "effect",
+   "displayText": "effect",
+   "type": "root",
+   "meaningCn": "结果",
+   "allomorphs": [
+    "effect"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ell",
+   "displayText": "ell",
+   "type": "root",
+   "meaningCn": "厄尔英国旧时量布",
+   "allomorphs": [
+    "el"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "elder",
+   "displayText": "elder",
+   "type": "root",
+   "meaningCn": "年长者",
+   "allomorphs": [
+    "elder"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ron",
+   "displayText": "ron",
+   "type": "root",
+   "meaningCn": "研究法辛烷值",
+   "allomorphs": [
+    "ron"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "element",
+   "displayText": "element",
+   "type": "root",
+   "meaningCn": "元件",
+   "allomorphs": [
+    "element"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "eliminate",
+   "displayText": "eliminate",
+   "type": "root",
+   "meaningCn": "除去",
+   "allomorphs": [
+    "eliminat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "else",
+   "displayText": "else",
+   "type": "root",
+   "meaningCn": "别的",
+   "allomorphs": [
+    "else"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "brace",
+   "displayText": "brace",
+   "type": "root",
+   "meaningCn": "支柱",
+   "allomorphs": [
+    "brace"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "emotion",
+   "displayText": "emotion",
+   "type": "root",
+   "meaningCn": "情绪",
+   "allomorphs": [
+    "emotion"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "emphasis",
+   "displayText": "emphasis",
+   "type": "root",
+   "meaningCn": "强调",
+   "allomorphs": [
+    "emphasi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "employ",
+   "displayText": "employ",
+   "type": "root",
+   "meaningCn": "雇用雇用",
+   "allomorphs": [
+    "employ"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "gage",
+   "displayText": "gage",
+   "type": "root",
+   "meaningCn": "抵押品",
+   "allomorphs": [
+    "gage"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "engineer",
+   "displayText": "engineer",
+   "type": "root",
+   "meaningCn": "工程师",
+   "allomorphs": [
+    "engineer"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "english",
+   "displayText": "english",
+   "type": "root",
+   "meaningCn": "英语英文的",
+   "allomorphs": [
+    "english"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "title",
+   "displayText": "title",
+   "type": "root",
+   "meaningCn": "头衔",
+   "allomorphs": [
+    "title"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "establish",
+   "displayText": "establish",
+   "type": "root",
+   "meaningCn": "建立",
+   "allomorphs": [
+    "establish"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "exceeding",
+   "displayText": "exceeding",
+   "type": "root",
+   "meaningCn": "超越的",
+   "allomorphs": [
+    "exceeding"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "except",
+   "displayText": "except",
+   "type": "root",
+   "meaningCn": "除",
+   "allomorphs": [
+    "except"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "excess",
+   "displayText": "excess",
+   "type": "root",
+   "meaningCn": "过度",
+   "allomorphs": [
+    "excess"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "excite",
+   "displayText": "excite",
+   "type": "root",
+   "meaningCn": "刺激",
+   "allomorphs": [
+    "excite"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "exclusive",
+   "displayText": "exclusive",
+   "type": "root",
+   "meaningCn": "排外的",
+   "allomorphs": [
+    "exclusive"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "exhaust",
+   "displayText": "exhaust",
+   "type": "root",
+   "meaningCn": "排气",
+   "allomorphs": [
+    "exhaust"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "expand",
+   "displayText": "expand",
+   "type": "root",
+   "meaningCn": "使膨胀",
+   "allomorphs": [
+    "expan"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "experiment",
+   "displayText": "experiment",
+   "type": "root",
+   "meaningCn": "实验",
+   "allomorphs": [
+    "experiment"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "expo",
+   "displayText": "expo",
+   "type": "root",
+   "meaningCn": "经展览会",
+   "allomorphs": [
+    "expo"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "faith",
+   "displayText": "faith",
+   "type": "root",
+   "meaningCn": "信心",
+   "allomorphs": [
+    "faith"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "fart",
+   "displayText": "fart",
+   "type": "root",
+   "meaningCn": "屁放屁",
+   "allomorphs": [
+    "fart"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "fashion",
+   "displayText": "fashion",
+   "type": "root",
+   "meaningCn": "流行",
+   "allomorphs": [
+    "fashion"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "favor",
+   "displayText": "favor",
+   "type": "root",
+   "meaningCn": "好意",
+   "allomorphs": [
+    "favor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "fear",
+   "displayText": "fear",
+   "type": "root",
+   "meaningCn": "恐怖",
+   "allomorphs": [
+    "fear"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "feed",
+   "displayText": "feed",
+   "type": "root",
+   "meaningCn": "饲料",
+   "allomorphs": [
+    "feed"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "final",
+   "displayText": "final",
+   "type": "root",
+   "meaningCn": "期末考试",
+   "allomorphs": [
+    "final"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "finance",
+   "displayText": "finance",
+   "type": "root",
+   "meaningCn": "财政",
+   "allomorphs": [
+    "financ"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "find",
+   "displayText": "find",
+   "type": "root",
+   "meaningCn": "发现",
+   "allomorphs": [
+    "find"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "frequent",
+   "displayText": "frequent",
+   "type": "root",
+   "meaningCn": "时常发生的",
+   "allomorphs": [
+    "frequent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "fruit",
+   "displayText": "fruit",
+   "type": "root",
+   "meaningCn": "水果",
+   "allomorphs": [
+    "fruit"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "further",
+   "displayText": "further",
+   "type": "root",
+   "meaningCn": "更远的",
+   "allomorphs": [
+    "further"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "gas",
+   "displayText": "gas",
+   "type": "root",
+   "meaningCn": "医全身适应综合征",
+   "allomorphs": [
+    "gas"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "general",
+   "displayText": "general",
+   "type": "root",
+   "meaningCn": "一般",
+   "allomorphs": [
+    "general"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "globe",
+   "displayText": "globe",
+   "type": "root",
+   "meaningCn": "球",
+   "allomorphs": [
+    "glob"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "glory",
+   "displayText": "glory",
+   "type": "root",
+   "meaningCn": "光荣",
+   "allomorphs": [
+    "glori"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "grace",
+   "displayText": "grace",
+   "type": "root",
+   "meaningCn": "优雅",
+   "allomorphs": [
+    "grace"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "grammatic",
+   "displayText": "grammatic",
+   "type": "root",
+   "meaningCn": "网络语法",
+   "allomorphs": [
+    "grammatic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "gun",
+   "displayText": "gun",
+   "type": "root",
+   "meaningCn": "枪医枪",
+   "allomorphs": [
+    "gun"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "powder",
+   "displayText": "powder",
+   "type": "root",
+   "meaningCn": "粉",
+   "allomorphs": [
+    "powder"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "hate",
+   "displayText": "hate",
+   "type": "root",
+   "meaningCn": "憎恨",
+   "allomorphs": [
+    "hate",
+    "hat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "quarters",
+   "displayText": "quarters",
+   "type": "root",
+   "meaningCn": "寓所",
+   "allomorphs": [
+    "quarters"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "heat",
+   "displayText": "heat",
+   "type": "root",
+   "meaningCn": "热",
+   "allomorphs": [
+    "heat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "history",
+   "displayText": "history",
+   "type": "root",
+   "meaningCn": "历史",
+   "allomorphs": [
+    "histor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "honey",
+   "displayText": "honey",
+   "type": "root",
+   "meaningCn": "蜂蜜",
+   "allomorphs": [
+    "honey"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "horizon",
+   "displayText": "horizon",
+   "type": "root",
+   "meaningCn": "地平线",
+   "allomorphs": [
+    "horizon"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "horse",
+   "displayText": "horse",
+   "type": "root",
+   "meaningCn": "马",
+   "allomorphs": [
+    "horse"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "hold",
+   "displayText": "hold",
+   "type": "root",
+   "meaningCn": "把握",
+   "allomorphs": [
+    "hold"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "hum",
+   "displayText": "hum",
+   "type": "root",
+   "meaningCn": "嗡嗡声",
+   "allomorphs": [
+    "humb"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "idea",
+   "displayText": "idea",
+   "type": "root",
+   "meaningCn": "主意",
+   "allomorphs": [
+    "idea"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "identic",
+   "displayText": "identic",
+   "type": "root",
+   "meaningCn": "同一的",
+   "allomorphs": [
+    "identic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ignore",
+   "displayText": "ignore",
+   "type": "root",
+   "meaningCn": "不理睬",
+   "allomorphs": [
+    "ignor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "lus",
+   "displayText": "lus",
+   "type": "root",
+   "meaningCn": "人名",
+   "allomorphs": [
+    "lus"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "illustrate",
+   "displayText": "illustrate",
+   "type": "root",
+   "meaningCn": "举例说明",
+   "allomorphs": [
+    "illustrat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "imagine",
+   "displayText": "imagine",
+   "type": "root",
+   "meaningCn": "想像",
+   "allomorphs": [
+    "imagin"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "patient",
+   "displayText": "patient",
+   "type": "root",
+   "meaningCn": "病人",
+   "allomorphs": [
+    "patient"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "implicate",
+   "displayText": "implicate",
+   "type": "root",
+   "meaningCn": "涉及",
+   "allomorphs": [
+    "implicat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "improve",
+   "displayText": "improve",
+   "type": "root",
+   "meaningCn": "改良",
+   "allomorphs": [
+    "improve"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "inc",
+   "displayText": "inc",
+   "type": "root",
+   "meaningCn": "根据法律组成的公",
+   "allomorphs": [
+    "inc"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "increasing",
+   "displayText": "increasing",
+   "type": "root",
+   "meaningCn": "经递增",
+   "allomorphs": [
+    "increasing"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "indicate",
+   "displayText": "indicate",
+   "type": "root",
+   "meaningCn": "显示",
+   "allomorphs": [
+    "indicat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "different",
+   "displayText": "different",
+   "type": "root",
+   "meaningCn": "不同的机差动",
+   "allomorphs": [
+    "different"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "dispensable",
+   "displayText": "dispensable",
+   "type": "root",
+   "meaningCn": "不是必要的",
+   "allomorphs": [
+    "dispensable"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "door",
+   "displayText": "door",
+   "type": "root",
+   "meaningCn": "门",
+   "allomorphs": [
+    "door"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "industry",
+   "displayText": "industry",
+   "type": "root",
+   "meaningCn": "勤劳",
+   "allomorphs": [
+    "industri"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "industrial",
+   "displayText": "industrial",
+   "type": "root",
+   "meaningCn": "工业的",
+   "allomorphs": [
+    "industrial"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "efficient",
+   "displayText": "efficient",
+   "type": "root",
+   "meaningCn": "有效率的",
+   "allomorphs": [
+    "efficient"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "evitable",
+   "displayText": "evitable",
+   "type": "root",
+   "meaningCn": "可以避免的",
+   "allomorphs": [
+    "evitable"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "expensive",
+   "displayText": "expensive",
+   "type": "root",
+   "meaningCn": "贵的",
+   "allomorphs": [
+    "expensive"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "famous",
+   "displayText": "famous",
+   "type": "root",
+   "meaningCn": "出名的",
+   "allomorphs": [
+    "famous"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "finite",
+   "displayText": "finite",
+   "type": "root",
+   "meaningCn": "有限的",
+   "allomorphs": [
+    "finite"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "influence",
+   "displayText": "influence",
+   "type": "root",
+   "meaningCn": "影响力",
+   "allomorphs": [
+    "influent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "inhabit",
+   "displayText": "inhabit",
+   "type": "root",
+   "meaningCn": "居住于",
+   "allomorphs": [
+    "inhabit"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "initiate",
+   "displayText": "initiate",
+   "type": "root",
+   "meaningCn": "入会",
+   "allomorphs": [
+    "initiat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "inject",
+   "displayText": "inject",
+   "type": "root",
+   "meaningCn": "注射",
+   "allomorphs": [
+    "inject"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "significant",
+   "displayText": "significant",
+   "type": "root",
+   "meaningCn": "重要的",
+   "allomorphs": [
+    "significant"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "install",
+   "displayText": "install",
+   "type": "root",
+   "meaningCn": "安装",
+   "allomorphs": [
+    "install"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "instant",
+   "displayText": "instant",
+   "type": "root",
+   "meaningCn": "立即",
+   "allomorphs": [
+    "instant"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sufficient",
+   "displayText": "sufficient",
+   "type": "root",
+   "meaningCn": "充分的",
+   "allomorphs": [
+    "sufficient"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "intellect",
+   "displayText": "intellect",
+   "type": "root",
+   "meaningCn": "智力",
+   "allomorphs": [
+    "intellect"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "intense",
+   "displayText": "intense",
+   "type": "root",
+   "meaningCn": "非常的",
+   "allomorphs": [
+    "intens"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "intention",
+   "displayText": "intention",
+   "type": "root",
+   "meaningCn": "意图",
+   "allomorphs": [
+    "intention"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "action",
+   "displayText": "action",
+   "type": "root",
+   "meaningCn": "行动",
+   "allomorphs": [
+    "action"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "interfere",
+   "displayText": "interfere",
+   "type": "root",
+   "meaningCn": "妨碍",
+   "allomorphs": [
+    "interfere"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "intern",
+   "displayText": "intern",
+   "type": "root",
+   "meaningCn": "实习生",
+   "allomorphs": [
+    "intern"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "interrupt",
+   "displayText": "interrupt",
+   "type": "root",
+   "meaningCn": "中断",
+   "allomorphs": [
+    "interrupt"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "vestigate",
+   "displayText": "vestigate",
+   "type": "root",
+   "meaningCn": "调查",
+   "allomorphs": [
+    "vestigate"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "investigate",
+   "displayText": "investigate",
+   "type": "root",
+   "meaningCn": "调查",
+   "allomorphs": [
+    "investigat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "invest",
+   "displayText": "invest",
+   "type": "root",
+   "meaningCn": "投资",
+   "allomorphs": [
+    "invest"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "visible",
+   "displayText": "visible",
+   "type": "root",
+   "meaningCn": "看得见的",
+   "allomorphs": [
+    "visible"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "regular",
+   "displayText": "regular",
+   "type": "root",
+   "meaningCn": "规则的",
+   "allomorphs": [
+    "regular"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "jew",
+   "displayText": "jew",
+   "type": "root",
+   "meaningCn": "犹太人",
+   "allomorphs": [
+    "jew"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "knee",
+   "displayText": "knee",
+   "type": "root",
+   "meaningCn": "膝",
+   "allomorphs": [
+    "knee"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "lady",
+   "displayText": "lady",
+   "type": "root",
+   "meaningCn": "淑女",
+   "allomorphs": [
+    "lady"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "leader",
+   "displayText": "leader",
+   "type": "root",
+   "meaningCn": "领导者",
+   "allomorphs": [
+    "leader"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "leg",
+   "displayText": "leg",
+   "type": "root",
+   "meaningCn": "腿",
+   "allomorphs": [
+    "leg"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "legislate",
+   "displayText": "legislate",
+   "type": "root",
+   "meaningCn": "制定法律用立法规",
+   "allomorphs": [
+    "legislat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "lever",
+   "displayText": "lever",
+   "type": "root",
+   "meaningCn": "杠杆",
+   "allomorphs": [
+    "lever"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "lieu",
+   "displayText": "lieu",
+   "type": "root",
+   "meaningCn": "场所",
+   "allomorphs": [
+    "lieu"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tenant",
+   "displayText": "tenant",
+   "type": "root",
+   "meaningCn": "承租人",
+   "allomorphs": [
+    "tenant"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "likely",
+   "displayText": "likely",
+   "type": "root",
+   "meaningCn": "有可能的",
+   "allomorphs": [
+    "likeli",
+    "likely"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "limit",
+   "displayText": "limit",
+   "type": "root",
+   "meaningCn": "界限",
+   "allomorphs": [
+    "limit"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "listen",
+   "displayText": "listen",
+   "type": "root",
+   "meaningCn": "听",
+   "allomorphs": [
+    "listen"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "living",
+   "displayText": "living",
+   "type": "root",
+   "meaningCn": "生活",
+   "allomorphs": [
+    "living"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "loco",
+   "displayText": "loco",
+   "type": "root",
+   "meaningCn": "疯草病",
+   "allomorphs": [
+    "loco"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "motive",
+   "displayText": "motive",
+   "type": "root",
+   "meaningCn": "动机",
+   "allomorphs": [
+    "motive",
+    "motiv"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "loyal",
+   "displayText": "loyal",
+   "type": "root",
+   "meaningCn": "忠诚的",
+   "allomorphs": [
+    "loyal"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "maintain",
+   "displayText": "maintain",
+   "type": "root",
+   "meaningCn": "维持",
+   "allomorphs": [
+    "mainten"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "manufacture",
+   "displayText": "manufacture",
+   "type": "root",
+   "meaningCn": "产品",
+   "allomorphs": [
+    "manufacture"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "marvel",
+   "displayText": "marvel",
+   "type": "root",
+   "meaningCn": "奇异事物",
+   "allomorphs": [
+    "marvel"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "marx",
+   "displayText": "marx",
+   "type": "root",
+   "meaningCn": "马克思无产阶级的",
+   "allomorphs": [
+    "marx"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mass",
+   "displayText": "mass",
+   "type": "root",
+   "meaningCn": "块",
+   "allomorphs": [
+    "mass"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "piece",
+   "displayText": "piece",
+   "type": "root",
+   "meaningCn": "块",
+   "allomorphs": [
+    "piece"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "material",
+   "displayText": "material",
+   "type": "root",
+   "meaningCn": "材料",
+   "allomorphs": [
+    "material"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "measure",
+   "displayText": "measure",
+   "type": "root",
+   "meaningCn": "尺寸",
+   "allomorphs": [
+    "measur",
+    "measure"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mechanic",
+   "displayText": "mechanic",
+   "type": "root",
+   "meaningCn": "机械工",
+   "allomorphs": [
+    "mechanic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mechanical",
+   "displayText": "mechanical",
+   "type": "root",
+   "meaningCn": "机械的",
+   "allomorphs": [
+    "mechanical"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "miser",
+   "displayText": "miser",
+   "type": "root",
+   "meaningCn": "守财奴",
+   "allomorphs": [
+    "miser"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mist",
+   "displayText": "mist",
+   "type": "root",
+   "meaningCn": "雾",
+   "allomorphs": [
+    "mist"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "moa",
+   "displayText": "moa",
+   "type": "root",
+   "meaningCn": "恐鸟",
+   "allomorphs": [
+    "moa"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mode",
+   "displayText": "mode",
+   "type": "root",
+   "meaningCn": "模态",
+   "allomorphs": [
+    "mode"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rate",
+   "displayText": "rate",
+   "type": "root",
+   "meaningCn": "比率",
+   "allomorphs": [
+    "rate"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "moist",
+   "displayText": "moist",
+   "type": "root",
+   "meaningCn": "潮湿的",
+   "allomorphs": [
+    "moist"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "month",
+   "displayText": "month",
+   "type": "root",
+   "meaningCn": "月经月",
+   "allomorphs": [
+    "month"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "murder",
+   "displayText": "murder",
+   "type": "root",
+   "meaningCn": "谋杀谋杀",
+   "allomorphs": [
+    "murder"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mystery",
+   "displayText": "mystery",
+   "type": "root",
+   "meaningCn": "秘密",
+   "allomorphs": [
+    "mysteri"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "name",
+   "displayText": "name",
+   "type": "root",
+   "meaningCn": "名字",
+   "allomorphs": [
+    "name"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "natural",
+   "displayText": "natural",
+   "type": "root",
+   "meaningCn": "白痴自然的",
+   "allomorphs": [
+    "natural"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "navy",
+   "displayText": "navy",
+   "type": "root",
+   "meaningCn": "海军",
+   "allomorphs": [
+    "nav"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "navigate",
+   "displayText": "navigate",
+   "type": "root",
+   "meaningCn": "航行航行于",
+   "allomorphs": [
+    "navigat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "necessary",
+   "displayText": "necessary",
+   "type": "root",
+   "meaningCn": "必要的",
+   "allomorphs": [
+    "necessari",
+    "necessary"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "need",
+   "displayText": "need",
+   "type": "root",
+   "meaningCn": "需要",
+   "allomorphs": [
+    "need"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "neighbor",
+   "displayText": "neighbor",
+   "type": "root",
+   "meaningCn": "邻居邻接毗邻而居",
+   "allomorphs": [
+    "neighborh"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "neuter",
+   "displayText": "neuter",
+   "type": "root",
+   "meaningCn": "中性的",
+   "allomorphs": [
+    "neutr"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "never",
+   "displayText": "never",
+   "type": "root",
+   "meaningCn": "从不",
+   "allomorphs": [
+    "never"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sense",
+   "displayText": "sense",
+   "type": "root",
+   "meaningCn": "感应",
+   "allomorphs": [
+    "sense",
+    "sens"
+   ],
+   "etymology": "",
+   "level": 5,
+   "color": "orange"
+  },
+  {
+   "id": "notice",
+   "displayText": "notice",
+   "type": "root",
+   "meaningCn": "注意",
+   "allomorphs": [
+    "notice"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "object",
+   "displayText": "object",
+   "type": "root",
+   "meaningCn": "物体",
+   "allomorphs": [
+    "object"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "lig",
+   "displayText": "lig",
+   "type": "root",
+   "meaningCn": "口闲逛方言",
+   "allomorphs": [
+    "lige"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "observe",
+   "displayText": "observe",
+   "type": "root",
+   "meaningCn": "觉察到",
+   "allomorphs": [
+    "observ",
+    "observe"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "obvious",
+   "displayText": "obvious",
+   "type": "root",
+   "meaningCn": "明显的",
+   "allomorphs": [
+    "obvious"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "occasion",
+   "displayText": "occasion",
+   "type": "root",
+   "meaningCn": "场合",
+   "allomorphs": [
+    "occasion"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "occasional",
+   "displayText": "occasional",
+   "type": "root",
+   "meaningCn": "偶然的",
+   "allomorphs": [
+    "occasional"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "occur",
+   "displayText": "occur",
+   "type": "root",
+   "meaningCn": "发生",
+   "allomorphs": [
+    "occurr"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mitt",
+   "displayText": "mitt",
+   "type": "root",
+   "meaningCn": "棒球手套",
+   "allomorphs": [
+    "mit"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "operation",
+   "displayText": "operation",
+   "type": "root",
+   "meaningCn": "操作",
+   "allomorphs": [
+    "operation"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "opportune",
+   "displayText": "opportune",
+   "type": "root",
+   "meaningCn": "恰好的",
+   "allomorphs": [
+    "opportun"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "optic",
+   "displayText": "optic",
+   "type": "root",
+   "meaningCn": "眼睛的",
+   "allomorphs": [
+    "optic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "orient",
+   "displayText": "orient",
+   "type": "root",
+   "meaningCn": "东方",
+   "allomorphs": [
+    "orient"
+   ],
+   "etymology": "",
+   "level": 5,
+   "color": "orange"
+  },
+  {
+   "id": "origin",
+   "displayText": "origin",
+   "type": "root",
+   "meaningCn": "起源",
+   "allomorphs": [
+    "origin"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "partial",
+   "displayText": "partial",
+   "type": "root",
+   "meaningCn": "部分的",
+   "allomorphs": [
+    "partial"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "particular",
+   "displayText": "particular",
+   "type": "root",
+   "meaningCn": "一项或条点",
+   "allomorphs": [
+    "particular"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pave",
+   "displayText": "pave",
+   "type": "root",
+   "meaningCn": "铺设",
+   "allomorphs": [
+    "pave"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pay",
+   "displayText": "pay",
+   "type": "root",
+   "meaningCn": "薪资",
+   "allomorphs": [
+    "pay"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pen",
+   "displayText": "pen",
+   "type": "root",
+   "meaningCn": "钢笔",
+   "allomorphs": [
+    "pen"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "insula",
+   "displayText": "insula",
+   "type": "root",
+   "meaningCn": "医岛",
+   "allomorphs": [
+    "insula",
+    "insulat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "perfect",
+   "displayText": "perfect",
+   "type": "root",
+   "meaningCn": "完成时完美的",
+   "allomorphs": [
+    "perfect"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "permanent",
+   "displayText": "permanent",
+   "type": "root",
+   "meaningCn": "永久的",
+   "allomorphs": [
+    "permanent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pessimist",
+   "displayText": "pessimist",
+   "type": "root",
+   "meaningCn": "悲观者",
+   "allomorphs": [
+    "pessimist"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "soph",
+   "displayText": "soph",
+   "type": "root",
+   "meaningCn": "美口",
+   "allomorphs": [
+    "soph"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "pipe",
+   "displayText": "pipe",
+   "type": "root",
+   "meaningCn": "管",
+   "allomorphs": [
+    "pipe"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "plenty",
+   "displayText": "plenty",
+   "type": "root",
+   "meaningCn": "充分",
+   "allomorphs": [
+    "plenti"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "poet",
+   "displayText": "poet",
+   "type": "root",
+   "meaningCn": "诗人",
+   "allomorphs": [
+    "poet"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "trait",
+   "displayText": "trait",
+   "type": "root",
+   "meaningCn": "特征",
+   "allomorphs": [
+    "trait"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "portugal",
+   "displayText": "portugal",
+   "type": "root",
+   "meaningCn": "葡萄牙",
+   "allomorphs": [
+    "portugu"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "posit",
+   "displayText": "posit",
+   "type": "root",
+   "meaningCn": "假设",
+   "allomorphs": [
+    "posit"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "practical",
+   "displayText": "practical",
+   "type": "root",
+   "meaningCn": "实际的",
+   "allomorphs": [
+    "practical"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "precede",
+   "displayText": "precede",
+   "type": "root",
+   "meaningCn": "在之前",
+   "allomorphs": [
+    "precede",
+    "preced"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "precise",
+   "displayText": "precise",
+   "type": "root",
+   "meaningCn": "精确的",
+   "allomorphs": [
+    "precis"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "presume",
+   "displayText": "presume",
+   "type": "root",
+   "meaningCn": "假定",
+   "allomorphs": [
+    "presum"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "previous",
+   "displayText": "previous",
+   "type": "root",
+   "meaningCn": "早先的",
+   "allomorphs": [
+    "previous"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "primary",
+   "displayText": "primary",
+   "type": "root",
+   "meaningCn": "最主要者",
+   "allomorphs": [
+    "primari"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "prince",
+   "displayText": "prince",
+   "type": "root",
+   "meaningCn": "王子",
+   "allomorphs": [
+    "prince"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "prior",
+   "displayText": "prior",
+   "type": "root",
+   "meaningCn": "更重要的",
+   "allomorphs": [
+    "prior"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "process",
+   "displayText": "process",
+   "type": "root",
+   "meaningCn": "程序",
+   "allomorphs": [
+    "process"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "claim",
+   "displayText": "claim",
+   "type": "root",
+   "meaningCn": "要求",
+   "allomorphs": [
+    "claim"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "product",
+   "displayText": "product",
+   "type": "root",
+   "meaningCn": "产品",
+   "allomorphs": [
+    "product"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "profession",
+   "displayText": "profession",
+   "type": "root",
+   "meaningCn": "职业",
+   "allomorphs": [
+    "profession"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "profit",
+   "displayText": "profit",
+   "type": "root",
+   "meaningCn": "利润",
+   "allomorphs": [
+    "profit"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "progress",
+   "displayText": "progress",
+   "type": "root",
+   "meaningCn": "进步",
+   "allomorphs": [
+    "progress"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "noun",
+   "displayText": "noun",
+   "type": "root",
+   "meaningCn": "名词",
+   "allomorphs": [
+    "noun"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "portion",
+   "displayText": "portion",
+   "type": "root",
+   "meaningCn": "部分",
+   "allomorphs": [
+    "portion"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "propose",
+   "displayText": "propose",
+   "type": "root",
+   "meaningCn": "计划",
+   "allomorphs": [
+    "propos"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "prosper",
+   "displayText": "prosper",
+   "type": "root",
+   "meaningCn": "繁荣",
+   "allomorphs": [
+    "prosper"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "psychology",
+   "displayText": "psychology",
+   "type": "root",
+   "meaningCn": "心理学",
+   "allomorphs": [
+    "psycholog"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "quarter",
+   "displayText": "quarter",
+   "type": "root",
+   "meaningCn": "四分之一",
+   "allomorphs": [
+    "quarter"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "quick",
+   "displayText": "quick",
+   "type": "root",
+   "meaningCn": "快的",
+   "allomorphs": [
+    "quick"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "quote",
+   "displayText": "quote",
+   "type": "root",
+   "meaningCn": "引用引述",
+   "allomorphs": [
+    "quot"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "radioactive",
+   "displayText": "radioactive",
+   "type": "root",
+   "meaningCn": "放射性的",
+   "allomorphs": [
+    "radioactiv"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "road",
+   "displayText": "road",
+   "type": "root",
+   "meaningCn": "路",
+   "allomorphs": [
+    "road"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rapid",
+   "displayText": "rapid",
+   "type": "root",
+   "meaningCn": "迅速的",
+   "allomorphs": [
+    "rapid"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rare",
+   "displayText": "rare",
+   "type": "root",
+   "meaningCn": "稀罕的",
+   "allomorphs": [
+    "rare"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "react",
+   "displayText": "react",
+   "type": "root",
+   "meaningCn": "重做",
+   "allomorphs": [
+    "react"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rebel",
+   "displayText": "rebel",
+   "type": "root",
+   "meaningCn": "叛徒",
+   "allomorphs": [
+    "rebell"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "call",
+   "displayText": "call",
+   "type": "root",
+   "meaningCn": "呼叫",
+   "allomorphs": [
+    "call"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "recent",
+   "displayText": "recent",
+   "type": "root",
+   "meaningCn": "最近的",
+   "allomorphs": [
+    "recent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "cognition",
+   "displayText": "cognition",
+   "type": "root",
+   "meaningCn": "认识",
+   "allomorphs": [
+    "cognition"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "cognize",
+   "displayText": "cognize",
+   "type": "root",
+   "meaningCn": "认知",
+   "allomorphs": [
+    "cognize"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "recommend",
+   "displayText": "recommend",
+   "type": "root",
+   "meaningCn": "推荐",
+   "allomorphs": [
+    "recommend"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "reduce",
+   "displayText": "reduce",
+   "type": "root",
+   "meaningCn": "减少",
+   "allomorphs": [
+    "reduc"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "reflex",
+   "displayText": "reflex",
+   "type": "root",
+   "meaningCn": "反射",
+   "allomorphs": [
+    "reflex"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rehearse",
+   "displayText": "rehearse",
+   "type": "root",
+   "meaningCn": "预演",
+   "allomorphs": [
+    "rehears"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "inforce",
+   "displayText": "inforce",
+   "type": "root",
+   "meaningCn": "大规模地",
+   "allomorphs": [
+    "inforce"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "relative",
+   "displayText": "relative",
+   "type": "root",
+   "meaningCn": "亲戚",
+   "allomorphs": [
+    "relative",
+    "relativ"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "lease",
+   "displayText": "lease",
+   "type": "root",
+   "meaningCn": "租约",
+   "allomorphs": [
+    "lease"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "reliable",
+   "displayText": "reliable",
+   "type": "root",
+   "meaningCn": "可靠的",
+   "allomorphs": [
+    "reliabil",
+    "reliable"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "reluct",
+   "displayText": "reluct",
+   "type": "root",
+   "meaningCn": "反抗",
+   "allomorphs": [
+    "reluct"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "remark",
+   "displayText": "remark",
+   "type": "root",
+   "meaningCn": "重标记",
+   "allomorphs": [
+    "remark"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "remove",
+   "displayText": "remove",
+   "type": "root",
+   "meaningCn": "移动",
+   "allomorphs": [
+    "remov"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rend",
+   "displayText": "rend",
+   "type": "root",
+   "meaningCn": "分裂",
+   "allomorphs": [
+    "rend"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "repeated",
+   "displayText": "repeated",
+   "type": "root",
+   "meaningCn": "重复的",
+   "allomorphs": [
+    "repeated"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "repeat",
+   "displayText": "repeat",
+   "type": "root",
+   "meaningCn": "重复",
+   "allomorphs": [
+    "repet"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rep",
+   "displayText": "rep",
+   "type": "root",
+   "meaningCn": "棱纹平布",
+   "allomorphs": [
+    "rep"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "republic",
+   "displayText": "republic",
+   "type": "root",
+   "meaningCn": "共和国",
+   "allomorphs": [
+    "republic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "research",
+   "displayText": "research",
+   "type": "root",
+   "meaningCn": "研究",
+   "allomorphs": [
+    "research"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "reside",
+   "displayText": "reside",
+   "type": "root",
+   "meaningCn": "住",
+   "allomorphs": [
+    "reside"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "resign",
+   "displayText": "resign",
+   "type": "root",
+   "meaningCn": "再签署",
+   "allomorphs": [
+    "resign"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "resist",
+   "displayText": "resist",
+   "type": "root",
+   "meaningCn": "抵抗",
+   "allomorphs": [
+    "resist"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "solution",
+   "displayText": "solution",
+   "type": "root",
+   "meaningCn": "解决",
+   "allomorphs": [
+    "solution"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sort",
+   "displayText": "sort",
+   "type": "root",
+   "meaningCn": "种类",
+   "allomorphs": [
+    "sort"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "source",
+   "displayText": "source",
+   "type": "root",
+   "meaningCn": "来源",
+   "allomorphs": [
+    "source"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "respect",
+   "displayText": "respect",
+   "type": "root",
+   "meaningCn": "尊敬",
+   "allomorphs": [
+    "respect"
+   ],
+   "etymology": "",
+   "level": 5,
+   "color": "orange"
+  },
+  {
+   "id": "respective",
+   "displayText": "respective",
+   "type": "root",
+   "meaningCn": "分别的",
+   "allomorphs": [
+    "respective"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "response",
+   "displayText": "response",
+   "type": "root",
+   "meaningCn": "反应",
+   "allomorphs": [
+    "respons"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "strain",
+   "displayText": "strain",
+   "type": "root",
+   "meaningCn": "紧张",
+   "allomorphs": [
+    "strain"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sumere",
+   "displayText": "sumere",
+   "type": "root",
+   "meaningCn": "经消费者经济学",
+   "allomorphs": [
+    "sume"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "venire",
+   "displayText": "venire",
+   "type": "root",
+   "meaningCn": "律陪审员召集令",
+   "allomorphs": [
+    "venue"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "volt",
+   "displayText": "volt",
+   "type": "root",
+   "meaningCn": "伏特化伏特",
+   "allomorphs": [
+    "volt"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "revolution",
+   "displayText": "revolution",
+   "type": "root",
+   "meaningCn": "革命",
+   "allomorphs": [
+    "revolution"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ride",
+   "displayText": "ride",
+   "type": "root",
+   "meaningCn": "骑马",
+   "allomorphs": [
+    "ride"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rome",
+   "displayText": "rome",
+   "type": "root",
+   "meaningCn": "罗马",
+   "allomorphs": [
+    "rom"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "romant",
+   "displayText": "romant",
+   "type": "root",
+   "meaningCn": "浪漫的",
+   "allomorphs": [
+    "romant"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rough",
+   "displayText": "rough",
+   "type": "root",
+   "meaningCn": "粗糙的东西",
+   "allomorphs": [
+    "rough"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "save",
+   "displayText": "save",
+   "type": "root",
+   "meaningCn": "救球解救",
+   "allomorphs": [
+    "sav"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "scan",
+   "displayText": "scan",
+   "type": "root",
+   "meaningCn": "审视",
+   "allomorphs": [
+    "scan"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "dal",
+   "displayText": "dal",
+   "type": "root",
+   "meaningCn": "植木豆等于",
+   "allomorphs": [
+    "dal"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "scarce",
+   "displayText": "scarce",
+   "type": "root",
+   "meaningCn": "难得的",
+   "allomorphs": [
+    "scarce",
+    "scarc"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "second",
+   "displayText": "second",
+   "type": "root",
+   "meaningCn": "秒",
+   "allomorphs": [
+    "second"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "select",
+   "displayText": "select",
+   "type": "root",
+   "meaningCn": "挑选出来的",
+   "allomorphs": [
+    "select"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sell",
+   "displayText": "sell",
+   "type": "root",
+   "meaningCn": "卖",
+   "allomorphs": [
+    "sell"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "conductor",
+   "displayText": "conductor",
+   "type": "root",
+   "meaningCn": "领导者",
+   "allomorphs": [
+    "conductor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "serious",
+   "displayText": "serious",
+   "type": "root",
+   "meaningCn": "严肃的",
+   "allomorphs": [
+    "serious"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ting",
+   "displayText": "ting",
+   "type": "root",
+   "meaningCn": "叮当声",
+   "allomorphs": [
+    "ting"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sheep",
+   "displayText": "sheep",
+   "type": "root",
+   "meaningCn": "羊",
+   "allomorphs": [
+    "shep"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "herd",
+   "displayText": "herd",
+   "type": "root",
+   "meaningCn": "兽群",
+   "allomorphs": [
+    "herd"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "similar",
+   "displayText": "similar",
+   "type": "root",
+   "meaningCn": "相似的",
+   "allomorphs": [
+    "similar"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "slight",
+   "displayText": "slight",
+   "type": "root",
+   "meaningCn": "轻蔑",
+   "allomorphs": [
+    "slight"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "slip",
+   "displayText": "slip",
+   "type": "root",
+   "meaningCn": "滑",
+   "allomorphs": [
+    "slipp"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "slow",
+   "displayText": "slow",
+   "type": "root",
+   "meaningCn": "慢的",
+   "allomorphs": [
+    "slow"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "smooth",
+   "displayText": "smooth",
+   "type": "root",
+   "meaningCn": "平滑的",
+   "allomorphs": [
+    "smooth"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sow",
+   "displayText": "sow",
+   "type": "root",
+   "meaningCn": "母猪",
+   "allomorphs": [
+    "so"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sole",
+   "displayText": "sole",
+   "type": "root",
+   "meaningCn": "脚掌",
+   "allomorphs": [
+    "sole"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "spark",
+   "displayText": "spark",
+   "type": "root",
+   "meaningCn": "火花",
+   "allomorphs": [
+    "spark"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sports",
+   "displayText": "sports",
+   "type": "root",
+   "meaningCn": "英运动会",
+   "allomorphs": [
+    "sports"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "spring",
+   "displayText": "spring",
+   "type": "root",
+   "meaningCn": "春天",
+   "allomorphs": [
+    "spring"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sprink",
+   "displayText": "sprink",
+   "type": "root",
+   "meaningCn": "人名斯普林克尔",
+   "allomorphs": [
+    "sprink"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "start",
+   "displayText": "start",
+   "type": "root",
+   "meaningCn": "惊起",
+   "allomorphs": [
+    "start"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "statistic",
+   "displayText": "statistic",
+   "type": "root",
+   "meaningCn": "统计量统计的",
+   "allomorphs": [
+    "statistic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "steady",
+   "displayText": "steady",
+   "type": "root",
+   "meaningCn": "稳定的",
+   "allomorphs": [
+    "steadi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "steam",
+   "displayText": "steam",
+   "type": "root",
+   "meaningCn": "蒸汽",
+   "allomorphs": [
+    "steam"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "stiff",
+   "displayText": "stiff",
+   "type": "root",
+   "meaningCn": "坚硬的",
+   "allomorphs": [
+    "stiff"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "strict",
+   "displayText": "strict",
+   "type": "root",
+   "meaningCn": "严厉的",
+   "allomorphs": [
+    "strict"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "strong",
+   "displayText": "strong",
+   "type": "root",
+   "meaningCn": "强壮的",
+   "allomorphs": [
+    "strong"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "structure",
+   "displayText": "structure",
+   "type": "root",
+   "meaningCn": "结构",
+   "allomorphs": [
+    "structure",
+    "structur"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "marine",
+   "displayText": "marine",
+   "type": "root",
+   "meaningCn": "舰队",
+   "allomorphs": [
+    "marine"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "merge",
+   "displayText": "merge",
+   "type": "root",
+   "meaningCn": "使合并",
+   "allomorphs": [
+    "merge"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sequent",
+   "displayText": "sequent",
+   "type": "root",
+   "meaningCn": "后果",
+   "allomorphs": [
+    "sequent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sd",
+   "displayText": "sd",
+   "type": "root",
+   "meaningCn": "化磺胺嘧啶",
+   "allomorphs": [
+    "sidy"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "urbs",
+   "displayText": "urbs",
+   "type": "root",
+   "meaningCn": "的复数都市的",
+   "allomorphs": [
+    "urb"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sudden",
+   "displayText": "sudden",
+   "type": "root",
+   "meaningCn": "突然",
+   "allomorphs": [
+    "sudden"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "summary",
+   "displayText": "summary",
+   "type": "root",
+   "meaningCn": "摘要",
+   "allomorphs": [
+    "summar"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "fic",
+   "displayText": "fic",
+   "type": "root",
+   "meaningCn": "表示形成的",
+   "allomorphs": [
+    "fic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "surprise",
+   "displayText": "surprise",
+   "type": "root",
+   "meaningCn": "惊奇",
+   "allomorphs": [
+    "surpris"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "surprising",
+   "displayText": "surprising",
+   "type": "root",
+   "meaningCn": "令人惊讶的",
+   "allomorphs": [
+    "surprising"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rendre",
+   "displayText": "rendre",
+   "type": "root",
+   "meaningCn": "法年终报告",
+   "allomorphs": [
+    "render"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "suspect",
+   "displayText": "suspect",
+   "type": "root",
+   "meaningCn": "被怀疑者",
+   "allomorphs": [
+    "suspic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sympathy",
+   "displayText": "sympathy",
+   "type": "root",
+   "meaningCn": "同情",
+   "allomorphs": [
+    "sympath"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "technic",
+   "displayText": "technic",
+   "type": "root",
+   "meaningCn": "技巧",
+   "allomorphs": [
+    "technic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tedium",
+   "displayText": "tedium",
+   "type": "root",
+   "meaningCn": "单调乏味",
+   "allomorphs": [
+    "tedi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "terrify",
+   "displayText": "terrify",
+   "type": "root",
+   "meaningCn": "使恐惧",
+   "allomorphs": [
+    "terrif"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "thick",
+   "displayText": "thick",
+   "type": "root",
+   "meaningCn": "厚的",
+   "allomorphs": [
+    "thick"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "third",
+   "displayText": "third",
+   "type": "root",
+   "meaningCn": "第三",
+   "allomorphs": [
+    "third"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "thought",
+   "displayText": "thought",
+   "type": "root",
+   "meaningCn": "想法",
+   "allomorphs": [
+    "thought"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "threat",
+   "displayText": "threat",
+   "type": "root",
+   "meaningCn": "恐吓",
+   "allomorphs": [
+    "threat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tor",
+   "displayText": "tor",
+   "type": "root",
+   "meaningCn": "石山",
+   "allomorphs": [
+    "tor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rent",
+   "displayText": "rent",
+   "type": "root",
+   "meaningCn": "租金",
+   "allomorphs": [
+    "rent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "transform",
+   "displayText": "transform",
+   "type": "root",
+   "meaningCn": "化反式",
+   "allomorphs": [
+    "transform"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "transport",
+   "displayText": "transport",
+   "type": "root",
+   "meaningCn": "运输",
+   "allomorphs": [
+    "transport"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "trump",
+   "displayText": "trump",
+   "type": "root",
+   "meaningCn": "王牌",
+   "allomorphs": [
+    "trump"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "twink",
+   "displayText": "twink",
+   "type": "root",
+   "meaningCn": "游戏用语高等级带",
+   "allomorphs": [
+    "twink"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "ultimate",
+   "displayText": "ultimate",
+   "type": "root",
+   "meaningCn": "终极",
+   "allomorphs": [
+    "ultimate"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "go",
+   "displayText": "go",
+   "type": "root",
+   "meaningCn": "去",
+   "allomorphs": [
+    "go"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "undertake",
+   "displayText": "undertake",
+   "type": "root",
+   "meaningCn": "试图",
+   "allomorphs": [
+    "undertak"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "undoubted",
+   "displayText": "undoubted",
+   "type": "root",
+   "meaningCn": "无疑的",
+   "allomorphs": [
+    "undoubted"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "expected",
+   "displayText": "expected",
+   "type": "root",
+   "meaningCn": "预期的",
+   "allomorphs": [
+    "expected"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "just",
+   "displayText": "just",
+   "type": "root",
+   "meaningCn": "公正的",
+   "allomorphs": [
+    "just"
+   ],
+   "etymology": "",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "lucky",
+   "displayText": "lucky",
+   "type": "root",
+   "meaningCn": "幸运的",
+   "allomorphs": [
+    "lucky"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "satisfactory",
+   "displayText": "satisfactory",
+   "type": "root",
+   "meaningCn": "满意的",
+   "allomorphs": [
+    "satisfactori",
+    "satisfactory"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "stable",
+   "displayText": "stable",
+   "type": "root",
+   "meaningCn": "马房",
+   "allomorphs": [
+    "stabil",
+    "stable"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "suitable",
+   "displayText": "suitable",
+   "type": "root",
+   "meaningCn": "适当的",
+   "allomorphs": [
+    "suitable"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "unusual",
+   "displayText": "unusual",
+   "type": "root",
+   "meaningCn": "不寻常的",
+   "allomorphs": [
+    "unusual"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "right",
+   "displayText": "right",
+   "type": "root",
+   "meaningCn": "权利",
+   "allomorphs": [
+    "right"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "date",
+   "displayText": "date",
+   "type": "root",
+   "meaningCn": "日期",
+   "allomorphs": [
+    "date"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "vain",
+   "displayText": "vain",
+   "type": "root",
+   "meaningCn": "无价值的",
+   "allomorphs": [
+    "van"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "vibrate",
+   "displayText": "vibrate",
+   "type": "root",
+   "meaningCn": "振动",
+   "allomorphs": [
+    "vibrat"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "tape",
+   "displayText": "tape",
+   "type": "root",
+   "meaningCn": "带子",
+   "allomorphs": [
+    "tape"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "vigor",
+   "displayText": "vigor",
+   "type": "root",
+   "meaningCn": "精力",
+   "allomorphs": [
+    "vigor"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "virtual",
+   "displayText": "virtual",
+   "type": "root",
+   "meaningCn": "实际上起作用的",
+   "allomorphs": [
+    "virtual"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "vital",
+   "displayText": "vital",
+   "type": "root",
+   "meaningCn": "生命的",
+   "allomorphs": [
+    "vital"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "vita",
+   "displayText": "vita",
+   "type": "root",
+   "meaningCn": "个人简历医生活",
+   "allomorphs": [
+    "vita"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "length",
+   "displayText": "length",
+   "type": "root",
+   "meaningCn": "长度",
+   "allomorphs": [
+    "length"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "white",
+   "displayText": "white",
+   "type": "root",
+   "meaningCn": "白色",
+   "allomorphs": [
+    "white"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "who",
+   "displayText": "who",
+   "type": "root",
+   "meaningCn": "医世界卫生组织",
+   "allomorphs": [
+    "who"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "whole",
+   "displayText": "whole",
+   "type": "root",
+   "meaningCn": "全部",
+   "allomorphs": [
+    "whole",
+    "whol"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "wire",
+   "displayText": "wire",
+   "type": "root",
+   "meaningCn": "电线",
+   "allomorphs": [
+    "wire"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "world",
+   "displayText": "world",
+   "type": "root",
+   "meaningCn": "世界",
+   "allomorphs": [
+    "world"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "wreck",
+   "displayText": "wreck",
+   "type": "root",
+   "meaningCn": "失事",
+   "allomorphs": [
+    "wreck"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "year",
+   "displayText": "year",
+   "type": "root",
+   "meaningCn": "年",
+   "allomorphs": [
+    "year"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "young",
+   "displayText": "young",
+   "type": "root",
+   "meaningCn": "年轻的",
+   "allomorphs": [
+    "young"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "youth",
+   "displayText": "youth",
+   "type": "root",
+   "meaningCn": "年轻",
+   "allomorphs": [
+    "youth"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "zeal",
+   "displayText": "zeal",
+   "type": "root",
+   "meaningCn": "医玉蜀黍属",
+   "allomorphs": [
+    "zeal"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "alt",
+   "displayText": "alt-",
+   "type": "prefix",
+   "meaningCn": "高音调高音调的计",
+   "allomorphs": [
+    "alt"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "avi",
+   "displayText": "avi-",
+   "type": "prefix",
+   "meaningCn": "多媒体文件格式",
+   "allomorphs": [
+    "avi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "pari",
+   "displayText": "pari-",
+   "type": "prefix",
+   "meaningCn": "帕里球员名",
+   "allomorphs": [
+    "pari"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "cost",
+   "displayText": "cost-",
+   "type": "prefix",
+   "meaningCn": "代价",
+   "allomorphs": [
+    "cost"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "demo",
+   "displayText": "demo-",
+   "type": "prefix",
+   "meaningCn": "演示",
+   "allomorphs": [
+    "demo"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "equi",
+   "displayText": "equi-",
+   "type": "prefix",
+   "meaningCn": "马科动物包括马",
+   "allomorphs": [
+    "equi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "step",
+   "displayText": "step-",
+   "type": "prefix",
+   "meaningCn": "步骤",
+   "allomorphs": [
+    "step"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "forth",
+   "displayText": "forth-",
+   "type": "prefix",
+   "meaningCn": "往前",
+   "allomorphs": [
+    "furth",
+    "forth"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "great",
+   "displayText": "great-",
+   "type": "prefix",
+   "meaningCn": "大的",
+   "allomorphs": [
+    "great"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "tal",
+   "displayText": "tal-",
+   "type": "prefix",
+   "meaningCn": "事物处理应用语言",
+   "allomorphs": [
+    "tal"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "iso",
+   "displayText": "iso-",
+   "type": "prefix",
+   "meaningCn": "计国际标准化组织",
+   "allomorphs": [
+    "iso"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "magnet",
+   "displayText": "magnet-",
+   "type": "prefix",
+   "meaningCn": "磁铁",
+   "allomorphs": [
+    "magnet"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "milli",
+   "displayText": "milli-",
+   "type": "prefix",
+   "meaningCn": "计毫",
+   "allomorphs": [
+    "milli"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "multi",
+   "displayText": "multi-",
+   "type": "prefix",
+   "meaningCn": "计多",
+   "allomorphs": [
+    "multi"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "new",
+   "displayText": "new-",
+   "type": "prefix",
+   "meaningCn": "新的",
+   "allomorphs": [
+    "new"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "nitro",
+   "displayText": "nitro-",
+   "type": "prefix",
+   "meaningCn": "硝基",
+   "allomorphs": [
+    "nitro"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "non",
+   "displayText": "non-",
+   "type": "prefix",
+   "meaningCn": "非",
+   "allomorphs": [
+    "non"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "numero",
+   "displayText": "numero-",
+   "type": "prefix",
+   "meaningCn": "号",
+   "allomorphs": [
+    "numero"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "philo",
+   "displayText": "philo-",
+   "type": "prefix",
+   "meaningCn": "斐洛古犹太神秘主",
+   "allomorphs": [
+    "philo"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "proto",
+   "displayText": "proto-",
+   "type": "prefix",
+   "meaningCn": "计原型",
+   "allomorphs": [
+    "proto",
+    "prot"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "sex",
+   "displayText": "sex-",
+   "type": "prefix",
+   "meaningCn": "性别",
+   "allomorphs": [
+    "sex"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "sh",
+   "displayText": "sh-",
+   "type": "prefix",
+   "meaningCn": "嘘",
+   "allomorphs": [
+    "sh",
+    "she"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "blue"
+  },
+  {
+   "id": "ally",
+   "displayText": "-ally",
+   "type": "suffix",
+   "meaningCn": "结盟",
+   "allomorphs": [
+    "ally",
+    "alli"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ior",
+   "displayText": "-ior",
+   "type": "suffix",
+   "meaningCn": "输入输出寄存器",
+   "allomorphs": [
+    "ior"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "eer",
+   "displayText": "-eer",
+   "type": "suffix",
+   "meaningCn": "与有关的人",
+   "allomorphs": [
+    "eer"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ification",
+   "displayText": "-ification",
+   "type": "suffix",
+   "meaningCn": "奉为神",
+   "allomorphs": [
+    "ification"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "version",
+   "displayText": "-version",
+   "type": "suffix",
+   "meaningCn": "一种描述",
+   "allomorphs": [
+    "version"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "vert",
+   "displayText": "-vert",
+   "type": "suffix",
+   "meaningCn": "草木",
+   "allomorphs": [
+    "vert"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "cracy",
+   "displayText": "-cracy",
+   "type": "suffix",
+   "meaningCn": "的政府",
+   "allomorphs": [
+    "cracy"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "nom",
+   "displayText": "-nom",
+   "type": "suffix",
+   "meaningCn": "名义上的等于",
+   "allomorphs": [
+    "nom"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "elect",
+   "displayText": "-elect",
+   "type": "suffix",
+   "meaningCn": "当选人",
+   "allomorphs": [
+    "elect"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "valent",
+   "displayText": "-valent",
+   "type": "suffix",
+   "meaningCn": "医价的",
+   "allomorphs": [
+    "valent"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "inlaw",
+   "displayText": "-inlaw",
+   "type": "suffix",
+   "meaningCn": "法依法",
+   "allomorphs": [
+    "inlaw"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "more",
+   "displayText": "-more",
+   "type": "suffix",
+   "meaningCn": "更多多的",
+   "allomorphs": [
+    "more"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "eous",
+   "displayText": "-eous",
+   "type": "suffix",
+   "meaningCn": "医具油滴的",
+   "allomorphs": [
+    "eous"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "red",
+   "displayText": "-red",
+   "type": "suffix",
+   "meaningCn": "红的",
+   "allomorphs": [
+    "red",
+    "ood"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "meter",
+   "displayText": "-meter",
+   "type": "suffix",
+   "meaningCn": "测量",
+   "allomorphs": [
+    "meter"
+   ],
+   "etymology": "",
+   "level": 5,
+   "color": "green"
+  },
+  {
+   "id": "lord",
+   "displayText": "-lord",
+   "type": "suffix",
+   "meaningCn": "统治者",
+   "allomorphs": [
+    "lord"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "logic",
+   "displayText": "-logic",
+   "type": "suffix",
+   "meaningCn": "逻辑",
+   "allomorphs": [
+    "logic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "sophy",
+   "displayText": "-sophy",
+   "type": "suffix",
+   "meaningCn": "表示知识",
+   "allomorphs": [
+    "sophy"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "graphic",
+   "displayText": "-graphic",
+   "type": "suffix",
+   "meaningCn": "形象的",
+   "allomorphs": [
+    "graphic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ably",
+   "displayText": "-ably",
+   "type": "suffix",
+   "meaningCn": "构成与结尾的形容",
+   "allomorphs": [
+    "ably"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "ein",
+   "displayText": "-ein",
+   "type": "suffix",
+   "meaningCn": "计欧洲情报网",
+   "allomorphs": [
+    "ein"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "poo",
+   "displayText": "-poo",
+   "type": "suffix",
+   "meaningCn": "邮政汇票",
+   "allomorphs": [
+    "poo"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "icity",
+   "displayText": "-icity",
+   "type": "suffix",
+   "meaningCn": "化合价",
+   "allomorphs": [
+    "icity"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "tropic",
+   "displayText": "-tropic",
+   "type": "suffix",
+   "meaningCn": "回归线",
+   "allomorphs": [
+    "tropic"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
+  },
+  {
+   "id": "proof",
+   "displayText": "-proof",
+   "type": "suffix",
+   "meaningCn": "证据",
+   "allomorphs": [
+    "proof"
+   ],
+   "etymology": "",
+   "level": 3,
+   "color": "green"
   }
  ],
  "worlds": [
@@ -35363,6 +48547,42 @@
     "four",
     "seven",
     "six"
+   ]
+  },
+  {
+   "id": "critique-hall",
+   "name": "评议堂",
+   "morphemeIds": [
+    "critic",
+    "just",
+    "respect",
+    "correspond",
+    "sense",
+    "name"
+   ]
+  },
+  {
+   "id": "office-house",
+   "name": "职事馆",
+   "morphemeIds": [
+    "employ",
+    "mission",
+    "pay",
+    "hold",
+    "verb"
+   ]
+  },
+  {
+   "id": "refine-workshop",
+   "name": "精作坊",
+   "morphemeIds": [
+    "fine",
+    "close",
+    "regular",
+    "second",
+    "common",
+    "general",
+    "orient"
    ]
   }
  ]
