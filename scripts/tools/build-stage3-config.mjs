@@ -119,6 +119,11 @@ const MORPHEME_MERGE = {
   minimus: 'minim', // minimize 落在 minimus
   passer: 'pass', // passport 落在 passer —— 词根本体是 pass（经过）
   active: 'act', // activity/radioactive 落在 active —— 词根本体是 act（做）
+  // 下面三组两边都挂了世界，原先在地图上各出两张卡（同一词根出现在两个世界）。合并后
+  // 要把源 id 从世界列表里摘掉，否则世界会引用一个已不存在的词素。
+  courage: 'cor', // discourage/encouragement/courageous 落在 courage，词根本体是 cor（心）
+  miss: 'mit', // missile/missing/permissible 落在 miss；mit 的变体表里本来就有 miss
+  just: 'jud', // unjust 落在 just；jud 的变体表里本来就有 just
 }
 
 // 切分修正：把词指回**正确的**词根（不是合并记录）。
@@ -146,6 +151,30 @@ for (const [word, parts] of Object.entries(allSplits)) {
   }
 }
 if (rewritten.length) console.log(`词素 id 合并/改写 ${rewritten.length} 处：\n  ${rewritten.join('\n  ')}`)
+
+// 家族登记表跟着改写：families 是按词根手写的登记表，键与 roots 里写死的是源 id。
+// 目标家族通常已经存在（cor / mit / jud），所以是「把源家族的词并进目标、删掉源条目」。
+// 不处理这一层的话，下面「每个教学词根都要挂世界」的自检会拦下 courage / miss / just ——
+// 它们已经不是词素了，但仍然以家族登记的形式存在。
+const mergedFamilies = []
+for (const [from, to] of Object.entries(MORPHEME_MERGE)) {
+  const source = allFamilies[from]
+  if (!source) continue
+  // roots 里的源 id 也要跟着改：只并 words 的话，cor 的 roots 会变成 ['cor','courage']，
+  // 下面的「每个教学词根都要挂世界」就会拿 courage 去查世界，报一个已经不存在的词根。
+  const roots = [...new Set((source.roots ?? []).map((root) => MORPHEME_MERGE[root] ?? root))]
+  const words = source.words ?? []
+  const target = allFamilies[to]
+  if (target) {
+    target.words = [...new Set([...(target.words ?? []), ...words])]
+    target.roots = [...new Set([...(target.roots ?? []), ...roots])]
+  } else {
+    allFamilies[to] = { ...source, roots, words }
+  }
+  delete allFamilies[from]
+  mergedFamilies.push(`${from}（${words.length} 词）→ ${to}`)
+}
+if (mergedFamilies.length) console.log(`家族登记表合并 ${mergedFamilies.length} 处：${mergedFamilies.join('、')}`)
 
 // 受影响词素的变体表重算：目标词素要收下原先落在源 id 上的表面（A6 要求 part.surface ∈
 // allomorphs），源 id 上不再被用到的变体也要摘掉（否则 A22 报「死变体」—— notation 改挂 note

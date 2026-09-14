@@ -69,6 +69,23 @@ for (const m of morphemes) {
   }
 }
 
+// 「同一个词素挂在多个世界」（A24b，只报警不算错）。
+// 语义上似乎可以两属，但地图页是「一个词根一张卡」，重复挂载会让同一个词根出现在两张卡上
+// （实测过一次：`port` 同时挂在传送门与匠作台）。这个词根到底归哪一边是个编辑判断，
+// 所以只报警让人去定，不自动择一。
+const worldOwner = new Map()
+for (const world of worlds) {
+  for (const id of world.morphemeIds) {
+    if (!worldOwner.has(id)) worldOwner.set(id, [])
+    worldOwner.get(id).push(world.name)
+  }
+}
+for (const [id, names] of worldOwner) {
+  if (names.length > 1) {
+    findings.push({ level: 'warning', rule: 'A24b', target: id, message: `同时挂在 ${names.join('、')} 上，地图上会出多张卡` })
+  }
+}
+
 const failures = []
 const wordIds = new Set(words.map((word) => word.id))
 for (const id of canaryWordIds) if (!wordIds.has(id)) failures.push(`canary 词条丢失：${id}`)

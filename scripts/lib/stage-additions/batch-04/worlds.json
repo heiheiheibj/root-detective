@@ -1,10 +1,10 @@
 {
- "_comment": "3.3 四级批新增 5 个世界（+ 之前 32 个 = 37），覆盖本批全部 31 个教学词根家族。口径同 batch-02/03：世界按批次增量，只挂本批已进词库的词根。本批家族少（18 个），因为四级词多为长派生词，词根集中在少数几个已经上过地图的家族上；后两个世界是总装后 A24 报出的 13 个孤儿词根补齐的。",
+ "_comment": "3.3 四级批新增 5 个世界（+ 之前 32 个 = 37），覆盖本批全部 31 个教学词根家族。口径同 batch-02/03：世界按批次增量，只挂本批已进词库的词根。本批家族少（18 个），因为四级词多为长派生词，词根集中在少数几个已经上过地图的家族上；后两个世界是总装后 A24 报出的 13 个孤儿词根补齐的。3.4 六级批把 `just` 摘掉 —— unjust 原先挂在独立记录 just 上，与 jud（judge/justice/adjust/judicious…）本是同一词根，地图上却在评议堂与正义殿堂各出一张卡，合并后统一归正义殿堂。",
  "worlds": [
   {
    "id": "critique-hall",
    "name": "评议堂",
-   "morphemeIds": ["critic", "just", "respect", "correspond", "sense", "name"]
+   "morphemeIds": ["critic", "respect", "correspond", "sense", "name"]
   },
   {
    "id": "office-house",

@@ -1,5 +1,5 @@
 {
- "_comment": "3.2 高考批新增 9 个世界（+ 之前 23 个 = 32），覆盖本批全部教学词根家族。口径同 batch-02：世界按批次增量，只挂本批已进词库的词根；families 只对教学词根建，零件词根不上地图。识读阁后面补进的 `note` 来自 3.4 六级批的切分修正：notice/notation 原先误挂在 `not`（那张卡要同时管词根 not-(知道) 和副词 not(不) 两种意思），改挂 `note`(知道、标记) 后两条记录各自正确，note 家族涨到 4 词、升级成教学词根，按词义归到这里（sign/mark/detect 同族）；`not` 留在明辨堂管 neither/notwithstanding。",
+ "_comment": "3.2 高考批新增 9 个世界（+ 之前 23 个 = 32），覆盖本批全部教学词根家族。口径同 batch-02：世界按批次增量，只挂本批已进词库的词根；families 只对教学词根建，零件词根不上地图。两处 3.4 六级批带来的增删：① 识读阁补进 `note` —— notice/notation 原先误挂在 `not`（那张卡要同时管词根 not-(知道) 和副词 not(不) 两种意思），改挂 `note`(知道、标记) 后两条记录各自正确，note 家族涨到 4 词、升级成教学词根，按词义归到这里（sign/mark/detect 同族），`not` 留在明辨堂管 neither/notwithstanding；② 心志堂摘掉 `courage`、运力场摘掉 `miss` —— 同一词根原先在两条记录上各挂一个世界，地图上出两张卡，3.4 把 courage 并进 cor（心）、miss 并进 mit（送），词根本体所在的正义殿堂与货运码头才是它们该在的地方。",
  "worlds": [
   {
    "id": "market-lane",
@@ -19,12 +19,12 @@
   {
    "id": "will-hall",
    "name": "心志堂",
-   "morphemeIds": ["sist", "tempt", "courage", "willing", "firm", "certain"]
+   "morphemeIds": ["sist", "tempt", "willing", "firm", "certain"]
   },
   {
    "id": "force-yard",
    "name": "运力场",
-   "morphemeIds": ["tend", "late", "miss", "found", "press", "collect", "lay", "fall"]
+   "morphemeIds": ["tend", "late", "found", "press", "collect", "lay", "fall"]
   },
   {
    "id": "council-chamber",

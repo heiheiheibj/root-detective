@@ -1,5 +1,5 @@
 {
- "_comment": "Stage 3 内容配置：200 家族 / 553 词（由 build-stage3-config.mjs 合并 batch-01 + batch-02 + batch-03 + batch-04 + batch-05 生成；源头=stage1-content.json + stage-additions/*，不要手改本文件）。",
+ "_comment": "Stage 3 内容配置：197 家族 / 553 词（由 build-stage3-config.mjs 合并 batch-01 + batch-02 + batch-03 + batch-04 + batch-05 生成；源头=stage1-content.json + stage-additions/*，不要手改本文件）。",
  "families": {
   "spec": {
    "roots": [
@@ -218,7 +218,9 @@
     "encourage",
     "accord",
     "cordial",
-    "discord"
+    "discord",
+    "discourage",
+    "encouragement"
    ]
   },
   "vinc": {
@@ -582,7 +584,8 @@
     "mission",
     "dismiss",
     "transmit",
-    "intermittent"
+    "intermittent",
+    "missile"
    ]
   },
   "cap": {
@@ -651,7 +654,8 @@
     "adjust",
     "judgement",
     "prejudice",
-    "judicious"
+    "judicious",
+    "unjust"
    ]
   },
   "serv": {
@@ -1444,15 +1448,6 @@
     "detective"
    ]
   },
-  "courage": {
-   "roots": [
-    "courage"
-   ],
-   "words": [
-    "discourage",
-    "encouragement"
-   ]
-  },
   "distinct": {
    "roots": [
     "distinct"
@@ -1600,14 +1595,6 @@
    ],
    "words": [
     "minimum"
-   ]
-  },
-  "miss": {
-   "roots": [
-    "miss"
-   ],
-   "words": [
-    "missile"
    ]
   },
   "organ": {
@@ -1920,14 +1907,6 @@
    "words": [
     "secondary",
     "secondly"
-   ]
-  },
-  "just": {
-   "roots": [
-    "just"
-   ],
-   "words": [
-    "unjust"
    ]
   },
   "physic": {
@@ -12553,7 +12532,7 @@
     "surface": "dis"
    },
    {
-    "id": "courage",
+    "id": "cor",
     "surface": "courage"
    }
   ],
@@ -12843,7 +12822,7 @@
     "surface": "en"
    },
    {
-    "id": "courage",
+    "id": "cor",
     "surface": "courage"
    },
    {
@@ -14647,7 +14626,7 @@
   ],
   "missile": [
    {
-    "id": "miss",
+    "id": "mit",
     "surface": "miss"
    },
    {
@@ -22489,7 +22468,7 @@
   ],
   "missing": [
    {
-    "id": "miss",
+    "id": "mit",
     "surface": "miss"
    },
    {
@@ -25633,7 +25612,7 @@
     "surface": "un"
    },
    {
-    "id": "just",
+    "id": "jud",
     "surface": "just"
    }
   ],
@@ -27607,7 +27586,7 @@
   ],
   "courageous": [
    {
-    "id": "courage",
+    "id": "cor",
     "surface": "courage"
    },
    {
@@ -31649,7 +31628,7 @@
     "surface": "per"
    },
    {
-    "id": "miss",
+    "id": "mit",
     "surface": "miss"
    },
    {
@@ -35245,7 +35224,8 @@
    "allomorphs": [
     "cor",
     "cord",
-    "cour"
+    "cour",
+    "courage"
    ],
    "level": 2,
    "color": "orange",
@@ -35712,7 +35692,6 @@
    "meaningCn": "判断、法律",
    "allomorphs": [
     "jud",
-    "judg",
     "judge",
     "just",
     "judic"
@@ -44569,18 +44548,6 @@
    "color": "orange"
   },
   {
-   "id": "courage",
-   "displayText": "courage",
-   "type": "root",
-   "meaningCn": "心",
-   "allomorphs": [
-    "courage"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "orange"
-  },
-  {
    "id": "discriminate",
    "displayText": "discriminate",
    "type": "root",
@@ -46308,18 +46275,6 @@
    ],
    "etymology": "",
    "level": 3,
-   "color": "orange"
-  },
-  {
-   "id": "miss",
-   "displayText": "miss",
-   "type": "root",
-   "meaningCn": "送",
-   "allomorphs": [
-    "miss"
-   ],
-   "etymology": "",
-   "level": 1,
    "color": "orange"
   },
   {
@@ -55644,18 +55599,6 @@
    "color": "orange"
   },
   {
-   "id": "just",
-   "displayText": "just",
-   "type": "root",
-   "meaningCn": "判断、公正",
-   "allomorphs": [
-    "just"
-   ],
-   "etymology": "",
-   "level": 1,
-   "color": "orange"
-  },
-  {
    "id": "lucky",
    "displayText": "lucky",
    "type": "root",
@@ -63525,8 +63468,7 @@
    "name": "匠作台",
    "morphemeIds": [
     "draw",
-    "lead",
-    "port"
+    "lead"
    ]
   },
   {
@@ -63572,7 +63514,6 @@
    "morphemeIds": [
     "sist",
     "tempt",
-    "courage",
     "willing",
     "firm",
     "certain"
@@ -63584,7 +63525,6 @@
    "morphemeIds": [
     "tend",
     "late",
-    "miss",
     "found",
     "press",
     "collect",
@@ -63661,7 +63601,6 @@
    "name": "评议堂",
    "morphemeIds": [
     "critic",
-    "just",
     "respect",
     "correspond",
     "sense",

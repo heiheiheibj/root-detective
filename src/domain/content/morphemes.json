@@ -874,7 +874,8 @@
     "allomorphs": [
       "cor",
       "cord",
-      "cour"
+      "cour",
+      "courage"
     ],
     "level": 2,
     "color": "orange",
@@ -1341,7 +1342,6 @@
     "meaningCn": "判断、法律",
     "allomorphs": [
       "jud",
-      "judg",
       "judge",
       "just",
       "judic"
@@ -9553,18 +9553,6 @@
     "color": "orange"
   },
   {
-    "id": "courage",
-    "displayText": "courage",
-    "type": "root",
-    "meaningCn": "心",
-    "allomorphs": [
-      "courage"
-    ],
-    "etymology": "",
-    "level": 1,
-    "color": "orange"
-  },
-  {
     "id": "discriminate",
     "displayText": "discriminate",
     "type": "root",
@@ -11244,18 +11232,6 @@
     ],
     "etymology": "",
     "level": 3,
-    "color": "orange"
-  },
-  {
-    "id": "miss",
-    "displayText": "miss",
-    "type": "root",
-    "meaningCn": "送",
-    "allomorphs": [
-      "miss"
-    ],
-    "etymology": "",
-    "level": 1,
     "color": "orange"
   },
   {
@@ -19570,18 +19546,6 @@
     ],
     "etymology": "",
     "level": 3,
-    "color": "orange"
-  },
-  {
-    "id": "just",
-    "displayText": "just",
-    "type": "root",
-    "meaningCn": "判断、公正",
-    "allomorphs": [
-      "just"
-    ],
-    "etymology": "",
-    "level": 1,
     "color": "orange"
   },
   {

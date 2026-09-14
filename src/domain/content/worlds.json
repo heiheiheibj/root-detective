@@ -274,11 +274,10 @@
   {
     "id": "craft-bench",
     "name": "匠作台",
-    "description": "学习词根：draw、lead、port（匠作台）",
+    "description": "学习词根：draw、lead（匠作台）",
     "morphemeIds": [
       "draw",
-      "lead",
-      "port"
+      "lead"
     ]
   },
   {
@@ -324,11 +323,10 @@
   {
     "id": "will-hall",
     "name": "心志堂",
-    "description": "学习词根：sist、tempt、courage、willing、firm、certain（心志堂）",
+    "description": "学习词根：sist、tempt、willing、firm、certain（心志堂）",
     "morphemeIds": [
       "sist",
       "tempt",
-      "courage",
       "willing",
       "firm",
       "certain"
@@ -337,11 +335,10 @@
   {
     "id": "force-yard",
     "name": "运力场",
-    "description": "学习词根：tend、late、miss、found、press、collect、lay、fall（运力场）",
+    "description": "学习词根：tend、late、found、press、collect、lay、fall（运力场）",
     "morphemeIds": [
       "tend",
       "late",
-      "miss",
       "found",
       "press",
       "collect",
@@ -420,10 +417,9 @@
   {
     "id": "critique-hall",
     "name": "评议堂",
-    "description": "学习词根：critic、just、respect、correspond、sense、name（评议堂）",
+    "description": "学习词根：critic、respect、correspond、sense、name（评议堂）",
     "morphemeIds": [
       "critic",
-      "just",
       "respect",
       "correspond",
       "sense",
