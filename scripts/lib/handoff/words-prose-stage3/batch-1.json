@@ -18,8 +18,8 @@
   "metaphorMeaningCn": "接受、同意",
   "metaphorOptions": [
    "接受、同意",
-   "替个人简历医生活操心",
-   "印象的味道"
+   "替印象操心",
+   "感知的味道"
   ],
   "mnemonicNote": "ac(朝向)+cept(拿)：把东西朝自己这边拿过来",
   "sourceNote": "拉丁 accipere，ad-(朝向) + capere(拿)"
@@ -55,7 +55,7 @@
   "metaphorOptions": [
    "活跃的、积极的",
    "蒸馏室的影子",
-   "愉快的的人"
+   "退下的人"
   ],
   "mnemonicNote": "act(做)+ive(形容词后缀)：爱动、爱做事的",
   "sourceNote": "拉丁 activus，agere(做) 的形容词形式"
@@ -102,8 +102,8 @@
   "metaphorMeaningCn": "赞美、钦佩",
   "metaphorOptions": [
    "赞美、钦佩",
-   "把雇用雇用串起来",
-   "稻草的影子"
+   "把稻草翻开",
+   "宇宙的影子"
   ],
   "mnemonicNote": "ad(朝向)+mir(惊奇)：看着他就觉得了不起",
   "sourceNote": "拉丁 admirari，ad-(朝向) + mirari(惊奇)"
@@ -150,8 +150,8 @@
   "metaphorMeaningCn": "协议、同意",
   "metaphorOptions": [
    "协议、同意",
-   "种植的过程",
-   "向着伸展去"
+   "伸展的过程",
+   "向着懒惰的去"
   ],
   "mnemonicNote": "agree(赞同)+ment(名词后缀)",
   "sourceNote": "古法语 agreement，源自 agreer(使满意)"
@@ -210,8 +210,8 @@
   "metaphorMeaningCn": "减轻、缓解",
   "metaphorOptions": [
    "减轻、缓解",
-   "表示形成的小站",
-   "创造的地方"
+   "创造的小站",
+   "礼物的地方"
   ],
   "mnemonicNote": "al(朝向)+lev(轻)+iate：把重量往轻里调",
   "sourceNote": "拉丁 alleviare，ad-(朝向) + levis(轻)"
@@ -223,7 +223,7 @@
   "metaphorOptions": [
    "任何人",
    "被跳跃的东西的东西",
-   "把不同的机差动串起来"
+   "把温和的串起来"
   ],
   "mnemonicNote": "any(任何)+body(身体)：随便哪一个身体都行",
   "sourceNote": "古英语复合词，any + body"
@@ -235,7 +235,7 @@
   "metaphorOptions": [
    "任何事物",
    "一种一致的习俗",
-   "成熟的的一角"
+   "承受的一角"
   ],
   "mnemonicNote": "any(任何)+thing(东西)：不计较是哪一个",
   "sourceNote": "古英语复合词，any + thing"
@@ -282,7 +282,7 @@
   "metaphorMeaningCn": "同伴、同事",
   "metaphorOptions": [
    "同伴、同事",
-   "亲爱的人亲爱的的味道",
+   "闲谈的味道",
    "被向外的东西"
   ],
   "mnemonicNote": "as(朝向)+soci(结伴)+ate：把自己和别人结成一伙",
@@ -342,8 +342,8 @@
   "metaphorMeaningCn": "汽车",
   "metaphorOptions": [
    "汽车",
-   "断肢的另一面",
-   "过分的的一角"
+   "过分的的另一面",
+   "队列的一角"
   ],
   "mnemonicNote": "auto(自己)+mob(动)+ile：不靠马、自己会跑",
   "sourceNote": "法语 automobile，希腊 autos(自己) + 拉丁 mobilis(可动)"
@@ -354,8 +354,8 @@
   "metaphorMeaningCn": "背景、经历",
   "metaphorOptions": [
    "背景、经历",
-   "化暗杆内螺纹的背面",
-   "母亲的旧事"
+   "母亲的背面",
+   "紧的的旧事"
   ],
   "mnemonicNote": "back(后面)+ground(地面)：画面后方那片底子",
   "sourceNote": "英语复合词，19 世纪绘画术语转义"
@@ -379,7 +379,7 @@
   "metaphorOptions": [
    "棒球",
    "兽穴的旧事",
-   "可避免的法可作为的来路"
+   "例外的来路"
   ],
   "mnemonicNote": "base(垒)+ball(球)：围着四个垒跑的球戏",
   "sourceNote": "英语复合词，19 世纪美国起源"
@@ -450,8 +450,8 @@
   "metaphorMeaningCn": "传记",
   "metaphorOptions": [
    "传记",
-   "斜齿鳊使成凹状的工具",
-   "数着问候过日子"
+   "问候的工具",
+   "数着城镇过日子"
   ],
   "mnemonicNote": "bio(生命)+graphy(写)：把一个人的一生写下来",
   "sourceNote": "希腊 bios(生命) + graphia(书写)"
@@ -474,7 +474,7 @@
   "metaphorMeaningCn": "生物技术",
   "metaphorOptions": [
    "生物技术",
-   "围着依赖他人者依赖的转",
+   "围着闪烁转",
    "数着紧张过日子"
   ],
   "mnemonicNote": "bio(生命)+tech(技术)：拿生命本身当工具的学问",
@@ -487,7 +487,7 @@
   "metaphorOptions": [
    "生日",
    "数着可数的过日子",
-   "围着它计信息论转"
+   "围着混合转"
   ],
   "mnemonicNote": "birth(出生)+day(日)：你来到世上的那天",
   "sourceNote": "古英语复合词，byrd(出生) + dæg(日)"
@@ -511,7 +511,7 @@
   "metaphorOptions": [
    "早餐",
    "感谢的背面",
-   "被问题的东西"
+   "被谷物的东西"
   ],
   "mnemonicNote": "break(打破)+fast(禁食)：一夜没吃，早上开戒",
   "sourceNote": "古英语 brecan(打破) + fæstan(禁食)"
@@ -534,8 +534,8 @@
   "metaphorMeaningCn": "容量、能力",
   "metaphorOptions": [
    "容量、能力",
-   "守着柔软的过活",
-   "替英语英文的操心"
+   "守着公平过活",
+   "替数值的操心"
   ],
   "mnemonicNote": "capac(容纳)+ity(名词)：装得下多少的量",
   "sourceNote": "拉丁 capacitas，capere(容纳) 的名词形式"
@@ -547,7 +547,7 @@
   "metaphorOptions": [
    "船长、队长",
    "使开化的过程",
-   "向着宴请去"
+   "向着水流去"
   ],
   "mnemonicNote": "cap(头)+tain(持)：走在最前头、掌住局面的人",
   "sourceNote": "拉丁 caput(头)，经古法语 capitaine"
@@ -558,8 +558,8 @@
   "metaphorMeaningCn": "俘虏、被困的",
   "metaphorOptions": [
    "俘虏、被困的",
-   "替阿格里土耳其地区操心",
-   "悲观者的味道"
+   "替悲观者操心",
+   "有义务的的味道"
   ],
   "mnemonicNote": "capt(拿)+ive：被人抓住、失去自由",
   "sourceNote": "拉丁 captivus，capere(抓) 的过去分词"
@@ -606,8 +606,8 @@
   "metaphorMeaningCn": "目录、系列",
   "metaphorOptions": [
    "目录、系列",
-   "斜齿鳊使成凹状的过程",
-   "离制定法律用立法规很远"
+   "浆果的过程",
+   "离最后的很远"
   ],
   "mnemonicNote": "cata(向下)+log(说)：从上到下一条条列出来",
   "sourceNote": "希腊 katalogos，kata-(向下) + legein(说、列举)"

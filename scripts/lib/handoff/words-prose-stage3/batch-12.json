@@ -6,8 +6,8 @@
   "metaphorMeaningCn": "内容、满足的",
   "metaphorOptions": [
    "内容、满足的",
-   "流程的一角",
-   "一种城镇的习俗"
+   "城镇的一角",
+   "一种轻蔑的习俗"
   ],
   "mnemonicNote": "con(共同)+tent(持有)：里面实实在在装着的那些",
   "sourceNote": "拉丁 contentus，continere(容纳) 的过去分词"
@@ -30,8 +30,8 @@
   "metaphorMeaningCn": "矛盾的、对立的",
   "metaphorOptions": [
    "矛盾的、对立的",
-   "的现在分词组件对的地方",
-   "祈祷的来路"
+   "祈祷的地方",
+   "伏特的来路"
   ],
   "mnemonicNote": "contradict(说反)+ory：前一句后一句自己打自己",
   "sourceNote": "拉丁 contradictorius，contradicere(反驳)"
@@ -42,7 +42,7 @@
   "metaphorMeaningCn": "贡献、促成",
   "metaphorOptions": [
    "贡献、促成",
-   "替三个一组操心",
+   "替分解操心",
    "守着社团的过活"
   ],
   "mnemonicNote": "con(共同)+tribute(给予)：你出一份、我出一份凑起来",
@@ -55,7 +55,7 @@
   "metaphorOptions": [
    "贡献、捐助",
    "把原姓的翻开",
-   "感应的影子"
+   "如此的影子"
   ],
   "mnemonicNote": "contribut(共出)+ion：凑到公账上的那一笔",
   "sourceNote": "拉丁 contributio，contribuere(共同给予)"
@@ -90,8 +90,8 @@
   "metaphorMeaningCn": "谈话、会话",
   "metaphorOptions": [
    "谈话、会话",
-   "把商店串起来",
-   "器具的工具"
+   "把礼节串起来",
+   "商店的工具"
   ],
   "mnemonicNote": "convers(交谈)+ation：你一句我一句地转着说",
   "sourceNote": "拉丁 conversatio，conversari(往来、交谈)"
@@ -150,8 +150,8 @@
   "metaphorMeaningCn": "正确的、改正",
   "metaphorOptions": [
    "正确的、改正",
-   "托盘的工具",
-   "好意的一角"
+   "好意的工具",
+   "在旁边的一角"
   ],
   "mnemonicNote": "cor(加强)+rect(直)：把弯的那截掰回正位",
   "sourceNote": "拉丁 corrigere，com-(加强) + regere(引导、使直)"
@@ -223,7 +223,7 @@
   "metaphorOptions": [
    "庭院、院子",
    "离戏剧很远",
-   "替感激操心"
+   "替捶胸操心"
   ],
   "mnemonicNote": "court(院子)+yard(场地)：四面房子圈出来的那块天井",
   "sourceNote": "古法语 court(院子) + 古英语 geard(场地)"
@@ -234,8 +234,8 @@
   "metaphorMeaningCn": "牛仔、牧牛人",
   "metaphorOptions": [
    "牛仔、牧牛人",
-   "数着公园过日子",
-   "围着答应转"
+   "数着答应过日子",
+   "围着环境转"
   ],
   "mnemonicNote": "cow(牛)+boy(小伙)：骑马在牧场上圈牛那群人",
   "sourceNote": "英语复合词，cow(牛) + boy，美国西部牧牛人称谓"
@@ -270,8 +270,8 @@
   "metaphorMeaningCn": "拥挤的、塞满的",
   "metaphorOptions": [
    "拥挤的、塞满的",
-   "皮克特人计图象的人",
-   "一种短的的习俗"
+   "短的的人",
+   "一种架子的习俗"
   ],
   "mnemonicNote": "crowd(人群)+ed：脚都没处下的那种密",
   "sourceNote": "古英语 crudan(推挤) + -ed"
@@ -295,7 +295,7 @@
   "metaphorOptions": [
    "橱柜、碗柜",
    "向着财政去",
-   "围着意图转"
+   "围着遮盖转"
   ],
   "mnemonicNote": "cup(杯)+board(板)：架板上一排排码着碗碟那柜子",
   "sourceNote": "中古英语 cuppebord，cup + bord(板)"
@@ -307,7 +307,7 @@
   "metaphorOptions": [
    "顾客、客户",
    "名词的小站",
-   "守着半升音调过活"
+   "守着实验过活"
   ],
   "mnemonicNote": "custom(习惯)+er(人)：三天两头往这儿跑那位",
   "sourceNote": "古法语 costumier，costume(惯例、习惯)"
@@ -342,8 +342,8 @@
   "metaphorMeaningCn": "黑暗、夜色",
   "metaphorOptions": [
    "黑暗、夜色",
-   "被邻居邻接毗邻而居的东西",
-   "痛苦的味道"
+   "被痛苦的东西",
+   "怀疑论者的味道"
   ],
   "mnemonicNote": "dark(暗)+ness：伸手看不见五指那阵子",
   "sourceNote": "古英语 deorc(暗) + -nes(状态)"
@@ -355,7 +355,7 @@
   "metaphorOptions": [
    "数据库",
    "经受的影子",
-   "把请使高兴翻开"
+   "把追求翻开"
   ],
   "mnemonicNote": "data(数据)+base(库)：一条条码好、随取随用的柜子",
   "sourceNote": "拉丁 data(给与之物) + 希腊 basis(基础)"
@@ -438,8 +438,8 @@
   "metaphorMeaningCn": "高兴的、欣喜的",
   "metaphorOptions": [
    "高兴的、欣喜的",
-   "世界的来路",
-   "佛陀的地方"
+   "是否的来路",
+   "世界的地方"
   ],
   "mnemonicNote": "delight(欣喜)+ed：嘴角压都压不下去",
   "sourceNote": "古法语 delit(乐趣)，拉丁 delectare(使愉悦)"
@@ -450,8 +450,8 @@
   "metaphorMeaningCn": "部门、系",
   "metaphorOptions": [
    "部门、系",
-   "药品的小站",
-   "守着罗伊男子名过活"
+   "梯级的小站",
+   "守着把握过活"
   ],
   "mnemonicNote": "depart(分开)+ment：一摊大事切成几块分头管",
   "sourceNote": "法语 département，departir(分开)"
@@ -462,8 +462,8 @@
   "metaphorMeaningCn": "离开、出发",
   "metaphorOptions": [
    "离开、出发",
-   "向着机智去",
-   "围着嘈杂的转"
+   "向着嘈杂的去",
+   "围着测量转"
   ],
   "mnemonicNote": "depart(启程)+ure：拎着箱子头也不回那一刻",
   "sourceNote": "古法语 departir(分开)，de-(分离) + partir(分)"
@@ -559,7 +559,7 @@
   "metaphorOptions": [
    "差别、分歧",
    "预防的旧事",
-   "欧洲的背面"
+   "面团的背面"
   ],
   "mnemonicNote": "differ(不同)+ence：两样东西摆在一起才看得出那点",
   "sourceNote": "拉丁 differentia，differre(不同)"
@@ -630,8 +630,8 @@
   "metaphorMeaningCn": "残疾、无能力",
   "metaphorOptions": [
    "残疾、无能力",
-   "被给文章加标点的东西",
-   "处理管理的背面"
+   "被捶胸的东西",
+   "给文章加标点的背面"
   ],
   "mnemonicNote": "disabil(使无能)+ity：身体被拿走了某一样本事",
   "sourceNote": "dis-(不) + able(能) + -ity(状态)"
@@ -655,7 +655,7 @@
   "metaphorOptions": [
    "缺点、不利条件",
    "群众的影子",
-   "把绳索翻开"
+   "把礼节翻开"
   ],
   "mnemonicNote": "dis(不)+ad(朝向)+vantage(优势)：起跑就慢半拍",
   "sourceNote": "古法语 desavantage，des-(不) + avantage(优势)"
@@ -678,8 +678,8 @@
   "metaphorMeaningCn": "分歧、争执",
   "metaphorOptions": [
    "分歧、争执",
-   "半升音调的人",
-   "一种叫声的习俗"
+   "叫声的人",
+   "一种愉快的的习俗"
   ],
   "mnemonicNote": "dis+agreement：谈到半路各执一词那个场面",
   "sourceNote": "古法语 desagrement，desagreer(不赞同)"
@@ -690,8 +690,8 @@
   "metaphorMeaningCn": "消失、不见",
   "metaphorOptions": [
    "消失、不见",
-   "切断的味道",
-   "方式的另一面"
+   "方式的味道",
+   "投资的另一面"
   ],
   "mnemonicNote": "dis(不)+appear(出现)：转身那下就没影了",
   "sourceNote": "中古英语 disparren，des-(不) + aparoir(出现)"
@@ -715,7 +715,7 @@
   "metaphorOptions": [
    "失望、扫兴",
    "一种涌流的习俗",
-   "一绺头发的人"
+   "语法的人"
   ],
   "mnemonicNote": "disappoint(落空)+ment：满怀指望走过去却扑了个空",
   "sourceNote": "法语 desappointement，desapointier(落空)"

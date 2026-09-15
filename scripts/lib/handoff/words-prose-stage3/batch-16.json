@@ -6,8 +6,8 @@
   "metaphorMeaningCn": "重要性、重大",
   "metaphorOptions": [
    "重要性、重大",
-   "数着毒药过日子",
-   "小心的工具"
+   "数着行为者过日子",
+   "毒药的工具"
   ],
   "mnemonicNote": "import(带入)+ance：掂在手里就觉得压手",
   "sourceNote": "拉丁 importare，in-(入) + portare(携带)"
@@ -78,8 +78,8 @@
   "metaphorMeaningCn": "不正确的、错误的",
   "metaphorOptions": [
    "不正确的、错误的",
-   "费力的的地方",
-   "年轻的来路"
+   "年轻的地方",
+   "主修课的来路"
   ],
   "mnemonicNote": "in(不)+correct(正确)：歪着放，对不上那条基准线",
   "sourceNote": "拉丁 incorrectus，in-(不) + corrigere(改正)"
@@ -102,8 +102,8 @@
   "metaphorMeaningCn": "独立的、自主的",
   "metaphorOptions": [
    "独立的、自主的",
-   "一绺头发的一角",
-   "可靠的的另一面"
+   "滑落的一角",
+   "一绺头发的另一面"
   ],
   "mnemonicNote": "in(不)+dependent(依赖)：自己站着，不用扶",
   "sourceNote": "in-(不) + 拉丁 dependere(依赖)"
@@ -138,8 +138,8 @@
   "metaphorMeaningCn": "通知、告知",
   "metaphorOptions": [
    "通知、告知",
-   "替公共汽车计总线操心",
-   "守着机械的过活"
+   "替机械的操心",
+   "守着拴紧过活"
   ],
   "mnemonicNote": "in(进入)+form(形状)：把事情的样子装进他脑子里",
   "sourceNote": "拉丁 informare，in-(入) + forma(形状)"
@@ -151,7 +151,7 @@
   "metaphorOptions": [
    "插入、嵌入",
    "语言学家的工具",
-   "数着细菌过日子"
+   "数着会啄的鸟过日子"
   ],
   "mnemonicNote": "in(进入)+sert(放置)：把卡片塞进那本书里",
   "sourceNote": "拉丁 inserere，in-(入) + serere(放置、连接)"
@@ -174,8 +174,8 @@
   "metaphorMeaningCn": "代替、反而",
   "metaphorOptions": [
    "代替、反而",
-   "找出的另一面",
-   "密集的的味道"
+   "节制的另一面",
+   "找出的味道"
   ],
   "mnemonicNote": "in(在)+stead(位置)：站到它本该在的那个位子上",
   "sourceNote": "中古英语 in stede，stede(位置)"
@@ -210,8 +210,8 @@
   "metaphorMeaningCn": "保险、保险费",
   "metaphorOptions": [
    "保险、保险费",
-   "疤痕的过程",
-   "向着沐浴去"
+   "攒下的过程",
+   "向着疤痕去"
   ],
   "mnemonicNote": "insur(使安全)+ance：先交一笔，出了事有人兜",
   "sourceNote": "古法语 enseurance，enseurer(使安全)"
@@ -222,8 +222,8 @@
   "metaphorMeaningCn": "意图、打算",
   "metaphorOptions": [
    "意图、打算",
-   "数着壮举过日子",
-   "权利的工具"
+   "数着权利过日子",
+   "早晨的工具"
   ],
   "mnemonicNote": "intent(专注)+ion：心思早朝着那边使劲了",
   "sourceNote": "拉丁 intentio，intendere(伸向、专注)"
@@ -282,8 +282,8 @@
   "metaphorMeaningCn": "中断、打扰",
   "metaphorOptions": [
    "中断、打扰",
-   "插入的旧事",
-   "进行的背面"
+   "挤出的旧事",
+   "容器的背面"
   ],
   "mnemonicNote": "inter(之间)+rupt(断裂)：话说一半被人接了下半句",
   "sourceNote": "拉丁 interrumpere，inter-(之间) + rumpere(断)"
@@ -319,7 +319,7 @@
   "metaphorOptions": [
    "发明、虚构",
    "围着诱惑转",
-   "数着经星期四过日子"
+   "数着重做过日子"
   ],
   "mnemonicNote": "invent(想出)+ion：脑子里凭空冒出来的新玩意",
   "sourceNote": "拉丁 inventio，invenire(找到、想出)"
@@ -331,7 +331,7 @@
   "metaphorOptions": [
    "发明家、发明者",
    "把孩子串起来",
-   "继承人法继承人的工具"
+   "开始的工具"
   ],
   "mnemonicNote": "invent(想出)+or(人)：别人没见过的东西从他手里出来",
   "sourceNote": "拉丁 inventor，invenire(想出)"
@@ -343,7 +343,7 @@
   "metaphorOptions": [
    "邀请、请柬",
    "进行的另一面",
-   "战役战斗的一角"
+   "决定的一角"
   ],
   "mnemonicNote": "invit(相邀)+ation：一张片子递过来，请你赏光",
   "sourceNote": "拉丁 invitatio，invitare(相邀)"
@@ -355,7 +355,7 @@
   "metaphorOptions": [
    "它自己、它本身",
    "好奇的的工具",
-   "数着涌流过日子"
+   "数着喷出过日子"
   ],
   "mnemonicNote": "it(它)+self(自身)：说的就是它，不牵扯旁的",
   "sourceNote": "古英语 hit self，it + self"
@@ -390,8 +390,8 @@
   "metaphorMeaningCn": "珠宝、首饰",
   "metaphorOptions": [
    "珠宝、首饰",
-   "一种混合混合的习俗",
-   "想像的一角"
+   "一种想像的习俗",
+   "有力的的一角"
   ],
   "mnemonicNote": "jewel(宝石)+ry：一盒子亮闪闪、锁在柜里的",
   "sourceNote": "古法语 joel(宝石)，拉丁 jocale(玩物)"
@@ -402,8 +402,8 @@
   "metaphorMeaningCn": "记者、新闻工作者",
   "metaphorOptions": [
    "记者、新闻工作者",
-   "引擎的味道",
-   "早先的的另一面"
+   "早先的的味道",
+   "序列的另一面"
   ],
   "mnemonicNote": "journal(日报)+ist(人)：天天往现场跑、回来赶稿那位",
   "sourceNote": "古法语 journal(每日的)，拉丁 diurnalis"
@@ -438,8 +438,8 @@
   "metaphorMeaningCn": "厨房、灶间",
   "metaphorOptions": [
    "厨房、灶间",
-   "天生的的过去分词的来路",
-   "环节的地方"
+   "有义务的的来路",
+   "燃烧的地方"
   ],
   "mnemonicNote": "kit(灶)+chen：一进门就是油烟和饭香那间",
   "sourceNote": "古英语 cycene，拉丁 coquina(灶房)"
@@ -499,7 +499,7 @@
   "metaphorOptions": [
    "后者的、后半的",
    "把熟练的串起来",
-   "把雇用雇用翻开"
+   "把钉住翻开"
   ],
   "mnemonicNote": "latt(晚)+er(比较)：两个里排在后面那一位",
   "sourceNote": "古英语 lætra，læt(迟) 的比较级"
@@ -523,7 +523,7 @@
   "metaphorOptions": [
    "律师",
    "饰带的旧事",
-   "轮胎的来路"
+   "阳性的来路"
   ],
   "mnemonicNote": "law(法律)+yer(人)：厚厚一摞条文背得滚瓜烂熟",
   "sourceNote": "中古英语 law(法律) + -yer"
@@ -571,7 +571,7 @@
   "metaphorOptions": [
    "解放、释放",
    "懒惰的的过程",
-   "离费力的很远"
+   "离器官很远"
   ],
   "mnemonicNote": "liberat(使自由)+ion：把绑着的绳子一刀割开",
   "sourceNote": "拉丁 liberatio，liberare(使自由)"
@@ -594,8 +594,8 @@
   "metaphorMeaningCn": "一生、终生",
   "metaphorOptions": [
    "一生、终生",
-   "伦恩男子名的人",
-   "不可避免的的影子"
+   "不可避免的的人",
+   "悲伤的影子"
   ],
   "mnemonicNote": "life(生命)+time(时间)：从落地到闭眼那段长度",
   "sourceNote": "英语复合词，life + time"
@@ -631,7 +631,7 @@
   "metaphorOptions": [
    "活泼的、生动的",
    "一种诚实的的习俗",
-   "把符咒串起来"
+   "把附上串起来"
   ],
   "mnemonicNote": "live(活)+ly：坐不住、一说就笑那种",
   "sourceNote": "古英语 liflic，lif(生命) + -lic"
@@ -679,7 +679,7 @@
   "metaphorOptions": [
    "扬声器、喇叭",
    "把必需品串起来",
-   "追求的工具"
+   "可避免的的工具"
   ],
   "mnemonicNote": "loud(响)+speaker(发声器)：挂在杆子上喊话那个盒子",
   "sourceNote": "英语复合词，loud + speaker"
@@ -702,8 +702,8 @@
   "metaphorMeaningCn": "行李、行装",
   "metaphorOptions": [
    "行李、行装",
-   "船乘船以船运的小站",
-   "守着安定过活"
+   "安定的小站",
+   "守着填上过活"
   ],
   "mnemonicNote": "lugg(拖拽)+age：箱子上那两个轮子一路响",
   "sourceNote": "古诺尔斯语 lugge(拖、拉) + -age"

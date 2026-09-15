@@ -6,8 +6,8 @@
   "metaphorMeaningCn": "任何人、随便谁",
   "metaphorOptions": [
    "任何人、随便谁",
-   "轮辐装轮辐的人",
-   "一种贮存谷物等的容器的习俗"
+   "统计的人",
+   "一种波兰的习俗"
   ],
   "mnemonicNote": "any(任何)+one(一个)：圈里划多大都算数",
   "sourceNote": "古英语 ænig + an，两个词直接拼合"
@@ -18,8 +18,8 @@
   "metaphorMeaningCn": "反正、无论如何",
   "metaphorOptions": [
    "反正、无论如何",
-   "中国的另一面",
-   "熄灭的的一角"
+   "羽毛的另一面",
+   "中国的一角"
   ],
   "mnemonicNote": "any(任何)+way(路)：走哪条都绕不开这个结果",
   "sourceNote": "英语复合词，any + way"
@@ -43,7 +43,7 @@
   "metaphorOptions": [
    "公寓、一套房",
    "使摇动的背面",
-   "把我将翻开"
+   "把无论翻开"
   ],
   "mnemonicNote": "apart(分开)+ment：把一层楼隔成互不相干几家",
   "sourceNote": "法语 appartement，意大利 appartare(分开)"
@@ -55,7 +55,7 @@
   "metaphorOptions": [
    "道歉、赔不是",
    "同意的小站",
-   "守着贮存谷物等的容器过活"
+   "守着操作过活"
   ],
   "mnemonicNote": "apolog(辩解)+ize：把话说明白，把自己摘出来",
   "sourceNote": "希腊 apologia，apo-(离开) + logos(言说)"
@@ -79,7 +79,7 @@
   "metaphorOptions": [
    "外貌、露面",
    "离相信很远",
-   "火车的过程"
+   "显示的过程"
   ],
   "mnemonicNote": "appear(露面)+ance：站到人前时的那副模样",
   "sourceNote": "古法语 aparance，apparere(出现)"
@@ -91,7 +91,7 @@
   "metaphorOptions": [
    "鼓掌、称赞",
    "把怀疑论者翻开",
-   "把雇用雇用串起来"
+   "把满足串起来"
   ],
   "mnemonicNote": "ap(朝向)+laud(称赞)：巴掌朝着台上拍起来",
   "sourceNote": "拉丁 applaudere，ad-(朝向) + plaudere(拍手)"
@@ -102,7 +102,7 @@
   "metaphorMeaningCn": "申请、应用",
   "metaphorOptions": [
    "申请、应用",
-   "桌子的背面",
+   "使高兴的背面",
    "放入钱袋的旧事"
   ],
   "mnemonicNote": "appl(贴上)+ication：把表格贴到办事窗口上",
@@ -126,7 +126,7 @@
   "metaphorMeaningCn": "约会、预约",
   "metaphorOptions": [
    "约会、预约",
-   "经展览会的味道",
+   "代表的味道",
    "文件的另一面"
   ],
   "mnemonicNote": "appoint(指定)+ment：双方把时间钉死那一刻",
@@ -151,7 +151,7 @@
   "metaphorOptions": [
    "接近、方法",
    "一种好感的习俗",
-   "地下的一角"
+   "黄金的一角"
   ],
   "mnemonicNote": "ap(朝向)+roach(近)：脚步朝着那边挪过去",
   "sourceNote": "拉丁 appropiare，ad-(朝向) + prope(近)"
@@ -163,7 +163,7 @@
   "metaphorOptions": [
    "赞成、批准",
    "装天花板的工具",
-   "牛的的味道"
+   "蒸馏室的味道"
   ],
   "mnemonicNote": "ap(朝向)+prove(证明)：看过证据就点了头",
   "sourceNote": "拉丁 approbare，ad-(朝向) + probare(证明)"
@@ -186,8 +186,8 @@
   "metaphorMeaningCn": "阿拉伯语、阿拉伯的",
   "metaphorOptions": [
    "阿拉伯语、阿拉伯的",
-   "平原的地方",
-   "匆忙的小站"
+   "匆忙的地方",
+   "苏打的小站"
   ],
   "mnemonicNote": "arab(阿拉伯)+ic：从右往左写的那门语言",
   "sourceNote": "拉丁 Arabicus，Arabia(阿拉伯半岛)"
@@ -222,8 +222,8 @@
   "metaphorMeaningCn": "扶手椅",
   "metaphorOptions": [
    "扶手椅",
-   "相信的旧事",
-   "符号的背面"
+   "日耳曼的旧事",
+   "相信的背面"
   ],
   "mnemonicNote": "arm(手臂)+chair(椅子)：两侧伸出胳膊给你搭着",
   "sourceNote": "英语复合词，16 世纪起指带扶手的椅子"
@@ -294,8 +294,8 @@
   "metaphorMeaningCn": "艺术家、画家",
   "metaphorOptions": [
    "艺术家、画家",
-   "数着卡片过日子",
-   "围着大街转"
+   "数着鼩鼱过日子",
+   "围着卡片转"
   ],
   "mnemonicNote": "art(技艺)+ist(人)：手上活儿练到旁人做不来",
   "sourceNote": "法语 artiste，拉丁 ars(技艺)"
@@ -306,8 +306,8 @@
   "metaphorMeaningCn": "惭愧的、羞于见人的",
   "metaphorOptions": [
    "惭愧的、羞于见人的",
-   "印度河的地方",
-   "严厉的的来路"
+   "严厉的的地方",
+   "免疫的的来路"
   ],
   "mnemonicNote": "a(在)+shame(羞)+d：脸上挂不住那个劲儿",
   "sourceNote": "古英语 asceamod，a-(加强) + sceamu(羞耻)"
@@ -366,8 +366,8 @@
   "metaphorMeaningCn": "援助、帮助",
   "metaphorOptions": [
    "援助、帮助",
-   "白色的来路",
-   "恐惧的地方"
+   "这样的来路",
+   "白色的地方"
   ],
   "mnemonicNote": "assist(搭手)+ance：伸过来的那只手",
   "sourceNote": "中世纪拉丁 assistentia，assistere(站在旁边)"
@@ -402,8 +402,8 @@
   "metaphorMeaningCn": "天文学家、天文工作者",
   "metaphorOptions": [
    "天文学家、天文工作者",
-   "公司的地方",
-   "晶石的旧事"
+   "源头的地方",
+   "公司的小站"
   ],
   "mnemonicNote": "astronom(天文)+er(人)：整夜守着星图的那位",
   "sourceNote": "希腊 astronomos，astron(星) + nomos(规律)"
@@ -438,8 +438,8 @@
   "metaphorMeaningCn": "达到、获得",
   "metaphorOptions": [
    "达到、获得",
-   "替金属操心",
-   "守着照亮过活"
+   "替自己的操心",
+   "守着金属过活"
   ],
   "mnemonicNote": "at(朝向)+tain(持)：踮起脚把它攥在手里",
   "sourceNote": "拉丁 attingere，ad-(朝向) + tangere(触)"
@@ -451,7 +451,7 @@
   "metaphorOptions": [
    "尝试、试图",
    "迅速的的旧事",
-   "局部区域网络的背面"
+   "别的的背面"
   ],
   "mnemonicNote": "at(朝向)+tempt(试探)：先伸出一只手探探路",
   "sourceNote": "拉丁 attemptare，ad-(朝向) + temptare(试)"
@@ -522,8 +522,8 @@
   "metaphorMeaningCn": "自治的、自主的",
   "metaphorOptions": [
    "自治的、自主的",
-   "委员会的另一面",
-   "紧张的味道"
+   "紧张的另一面",
+   "排外的的味道"
   ],
   "mnemonicNote": "autonom(自主)+ous：自己的事自己拍板",
   "sourceNote": "希腊 autonomos，autos(自己) + nomos(法律)"
@@ -546,8 +546,8 @@
   "metaphorMeaningCn": "平均的、普通的",
   "metaphorOptions": [
    "平均的、普通的",
-   "守着与词尾的名词构成过活",
-   "宣布的小站"
+   "守着宣布过活",
+   "主义的小站"
   ],
   "mnemonicNote": "古时海上货损要摊到各家，摊出的那个数",
   "sourceNote": "阿拉伯 awariya(损坏的货物)，经意大利语传入"
@@ -583,7 +583,7 @@
   "metaphorOptions": [
    "笨拙的、尴尬的",
    "被心理学的东西",
-   "斜齿鳊使成凹状的味道"
+   "跟随的味道"
   ],
   "mnemonicNote": "awk(反手)+ward(方向)：左右手用倒了那种别扭",
   "sourceNote": "古诺尔斯语 afugr(反着)，af-(反) + hverfa(转)"
@@ -606,8 +606,8 @@
   "metaphorMeaningCn": "羽毛球、羽毛球运动",
   "metaphorOptions": [
    "羽毛球、羽毛球运动",
-   "昏睡状态的旧事",
-   "在周围的来路"
+   "在周围的旧事",
+   "估计的来路"
   ],
   "mnemonicNote": "从博福特公爵的庄园里传出来的一种球戏",
   "sourceNote": "英国 Badminton 庄园，19 世纪在此定形"
@@ -619,7 +619,7 @@
   "metaphorOptions": [
    "行李、包袱",
    "国家的过程",
-   "向着化合价去"
+   "向着白垩去"
   ],
   "mnemonicNote": "bagg(包)+age：大包小包凑成的那一堆",
   "sourceNote": "古法语 bagage，bage(包裹)"
@@ -630,7 +630,7 @@
   "metaphorMeaningCn": "面包店、烘焙坊",
   "metaphorOptions": [
    "面包店、烘焙坊",
-   "敬畏使敬畏的味道",
+   "自己的的味道",
    "被殖民地的东西"
   ],
   "mnemonicNote": "bake(烤)+ry(场所)：隔着街就闻见麦香那家",
@@ -654,8 +654,8 @@
   "metaphorMeaningCn": "理发店",
   "metaphorOptions": [
    "理发店",
-   "围着涉及转",
-   "悬挂的地方"
+   "围着心跳转",
+   "涉及的来路"
   ],
   "mnemonicNote": "barber(剃头匠)+shop(店)：门口转着灯筒那家",
   "sourceNote": "英语复合词，barber 源自拉丁 barba(胡须)"
@@ -679,7 +679,7 @@
   "metaphorOptions": [
    "篮球、篮球运动",
    "离商议很远",
-   "替感觉操心"
+   "替天平操心"
   ],
   "mnemonicNote": "basket(篮子)+ball(球)：最早真拿桃筐当球门",
   "sourceNote": "英语复合词，1891 年美国发明时用桃篮"
@@ -690,8 +690,8 @@
   "metaphorMeaningCn": "浴衣、睡袍",
   "metaphorOptions": [
    "浴衣、睡袍",
-   "一种法保民官的习俗",
-   "中提琴的人"
+   "一种中提琴的习俗",
+   "要求的人"
   ],
   "mnemonicNote": "bath(沐浴)+robe(长袍)：出了浴缸随手裹上的那件",
   "sourceNote": "英语复合词，bath + robe(袍服)"

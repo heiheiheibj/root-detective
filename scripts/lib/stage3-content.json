@@ -6194,7 +6194,7 @@
   ],
   "correct": [
    {
-    "id": "cor",
+    "id": "corr",
     "surface": "cor"
    },
    {
@@ -9354,12 +9354,8 @@
   ],
   "whether": [
    {
-    "id": "whet",
-    "surface": "whet"
-   },
-   {
-    "id": "her",
-    "surface": "her"
+    "id": "whether",
+    "surface": "whether"
    }
   ],
   "wide": [
@@ -11202,12 +11198,8 @@
   ],
   "carrot": [
    {
-    "id": "car",
-    "surface": "car"
-   },
-   {
-    "id": "rot",
-    "surface": "rot"
+    "id": "carrot",
+    "surface": "carrot"
    }
   ],
   "casual": [
@@ -18340,12 +18332,8 @@
   ],
   "wander": [
    {
-    "id": "wandn",
-    "surface": "wande"
-   },
-   {
-    "id": "rn",
-    "surface": "r"
+    "id": "wander",
+    "surface": "wander"
    }
   ],
   "warehouse": [
@@ -19916,12 +19904,8 @@
   ],
   "delivery": [
    {
-    "id": "deli",
-    "surface": "deli"
-   },
-   {
-    "id": "very",
-    "surface": "very"
+    "id": "delivery",
+    "surface": "delivery"
    }
   ],
   "democracy": [
@@ -21908,12 +21892,12 @@
   ],
   "isolate": [
    {
-    "id": "iso",
-    "surface": "iso"
+    "id": "isol",
+    "surface": "isol"
    },
    {
-    "id": "late",
-    "surface": "late"
+    "id": "ate",
+    "surface": "ate"
    }
   ],
   "jewish": [
@@ -22468,7 +22452,7 @@
   ],
   "missing": [
    {
-    "id": "mit",
+    "id": "missan",
     "surface": "miss"
    },
    {
@@ -27526,7 +27510,7 @@
   ],
   "correlate": [
    {
-    "id": "cor",
+    "id": "corr",
     "surface": "cor"
    },
    {
@@ -35222,7 +35206,6 @@
    "displayText": "cor / cord / cour",
    "meaningCn": "心",
    "allomorphs": [
-    "cor",
     "cord",
     "cour",
     "courage"
@@ -36402,7 +36385,7 @@
    "id": "ford",
    "displayText": "ford",
    "type": "root",
-   "meaningCn": "浅滩",
+   "meaningCn": "向前",
    "allomorphs": [
     "ford"
    ],
@@ -36451,7 +36434,7 @@
    "id": "line",
    "displayText": "line",
    "type": "root",
-   "meaningCn": "列",
+   "meaningCn": "线、列",
    "allomorphs": [
     "line"
    ],
@@ -36487,7 +36470,7 @@
    "id": "a",
    "displayText": "a",
    "type": "root",
-   "meaningCn": "第一个字母",
+   "meaningCn": "在",
    "allomorphs": [
     "a"
    ],
@@ -36525,7 +36508,7 @@
    "id": "so",
    "displayText": "so",
    "type": "root",
-   "meaningCn": "自旋轨道分裂",
+   "meaningCn": "如此、这样",
    "allomorphs": [
     "so"
    ],
@@ -36561,7 +36544,7 @@
    "id": "any",
    "displayText": "any",
    "type": "root",
-   "meaningCn": "任何的任何",
+   "meaningCn": "任何",
    "allomorphs": [
     "any"
    ],
@@ -36597,7 +36580,7 @@
    "id": "rive",
    "displayText": "rive",
    "type": "root",
-   "meaningCn": "撕开",
+   "meaningCn": "岸",
    "allomorphs": [
     "rive"
    ],
@@ -36633,7 +36616,7 @@
    "id": "attend",
    "displayText": "attend",
    "type": "root",
-   "meaningCn": "参加",
+   "meaningCn": "拉",
    "allomorphs": [
     "attend",
     "atten"
@@ -36670,7 +36653,7 @@
    "id": "ground",
    "displayText": "ground",
    "type": "root",
-   "meaningCn": "土地",
+   "meaningCn": "地",
    "allomorphs": [
     "ground"
    ],
@@ -36767,7 +36750,7 @@
    "id": "leave",
    "displayText": "leave",
    "type": "root",
-   "meaningCn": "许可",
+   "meaningCn": "信",
    "allomorphs": [
     "lieve"
    ],
@@ -36801,9 +36784,9 @@
   },
   {
    "id": "eond",
-   "displayText": "eond",
+   "displayText": "yond",
    "type": "root",
-   "meaningCn": "经活期",
+   "meaningCn": "那一边",
    "allomorphs": [
     "yond"
    ],
@@ -36815,7 +36798,7 @@
    "id": "cycle",
    "displayText": "cycle",
    "type": "root",
-   "meaningCn": "周期",
+   "meaningCn": "轮",
    "allomorphs": [
     "cycle",
     "cycl"
@@ -36890,7 +36873,7 @@
    "id": "break",
    "displayText": "break",
    "type": "root",
-   "meaningCn": "休息",
+   "meaningCn": "破",
    "allomorphs": [
     "break"
    ],
@@ -36902,7 +36885,7 @@
    "id": "fast",
    "displayText": "fast",
    "type": "root",
-   "meaningCn": "快速的",
+   "meaningCn": "牢固",
    "allomorphs": [
     "fast"
    ],
@@ -36938,7 +36921,7 @@
    "id": "butt",
    "displayText": "butt",
    "type": "root",
-   "meaningCn": "粗大的一头",
+   "meaningCn": "桶",
    "allomorphs": [
     "butt"
    ],
@@ -36962,7 +36945,7 @@
    "id": "fly",
    "displayText": "fly",
    "type": "root",
-   "meaningCn": "苍蝇",
+   "meaningCn": "飞",
    "allomorphs": [
     "fly"
    ],
@@ -36998,7 +36981,7 @@
    "id": "car",
    "displayText": "car",
    "type": "root",
-   "meaningCn": "汽车",
+   "meaningCn": "关心",
    "allomorphs": [
     "car",
     "care"
@@ -37167,7 +37150,7 @@
    "id": "cert",
    "displayText": "cert",
    "type": "root",
-   "meaningCn": "必然的事情计计算",
+   "meaningCn": "确定",
    "allomorphs": [
     "cert"
    ],
@@ -37216,7 +37199,7 @@
    "id": "coun",
    "displayText": "coun",
    "type": "root",
-   "meaningCn": "顾问",
+   "meaningCn": "对面",
    "allomorphs": [
     "coun"
    ],
@@ -37458,7 +37441,7 @@
    "id": "dump",
    "displayText": "dump",
    "type": "root",
-   "meaningCn": "垃圾场倾倒",
+   "meaningCn": "面团",
    "allomorphs": [
     "dump"
    ],
@@ -37519,7 +37502,7 @@
    "id": "engine",
    "displayText": "engine",
    "type": "root",
-   "meaningCn": "引擎",
+   "meaningCn": "机器",
    "allomorphs": [
     "engine"
    ],
@@ -37627,7 +37610,7 @@
    "id": "exam",
    "displayText": "exam",
    "type": "root",
-   "meaningCn": "考试",
+   "meaningCn": "取出",
    "allomorphs": [
     "exam"
    ],
@@ -37639,7 +37622,7 @@
    "id": "excel",
    "displayText": "excel",
    "type": "root",
-   "meaningCn": "胜过",
+   "meaningCn": "高出",
    "allomorphs": [
     "excell"
    ],
@@ -37651,7 +37634,7 @@
    "id": "expense",
    "displayText": "expense",
    "type": "root",
-   "meaningCn": "费用",
+   "meaningCn": "花费",
    "allomorphs": [
     "expens"
    ],
@@ -37711,7 +37694,7 @@
    "id": "it",
    "displayText": "it",
    "type": "root",
-   "meaningCn": "它计信息论",
+   "meaningCn": "它；走",
    "allomorphs": [
     "ite",
     "it"
@@ -37772,7 +37755,7 @@
    "id": "flow",
    "displayText": "flow",
    "type": "root",
-   "meaningCn": "流程",
+   "meaningCn": "流",
    "allomorphs": [
     "flow"
    ],
@@ -37870,7 +37853,7 @@
    "id": "govern",
    "displayText": "govern",
    "type": "root",
-   "meaningCn": "统治",
+   "meaningCn": "掌舵",
    "allomorphs": [
     "govern"
    ],
@@ -37907,7 +37890,7 @@
    "id": "daughter",
    "displayText": "daughter",
    "type": "root",
-   "meaningCn": "女儿女儿的",
+   "meaningCn": "女儿",
    "allomorphs": [
     "daughter"
    ],
@@ -37955,7 +37938,7 @@
    "id": "pa",
    "displayText": "pa",
    "type": "root",
-   "meaningCn": "每年医髓轴的",
+   "meaningCn": "爸",
    "allomorphs": [
     "pa"
    ],
@@ -38053,7 +38036,7 @@
    "id": "ache",
    "displayText": "ache",
    "type": "root",
-   "meaningCn": "疼痛痛",
+   "meaningCn": "疼痛",
    "allomorphs": [
     "ache"
    ],
@@ -38065,7 +38048,7 @@
    "id": "heal",
    "displayText": "heal",
    "type": "root",
-   "meaningCn": "痊愈使复原",
+   "meaningCn": "完好",
    "allomorphs": [
     "heal"
    ],
@@ -38234,7 +38217,7 @@
    "id": "ill",
    "displayText": "ill",
    "type": "root",
-   "meaningCn": "我将",
+   "meaningCn": "病",
    "allomorphs": [
     "ill"
    ],
@@ -38284,7 +38267,7 @@
    "id": "imp",
    "displayText": "imp",
    "type": "root",
-   "meaningCn": "顽童加强",
+   "meaningCn": "进入",
    "allomorphs": [
     "imp"
    ],
@@ -38296,7 +38279,7 @@
    "id": "rove",
    "displayText": "rove",
    "type": "root",
-   "meaningCn": "徘徊",
+   "meaningCn": "改好",
    "allomorphs": [
     "rove"
    ],
@@ -38320,7 +38303,7 @@
    "id": "indus",
    "displayText": "indus",
    "type": "root",
-   "meaningCn": "印度河",
+   "meaningCn": "勤劳",
    "allomorphs": [
     "indus"
    ],
@@ -38404,7 +38387,7 @@
    "id": "view",
    "displayText": "view",
    "type": "root",
-   "meaningCn": "视野",
+   "meaningCn": "看",
    "allomorphs": [
     "view"
    ],
@@ -38452,7 +38435,7 @@
    "id": "japan",
    "displayText": "japan",
    "type": "root",
-   "meaningCn": "日本化天然漆",
+   "meaningCn": "日本",
    "allomorphs": [
     "japan"
    ],
@@ -38464,7 +38447,7 @@
    "id": "key",
    "displayText": "key",
    "type": "root",
-   "meaningCn": "钥匙",
+   "meaningCn": "键",
    "allomorphs": [
     "key"
    ],
@@ -38476,7 +38459,7 @@
    "id": "kit",
    "displayText": "kit",
    "type": "root",
-   "meaningCn": "装备",
+   "meaningCn": "厨房",
    "allomorphs": [
     "kit"
    ],
@@ -38488,7 +38471,7 @@
    "id": "chen",
    "displayText": "chen",
    "type": "root",
-   "meaningCn": "陈",
+   "meaningCn": "厨房",
    "allomorphs": [
     "chen"
    ],
@@ -38512,7 +38495,7 @@
    "id": "ledge",
    "displayText": "ledge",
    "type": "root",
-   "meaningCn": "突出部分",
+   "meaningCn": "知道",
    "allomorphs": [
     "ledge"
    ],
@@ -38524,7 +38507,7 @@
    "id": "lead",
    "displayText": "lead",
    "type": "root",
-   "meaningCn": "铅",
+   "meaningCn": "带路",
    "allomorphs": [
     "lead"
    ],
@@ -38548,7 +38531,7 @@
    "id": "lout",
    "displayText": "lout",
    "type": "root",
-   "meaningCn": "蠢人愚弄屈服",
+   "meaningCn": "小",
    "allomorphs": [
     "litt"
    ],
@@ -38597,7 +38580,7 @@
    "id": "manage",
    "displayText": "manage",
    "type": "root",
-   "meaningCn": "处理管理",
+   "meaningCn": "管理",
    "allomorphs": [
     "manage"
    ],
@@ -38633,7 +38616,7 @@
    "id": "may",
    "displayText": "may",
    "type": "root",
-   "meaningCn": "五月愿能",
+   "meaningCn": "可能",
    "allomorphs": [
     "may"
    ],
@@ -38645,7 +38628,7 @@
    "id": "mean",
    "displayText": "mean",
    "type": "root",
-   "meaningCn": "低劣的",
+   "meaningCn": "中间",
    "allomorphs": [
     "mean"
    ],
@@ -38669,7 +38652,7 @@
    "id": "mess",
    "displayText": "mess",
    "type": "root",
-   "meaningCn": "食堂",
+   "meaningCn": "送",
    "allomorphs": [
     "mess"
    ],
@@ -38706,7 +38689,7 @@
    "id": "monk",
    "displayText": "monk",
    "type": "root",
-   "meaningCn": "修道士",
+   "meaningCn": "猴",
    "allomorphs": [
     "monk"
    ],
@@ -38730,7 +38713,7 @@
    "id": "moth",
    "displayText": "moth",
    "type": "root",
-   "meaningCn": "蛾害",
+   "meaningCn": "母",
    "allomorphs": [
     "moth"
    ],
@@ -38927,7 +38910,7 @@
    "id": "numb",
    "displayText": "numb",
    "type": "root",
-   "meaningCn": "麻木的",
+   "meaningCn": "数",
    "allomorphs": [
     "numb"
    ],
@@ -38965,7 +38948,7 @@
    "id": "own",
    "displayText": "own",
    "type": "root",
-   "meaningCn": "自己的自己的",
+   "meaningCn": "自己的",
    "allomorphs": [
     "own"
    ],
@@ -39049,7 +39032,7 @@
    "id": "please",
    "displayText": "please",
    "type": "root",
-   "meaningCn": "请使高兴",
+   "meaningCn": "使高兴",
    "allomorphs": [
     "please",
     "pleas"
@@ -39062,7 +39045,7 @@
    "id": "plea",
    "displayText": "plea",
    "type": "root",
-   "meaningCn": "恳求",
+   "meaningCn": "舒服",
    "allomorphs": [
     "plea"
    ],
@@ -39074,7 +39057,7 @@
    "id": "poke",
    "displayText": "poke",
    "type": "root",
-   "meaningCn": "刺",
+   "meaningCn": "兜",
    "allomorphs": [
     "pocke"
    ],
@@ -39171,7 +39154,7 @@
    "id": "rail",
    "displayText": "rail",
    "type": "root",
-   "meaningCn": "横杆",
+   "meaningCn": "轨",
    "allomorphs": [
     "rail"
    ],
@@ -39231,7 +39214,7 @@
    "id": "cite",
    "displayText": "cite",
    "type": "root",
-   "meaningCn": "引用",
+   "meaningCn": "叫",
    "allomorphs": [
     "citi",
     "cite"
@@ -39256,7 +39239,7 @@
    "id": "relate",
    "displayText": "relate",
    "type": "root",
-   "meaningCn": "讲",
+   "meaningCn": "关联",
    "allomorphs": [
     "relat",
     "relate"
@@ -39293,7 +39276,7 @@
    "id": "pair",
    "displayText": "pair",
    "type": "root",
-   "meaningCn": "一双",
+   "meaningCn": "配",
    "allomorphs": [
     "pair"
    ],
@@ -39305,7 +39288,7 @@
    "id": "search",
    "displayText": "search",
    "type": "root",
-   "meaningCn": "搜寻",
+   "meaningCn": "找",
    "allomorphs": [
     "search"
    ],
@@ -39317,7 +39300,7 @@
    "id": "tell",
    "displayText": "tell",
    "type": "root",
-   "meaningCn": "告诉",
+   "meaningCn": "讲",
    "allomorphs": [
     "tell"
    ],
@@ -39341,7 +39324,7 @@
    "id": "rede",
    "displayText": "rede",
    "type": "root",
-   "meaningCn": "忠告",
+   "meaningCn": "懂",
    "allomorphs": [
     "ridd"
    ],
@@ -39449,7 +39432,7 @@
    "id": "sever",
    "displayText": "sever",
    "type": "root",
-   "meaningCn": "切断",
+   "meaningCn": "分开",
    "allomorphs": [
     "sever",
     "severe"
@@ -39474,7 +39457,7 @@
    "id": "situate",
    "displayText": "situate",
    "type": "root",
-   "meaningCn": "使位于",
+   "meaningCn": "位于",
    "allomorphs": [
     "situat"
    ],
@@ -39546,7 +39529,7 @@
    "id": "berry",
    "displayText": "berry",
    "type": "root",
-   "meaningCn": "浆果采集浆果",
+   "meaningCn": "浆果",
    "allomorphs": [
     "berry"
    ],
@@ -39570,7 +39553,7 @@
    "id": "suc",
    "displayText": "suc",
    "type": "root",
-   "meaningCn": "成功",
+   "meaningCn": "跟随",
    "allomorphs": [
     "suc"
    ],
@@ -39655,7 +39638,7 @@
    "id": "supple",
    "displayText": "supple",
    "type": "root",
-   "meaningCn": "柔软的",
+   "meaningCn": "填上",
    "allomorphs": [
     "suppl"
    ],
@@ -39764,7 +39747,7 @@
    "id": "thou",
    "displayText": "thou",
    "type": "root",
-   "meaningCn": "汝",
+   "meaningCn": "千",
    "allomorphs": [
     "thou"
    ],
@@ -39776,7 +39759,7 @@
    "id": "thurs",
    "displayText": "thurs",
    "type": "root",
-   "meaningCn": "经星期四",
+   "meaningCn": "雷神",
    "allomorphs": [
     "thurs"
    ],
@@ -39836,7 +39819,7 @@
    "id": "pas",
    "displayText": "pas",
    "type": "root",
-   "meaningCn": "优先权",
+   "meaningCn": "糊",
    "allomorphs": [
     "pas",
     "paste"
@@ -39861,7 +39844,7 @@
    "id": "tow",
    "displayText": "tow",
    "type": "root",
-   "meaningCn": "拖",
+   "meaningCn": "立起",
    "allomorphs": [
     "tow"
    ],
@@ -39885,7 +39868,7 @@
    "id": "train",
    "displayText": "train",
    "type": "root",
-   "meaningCn": "火车",
+   "meaningCn": "拖、练",
    "allomorphs": [
     "train"
    ],
@@ -39897,7 +39880,7 @@
    "id": "slate",
    "displayText": "slate",
    "type": "root",
-   "meaningCn": "板岩",
+   "meaningCn": "搬",
    "allomorphs": [
     "slate"
    ],
@@ -39909,7 +39892,7 @@
    "id": "treat",
    "displayText": "treat",
    "type": "root",
-   "meaningCn": "宴请",
+   "meaningCn": "待",
    "allomorphs": [
     "treat"
    ],
@@ -39921,7 +39904,7 @@
    "id": "tues",
    "displayText": "tues",
    "type": "root",
-   "meaningCn": "星期二",
+   "meaningCn": "战神",
    "allomorphs": [
     "tues"
    ],
@@ -39957,7 +39940,7 @@
    "id": "ug",
    "displayText": "ug",
    "type": "root",
-   "meaningCn": "地下",
+   "meaningCn": "丑陋",
    "allomorphs": [
     "ug"
    ],
@@ -40031,7 +40014,7 @@
    "id": "volley",
    "displayText": "volley",
    "type": "root",
-   "meaningCn": "群射",
+   "meaningCn": "击球",
    "allomorphs": [
     "volley"
    ],
@@ -40067,7 +40050,7 @@
    "id": "weal",
    "displayText": "weal",
    "type": "root",
-   "meaningCn": "福利",
+   "meaningCn": "身家",
    "allomorphs": [
     "weal"
    ],
@@ -40155,7 +40138,7 @@
    "id": "when",
    "displayText": "when",
    "type": "root",
-   "meaningCn": "当的时候何时",
+   "meaningCn": "何时",
    "allomorphs": [
     "when"
    ],
@@ -40177,9 +40160,9 @@
   },
   {
    "id": "deh",
-   "displayText": "deh",
+   "displayText": "de",
    "type": "root",
-   "meaningCn": "数字编码手册",
+   "meaningCn": "宽",
    "allomorphs": [
     "de"
    ],
@@ -40201,9 +40184,9 @@
   },
   {
    "id": "wf",
-   "displayText": "wf",
+   "displayText": "wo",
    "type": "root",
-   "meaningCn": "滤水器",
+   "meaningCn": "女人",
    "allomorphs": [
     "wo"
    ],
@@ -40237,9 +40220,9 @@
   },
   {
    "id": "wer",
-   "displayText": "wer",
+   "displayText": "wor",
    "type": "root",
-   "meaningCn": "文字差错率",
+   "meaningCn": "人",
    "allomorphs": [
     "wor"
    ],
@@ -40288,7 +40271,7 @@
    "id": "af",
    "displayText": "af-",
    "type": "prefix",
-   "meaningCn": "视频",
+   "meaningCn": "朝向",
    "allomorphs": [
     "af"
    ],
@@ -40474,7 +40457,7 @@
    "id": "rect",
    "displayText": "rect-",
    "type": "prefix",
-   "meaningCn": "矩形",
+   "meaningCn": "直、正",
    "allomorphs": [
     "rect"
    ],
@@ -40535,7 +40518,7 @@
    "id": "geo",
    "displayText": "geo-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "地",
    "allomorphs": [
     "geo"
    ],
@@ -40608,7 +40591,7 @@
    "id": "in",
    "displayText": "in-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "不；进入",
    "allomorphs": [
     "in",
     "ine",
@@ -40635,7 +40618,7 @@
    "id": "intro",
    "displayText": "intro-",
    "type": "prefix",
-   "meaningCn": "介绍计简介",
+   "meaningCn": "向内",
    "allomorphs": [
     "intro"
    ],
@@ -40746,9 +40729,9 @@
   },
   {
    "id": "pr",
-   "displayText": "pr-",
+   "displayText": "pre",
    "type": "prefix",
-   "meaningCn": "宾夕法尼亚雷丁海",
+   "meaningCn": "前",
    "allomorphs": [
     "pre",
     "pro"
@@ -40774,7 +40757,7 @@
    "id": "re",
    "displayText": "re-",
    "type": "prefix",
-   "meaningCn": "",
+   "meaningCn": "再、回",
    "allomorphs": [
     "re"
    ],
@@ -40786,7 +40769,7 @@
    "id": "sept",
    "displayText": "sept-",
    "type": "prefix",
-   "meaningCn": "氏族经九月",
+   "meaningCn": "七",
    "allomorphs": [
     "sept"
    ],
@@ -40859,7 +40842,7 @@
    "id": "twi",
    "displayText": "twi-",
    "type": "prefix",
-   "meaningCn": "契维语属于克瓦语",
+   "meaningCn": "二",
    "allomorphs": [
     "twi"
    ],
@@ -40896,7 +40879,7 @@
    "id": "dwi",
    "displayText": "dwi-",
    "type": "prefix",
-   "meaningCn": "酒醉后开车",
+   "meaningCn": "宽",
    "allomorphs": [
     "wi"
    ],
@@ -40932,7 +40915,7 @@
    "id": "able",
    "displayText": "-able",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "能够……的（形容词）",
    "allomorphs": [
     "able",
     "abil"
@@ -40945,7 +40928,7 @@
    "id": "ity",
    "displayText": "-ity",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "性质、状态（抽象名词）",
    "allomorphs": [
     "ity"
    ],
@@ -40957,7 +40940,7 @@
    "id": "ion",
    "displayText": "-ion",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "动作、过程（名词）",
    "allomorphs": [
     "ion",
     "on"
@@ -40970,7 +40953,7 @@
    "id": "ive",
    "displayText": "-ive",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "具有……性质的（形容词）",
    "allomorphs": [
     "ive"
    ],
@@ -41012,7 +40995,7 @@
    "id": "most",
    "displayText": "-most",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "最",
    "allomorphs": [
     "most"
    ],
@@ -41160,7 +41143,7 @@
    "id": "es",
    "displayText": "-es",
    "type": "suffix",
-   "meaningCn": "附于词尾为",
+   "meaningCn": "…人的",
    "allomorphs": [
     "ese",
     "es"
@@ -41197,7 +41180,7 @@
    "id": "lect",
    "displayText": "-lect",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "收集、选",
    "allomorphs": [
     "lect"
    ],
@@ -41373,7 +41356,7 @@
    "id": "free",
    "displayText": "-free",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "免……的",
    "allomorphs": [
     "free",
     "frie"
@@ -41696,7 +41679,7 @@
    "id": "wich",
    "displayText": "-wich",
    "type": "suffix",
-   "meaningCn": "苏湿草地",
+   "meaningCn": "村、镇",
    "allomorphs": [
     "wich"
    ],
@@ -41732,7 +41715,7 @@
    "id": "phone",
    "displayText": "-phone",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "声音",
    "allomorphs": [
     "phone",
     "pone"
@@ -41755,9 +41738,9 @@
   },
   {
    "id": "eth",
-   "displayText": "-eth",
+   "displayText": "th",
    "type": "suffix",
-   "meaningCn": "埃塞俄比亚全国运",
+   "meaningCn": "第…",
    "allomorphs": [
     "eth"
    ],
@@ -42106,7 +42089,7 @@
    "id": "agriculture",
    "displayText": "agriculture",
    "type": "root",
-   "meaningCn": "农业机农业",
+   "meaningCn": "农业",
    "allomorphs": [
     "agricultur"
    ],
@@ -42253,7 +42236,7 @@
    "id": "almen",
    "displayText": "almen",
    "type": "root",
-   "meaningCn": "机阿尔门试验",
+   "meaningCn": "明矾",
    "allomorphs": [
     "alumin"
    ],
@@ -42325,7 +42308,7 @@
    "id": "ann",
    "displayText": "ann",
    "type": "root",
-   "meaningCn": "安女子名",
+   "meaningCn": "年",
    "allomorphs": [
     "ann"
    ],
@@ -42397,7 +42380,7 @@
    "id": "arent",
    "displayText": "arent",
    "type": "root",
-   "meaningCn": "不是",
+   "meaningCn": "显现",
    "allomorphs": [
     "arent"
    ],
@@ -42494,7 +42477,7 @@
    "id": "roach",
    "displayText": "roach",
    "type": "root",
-   "meaningCn": "斜齿鳊使成凹状",
+   "meaningCn": "近",
    "allomorphs": [
     "roach"
    ],
@@ -42506,7 +42489,7 @@
    "id": "prove",
    "displayText": "prove",
    "type": "root",
-   "meaningCn": "证明",
+   "meaningCn": "好",
    "allomorphs": [
     "prove"
    ],
@@ -42530,7 +42513,7 @@
    "id": "arab",
    "displayText": "arab",
    "type": "root",
-   "meaningCn": "阿拉伯的阿拉伯人",
+   "meaningCn": "阿拉伯",
    "allomorphs": [
     "arab"
    ],
@@ -42554,7 +42537,7 @@
    "id": "argue",
    "displayText": "argue",
    "type": "root",
-   "meaningCn": "提出理由",
+   "meaningCn": "理由",
    "allomorphs": [
     "argu"
    ],
@@ -42602,7 +42585,7 @@
    "id": "rest",
    "displayText": "rest",
    "type": "root",
-   "meaningCn": "休息",
+   "meaningCn": "停",
    "allomorphs": [
     "rest"
    ],
@@ -42626,7 +42609,7 @@
    "id": "sham",
    "displayText": "sham",
    "type": "root",
-   "meaningCn": "假",
+   "meaningCn": "羞",
    "allomorphs": [
     "sham",
     "ashame",
@@ -42712,7 +42695,7 @@
    "id": "tach",
    "displayText": "tach",
    "type": "root",
-   "meaningCn": "环节",
+   "meaningCn": "钉住",
    "allomorphs": [
     "tach"
    ],
@@ -42784,7 +42767,7 @@
    "id": "ave",
    "displayText": "ave",
    "type": "root",
-   "meaningCn": "大街",
+   "meaningCn": "平",
    "allomorphs": [
     "ave"
    ],
@@ -42808,7 +42791,7 @@
    "id": "awe",
    "displayText": "awe",
    "type": "root",
-   "meaningCn": "敬畏使敬畏",
+   "meaningCn": "敬畏",
    "allomorphs": [
     "awe",
     "aw"
@@ -42833,7 +42816,7 @@
    "id": "bad",
    "displayText": "bad",
    "type": "root",
-   "meaningCn": "坏的坏坏地",
+   "meaningCn": "坏",
    "allomorphs": [
     "bad"
    ],
@@ -42845,7 +42828,7 @@
    "id": "minton",
    "displayText": "minton",
    "type": "root",
-   "meaningCn": "明顿英国著名的卫",
+   "meaningCn": "庄园",
    "allomorphs": [
     "minton"
    ],
@@ -42931,7 +42914,7 @@
    "id": "battle",
    "displayText": "battle",
    "type": "root",
-   "meaningCn": "战役战斗",
+   "meaningCn": "战斗",
    "allomorphs": [
     "battle"
    ],
@@ -42991,7 +42974,7 @@
    "id": "begin",
    "displayText": "begin",
    "type": "root",
-   "meaningCn": "开始计开始",
+   "meaningCn": "开始",
    "allomorphs": [
     "beginn"
    ],
@@ -43003,7 +42986,7 @@
    "id": "have",
    "displayText": "have",
    "type": "root",
-   "meaningCn": "有",
+   "meaningCn": "持",
    "allomorphs": [
     "have"
    ],
@@ -43040,7 +43023,7 @@
    "id": "tray",
    "displayText": "tray",
    "type": "root",
-   "meaningCn": "托盘",
+   "meaningCn": "递",
    "allomorphs": [
     "tray"
    ],
@@ -43100,7 +43083,7 @@
    "id": "boat",
    "displayText": "boat",
    "type": "root",
-   "meaningCn": "船乘船以船运",
+   "meaningCn": "船",
    "allomorphs": [
     "boat"
    ],
@@ -43161,7 +43144,7 @@
    "id": "botany",
    "displayText": "botany",
    "type": "root",
-   "meaningCn": "植物学医植物学",
+   "meaningCn": "植物",
    "allomorphs": [
     "botan"
    ],
@@ -43293,7 +43276,7 @@
    "id": "bouk",
    "displayText": "bouk",
    "type": "root",
-   "meaningCn": "苏格兰英语躯体",
+   "meaningCn": "桶",
    "allomorphs": [
     "buck"
    ],
@@ -43365,7 +43348,7 @@
    "id": "can",
    "displayText": "can",
    "type": "root",
-   "meaningCn": "装罐罐头",
+   "meaningCn": "罐",
    "allomorphs": [
     "can"
    ],
@@ -43377,7 +43360,7 @@
    "id": "bon",
    "displayText": "bon",
    "type": "root",
-   "meaningCn": "法好的",
+   "meaningCn": "骨",
    "allomorphs": [
     "bon",
     "bone"
@@ -43415,7 +43398,7 @@
    "id": "cas",
    "displayText": "cas",
    "type": "root",
-   "meaningCn": "中国科学院",
+   "meaningCn": "落下",
    "allomorphs": [
     "cas"
    ],
@@ -43439,7 +43422,7 @@
    "id": "lis",
    "displayText": "lis",
    "type": "root",
-   "meaningCn": "法诉讼事件",
+   "meaningCn": "教堂",
    "allomorphs": [
     "l"
    ],
@@ -43608,7 +43591,7 @@
    "id": "circu",
    "displayText": "circu",
    "type": "root",
-   "meaningCn": "圆週",
+   "meaningCn": "圆",
    "allomorphs": [
     "circu"
    ],
@@ -43632,7 +43615,7 @@
    "id": "ulate",
    "displayText": "ulate",
    "type": "root",
-   "meaningCn": "谄媚",
+   "meaningCn": "使…动",
    "allomorphs": [
     "ulate"
    ],
@@ -43656,7 +43639,7 @@
    "id": "ien",
    "displayText": "ien",
    "type": "root",
-   "meaningCn": "网际网工程备忘录",
+   "meaningCn": "公民",
    "allomorphs": [
     "zen"
    ],
@@ -43753,7 +43736,7 @@
    "id": "comm",
    "displayText": "comm",
    "type": "root",
-   "meaningCn": "委员会",
+   "meaningCn": "共同",
    "allomorphs": [
     "comm"
    ],
@@ -43790,7 +43773,7 @@
    "id": "pete",
    "displayText": "pete",
    "type": "root",
-   "meaningCn": "皮特等于",
+   "meaningCn": "追求",
    "allomorphs": [
     "pete"
    ],
@@ -43814,7 +43797,7 @@
    "id": "clude",
    "displayText": "clude",
    "type": "root",
-   "meaningCn": "除外",
+   "meaningCn": "关闭",
    "allomorphs": [
     "clude"
    ],
@@ -43946,7 +43929,7 @@
    "id": "stant",
    "displayText": "stant",
    "type": "root",
-   "meaningCn": "斯坦顿",
+   "meaningCn": "站立",
    "allomorphs": [
     "stant"
    ],
@@ -44018,7 +44001,7 @@
    "id": "tempor",
    "displayText": "tempor",
    "type": "root",
-   "meaningCn": "颞颥",
+   "meaningCn": "时间",
    "allomorphs": [
     "tempor"
    ],
@@ -44042,7 +44025,7 @@
    "id": "dict",
    "displayText": "dict",
    "type": "root",
-   "meaningCn": "",
+   "meaningCn": "说",
    "allomorphs": [
     "dict",
     "dictat"
@@ -44067,7 +44050,7 @@
    "id": "tribu",
    "displayText": "tribu",
    "type": "root",
-   "meaningCn": "法保民官",
+   "meaningCn": "给予",
    "allomorphs": [
     "tribute"
    ],
@@ -44152,7 +44135,7 @@
    "id": "respond",
    "displayText": "respond",
    "type": "root",
-   "meaningCn": "以回答回答",
+   "meaningCn": "回应",
    "allomorphs": [
     "respond"
    ],
@@ -44212,7 +44195,7 @@
    "id": "boy",
    "displayText": "boy",
    "type": "root",
-   "meaningCn": "男孩法男孩",
+   "meaningCn": "男孩",
    "allomorphs": [
     "boy"
    ],
@@ -44344,7 +44327,7 @@
    "id": "deep",
    "displayText": "deep",
    "type": "root",
-   "meaningCn": "深的深入地深渊",
+   "meaningCn": "深",
    "allomorphs": [
     "deep"
    ],
@@ -44464,7 +44447,7 @@
    "id": "min",
    "displayText": "min",
    "type": "root",
-   "meaningCn": "部长",
+   "meaningCn": "小",
    "allomorphs": [
     "mine",
     "min"
@@ -44501,7 +44484,7 @@
    "id": "oxide",
    "displayText": "oxide",
    "type": "root",
-   "meaningCn": "氧化物医氧化物",
+   "meaningCn": "氧",
    "allomorphs": [
     "oxide",
     "oxid"
@@ -44756,7 +44739,7 @@
    "id": "electron",
    "displayText": "electron",
    "type": "root",
-   "meaningCn": "电子化电子",
+   "meaningCn": "电子",
    "allomorphs": [
     "electron"
    ],
@@ -44840,7 +44823,7 @@
    "id": "trance",
    "displayText": "trance",
    "type": "root",
-   "meaningCn": "昏睡状态",
+   "meaningCn": "进入",
    "allomorphs": [
     "trance"
    ],
@@ -44961,7 +44944,7 @@
    "id": "express",
    "displayText": "express",
    "type": "root",
-   "meaningCn": "快车",
+   "meaningCn": "挤出",
    "allomorphs": [
     "express"
    ],
@@ -45034,7 +45017,7 @@
    "id": "fair",
    "displayText": "fair",
    "type": "root",
-   "meaningCn": "展览会",
+   "meaningCn": "公平",
    "allomorphs": [
     "fair"
    ],
@@ -45046,7 +45029,7 @@
    "id": "feat",
    "displayText": "feat",
    "type": "root",
-   "meaningCn": "壮举",
+   "meaningCn": "羽毛",
    "allomorphs": [
     "feat"
    ],
@@ -45082,7 +45065,7 @@
    "id": "nail",
    "displayText": "nail",
    "type": "root",
-   "meaningCn": "钉子",
+   "meaningCn": "甲",
    "allomorphs": [
     "nail"
    ],
@@ -45154,7 +45137,7 @@
    "id": "fon",
    "displayText": "fon",
    "type": "root",
-   "meaningCn": "丰人",
+   "meaningCn": "偏爱",
    "allomorphs": [
     "fon"
    ],
@@ -45178,7 +45161,7 @@
    "id": "bid",
    "displayText": "bid",
    "type": "root",
-   "meaningCn": "一日两次医每日两",
+   "meaningCn": "命令",
    "allomorphs": [
     "bid"
    ],
@@ -45202,7 +45185,7 @@
    "id": "give",
    "displayText": "give",
    "type": "root",
-   "meaningCn": "弹性",
+   "meaningCn": "给",
    "allomorphs": [
     "give"
    ],
@@ -45214,7 +45197,7 @@
    "id": "fortune",
    "displayText": "fortune",
    "type": "root",
-   "meaningCn": "财富",
+   "meaningCn": "运气",
    "allomorphs": [
     "fortun",
     "fortune"
@@ -45239,7 +45222,7 @@
    "id": "fra",
    "displayText": "fra",
    "type": "root",
-   "meaningCn": "联邦铁路局",
+   "meaningCn": "香气",
    "allomorphs": [
     "fra"
    ],
@@ -45251,7 +45234,7 @@
    "id": "grant",
    "displayText": "grant",
    "type": "root",
-   "meaningCn": "授予",
+   "meaningCn": "香",
    "allomorphs": [
     "grant"
    ],
@@ -45323,7 +45306,7 @@
    "id": "garb",
    "displayText": "garb",
    "type": "root",
-   "meaningCn": "打扮",
+   "meaningCn": "废物",
    "allomorphs": [
     "garb"
    ],
@@ -45347,7 +45330,7 @@
    "id": "gener",
    "displayText": "gener",
    "type": "root",
-   "meaningCn": "类",
+   "meaningCn": "产生",
    "allomorphs": [
     "generat",
     "gener",
@@ -45361,7 +45344,7 @@
    "id": "germ",
    "displayText": "germ",
    "type": "root",
-   "meaningCn": "细菌",
+   "meaningCn": "日耳曼",
    "allomorphs": [
     "germ"
    ],
@@ -45422,7 +45405,7 @@
    "id": "grav",
    "displayText": "grav",
    "type": "root",
-   "meaningCn": "格拉夫加速度单位",
+   "meaningCn": "重",
    "allomorphs": [
     "grav"
    ],
@@ -45458,7 +45441,7 @@
    "id": "grow",
    "displayText": "grow",
    "type": "root",
-   "meaningCn": "种植",
+   "meaningCn": "生长",
    "allomorphs": [
     "grow"
    ],
@@ -45689,7 +45672,7 @@
    "id": "hon",
    "displayText": "hon",
    "type": "root",
-   "meaningCn": "化羟基氧代正缬氨",
+   "meaningCn": "蜂蜜",
    "allomorphs": [
     "hon"
    ],
@@ -45797,7 +45780,7 @@
    "id": "dependent",
    "displayText": "dependent",
    "type": "root",
-   "meaningCn": "依赖他人者依赖的",
+   "meaningCn": "依赖的",
    "allomorphs": [
     "dependent"
    ],
@@ -45809,7 +45792,7 @@
    "id": "ser",
    "displayText": "ser",
    "type": "root",
-   "meaningCn": "锡厄印巴等国重量",
+   "meaningCn": "连接",
    "allomorphs": [
     "ert",
     "sert"
@@ -45822,7 +45805,7 @@
    "id": "spr",
    "displayText": "spr",
    "type": "root",
-   "meaningCn": "心灵研究学会",
+   "meaningCn": "呼吸",
    "allomorphs": [
     "spire"
    ],
@@ -45882,7 +45865,7 @@
    "id": "val",
    "displayText": "val",
    "type": "root",
-   "meaningCn": "化缬氨酸",
+   "meaningCn": "墙",
    "allomorphs": [
     "val"
    ],
@@ -45967,7 +45950,7 @@
    "id": "lan",
    "displayText": "lan",
    "type": "root",
-   "meaningCn": "局部区域网络",
+   "meaningCn": "灯",
    "allomorphs": [
     "lan"
    ],
@@ -45979,7 +45962,7 @@
    "id": "tern",
    "displayText": "tern",
    "type": "root",
-   "meaningCn": "三个一组",
+   "meaningCn": "灯",
    "allomorphs": [
     "tern"
    ],
@@ -46233,7 +46216,7 @@
    "id": "bus",
    "displayText": "bus",
    "type": "root",
-   "meaningCn": "公共汽车计总线",
+   "meaningCn": "公共汽车",
    "allomorphs": [
     "bus"
    ],
@@ -46449,7 +46432,7 @@
    "id": "adays",
    "displayText": "adays",
    "type": "root",
-   "meaningCn": "现在",
+   "meaningCn": "日子",
    "allomorphs": [
     "adays"
    ],
@@ -46521,7 +46504,7 @@
    "id": "field",
    "displayText": "field",
    "type": "root",
-   "meaningCn": "领域",
+   "meaningCn": "田地",
    "allomorphs": [
     "field"
    ],
@@ -46581,7 +46564,7 @@
    "id": "organ",
    "displayText": "organ",
    "type": "root",
-   "meaningCn": "风琴",
+   "meaningCn": "器官",
    "allomorphs": [
     "organ"
    ],
@@ -46737,7 +46720,7 @@
    "id": "park",
    "displayText": "park",
    "type": "root",
-   "meaningCn": "公园",
+   "meaningCn": "停",
    "allomorphs": [
     "park"
    ],
@@ -46761,7 +46744,7 @@
    "id": "pat",
    "displayText": "pat",
    "type": "root",
-   "meaningCn": "轻拍轻拍适时",
+   "meaningCn": "拍",
    "allomorphs": [
     "pat"
    ],
@@ -46833,7 +46816,7 @@
    "id": "suade",
    "displayText": "suade",
    "type": "root",
-   "meaningCn": "劝阻法劝阻",
+   "meaningCn": "劝",
    "allomorphs": [
     "suade"
    ],
@@ -46893,7 +46876,7 @@
    "id": "pole",
    "displayText": "pole",
    "type": "root",
-   "meaningCn": "波兰人",
+   "meaningCn": "波兰",
    "allomorphs": [
     "pol"
    ],
@@ -46929,7 +46912,7 @@
    "id": "pop",
    "displayText": "pop",
    "type": "root",
-   "meaningCn": "砰然声",
+   "meaningCn": "爆",
    "allomorphs": [
     "pop"
    ],
@@ -46941,7 +46924,7 @@
    "id": "por",
    "displayText": "por",
    "type": "root",
-   "meaningCn": "返回后付款",
+   "meaningCn": "携带",
    "allomorphs": [
     "por"
    ],
@@ -47038,7 +47021,7 @@
    "id": "cise",
    "displayText": "cise",
    "type": "root",
-   "meaningCn": "烟酒等消费税",
+   "meaningCn": "切",
    "allomorphs": [
     "cise"
    ],
@@ -47135,7 +47118,7 @@
    "id": "mote",
    "displayText": "mote",
    "type": "root",
-   "meaningCn": "尘埃",
+   "meaningCn": "移动",
    "allomorphs": [
     "mote"
    ],
@@ -47255,7 +47238,7 @@
    "id": "raze",
    "displayText": "raze",
    "type": "root",
-   "meaningCn": "毁灭",
+   "meaningCn": "刮",
    "allomorphs": [
     "raz"
    ],
@@ -47315,7 +47298,7 @@
    "id": "commend",
    "displayText": "commend",
    "type": "root",
-   "meaningCn": "嘉奖",
+   "meaningCn": "称赞",
    "allomorphs": [
     "commend"
    ],
@@ -47339,7 +47322,7 @@
    "id": "refer",
    "displayText": "refer",
    "type": "root",
-   "meaningCn": "提交",
+   "meaningCn": "提到",
    "allomorphs": [
     "refer"
    ],
@@ -47399,7 +47382,7 @@
    "id": "ards",
    "displayText": "ards",
    "type": "root",
-   "meaningCn": "急性呼吸窘迫综合",
+   "meaningCn": "朝向",
    "allomorphs": [
     "ards"
    ],
@@ -47411,7 +47394,7 @@
    "id": "regis",
    "displayText": "regis",
    "type": "root",
-   "meaningCn": "里吉斯男子名",
+   "meaningCn": "统治",
    "allomorphs": [
     "regis"
    ],
@@ -47471,7 +47454,7 @@
    "id": "mind",
    "displayText": "mind",
    "type": "root",
-   "meaningCn": "思想",
+   "meaningCn": "心",
    "allomorphs": [
     "mind"
    ],
@@ -47495,7 +47478,7 @@
    "id": "represent",
    "displayText": "represent",
    "type": "root",
-   "meaningCn": "尤指未支付的支票",
+   "meaningCn": "代表",
    "allomorphs": [
     "represent"
    ],
@@ -47531,7 +47514,7 @@
    "id": "semble",
    "displayText": "semble",
    "type": "root",
-   "meaningCn": "律看来好象",
+   "meaningCn": "相似",
    "allomorphs": [
     "semble"
    ],
@@ -47579,7 +47562,7 @@
    "id": "tire",
    "displayText": "tire",
    "type": "root",
-   "meaningCn": "轮胎",
+   "meaningCn": "累",
    "allomorphs": [
     "tire"
    ],
@@ -47712,7 +47695,7 @@
    "id": "roy",
    "displayText": "roy",
    "type": "root",
-   "meaningCn": "罗伊男子名",
+   "meaningCn": "王",
    "allomorphs": [
     "roy"
    ],
@@ -47760,7 +47743,7 @@
    "id": "sales",
    "displayText": "sales",
    "type": "root",
-   "meaningCn": "销售的计销售",
+   "meaningCn": "卖",
    "allomorphs": [
     "sales"
    ],
@@ -47868,7 +47851,7 @@
    "id": "secure",
    "displayText": "secure",
    "type": "root",
-   "meaningCn": "无虑的",
+   "meaningCn": "安心",
    "allomorphs": [
     "secur"
    ],
@@ -47905,7 +47888,7 @@
    "id": "settle",
    "displayText": "settle",
    "type": "root",
-   "meaningCn": "有背长椅决定",
+   "meaningCn": "安顿",
    "allomorphs": [
     "settle"
    ],
@@ -47917,7 +47900,7 @@
    "id": "sharp",
    "displayText": "sharp",
    "type": "root",
-   "meaningCn": "半升音调",
+   "meaningCn": "尖锐",
    "allomorphs": [
     "sharp"
    ],
@@ -47989,7 +47972,7 @@
    "id": "coming",
    "displayText": "coming",
    "type": "root",
-   "meaningCn": "的现在分词组件对",
+   "meaningCn": "来",
    "allomorphs": [
     "coming"
    ],
@@ -48001,7 +47984,7 @@
    "id": "shut",
    "displayText": "shut",
    "type": "root",
-   "meaningCn": "关闭关上",
+   "meaningCn": "关闭",
    "allomorphs": [
     "shutt"
    ],
@@ -48025,7 +48008,7 @@
    "id": "seeing",
    "displayText": "seeing",
    "type": "root",
-   "meaningCn": "视觉",
+   "meaningCn": "看",
    "allomorphs": [
     "seeing"
    ],
@@ -48160,7 +48143,7 @@
    "id": "sneak",
    "displayText": "sneak",
    "type": "root",
-   "meaningCn": "鬼鬼祟祟做事偷偷",
+   "meaningCn": "偷偷",
    "allomorphs": [
     "sneak"
    ],
@@ -48208,7 +48191,7 @@
    "id": "spar",
    "displayText": "spar",
    "type": "root",
-   "meaningCn": "晶石",
+   "meaningCn": "雀",
    "allomorphs": [
     "spar"
    ],
@@ -48220,7 +48203,7 @@
    "id": "row",
    "displayText": "row",
    "type": "root",
-   "meaningCn": "排",
+   "meaningCn": "雀",
    "allomorphs": [
     "row"
    ],
@@ -48244,7 +48227,7 @@
    "id": "spell",
    "displayText": "spell",
    "type": "root",
-   "meaningCn": "符咒",
+   "meaningCn": "拼写",
    "allomorphs": [
     "spell"
    ],
@@ -48304,7 +48287,7 @@
    "id": "sty",
    "displayText": "sty",
    "type": "root",
-   "meaningCn": "猪栏",
+   "meaningCn": "管理",
    "allomorphs": [
     "ste"
    ],
@@ -48352,7 +48335,7 @@
    "id": "watch",
    "displayText": "watch",
    "type": "root",
-   "meaningCn": "观察",
+   "meaningCn": "看",
    "allomorphs": [
     "watch"
    ],
@@ -48400,7 +48383,7 @@
    "id": "stub",
    "displayText": "stub",
    "type": "root",
-   "meaningCn": "断肢",
+   "meaningCn": "树桩",
    "allomorphs": [
     "stub"
    ],
@@ -48412,7 +48395,7 @@
    "id": "born",
    "displayText": "born",
    "type": "root",
-   "meaningCn": "天生的的过去分词",
+   "meaningCn": "天生",
    "allomorphs": [
     "born"
    ],
@@ -48424,7 +48407,7 @@
    "id": "subject",
    "displayText": "subject",
    "type": "root",
-   "meaningCn": "科目",
+   "meaningCn": "主体",
    "allomorphs": [
     "subject"
    ],
@@ -48472,7 +48455,7 @@
    "id": "mary",
    "displayText": "mary",
    "type": "root",
-   "meaningCn": "玛丽女子名",
+   "meaningCn": "总",
    "allomorphs": [
     "mary"
    ],
@@ -48544,7 +48527,7 @@
    "id": "pect",
    "displayText": "pect",
    "type": "root",
-   "meaningCn": "化正电子发射断层",
+   "meaningCn": "看",
    "allomorphs": [
     "pect"
    ],
@@ -48580,7 +48563,7 @@
    "id": "tank",
    "displayText": "tank",
    "type": "root",
-   "meaningCn": "槽",
+   "meaningCn": "罐",
    "allomorphs": [
     "tank"
    ],
@@ -48712,7 +48695,7 @@
    "id": "thrill",
    "displayText": "thrill",
    "type": "root",
-   "meaningCn": "震颤",
+   "meaningCn": "心跳",
    "allomorphs": [
     "thrill"
    ],
@@ -48748,7 +48731,7 @@
    "id": "table",
    "displayText": "table",
    "type": "root",
-   "meaningCn": "桌子",
+   "meaningCn": "表、桌",
    "allomorphs": [
     "table",
     "tabul"
@@ -48846,7 +48829,7 @@
    "id": "writer",
    "displayText": "writer",
    "type": "root",
-   "meaningCn": "作家",
+   "meaningCn": "写的人",
    "allomorphs": [
     "writer"
    ],
@@ -49218,7 +49201,7 @@
    "id": "wed",
    "displayText": "wed",
    "type": "root",
-   "meaningCn": "我们已",
+   "meaningCn": "结亲",
    "allomorphs": [
     "wedd"
    ],
@@ -49243,7 +49226,7 @@
    "id": "fare",
    "displayText": "fare",
    "type": "root",
-   "meaningCn": "费用",
+   "meaningCn": "过活",
    "allomorphs": [
     "fare"
    ],
@@ -49303,7 +49286,7 @@
    "id": "breaker",
    "displayText": "breaker",
    "type": "root",
-   "meaningCn": "断路器化破碎机",
+   "meaningCn": "打破之物",
    "allomorphs": [
     "breaker"
    ],
@@ -49315,7 +49298,7 @@
    "id": "wit",
    "displayText": "wit",
    "type": "root",
-   "meaningCn": "机智",
+   "meaningCn": "知道",
    "allomorphs": [
     "wit"
    ],
@@ -49339,7 +49322,7 @@
    "id": "len",
    "displayText": "len",
    "type": "root",
-   "meaningCn": "伦恩男子名",
+   "meaningCn": "羊毛",
    "allomorphs": [
     "len"
    ],
@@ -49435,7 +49418,7 @@
    "id": "agri",
    "displayText": "agri-",
    "type": "prefix",
-   "meaningCn": "阿格里土耳其地区",
+   "meaningCn": "田地",
    "allomorphs": [
     "agri"
    ],
@@ -49633,7 +49616,7 @@
    "id": "bin",
    "displayText": "bin-",
    "type": "prefix",
-   "meaningCn": "贮存谷物等的容器",
+   "meaningCn": "箱、容器",
    "allomorphs": [
     "bin",
     "bine"
@@ -49819,7 +49802,7 @@
    "id": "oxy",
    "displayText": "oxy-",
    "type": "prefix",
-   "meaningCn": "牛的",
+   "meaningCn": "酸",
    "allomorphs": [
     "oxy"
    ],
@@ -50052,7 +50035,7 @@
    "id": "ication",
    "displayText": "-ication",
    "type": "suffix",
-   "meaningCn": "表示形成",
+   "meaningCn": "…化",
    "allomorphs": [
     "ication"
    ],
@@ -50112,7 +50095,7 @@
    "id": "long",
    "displayText": "-long",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "长",
    "allomorphs": [
     "long",
     "ling"
@@ -50174,7 +50157,7 @@
    "id": "cast",
    "displayText": "-cast",
    "type": "suffix",
-   "meaningCn": "演员阵容",
+   "meaningCn": "撒",
    "allomorphs": [
     "cast"
    ],
@@ -50234,7 +50217,7 @@
    "id": "logue",
    "displayText": "-logue",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "说",
    "allomorphs": [
     "logue"
    ],
@@ -50246,7 +50229,7 @@
    "id": "istic",
    "displayText": "-istic",
    "type": "suffix",
-   "meaningCn": "的变形",
+   "meaningCn": "…的",
    "allomorphs": [
     "istic"
    ],
@@ -50331,7 +50314,7 @@
    "id": "ie",
    "displayText": "-ie",
    "type": "suffix",
-   "meaningCn": "构成名词表示小",
+   "meaningCn": "指小",
    "allomorphs": [
     "ie"
    ],
@@ -50343,7 +50326,7 @@
    "id": "like",
    "displayText": "-like",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "像……的",
    "allomorphs": [
     "like"
    ],
@@ -50440,7 +50423,7 @@
    "id": "spect",
    "displayText": "-spect",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "看",
    "allomorphs": [
     "spect",
     "spectat"
@@ -50453,7 +50436,7 @@
    "id": "kind",
    "displayText": "-kind",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "类",
    "allomorphs": [
     "kind"
    ],
@@ -50599,7 +50582,7 @@
    "id": "pol",
    "displayText": "-pol",
    "type": "suffix",
-   "meaningCn": "油料",
+   "meaningCn": "弄脏",
    "allomorphs": [
     "pol"
    ],
@@ -50647,7 +50630,7 @@
    "id": "soft",
    "displayText": "-soft",
    "type": "suffix",
-   "meaningCn": "",
+   "meaningCn": "软",
    "allomorphs": [
     "soft"
    ],
@@ -50719,7 +50702,7 @@
    "id": "atic",
    "displayText": "-atic",
    "type": "suffix",
-   "meaningCn": "航空航天技术情报",
+   "meaningCn": "…的",
    "allomorphs": [
     "atic"
    ],
@@ -50731,7 +50714,7 @@
    "id": "pot",
    "displayText": "-pot",
    "type": "suffix",
-   "meaningCn": "盆",
+   "meaningCn": "壶",
    "allomorphs": [
     "pot"
    ],
@@ -51009,7 +50992,7 @@
    "id": "pease",
    "displayText": "pease",
    "type": "root",
-   "meaningCn": "豌豆",
+   "meaningCn": "拍手",
    "allomorphs": [
     "plause"
    ],
@@ -51107,7 +51090,7 @@
    "id": "ban",
    "displayText": "ban",
    "type": "root",
-   "meaningCn": "禁令禁止",
+   "meaningCn": "布",
    "allomorphs": [
     "bann"
    ],
@@ -51155,7 +51138,7 @@
    "id": "belove",
    "displayText": "belove",
    "type": "root",
-   "meaningCn": "通常用于被动语态",
+   "meaningCn": "爱",
    "allomorphs": [
     "belove"
    ],
@@ -51191,7 +51174,7 @@
    "id": "bull",
    "displayText": "bull",
    "type": "root",
-   "meaningCn": "公牛",
+   "meaningCn": "球",
    "allomorphs": [
     "bull"
    ],
@@ -51239,7 +51222,7 @@
    "id": "ch",
    "displayText": "ch",
    "type": "root",
-   "meaningCn": "克劳斯汉兹",
+   "meaningCn": "冷",
    "allomorphs": [
     "ch"
    ],
@@ -51251,7 +51234,7 @@
    "id": "ular",
    "displayText": "ular",
    "type": "root",
-   "meaningCn": "解咽喉的",
+   "meaningCn": "…的",
    "allomorphs": [
     "ular"
    ],
@@ -51263,7 +51246,7 @@
    "id": "close",
    "displayText": "close",
    "type": "root",
-   "meaningCn": "结束",
+   "meaningCn": "关",
    "allomorphs": [
     "close"
    ],
@@ -51275,7 +51258,7 @@
    "id": "lapse",
    "displayText": "lapse",
    "type": "root",
-   "meaningCn": "过失",
+   "meaningCn": "滑落",
    "allomorphs": [
     "lapse"
    ],
@@ -51323,7 +51306,7 @@
    "id": "mission",
    "displayText": "mission",
    "type": "root",
-   "meaningCn": "任务",
+   "meaningCn": "派送",
    "allomorphs": [
     "mission"
    ],
@@ -51384,7 +51367,7 @@
    "id": "plain",
    "displayText": "plain",
    "type": "root",
-   "meaningCn": "平原",
+   "meaningCn": "捶胸",
    "allomorphs": [
     "plain"
    ],
@@ -51409,7 +51392,7 @@
    "id": "pound",
    "displayText": "pound",
    "type": "root",
-   "meaningCn": "磅",
+   "meaningCn": "放",
    "allomorphs": [
     "pound"
    ],
@@ -51458,7 +51441,7 @@
    "id": "fine",
    "displayText": "fine",
    "type": "root",
-   "meaningCn": "罚款",
+   "meaningCn": "精细",
    "allomorphs": [
     "fine"
    ],
@@ -51482,7 +51465,7 @@
    "id": "quer",
    "displayText": "quer",
    "type": "root",
-   "meaningCn": "德横的",
+   "meaningCn": "寻求",
    "allomorphs": [
     "quer"
    ],
@@ -51506,7 +51489,7 @@
    "id": "consequent",
    "displayText": "consequent",
    "type": "root",
-   "meaningCn": "随后发生的事情",
+   "meaningCn": "跟随",
    "allomorphs": [
     "consequent"
    ],
@@ -51543,7 +51526,7 @@
    "id": "ordin",
    "displayText": "ordin",
    "type": "root",
-   "meaningCn": "序数顺序的",
+   "meaningCn": "顺序",
    "allomorphs": [
     "ordin",
     "ordinate"
@@ -51556,7 +51539,7 @@
    "id": "cop",
    "displayText": "cop",
    "type": "root",
-   "meaningCn": "化冷冻系数",
+   "meaningCn": "铜",
    "allomorphs": [
     "copp"
    ],
@@ -51616,7 +51599,7 @@
    "id": "dear",
    "displayText": "dear",
    "type": "root",
-   "meaningCn": "亲爱的人亲爱的",
+   "meaningCn": "亲爱的",
    "allomorphs": [
     "dar"
    ],
@@ -51664,7 +51647,7 @@
    "id": "berate",
    "displayText": "berate",
    "type": "root",
-   "meaningCn": "严责",
+   "meaningCn": "掂量",
    "allomorphs": [
     "berate"
    ],
@@ -51676,7 +51659,7 @@
    "id": "very",
    "displayText": "very",
    "type": "root",
-   "meaningCn": "真正的",
+   "meaningCn": "真",
    "allomorphs": [
     "very"
    ],
@@ -51700,7 +51683,7 @@
    "id": "depend",
    "displayText": "depend",
    "type": "root",
-   "meaningCn": "靠",
+   "meaningCn": "挂",
    "allomorphs": [
     "depend"
    ],
@@ -51748,7 +51731,7 @@
    "id": "destruct",
    "displayText": "destruct",
    "type": "root",
-   "meaningCn": "自毁自毁",
+   "meaningCn": "拆毁",
    "allomorphs": [
     "destruct"
    ],
@@ -51772,7 +51755,7 @@
    "id": "tect",
    "displayText": "tect",
    "type": "root",
-   "meaningCn": "涕必灵",
+   "meaningCn": "遮盖",
    "allomorphs": [
     "tect"
    ],
@@ -52025,7 +52008,7 @@
    "id": "ron",
    "displayText": "ron",
    "type": "root",
-   "meaningCn": "研究法辛烷值",
+   "meaningCn": "粒子",
    "allomorphs": [
     "ron"
    ],
@@ -52037,7 +52020,7 @@
    "id": "element",
    "displayText": "element",
    "type": "root",
-   "meaningCn": "元件",
+   "meaningCn": "元素",
    "allomorphs": [
     "element"
    ],
@@ -52109,7 +52092,7 @@
    "id": "employ",
    "displayText": "employ",
    "type": "root",
-   "meaningCn": "雇用雇用",
+   "meaningCn": "雇用",
    "allomorphs": [
     "employ"
    ],
@@ -52145,7 +52128,7 @@
    "id": "english",
    "displayText": "english",
    "type": "root",
-   "meaningCn": "英语英文的",
+   "meaningCn": "英语",
    "allomorphs": [
     "english"
    ],
@@ -52277,7 +52260,7 @@
    "id": "expo",
    "displayText": "expo",
    "type": "root",
-   "meaningCn": "经展览会",
+   "meaningCn": "展出",
    "allomorphs": [
     "expo"
    ],
@@ -52301,7 +52284,7 @@
    "id": "fart",
    "displayText": "fart",
    "type": "root",
-   "meaningCn": "屁放屁",
+   "meaningCn": "远",
    "allomorphs": [
     "fart"
    ],
@@ -52493,7 +52476,7 @@
    "id": "grammatic",
    "displayText": "grammatic",
    "type": "root",
-   "meaningCn": "网络语法",
+   "meaningCn": "语法",
    "allomorphs": [
     "grammatic"
    ],
@@ -52505,7 +52488,7 @@
    "id": "gun",
    "displayText": "gun",
    "type": "root",
-   "meaningCn": "枪医枪",
+   "meaningCn": "枪",
    "allomorphs": [
     "gun"
    ],
@@ -52746,7 +52729,7 @@
    "id": "inc",
    "displayText": "inc",
    "type": "root",
-   "meaningCn": "根据法律组成的公",
+   "meaningCn": "偏斜",
    "allomorphs": [
     "inc"
    ],
@@ -52758,7 +52741,7 @@
    "id": "increasing",
    "displayText": "increasing",
    "type": "root",
-   "meaningCn": "经递增",
+   "meaningCn": "增加",
    "allomorphs": [
     "increasing"
    ],
@@ -52782,7 +52765,7 @@
    "id": "different",
    "displayText": "different",
    "type": "root",
-   "meaningCn": "不同的机差动",
+   "meaningCn": "不同",
    "allomorphs": [
     "different"
    ],
@@ -53202,7 +53185,7 @@
    "id": "legislate",
    "displayText": "legislate",
    "type": "root",
-   "meaningCn": "制定法律用立法规",
+   "meaningCn": "立法",
    "allomorphs": [
     "legislat"
    ],
@@ -53505,7 +53488,7 @@
    "id": "rate",
    "displayText": "rate",
    "type": "root",
-   "meaningCn": "比率",
+   "meaningCn": "节制",
    "allomorphs": [
     "rate"
    ],
@@ -53529,7 +53512,7 @@
    "id": "month",
    "displayText": "month",
    "type": "root",
-   "meaningCn": "月经月",
+   "meaningCn": "月",
    "allomorphs": [
     "month"
    ],
@@ -53541,7 +53524,7 @@
    "id": "murder",
    "displayText": "murder",
    "type": "root",
-   "meaningCn": "谋杀谋杀",
+   "meaningCn": "谋杀",
    "allomorphs": [
     "murder"
    ],
@@ -53601,7 +53584,7 @@
    "id": "navigate",
    "displayText": "navigate",
    "type": "root",
-   "meaningCn": "航行航行于",
+   "meaningCn": "航行",
    "allomorphs": [
     "navigat"
    ],
@@ -53638,7 +53621,7 @@
    "id": "neighbor",
    "displayText": "neighbor",
    "type": "root",
-   "meaningCn": "邻居邻接毗邻而居",
+   "meaningCn": "邻居",
    "allomorphs": [
     "neighborh"
    ],
@@ -54302,7 +54285,7 @@
    "id": "quote",
    "displayText": "quote",
    "type": "root",
-   "meaningCn": "引用引述",
+   "meaningCn": "引用",
    "allomorphs": [
     "quot"
    ],
@@ -54568,7 +54551,7 @@
    "id": "rend",
    "displayText": "rend",
    "type": "root",
-   "meaningCn": "分裂",
+   "meaningCn": "给",
    "allomorphs": [
     "rend"
    ],
@@ -54760,7 +54743,7 @@
    "id": "sumere",
    "displayText": "sumere",
    "type": "root",
-   "meaningCn": "经消费者经济学",
+   "meaningCn": "拿取",
    "allomorphs": [
     "sume"
    ],
@@ -54772,7 +54755,7 @@
    "id": "venire",
    "displayText": "venire",
    "type": "root",
-   "meaningCn": "律陪审员召集令",
+   "meaningCn": "来",
    "allomorphs": [
     "venue"
    ],
@@ -54784,7 +54767,7 @@
    "id": "volt",
    "displayText": "volt",
    "type": "root",
-   "meaningCn": "伏特化伏特",
+   "meaningCn": "伏特",
    "allomorphs": [
     "volt"
    ],
@@ -54856,7 +54839,7 @@
    "id": "save",
    "displayText": "save",
    "type": "root",
-   "meaningCn": "救球解救",
+   "meaningCn": "攒下",
    "allomorphs": [
     "sav"
    ],
@@ -54880,7 +54863,7 @@
    "id": "dal",
    "displayText": "dal",
    "type": "root",
-   "meaningCn": "植木豆等于",
+   "meaningCn": "豆",
    "allomorphs": [
     "dal"
    ],
@@ -55097,7 +55080,7 @@
    "id": "sports",
    "displayText": "sports",
    "type": "root",
-   "meaningCn": "英运动会",
+   "meaningCn": "运动",
    "allomorphs": [
     "sports"
    ],
@@ -55145,7 +55128,7 @@
    "id": "statistic",
    "displayText": "statistic",
    "type": "root",
-   "meaningCn": "统计量统计的",
+   "meaningCn": "统计",
    "allomorphs": [
     "statistic"
    ],
@@ -55266,7 +55249,7 @@
    "id": "sd",
    "displayText": "sd",
    "type": "root",
-   "meaningCn": "化磺胺嘧啶",
+   "meaningCn": "坐",
    "allomorphs": [
     "sidy"
    ],
@@ -55350,7 +55333,7 @@
    "id": "rendre",
    "displayText": "rendre",
    "type": "root",
-   "meaningCn": "法年终报告",
+   "meaningCn": "给",
    "allomorphs": [
     "render"
    ],
@@ -55494,7 +55477,7 @@
    "id": "transform",
    "displayText": "transform",
    "type": "root",
-   "meaningCn": "化反式",
+   "meaningCn": "变形",
    "allomorphs": [
     "transform"
    ],
@@ -55530,7 +55513,7 @@
    "id": "twink",
    "displayText": "twink",
    "type": "root",
-   "meaningCn": "游戏用语高等级带",
+   "meaningCn": "闪烁",
    "allomorphs": [
     "twink"
    ],
@@ -55760,7 +55743,7 @@
    "id": "vita",
    "displayText": "vita",
    "type": "root",
-   "meaningCn": "个人简历医生活",
+   "meaningCn": "生命",
    "allomorphs": [
     "vita"
    ],
@@ -55965,7 +55948,7 @@
    "id": "equi",
    "displayText": "equi-",
    "type": "prefix",
-   "meaningCn": "马科动物包括马",
+   "meaningCn": "相等",
    "allomorphs": [
     "equi"
    ],
@@ -56014,7 +55997,7 @@
    "id": "tal",
    "displayText": "tal-",
    "type": "prefix",
-   "meaningCn": "事物处理应用语言",
+   "meaningCn": "地平线",
    "allomorphs": [
     "tal"
    ],
@@ -56185,7 +56168,7 @@
    "id": "ior",
    "displayText": "-ior",
    "type": "suffix",
-   "meaningCn": "输入输出寄存器",
+   "meaningCn": "行为者",
    "allomorphs": [
     "ior"
    ],
@@ -56209,7 +56192,7 @@
    "id": "ification",
    "displayText": "-ification",
    "type": "suffix",
-   "meaningCn": "奉为神",
+   "meaningCn": "…化",
    "allomorphs": [
     "ification"
    ],
@@ -56426,7 +56409,7 @@
    "id": "poo",
    "displayText": "-poo",
    "type": "suffix",
-   "meaningCn": "邮政汇票",
+   "meaningCn": "洗",
    "allomorphs": [
     "poo"
    ],
@@ -56438,7 +56421,7 @@
    "id": "icity",
    "displayText": "-icity",
    "type": "suffix",
-   "meaningCn": "化合价",
+   "meaningCn": "性质",
    "allomorphs": [
     "icity"
    ],
@@ -56835,7 +56818,7 @@
    "id": "axis",
    "displayText": "axis",
    "type": "root",
-   "meaningCn": "轴计坐标轴",
+   "meaningCn": "轴",
    "allomorphs": [
     "axi"
    ],
@@ -56859,7 +56842,7 @@
    "id": "bankrupt",
    "displayText": "bankrupt",
    "type": "root",
-   "meaningCn": "破产者破产的使破",
+   "meaningCn": "破产",
    "allomorphs": [
     "bankrupt"
    ],
@@ -56871,7 +56854,7 @@
    "id": "bear",
    "displayText": "bear",
    "type": "root",
-   "meaningCn": "熊忍受",
+   "meaningCn": "承受",
    "allomorphs": [
     "bear"
    ],
@@ -56931,7 +56914,7 @@
    "id": "blend",
    "displayText": "blend",
    "type": "root",
-   "meaningCn": "混合混合",
+   "meaningCn": "混合",
    "allomorphs": [
     "blund"
    ],
@@ -56979,7 +56962,7 @@
    "id": "bullet",
    "displayText": "bullet",
    "type": "root",
-   "meaningCn": "子弹医弹",
+   "meaningCn": "告示",
    "allomorphs": [
     "bullet"
    ],
@@ -57052,7 +57035,7 @@
    "id": "cart",
    "displayText": "cart",
    "type": "root",
-   "meaningCn": "二轮运货马车驾运",
+   "meaningCn": "卷",
    "allomorphs": [
     "cart"
    ],
@@ -57100,7 +57083,7 @@
    "id": "ceres",
    "displayText": "ceres",
    "type": "root",
-   "meaningCn": "刻瑞斯谷类和耕作",
+   "meaningCn": "谷物",
    "allomorphs": [
     "cere"
    ],
@@ -57148,7 +57131,7 @@
    "id": "chat",
    "displayText": "chat",
    "type": "root",
-   "meaningCn": "闲谈闲谈",
+   "meaningCn": "闲谈",
    "allomorphs": [
     "chatt"
    ],
@@ -57268,7 +57251,7 @@
    "id": "combust",
    "displayText": "combust",
    "type": "root",
-   "meaningCn": "建燃料",
+   "meaningCn": "燃烧",
    "allomorphs": [
     "combust"
    ],
@@ -57425,7 +57408,7 @@
    "id": "cede",
    "displayText": "cede",
    "type": "root",
-   "meaningCn": "割让法割让",
+   "meaningCn": "退让",
    "allomorphs": [
     "cede"
    ],
@@ -57701,7 +57684,7 @@
    "id": "deaf",
    "displayText": "deaf",
    "type": "root",
-   "meaningCn": "聋的医聋的",
+   "meaningCn": "聋",
    "allomorphs": [
     "deaf"
    ],
@@ -57833,7 +57816,7 @@
    "id": "pict",
    "displayText": "pict",
    "type": "root",
-   "meaningCn": "皮克特人计图象",
+   "meaningCn": "画",
    "allomorphs": [
     "pict"
    ],
@@ -57869,7 +57852,7 @@
    "id": "derive",
    "displayText": "derive",
    "type": "root",
-   "meaningCn": "得自起源",
+   "meaningCn": "源头",
    "allomorphs": [
     "deriv"
    ],
@@ -58133,7 +58116,7 @@
    "id": "divers",
    "displayText": "divers",
    "type": "root",
-   "meaningCn": "各种不同的若干个",
+   "meaningCn": "不同",
    "allomorphs": [
     "divers"
    ],
@@ -58373,7 +58356,7 @@
    "id": "libr",
    "displayText": "libr",
    "type": "root",
-   "meaningCn": "图书管理员",
+   "meaningCn": "天平",
    "allomorphs": [
     "libr"
    ],
@@ -58397,7 +58380,7 @@
    "id": "erupt",
    "displayText": "erupt",
    "type": "root",
-   "meaningCn": "爆发喷出",
+   "meaningCn": "喷出",
    "allomorphs": [
     "erupt"
    ],
@@ -58866,7 +58849,7 @@
    "id": "antic",
    "displayText": "antic",
    "type": "root",
-   "meaningCn": "滑稽动作古怪的",
+   "meaningCn": "巨大",
    "allomorphs": [
     "antic"
    ],
@@ -59010,7 +58993,7 @@
    "id": "herit",
    "displayText": "herit",
    "type": "root",
-   "meaningCn": "继承人法继承人",
+   "meaningCn": "继承",
    "allomorphs": [
     "herit"
    ],
@@ -59022,7 +59005,7 @@
    "id": "hinder",
    "displayText": "hinder",
    "type": "root",
-   "meaningCn": "后面的阻碍",
+   "meaningCn": "挡住",
    "allomorphs": [
     "hindr"
    ],
@@ -59826,7 +59809,7 @@
    "id": "local",
    "displayText": "local",
    "type": "root",
-   "meaningCn": "低卡路里",
+   "meaningCn": "地方",
    "allomorphs": [
     "local"
    ],
@@ -59958,7 +59941,7 @@
    "id": "mars",
    "displayText": "mars",
    "type": "root",
-   "meaningCn": "火星",
+   "meaningCn": "马",
    "allomorphs": [
     "mars"
    ],
@@ -60079,7 +60062,7 @@
    "id": "microscope",
    "displayText": "microscope",
    "type": "root",
-   "meaningCn": "显微镜化显微镜",
+   "meaningCn": "显微镜",
    "allomorphs": [
     "microscop"
    ],
@@ -60463,7 +60446,7 @@
    "id": "lyze",
    "displayText": "lyze",
    "type": "root",
-   "meaningCn": "与词尾的名词构成",
+   "meaningCn": "分解",
    "allomorphs": [
     "lyze"
    ],
@@ -60571,7 +60554,7 @@
    "id": "pher",
    "displayText": "pher",
    "type": "root",
-   "meaningCn": "酶蛋白",
+   "meaningCn": "带",
    "allomorphs": [
     "pher"
    ],
@@ -60619,7 +60602,7 @@
    "id": "petit",
    "displayText": "petit",
    "type": "root",
-   "meaningCn": "法小的",
+   "meaningCn": "小",
    "allomorphs": [
     "petit"
    ],
@@ -60631,7 +60614,7 @@
    "id": "physic",
    "displayText": "physic",
    "type": "root",
-   "meaningCn": "药品",
+   "meaningCn": "自然、身体",
    "allomorphs": [
     "physic"
    ],
@@ -60799,7 +60782,7 @@
    "id": "valence",
    "displayText": "valence",
    "type": "root",
-   "meaningCn": "原子价化化合价",
+   "meaningCn": "价值",
    "allomorphs": [
     "valence"
    ],
@@ -60955,7 +60938,7 @@
    "id": "voke",
    "displayText": "voke",
    "type": "root",
-   "meaningCn": "恶作剧者",
+   "meaningCn": "呼喊",
    "allomorphs": [
     "voke"
    ],
@@ -61063,7 +61046,7 @@
    "id": "bush",
    "displayText": "bush",
    "type": "root",
-   "meaningCn": "矮树丛化管衬",
+   "meaningCn": "灌木",
    "allomorphs": [
     "buke"
    ],
@@ -61123,7 +61106,7 @@
    "id": "ref",
    "displayText": "ref",
    "type": "root",
-   "meaningCn": "裁判员计参考",
+   "meaningCn": "再、回",
    "allomorphs": [
     "ref"
    ],
@@ -61315,7 +61298,7 @@
    "id": "retire",
    "displayText": "retire",
    "type": "root",
-   "meaningCn": "隐居引退",
+   "meaningCn": "退下",
    "allomorphs": [
     "retire"
    ],
@@ -61411,7 +61394,7 @@
    "id": "sar",
    "displayText": "sar",
    "type": "root",
-   "meaningCn": "搜索救援",
+   "meaningCn": "沙丁鱼",
    "allomorphs": [
     "sar"
    ],
@@ -61472,7 +61455,7 @@
    "id": "seeming",
    "displayText": "seeming",
    "type": "root",
-   "meaningCn": "表面上的外观",
+   "meaningCn": "表面",
    "allomorphs": [
     "seeming"
    ],
@@ -61544,7 +61527,7 @@
    "id": "shrew",
    "displayText": "shrew",
    "type": "root",
-   "meaningCn": "泼妇法捍妇",
+   "meaningCn": "鼩鼱",
    "allomorphs": [
     "shrew"
    ],
@@ -61676,7 +61659,7 @@
    "id": "spoke",
    "displayText": "spoke",
    "type": "root",
-   "meaningCn": "轮辐装轮辐",
+   "meaningCn": "说话",
    "allomorphs": [
     "spokes"
    ],
@@ -61940,7 +61923,7 @@
    "id": "rem",
    "displayText": "rem",
    "type": "root",
-   "meaningCn": "眼的迅速跳动计识",
+   "meaningCn": "事物",
    "allomorphs": [
     "rem"
    ],
@@ -62073,7 +62056,7 @@
    "id": "bute",
    "displayText": "bute",
    "type": "root",
-   "meaningCn": "保泰松一种止痛药",
+   "meaningCn": "给",
    "allomorphs": [
     "bute"
    ],
@@ -62097,7 +62080,7 @@
    "id": "vial",
    "displayText": "vial",
    "type": "root",
-   "meaningCn": "小瓶装入小瓶",
+   "meaningCn": "路",
    "allomorphs": [
     "vial"
    ],
@@ -62133,7 +62116,7 @@
    "id": "avoidable",
    "displayText": "avoidable",
    "type": "root",
-   "meaningCn": "可避免的法可作为",
+   "meaningCn": "可避免的",
    "allomorphs": [
     "avoidable"
    ],
@@ -62325,7 +62308,7 @@
    "id": "visual",
    "displayText": "visual",
    "type": "root",
-   "meaningCn": "视觉的医视觉的",
+   "meaningCn": "视觉",
    "allomorphs": [
     "visual"
    ],
@@ -62638,7 +62621,7 @@
    "id": "hiero",
    "displayText": "hiero-",
    "type": "prefix",
-   "meaningCn": "人名",
+   "meaningCn": "神圣",
    "allomorphs": [
     "hier"
    ],
@@ -62650,7 +62633,7 @@
    "id": "hydro",
    "displayText": "hydro-",
    "type": "prefix",
-   "meaningCn": "水疗医院",
+   "meaningCn": "水",
    "allomorphs": [
     "hydro"
    ],
@@ -62867,7 +62850,7 @@
    "id": "theo",
    "displayText": "theo-",
    "type": "prefix",
-   "meaningCn": "理论上的",
+   "meaningCn": "神",
    "allomorphs": [
     "theo"
    ],
@@ -62963,7 +62946,7 @@
    "id": "uous",
    "displayText": "-uous",
    "type": "suffix",
-   "meaningCn": "费力的",
+   "meaningCn": "…的",
    "allomorphs": [
     "uous"
    ],
@@ -62975,7 +62958,7 @@
    "id": "esy",
    "displayText": "-esy",
    "type": "suffix",
-   "meaningCn": "电子系统",
+   "meaningCn": "礼节",
    "allomorphs": [
     "esy"
    ],
@@ -63095,7 +63078,7 @@
    "id": "arian",
    "displayText": "-arian",
    "type": "suffix",
-   "meaningCn": "构成形容词或名词",
+   "meaningCn": "…的人",
    "allomorphs": [
     "arian"
    ],
@@ -63131,7 +63114,7 @@
    "id": "mans",
    "displayText": "-mans",
    "type": "suffix",
-   "meaningCn": "的复数人",
+   "meaningCn": "（复数后缀）",
    "allomorphs": [
     "mans"
    ],
@@ -63210,6 +63193,90 @@
    "etymology": "",
    "level": 3,
    "color": "green"
+  },
+  {
+   "id": "missan",
+   "displayText": "miss",
+   "type": "root",
+   "meaningCn": "错过",
+   "allomorphs": [
+    "miss"
+   ],
+   "etymology": "古英语 missan（错过、未命中）",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "wander",
+   "displayText": "wander",
+   "type": "root",
+   "meaningCn": "漫步",
+   "allomorphs": [
+    "wander"
+   ],
+   "etymology": "古英语 wandrian（漫无目的地走）",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "whether",
+   "displayText": "whether",
+   "type": "root",
+   "meaningCn": "是否",
+   "allomorphs": [
+    "whether"
+   ],
+   "etymology": "古英语 hwæther（两者中的哪一个）",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "carrot",
+   "displayText": "carrot",
+   "type": "root",
+   "meaningCn": "胡萝卜",
+   "allomorphs": [
+    "carrot"
+   ],
+   "etymology": "希腊语 karōton（胡萝卜）",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "isol",
+   "displayText": "isol",
+   "type": "root",
+   "meaningCn": "岛",
+   "allomorphs": [
+    "isol"
+   ],
+   "etymology": "意大利语 isola（岛），源自拉丁 insula",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "corr",
+   "displayText": "cor-",
+   "type": "root",
+   "meaningCn": "共同、加强",
+   "allomorphs": [
+    "cor"
+   ],
+   "etymology": "com- 在 r 前的同化形式",
+   "level": 2,
+   "color": "orange"
+  },
+  {
+   "id": "delivery",
+   "displayText": "delivery",
+   "type": "root",
+   "meaningCn": "递送",
+   "allomorphs": [
+    "delivery"
+   ],
+   "etymology": "拉丁语 de- + liberare（交出、释放）",
+   "level": 3,
+   "color": "orange"
   }
  ],
  "worlds": [

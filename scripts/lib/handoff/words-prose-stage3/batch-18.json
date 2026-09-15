@@ -6,8 +6,8 @@
   "metaphorMeaningCn": "职业、占领",
   "metaphorOptions": [
    "职业、占领",
-   "把化合价翻开",
-   "把跨越串起来"
+   "把跨越翻开",
+   "把少女串起来"
   ],
   "mnemonicNote": "occup(占据)+ation：一天里占去你大半时间那件事",
   "sourceNote": "拉丁 occupatio，occupare(占据)"
@@ -19,7 +19,7 @@
   "metaphorOptions": [
    "官方的、官员",
    "使习惯于的旧事",
-   "插入的背面"
+   "安顿的背面"
   ],
   "mnemonicNote": "offic(公务)+ial：盖着公章那一类说法",
   "sourceNote": "拉丁 officialis，officium(职责、公务)"
@@ -91,7 +91,7 @@
   "metaphorOptions": [
    "操作员、接线员",
    "技术的工具",
-   "把清楚的串起来"
+   "把说话串起来"
   ],
   "mnemonicNote": "operat(操作)+or(人)：坐在控制台前那些按钮归他管",
   "sourceNote": "拉丁 operator，operari(劳作)"
@@ -102,8 +102,8 @@
   "metaphorMeaningCn": "意见、看法",
   "metaphorOptions": [
    "意见、看法",
-   "围着搜寻转",
-   "数着酿造酒过日子"
+   "围着酿造酒转",
+   "数着荒野过日子"
   ],
   "mnemonicNote": "opin(认为)+ion：各人嘴里那一套自己的说法",
   "sourceNote": "拉丁 opinio，opinari(认为)"
@@ -151,7 +151,7 @@
   "metaphorOptions": [
    "组织、团体",
    "避难所的小站",
-   "垃圾场倾倒的地方"
+   "排外的的地方"
   ],
   "mnemonicNote": "organiz(组建)+ation：一群人分工明确地连成一体",
   "sourceNote": "中世纪拉丁 organizatio，organum(器官、工具)"
@@ -186,8 +186,8 @@
   "metaphorMeaningCn": "外向的、即将离任的",
   "metaphorOptions": [
    "外向的、即将离任的",
-   "替轴计坐标轴操心",
-   "离中提琴很远"
+   "替中提琴操心",
+   "呼叫的过程"
   ],
   "mnemonicNote": "outgo(往外去)+ing：见谁都愿意先开口那种性子",
   "sourceNote": "英语复合词，out + going"
@@ -223,7 +223,7 @@
   "metaphorOptions": [
    "直言不讳的、坦率的",
    "更多多的的过程",
-   "向着装饰去"
+   "向着机器去"
   ],
   "mnemonicNote": "out(出)+spoken(说出)：心里想什么嘴上就出什么",
   "sourceNote": "英语复合词，out + spoken"
@@ -235,7 +235,7 @@
   "metaphorOptions": [
    "杰出的、未付的",
    "次日的味道",
-   "被阿拉伯的阿拉伯人的东西"
+   "被道路的东西"
   ],
   "mnemonicNote": "out(出)+standing(站立)：一队人里就他显得凸出来",
   "sourceNote": "英语复合词，out + standing"
@@ -247,7 +247,7 @@
   "metaphorOptions": [
    "俯瞰、忽略",
    "一种欧洲的习俗",
-   "持有的人"
+   "带路的人"
   ],
   "mnemonicNote": "over(在上)+look(看)：站在高处一眼扫过去那片",
   "sourceNote": "古英语 oferleocan，ofer(在上) + leocan(看)"
@@ -270,8 +270,8 @@
   "metaphorMeaningCn": "物主、业主",
   "metaphorOptions": [
    "物主、业主",
-   "综合体的一角",
-   "五月愿能的小站"
+   "生长的一角",
+   "综合体的小站"
   ],
   "mnemonicNote": "own(拥有)+er(人)：房本上写着他名字",
   "sourceNote": "古英语 agan(拥有) + -er"
@@ -295,7 +295,7 @@
   "metaphorOptions": [
    "氧、氧气",
    "离永久的很远",
-   "枪医枪的过程"
+   "商议的过程"
   ],
   "mnemonicNote": "oxy(酸)+gen(生成)：早年以为它是酸性之源",
   "sourceNote": "希腊 oxys(酸) + genes(生成)，拉瓦锡造词"
@@ -306,8 +306,8 @@
   "metaphorMeaningCn": "包裹、套餐",
   "metaphorOptions": [
    "包裹、套餐",
-   "发明的另一面",
-   "严格的味道"
+   "显微镜的一角",
+   "发明的味道"
   ],
   "mnemonicNote": "pack(打包)+age：纸和绳子捆好等着寄那件",
   "sourceNote": "英语 pack(打包) + -age"
@@ -319,7 +319,7 @@
   "metaphorOptions": [
    "痛苦的、费劲的",
    "一种智力的习俗",
-   "潮湿的的人"
+   "天平的人"
   ],
   "mnemonicNote": "pain(疼)+ful：走一步要吸一口凉气那种",
   "sourceNote": "古法语 peine(痛苦) + -ful"
@@ -330,8 +330,8 @@
   "metaphorMeaningCn": "画家、油漆工",
   "metaphorOptions": [
    "画家、油漆工",
-   "守着演员阵容过活",
-   "使饿死的小站"
+   "守着使饿死过活",
+   "漂积海草的小站"
   ],
   "mnemonicNote": "paint(涂抹)+er(人)：画布前一站就是一整天那位",
   "sourceNote": "古法语 peintor，peindre(描绘)"
@@ -367,7 +367,7 @@
   "metaphorOptions": [
    "文书工作、案头杂务",
    "第一的来路",
-   "嘉奖的旧事"
+   "组织的旧事"
   ],
   "mnemonicNote": "paper(纸)+work(活)：一摞表格填下来就是一下午",
   "sourceNote": "英语复合词，paper + work"
@@ -390,8 +390,8 @@
   "metaphorMeaningCn": "部分地、不完全地",
   "metaphorOptions": [
    "部分地、不完全地",
-   "断路器化破碎机的过程",
-   "向着中立者去"
+   "中立者的过程",
+   "向着有价值的去"
   ],
   "mnemonicNote": "part(部分)+ly：说的只是其中一截，不是全部",
   "sourceNote": "拉丁 pars(部分) + -ly"
@@ -403,7 +403,7 @@
   "metaphorOptions": [
    "被动的、消极的",
    "守着信赖过活",
-   "迷人的的小站"
+   "农业的小站"
   ],
   "mnemonicNote": "pass(承受)+ive：推一下动一下，自己不先出手",
   "sourceNote": "拉丁 passivus，pati(承受)"
@@ -439,7 +439,7 @@
   "metaphorOptions": [
    "平静的、和平的",
    "守着相片过活",
-   "把实际上起作用的串起来"
+   "把可避免的串起来"
   ],
   "mnemonicNote": "peace(太平)+ful：连狗都不叫的那种静",
   "sourceNote": "古法语 pais(和平) + -ful"
@@ -462,8 +462,8 @@
   "metaphorMeaningCn": "完美的、完成时",
   "metaphorOptions": [
    "完美的、完成时",
-   "一种印象的习俗",
-   "钢笔的人"
+   "一种分解的习俗",
+   "印象的人"
   ],
   "mnemonicNote": "per(彻底)+fect(做)：从头到尾一处不缺",
   "sourceNote": "拉丁 perfectus，perficere(做完)"
@@ -474,8 +474,8 @@
   "metaphorMeaningCn": "表演、性能",
   "metaphorOptions": [
    "表演、性能",
-   "财政的工具",
-   "把经递增串起来"
+   "主体的工具",
+   "把顺序串起来"
   ],
   "mnemonicNote": "perform(做到底)+ance：台上那几十分钟的成色",
   "sourceNote": "古法语 parformance，parfournir(完成)"
@@ -510,8 +510,8 @@
   "metaphorMeaningCn": "许可、准许",
   "metaphorOptions": [
    "许可、准许",
-   "中国科学院的旧事",
-   "直线的背面"
+   "直线的旧事",
+   "解放的背面"
   ],
   "mnemonicNote": "permiss(放行)+ion：上头点了头，你才能动",
   "sourceNote": "拉丁 permissio，permittere(放行)"
@@ -558,7 +558,7 @@
   "metaphorMeaningCn": "钢琴家、钢琴演奏者",
   "metaphorOptions": [
    "钢琴家、钢琴演奏者",
-   "毁灭的过程",
+   "燃烧的过程",
    "适当的的背面"
   ],
   "mnemonicNote": "pian(钢琴)+ist(人)：十指在黑白键上翻飞那位",
@@ -583,7 +583,7 @@
   "metaphorOptions": [
    "选手、播放器",
    "杯子的工具",
-   "数着科目过日子"
+   "数着周围过日子"
   ],
   "mnemonicNote": "play(比赛)+er(人)：球场上穿着号码那一位",
   "sourceNote": "古英语 plegian(游戏) + -er"
@@ -594,8 +594,8 @@
   "metaphorMeaningCn": "玩伴、玩耍的同伴",
   "metaphorOptions": [
    "玩伴、玩耍的同伴",
-   "以回答回答的旧事",
-   "以前的背面"
+   "以前的旧事",
+   "恐惧的背面"
   ],
   "mnemonicNote": "play(玩耍)+mate(伙伴)：小时候一块儿疯那位",
   "sourceNote": "古英语 plegian(游戏) + gemetta(同伴)"
@@ -643,7 +643,7 @@
   "metaphorOptions": [
    "口袋、小型的",
    "把蒸汽翻开",
-   "公鸡的影子"
+   "波兰的影子"
   ],
   "mnemonicNote": "pocke(小袋)+t：手往下一插那个位置",
   "sourceNote": "古北法语 poque(小袋)"
@@ -667,7 +667,7 @@
   "metaphorOptions": [
    "警察、警员",
    "离过度的很远",
-   "被小瓶装入小瓶的东西"
+   "被花园的东西"
   ],
   "mnemonicNote": "police(警务)+man(人)：胸口挂着号牌那位",
   "sourceNote": "法语 police(警务) + man(人)"

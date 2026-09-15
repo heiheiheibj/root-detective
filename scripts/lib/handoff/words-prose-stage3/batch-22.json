@@ -7,7 +7,7 @@
   "metaphorOptions": [
    "手提箱、行李箱",
    "抽水机的小站",
-   "构成名词表示小的地方"
+   "时常发生的的地方"
   ],
   "mnemonicNote": "suit(套装)+case(箱)：出差前把衣服码进的方箱子",
   "sourceNote": "英语复合词，suit(套装) + case(箱)"
@@ -19,7 +19,7 @@
   "metaphorOptions": [
    "摘要、总结",
    "勇敢的的来路",
-   "火车的地方"
+   "印度的地方"
   ],
   "mnemonicNote": "sum(总和)+mary：把一大篇掐头去尾只剩要点",
   "sourceNote": "拉丁 summarium，summa(总和)"
@@ -42,8 +42,8 @@
   "metaphorMeaningCn": "太阳镜、墨镜",
   "metaphorOptions": [
    "太阳镜、墨镜",
-   "数着找出过日子",
-   "重做的工具"
+   "数着英语过日子",
+   "把找出串起来"
   ],
   "mnemonicNote": "sun(太阳)+glasses(镜)：大太阳底下架在鼻梁上那副",
   "sourceNote": "英语复合词，sun + glasses"
@@ -54,8 +54,8 @@
   "metaphorMeaningCn": "日光、阳光",
   "metaphorOptions": [
    "日光、阳光",
-   "围着断路器化破碎机转",
-   "浪费的来路"
+   "围着浪费转",
+   "推进的来路"
   ],
   "mnemonicNote": "sun(太阳)+light(光)：从早晒到晚那一片亮",
   "sourceNote": "英语复合词，sun + light"
@@ -67,7 +67,7 @@
   "metaphorOptions": [
    "日出、黎明",
    "儿子的味道",
-   "介绍计简介的另一面"
+   "向外的另一面"
   ],
   "mnemonicNote": "sun(太阳)+rise(升起)：东边天刚泛白那一刻",
   "sourceNote": "英语复合词，sun + rise"
@@ -126,8 +126,8 @@
   "metaphorMeaningCn": "支持、支撑",
   "metaphorOptions": [
    "支持、支撑",
-   "油料的旧事",
-   "秘密地的背面"
+   "秘密地的旧事",
+   "套装的背面"
   ],
   "mnemonicNote": "sup(在下)+port(搬运)：在底下使着劲不让它塌",
   "sourceNote": "拉丁 supportare，sub-(在下) + portare(搬)"
@@ -150,8 +150,8 @@
   "metaphorMeaningCn": "包围、环绕",
   "metaphorOptions": [
    "包围、环绕",
-   "与有关的人的小站",
-   "守着可怕的过活"
+   "礼节的小站",
+   "守着与有关的人过活"
   ],
   "mnemonicNote": "sur(在上)+round(绕圈)：一圈人把它围在当中",
   "sourceNote": "古法语 suronder，sur-(在上) + unda(波浪)"
@@ -174,8 +174,8 @@
   "metaphorMeaningCn": "生存、幸存",
   "metaphorOptions": [
    "生存、幸存",
-   "搜索救援的另一面",
-   "数着相符的过日子"
+   "相符的的另一面",
+   "数着蜂房过日子"
   ],
   "mnemonicNote": "surviv(活得比…久)+al：风浪里最后还站着",
   "sourceNote": "古法语 survivre，sur-(超过) + vivre(活)"
@@ -187,7 +187,7 @@
   "metaphorOptions": [
    "怀疑、嫌疑犯",
    "守着转移过活",
-   "忠告的小站"
+   "逐字的的小站"
   ],
   "mnemonicNote": "sus(在下)+pect(看)：斜着眼从下往上把人打量一遍",
   "sourceNote": "拉丁 suspicere，sub-(在下) + specere(看)"
@@ -198,8 +198,8 @@
   "metaphorMeaningCn": "毛衣、针织衫",
   "metaphorOptions": [
    "毛衣、针织衫",
-   "航行航行于的味道",
-   "丰人的另一面"
+   "守卫者的味道",
+   "装天花板的另一面"
   ],
   "mnemonicNote": "sweat(出汗)+er(物)：冬天裹上就冒汗那件",
   "sourceNote": "古英语 swætan(出汗) + -er"
@@ -222,7 +222,7 @@
   "metaphorMeaningCn": "瑞士",
   "metaphorOptions": [
    "瑞士",
-   "救球解救的背面",
+   "源头的背面",
    "被立即的东西"
   ],
   "mnemonicNote": "switzer(施维茨)+land(土地)：阿尔卑斯山间那个联邦",
@@ -246,8 +246,8 @@
   "metaphorMeaningCn": "油轮、罐车",
   "metaphorOptions": [
    "油轮、罐车",
-   "引用引述的旧事",
-   "命令的背面"
+   "命令的旧事",
+   "小山羊的背面"
   ],
   "mnemonicNote": "tank(大罐)+er(物)：整个船身就是一只大罐子",
   "sourceNote": "印度来源 tank(水池) + -er，20 世纪造词"
@@ -258,8 +258,8 @@
   "metaphorMeaningCn": "无味的、庸俗的",
   "metaphorOptions": [
    "无味的、庸俗的",
-   "序数顺序的的过程",
-   "向着和平去"
+   "和平的过程",
+   "向着知道去"
   ],
   "mnemonicNote": "taste(味道)+less(无)：吃一口像在嚼白水",
   "sourceNote": "古法语 tast(味道) + -less(无)"
@@ -271,7 +271,7 @@
   "metaphorOptions": [
    "教师、老师",
    "松树的另一面",
-   "观察的味道"
+   "写的人的味道"
   ],
   "mnemonicNote": "teach(教)+er(人)：站在黑板前一遍遍讲那位",
   "sourceNote": "古英语 tæcan(教) + -er"
@@ -295,7 +295,7 @@
   "metaphorOptions": [
    "茶壶、茶水壶",
    "契约的过程",
-   "离理由很远"
+   "离胡萝卜很远"
   ],
   "mnemonicNote": "tea(茶)+pot(壶)：带嘴带盖、往杯里倒水那把",
   "sourceNote": "英语复合词，tea + pot"
@@ -307,7 +307,7 @@
   "metaphorOptions": [
    "技术的、专业的",
    "可能的的小站",
-   "巨大的的地方"
+   "行为者的地方"
   ],
   "mnemonicNote": "technic(技艺)+al：讲的全是行内那套门道",
   "sourceNote": "希腊 tekhnikos，tekhne(技艺)"
@@ -355,7 +355,7 @@
   "metaphorOptions": [
    "可怕的、糟糕的",
    "把待办翻开",
-   "把图书管理员串起来"
+   "把装天花板串起来"
   ],
   "mnemonicNote": "terr(恐惧)+ible：光听描述心里就发紧",
   "sourceNote": "拉丁 terribilis，terrere(使恐惧)"
@@ -414,8 +414,8 @@
   "metaphorMeaningCn": "因此、所以",
   "metaphorOptions": [
    "因此、所以",
-   "杯子的背面",
-   "群射的旧事"
+   "亲爱的的背面",
+   "杯子的旧事"
   ],
   "mnemonicNote": "there(那个)+fore(因为)：前面那笔账推下来就是这个果",
   "sourceNote": "中古英语 therfore，there + for"
@@ -510,8 +510,8 @@
   "metaphorMeaningCn": "完全地、全部地",
   "metaphorOptions": [
    "完全地、全部地",
-   "闲谈闲谈的影子",
-   "把标志翻开"
+   "标志的影子",
+   "把直接的翻开"
   ],
   "mnemonicNote": "total(总数)+ly：一点不剩，全算进去",
   "sourceNote": "中世纪拉丁 totalis，totus(全部)"
@@ -547,7 +547,7 @@
   "metaphorOptions": [
    "塔、塔楼",
    "时期的背面",
-   "被直接的的东西"
+   "被依赖的的东西"
   ],
   "mnemonicNote": "tow(高耸)+er(物)：城中心那截戳得最高的",
   "sourceNote": "古英语 torr，拉丁 turris(高耸的楼)"
@@ -583,7 +583,7 @@
   "metaphorOptions": [
    "教练、训练员",
    "一种装满的习俗",
-   "明顿英国著名的卫的另一面"
+   "判断的另一面"
   ],
   "mnemonicNote": "train(训练)+er(人)：场边吹着哨子那位",
   "sourceNote": "古法语 trainer(拖、训练) + -er"
@@ -595,7 +595,7 @@
   "metaphorOptions": [
    "训练、培训",
    "标志的影子",
-   "火星的人"
+   "酒精的人"
   ],
   "mnemonicNote": "train(受训)+ing：天不亮就跑圈那几个月",
   "sourceNote": "古法语 trainer(拖、牵引) + -ing"
@@ -618,8 +618,8 @@
   "metaphorMeaningCn": "翻译、译文",
   "metaphorOptions": [
    "翻译、译文",
-   "化缬氨酸的味道",
-   "适合的另一面"
+   "适合的味道",
+   "为了的另一面"
   ],
   "mnemonicNote": "translat(搬运)+ion：换成另一种话写出来的那份",
   "sourceNote": "拉丁 translatio，transferre(搬过去)"
@@ -667,7 +667,7 @@
   "metaphorOptions": [
    "治疗、对待",
    "被帮助的东西",
-   "放射性的的背面"
+   "使高兴的背面"
   ],
   "mnemonicNote": "treat(处置)+ment：大夫开的那套方子",
   "sourceNote": "古法语 traitier(处置) + -ment"
@@ -679,7 +679,7 @@
   "metaphorOptions": [
    "麻烦的、棘手的",
    "两者之中任一的的工具",
-   "月经月的味道"
+   "意图的味道"
   ],
   "mnemonicNote": "trouble(麻烦)+some：摊上它就得脱一层皮",
   "sourceNote": "古法语 trouble(混乱) + -some"
@@ -715,7 +715,7 @@
   "metaphorOptions": [
    "第二十、二十分之一",
    "浪费的过程",
-   "向着柔软的去"
+   "向着源头去"
   ],
   "mnemonicNote": "twenti(二十)+eth(序数)：数到二十的那一位",
   "sourceNote": "古英语 twentigotha，twentig(二十) 的序数"

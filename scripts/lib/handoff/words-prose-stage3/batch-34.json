@@ -42,8 +42,8 @@
   "metaphorMeaningCn": "令人惊讶的、意外的",
   "metaphorOptions": [
    "令人惊讶的、意外的",
-   "痊愈使复原的旧事",
-   "憎恨的来路"
+   "憎恨的旧事",
+   "成员的来路"
   ],
   "mnemonicNote": "surpris(意外)+ing：完全出乎人的意料",
   "sourceNote": "古法语 surprendre(突然抓住) + -ing"
@@ -102,8 +102,8 @@
   "metaphorMeaningCn": "同情的、赞同的",
   "metaphorOptions": [
    "同情的、赞同的",
-   "真正的的过程",
-   "离强壮的很远"
+   "强壮的的过程",
+   "离半径很远"
   ],
   "mnemonicNote": "sympath(共感)+etic：跟着别人一块儿难受",
   "sourceNote": "希腊 sympathes，syn-(共同) + pathos(感受)"
@@ -115,7 +115,7 @@
   "metaphorOptions": [
    "同情、赞同",
    "信息处理机的另一面",
-   "前进的味道"
+   "掂量的味道"
   ],
   "mnemonicNote": "sympath(共感)+ize：心里跟着人家一起疼",
   "sourceNote": "希腊 syn-(共同) + pathos(感受) + -ize"
@@ -150,8 +150,8 @@
   "metaphorMeaningCn": "冗长的、乏味的",
   "metaphorOptions": [
    "冗长的、乏味的",
-   "把航行航行于翻开",
-   "把严责串起来"
+   "把男人翻开",
+   "把杂草串起来"
   ],
   "mnemonicNote": "tedi(厌倦)+ous：叫人一个劲打哈欠",
   "sourceNote": "拉丁 taedium(厌倦) + -ous"
@@ -163,7 +163,7 @@
   "metaphorOptions": [
    "房客、租户",
    "雇用的工具",
-   "把母牛串起来"
+   "把捶胸串起来"
   ],
   "mnemonicNote": "ten(持有)+ant(人)：掏着租金占着房子住的人",
   "sourceNote": "古法语 tenant，tenir(持有) 的现在分词"
@@ -186,8 +186,8 @@
   "metaphorMeaningCn": "极好的、了不起的",
   "metaphorOptions": [
    "极好的、了不起的",
-   "网际网工程备忘录的旧事",
-   "警示的影子"
+   "安心的旧事",
+   "呼喊的影子"
   ],
   "mnemonicNote": "terrif(使惊骇)+ic：好到让人吓一跳",
   "sourceNote": "拉丁 terrificus，terrere(使惊骇)"
@@ -199,7 +199,7 @@
   "metaphorOptions": [
    "纺织品、纺织的",
    "生命的的背面",
-   "被表面上的外观的东西"
+   "被穿越的东西"
   ],
   "mnemonicNote": "text(编织)+ile(物)：机杼上织出来的那些",
   "sourceNote": "拉丁 textilis，texere(编织)"
@@ -223,7 +223,7 @@
   "metaphorOptions": [
    "厚度、浓密",
    "精选的过程",
-   "向着昏睡状态去"
+   "向着感知去"
   ],
   "mnemonicNote": "thick(厚实)+ness：拿尺一量，看它有多厚",
   "sourceNote": "古英语 thicce(厚) + -ness"
@@ -295,7 +295,7 @@
   "metaphorOptions": [
    "传送、传播",
    "围着三次转",
-   "数着邻居邻接毗邻而居过日子"
+   "数着偏爱过日子"
   ],
   "mnemonicNote": "trans(越过)+mission(送)：从这头送到那头",
   "sourceNote": "拉丁 transmissio，transmittere(送去)"
@@ -343,7 +343,7 @@
   "metaphorOptions": [
    "转弯处、转折点",
    "围着名望转",
-   "向着有条件的去"
+   "向着偏斜去"
   ],
   "mnemonicNote": "turn(转)+ing：拐弯那一下，也指那个拐角",
   "sourceNote": "古英语 turnian(转) + -ing"
@@ -354,8 +354,8 @@
   "metaphorMeaningCn": "闪烁、眨眼",
   "metaphorOptions": [
    "闪烁、眨眼",
-   "替社会的操心",
-   "离持有人很远"
+   "替天生操心",
+   "离社会的很远"
   ],
   "mnemonicNote": "twink(眨眼)+le(反复)：一亮一暗地眨着眼",
   "sourceNote": "古英语 twinclian(眨眼、闪动)"
@@ -378,8 +378,8 @@
   "metaphorMeaningCn": "揭露、发现",
   "metaphorOptions": [
    "揭露、发现",
-   "视觉的医视觉的的一角",
-   "围着庆祝转"
+   "庆祝的一角",
+   "围着克服转"
   ],
   "mnemonicNote": "un(去掉)+cover(盖子)：把盖着的掀开来",
   "sourceNote": "un-(去掉) + cover(覆盖)"
@@ -390,8 +390,8 @@
   "metaphorMeaningCn": "经历、遭受",
   "metaphorOptions": [
    "经历、遭受",
-   "敬畏使敬畏的工具",
-   "把希腊词尾串起来"
+   "希腊词尾的工具",
+   "把待办串起来"
   ],
   "mnemonicNote": "under(在下)+go(走)：从底下硬着头皮走过去",
   "sourceNote": "古英语 undergan，under + gan(走)"
@@ -402,8 +402,8 @@
   "metaphorMeaningCn": "本科生、大学在读生",
   "metaphorOptions": [
    "本科生、大学在读生",
-   "一种符咒的习俗",
-   "车站的人"
+   "一种车站的习俗",
+   "文化的人"
   ],
   "mnemonicNote": "under(未达)+graduate(毕业)：还没拿到文凭那几届",
   "sourceNote": "under-(未达) + graduate(毕业生)"
@@ -426,8 +426,8 @@
   "metaphorMeaningCn": "事业、任务",
   "metaphorOptions": [
    "事业、任务",
-   "阿拉伯的阿拉伯人的来路",
-   "允许的地方"
+   "允许的来路",
+   "高度的地方"
   ],
   "mnemonicNote": "undertak(揽下)+ing：自己揽下来的那桩大事",
   "sourceNote": "under-(在下) + take(拿) + -ing"
@@ -474,8 +474,8 @@
   "metaphorMeaningCn": "不公正的、不公平的",
   "metaphorOptions": [
    "不公正的、不公平的",
-   "英方用指甲或爪子的人",
-   "轮转的影子"
+   "任何的人",
+   "英方用指甲或爪子的影子"
   ],
   "mnemonicNote": "un(不)+just(公道)：秤砣偷偷往一边挪",
   "sourceNote": "un-(不) + 拉丁 justus(公道)"
@@ -487,7 +487,7 @@
   "metaphorOptions": [
    "不太可能的、未必",
    "守着高兴过活",
-   "把构成形容词或名词串起来"
+   "把饲料串起来"
   ],
   "mnemonicNote": "un(不)+likely(像要)：看着不像会成事",
   "sourceNote": "un-(不) + likely(可能的)"
@@ -499,7 +499,7 @@
   "metaphorOptions": [
    "卸货、卸下",
    "迷人的的过程",
-   "离各种不同的若干个很远"
+   "离从前的很远"
   ],
   "mnemonicNote": "un(去掉)+load(装载)：把车上的东西搬下来",
   "sourceNote": "un-(去掉) + load(装载)"
@@ -510,8 +510,8 @@
   "metaphorMeaningCn": "不幸的、倒霉的",
   "metaphorOptions": [
    "不幸的、倒霉的",
-   "被可避免的法可作为的东西",
-   "促进的味道"
+   "被促进的东西",
+   "字母的味道"
   ],
   "mnemonicNote": "un(不)+lucky(走运)：偏赶上最背的那一班",
   "sourceNote": "un-(不) + luck(运气) + -y"
@@ -535,7 +535,7 @@
   "metaphorOptions": [
    "不令人满意的、欠佳的",
    "把迷人的翻开",
-   "把油料串起来"
+   "把马夫串起来"
   ],
   "mnemonicNote": "un(不)+satisfactory(达标)：总差着那么一口气",
   "sourceNote": "un-(不) + 拉丁 satisfacere(使满足)"
@@ -547,7 +547,7 @@
   "metaphorOptions": [
    "不稳定的、多变的",
    "负荷的地方",
-   "表面上的外观的小站"
+   "手臂的小站"
   ],
   "mnemonicNote": "un(不)+stable(稳固)：脚底下站不牢",
   "sourceNote": "un-(不) + 拉丁 stabilis(稳固)"
@@ -583,7 +583,7 @@
   "metaphorOptions": [
    "正直的、竖立的",
    "应该的影子",
-   "把使习惯于翻开"
+   "把可避免的翻开"
   ],
   "mnemonicNote": "up(直)+right(正)：腰板挺得笔直",
   "sourceNote": "古英语 upriht，up + riht(直)"
@@ -618,8 +618,8 @@
   "metaphorMeaningCn": "变量、可变的",
   "metaphorOptions": [
    "变量、可变的",
-   "滤水器的过程",
-   "向着环境去"
+   "环境的过程",
+   "向着警示去"
   ],
   "mnemonicNote": "vari(变化)+able：会变的那个量",
   "sourceNote": "拉丁 variabilis，variare(变化)"
@@ -667,7 +667,7 @@
   "metaphorOptions": [
    "观点、视角",
    "把煮沸串起来",
-   "权利的工具"
+   "安顿的工具"
   ],
   "mnemonicNote": "view(看法)+point(点)：看事站的那一点",
   "sourceNote": "英语复合词，view + point"
