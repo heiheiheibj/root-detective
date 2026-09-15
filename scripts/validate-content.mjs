@@ -7,8 +7,8 @@ import { existsSync, readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 import { createInitialProfile, morphemes, rootMorphemes, worlds } from '../src/domain/data.ts'
-import { AGGREGATE_MIN_WORDS, MIN_WORDS_PER_ROOT, summarize, TARGET_WORD_COUNT, validateContent, validateWorlds } from '../src/domain/contentRules.ts'
-import { DICT_ARTIFACT_RE } from './lib/morpheme-fallback.mjs'
+import { AGGREGATE_MIN_WORDS, MIN_WORDS_PER_ROOT, normalizeMorphemeKey, summarize, TARGET_WORD_COUNT, validateContent, validateWorlds } from '../src/domain/contentRules.ts'
+import { DICT_ARTIFACT_RE, looksLikeDuplicatedGloss } from './lib/morpheme-fallback.mjs'
 
 // 浏览器侧 data.ts 只内联词条索引层（详情按分片懒加载）；校验要查详情字段，
 // 所以完整词表从 40 号产物 words.json 直接读——运行时和闸门共享同一份产物。
@@ -55,18 +55,50 @@ const findings = [
   ...validateWorlds(morphemes, worlds, teachingRootIds),
 ]
 
+// 干扰项体检要按 id 反查词素，先建一次索引（下面 A20c 用）。
+const morphemeById = new Map(morphemes.map((morph) => [morph.id, morph]))
+
 // 「词典兜底痕迹」自检（A20b，只报警不算错）。
 // 有一批词素的拼法**正好撞上一个英文缩写或俚语词条**，生成时按 id 去 ECDICT 查义项，拿回来的
 // 是那个词条的释义 —— 有汉字、过得了 A20，但意义与词根毫无关系（trah=人名特拉汉、dc=医直电流、
 // who=医世界卫生组织、minim=量滴液量单位）。这类值兜底表兜不住，只能人工覆盖 ——
 // 见 scripts/lib/morpheme-fallback.mjs 的 OVERRIDE_MEANINGS。
-// 正则只认「绝不可能是一个词根义项」的词典标记（医/俚/古/人名/姓氏/的复数…），
-// 所以偶尔会有误报，判 warning 不判 error。规则放在脚本层是因为签名与覆盖表是同一份东西，
-// 分到 contentRules.ts（TS、不能带值 import）就得抄一遍正则 —— 那正是当初义项表抄成两份的起因。
+//
+// ⚠️ 旧版用的是 `/^医|.../`（行首锚点），于是「枪医枪」「视觉的医视觉的」「必然的事情计计算」
+// 这种把标记拼在**中间**的串一条都抓不到 —— 实测漏了 10 条，而闸门报 0 反而让人以为干净。
+// 现在两个判据并用：任意位置的词典标记 + 重复片段（词典条目被拼接的形态）。
+// 仍判 warning 不判 error：`美`(beauty)、`计`(计算)、`方`(方向) 这类单字都可能是正常义项。
+// 规则放在脚本层是因为判据与覆盖表是同一份东西，分到 contentRules.ts（TS、不能带值 import）
+// 就得抄一遍 —— 那正是当初义项表抄成两份的起因。
 for (const m of morphemes) {
-  if (m.meaningCn && DICT_ARTIFACT_RE.test(m.meaningCn)) {
-    findings.push({ level: 'warning', rule: 'A20b', target: m.id, message: `义项「${m.meaningCn}」像是把这个词素当缩写/专名查了，请人工确认` })
+  if (m.meaningCn && (DICT_ARTIFACT_RE.test(m.meaningCn) || looksLikeDuplicatedGloss(m.meaningCn))) {
+    findings.push({ level: 'warning', rule: 'A20b', target: m.id, message: `义项「${m.meaningCn}」像是把这个词素当缩写/专名/术语查了，请人工确认` })
   }
+}
+
+// 「干扰项牌面上是一张垃圾卡」自检（A20c，只报警不算错）。
+// 干扰项的 text 是指向词素表的软外键：App.tsx 的 getAvailableCards 会按 id 查出来，
+// 用 displayText + meaningCn 画成一张牌。所以词素义项一脏，受害的不只是它自己那条词 ——
+// 它会作为干扰项被抽进别的词的拼词盘（实测：20 个垃圾词素出现在 101 条干扰项里，
+// 散布在 99 个词的牌面上，包括 audience 这种和它毫无关系的词）。
+// A20b 只看词素表，这条看「玩家实际会在哪些词的盘面上看到垃圾牌」。
+const junkDistractorUsers = new Map()
+for (const word of words) {
+  for (const distractor of word.distractors) {
+    const morpheme = morphemeById.get(normalizeMorphemeKey(distractor.text))
+    if (!morpheme || !morpheme.meaningCn) continue
+    if (!DICT_ARTIFACT_RE.test(morpheme.meaningCn) && !looksLikeDuplicatedGloss(morpheme.meaningCn)) continue
+    if (!junkDistractorUsers.has(morpheme.id)) junkDistractorUsers.set(morpheme.id, { gloss: morpheme.meaningCn, words: [] })
+    junkDistractorUsers.get(morpheme.id).words.push(word.id)
+  }
+}
+for (const [id, info] of junkDistractorUsers) {
+  findings.push({
+    level: 'warning',
+    rule: 'A20c',
+    target: id,
+    message: `义项「${info.gloss}」会作为干扰牌出现在 ${info.words.length} 个词的拼词盘上（如 ${info.words.slice(0, 3).join('、')}）`,
+  })
 }
 
 // 「同一个词素挂在多个世界」（A24b，只报警不算错）。
