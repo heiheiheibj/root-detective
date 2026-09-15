@@ -220,32 +220,31 @@ export const hasHanzi = (text) => /[\u4e00-\u9fff]/.test(String(text || ''))
  */
 export const OVERRIDE_MEANINGS = {
   // ══════ 第一轮（3adf204 引入）：被当成英文缩写/专名/术语查了的词根 ══════════
-  vis: '看', capit: '头', comp: '共同', sid: '坐', turb: '搅动', dure: '持续',
+  vid: '看', capit: '头', comp: '共同', sid: '坐', turb: '搅动', dure: '持续',
   eng: '英格', ma: '妈', bag: '袋', handwrite: '手写', ind: '印度', duce: '引导',
-  mathematic: '数学', gress: '走、步', mann: '人', eld: '年代', bi: '二', mas: '弥撒',
+  mathematic: '数学', mann: '人', eld: '年代', bi: '二', mas: '弥撒',
   apt: '适合', enda: '待办', app: '朝向', awk: '反手', butch: '屠宰', rot: '轮转',
   circ: '圆', barrass: '阻碍', rupt: '破裂', minim: '最小', minimus: '最小',
   minimum: '最小', rn: '走', abs: '离开', yer: '人', cip: '拿取', sci: '知道',
   gas: '气', lus: '戏弄', lig: '捆绑', insula: '岛', soph: '智慧', sprink: '洒',
   urbs: '都市', who: '谁', zeal: '热忱', eous: '…的', trah: '拉、拖', emi: '出去',
-  dem: '民众', hospital: '招待', dc: '引导', hal: '仆役', mons: '警示',
-  puls: '驱动、推', der: '剩下', tardus: '慢', tard: '慢', mal: '坏', syn: '共同',
-  secut: '跟随', lute: '冲洗', cess: '走、让', philo: '爱',
+  dem: '民众', hospital: '招待', dc: '引导', mons: '警示',
+  pel: '驱动、推', der: '剩下', tardus: '慢', tard: '慢', mal: '坏', syn: '共同',
+  secut: '跟随', cess: '走、让', philo: '爱',
   popul: '人口', import: '带入', bull: '球', well: '好',
-  western: '西', cube: '立方', poet: '诗人', abbreviate: '缩短', calibrate: '口径',
-  spoken: '说', counter: '反',
+  western: '西', cube: '立方', poet: '诗人', abbreviate: '缩短',
+  spoken: '说',
   // 后缀/前缀：同样撞上了缩写词条
-  semi: '半', milli: '千分之一', multi: '多', iso: '相等', uum: '名词词尾',
+  semi: '半', multi: '多', iso: '相等', uum: '名词词尾',
   ency: '名词后缀', sion: '名词后缀', um: '名词后缀',
   // 同根变体：拼法来自 cigen（同一词根散成两条记录），合并前先各兜对义项。
   // 标注「合并后作废」的条目在 id 合并之后就没有记录会用到，留着是防合并被回退时义项又变回垃圾。
-  aggress: '攻击',                              // 合并后作废（并入 gress）
-  active: '做、行动',                            // 合并后作废（并入 act）
+  gress: '攻击',                              // 合并后作废（并入 gress）
+  act: '做、行动',                            // 合并后作废（并入 act）
   passer: '经过',                                // 合并后作废（并入 pass）
   note: '知道、标记', not: '不',                 // 不合并：notice/notation 是词根 not-(知道)，neither/notwithstanding 是副词 not(不)
-  courage: '心', just: '判断、公正',             // 第 2 层合并（courage→cor、just→jud）
+  cor: '心', just: '判断、公正',             // 第 2 层合并（courage→cor、just→jud）
   iced: '冰',                                   // 不是 not 家族：icecream = ice + cream
-
   // ══════ 第二轮 A：ECDICT 领域标记泄漏 / 词典条目被拼接（165 条严判）══════════
   // 形态：`[医] 山` → 「医山」，或首义后面又挂了一个词性段 → 「必然的事情计计算」。
   cert: '确定',            // 曾「必然的事情计计算」（[计] 计算机紧急反应小组 被拼进首义）
@@ -288,7 +287,6 @@ export const OVERRIDE_MEANINGS = {
   local: '地方',           // 曾「低卡路里」（low calorie 缩写）；locality
   microscope: '显微镜',    // 曾「显微镜化显微镜」
   valence: '价值',         // 曾「原子价化化合价」；prevalence
-  bush: '灌木',            // 曾「矮树丛化管衬」
   rem: '事物',             // 曾「眼的迅速跳动计识别存储器」；theorem ← theorema
   visual: '视觉',          // 曾「视觉的医视觉的」
   avoidable: '可避免的',   // 曾「可避免的法可作为」（[法] 可作为无效的）
@@ -347,7 +345,6 @@ export const OVERRIDE_MEANINGS = {
   ulate: '使…动',          // 曾「谄媚」；circulate
   ien: '公民',             // 曾「网际网工程备忘录」；citizen
   clude: '关闭',           // 曾「除外」；exclude/include
-
   // ══════ 第二轮 B：缩写 / 专名被当成义项 ═══════════════════════════════════
   so: '如此、这样',        // 曾「自旋轨道分裂」（SO = spin-orbit splitting）；also
   eond: '那一边',          // 曾「经活期」（含 dueondemand 匹配）；beyond
@@ -368,10 +365,10 @@ export const OVERRIDE_MEANINGS = {
   stant: '站立',           // 曾「斯坦顿」（Stanton 人名）；constant ← stare
   tempor: '时间',          // 曾「颞颥」（[医] 术语）；contemporary ← tempus
   tribu: '给予',           // 曾「法保民官」（[法] 术语）；tribute ← tribuere
-  min: '小',               // 曾「部长」（minister 缩写）；minimum/vitamin ← minus
+
   bid: '命令',             // 曾「一日两次医每日两」（[医] b.i.d.）；forbid
   gener: '产生',           // 曾「类」（前缀匹配取错义）；generate/generation
-  ser: '连接',             // 曾「锡厄印巴等国重量」；insert ← serere
+
   spr: '呼吸',             // 曾「心灵研究学会」（SPR 缩写）；inspire ← spirare
   adays: '日子',           // 曾「现在」；nowadays
   suade: '劝',             // 曾「劝阻法劝阻」；persuade
@@ -385,7 +382,6 @@ export const OVERRIDE_MEANINGS = {
   expo: '展出',            // 曾「经展览会」
   wf: '女人',              // 曾「滤水器」(Water Filter)；woman
   wer: '人',               // 曾「文字差错率」(Word Error Rate)；world ← wer(人)+eld
-
   // ══════ 第二轮 C：包含匹配兜出来的垃圾（生成器侧已加约束，这里修存量）═══════
   rive: '岸',              // 曾「撕开」；arrive ← ad+ripa(岸)
   ford: '向前',            // 曾「浅滩」；afford ← 古英语 forth
@@ -414,12 +410,11 @@ export const OVERRIDE_MEANINGS = {
   plea: '舒服',            // 曾「恳求」；pleasure
   poke: '兜',              // 曾「刺」；pocket
   rail: '轨',              // 曾「横杆」；railway/railroad
-  cite: '叫',              // 曾「引用」；recite/citizen ← ciere(叫)
+
   pair: '配',              // 曾「一双」；repair/despair
   search: '找',            // 曾「搜寻」；research
   tell: '讲',              // 曾「告诉」；retell
-  rede: '懂',              // 曾「忠告」；riddle
-  sever: '分开',           // 曾「切断」；several/severely
+
   situate: '位于',         // 曾「使位于」
   supple: '填上',          // 曾「柔软的」；supply
   thou: '千',              // 曾「汝」；thousand
@@ -431,7 +426,6 @@ export const OVERRIDE_MEANINGS = {
   volley: '击球',          // 曾「群射」；volleyball
   weal: '身家',            // 曾「福利」；wealth/wealthy
   whet: '磨',              // whether 已重切为单个词素（SPLIT_REPLACE），这条只是防回退
-  mar: '损毁',             // grammar(写字的规矩)/nightmare(夜里被压住) 里的 -mar 各是一回事
 
   // ══════ 第二轮 D：义项能过闸门、但与家族词对不上（正则抓不到，逐条比对才看得出来）══
   a: '在',                 // 曾「第一个字母」；alive/asleep/ahead 里的 a- 是古英语 on(在)
@@ -484,7 +478,7 @@ export const OVERRIDE_MEANINGS = {
   spar: '雀',              // 曾「晶石」；sparrow
   row: '雀',               // sparrow 的另一半
   spell: '拼写',           // 曾「符咒」；spelling
-  sty: '管理',             // 曾「猪栏」；steward
+
   watch: '看',             // 曾「观察」；watchful
   stub: '树桩',            // 曾「断肢」；stubborn
   born: '天生',            // 曾「天生的的过去分词」
@@ -499,7 +493,7 @@ export const OVERRIDE_MEANINGS = {
   cast: '撒',              // 曾「演员阵容」；broadcast
   pot: '壶',               // 曾「盆」；teapot
   pease: '拍手',           // 曾「豌豆」；applause
-  ban: '布',               // 曾「禁令禁止」；banner
+
   close: '关',             // 曾「结束」；disclose/enclose
   lapse: '滑落',           // 曾「过失」；collapse
   mission: '派送',         // 曾「任务」；commission/transmission
@@ -523,7 +517,6 @@ export const OVERRIDE_MEANINGS = {
   agri: '田地',            // 曾「阿格里土耳其地区」；agriculture
   bin: '箱、容器',         // 曾「贮存谷物等的容器」；dustbin
   laud: '赞美',            // applaud
-
   // ══════ 第二轮 E：旧 shortMeaning 的「词性段拼接」（产物 == 旧实现 != 新实现）══════
   // 判据是机器给的：拿同一条 ECDICT 记录，用旧实现算一遍、用新实现算一遍，产物值等于旧实现
   // 就说明这条是那个 bug 的产物。上面 A~D 四类是「记录本身是垃圾」，这一类是「记录是普通词，
@@ -547,7 +540,7 @@ export const OVERRIDE_MEANINGS = {
   boy: '男孩',             // 曾「男孩法男孩」；cowboy
   deep: '深',              // 曾「深的深入地深渊」；deeply/deepen
   settle: '安顿',          // 曾「有背长椅决定」；settlement
-  shut: '关闭',            // 曾「关闭关上」；shuttle/shutter
+
   destruct: '拆毁',        // 曾「自毁自毁」；destruction/destructive
   employ: '雇用',          // 曾「雇用雇用」；employee/employer/employment
   fart: '远',              // 曾「屁放屁」；farther ← 古英语 feor(远)
@@ -563,7 +556,7 @@ export const OVERRIDE_MEANINGS = {
   blend: '混合',           // 曾「混合混合」；blunder（blunder 是误切，见残留说明）
   cart: '卷',              // 曾「二轮运货马车驾运」；cartridge ← charta(纸卷)
   chat: '闲谈',            // 曾「闲谈闲谈」；chatter
-  derive: '源头',          // 曾「得自起源」；derivation
+
   divers: '不同',          // 曾「各种不同的若干个」；diversify/diversion
   erupt: '喷出',           // 曾「爆发喷出」；eruption
   hinder: '挡住',          // 曾「后面的阻碍」；hindrance
@@ -585,16 +578,353 @@ export const OVERRIDE_MEANINGS = {
   // 注：`fusc`（obfuscate ← fuscus 暗）与 `vinci`（convince ← vincere 征服）也出现在草稿的可疑
   // 清单里，但它们从未进任何批次 —— 覆盖表写了也永远轮不到（check-morpheme-overrides 会报
   // 「上游不存在的 id」），所以不写，留给生成器的出厂警告盯着。
-}
+  // ── 二轮全表对抗式复核（2698 词逐条过目）抓出的残余错注 ──────────────────────
+  // 模式与首轮相同：词典把「现代词义/专名/残段」当成了词素义。这里的三百多条每条都对着
+  // 用词的 literal/mnemonic/sourceNote 核过 —— 字面义当时就是按正确词源写的，词素表注错才对不上。
+  // 真双支（两个词源都真实存在的）用「；」并立；纯泄漏（现代词义、药名、人名、残句）直接删掉。
+  abound: '充盈、满溢',      // 曾「大量存在」；abound ← abundare(满溢)
+  access: '通路；附加',     // 附件支 accessorium(附加)
+  acre: '英亩；砍杀',       // massacre ← mactare(宰杀)；acre 本义英亩
+  actor: '表演',             // 曾「男演员」（循环义）；actress ← actrice
+  advert: '使转向',         // 曾「提出看法」；advertise ← ad+vertere(转)
+  aeri: '空气',             // 曾「表示空气」（残句）；aerial ← aer(空气)
+  ag: '做、驱使',           // 曾「朝向」；agenda ← agere(做)
+  air: '…的人（法语后缀）', // 曾「空气」；millionaire 的 -aire 是施事后缀
+  ambit: '四处走动；周围',  // ambition ← ambire(四处走)
+  annual: '年度的',         // 曾「年刊」（n. 词义当词素义）；annualis ← annus(年)
+  anti: '反对；在…之前',   // antique 支 ante(在前)，antibiotic 支 anti-(反)
+  appeal: '恳求；打动',     // appealing ← appellare(招呼、打动)
 
+  apply: '涂；施用',        // appliance ← applicare(施用)
+  appraise: '评价；估价',    // appraise ← prisier(估价)
+  atom: '原子；不可切',     // atomos 本义不可切
+  automatic: '自动的',      // 曾「自动手枪」（n. 串味）；automatos(自动)
+  available: '有效的；可得', // availability 要「可得」支
+  ban: '布告、旗',         // banner ← bandum(旗)
+  base: '底部；基础；垒',   // database 要「基础」、baseball 要「垒」
+  basic: '基本的',          // 曾「基本原理」（n. 串味）
+  be: '蜜蜂',              // 曾「是」（be 动词串味）
+  behave: '举止、表现',      // 曾「举止端正」（状态义）
+  bet: '好（比较级支）',   // 曾「打赌」（bet 串味）；better ← betera
+  bore: '钻孔；令人厌烦',    // boring 支 borian(钻孔)，bore 支令人厌烦
+  bow: '弓；弯',            // elbow 支 boga(弯)
+  bowl: '碗；球',           // bowling ← boule(球)
+  brace: '支柱；手臂',      // embrace 支 brace(手臂)
+  braid: '辫子；缰绳',       // bridle ← bridel(缰绳，编结而成)
+  bush: '灌木；砍',         // rebuke ← buchier(砍)
+  calibrate: '口径；校准',   // calibration ← calibrer(校准)
+
+  cap: '容纳',            // 曾「抓取、拿」；capacity ← capacitas(容纳)
+  carry: '运送',            // 曾「进位」；carrier ← carrus(车)
+  case: '情形；箱、柜',     // bookcase/suitcase 要「箱柜」支
+  ceit: '拿、领会；欺骗',   // conceit ← conceiven(领会)，deceit 支欺骗
+  scend: '爬',               // 曾「波浪的推动力」（无中生有）；transcend ← scandere(爬)
+  cent: '百；唱',           // incentive ← incinere(奏唱)，percent 支百
+  champ: '竞技场；大声嚼',  // champion ← campus(竞技场)，chomp 支大声嚼
+  chant: '圣歌；唱',        // enchant ← incantare(念唱)
+  chap: '小伙子；头',       // chapter ← capitulum(小头)
+  char: '家庭杂务；烧焦',   // charcoal 支 char(烧焦)，charwoman 支杂务
+  charge: '指控；装载',     // discharge ← chargier(装载)
+  chart: '图表；文书',      // charter ← charta(纸、文书)
+  chemist: '化学、炼金（者）', // chemistry 字面「炼化的学问」
+  chest: '胸；箱',          // chestnut 民间拆法用「箱」支
+  chute: '瀑布；坠落',      // parachute ← chute(坠落)
+  cite: '城市',             // 曾「叫」（citare 串味）；citizen ← cite(城市)
+  claim: '要求；喊',        // proclaim ← clamare(喊)
+  class: '班级；等级、类别', // classic ← classicus(等级)
+  cleanly: '洁净',          // 曾「爱清洁的」（词义当词素义）；clæne(洁净)
+  clos: '关闭；秘密',       // closet ← clos(关闭)
+  co: '外套、上衣',       // 曾「共同」（co- 串味）
+  colony: '垦殖；殖民地',   // colonial ← colere(耕作)
+  com: '来',               // 曾「共同」（com- 串味）；welcome ← cuman(来)
+  commerce: '贸易',          // 曾「商业」（现代义当词素义）；merx(货物)
+  commune: '共有；公社',     // 曾「恳谈」；communis(共有的)
+  communicate: '共通；传达', // 曾「显露」；communicare(使共有)
+  compatible: '相容',       // 曾「能共处的」（残句）；pati(忍受) 支
+  complex: '缠绕、复杂；综合体', // complexity ← complecti(缠绕)
+  conduct: '行为；引导',    // conductor ← conducere(引导)
+  conserve: '保存；蜜饯',    // 曾「蜜饯」（n. 支当主义）；conservare(保存)
+  convention: '大会；惯例', // conventional 要「惯例」支
+  converse: '相反；交往',    // conversation 支 conversari(交往)
+  cook: '烹调；厨子',       // 曾「厨子」（n. 义）；cooker 字面「做菜用的器物」
+  cord: '心；绳索',         // record/cordial 支 cor(心)，cordless 支绳索
+  corporate: '成一体；社团的', // incorporate ← corpus(身体)
+  correlate: '关联',         // 曾「有相互关系的东西」（残句）；correlare(关联)
+  counter: '柜台；反、相对', // counteract/counterpart 支 counter-(反)
+  course: '课程；跑、进程', // discourse ← currere(跑)
+  court: '法院；宫廷',      // courtesy ← corteis(宫廷式的)
+  cracy: '统治',            // 曾「的政府」（残句）；kratos(统治)
+  craft: '技艺；（飞行）器', // aircraft 要「器」支
+  culture: '文化；耕作',    // agriculture 要「耕作」支
+  cuss: '诅咒；摇',         // discuss ← quatere(摇)
+
+  cut: '切口；跟随',       // execute ← sequi(跟随)，cute 本义切口/可爱
+  cy: '（后缀）性质、状态', // 曾「表示性质」（残句）；bankruptcy 的 -cy
+  deport: '押解、运送；举止', // deportation ← deportare(押解)
+  derive: '引出；源头',      // derivation ← derivare(引出)
+  deter: '制止；限定',      // determine ← de+terminus(界限)
+  dorm: '睡',               // 曾「宿舍」（n. 串味）；dormant ← dormire(睡)
+  dox: '见解',              // 曾「强力霉素」（药名泄漏）；doxa(见解)
+  due: '应付的；引导',      // subdue ← ducere(引导)，overdue 支应付
+  earn: '赚得；热忱',       // earnest ← eornost(热忱)
+  economy: '持家；经济',     // economic ← oikonomia(持家)
+  educate: '引出、教育',     // 曾「教育」（循环义）；educare(引出)
+  ell: '前臂；厄尔（量布单位）', // elbow ← eln(前臂)，ell 本义厄尔
+  elect: '当选人；电',      // electron 支 elektron(琥珀→电)
+  endure: '持久；忍受',      // endurance ← durare(持续)
+  enter: '进入；在…之间',  // enterprise ← entre-(之间)
+  epi: '在上',              // 曾「直沙嘴」（无中生有）；epidemic ← epi-(在上)
+  eros: '啃蚀',             // 曾「爱神」（Eros 人名串味）；erosion ← erodere(啃蚀)
+  err: '犯错；走偏',        // error ← errare(游荡走偏)
+  ex: '出（ex- 变体）',    // execute 的 exe-
+  exhaust: '抽干；排气',    // exhaustion ← exhaurire(抽干)
+  exploit: '功绩；利用',    // exploitation ← esploitier(利用)
+  extract: '提取',          // 曾「榨出物」（残句）；extrahere(拉出)
+  extraordinary: '超出寻常', // 曾「非常的」（词义当词素义）
+  ey: '眼睛',              // 曾「指小」（后缀义串味）
+  fact: '做；事实',         // faction ← facere(做)
+  fect: '做、成',           // 曾「电场效应」（缩写泄漏）；facere(做)
+  feed: '喂；饲料',         // feedback ← feed(喂养)
+  fellow: '伙伴；男人',     // fellowship ← feolaga(伙伴)
+  fic: '面；做、成',        // superficial ← facies(面)，efficient 支 facere(做)
+  file: '档案；线',         // profile ← filo(线)
+  final: '终点的；期末考试', // finally ← finalis(终点)
+  fit: '适宜；做',          // benefit ← facere(做)
+  float: '飘动、扑动',      // 曾「漂流物」；flutter ← floterian(扑动)
+  for: '为了；失去',        // forget/forbid 的 for-(否定、失去)
+  form: '形状；前',         // former ← forma(第一、前)
+  formula: '公式、配方；客套语', // formulation 要「公式」支
+  fort: '强壮；十四',       // fortnight ← feowertine(十四)
+  found: '奠基；底',        // profound ← fundus(底)
+  game: '博戏；比赛',       // gamble ← gamen(游戏、骰子)
+  gig: '巨人',              // 曾「旋转物」；gigantic ← gigas(巨人)
+  glam: '魔力',             // 曾「迷人的」（词义当词素义）；glamer(魔法)
+  god: '教亲',              // 曾「上帝」；godsibb(教亲) 的前半
+  graduate: '走完等级、毕业', // 曾「毕业生」（循环义）
+  greet: '问候；悲叹',       // regret ← greter(悲叹)，greet 支问候
+  guise: '方式、装扮',      // 曾「相似」；disguise ← guise(方式)
+  gust: '味道；突然一阵',   // disgust ← gouster(尝)
+  gut: '水滴、淌',         // 曾「剧情」；gutter ← gutta(水滴)
+  hal: '看马人；仆役',      // marshal ← scalc(仆役)
+  hard: '坚硬的；园圈',     // orchard 支 geard(园圈)
+  haste: '纠缠',             // 曾「匆忙」；hassle ← haggle(讨价还价)
+  hate: '帽子；憎恨',        // hatred ← hatian(恨)
+  helm: '舵；盔',           // helmet 支 helm(护首之物)
+  her: '她；粘',            // adhere 支 haerere(粘)
+  hind: '后面；雌鹿',       // behind 要「后面」支
+  host: '主人；敌人',       // hostile ← hostis(敌人)
+  hide: '藏、缩',           // 曾「兽皮」；huddle 与 hide(藏) 同源
+  hum: '地面',             // 曾「嗡嗡声」；humble ← humus(土地)
+  ignore: '不知道',          // 曾「不理睬」；ignorare(不知道)
+  ile: '不；（后缀）…的、物', // missile 的 -ile 是物后缀
+  immune: '免除；免疫的',    // immunity ← munus(义务、免除)
+  impure: '不纯',            // impurity ← purus(纯净)
+  influence: '流入；影响力', // influential ← influere(流入)
+  inforce: '使有力',        // 曾「大规模地」（残句）；reinforce ← enforce(使有力)
+  initial: '最初的；字首',  // initially ← initium(开始)
+  initiate: '开始、发起；入会', // initiative ← initiare(开始)
+  inspire: '吸气；使感动',   // inspiration ← inspirare(吸气)
+  institute: '设立、建立',   // 曾「学会」（循环义）
+  intense: '拉紧；非常的',   // intensity ← intendere(拉紧)
+  intern: '内部的',         // 曾「实习生」（n. 串味）；internus(内部)
+  inverse: '相反、翻转',    // 曾「以诗体」（无中生有）；invertere(翻转)
+  ite: '…的、…的人；石',   // favourite 支 favorito，meteorite 支矿物后缀
+  journal: '日报、期刊；日记', // journalist ← diurnalis(每日的)
+  keep: '看守；生计',       // 曾「生计」（n. 支当主义）
+  lap: '膝盖；搭叠',        // overlap ← lappe(搭叠)
+  late: '晚、后（比较级支）', // 曾「携带」（latum 串味）；latter ← lætra
+  lease: '放开；租约',      // release ← laissier(放开)
+  left: '留下；左边',       // leftover 要「留下」支
+  leg: '读；腿',            // legend ← legenda(该读的)，leg 本义腿
+  locate: '定位；找出',      // location ← locare(定位)
+  loco: '地方',             // 曾「疯草病」（loco weed 串味）；locus(地方)
+  lore: '哭喊；知识',       // implore ← plorare(哭喊)
+  lute: '洗、污；琵琶',     // pollute ← luere(弄污)
+  main: '主要；手',         // maintain ← manu tenere(用手持)
+  major: '较大的；主修课',  // majority ← major(较大的)
+  man: '人；手',            // manoeuvre ← manu(手)
+  mar: '鬼压；损毁',       // nightmare ← mare(压人的鬼)
+  marine: '海的',           // 曾「舰队」（n. 串味）；marinus(海的)
+  marx: '马克思',   // 曾「马克思无产阶级的」（残句泄漏）
+  measure: '量度；尺寸',     // measurable ← mesurer(量度)
+  mand: '修补；托付',       // commend ← mandare(托付)
+  merge: '沉',              // 曾「使合并」（现代义）；submerge ← mergere(沉)
+  mill: '磨坊',             // 曾「压榨机」；windmill ← mylne(磨坊)
+  milli: '千；千分之一',    // million ← mille(千)，millimetre 要千分之一
+  min: '小；界限；挖',     // determine 支 terminus(界限)，undermine 支 minen(挖)
+  ming: '掺、混',           // 曾「明朝」（朝代名泄漏）；mingle ← mengan(混合)
+  minor: '较小的；未成年人', // minority ← minor(较小的)
+  miser: '可怜；守财奴',    // miserable ← miser(可怜)
+  mist: '称呼；雾',         // mister ← master(弱化)，mist 本义雾
+  mode: '尺度',             // 曾「模态」；moderate ← modus(尺度)
+  mortal: '必死的、凡人',   // 曾「生物」；immortal ← mors(死)
+  motive: '移动的',         // 曾「动机」（n. 串味）；locomotive ← motivus(移动的)
+  multiplicate: '倍增',      // 曾「复合的」；multiplication ← multiplus(多倍的)
+  muse: '缪斯；沉思',        // music ← Mousa(缪斯)
+  mute: '变换',             // 曾「哑子」（n. 串味）；commute ← mutare(变换)
+  natural: '自然的',        // 曾「白痴自然的」（垃圾串泄漏）；natura(本性)
+  navy: '船',                // 曾「海军」（现代义）；naval ← navis(船)
+  nerve: '神经',             // 曾「精神」；nervous ← nervus(神经)
+  ne: '不',                 // 曾「原姓的」（残句泄漏）；nought ← ne(不)
+  nov: '九；新',            // november ← novem(九)，novelty 支新
+  novel: '小说；新奇',      // novelist ← novella(故事)
+  object: '物体；反对、客体', // objection ← obicere(扔向、反驳)
+  office: '公务、职责',      // 曾「办公室」；official ← officium(职责)
+  old: '以前的；（threshold 支）门坎', // threshold ← therscold(门坎)
+
+  on: '一',                // anyone/everyone 的 one
+  open: '打开',             // 曾「公开」（词义当词素义）；opener ← openian(打开)
+  operative: '工作的',      // 曾「动作的」（残句）；cooperative ← operari(工作)
+  orc: '园',                // 曾「虎鲸」（orca 串味）；orchard ← hortus(园)
+  orient: '日出；东方',     // orientation ← oriens(日出)
+  ory: '场所；…的',         // contradictory 要「…的」支
+  ought: '东西；应该',      // nought ← owiht(东西)，ought 本义应该
+  pact: '压紧；契约',       // compact ← pangere(钉紧)
+  paint: '描绘、画；油漆',  // painter ← peindre(描绘)
+  para: '防；旁边、平行',   // parachute ← para-(防)
+  particular: '特定的',     // 曾「一项或条点」（残句）；particula(小部分)
+  pass: '经过；步；承受',   // compass 支 passus(步)，passive 支 pati(承受)
+  patch: '拴住；片、补丁',  // dispatch ← pedica(脚镣拴住)
+  patient: '忍耐；病人',    // impatient ← pati(忍受)
+  pay: '支付；薪资',        // payment ← paier(支付)
+  pen: '几乎；钢笔',        // peninsula ← paene(几乎)
+  pense: '称量；分开花费',  // dispense ← pensare(称量)
+  permit: '放行',          // 曾「许可证」（n. 串味）
+  pick: '腌；精选',         // pickle ← pekel(盐水)
+  play: '游戏；折叠',       // display ← pleier(折)
+  populate: '定居、使人聚居', // 曾「使人口聚居在中」（残句）
+  posit: '放置',            // 曾「假设」（v. 串味）；positive ← ponere(放置)
+  post: '后；邮政',         // postcard/passport 要「邮政」支
+  present: '呈献；现在、礼物', // presentation ← praesentare(呈献)
+  primary: '首要',          // 曾「最主要者」（残句）；primus(第一)
+  principal: '首要的',      // 曾「校长」（n. 串味）；princeps(为首者)
+  process: '行进；程序',    // procession ← processio(行进)
+  produce: '产出、引出',     // 曾「生产品」（循环义）
+  prompt: '即时的；激励',   // promptly ← promptus(准备好的)
+  proof: '防、挡；证据',    // waterproof 要「防挡」支
+  propose: '提出',           // 曾「计划」（现代义当词素义）
+  prospect: '前景；景色',   // prospective ← prospicere(向前看)
+  pump: '鼓、熟瓜',         // 曾「抽水机」；pumpkin ← pepon(熟瓜)
+  que: '…的（法语词尾）；队列', // unique 的 -que，queue 本义队列
+  radius: '辐射；半径',       // radial ← radius(轮辐、光线)
+  radio: '射线；无线电',    // radioactive ← radius(射线)
+  react: '反应',            // 曾「重做」（字面拼装义）；re-agere(回做)
+  rebel: '造反',           // 曾「叛徒」（n. 串味）；rebellio(再战)
+  recess: '后退；休息',     // recession ← recedere(后退)
+  relative: '相对的',       // 曾「亲戚」（n. 串味）；relativus(相对的)
+  rent: '流；租金',         // torrent ← torrens(翻腾流)
+  rep: '爬；回',            // 曾「棱纹平布」（布料名）；reptile ← repere(爬)，reproach 支回
+  repute: '认为；名望',      // reputation ← reputare(反复思量)
+  reserve: '保留',           // 曾「储备品」（n. 串味）；reservare(保留)
+  resign: '辞去、交还',     // 曾「再签署」（字面拼装义）
+  response: '回应',          // 曾「反应」；responsible ← respondere(回应)
+  rede: '推测、解；筛',     // riddle ← rædan(推测)
+  riff: '长官',             // 曾「连复段」（乐句串味）；sheriff ← gerefa(长官)
+  right: '直、正；权利',    // upright ← riht(直)
+  rip: '起伏、微波',       // 曾「裂痕」；ripple ← ripplen(起微波)
+  rob: '长袍',             // 曾「抢夺」（rob 串味）
+  roll: '名册；卷',         // enroll ← rolle(名册)
+  rough: '粗糙的',          // 曾「粗糙的东西」（残句泄漏）
+  ry: '场所；性质、行业',   // bravery 要「性质」支
+  sal: '汁',               // 曾「盐」（与 saus 混同）；saucer ← sauce(汁)
+  saul: '跳',              // 曾「索尔男名」（人名泄漏）；assault ← saltare(跳)
+  scan: '绊倒；审视',       // scandal ← skandalon(绊脚石)
+  scar: '红布；疤痕',       // scarlet ← saqirlat(红布)
+  science: '知道；科学',    // conscience ← scire(知道)
+  scramb: '抓爬',           // 曾「英方用指甲或爪子」（残句泄漏）
+  second: '第二',           // 曾「秒」（n. 串味）；secundus(第二)
+  sent: '感觉；存在',       // absent/present 支 esse(存在)
+  sequence: '跟随；序列',   // consequence ← sequi(跟随)
+  sequent: '跟随',          // 曾「后果」（词义当词素义）
+  ser: '放置；连接',       // insert ← serere(放置)
+  sever: '严峻',           // 曾「分开」（sever 串味）；severus(严峻)
+  sh: '郡',                // 曾「嘘」；sheriff ← scir(郡)
+  skill: '币名',            // 曾「技术」（skill 串味）；shilling ← scilling
+  ship: '船',               // 曾「身份」（-ship 后缀支当主义）；shipbuilding ← scip(船)
+  shut: '梭；关闭',        // shuttle ← scytel(梭)
+  sib: '血亲',              // 曾「啜饮」（sip 本义）；gossip ← godsibb(教亲)
+  sit: '地点',             // 曾「坐落」；website ← situs(地点)
+  slight: '轻微',           // 曾「轻蔑」（n. 串味）；sletta(平滑轻微)
+  sole: '唯一；脚掌、孤单', // solely 要「唯一」，console 要「孤单」，sole 本义脚掌
+  solution: '解开；解决',   // resolution ← solvere(松开)
+  solve: '松开',            // 曾「解决」（词义当词素义）
+  sort: '出去',             // 曾「种类」（现代义当词素义）；resort ← sortir(出去)
+
+  space: '空间；位置',      // airspace 要「空间」支
+  special: '专门的',        // 曾「专辑」（n. 串味）；specialis(专门的)
+  specific: '特定、具体',   // 曾「特殊的」；specificus(具体的)
+  spine: '旋转；脊骨',       // spinal ← spina(脊骨)
+  spite: '轻视',            // 曾「恶意」（n. 义当词素义）；despite ← despicere(俯视)
+  stable: '稳固的',         // 曾「马房」（n. 串味）；stabilis(稳固)
+  stag: '摇晃',            // 曾「牡鹿」；stagger ← stakra(推晃)
+  stance: '站立',           // 曾「准备击球姿势」；circumstance ← stare(站)
+  start: '开始；惊起',      // startle ← steartlian(惊起)
+  station: '驻立；车站',    // stationary ← statio(驻地)
+  sty: '厅堂',              // 曾「管理」；steward ← stig(厅堂)
+  stead: '位置',            // 曾「代替」（词义当词素义）；stede(位置)
+  step: '一步；步骤',       // footstep 要「脚步」支
+  still: '安静',            // 曾「蒸馏室」（n. 串味）；stille(安静)
+
+  store: '储存',            // 曾「商店」；restore ← restaurare(重建)
+  strain: '拉紧',           // 曾「紧张」（现代义）；stringere(拉紧)
+  struct: '堆叠、构造',     // 曾「结构」（结果义）；struere(堆叠)
+  substantial: '实质的',    // 曾「重要材料或事物」（残句泄漏）
+  success: '接续；成功',    // succession ← succedere(接着来)
+  suit: '跟随、起诉；套装', // pursuit/pursuit 支追随，lawsuit 支起诉
+  sum: '夏；总数',         // summer ← sumor(夏)
+  superior: '较高的',       // 曾「长者」（n. 串味）
+  suspect: '怀疑',           // 曾「被怀疑者」（n. 串味）；suspicere(由下往上看)
+  tail: '切割；尾部',       // detail ← tailler(切割)
+  template: '观测场；样板', // contemplate ← templum(观测场地)
+  tempt: '试探；诱惑；轻蔑', // attempt 支 temptare(试)，contempt 支 contemnere(轻蔑)
+  ten: '持有；十',          // tenth 要「十」支，tenable 要「持有」支
+  tenant: '持有者；承租人', // lieutenant ← tenens(持有者)
+  tend: '伸展；柔嫩',       // tender ← tener(柔嫩)
+  tent: '持有；帐篷',       // content ← continere(容纳)，tent 本义帐篷
+  tick: '轻触',             // 曾「滴答声」（n. 义当词素义）；tickle ← tikelen(轻触)
+  tile: '物',               // 曾「砖瓦」（tile 本义）；reptile 的 -tile
+  ting: '安置',             // 曾「叮当声」（拟声串味）；setting 的残段
+  tiny: '立定；很少的',     // destiny ← destinare(立定)
+  tor: '翻滚',              // 曾「石山」；torrent ← torrere(翻腾)
+  translate: '搬运',         // 曾「翻译」（循环义）；translatus(搬过去)
+  tress: '拉紧',            // 曾「一绺头发」（n. 义当词素义）；distress ← distringere(拉紧)
+  tri: '分；三',            // tribute ← tribuere(分给)
+  troy: '堆叠',             // 曾「金衡」（金衡制串味）；destroy ← struere(堆叠)
+  trump: '号角',            // 曾「王牌」（n. 义当词素义）；trumpet ← trompe(号角)
+  ty: '十；性质、状态',     // fifty 要「十」支，duty/casualty 要状态支
+  un: '不；直至',           // until 支 und(直至)
+  eur: '…的人（法语后缀）',  // 曾「欧洲」（Europe 串味）；entrepreneur 的 -eur
+  vac: '牛',             // 曾「空」（vacuum 串味）；vacca(牛)
+  vag: '游荡',              // 曾「流浪者」（n. 串味）；vagari(游荡)
+  valid: '强健',            // 曾「有确实根据的」（语义义当词素义）；validus(强健)
+  vain: '空虚',              // 曾「无价值的」；vanity ← vanus(空虚)
+  vantage: '在前；优势',    // advantage 字面「处在前面」
+  verge: '倾斜',            // 曾「边缘」；diverge/converge ← vergere(倾向)
+  vestigate: '足迹',        // 曾「调查」（循环义）；vestigium(足迹)
+  vicine: '邻近',            // 曾「巢菜碱」（药名泄漏）；vicinus(邻居)
+  viola: '越界、施暴',     // 曾「中提琴」（乐器名串味）；violare(施暴)
+  violet: '紫色',           // 曾「堇菜」（花名串味）；ultraviolet ← viola(紫罗兰色)
+  vow: '出声',              // 曾「誓约」（n. 义当词素义）；vowel ← vocalis(发声)
+
+  ward: '看守；朝向',       // steward/wardrobe 支 warder(看守)
+  war: '货物',             // 曾「战争」（war 串味）；warehouse ← waru(货物)
+  wide: '宽的；广泛',       // 曾只注「广泛」；wide 本义宽
+  wild: '野生；荒野',       // wildlife 要「野生」支
+  wind: '风；缠绕',         // winding ← windan(缠绕)
+  with: '伴随；回、对抗',   // withdraw 支回，withstand 支对抗
+  yard: '场地',             // 曾「码」（单位义当词素义）；courtyard ← geard(场地)
+  yield: '让；生产量',      // yielding ← gieldan(付、让)
+  pan: '平锅；面包；潘神',  // company ← panis(面包)，panic ← Pan(潘神)
+  im: '不；进入',           // impossible 支 im-(不)，immigrate 支 in-(进入) 的同化
+  lemon: '柠檬',            // 曾缺失；lemonade ← lemon + -ade
+}
 /**
  * 显示名修正：id 是内部标识，卡片上画的是 displayText。有一批 id 是切分算法按词形凑出来的
  * 碎片（`wf`、`wer`、`eond`），直接显示会在牌面上出现「wf＝女人」这种莫名其妙的卡片 ——
  * 改成该词素实际用到的表面形式。
  *
  * ⚠️ displayText 必须全局唯一（A20），改之前先确认没有别的词素在用同一个名字。
- */
-export const OVERRIDE_DISPLAY = {
+ */export const OVERRIDE_DISPLAY = {
   wf: 'wo',        // woman = wo + man
   wer: 'wor',      // world = wor + ld
   eond: 'yond',    // beyond = be + yond
@@ -657,6 +987,54 @@ export const INJECT_MORPHEMES = [
     // 两个义项跟「交付」都毫无关系，而且 deli/very 各自只服务这一条词，切成碎片没有任何收益。
     id: 'delivery', displayText: 'delivery', type: 'root', meaningCn: '递送',
     allomorphs: ['delivery'], etymology: '拉丁语 de- + liberare（交出、释放）', level: 3, color: 'orange',
+  },
+  {
+    // 二轮复核注入：这些残段原本被张冠李戴的碎片占着名（deli[熟食店]、far[fart 截断]…），
+    // 切分改挂正身时目标 id 在库里没有，只能注入。每条的词源都写在 etymology 里。
+    id: 'cline', displayText: 'cline', type: 'root', meaningCn: '倾斜',
+    allomorphs: ['cline'], etymology: '拉丁 clinare（倾斜）；decline/incline', level: 3, color: 'orange',
+  },
+  {
+    id: 'liber', displayText: 'liber', type: 'root', meaningCn: '称量、天平',
+    allomorphs: ['liber'], etymology: '拉丁 libra（天平）；deliberate ← de+librare', level: 3, color: 'orange',
+  },
+  {
+    id: 'electr', displayText: 'electr', type: 'root', meaningCn: '电',
+    allomorphs: ['electr'], etymology: '希腊 elektron（琥珀，摩擦起电）；electron', level: 3, color: 'orange',
+  },
+  {
+    id: 'ther', displayText: 'ther', type: 'suffix', meaningCn: '比较级后缀',
+    allomorphs: ['ther'], etymology: 'farther ← ferther（far 的比较级）', level: 1, color: 'green',
+  },
+  {
+    id: 'far', displayText: 'far', type: 'root', meaningCn: '远',
+    allomorphs: ['far'], etymology: '古英语 feor（远）；farther = far + ther', level: 1, color: 'orange',
+  },
+  {
+    id: 'frain', displayText: 'frain', type: 'root', meaningCn: '勒住',
+    allomorphs: ['frain'], etymology: '古法语 fraindre（勒住）；refrain', level: 3, color: 'orange',
+  },
+  {
+    id: 'chill', displayText: 'chill', type: 'root', meaningCn: '寒冷',
+    allomorphs: ['chill'], etymology: '古英语 cele（寒冷）；chill 整词，原 ch+ill 残段', level: 1, color: 'orange',
+  },
+  {
+    // lemonade ← lemon + -ade（饮料，法语后缀：orangeade/lemonade）。原先挂在 ad-(朝向) 上，
+    // 卡片成了「柠檬 + 朝向」——ade 是能独立成话的支，单独立 root。
+    id: 'ade', displayText: 'ade', type: 'root', meaningCn: '饮料',
+    allomorphs: ['ade'], etymology: '法语 -ade（由…制成的饮料）；lemonade', level: 3, color: 'orange',
+  },
+  {
+    id: 'scent', displayText: 'scent', type: 'root', meaningCn: '气味；爬',
+    allomorphs: ['scent'], etymology: '双支：sentir（气味）与 scandere（爬，descent）', level: 3, color: 'orange',
+  },
+  {
+    id: 'terr', displayText: 'terr', type: 'root', meaningCn: '地',
+    allomorphs: ['terr'], etymology: '拉丁 terra（地）；terrain', level: 3, color: 'orange',
+  },
+  {
+    id: 'ain', displayText: 'ain', type: 'suffix', meaningCn: '（法语词尾）',
+    allomorphs: ['ain'], etymology: 'terrain 的 -ain 词尾', level: 1, color: 'green',
   },
 ]
 

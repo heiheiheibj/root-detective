@@ -1,723 +1,723 @@
 {
- "_comment": "Stage 3 待写释义（batch-33，本批 60 词，四级批第 9 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
- "roughly": {
-  "modernMeaningCn": "概略地",
-  "literalMeaningCn": "大概齐地",
-  "metaphorMeaningCn": "粗略地、大致上",
-  "metaphorOptions": [
-   "粗略地、大致上",
-   "数着每一过日子",
-   "负荷的工具"
-  ],
-  "mnemonicNote": "rough(粗糙)+ly：不去细究，大概齐就行",
-  "sourceNote": "古英语 ruh(粗糙) + -ly"
- },
- "sadly": {
-  "modernMeaningCn": "悲痛地",
-  "literalMeaningCn": "带着难过地",
-  "metaphorMeaningCn": "悲哀地、遗憾地",
-  "metaphorOptions": [
-   "悲哀地、遗憾地",
-   "揭示的背面",
-   "被取代的东西"
-  ],
-  "mnemonicNote": "sad(悲伤)+ly：话是带着难过说出口的",
-  "sourceNote": "古英语 sæd(饱足、沉重) + -ly"
- },
- "saving": {
-  "modernMeaningCn": "存款",
-  "literalMeaningCn": "攒下来的那部分",
-  "metaphorMeaningCn": "存款、节约",
-  "metaphorOptions": [
-   "存款、节约",
-   "日本的来路",
-   "关系的地方"
-  ],
-  "mnemonicNote": "sav(省下)+ing：一分一分攒下来的那部分",
-  "sourceNote": "古法语 sauver(节省、保全) + -ing"
- },
- "scandal": {
-  "modernMeaningCn": "丑闻",
-  "literalMeaningCn": "绊人一跤的坑",
-  "metaphorMeaningCn": "丑闻、丑事",
-  "metaphorOptions": [
-   "丑闻、丑事",
-   "小睡的背面",
-   "个性的旧事"
-  ],
-  "mnemonicNote": "scan(绊倒)+dal：人生路上绊他一跤的那个坑",
-  "sourceNote": "希腊 skandalon(绊脚石)"
- },
- "scarcely": {
-  "modernMeaningCn": "几乎不、勉强",
-  "literalMeaningCn": "少得几乎没有",
-  "metaphorMeaningCn": "几乎不、勉强",
-  "metaphorOptions": [
-   "几乎不、勉强",
-   "流产的过程",
-   "向着咆哮去"
-  ],
-  "mnemonicNote": "scarce(稀少)+ly：少到几乎没法算数",
-  "sourceNote": "古北法语 escars(稀少的) + -ly"
- },
- "secondary": {
-  "modernMeaningCn": "中级的",
-  "literalMeaningCn": "排在第二位的",
-  "metaphorMeaningCn": "中等的、次要的",
-  "metaphorOptions": [
-   "中等的、次要的",
-   "被丑陋的东西",
-   "使膨胀的背面"
-  ],
-  "mnemonicNote": "second(次序第二)+ary：排在第二位那一档",
-  "sourceNote": "拉丁 secundarius，secundus(第二)"
- },
- "secondly": {
-  "modernMeaningCn": "第二",
-  "literalMeaningCn": "接下来第二点",
-  "metaphorMeaningCn": "第二、其次",
-  "metaphorOptions": [
-   "第二、其次",
-   "优雅的味道",
-   "替奶油操心"
-  ],
-  "mnemonicNote": "second(次序)+ly：接着往下讲下一桩",
-  "sourceNote": "拉丁 secundus(次序在后) + -ly"
- },
- "selection": {
-  "modernMeaningCn": "选择",
-  "literalMeaningCn": "挑出来的过程",
-  "metaphorMeaningCn": "选择、精选品",
-  "metaphorOptions": [
-   "选择、精选品",
-   "替临近的操心",
-   "离分离很远"
-  ],
-  "mnemonicNote": "select(挑选)+ion：从一堆里一件件挑出来",
-  "sourceNote": "拉丁 selectio，seligere(挑出)"
- },
- "seller": {
-  "modernMeaningCn": "卖方",
-  "literalMeaningCn": "出货的那一方",
-  "metaphorMeaningCn": "卖方、销售者",
-  "metaphorOptions": [
-   "卖方、销售者",
-   "过分的的背面",
-   "被侍者的东西"
-  ],
-  "mnemonicNote": "sell(卖出)+er(人)：把货交出去换钱那一方",
-  "sourceNote": "古英语 sellan(交付) + -er"
- },
- "semiconductor": {
-  "modernMeaningCn": "半导体",
-  "literalMeaningCn": "只半通的料",
-  "metaphorMeaningCn": "半导体",
-  "metaphorOptions": [
-   "半导体",
-   "架子的工具",
-   "数着客套语过日子"
-  ],
-  "mnemonicNote": "semi(半)+conductor(导体)：通与不通之间的那种材料",
-  "sourceNote": "拉丁 semi-(半) + conductor(导体)"
- },
- "seriously": {
-  "modernMeaningCn": "严肃地",
-  "literalMeaningCn": "板着脸地",
-  "metaphorMeaningCn": "严肃地、严重地",
-  "metaphorOptions": [
-   "严肃地、严重地",
-   "能共处的的过程",
-   "离位于很远"
-  ],
-  "mnemonicNote": "serious(郑重)+ly：板着脸，没在开玩笑",
-  "sourceNote": "晚期拉丁 seriosus，serius(庄重) + -ly"
- },
- "setting": {
-  "modernMeaningCn": "环境",
-  "literalMeaningCn": "背景摆在那儿的样子",
-  "metaphorMeaningCn": "环境、背景、设定",
-  "metaphorOptions": [
-   "环境、背景、设定",
-   "商议的过程",
-   "向着经理去"
-  ],
-  "mnemonicNote": "set(安置)+ting：东西摆在那儿形成的那一圈背景",
-  "sourceNote": "古英语 settan(安置) + -ing"
- },
- "severely": {
-  "modernMeaningCn": "严厉地、严重地",
-  "literalMeaningCn": "毫不通融地",
-  "metaphorMeaningCn": "严厉地、严重地",
-  "metaphorOptions": [
-   "严厉地、严重地",
-   "被西班牙的东西",
-   "煮沸的味道"
-  ],
-  "mnemonicNote": "severe(严酷)+ly：一点都不通融",
-  "sourceNote": "拉丁 severus(严峻) + -ly"
- },
- "shampoo": {
-  "modernMeaningCn": "洗发剂",
-  "literalMeaningCn": "搓头发用的",
-  "metaphorMeaningCn": "洗发剂、洗头",
-  "metaphorOptions": [
-   "洗发剂、洗头",
-   "感知的一角",
-   "一种连接的习俗"
-  ],
-  "mnemonicNote": "sham(揉搓)+poo：搓头发用的那点东西",
-  "sourceNote": "印地语 chāmpo(揉搓、按摩)"
- },
- "sharply": {
-  "modernMeaningCn": "锐利地",
-  "literalMeaningCn": "像刀口那样",
-  "metaphorMeaningCn": "尖锐地、急剧地",
-  "metaphorOptions": [
-   "尖锐地、急剧地",
-   "把交易翻开",
-   "把严肃的串起来"
-  ],
-  "mnemonicNote": "sharp(锋利)+ly：像刀口划过一样，又脆又利",
-  "sourceNote": "古英语 scearp(锋利) + -ly"
- },
- "shepherd": {
-  "modernMeaningCn": "牧羊人",
-  "literalMeaningCn": "看着羊群的人",
-  "metaphorMeaningCn": "牧羊人、带领",
-  "metaphorOptions": [
-   "牧羊人、带领",
-   "围着以外转",
-   "向着不同去"
-  ],
-  "mnemonicNote": "shep(羊)+herd(群)：看着羊群的那位",
-  "sourceNote": "古英语 sceaphierde，sceap(羊) + hierde(看管者)"
- },
- "shilling": {
-  "modernMeaningCn": "先令",
-  "literalMeaningCn": "那种旧钱币",
-  "metaphorMeaningCn": "先令",
-  "metaphorOptions": [
-   "先令",
-   "试图的旧事",
-   "自动手枪的来路"
-  ],
-  "mnemonicNote": "shill(币名)+ing：英国旧时那种银币",
-  "sourceNote": "古英语 scilling，日耳曼语系共有币名"
- },
- "shortage": {
-  "modernMeaningCn": "短缺、不足",
-  "literalMeaningCn": "差着一截",
-  "metaphorMeaningCn": "短缺、不足",
-  "metaphorOptions": [
-   "短缺、不足",
-   "土星的来路",
-   "景色的旧事"
-  ],
-  "mnemonicNote": "short(短少)+age：差着一大截，接不上趟",
-  "sourceNote": "古英语 sceort(短) + -age"
- },
- "similarly": {
-  "modernMeaningCn": "同样地、类似地",
-  "literalMeaningCn": "照着一模一样",
-  "metaphorMeaningCn": "同样地、类似地",
-  "metaphorOptions": [
-   "同样地、类似地",
-   "替悬挂操心",
-   "离三次很远"
-  ],
-  "mnemonicNote": "similar(相似)+ly：照着一模一样的路子来",
-  "sourceNote": "拉丁 similis(相似) + -ly"
- },
- "simplicity": {
-  "modernMeaningCn": "简单、朴素",
-  "literalMeaningCn": "不绕弯的样子",
-  "metaphorMeaningCn": "简单、朴素",
-  "metaphorOptions": [
-   "简单、朴素",
-   "数着为报仇过日子",
-   "围着新闻转"
-  ],
-  "mnemonicNote": "simpl(素朴)+icity：不绕弯、不加花头",
-  "sourceNote": "拉丁 simplicitas，simplex(单纯)"
- },
- "slightly": {
-  "modernMeaningCn": "稍微、略微",
-  "literalMeaningCn": "只差一点点",
-  "metaphorMeaningCn": "稍微、略微",
-  "metaphorOptions": [
-   "稍微、略微",
-   "离反手很远",
-   "恐怖的过程"
-  ],
-  "mnemonicNote": "slight(轻微)+ly：只差那么一点点",
-  "sourceNote": "古诺尔斯语 sletta(平滑、轻微) + -ly"
- },
- "slipper": {
-  "modernMeaningCn": "拖鞋、便鞋",
-  "literalMeaningCn": "脚一伸就滑进去的",
-  "metaphorMeaningCn": "拖鞋、便鞋",
-  "metaphorOptions": [
-   "拖鞋、便鞋",
-   "离战争很远",
-   "使面对的影子"
-  ],
-  "mnemonicNote": "slipp(滑)+er(物)：脚一伸就滑进去的那种",
-  "sourceNote": "古英语 slipan(滑) + -er"
- },
- "slowly": {
-  "modernMeaningCn": "慢慢地、缓慢地",
-  "literalMeaningCn": "不慌不忙地",
-  "metaphorMeaningCn": "慢慢地、缓慢地",
-  "metaphorOptions": [
-   "慢慢地、缓慢地",
-   "交替的的小站",
-   "守着中心过活"
-  ],
-  "mnemonicNote": "slow(缓慢)+ly：一步一挪，不赶时间",
-  "sourceNote": "古英语 slaw(迟钝) + -ly"
- },
- "smoothly": {
-  "modernMeaningCn": "顺利地、平稳地",
-  "literalMeaningCn": "顺着滑过去",
-  "metaphorMeaningCn": "顺利地、平稳地",
-  "metaphorOptions": [
-   "顺利地、平稳地",
-   "中央的的味道",
-   "溜冰的另一面"
-  ],
-  "mnemonicNote": "smooth(光滑)+ly：一路顺顺当当滑过去",
-  "sourceNote": "古英语 smothe(平滑) + -ly"
- },
- "snowstorm": {
-  "modernMeaningCn": "暴风雪",
-  "literalMeaningCn": "下着雪的狂风",
-  "metaphorMeaningCn": "暴风雪、雪暴",
-  "metaphorOptions": [
-   "暴风雪、雪暴",
-   "离服务很远",
-   "小说的过程"
-  ],
-  "mnemonicNote": "snow(雪)+storm(风暴)：雪借着风势横着打过来",
-  "sourceNote": "英语复合词，snow + storm"
- },
- "sole": {
-  "modernMeaningCn": "唯一的",
-  "literalMeaningCn": "光剩这一个",
-  "metaphorMeaningCn": "唯一的、脚掌",
-  "metaphorOptions": [
-   "唯一的、脚掌",
-   "底部的地方",
-   "关联的来路"
-  ],
-  "mnemonicNote": "so(单独)+le：就剩这一个，也指脚底那块",
-  "sourceNote": "拉丁 solus(单独)，两层义项同形异源"
- },
- "solely": {
-  "modernMeaningCn": "仅仅、只",
-  "literalMeaningCn": "只此一样",
-  "metaphorMeaningCn": "仅仅、只",
-  "metaphorOptions": [
-   "仅仅、只",
-   "离数值的很远",
-   "事物的过程"
-  ],
-  "mnemonicNote": "sole(唯一)+ly：只此一样，再没别的",
-  "sourceNote": "拉丁 solus(单独) + -ly"
- },
- "somehow": {
-  "modernMeaningCn": "不知怎么地",
-  "literalMeaningCn": "用某种法子",
-  "metaphorMeaningCn": "不知怎么地、设法",
-  "metaphorOptions": [
-   "不知怎么地、设法",
-   "一种痛苦的习俗",
-   "满意的的一角"
-  ],
-  "mnemonicNote": "some(某)+how(如何)：总归寻出个法子来",
-  "sourceNote": "中古英语 som + how"
- },
- "somewhat": {
-  "modernMeaningCn": "有几分、稍微",
-  "literalMeaningCn": "到某种程度",
-  "metaphorMeaningCn": "有几分、稍微",
-  "metaphorOptions": [
-   "有几分、稍微",
-   "熟练的的影子",
-   "节俭的的人"
-  ],
-  "mnemonicNote": "some(某)+what(多少)：到某种程度，不算太甚",
-  "sourceNote": "中古英语 somwhat，some + what"
- },
- "spacecraft": {
-  "modernMeaningCn": "航天飞船",
-  "literalMeaningCn": "走太空的船",
-  "metaphorMeaningCn": "航天器、宇宙飞船",
-  "metaphorOptions": [
-   "航天器、宇宙飞船",
-   "末端的一角",
-   "证实的另一面"
-  ],
-  "mnemonicNote": "space(太空)+craft(船)：往太空里开的那种船",
-  "sourceNote": "英语复合词，space + craft，20 世纪造词"
- },
- "sparkle": {
-  "modernMeaningCn": "闪耀",
-  "literalMeaningCn": "迸出小火星",
-  "metaphorMeaningCn": "闪耀、闪光",
-  "metaphorOptions": [
-   "闪耀、闪光",
-   "残酷的的一角",
-   "恰好的的另一面"
-  ],
-  "mnemonicNote": "spark(火花)+le：迸出一点一点的小火星",
-  "sourceNote": "古英语 spearca(火花) + -le(反复)"
- },
- "speciality": {
-  "modernMeaningCn": "专长",
-  "literalMeaningCn": "别人不会的那一手",
-  "metaphorMeaningCn": "专长、特产",
-  "metaphorOptions": [
-   "专长、特产",
-   "失事的工具",
-   "数着匆忙过日子"
-  ],
-  "mnemonicNote": "special(特别)+ity：别人拿不走的那一手",
-  "sourceNote": "拉丁 specialitas，specialis(特别的)"
- },
- "specialize": {
-  "modernMeaningCn": "专攻、专门研究",
-  "literalMeaningCn": "往一处钻",
-  "metaphorMeaningCn": "专攻、专门研究",
-  "metaphorOptions": [
-   "专攻、专门研究",
-   "葡萄牙的另一面",
-   "把校长串起来"
-  ],
-  "mnemonicNote": "special(专门)+ize(使)：往一处使劲钻下去",
-  "sourceNote": "拉丁 specialis(特别的) + -ize"
- },
- "specially": {
-  "modernMeaningCn": "专门地",
-  "literalMeaningCn": "特意为这个",
-  "metaphorMeaningCn": "专门地、特意",
-  "metaphorOptions": [
-   "专门地、特意",
-   "数着手臂过日子",
-   "知道的工具"
-  ],
-  "mnemonicNote": "special(专门)+ly：特意为这一件事跑一趟",
-  "sourceNote": "拉丁 specialis(特别的) + -ly"
- },
- "sportsman": {
-  "modernMeaningCn": "运动员",
-  "literalMeaningCn": "练体育的人",
-  "metaphorMeaningCn": "运动员、运动家",
-  "metaphorOptions": [
-   "运动员、运动家",
-   "脚掌的来路",
-   "凯旋的旧事"
-  ],
-  "mnemonicNote": "sports(体育)+man(人)：在场上比输赢那位",
-  "sourceNote": "英语复合词，sports + man"
- },
- "springtime": {
-  "modernMeaningCn": "春季、春天",
-  "literalMeaningCn": "春天那一阵",
-  "metaphorMeaningCn": "春季、春天",
-  "metaphorOptions": [
-   "春季、春天",
-   "奶油的人",
-   "一种疯草病的习俗"
-  ],
-  "mnemonicNote": "spring(春)+time(时节)：草木发芽那一阵",
-  "sourceNote": "英语复合词，spring + time"
- },
- "sprinkle": {
-  "modernMeaningCn": "洒",
-  "literalMeaningCn": "抖着手撒",
-  "metaphorMeaningCn": "洒、撒",
-  "metaphorOptions": [
-   "洒、撒",
-   "捶胸的来路",
-   "进行的人"
-  ],
-  "mnemonicNote": "sprink(喷)+le：手指头抖着往下撒",
-  "sourceNote": "中古英语 sprenklen(散撒)"
- },
- "staircase": {
-  "modernMeaningCn": "楼梯",
-  "literalMeaningCn": "一格格的通道",
-  "metaphorMeaningCn": "楼梯、梯级",
-  "metaphorOptions": [
-   "楼梯、梯级",
-   "小提琴的另一面",
-   "拜访的一角"
-  ],
-  "mnemonicNote": "stair(台阶)+case(箱)：一格一格往上接的通道",
-  "sourceNote": "古英语 stæger(台阶) + case(箱、框)"
- },
- "standpoint": {
-  "modernMeaningCn": "立场",
-  "literalMeaningCn": "站在哪个点上",
-  "metaphorMeaningCn": "立场、观点",
-  "metaphorOptions": [
-   "立场、观点",
-   "装天花板的旧事",
-   "不是必要的的来路"
-  ],
-  "mnemonicNote": "stand(站)+point(点)：站在哪个点上说话",
-  "sourceNote": "英语复合词，stand + point"
- },
- "startle": {
-  "modernMeaningCn": "使惊吓、使吃惊",
-  "literalMeaningCn": "猛地一跳",
-  "metaphorMeaningCn": "使惊吓、使吃惊",
-  "metaphorOptions": [
-   "使惊吓、使吃惊",
-   "忍受的人",
-   "贵的的旧事"
-  ],
-  "mnemonicNote": "start(惊起)+le：猛地一激灵，心口一跳",
-  "sourceNote": "古英语 steartlian(挣扎、扑腾)"
- },
- "statistical": {
-  "modernMeaningCn": "统计的、统计学的",
-  "literalMeaningCn": "与数据有关",
-  "metaphorMeaningCn": "统计的、统计学的",
-  "metaphorOptions": [
-   "统计的、统计学的",
-   "星期的过程",
-   "离土耳其人很远"
-  ],
-  "mnemonicNote": "statistic(数据)+al：跟成堆的数字打交道",
-  "sourceNote": "德语 Statistik(国势学) + -al"
- },
- "steadily": {
-  "modernMeaningCn": "稳步地、持续地",
-  "literalMeaningCn": "不晃不摇地",
-  "metaphorMeaningCn": "稳步地、持续地",
-  "metaphorOptions": [
-   "稳步地、持续地",
-   "想法的味道",
-   "应得的东西的另一面"
-  ],
-  "mnemonicNote": "steadi(稳当)+ly：不晃不摇，一直这么走",
-  "sourceNote": "古英语 stede(位置) + -ly"
- },
- "steamer": {
-  "modernMeaningCn": "汽船",
-  "literalMeaningCn": "靠汽推的船",
-  "metaphorMeaningCn": "汽船、蒸笼",
-  "metaphorOptions": [
-   "汽船、蒸笼",
-   "离无差别的很远",
-   "替系统操心"
-  ],
-  "mnemonicNote": "steam(蒸汽)+er(物)：靠汽推着走的船",
-  "sourceNote": "古英语 steam(蒸汽) + -er"
- },
- "stiffen": {
-  "modernMeaningCn": "使变硬、使僵硬",
-  "literalMeaningCn": "使僵住",
-  "metaphorMeaningCn": "使变硬、使僵硬",
-  "metaphorOptions": [
-   "使变硬、使僵硬",
-   "反抗的人",
-   "有责任的的影子"
-  ],
-  "mnemonicNote": "stiff(僵直)+en(使)：冻得发僵，弯都弯不动",
-  "sourceNote": "古英语 stif(僵硬) + -en(使动)"
- },
- "strictly": {
-  "modernMeaningCn": "严格地",
-  "literalMeaningCn": "一点不含糊地",
-  "metaphorMeaningCn": "严格地、明确地",
-  "metaphorOptions": [
-   "严格地、明确地",
-   "行走的工具",
-   "把加法串起来"
-  ],
-  "mnemonicNote": "strict(严苛)+ly：一点不含糊，条条照办",
-  "sourceNote": "拉丁 strictus，stringere(拉紧) + -ly"
- },
- "strongly": {
-  "modernMeaningCn": "强有力地",
-  "literalMeaningCn": "使足了劲地",
-  "metaphorMeaningCn": "强烈地、坚决地",
-  "metaphorOptions": [
-   "强烈地、坚决地",
-   "数着贝壳过日子",
-   "巢菜碱的工具"
-  ],
-  "mnemonicNote": "strong(强劲)+ly：话使足了劲说出来",
-  "sourceNote": "古英语 strang(强壮) + -ly"
- },
- "structural": {
-  "modernMeaningCn": "结构的",
-  "literalMeaningCn": "与骨架有关",
-  "metaphorMeaningCn": "结构的、构造的",
-  "metaphorOptions": [
-   "结构的、构造的",
-   "王牌的工具",
-   "数着冻结过日子"
-  ],
-  "mnemonicNote": "structur(骨架)+al：跟撑起整体的骨架有关",
-  "sourceNote": "拉丁 structura，struere(建造)"
- },
- "submarine": {
-  "modernMeaningCn": "潜水艇",
-  "literalMeaningCn": "走水底下的",
-  "metaphorMeaningCn": "潜水艇、水下的",
-  "metaphorOptions": [
-   "潜水艇、水下的",
-   "一种面团的习俗",
-   "物体的一角"
-  ],
-  "mnemonicNote": "sub(下)+marine(海)：能钻到海面下走的",
-  "sourceNote": "拉丁 sub-(下) + marinus(海的)"
- },
- "submerge": {
-  "modernMeaningCn": "淹没、浸没",
-  "literalMeaningCn": "沉到水面下",
-  "metaphorMeaningCn": "淹没、浸没",
-  "metaphorOptions": [
-   "淹没、浸没",
-   "经验主义者的小站",
-   "守着奇特的过活"
-  ],
-  "mnemonicNote": "sub(下)+merge(沉)：整个沉到水面以下",
-  "sourceNote": "拉丁 submergere，sub-(下) + mergere(沉)"
- },
- "subsequent": {
-  "modernMeaningCn": "后来的",
-  "literalMeaningCn": "跟着来的",
-  "metaphorMeaningCn": "随后的、后来的",
-  "metaphorOptions": [
-   "随后的、后来的",
-   "守着圣歌过活",
-   "自行车的小站"
-  ],
-  "mnemonicNote": "sub(接着)+sequent(跟随)：紧跟着来的那一段",
-  "sourceNote": "拉丁 subsequi，sub-(接着) + sequi(跟随)"
- },
- "subsidy": {
-  "modernMeaningCn": "补助金",
-  "literalMeaningCn": "在下面垫着",
-  "metaphorMeaningCn": "补贴、补助金",
-  "metaphorOptions": [
-   "补贴、补助金",
-   "游泳的影子",
-   "把压缩翻开"
-  ],
-  "mnemonicNote": "sub(在下)+sidy(坐)：从底下垫着你一把",
-  "sourceNote": "拉丁 subsidium，subsidi(坐在下面、支援)"
- },
- "substance": {
-  "modernMeaningCn": "物质",
-  "literalMeaningCn": "站在底下那个实体",
-  "metaphorMeaningCn": "物质、实质",
-  "metaphorOptions": [
-   "物质、实质",
-   "生长的来路",
-   "勇敢的的地方"
-  ],
-  "mnemonicNote": "sub(在下)+stance(站立)：站在表象底下那个实体",
-  "sourceNote": "拉丁 substantia，sub-(在下) + stare(站)"
- },
- "substantial": {
-  "modernMeaningCn": "大量的、实质的",
-  "literalMeaningCn": "站得住的、有分量的",
-  "metaphorMeaningCn": "大量的、实质的",
-  "metaphorOptions": [
-   "大量的、实质的",
-   "安全的味道",
-   "被兄弟的东西"
-  ],
-  "mnemonicNote": "sub+stant(站立)+ial：站得住脚，分量压手",
-  "sourceNote": "拉丁 substantialis，substantia(实体)"
- },
- "subtract": {
-  "modernMeaningCn": "减去",
-  "literalMeaningCn": "从上面拉下来",
-  "metaphorMeaningCn": "减去、扣除",
-  "metaphorOptions": [
-   "减去、扣除",
-   "明显的的旧事",
-   "不可避免的的来路"
-  ],
-  "mnemonicNote": "sub(下)+tract(拉)：从上头拉下来一块",
-  "sourceNote": "拉丁 subtrahere，sub-(下) + trahere(拉)"
- },
- "suburb": {
-  "modernMeaningCn": "郊区、城郊",
-  "literalMeaningCn": "紧挨着城的那一圈",
-  "metaphorMeaningCn": "郊区、城郊",
-  "metaphorOptions": [
-   "郊区、城郊",
-   "数着穿透过日子",
-   "向着棱纹平布去"
-  ],
-  "mnemonicNote": "sub(近)+urb(城)：紧挨着城边的那一圈",
-  "sourceNote": "拉丁 suburbanus，sub-(近) + urbs(城)"
- },
- "successfully": {
-  "modernMeaningCn": "成功地",
-  "literalMeaningCn": "办成了地",
-  "metaphorMeaningCn": "成功地、顺利地",
-  "metaphorOptions": [
-   "成功地、顺利地",
-   "似非而是的的味道",
-   "穿透的另一面"
-  ],
-  "mnemonicNote": "successful(办成了)+ly：事情终究是办成了",
-  "sourceNote": "拉丁 succedere(接着来、顺利) + -ly"
- },
- "succession": {
-  "modernMeaningCn": "连续",
-  "literalMeaningCn": "一个接一个",
-  "metaphorMeaningCn": "连续、继承",
-  "metaphorOptions": [
-   "连续、继承",
-   "偏斜的另一面",
-   "比赛的一角"
-  ],
-  "mnemonicNote": "success(接续)+ion：一个接一个，中间不断",
-  "sourceNote": "拉丁 successio，succedere(接着来)"
- },
- "successive": {
-  "modernMeaningCn": "连续的、相继的",
-  "literalMeaningCn": "一个跟着一个的",
-  "metaphorMeaningCn": "连续的、相继的",
-  "metaphorOptions": [
-   "连续的、相继的",
-   "替居民操心",
-   "守着攒下过活"
-  ],
-  "mnemonicNote": "success(接续)+ive：一个跟着一个来",
-  "sourceNote": "拉丁 successivus，succedere(接着来)"
- },
- "suddenly": {
-  "modernMeaningCn": "突然、忽然",
-  "literalMeaningCn": "没打招呼地",
-  "metaphorMeaningCn": "突然、忽然",
-  "metaphorOptions": [
-   "突然、忽然",
-   "把标志串起来",
-   "把能共处的翻开"
-  ],
-  "mnemonicNote": "sudden(骤然的)+ly：连个招呼都不打",
-  "sourceNote": "古法语 sodain，拉丁 subitus(忽然) + -ly"
- },
- "sufficiently": {
-  "modernMeaningCn": "充足地、足够地",
-  "literalMeaningCn": "够用地",
-  "metaphorMeaningCn": "充足地、足够地",
-  "metaphorOptions": [
-   "充足地、足够地",
-   "对面的一角",
-   "一种持有的习俗"
-  ],
-  "mnemonicNote": "sufficient(够用)+ly：分量给足了，不差什么",
-  "sourceNote": "拉丁 sufficere(够用) + -ly"
- }
+  "_comment": "Stage 3 待写释义（batch-33，本批 60 词，四级批第 9 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
+  "roughly": {
+    "modernMeaningCn": "概略地",
+    "literalMeaningCn": "大概齐地",
+    "metaphorMeaningCn": "粗略地、大致上",
+    "metaphorOptions": [
+      "粗略地、大致上",
+      "数着每一过日子",
+      "负荷的工具"
+    ],
+    "mnemonicNote": "rough(粗糙)+ly：不去细究，大概齐就行",
+    "sourceNote": "古英语 ruh(粗糙) + -ly"
+  },
+  "sadly": {
+    "modernMeaningCn": "悲痛地",
+    "literalMeaningCn": "带着难过地",
+    "metaphorMeaningCn": "悲哀地、遗憾地",
+    "metaphorOptions": [
+      "悲哀地、遗憾地",
+      "揭示的背面",
+      "被取代的东西"
+    ],
+    "mnemonicNote": "sad(悲伤)+ly：话是带着难过说出口的",
+    "sourceNote": "古英语 sæd(饱足、沉重) + -ly"
+  },
+  "saving": {
+    "modernMeaningCn": "存款",
+    "literalMeaningCn": "攒下来的那部分",
+    "metaphorMeaningCn": "存款、节约",
+    "metaphorOptions": [
+      "存款、节约",
+      "日本的来路",
+      "关系的地方"
+    ],
+    "mnemonicNote": "sav(省下)+ing：一分一分攒下来的那部分",
+    "sourceNote": "古法语 sauver(节省、保全) + -ing"
+  },
+  "scandal": {
+    "modernMeaningCn": "丑闻",
+    "literalMeaningCn": "绊人一跤的坑",
+    "metaphorMeaningCn": "丑闻、丑事",
+    "metaphorOptions": [
+      "丑闻、丑事",
+      "小睡的背面",
+      "个性的旧事"
+    ],
+    "mnemonicNote": "scan(绊倒)+dal：人生路上绊他一跤的那个坑",
+    "sourceNote": "希腊 skandalon(绊脚石)"
+  },
+  "scarcely": {
+    "modernMeaningCn": "几乎不、勉强",
+    "literalMeaningCn": "少得几乎没有",
+    "metaphorMeaningCn": "几乎不、勉强",
+    "metaphorOptions": [
+      "几乎不、勉强",
+      "流产的过程",
+      "向着咆哮去"
+    ],
+    "mnemonicNote": "scarce(稀少)+ly：少到几乎没法算数",
+    "sourceNote": "古北法语 escars(稀少的) + -ly"
+  },
+  "secondary": {
+    "modernMeaningCn": "中级的",
+    "literalMeaningCn": "排在第二位的",
+    "metaphorMeaningCn": "中等的、次要的",
+    "metaphorOptions": [
+      "中等的、次要的",
+      "被丑陋的东西",
+      "使膨胀的背面"
+    ],
+    "mnemonicNote": "second(次序第二)+ary：排在第二位那一档",
+    "sourceNote": "拉丁 secundarius，secundus(第二)"
+  },
+  "secondly": {
+    "modernMeaningCn": "第二",
+    "literalMeaningCn": "接下来第二点",
+    "metaphorMeaningCn": "第二、其次",
+    "metaphorOptions": [
+      "第二、其次",
+      "优雅的味道",
+      "替奶油操心"
+    ],
+    "mnemonicNote": "second(次序)+ly：接着往下讲下一桩",
+    "sourceNote": "拉丁 secundus(次序在后) + -ly"
+  },
+  "selection": {
+    "modernMeaningCn": "选择",
+    "literalMeaningCn": "挑出来的过程",
+    "metaphorMeaningCn": "选择、精选品",
+    "metaphorOptions": [
+      "选择、精选品",
+      "替临近的操心",
+      "离分离很远"
+    ],
+    "mnemonicNote": "select(挑选)+ion：从一堆里一件件挑出来",
+    "sourceNote": "拉丁 selectio，seligere(挑出)"
+  },
+  "seller": {
+    "modernMeaningCn": "卖方",
+    "literalMeaningCn": "出货的那一方",
+    "metaphorMeaningCn": "卖方、销售者",
+    "metaphorOptions": [
+      "卖方、销售者",
+      "过分的的背面",
+      "被侍者的东西"
+    ],
+    "mnemonicNote": "sell(卖出)+er(人)：把货交出去换钱那一方",
+    "sourceNote": "古英语 sellan(交付) + -er"
+  },
+  "semiconductor": {
+    "modernMeaningCn": "半导体",
+    "literalMeaningCn": "只半通的料",
+    "metaphorMeaningCn": "半导体",
+    "metaphorOptions": [
+      "半导体",
+      "架子的工具",
+      "数着客套语过日子"
+    ],
+    "mnemonicNote": "semi(半)+conductor(导体)：通与不通之间的那种材料",
+    "sourceNote": "拉丁 semi-(半) + conductor(导体)"
+  },
+  "seriously": {
+    "modernMeaningCn": "严肃地",
+    "literalMeaningCn": "板着脸地",
+    "metaphorMeaningCn": "严肃地、严重地",
+    "metaphorOptions": [
+      "严肃地、严重地",
+      "能共处的的过程",
+      "离位于很远"
+    ],
+    "mnemonicNote": "serious(郑重)+ly：板着脸，没在开玩笑",
+    "sourceNote": "晚期拉丁 seriosus，serius(庄重) + -ly"
+  },
+  "setting": {
+    "modernMeaningCn": "环境",
+    "literalMeaningCn": "背景摆在那儿的样子",
+    "metaphorMeaningCn": "环境、背景、设定",
+    "metaphorOptions": [
+      "环境、背景、设定",
+      "商议的过程",
+      "向着经理去"
+    ],
+    "mnemonicNote": "set(安置)+ting：东西摆在那儿形成的那一圈背景",
+    "sourceNote": "古英语 settan(安置) + -ing"
+  },
+  "severely": {
+    "modernMeaningCn": "严厉地、严重地",
+    "literalMeaningCn": "毫不通融地",
+    "metaphorMeaningCn": "严厉地、严重地",
+    "metaphorOptions": [
+      "严厉地、严重地",
+      "被西班牙的东西",
+      "煮沸的味道"
+    ],
+    "mnemonicNote": "severe(严酷)+ly：一点都不通融",
+    "sourceNote": "拉丁 severus(严峻) + -ly"
+  },
+  "shampoo": {
+    "modernMeaningCn": "洗发剂",
+    "literalMeaningCn": "搓头发用的",
+    "metaphorMeaningCn": "洗发剂、洗头",
+    "metaphorOptions": [
+      "洗发剂、洗头",
+      "感知的一角",
+      "一种连接的习俗"
+    ],
+    "mnemonicNote": "sham(揉搓)+poo：搓头发用的那点东西",
+    "sourceNote": "印地语 chāmpo(揉搓、按摩)"
+  },
+  "sharply": {
+    "modernMeaningCn": "锐利地",
+    "literalMeaningCn": "像刀口那样",
+    "metaphorMeaningCn": "尖锐地、急剧地",
+    "metaphorOptions": [
+      "尖锐地、急剧地",
+      "把交易翻开",
+      "把严肃的串起来"
+    ],
+    "mnemonicNote": "sharp(锋利)+ly：像刀口划过一样，又脆又利",
+    "sourceNote": "古英语 scearp(锋利) + -ly"
+  },
+  "shepherd": {
+    "modernMeaningCn": "牧羊人",
+    "literalMeaningCn": "看着羊群的人",
+    "metaphorMeaningCn": "牧羊人、带领",
+    "metaphorOptions": [
+      "牧羊人、带领",
+      "围着以外转",
+      "向着不同去"
+    ],
+    "mnemonicNote": "shep(羊)+herd(群)：看着羊群的那位",
+    "sourceNote": "古英语 sceaphierde，sceap(羊) + hierde(看管者)"
+  },
+  "shilling": {
+    "modernMeaningCn": "先令",
+    "literalMeaningCn": "那种旧钱币",
+    "metaphorMeaningCn": "先令",
+    "metaphorOptions": [
+      "先令",
+      "试图的旧事",
+      "自动手枪的来路"
+    ],
+    "mnemonicNote": "shill(币名)+ing：英国旧时那种银币",
+    "sourceNote": "古英语 scilling，日耳曼语系共有币名"
+  },
+  "shortage": {
+    "modernMeaningCn": "短缺、不足",
+    "literalMeaningCn": "差着一截",
+    "metaphorMeaningCn": "短缺、不足",
+    "metaphorOptions": [
+      "短缺、不足",
+      "土星的来路",
+      "景色的旧事"
+    ],
+    "mnemonicNote": "short(短少)+age：差着一大截，接不上趟",
+    "sourceNote": "古英语 sceort(短) + -age"
+  },
+  "similarly": {
+    "modernMeaningCn": "同样地、类似地",
+    "literalMeaningCn": "照着一模一样",
+    "metaphorMeaningCn": "同样地、类似地",
+    "metaphorOptions": [
+      "同样地、类似地",
+      "替悬挂操心",
+      "离三次很远"
+    ],
+    "mnemonicNote": "similar(相似)+ly：照着一模一样的路子来",
+    "sourceNote": "拉丁 similis(相似) + -ly"
+  },
+  "simplicity": {
+    "modernMeaningCn": "简单、朴素",
+    "literalMeaningCn": "不绕弯的样子",
+    "metaphorMeaningCn": "简单、朴素",
+    "metaphorOptions": [
+      "简单、朴素",
+      "数着为报仇过日子",
+      "围着新闻转"
+    ],
+    "mnemonicNote": "simpl(素朴)+icity：不绕弯、不加花头",
+    "sourceNote": "拉丁 simplicitas，simplex(单纯)"
+  },
+  "slightly": {
+    "modernMeaningCn": "稍微、略微",
+    "literalMeaningCn": "只差一点点",
+    "metaphorMeaningCn": "稍微、略微",
+    "metaphorOptions": [
+      "稍微、略微",
+      "离反手很远",
+      "恐怖的过程"
+    ],
+    "mnemonicNote": "slight(轻微)+ly：只差那么一点点",
+    "sourceNote": "古诺尔斯语 sletta(平滑、轻微) + -ly"
+  },
+  "slipper": {
+    "modernMeaningCn": "拖鞋、便鞋",
+    "literalMeaningCn": "脚一伸就滑进去的",
+    "metaphorMeaningCn": "拖鞋、便鞋",
+    "metaphorOptions": [
+      "拖鞋、便鞋",
+      "一种技巧的习俗",
+      "使面对的影子"
+    ],
+    "mnemonicNote": "slipp(滑)+er(物)：脚一伸就滑进去的那种",
+    "sourceNote": "古英语 slipan(滑) + -er"
+  },
+  "slowly": {
+    "modernMeaningCn": "慢慢地、缓慢地",
+    "literalMeaningCn": "不慌不忙地",
+    "metaphorMeaningCn": "慢慢地、缓慢地",
+    "metaphorOptions": [
+      "慢慢地、缓慢地",
+      "交替的的小站",
+      "守着中心过活"
+    ],
+    "mnemonicNote": "slow(缓慢)+ly：一步一挪，不赶时间",
+    "sourceNote": "古英语 slaw(迟钝) + -ly"
+  },
+  "smoothly": {
+    "modernMeaningCn": "顺利地、平稳地",
+    "literalMeaningCn": "顺着滑过去",
+    "metaphorMeaningCn": "顺利地、平稳地",
+    "metaphorOptions": [
+      "顺利地、平稳地",
+      "中央的的味道",
+      "溜冰的另一面"
+    ],
+    "mnemonicNote": "smooth(光滑)+ly：一路顺顺当当滑过去",
+    "sourceNote": "古英语 smothe(平滑) + -ly"
+  },
+  "snowstorm": {
+    "modernMeaningCn": "暴风雪",
+    "literalMeaningCn": "下着雪的狂风",
+    "metaphorMeaningCn": "暴风雪、雪暴",
+    "metaphorOptions": [
+      "暴风雪、雪暴",
+      "离服务很远",
+      "小说的过程"
+    ],
+    "mnemonicNote": "snow(雪)+storm(风暴)：雪借着风势横着打过来",
+    "sourceNote": "英语复合词，snow + storm"
+  },
+  "sole": {
+    "modernMeaningCn": "唯一的",
+    "literalMeaningCn": "光剩这一个",
+    "metaphorMeaningCn": "唯一的、脚掌",
+    "metaphorOptions": [
+      "唯一的、脚掌",
+      "底部的地方",
+      "关联的来路"
+    ],
+    "mnemonicNote": "so(单独)+le：就剩这一个，也指脚底那块",
+    "sourceNote": "拉丁 solus(单独)，两层义项同形异源"
+  },
+  "solely": {
+    "modernMeaningCn": "仅仅、只",
+    "literalMeaningCn": "只此一样",
+    "metaphorMeaningCn": "仅仅、只",
+    "metaphorOptions": [
+      "仅仅、只",
+      "离数值的很远",
+      "事物的过程"
+    ],
+    "mnemonicNote": "sole(唯一)+ly：只此一样，再没别的",
+    "sourceNote": "拉丁 solus(单独) + -ly"
+  },
+  "somehow": {
+    "modernMeaningCn": "不知怎么地",
+    "literalMeaningCn": "用某种法子",
+    "metaphorMeaningCn": "不知怎么地、设法",
+    "metaphorOptions": [
+      "不知怎么地、设法",
+      "一种痛苦的习俗",
+      "满意的的一角"
+    ],
+    "mnemonicNote": "some(某)+how(如何)：总归寻出个法子来",
+    "sourceNote": "中古英语 som + how"
+  },
+  "somewhat": {
+    "modernMeaningCn": "有几分、稍微",
+    "literalMeaningCn": "到某种程度",
+    "metaphorMeaningCn": "有几分、稍微",
+    "metaphorOptions": [
+      "有几分、稍微",
+      "熟练的的影子",
+      "节俭的的人"
+    ],
+    "mnemonicNote": "some(某)+what(多少)：到某种程度，不算太甚",
+    "sourceNote": "中古英语 somwhat，some + what"
+  },
+  "spacecraft": {
+    "modernMeaningCn": "航天飞船",
+    "literalMeaningCn": "走太空的船",
+    "metaphorMeaningCn": "航天器、宇宙飞船",
+    "metaphorOptions": [
+      "航天器、宇宙飞船",
+      "末端的一角",
+      "证实的另一面"
+    ],
+    "mnemonicNote": "space(太空)+craft(船)：往太空里开的那种船",
+    "sourceNote": "英语复合词，space + craft，20 世纪造词"
+  },
+  "sparkle": {
+    "modernMeaningCn": "闪耀",
+    "literalMeaningCn": "迸出小火星",
+    "metaphorMeaningCn": "闪耀、闪光",
+    "metaphorOptions": [
+      "闪耀、闪光",
+      "残酷的的一角",
+      "恰好的的另一面"
+    ],
+    "mnemonicNote": "spark(火花)+le：迸出一点一点的小火星",
+    "sourceNote": "古英语 spearca(火花) + -le(反复)"
+  },
+  "speciality": {
+    "modernMeaningCn": "专长",
+    "literalMeaningCn": "别人不会的那一手",
+    "metaphorMeaningCn": "专长、特产",
+    "metaphorOptions": [
+      "专长、特产",
+      "失事的工具",
+      "数着匆忙过日子"
+    ],
+    "mnemonicNote": "special(特别)+ity：别人拿不走的那一手",
+    "sourceNote": "拉丁 specialitas，specialis(特别的)"
+  },
+  "specialize": {
+    "modernMeaningCn": "专攻、专门研究",
+    "literalMeaningCn": "往一处钻",
+    "metaphorMeaningCn": "专攻、专门研究",
+    "metaphorOptions": [
+      "专攻、专门研究",
+      "葡萄牙的另一面",
+      "一种蒸汽的习俗"
+    ],
+    "mnemonicNote": "special(专门)+ize(使)：往一处使劲钻下去",
+    "sourceNote": "拉丁 specialis(特别的) + -ize"
+  },
+  "specially": {
+    "modernMeaningCn": "专门地",
+    "literalMeaningCn": "特意为这个",
+    "metaphorMeaningCn": "专门地、特意",
+    "metaphorOptions": [
+      "专门地、特意",
+      "数着手臂过日子",
+      "知道的工具"
+    ],
+    "mnemonicNote": "special(专门)+ly：特意为这一件事跑一趟",
+    "sourceNote": "拉丁 specialis(特别的) + -ly"
+  },
+  "sportsman": {
+    "modernMeaningCn": "运动员",
+    "literalMeaningCn": "练体育的人",
+    "metaphorMeaningCn": "运动员、运动家",
+    "metaphorOptions": [
+      "运动员、运动家",
+      "脚掌的来路",
+      "凯旋的旧事"
+    ],
+    "mnemonicNote": "sports(体育)+man(人)：在场上比输赢那位",
+    "sourceNote": "英语复合词，sports + man"
+  },
+  "springtime": {
+    "modernMeaningCn": "春季、春天",
+    "literalMeaningCn": "春天那一阵",
+    "metaphorMeaningCn": "春季、春天",
+    "metaphorOptions": [
+      "春季、春天",
+      "奶油的人",
+      "一种寻求的习俗"
+    ],
+    "mnemonicNote": "spring(春)+time(时节)：草木发芽那一阵",
+    "sourceNote": "英语复合词，spring + time"
+  },
+  "sprinkle": {
+    "modernMeaningCn": "洒",
+    "literalMeaningCn": "抖着手撒",
+    "metaphorMeaningCn": "洒、撒",
+    "metaphorOptions": [
+      "洒、撒",
+      "捶胸的来路",
+      "进行的人"
+    ],
+    "mnemonicNote": "sprink(喷)+le：手指头抖着往下撒",
+    "sourceNote": "中古英语 sprenklen(散撒)"
+  },
+  "staircase": {
+    "modernMeaningCn": "楼梯",
+    "literalMeaningCn": "一格格的通道",
+    "metaphorMeaningCn": "楼梯、梯级",
+    "metaphorOptions": [
+      "楼梯、梯级",
+      "小提琴的另一面",
+      "拜访的一角"
+    ],
+    "mnemonicNote": "stair(台阶)+case(箱)：一格一格往上接的通道",
+    "sourceNote": "古英语 stæger(台阶) + case(箱、框)"
+  },
+  "standpoint": {
+    "modernMeaningCn": "立场",
+    "literalMeaningCn": "站在哪个点上",
+    "metaphorMeaningCn": "立场、观点",
+    "metaphorOptions": [
+      "立场、观点",
+      "装天花板的旧事",
+      "不是必要的的来路"
+    ],
+    "mnemonicNote": "stand(站)+point(点)：站在哪个点上说话",
+    "sourceNote": "英语复合词，stand + point"
+  },
+  "startle": {
+    "modernMeaningCn": "使惊吓、使吃惊",
+    "literalMeaningCn": "猛地一跳",
+    "metaphorMeaningCn": "使惊吓、使吃惊",
+    "metaphorOptions": [
+      "使惊吓、使吃惊",
+      "忍受的人",
+      "贵的的旧事"
+    ],
+    "mnemonicNote": "start(惊起)+le：猛地一激灵，心口一跳",
+    "sourceNote": "古英语 steartlian(挣扎、扑腾)"
+  },
+  "statistical": {
+    "modernMeaningCn": "统计的、统计学的",
+    "literalMeaningCn": "与数据有关",
+    "metaphorMeaningCn": "统计的、统计学的",
+    "metaphorOptions": [
+      "统计的、统计学的",
+      "星期的过程",
+      "离土耳其人很远"
+    ],
+    "mnemonicNote": "statistic(数据)+al：跟成堆的数字打交道",
+    "sourceNote": "德语 Statistik(国势学) + -al"
+  },
+  "steadily": {
+    "modernMeaningCn": "稳步地、持续地",
+    "literalMeaningCn": "不晃不摇地",
+    "metaphorMeaningCn": "稳步地、持续地",
+    "metaphorOptions": [
+      "稳步地、持续地",
+      "想法的味道",
+      "应得的东西的另一面"
+    ],
+    "mnemonicNote": "steadi(稳当)+ly：不晃不摇，一直这么走",
+    "sourceNote": "古英语 stede(位置) + -ly"
+  },
+  "steamer": {
+    "modernMeaningCn": "汽船",
+    "literalMeaningCn": "靠汽推的船",
+    "metaphorMeaningCn": "汽船、蒸笼",
+    "metaphorOptions": [
+      "汽船、蒸笼",
+      "离无差别的很远",
+      "替系统操心"
+    ],
+    "mnemonicNote": "steam(蒸汽)+er(物)：靠汽推着走的船",
+    "sourceNote": "古英语 steam(蒸汽) + -er"
+  },
+  "stiffen": {
+    "modernMeaningCn": "使变硬、使僵硬",
+    "literalMeaningCn": "使僵住",
+    "metaphorMeaningCn": "使变硬、使僵硬",
+    "metaphorOptions": [
+      "使变硬、使僵硬",
+      "反抗的人",
+      "有责任的的影子"
+    ],
+    "mnemonicNote": "stiff(僵直)+en(使)：冻得发僵，弯都弯不动",
+    "sourceNote": "古英语 stif(僵硬) + -en(使动)"
+  },
+  "strictly": {
+    "modernMeaningCn": "严格地",
+    "literalMeaningCn": "一点不含糊地",
+    "metaphorMeaningCn": "严格地、明确地",
+    "metaphorOptions": [
+      "严格地、明确地",
+      "行走的工具",
+      "把加法串起来"
+    ],
+    "mnemonicNote": "strict(严苛)+ly：一点不含糊，条条照办",
+    "sourceNote": "拉丁 strictus，stringere(拉紧) + -ly"
+  },
+  "strongly": {
+    "modernMeaningCn": "强有力地",
+    "literalMeaningCn": "使足了劲地",
+    "metaphorMeaningCn": "强烈地、坚决地",
+    "metaphorOptions": [
+      "强烈地、坚决地",
+      "数着贝壳过日子",
+      "巢菜碱的工具"
+    ],
+    "mnemonicNote": "strong(强劲)+ly：话使足了劲说出来",
+    "sourceNote": "古英语 strang(强壮) + -ly"
+  },
+  "structural": {
+    "modernMeaningCn": "结构的",
+    "literalMeaningCn": "与骨架有关",
+    "metaphorMeaningCn": "结构的、构造的",
+    "metaphorOptions": [
+      "结构的、构造的",
+      "王牌的工具",
+      "数着冻结过日子"
+    ],
+    "mnemonicNote": "structur(骨架)+al：跟撑起整体的骨架有关",
+    "sourceNote": "拉丁 structura，struere(建造)"
+  },
+  "submarine": {
+    "modernMeaningCn": "潜水艇",
+    "literalMeaningCn": "走水底下的",
+    "metaphorMeaningCn": "潜水艇、水下的",
+    "metaphorOptions": [
+      "潜水艇、水下的",
+      "一种面团的习俗",
+      "物体的一角"
+    ],
+    "mnemonicNote": "sub(下)+marine(海)：能钻到海面下走的",
+    "sourceNote": "拉丁 sub-(下) + marinus(海的)"
+  },
+  "submerge": {
+    "modernMeaningCn": "淹没、浸没",
+    "literalMeaningCn": "沉到水面下",
+    "metaphorMeaningCn": "淹没、浸没",
+    "metaphorOptions": [
+      "淹没、浸没",
+      "经验主义者的小站",
+      "守着奇特的过活"
+    ],
+    "mnemonicNote": "sub(下)+merge(沉)：整个沉到水面以下",
+    "sourceNote": "拉丁 submergere，sub-(下) + mergere(沉)"
+  },
+  "subsequent": {
+    "modernMeaningCn": "后来的",
+    "literalMeaningCn": "跟着来的",
+    "metaphorMeaningCn": "随后的、后来的",
+    "metaphorOptions": [
+      "随后的、后来的",
+      "守着圣歌过活",
+      "自行车的小站"
+    ],
+    "mnemonicNote": "sub(接着)+sequent(跟随)：紧跟着来的那一段",
+    "sourceNote": "拉丁 subsequi，sub-(接着) + sequi(跟随)"
+  },
+  "subsidy": {
+    "modernMeaningCn": "补助金",
+    "literalMeaningCn": "在下面垫着",
+    "metaphorMeaningCn": "补贴、补助金",
+    "metaphorOptions": [
+      "补贴、补助金",
+      "游泳的影子",
+      "把压缩翻开"
+    ],
+    "mnemonicNote": "sub(在下)+sidy(坐)：从底下垫着你一把",
+    "sourceNote": "拉丁 subsidium，subsidi(坐在下面、支援)"
+  },
+  "substance": {
+    "modernMeaningCn": "物质",
+    "literalMeaningCn": "站在底下那个实体",
+    "metaphorMeaningCn": "物质、实质",
+    "metaphorOptions": [
+      "物质、实质",
+      "生长的来路",
+      "勇敢的的地方"
+    ],
+    "mnemonicNote": "sub(在下)+stance(站立)：站在表象底下那个实体",
+    "sourceNote": "拉丁 substantia，sub-(在下) + stare(站)"
+  },
+  "substantial": {
+    "modernMeaningCn": "大量的、实质的",
+    "literalMeaningCn": "站得住的、有分量的",
+    "metaphorMeaningCn": "大量的、实质的",
+    "metaphorOptions": [
+      "大量的、实质的",
+      "安全的味道",
+      "被兄弟的东西"
+    ],
+    "mnemonicNote": "sub+stant(站立)+ial：站得住脚，分量压手",
+    "sourceNote": "拉丁 substantialis，substantia(实体)"
+  },
+  "subtract": {
+    "modernMeaningCn": "减去",
+    "literalMeaningCn": "从上面拉下来",
+    "metaphorMeaningCn": "减去、扣除",
+    "metaphorOptions": [
+      "减去、扣除",
+      "明显的的旧事",
+      "不可避免的的来路"
+    ],
+    "mnemonicNote": "sub(下)+tract(拉)：从上头拉下来一块",
+    "sourceNote": "拉丁 subtrahere，sub-(下) + trahere(拉)"
+  },
+  "suburb": {
+    "modernMeaningCn": "郊区、城郊",
+    "literalMeaningCn": "紧挨着城的那一圈",
+    "metaphorMeaningCn": "郊区、城郊",
+    "metaphorOptions": [
+      "郊区、城郊",
+      "数着穿透过日子",
+      "一种部分的的习俗"
+    ],
+    "mnemonicNote": "sub(近)+urb(城)：紧挨着城边的那一圈",
+    "sourceNote": "拉丁 suburbanus，sub-(近) + urbs(城)"
+  },
+  "successfully": {
+    "modernMeaningCn": "成功地",
+    "literalMeaningCn": "办成了地",
+    "metaphorMeaningCn": "成功地、顺利地",
+    "metaphorOptions": [
+      "成功地、顺利地",
+      "似非而是的的味道",
+      "穿透的另一面"
+    ],
+    "mnemonicNote": "successful(办成了)+ly：事情终究是办成了",
+    "sourceNote": "拉丁 succedere(接着来、顺利) + -ly"
+  },
+  "succession": {
+    "modernMeaningCn": "连续",
+    "literalMeaningCn": "一个接一个",
+    "metaphorMeaningCn": "连续、继承",
+    "metaphorOptions": [
+      "连续、继承",
+      "一种如此的习俗",
+      "比赛的一角"
+    ],
+    "mnemonicNote": "success(接续)+ion：一个接一个，中间不断",
+    "sourceNote": "拉丁 successio，succedere(接着来)"
+  },
+  "successive": {
+    "modernMeaningCn": "连续的、相继的",
+    "literalMeaningCn": "一个跟着一个的",
+    "metaphorMeaningCn": "连续的、相继的",
+    "metaphorOptions": [
+      "连续的、相继的",
+      "替居民操心",
+      "守着攒下过活"
+    ],
+    "mnemonicNote": "success(接续)+ive：一个跟着一个来",
+    "sourceNote": "拉丁 successivus，succedere(接着来)"
+  },
+  "suddenly": {
+    "modernMeaningCn": "突然、忽然",
+    "literalMeaningCn": "没打招呼地",
+    "metaphorMeaningCn": "突然、忽然",
+    "metaphorOptions": [
+      "突然、忽然",
+      "把标志串起来",
+      "一种拒绝的习俗"
+    ],
+    "mnemonicNote": "sudden(骤然的)+ly：连个招呼都不打",
+    "sourceNote": "古法语 sodain，拉丁 subitus(忽然) + -ly"
+  },
+  "sufficiently": {
+    "modernMeaningCn": "充足地、足够地",
+    "literalMeaningCn": "够用地",
+    "metaphorMeaningCn": "充足地、足够地",
+    "metaphorOptions": [
+      "充足地、足够地",
+      "对面的一角",
+      "一种持有的习俗"
+    ],
+    "mnemonicNote": "sufficient(够用)+ly：分量给足了，不差什么",
+    "sourceNote": "拉丁 sufficere(够用) + -ly"
+  }
 }

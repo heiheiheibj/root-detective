@@ -1,723 +1,723 @@
 {
- "_comment": "Stage 3 待写释义（batch-46，本批 60 词，六级批第 11 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
- "substantially": {
-  "modernMeaningCn": "实质上",
-  "literalMeaningCn": "从里子上看",
-  "metaphorMeaningCn": "大体上、实质上",
-  "metaphorOptions": [
-   "大体上、实质上",
-   "重复的的味道",
-   "主义的另一面"
-  ],
-  "mnemonicNote": "substantial(里子厚)+ly：从里子上看",
-  "sourceNote": "拉丁 substantia(实体) + -al + -ly"
- },
- "superficially": {
-  "modernMeaningCn": "表面上、肤浅地",
-  "literalMeaningCn": "只在面儿上",
-  "metaphorMeaningCn": "表面上、肤浅地",
-  "metaphorOptions": [
-   "表面上、肤浅地",
-   "进化的背面",
-   "闪烁的旧事"
-  ],
-  "mnemonicNote": "superficial(表层)+ly：只在最外那层打转",
-  "sourceNote": "拉丁 superficialis，super-(在上) + facies(面) + -ly"
- },
- "superiority": {
-  "modernMeaningCn": "优越性、优势",
-  "literalMeaningCn": "高人一等那份",
-  "metaphorMeaningCn": "优越性、优势",
-  "metaphorOptions": [
-   "优越性、优势",
-   "漏洞的人",
-   "涌流的影子"
-  ],
-  "mnemonicNote": "superior(较高)+ity：比旁人高出一头",
-  "sourceNote": "中世纪拉丁 superioritas，superior(较高的)"
- },
- "supersonic": {
-  "modernMeaningCn": "超声速的、超声波的",
-  "literalMeaningCn": "快过声音的",
-  "metaphorMeaningCn": "超声速的、超声波的",
-  "metaphorOptions": [
-   "超声速的、超声波的",
-   "坚硬的的一角",
-   "一种粗糙的东西的习俗"
-  ],
-  "mnemonicNote": "super(超)+sonic(声音)：跑得比声音还快",
-  "sourceNote": "拉丁 super-(超过) + sonus(声音) + -ic"
- },
- "supervise": {
-  "modernMeaningCn": "监督",
-  "literalMeaningCn": "从上头看着",
-  "metaphorMeaningCn": "监督、主管",
-  "metaphorOptions": [
-   "监督、主管",
-   "一种见证的习俗",
-   "闪光的影子"
-  ],
-  "mnemonicNote": "super(在上)+vise(看)：站在上头看着人干活",
-  "sourceNote": "中世纪拉丁 supervidere，super-(在上) + videre(看)"
- },
- "supervision": {
-  "modernMeaningCn": "监督",
-  "literalMeaningCn": "在上头盯着这件事",
-  "metaphorMeaningCn": "监督、管理",
-  "metaphorOptions": [
-   "监督、管理",
-   "围着看守转",
-   "向着相似去"
-  ],
-  "mnemonicNote": "super(在上)+vision(看)：在上头盯着这件事",
-  "sourceNote": "中世纪拉丁 supervisio，supervidere(在上看)"
- },
- "supplementary": {
-  "modernMeaningCn": "补充的、附加的",
-  "literalMeaningCn": "另加上去凑足",
-  "metaphorMeaningCn": "补充的、附加的",
-  "metaphorOptions": [
-   "补充的、附加的",
-   "可靠的的工具",
-   "围着梯级转"
-  ],
-  "mnemonicNote": "supplement(补上)+ary：另加一份把数凑足",
-  "sourceNote": "拉丁 supplementum，supplere(补足)"
- },
- "suppress": {
-  "modernMeaningCn": "压制、抑制",
-  "literalMeaningCn": "往下压住",
-  "metaphorMeaningCn": "压制、抑制",
-  "metaphorOptions": [
-   "压制、抑制",
-   "更多多的的味道",
-   "前进的另一面"
-  ],
-  "mnemonicNote": "sup(在下)+press(压)：往下死死压住",
-  "sourceNote": "拉丁 supprimere，sub-(在下) + premere(压)"
- },
- "sweeten": {
-  "modernMeaningCn": "使变甜",
-  "literalMeaningCn": "往里加点糖",
-  "metaphorMeaningCn": "使变甜、使更诱人",
-  "metaphorOptions": [
-   "使变甜、使更诱人",
-   "温和的的另一面",
-   "感谢的一角"
-  ],
-  "mnemonicNote": "sweet(甜)+en(使)：往里再添两勺糖",
-  "sourceNote": "古英语 swete(甜) + -en(使动)"
- },
- "sweetness": {
-  "modernMeaningCn": "甜味、甜美",
-  "literalMeaningCn": "甜滋滋那股味",
-  "metaphorMeaningCn": "甜味、甜美",
-  "metaphorOptions": [
-   "甜味、甜美",
-   "灰尘的影子",
-   "把少女翻开"
-  ],
-  "mnemonicNote": "sweet(甜)+ness：入口那股甜滋滋的味",
-  "sourceNote": "古英语 swetnes，swete(甜)"
- },
- "symmetrical": {
-  "modernMeaningCn": "对称的",
-  "literalMeaningCn": "两头对得上的",
-  "metaphorMeaningCn": "对称的、匀称的",
-  "metaphorOptions": [
-   "对称的、匀称的",
-   "火花的过程",
-   "向着享受去"
-  ],
-  "mnemonicNote": "symmetr(对称)+ical：两头一模一样对得上",
-  "sourceNote": "希腊 symmetria，syn-(共同) + metron(尺度)"
- },
- "synthesis": {
-  "modernMeaningCn": "综合",
-  "literalMeaningCn": "把各说放到一起",
-  "metaphorMeaningCn": "综合、合成",
-  "metaphorOptions": [
-   "综合、合成",
-   "一种公鸡的习俗",
-   "财政的一角"
-  ],
-  "mnemonicNote": "syn(共同)+thesis(放置)：把各家的说法摆到一处",
-  "sourceNote": "希腊 synthesis，syn-(共同) + thesis(放置)"
- },
- "synthesize": {
-  "modernMeaningCn": "合成、综合",
-  "literalMeaningCn": "把几样凑成一样",
-  "metaphorMeaningCn": "合成、综合",
-  "metaphorOptions": [
-   "合成、综合",
-   "样板的旧事",
-   "亲戚的来路"
-  ],
-  "mnemonicNote": "synthesi(拼合)+ze：几样凑成一样",
-  "sourceNote": "希腊 syntithenai(放在一起) + -ize"
- },
- "systematically": {
-  "modernMeaningCn": "系统地、有步骤地",
-  "literalMeaningCn": "按着条理来",
-  "metaphorMeaningCn": "系统地、有步骤地",
-  "metaphorOptions": [
-   "系统地、有步骤地",
-   "把市场翻开",
-   "礼物的影子"
-  ],
-  "mnemonicNote": "systematic(有条理)+ally：按着条理一步步来",
-  "sourceNote": "希腊 systema(整体) + -atic + -ally"
- },
- "tenable": {
-  "modernMeaningCn": "站得住脚的、可维持的",
-  "literalMeaningCn": "守得住的",
-  "metaphorMeaningCn": "站得住脚的、可维持的",
-  "metaphorOptions": [
-   "站得住脚的、可维持的",
-   "车站的影子",
-   "前进的旧事"
-  ],
-  "mnemonicNote": "ten(持)+able：守得住、立得稳",
-  "sourceNote": "法语 tenable，tenir(持有)"
- },
- "terrain": {
-  "modernMeaningCn": "地带",
-  "literalMeaningCn": "脚下那一片地势",
-  "metaphorMeaningCn": "地形、地带",
-  "metaphorOptions": [
-   "地形、地带",
-   "围着精炼转",
-   "向着客套语去"
-  ],
-  "mnemonicNote": "ter(地)+rain：脚底下那一片地势",
-  "sourceNote": "法语 terrain，拉丁 terrenum(土地)"
- },
- "terrorist": {
-  "modernMeaningCn": "恐怖分子",
-  "literalMeaningCn": "制造恐怖的人",
-  "metaphorMeaningCn": "恐怖分子",
-  "metaphorOptions": [
-   "恐怖分子",
-   "数着卡片过日子",
-   "派送的工具"
-  ],
-  "mnemonicNote": "terror(惊恐)+ist(人)：专靠吓人达成目的那号人",
-  "sourceNote": "拉丁 terror(惊恐) + -ist"
- },
- "thanksgiving": {
-  "modernMeaningCn": "感恩节、感恩",
-  "literalMeaningCn": "谢恩的日子",
-  "metaphorMeaningCn": "感恩节、感恩",
-  "metaphorOptions": [
-   "感恩节、感恩",
-   "守着非常的过活",
-   "抵抗的小站"
-  ],
-  "mnemonicNote": "thanks(谢)+giving(给予)：摆一桌答谢的日子",
-  "sourceNote": "英语复合词，thanks + giving"
- },
- "theorem": {
-  "modernMeaningCn": "定理",
-  "literalMeaningCn": "看出来的那条道理",
-  "metaphorMeaningCn": "定理、原理",
-  "metaphorOptions": [
-   "定理、原理",
-   "离要求很远",
-   "技术的过程"
-  ],
-  "mnemonicNote": "theo(审视)+rem：一眼看穿的那条道理",
-  "sourceNote": "希腊 theorema，theorein(观看、思辨)"
- },
- "thereafter": {
-  "modernMeaningCn": "其后",
-  "literalMeaningCn": "打那以后",
-  "metaphorMeaningCn": "其后、此后",
-  "metaphorOptions": [
-   "其后、此后",
-   "一种派送的习俗",
-   "不寻常的的一角"
-  ],
-  "mnemonicNote": "there(那)+after(之后)：打那以后",
-  "sourceNote": "古英语 thær(那里) + æfter(之后)"
- },
- "therein": {
-  "modernMeaningCn": "在其中",
-  "literalMeaningCn": "在那里面",
-  "metaphorMeaningCn": "其中、在那里",
-  "metaphorOptions": [
-   "其中、在那里",
-   "离固体坚硬的很远",
-   "替平坦的操心"
-  ],
-  "mnemonicNote": "there(那)+in(在内)：就在那里面",
-  "sourceNote": "古英语 thær(那里) + in(在内)"
- },
- "thereof": {
-  "modernMeaningCn": "其、由此",
-  "literalMeaningCn": "属于那东西的",
-  "metaphorMeaningCn": "其、由此",
-  "metaphorOptions": [
-   "其、由此",
-   "强壮的的来路",
-   "过错的旧事"
-  ],
-  "mnemonicNote": "there(那)+of(的)：属于那东西的那一份",
-  "sourceNote": "古英语 thær(那里) + of(的)"
- },
- "thicken": {
-  "modernMeaningCn": "使变稠、加厚",
-  "literalMeaningCn": "熬得稠起来",
-  "metaphorMeaningCn": "使变稠、加厚",
-  "metaphorOptions": [
-   "使变稠、加厚",
-   "直沙嘴的另一面",
-   "派送的味道"
-  ],
-  "mnemonicNote": "thick(稠)+en(使)：小火慢慢熬得稠起来",
-  "sourceNote": "古英语 thicce(厚、稠) + -en(使动)"
- },
- "threshold": {
-  "modernMeaningCn": "门槛",
-  "literalMeaningCn": "进门那道坎",
-  "metaphorMeaningCn": "门槛、临界点",
-  "metaphorOptions": [
-   "门槛、临界点",
-   "把短的串起来",
-   "入会的工具"
-  ],
-  "mnemonicNote": "thresh(踩谷)+old：进门得迈过去那道坎",
-  "sourceNote": "古英语 therscold(打谷场、门坎)"
- },
- "tickle": {
-  "modernMeaningCn": "使发痒、逗乐",
-  "literalMeaningCn": "轻轻搔两下",
-  "metaphorMeaningCn": "使发痒、逗乐",
-  "metaphorOptions": [
-   "使发痒、逗乐",
-   "离开始很远",
-   "社会的的背面"
-  ],
-  "mnemonicNote": "tick(轻触)+le：拿手指头轻轻搔两下",
-  "sourceNote": "中古英语 tikelen(轻触)"
- },
- "tighten": {
-  "modernMeaningCn": "收紧、勒紧",
-  "literalMeaningCn": "把绳往紧里收",
-  "metaphorMeaningCn": "收紧、勒紧",
-  "metaphorOptions": [
-   "收紧、勒紧",
-   "重的的过程",
-   "离机器很远"
-  ],
-  "mnemonicNote": "tight(紧)+en(使)：把绳子往紧里收",
-  "sourceNote": "古英语 tih t(结实) + -en(使动)"
- },
- "tightly": {
-  "modernMeaningCn": "紧紧地",
-  "literalMeaningCn": "一点缝不留",
-  "metaphorMeaningCn": "紧紧地、牢固地",
-  "metaphorOptions": [
-   "紧紧地、牢固地",
-   "秘密的地方",
-   "使合并的来路"
-  ],
-  "mnemonicNote": "tight(紧)+ly：勒得一点缝都不留",
-  "sourceNote": "古英语 tih t(结实) + -ly"
- },
- "tiresome": {
-  "modernMeaningCn": "累人的",
-  "literalMeaningCn": "叫人乏的",
-  "metaphorMeaningCn": "累人的、令人厌烦的",
-  "metaphorOptions": [
-   "累人的、令人厌烦的",
-   "围着闪光转",
-   "数着承载过日子"
-  ],
-  "mnemonicNote": "tire(使乏)+some：折腾得人一点劲都没了",
-  "sourceNote": "古英语 tiorian(疲倦) + -some(引起)"
- },
- "trademark": {
-  "modernMeaningCn": "商标、标志",
-  "literalMeaningCn": "生意上的记号",
-  "metaphorMeaningCn": "商标、标志",
-  "metaphorOptions": [
-   "商标、标志",
-   "标准的旧事",
-   "向着被怀疑者去"
-  ],
-  "mnemonicNote": "trade(买卖)+mark(标记)：生意上认的那个记号",
-  "sourceNote": "英语复合词，trade + mark"
- },
- "tradesman": {
-  "modernMeaningCn": "商人、零售商",
-  "literalMeaningCn": "做买卖那位",
-  "metaphorMeaningCn": "商人、零售商",
-  "metaphorOptions": [
-   "商人、零售商",
-   "把复合的串起来",
-   "滑落的工具"
-  ],
-  "mnemonicNote": "trades(买卖)+man(人)：铺子里做买卖那位",
-  "sourceNote": "中古英语 tradesman，trade + man"
- },
- "trample": {
-  "modernMeaningCn": "踩踏、践踏",
-  "literalMeaningCn": "重重地踩过去",
-  "metaphorMeaningCn": "踩踏、践踏",
-  "metaphorOptions": [
-   "踩踏、践踏",
-   "邻居的影子",
-   "把热心家翻开"
-  ],
-  "mnemonicNote": "tramp(重踏)+le：重重地一脚脚踩过去",
-  "sourceNote": "中古英语 trampelen，trampen(重踏)"
- },
- "transaction": {
-  "modernMeaningCn": "交易",
-  "literalMeaningCn": "两人过手这件事",
-  "metaphorMeaningCn": "交易、事务",
-  "metaphorOptions": [
-   "交易、事务",
-   "任何的影子",
-   "正在的人"
-  ],
-  "mnemonicNote": "trans(越过)+action(做)：两边过手这一件事",
-  "sourceNote": "拉丁 transactio，trans-(越过) + agere(做)"
- },
- "transcend": {
-  "modernMeaningCn": "超越",
-  "literalMeaningCn": "爬过那道坎",
-  "metaphorMeaningCn": "超越、胜过",
-  "metaphorOptions": [
-   "超越、胜过",
-   "运动的一角",
-   "黑色的另一面"
-  ],
-  "mnemonicNote": "trans(越过)+scend(爬)：翻过那道高坎去",
-  "sourceNote": "拉丁 transcendere，trans-(越过) + scandere(爬)"
- },
- "transit": {
-  "modernMeaningCn": "过境、运输",
-  "literalMeaningCn": "从这头走到那头",
-  "metaphorMeaningCn": "过境、运输",
-  "metaphorOptions": [
-   "过境、运输",
-   "数着疼痛过日子",
-   "围着熟食店转"
-  ],
-  "mnemonicNote": "trans(越过)+it(走)：从这头一路走到那头",
-  "sourceNote": "拉丁 transitus，transire(通过)"
- },
- "transition": {
-  "modernMeaningCn": "过渡、转变",
-  "literalMeaningCn": "从这头挪到那头",
-  "metaphorMeaningCn": "过渡、转变",
-  "metaphorOptions": [
-   "过渡、转变",
-   "伤害的地方",
-   "适当的的来路"
-  ],
-  "mnemonicNote": "transit(过境)+ion：一步一步挪到那一头",
-  "sourceNote": "拉丁 transitio，transire(通过)"
- },
- "transverse": {
-  "modernMeaningCn": "横向的、横断的",
-  "literalMeaningCn": "横着穿过去",
-  "metaphorMeaningCn": "横向的、横断的",
-  "metaphorOptions": [
-   "横向的、横断的",
-   "替在上操心",
-   "守着都市过活"
-  ],
-  "mnemonicNote": "trans(越过)+verse(转)：横着穿过去",
-  "sourceNote": "拉丁 transversus，transvertere(横转)"
- },
- "tremendously": {
-  "modernMeaningCn": "极大地",
-  "literalMeaningCn": "大到没边",
-  "metaphorMeaningCn": "极大地、非常",
-  "metaphorOptions": [
-   "极大地、非常",
-   "日记的背面",
-   "中断的过程"
-  ],
-  "mnemonicNote": "tremendous(大得吓人)+ly：大到没边",
-  "sourceNote": "拉丁 tremendus，tremere(战栗) + -ly"
- },
- "tribute": {
-  "modernMeaningCn": "贡品、敬意",
-  "literalMeaningCn": "分出来献上的",
-  "metaphorMeaningCn": "贡品、敬意",
-  "metaphorOptions": [
-   "贡品、敬意",
-   "反手的味道",
-   "殖民地的另一面"
-  ],
-  "mnemonicNote": "tri(分)+bute(给)：从收成里分出一份献上去",
-  "sourceNote": "拉丁 tributum，tribuere(分给)"
- },
- "triumphant": {
-  "modernMeaningCn": "得胜的",
-  "literalMeaningCn": "打了胜仗的",
-  "metaphorMeaningCn": "得胜的、洋洋得意的",
-  "metaphorOptions": [
-   "得胜的、洋洋得意的",
-   "重要的的地方",
-   "诱惑的小站"
-  ],
-  "mnemonicNote": "triumph(凯旋)+ant：打了胜仗回来那位",
-  "sourceNote": "拉丁 triumphans，triumphare(凯旋)"
- },
- "trivial": {
-  "modernMeaningCn": "琐碎的",
-  "literalMeaningCn": "三岔路口那种小事",
-  "metaphorMeaningCn": "琐碎的、微不足道的",
-  "metaphorOptions": [
-   "琐碎的、微不足道的",
-   "赢得的人",
-   "装备的影子"
-  ],
-  "mnemonicNote": "tri(三)+vial(路)：三岔路口那种不值一提的事",
-  "sourceNote": "拉丁 trivialis，trivium(三岔路口)"
- },
- "trolley": {
-  "modernMeaningCn": "电车",
-  "literalMeaningCn": "轮子滚着走那种车",
-  "metaphorMeaningCn": "电车、手推车",
-  "metaphorOptions": [
-   "电车、手推车",
-   "方式的工具",
-   "数着程序过日子"
-  ],
-  "mnemonicNote": "troll(滚动)+ey：轮子滚着走那种车",
-  "sourceNote": "中古英语 trollen(滚动)"
- },
- "turnover": {
-  "modernMeaningCn": "营业额、人员流动",
-  "literalMeaningCn": "转手那一波",
-  "metaphorMeaningCn": "营业额、人员流动",
-  "metaphorOptions": [
-   "营业额、人员流动",
-   "感知的背面",
-   "被刻痕的东西"
-  ],
-  "mnemonicNote": "turn(转)+over(过来)：钱一圈圈转手那一波",
-  "sourceNote": "英语复合词，turn + over"
- },
- "twilight": {
-  "modernMeaningCn": "黄昏、暮年",
-  "literalMeaningCn": "明暗交叠那阵子",
-  "metaphorMeaningCn": "黄昏、暮年",
-  "metaphorOptions": [
-   "黄昏、暮年",
-   "装配的来路",
-   "景观的地方"
-  ],
-  "mnemonicNote": "twi(二)+light(光)：明暗交叠的那一阵",
-  "sourceNote": "中古英语 twilight，twi-(二) + light(光)"
- },
- "ultraviolet": {
-  "modernMeaningCn": "紫外线的、紫外线",
-  "literalMeaningCn": "比紫色还往外那一带",
-  "metaphorMeaningCn": "紫外线的、紫外线",
-  "metaphorOptions": [
-   "紫外线的、紫外线",
-   "排气的旧事",
-   "高兴的背面"
-  ],
-  "mnemonicNote": "ultra(超)+violet(紫)：比紫光还往外那一带",
-  "sourceNote": "拉丁 ultra-(超出) + viola(紫罗兰色)"
- },
- "unavoidable": {
-  "modernMeaningCn": "不可避免的",
-  "literalMeaningCn": "躲不开的",
-  "metaphorMeaningCn": "不可避免的、必然的",
-  "metaphorOptions": [
-   "不可避免的、必然的",
-   "滋养的背面",
-   "生物的旧事"
-  ],
-  "mnemonicNote": "un(不)+avoidable(可避)：怎么躲都躲不开",
-  "sourceNote": "un-(不) + avoid(避开) + -able"
- },
- "unconventional": {
-  "modernMeaningCn": "不依惯例的",
-  "literalMeaningCn": "不按老套来",
-  "metaphorMeaningCn": "非常规的、不依惯例的",
-  "metaphorOptions": [
-   "非常规的、不依惯例的",
-   "出现的背面",
-   "被繁殖的东西"
-  ],
-  "mnemonicNote": "un(不)+conventional(老套)：不照老套来",
-  "sourceNote": "un-(不) + 拉丁 conventionalis(依惯例的)"
- },
- "underestimate": {
-  "modernMeaningCn": "低估、看轻",
-  "literalMeaningCn": "往低里估",
-  "metaphorMeaningCn": "低估、看轻",
-  "metaphorOptions": [
-   "低估、看轻",
-   "数着庆祝的过日子",
-   "征服的工具"
-  ],
-  "mnemonicNote": "under(在下)+estimate(估价)：把数往低里估",
-  "sourceNote": "under-(不足) + estimate(估价)"
- },
- "underlying": {
-  "modernMeaningCn": "潜在的、根本的",
-  "literalMeaningCn": "垫在下头的",
-  "metaphorMeaningCn": "潜在的、根本的",
-  "metaphorOptions": [
-   "潜在的、根本的",
-   "小屋的人",
-   "赞同的影子"
-  ],
-  "mnemonicNote": "underly(垫在下面)+ing：垫在最底下的那一层",
-  "sourceNote": "古英语 underlicgan，under(在下) + licgan(躺)"
- },
- "undermine": {
-  "modernMeaningCn": "逐渐削弱、暗中破坏",
-  "literalMeaningCn": "从底下掏空",
-  "metaphorMeaningCn": "逐渐削弱、暗中破坏",
-  "metaphorOptions": [
-   "逐渐削弱、暗中破坏",
-   "带入的工具",
-   "数着石灰过日子"
-  ],
-  "mnemonicNote": "under(在下)+mine(挖)：从底下一点点掏空",
-  "sourceNote": "中古英语 underminen，under(在下) + minen(挖)"
- },
- "undesirable": {
-  "modernMeaningCn": "不受欢迎的",
-  "literalMeaningCn": "不合人意的",
-  "metaphorMeaningCn": "不受欢迎的、不可取的",
-  "metaphorOptions": [
-   "不受欢迎的、不可取的",
-   "向着拴紧去",
-   "围着兽群转"
-  ],
-  "mnemonicNote": "un(不)+desirable(合意)：压根不合人心意",
-  "sourceNote": "un-(不) + desire(渴望) + -able"
- },
- "uniformly": {
-  "modernMeaningCn": "一致地、均匀地",
-  "literalMeaningCn": "处处一个样",
-  "metaphorMeaningCn": "一致地、均匀地",
-  "metaphorOptions": [
-   "一致地、均匀地",
-   "欢喜的过程",
-   "离游戏很远"
-  ],
-  "mnemonicNote": "uniform(一个样)+ly：从头到尾一个样",
-  "sourceNote": "拉丁 uniformis，uni-(一) + forma(形状) + -ly"
- },
- "universally": {
-  "modernMeaningCn": "普遍地、全人类地",
-  "literalMeaningCn": "放到哪儿都成立",
-  "metaphorMeaningCn": "普遍地、全人类地",
-  "metaphorOptions": [
-   "普遍地、全人类地",
-   "悲观者的背面",
-   "好意的旧事"
-  ],
-  "mnemonicNote": "universal(放之四海)+ly：搁到哪儿都成立",
-  "sourceNote": "拉丁 universalis，universus(全体) + -ly"
- },
- "unlimited": {
-  "modernMeaningCn": "无限的",
-  "literalMeaningCn": "没有框的",
-  "metaphorMeaningCn": "无限的、不受限制的",
-  "metaphorOptions": [
-   "无限的、不受限制的",
-   "守着味道过活",
-   "关联的小站"
-  ],
-  "mnemonicNote": "un(不)+limited(受限)：没有框框管着",
-  "sourceNote": "un-(不) + 拉丁 limitare(限制) + -ed"
- },
- "unorthodox": {
-  "modernMeaningCn": "非正统的",
-  "literalMeaningCn": "不合正宗那套",
-  "metaphorMeaningCn": "非正统的、离经叛道的",
-  "metaphorOptions": [
-   "非正统的、离经叛道的",
-   "数着可以避免的过日子",
-   "使面对的工具"
-  ],
-  "mnemonicNote": "un(不)+orthodox(正宗)：不合正宗那一套",
-  "sourceNote": "un-(不) + 希腊 orthodoxos(正统)"
- },
- "unpaid": {
-  "modernMeaningCn": "未付的、无偿的",
-  "literalMeaningCn": "钱还没给的",
-  "metaphorMeaningCn": "未付的、无偿的",
-  "metaphorOptions": [
-   "未付的、无偿的",
-   "被偏爱的东西",
-   "在旁边的味道"
-  ],
-  "mnemonicNote": "un(不)+paid(已付)：账还挂在那儿没结",
-  "sourceNote": "un-(不) + pay(支付) + -ed"
- },
- "unprecedented": {
-  "modernMeaningCn": "前所未有的、空前的",
-  "literalMeaningCn": "前头没这例子",
-  "metaphorMeaningCn": "前所未有的、空前的",
-  "metaphorOptions": [
-   "前所未有的、空前的",
-   "与有关的人的一角",
-   "已婚的的另一面"
-  ],
-  "mnemonicNote": "un(不)+precedent(先例)+ed：前头从没有过这个例子",
-  "sourceNote": "un-(不) + 拉丁 praecedere(先行) + -ed"
- },
- "unreasonable": {
-  "modernMeaningCn": "不合理的",
-  "literalMeaningCn": "不讲道理的",
-  "metaphorMeaningCn": "不合理的、过分的",
-  "metaphorOptions": [
-   "不合理的、过分的",
-   "折叠的地方",
-   "为了的来路"
-  ],
-  "mnemonicNote": "un(不)+reasonable(讲理)：压根不讲道理",
-  "sourceNote": "un-(不) + 拉丁 rationabilis(合理的)"
- },
- "unreliable": {
-  "modernMeaningCn": "不可靠的、靠不住的",
-  "literalMeaningCn": "靠不住的",
-  "metaphorMeaningCn": "不可靠的、靠不住的",
-  "metaphorOptions": [
-   "不可靠的、靠不住的",
-   "闪烁的背面",
-   "被重复的东西"
-  ],
-  "mnemonicNote": "un(不)+reliable(靠得住)：他的话不算数",
-  "sourceNote": "un-(不) + rely(依靠) + -able"
- },
- "untie": {
-  "modernMeaningCn": "解开、松绑",
-  "literalMeaningCn": "把结松开",
-  "metaphorMeaningCn": "解开、松绑",
-  "metaphorOptions": [
-   "解开、松绑",
-   "守着钢笔过活",
-   "防护的小站"
-  ],
-  "mnemonicNote": "un(去掉)+tie(系)：把打的结松开",
-  "sourceNote": "古英语 untigan，un-(去掉) + tigan(系)"
- },
- "update": {
-  "modernMeaningCn": "更新",
-  "literalMeaningCn": "把日子往后翻",
-  "metaphorMeaningCn": "更新、最新消息",
-  "metaphorOptions": [
-   "更新、最新消息",
-   "社会的味道",
-   "母亲的另一面"
-  ],
-  "mnemonicNote": "up(向上)+date(日期)：把日子往后翻一页",
-  "sourceNote": "英语复合词，up + date"
- }
+  "_comment": "Stage 3 待写释义（batch-46，本批 60 词，六级批第 11 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
+  "substantially": {
+    "modernMeaningCn": "实质上",
+    "literalMeaningCn": "从里子上看",
+    "metaphorMeaningCn": "大体上、实质上",
+    "metaphorOptions": [
+      "大体上、实质上",
+      "重复的的味道",
+      "主义的另一面"
+    ],
+    "mnemonicNote": "substantial(里子厚)+ly：从里子上看",
+    "sourceNote": "拉丁 substantia(实体) + -al + -ly"
+  },
+  "superficially": {
+    "modernMeaningCn": "表面上、肤浅地",
+    "literalMeaningCn": "只在面儿上",
+    "metaphorMeaningCn": "表面上、肤浅地",
+    "metaphorOptions": [
+      "表面上、肤浅地",
+      "进化的背面",
+      "闪烁的旧事"
+    ],
+    "mnemonicNote": "superficial(表层)+ly：只在最外那层打转",
+    "sourceNote": "拉丁 superficialis，super-(在上) + facies(面) + -ly"
+  },
+  "superiority": {
+    "modernMeaningCn": "优越性、优势",
+    "literalMeaningCn": "高人一等那份",
+    "metaphorMeaningCn": "优越性、优势",
+    "metaphorOptions": [
+      "优越性、优势",
+      "漏洞的人",
+      "涌流的影子"
+    ],
+    "mnemonicNote": "superior(较高)+ity：比旁人高出一头",
+    "sourceNote": "中世纪拉丁 superioritas，superior(较高的)"
+  },
+  "supersonic": {
+    "modernMeaningCn": "超声速的、超声波的",
+    "literalMeaningCn": "快过声音的",
+    "metaphorMeaningCn": "超声速的、超声波的",
+    "metaphorOptions": [
+      "超声速的、超声波的",
+      "坚硬的的一角",
+      "一种粗糙的东西的习俗"
+    ],
+    "mnemonicNote": "super(超)+sonic(声音)：跑得比声音还快",
+    "sourceNote": "拉丁 super-(超过) + sonus(声音) + -ic"
+  },
+  "supervise": {
+    "modernMeaningCn": "监督",
+    "literalMeaningCn": "从上头看着",
+    "metaphorMeaningCn": "监督、主管",
+    "metaphorOptions": [
+      "监督、主管",
+      "一种见证的习俗",
+      "闪光的影子"
+    ],
+    "mnemonicNote": "super(在上)+vise(看)：站在上头看着人干活",
+    "sourceNote": "中世纪拉丁 supervidere，super-(在上) + videre(看)"
+  },
+  "supervision": {
+    "modernMeaningCn": "监督",
+    "literalMeaningCn": "在上头盯着这件事",
+    "metaphorMeaningCn": "监督、管理",
+    "metaphorOptions": [
+      "监督、管理",
+      "围着看守转",
+      "向着相似去"
+    ],
+    "mnemonicNote": "super(在上)+vision(看)：在上头盯着这件事",
+    "sourceNote": "中世纪拉丁 supervisio，supervidere(在上看)"
+  },
+  "supplementary": {
+    "modernMeaningCn": "补充的、附加的",
+    "literalMeaningCn": "另加上去凑足",
+    "metaphorMeaningCn": "补充的、附加的",
+    "metaphorOptions": [
+      "补充的、附加的",
+      "可靠的的工具",
+      "围着梯级转"
+    ],
+    "mnemonicNote": "supplement(补上)+ary：另加一份把数凑足",
+    "sourceNote": "拉丁 supplementum，supplere(补足)"
+  },
+  "suppress": {
+    "modernMeaningCn": "压制、抑制",
+    "literalMeaningCn": "往下压住",
+    "metaphorMeaningCn": "压制、抑制",
+    "metaphorOptions": [
+      "压制、抑制",
+      "更多多的的味道",
+      "前进的另一面"
+    ],
+    "mnemonicNote": "sup(在下)+press(压)：往下死死压住",
+    "sourceNote": "拉丁 supprimere，sub-(在下) + premere(压)"
+  },
+  "sweeten": {
+    "modernMeaningCn": "使变甜",
+    "literalMeaningCn": "往里加点糖",
+    "metaphorMeaningCn": "使变甜、使更诱人",
+    "metaphorOptions": [
+      "使变甜、使更诱人",
+      "温和的的另一面",
+      "感谢的一角"
+    ],
+    "mnemonicNote": "sweet(甜)+en(使)：往里再添两勺糖",
+    "sourceNote": "古英语 swete(甜) + -en(使动)"
+  },
+  "sweetness": {
+    "modernMeaningCn": "甜味、甜美",
+    "literalMeaningCn": "甜滋滋那股味",
+    "metaphorMeaningCn": "甜味、甜美",
+    "metaphorOptions": [
+      "甜味、甜美",
+      "灰尘的影子",
+      "把少女翻开"
+    ],
+    "mnemonicNote": "sweet(甜)+ness：入口那股甜滋滋的味",
+    "sourceNote": "古英语 swetnes，swete(甜)"
+  },
+  "symmetrical": {
+    "modernMeaningCn": "对称的",
+    "literalMeaningCn": "两头对得上的",
+    "metaphorMeaningCn": "对称的、匀称的",
+    "metaphorOptions": [
+      "对称的、匀称的",
+      "火花的过程",
+      "向着享受去"
+    ],
+    "mnemonicNote": "symmetr(对称)+ical：两头一模一样对得上",
+    "sourceNote": "希腊 symmetria，syn-(共同) + metron(尺度)"
+  },
+  "synthesis": {
+    "modernMeaningCn": "综合",
+    "literalMeaningCn": "把各说放到一起",
+    "metaphorMeaningCn": "综合、合成",
+    "metaphorOptions": [
+      "综合、合成",
+      "一种公鸡的习俗",
+      "财政的一角"
+    ],
+    "mnemonicNote": "syn(共同)+thesis(放置)：把各家的说法摆到一处",
+    "sourceNote": "希腊 synthesis，syn-(共同) + thesis(放置)"
+  },
+  "synthesize": {
+    "modernMeaningCn": "合成、综合",
+    "literalMeaningCn": "把几样凑成一样",
+    "metaphorMeaningCn": "合成、综合",
+    "metaphorOptions": [
+      "合成、综合",
+      "样板的旧事",
+      "一种发射的习俗"
+    ],
+    "mnemonicNote": "synthesi(拼合)+ze：几样凑成一样",
+    "sourceNote": "希腊 syntithenai(放在一起) + -ize"
+  },
+  "systematically": {
+    "modernMeaningCn": "系统地、有步骤地",
+    "literalMeaningCn": "按着条理来",
+    "metaphorMeaningCn": "系统地、有步骤地",
+    "metaphorOptions": [
+      "系统地、有步骤地",
+      "把市场翻开",
+      "礼物的影子"
+    ],
+    "mnemonicNote": "systematic(有条理)+ally：按着条理一步步来",
+    "sourceNote": "希腊 systema(整体) + -atic + -ally"
+  },
+  "tenable": {
+    "modernMeaningCn": "站得住脚的、可维持的",
+    "literalMeaningCn": "守得住的",
+    "metaphorMeaningCn": "站得住脚的、可维持的",
+    "metaphorOptions": [
+      "站得住脚的、可维持的",
+      "车站的影子",
+      "前进的旧事"
+    ],
+    "mnemonicNote": "ten(持)+able：守得住、立得稳",
+    "sourceNote": "法语 tenable，tenir(持有)"
+  },
+  "terrain": {
+    "modernMeaningCn": "地带",
+    "literalMeaningCn": "脚下那一片地势",
+    "metaphorMeaningCn": "地形、地带",
+    "metaphorOptions": [
+      "地形、地带",
+      "围着精炼转",
+      "向着客套语去"
+    ],
+    "mnemonicNote": "ter(地)+rain：脚底下那一片地势",
+    "sourceNote": "法语 terrain，拉丁 terrenum(土地)"
+  },
+  "terrorist": {
+    "modernMeaningCn": "恐怖分子",
+    "literalMeaningCn": "制造恐怖的人",
+    "metaphorMeaningCn": "恐怖分子",
+    "metaphorOptions": [
+      "恐怖分子",
+      "数着卡片过日子",
+      "派送的工具"
+    ],
+    "mnemonicNote": "terror(惊恐)+ist(人)：专靠吓人达成目的那号人",
+    "sourceNote": "拉丁 terror(惊恐) + -ist"
+  },
+  "thanksgiving": {
+    "modernMeaningCn": "感恩节、感恩",
+    "literalMeaningCn": "谢恩的日子",
+    "metaphorMeaningCn": "感恩节、感恩",
+    "metaphorOptions": [
+      "感恩节、感恩",
+      "守着非常的过活",
+      "抵抗的小站"
+    ],
+    "mnemonicNote": "thanks(谢)+giving(给予)：摆一桌答谢的日子",
+    "sourceNote": "英语复合词，thanks + giving"
+  },
+  "theorem": {
+    "modernMeaningCn": "定理",
+    "literalMeaningCn": "看出来的那条道理",
+    "metaphorMeaningCn": "定理、原理",
+    "metaphorOptions": [
+      "定理、原理",
+      "离要求很远",
+      "技术的过程"
+    ],
+    "mnemonicNote": "theo(审视)+rem：一眼看穿的那条道理",
+    "sourceNote": "希腊 theorema，theorein(观看、思辨)"
+  },
+  "thereafter": {
+    "modernMeaningCn": "其后",
+    "literalMeaningCn": "打那以后",
+    "metaphorMeaningCn": "其后、此后",
+    "metaphorOptions": [
+      "其后、此后",
+      "一种派送的习俗",
+      "不寻常的的一角"
+    ],
+    "mnemonicNote": "there(那)+after(之后)：打那以后",
+    "sourceNote": "古英语 thær(那里) + æfter(之后)"
+  },
+  "therein": {
+    "modernMeaningCn": "在其中",
+    "literalMeaningCn": "在那里面",
+    "metaphorMeaningCn": "其中、在那里",
+    "metaphorOptions": [
+      "其中、在那里",
+      "离固体坚硬的很远",
+      "替平坦的操心"
+    ],
+    "mnemonicNote": "there(那)+in(在内)：就在那里面",
+    "sourceNote": "古英语 thær(那里) + in(在内)"
+  },
+  "thereof": {
+    "modernMeaningCn": "其、由此",
+    "literalMeaningCn": "属于那东西的",
+    "metaphorMeaningCn": "其、由此",
+    "metaphorOptions": [
+      "其、由此",
+      "强壮的的来路",
+      "过错的旧事"
+    ],
+    "mnemonicNote": "there(那)+of(的)：属于那东西的那一份",
+    "sourceNote": "古英语 thær(那里) + of(的)"
+  },
+  "thicken": {
+    "modernMeaningCn": "使变稠、加厚",
+    "literalMeaningCn": "熬得稠起来",
+    "metaphorMeaningCn": "使变稠、加厚",
+    "metaphorOptions": [
+      "使变稠、加厚",
+      "一种守财奴的习俗",
+      "派送的味道"
+    ],
+    "mnemonicNote": "thick(稠)+en(使)：小火慢慢熬得稠起来",
+    "sourceNote": "古英语 thicce(厚、稠) + -en(使动)"
+  },
+  "threshold": {
+    "modernMeaningCn": "门槛",
+    "literalMeaningCn": "进门那道坎",
+    "metaphorMeaningCn": "门槛、临界点",
+    "metaphorOptions": [
+      "门槛、临界点",
+      "把短的串起来",
+      "入会的工具"
+    ],
+    "mnemonicNote": "thresh(踩谷)+old：进门得迈过去那道坎",
+    "sourceNote": "古英语 therscold(打谷场、门坎)"
+  },
+  "tickle": {
+    "modernMeaningCn": "使发痒、逗乐",
+    "literalMeaningCn": "轻轻搔两下",
+    "metaphorMeaningCn": "使发痒、逗乐",
+    "metaphorOptions": [
+      "使发痒、逗乐",
+      "离开始很远",
+      "社会的的背面"
+    ],
+    "mnemonicNote": "tick(轻触)+le：拿手指头轻轻搔两下",
+    "sourceNote": "中古英语 tikelen(轻触)"
+  },
+  "tighten": {
+    "modernMeaningCn": "收紧、勒紧",
+    "literalMeaningCn": "把绳往紧里收",
+    "metaphorMeaningCn": "收紧、勒紧",
+    "metaphorOptions": [
+      "收紧、勒紧",
+      "重的的过程",
+      "离机器很远"
+    ],
+    "mnemonicNote": "tight(紧)+en(使)：把绳子往紧里收",
+    "sourceNote": "古英语 tih t(结实) + -en(使动)"
+  },
+  "tightly": {
+    "modernMeaningCn": "紧紧地",
+    "literalMeaningCn": "一点缝不留",
+    "metaphorMeaningCn": "紧紧地、牢固地",
+    "metaphorOptions": [
+      "紧紧地、牢固地",
+      "秘密的地方",
+      "一种气味的习俗"
+    ],
+    "mnemonicNote": "tight(紧)+ly：勒得一点缝都不留",
+    "sourceNote": "古英语 tih t(结实) + -ly"
+  },
+  "tiresome": {
+    "modernMeaningCn": "累人的",
+    "literalMeaningCn": "叫人乏的",
+    "metaphorMeaningCn": "累人的、令人厌烦的",
+    "metaphorOptions": [
+      "累人的、令人厌烦的",
+      "围着闪光转",
+      "数着承载过日子"
+    ],
+    "mnemonicNote": "tire(使乏)+some：折腾得人一点劲都没了",
+    "sourceNote": "古英语 tiorian(疲倦) + -some(引起)"
+  },
+  "trademark": {
+    "modernMeaningCn": "商标、标志",
+    "literalMeaningCn": "生意上的记号",
+    "metaphorMeaningCn": "商标、标志",
+    "metaphorOptions": [
+      "商标、标志",
+      "标准的旧事",
+      "向着被怀疑者去"
+    ],
+    "mnemonicNote": "trade(买卖)+mark(标记)：生意上认的那个记号",
+    "sourceNote": "英语复合词，trade + mark"
+  },
+  "tradesman": {
+    "modernMeaningCn": "商人、零售商",
+    "literalMeaningCn": "做买卖那位",
+    "metaphorMeaningCn": "商人、零售商",
+    "metaphorOptions": [
+      "商人、零售商",
+      "一种平滑的的习俗",
+      "滑落的工具"
+    ],
+    "mnemonicNote": "trades(买卖)+man(人)：铺子里做买卖那位",
+    "sourceNote": "中古英语 tradesman，trade + man"
+  },
+  "trample": {
+    "modernMeaningCn": "踩踏、践踏",
+    "literalMeaningCn": "重重地踩过去",
+    "metaphorMeaningCn": "踩踏、践踏",
+    "metaphorOptions": [
+      "踩踏、践踏",
+      "邻居的影子",
+      "把热心家翻开"
+    ],
+    "mnemonicNote": "tramp(重踏)+le：重重地一脚脚踩过去",
+    "sourceNote": "中古英语 trampelen，trampen(重踏)"
+  },
+  "transaction": {
+    "modernMeaningCn": "交易",
+    "literalMeaningCn": "两人过手这件事",
+    "metaphorMeaningCn": "交易、事务",
+    "metaphorOptions": [
+      "交易、事务",
+      "任何的影子",
+      "正在的人"
+    ],
+    "mnemonicNote": "trans(越过)+action(做)：两边过手这一件事",
+    "sourceNote": "拉丁 transactio，trans-(越过) + agere(做)"
+  },
+  "transcend": {
+    "modernMeaningCn": "超越",
+    "literalMeaningCn": "爬过那道坎",
+    "metaphorMeaningCn": "超越、胜过",
+    "metaphorOptions": [
+      "超越、胜过",
+      "运动的一角",
+      "黑色的另一面"
+    ],
+    "mnemonicNote": "trans(越过)+scend(爬)：翻过那道高坎去",
+    "sourceNote": "拉丁 transcendere，trans-(越过) + scandere(爬)"
+  },
+  "transit": {
+    "modernMeaningCn": "过境、运输",
+    "literalMeaningCn": "从这头走到那头",
+    "metaphorMeaningCn": "过境、运输",
+    "metaphorOptions": [
+      "过境、运输",
+      "数着疼痛过日子",
+      "一种使流通的习俗"
+    ],
+    "mnemonicNote": "trans(越过)+it(走)：从这头一路走到那头",
+    "sourceNote": "拉丁 transitus，transire(通过)"
+  },
+  "transition": {
+    "modernMeaningCn": "过渡、转变",
+    "literalMeaningCn": "从这头挪到那头",
+    "metaphorMeaningCn": "过渡、转变",
+    "metaphorOptions": [
+      "过渡、转变",
+      "伤害的地方",
+      "适当的的来路"
+    ],
+    "mnemonicNote": "transit(过境)+ion：一步一步挪到那一头",
+    "sourceNote": "拉丁 transitio，transire(通过)"
+  },
+  "transverse": {
+    "modernMeaningCn": "横向的、横断的",
+    "literalMeaningCn": "横着穿过去",
+    "metaphorMeaningCn": "横向的、横断的",
+    "metaphorOptions": [
+      "横向的、横断的",
+      "替在上操心",
+      "守着都市过活"
+    ],
+    "mnemonicNote": "trans(越过)+verse(转)：横着穿过去",
+    "sourceNote": "拉丁 transversus，transvertere(横转)"
+  },
+  "tremendously": {
+    "modernMeaningCn": "极大地",
+    "literalMeaningCn": "大到没边",
+    "metaphorMeaningCn": "极大地、非常",
+    "metaphorOptions": [
+      "极大地、非常",
+      "日记的背面",
+      "中断的过程"
+    ],
+    "mnemonicNote": "tremendous(大得吓人)+ly：大到没边",
+    "sourceNote": "拉丁 tremendus，tremere(战栗) + -ly"
+  },
+  "tribute": {
+    "modernMeaningCn": "贡品、敬意",
+    "literalMeaningCn": "分出来献上的",
+    "metaphorMeaningCn": "贡品、敬意",
+    "metaphorOptions": [
+      "贡品、敬意",
+      "反手的味道",
+      "殖民地的另一面"
+    ],
+    "mnemonicNote": "tri(分)+bute(给)：从收成里分出一份献上去",
+    "sourceNote": "拉丁 tributum，tribuere(分给)"
+  },
+  "triumphant": {
+    "modernMeaningCn": "得胜的",
+    "literalMeaningCn": "打了胜仗的",
+    "metaphorMeaningCn": "得胜的、洋洋得意的",
+    "metaphorOptions": [
+      "得胜的、洋洋得意的",
+      "重要的的地方",
+      "诱惑的小站"
+    ],
+    "mnemonicNote": "triumph(凯旋)+ant：打了胜仗回来那位",
+    "sourceNote": "拉丁 triumphans，triumphare(凯旋)"
+  },
+  "trivial": {
+    "modernMeaningCn": "琐碎的",
+    "literalMeaningCn": "三岔路口那种小事",
+    "metaphorMeaningCn": "琐碎的、微不足道的",
+    "metaphorOptions": [
+      "琐碎的、微不足道的",
+      "赢得的人",
+      "装备的影子"
+    ],
+    "mnemonicNote": "tri(三)+vial(路)：三岔路口那种不值一提的事",
+    "sourceNote": "拉丁 trivialis，trivium(三岔路口)"
+  },
+  "trolley": {
+    "modernMeaningCn": "电车",
+    "literalMeaningCn": "轮子滚着走那种车",
+    "metaphorMeaningCn": "电车、手推车",
+    "metaphorOptions": [
+      "电车、手推车",
+      "方式的工具",
+      "数着程序过日子"
+    ],
+    "mnemonicNote": "troll(滚动)+ey：轮子滚着走那种车",
+    "sourceNote": "中古英语 trollen(滚动)"
+  },
+  "turnover": {
+    "modernMeaningCn": "营业额、人员流动",
+    "literalMeaningCn": "转手那一波",
+    "metaphorMeaningCn": "营业额、人员流动",
+    "metaphorOptions": [
+      "营业额、人员流动",
+      "感知的背面",
+      "被刻痕的东西"
+    ],
+    "mnemonicNote": "turn(转)+over(过来)：钱一圈圈转手那一波",
+    "sourceNote": "英语复合词，turn + over"
+  },
+  "twilight": {
+    "modernMeaningCn": "黄昏、暮年",
+    "literalMeaningCn": "明暗交叠那阵子",
+    "metaphorMeaningCn": "黄昏、暮年",
+    "metaphorOptions": [
+      "黄昏、暮年",
+      "装配的来路",
+      "景观的地方"
+    ],
+    "mnemonicNote": "twi(二)+light(光)：明暗交叠的那一阵",
+    "sourceNote": "中古英语 twilight，twi-(二) + light(光)"
+  },
+  "ultraviolet": {
+    "modernMeaningCn": "紫外线的、紫外线",
+    "literalMeaningCn": "比紫色还往外那一带",
+    "metaphorMeaningCn": "紫外线的、紫外线",
+    "metaphorOptions": [
+      "紫外线的、紫外线",
+      "排气的旧事",
+      "高兴的背面"
+    ],
+    "mnemonicNote": "ultra(超)+violet(紫)：比紫光还往外那一带",
+    "sourceNote": "拉丁 ultra-(超出) + viola(紫罗兰色)"
+  },
+  "unavoidable": {
+    "modernMeaningCn": "不可避免的",
+    "literalMeaningCn": "躲不开的",
+    "metaphorMeaningCn": "不可避免的、必然的",
+    "metaphorOptions": [
+      "不可避免的、必然的",
+      "滋养的背面",
+      "一种使饿死的习俗"
+    ],
+    "mnemonicNote": "un(不)+avoidable(可避)：怎么躲都躲不开",
+    "sourceNote": "un-(不) + avoid(避开) + -able"
+  },
+  "unconventional": {
+    "modernMeaningCn": "不依惯例的",
+    "literalMeaningCn": "不按老套来",
+    "metaphorMeaningCn": "非常规的、不依惯例的",
+    "metaphorOptions": [
+      "非常规的、不依惯例的",
+      "出现的背面",
+      "被繁殖的东西"
+    ],
+    "mnemonicNote": "un(不)+conventional(老套)：不照老套来",
+    "sourceNote": "un-(不) + 拉丁 conventionalis(依惯例的)"
+  },
+  "underestimate": {
+    "modernMeaningCn": "低估、看轻",
+    "literalMeaningCn": "往低里估",
+    "metaphorMeaningCn": "低估、看轻",
+    "metaphorOptions": [
+      "低估、看轻",
+      "数着庆祝的过日子",
+      "征服的工具"
+    ],
+    "mnemonicNote": "under(在下)+estimate(估价)：把数往低里估",
+    "sourceNote": "under-(不足) + estimate(估价)"
+  },
+  "underlying": {
+    "modernMeaningCn": "潜在的、根本的",
+    "literalMeaningCn": "垫在下头的",
+    "metaphorMeaningCn": "潜在的、根本的",
+    "metaphorOptions": [
+      "潜在的、根本的",
+      "小屋的人",
+      "赞同的影子"
+    ],
+    "mnemonicNote": "underly(垫在下面)+ing：垫在最底下的那一层",
+    "sourceNote": "古英语 underlicgan，under(在下) + licgan(躺)"
+  },
+  "undermine": {
+    "modernMeaningCn": "逐渐削弱、暗中破坏",
+    "literalMeaningCn": "从底下掏空",
+    "metaphorMeaningCn": "逐渐削弱、暗中破坏",
+    "metaphorOptions": [
+      "逐渐削弱、暗中破坏",
+      "带入的工具",
+      "数着石灰过日子"
+    ],
+    "mnemonicNote": "under(在下)+mine(挖)：从底下一点点掏空",
+    "sourceNote": "中古英语 underminen，under(在下) + minen(挖)"
+  },
+  "undesirable": {
+    "modernMeaningCn": "不受欢迎的",
+    "literalMeaningCn": "不合人意的",
+    "metaphorMeaningCn": "不受欢迎的、不可取的",
+    "metaphorOptions": [
+      "不受欢迎的、不可取的",
+      "向着拴紧去",
+      "围着兽群转"
+    ],
+    "mnemonicNote": "un(不)+desirable(合意)：压根不合人心意",
+    "sourceNote": "un-(不) + desire(渴望) + -able"
+  },
+  "uniformly": {
+    "modernMeaningCn": "一致地、均匀地",
+    "literalMeaningCn": "处处一个样",
+    "metaphorMeaningCn": "一致地、均匀地",
+    "metaphorOptions": [
+      "一致地、均匀地",
+      "欢喜的过程",
+      "离游戏很远"
+    ],
+    "mnemonicNote": "uniform(一个样)+ly：从头到尾一个样",
+    "sourceNote": "拉丁 uniformis，uni-(一) + forma(形状) + -ly"
+  },
+  "universally": {
+    "modernMeaningCn": "普遍地、全人类地",
+    "literalMeaningCn": "放到哪儿都成立",
+    "metaphorMeaningCn": "普遍地、全人类地",
+    "metaphorOptions": [
+      "普遍地、全人类地",
+      "悲观者的背面",
+      "好意的旧事"
+    ],
+    "mnemonicNote": "universal(放之四海)+ly：搁到哪儿都成立",
+    "sourceNote": "拉丁 universalis，universus(全体) + -ly"
+  },
+  "unlimited": {
+    "modernMeaningCn": "无限的",
+    "literalMeaningCn": "没有框的",
+    "metaphorMeaningCn": "无限的、不受限制的",
+    "metaphorOptions": [
+      "无限的、不受限制的",
+      "守着味道过活",
+      "关联的小站"
+    ],
+    "mnemonicNote": "un(不)+limited(受限)：没有框框管着",
+    "sourceNote": "un-(不) + 拉丁 limitare(限制) + -ed"
+  },
+  "unorthodox": {
+    "modernMeaningCn": "非正统的",
+    "literalMeaningCn": "不合正宗那套",
+    "metaphorMeaningCn": "非正统的、离经叛道的",
+    "metaphorOptions": [
+      "非正统的、离经叛道的",
+      "数着可以避免的过日子",
+      "使面对的工具"
+    ],
+    "mnemonicNote": "un(不)+orthodox(正宗)：不合正宗那一套",
+    "sourceNote": "un-(不) + 希腊 orthodoxos(正统)"
+  },
+  "unpaid": {
+    "modernMeaningCn": "未付的、无偿的",
+    "literalMeaningCn": "钱还没给的",
+    "metaphorMeaningCn": "未付的、无偿的",
+    "metaphorOptions": [
+      "未付的、无偿的",
+      "被偏爱的东西",
+      "在旁边的味道"
+    ],
+    "mnemonicNote": "un(不)+paid(已付)：账还挂在那儿没结",
+    "sourceNote": "un-(不) + pay(支付) + -ed"
+  },
+  "unprecedented": {
+    "modernMeaningCn": "前所未有的、空前的",
+    "literalMeaningCn": "前头没这例子",
+    "metaphorMeaningCn": "前所未有的、空前的",
+    "metaphorOptions": [
+      "前所未有的、空前的",
+      "与有关的人的一角",
+      "已婚的的另一面"
+    ],
+    "mnemonicNote": "un(不)+precedent(先例)+ed：前头从没有过这个例子",
+    "sourceNote": "un-(不) + 拉丁 praecedere(先行) + -ed"
+  },
+  "unreasonable": {
+    "modernMeaningCn": "不合理的",
+    "literalMeaningCn": "不讲道理的",
+    "metaphorMeaningCn": "不合理的、过分的",
+    "metaphorOptions": [
+      "不合理的、过分的",
+      "折叠的地方",
+      "为了的来路"
+    ],
+    "mnemonicNote": "un(不)+reasonable(讲理)：压根不讲道理",
+    "sourceNote": "un-(不) + 拉丁 rationabilis(合理的)"
+  },
+  "unreliable": {
+    "modernMeaningCn": "不可靠的、靠不住的",
+    "literalMeaningCn": "靠不住的",
+    "metaphorMeaningCn": "不可靠的、靠不住的",
+    "metaphorOptions": [
+      "不可靠的、靠不住的",
+      "闪烁的背面",
+      "被重复的东西"
+    ],
+    "mnemonicNote": "un(不)+reliable(靠得住)：他的话不算数",
+    "sourceNote": "un-(不) + rely(依靠) + -able"
+  },
+  "untie": {
+    "modernMeaningCn": "解开、松绑",
+    "literalMeaningCn": "把结松开",
+    "metaphorMeaningCn": "解开、松绑",
+    "metaphorOptions": [
+      "解开、松绑",
+      "守着钢笔过活",
+      "防护的小站"
+    ],
+    "mnemonicNote": "un(去掉)+tie(系)：把打的结松开",
+    "sourceNote": "古英语 untigan，un-(去掉) + tigan(系)"
+  },
+  "update": {
+    "modernMeaningCn": "更新",
+    "literalMeaningCn": "把日子往后翻",
+    "metaphorMeaningCn": "更新、最新消息",
+    "metaphorOptions": [
+      "更新、最新消息",
+      "社会的味道",
+      "母亲的另一面"
+    ],
+    "mnemonicNote": "up(向上)+date(日期)：把日子往后翻一页",
+    "sourceNote": "英语复合词，up + date"
+  }
 }

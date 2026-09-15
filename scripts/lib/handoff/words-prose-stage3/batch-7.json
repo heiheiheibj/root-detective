@@ -1,267 +1,267 @@
 {
- "_comment": "Stage 3 待写释义（第 7/7 批，共 22 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
- "uncomfortable": {
-  "modernMeaningCn": "不舒服的",
-  "literalMeaningCn": "不被支撑的",
-  "metaphorMeaningCn": "不舒服的、不自在的",
-  "metaphorOptions": [
-   "不舒服的、不自在的",
-   "怜悯的味道",
-   "跟随的另一面"
-  ],
-  "mnemonicNote": "un(不)+com(共)+fort(强)+able：没人给你撑腰，浑身别扭",
-  "sourceNote": "un-(不) + comfort(取自拉丁 confortare 使强壮)"
- },
- "underground": {
-  "modernMeaningCn": "地下的",
-  "literalMeaningCn": "地下面",
-  "metaphorMeaningCn": "地下的、秘密的",
-  "metaphorOptions": [
-   "地下的、秘密的",
-   "守着盖子过活",
-   "假名的小站"
-  ],
-  "mnemonicNote": "under(下)+ground(地)：钻到地面以下那条路",
-  "sourceNote": "英语复合词，under + ground"
- },
- "understand": {
-  "modernMeaningCn": "理解",
-  "literalMeaningCn": "站在下面",
-  "metaphorMeaningCn": "理解、明白",
-  "metaphorOptions": [
-   "理解、明白",
-   "离成功很远",
-   "小说的过程"
-  ],
-  "mnemonicNote": "under(下)+stand(站)：站到事情内部，才看得透",
-  "sourceNote": "古英语 understandan，under + standan"
- },
- "uniform": {
-  "modernMeaningCn": "制服",
-  "literalMeaningCn": "同一个形状",
-  "metaphorMeaningCn": "制服、统一的",
-  "metaphorOptions": [
-   "制服、统一的",
-   "财政的小站",
-   "守着熟练的过活"
-  ],
-  "mnemonicNote": "uni(一)+form(形)：穿上就人人一个样",
-  "sourceNote": "拉丁 uniformis，unus(一) + forma(形状)"
- },
- "universe": {
-  "modernMeaningCn": "宇宙",
-  "literalMeaningCn": "转成一体的",
-  "metaphorMeaningCn": "宇宙、万物",
-  "metaphorOptions": [
-   "宇宙、万物",
-   "离珠宝很远",
-   "替法国人操心"
-  ],
-  "mnemonicNote": "uni(一)+verse(转)：所有星辰绕成一个整体",
-  "sourceNote": "拉丁 universum，unus(一) + vertere(转)"
- },
- "used": {
-  "modernMeaningCn": "用过的",
-  "literalMeaningCn": "已被用掉的",
-  "metaphorMeaningCn": "用过的、习惯于",
-  "metaphorOptions": [
-   "用过的、习惯于",
-   "房间的工具",
-   "数着视觉过日子"
-  ],
-  "mnemonicNote": "use(用)+d：动过手的那件就留下痕迹",
-  "sourceNote": "古英语 brucan(使用) 演化来的 use + -d"
- },
- "useful": {
-  "modernMeaningCn": "有用的",
-  "literalMeaningCn": "充满用处",
-  "metaphorMeaningCn": "有用的、实用的",
-  "metaphorOptions": [
-   "有用的、实用的",
-   "围着加强转",
-   "数着关心过日子"
-  ],
-  "mnemonicNote": "use(用)+ful(满)：随手一拿就能派上用场",
-  "sourceNote": "英语 use(使用) + -ful(充满)"
- },
- "vacant": {
-  "modernMeaningCn": "空的",
-  "literalMeaningCn": "空着的",
-  "metaphorMeaningCn": "空的、空缺的",
-  "metaphorOptions": [
-   "空的、空缺的",
-   "数着分裂的过日子",
-   "围着仆役转"
-  ],
-  "mnemonicNote": "vac(空)+ant：里面一个人、一件东西也没有",
-  "sourceNote": "拉丁 vacare(空着)"
- },
- "vacation": {
-  "modernMeaningCn": "假期",
-  "literalMeaningCn": "空出来的日子",
-  "metaphorMeaningCn": "假期、休假",
-  "metaphorOptions": [
-   "假期、休假",
-   "固体坚硬的的工具",
-   "数着白痴自然的过日子"
-  ],
-  "mnemonicNote": "vac(空)+ation：把日程清空的那几天",
-  "sourceNote": "拉丁 vacatio，vacare(空闲)"
- },
- "vaccinate": {
-  "modernMeaningCn": "接种疫苗",
-  "literalMeaningCn": "用牛痘接种",
-  "metaphorMeaningCn": "接种疫苗",
-  "metaphorOptions": [
-   "接种疫苗",
-   "偏斜的另一面",
-   "被流星的东西"
-  ],
-  "mnemonicNote": "vaccin(牛痘)+ate：最早用牛痘病毒防天花",
-  "sourceNote": "拉丁 vacca(牛)，vaccinus(牛的)；琴纳的牛痘接种"
- },
- "vacuum": {
-  "modernMeaningCn": "真空",
-  "literalMeaningCn": "空无一物",
-  "metaphorMeaningCn": "真空、空白",
-  "metaphorOptions": [
-   "真空、空白",
-   "向着北方去",
-   "庆祝的的过程"
-  ],
-  "mnemonicNote": "vac(空)+uum：连空气都被抽干净的地方",
-  "sourceNote": "拉丁 vacuus(空的) 的中性形式"
- },
- "version": {
-  "modernMeaningCn": "版本",
-  "literalMeaningCn": "转出来的说法",
-  "metaphorMeaningCn": "版本、说法",
-  "metaphorOptions": [
-   "版本、说法",
-   "守着搅动过活",
-   "替压缩操心"
-  ],
-  "mnemonicNote": "vers(转)+ion：同一件事换个角度转述的样子",
-  "sourceNote": "拉丁 vertere(转)，versio(转换)"
- },
- "victorious": {
-  "modernMeaningCn": "胜利的",
-  "literalMeaningCn": "充满胜利的",
-  "metaphorMeaningCn": "胜利的、凯旋的",
-  "metaphorOptions": [
-   "胜利的、凯旋的",
-   "部分的的背面",
-   "被劳作的东西"
-  ],
-  "mnemonicNote": "vict(胜)+or+ious：旗子插上高地那一刻的神气",
-  "sourceNote": "拉丁 victoriosus，victor(胜利者)"
- },
- "victory": {
-  "modernMeaningCn": "胜利",
-  "literalMeaningCn": "战胜的结果",
-  "metaphorMeaningCn": "胜利、战胜",
-  "metaphorOptions": [
-   "胜利、战胜",
-   "一种附上的习俗",
-   "否认的一角"
-  ],
-  "mnemonicNote": "vict(胜)+ory：把对手彻底压住的那个结局",
-  "sourceNote": "拉丁 victoria，vincere(征服)"
- },
- "vocabulary": {
-  "modernMeaningCn": "词汇",
-  "literalMeaningCn": "能叫出的词",
-  "metaphorMeaningCn": "词汇、词汇表",
-  "metaphorOptions": [
-   "词汇、词汇表",
-   "有效的的来路",
-   "漫步的人"
-  ],
-  "mnemonicNote": "voc(叫)+abul+ary：你张口就能叫上名的那些词",
-  "sourceNote": "中世纪拉丁 vocabularium，vocare(叫)"
- },
- "vocal": {
-  "modernMeaningCn": "嗓音的",
-  "literalMeaningCn": "与发声有关",
-  "metaphorMeaningCn": "嗓音的、直言不讳的",
-  "metaphorOptions": [
-   "嗓音的、直言不讳的",
-   "片刻的人",
-   "劝告的来路"
-  ],
-  "mnemonicNote": "voc(叫)+al：全靠嗓子往外送",
-  "sourceNote": "拉丁 vocalis，vox(声音)"
- },
- "vocation": {
-  "modernMeaningCn": "职业",
-  "literalMeaningCn": "被召唤之事",
-  "metaphorMeaningCn": "职业、使命",
-  "metaphorOptions": [
-   "职业、使命",
-   "轮转的味道",
-   "编织的另一面"
-  ],
-  "mnemonicNote": "voc(叫)+ation：像是有人在叫你去做的那一行",
-  "sourceNote": "拉丁 vocatio，vocare(召唤)"
- },
- "watermelon": {
-  "modernMeaningCn": "西瓜",
-  "literalMeaningCn": "水多的瓜",
-  "metaphorMeaningCn": "西瓜",
-  "metaphorOptions": [
-   "西瓜",
-   "围着称赞转",
-   "数着正在过日子"
-  ],
-  "mnemonicNote": "water(水)+melon(瓜)：切开全是汁的那只瓜",
-  "sourceNote": "英语复合词，water + melon(源自希腊 melopepon)"
- },
- "weekday": {
-  "modernMeaningCn": "工作日",
-  "literalMeaningCn": "周中的日子",
-  "metaphorMeaningCn": "工作日、平日",
-  "metaphorOptions": [
-   "工作日、平日",
-   "把最后的串起来",
-   "把酿造酒翻开"
-  ],
-  "mnemonicNote": "week(周)+day(日)：夹在周末之间的那几天",
-  "sourceNote": "古英语 wicudæg，指安息日以外的日子"
- },
- "weekend": {
-  "modernMeaningCn": "周末",
-  "literalMeaningCn": "一周的末端",
-  "metaphorMeaningCn": "周末",
-  "metaphorOptions": [
-   "周末",
-   "被平等的东西",
-   "退让的味道"
-  ],
-  "mnemonicNote": "week(周)+end(末端)：一周走到头的那两天",
-  "sourceNote": "英语复合词，19 世纪随周休制出现"
- },
- "western": {
-  "modernMeaningCn": "西方的",
-  "literalMeaningCn": "西边的",
-  "metaphorMeaningCn": "西方的、西部的",
-  "metaphorOptions": [
-   "西方的、西部的",
-   "把吸附串起来",
-   "把罗马翻开"
-  ],
-  "mnemonicNote": "west(西)+ern(方向)：太阳落下去那一侧",
-  "sourceNote": "古英语 westerne，west + -erne"
- },
- "yesterday": {
-  "modernMeaningCn": "昨天",
-  "literalMeaningCn": "昨日的日子",
-  "metaphorMeaningCn": "昨天、往昔",
-  "metaphorOptions": [
-   "昨天、往昔",
-   "围着成员转",
-   "数着看守过日子"
-  ],
-  "mnemonicNote": "yester(昨)+day(日)：刚翻过去的那一页",
-  "sourceNote": "古英语 geostrandaeg，geostra(昨) + daeg(日)"
- }
+  "_comment": "Stage 3 待写释义（第 7/7 批，共 22 词）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
+  "uncomfortable": {
+    "modernMeaningCn": "不舒服的",
+    "literalMeaningCn": "不被支撑的",
+    "metaphorMeaningCn": "不舒服的、不自在的",
+    "metaphorOptions": [
+      "不舒服的、不自在的",
+      "怜悯的味道",
+      "跟随的另一面"
+    ],
+    "mnemonicNote": "un(不)+com(共)+fort(强)+able：没人给你撑腰，浑身别扭",
+    "sourceNote": "un-(不) + comfort(取自拉丁 confortare 使强壮)"
+  },
+  "underground": {
+    "modernMeaningCn": "地下的",
+    "literalMeaningCn": "地下面",
+    "metaphorMeaningCn": "地下的、秘密的",
+    "metaphorOptions": [
+      "地下的、秘密的",
+      "守着盖子过活",
+      "假名的小站"
+    ],
+    "mnemonicNote": "under(下)+ground(地)：钻到地面以下那条路",
+    "sourceNote": "英语复合词，under + ground"
+  },
+  "understand": {
+    "modernMeaningCn": "理解",
+    "literalMeaningCn": "站在下面",
+    "metaphorMeaningCn": "理解、明白",
+    "metaphorOptions": [
+      "理解、明白",
+      "离成功很远",
+      "小说的过程"
+    ],
+    "mnemonicNote": "under(下)+stand(站)：站到事情内部，才看得透",
+    "sourceNote": "古英语 understandan，under + standan"
+  },
+  "uniform": {
+    "modernMeaningCn": "制服",
+    "literalMeaningCn": "同一个形状",
+    "metaphorMeaningCn": "制服、统一的",
+    "metaphorOptions": [
+      "制服、统一的",
+      "财政的小站",
+      "守着熟练的过活"
+    ],
+    "mnemonicNote": "uni(一)+form(形)：穿上就人人一个样",
+    "sourceNote": "拉丁 uniformis，unus(一) + forma(形状)"
+  },
+  "universe": {
+    "modernMeaningCn": "宇宙",
+    "literalMeaningCn": "转成一体的",
+    "metaphorMeaningCn": "宇宙、万物",
+    "metaphorOptions": [
+      "宇宙、万物",
+      "离珠宝很远",
+      "替法国人操心"
+    ],
+    "mnemonicNote": "uni(一)+verse(转)：所有星辰绕成一个整体",
+    "sourceNote": "拉丁 universum，unus(一) + vertere(转)"
+  },
+  "used": {
+    "modernMeaningCn": "用过的",
+    "literalMeaningCn": "已被用掉的",
+    "metaphorMeaningCn": "用过的、习惯于",
+    "metaphorOptions": [
+      "用过的、习惯于",
+      "房间的工具",
+      "数着视觉过日子"
+    ],
+    "mnemonicNote": "use(用)+d：动过手的那件就留下痕迹",
+    "sourceNote": "古英语 brucan(使用) 演化来的 use + -d"
+  },
+  "useful": {
+    "modernMeaningCn": "有用的",
+    "literalMeaningCn": "充满用处",
+    "metaphorMeaningCn": "有用的、实用的",
+    "metaphorOptions": [
+      "有用的、实用的",
+      "围着加强转",
+      "数着关心过日子"
+    ],
+    "mnemonicNote": "use(用)+ful(满)：随手一拿就能派上用场",
+    "sourceNote": "英语 use(使用) + -ful(充满)"
+  },
+  "vacant": {
+    "modernMeaningCn": "空的",
+    "literalMeaningCn": "空着的",
+    "metaphorMeaningCn": "空的、空缺的",
+    "metaphorOptions": [
+      "空的、空缺的",
+      "数着分裂的过日子",
+      "围着仆役转"
+    ],
+    "mnemonicNote": "vac(空)+ant：里面一个人、一件东西也没有",
+    "sourceNote": "拉丁 vacare(空着)"
+  },
+  "vacation": {
+    "modernMeaningCn": "假期",
+    "literalMeaningCn": "空出来的日子",
+    "metaphorMeaningCn": "假期、休假",
+    "metaphorOptions": [
+      "假期、休假",
+      "固体坚硬的的工具",
+      "数着白痴自然的过日子"
+    ],
+    "mnemonicNote": "vac(空)+ation：把日程清空的那几天",
+    "sourceNote": "拉丁 vacatio，vacare(空闲)"
+  },
+  "vaccinate": {
+    "modernMeaningCn": "接种疫苗",
+    "literalMeaningCn": "用牛痘接种",
+    "metaphorMeaningCn": "接种疫苗",
+    "metaphorOptions": [
+      "接种疫苗",
+      "一种同意的习俗",
+      "被流星的东西"
+    ],
+    "mnemonicNote": "vaccin(牛痘)+ate：最早用牛痘病毒防天花",
+    "sourceNote": "拉丁 vacca(牛)，vaccinus(牛的)；琴纳的牛痘接种"
+  },
+  "vacuum": {
+    "modernMeaningCn": "真空",
+    "literalMeaningCn": "空无一物",
+    "metaphorMeaningCn": "真空、空白",
+    "metaphorOptions": [
+      "真空、空白",
+      "向着北方去",
+      "庆祝的的过程"
+    ],
+    "mnemonicNote": "vac(空)+uum：连空气都被抽干净的地方",
+    "sourceNote": "拉丁 vacuus(空的) 的中性形式"
+  },
+  "version": {
+    "modernMeaningCn": "版本",
+    "literalMeaningCn": "转出来的说法",
+    "metaphorMeaningCn": "版本、说法",
+    "metaphorOptions": [
+      "版本、说法",
+      "守着搅动过活",
+      "替压缩操心"
+    ],
+    "mnemonicNote": "vers(转)+ion：同一件事换个角度转述的样子",
+    "sourceNote": "拉丁 vertere(转)，versio(转换)"
+  },
+  "victorious": {
+    "modernMeaningCn": "胜利的",
+    "literalMeaningCn": "充满胜利的",
+    "metaphorMeaningCn": "胜利的、凯旋的",
+    "metaphorOptions": [
+      "胜利的、凯旋的",
+      "部分的的背面",
+      "被劳作的东西"
+    ],
+    "mnemonicNote": "vict(胜)+or+ious：旗子插上高地那一刻的神气",
+    "sourceNote": "拉丁 victoriosus，victor(胜利者)"
+  },
+  "victory": {
+    "modernMeaningCn": "胜利",
+    "literalMeaningCn": "战胜的结果",
+    "metaphorMeaningCn": "胜利、战胜",
+    "metaphorOptions": [
+      "胜利、战胜",
+      "一种附上的习俗",
+      "否认的一角"
+    ],
+    "mnemonicNote": "vict(胜)+ory：把对手彻底压住的那个结局",
+    "sourceNote": "拉丁 victoria，vincere(征服)"
+  },
+  "vocabulary": {
+    "modernMeaningCn": "词汇",
+    "literalMeaningCn": "能叫出的词",
+    "metaphorMeaningCn": "词汇、词汇表",
+    "metaphorOptions": [
+      "词汇、词汇表",
+      "有效的的来路",
+      "漫步的人"
+    ],
+    "mnemonicNote": "voc(叫)+abul+ary：你张口就能叫上名的那些词",
+    "sourceNote": "中世纪拉丁 vocabularium，vocare(叫)"
+  },
+  "vocal": {
+    "modernMeaningCn": "嗓音的",
+    "literalMeaningCn": "与发声有关",
+    "metaphorMeaningCn": "嗓音的、直言不讳的",
+    "metaphorOptions": [
+      "嗓音的、直言不讳的",
+      "片刻的人",
+      "劝告的来路"
+    ],
+    "mnemonicNote": "voc(叫)+al：全靠嗓子往外送",
+    "sourceNote": "拉丁 vocalis，vox(声音)"
+  },
+  "vocation": {
+    "modernMeaningCn": "职业",
+    "literalMeaningCn": "被召唤之事",
+    "metaphorMeaningCn": "职业、使命",
+    "metaphorOptions": [
+      "职业、使命",
+      "轮转的味道",
+      "编织的另一面"
+    ],
+    "mnemonicNote": "voc(叫)+ation：像是有人在叫你去做的那一行",
+    "sourceNote": "拉丁 vocatio，vocare(召唤)"
+  },
+  "watermelon": {
+    "modernMeaningCn": "西瓜",
+    "literalMeaningCn": "水多的瓜",
+    "metaphorMeaningCn": "西瓜",
+    "metaphorOptions": [
+      "西瓜",
+      "围着称赞转",
+      "数着正在过日子"
+    ],
+    "mnemonicNote": "water(水)+melon(瓜)：切开全是汁的那只瓜",
+    "sourceNote": "英语复合词，water + melon(源自希腊 melopepon)"
+  },
+  "weekday": {
+    "modernMeaningCn": "工作日",
+    "literalMeaningCn": "周中的日子",
+    "metaphorMeaningCn": "工作日、平日",
+    "metaphorOptions": [
+      "工作日、平日",
+      "把最后的串起来",
+      "把酿造酒翻开"
+    ],
+    "mnemonicNote": "week(周)+day(日)：夹在周末之间的那几天",
+    "sourceNote": "古英语 wicudæg，指安息日以外的日子"
+  },
+  "weekend": {
+    "modernMeaningCn": "周末",
+    "literalMeaningCn": "一周的末端",
+    "metaphorMeaningCn": "周末",
+    "metaphorOptions": [
+      "周末",
+      "被平等的东西",
+      "退让的味道"
+    ],
+    "mnemonicNote": "week(周)+end(末端)：一周走到头的那两天",
+    "sourceNote": "英语复合词，19 世纪随周休制出现"
+  },
+  "western": {
+    "modernMeaningCn": "西方的",
+    "literalMeaningCn": "西边的",
+    "metaphorMeaningCn": "西方的、西部的",
+    "metaphorOptions": [
+      "西方的、西部的",
+      "把吸附串起来",
+      "把罗马翻开"
+    ],
+    "mnemonicNote": "west(西)+ern(方向)：太阳落下去那一侧",
+    "sourceNote": "古英语 westerne，west + -erne"
+  },
+  "yesterday": {
+    "modernMeaningCn": "昨天",
+    "literalMeaningCn": "昨日的日子",
+    "metaphorMeaningCn": "昨天、往昔",
+    "metaphorOptions": [
+      "昨天、往昔",
+      "围着成员转",
+      "数着看守过日子"
+    ],
+    "mnemonicNote": "yester(昨)+day(日)：刚翻过去的那一页",
+    "sourceNote": "古英语 geostrandaeg，geostra(昨) + daeg(日)"
+  }
 }

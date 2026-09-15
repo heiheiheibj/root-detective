@@ -1,147 +1,147 @@
 {
- "_comment": "Stage 3 待写释义（batch-48，本批 12 词）。这批是修好 cigen↔词库词根拼法对照（id-canon.mjs 的 CIGEN_ROOT_GROUPS）之后新进词库的词。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
- "activity": {
-  "modernMeaningCn": "活动",
-  "literalMeaningCn": "动来动去这件事",
-  "metaphorMeaningCn": "活动、活跃",
-  "metaphorOptions": [
-   "活动、活跃",
-   "数着平常的过日子",
-   "围着宿舍转"
-  ],
-  "mnemonicNote": "activ(动起来)+ity：一天到晚动个不停",
-  "sourceNote": "拉丁 activus，agere(做) + -ity"
- },
- "aggression": {
-  "modernMeaningCn": "侵犯",
-  "literalMeaningCn": "扑上去动手",
-  "metaphorMeaningCn": "侵略、攻击性",
-  "metaphorOptions": [
-   "侵略、攻击性",
-   "使联合的地方",
-   "金属的小站"
-  ],
-  "mnemonicNote": "aggress(进犯)+ion：二话不说先扑上去动手",
-  "sourceNote": "拉丁 aggressio，aggredi(走近、进犯)"
- },
- "bypass": {
-  "modernMeaningCn": "旁路省略",
-  "literalMeaningCn": "从旁边绕过去",
-  "metaphorMeaningCn": "绕过、旁路",
-  "metaphorOptions": [
-   "绕过、旁路",
-   "小鸡的小站",
-   "守着电线过活"
-  ],
-  "mnemonicNote": "by(旁边)+pass(经过)：从旁边那条道绕过去",
-  "sourceNote": "英语复合词，by(旁边) + pass(经过)"
- },
- "depict": {
-  "modernMeaningCn": "描述",
-  "literalMeaningCn": "一笔笔画出来",
-  "metaphorMeaningCn": "描绘、描述",
-  "metaphorOptions": [
-   "描绘、描述",
-   "数着调查过日子",
-   "围着相同转"
-  ],
-  "mnemonicNote": "de(加强)+pict(画)：一笔一笔把样子画出来",
-  "sourceNote": "拉丁 depingere，de-(加强) + pingere(画)"
- },
- "depress": {
-  "modernMeaningCn": "使沮丧",
-  "literalMeaningCn": "往下压住",
-  "metaphorMeaningCn": "使沮丧、压低",
-  "metaphorOptions": [
-   "使沮丧、压低",
-   "离奶油很远",
-   "试图的过程"
-  ],
-  "mnemonicNote": "de(向下)+press(压)：往下压得人抬不起头",
-  "sourceNote": "拉丁 deprimere，de-(向下) + premere(压)"
- },
- "design": {
-  "modernMeaningCn": "设计",
-  "literalMeaningCn": "先把记号画下来",
-  "metaphorMeaningCn": "设计、图谋",
-  "metaphorOptions": [
-   "设计、图谋",
-   "居住的背面",
-   "序列的旧事"
-  ],
-  "mnemonicNote": "de(加强)+sign(标记)：动手之前先把记号画下来",
-  "sourceNote": "拉丁 designare，de-(加强) + signum(记号)"
- },
- "detect": {
-  "modernMeaningCn": "发现",
-  "literalMeaningCn": "把盖的揭掉",
-  "metaphorMeaningCn": "察觉、侦测",
-  "metaphorOptions": [
-   "察觉、侦测",
-   "燃烧的一角",
-   "一种界限的习俗"
-  ],
-  "mnemonicNote": "de(去掉)+tect(遮盖)：把盖着的那一层揭掉",
-  "sourceNote": "拉丁 detegere，de-(去掉) + tegere(遮盖)"
- },
- "dismiss": {
-  "modernMeaningCn": "解散",
-  "literalMeaningCn": "一个个打发走",
-  "metaphorMeaningCn": "解散、开除、驳回",
-  "metaphorOptions": [
-   "解散、开除、驳回",
-   "放射的一角",
-   "参议院的另一面"
-  ],
-  "mnemonicNote": "dis(分开)+mit(送)：一个个打发走，各回各家",
-  "sourceNote": "拉丁 dimittere，dis-(分开) + mittere(送)"
- },
- "encourage": {
-  "modernMeaningCn": "鼓励",
-  "literalMeaningCn": "给人装上一副胆",
-  "metaphorMeaningCn": "鼓励、助长",
-  "metaphorOptions": [
-   "鼓励、助长",
-   "围着悲伤转",
-   "向着动作去"
-  ],
-  "mnemonicNote": "en(使)+cour(心)+age：给人心里装上一副胆",
-  "sourceNote": "古法语 encoragier，en-(使) + cor(心)"
- },
- "minimal": {
-  "modernMeaningCn": "最小的",
-  "literalMeaningCn": "小到不能再小",
-  "metaphorMeaningCn": "最小的、极微的",
-  "metaphorOptions": [
-   "最小的、极微的",
-   "向着正确的去",
-   "带入的过程"
-  ],
-  "mnemonicNote": "minim(极小)+al：小到不能再小",
-  "sourceNote": "拉丁 minimus(最小) + -al"
- },
- "notice": {
-  "modernMeaningCn": "注意",
-  "literalMeaningCn": "看在眼里",
-  "metaphorMeaningCn": "注意、通知",
-  "metaphorOptions": [
-   "注意、通知",
-   "表示性质的来路",
-   "使开化的地方"
-  ],
-  "mnemonicNote": "not(知道)+ice：看在眼里，也指贴出来的那张告示",
-  "sourceNote": "拉丁 notitia(知晓)，notus(已知的)"
- },
- "surpass": {
-  "modernMeaningCn": "超越",
-  "literalMeaningCn": "从旁边超过去",
-  "metaphorMeaningCn": "超过、胜过",
-  "metaphorOptions": [
-   "超过、胜过",
-   "英方用指甲或爪子的人",
-   "誓约的来路"
-  ],
-  "mnemonicNote": "sur(在上)+pass(经过)：从旁边超过去，走到前头",
-  "sourceNote": "法语 surpasser，sur-(在上) + passer(经过)"
- }
+  "_comment": "Stage 3 待写释义（batch-48，本批 12 词）。这批是修好 cigen↔词库词根拼法对照（id-canon.mjs 的 CIGEN_ROOT_GROUPS）之后新进词库的词。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
+  "activity": {
+    "modernMeaningCn": "活动",
+    "literalMeaningCn": "动来动去这件事",
+    "metaphorMeaningCn": "活动、活跃",
+    "metaphorOptions": [
+      "活动、活跃",
+      "数着平常的过日子",
+      "一种月亮的习俗"
+    ],
+    "mnemonicNote": "activ(动起来)+ity：一天到晚动个不停",
+    "sourceNote": "拉丁 activus，agere(做) + -ity"
+  },
+  "aggression": {
+    "modernMeaningCn": "侵犯",
+    "literalMeaningCn": "扑上去动手",
+    "metaphorMeaningCn": "侵略、攻击性",
+    "metaphorOptions": [
+      "侵略、攻击性",
+      "使联合的地方",
+      "金属的小站"
+    ],
+    "mnemonicNote": "aggress(进犯)+ion：二话不说先扑上去动手",
+    "sourceNote": "拉丁 aggressio，aggredi(走近、进犯)"
+  },
+  "bypass": {
+    "modernMeaningCn": "旁路省略",
+    "literalMeaningCn": "从旁边绕过去",
+    "metaphorMeaningCn": "绕过、旁路",
+    "metaphorOptions": [
+      "绕过、旁路",
+      "小鸡的小站",
+      "守着电线过活"
+    ],
+    "mnemonicNote": "by(旁边)+pass(经过)：从旁边那条道绕过去",
+    "sourceNote": "英语复合词，by(旁边) + pass(经过)"
+  },
+  "depict": {
+    "modernMeaningCn": "描述",
+    "literalMeaningCn": "一笔笔画出来",
+    "metaphorMeaningCn": "描绘、描述",
+    "metaphorOptions": [
+      "描绘、描述",
+      "数着调查过日子",
+      "围着相同转"
+    ],
+    "mnemonicNote": "de(加强)+pict(画)：一笔一笔把样子画出来",
+    "sourceNote": "拉丁 depingere，de-(加强) + pingere(画)"
+  },
+  "depress": {
+    "modernMeaningCn": "使沮丧",
+    "literalMeaningCn": "往下压住",
+    "metaphorMeaningCn": "使沮丧、压低",
+    "metaphorOptions": [
+      "使沮丧、压低",
+      "离奶油很远",
+      "试图的过程"
+    ],
+    "mnemonicNote": "de(向下)+press(压)：往下压得人抬不起头",
+    "sourceNote": "拉丁 deprimere，de-(向下) + premere(压)"
+  },
+  "design": {
+    "modernMeaningCn": "设计",
+    "literalMeaningCn": "先把记号画下来",
+    "metaphorMeaningCn": "设计、图谋",
+    "metaphorOptions": [
+      "设计、图谋",
+      "居住的背面",
+      "序列的旧事"
+    ],
+    "mnemonicNote": "de(加强)+sign(标记)：动手之前先把记号画下来",
+    "sourceNote": "拉丁 designare，de-(加强) + signum(记号)"
+  },
+  "detect": {
+    "modernMeaningCn": "发现",
+    "literalMeaningCn": "把盖的揭掉",
+    "metaphorMeaningCn": "察觉、侦测",
+    "metaphorOptions": [
+      "察觉、侦测",
+      "燃烧的一角",
+      "一种界限的习俗"
+    ],
+    "mnemonicNote": "de(去掉)+tect(遮盖)：把盖着的那一层揭掉",
+    "sourceNote": "拉丁 detegere，de-(去掉) + tegere(遮盖)"
+  },
+  "dismiss": {
+    "modernMeaningCn": "解散",
+    "literalMeaningCn": "一个个打发走",
+    "metaphorMeaningCn": "解散、开除、驳回",
+    "metaphorOptions": [
+      "解散、开除、驳回",
+      "放射的一角",
+      "参议院的另一面"
+    ],
+    "mnemonicNote": "dis(分开)+mit(送)：一个个打发走，各回各家",
+    "sourceNote": "拉丁 dimittere，dis-(分开) + mittere(送)"
+  },
+  "encourage": {
+    "modernMeaningCn": "鼓励",
+    "literalMeaningCn": "给人装上一副胆",
+    "metaphorMeaningCn": "鼓励、助长",
+    "metaphorOptions": [
+      "鼓励、助长",
+      "围着悲伤转",
+      "向着动作去"
+    ],
+    "mnemonicNote": "en(使)+cour(心)+age：给人心里装上一副胆",
+    "sourceNote": "古法语 encoragier，en-(使) + cor(心)"
+  },
+  "minimal": {
+    "modernMeaningCn": "最小的",
+    "literalMeaningCn": "小到不能再小",
+    "metaphorMeaningCn": "最小的、极微的",
+    "metaphorOptions": [
+      "最小的、极微的",
+      "向着正确的去",
+      "带入的过程"
+    ],
+    "mnemonicNote": "minim(极小)+al：小到不能再小",
+    "sourceNote": "拉丁 minimus(最小) + -al"
+  },
+  "notice": {
+    "modernMeaningCn": "注意",
+    "literalMeaningCn": "看在眼里",
+    "metaphorMeaningCn": "注意、通知",
+    "metaphorOptions": [
+      "注意、通知",
+      "一种结合的的习俗",
+      "使开化的地方"
+    ],
+    "mnemonicNote": "not(知道)+ice：看在眼里，也指贴出来的那张告示",
+    "sourceNote": "拉丁 notitia(知晓)，notus(已知的)"
+  },
+  "surpass": {
+    "modernMeaningCn": "超越",
+    "literalMeaningCn": "从旁边超过去",
+    "metaphorMeaningCn": "超过、胜过",
+    "metaphorOptions": [
+      "超过、胜过",
+      "一种可能的的习俗",
+      "一种管理的习俗"
+    ],
+    "mnemonicNote": "sur(在上)+pass(经过)：从旁边超过去，走到前头",
+    "sourceNote": "法语 surpasser，sur-(在上) + passer(经过)"
+  }
 }

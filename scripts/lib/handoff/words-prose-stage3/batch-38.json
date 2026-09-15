@@ -1,723 +1,723 @@
 {
- "_comment": "Stage 3 待写释义（batch-38，本批 60 词，六级批第 3 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
- "correlate": {
-  "modernMeaningCn": "相关联、有相关性",
-  "literalMeaningCn": "彼此挂上钩",
-  "metaphorMeaningCn": "相关联、有相关性",
-  "metaphorOptions": [
-   "相关联、有相关性",
-   "富裕的的一角",
-   "一种木板的习俗"
-  ],
-  "mnemonicNote": "cor(共同)+relate(关联)：两件事挂上钩",
-  "sourceNote": "中世纪拉丁 correlare，com-(共同) + relatus(关联)"
- },
- "correlation": {
-  "modernMeaningCn": "相关性、相互关系",
-  "literalMeaningCn": "两项对得上的程度",
-  "metaphorMeaningCn": "相关性、相互关系",
-  "metaphorOptions": [
-   "相关性、相互关系",
-   "什么怎么的背面",
-   "真实的的旧事"
-  ],
-  "mnemonicNote": "correlat(关联)+ion：两项数据对得上的那个程度",
-  "sourceNote": "中世纪拉丁 correlatio，correlare(关联)"
- },
- "correspondence": {
-  "modernMeaningCn": "通信、一致",
-  "literalMeaningCn": "一来一往对得上",
-  "metaphorMeaningCn": "通信、一致",
-  "metaphorOptions": [
-   "通信、一致",
-   "使残缺的过程",
-   "向着错过去"
-  ],
-  "mnemonicNote": "correspond(相符)+ence：一来一往，两边对得上",
-  "sourceNote": "中世纪拉丁 correspondentia，correspondere(相应)"
- },
- "counseling": {
-  "modernMeaningCn": "咨询服务",
-  "literalMeaningCn": "给人出主意",
-  "metaphorMeaningCn": "咨询服务、辅导",
-  "metaphorOptions": [
-   "咨询服务、辅导",
-   "一种妻子的习俗",
-   "尖锐的人"
-  ],
-  "mnemonicNote": "counsel(劝告)+ing：坐在那儿替人出主意的活",
-  "sourceNote": "拉丁 consilium(商议、劝告) + -ing"
- },
- "counteract": {
-  "modernMeaningCn": "抵消",
-  "literalMeaningCn": "反着使一股劲",
-  "metaphorMeaningCn": "抵消、对抗",
-  "metaphorOptions": [
-   "抵消、对抗",
-   "一种注意的的习俗",
-   "过度的一角"
-  ],
-  "mnemonicNote": "counter(反)+act(作用)：反着使一股劲把力顶回去",
-  "sourceNote": "拉丁 contra-(反) + agere(做)"
- },
- "counterpart": {
-  "modernMeaningCn": "对应的人或物、副本",
-  "literalMeaningCn": "对着的那一半",
-  "metaphorMeaningCn": "对应的人或物、副本",
-  "metaphorOptions": [
-   "对应的人或物、副本",
-   "白色的影子",
-   "把刷子翻开"
-  ],
-  "mnemonicNote": "counter(相对)+part(部分)：另一头对着的那一份",
-  "sourceNote": "中古英语 countrepart，counter-(相对) + part(部分)"
- },
- "courageous": {
-  "modernMeaningCn": "勇敢的",
-  "literalMeaningCn": "心里有胆的",
-  "metaphorMeaningCn": "勇敢的、有胆量的",
-  "metaphorOptions": [
-   "勇敢的、有胆量的",
-   "其他的的背面",
-   "被清楚的的东西"
-  ],
-  "mnemonicNote": "courage(胆气)+ous：心里有胆，敢往前站",
-  "sourceNote": "古法语 corage(心、胆气) + -ous"
- },
- "courteous": {
-  "modernMeaningCn": "有礼的、谦恭的",
-  "literalMeaningCn": "照着宫廷规矩来的",
-  "metaphorMeaningCn": "有礼的、谦恭的",
-  "metaphorOptions": [
-   "有礼的、谦恭的",
-   "守着梯级过活",
-   "全世界的的小站"
-  ],
-  "mnemonicNote": "court(宫廷)+eous：照着宫廷那套规矩待人",
-  "sourceNote": "古法语 corteis(宫廷式的) + -ous"
- },
- "courtesy": {
-  "modernMeaningCn": "礼貌",
-  "literalMeaningCn": "宫廷里的那套礼数",
-  "metaphorMeaningCn": "礼貌、好意",
-  "metaphorOptions": [
-   "礼貌、好意",
-   "被呼喊的东西",
-   "动作的的背面"
-  ],
-  "mnemonicNote": "court(宫廷)+esy：宫廷里那套客套",
-  "sourceNote": "古法语 cortesie，corteis(宫廷式的)"
- },
- "crooked": {
-  "modernMeaningCn": "弯曲的",
-  "literalMeaningCn": "弯成个钩",
-  "metaphorMeaningCn": "弯曲的、不正派的",
-  "metaphorOptions": [
-   "弯曲的、不正派的",
-   "满足的工具",
-   "数着占优势的过日子"
-  ],
-  "mnemonicNote": "crook(弯钩)+ed：弯成个钩子",
-  "sourceNote": "中古英语 crok(弯钩) + -ed"
- },
- "cruelty": {
-  "modernMeaningCn": "残忍、虐待",
-  "literalMeaningCn": "心硬的程度",
-  "metaphorMeaningCn": "残忍、虐待",
-  "metaphorOptions": [
-   "残忍、虐待",
-   "越过的旧事",
-   "简单的的来路"
-  ],
-  "mnemonicNote": "cruel(心硬)+ty：下得去手那种狠",
-  "sourceNote": "古法语 cruelté，cruel(残忍)"
- },
- "cumulative": {
-  "modernMeaningCn": "累积的、渐增的",
-  "literalMeaningCn": "一层层垒起来的",
-  "metaphorMeaningCn": "累积的、渐增的",
-  "metaphorOptions": [
-   "累积的、渐增的",
-   "向着日期去",
-   "精神的过程"
-  ],
-  "mnemonicNote": "cumulat(堆积)+ive：一层层往上垒",
-  "sourceNote": "拉丁 cumulare(堆积) + -ive"
- },
- "currently": {
-  "modernMeaningCn": "目前、当前",
-  "literalMeaningCn": "眼下这一刻",
-  "metaphorMeaningCn": "目前、当前",
-  "metaphorOptions": [
-   "目前、当前",
-   "把低于串起来",
-   "把他们翻开"
-  ],
-  "mnemonicNote": "current(当下)+ly：说话的这一阵子",
-  "sourceNote": "拉丁 currere(流动) + -ly"
- },
- "customary": {
-  "modernMeaningCn": "惯常的、习惯的",
-  "literalMeaningCn": "照老例来的",
-  "metaphorMeaningCn": "惯常的、习惯的",
-  "metaphorOptions": [
-   "惯常的、习惯的",
-   "使失去能力的来路",
-   "银行的旧事"
-  ],
-  "mnemonicNote": "custom(习俗)+ary：照老例来，年年如此",
-  "sourceNote": "中世纪拉丁 consuetudinarius，consuetudo(习俗)"
- },
- "cutter": {
-  "modernMeaningCn": "切割工、刀具",
-  "literalMeaningCn": "下刀的那位",
-  "metaphorMeaningCn": "切割工、刀具",
-  "metaphorOptions": [
-   "切割工、刀具",
-   "离临近的很远",
-   "替因此操心"
-  ],
-  "mnemonicNote": "cutt(切)+er(人/物)：下刀的那位，也指那件家什",
-  "sourceNote": "古英语 cyttan(切) + -er"
- },
- "cynical": {
-  "modernMeaningCn": "愤世嫉俗的",
-  "literalMeaningCn": "把人心想得很坏",
-  "metaphorMeaningCn": "愤世嫉俗的、玩世不恭的",
-  "metaphorOptions": [
-   "愤世嫉俗的、玩世不恭的",
-   "休息的地方",
-   "毕业生的来路"
-  ],
-  "mnemonicNote": "cynic(犬儒)+al：把人心往最坏处想",
-  "sourceNote": "希腊 kynikos(犬似的)，指犬儒学派的做派"
- },
- "dazzle": {
-  "modernMeaningCn": "使眼花",
-  "literalMeaningCn": "照得睁不开眼",
-  "metaphorMeaningCn": "使眼花、使倾倒",
-  "metaphorOptions": [
-   "使眼花、使倾倒",
-   "在下的地方",
-   "预备好的状态的小站"
-  ],
-  "mnemonicNote": "dazz(眩)+le：照得人睁不开眼",
-  "sourceNote": "中古英语 dasen(使昏乱) + -le"
- },
- "deafen": {
-  "modernMeaningCn": "使聋、震耳欲聋",
-  "literalMeaningCn": "震得听不见",
-  "metaphorMeaningCn": "使聋、震耳欲聋",
-  "metaphorOptions": [
-   "使聋、震耳欲聋",
-   "使适应的旧事",
-   "舰队的背面"
-  ],
-  "mnemonicNote": "deaf(聋)+en(使)：震得两耳嗡嗡作响",
-  "sourceNote": "古英语 deaf(聋) + -en(使动)"
- },
- "dealer": {
-  "modernMeaningCn": "经销商",
-  "literalMeaningCn": "做买卖的人",
-  "metaphorMeaningCn": "经销商、发牌人",
-  "metaphorOptions": [
-   "经销商、发牌人",
-   "长度的工具",
-   "分裂的的味道"
-  ],
-  "mnemonicNote": "deal(交易)+er(人)：坐店里做买卖那位",
-  "sourceNote": "古英语 dælan(分配) + -er"
- },
- "decidedly": {
-  "modernMeaningCn": "明确地、肯定地",
-  "literalMeaningCn": "不含糊地",
-  "metaphorMeaningCn": "明确地、肯定地",
-  "metaphorOptions": [
-   "明确地、肯定地",
-   "描述的一角",
-   "一种剩下的习俗"
-  ],
-  "mnemonicNote": "decided(拿定主意)+ly：话说得一点不含糊",
-  "sourceNote": "拉丁 decidere(裁断) + -ed + -ly"
- },
- "decisive": {
-  "modernMeaningCn": "决定性的",
-  "literalMeaningCn": "一锤定音的",
-  "metaphorMeaningCn": "决定性的、果断的",
-  "metaphorOptions": [
-   "决定性的、果断的",
-   "向着左边的去",
-   "围着比赛转"
-  ],
-  "mnemonicNote": "decis(裁断)+ive：一锤子砸下去那一下",
-  "sourceNote": "拉丁 decisivus，decidere(裁断)"
- },
- "declaration": {
-  "modernMeaningCn": "宣言、申报",
-  "literalMeaningCn": "当众说出来的那件事",
-  "metaphorMeaningCn": "宣言、申报",
-  "metaphorOptions": [
-   "宣言、申报",
-   "鼩鼱的一角",
-   "蒸发的另一面"
-  ],
-  "mnemonicNote": "declar(宣布)+ation：当众说出来的那一纸",
-  "sourceNote": "拉丁 declaratio，declarare(说明)"
- },
- "decompose": {
-  "modernMeaningCn": "分解",
-  "literalMeaningCn": "把合起来的拆开",
-  "metaphorMeaningCn": "分解、腐烂",
-  "metaphorOptions": [
-   "分解、腐烂",
-   "围着飞机的转",
-   "向着组织去"
-  ],
-  "mnemonicNote": "de(去除)+compose(组合)：把合起来的重新拆散",
-  "sourceNote": "法语 décomposer，de-(去除) + composer(组合)"
- },
- "defendant": {
-  "modernMeaningCn": "被告、被告人",
-  "literalMeaningCn": "在庭上辩的那一方",
-  "metaphorMeaningCn": "被告、被告人",
-  "metaphorOptions": [
-   "被告、被告人",
-   "被重的的东西",
-   "心智的的味道"
-  ],
-  "mnemonicNote": "defend(辩护)+ant(人)：坐在庭上辩的那一方",
-  "sourceNote": "古法语 defendre(辩护) + -ant"
- },
- "deform": {
-  "modernMeaningCn": "使变形、使残缺",
-  "literalMeaningCn": "把形状弄坏",
-  "metaphorMeaningCn": "使变形、使残缺",
-  "metaphorOptions": [
-   "使变形、使残缺",
-   "把道德规范翻开",
-   "抵抗的背面"
-  ],
-  "mnemonicNote": "de(去掉)+form(形状)：把好好的形状弄坏",
-  "sourceNote": "拉丁 deformare，de-(去掉) + forma(形状)"
- },
- "deformation": {
-  "modernMeaningCn": "变形、形变",
-  "literalMeaningCn": "形状坏了的样子",
-  "metaphorMeaningCn": "变形、形变",
-  "metaphorOptions": [
-   "变形、形变",
-   "不是必要的的来路",
-   "刷子的地方"
-  ],
-  "mnemonicNote": "deform(弄坏形状)+ation：走样的那个样子",
-  "sourceNote": "拉丁 deformatio，deformare(损形)"
- },
- "degradation": {
-  "modernMeaningCn": "降级、退化",
-  "literalMeaningCn": "往下贬的过程",
-  "metaphorMeaningCn": "降级、退化",
-  "metaphorOptions": [
-   "降级、退化",
-   "数着容量过日子",
-   "主修课的工具"
-  ],
-  "mnemonicNote": "degrad(贬降)+ation：一级一级往下贬",
-  "sourceNote": "晚期拉丁 degradatio，degradare(降级)"
- },
- "denial": {
-  "modernMeaningCn": "否认、拒绝",
-  "literalMeaningCn": "把话顶回去",
-  "metaphorMeaningCn": "否认、拒绝",
-  "metaphorOptions": [
-   "否认、拒绝",
-   "围着向前的转",
-   "把横穿串起来"
-  ],
-  "mnemonicNote": "deni(不认)+al：把话原样顶回去",
-  "sourceNote": "古法语 denier(否认) + -al"
- },
- "denounce": {
-  "modernMeaningCn": "谴责、告发",
-  "literalMeaningCn": "当众点出来",
-  "metaphorMeaningCn": "谴责、告发",
-  "metaphorOptions": [
-   "谴责、告发",
-   "围着疤痕转",
-   "向着向下去"
-  ],
-  "mnemonicNote": "de(加强)+nounce(宣告)：当众把人点出来",
-  "sourceNote": "拉丁 denuntiare，de-(加强) + nuntiare(宣告)"
- },
- "dependant": {
-  "modernMeaningCn": "受赡养者、家眷",
-  "literalMeaningCn": "挂在别人身上的人",
-  "metaphorMeaningCn": "受赡养者、家眷",
-  "metaphorOptions": [
-   "受赡养者、家眷",
-   "可忍受的的过程",
-   "离领域很远"
-  ],
-  "mnemonicNote": "de(向下)+pend(悬挂)+ant(人)：挂在别人身上过活的人",
-  "sourceNote": "拉丁 dependere(悬挂、依赖) + -ant"
- },
- "deportation": {
-  "modernMeaningCn": "驱逐出境",
-  "literalMeaningCn": "押解出去这件事",
-  "metaphorMeaningCn": "驱逐出境、遣返",
-  "metaphorOptions": [
-   "驱逐出境、遣返",
-   "向着父亲去",
-   "房间的过程"
-  ],
-  "mnemonicNote": "deport(押解)+ation：把人押出国境那件事",
-  "sourceNote": "拉丁 deportare，de-(离开) + portare(运送)"
- },
- "deposition": {
-  "modernMeaningCn": "证词、免职",
-  "literalMeaningCn": "搁下的那番话",
-  "metaphorMeaningCn": "证词、免职",
-  "metaphorOptions": [
-   "证词、免职",
-   "新兵的背面",
-   "注解的旧事"
-  ],
-  "mnemonicNote": "deposit(放下)+ion：当庭搁下的那番话",
-  "sourceNote": "拉丁 depositio，deponere(放下、作证)"
- },
- "derivation": {
-  "modernMeaningCn": "起源、派生",
-  "literalMeaningCn": "从源头引出来",
-  "metaphorMeaningCn": "起源、派生",
-  "metaphorOptions": [
-   "起源、派生",
-   "可信的的旧事",
-   "灰烬的背面"
-  ],
-  "mnemonicNote": "deriv(引出)+ation：从源头一路引出来",
-  "sourceNote": "拉丁 derivatio，derivare(引出)"
- },
- "descendant": {
-  "modernMeaningCn": "后裔",
-  "literalMeaningCn": "从祖上下来的人",
-  "metaphorMeaningCn": "后裔、子孙",
-  "metaphorOptions": [
-   "后裔、子孙",
-   "把花费串起来",
-   "巨大的工具"
-  ],
-  "mnemonicNote": "descend(传下来)+ant(人)：从祖上一直传下来的人",
-  "sourceNote": "拉丁 descendere(下来) + -ant"
- },
- "descent": {
-  "modernMeaningCn": "下降、血统",
-  "literalMeaningCn": "一步步往下走",
-  "metaphorMeaningCn": "下降、血统",
-  "metaphorOptions": [
-   "下降、血统",
-   "把污染翻开",
-   "酿造酒的影子"
-  ],
-  "mnemonicNote": "de(向下)+scent(爬)：顺着坡一步步往下走",
-  "sourceNote": "拉丁 descensus，descendere(下来)"
- },
- "despatch": {
-  "modernMeaningCn": "派遣、发送",
-  "literalMeaningCn": "解开脚镣派出去",
-  "metaphorMeaningCn": "派遣、发送",
-  "metaphorOptions": [
-   "派遣、发送",
-   "守着领域过活",
-   "替递送操心"
-  ],
-  "mnemonicNote": "des(分开)+patch(拴住)：松开脚镣把人派出去",
-  "sourceNote": "dispatch 的变体，意大利 dispacciare(解脱、速办)"
- },
- "desperately": {
-  "modernMeaningCn": "拼命地",
-  "literalMeaningCn": "走投无路地",
-  "metaphorMeaningCn": "拼命地、极度地",
-  "metaphorOptions": [
-   "拼命地、极度地",
-   "佛陀的影子",
-   "复合的的人"
-  ],
-  "mnemonicNote": "desperate(走投无路)+ly：什么都顾不上了",
-  "sourceNote": "拉丁 desperare，de-(失去) + sperare(希望)"
- },
- "destiny": {
-  "modernMeaningCn": "命运",
-  "literalMeaningCn": "早已定下的那份",
-  "metaphorMeaningCn": "命运、天命",
-  "metaphorOptions": [
-   "命运、天命",
-   "数着渴望过日子",
-   "劳动的工具"
-  ],
-  "mnemonicNote": "de(加强)+stiny(立定)：早就立定那份安排",
-  "sourceNote": "拉丁 destinare(立定、注定)"
- },
- "detector": {
-  "modernMeaningCn": "探测器、检波器",
-  "literalMeaningCn": "能察觉的那件",
-  "metaphorMeaningCn": "探测器、检波器",
-  "metaphorOptions": [
-   "探测器、检波器",
-   "南方的小站",
-   "守着平滑的过活"
-  ],
-  "mnemonicNote": "detect(察觉)+or(物)：能把踪迹揪出来那件",
-  "sourceNote": "拉丁 detegere(揭开) + -or"
- },
- "deviation": {
-  "modernMeaningCn": "偏离、偏差",
-  "literalMeaningCn": "偏出正轨",
-  "metaphorMeaningCn": "偏离、偏差",
-  "metaphorOptions": [
-   "偏离、偏差",
-   "围着商店转",
-   "向着短的去"
-  ],
-  "mnemonicNote": "deviat(偏出)+ion：从正道上偏出去",
-  "sourceNote": "晚期拉丁 deviatio，deviare(偏离)"
- },
- "dilute": {
-  "modernMeaningCn": "稀释、削弱",
-  "literalMeaningCn": "掺水冲开",
-  "metaphorMeaningCn": "稀释、削弱",
-  "metaphorOptions": [
-   "稀释、削弱",
-   "关心的影子",
-   "把安定翻开"
-  ],
-  "mnemonicNote": "di(分开)+lute(冲洗)：掺上水把浓度冲开",
-  "sourceNote": "拉丁 diluere，di-(分开) + luere(冲洗)"
- },
- "diplomatic": {
-  "modernMeaningCn": "外交的",
-  "literalMeaningCn": "使节那一路的",
-  "metaphorMeaningCn": "外交的、圆通的",
-  "metaphorOptions": [
-   "外交的、圆通的",
-   "围着排外的转",
-   "数着守财奴过日子"
-  ],
-  "mnemonicNote": "diplomat(使节)+ic：跟外国打交道那一路",
-  "sourceNote": "希腊 diploma(折叠的文书、凭证)"
- },
- "disappearance": {
-  "modernMeaningCn": "消失、失踪",
-  "literalMeaningCn": "不见了这件事",
-  "metaphorMeaningCn": "消失、失踪",
-  "metaphorOptions": [
-   "消失、失踪",
-   "理想的过程",
-   "关系的背面"
-  ],
-  "mnemonicNote": "disappear(不见踪影)+ance：人就这么没影了",
-  "sourceNote": "dis-(不) + appear(出现) + -ance"
- },
- "disapproval": {
-  "modernMeaningCn": "不赞成",
-  "literalMeaningCn": "摇着头不认",
-  "metaphorMeaningCn": "不赞成、反对",
-  "metaphorOptions": [
-   "不赞成、反对",
-   "被偏爱的东西",
-   "租约的味道"
-  ],
-  "mnemonicNote": "disapprov(不认可)+al：摇着头不肯认",
-  "sourceNote": "dis-(不) + 拉丁 approbare(认可) + -al"
- },
- "disastrous": {
-  "modernMeaningCn": "损失惨重的",
-  "literalMeaningCn": "招来大祸的",
-  "metaphorMeaningCn": "灾难性的、损失惨重的",
-  "metaphorOptions": [
-   "灾难性的、损失惨重的",
-   "年刊的工具",
-   "数着迅速的过日子"
-  ],
-  "mnemonicNote": "disastr(灾祸)+ous：招来的是一场大祸",
-  "sourceNote": "意大利 disastro，dis-(坏) + astro(星象)"
- },
- "discontented": {
-  "modernMeaningCn": "不满意的",
-  "literalMeaningCn": "心里不痛快的",
-  "metaphorMeaningCn": "不满的、不满意的",
-  "metaphorOptions": [
-   "不满的、不满意的",
-   "挑选出来的的过程",
-   "生产量的背面"
-  ],
-  "mnemonicNote": "dis(不)+contented(心满意足)：心里憋着不痛快",
-  "sourceNote": "dis-(不) + 拉丁 contentus(满足) + -ed"
- },
- "discourse": {
-  "modernMeaningCn": "论述、话语",
-  "literalMeaningCn": "话题跑开来",
-  "metaphorMeaningCn": "论述、话语",
-  "metaphorOptions": [
-   "论述、话语",
-   "向着引用去",
-   "尺寸的过程"
-  ],
-  "mnemonicNote": "dis(散开)+course(跑)：话头一路铺开来",
-  "sourceNote": "拉丁 discursus，dis-(散开) + currere(跑)"
- },
- "disgrace": {
-  "modernMeaningCn": "耻辱",
-  "literalMeaningCn": "体面没了",
-  "metaphorMeaningCn": "耻辱、失宠",
-  "metaphorOptions": [
-   "耻辱、失宠",
-   "源头的背面",
-   "眼镜的旧事"
-  ],
-  "mnemonicNote": "dis(去掉)+grace(体面)：体面丢得一点不剩",
-  "sourceNote": "意大利 disgrazia，dis-(去掉) + grazia(恩宠)"
- },
- "disillusion": {
-  "modernMeaningCn": "觉醒",
-  "literalMeaningCn": "把错觉拿走",
-  "metaphorMeaningCn": "使觉醒、使幻灭",
-  "metaphorOptions": [
-   "使觉醒、使幻灭",
-   "家庭杂务的小站",
-   "表面的地方"
-  ],
-  "mnemonicNote": "dis(去掉)+illusion(错觉)：把那层错觉拿掉",
-  "sourceNote": "dis-(去掉) + 拉丁 illusio(戏弄、错觉)"
- },
- "disillusioned": {
-  "modernMeaningCn": "幻想破灭了的",
-  "literalMeaningCn": "看透了真相的",
-  "metaphorMeaningCn": "幻想破灭的、失望的",
-  "metaphorOptions": [
-   "幻想破灭的、失望的",
-   "年代的地方",
-   "隔一代的小站"
-  ],
-  "mnemonicNote": "disillusion(看透)+ed：真相一戳，全明白了",
-  "sourceNote": "dis-(去掉) + 拉丁 illusio(错觉) + -ed"
- },
- "disobedience": {
-  "modernMeaningCn": "不服从",
-  "literalMeaningCn": "不听号令",
-  "metaphorMeaningCn": "不服从、违抗",
-  "metaphorOptions": [
-   "不服从、违抗",
-   "把免疫的串起来",
-   "把模糊的翻开"
-  ],
-  "mnemonicNote": "dis(不)+obedience(听命)：叫他往东偏往西",
-  "sourceNote": "dis-(不) + 拉丁 oboedire(听从) + -ence"
- },
- "disorient": {
-  "modernMeaningCn": "使失去方向",
-  "literalMeaningCn": "把方向感拿掉",
-  "metaphorMeaningCn": "使迷失方向、使困惑",
-  "metaphorOptions": [
-   "使迷失方向、使困惑",
-   "延迟的味道",
-   "压力的另一面"
-  ],
-  "mnemonicNote": "dis(去掉)+orient(方位)：把心里的方位感拿掉",
-  "sourceNote": "dis-(去掉) + 拉丁 oriens(日出、东方)"
- },
- "dispatch": {
-  "modernMeaningCn": "派遣",
-  "literalMeaningCn": "解开脚镣派出去",
-  "metaphorMeaningCn": "派遣、发送",
-  "metaphorOptions": [
-   "派遣、发送",
-   "劳作的影子",
-   "离吸引力很远"
-  ],
-  "mnemonicNote": "dis(分开)+patch(拴住)：松开脚镣把人派出去",
-  "sourceNote": "意大利 dispacciare，dis-(分开) + 拉丁 pedica(脚镣)"
- },
- "dispense": {
-  "modernMeaningCn": "分发",
-  "literalMeaningCn": "一份份称出来",
-  "metaphorMeaningCn": "分发、配药、免除",
-  "metaphorOptions": [
-   "分发、配药、免除",
-   "替惊起操心",
-   "守着实验的过活"
-  ],
-  "mnemonicNote": "dis(分开)+pense(称量)：一份一份称出来给人",
-  "sourceNote": "拉丁 dispensare，dis-(分开) + pensare(称量)"
- },
- "displace": {
-  "modernMeaningCn": "取代、使离开",
-  "literalMeaningCn": "把原来的挪开",
-  "metaphorMeaningCn": "取代、使离开",
-  "metaphorOptions": [
-   "取代、使离开",
-   "原因的旧事",
-   "使吃惊的背面"
-  ],
-  "mnemonicNote": "dis(去掉)+place(位置)：把原来那位挪开",
-  "sourceNote": "古法语 desplacer，des-(去掉) + place(位置)"
- },
- "displacement": {
-  "modernMeaningCn": "位移、取代",
-  "literalMeaningCn": "被挪开这件事",
-  "metaphorMeaningCn": "位移、取代",
-  "metaphorOptions": [
-   "位移、取代",
-   "离为了很远",
-   "替刻痕操心"
-  ],
-  "mnemonicNote": "displace(挪开)+ment：东西被挪走这一件事",
-  "sourceNote": "古法语 desplacer(挪开) + -ment"
- },
- "disposition": {
-  "modernMeaningCn": "性情",
-  "literalMeaningCn": "天生那副排布",
-  "metaphorMeaningCn": "性情、倾向、处置",
-  "metaphorOptions": [
-   "性情、倾向、处置",
-   "守着第三过活",
-   "我们的的小站"
-  ],
-  "mnemonicNote": "dispos(安排)+ition：天生的那副排布",
-  "sourceNote": "拉丁 dispositio，disponere(安排)"
- },
- "disproportionate": {
-  "modernMeaningCn": "不成比例的",
-  "literalMeaningCn": "大小对不上",
-  "metaphorMeaningCn": "不成比例的、过分的",
-  "metaphorOptions": [
-   "不成比例的、过分的",
-   "植物的一角",
-   "暴动的另一面"
-  ],
-  "mnemonicNote": "dis(不)+proportionate(匀称)：两头大小对不上",
-  "sourceNote": "dis-(不) + 拉丁 proportio(比例) + -ate"
- },
- "disregard": {
-  "modernMeaningCn": "忽视",
-  "literalMeaningCn": "不去看它",
-  "metaphorMeaningCn": "忽视、漠视",
-  "metaphorOptions": [
-   "忽视、漠视",
-   "被假设的东西",
-   "乐观者的味道"
-  ],
-  "mnemonicNote": "dis(不)+regard(注目)：扭头不去看",
-  "sourceNote": "dis-(不) + 古法语 regarder(注视)"
- },
- "disrupt": {
-  "modernMeaningCn": "扰乱、中断",
-  "literalMeaningCn": "把好好的扯断",
-  "metaphorMeaningCn": "扰乱、中断",
-  "metaphorOptions": [
-   "扰乱、中断",
-   "装天花板的味道",
-   "不牢固的的另一面"
-  ],
-  "mnemonicNote": "dis(分开)+rupt(断裂)：把好好的秩序扯断",
-  "sourceNote": "拉丁 disruptus，dis-(分开) + rumpere(断裂)"
- }
+  "_comment": "Stage 3 待写释义（batch-38，本批 60 词，六级批第 3 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
+  "correlate": {
+    "modernMeaningCn": "相关联、有相关性",
+    "literalMeaningCn": "彼此挂上钩",
+    "metaphorMeaningCn": "相关联、有相关性",
+    "metaphorOptions": [
+      "相关联、有相关性",
+      "富裕的的一角",
+      "一种木板的习俗"
+    ],
+    "mnemonicNote": "cor(共同)+relate(关联)：两件事挂上钩",
+    "sourceNote": "中世纪拉丁 correlare，com-(共同) + relatus(关联)"
+  },
+  "correlation": {
+    "modernMeaningCn": "相关性、相互关系",
+    "literalMeaningCn": "两项对得上的程度",
+    "metaphorMeaningCn": "相关性、相互关系",
+    "metaphorOptions": [
+      "相关性、相互关系",
+      "什么怎么的背面",
+      "真实的的旧事"
+    ],
+    "mnemonicNote": "correlat(关联)+ion：两项数据对得上的那个程度",
+    "sourceNote": "中世纪拉丁 correlatio，correlare(关联)"
+  },
+  "correspondence": {
+    "modernMeaningCn": "通信、一致",
+    "literalMeaningCn": "一来一往对得上",
+    "metaphorMeaningCn": "通信、一致",
+    "metaphorOptions": [
+      "通信、一致",
+      "使残缺的过程",
+      "向着错过去"
+    ],
+    "mnemonicNote": "correspond(相符)+ence：一来一往，两边对得上",
+    "sourceNote": "中世纪拉丁 correspondentia，correspondere(相应)"
+  },
+  "counseling": {
+    "modernMeaningCn": "咨询服务",
+    "literalMeaningCn": "给人出主意",
+    "metaphorMeaningCn": "咨询服务、辅导",
+    "metaphorOptions": [
+      "咨询服务、辅导",
+      "一种妻子的习俗",
+      "尖锐的人"
+    ],
+    "mnemonicNote": "counsel(劝告)+ing：坐在那儿替人出主意的活",
+    "sourceNote": "拉丁 consilium(商议、劝告) + -ing"
+  },
+  "counteract": {
+    "modernMeaningCn": "抵消",
+    "literalMeaningCn": "反着使一股劲",
+    "metaphorMeaningCn": "抵消、对抗",
+    "metaphorOptions": [
+      "抵消、对抗",
+      "一种注意的的习俗",
+      "过度的一角"
+    ],
+    "mnemonicNote": "counter(反)+act(作用)：反着使一股劲把力顶回去",
+    "sourceNote": "拉丁 contra-(反) + agere(做)"
+  },
+  "counterpart": {
+    "modernMeaningCn": "对应的人或物、副本",
+    "literalMeaningCn": "对着的那一半",
+    "metaphorMeaningCn": "对应的人或物、副本",
+    "metaphorOptions": [
+      "对应的人或物、副本",
+      "白色的影子",
+      "把刷子翻开"
+    ],
+    "mnemonicNote": "counter(相对)+part(部分)：另一头对着的那一份",
+    "sourceNote": "中古英语 countrepart，counter-(相对) + part(部分)"
+  },
+  "courageous": {
+    "modernMeaningCn": "勇敢的",
+    "literalMeaningCn": "心里有胆的",
+    "metaphorMeaningCn": "勇敢的、有胆量的",
+    "metaphorOptions": [
+      "勇敢的、有胆量的",
+      "其他的的背面",
+      "被清楚的的东西"
+    ],
+    "mnemonicNote": "courage(胆气)+ous：心里有胆，敢往前站",
+    "sourceNote": "古法语 corage(心、胆气) + -ous"
+  },
+  "courteous": {
+    "modernMeaningCn": "有礼的、谦恭的",
+    "literalMeaningCn": "照着宫廷规矩来的",
+    "metaphorMeaningCn": "有礼的、谦恭的",
+    "metaphorOptions": [
+      "有礼的、谦恭的",
+      "守着梯级过活",
+      "全世界的的小站"
+    ],
+    "mnemonicNote": "court(宫廷)+eous：照着宫廷那套规矩待人",
+    "sourceNote": "古法语 corteis(宫廷式的) + -ous"
+  },
+  "courtesy": {
+    "modernMeaningCn": "礼貌",
+    "literalMeaningCn": "宫廷里的那套礼数",
+    "metaphorMeaningCn": "礼貌、好意",
+    "metaphorOptions": [
+      "礼貌、好意",
+      "被呼喊的东西",
+      "动作的的背面"
+    ],
+    "mnemonicNote": "court(宫廷)+esy：宫廷里那套客套",
+    "sourceNote": "古法语 cortesie，corteis(宫廷式的)"
+  },
+  "crooked": {
+    "modernMeaningCn": "弯曲的",
+    "literalMeaningCn": "弯成个钩",
+    "metaphorMeaningCn": "弯曲的、不正派的",
+    "metaphorOptions": [
+      "弯曲的、不正派的",
+      "满足的工具",
+      "数着占优势的过日子"
+    ],
+    "mnemonicNote": "crook(弯钩)+ed：弯成个钩子",
+    "sourceNote": "中古英语 crok(弯钩) + -ed"
+  },
+  "cruelty": {
+    "modernMeaningCn": "残忍、虐待",
+    "literalMeaningCn": "心硬的程度",
+    "metaphorMeaningCn": "残忍、虐待",
+    "metaphorOptions": [
+      "残忍、虐待",
+      "越过的旧事",
+      "简单的的来路"
+    ],
+    "mnemonicNote": "cruel(心硬)+ty：下得去手那种狠",
+    "sourceNote": "古法语 cruelté，cruel(残忍)"
+  },
+  "cumulative": {
+    "modernMeaningCn": "累积的、渐增的",
+    "literalMeaningCn": "一层层垒起来的",
+    "metaphorMeaningCn": "累积的、渐增的",
+    "metaphorOptions": [
+      "累积的、渐增的",
+      "向着日期去",
+      "精神的过程"
+    ],
+    "mnemonicNote": "cumulat(堆积)+ive：一层层往上垒",
+    "sourceNote": "拉丁 cumulare(堆积) + -ive"
+  },
+  "currently": {
+    "modernMeaningCn": "目前、当前",
+    "literalMeaningCn": "眼下这一刻",
+    "metaphorMeaningCn": "目前、当前",
+    "metaphorOptions": [
+      "目前、当前",
+      "把低于串起来",
+      "把他们翻开"
+    ],
+    "mnemonicNote": "current(当下)+ly：说话的这一阵子",
+    "sourceNote": "拉丁 currere(流动) + -ly"
+  },
+  "customary": {
+    "modernMeaningCn": "惯常的、习惯的",
+    "literalMeaningCn": "照老例来的",
+    "metaphorMeaningCn": "惯常的、习惯的",
+    "metaphorOptions": [
+      "惯常的、习惯的",
+      "使失去能力的来路",
+      "银行的旧事"
+    ],
+    "mnemonicNote": "custom(习俗)+ary：照老例来，年年如此",
+    "sourceNote": "中世纪拉丁 consuetudinarius，consuetudo(习俗)"
+  },
+  "cutter": {
+    "modernMeaningCn": "切割工、刀具",
+    "literalMeaningCn": "下刀的那位",
+    "metaphorMeaningCn": "切割工、刀具",
+    "metaphorOptions": [
+      "切割工、刀具",
+      "离临近的很远",
+      "替因此操心"
+    ],
+    "mnemonicNote": "cutt(切)+er(人/物)：下刀的那位，也指那件家什",
+    "sourceNote": "古英语 cyttan(切) + -er"
+  },
+  "cynical": {
+    "modernMeaningCn": "愤世嫉俗的",
+    "literalMeaningCn": "把人心想得很坏",
+    "metaphorMeaningCn": "愤世嫉俗的、玩世不恭的",
+    "metaphorOptions": [
+      "愤世嫉俗的、玩世不恭的",
+      "休息的地方",
+      "毕业生的来路"
+    ],
+    "mnemonicNote": "cynic(犬儒)+al：把人心往最坏处想",
+    "sourceNote": "希腊 kynikos(犬似的)，指犬儒学派的做派"
+  },
+  "dazzle": {
+    "modernMeaningCn": "使眼花",
+    "literalMeaningCn": "照得睁不开眼",
+    "metaphorMeaningCn": "使眼花、使倾倒",
+    "metaphorOptions": [
+      "使眼花、使倾倒",
+      "在下的地方",
+      "预备好的状态的小站"
+    ],
+    "mnemonicNote": "dazz(眩)+le：照得人睁不开眼",
+    "sourceNote": "中古英语 dasen(使昏乱) + -le"
+  },
+  "deafen": {
+    "modernMeaningCn": "使聋、震耳欲聋",
+    "literalMeaningCn": "震得听不见",
+    "metaphorMeaningCn": "使聋、震耳欲聋",
+    "metaphorOptions": [
+      "使聋、震耳欲聋",
+      "使适应的旧事",
+      "一种入会的习俗"
+    ],
+    "mnemonicNote": "deaf(聋)+en(使)：震得两耳嗡嗡作响",
+    "sourceNote": "古英语 deaf(聋) + -en(使动)"
+  },
+  "dealer": {
+    "modernMeaningCn": "经销商",
+    "literalMeaningCn": "做买卖的人",
+    "metaphorMeaningCn": "经销商、发牌人",
+    "metaphorOptions": [
+      "经销商、发牌人",
+      "长度的工具",
+      "分裂的的味道"
+    ],
+    "mnemonicNote": "deal(交易)+er(人)：坐店里做买卖那位",
+    "sourceNote": "古英语 dælan(分配) + -er"
+  },
+  "decidedly": {
+    "modernMeaningCn": "明确地、肯定地",
+    "literalMeaningCn": "不含糊地",
+    "metaphorMeaningCn": "明确地、肯定地",
+    "metaphorOptions": [
+      "明确地、肯定地",
+      "描述的一角",
+      "一种剩下的习俗"
+    ],
+    "mnemonicNote": "decided(拿定主意)+ly：话说得一点不含糊",
+    "sourceNote": "拉丁 decidere(裁断) + -ed + -ly"
+  },
+  "decisive": {
+    "modernMeaningCn": "决定性的",
+    "literalMeaningCn": "一锤定音的",
+    "metaphorMeaningCn": "决定性的、果断的",
+    "metaphorOptions": [
+      "决定性的、果断的",
+      "向着左边的去",
+      "围着比赛转"
+    ],
+    "mnemonicNote": "decis(裁断)+ive：一锤子砸下去那一下",
+    "sourceNote": "拉丁 decisivus，decidere(裁断)"
+  },
+  "declaration": {
+    "modernMeaningCn": "宣言、申报",
+    "literalMeaningCn": "当众说出来的那件事",
+    "metaphorMeaningCn": "宣言、申报",
+    "metaphorOptions": [
+      "宣言、申报",
+      "鼩鼱的一角",
+      "蒸发的另一面"
+    ],
+    "mnemonicNote": "declar(宣布)+ation：当众说出来的那一纸",
+    "sourceNote": "拉丁 declaratio，declarare(说明)"
+  },
+  "decompose": {
+    "modernMeaningCn": "分解",
+    "literalMeaningCn": "把合起来的拆开",
+    "metaphorMeaningCn": "分解、腐烂",
+    "metaphorOptions": [
+      "分解、腐烂",
+      "围着飞机的转",
+      "向着组织去"
+    ],
+    "mnemonicNote": "de(去除)+compose(组合)：把合起来的重新拆散",
+    "sourceNote": "法语 décomposer，de-(去除) + composer(组合)"
+  },
+  "defendant": {
+    "modernMeaningCn": "被告、被告人",
+    "literalMeaningCn": "在庭上辩的那一方",
+    "metaphorMeaningCn": "被告、被告人",
+    "metaphorOptions": [
+      "被告、被告人",
+      "被重的的东西",
+      "心智的的味道"
+    ],
+    "mnemonicNote": "defend(辩护)+ant(人)：坐在庭上辩的那一方",
+    "sourceNote": "古法语 defendre(辩护) + -ant"
+  },
+  "deform": {
+    "modernMeaningCn": "使变形、使残缺",
+    "literalMeaningCn": "把形状弄坏",
+    "metaphorMeaningCn": "使变形、使残缺",
+    "metaphorOptions": [
+      "使变形、使残缺",
+      "把道德规范翻开",
+      "抵抗的背面"
+    ],
+    "mnemonicNote": "de(去掉)+form(形状)：把好好的形状弄坏",
+    "sourceNote": "拉丁 deformare，de-(去掉) + forma(形状)"
+  },
+  "deformation": {
+    "modernMeaningCn": "变形、形变",
+    "literalMeaningCn": "形状坏了的样子",
+    "metaphorMeaningCn": "变形、形变",
+    "metaphorOptions": [
+      "变形、形变",
+      "不是必要的的来路",
+      "刷子的地方"
+    ],
+    "mnemonicNote": "deform(弄坏形状)+ation：走样的那个样子",
+    "sourceNote": "拉丁 deformatio，deformare(损形)"
+  },
+  "degradation": {
+    "modernMeaningCn": "降级、退化",
+    "literalMeaningCn": "往下贬的过程",
+    "metaphorMeaningCn": "降级、退化",
+    "metaphorOptions": [
+      "降级、退化",
+      "数着容量过日子",
+      "主修课的工具"
+    ],
+    "mnemonicNote": "degrad(贬降)+ation：一级一级往下贬",
+    "sourceNote": "晚期拉丁 degradatio，degradare(降级)"
+  },
+  "denial": {
+    "modernMeaningCn": "否认、拒绝",
+    "literalMeaningCn": "把话顶回去",
+    "metaphorMeaningCn": "否认、拒绝",
+    "metaphorOptions": [
+      "否认、拒绝",
+      "围着向前的转",
+      "把横穿串起来"
+    ],
+    "mnemonicNote": "deni(不认)+al：把话原样顶回去",
+    "sourceNote": "古法语 denier(否认) + -al"
+  },
+  "denounce": {
+    "modernMeaningCn": "谴责、告发",
+    "literalMeaningCn": "当众点出来",
+    "metaphorMeaningCn": "谴责、告发",
+    "metaphorOptions": [
+      "谴责、告发",
+      "围着疤痕转",
+      "一种共和国的习俗"
+    ],
+    "mnemonicNote": "de(加强)+nounce(宣告)：当众把人点出来",
+    "sourceNote": "拉丁 denuntiare，de-(加强) + nuntiare(宣告)"
+  },
+  "dependant": {
+    "modernMeaningCn": "受赡养者、家眷",
+    "literalMeaningCn": "挂在别人身上的人",
+    "metaphorMeaningCn": "受赡养者、家眷",
+    "metaphorOptions": [
+      "受赡养者、家眷",
+      "可忍受的的过程",
+      "离领域很远"
+    ],
+    "mnemonicNote": "de(向下)+pend(悬挂)+ant(人)：挂在别人身上过活的人",
+    "sourceNote": "拉丁 dependere(悬挂、依赖) + -ant"
+  },
+  "deportation": {
+    "modernMeaningCn": "驱逐出境",
+    "literalMeaningCn": "押解出去这件事",
+    "metaphorMeaningCn": "驱逐出境、遣返",
+    "metaphorOptions": [
+      "驱逐出境、遣返",
+      "向着父亲去",
+      "房间的过程"
+    ],
+    "mnemonicNote": "deport(押解)+ation：把人押出国境那件事",
+    "sourceNote": "拉丁 deportare，de-(离开) + portare(运送)"
+  },
+  "deposition": {
+    "modernMeaningCn": "证词、免职",
+    "literalMeaningCn": "搁下的那番话",
+    "metaphorMeaningCn": "证词、免职",
+    "metaphorOptions": [
+      "证词、免职",
+      "新兵的背面",
+      "注解的旧事"
+    ],
+    "mnemonicNote": "deposit(放下)+ion：当庭搁下的那番话",
+    "sourceNote": "拉丁 depositio，deponere(放下、作证)"
+  },
+  "derivation": {
+    "modernMeaningCn": "起源、派生",
+    "literalMeaningCn": "从源头引出来",
+    "metaphorMeaningCn": "起源、派生",
+    "metaphorOptions": [
+      "起源、派生",
+      "可信的的旧事",
+      "灰烬的背面"
+    ],
+    "mnemonicNote": "deriv(引出)+ation：从源头一路引出来",
+    "sourceNote": "拉丁 derivatio，derivare(引出)"
+  },
+  "descendant": {
+    "modernMeaningCn": "后裔",
+    "literalMeaningCn": "从祖上下来的人",
+    "metaphorMeaningCn": "后裔、子孙",
+    "metaphorOptions": [
+      "后裔、子孙",
+      "把花费串起来",
+      "巨大的工具"
+    ],
+    "mnemonicNote": "descend(传下来)+ant(人)：从祖上一直传下来的人",
+    "sourceNote": "拉丁 descendere(下来) + -ant"
+  },
+  "descent": {
+    "modernMeaningCn": "下降、血统",
+    "literalMeaningCn": "一步步往下走",
+    "metaphorMeaningCn": "下降、血统",
+    "metaphorOptions": [
+      "下降、血统",
+      "把污染翻开",
+      "酿造酒的影子"
+    ],
+    "mnemonicNote": "de(向下)+scent(爬)：顺着坡一步步往下走",
+    "sourceNote": "拉丁 descensus，descendere(下来)"
+  },
+  "despatch": {
+    "modernMeaningCn": "派遣、发送",
+    "literalMeaningCn": "解开脚镣派出去",
+    "metaphorMeaningCn": "派遣、发送",
+    "metaphorOptions": [
+      "派遣、发送",
+      "守着领域过活",
+      "替递送操心"
+    ],
+    "mnemonicNote": "des(分开)+patch(拴住)：松开脚镣把人派出去",
+    "sourceNote": "dispatch 的变体，意大利 dispacciare(解脱、速办)"
+  },
+  "desperately": {
+    "modernMeaningCn": "拼命地",
+    "literalMeaningCn": "走投无路地",
+    "metaphorMeaningCn": "拼命地、极度地",
+    "metaphorOptions": [
+      "拼命地、极度地",
+      "佛陀的影子",
+      "一种中性的的习俗"
+    ],
+    "mnemonicNote": "desperate(走投无路)+ly：什么都顾不上了",
+    "sourceNote": "拉丁 desperare，de-(失去) + sperare(希望)"
+  },
+  "destiny": {
+    "modernMeaningCn": "命运",
+    "literalMeaningCn": "早已定下的那份",
+    "metaphorMeaningCn": "命运、天命",
+    "metaphorOptions": [
+      "命运、天命",
+      "数着渴望过日子",
+      "劳动的工具"
+    ],
+    "mnemonicNote": "de(加强)+stiny(立定)：早就立定那份安排",
+    "sourceNote": "拉丁 destinare(立定、注定)"
+  },
+  "detector": {
+    "modernMeaningCn": "探测器、检波器",
+    "literalMeaningCn": "能察觉的那件",
+    "metaphorMeaningCn": "探测器、检波器",
+    "metaphorOptions": [
+      "探测器、检波器",
+      "南方的小站",
+      "守着平滑的过活"
+    ],
+    "mnemonicNote": "detect(察觉)+or(物)：能把踪迹揪出来那件",
+    "sourceNote": "拉丁 detegere(揭开) + -or"
+  },
+  "deviation": {
+    "modernMeaningCn": "偏离、偏差",
+    "literalMeaningCn": "偏出正轨",
+    "metaphorMeaningCn": "偏离、偏差",
+    "metaphorOptions": [
+      "偏离、偏差",
+      "围着商店转",
+      "向着短的去"
+    ],
+    "mnemonicNote": "deviat(偏出)+ion：从正道上偏出去",
+    "sourceNote": "晚期拉丁 deviatio，deviare(偏离)"
+  },
+  "dilute": {
+    "modernMeaningCn": "稀释、削弱",
+    "literalMeaningCn": "掺水冲开",
+    "metaphorMeaningCn": "稀释、削弱",
+    "metaphorOptions": [
+      "稀释、削弱",
+      "关心的影子",
+      "把安定翻开"
+    ],
+    "mnemonicNote": "di(分开)+lute(冲洗)：掺上水把浓度冲开",
+    "sourceNote": "拉丁 diluere，di-(分开) + luere(冲洗)"
+  },
+  "diplomatic": {
+    "modernMeaningCn": "外交的",
+    "literalMeaningCn": "使节那一路的",
+    "metaphorMeaningCn": "外交的、圆通的",
+    "metaphorOptions": [
+      "外交的、圆通的",
+      "围着排外的转",
+      "数着守财奴过日子"
+    ],
+    "mnemonicNote": "diplomat(使节)+ic：跟外国打交道那一路",
+    "sourceNote": "希腊 diploma(折叠的文书、凭证)"
+  },
+  "disappearance": {
+    "modernMeaningCn": "消失、失踪",
+    "literalMeaningCn": "不见了这件事",
+    "metaphorMeaningCn": "消失、失踪",
+    "metaphorOptions": [
+      "消失、失踪",
+      "理想的过程",
+      "关系的背面"
+    ],
+    "mnemonicNote": "disappear(不见踪影)+ance：人就这么没影了",
+    "sourceNote": "dis-(不) + appear(出现) + -ance"
+  },
+  "disapproval": {
+    "modernMeaningCn": "不赞成",
+    "literalMeaningCn": "摇着头不认",
+    "metaphorMeaningCn": "不赞成、反对",
+    "metaphorOptions": [
+      "不赞成、反对",
+      "被偏爱的东西",
+      "租约的味道"
+    ],
+    "mnemonicNote": "disapprov(不认可)+al：摇着头不肯认",
+    "sourceNote": "dis-(不) + 拉丁 approbare(认可) + -al"
+  },
+  "disastrous": {
+    "modernMeaningCn": "损失惨重的",
+    "literalMeaningCn": "招来大祸的",
+    "metaphorMeaningCn": "灾难性的、损失惨重的",
+    "metaphorOptions": [
+      "灾难性的、损失惨重的",
+      "年刊的工具",
+      "数着迅速的过日子"
+    ],
+    "mnemonicNote": "disastr(灾祸)+ous：招来的是一场大祸",
+    "sourceNote": "意大利 disastro，dis-(坏) + astro(星象)"
+  },
+  "discontented": {
+    "modernMeaningCn": "不满意的",
+    "literalMeaningCn": "心里不痛快的",
+    "metaphorMeaningCn": "不满的、不满意的",
+    "metaphorOptions": [
+      "不满的、不满意的",
+      "挑选出来的的过程",
+      "生产量的背面"
+    ],
+    "mnemonicNote": "dis(不)+contented(心满意足)：心里憋着不痛快",
+    "sourceNote": "dis-(不) + 拉丁 contentus(满足) + -ed"
+  },
+  "discourse": {
+    "modernMeaningCn": "论述、话语",
+    "literalMeaningCn": "话题跑开来",
+    "metaphorMeaningCn": "论述、话语",
+    "metaphorOptions": [
+      "论述、话语",
+      "向着引用去",
+      "尺寸的过程"
+    ],
+    "mnemonicNote": "dis(散开)+course(跑)：话头一路铺开来",
+    "sourceNote": "拉丁 discursus，dis-(散开) + currere(跑)"
+  },
+  "disgrace": {
+    "modernMeaningCn": "耻辱",
+    "literalMeaningCn": "体面没了",
+    "metaphorMeaningCn": "耻辱、失宠",
+    "metaphorOptions": [
+      "耻辱、失宠",
+      "源头的背面",
+      "眼镜的旧事"
+    ],
+    "mnemonicNote": "dis(去掉)+grace(体面)：体面丢得一点不剩",
+    "sourceNote": "意大利 disgrazia，dis-(去掉) + grazia(恩宠)"
+  },
+  "disillusion": {
+    "modernMeaningCn": "觉醒",
+    "literalMeaningCn": "把错觉拿走",
+    "metaphorMeaningCn": "使觉醒、使幻灭",
+    "metaphorOptions": [
+      "使觉醒、使幻灭",
+      "家庭杂务的小站",
+      "表面的地方"
+    ],
+    "mnemonicNote": "dis(去掉)+illusion(错觉)：把那层错觉拿掉",
+    "sourceNote": "dis-(去掉) + 拉丁 illusio(戏弄、错觉)"
+  },
+  "disillusioned": {
+    "modernMeaningCn": "幻想破灭了的",
+    "literalMeaningCn": "看透了真相的",
+    "metaphorMeaningCn": "幻想破灭的、失望的",
+    "metaphorOptions": [
+      "幻想破灭的、失望的",
+      "年代的地方",
+      "隔一代的小站"
+    ],
+    "mnemonicNote": "disillusion(看透)+ed：真相一戳，全明白了",
+    "sourceNote": "dis-(去掉) + 拉丁 illusio(错觉) + -ed"
+  },
+  "disobedience": {
+    "modernMeaningCn": "不服从",
+    "literalMeaningCn": "不听号令",
+    "metaphorMeaningCn": "不服从、违抗",
+    "metaphorOptions": [
+      "不服从、违抗",
+      "把免疫的串起来",
+      "把模糊的翻开"
+    ],
+    "mnemonicNote": "dis(不)+obedience(听命)：叫他往东偏往西",
+    "sourceNote": "dis-(不) + 拉丁 oboedire(听从) + -ence"
+  },
+  "disorient": {
+    "modernMeaningCn": "使失去方向",
+    "literalMeaningCn": "把方向感拿掉",
+    "metaphorMeaningCn": "使迷失方向、使困惑",
+    "metaphorOptions": [
+      "使迷失方向、使困惑",
+      "延迟的味道",
+      "压力的另一面"
+    ],
+    "mnemonicNote": "dis(去掉)+orient(方位)：把心里的方位感拿掉",
+    "sourceNote": "dis-(去掉) + 拉丁 oriens(日出、东方)"
+  },
+  "dispatch": {
+    "modernMeaningCn": "派遣",
+    "literalMeaningCn": "解开脚镣派出去",
+    "metaphorMeaningCn": "派遣、发送",
+    "metaphorOptions": [
+      "派遣、发送",
+      "劳作的影子",
+      "离吸引力很远"
+    ],
+    "mnemonicNote": "dis(分开)+patch(拴住)：松开脚镣把人派出去",
+    "sourceNote": "意大利 dispacciare，dis-(分开) + 拉丁 pedica(脚镣)"
+  },
+  "dispense": {
+    "modernMeaningCn": "分发",
+    "literalMeaningCn": "一份份称出来",
+    "metaphorMeaningCn": "分发、配药、免除",
+    "metaphorOptions": [
+      "分发、配药、免除",
+      "替惊起操心",
+      "守着实验的过活"
+    ],
+    "mnemonicNote": "dis(分开)+pense(称量)：一份一份称出来给人",
+    "sourceNote": "拉丁 dispensare，dis-(分开) + pensare(称量)"
+  },
+  "displace": {
+    "modernMeaningCn": "取代、使离开",
+    "literalMeaningCn": "把原来的挪开",
+    "metaphorMeaningCn": "取代、使离开",
+    "metaphorOptions": [
+      "取代、使离开",
+      "原因的旧事",
+      "使吃惊的背面"
+    ],
+    "mnemonicNote": "dis(去掉)+place(位置)：把原来那位挪开",
+    "sourceNote": "古法语 desplacer，des-(去掉) + place(位置)"
+  },
+  "displacement": {
+    "modernMeaningCn": "位移、取代",
+    "literalMeaningCn": "被挪开这件事",
+    "metaphorMeaningCn": "位移、取代",
+    "metaphorOptions": [
+      "位移、取代",
+      "离为了很远",
+      "替刻痕操心"
+    ],
+    "mnemonicNote": "displace(挪开)+ment：东西被挪走这一件事",
+    "sourceNote": "古法语 desplacer(挪开) + -ment"
+  },
+  "disposition": {
+    "modernMeaningCn": "性情",
+    "literalMeaningCn": "天生那副排布",
+    "metaphorMeaningCn": "性情、倾向、处置",
+    "metaphorOptions": [
+      "性情、倾向、处置",
+      "守着第三过活",
+      "我们的的小站"
+    ],
+    "mnemonicNote": "dispos(安排)+ition：天生的那副排布",
+    "sourceNote": "拉丁 dispositio，disponere(安排)"
+  },
+  "disproportionate": {
+    "modernMeaningCn": "不成比例的",
+    "literalMeaningCn": "大小对不上",
+    "metaphorMeaningCn": "不成比例的、过分的",
+    "metaphorOptions": [
+      "不成比例的、过分的",
+      "植物的一角",
+      "暴动的另一面"
+    ],
+    "mnemonicNote": "dis(不)+proportionate(匀称)：两头大小对不上",
+    "sourceNote": "dis-(不) + 拉丁 proportio(比例) + -ate"
+  },
+  "disregard": {
+    "modernMeaningCn": "忽视",
+    "literalMeaningCn": "不去看它",
+    "metaphorMeaningCn": "忽视、漠视",
+    "metaphorOptions": [
+      "忽视、漠视",
+      "被假设的东西",
+      "乐观者的味道"
+    ],
+    "mnemonicNote": "dis(不)+regard(注目)：扭头不去看",
+    "sourceNote": "dis-(不) + 古法语 regarder(注视)"
+  },
+  "disrupt": {
+    "modernMeaningCn": "扰乱、中断",
+    "literalMeaningCn": "把好好的扯断",
+    "metaphorMeaningCn": "扰乱、中断",
+    "metaphorOptions": [
+      "扰乱、中断",
+      "装天花板的味道",
+      "不牢固的的另一面"
+    ],
+    "mnemonicNote": "dis(分开)+rupt(断裂)：把好好的秩序扯断",
+    "sourceNote": "拉丁 disruptus，dis-(分开) + rumpere(断裂)"
+  }
 }

@@ -27,7 +27,7 @@ const targetWords = words.map((w) => w.word)
 // 分层：Stage 1 → Stage 2 → Stage 3 → 复核轮（3b），同名词以更晚的为准。
 // 3b 是 2026-09 全表复核轮加的：那 811 条 Tatoeba 里没有中文对照的例句，由复核 AI
 // 逐条翻译补齐（exampleEn 原样保留，只补 exampleCn）。
-const handoffPaths = ['words-examples.json', 'words-examples-stage2.json', 'words-examples-stage3.json', 'words-examples-stage3b.json']
+const handoffPaths = ['words-examples.json', 'words-examples-stage2.json', 'words-examples-stage3.json', 'words-examples-stage3b.json', 'words-examples-stage3c.json']
   .map((name) => join(here, 'lib', 'handoff', name))
 const handoff = new Map()
 for (const p of handoffPaths) {

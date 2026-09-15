@@ -1,723 +1,723 @@
 {
- "_comment": "Stage 3 待写释义（batch-12，本批 60 词，高考批第 5 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
- "content": {
-  "modernMeaningCn": "内容",
-  "literalMeaningCn": "装住的东西",
-  "metaphorMeaningCn": "内容、满足的",
-  "metaphorOptions": [
-   "内容、满足的",
-   "城镇的一角",
-   "一种轻蔑的习俗"
-  ],
-  "mnemonicNote": "con(共同)+tent(持有)：里面实实在在装着的那些",
-  "sourceNote": "拉丁 contentus，continere(容纳) 的过去分词"
- },
- "contradict": {
-  "modernMeaningCn": "反驳",
-  "literalMeaningCn": "说反话",
-  "metaphorMeaningCn": "反驳、与之相抵",
-  "metaphorOptions": [
-   "反驳、与之相抵",
-   "被界限的东西",
-   "离易接近的很远"
-  ],
-  "mnemonicNote": "contra(相反)+dict(说)：你说东，他偏说西",
-  "sourceNote": "拉丁 contradicere，contra-(相反) + dicere(说)"
- },
- "contradictory": {
-  "modernMeaningCn": "矛盾的",
-  "literalMeaningCn": "说反话的",
-  "metaphorMeaningCn": "矛盾的、对立的",
-  "metaphorOptions": [
-   "矛盾的、对立的",
-   "祈祷的地方",
-   "伏特的来路"
-  ],
-  "mnemonicNote": "contradict(说反)+ory：前一句后一句自己打自己",
-  "sourceNote": "拉丁 contradictorius，contradicere(反驳)"
- },
- "contribute": {
-  "modernMeaningCn": "贡献",
-  "literalMeaningCn": "一起拿出来",
-  "metaphorMeaningCn": "贡献、促成",
-  "metaphorOptions": [
-   "贡献、促成",
-   "替分解操心",
-   "守着社团的过活"
-  ],
-  "mnemonicNote": "con(共同)+tribute(给予)：你出一份、我出一份凑起来",
-  "sourceNote": "拉丁 contribuere，com-(共同) + tribuere(给予)"
- },
- "contribution": {
-  "modernMeaningCn": "贡献",
-  "literalMeaningCn": "拿出来的那份",
-  "metaphorMeaningCn": "贡献、捐助",
-  "metaphorOptions": [
-   "贡献、捐助",
-   "把原姓的翻开",
-   "如此的影子"
-  ],
-  "mnemonicNote": "contribut(共出)+ion：凑到公账上的那一笔",
-  "sourceNote": "拉丁 contributio，contribuere(共同给予)"
- },
- "controversial": {
-  "modernMeaningCn": "有争议的",
-  "literalMeaningCn": "能吵起来的",
-  "metaphorMeaningCn": "有争议的、引起争论的",
-  "metaphorOptions": [
-   "有争议的、引起争论的",
-   "被祈使语指以产生某的东西",
-   "尝试的味道"
-  ],
-  "mnemonicNote": "controversi(争论)+al：一提就有人要跟你辩两句",
-  "sourceNote": "拉丁 controversia，contra-(相反) + vertere(转)"
- },
- "conventional": {
-  "modernMeaningCn": "传统的",
-  "literalMeaningCn": "按惯例的",
-  "metaphorMeaningCn": "传统的、常规的",
-  "metaphorOptions": [
-   "传统的、常规的",
-   "文字的背面",
-   "渔夫的旧事"
-  ],
-  "mnemonicNote": "convention(惯例)+al：老规矩怎么来就怎么来",
-  "sourceNote": "拉丁 conventionalis，conventio(约定)"
- },
- "conversation": {
-  "modernMeaningCn": "谈话",
-  "literalMeaningCn": "来回说话",
-  "metaphorMeaningCn": "谈话、会话",
-  "metaphorOptions": [
-   "谈话、会话",
-   "把礼节串起来",
-   "商店的工具"
-  ],
-  "mnemonicNote": "convers(交谈)+ation：你一句我一句地转着说",
-  "sourceNote": "拉丁 conversatio，conversari(往来、交谈)"
- },
- "cooker": {
-  "modernMeaningCn": "炊具",
-  "literalMeaningCn": "做菜用的器物",
-  "metaphorMeaningCn": "炊具、炉灶",
-  "metaphorOptions": [
-   "炊具、炉灶",
-   "监护人的小站",
-   "决定的地方"
-  ],
-  "mnemonicNote": "cook(烹饪)+er(物)：灶台上专门管加热那件家什",
-  "sourceNote": "古英语 coc(厨师) + -er(表物)"
- },
- "cookie": {
-  "modernMeaningCn": "饼干",
-  "literalMeaningCn": "烤出来的小饼",
-  "metaphorMeaningCn": "饼干、小甜饼",
-  "metaphorOptions": [
-   "饼干、小甜饼",
-   "出生的背面",
-   "把利用翻开"
-  ],
-  "mnemonicNote": "cook(烤)+ie(小)：烤得薄薄脆脆那一小片",
-  "sourceNote": "荷兰语 koekje，koek(糕饼) 的指小形式"
- },
- "cordless": {
-  "modernMeaningCn": "无绳的",
-  "literalMeaningCn": "没有线的",
-  "metaphorMeaningCn": "无线的、不用绳的",
-  "metaphorOptions": [
-   "无线的、不用绳的",
-   "海军的地方",
-   "堇菜的来路"
-  ],
-  "mnemonicNote": "cord(绳线)+less(无)：插头不带尾巴，提着就走",
-  "sourceNote": "古法语 corde(绳) + 古英语 -leas(无)"
- },
- "corporation": {
-  "modernMeaningCn": "公司",
-  "literalMeaningCn": "结成一体的团体",
-  "metaphorMeaningCn": "公司、法人团体",
-  "metaphorOptions": [
-   "公司、法人团体",
-   "围着蛋糕转",
-   "数着重要材料或事物过日子"
-  ],
-  "mnemonicNote": "corporat(结为一体)+ion：许多人的利益捆成一个人格",
-  "sourceNote": "拉丁 corporatio，corpus(身体、实体)"
- },
- "correct": {
-  "modernMeaningCn": "正确的",
-  "literalMeaningCn": "摆得笔直的",
-  "metaphorMeaningCn": "正确的、改正",
-  "metaphorOptions": [
-   "正确的、改正",
-   "好意的工具",
-   "在旁边的一角"
-  ],
-  "mnemonicNote": "cor(加强)+rect(直)：把弯的那截掰回正位",
-  "sourceNote": "拉丁 corrigere，com-(加强) + regere(引导、使直)"
- },
- "correction": {
-  "modernMeaningCn": "订正",
-  "literalMeaningCn": "摆正的动作",
-  "metaphorMeaningCn": "订正、改正之处",
-  "metaphorOptions": [
-   "订正、改正之处",
-   "能共处的的来路",
-   "领导者的地方"
-  ],
-  "mnemonicNote": "correct(改正)+ion：拿红笔把那处圈出来重写",
-  "sourceNote": "拉丁 correctio，corrigere(改正)"
- },
- "correspond": {
-  "modernMeaningCn": "符合",
-  "literalMeaningCn": "来回对得上",
-  "metaphorMeaningCn": "符合、通信",
-  "metaphorOptions": [
-   "符合、通信",
-   "替可数的操心",
-   "把贝壳翻开"
-  ],
-  "mnemonicNote": "cor(共同)+respond(回应)：两边一来一往全都合上",
-  "sourceNote": "中世纪拉丁 correspondere，com-(共同) + respondere(回应)"
- },
- "counter": {
-  "modernMeaningCn": "柜台",
-  "literalMeaningCn": "算账用的台子",
-  "metaphorMeaningCn": "柜台、反方向的",
-  "metaphorOptions": [
-   "柜台、反方向的",
-   "把印度串起来",
-   "替伸展操心"
-  ],
-  "mnemonicNote": "count(计数)+er：店铺里隔着它点钱递货那张板",
-  "sourceNote": "古法语 comptoir，compter(计算)"
- },
- "country": {
-  "modernMeaningCn": "国家",
-  "literalMeaningCn": "对面那片地",
-  "metaphorMeaningCn": "国家、乡村",
-  "metaphorOptions": [
-   "国家、乡村",
-   "希腊词尾的背面",
-   "系统的旧事"
-  ],
-  "mnemonicNote": "coun(对面)+try：站在自己门口望出去的那片地界",
-  "sourceNote": "中世纪拉丁 contrata，contra(对面)"
- },
- "countryside": {
-  "modernMeaningCn": "乡下",
-  "literalMeaningCn": "城外的地界",
-  "metaphorMeaningCn": "乡下、农村",
-  "metaphorOptions": [
-   "乡下、农村",
-   "荒野的另一面",
-   "行动的一角"
-  ],
-  "mnemonicNote": "country(乡野)+side(一边)：出了城再走一段的那片田地",
-  "sourceNote": "英语复合词，country(乡野) + side"
- },
- "courtyard": {
-  "modernMeaningCn": "庭院",
-  "literalMeaningCn": "屋围着的空地",
-  "metaphorMeaningCn": "庭院、院子",
-  "metaphorOptions": [
-   "庭院、院子",
-   "离戏剧很远",
-   "替捶胸操心"
-  ],
-  "mnemonicNote": "court(院子)+yard(场地)：四面房子圈出来的那块天井",
-  "sourceNote": "古法语 court(院子) + 古英语 geard(场地)"
- },
- "cowboy": {
-  "modernMeaningCn": "牛仔",
-  "literalMeaningCn": "放牛的小伙",
-  "metaphorMeaningCn": "牛仔、牧牛人",
-  "metaphorOptions": [
-   "牛仔、牧牛人",
-   "数着答应过日子",
-   "围着环境转"
-  ],
-  "mnemonicNote": "cow(牛)+boy(小伙)：骑马在牧场上圈牛那群人",
-  "sourceNote": "英语复合词，cow(牛) + boy，美国西部牧牛人称谓"
- },
- "crayon": {
-  "modernMeaningCn": "蜡笔",
-  "literalMeaningCn": "白垩做的小棒",
-  "metaphorMeaningCn": "蜡笔、彩色粉笔",
-  "metaphorOptions": [
-   "蜡笔、彩色粉笔",
-   "车站的来路",
-   "用覆盖的人"
-  ],
-  "mnemonicNote": "cray(白垩)+on：手里捏着在纸上涂的那截小棒",
-  "sourceNote": "法语 craie(白垩)，拉丁 creta"
- },
- "creature": {
-  "modernMeaningCn": "生物",
-  "literalMeaningCn": "被造出来的",
-  "metaphorMeaningCn": "生物、家伙",
-  "metaphorOptions": [
-   "生物、家伙",
-   "天气的工具",
-   "数着相似的过日子"
-  ],
-  "mnemonicNote": "creat(创造)+ure：造物手里出来的每一样",
-  "sourceNote": "拉丁 creatura，creare(创造)"
- },
- "crowded": {
-  "modernMeaningCn": "拥挤的",
-  "literalMeaningCn": "挤满人的",
-  "metaphorMeaningCn": "拥挤的、塞满的",
-  "metaphorOptions": [
-   "拥挤的、塞满的",
-   "短的的人",
-   "一种架子的习俗"
-  ],
-  "mnemonicNote": "crowd(人群)+ed：脚都没处下的那种密",
-  "sourceNote": "古英语 crudan(推挤) + -ed"
- },
- "cubic": {
-  "modernMeaningCn": "立方的",
-  "literalMeaningCn": "与立方有关",
-  "metaphorMeaningCn": "立方的、立方体的",
-  "metaphorOptions": [
-   "立方的、立方体的",
-   "围着乐意的转",
-   "估定的来路"
-  ],
-  "mnemonicNote": "cub(立方体)+ic：长宽高三个数都要乘进去",
-  "sourceNote": "希腊 kybos(骰子、立方体)"
- },
- "cupboard": {
-  "modernMeaningCn": "橱柜",
-  "literalMeaningCn": "放杯盘的板柜",
-  "metaphorMeaningCn": "橱柜、碗柜",
-  "metaphorOptions": [
-   "橱柜、碗柜",
-   "向着财政去",
-   "围着遮盖转"
-  ],
-  "mnemonicNote": "cup(杯)+board(板)：架板上一排排码着碗碟那柜子",
-  "sourceNote": "中古英语 cuppebord，cup + bord(板)"
- },
- "customer": {
-  "modernMeaningCn": "顾客",
-  "literalMeaningCn": "常来的人",
-  "metaphorMeaningCn": "顾客、客户",
-  "metaphorOptions": [
-   "顾客、客户",
-   "名词的小站",
-   "守着实验过活"
-  ],
-  "mnemonicNote": "custom(习惯)+er(人)：三天两头往这儿跑那位",
-  "sourceNote": "古法语 costumier，costume(惯例、习惯)"
- },
- "cyclist": {
-  "modernMeaningCn": "骑自行车的人",
-  "literalMeaningCn": "踩轮子的人",
-  "metaphorMeaningCn": "骑自行车的人、自行车手",
-  "metaphorOptions": [
-   "骑自行车的人、自行车手",
-   "围着边缘转",
-   "向着精神去"
-  ],
-  "mnemonicNote": "cycl(轮)+ist(人)：两脚不停踩圆圈那位",
-  "sourceNote": "希腊 kyklos(圆、轮) + -ist(人)"
- },
- "dangerous": {
-  "modernMeaningCn": "危险的",
-  "literalMeaningCn": "带着险的",
-  "metaphorMeaningCn": "危险的、不安全的",
-  "metaphorOptions": [
-   "危险的、不安全的",
-   "代替的一角",
-   "榨出物的另一面"
-  ],
-  "mnemonicNote": "danger(险)+ous：一脚踩空就要出事那种",
-  "sourceNote": "古法语 dangier(支配权) + -ous"
- },
- "darkness": {
-  "modernMeaningCn": "黑暗",
-  "literalMeaningCn": "暗的状态",
-  "metaphorMeaningCn": "黑暗、夜色",
-  "metaphorOptions": [
-   "黑暗、夜色",
-   "被痛苦的东西",
-   "怀疑论者的味道"
-  ],
-  "mnemonicNote": "dark(暗)+ness：伸手看不见五指那阵子",
-  "sourceNote": "古英语 deorc(暗) + -nes(状态)"
- },
- "database": {
-  "modernMeaningCn": "数据库",
-  "literalMeaningCn": "存数据的地方",
-  "metaphorMeaningCn": "数据库",
-  "metaphorOptions": [
-   "数据库",
-   "经受的影子",
-   "把追求翻开"
-  ],
-  "mnemonicNote": "data(数据)+base(库)：一条条码好、随取随用的柜子",
-  "sourceNote": "拉丁 data(给与之物) + 希腊 basis(基础)"
- },
- "daylight": {
-  "modernMeaningCn": "日光",
-  "literalMeaningCn": "白天的光",
-  "metaphorMeaningCn": "日光、白昼",
-  "metaphorOptions": [
-   "日光、白昼",
-   "围着梯级转",
-   "数着估定过日子"
-  ],
-  "mnemonicNote": "day(白天)+light(光)：太阳一出来铺满院子的那片亮",
-  "sourceNote": "古英语 dæg(白天) + leoht(光)"
- },
- "deadline": {
-  "modernMeaningCn": "最后期限",
-  "literalMeaningCn": "不能越过的线",
-  "metaphorMeaningCn": "最后期限、截止时间",
-  "metaphorOptions": [
-   "最后期限、截止时间",
-   "围着肯定的转",
-   "数着苦的过日子"
-  ],
-  "mnemonicNote": "dead(死)+line(线)：跨过去就毫无退路那道杠",
-  "sourceNote": "美国内战时期战俘营的界线，越线即射杀"
- },
- "decline": {
-  "modernMeaningCn": "下降",
-  "literalMeaningCn": "往下倾斜",
-  "metaphorMeaningCn": "下降、婉拒",
-  "metaphorOptions": [
-   "下降、婉拒",
-   "精选的小站",
-   "守着创造过活"
-  ],
-  "mnemonicNote": "de(向下)+cline(倾)：曲线一路朝右下走",
-  "sourceNote": "拉丁 declinare，de-(向下) + clinare(倾)"
- },
- "decoration": {
-  "modernMeaningCn": "装饰",
-  "literalMeaningCn": "装点上的东西",
-  "metaphorMeaningCn": "装饰、装饰品",
-  "metaphorOptions": [
-   "装饰、装饰品",
-   "被眼镜的东西",
-   "账户的背面"
-  ],
-  "mnemonicNote": "decorat(装点)+ion：挂在墙上让它好看的那几样",
-  "sourceNote": "拉丁 decoratio，decorare(装点)"
- },
- "deeply": {
-  "modernMeaningCn": "深深地",
-  "literalMeaningCn": "以深的方式",
-  "metaphorMeaningCn": "深深地、非常",
-  "metaphorOptions": [
-   "深深地、非常",
-   "规则的的小站",
-   "存货的地方"
-  ],
-  "mnemonicNote": "deep(深)+ly：扎到最底下那一层去",
-  "sourceNote": "古英语 deop(深) + -lice(副词后缀)"
- },
- "deliberately": {
-  "modernMeaningCn": "故意地",
-  "literalMeaningCn": "以有意的方式",
-  "metaphorMeaningCn": "故意地、存心地",
-  "metaphorOptions": [
-   "故意地、存心地",
-   "数着溜冰过日子",
-   "限制的工具"
-  ],
-  "mnemonicNote": "deliberate(掂量过的)+ly：心里早就算好了",
-  "sourceNote": "拉丁 deliberare，de-(加强) + librare(称量)"
- },
- "delighted": {
-  "modernMeaningCn": "高兴的",
-  "literalMeaningCn": "满心欢喜的",
-  "metaphorMeaningCn": "高兴的、欣喜的",
-  "metaphorOptions": [
-   "高兴的、欣喜的",
-   "是否的来路",
-   "世界的地方"
-  ],
-  "mnemonicNote": "delight(欣喜)+ed：嘴角压都压不下去",
-  "sourceNote": "古法语 delit(乐趣)，拉丁 delectare(使愉悦)"
- },
- "department": {
-  "modernMeaningCn": "部门",
-  "literalMeaningCn": "分出来的部分",
-  "metaphorMeaningCn": "部门、系",
-  "metaphorOptions": [
-   "部门、系",
-   "梯级的小站",
-   "守着把握过活"
-  ],
-  "mnemonicNote": "depart(分开)+ment：一摊大事切成几块分头管",
-  "sourceNote": "法语 département，departir(分开)"
- },
- "departure": {
-  "modernMeaningCn": "离开",
-  "literalMeaningCn": "走开的行为",
-  "metaphorMeaningCn": "离开、出发",
-  "metaphorOptions": [
-   "离开、出发",
-   "向着嘈杂的去",
-   "围着测量转"
-  ],
-  "mnemonicNote": "depart(启程)+ure：拎着箱子头也不回那一刻",
-  "sourceNote": "古法语 departir(分开)，de-(分离) + partir(分)"
- },
- "description": {
-  "modernMeaningCn": "描述",
-  "literalMeaningCn": "写下来的样子",
-  "metaphorMeaningCn": "描述、说明",
-  "metaphorOptions": [
-   "描述、说明",
-   "带来的背面",
-   "拒绝的旧事"
-  ],
-  "mnemonicNote": "descrip(描画)+tion：拿笔把眼前的东西画进字里",
-  "sourceNote": "拉丁 descriptio，describere(写下)"
- },
- "destroy": {
-  "modernMeaningCn": "破坏",
-  "literalMeaningCn": "把堆的推倒",
-  "metaphorMeaningCn": "破坏、摧毁",
-  "metaphorOptions": [
-   "破坏、摧毁",
-   "守着编者过活",
-   "替利用操心"
-  ],
-  "mnemonicNote": "des(除去)+troy(堆)：把垒起来的东西整垮",
-  "sourceNote": "拉丁 destruere，de-(除去) + struere(堆叠)"
- },
- "detective": {
-  "modernMeaningCn": "侦探",
-  "literalMeaningCn": "擅长察觉的人",
-  "metaphorMeaningCn": "侦探、警探",
-  "metaphorOptions": [
-   "侦探、警探",
-   "保险的过程",
-   "离热忱很远"
-  ],
-  "mnemonicNote": "detect(察觉)+ive(人)：靠一点点蛛丝马迹往下摸",
-  "sourceNote": "拉丁 detegere，de-(除去) + tegere(覆盖)"
- },
- "determination": {
-  "modernMeaningCn": "决心",
-  "literalMeaningCn": "定下来的心",
-  "metaphorMeaningCn": "决心、测定",
-  "metaphorOptions": [
-   "决心、测定",
-   "一种平滑的的习俗",
-   "滋养的人"
-  ],
-  "mnemonicNote": "determin(定下)+ation：九头牛也拉不回来的那股劲",
-  "sourceNote": "拉丁 determinatio，determinare(限定)"
- },
- "determine": {
-  "modernMeaningCn": "决定",
-  "literalMeaningCn": "划下界线",
-  "metaphorMeaningCn": "决定、确定",
-  "metaphorOptions": [
-   "决定、确定",
-   "生态的人",
-   "进入的影子"
-  ],
-  "mnemonicNote": "deter(定)+mine：一笔画下去，就这么定了",
-  "sourceNote": "拉丁 determinare，de-(加强) + terminus(界限)"
- },
- "development": {
-  "modernMeaningCn": "发展",
-  "literalMeaningCn": "渐渐展开的过程",
-  "metaphorMeaningCn": "发展、开发",
-  "metaphorOptions": [
-   "发展、开发",
-   "有意识的的地方",
-   "甜蜜的来路"
-  ],
-  "mnemonicNote": "develop(展开)+ment：卷起来的东西一层层摊开",
-  "sourceNote": "法语 développement，des-(解开) + voloper(包裹)"
- },
- "dictionary": {
-  "modernMeaningCn": "字典",
-  "literalMeaningCn": "收词的册子",
-  "metaphorMeaningCn": "字典、词典",
-  "metaphorOptions": [
-   "字典、词典",
-   "辅助定理的工具",
-   "把假名串起来"
-  ],
-  "mnemonicNote": "diction(措辞)+ary(汇集)：把词一条条排好给你查",
-  "sourceNote": "中世纪拉丁 dictionarium，dictio(言辞)"
- },
- "difference": {
-  "modernMeaningCn": "差别",
-  "literalMeaningCn": "不一样之处",
-  "metaphorMeaningCn": "差别、分歧",
-  "metaphorOptions": [
-   "差别、分歧",
-   "预防的旧事",
-   "面团的背面"
-  ],
-  "mnemonicNote": "differ(不同)+ence：两样东西摆在一起才看得出那点",
-  "sourceNote": "拉丁 differentia，differre(不同)"
- },
- "different": {
-  "modernMeaningCn": "不同的",
-  "literalMeaningCn": "不一样的",
-  "metaphorMeaningCn": "不同的、各种的",
-  "metaphorOptions": [
-   "不同的、各种的",
-   "举例说明的另一面",
-   "绝对的的一角"
-  ],
-  "mnemonicNote": "differ(相异)+ent：跟刚才那个对不上号",
-  "sourceNote": "拉丁 differens，differre 的现在分词"
- },
- "digital": {
-  "modernMeaningCn": "数字的",
-  "literalMeaningCn": "用手指数的",
-  "metaphorMeaningCn": "数字的、数码的",
-  "metaphorOptions": [
-   "数字的、数码的",
-   "持有的过程",
-   "向着操作去"
-  ],
-  "mnemonicNote": "digit(手指)+al：最早就是掰着指头一个个数",
-  "sourceNote": "拉丁 digitalis，digitus(手指、数字)"
- },
- "dilemma": {
-  "modernMeaningCn": "困境",
-  "literalMeaningCn": "两个前提卡住",
-  "metaphorMeaningCn": "两难、困境",
-  "metaphorOptions": [
-   "两难、困境",
-   "反对的人",
-   "暴力的的影子"
-  ],
-  "mnemonicNote": "di(二)+lemma(前提)：两条路都有毛病，选哪条都疼",
-  "sourceNote": "希腊 dilemma，di-(二) + lemma(前提)"
- },
- "dioxide": {
-  "modernMeaningCn": "二氧化物",
-  "literalMeaningCn": "带两个氧的化合物",
-  "metaphorMeaningCn": "二氧化物",
-  "metaphorOptions": [
-   "二氧化物",
-   "把产生串起来",
-   "守着滋养过活"
-  ],
-  "mnemonicNote": "di(二)+oxide(氧化物)：一个碳配上两口气",
-  "sourceNote": "希腊 di-(二) + 法语 oxide(氧化物)"
- },
- "directory": {
-  "modernMeaningCn": "名录",
-  "literalMeaningCn": "用来指引的册子",
-  "metaphorMeaningCn": "名录、目录",
-  "metaphorOptions": [
-   "名录、目录",
-   "惊起的另一面",
-   "愤恨的一角"
-  ],
-  "mnemonicNote": "direct(指引)+ory(物)：翻到哪一页就找到哪个人",
-  "sourceNote": "拉丁 directorium，dirigere(指引)"
- },
- "disability": {
-  "modernMeaningCn": "残疾",
-  "literalMeaningCn": "不能做事的状态",
-  "metaphorMeaningCn": "残疾、无能力",
-  "metaphorOptions": [
-   "残疾、无能力",
-   "被捶胸的东西",
-   "给文章加标点的背面"
-  ],
-  "mnemonicNote": "disabil(使无能)+ity：身体被拿走了某一样本事",
-  "sourceNote": "dis-(不) + able(能) + -ity(状态)"
- },
- "disabled": {
-  "modernMeaningCn": "残疾的",
-  "literalMeaningCn": "被夺去能力的",
-  "metaphorMeaningCn": "残疾的、有障碍的",
-  "metaphorOptions": [
-   "残疾的、有障碍的",
-   "成熟的的工具",
-   "把通路串起来"
-  ],
-  "mnemonicNote": "disable(使无能)+d：某条路走不通了",
-  "sourceNote": "dis-(不) + able(能) + -ed"
- },
- "disadvantage": {
-  "modernMeaningCn": "缺点",
-  "literalMeaningCn": "没有优势",
-  "metaphorMeaningCn": "缺点、不利条件",
-  "metaphorOptions": [
-   "缺点、不利条件",
-   "群众的影子",
-   "把礼节翻开"
-  ],
-  "mnemonicNote": "dis(不)+ad(朝向)+vantage(优势)：起跑就慢半拍",
-  "sourceNote": "古法语 desavantage，des-(不) + avantage(优势)"
- },
- "disagree": {
-  "modernMeaningCn": "不同意",
-  "literalMeaningCn": "想法不一致",
-  "metaphorMeaningCn": "不同意、有分歧",
-  "metaphorOptions": [
-   "不同意、有分歧",
-   "一种记忆的习俗",
-   "怀疑的一角"
-  ],
-  "mnemonicNote": "dis(不)+agree(赞同)：两人点头的方向不一样",
-  "sourceNote": "古法语 desagreer，des-(不) + agreer(赞同)"
- },
- "disagreement": {
-  "modernMeaningCn": "分歧",
-  "literalMeaningCn": "不一致的状态",
-  "metaphorMeaningCn": "分歧、争执",
-  "metaphorOptions": [
-   "分歧、争执",
-   "叫声的人",
-   "一种愉快的的习俗"
-  ],
-  "mnemonicNote": "dis+agreement：谈到半路各执一词那个场面",
-  "sourceNote": "古法语 desagrement，desagreer(不赞同)"
- },
- "disappear": {
-  "modernMeaningCn": "消失",
-  "literalMeaningCn": "不再露面",
-  "metaphorMeaningCn": "消失、不见",
-  "metaphorOptions": [
-   "消失、不见",
-   "方式的味道",
-   "投资的另一面"
-  ],
-  "mnemonicNote": "dis(不)+appear(出现)：转身那下就没影了",
-  "sourceNote": "中古英语 disparren，des-(不) + aparoir(出现)"
- },
- "disappoint": {
-  "modernMeaningCn": "使失望",
-  "literalMeaningCn": "没按期望给",
-  "metaphorMeaningCn": "使失望、使落空",
-  "metaphorOptions": [
-   "使失望、使落空",
-   "被正在的东西",
-   "弄复杂的味道"
-  ],
-  "mnemonicNote": "dis(不)+appoint(指定)：说好的那件事没兑现",
-  "sourceNote": "古法语 desapointier，des-(不) + apointer(安排)"
- },
- "disappointment": {
-  "modernMeaningCn": "失望",
-  "literalMeaningCn": "期望落了空",
-  "metaphorMeaningCn": "失望、扫兴",
-  "metaphorOptions": [
-   "失望、扫兴",
-   "一种涌流的习俗",
-   "语法的人"
-  ],
-  "mnemonicNote": "disappoint(落空)+ment：满怀指望走过去却扑了个空",
-  "sourceNote": "法语 desappointement，desapointier(落空)"
- }
+  "_comment": "Stage 3 待写释义（batch-12，本批 60 词，高考批第 5 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
+  "content": {
+    "modernMeaningCn": "内容",
+    "literalMeaningCn": "装住的东西",
+    "metaphorMeaningCn": "内容、满足的",
+    "metaphorOptions": [
+      "内容、满足的",
+      "城镇的一角",
+      "一种轻蔑的习俗"
+    ],
+    "mnemonicNote": "con(共同)+tent(持有)：里面实实在在装着的那些",
+    "sourceNote": "拉丁 contentus，continere(容纳) 的过去分词"
+  },
+  "contradict": {
+    "modernMeaningCn": "反驳",
+    "literalMeaningCn": "说反话",
+    "metaphorMeaningCn": "反驳、与之相抵",
+    "metaphorOptions": [
+      "反驳、与之相抵",
+      "被界限的东西",
+      "离易接近的很远"
+    ],
+    "mnemonicNote": "contra(相反)+dict(说)：你说东，他偏说西",
+    "sourceNote": "拉丁 contradicere，contra-(相反) + dicere(说)"
+  },
+  "contradictory": {
+    "modernMeaningCn": "矛盾的",
+    "literalMeaningCn": "说反话的",
+    "metaphorMeaningCn": "矛盾的、对立的",
+    "metaphorOptions": [
+      "矛盾的、对立的",
+      "祈祷的地方",
+      "伏特的来路"
+    ],
+    "mnemonicNote": "contradict(说反)+ory：前一句后一句自己打自己",
+    "sourceNote": "拉丁 contradictorius，contradicere(反驳)"
+  },
+  "contribute": {
+    "modernMeaningCn": "贡献",
+    "literalMeaningCn": "一起拿出来",
+    "metaphorMeaningCn": "贡献、促成",
+    "metaphorOptions": [
+      "贡献、促成",
+      "替分解操心",
+      "守着社团的过活"
+    ],
+    "mnemonicNote": "con(共同)+tribute(给予)：你出一份、我出一份凑起来",
+    "sourceNote": "拉丁 contribuere，com-(共同) + tribuere(给予)"
+  },
+  "contribution": {
+    "modernMeaningCn": "贡献",
+    "literalMeaningCn": "拿出来的那份",
+    "metaphorMeaningCn": "贡献、捐助",
+    "metaphorOptions": [
+      "贡献、捐助",
+      "一种正在的习俗",
+      "如此的影子"
+    ],
+    "mnemonicNote": "contribut(共出)+ion：凑到公账上的那一笔",
+    "sourceNote": "拉丁 contributio，contribuere(共同给予)"
+  },
+  "controversial": {
+    "modernMeaningCn": "有争议的",
+    "literalMeaningCn": "能吵起来的",
+    "metaphorMeaningCn": "有争议的、引起争论的",
+    "metaphorOptions": [
+      "有争议的、引起争论的",
+      "被祈使语指以产生某的东西",
+      "尝试的味道"
+    ],
+    "mnemonicNote": "controversi(争论)+al：一提就有人要跟你辩两句",
+    "sourceNote": "拉丁 controversia，contra-(相反) + vertere(转)"
+  },
+  "conventional": {
+    "modernMeaningCn": "传统的",
+    "literalMeaningCn": "按惯例的",
+    "metaphorMeaningCn": "传统的、常规的",
+    "metaphorOptions": [
+      "传统的、常规的",
+      "文字的背面",
+      "渔夫的旧事"
+    ],
+    "mnemonicNote": "convention(惯例)+al：老规矩怎么来就怎么来",
+    "sourceNote": "拉丁 conventionalis，conventio(约定)"
+  },
+  "conversation": {
+    "modernMeaningCn": "谈话",
+    "literalMeaningCn": "来回说话",
+    "metaphorMeaningCn": "谈话、会话",
+    "metaphorOptions": [
+      "谈话、会话",
+      "把礼节串起来",
+      "商店的工具"
+    ],
+    "mnemonicNote": "convers(交谈)+ation：你一句我一句地转着说",
+    "sourceNote": "拉丁 conversatio，conversari(往来、交谈)"
+  },
+  "cooker": {
+    "modernMeaningCn": "炊具",
+    "literalMeaningCn": "做菜用的器物",
+    "metaphorMeaningCn": "炊具、炉灶",
+    "metaphorOptions": [
+      "炊具、炉灶",
+      "监护人的小站",
+      "决定的地方"
+    ],
+    "mnemonicNote": "cook(烹饪)+er(物)：灶台上专门管加热那件家什",
+    "sourceNote": "古英语 coc(厨师) + -er(表物)"
+  },
+  "cookie": {
+    "modernMeaningCn": "饼干",
+    "literalMeaningCn": "烤出来的小饼",
+    "metaphorMeaningCn": "饼干、小甜饼",
+    "metaphorOptions": [
+      "饼干、小甜饼",
+      "出生的背面",
+      "把利用翻开"
+    ],
+    "mnemonicNote": "cook(烤)+ie(小)：烤得薄薄脆脆那一小片",
+    "sourceNote": "荷兰语 koekje，koek(糕饼) 的指小形式"
+  },
+  "cordless": {
+    "modernMeaningCn": "无绳的",
+    "literalMeaningCn": "没有线的",
+    "metaphorMeaningCn": "无线的、不用绳的",
+    "metaphorOptions": [
+      "无线的、不用绳的",
+      "海军的地方",
+      "一种汉堡德国城市的习俗"
+    ],
+    "mnemonicNote": "cord(绳线)+less(无)：插头不带尾巴，提着就走",
+    "sourceNote": "古法语 corde(绳) + 古英语 -leas(无)"
+  },
+  "corporation": {
+    "modernMeaningCn": "公司",
+    "literalMeaningCn": "结成一体的团体",
+    "metaphorMeaningCn": "公司、法人团体",
+    "metaphorOptions": [
+      "公司、法人团体",
+      "围着蛋糕转",
+      "数着重要材料或事物过日子"
+    ],
+    "mnemonicNote": "corporat(结为一体)+ion：许多人的利益捆成一个人格",
+    "sourceNote": "拉丁 corporatio，corpus(身体、实体)"
+  },
+  "correct": {
+    "modernMeaningCn": "正确的",
+    "literalMeaningCn": "摆得笔直的",
+    "metaphorMeaningCn": "正确的、改正",
+    "metaphorOptions": [
+      "正确的、改正",
+      "好意的工具",
+      "在旁边的一角"
+    ],
+    "mnemonicNote": "cor(加强)+rect(直)：把弯的那截掰回正位",
+    "sourceNote": "拉丁 corrigere，com-(加强) + regere(引导、使直)"
+  },
+  "correction": {
+    "modernMeaningCn": "订正",
+    "literalMeaningCn": "摆正的动作",
+    "metaphorMeaningCn": "订正、改正之处",
+    "metaphorOptions": [
+      "订正、改正之处",
+      "一种罗马的习俗",
+      "领导者的地方"
+    ],
+    "mnemonicNote": "correct(改正)+ion：拿红笔把那处圈出来重写",
+    "sourceNote": "拉丁 correctio，corrigere(改正)"
+  },
+  "correspond": {
+    "modernMeaningCn": "符合",
+    "literalMeaningCn": "来回对得上",
+    "metaphorMeaningCn": "符合、通信",
+    "metaphorOptions": [
+      "符合、通信",
+      "替可数的操心",
+      "把贝壳翻开"
+    ],
+    "mnemonicNote": "cor(共同)+respond(回应)：两边一来一往全都合上",
+    "sourceNote": "中世纪拉丁 correspondere，com-(共同) + respondere(回应)"
+  },
+  "counter": {
+    "modernMeaningCn": "柜台",
+    "literalMeaningCn": "算账用的台子",
+    "metaphorMeaningCn": "柜台、反方向的",
+    "metaphorOptions": [
+      "柜台、反方向的",
+      "把印度串起来",
+      "替伸展操心"
+    ],
+    "mnemonicNote": "count(计数)+er：店铺里隔着它点钱递货那张板",
+    "sourceNote": "古法语 comptoir，compter(计算)"
+  },
+  "country": {
+    "modernMeaningCn": "国家",
+    "literalMeaningCn": "对面那片地",
+    "metaphorMeaningCn": "国家、乡村",
+    "metaphorOptions": [
+      "国家、乡村",
+      "希腊词尾的背面",
+      "系统的旧事"
+    ],
+    "mnemonicNote": "coun(对面)+try：站在自己门口望出去的那片地界",
+    "sourceNote": "中世纪拉丁 contrata，contra(对面)"
+  },
+  "countryside": {
+    "modernMeaningCn": "乡下",
+    "literalMeaningCn": "城外的地界",
+    "metaphorMeaningCn": "乡下、农村",
+    "metaphorOptions": [
+      "乡下、农村",
+      "荒野的另一面",
+      "行动的一角"
+    ],
+    "mnemonicNote": "country(乡野)+side(一边)：出了城再走一段的那片田地",
+    "sourceNote": "英语复合词，country(乡野) + side"
+  },
+  "courtyard": {
+    "modernMeaningCn": "庭院",
+    "literalMeaningCn": "屋围着的空地",
+    "metaphorMeaningCn": "庭院、院子",
+    "metaphorOptions": [
+      "庭院、院子",
+      "离戏剧很远",
+      "替捶胸操心"
+    ],
+    "mnemonicNote": "court(院子)+yard(场地)：四面房子圈出来的那块天井",
+    "sourceNote": "古法语 court(院子) + 古英语 geard(场地)"
+  },
+  "cowboy": {
+    "modernMeaningCn": "牛仔",
+    "literalMeaningCn": "放牛的小伙",
+    "metaphorMeaningCn": "牛仔、牧牛人",
+    "metaphorOptions": [
+      "牛仔、牧牛人",
+      "数着答应过日子",
+      "围着环境转"
+    ],
+    "mnemonicNote": "cow(牛)+boy(小伙)：骑马在牧场上圈牛那群人",
+    "sourceNote": "英语复合词，cow(牛) + boy，美国西部牧牛人称谓"
+  },
+  "crayon": {
+    "modernMeaningCn": "蜡笔",
+    "literalMeaningCn": "白垩做的小棒",
+    "metaphorMeaningCn": "蜡笔、彩色粉笔",
+    "metaphorOptions": [
+      "蜡笔、彩色粉笔",
+      "车站的来路",
+      "用覆盖的人"
+    ],
+    "mnemonicNote": "cray(白垩)+on：手里捏着在纸上涂的那截小棒",
+    "sourceNote": "法语 craie(白垩)，拉丁 creta"
+  },
+  "creature": {
+    "modernMeaningCn": "生物",
+    "literalMeaningCn": "被造出来的",
+    "metaphorMeaningCn": "生物、家伙",
+    "metaphorOptions": [
+      "生物、家伙",
+      "天气的工具",
+      "数着相似的过日子"
+    ],
+    "mnemonicNote": "creat(创造)+ure：造物手里出来的每一样",
+    "sourceNote": "拉丁 creatura，creare(创造)"
+  },
+  "crowded": {
+    "modernMeaningCn": "拥挤的",
+    "literalMeaningCn": "挤满人的",
+    "metaphorMeaningCn": "拥挤的、塞满的",
+    "metaphorOptions": [
+      "拥挤的、塞满的",
+      "短的的人",
+      "一种架子的习俗"
+    ],
+    "mnemonicNote": "crowd(人群)+ed：脚都没处下的那种密",
+    "sourceNote": "古英语 crudan(推挤) + -ed"
+  },
+  "cubic": {
+    "modernMeaningCn": "立方的",
+    "literalMeaningCn": "与立方有关",
+    "metaphorMeaningCn": "立方的、立方体的",
+    "metaphorOptions": [
+      "立方的、立方体的",
+      "围着乐意的转",
+      "估定的来路"
+    ],
+    "mnemonicNote": "cub(立方体)+ic：长宽高三个数都要乘进去",
+    "sourceNote": "希腊 kybos(骰子、立方体)"
+  },
+  "cupboard": {
+    "modernMeaningCn": "橱柜",
+    "literalMeaningCn": "放杯盘的板柜",
+    "metaphorMeaningCn": "橱柜、碗柜",
+    "metaphorOptions": [
+      "橱柜、碗柜",
+      "向着财政去",
+      "围着遮盖转"
+    ],
+    "mnemonicNote": "cup(杯)+board(板)：架板上一排排码着碗碟那柜子",
+    "sourceNote": "中古英语 cuppebord，cup + bord(板)"
+  },
+  "customer": {
+    "modernMeaningCn": "顾客",
+    "literalMeaningCn": "常来的人",
+    "metaphorMeaningCn": "顾客、客户",
+    "metaphorOptions": [
+      "顾客、客户",
+      "名词的小站",
+      "守着实验过活"
+    ],
+    "mnemonicNote": "custom(习惯)+er(人)：三天两头往这儿跑那位",
+    "sourceNote": "古法语 costumier，costume(惯例、习惯)"
+  },
+  "cyclist": {
+    "modernMeaningCn": "骑自行车的人",
+    "literalMeaningCn": "踩轮子的人",
+    "metaphorMeaningCn": "骑自行车的人、自行车手",
+    "metaphorOptions": [
+      "骑自行车的人、自行车手",
+      "一种影响的习俗",
+      "向着精神去"
+    ],
+    "mnemonicNote": "cycl(轮)+ist(人)：两脚不停踩圆圈那位",
+    "sourceNote": "希腊 kyklos(圆、轮) + -ist(人)"
+  },
+  "dangerous": {
+    "modernMeaningCn": "危险的",
+    "literalMeaningCn": "带着险的",
+    "metaphorMeaningCn": "危险的、不安全的",
+    "metaphorOptions": [
+      "危险的、不安全的",
+      "一种消失的习俗",
+      "一种倾斜的习俗"
+    ],
+    "mnemonicNote": "danger(险)+ous：一脚踩空就要出事那种",
+    "sourceNote": "古法语 dangier(支配权) + -ous"
+  },
+  "darkness": {
+    "modernMeaningCn": "黑暗",
+    "literalMeaningCn": "暗的状态",
+    "metaphorMeaningCn": "黑暗、夜色",
+    "metaphorOptions": [
+      "黑暗、夜色",
+      "被痛苦的东西",
+      "怀疑论者的味道"
+    ],
+    "mnemonicNote": "dark(暗)+ness：伸手看不见五指那阵子",
+    "sourceNote": "古英语 deorc(暗) + -nes(状态)"
+  },
+  "database": {
+    "modernMeaningCn": "数据库",
+    "literalMeaningCn": "存数据的地方",
+    "metaphorMeaningCn": "数据库",
+    "metaphorOptions": [
+      "数据库",
+      "经受的影子",
+      "把追求翻开"
+    ],
+    "mnemonicNote": "data(数据)+base(库)：一条条码好、随取随用的柜子",
+    "sourceNote": "拉丁 data(给与之物) + 希腊 basis(基础)"
+  },
+  "daylight": {
+    "modernMeaningCn": "日光",
+    "literalMeaningCn": "白天的光",
+    "metaphorMeaningCn": "日光、白昼",
+    "metaphorOptions": [
+      "日光、白昼",
+      "围着梯级转",
+      "数着估定过日子"
+    ],
+    "mnemonicNote": "day(白天)+light(光)：太阳一出来铺满院子的那片亮",
+    "sourceNote": "古英语 dæg(白天) + leoht(光)"
+  },
+  "deadline": {
+    "modernMeaningCn": "最后期限",
+    "literalMeaningCn": "不能越过的线",
+    "metaphorMeaningCn": "最后期限、截止时间",
+    "metaphorOptions": [
+      "最后期限、截止时间",
+      "围着肯定的转",
+      "数着苦的过日子"
+    ],
+    "mnemonicNote": "dead(死)+line(线)：跨过去就毫无退路那道杠",
+    "sourceNote": "美国内战时期战俘营的界线，越线即射杀"
+  },
+  "decline": {
+    "modernMeaningCn": "下降",
+    "literalMeaningCn": "往下倾斜",
+    "metaphorMeaningCn": "下降、婉拒",
+    "metaphorOptions": [
+      "下降、婉拒",
+      "精选的小站",
+      "守着创造过活"
+    ],
+    "mnemonicNote": "de(向下)+cline(倾)：曲线一路朝右下走",
+    "sourceNote": "拉丁 declinare，de-(向下) + clinare(倾)"
+  },
+  "decoration": {
+    "modernMeaningCn": "装饰",
+    "literalMeaningCn": "装点上的东西",
+    "metaphorMeaningCn": "装饰、装饰品",
+    "metaphorOptions": [
+      "装饰、装饰品",
+      "被眼镜的东西",
+      "账户的背面"
+    ],
+    "mnemonicNote": "decorat(装点)+ion：挂在墙上让它好看的那几样",
+    "sourceNote": "拉丁 decoratio，decorare(装点)"
+  },
+  "deeply": {
+    "modernMeaningCn": "深深地",
+    "literalMeaningCn": "以深的方式",
+    "metaphorMeaningCn": "深深地、非常",
+    "metaphorOptions": [
+      "深深地、非常",
+      "规则的的小站",
+      "存货的地方"
+    ],
+    "mnemonicNote": "deep(深)+ly：扎到最底下那一层去",
+    "sourceNote": "古英语 deop(深) + -lice(副词后缀)"
+  },
+  "deliberately": {
+    "modernMeaningCn": "故意地",
+    "literalMeaningCn": "以有意的方式",
+    "metaphorMeaningCn": "故意地、存心地",
+    "metaphorOptions": [
+      "故意地、存心地",
+      "数着溜冰过日子",
+      "限制的工具"
+    ],
+    "mnemonicNote": "deliberate(掂量过的)+ly：心里早就算好了",
+    "sourceNote": "拉丁 deliberare，de-(加强) + librare(称量)"
+  },
+  "delighted": {
+    "modernMeaningCn": "高兴的",
+    "literalMeaningCn": "满心欢喜的",
+    "metaphorMeaningCn": "高兴的、欣喜的",
+    "metaphorOptions": [
+      "高兴的、欣喜的",
+      "是否的来路",
+      "世界的地方"
+    ],
+    "mnemonicNote": "delight(欣喜)+ed：嘴角压都压不下去",
+    "sourceNote": "古法语 delit(乐趣)，拉丁 delectare(使愉悦)"
+  },
+  "department": {
+    "modernMeaningCn": "部门",
+    "literalMeaningCn": "分出来的部分",
+    "metaphorMeaningCn": "部门、系",
+    "metaphorOptions": [
+      "部门、系",
+      "梯级的小站",
+      "守着把握过活"
+    ],
+    "mnemonicNote": "depart(分开)+ment：一摊大事切成几块分头管",
+    "sourceNote": "法语 département，departir(分开)"
+  },
+  "departure": {
+    "modernMeaningCn": "离开",
+    "literalMeaningCn": "走开的行为",
+    "metaphorMeaningCn": "离开、出发",
+    "metaphorOptions": [
+      "离开、出发",
+      "向着嘈杂的去",
+      "围着测量转"
+    ],
+    "mnemonicNote": "depart(启程)+ure：拎着箱子头也不回那一刻",
+    "sourceNote": "古法语 departir(分开)，de-(分离) + partir(分)"
+  },
+  "description": {
+    "modernMeaningCn": "描述",
+    "literalMeaningCn": "写下来的样子",
+    "metaphorMeaningCn": "描述、说明",
+    "metaphorOptions": [
+      "描述、说明",
+      "带来的背面",
+      "拒绝的旧事"
+    ],
+    "mnemonicNote": "descrip(描画)+tion：拿笔把眼前的东西画进字里",
+    "sourceNote": "拉丁 descriptio，describere(写下)"
+  },
+  "destroy": {
+    "modernMeaningCn": "破坏",
+    "literalMeaningCn": "把堆的推倒",
+    "metaphorMeaningCn": "破坏、摧毁",
+    "metaphorOptions": [
+      "破坏、摧毁",
+      "守着编者过活",
+      "替利用操心"
+    ],
+    "mnemonicNote": "des(除去)+troy(堆)：把垒起来的东西整垮",
+    "sourceNote": "拉丁 destruere，de-(除去) + struere(堆叠)"
+  },
+  "detective": {
+    "modernMeaningCn": "侦探",
+    "literalMeaningCn": "擅长察觉的人",
+    "metaphorMeaningCn": "侦探、警探",
+    "metaphorOptions": [
+      "侦探、警探",
+      "保险的过程",
+      "离热忱很远"
+    ],
+    "mnemonicNote": "detect(察觉)+ive(人)：靠一点点蛛丝马迹往下摸",
+    "sourceNote": "拉丁 detegere，de-(除去) + tegere(覆盖)"
+  },
+  "determination": {
+    "modernMeaningCn": "决心",
+    "literalMeaningCn": "定下来的心",
+    "metaphorMeaningCn": "决心、测定",
+    "metaphorOptions": [
+      "决心、测定",
+      "一种平滑的的习俗",
+      "滋养的人"
+    ],
+    "mnemonicNote": "determin(定下)+ation：九头牛也拉不回来的那股劲",
+    "sourceNote": "拉丁 determinatio，determinare(限定)"
+  },
+  "determine": {
+    "modernMeaningCn": "决定",
+    "literalMeaningCn": "划下界线",
+    "metaphorMeaningCn": "决定、确定",
+    "metaphorOptions": [
+      "决定、确定",
+      "生态的人",
+      "进入的影子"
+    ],
+    "mnemonicNote": "deter(定)+mine：一笔画下去，就这么定了",
+    "sourceNote": "拉丁 determinare，de-(加强) + terminus(界限)"
+  },
+  "development": {
+    "modernMeaningCn": "发展",
+    "literalMeaningCn": "渐渐展开的过程",
+    "metaphorMeaningCn": "发展、开发",
+    "metaphorOptions": [
+      "发展、开发",
+      "有意识的的地方",
+      "甜蜜的来路"
+    ],
+    "mnemonicNote": "develop(展开)+ment：卷起来的东西一层层摊开",
+    "sourceNote": "法语 développement，des-(解开) + voloper(包裹)"
+  },
+  "dictionary": {
+    "modernMeaningCn": "字典",
+    "literalMeaningCn": "收词的册子",
+    "metaphorMeaningCn": "字典、词典",
+    "metaphorOptions": [
+      "字典、词典",
+      "辅助定理的工具",
+      "把假名串起来"
+    ],
+    "mnemonicNote": "diction(措辞)+ary(汇集)：把词一条条排好给你查",
+    "sourceNote": "中世纪拉丁 dictionarium，dictio(言辞)"
+  },
+  "difference": {
+    "modernMeaningCn": "差别",
+    "literalMeaningCn": "不一样之处",
+    "metaphorMeaningCn": "差别、分歧",
+    "metaphorOptions": [
+      "差别、分歧",
+      "预防的旧事",
+      "面团的背面"
+    ],
+    "mnemonicNote": "differ(不同)+ence：两样东西摆在一起才看得出那点",
+    "sourceNote": "拉丁 differentia，differre(不同)"
+  },
+  "different": {
+    "modernMeaningCn": "不同的",
+    "literalMeaningCn": "不一样的",
+    "metaphorMeaningCn": "不同的、各种的",
+    "metaphorOptions": [
+      "不同的、各种的",
+      "举例说明的另一面",
+      "绝对的的一角"
+    ],
+    "mnemonicNote": "differ(相异)+ent：跟刚才那个对不上号",
+    "sourceNote": "拉丁 differens，differre 的现在分词"
+  },
+  "digital": {
+    "modernMeaningCn": "数字的",
+    "literalMeaningCn": "用手指数的",
+    "metaphorMeaningCn": "数字的、数码的",
+    "metaphorOptions": [
+      "数字的、数码的",
+      "持有的过程",
+      "向着操作去"
+    ],
+    "mnemonicNote": "digit(手指)+al：最早就是掰着指头一个个数",
+    "sourceNote": "拉丁 digitalis，digitus(手指、数字)"
+  },
+  "dilemma": {
+    "modernMeaningCn": "困境",
+    "literalMeaningCn": "两个前提卡住",
+    "metaphorMeaningCn": "两难、困境",
+    "metaphorOptions": [
+      "两难、困境",
+      "反对的人",
+      "暴力的的影子"
+    ],
+    "mnemonicNote": "di(二)+lemma(前提)：两条路都有毛病，选哪条都疼",
+    "sourceNote": "希腊 dilemma，di-(二) + lemma(前提)"
+  },
+  "dioxide": {
+    "modernMeaningCn": "二氧化物",
+    "literalMeaningCn": "带两个氧的化合物",
+    "metaphorMeaningCn": "二氧化物",
+    "metaphorOptions": [
+      "二氧化物",
+      "把产生串起来",
+      "守着滋养过活"
+    ],
+    "mnemonicNote": "di(二)+oxide(氧化物)：一个碳配上两口气",
+    "sourceNote": "希腊 di-(二) + 法语 oxide(氧化物)"
+  },
+  "directory": {
+    "modernMeaningCn": "名录",
+    "literalMeaningCn": "用来指引的册子",
+    "metaphorMeaningCn": "名录、目录",
+    "metaphorOptions": [
+      "名录、目录",
+      "惊起的另一面",
+      "愤恨的一角"
+    ],
+    "mnemonicNote": "direct(指引)+ory(物)：翻到哪一页就找到哪个人",
+    "sourceNote": "拉丁 directorium，dirigere(指引)"
+  },
+  "disability": {
+    "modernMeaningCn": "残疾",
+    "literalMeaningCn": "不能做事的状态",
+    "metaphorMeaningCn": "残疾、无能力",
+    "metaphorOptions": [
+      "残疾、无能力",
+      "被捶胸的东西",
+      "给文章加标点的背面"
+    ],
+    "mnemonicNote": "disabil(使无能)+ity：身体被拿走了某一样本事",
+    "sourceNote": "dis-(不) + able(能) + -ity(状态)"
+  },
+  "disabled": {
+    "modernMeaningCn": "残疾的",
+    "literalMeaningCn": "被夺去能力的",
+    "metaphorMeaningCn": "残疾的、有障碍的",
+    "metaphorOptions": [
+      "残疾的、有障碍的",
+      "成熟的的工具",
+      "把通路串起来"
+    ],
+    "mnemonicNote": "disable(使无能)+d：某条路走不通了",
+    "sourceNote": "dis-(不) + able(能) + -ed"
+  },
+  "disadvantage": {
+    "modernMeaningCn": "缺点",
+    "literalMeaningCn": "没有优势",
+    "metaphorMeaningCn": "缺点、不利条件",
+    "metaphorOptions": [
+      "缺点、不利条件",
+      "群众的影子",
+      "把礼节翻开"
+    ],
+    "mnemonicNote": "dis(不)+ad(朝向)+vantage(优势)：起跑就慢半拍",
+    "sourceNote": "古法语 desavantage，des-(不) + avantage(优势)"
+  },
+  "disagree": {
+    "modernMeaningCn": "不同意",
+    "literalMeaningCn": "想法不一致",
+    "metaphorMeaningCn": "不同意、有分歧",
+    "metaphorOptions": [
+      "不同意、有分歧",
+      "一种记忆的习俗",
+      "怀疑的一角"
+    ],
+    "mnemonicNote": "dis(不)+agree(赞同)：两人点头的方向不一样",
+    "sourceNote": "古法语 desagreer，des-(不) + agreer(赞同)"
+  },
+  "disagreement": {
+    "modernMeaningCn": "分歧",
+    "literalMeaningCn": "不一致的状态",
+    "metaphorMeaningCn": "分歧、争执",
+    "metaphorOptions": [
+      "分歧、争执",
+      "叫声的人",
+      "一种愉快的的习俗"
+    ],
+    "mnemonicNote": "dis+agreement：谈到半路各执一词那个场面",
+    "sourceNote": "古法语 desagrement，desagreer(不赞同)"
+  },
+  "disappear": {
+    "modernMeaningCn": "消失",
+    "literalMeaningCn": "不再露面",
+    "metaphorMeaningCn": "消失、不见",
+    "metaphorOptions": [
+      "消失、不见",
+      "方式的味道",
+      "投资的另一面"
+    ],
+    "mnemonicNote": "dis(不)+appear(出现)：转身那下就没影了",
+    "sourceNote": "中古英语 disparren，des-(不) + aparoir(出现)"
+  },
+  "disappoint": {
+    "modernMeaningCn": "使失望",
+    "literalMeaningCn": "没按期望给",
+    "metaphorMeaningCn": "使失望、使落空",
+    "metaphorOptions": [
+      "使失望、使落空",
+      "被正在的东西",
+      "弄复杂的味道"
+    ],
+    "mnemonicNote": "dis(不)+appoint(指定)：说好的那件事没兑现",
+    "sourceNote": "古法语 desapointier，des-(不) + apointer(安排)"
+  },
+  "disappointment": {
+    "modernMeaningCn": "失望",
+    "literalMeaningCn": "期望落了空",
+    "metaphorMeaningCn": "失望、扫兴",
+    "metaphorOptions": [
+      "失望、扫兴",
+      "一种涌流的习俗",
+      "语法的人"
+    ],
+    "mnemonicNote": "disappoint(落空)+ment：满怀指望走过去却扑了个空",
+    "sourceNote": "法语 desappointement，desapointier(落空)"
+  }
 }

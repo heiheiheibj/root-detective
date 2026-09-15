@@ -1,0 +1,19 @@
+{
+  "_comment": "二轮复核轮：词素表修正后新通过 21 号的 15 词（此前一直被 A6/A18 拦下，没有选过例句），由复核 AI 手写补齐（Tatoeba 里挑不到带中文对照、又无专名的现成句）。",
+  "another": { "exampleEn": "May I have another cup of tea?", "exampleCn": "可以再给我一杯茶吗？" },
+  "company": { "exampleEn": "He works for a small software company near the river.", "exampleCn": "他在河边一家小软件公司工作。" },
+  "lemonade": { "exampleEn": "We drank cold lemonade under the big tree.", "exampleCn": "我们在大树底下喝了冰柠檬水。" },
+  "somewhere": { "exampleEn": "The keys must be somewhere in the house.", "exampleCn": "钥匙一定在屋子里的某个地方。" },
+  "announce": { "exampleEn": "The mayor will announce the results tomorrow morning.", "exampleCn": "市长明天早上会宣布结果。" },
+  "nowhere": { "exampleEn": "The road led nowhere after the old bridge.", "exampleCn": "过了旧桥，这条路就哪儿也到不了。" },
+  "woollen": { "exampleEn": "She wore a warm woollen scarf in winter.", "exampleCn": "冬天她围着一条暖和的羊毛围巾。" },
+  "reproach": { "exampleEn": "His words were full of quiet reproach.", "exampleCn": "他的话里满是轻声的责备。" },
+  "wide": { "exampleEn": "The river is very wide after the heavy rain.", "exampleCn": "大雨过后这条河非常宽。" },
+  "panic": { "exampleEn": "Do not panic when the fire alarm rings.", "exampleCn": "火警响起时不要惊慌。" },
+  "wherever": { "exampleEn": "Sit wherever you like in the garden.", "exampleCn": "在花园里你想坐哪儿就坐哪儿。" },
+  "immigrate": { "exampleEn": "Many families immigrate to find better work.", "exampleCn": "许多家庭为找更好的工作而移居。" },
+  "whereas": { "exampleEn": "He is tall, whereas his brother is quite short.", "exampleCn": "他个子很高，而他弟弟相当矮。" },
+  "widely": { "exampleEn": "This medicine is widely used in hospitals.", "exampleCn": "这种药在医院里被广泛使用。" },
+  "whereby": { "exampleEn": "They made a deal whereby both sides shared the cost.", "exampleCn": "他们达成了一笔双方分摊费用的交易。" },
+  "retard": { "exampleEn": "Growth was retarded by the long drought.", "exampleCn": "长期的干旱使生长迟缓。" }
+}

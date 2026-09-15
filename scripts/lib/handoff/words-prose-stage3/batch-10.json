@@ -1,723 +1,723 @@
 {
- "_comment": "Stage 3 待写释义（batch-10，本批 60 词，高考批第 3 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
- "beautiful": {
-  "modernMeaningCn": "美丽的",
-  "literalMeaningCn": "满是美的",
-  "metaphorMeaningCn": "美丽的、极好的",
-  "metaphorOptions": [
-   "美丽的、极好的",
-   "关心的小站",
-   "薪资的地方"
-  ],
-  "mnemonicNote": "beauti(美)+ful(满)：从头到脚挑不出不好看的地方",
-  "sourceNote": "古法语 biau(美) + -ful(充满)"
- },
- "beehive": {
-  "modernMeaningCn": "蜂窝",
-  "literalMeaningCn": "蜂的巢",
-  "metaphorMeaningCn": "蜂窝、蜂箱",
-  "metaphorOptions": [
-   "蜂窝、蜂箱",
-   "日子的人",
-   "一种旋转物的习俗"
-  ],
-  "mnemonicNote": "bee(蜜蜂)+hive(蜂巢)：一格一格挤满蜜的小楼",
-  "sourceNote": "古英语 beo(蜂) + hyf(蜂巢)"
- },
- "beginning": {
-  "modernMeaningCn": "开始",
-  "literalMeaningCn": "正开头时",
-  "metaphorMeaningCn": "开端、起初",
-  "metaphorOptions": [
-   "开端、起初",
-   "强力霉素的地方",
-   "建立的来路"
-  ],
-  "mnemonicNote": "beginn(起始)+ing：第一锹土刚挖下去的那一刻",
-  "sourceNote": "古英语 beginnan(起始) + -ing"
- },
- "behave": {
-  "modernMeaningCn": "举止",
-  "literalMeaningCn": "把持住自己",
-  "metaphorMeaningCn": "举止、表现",
-  "metaphorOptions": [
-   "举止、表现",
-   "关系的人",
-   "旋转物的影子"
-  ],
-  "mnemonicNote": "be(加强)+have(持有)：把自己那点性子攥住",
-  "sourceNote": "古英语 behabban，be-(加强) + habban(持有)"
- },
- "behind": {
-  "modernMeaningCn": "在后面",
-  "literalMeaningCn": "在后头",
-  "metaphorMeaningCn": "在后面、落后",
-  "metaphorOptions": [
-   "在后面、落后",
-   "大陆的过程",
-   "向着宿舍去"
-  ],
-  "mnemonicNote": "be(在)+hind(后)：队伍尾巴上那个位置",
-  "sourceNote": "古英语 behindan，be-(在) + hindan(从后面)"
- },
- "believe": {
-  "modernMeaningCn": "相信",
-  "literalMeaningCn": "心里认下",
-  "metaphorMeaningCn": "相信、认为",
-  "metaphorOptions": [
-   "相信、认为",
-   "守着生命过活",
-   "替探险操心"
-  ],
-  "mnemonicNote": "be(加强)+lieve(喜爱)：心里把它当成好的收下了",
-  "sourceNote": "古英语 belyfan，be-(加强) + lyfan(允许、信赖)"
- },
- "below": {
-  "modernMeaningCn": "在下面",
-  "literalMeaningCn": "在低处",
-  "metaphorMeaningCn": "在下面、低于",
-  "metaphorOptions": [
-   "在下面、低于",
-   "阻碍的另一面",
-   "灌木的一角"
-  ],
-  "mnemonicNote": "be(在)+low(低)：抬头看是别人的脚底",
-  "sourceNote": "中古英语 bilooghe，be-(在) + low(低)"
- },
- "beneath": {
-  "modernMeaningCn": "在下方",
-  "literalMeaningCn": "在底下",
-  "metaphorMeaningCn": "在下方、不值得",
-  "metaphorOptions": [
-   "在下方、不值得",
-   "誓约的人",
-   "冷嘲的的影子"
-  ],
-  "mnemonicNote": "be(在)+neath(下)：压在更下面那一层",
-  "sourceNote": "古英语 beneothan，be-(在) + neothan(下面)"
- },
- "benefit": {
-  "modernMeaningCn": "益处",
-  "literalMeaningCn": "做的好事",
-  "metaphorMeaningCn": "益处、受益",
-  "metaphorOptions": [
-   "益处、受益",
-   "绝对的的过程",
-   "离中国很远"
-  ],
-  "mnemonicNote": "bene(好)+fit(做)：替人做的那件好事",
-  "sourceNote": "拉丁 benefactum，bene(好) + facere(做)"
- },
- "betray": {
-  "modernMeaningCn": "背叛",
-  "literalMeaningCn": "交到敌手",
-  "metaphorMeaningCn": "背叛、泄露",
-  "metaphorOptions": [
-   "背叛、泄露",
-   "事物的影子",
-   "把宣称翻开"
-  ],
-  "mnemonicNote": "be(加强)+tray(交付)：把身边人递到对面手里",
-  "sourceNote": "拉丁 tradere(交付)，经古法语 trair 演变"
- },
- "better": {
-  "modernMeaningCn": "更好的",
-  "literalMeaningCn": "更好一些",
-  "metaphorMeaningCn": "更好的、较好的",
-  "metaphorOptions": [
-   "更好的、较好的",
-   "被装满的东西",
-   "适度的的背面"
-  ],
-  "mnemonicNote": "bett(好)+er(比较)：两边一摆，这边高一截",
-  "sourceNote": "古英语 betera，good 的比较级"
- },
- "between": {
-  "modernMeaningCn": "在之间",
-  "literalMeaningCn": "在两者中间",
-  "metaphorMeaningCn": "在两者之间、介于",
-  "metaphorOptions": [
-   "在两者之间、介于",
-   "变动的影子",
-   "装满的人"
-  ],
-  "mnemonicNote": "be(在)+tween(二)：夹在两个东西当中那条缝",
-  "sourceNote": "古英语 betweonum，be-(在) + tweonum(两者)"
- },
- "beyond": {
-  "modernMeaningCn": "在那边",
-  "literalMeaningCn": "在那一边",
-  "metaphorMeaningCn": "在那边、超出",
-  "metaphorOptions": [
-   "在那边、超出",
-   "全部作品的工具",
-   "数着比活得长过日子"
-  ],
-  "mnemonicNote": "be(在)+yond(那边)：越过界线再往前那一片",
-  "sourceNote": "古英语 begeondan，be-(在) + geond(越过)"
- },
- "biochemistry": {
-  "modernMeaningCn": "生物化学",
-  "literalMeaningCn": "研究生命的化学",
-  "metaphorMeaningCn": "生物化学",
-  "metaphorOptions": [
-   "生物化学",
-   "荒野的背面",
-   "保持的旧事"
-  ],
-  "mnemonicNote": "bio(生命)+chemistry(化学)：拿试管琢磨活着的身体",
-  "sourceNote": "希腊 bios(生命) + 阿拉伯 al-kimiya(化学)"
- },
- "birthplace": {
-  "modernMeaningCn": "出生地",
-  "literalMeaningCn": "出生的地方",
-  "metaphorMeaningCn": "出生地、发源地",
-  "metaphorOptions": [
-   "出生地、发源地",
-   "繁殖的影子",
-   "中心的人"
-  ],
-  "mnemonicNote": "birth(出生)+place(地方)：第一声啼哭响起的那间屋",
-  "sourceNote": "英语复合词，birth + place"
- },
- "boating": {
-  "modernMeaningCn": "划船",
-  "literalMeaningCn": "驾船的活动",
-  "metaphorMeaningCn": "划船、泛舟",
-  "metaphorOptions": [
-   "划船、泛舟",
-   "守着允许过活",
-   "替打架操心"
-  ],
-  "mnemonicNote": "boat(船)+ing：周末把桨扛到湖上去",
-  "sourceNote": "古英语 bat(船) + -ing(活动后缀)"
- },
- "bookcase": {
-  "modernMeaningCn": "书柜",
-  "literalMeaningCn": "装书的柜子",
-  "metaphorMeaningCn": "书柜、书橱",
-  "metaphorOptions": [
-   "书柜、书橱",
-   "一种打架的习俗",
-   "拼写的人"
-  ],
-  "mnemonicNote": "book(书)+case(箱柜)：带门的那个，防潮又防尘",
-  "sourceNote": "英语复合词，book + case(箱、柜)"
- },
- "bookshelf": {
-  "modernMeaningCn": "书架",
-  "literalMeaningCn": "放书的搁板",
-  "metaphorMeaningCn": "书架、搁板",
-  "metaphorOptions": [
-   "书架、搁板",
-   "流产的地方",
-   "带子的来路"
-  ],
-  "mnemonicNote": "book(书)+shelf(搁板)：墙上那几层不加门的",
-  "sourceNote": "英语复合词，book + shelf"
- },
- "bookshop": {
-  "modernMeaningCn": "书店",
-  "literalMeaningCn": "卖书的铺子",
-  "metaphorMeaningCn": "书店",
-  "metaphorOptions": [
-   "书店",
-   "显现的小站",
-   "消失的地方"
-  ],
-  "mnemonicNote": "book(书)+shop(铺子)：沿街那家门脸不大的",
-  "sourceNote": "英语复合词，book + shop"
- },
- "bookstore": {
-  "modernMeaningCn": "书店",
-  "literalMeaningCn": "存书的铺面",
-  "metaphorMeaningCn": "书店",
-  "metaphorOptions": [
-   "书店",
-   "围着同情转",
-   "数着课程过日子"
-  ],
-  "mnemonicNote": "book(书)+store(店)：规模大些、能坐下看书那家",
-  "sourceNote": "英语复合词，book + store(店铺)"
- },
- "bored": {
-  "modernMeaningCn": "无聊的",
-  "literalMeaningCn": "被钻空了的",
-  "metaphorMeaningCn": "无聊的、厌烦的",
-  "metaphorOptions": [
-   "无聊的、厌烦的",
-   "运输的一角",
-   "围着立即的转"
-  ],
-  "mnemonicNote": "bore(钻孔)+d：像被人拿钻头把兴致掏走了",
-  "sourceNote": "古英语 borian(钻孔)，引申为「磨人」"
- },
- "boring": {
-  "modernMeaningCn": "烦人的",
-  "literalMeaningCn": "像钻头一样",
-  "metaphorMeaningCn": "烦人的、乏味的",
-  "metaphorOptions": [
-   "烦人的、乏味的",
-   "钢琴的人",
-   "完全的的影子"
-  ],
-  "mnemonicNote": "bor(钻孔)+ing：一下下往你耐心上钻",
-  "sourceNote": "古英语 borian(钻孔) + -ing"
- },
- "botanical": {
-  "modernMeaningCn": "植物学的",
-  "literalMeaningCn": "与植物有关",
-  "metaphorMeaningCn": "植物学的、植物的",
-  "metaphorOptions": [
-   "植物学的、植物的",
-   "重的的来路",
-   "波浪的推动力的旧事"
-  ],
-  "mnemonicNote": "botan(草木)+ical：围着花花草草做文章",
-  "sourceNote": "希腊 botanikos，botane(草、牧草)"
- },
- "bowling": {
-  "modernMeaningCn": "保龄球",
-  "literalMeaningCn": "滚球的活动",
-  "metaphorMeaningCn": "保龄球、滚球戏",
-  "metaphorOptions": [
-   "保龄球、滚球戏",
-   "面团的影子",
-   "游泳的人"
-  ],
-  "mnemonicNote": "bowl(球)+ing：把沉甸甸那颗球顺木道推出去",
-  "sourceNote": "法语 boule(球)，拉丁 bulla(圆球)"
- },
- "boxing": {
-  "modernMeaningCn": "拳击",
-  "literalMeaningCn": "用拳头相击",
-  "metaphorMeaningCn": "拳击、拳术",
-  "metaphorOptions": [
-   "拳击、拳术",
-   "头发的味道",
-   "等待的另一面"
-  ],
-  "mnemonicNote": "box(拳)+ing：戴着手套在绳圈里对打",
-  "sourceNote": "中古英语 box(一拳)，与 box(盒子) 同形不同源"
- },
- "bravery": {
-  "modernMeaningCn": "勇敢",
-  "literalMeaningCn": "胆气十足",
-  "metaphorMeaningCn": "勇敢、勇气",
-  "metaphorOptions": [
-   "勇敢、勇气",
-   "庆祝的的工具",
-   "数着出汗过日子"
-  ],
-  "mnemonicNote": "brave(无所畏惧)+ry：明知可怕还往前迈那一步",
-  "sourceNote": "法语 braverie，brave(无所畏惧)"
- },
- "breakthrough": {
-  "modernMeaningCn": "突破",
-  "literalMeaningCn": "打破并穿过",
-  "metaphorMeaningCn": "突破、重大进展",
-  "metaphorOptions": [
-   "突破、重大进展",
-   "意外事件的过程",
-   "向着树桩去"
-  ],
-  "mnemonicNote": "break(打破)+through(穿过)：一头撞开挡在面前的墙",
-  "sourceNote": "英语复合词，军事上指攻破防线"
- },
- "breathless": {
-  "modernMeaningCn": "气喘吁吁的",
-  "literalMeaningCn": "透不过气的",
-  "metaphorMeaningCn": "气喘吁吁的、屏息的",
-  "metaphorOptions": [
-   "气喘吁吁的、屏息的",
-   "栖木的背面",
-   "被最后的的东西"
-  ],
-  "mnemonicNote": "breath(呼吸)+less(无)：跑完那段楼梯后的样子",
-  "sourceNote": "古英语 bræþ(呼吸) + -leas(无)"
- },
- "brewery": {
-  "modernMeaningCn": "啤酒厂",
-  "literalMeaningCn": "酿酒的地方",
-  "metaphorMeaningCn": "啤酒厂、酿造厂",
-  "metaphorOptions": [
-   "啤酒厂、酿造厂",
-   "身份的地方",
-   "小伙子的小站"
-  ],
-  "mnemonicNote": "brew(酿)+ery(场所)：整条街都是麦芽味那个院子",
-  "sourceNote": "古英语 breowan(煮、酿) + -ery(场所)"
- },
- "bridegroom": {
-  "modernMeaningCn": "新郎",
-  "literalMeaningCn": "陪新娘的人",
-  "metaphorMeaningCn": "新郎",
-  "metaphorOptions": [
-   "新郎",
-   "把名望翻开",
-   "幸运的的影子"
-  ],
-  "mnemonicNote": "bride(新娘)+groom(男伴)：婚礼上站在新娘左手那位",
-  "sourceNote": "古英语 brydguma，guma(人) 被 groom 误替"
- },
- "broadcast": {
-  "modernMeaningCn": "广播",
-  "literalMeaningCn": "大范围撒出去",
-  "metaphorMeaningCn": "广播、播送",
-  "metaphorOptions": [
-   "广播、播送",
-   "守着母牛过活",
-   "贵的的小站"
-  ],
-  "mnemonicNote": "broad(宽广)+cast(投撒)：种子撒得满田都是",
-  "sourceNote": "英语复合词，原指农夫撒种，20 世纪转指无线电"
- },
- "brotherhood": {
-  "modernMeaningCn": "手足情谊",
-  "literalMeaningCn": "兄弟的关系",
-  "metaphorMeaningCn": "手足情谊、兄弟会",
-  "metaphorOptions": [
-   "手足情谊、兄弟会",
-   "围着注解转",
-   "数着个性过日子"
-  ],
-  "mnemonicNote": "brother(兄弟)+hood(身份)：不是血亲也认作一家的情分",
-  "sourceNote": "古英语 broþorhad，broþor(兄弟) + -had(身份)"
- },
- "bucket": {
-  "modernMeaningCn": "桶",
-  "literalMeaningCn": "提水的容器",
-  "metaphorMeaningCn": "桶、提桶",
-  "metaphorOptions": [
-   "桶、提桶",
-   "冻结的小站",
-   "守着敬畏过活"
-  ],
-  "mnemonicNote": "buck(水罐)+et：井边那只带提梁的家什",
-  "sourceNote": "古法语 buket，古英语 buc(水罐)"
- },
- "buddhism": {
-  "modernMeaningCn": "佛教",
-  "literalMeaningCn": "佛陀的教法",
-  "metaphorMeaningCn": "佛教",
-  "metaphorOptions": [
-   "佛教",
-   "系统的工具",
-   "把易变地串起来"
-  ],
-  "mnemonicNote": "buddh(佛陀)+ism(教义)：从菩提树下传出来的那套",
-  "sourceNote": "梵语 buddha(觉悟者) + -ism"
- },
- "buddhist": {
-  "modernMeaningCn": "佛教徒",
-  "literalMeaningCn": "信佛的人",
-  "metaphorMeaningCn": "佛教徒、佛教的",
-  "metaphorOptions": [
-   "佛教徒、佛教的",
-   "王子的小站",
-   "自己的地方"
-  ],
-  "mnemonicNote": "buddh(佛陀)+ist(人)：照着那套教法过日子的人",
-  "sourceNote": "梵语 buddha(觉悟者) + -ist(信奉者)"
- },
- "building": {
-  "modernMeaningCn": "建筑物",
-  "literalMeaningCn": "建起来的东西",
-  "metaphorMeaningCn": "建筑物、楼房",
-  "metaphorOptions": [
-   "建筑物、楼房",
-   "向着他们去",
-   "围着享受转"
-  ],
-  "mnemonicNote": "build(建造)+ing：一砖一瓦垒到现在这副样子",
-  "sourceNote": "古英语 byldan(建造) + -ing"
- },
- "bureaucratic": {
-  "modernMeaningCn": "官僚的",
-  "literalMeaningCn": "与官署有关",
-  "metaphorMeaningCn": "官僚的、繁文缛节的",
-  "metaphorOptions": [
-   "官僚的、繁文缛节的",
-   "动作的的小站",
-   "守着建立过活"
-  ],
-  "mnemonicNote": "bureaucrat(官吏)+ic：一层层盖章、一步步走流程",
-  "sourceNote": "法语 bureaucratie，bureau(办公桌) + 希腊 kratos(权力)"
- },
- "business": {
-  "modernMeaningCn": "生意",
-  "literalMeaningCn": "忙碌的状态",
-  "metaphorMeaningCn": "生意、事务",
-  "metaphorOptions": [
-   "生意、事务",
-   "结合的的人",
-   "一种连接元音的习俗"
-  ],
-  "mnemonicNote": "busi(忙碌)+ness(状态)：一天到晚盘算着进出的那摊事",
-  "sourceNote": "古英语 bisignes，bisig(忙) + -nes(状态)"
- },
- "businessman": {
-  "modernMeaningCn": "商人",
-  "literalMeaningCn": "做生意的男人",
-  "metaphorMeaningCn": "商人、实业家",
-  "metaphorOptions": [
-   "商人、实业家",
-   "把向前翻开",
-   "北方的影子"
-  ],
-  "mnemonicNote": "business(生意)+man(人)：饭桌上谈价、合同上按手印",
-  "sourceNote": "英语复合词，business + man"
- },
- "businesswoman": {
-  "modernMeaningCn": "女商人",
-  "literalMeaningCn": "做生意的女性",
-  "metaphorMeaningCn": "女商人、女实业家",
-  "metaphorOptions": [
-   "女商人、女实业家",
-   "经过的味道",
-   "被反抗的东西"
-  ],
-  "mnemonicNote": "business(生意)+woman(女性)：同一张谈判桌上撑起半边的",
-  "sourceNote": "英语复合词，business + woman"
- },
- "butcher": {
-  "modernMeaningCn": "屠夫",
-  "literalMeaningCn": "宰牲口的人",
-  "metaphorMeaningCn": "屠夫、肉商",
-  "metaphorOptions": [
-   "屠夫、肉商",
-   "守着租金过活",
-   "巨大的小站"
-  ],
-  "mnemonicNote": "butch(宰杀)+er(人)：砧板上那把刀不离手",
-  "sourceNote": "古法语 bochier，bouc(公羊)"
- },
- "butter": {
-  "modernMeaningCn": "黄油",
-  "literalMeaningCn": "桶里搅出的",
-  "metaphorMeaningCn": "黄油、奶油",
-  "metaphorOptions": [
-   "黄油、奶油",
-   "试图的地方",
-   "一种大约的的习俗"
-  ],
-  "mnemonicNote": "butt(桶)+er：牛奶在木桶里搅到凝成块",
-  "sourceNote": "古英语 butere，希腊 boutyron(牛乳酪)"
- },
- "butterfly": {
-  "modernMeaningCn": "蝴蝶",
-  "literalMeaningCn": "黄油色的飞虫",
-  "metaphorMeaningCn": "蝴蝶",
-  "metaphorOptions": [
-   "蝴蝶",
-   "学校的人",
-   "打击的影子"
-  ],
-  "mnemonicNote": "butter(黄油)+fly(飞虫)：翅膀黄澄澄那种小飞虫",
-  "sourceNote": "古英语 buterfleoge，butere(黄油) + fleoge(蝇)"
- },
- "canteen": {
-  "modernMeaningCn": "食堂",
-  "literalMeaningCn": "营中的小卖部",
-  "metaphorMeaningCn": "食堂、水壶",
-  "metaphorOptions": [
-   "食堂、水壶",
-   "理论上的的人",
-   "一种松树的习俗"
-  ],
-  "mnemonicNote": "can(罐)+teen：最早是随军挑着的伙食担子",
-  "sourceNote": "法语 cantine，意大利 cantina(酒窖、小铺)"
- },
- "capital": {
-  "modernMeaningCn": "首都",
-  "literalMeaningCn": "头等之地",
-  "metaphorMeaningCn": "首都、资本",
-  "metaphorOptions": [
-   "首都、资本",
-   "除去的小站",
-   "被过度的的东西"
-  ],
-  "mnemonicNote": "capit(头)+al：一个国家的脑袋长在哪里",
-  "sourceNote": "拉丁 capitalis，caput(头)"
- },
- "caption": {
-  "modernMeaningCn": "标题",
-  "literalMeaningCn": "抓住要点那行",
-  "metaphorMeaningCn": "标题、字幕",
-  "metaphorOptions": [
-   "标题、字幕",
-   "低于的地方",
-   "在上的小站"
-  ],
-  "mnemonicNote": "cap(拿)+tion：一把掐住整段话的要点",
-  "sourceNote": "拉丁 captio，capere(拿、抓)"
- },
- "carbon": {
-  "modernMeaningCn": "碳",
-  "literalMeaningCn": "一种元素",
-  "metaphorMeaningCn": "碳、复写纸",
-  "metaphorOptions": [
-   "碳、复写纸",
-   "数着界限过日子",
-   "围着新鲜的转"
-  ],
-  "mnemonicNote": "car(炭)+bon：木炭里烧剩下的主要成分",
-  "sourceNote": "拉丁 carbo(木炭)"
- },
- "carrier": {
-  "modernMeaningCn": "搬运工",
-  "literalMeaningCn": "搬东西的人",
-  "metaphorMeaningCn": "搬运工、载体",
-  "metaphorOptions": [
-   "搬运工、载体",
-   "离介意很远",
-   "主体的过程"
-  ],
-  "mnemonicNote": "carri(搬运)+er(人)：肩上那副担子一直在换地方",
-  "sourceNote": "古法语 carier(运送)，拉丁 carrus(车)"
- },
- "carrot": {
-  "modernMeaningCn": "胡萝卜",
-  "literalMeaningCn": "一种根菜",
-  "metaphorMeaningCn": "胡萝卜、诱饵",
-  "metaphorOptions": [
-   "胡萝卜、诱饵",
-   "数着化学的过日子",
-   "围着直线转"
-  ],
-  "mnemonicNote": "car+rot：土里拔出来那根橙红的东西",
-  "sourceNote": "法语 carotte，拉丁 carota"
- },
- "casual": {
-  "modernMeaningCn": "随便的",
-  "literalMeaningCn": "顺手落下的",
-  "metaphorMeaningCn": "随便的、偶然的",
-  "metaphorOptions": [
-   "随便的、偶然的",
-   "围着慢的转",
-   "向着有相互关系的东西去"
-  ],
-  "mnemonicNote": "cas(落下)+ual：像落叶那样碰巧掉到你面前的",
-  "sourceNote": "拉丁 casualis，casus(落下、偶然)"
- },
- "cathedral": {
-  "modernMeaningCn": "大教堂",
-  "literalMeaningCn": "主教宝座所在",
-  "metaphorMeaningCn": "大教堂",
-  "metaphorOptions": [
-   "大教堂",
-   "不是必要的的一角",
-   "灾祸的另一面"
-  ],
-  "mnemonicNote": "cathedra(主教座)+l：放着那把椅子的教堂才算它",
-  "sourceNote": "希腊 kathedra(座椅)，指主教专属的座位"
- },
- "cautious": {
-  "modernMeaningCn": "谨慎的",
-  "literalMeaningCn": "处处留心的",
-  "metaphorMeaningCn": "谨慎的、小心的",
-  "metaphorOptions": [
-   "谨慎的、小心的",
-   "注意的的人",
-   "不是必要的的影子"
-  ],
-  "mnemonicNote": "cautio(当心)+us：出门前总要回头再看一眼门锁",
-  "sourceNote": "拉丁 cautio(小心)，cavere(提防)"
- },
- "ceiling": {
-  "modernMeaningCn": "天花板",
-  "literalMeaningCn": "抹灰的顶面",
-  "metaphorMeaningCn": "天花板、上限",
-  "metaphorOptions": [
-   "天花板、上限",
-   "向前的来路",
-   "发射的旧事"
-  ],
-  "mnemonicNote": "ceil(抹灰)+ing：抬头看到的那层白面",
-  "sourceNote": "中古英语 celen(装顶)，拉丁 caelare(雕刻)"
- },
- "celebration": {
-  "modernMeaningCn": "庆祝",
-  "literalMeaningCn": "办喜事的活动",
-  "metaphorMeaningCn": "庆祝、庆典",
-  "metaphorOptions": [
-   "庆祝、庆典",
-   "强调的人",
-   "一种佛陀的习俗"
-  ],
-  "mnemonicNote": "celebrat(庆贺)+ion：锣鼓一响，满街都知道",
-  "sourceNote": "拉丁 celebratio，celeber(热闹的、众人聚集的)"
- },
- "central": {
-  "modernMeaningCn": "中央的",
-  "literalMeaningCn": "在正中的",
-  "metaphorMeaningCn": "中央的、主要的",
-  "metaphorOptions": [
-   "中央的、主要的",
-   "在周围的一角",
-   "一种紧的的习俗"
-  ],
-  "mnemonicNote": "centr(圆心)+al：所有线都往这一点上收",
-  "sourceNote": "拉丁 centralis，centrum(中心)"
- },
- "certainly": {
-  "modernMeaningCn": "当然",
-  "literalMeaningCn": "以确定的方式",
-  "metaphorMeaningCn": "当然、的确",
-  "metaphorOptions": [
-   "当然、的确",
-   "部分的过程",
-   "离器官很远"
-  ],
-  "mnemonicNote": "certain(拿准)+ly：话说出口就是板上钉钉",
-  "sourceNote": "古法语 certain(确定的) + -ly"
- },
- "chairwoman": {
-  "modernMeaningCn": "女主席",
-  "literalMeaningCn": "坐主席位的女性",
-  "metaphorMeaningCn": "女主席、女主任",
-  "metaphorOptions": [
-   "女主席、女主任",
-   "离甜蜜很远",
-   "替荒野操心"
-  ],
-  "mnemonicNote": "chair(首席)+woman(女性)：长桌正中间那把椅子归她",
-  "sourceNote": "英语复合词，chair(主席席位) + woman"
- },
- "challenging": {
-  "modernMeaningCn": "有挑战性的",
-  "literalMeaningCn": "在挑人斤两的",
-  "metaphorMeaningCn": "有挑战性的、艰巨的",
-  "metaphorOptions": [
-   "有挑战性的、艰巨的",
-   "被无疑的的东西",
-   "过度的的背面"
-  ],
-  "mnemonicNote": "challeng(叫阵)+ing：明摆着要跟你比比看",
-  "sourceNote": "古法语 chalenge，拉丁 calumnia(指控)"
- },
- "champion": {
-  "modernMeaningCn": "冠军",
-  "literalMeaningCn": "场上的胜者",
-  "metaphorMeaningCn": "冠军、拥护者",
-  "metaphorOptions": [
-   "冠军、拥护者",
-   "精确的的地方",
-   "不同的来路"
-  ],
-  "mnemonicNote": "champ(竞技场)+ion：一圈打下来还站着的那位",
-  "sourceNote": "拉丁 campio，campus(战场、竞技场)"
- },
- "chapter": {
-  "modernMeaningCn": "章节",
-  "literalMeaningCn": "书的一小段",
-  "metaphorMeaningCn": "章节、时期",
-  "metaphorOptions": [
-   "章节、时期",
-   "一种标准的习俗",
-   "末端的人"
-  ],
-  "mnemonicNote": "chap(头)+ter：每段开头那个标号领起的一段",
-  "sourceNote": "拉丁 capitulum，caput(头) 的指小形式"
- }
+  "_comment": "Stage 3 待写释义（batch-10，本批 60 词，高考批第 3 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
+  "beautiful": {
+    "modernMeaningCn": "美丽的",
+    "literalMeaningCn": "满是美的",
+    "metaphorMeaningCn": "美丽的、极好的",
+    "metaphorOptions": [
+      "美丽的、极好的",
+      "关心的小站",
+      "薪资的地方"
+    ],
+    "mnemonicNote": "beauti(美)+ful(满)：从头到脚挑不出不好看的地方",
+    "sourceNote": "古法语 biau(美) + -ful(充满)"
+  },
+  "beehive": {
+    "modernMeaningCn": "蜂窝",
+    "literalMeaningCn": "蜂的巢",
+    "metaphorMeaningCn": "蜂窝、蜂箱",
+    "metaphorOptions": [
+      "蜂窝、蜂箱",
+      "日子的人",
+      "一种旋转物的习俗"
+    ],
+    "mnemonicNote": "bee(蜜蜂)+hive(蜂巢)：一格一格挤满蜜的小楼",
+    "sourceNote": "古英语 beo(蜂) + hyf(蜂巢)"
+  },
+  "beginning": {
+    "modernMeaningCn": "开始",
+    "literalMeaningCn": "正开头时",
+    "metaphorMeaningCn": "开端、起初",
+    "metaphorOptions": [
+      "开端、起初",
+      "强力霉素的地方",
+      "建立的来路"
+    ],
+    "mnemonicNote": "beginn(起始)+ing：第一锹土刚挖下去的那一刻",
+    "sourceNote": "古英语 beginnan(起始) + -ing"
+  },
+  "behave": {
+    "modernMeaningCn": "举止",
+    "literalMeaningCn": "把持住自己",
+    "metaphorMeaningCn": "举止、表现",
+    "metaphorOptions": [
+      "举止、表现",
+      "关系的人",
+      "旋转物的影子"
+    ],
+    "mnemonicNote": "be(加强)+have(持有)：把自己那点性子攥住",
+    "sourceNote": "古英语 behabban，be-(加强) + habban(持有)"
+  },
+  "behind": {
+    "modernMeaningCn": "在后面",
+    "literalMeaningCn": "在后头",
+    "metaphorMeaningCn": "在后面、落后",
+    "metaphorOptions": [
+      "在后面、落后",
+      "大陆的过程",
+      "一种构成的习俗"
+    ],
+    "mnemonicNote": "be(在)+hind(后)：队伍尾巴上那个位置",
+    "sourceNote": "古英语 behindan，be-(在) + hindan(从后面)"
+  },
+  "believe": {
+    "modernMeaningCn": "相信",
+    "literalMeaningCn": "心里认下",
+    "metaphorMeaningCn": "相信、认为",
+    "metaphorOptions": [
+      "相信、认为",
+      "守着生命过活",
+      "替探险操心"
+    ],
+    "mnemonicNote": "be(加强)+lieve(喜爱)：心里把它当成好的收下了",
+    "sourceNote": "古英语 belyfan，be-(加强) + lyfan(允许、信赖)"
+  },
+  "below": {
+    "modernMeaningCn": "在下面",
+    "literalMeaningCn": "在低处",
+    "metaphorMeaningCn": "在下面、低于",
+    "metaphorOptions": [
+      "在下面、低于",
+      "阻碍的另一面",
+      "灌木的一角"
+    ],
+    "mnemonicNote": "be(在)+low(低)：抬头看是别人的脚底",
+    "sourceNote": "中古英语 bilooghe，be-(在) + low(低)"
+  },
+  "beneath": {
+    "modernMeaningCn": "在下方",
+    "literalMeaningCn": "在底下",
+    "metaphorMeaningCn": "在下方、不值得",
+    "metaphorOptions": [
+      "在下方、不值得",
+      "一种瑞士人的习俗",
+      "冷嘲的的影子"
+    ],
+    "mnemonicNote": "be(在)+neath(下)：压在更下面那一层",
+    "sourceNote": "古英语 beneothan，be-(在) + neothan(下面)"
+  },
+  "benefit": {
+    "modernMeaningCn": "益处",
+    "literalMeaningCn": "做的好事",
+    "metaphorMeaningCn": "益处、受益",
+    "metaphorOptions": [
+      "益处、受益",
+      "绝对的的过程",
+      "离中国很远"
+    ],
+    "mnemonicNote": "bene(好)+fit(做)：替人做的那件好事",
+    "sourceNote": "拉丁 benefactum，bene(好) + facere(做)"
+  },
+  "betray": {
+    "modernMeaningCn": "背叛",
+    "literalMeaningCn": "交到敌手",
+    "metaphorMeaningCn": "背叛、泄露",
+    "metaphorOptions": [
+      "背叛、泄露",
+      "事物的影子",
+      "把宣称翻开"
+    ],
+    "mnemonicNote": "be(加强)+tray(交付)：把身边人递到对面手里",
+    "sourceNote": "拉丁 tradere(交付)，经古法语 trair 演变"
+  },
+  "better": {
+    "modernMeaningCn": "更好的",
+    "literalMeaningCn": "更好一些",
+    "metaphorMeaningCn": "更好的、较好的",
+    "metaphorOptions": [
+      "更好的、较好的",
+      "被装满的东西",
+      "适度的的背面"
+    ],
+    "mnemonicNote": "bett(好)+er(比较)：两边一摆，这边高一截",
+    "sourceNote": "古英语 betera，good 的比较级"
+  },
+  "between": {
+    "modernMeaningCn": "在之间",
+    "literalMeaningCn": "在两者中间",
+    "metaphorMeaningCn": "在两者之间、介于",
+    "metaphorOptions": [
+      "在两者之间、介于",
+      "变动的影子",
+      "装满的人"
+    ],
+    "mnemonicNote": "be(在)+tween(二)：夹在两个东西当中那条缝",
+    "sourceNote": "古英语 betweonum，be-(在) + tweonum(两者)"
+  },
+  "beyond": {
+    "modernMeaningCn": "在那边",
+    "literalMeaningCn": "在那一边",
+    "metaphorMeaningCn": "在那边、超出",
+    "metaphorOptions": [
+      "在那边、超出",
+      "全部作品的工具",
+      "数着比活得长过日子"
+    ],
+    "mnemonicNote": "be(在)+yond(那边)：越过界线再往前那一片",
+    "sourceNote": "古英语 begeondan，be-(在) + geond(越过)"
+  },
+  "biochemistry": {
+    "modernMeaningCn": "生物化学",
+    "literalMeaningCn": "研究生命的化学",
+    "metaphorMeaningCn": "生物化学",
+    "metaphorOptions": [
+      "生物化学",
+      "荒野的背面",
+      "保持的旧事"
+    ],
+    "mnemonicNote": "bio(生命)+chemistry(化学)：拿试管琢磨活着的身体",
+    "sourceNote": "希腊 bios(生命) + 阿拉伯 al-kimiya(化学)"
+  },
+  "birthplace": {
+    "modernMeaningCn": "出生地",
+    "literalMeaningCn": "出生的地方",
+    "metaphorMeaningCn": "出生地、发源地",
+    "metaphorOptions": [
+      "出生地、发源地",
+      "繁殖的影子",
+      "中心的人"
+    ],
+    "mnemonicNote": "birth(出生)+place(地方)：第一声啼哭响起的那间屋",
+    "sourceNote": "英语复合词，birth + place"
+  },
+  "boating": {
+    "modernMeaningCn": "划船",
+    "literalMeaningCn": "驾船的活动",
+    "metaphorMeaningCn": "划船、泛舟",
+    "metaphorOptions": [
+      "划船、泛舟",
+      "守着允许过活",
+      "替打架操心"
+    ],
+    "mnemonicNote": "boat(船)+ing：周末把桨扛到湖上去",
+    "sourceNote": "古英语 bat(船) + -ing(活动后缀)"
+  },
+  "bookcase": {
+    "modernMeaningCn": "书柜",
+    "literalMeaningCn": "装书的柜子",
+    "metaphorMeaningCn": "书柜、书橱",
+    "metaphorOptions": [
+      "书柜、书橱",
+      "一种打架的习俗",
+      "拼写的人"
+    ],
+    "mnemonicNote": "book(书)+case(箱柜)：带门的那个，防潮又防尘",
+    "sourceNote": "英语复合词，book + case(箱、柜)"
+  },
+  "bookshelf": {
+    "modernMeaningCn": "书架",
+    "literalMeaningCn": "放书的搁板",
+    "metaphorMeaningCn": "书架、搁板",
+    "metaphorOptions": [
+      "书架、搁板",
+      "流产的地方",
+      "带子的来路"
+    ],
+    "mnemonicNote": "book(书)+shelf(搁板)：墙上那几层不加门的",
+    "sourceNote": "英语复合词，book + shelf"
+  },
+  "bookshop": {
+    "modernMeaningCn": "书店",
+    "literalMeaningCn": "卖书的铺子",
+    "metaphorMeaningCn": "书店",
+    "metaphorOptions": [
+      "书店",
+      "显现的小站",
+      "消失的地方"
+    ],
+    "mnemonicNote": "book(书)+shop(铺子)：沿街那家门脸不大的",
+    "sourceNote": "英语复合词，book + shop"
+  },
+  "bookstore": {
+    "modernMeaningCn": "书店",
+    "literalMeaningCn": "存书的铺面",
+    "metaphorMeaningCn": "书店",
+    "metaphorOptions": [
+      "书店",
+      "围着同情转",
+      "数着课程过日子"
+    ],
+    "mnemonicNote": "book(书)+store(店)：规模大些、能坐下看书那家",
+    "sourceNote": "英语复合词，book + store(店铺)"
+  },
+  "bored": {
+    "modernMeaningCn": "无聊的",
+    "literalMeaningCn": "被钻空了的",
+    "metaphorMeaningCn": "无聊的、厌烦的",
+    "metaphorOptions": [
+      "无聊的、厌烦的",
+      "运输的一角",
+      "围着立即的转"
+    ],
+    "mnemonicNote": "bore(钻孔)+d：像被人拿钻头把兴致掏走了",
+    "sourceNote": "古英语 borian(钻孔)，引申为「磨人」"
+  },
+  "boring": {
+    "modernMeaningCn": "烦人的",
+    "literalMeaningCn": "像钻头一样",
+    "metaphorMeaningCn": "烦人的、乏味的",
+    "metaphorOptions": [
+      "烦人的、乏味的",
+      "钢琴的人",
+      "完全的的影子"
+    ],
+    "mnemonicNote": "bor(钻孔)+ing：一下下往你耐心上钻",
+    "sourceNote": "古英语 borian(钻孔) + -ing"
+  },
+  "botanical": {
+    "modernMeaningCn": "植物学的",
+    "literalMeaningCn": "与植物有关",
+    "metaphorMeaningCn": "植物学的、植物的",
+    "metaphorOptions": [
+      "植物学的、植物的",
+      "重的的来路",
+      "波浪的推动力的旧事"
+    ],
+    "mnemonicNote": "botan(草木)+ical：围着花花草草做文章",
+    "sourceNote": "希腊 botanikos，botane(草、牧草)"
+  },
+  "bowling": {
+    "modernMeaningCn": "保龄球",
+    "literalMeaningCn": "滚球的活动",
+    "metaphorMeaningCn": "保龄球、滚球戏",
+    "metaphorOptions": [
+      "保龄球、滚球戏",
+      "面团的影子",
+      "游泳的人"
+    ],
+    "mnemonicNote": "bowl(球)+ing：把沉甸甸那颗球顺木道推出去",
+    "sourceNote": "法语 boule(球)，拉丁 bulla(圆球)"
+  },
+  "boxing": {
+    "modernMeaningCn": "拳击",
+    "literalMeaningCn": "用拳头相击",
+    "metaphorMeaningCn": "拳击、拳术",
+    "metaphorOptions": [
+      "拳击、拳术",
+      "头发的味道",
+      "等待的另一面"
+    ],
+    "mnemonicNote": "box(拳)+ing：戴着手套在绳圈里对打",
+    "sourceNote": "中古英语 box(一拳)，与 box(盒子) 同形不同源"
+  },
+  "bravery": {
+    "modernMeaningCn": "勇敢",
+    "literalMeaningCn": "胆气十足",
+    "metaphorMeaningCn": "勇敢、勇气",
+    "metaphorOptions": [
+      "勇敢、勇气",
+      "庆祝的的工具",
+      "数着出汗过日子"
+    ],
+    "mnemonicNote": "brave(无所畏惧)+ry：明知可怕还往前迈那一步",
+    "sourceNote": "法语 braverie，brave(无所畏惧)"
+  },
+  "breakthrough": {
+    "modernMeaningCn": "突破",
+    "literalMeaningCn": "打破并穿过",
+    "metaphorMeaningCn": "突破、重大进展",
+    "metaphorOptions": [
+      "突破、重大进展",
+      "意外事件的过程",
+      "向着树桩去"
+    ],
+    "mnemonicNote": "break(打破)+through(穿过)：一头撞开挡在面前的墙",
+    "sourceNote": "英语复合词，军事上指攻破防线"
+  },
+  "breathless": {
+    "modernMeaningCn": "气喘吁吁的",
+    "literalMeaningCn": "透不过气的",
+    "metaphorMeaningCn": "气喘吁吁的、屏息的",
+    "metaphorOptions": [
+      "气喘吁吁的、屏息的",
+      "栖木的背面",
+      "被最后的的东西"
+    ],
+    "mnemonicNote": "breath(呼吸)+less(无)：跑完那段楼梯后的样子",
+    "sourceNote": "古英语 bræþ(呼吸) + -leas(无)"
+  },
+  "brewery": {
+    "modernMeaningCn": "啤酒厂",
+    "literalMeaningCn": "酿酒的地方",
+    "metaphorMeaningCn": "啤酒厂、酿造厂",
+    "metaphorOptions": [
+      "啤酒厂、酿造厂",
+      "身份的地方",
+      "小伙子的小站"
+    ],
+    "mnemonicNote": "brew(酿)+ery(场所)：整条街都是麦芽味那个院子",
+    "sourceNote": "古英语 breowan(煮、酿) + -ery(场所)"
+  },
+  "bridegroom": {
+    "modernMeaningCn": "新郎",
+    "literalMeaningCn": "陪新娘的人",
+    "metaphorMeaningCn": "新郎",
+    "metaphorOptions": [
+      "新郎",
+      "把名望翻开",
+      "幸运的的影子"
+    ],
+    "mnemonicNote": "bride(新娘)+groom(男伴)：婚礼上站在新娘左手那位",
+    "sourceNote": "古英语 brydguma，guma(人) 被 groom 误替"
+  },
+  "broadcast": {
+    "modernMeaningCn": "广播",
+    "literalMeaningCn": "大范围撒出去",
+    "metaphorMeaningCn": "广播、播送",
+    "metaphorOptions": [
+      "广播、播送",
+      "守着母牛过活",
+      "贵的的小站"
+    ],
+    "mnemonicNote": "broad(宽广)+cast(投撒)：种子撒得满田都是",
+    "sourceNote": "英语复合词，原指农夫撒种，20 世纪转指无线电"
+  },
+  "brotherhood": {
+    "modernMeaningCn": "手足情谊",
+    "literalMeaningCn": "兄弟的关系",
+    "metaphorMeaningCn": "手足情谊、兄弟会",
+    "metaphorOptions": [
+      "手足情谊、兄弟会",
+      "围着注解转",
+      "数着个性过日子"
+    ],
+    "mnemonicNote": "brother(兄弟)+hood(身份)：不是血亲也认作一家的情分",
+    "sourceNote": "古英语 broþorhad，broþor(兄弟) + -had(身份)"
+  },
+  "bucket": {
+    "modernMeaningCn": "桶",
+    "literalMeaningCn": "提水的容器",
+    "metaphorMeaningCn": "桶、提桶",
+    "metaphorOptions": [
+      "桶、提桶",
+      "冻结的小站",
+      "守着敬畏过活"
+    ],
+    "mnemonicNote": "buck(水罐)+et：井边那只带提梁的家什",
+    "sourceNote": "古法语 buket，古英语 buc(水罐)"
+  },
+  "buddhism": {
+    "modernMeaningCn": "佛教",
+    "literalMeaningCn": "佛陀的教法",
+    "metaphorMeaningCn": "佛教",
+    "metaphorOptions": [
+      "佛教",
+      "系统的工具",
+      "把易变地串起来"
+    ],
+    "mnemonicNote": "buddh(佛陀)+ism(教义)：从菩提树下传出来的那套",
+    "sourceNote": "梵语 buddha(觉悟者) + -ism"
+  },
+  "buddhist": {
+    "modernMeaningCn": "佛教徒",
+    "literalMeaningCn": "信佛的人",
+    "metaphorMeaningCn": "佛教徒、佛教的",
+    "metaphorOptions": [
+      "佛教徒、佛教的",
+      "王子的小站",
+      "自己的地方"
+    ],
+    "mnemonicNote": "buddh(佛陀)+ist(人)：照着那套教法过日子的人",
+    "sourceNote": "梵语 buddha(觉悟者) + -ist(信奉者)"
+  },
+  "building": {
+    "modernMeaningCn": "建筑物",
+    "literalMeaningCn": "建起来的东西",
+    "metaphorMeaningCn": "建筑物、楼房",
+    "metaphorOptions": [
+      "建筑物、楼房",
+      "向着他们去",
+      "围着享受转"
+    ],
+    "mnemonicNote": "build(建造)+ing：一砖一瓦垒到现在这副样子",
+    "sourceNote": "古英语 byldan(建造) + -ing"
+  },
+  "bureaucratic": {
+    "modernMeaningCn": "官僚的",
+    "literalMeaningCn": "与官署有关",
+    "metaphorMeaningCn": "官僚的、繁文缛节的",
+    "metaphorOptions": [
+      "官僚的、繁文缛节的",
+      "动作的的小站",
+      "守着建立过活"
+    ],
+    "mnemonicNote": "bureaucrat(官吏)+ic：一层层盖章、一步步走流程",
+    "sourceNote": "法语 bureaucratie，bureau(办公桌) + 希腊 kratos(权力)"
+  },
+  "business": {
+    "modernMeaningCn": "生意",
+    "literalMeaningCn": "忙碌的状态",
+    "metaphorMeaningCn": "生意、事务",
+    "metaphorOptions": [
+      "生意、事务",
+      "结合的的人",
+      "一种连接元音的习俗"
+    ],
+    "mnemonicNote": "busi(忙碌)+ness(状态)：一天到晚盘算着进出的那摊事",
+    "sourceNote": "古英语 bisignes，bisig(忙) + -nes(状态)"
+  },
+  "businessman": {
+    "modernMeaningCn": "商人",
+    "literalMeaningCn": "做生意的男人",
+    "metaphorMeaningCn": "商人、实业家",
+    "metaphorOptions": [
+      "商人、实业家",
+      "把向前翻开",
+      "北方的影子"
+    ],
+    "mnemonicNote": "business(生意)+man(人)：饭桌上谈价、合同上按手印",
+    "sourceNote": "英语复合词，business + man"
+  },
+  "businesswoman": {
+    "modernMeaningCn": "女商人",
+    "literalMeaningCn": "做生意的女性",
+    "metaphorMeaningCn": "女商人、女实业家",
+    "metaphorOptions": [
+      "女商人、女实业家",
+      "经过的味道",
+      "被反抗的东西"
+    ],
+    "mnemonicNote": "business(生意)+woman(女性)：同一张谈判桌上撑起半边的",
+    "sourceNote": "英语复合词，business + woman"
+  },
+  "butcher": {
+    "modernMeaningCn": "屠夫",
+    "literalMeaningCn": "宰牲口的人",
+    "metaphorMeaningCn": "屠夫、肉商",
+    "metaphorOptions": [
+      "屠夫、肉商",
+      "守着租金过活",
+      "巨大的小站"
+    ],
+    "mnemonicNote": "butch(宰杀)+er(人)：砧板上那把刀不离手",
+    "sourceNote": "古法语 bochier，bouc(公羊)"
+  },
+  "butter": {
+    "modernMeaningCn": "黄油",
+    "literalMeaningCn": "桶里搅出的",
+    "metaphorMeaningCn": "黄油、奶油",
+    "metaphorOptions": [
+      "黄油、奶油",
+      "试图的地方",
+      "一种大约的的习俗"
+    ],
+    "mnemonicNote": "butt(桶)+er：牛奶在木桶里搅到凝成块",
+    "sourceNote": "古英语 butere，希腊 boutyron(牛乳酪)"
+  },
+  "butterfly": {
+    "modernMeaningCn": "蝴蝶",
+    "literalMeaningCn": "黄油色的飞虫",
+    "metaphorMeaningCn": "蝴蝶",
+    "metaphorOptions": [
+      "蝴蝶",
+      "学校的人",
+      "打击的影子"
+    ],
+    "mnemonicNote": "butter(黄油)+fly(飞虫)：翅膀黄澄澄那种小飞虫",
+    "sourceNote": "古英语 buterfleoge，butere(黄油) + fleoge(蝇)"
+  },
+  "canteen": {
+    "modernMeaningCn": "食堂",
+    "literalMeaningCn": "营中的小卖部",
+    "metaphorMeaningCn": "食堂、水壶",
+    "metaphorOptions": [
+      "食堂、水壶",
+      "理论上的的人",
+      "一种松树的习俗"
+    ],
+    "mnemonicNote": "can(罐)+teen：最早是随军挑着的伙食担子",
+    "sourceNote": "法语 cantine，意大利 cantina(酒窖、小铺)"
+  },
+  "capital": {
+    "modernMeaningCn": "首都",
+    "literalMeaningCn": "头等之地",
+    "metaphorMeaningCn": "首都、资本",
+    "metaphorOptions": [
+      "首都、资本",
+      "除去的小站",
+      "被过度的的东西"
+    ],
+    "mnemonicNote": "capit(头)+al：一个国家的脑袋长在哪里",
+    "sourceNote": "拉丁 capitalis，caput(头)"
+  },
+  "caption": {
+    "modernMeaningCn": "标题",
+    "literalMeaningCn": "抓住要点那行",
+    "metaphorMeaningCn": "标题、字幕",
+    "metaphorOptions": [
+      "标题、字幕",
+      "低于的地方",
+      "在上的小站"
+    ],
+    "mnemonicNote": "cap(拿)+tion：一把掐住整段话的要点",
+    "sourceNote": "拉丁 captio，capere(拿、抓)"
+  },
+  "carbon": {
+    "modernMeaningCn": "碳",
+    "literalMeaningCn": "一种元素",
+    "metaphorMeaningCn": "碳、复写纸",
+    "metaphorOptions": [
+      "碳、复写纸",
+      "数着界限过日子",
+      "围着新鲜的转"
+    ],
+    "mnemonicNote": "car(炭)+bon：木炭里烧剩下的主要成分",
+    "sourceNote": "拉丁 carbo(木炭)"
+  },
+  "carrier": {
+    "modernMeaningCn": "搬运工",
+    "literalMeaningCn": "搬东西的人",
+    "metaphorMeaningCn": "搬运工、载体",
+    "metaphorOptions": [
+      "搬运工、载体",
+      "离介意很远",
+      "主体的过程"
+    ],
+    "mnemonicNote": "carri(搬运)+er(人)：肩上那副担子一直在换地方",
+    "sourceNote": "古法语 carier(运送)，拉丁 carrus(车)"
+  },
+  "carrot": {
+    "modernMeaningCn": "胡萝卜",
+    "literalMeaningCn": "一种根菜",
+    "metaphorMeaningCn": "胡萝卜、诱饵",
+    "metaphorOptions": [
+      "胡萝卜、诱饵",
+      "数着化学的过日子",
+      "围着直线转"
+    ],
+    "mnemonicNote": "car+rot：土里拔出来那根橙红的东西",
+    "sourceNote": "法语 carotte，拉丁 carota"
+  },
+  "casual": {
+    "modernMeaningCn": "随便的",
+    "literalMeaningCn": "顺手落下的",
+    "metaphorMeaningCn": "随便的、偶然的",
+    "metaphorOptions": [
+      "随便的、偶然的",
+      "围着慢的转",
+      "向着有相互关系的东西去"
+    ],
+    "mnemonicNote": "cas(落下)+ual：像落叶那样碰巧掉到你面前的",
+    "sourceNote": "拉丁 casualis，casus(落下、偶然)"
+  },
+  "cathedral": {
+    "modernMeaningCn": "大教堂",
+    "literalMeaningCn": "主教宝座所在",
+    "metaphorMeaningCn": "大教堂",
+    "metaphorOptions": [
+      "大教堂",
+      "不是必要的的一角",
+      "灾祸的另一面"
+    ],
+    "mnemonicNote": "cathedra(主教座)+l：放着那把椅子的教堂才算它",
+    "sourceNote": "希腊 kathedra(座椅)，指主教专属的座位"
+  },
+  "cautious": {
+    "modernMeaningCn": "谨慎的",
+    "literalMeaningCn": "处处留心的",
+    "metaphorMeaningCn": "谨慎的、小心的",
+    "metaphorOptions": [
+      "谨慎的、小心的",
+      "注意的的人",
+      "不是必要的的影子"
+    ],
+    "mnemonicNote": "cautio(当心)+us：出门前总要回头再看一眼门锁",
+    "sourceNote": "拉丁 cautio(小心)，cavere(提防)"
+  },
+  "ceiling": {
+    "modernMeaningCn": "天花板",
+    "literalMeaningCn": "抹灰的顶面",
+    "metaphorMeaningCn": "天花板、上限",
+    "metaphorOptions": [
+      "天花板、上限",
+      "向前的来路",
+      "发射的旧事"
+    ],
+    "mnemonicNote": "ceil(抹灰)+ing：抬头看到的那层白面",
+    "sourceNote": "中古英语 celen(装顶)，拉丁 caelare(雕刻)"
+  },
+  "celebration": {
+    "modernMeaningCn": "庆祝",
+    "literalMeaningCn": "办喜事的活动",
+    "metaphorMeaningCn": "庆祝、庆典",
+    "metaphorOptions": [
+      "庆祝、庆典",
+      "强调的人",
+      "一种佛陀的习俗"
+    ],
+    "mnemonicNote": "celebrat(庆贺)+ion：锣鼓一响，满街都知道",
+    "sourceNote": "拉丁 celebratio，celeber(热闹的、众人聚集的)"
+  },
+  "central": {
+    "modernMeaningCn": "中央的",
+    "literalMeaningCn": "在正中的",
+    "metaphorMeaningCn": "中央的、主要的",
+    "metaphorOptions": [
+      "中央的、主要的",
+      "在周围的一角",
+      "一种紧的的习俗"
+    ],
+    "mnemonicNote": "centr(圆心)+al：所有线都往这一点上收",
+    "sourceNote": "拉丁 centralis，centrum(中心)"
+  },
+  "certainly": {
+    "modernMeaningCn": "当然",
+    "literalMeaningCn": "以确定的方式",
+    "metaphorMeaningCn": "当然、的确",
+    "metaphorOptions": [
+      "当然、的确",
+      "部分的过程",
+      "离器官很远"
+    ],
+    "mnemonicNote": "certain(拿准)+ly：话说出口就是板上钉钉",
+    "sourceNote": "古法语 certain(确定的) + -ly"
+  },
+  "chairwoman": {
+    "modernMeaningCn": "女主席",
+    "literalMeaningCn": "坐主席位的女性",
+    "metaphorMeaningCn": "女主席、女主任",
+    "metaphorOptions": [
+      "女主席、女主任",
+      "离甜蜜很远",
+      "替荒野操心"
+    ],
+    "mnemonicNote": "chair(首席)+woman(女性)：长桌正中间那把椅子归她",
+    "sourceNote": "英语复合词，chair(主席席位) + woman"
+  },
+  "challenging": {
+    "modernMeaningCn": "有挑战性的",
+    "literalMeaningCn": "在挑人斤两的",
+    "metaphorMeaningCn": "有挑战性的、艰巨的",
+    "metaphorOptions": [
+      "有挑战性的、艰巨的",
+      "被无疑的的东西",
+      "过度的的背面"
+    ],
+    "mnemonicNote": "challeng(叫阵)+ing：明摆着要跟你比比看",
+    "sourceNote": "古法语 chalenge，拉丁 calumnia(指控)"
+  },
+  "champion": {
+    "modernMeaningCn": "冠军",
+    "literalMeaningCn": "场上的胜者",
+    "metaphorMeaningCn": "冠军、拥护者",
+    "metaphorOptions": [
+      "冠军、拥护者",
+      "精确的的地方",
+      "不同的来路"
+    ],
+    "mnemonicNote": "champ(竞技场)+ion：一圈打下来还站着的那位",
+    "sourceNote": "拉丁 campio，campus(战场、竞技场)"
+  },
+  "chapter": {
+    "modernMeaningCn": "章节",
+    "literalMeaningCn": "书的一小段",
+    "metaphorMeaningCn": "章节、时期",
+    "metaphorOptions": [
+      "章节、时期",
+      "一种标准的习俗",
+      "末端的人"
+    ],
+    "mnemonicNote": "chap(头)+ter：每段开头那个标号领起的一段",
+    "sourceNote": "拉丁 capitulum，caput(头) 的指小形式"
+  }
 }

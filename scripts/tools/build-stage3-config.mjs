@@ -118,6 +118,35 @@ const SPLIT_REPLACE = {
   carrot: [{ id: 'carrot', surface: 'carrot' }],
   isolate: [{ id: 'isol', surface: 'isol' }, { id: 'ate', surface: 'ate' }],
   delivery: [{ id: 'delivery', surface: 'delivery' }],
+  // ── 二轮复核：切分指错词素/把无关词素接进来（详见 docs/复核修复进度）────────
+  company: [{ id: 'com', surface: 'com' }, { id: 'pan', surface: 'pan' }, { id: 'y', surface: 'y' }], // com+panis(面包)，原 comp+any
+  healthy: [{ id: 'heal', surface: 'heal' }, { id: 'th', surface: 'th' }, { id: 'y', surface: 'y' }], // health+y，原 heal+thy(你的)
+  wealthy: [{ id: 'weal', surface: 'weal' }, { id: 'th', surface: 'th' }, { id: 'y', surface: 'y' }], // 同上，weal+thy
+  neighborhood: [{ id: 'neighbor', surface: 'neighbor' }, { id: 'hood', surface: 'hood' }], // 原 neighborh+ood(红的)
+  command: [{ id: 'com', surface: 'com' }, { id: 'mand', surface: 'mand' }], // com+mandare(托付)，原 comm+and(和)
+  improve: [{ id: 'im', surface: 'im' }, { id: 'prove', surface: 'prove' }], // en+prou(有利)，原 imp+rove
+  translate: [{ id: 'trans', surface: 'trans' }, { id: 'late', surface: 'late' }], // trans+latum(带)，原 tran+slate
+  transport: [{ id: 'trans', surface: 'trans' }, { id: 'port', surface: 'port' }], // trans+portare(搬)，原 tran+sport(运动!)
+  decline: [{ id: 'de', surface: 'de' }, { id: 'cline', surface: 'cline' }], // de+clinare(倾)，原 dec(十)+line
+  incline: [{ id: 'in', surface: 'in' }, { id: 'cline', surface: 'cline' }], // 同上
+  nowhere: [{ id: 'ne', surface: 'no' }, { id: 'where', surface: 'where' }], // na(不)+hwær，原 now(现在)+here(她!)
+  woollen: [{ id: 'wool', surface: 'wooll' }, { id: 'en', surface: 'en' }], // wool(l)+en(由…制成)，原 wool+len(羊毛)
+  deliberate: [{ id: 'de', surface: 'de' }, { id: 'liber', surface: 'liber' }, { id: 'ate', surface: 'ate' }], // de+librare(称量)，原 deli(熟食店)+berate
+  electron: [{ id: 'electr', surface: 'electr' }, { id: 'on', surface: 'on' }], // elektron(琥珀→电)，原 elect(当选人)+ron
+  farther: [{ id: 'far', surface: 'far' }, { id: 'ther', surface: 'ther' }], // far 比较级，原 fart(远?)+her(她)
+  reproach: [{ id: 're', surface: 're' }, { id: 'roach', surface: 'proach' }], // re+proche(近)，原 rep(棱纹平布)
+  denounce: [{ id: 'de', surface: 'de' }, { id: 'nounce', surface: 'nounce' }], // de+nuntiare(宣告)，原 den(兽穴)+ounce(盎司)
+  descent: [{ id: 'de', surface: 'de' }, { id: 'scent', surface: 'scent' }], // de+scendere(爬下)，原 des+cent(百)
+  emigrate: [{ id: 'e', surface: 'e' }, { id: 'migr', surface: 'migr' }, { id: 'ate', surface: 'ate' }], // e+migrare(迁移)，原 emi+grate(高兴、感激!)
+  refrain: [{ id: 're', surface: 're' }, { id: 'frain', surface: 'frain' }], // re+fraindre(勒住)，原 ref+rain(雨!)
+  terrain: [{ id: 'terr', surface: 'terr' }, { id: 'ain', surface: 'ain' }], // terrenum(土地)，原 ter(三次)+rain(雨!)
+  lemonade: [{ id: 'lemon', surface: 'lemon' }, { id: 'ade', surface: 'ade' }], // lemon+-ade(饮料)，原挂在 ad-(朝向) 上
+  wide: [{ id: 'wide', surface: 'wide' }], // wid 整词，原 wi+de 两张「宽」
+  already: [{ id: 'all', surface: 'al' }, { id: 'ready', surface: 'ready' }], // all(全)+ready，原挂在形容词后缀 al 上
+  altogether: [{ id: 'all', surface: 'al' }, { id: 'together', surface: 'together' }], // 同上
+  allocate: [{ id: 'ad', surface: 'al' }, { id: 'locate', surface: 'locate' }], // ad-(朝向) 同化，原挂在形容词后缀 al 上
+  another: [{ id: 'ad', surface: 'an' }, { id: 'other', surface: 'other' }], // an(one) 的古拼法经 a- 误析，原挂在 -an 后缀上
+  announce: [{ id: 'ad', surface: 'an' }, { id: 'nounce', surface: 'nounce' }], // ad+nuntiare(宣告)，同上
 }
 const replacedSplits = []
 for (const [word, parts] of Object.entries(SPLIT_REPLACE)) {
@@ -222,6 +251,10 @@ const touched = new Set([
   // WORD_PART_FIX 的两侧都要收：改挂之后源词素会掉一个变体（notation 走了，not 的 `notat`
   // 就没人用了），目标词素会多一个 —— 只收目标那一侧会漏掉前者。
   ...Object.values(WORD_PART_FIX).flatMap((fix) => [...Object.keys(fix), ...Object.values(fix)]),
+  // SPLIT_REPLACE 会在既有词素上启用新表面（another 的 ad[an]、nowhere 的 ne[no]、
+  // reproach 的 roach[proach]、woollen 的 wool[wooll]、farther 的 far……），这些词素的
+  // 变体表同样要重算，否则 21 号 A6 拒收。
+  ...Object.values(SPLIT_REPLACE).flatMap((parts) => parts.map((p) => p.id)),
 ])
 const usedSurfaces = new Map()
 for (const parts of Object.values(allSplits)) {
@@ -231,8 +264,13 @@ for (const parts of Object.values(allSplits)) {
     usedSurfaces.get(part.id).add(part.surface)
   }
 }
+// 词性改判：company 的 pan 本是「平锅/面包」整词根（companio 共享面包的人），cigen 把它
+// 当成了前缀；wide 是「宽」整词根（古英语 wid），同理。不是任何家族的 root，改 root
+// 不触发挂世界要求，但能让 21 号 A18（至少一个 root part）放行 company / wide。
+const TYPE_FIX = { pan: 'root', wide: 'root', where: 'root' }
 for (const m of extraMorphemes) {
   if (DISPLAY_FIX[m.id]) Object.assign(m, DISPLAY_FIX[m.id])
+  if (TYPE_FIX[m.id]) { m.type = TYPE_FIX[m.id]; m.color = 'orange' }
   const used = usedSurfaces.get(m.id)
   if (!used) continue
   const kept = m.allomorphs.filter((surface) => used.has(surface))
@@ -315,6 +353,20 @@ for (const [w, parts] of Object.entries(allSplits)) {
   for (const p of parts) if (!morphemeIds.has(p.id)) errors.push(`${w}: 引用未建模词素 ${p.id}`)
 }
 // 世界覆盖：每个 root 都要落在某个世界里
+// 二轮复核：TYPE_FIX 改判成 root 的词素（pan/wide/where）不在任何家族里，
+// 配置层的「家族 root 必须挂世界」检查拦不到它们，但 validate 的 A24（教学词根
+// ≥3 词必须挂世界）会拦。按词义挂进主题相配的世界：pan→炉火坊（炊具）、
+// wide→度量台（宽窄）、where→四方塔（方位）。
+const WORLD_ADD = {
+  'hearth-forge': ['pan'],
+  'measure-terrace': ['wide'],
+  'compass-tower': ['where'],
+}
+for (const [worldId, ids] of Object.entries(WORLD_ADD)) {
+  const world = allWorlds.find((w) => w.id === worldId)
+  if (!world) { errors.push(`WORLD_ADD 的 ${worldId} 不存在`); continue }
+  world.morphemeIds = [...new Set([...world.morphemeIds, ...ids])]
+}
 const worldRoots = new Set(allWorlds.flatMap((w) => w.morphemeIds))
 // 家族里一个词都没有的词根不要求挂世界：它无词可学，放进地图也是空的。
 // `live` 就是这种情况 —— alive 归一成 life 之后，live 家族空了，

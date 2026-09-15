@@ -1,723 +1,723 @@
 {
- "_comment": "Stage 3 待写释义（batch-18，本批 60 词，高考批第 11 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
- "occupation": {
-  "modernMeaningCn": "职业",
-  "literalMeaningCn": "占住时间的事",
-  "metaphorMeaningCn": "职业、占领",
-  "metaphorOptions": [
-   "职业、占领",
-   "把跨越翻开",
-   "把少女串起来"
-  ],
-  "mnemonicNote": "occup(占据)+ation：一天里占去你大半时间那件事",
-  "sourceNote": "拉丁 occupatio，occupare(占据)"
- },
- "official": {
-  "modernMeaningCn": "官方的",
-  "literalMeaningCn": "办差事的人",
-  "metaphorMeaningCn": "官方的、官员",
-  "metaphorOptions": [
-   "官方的、官员",
-   "使习惯于的旧事",
-   "安顿的背面"
-  ],
-  "mnemonicNote": "offic(公务)+ial：盖着公章那一类说法",
-  "sourceNote": "拉丁 officialis，officium(职责、公务)"
- },
- "offshore": {
-  "modernMeaningCn": "近海的",
-  "literalMeaningCn": "离岸的",
-  "metaphorMeaningCn": "近海的、海上的",
-  "metaphorOptions": [
-   "近海的、海上的",
-   "一种功绩的习俗",
-   "正统的的一角"
-  ],
-  "mnemonicNote": "off(离开)+shore(岸)：从岸边往外出去那一片水面",
-  "sourceNote": "英语复合词，off + shore"
- },
- "oilfield": {
-  "modernMeaningCn": "油田",
-  "literalMeaningCn": "出油的田地",
-  "metaphorMeaningCn": "油田、石油产区",
-  "metaphorOptions": [
-   "油田、石油产区",
-   "要求的小站",
-   "毒药的旧事"
-  ],
-  "mnemonicNote": "oil(石油)+field(地)：地上竖着一排排磕头机那处",
-  "sourceNote": "英语复合词，oil + field"
- },
- "opener": {
-  "modernMeaningCn": "开瓶器",
-  "literalMeaningCn": "开东西的器物",
-  "metaphorMeaningCn": "开瓶器、开场戏",
-  "metaphorOptions": [
-   "开瓶器、开场戏",
-   "数着有确实根据的过日子",
-   "围着反抗转"
-  ],
-  "mnemonicNote": "open(打开)+er(物)：瓶盖卡住时手边那件小工具",
-  "sourceNote": "古英语 openian(打开) + -er"
- },
- "opening": {
-  "modernMeaningCn": "开口",
-  "literalMeaningCn": "开着的那处",
-  "metaphorMeaningCn": "开口、开幕",
-  "metaphorOptions": [
-   "开口、开幕",
-   "一种创伤的习俗",
-   "倾斜的一角"
-  ],
-  "mnemonicNote": "open(开)+ing：墙上透光进来的那个洞",
-  "sourceNote": "古英语 openian(打开) + -ing"
- },
- "operation": {
-  "modernMeaningCn": "操作",
-  "literalMeaningCn": "动手做的事",
-  "metaphorMeaningCn": "操作、手术",
-  "metaphorOptions": [
-   "操作、手术",
-   "围着社团的转",
-   "向着慢的去"
-  ],
-  "mnemonicNote": "operat(劳作)+ion：一台机器按步骤动起来那件事",
-  "sourceNote": "拉丁 operatio，operari(劳作)"
- },
- "operator": {
-  "modernMeaningCn": "操作员",
-  "literalMeaningCn": "动手操作的人",
-  "metaphorMeaningCn": "操作员、接线员",
-  "metaphorOptions": [
-   "操作员、接线员",
-   "技术的工具",
-   "把说话串起来"
-  ],
-  "mnemonicNote": "operat(操作)+or(人)：坐在控制台前那些按钮归他管",
-  "sourceNote": "拉丁 operator，operari(劳作)"
- },
- "opinion": {
-  "modernMeaningCn": "意见",
-  "literalMeaningCn": "心里认下的看法",
-  "metaphorMeaningCn": "意见、看法",
-  "metaphorOptions": [
-   "意见、看法",
-   "围着酿造酒转",
-   "数着荒野过日子"
-  ],
-  "mnemonicNote": "opin(认为)+ion：各人嘴里那一套自己的说法",
-  "sourceNote": "拉丁 opinio，opinari(认为)"
- },
- "optimistic": {
-  "modernMeaningCn": "乐观的",
-  "literalMeaningCn": "看好一面的",
-  "metaphorMeaningCn": "乐观的、抱希望的",
-  "metaphorOptions": [
-   "乐观的、抱希望的",
-   "被包裹的东西",
-   "部分的味道"
-  ],
-  "mnemonicNote": "optimist(乐天派)+ic：天塌下来也先说「没事」",
-  "sourceNote": "拉丁 optimum(最好) + -istic"
- },
- "optional": {
-  "modernMeaningCn": "可选的",
-  "literalMeaningCn": "可以挑的",
-  "metaphorMeaningCn": "可选的、非必修的",
-  "metaphorOptions": [
-   "可选的、非必修的",
-   "围着反驳转",
-   "数着介意过日子"
-  ],
-  "mnemonicNote": "option(选择)+al：勾不勾在你，没人逼你",
-  "sourceNote": "拉丁 optio(选择) + -al"
- },
- "organise": {
-  "modernMeaningCn": "组织",
-  "literalMeaningCn": "使各司其职",
-  "metaphorMeaningCn": "组织、筹办",
-  "metaphorOptions": [
-   "组织、筹办",
-   "加速的一角",
-   "每一的另一面"
-  ],
-  "mnemonicNote": "organ(器官)+ise(使)：让各部分像身体器官一样配合",
-  "sourceNote": "希腊 organon(工具、器官) + -ise"
- },
- "organization": {
-  "modernMeaningCn": "组织",
-  "literalMeaningCn": "结成的机构",
-  "metaphorMeaningCn": "组织、团体",
-  "metaphorOptions": [
-   "组织、团体",
-   "避难所的小站",
-   "排外的的地方"
-  ],
-  "mnemonicNote": "organiz(组建)+ation：一群人分工明确地连成一体",
-  "sourceNote": "中世纪拉丁 organizatio，organum(器官、工具)"
- },
- "otherwise": {
-  "modernMeaningCn": "否则",
-  "literalMeaningCn": "在别的情况下",
-  "metaphorMeaningCn": "否则、另外",
-  "metaphorOptions": [
-   "否则、另外",
-   "毒药的小站",
-   "守着记忆过活"
-  ],
-  "mnemonicNote": "other(别的)+wise(方式)：不按这条走，就得吃另一种果",
-  "sourceNote": "古英语 on othre wisan，other + wise(方式)"
- },
- "outdoors": {
-  "modernMeaningCn": "户外",
-  "literalMeaningCn": "在门外头",
-  "metaphorMeaningCn": "户外、野外",
-  "metaphorOptions": [
-   "户外、野外",
-   "围着守卫者转",
-   "向着英方用指甲或爪子去"
-  ],
-  "mnemonicNote": "out(外)+doors(门)：推开门就是天和地那片",
-  "sourceNote": "英语复合词，out + doors"
- },
- "outgoing": {
-  "modernMeaningCn": "外向的",
-  "literalMeaningCn": "朝外走的",
-  "metaphorMeaningCn": "外向的、即将离任的",
-  "metaphorOptions": [
-   "外向的、即将离任的",
-   "替中提琴操心",
-   "呼叫的过程"
-  ],
-  "mnemonicNote": "outgo(往外去)+ing：见谁都愿意先开口那种性子",
-  "sourceNote": "英语复合词，out + going"
- },
- "outline": {
-  "modernMeaningCn": "大纲",
-  "literalMeaningCn": "勾出的外轮廓",
-  "metaphorMeaningCn": "大纲、概要",
-  "metaphorOptions": [
-   "大纲、概要",
-   "无线电的另一面",
-   "使失去能力的味道"
-  ],
-  "mnemonicNote": "out(外)+line(线)：先把边描一圈，里头慢慢填",
-  "sourceNote": "英语复合词，out + line"
- },
- "output": {
-  "modernMeaningCn": "产出",
-  "literalMeaningCn": "放出来的东西",
-  "metaphorMeaningCn": "产出、输出",
-  "metaphorOptions": [
-   "产出、输出",
-   "替解释操心",
-   "把资料翻开"
-  ],
-  "mnemonicNote": "out(出)+put(放)：机器那头吐出来的成品",
-  "sourceNote": "英语复合词，out + put，工业术语"
- },
- "outspoken": {
-  "modernMeaningCn": "直言不讳的",
-  "literalMeaningCn": "有话直说的",
-  "metaphorMeaningCn": "直言不讳的、坦率的",
-  "metaphorOptions": [
-   "直言不讳的、坦率的",
-   "更多多的的过程",
-   "向着机器去"
-  ],
-  "mnemonicNote": "out(出)+spoken(说出)：心里想什么嘴上就出什么",
-  "sourceNote": "英语复合词，out + spoken"
- },
- "outstanding": {
-  "modernMeaningCn": "杰出的",
-  "literalMeaningCn": "站出来显眼的",
-  "metaphorMeaningCn": "杰出的、未付的",
-  "metaphorOptions": [
-   "杰出的、未付的",
-   "次日的味道",
-   "被道路的东西"
-  ],
-  "mnemonicNote": "out(出)+standing(站立)：一队人里就他显得凸出来",
-  "sourceNote": "英语复合词，out + standing"
- },
- "overlook": {
-  "modernMeaningCn": "俯瞰",
-  "literalMeaningCn": "从上面往下看",
-  "metaphorMeaningCn": "俯瞰、忽略",
-  "metaphorOptions": [
-   "俯瞰、忽略",
-   "一种欧洲的习俗",
-   "带路的人"
-  ],
-  "mnemonicNote": "over(在上)+look(看)：站在高处一眼扫过去那片",
-  "sourceNote": "古英语 oferleocan，ofer(在上) + leocan(看)"
- },
- "overweight": {
-  "modernMeaningCn": "超重的",
-  "literalMeaningCn": "分量过了头",
-  "metaphorMeaningCn": "超重的、过重的",
-  "metaphorOptions": [
-   "超重的、过重的",
-   "队列的地方",
-   "别的的小站"
-  ],
-  "mnemonicNote": "over(超过)+weight(重量)：秤上的指针顶到头那侧",
-  "sourceNote": "英语复合词，over + weight"
- },
- "owner": {
-  "modernMeaningCn": "物主",
-  "literalMeaningCn": "东西归他那位",
-  "metaphorMeaningCn": "物主、业主",
-  "metaphorOptions": [
-   "物主、业主",
-   "生长的一角",
-   "综合体的小站"
-  ],
-  "mnemonicNote": "own(拥有)+er(人)：房本上写着他名字",
-  "sourceNote": "古英语 agan(拥有) + -er"
- },
- "ownership": {
-  "modernMeaningCn": "所有权",
-  "literalMeaningCn": "归谁的关系",
-  "metaphorMeaningCn": "所有权、物主身份",
-  "metaphorOptions": [
-   "所有权、物主身份",
-   "围着漂积海草转",
-   "向着温和的去"
-  ],
-  "mnemonicNote": "owner(物主)+ship(身份)：名字写在契上那层归属",
-  "sourceNote": "英语 owner(物主) + -ship(身份)"
- },
- "oxygen": {
-  "modernMeaningCn": "氧",
-  "literalMeaningCn": "生成酸的元素",
-  "metaphorMeaningCn": "氧、氧气",
-  "metaphorOptions": [
-   "氧、氧气",
-   "离永久的很远",
-   "商议的过程"
-  ],
-  "mnemonicNote": "oxy(酸)+gen(生成)：早年以为它是酸性之源",
-  "sourceNote": "希腊 oxys(酸) + genes(生成)，拉瓦锡造词"
- },
- "package": {
-  "modernMeaningCn": "包裹",
-  "literalMeaningCn": "打好的那包",
-  "metaphorMeaningCn": "包裹、套餐",
-  "metaphorOptions": [
-   "包裹、套餐",
-   "显微镜的一角",
-   "发明的味道"
-  ],
-  "mnemonicNote": "pack(打包)+age：纸和绳子捆好等着寄那件",
-  "sourceNote": "英语 pack(打包) + -age"
- },
- "painful": {
-  "modernMeaningCn": "痛苦的",
-  "literalMeaningCn": "满是痛楚的",
-  "metaphorMeaningCn": "痛苦的、费劲的",
-  "metaphorOptions": [
-   "痛苦的、费劲的",
-   "一种智力的习俗",
-   "天平的人"
-  ],
-  "mnemonicNote": "pain(疼)+ful：走一步要吸一口凉气那种",
-  "sourceNote": "古法语 peine(痛苦) + -ful"
- },
- "painter": {
-  "modernMeaningCn": "画家",
-  "literalMeaningCn": "画画的人",
-  "metaphorMeaningCn": "画家、油漆工",
-  "metaphorOptions": [
-   "画家、油漆工",
-   "守着使饿死过活",
-   "漂积海草的小站"
-  ],
-  "mnemonicNote": "paint(涂抹)+er(人)：画布前一站就是一整天那位",
-  "sourceNote": "古法语 peintor，peindre(描绘)"
- },
- "painting": {
-  "modernMeaningCn": "绘画",
-  "literalMeaningCn": "涂出来的作品",
-  "metaphorMeaningCn": "绘画、油画",
-  "metaphorOptions": [
-   "绘画、油画",
-   "对着的味道",
-   "被蒸馏室的东西"
-  ],
-  "mnemonicNote": "paint(涂抹)+ing：挂在墙上那幅带颜料味的",
-  "sourceNote": "古法语 peinture，peindre(描绘)"
- },
- "pancake": {
-  "modernMeaningCn": "薄煎饼",
-  "literalMeaningCn": "平锅里烙的饼",
-  "metaphorMeaningCn": "薄煎饼、烙饼",
-  "metaphorOptions": [
-   "薄煎饼、烙饼",
-   "守着煮沸过活",
-   "使残缺的小站"
-  ],
-  "mnemonicNote": "pan(平锅)+cake(饼)：摊得薄薄一层，翻个面就熟",
-  "sourceNote": "中古英语 pane(平锅) + cake(饼)"
- },
- "paperwork": {
-  "modernMeaningCn": "文书工作",
-  "literalMeaningCn": "跟纸打交道的活",
-  "metaphorMeaningCn": "文书工作、案头杂务",
-  "metaphorOptions": [
-   "文书工作、案头杂务",
-   "第一的来路",
-   "组织的旧事"
-  ],
-  "mnemonicNote": "paper(纸)+work(活)：一摞表格填下来就是一下午",
-  "sourceNote": "英语复合词，paper + work"
- },
- "parking": {
-  "modernMeaningCn": "停车",
-  "literalMeaningCn": "把车搁下",
-  "metaphorMeaningCn": "停车、停车场",
-  "metaphorOptions": [
-   "停车、停车场",
-   "一种工作的习俗",
-   "在之中的一角"
-  ],
-  "mnemonicNote": "park(停放)+ing：绕了三圈才找着那个位",
-  "sourceNote": "古法语 parc(围场) + -ing"
- },
- "partly": {
-  "modernMeaningCn": "部分地",
-  "literalMeaningCn": "只占一部分",
-  "metaphorMeaningCn": "部分地、不完全地",
-  "metaphorOptions": [
-   "部分地、不完全地",
-   "中立者的过程",
-   "向着有价值的去"
-  ],
-  "mnemonicNote": "part(部分)+ly：说的只是其中一截，不是全部",
-  "sourceNote": "拉丁 pars(部分) + -ly"
- },
- "passive": {
-  "modernMeaningCn": "被动的",
-  "literalMeaningCn": "只挨不还手",
-  "metaphorMeaningCn": "被动的、消极的",
-  "metaphorOptions": [
-   "被动的、消极的",
-   "守着信赖过活",
-   "农业的小站"
-  ],
-  "mnemonicNote": "pass(承受)+ive：推一下动一下，自己不先出手",
-  "sourceNote": "拉丁 passivus，pati(承受)"
- },
- "passport": {
-  "modernMeaningCn": "护照",
-  "literalMeaningCn": "过港口的凭证",
-  "metaphorMeaningCn": "护照、通行证",
-  "metaphorOptions": [
-   "护照、通行证",
-   "离举止端正很远",
-   "地平线的过程"
-  ],
-  "mnemonicNote": "pass(通过)+port(港口)：出海前要先亮那本小册子",
-  "sourceNote": "法语 passeport，passer(通过) + port(港口)"
- },
- "pattern": {
-  "modernMeaningCn": "图案",
-  "literalMeaningCn": "照着做的样子",
-  "metaphorMeaningCn": "图案、模式",
-  "metaphorOptions": [
-   "图案、模式",
-   "大约的的来路",
-   "享受的地方"
-  ],
-  "mnemonicNote": "pat(模板)+tern：布上反复出现的那组花纹",
-  "sourceNote": "古法语 patron(样板)，拉丁 pater(父亲、原型)"
- },
- "peaceful": {
-  "modernMeaningCn": "平静的",
-  "literalMeaningCn": "满是安宁的",
-  "metaphorMeaningCn": "平静的、和平的",
-  "metaphorOptions": [
-   "平静的、和平的",
-   "守着相片过活",
-   "把可避免的串起来"
-  ],
-  "mnemonicNote": "peace(太平)+ful：连狗都不叫的那种静",
-  "sourceNote": "古法语 pais(和平) + -ful"
- },
- "percentage": {
-  "modernMeaningCn": "百分比",
-  "literalMeaningCn": "按百份算的比例",
-  "metaphorMeaningCn": "百分比、比例",
-  "metaphorOptions": [
-   "百分比、比例",
-   "向着视觉去",
-   "围着背骨转"
-  ],
-  "mnemonicNote": "percent(每百)+age：总数切一百份，占了几份",
-  "sourceNote": "拉丁 per centum(每一百) + -age"
- },
- "perfect": {
-  "modernMeaningCn": "完美的",
-  "literalMeaningCn": "彻底做成的",
-  "metaphorMeaningCn": "完美的、完成时",
-  "metaphorOptions": [
-   "完美的、完成时",
-   "一种分解的习俗",
-   "印象的人"
-  ],
-  "mnemonicNote": "per(彻底)+fect(做)：从头到尾一处不缺",
-  "sourceNote": "拉丁 perfectus，perficere(做完)"
- },
- "performance": {
-  "modernMeaningCn": "表演",
-  "literalMeaningCn": "做出来的表现",
-  "metaphorMeaningCn": "表演、性能",
-  "metaphorOptions": [
-   "表演、性能",
-   "主体的工具",
-   "把顺序串起来"
-  ],
-  "mnemonicNote": "perform(做到底)+ance：台上那几十分钟的成色",
-  "sourceNote": "古法语 parformance，parfournir(完成)"
- },
- "performer": {
-  "modernMeaningCn": "表演者",
-  "literalMeaningCn": "登台做事的人",
-  "metaphorMeaningCn": "表演者、演员",
-  "metaphorOptions": [
-   "表演者、演员",
-   "守着个性过活",
-   "替一看操心"
-  ],
-  "mnemonicNote": "perform(执行)+er(人)：灯光一打就上场那位",
-  "sourceNote": "古法语 parfournir(完成) + -er"
- },
- "perhaps": {
-  "modernMeaningCn": "也许",
-  "literalMeaningCn": "碰运气看",
-  "metaphorMeaningCn": "也许、或许",
-  "metaphorOptions": [
-   "也许、或许",
-   "避难所的背面",
-   "被吸收的东西"
-  ],
-  "mnemonicNote": "per(通过)+haps(运气)：成不成还看运气那一分",
-  "sourceNote": "中古英语 per(通过) + hap(运气)"
- },
- "permission": {
-  "modernMeaningCn": "许可",
-  "literalMeaningCn": "点头放行",
-  "metaphorMeaningCn": "许可、准许",
-  "metaphorOptions": [
-   "许可、准许",
-   "直线的旧事",
-   "解放的背面"
-  ],
-  "mnemonicNote": "permiss(放行)+ion：上头点了头，你才能动",
-  "sourceNote": "拉丁 permissio，permittere(放行)"
- },
- "personally": {
-  "modernMeaningCn": "亲自",
-  "literalMeaningCn": "以本人的方式",
-  "metaphorMeaningCn": "亲自、就个人而言",
-  "metaphorOptions": [
-   "亲自、就个人而言",
-   "分开花费的来路",
-   "手迹的旧事"
-  ],
-  "mnemonicNote": "personal(本人的)+ly：不托人，自己跑一趟",
-  "sourceNote": "拉丁 personalis，persona(面具、个人)"
- },
- "persuade": {
-  "modernMeaningCn": "说服",
-  "literalMeaningCn": "劝到底",
-  "metaphorMeaningCn": "说服、劝说",
-  "metaphorOptions": [
-   "说服、劝说",
-   "把名词串起来",
-   "揭示的工具"
-  ],
-  "mnemonicNote": "per(彻底)+suade(劝)：一句话一句话把你说通",
-  "sourceNote": "拉丁 persuadere，per-(彻底) + suadere(劝)"
- },
- "photographer": {
-  "modernMeaningCn": "摄影师",
-  "literalMeaningCn": "拍照片的人",
-  "metaphorMeaningCn": "摄影师、摄影者",
-  "metaphorOptions": [
-   "摄影师、摄影者",
-   "一种侍者的习俗",
-   "模糊的的人"
-  ],
-  "mnemonicNote": "photograph(照片)+er(人)：端着机器满场找角度那位",
-  "sourceNote": "希腊 phos(光) + graphein(写) + -er"
- },
- "pianist": {
-  "modernMeaningCn": "钢琴家",
-  "literalMeaningCn": "弹琴的人",
-  "metaphorMeaningCn": "钢琴家、钢琴演奏者",
-  "metaphorOptions": [
-   "钢琴家、钢琴演奏者",
-   "燃烧的过程",
-   "适当的的背面"
-  ],
-  "mnemonicNote": "pian(钢琴)+ist(人)：十指在黑白键上翻飞那位",
-  "sourceNote": "意大利 piano(弱音、钢琴) + -ist"
- },
- "pineapple": {
-  "modernMeaningCn": "菠萝",
-  "literalMeaningCn": "像松果的果子",
-  "metaphorMeaningCn": "菠萝、凤梨",
-  "metaphorOptions": [
-   "菠萝、凤梨",
-   "替心智的操心",
-   "离法律很远"
-  ],
-  "mnemonicNote": "pine(松)+apple(果)：外皮像颗大松果那种甜果",
-  "sourceNote": "英语复合词，16 世纪因外形似松果得名"
- },
- "player": {
-  "modernMeaningCn": "选手",
-  "literalMeaningCn": "上场玩的人",
-  "metaphorMeaningCn": "选手、播放器",
-  "metaphorOptions": [
-   "选手、播放器",
-   "杯子的工具",
-   "数着周围过日子"
-  ],
-  "mnemonicNote": "play(比赛)+er(人)：球场上穿着号码那一位",
-  "sourceNote": "古英语 plegian(游戏) + -er"
- },
- "playmate": {
-  "modernMeaningCn": "玩伴",
-  "literalMeaningCn": "一块玩的伙伴",
-  "metaphorMeaningCn": "玩伴、玩耍的同伴",
-  "metaphorOptions": [
-   "玩伴、玩耍的同伴",
-   "以前的旧事",
-   "恐惧的背面"
-  ],
-  "mnemonicNote": "play(玩耍)+mate(伙伴)：小时候一块儿疯那位",
-  "sourceNote": "古英语 plegian(游戏) + gemetta(同伴)"
- },
- "pleasant": {
-  "modernMeaningCn": "令人愉快的",
-  "literalMeaningCn": "讨人喜欢的",
-  "metaphorMeaningCn": "令人愉快的、宜人的",
-  "metaphorOptions": [
-   "令人愉快的、宜人的",
-   "替混合物操心",
-   "离相符的很远"
-  ],
-  "mnemonicNote": "pleas(取悦)+ant：待着舒服，走了还想再来",
-  "sourceNote": "古法语 plaisant，plaire(取悦)"
- },
- "pleased": {
-  "modernMeaningCn": "高兴的",
-  "literalMeaningCn": "被讨好的",
-  "metaphorMeaningCn": "高兴的、满意的",
-  "metaphorOptions": [
-   "高兴的、满意的",
-   "好感的人",
-   "一种环境的习俗"
-  ],
-  "mnemonicNote": "please(使满意)+d：消息一听，眉头就开了",
-  "sourceNote": "古法语 plaisir(使高兴) + -ed"
- },
- "pleasure": {
-  "modernMeaningCn": "愉快",
-  "literalMeaningCn": "心里那份舒服",
-  "metaphorMeaningCn": "愉快、乐事",
-  "metaphorOptions": [
-   "愉快、乐事",
-   "学问的旧事",
-   "平坦的的背面"
-  ],
-  "mnemonicNote": "plea(取悦)+sure：卸下担子后那口长气",
-  "sourceNote": "古法语 plaisir，拉丁 placere(使愉悦)"
- },
- "pocket": {
-  "modernMeaningCn": "口袋",
-  "literalMeaningCn": "衣服上的小兜",
-  "metaphorMeaningCn": "口袋、小型的",
-  "metaphorOptions": [
-   "口袋、小型的",
-   "把蒸汽翻开",
-   "波兰的影子"
-  ],
-  "mnemonicNote": "pocke(小袋)+t：手往下一插那个位置",
-  "sourceNote": "古北法语 poque(小袋)"
- },
- "poisonous": {
-  "modernMeaningCn": "有毒的",
-  "literalMeaningCn": "带着毒的",
-  "metaphorMeaningCn": "有毒的、恶毒的",
-  "metaphorOptions": [
-   "有毒的、恶毒的",
-   "个性的影子",
-   "把令人讨厌的人翻开"
-  ],
-  "mnemonicNote": "poison(毒)+ous：吃一口就要找大夫那种",
-  "sourceNote": "古法语 poison，拉丁 potio(药饮)"
- },
- "policeman": {
-  "modernMeaningCn": "警察",
-  "literalMeaningCn": "巡街的警员",
-  "metaphorMeaningCn": "警察、警员",
-  "metaphorOptions": [
-   "警察、警员",
-   "离过度的很远",
-   "被花园的东西"
-  ],
-  "mnemonicNote": "police(警务)+man(人)：胸口挂着号牌那位",
-  "sourceNote": "法语 police(警务) + man(人)"
- },
- "polish": {
-  "modernMeaningCn": "波兰的",
-  "literalMeaningCn": "波兰的",
-  "metaphorMeaningCn": "波兰人、波兰语",
-  "metaphorOptions": [
-   "波兰人、波兰语",
-   "消遣的一角",
-   "一种打谷的习俗"
-  ],
-  "mnemonicNote": "pol(波兰)+ish(…的)：东欧那片平原上的国家",
-  "sourceNote": "波兰语 Polska，经德语 Polen 传入"
- },
- "pollute": {
-  "modernMeaningCn": "污染",
-  "literalMeaningCn": "把水搅浑",
-  "metaphorMeaningCn": "污染、玷污",
-  "metaphorOptions": [
-   "污染、玷污",
-   "措辞的过程",
-   "离高度很远"
-  ],
-  "mnemonicNote": "pol(弄脏)+lute：脏水一倒，整条河都毁了",
-  "sourceNote": "拉丁 polluere，por-(前) + luere(弄污)"
- },
- "pollution": {
-  "modernMeaningCn": "污染",
-  "literalMeaningCn": "被弄脏的状态",
-  "metaphorMeaningCn": "污染、污染物",
-  "metaphorOptions": [
-   "污染、污染物",
-   "字母的来路",
-   "智慧的地方"
-  ],
-  "mnemonicNote": "pollut(弄脏)+ion：烟囱下面那层灰",
-  "sourceNote": "拉丁 pollutio，polluere(弄污)"
- },
- "popcorn": {
-  "modernMeaningCn": "爆米花",
-  "literalMeaningCn": "爆开的玉米粒",
-  "metaphorMeaningCn": "爆米花",
-  "metaphorOptions": [
-   "爆米花",
-   "愉快的的过程",
-   "离监护人很远"
-  ],
-  "mnemonicNote": "pop(爆)+corn(玉米)：锅里噼啪作响那阵子",
-  "sourceNote": "英语复合词，pop(爆响) + corn"
- }
+  "_comment": "Stage 3 待写释义（batch-18，本批 60 词，高考批第 11 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
+  "occupation": {
+    "modernMeaningCn": "职业",
+    "literalMeaningCn": "占住时间的事",
+    "metaphorMeaningCn": "职业、占领",
+    "metaphorOptions": [
+      "职业、占领",
+      "把跨越翻开",
+      "把少女串起来"
+    ],
+    "mnemonicNote": "occup(占据)+ation：一天里占去你大半时间那件事",
+    "sourceNote": "拉丁 occupatio，occupare(占据)"
+  },
+  "official": {
+    "modernMeaningCn": "官方的",
+    "literalMeaningCn": "办差事的人",
+    "metaphorMeaningCn": "官方的、官员",
+    "metaphorOptions": [
+      "官方的、官员",
+      "使习惯于的旧事",
+      "安顿的背面"
+    ],
+    "mnemonicNote": "offic(公务)+ial：盖着公章那一类说法",
+    "sourceNote": "拉丁 officialis，officium(职责、公务)"
+  },
+  "offshore": {
+    "modernMeaningCn": "近海的",
+    "literalMeaningCn": "离岸的",
+    "metaphorMeaningCn": "近海的、海上的",
+    "metaphorOptions": [
+      "近海的、海上的",
+      "一种功绩的习俗",
+      "正统的的一角"
+    ],
+    "mnemonicNote": "off(离开)+shore(岸)：从岸边往外出去那一片水面",
+    "sourceNote": "英语复合词，off + shore"
+  },
+  "oilfield": {
+    "modernMeaningCn": "油田",
+    "literalMeaningCn": "出油的田地",
+    "metaphorMeaningCn": "油田、石油产区",
+    "metaphorOptions": [
+      "油田、石油产区",
+      "要求的小站",
+      "毒药的旧事"
+    ],
+    "mnemonicNote": "oil(石油)+field(地)：地上竖着一排排磕头机那处",
+    "sourceNote": "英语复合词，oil + field"
+  },
+  "opener": {
+    "modernMeaningCn": "开瓶器",
+    "literalMeaningCn": "开东西的器物",
+    "metaphorMeaningCn": "开瓶器、开场戏",
+    "metaphorOptions": [
+      "开瓶器、开场戏",
+      "数着有确实根据的过日子",
+      "围着反抗转"
+    ],
+    "mnemonicNote": "open(打开)+er(物)：瓶盖卡住时手边那件小工具",
+    "sourceNote": "古英语 openian(打开) + -er"
+  },
+  "opening": {
+    "modernMeaningCn": "开口",
+    "literalMeaningCn": "开着的那处",
+    "metaphorMeaningCn": "开口、开幕",
+    "metaphorOptions": [
+      "开口、开幕",
+      "一种创伤的习俗",
+      "倾斜的一角"
+    ],
+    "mnemonicNote": "open(开)+ing：墙上透光进来的那个洞",
+    "sourceNote": "古英语 openian(打开) + -ing"
+  },
+  "operation": {
+    "modernMeaningCn": "操作",
+    "literalMeaningCn": "动手做的事",
+    "metaphorMeaningCn": "操作、手术",
+    "metaphorOptions": [
+      "操作、手术",
+      "围着社团的转",
+      "向着慢的去"
+    ],
+    "mnemonicNote": "operat(劳作)+ion：一台机器按步骤动起来那件事",
+    "sourceNote": "拉丁 operatio，operari(劳作)"
+  },
+  "operator": {
+    "modernMeaningCn": "操作员",
+    "literalMeaningCn": "动手操作的人",
+    "metaphorMeaningCn": "操作员、接线员",
+    "metaphorOptions": [
+      "操作员、接线员",
+      "技术的工具",
+      "把说话串起来"
+    ],
+    "mnemonicNote": "operat(操作)+or(人)：坐在控制台前那些按钮归他管",
+    "sourceNote": "拉丁 operator，operari(劳作)"
+  },
+  "opinion": {
+    "modernMeaningCn": "意见",
+    "literalMeaningCn": "心里认下的看法",
+    "metaphorMeaningCn": "意见、看法",
+    "metaphorOptions": [
+      "意见、看法",
+      "围着酿造酒转",
+      "数着荒野过日子"
+    ],
+    "mnemonicNote": "opin(认为)+ion：各人嘴里那一套自己的说法",
+    "sourceNote": "拉丁 opinio，opinari(认为)"
+  },
+  "optimistic": {
+    "modernMeaningCn": "乐观的",
+    "literalMeaningCn": "看好一面的",
+    "metaphorMeaningCn": "乐观的、抱希望的",
+    "metaphorOptions": [
+      "乐观的、抱希望的",
+      "被包裹的东西",
+      "部分的味道"
+    ],
+    "mnemonicNote": "optimist(乐天派)+ic：天塌下来也先说「没事」",
+    "sourceNote": "拉丁 optimum(最好) + -istic"
+  },
+  "optional": {
+    "modernMeaningCn": "可选的",
+    "literalMeaningCn": "可以挑的",
+    "metaphorMeaningCn": "可选的、非必修的",
+    "metaphorOptions": [
+      "可选的、非必修的",
+      "围着反驳转",
+      "数着介意过日子"
+    ],
+    "mnemonicNote": "option(选择)+al：勾不勾在你，没人逼你",
+    "sourceNote": "拉丁 optio(选择) + -al"
+  },
+  "organise": {
+    "modernMeaningCn": "组织",
+    "literalMeaningCn": "使各司其职",
+    "metaphorMeaningCn": "组织、筹办",
+    "metaphorOptions": [
+      "组织、筹办",
+      "加速的一角",
+      "每一的另一面"
+    ],
+    "mnemonicNote": "organ(器官)+ise(使)：让各部分像身体器官一样配合",
+    "sourceNote": "希腊 organon(工具、器官) + -ise"
+  },
+  "organization": {
+    "modernMeaningCn": "组织",
+    "literalMeaningCn": "结成的机构",
+    "metaphorMeaningCn": "组织、团体",
+    "metaphorOptions": [
+      "组织、团体",
+      "避难所的小站",
+      "排外的的地方"
+    ],
+    "mnemonicNote": "organiz(组建)+ation：一群人分工明确地连成一体",
+    "sourceNote": "中世纪拉丁 organizatio，organum(器官、工具)"
+  },
+  "otherwise": {
+    "modernMeaningCn": "否则",
+    "literalMeaningCn": "在别的情况下",
+    "metaphorMeaningCn": "否则、另外",
+    "metaphorOptions": [
+      "否则、另外",
+      "毒药的小站",
+      "守着记忆过活"
+    ],
+    "mnemonicNote": "other(别的)+wise(方式)：不按这条走，就得吃另一种果",
+    "sourceNote": "古英语 on othre wisan，other + wise(方式)"
+  },
+  "outdoors": {
+    "modernMeaningCn": "户外",
+    "literalMeaningCn": "在门外头",
+    "metaphorMeaningCn": "户外、野外",
+    "metaphorOptions": [
+      "户外、野外",
+      "围着守卫者转",
+      "一种加强的习俗"
+    ],
+    "mnemonicNote": "out(外)+doors(门)：推开门就是天和地那片",
+    "sourceNote": "英语复合词，out + doors"
+  },
+  "outgoing": {
+    "modernMeaningCn": "外向的",
+    "literalMeaningCn": "朝外走的",
+    "metaphorMeaningCn": "外向的、即将离任的",
+    "metaphorOptions": [
+      "外向的、即将离任的",
+      "一种家庭杂务的习俗",
+      "呼叫的过程"
+    ],
+    "mnemonicNote": "outgo(往外去)+ing：见谁都愿意先开口那种性子",
+    "sourceNote": "英语复合词，out + going"
+  },
+  "outline": {
+    "modernMeaningCn": "大纲",
+    "literalMeaningCn": "勾出的外轮廓",
+    "metaphorMeaningCn": "大纲、概要",
+    "metaphorOptions": [
+      "大纲、概要",
+      "无线电的另一面",
+      "使失去能力的味道"
+    ],
+    "mnemonicNote": "out(外)+line(线)：先把边描一圈，里头慢慢填",
+    "sourceNote": "英语复合词，out + line"
+  },
+  "output": {
+    "modernMeaningCn": "产出",
+    "literalMeaningCn": "放出来的东西",
+    "metaphorMeaningCn": "产出、输出",
+    "metaphorOptions": [
+      "产出、输出",
+      "替解释操心",
+      "把资料翻开"
+    ],
+    "mnemonicNote": "out(出)+put(放)：机器那头吐出来的成品",
+    "sourceNote": "英语复合词，out + put，工业术语"
+  },
+  "outspoken": {
+    "modernMeaningCn": "直言不讳的",
+    "literalMeaningCn": "有话直说的",
+    "metaphorMeaningCn": "直言不讳的、坦率的",
+    "metaphorOptions": [
+      "直言不讳的、坦率的",
+      "更多多的的过程",
+      "向着机器去"
+    ],
+    "mnemonicNote": "out(出)+spoken(说出)：心里想什么嘴上就出什么",
+    "sourceNote": "英语复合词，out + spoken"
+  },
+  "outstanding": {
+    "modernMeaningCn": "杰出的",
+    "literalMeaningCn": "站出来显眼的",
+    "metaphorMeaningCn": "杰出的、未付的",
+    "metaphorOptions": [
+      "杰出的、未付的",
+      "次日的味道",
+      "被道路的东西"
+    ],
+    "mnemonicNote": "out(出)+standing(站立)：一队人里就他显得凸出来",
+    "sourceNote": "英语复合词，out + standing"
+  },
+  "overlook": {
+    "modernMeaningCn": "俯瞰",
+    "literalMeaningCn": "从上面往下看",
+    "metaphorMeaningCn": "俯瞰、忽略",
+    "metaphorOptions": [
+      "俯瞰、忽略",
+      "一种欧洲的习俗",
+      "带路的人"
+    ],
+    "mnemonicNote": "over(在上)+look(看)：站在高处一眼扫过去那片",
+    "sourceNote": "古英语 oferleocan，ofer(在上) + leocan(看)"
+  },
+  "overweight": {
+    "modernMeaningCn": "超重的",
+    "literalMeaningCn": "分量过了头",
+    "metaphorMeaningCn": "超重的、过重的",
+    "metaphorOptions": [
+      "超重的、过重的",
+      "队列的地方",
+      "别的的小站"
+    ],
+    "mnemonicNote": "over(超过)+weight(重量)：秤上的指针顶到头那侧",
+    "sourceNote": "英语复合词，over + weight"
+  },
+  "owner": {
+    "modernMeaningCn": "物主",
+    "literalMeaningCn": "东西归他那位",
+    "metaphorMeaningCn": "物主、业主",
+    "metaphorOptions": [
+      "物主、业主",
+      "生长的一角",
+      "综合体的小站"
+    ],
+    "mnemonicNote": "own(拥有)+er(人)：房本上写着他名字",
+    "sourceNote": "古英语 agan(拥有) + -er"
+  },
+  "ownership": {
+    "modernMeaningCn": "所有权",
+    "literalMeaningCn": "归谁的关系",
+    "metaphorMeaningCn": "所有权、物主身份",
+    "metaphorOptions": [
+      "所有权、物主身份",
+      "围着漂积海草转",
+      "向着温和的去"
+    ],
+    "mnemonicNote": "owner(物主)+ship(身份)：名字写在契上那层归属",
+    "sourceNote": "英语 owner(物主) + -ship(身份)"
+  },
+  "oxygen": {
+    "modernMeaningCn": "氧",
+    "literalMeaningCn": "生成酸的元素",
+    "metaphorMeaningCn": "氧、氧气",
+    "metaphorOptions": [
+      "氧、氧气",
+      "离永久的很远",
+      "商议的过程"
+    ],
+    "mnemonicNote": "oxy(酸)+gen(生成)：早年以为它是酸性之源",
+    "sourceNote": "希腊 oxys(酸) + genes(生成)，拉瓦锡造词"
+  },
+  "package": {
+    "modernMeaningCn": "包裹",
+    "literalMeaningCn": "打好的那包",
+    "metaphorMeaningCn": "包裹、套餐",
+    "metaphorOptions": [
+      "包裹、套餐",
+      "显微镜的一角",
+      "发明的味道"
+    ],
+    "mnemonicNote": "pack(打包)+age：纸和绳子捆好等着寄那件",
+    "sourceNote": "英语 pack(打包) + -age"
+  },
+  "painful": {
+    "modernMeaningCn": "痛苦的",
+    "literalMeaningCn": "满是痛楚的",
+    "metaphorMeaningCn": "痛苦的、费劲的",
+    "metaphorOptions": [
+      "痛苦的、费劲的",
+      "一种智力的习俗",
+      "天平的人"
+    ],
+    "mnemonicNote": "pain(疼)+ful：走一步要吸一口凉气那种",
+    "sourceNote": "古法语 peine(痛苦) + -ful"
+  },
+  "painter": {
+    "modernMeaningCn": "画家",
+    "literalMeaningCn": "画画的人",
+    "metaphorMeaningCn": "画家、油漆工",
+    "metaphorOptions": [
+      "画家、油漆工",
+      "守着使饿死过活",
+      "漂积海草的小站"
+    ],
+    "mnemonicNote": "paint(涂抹)+er(人)：画布前一站就是一整天那位",
+    "sourceNote": "古法语 peintor，peindre(描绘)"
+  },
+  "painting": {
+    "modernMeaningCn": "绘画",
+    "literalMeaningCn": "涂出来的作品",
+    "metaphorMeaningCn": "绘画、油画",
+    "metaphorOptions": [
+      "绘画、油画",
+      "对着的味道",
+      "被蒸馏室的东西"
+    ],
+    "mnemonicNote": "paint(涂抹)+ing：挂在墙上那幅带颜料味的",
+    "sourceNote": "古法语 peinture，peindre(描绘)"
+  },
+  "pancake": {
+    "modernMeaningCn": "薄煎饼",
+    "literalMeaningCn": "平锅里烙的饼",
+    "metaphorMeaningCn": "薄煎饼、烙饼",
+    "metaphorOptions": [
+      "薄煎饼、烙饼",
+      "守着煮沸过活",
+      "使残缺的小站"
+    ],
+    "mnemonicNote": "pan(平锅)+cake(饼)：摊得薄薄一层，翻个面就熟",
+    "sourceNote": "中古英语 pane(平锅) + cake(饼)"
+  },
+  "paperwork": {
+    "modernMeaningCn": "文书工作",
+    "literalMeaningCn": "跟纸打交道的活",
+    "metaphorMeaningCn": "文书工作、案头杂务",
+    "metaphorOptions": [
+      "文书工作、案头杂务",
+      "第一的来路",
+      "组织的旧事"
+    ],
+    "mnemonicNote": "paper(纸)+work(活)：一摞表格填下来就是一下午",
+    "sourceNote": "英语复合词，paper + work"
+  },
+  "parking": {
+    "modernMeaningCn": "停车",
+    "literalMeaningCn": "把车搁下",
+    "metaphorMeaningCn": "停车、停车场",
+    "metaphorOptions": [
+      "停车、停车场",
+      "一种工作的习俗",
+      "在之中的一角"
+    ],
+    "mnemonicNote": "park(停放)+ing：绕了三圈才找着那个位",
+    "sourceNote": "古法语 parc(围场) + -ing"
+  },
+  "partly": {
+    "modernMeaningCn": "部分地",
+    "literalMeaningCn": "只占一部分",
+    "metaphorMeaningCn": "部分地、不完全地",
+    "metaphorOptions": [
+      "部分地、不完全地",
+      "中立者的过程",
+      "向着有价值的去"
+    ],
+    "mnemonicNote": "part(部分)+ly：说的只是其中一截，不是全部",
+    "sourceNote": "拉丁 pars(部分) + -ly"
+  },
+  "passive": {
+    "modernMeaningCn": "被动的",
+    "literalMeaningCn": "只挨不还手",
+    "metaphorMeaningCn": "被动的、消极的",
+    "metaphorOptions": [
+      "被动的、消极的",
+      "守着信赖过活",
+      "农业的小站"
+    ],
+    "mnemonicNote": "pass(承受)+ive：推一下动一下，自己不先出手",
+    "sourceNote": "拉丁 passivus，pati(承受)"
+  },
+  "passport": {
+    "modernMeaningCn": "护照",
+    "literalMeaningCn": "过港口的凭证",
+    "metaphorMeaningCn": "护照、通行证",
+    "metaphorOptions": [
+      "护照、通行证",
+      "离举止端正很远",
+      "地平线的过程"
+    ],
+    "mnemonicNote": "pass(通过)+port(港口)：出海前要先亮那本小册子",
+    "sourceNote": "法语 passeport，passer(通过) + port(港口)"
+  },
+  "pattern": {
+    "modernMeaningCn": "图案",
+    "literalMeaningCn": "照着做的样子",
+    "metaphorMeaningCn": "图案、模式",
+    "metaphorOptions": [
+      "图案、模式",
+      "大约的的来路",
+      "享受的地方"
+    ],
+    "mnemonicNote": "pat(模板)+tern：布上反复出现的那组花纹",
+    "sourceNote": "古法语 patron(样板)，拉丁 pater(父亲、原型)"
+  },
+  "peaceful": {
+    "modernMeaningCn": "平静的",
+    "literalMeaningCn": "满是安宁的",
+    "metaphorMeaningCn": "平静的、和平的",
+    "metaphorOptions": [
+      "平静的、和平的",
+      "守着相片过活",
+      "把可避免的串起来"
+    ],
+    "mnemonicNote": "peace(太平)+ful：连狗都不叫的那种静",
+    "sourceNote": "古法语 pais(和平) + -ful"
+  },
+  "percentage": {
+    "modernMeaningCn": "百分比",
+    "literalMeaningCn": "按百份算的比例",
+    "metaphorMeaningCn": "百分比、比例",
+    "metaphorOptions": [
+      "百分比、比例",
+      "向着视觉去",
+      "一种幸运的的习俗"
+    ],
+    "mnemonicNote": "percent(每百)+age：总数切一百份，占了几份",
+    "sourceNote": "拉丁 per centum(每一百) + -age"
+  },
+  "perfect": {
+    "modernMeaningCn": "完美的",
+    "literalMeaningCn": "彻底做成的",
+    "metaphorMeaningCn": "完美的、完成时",
+    "metaphorOptions": [
+      "完美的、完成时",
+      "一种分解的习俗",
+      "印象的人"
+    ],
+    "mnemonicNote": "per(彻底)+fect(做)：从头到尾一处不缺",
+    "sourceNote": "拉丁 perfectus，perficere(做完)"
+  },
+  "performance": {
+    "modernMeaningCn": "表演",
+    "literalMeaningCn": "做出来的表现",
+    "metaphorMeaningCn": "表演、性能",
+    "metaphorOptions": [
+      "表演、性能",
+      "主体的工具",
+      "把顺序串起来"
+    ],
+    "mnemonicNote": "perform(做到底)+ance：台上那几十分钟的成色",
+    "sourceNote": "古法语 parformance，parfournir(完成)"
+  },
+  "performer": {
+    "modernMeaningCn": "表演者",
+    "literalMeaningCn": "登台做事的人",
+    "metaphorMeaningCn": "表演者、演员",
+    "metaphorOptions": [
+      "表演者、演员",
+      "守着个性过活",
+      "替一看操心"
+    ],
+    "mnemonicNote": "perform(执行)+er(人)：灯光一打就上场那位",
+    "sourceNote": "古法语 parfournir(完成) + -er"
+  },
+  "perhaps": {
+    "modernMeaningCn": "也许",
+    "literalMeaningCn": "碰运气看",
+    "metaphorMeaningCn": "也许、或许",
+    "metaphorOptions": [
+      "也许、或许",
+      "避难所的背面",
+      "被吸收的东西"
+    ],
+    "mnemonicNote": "per(通过)+haps(运气)：成不成还看运气那一分",
+    "sourceNote": "中古英语 per(通过) + hap(运气)"
+  },
+  "permission": {
+    "modernMeaningCn": "许可",
+    "literalMeaningCn": "点头放行",
+    "metaphorMeaningCn": "许可、准许",
+    "metaphorOptions": [
+      "许可、准许",
+      "直线的旧事",
+      "解放的背面"
+    ],
+    "mnemonicNote": "permiss(放行)+ion：上头点了头，你才能动",
+    "sourceNote": "拉丁 permissio，permittere(放行)"
+  },
+  "personally": {
+    "modernMeaningCn": "亲自",
+    "literalMeaningCn": "以本人的方式",
+    "metaphorMeaningCn": "亲自、就个人而言",
+    "metaphorOptions": [
+      "亲自、就个人而言",
+      "分开花费的来路",
+      "手迹的旧事"
+    ],
+    "mnemonicNote": "personal(本人的)+ly：不托人，自己跑一趟",
+    "sourceNote": "拉丁 personalis，persona(面具、个人)"
+  },
+  "persuade": {
+    "modernMeaningCn": "说服",
+    "literalMeaningCn": "劝到底",
+    "metaphorMeaningCn": "说服、劝说",
+    "metaphorOptions": [
+      "说服、劝说",
+      "把名词串起来",
+      "揭示的工具"
+    ],
+    "mnemonicNote": "per(彻底)+suade(劝)：一句话一句话把你说通",
+    "sourceNote": "拉丁 persuadere，per-(彻底) + suadere(劝)"
+  },
+  "photographer": {
+    "modernMeaningCn": "摄影师",
+    "literalMeaningCn": "拍照片的人",
+    "metaphorMeaningCn": "摄影师、摄影者",
+    "metaphorOptions": [
+      "摄影师、摄影者",
+      "一种侍者的习俗",
+      "模糊的的人"
+    ],
+    "mnemonicNote": "photograph(照片)+er(人)：端着机器满场找角度那位",
+    "sourceNote": "希腊 phos(光) + graphein(写) + -er"
+  },
+  "pianist": {
+    "modernMeaningCn": "钢琴家",
+    "literalMeaningCn": "弹琴的人",
+    "metaphorMeaningCn": "钢琴家、钢琴演奏者",
+    "metaphorOptions": [
+      "钢琴家、钢琴演奏者",
+      "燃烧的过程",
+      "适当的的背面"
+    ],
+    "mnemonicNote": "pian(钢琴)+ist(人)：十指在黑白键上翻飞那位",
+    "sourceNote": "意大利 piano(弱音、钢琴) + -ist"
+  },
+  "pineapple": {
+    "modernMeaningCn": "菠萝",
+    "literalMeaningCn": "像松果的果子",
+    "metaphorMeaningCn": "菠萝、凤梨",
+    "metaphorOptions": [
+      "菠萝、凤梨",
+      "替心智的操心",
+      "离法律很远"
+    ],
+    "mnemonicNote": "pine(松)+apple(果)：外皮像颗大松果那种甜果",
+    "sourceNote": "英语复合词，16 世纪因外形似松果得名"
+  },
+  "player": {
+    "modernMeaningCn": "选手",
+    "literalMeaningCn": "上场玩的人",
+    "metaphorMeaningCn": "选手、播放器",
+    "metaphorOptions": [
+      "选手、播放器",
+      "杯子的工具",
+      "数着周围过日子"
+    ],
+    "mnemonicNote": "play(比赛)+er(人)：球场上穿着号码那一位",
+    "sourceNote": "古英语 plegian(游戏) + -er"
+  },
+  "playmate": {
+    "modernMeaningCn": "玩伴",
+    "literalMeaningCn": "一块玩的伙伴",
+    "metaphorMeaningCn": "玩伴、玩耍的同伴",
+    "metaphorOptions": [
+      "玩伴、玩耍的同伴",
+      "以前的旧事",
+      "恐惧的背面"
+    ],
+    "mnemonicNote": "play(玩耍)+mate(伙伴)：小时候一块儿疯那位",
+    "sourceNote": "古英语 plegian(游戏) + gemetta(同伴)"
+  },
+  "pleasant": {
+    "modernMeaningCn": "令人愉快的",
+    "literalMeaningCn": "讨人喜欢的",
+    "metaphorMeaningCn": "令人愉快的、宜人的",
+    "metaphorOptions": [
+      "令人愉快的、宜人的",
+      "替混合物操心",
+      "离相符的很远"
+    ],
+    "mnemonicNote": "pleas(取悦)+ant：待着舒服，走了还想再来",
+    "sourceNote": "古法语 plaisant，plaire(取悦)"
+  },
+  "pleased": {
+    "modernMeaningCn": "高兴的",
+    "literalMeaningCn": "被讨好的",
+    "metaphorMeaningCn": "高兴的、满意的",
+    "metaphorOptions": [
+      "高兴的、满意的",
+      "好感的人",
+      "一种环境的习俗"
+    ],
+    "mnemonicNote": "please(使满意)+d：消息一听，眉头就开了",
+    "sourceNote": "古法语 plaisir(使高兴) + -ed"
+  },
+  "pleasure": {
+    "modernMeaningCn": "愉快",
+    "literalMeaningCn": "心里那份舒服",
+    "metaphorMeaningCn": "愉快、乐事",
+    "metaphorOptions": [
+      "愉快、乐事",
+      "学问的旧事",
+      "平坦的的背面"
+    ],
+    "mnemonicNote": "plea(取悦)+sure：卸下担子后那口长气",
+    "sourceNote": "古法语 plaisir，拉丁 placere(使愉悦)"
+  },
+  "pocket": {
+    "modernMeaningCn": "口袋",
+    "literalMeaningCn": "衣服上的小兜",
+    "metaphorMeaningCn": "口袋、小型的",
+    "metaphorOptions": [
+      "口袋、小型的",
+      "把蒸汽翻开",
+      "波兰的影子"
+    ],
+    "mnemonicNote": "pocke(小袋)+t：手往下一插那个位置",
+    "sourceNote": "古北法语 poque(小袋)"
+  },
+  "poisonous": {
+    "modernMeaningCn": "有毒的",
+    "literalMeaningCn": "带着毒的",
+    "metaphorMeaningCn": "有毒的、恶毒的",
+    "metaphorOptions": [
+      "有毒的、恶毒的",
+      "个性的影子",
+      "一种很少的的习俗"
+    ],
+    "mnemonicNote": "poison(毒)+ous：吃一口就要找大夫那种",
+    "sourceNote": "古法语 poison，拉丁 potio(药饮)"
+  },
+  "policeman": {
+    "modernMeaningCn": "警察",
+    "literalMeaningCn": "巡街的警员",
+    "metaphorMeaningCn": "警察、警员",
+    "metaphorOptions": [
+      "警察、警员",
+      "离过度的很远",
+      "被花园的东西"
+    ],
+    "mnemonicNote": "police(警务)+man(人)：胸口挂着号牌那位",
+    "sourceNote": "法语 police(警务) + man(人)"
+  },
+  "polish": {
+    "modernMeaningCn": "波兰的",
+    "literalMeaningCn": "波兰的",
+    "metaphorMeaningCn": "波兰人、波兰语",
+    "metaphorOptions": [
+      "波兰人、波兰语",
+      "消遣的一角",
+      "一种打谷的习俗"
+    ],
+    "mnemonicNote": "pol(波兰)+ish(…的)：东欧那片平原上的国家",
+    "sourceNote": "波兰语 Polska，经德语 Polen 传入"
+  },
+  "pollute": {
+    "modernMeaningCn": "污染",
+    "literalMeaningCn": "把水搅浑",
+    "metaphorMeaningCn": "污染、玷污",
+    "metaphorOptions": [
+      "污染、玷污",
+      "措辞的过程",
+      "离高度很远"
+    ],
+    "mnemonicNote": "pol(弄脏)+lute：脏水一倒，整条河都毁了",
+    "sourceNote": "拉丁 polluere，por-(前) + luere(弄污)"
+  },
+  "pollution": {
+    "modernMeaningCn": "污染",
+    "literalMeaningCn": "被弄脏的状态",
+    "metaphorMeaningCn": "污染、污染物",
+    "metaphorOptions": [
+      "污染、污染物",
+      "字母的来路",
+      "智慧的地方"
+    ],
+    "mnemonicNote": "pollut(弄脏)+ion：烟囱下面那层灰",
+    "sourceNote": "拉丁 pollutio，polluere(弄污)"
+  },
+  "popcorn": {
+    "modernMeaningCn": "爆米花",
+    "literalMeaningCn": "爆开的玉米粒",
+    "metaphorMeaningCn": "爆米花",
+    "metaphorOptions": [
+      "爆米花",
+      "愉快的的过程",
+      "离监护人很远"
+    ],
+    "mnemonicNote": "pop(爆)+corn(玉米)：锅里噼啪作响那阵子",
+    "sourceNote": "英语复合词，pop(爆响) + corn"
+  }
 }

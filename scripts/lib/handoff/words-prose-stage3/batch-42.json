@@ -1,723 +1,723 @@
 {
- "_comment": "Stage 3 待写释义（batch-42，本批 60 词，六级批第 7 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
- "kidnap": {
-  "modernMeaningCn": "绑架",
-  "literalMeaningCn": "把小孩抓走",
-  "metaphorMeaningCn": "绑架、劫持",
-  "metaphorOptions": [
-   "绑架、劫持",
-   "大量存在的一角",
-   "一种恰好的的习俗"
-  ],
-  "mnemonicNote": "kid(小孩)+nap(抓走)：把人家孩子抓走",
-  "sourceNote": "英语复合词，kid(小孩) + nap(抓、窃)"
- },
- "lawsuit": {
-  "modernMeaningCn": "诉讼、官司",
-  "literalMeaningCn": "依着律条打的官司",
-  "metaphorMeaningCn": "诉讼、官司",
-  "metaphorOptions": [
-   "诉讼、官司",
-   "围着月亮转",
-   "向着城市去"
-  ],
-  "mnemonicNote": "law(法律)+suit(起诉)：照着律条打的那场官司",
-  "sourceNote": "中古英语 lawe(法律) + sute(起诉)"
- },
- "layman": {
-  "modernMeaningCn": "外行、俗人",
-  "literalMeaningCn": "不在行里的人",
-  "metaphorMeaningCn": "外行、俗人",
-  "metaphorOptions": [
-   "外行、俗人",
-   "比赛的工具",
-   "把身份串起来"
-  ],
-  "mnemonicNote": "lay(俗众)+man(人)：不在这行里那位",
-  "sourceNote": "拉丁 laicus(俗人) + 古英语 mann(人)"
- },
- "leaflet": {
-  "modernMeaningCn": "传单、小册子",
-  "literalMeaningCn": "像一片小叶子",
-  "metaphorMeaningCn": "传单、小册子",
-  "metaphorOptions": [
-   "传单、小册子",
-   "离安全很远",
-   "替负荷操心"
-  ],
-  "mnemonicNote": "leaf(叶)+let(小)：像一片小叶子那样的纸",
-  "sourceNote": "古英语 leaf(叶) + -let(指小)"
- },
- "leakage": {
-  "modernMeaningCn": "泄漏、渗漏",
-  "literalMeaningCn": "漏出去这件事",
-  "metaphorMeaningCn": "泄漏、渗漏",
-  "metaphorOptions": [
-   "泄漏、渗漏",
-   "毒药的另一面",
-   "玉蜀黍的味道"
-  ],
-  "mnemonicNote": "leak(漏)+age：从缝里往外渗这件事",
-  "sourceNote": "中古英语 leken(漏) + -age"
- },
- "lengthen": {
-  "modernMeaningCn": "加长",
-  "literalMeaningCn": "把长度拉出来",
-  "metaphorMeaningCn": "加长、延长",
-  "metaphorOptions": [
-   "加长、延长",
-   "数着混合过日子",
-   "围着贯穿转"
-  ],
-  "mnemonicNote": "length(长度)+en(使)：把长度往外抻",
-  "sourceNote": "古英语 lengðu(长度) + -en(使动)"
- },
- "liability": {
-  "modernMeaningCn": "责任、负债",
-  "literalMeaningCn": "得担着的那一份",
-  "metaphorMeaningCn": "责任、负债",
-  "metaphorOptions": [
-   "责任、负债",
-   "自己的的背面",
-   "被看得见的的东西"
-  ],
-  "mnemonicNote": "liabil(该担)+ity：落到肩上的那一笔账",
-  "sourceNote": "古法语 lier(束缚) + -able + -ity"
- },
- "lighter": {
-  "modernMeaningCn": "打火机、驳船",
-  "literalMeaningCn": "点火的家伙",
-  "metaphorMeaningCn": "打火机、驳船",
-  "metaphorOptions": [
-   "打火机、驳船",
-   "好意的味道",
-   "替表示性质操心"
-  ],
-  "mnemonicNote": "light(点火)+er(物)：啪一下打出火那件",
-  "sourceNote": "古英语 lihtan(点亮) + -er"
- },
- "limestone": {
-  "modernMeaningCn": "石灰石",
-  "literalMeaningCn": "烧出石灰那种石",
-  "metaphorMeaningCn": "石灰石",
-  "metaphorOptions": [
-   "石灰石",
-   "欲望的一角",
-   "完好的另一面"
-  ],
-  "mnemonicNote": "lime(石灰)+stone(石)：烧一烧就成灰那种石头",
-  "sourceNote": "古英语 lim(石灰) + stan(石)"
- },
- "linguistic": {
-  "modernMeaningCn": "语言的",
-  "literalMeaningCn": "跟舌头那套符号有关",
-  "metaphorMeaningCn": "语言的、语言学的",
-  "metaphorOptions": [
-   "语言的、语言学的",
-   "守着嗡嗡声过活",
-   "香气的小站"
-  ],
-  "mnemonicNote": "linguist(语言学者)+ic：跟舌头那套符号有关",
-  "sourceNote": "拉丁 lingua(舌头、语言) + -istic"
- },
- "lipstick": {
-  "modernMeaningCn": "口红",
-  "literalMeaningCn": "涂在唇上的那根",
-  "metaphorMeaningCn": "口红、唇膏",
-  "metaphorOptions": [
-   "口红、唇膏",
-   "数着使恐惧过日子",
-   "围着否定转"
-  ],
-  "mnemonicNote": "lip(嘴唇)+stick(棒)：旋出来涂在唇上那根",
-  "sourceNote": "古英语 lippa(唇) + sticca(棒)"
- },
- "literally": {
-  "modernMeaningCn": "逐字地",
-  "literalMeaningCn": "照着字面地",
-  "metaphorMeaningCn": "逐字地、确实地",
-  "metaphorOptions": [
-   "逐字地、确实地",
-   "重标记的影子",
-   "照亮的人"
-  ],
-  "mnemonicNote": "literal(字面)+ly：一个词一个词照着来",
-  "sourceNote": "拉丁 littera(字母) + -al + -ly"
- },
- "locality": {
-  "modernMeaningCn": "地点、地区",
-  "literalMeaningCn": "所在的那一片",
-  "metaphorMeaningCn": "地点、地区",
-  "metaphorOptions": [
-   "地点、地区",
-   "任何的旧事",
-   "难得的的背面"
-  ],
-  "mnemonicNote": "local(本地的)+ity：所指的是哪一片",
-  "sourceNote": "拉丁 localitas，locus(地方)"
- },
- "lodging": {
-  "modernMeaningCn": "寄宿处",
-  "literalMeaningCn": "临时落脚的地方",
-  "metaphorMeaningCn": "寄宿处、住所",
-  "metaphorOptions": [
-   "寄宿处、住所",
-   "显露的人",
-   "一种图书馆的习俗"
-  ],
-  "mnemonicNote": "lodg(投宿)+ing：临时落脚那间屋",
-  "sourceNote": "古法语 logier(投宿) + -ing"
- },
- "logistics": {
-  "modernMeaningCn": "后勤、物流",
-  "literalMeaningCn": "管筹划那门本事",
-  "metaphorMeaningCn": "后勤、物流",
-  "metaphorOptions": [
-   "后勤、物流",
-   "使用的人",
-   "吸引力的影子"
-  ],
-  "mnemonicNote": "log(筹划)+ist(人)+ics(学问)：管人货调配那门本事",
-  "sourceNote": "法语 logistique，希腊 logistikos(精于算计)"
- },
- "loosely": {
-  "modernMeaningCn": "松散地、大致地",
-  "literalMeaningCn": "松松地",
-  "metaphorMeaningCn": "松散地、大致地",
-  "metaphorOptions": [
-   "松散地、大致地",
-   "时期的旧事",
-   "重的的背面"
-  ],
-  "mnemonicNote": "loose(松)+ly：扣得不紧，也叫大致这么说",
-  "sourceNote": "古诺尔斯语 lauss(松) + -ly"
- },
- "luxurious": {
-  "modernMeaningCn": "奢华的、豪华的",
-  "literalMeaningCn": "铺张到极致的",
-  "metaphorMeaningCn": "奢华的、豪华的",
-  "metaphorOptions": [
-   "奢华的、豪华的",
-   "把社会的翻开",
-   "厚的的影子"
-  ],
-  "mnemonicNote": "luxuri(奢靡)+ous：用度铺张到顶",
-  "sourceNote": "拉丁 luxuriosus，luxus(过度、奢华)"
- },
- "magician": {
-  "modernMeaningCn": "魔术师、魔法师",
-  "literalMeaningCn": "玩戏法那位",
-  "metaphorMeaningCn": "魔术师、魔法师",
-  "metaphorOptions": [
-   "魔术师、魔法师",
-   "把邻居翻开",
-   "把膝盖串起来"
-  ],
-  "mnemonicNote": "magic(戏法)+ian(人)：玩障眼法那位",
-  "sourceNote": "希腊 magikos，magos(术士)"
- },
- "maiden": {
-  "modernMeaningCn": "少女、未婚的",
-  "literalMeaningCn": "待字闺中的那位",
-  "metaphorMeaningCn": "少女、未婚的",
-  "metaphorOptions": [
-   "少女、未婚的",
-   "数着星期过日子",
-   "工程师的工具"
-  ],
-  "mnemonicNote": "maid(少女)+en：还没许人家的姑娘",
-  "sourceNote": "古英语 mægden，mægð(少女)"
- },
- "makeup": {
-  "modernMeaningCn": "构成、化妆品",
-  "literalMeaningCn": "凑起来那一套",
-  "metaphorMeaningCn": "构成、化妆品",
-  "metaphorOptions": [
-   "构成、化妆品",
-   "被材料的东西",
-   "认识的味道"
-  ],
-  "mnemonicNote": "make(做)+up(起来)：把几样凑起来那一套",
-  "sourceNote": "英语复合词，make + up"
- },
- "malicious": {
-  "modernMeaningCn": "恶意的、恶毒的",
-  "literalMeaningCn": "存心要坏的",
-  "metaphorMeaningCn": "恶意的、恶毒的",
-  "metaphorOptions": [
-   "恶意的、恶毒的",
-   "监狱的人",
-   "一种使降级的习俗"
-  ],
-  "mnemonicNote": "malic(存坏心)+ious：心里存着一肚子坏水",
-  "sourceNote": "拉丁 malitia，malus(坏)"
- },
- "malpractice": {
-  "modernMeaningCn": "渎职、医疗事故",
-  "literalMeaningCn": "把行当办坏了",
-  "metaphorMeaningCn": "渎职、医疗事故",
-  "metaphorOptions": [
-   "渎职、医疗事故",
-   "渔夫的一角",
-   "一种漏洞的习俗"
-  ],
-  "mnemonicNote": "mal(坏)+practice(行医)：把行当办坏了",
-  "sourceNote": "mal-(坏) + practice(执业)"
- },
- "managerial": {
-  "modernMeaningCn": "管理的、经营上的",
-  "literalMeaningCn": "当家管事那一路的",
-  "metaphorMeaningCn": "管理的、经营上的",
-  "metaphorOptions": [
-   "管理的、经营上的",
-   "被装备的东西",
-   "大声地嚼的旧事"
-  ],
-  "mnemonicNote": "manager(管事)+ial：当家管事那一层的事",
-  "sourceNote": "意大利 maneggiare(驾驭) + -ial"
- },
- "manoeuvre": {
-  "modernMeaningCn": "机动、演习、策略",
-  "literalMeaningCn": "上手摆弄调度",
-  "metaphorMeaningCn": "机动、演习、策略",
-  "metaphorOptions": [
-   "机动、演习、策略",
-   "斗士的背面",
-   "解放的旧事"
-  ],
-  "mnemonicNote": "man(手)+oeuvre(操作)：上手调来调去那套",
-  "sourceNote": "法语 manoeuvre，拉丁 manu operari(用手操作)"
- },
- "marginal": {
-  "modernMeaningCn": "边缘的",
-  "literalMeaningCn": "贴着边那一圈",
-  "metaphorMeaningCn": "边缘的、微小的",
-  "metaphorOptions": [
-   "边缘的、微小的",
-   "教堂的背面",
-   "被书写的东西"
-  ],
-  "mnemonicNote": "margin(页边)+al：贴在边儿上的那一圈",
-  "sourceNote": "拉丁 margo(边缘) + -al"
- },
- "marshal": {
-  "modernMeaningCn": "元帅",
-  "literalMeaningCn": "管马的人",
-  "metaphorMeaningCn": "元帅、司仪、整理",
-  "metaphorOptions": [
-   "元帅、司仪、整理",
-   "非常的的一角",
-   "帮助的另一面"
-  ],
-  "mnemonicNote": "mars(马)+hal(看马人)：早先管马的，后来成了军中最高的",
-  "sourceNote": "古法语 mareschal，日耳曼语 marh(马) + scalc(仆役)"
- },
- "marxism": {
-  "modernMeaningCn": "马克思主义",
-  "literalMeaningCn": "马克思那一套主张",
-  "metaphorMeaningCn": "马克思主义",
-  "metaphorOptions": [
-   "马克思主义",
-   "向着实际上起作用的去",
-   "易变地的过程"
-  ],
-  "mnemonicNote": "marx(马克思)+ism(主义)：那一位提出的一整套主张",
-  "sourceNote": "德语 Marxismus，源自 Karl Marx 之名"
- },
- "masculinity": {
-  "modernMeaningCn": "男子气概、阳刚",
-  "literalMeaningCn": "男人身上那股劲",
-  "metaphorMeaningCn": "男子气概、阳刚",
-  "metaphorOptions": [
-   "男子气概、阳刚",
-   "把群众翻开",
-   "兽穴的影子"
-  ],
-  "mnemonicNote": "masculin(男性的)+ity：男人身上那股刚劲",
-  "sourceNote": "拉丁 masculinus，masculus(男性)"
- },
- "massacre": {
-  "modernMeaningCn": "屠杀、惨败",
-  "literalMeaningCn": "成片地砍杀",
-  "metaphorMeaningCn": "屠杀、惨败",
-  "metaphorOptions": [
-   "屠杀、惨败",
-   "不一致的一角",
-   "公共汽车的小站"
-  ],
-  "mnemonicNote": "mass(成批)+acre(砍杀)：一片一片地倒下去",
-  "sourceNote": "古法语 macecre，拉丁 mactare(宰杀)"
- },
- "maturation": {
-  "modernMeaningCn": "成熟、成熟期",
-  "literalMeaningCn": "长熟这个过程",
-  "metaphorMeaningCn": "成熟、成熟期",
-  "metaphorOptions": [
-   "成熟、成熟期",
-   "拿取的来路",
-   "向后的地方"
-  ],
-  "mnemonicNote": "matur(长熟)+ation：从生到熟这一路",
-  "sourceNote": "拉丁 maturatio，maturare(使成熟)"
- },
- "maturity": {
-  "modernMeaningCn": "成熟、到期",
-  "literalMeaningCn": "熟透的状态",
-  "metaphorMeaningCn": "成熟、到期",
-  "metaphorOptions": [
-   "成熟、到期",
-   "地理学的旧事",
-   "部分的的背面"
-  ],
-  "mnemonicNote": "matur(长熟)+ity：果子熟透那个状态",
-  "sourceNote": "拉丁 maturitas，maturus(成熟的)"
- },
- "meaningful": {
-  "modernMeaningCn": "有意义的、意味深长的",
-  "literalMeaningCn": "带着分量的一句话",
-  "metaphorMeaningCn": "有意义的、意味深长的",
-  "metaphorOptions": [
-   "有意义的、意味深长的",
-   "被悲观者的东西",
-   "最后的的背面"
-  ],
-  "mnemonicNote": "meaning(意思)+ful：一句话底下压着分量",
-  "sourceNote": "古英语 mænan(意指) + -ful"
- },
- "membership": {
-  "modernMeaningCn": "会员资格、全体成员",
-  "literalMeaningCn": "当成员这份身份",
-  "metaphorMeaningCn": "会员资格、全体成员",
-  "metaphorOptions": [
-   "会员资格、全体成员",
-   "把土地串起来",
-   "把变应性翻开"
-  ],
-  "mnemonicNote": "member(成员)+ship(身份)：挂上号的那一份身份",
-  "sourceNote": "拉丁 membrum(成员) + -ship"
- },
- "merchandise": {
-  "modernMeaningCn": "商品",
-  "literalMeaningCn": "商人手上那些货",
-  "metaphorMeaningCn": "商品、货物",
-  "metaphorOptions": [
-   "商品、货物",
-   "被弥撒的东西",
-   "分开花费的味道"
-  ],
-  "mnemonicNote": "merchand(经商)+ise：铺子里码着那些货",
-  "sourceNote": "古法语 marchandise，marchand(商人)"
- },
- "metallic": {
-  "modernMeaningCn": "金属的、金属般的",
-  "literalMeaningCn": "带金属光的",
-  "metaphorMeaningCn": "金属的、金属般的",
-  "metaphorOptions": [
-   "金属的、金属般的",
-   "数着厨房过日子",
-   "围着摩擦转"
-  ],
-  "mnemonicNote": "metall(五金)+ic：带着点冷冷的光泽",
-  "sourceNote": "希腊 metallon(矿、金属) + -ic"
- },
- "meteorite": {
-  "modernMeaningCn": "陨石、陨星",
-  "literalMeaningCn": "从天上掉下来的石头",
-  "metaphorMeaningCn": "陨石、陨星",
-  "metaphorOptions": [
-   "陨石、陨星",
-   "向着鼩鼱去",
-   "围着勤劳转"
-  ],
-  "mnemonicNote": "meteor(流星)+ite(石)：从天上掉下来那块石头",
-  "sourceNote": "希腊 meteoron(高空的景象) + -ite(石)"
- },
- "microprocessor": {
-  "modernMeaningCn": "微处理器",
-  "literalMeaningCn": "缩到极小的处理器",
-  "metaphorMeaningCn": "微处理器",
-  "metaphorOptions": [
-   "微处理器",
-   "离以诗体很远",
-   "诅咒的过程"
-  ],
-  "mnemonicNote": "micro(微)+processor(处理机)：缩到指甲盖那么大的处理器",
-  "sourceNote": "希腊 mikros(小) + 拉丁 procedere(前进、处理)"
- },
- "microscopic": {
-  "modernMeaningCn": "微观的、极小的",
-  "literalMeaningCn": "小到要拿镜子看",
-  "metaphorMeaningCn": "微观的、极小的",
-  "metaphorOptions": [
-   "微观的、极小的",
-   "绝对的的人",
-   "传记的另一面"
-  ],
-  "mnemonicNote": "microscop(显微镜)+ic：小到得借镜子才看得见",
-  "sourceNote": "希腊 mikros(小) + skopein(看) + -ic"
- },
- "mingle": {
-  "modernMeaningCn": "混合、交往",
-  "literalMeaningCn": "掺到一块儿",
-  "metaphorMeaningCn": "混合、交往",
-  "metaphorOptions": [
-   "混合、交往",
-   "被无价值的的东西",
-   "坚实或沉重的脚步的背面"
-  ],
-  "mnemonicNote": "ming(掺)+le：两样东西掺到一块儿",
-  "sourceNote": "古英语 mengan(混合)"
- },
- "minimize": {
-  "modernMeaningCn": "使最小化、贬低",
-  "literalMeaningCn": "往最小里压",
-  "metaphorMeaningCn": "使最小化、贬低",
-  "metaphorOptions": [
-   "使最小化、贬低",
-   "围着反手转",
-   "数着打印过日子"
-  ],
-  "mnemonicNote": "minim(最小)+ize(使)：往最小里压",
-  "sourceNote": "拉丁 minimus(最小的) + -ize"
- },
- "misfortune": {
-  "modernMeaningCn": "不幸",
-  "literalMeaningCn": "运气不好",
-  "metaphorMeaningCn": "不幸、灾祸",
-  "metaphorOptions": [
-   "不幸、灾祸",
-   "起源的味道",
-   "被灰烬的东西"
-  ],
-  "mnemonicNote": "mis(坏)+fortune(运气)：运气偏不站在这边",
-  "sourceNote": "mis-(坏) + 拉丁 fortuna(运气)"
- },
- "missionary": {
-  "modernMeaningCn": "传教士、布道的",
-  "literalMeaningCn": "带着使命出去的人",
-  "metaphorMeaningCn": "传教士、布道的",
-  "metaphorOptions": [
-   "传教士、布道的",
-   "公民的味道",
-   "被成功的的东西"
-  ],
-  "mnemonicNote": "mission(使命)+ary(人)：带着使命出去那位",
-  "sourceNote": "拉丁 missio(派遣) + -ary"
- },
- "mixer": {
-  "modernMeaningCn": "搅拌器、交际场合",
-  "literalMeaningCn": "搅拌那件",
-  "metaphorMeaningCn": "搅拌器、交际场合",
-  "metaphorOptions": [
-   "搅拌器、交际场合",
-   "弥撒的另一面",
-   "容易的的一角"
-  ],
-  "mnemonicNote": "mix(混合)+er(物)：把几样搅匀那一件",
-  "sourceNote": "拉丁 miscere(混合) + -er"
- },
- "moderately": {
-  "modernMeaningCn": "适度地、中等地",
-  "literalMeaningCn": "守着分寸地",
-  "metaphorMeaningCn": "适度地、中等地",
-  "metaphorOptions": [
-   "适度地、中等地",
-   "可避免的的另一面",
-   "准备的味道"
-  ],
-  "mnemonicNote": "moderate(守着分寸)+ly：不多不少，刚好",
-  "sourceNote": "拉丁 moderatus，modus(尺度) + -ly"
- },
- "modification": {
-  "modernMeaningCn": "修改、改装",
-  "literalMeaningCn": "改一改这件事",
-  "metaphorMeaningCn": "修改、改装",
-  "metaphorOptions": [
-   "修改、改装",
-   "说服的味道",
-   "被预防的东西"
-  ],
-  "mnemonicNote": "modif(改动)+ication：动手改一改",
-  "sourceNote": "拉丁 modificatio，modus(尺度) + facere(做)"
- },
- "momentary": {
-  "modernMeaningCn": "瞬间的",
-  "literalMeaningCn": "只一眨眼的",
-  "metaphorMeaningCn": "瞬间的、短暂的",
-  "metaphorOptions": [
-   "瞬间的、短暂的",
-   "被使同化的东西",
-   "社会的背面"
-  ],
-  "mnemonicNote": "moment(片刻)+ary：只一眨眼的工夫",
-  "sourceNote": "拉丁 momentarius，momentum(片刻)"
- },
- "monster": {
-  "modernMeaningCn": "怪物、巨物",
-  "literalMeaningCn": "叫人心里发毛的东西",
-  "metaphorMeaningCn": "怪物、巨物",
-  "metaphorOptions": [
-   "怪物、巨物",
-   "程序的旧事",
-   "改好的来路"
-  ],
-  "mnemonicNote": "mons(警示)+ter：让人心里发毛那个东西",
-  "sourceNote": "拉丁 monstrum(警示、异象)"
- },
- "monstrous": {
-  "modernMeaningCn": "巨大的",
-  "literalMeaningCn": "怪物般的",
-  "metaphorMeaningCn": "巨大的、骇人的",
-  "metaphorOptions": [
-   "巨大的、骇人的",
-   "期末考试的工具",
-   "把减少串起来"
-  ],
-  "mnemonicNote": "monstr(怪物)+ous：大得像头怪物",
-  "sourceNote": "拉丁 monstrosus，monstrum(异象)"
- },
- "morality": {
-  "modernMeaningCn": "道德",
-  "literalMeaningCn": "是非善恶那套",
-  "metaphorMeaningCn": "道德、品行",
-  "metaphorOptions": [
-   "道德、品行",
-   "向着器官的去",
-   "连接元音的过程"
-  ],
-  "mnemonicNote": "moral(品行)+ity：是非善恶那一套规矩",
-  "sourceNote": "拉丁 moralitas，mos(风俗)"
- },
- "multiplication": {
-  "modernMeaningCn": "乘法、繁殖",
-  "literalMeaningCn": "成倍增加这件事",
-  "metaphorMeaningCn": "乘法、繁殖",
-  "metaphorOptions": [
-   "乘法、繁殖",
-   "把消失翻开",
-   "装饰的影子"
-  ],
-  "mnemonicNote": "multiplicat(倍增)+ion：成倍往上翻这件事",
-  "sourceNote": "拉丁 multiplicatio，multiplus(多倍的)"
- },
- "negotiation": {
-  "modernMeaningCn": "谈判、协商",
-  "literalMeaningCn": "来回商量这件事",
-  "metaphorMeaningCn": "谈判、协商",
-  "metaphorOptions": [
-   "谈判、协商",
-   "替热心家操心",
-   "守着放射性的过活"
-  ],
-  "mnemonicNote": "negotiat(商谈)+ion：两头来回磨这件事",
-  "sourceNote": "拉丁 negotiatio，negotiari(做生意)"
- },
- "neighbouring": {
-  "modernMeaningCn": "邻近的、邻接的",
-  "literalMeaningCn": "挨着住的那一圈",
-  "metaphorMeaningCn": "邻近的、邻接的",
-  "metaphorOptions": [
-   "邻近的、邻接的",
-   "守着独立件过活",
-   "欧洲的小站"
-  ],
-  "mnemonicNote": "neighbour(邻居)+ing：挨着住的那一圈",
-  "sourceNote": "古英语 neahgebur(邻居) + -ing"
- },
- "neutron": {
-  "modernMeaningCn": "中子",
-  "literalMeaningCn": "不带电的那颗粒",
-  "metaphorMeaningCn": "中子",
-  "metaphorOptions": [
-   "中子",
-   "一种烦恼的习俗",
-   "把关心串起来"
-  ],
-  "mnemonicNote": "neutr(中性)+on(粒子)：既不显正也不显负那颗粒",
-  "sourceNote": "拉丁 neuter(中性) + -on(粒子)"
- },
- "nickname": {
-  "modernMeaningCn": "绰号",
-  "literalMeaningCn": "另起的一个名",
-  "metaphorMeaningCn": "绰号、外号",
-  "metaphorOptions": [
-   "绰号、外号",
-   "怪物的一角",
-   "有系统的的另一面"
-  ],
-  "mnemonicNote": "nick(别称)+name(名)：另外给起的一个名",
-  "sourceNote": "中古英语 eke name(附加之名)，误分为 a nickname"
- },
- "nightmare": {
-  "modernMeaningCn": "噩梦、可怕经历",
-  "literalMeaningCn": "夜里被压住那一下",
-  "metaphorMeaningCn": "噩梦、可怕经历",
-  "metaphorOptions": [
-   "噩梦、可怕经历",
-   "易接近的的工具",
-   "数着庆祝的过日子"
-  ],
-  "mnemonicNote": "night(夜)+mare(鬼压)：梦里被压住那一下",
-  "sourceNote": "古英语 niht(夜) + mare(压人的鬼)"
- },
- "normalization": {
-  "modernMeaningCn": "正常化、常态化",
-  "literalMeaningCn": "恢复到常轨",
-  "metaphorMeaningCn": "正常化、常态化",
-  "metaphorOptions": [
-   "正常化、常态化",
-   "被性质的东西",
-   "适当的的旧事"
-  ],
-  "mnemonicNote": "normal(常轨)+ization：回到常轨上来",
-  "sourceNote": "拉丁 normalis(合规矩) + -ization"
- },
- "northward": {
-  "modernMeaningCn": "向北的、朝北",
-  "literalMeaningCn": "朝着北边",
-  "metaphorMeaningCn": "向北的、朝北",
-  "metaphorOptions": [
-   "向北的、朝北",
-   "一种百万的习俗",
-   "原姓的的地方"
-  ],
-  "mnemonicNote": "north(北)+ward(朝向)：整个方向冲着北边",
-  "sourceNote": "古英语 north + -weard(朝向)"
- },
- "notable": {
-  "modernMeaningCn": "值得注意的、名人",
-  "literalMeaningCn": "值得记上一笔的",
-  "metaphorMeaningCn": "值得注意的、名人",
-  "metaphorOptions": [
-   "值得注意的、名人",
-   "死的的另一面",
-   "警告的一角"
-  ],
-  "mnemonicNote": "not(标记)+able：值得在册子上记一笔",
-  "sourceNote": "拉丁 notabilis，notare(标记)"
- },
- "notation": {
-  "modernMeaningCn": "符号、标记法",
-  "literalMeaningCn": "标出来的那一套",
-  "metaphorMeaningCn": "符号、标记法",
-  "metaphorOptions": [
-   "符号、标记法",
-   "把灌木串起来",
-   "把立即的翻开"
-  ],
-  "mnemonicNote": "notat(标记)+ion：标出来那一套写下来的东西",
-  "sourceNote": "拉丁 notatio，notare(标记)"
- },
- "notwithstanding": {
-  "modernMeaningCn": "尽管、虽然",
-  "literalMeaningCn": "拦不住它",
-  "metaphorMeaningCn": "尽管、虽然",
-  "metaphorOptions": [
-   "尽管、虽然",
-   "围着迅速的转",
-   "每一的一角"
-  ],
-  "mnemonicNote": "not(不)+withstanding(抵挡)：挡也挡不住这件事",
-  "sourceNote": "中古英语 not(不) + withstanding(抵挡)"
- }
+  "_comment": "Stage 3 待写释义（batch-42，本批 60 词，六级批第 7 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
+  "kidnap": {
+    "modernMeaningCn": "绑架",
+    "literalMeaningCn": "把小孩抓走",
+    "metaphorMeaningCn": "绑架、劫持",
+    "metaphorOptions": [
+      "绑架、劫持",
+      "大量存在的一角",
+      "一种恰好的的习俗"
+    ],
+    "mnemonicNote": "kid(小孩)+nap(抓走)：把人家孩子抓走",
+    "sourceNote": "英语复合词，kid(小孩) + nap(抓、窃)"
+  },
+  "lawsuit": {
+    "modernMeaningCn": "诉讼、官司",
+    "literalMeaningCn": "依着律条打的官司",
+    "metaphorMeaningCn": "诉讼、官司",
+    "metaphorOptions": [
+      "诉讼、官司",
+      "围着月亮转",
+      "向着城市去"
+    ],
+    "mnemonicNote": "law(法律)+suit(起诉)：照着律条打的那场官司",
+    "sourceNote": "中古英语 lawe(法律) + sute(起诉)"
+  },
+  "layman": {
+    "modernMeaningCn": "外行、俗人",
+    "literalMeaningCn": "不在行里的人",
+    "metaphorMeaningCn": "外行、俗人",
+    "metaphorOptions": [
+      "外行、俗人",
+      "比赛的工具",
+      "把身份串起来"
+    ],
+    "mnemonicNote": "lay(俗众)+man(人)：不在这行里那位",
+    "sourceNote": "拉丁 laicus(俗人) + 古英语 mann(人)"
+  },
+  "leaflet": {
+    "modernMeaningCn": "传单、小册子",
+    "literalMeaningCn": "像一片小叶子",
+    "metaphorMeaningCn": "传单、小册子",
+    "metaphorOptions": [
+      "传单、小册子",
+      "离安全很远",
+      "替负荷操心"
+    ],
+    "mnemonicNote": "leaf(叶)+let(小)：像一片小叶子那样的纸",
+    "sourceNote": "古英语 leaf(叶) + -let(指小)"
+  },
+  "leakage": {
+    "modernMeaningCn": "泄漏、渗漏",
+    "literalMeaningCn": "漏出去这件事",
+    "metaphorMeaningCn": "泄漏、渗漏",
+    "metaphorOptions": [
+      "泄漏、渗漏",
+      "毒药的另一面",
+      "玉蜀黍的味道"
+    ],
+    "mnemonicNote": "leak(漏)+age：从缝里往外渗这件事",
+    "sourceNote": "中古英语 leken(漏) + -age"
+  },
+  "lengthen": {
+    "modernMeaningCn": "加长",
+    "literalMeaningCn": "把长度拉出来",
+    "metaphorMeaningCn": "加长、延长",
+    "metaphorOptions": [
+      "加长、延长",
+      "数着混合过日子",
+      "围着贯穿转"
+    ],
+    "mnemonicNote": "length(长度)+en(使)：把长度往外抻",
+    "sourceNote": "古英语 lengðu(长度) + -en(使动)"
+  },
+  "liability": {
+    "modernMeaningCn": "责任、负债",
+    "literalMeaningCn": "得担着的那一份",
+    "metaphorMeaningCn": "责任、负债",
+    "metaphorOptions": [
+      "责任、负债",
+      "自己的的背面",
+      "被看得见的的东西"
+    ],
+    "mnemonicNote": "liabil(该担)+ity：落到肩上的那一笔账",
+    "sourceNote": "古法语 lier(束缚) + -able + -ity"
+  },
+  "lighter": {
+    "modernMeaningCn": "打火机、驳船",
+    "literalMeaningCn": "点火的家伙",
+    "metaphorMeaningCn": "打火机、驳船",
+    "metaphorOptions": [
+      "打火机、驳船",
+      "好意的味道",
+      "替表示性质操心"
+    ],
+    "mnemonicNote": "light(点火)+er(物)：啪一下打出火那件",
+    "sourceNote": "古英语 lihtan(点亮) + -er"
+  },
+  "limestone": {
+    "modernMeaningCn": "石灰石",
+    "literalMeaningCn": "烧出石灰那种石",
+    "metaphorMeaningCn": "石灰石",
+    "metaphorOptions": [
+      "石灰石",
+      "欲望的一角",
+      "完好的另一面"
+    ],
+    "mnemonicNote": "lime(石灰)+stone(石)：烧一烧就成灰那种石头",
+    "sourceNote": "古英语 lim(石灰) + stan(石)"
+  },
+  "linguistic": {
+    "modernMeaningCn": "语言的",
+    "literalMeaningCn": "跟舌头那套符号有关",
+    "metaphorMeaningCn": "语言的、语言学的",
+    "metaphorOptions": [
+      "语言的、语言学的",
+      "守着嗡嗡声过活",
+      "香气的小站"
+    ],
+    "mnemonicNote": "linguist(语言学者)+ic：跟舌头那套符号有关",
+    "sourceNote": "拉丁 lingua(舌头、语言) + -istic"
+  },
+  "lipstick": {
+    "modernMeaningCn": "口红",
+    "literalMeaningCn": "涂在唇上的那根",
+    "metaphorMeaningCn": "口红、唇膏",
+    "metaphorOptions": [
+      "口红、唇膏",
+      "数着使恐惧过日子",
+      "围着否定转"
+    ],
+    "mnemonicNote": "lip(嘴唇)+stick(棒)：旋出来涂在唇上那根",
+    "sourceNote": "古英语 lippa(唇) + sticca(棒)"
+  },
+  "literally": {
+    "modernMeaningCn": "逐字地",
+    "literalMeaningCn": "照着字面地",
+    "metaphorMeaningCn": "逐字地、确实地",
+    "metaphorOptions": [
+      "逐字地、确实地",
+      "重标记的影子",
+      "照亮的人"
+    ],
+    "mnemonicNote": "literal(字面)+ly：一个词一个词照着来",
+    "sourceNote": "拉丁 littera(字母) + -al + -ly"
+  },
+  "locality": {
+    "modernMeaningCn": "地点、地区",
+    "literalMeaningCn": "所在的那一片",
+    "metaphorMeaningCn": "地点、地区",
+    "metaphorOptions": [
+      "地点、地区",
+      "任何的旧事",
+      "难得的的背面"
+    ],
+    "mnemonicNote": "local(本地的)+ity：所指的是哪一片",
+    "sourceNote": "拉丁 localitas，locus(地方)"
+  },
+  "lodging": {
+    "modernMeaningCn": "寄宿处",
+    "literalMeaningCn": "临时落脚的地方",
+    "metaphorMeaningCn": "寄宿处、住所",
+    "metaphorOptions": [
+      "寄宿处、住所",
+      "一种诺言的习俗",
+      "一种图书馆的习俗"
+    ],
+    "mnemonicNote": "lodg(投宿)+ing：临时落脚那间屋",
+    "sourceNote": "古法语 logier(投宿) + -ing"
+  },
+  "logistics": {
+    "modernMeaningCn": "后勤、物流",
+    "literalMeaningCn": "管筹划那门本事",
+    "metaphorMeaningCn": "后勤、物流",
+    "metaphorOptions": [
+      "后勤、物流",
+      "使用的人",
+      "吸引力的影子"
+    ],
+    "mnemonicNote": "log(筹划)+ist(人)+ics(学问)：管人货调配那门本事",
+    "sourceNote": "法语 logistique，希腊 logistikos(精于算计)"
+  },
+  "loosely": {
+    "modernMeaningCn": "松散地、大致地",
+    "literalMeaningCn": "松松地",
+    "metaphorMeaningCn": "松散地、大致地",
+    "metaphorOptions": [
+      "松散地、大致地",
+      "时期的旧事",
+      "重的的背面"
+    ],
+    "mnemonicNote": "loose(松)+ly：扣得不紧，也叫大致这么说",
+    "sourceNote": "古诺尔斯语 lauss(松) + -ly"
+  },
+  "luxurious": {
+    "modernMeaningCn": "奢华的、豪华的",
+    "literalMeaningCn": "铺张到极致的",
+    "metaphorMeaningCn": "奢华的、豪华的",
+    "metaphorOptions": [
+      "奢华的、豪华的",
+      "把社会的翻开",
+      "厚的的影子"
+    ],
+    "mnemonicNote": "luxuri(奢靡)+ous：用度铺张到顶",
+    "sourceNote": "拉丁 luxuriosus，luxus(过度、奢华)"
+  },
+  "magician": {
+    "modernMeaningCn": "魔术师、魔法师",
+    "literalMeaningCn": "玩戏法那位",
+    "metaphorMeaningCn": "魔术师、魔法师",
+    "metaphorOptions": [
+      "魔术师、魔法师",
+      "把邻居翻开",
+      "把膝盖串起来"
+    ],
+    "mnemonicNote": "magic(戏法)+ian(人)：玩障眼法那位",
+    "sourceNote": "希腊 magikos，magos(术士)"
+  },
+  "maiden": {
+    "modernMeaningCn": "少女、未婚的",
+    "literalMeaningCn": "待字闺中的那位",
+    "metaphorMeaningCn": "少女、未婚的",
+    "metaphorOptions": [
+      "少女、未婚的",
+      "数着星期过日子",
+      "工程师的工具"
+    ],
+    "mnemonicNote": "maid(少女)+en：还没许人家的姑娘",
+    "sourceNote": "古英语 mægden，mægð(少女)"
+  },
+  "makeup": {
+    "modernMeaningCn": "构成、化妆品",
+    "literalMeaningCn": "凑起来那一套",
+    "metaphorMeaningCn": "构成、化妆品",
+    "metaphorOptions": [
+      "构成、化妆品",
+      "被材料的东西",
+      "认识的味道"
+    ],
+    "mnemonicNote": "make(做)+up(起来)：把几样凑起来那一套",
+    "sourceNote": "英语复合词，make + up"
+  },
+  "malicious": {
+    "modernMeaningCn": "恶意的、恶毒的",
+    "literalMeaningCn": "存心要坏的",
+    "metaphorMeaningCn": "恶意的、恶毒的",
+    "metaphorOptions": [
+      "恶意的、恶毒的",
+      "监狱的人",
+      "一种使降级的习俗"
+    ],
+    "mnemonicNote": "malic(存坏心)+ious：心里存着一肚子坏水",
+    "sourceNote": "拉丁 malitia，malus(坏)"
+  },
+  "malpractice": {
+    "modernMeaningCn": "渎职、医疗事故",
+    "literalMeaningCn": "把行当办坏了",
+    "metaphorMeaningCn": "渎职、医疗事故",
+    "metaphorOptions": [
+      "渎职、医疗事故",
+      "渔夫的一角",
+      "一种漏洞的习俗"
+    ],
+    "mnemonicNote": "mal(坏)+practice(行医)：把行当办坏了",
+    "sourceNote": "mal-(坏) + practice(执业)"
+  },
+  "managerial": {
+    "modernMeaningCn": "管理的、经营上的",
+    "literalMeaningCn": "当家管事那一路的",
+    "metaphorMeaningCn": "管理的、经营上的",
+    "metaphorOptions": [
+      "管理的、经营上的",
+      "被装备的东西",
+      "一种组织的习俗"
+    ],
+    "mnemonicNote": "manager(管事)+ial：当家管事那一层的事",
+    "sourceNote": "意大利 maneggiare(驾驭) + -ial"
+  },
+  "manoeuvre": {
+    "modernMeaningCn": "机动、演习、策略",
+    "literalMeaningCn": "上手摆弄调度",
+    "metaphorMeaningCn": "机动、演习、策略",
+    "metaphorOptions": [
+      "机动、演习、策略",
+      "斗士的背面",
+      "解放的旧事"
+    ],
+    "mnemonicNote": "man(手)+oeuvre(操作)：上手调来调去那套",
+    "sourceNote": "法语 manoeuvre，拉丁 manu operari(用手操作)"
+  },
+  "marginal": {
+    "modernMeaningCn": "边缘的",
+    "literalMeaningCn": "贴着边那一圈",
+    "metaphorMeaningCn": "边缘的、微小的",
+    "metaphorOptions": [
+      "边缘的、微小的",
+      "教堂的背面",
+      "被书写的东西"
+    ],
+    "mnemonicNote": "margin(页边)+al：贴在边儿上的那一圈",
+    "sourceNote": "拉丁 margo(边缘) + -al"
+  },
+  "marshal": {
+    "modernMeaningCn": "元帅",
+    "literalMeaningCn": "管马的人",
+    "metaphorMeaningCn": "元帅、司仪、整理",
+    "metaphorOptions": [
+      "元帅、司仪、整理",
+      "非常的的一角",
+      "帮助的另一面"
+    ],
+    "mnemonicNote": "mars(马)+hal(看马人)：早先管马的，后来成了军中最高的",
+    "sourceNote": "古法语 mareschal，日耳曼语 marh(马) + scalc(仆役)"
+  },
+  "marxism": {
+    "modernMeaningCn": "马克思主义",
+    "literalMeaningCn": "马克思那一套主张",
+    "metaphorMeaningCn": "马克思主义",
+    "metaphorOptions": [
+      "马克思主义",
+      "向着实际上起作用的去",
+      "易变地的过程"
+    ],
+    "mnemonicNote": "marx(马克思)+ism(主义)：那一位提出的一整套主张",
+    "sourceNote": "德语 Marxismus，源自 Karl Marx 之名"
+  },
+  "masculinity": {
+    "modernMeaningCn": "男子气概、阳刚",
+    "literalMeaningCn": "男人身上那股劲",
+    "metaphorMeaningCn": "男子气概、阳刚",
+    "metaphorOptions": [
+      "男子气概、阳刚",
+      "把群众翻开",
+      "一种刻痕的习俗"
+    ],
+    "mnemonicNote": "masculin(男性的)+ity：男人身上那股刚劲",
+    "sourceNote": "拉丁 masculinus，masculus(男性)"
+  },
+  "massacre": {
+    "modernMeaningCn": "屠杀、惨败",
+    "literalMeaningCn": "成片地砍杀",
+    "metaphorMeaningCn": "屠杀、惨败",
+    "metaphorOptions": [
+      "屠杀、惨败",
+      "不一致的一角",
+      "公共汽车的小站"
+    ],
+    "mnemonicNote": "mass(成批)+acre(砍杀)：一片一片地倒下去",
+    "sourceNote": "古法语 macecre，拉丁 mactare(宰杀)"
+  },
+  "maturation": {
+    "modernMeaningCn": "成熟、成熟期",
+    "literalMeaningCn": "长熟这个过程",
+    "metaphorMeaningCn": "成熟、成熟期",
+    "metaphorOptions": [
+      "成熟、成熟期",
+      "拿取的来路",
+      "向后的地方"
+    ],
+    "mnemonicNote": "matur(长熟)+ation：从生到熟这一路",
+    "sourceNote": "拉丁 maturatio，maturare(使成熟)"
+  },
+  "maturity": {
+    "modernMeaningCn": "成熟、到期",
+    "literalMeaningCn": "熟透的状态",
+    "metaphorMeaningCn": "成熟、到期",
+    "metaphorOptions": [
+      "成熟、到期",
+      "地理学的旧事",
+      "部分的的背面"
+    ],
+    "mnemonicNote": "matur(长熟)+ity：果子熟透那个状态",
+    "sourceNote": "拉丁 maturitas，maturus(成熟的)"
+  },
+  "meaningful": {
+    "modernMeaningCn": "有意义的、意味深长的",
+    "literalMeaningCn": "带着分量的一句话",
+    "metaphorMeaningCn": "有意义的、意味深长的",
+    "metaphorOptions": [
+      "有意义的、意味深长的",
+      "被悲观者的东西",
+      "最后的的背面"
+    ],
+    "mnemonicNote": "meaning(意思)+ful：一句话底下压着分量",
+    "sourceNote": "古英语 mænan(意指) + -ful"
+  },
+  "membership": {
+    "modernMeaningCn": "会员资格、全体成员",
+    "literalMeaningCn": "当成员这份身份",
+    "metaphorMeaningCn": "会员资格、全体成员",
+    "metaphorOptions": [
+      "会员资格、全体成员",
+      "把土地串起来",
+      "把变应性翻开"
+    ],
+    "mnemonicNote": "member(成员)+ship(身份)：挂上号的那一份身份",
+    "sourceNote": "拉丁 membrum(成员) + -ship"
+  },
+  "merchandise": {
+    "modernMeaningCn": "商品",
+    "literalMeaningCn": "商人手上那些货",
+    "metaphorMeaningCn": "商品、货物",
+    "metaphorOptions": [
+      "商品、货物",
+      "被弥撒的东西",
+      "分开花费的味道"
+    ],
+    "mnemonicNote": "merchand(经商)+ise：铺子里码着那些货",
+    "sourceNote": "古法语 marchandise，marchand(商人)"
+  },
+  "metallic": {
+    "modernMeaningCn": "金属的、金属般的",
+    "literalMeaningCn": "带金属光的",
+    "metaphorMeaningCn": "金属的、金属般的",
+    "metaphorOptions": [
+      "金属的、金属般的",
+      "数着厨房过日子",
+      "围着摩擦转"
+    ],
+    "mnemonicNote": "metall(五金)+ic：带着点冷冷的光泽",
+    "sourceNote": "希腊 metallon(矿、金属) + -ic"
+  },
+  "meteorite": {
+    "modernMeaningCn": "陨石、陨星",
+    "literalMeaningCn": "从天上掉下来的石头",
+    "metaphorMeaningCn": "陨石、陨星",
+    "metaphorOptions": [
+      "陨石、陨星",
+      "向着鼩鼱去",
+      "围着勤劳转"
+    ],
+    "mnemonicNote": "meteor(流星)+ite(石)：从天上掉下来那块石头",
+    "sourceNote": "希腊 meteoron(高空的景象) + -ite(石)"
+  },
+  "microprocessor": {
+    "modernMeaningCn": "微处理器",
+    "literalMeaningCn": "缩到极小的处理器",
+    "metaphorMeaningCn": "微处理器",
+    "metaphorOptions": [
+      "微处理器",
+      "一种经验主义者的习俗",
+      "诅咒的过程"
+    ],
+    "mnemonicNote": "micro(微)+processor(处理机)：缩到指甲盖那么大的处理器",
+    "sourceNote": "希腊 mikros(小) + 拉丁 procedere(前进、处理)"
+  },
+  "microscopic": {
+    "modernMeaningCn": "微观的、极小的",
+    "literalMeaningCn": "小到要拿镜子看",
+    "metaphorMeaningCn": "微观的、极小的",
+    "metaphorOptions": [
+      "微观的、极小的",
+      "绝对的的人",
+      "传记的另一面"
+    ],
+    "mnemonicNote": "microscop(显微镜)+ic：小到得借镜子才看得见",
+    "sourceNote": "希腊 mikros(小) + skopein(看) + -ic"
+  },
+  "mingle": {
+    "modernMeaningCn": "混合、交往",
+    "literalMeaningCn": "掺到一块儿",
+    "metaphorMeaningCn": "混合、交往",
+    "metaphorOptions": [
+      "混合、交往",
+      "被无价值的的东西",
+      "坚实或沉重的脚步的背面"
+    ],
+    "mnemonicNote": "ming(掺)+le：两样东西掺到一块儿",
+    "sourceNote": "古英语 mengan(混合)"
+  },
+  "minimize": {
+    "modernMeaningCn": "使最小化、贬低",
+    "literalMeaningCn": "往最小里压",
+    "metaphorMeaningCn": "使最小化、贬低",
+    "metaphorOptions": [
+      "使最小化、贬低",
+      "围着反手转",
+      "数着打印过日子"
+    ],
+    "mnemonicNote": "minim(最小)+ize(使)：往最小里压",
+    "sourceNote": "拉丁 minimus(最小的) + -ize"
+  },
+  "misfortune": {
+    "modernMeaningCn": "不幸",
+    "literalMeaningCn": "运气不好",
+    "metaphorMeaningCn": "不幸、灾祸",
+    "metaphorOptions": [
+      "不幸、灾祸",
+      "起源的味道",
+      "被灰烬的东西"
+    ],
+    "mnemonicNote": "mis(坏)+fortune(运气)：运气偏不站在这边",
+    "sourceNote": "mis-(坏) + 拉丁 fortuna(运气)"
+  },
+  "missionary": {
+    "modernMeaningCn": "传教士、布道的",
+    "literalMeaningCn": "带着使命出去的人",
+    "metaphorMeaningCn": "传教士、布道的",
+    "metaphorOptions": [
+      "传教士、布道的",
+      "公民的味道",
+      "被成功的的东西"
+    ],
+    "mnemonicNote": "mission(使命)+ary(人)：带着使命出去那位",
+    "sourceNote": "拉丁 missio(派遣) + -ary"
+  },
+  "mixer": {
+    "modernMeaningCn": "搅拌器、交际场合",
+    "literalMeaningCn": "搅拌那件",
+    "metaphorMeaningCn": "搅拌器、交际场合",
+    "metaphorOptions": [
+      "搅拌器、交际场合",
+      "弥撒的另一面",
+      "容易的的一角"
+    ],
+    "mnemonicNote": "mix(混合)+er(物)：把几样搅匀那一件",
+    "sourceNote": "拉丁 miscere(混合) + -er"
+  },
+  "moderately": {
+    "modernMeaningCn": "适度地、中等地",
+    "literalMeaningCn": "守着分寸地",
+    "metaphorMeaningCn": "适度地、中等地",
+    "metaphorOptions": [
+      "适度地、中等地",
+      "可避免的的另一面",
+      "准备的味道"
+    ],
+    "mnemonicNote": "moderate(守着分寸)+ly：不多不少，刚好",
+    "sourceNote": "拉丁 moderatus，modus(尺度) + -ly"
+  },
+  "modification": {
+    "modernMeaningCn": "修改、改装",
+    "literalMeaningCn": "改一改这件事",
+    "metaphorMeaningCn": "修改、改装",
+    "metaphorOptions": [
+      "修改、改装",
+      "说服的味道",
+      "被预防的东西"
+    ],
+    "mnemonicNote": "modif(改动)+ication：动手改一改",
+    "sourceNote": "拉丁 modificatio，modus(尺度) + facere(做)"
+  },
+  "momentary": {
+    "modernMeaningCn": "瞬间的",
+    "literalMeaningCn": "只一眨眼的",
+    "metaphorMeaningCn": "瞬间的、短暂的",
+    "metaphorOptions": [
+      "瞬间的、短暂的",
+      "被使同化的东西",
+      "社会的背面"
+    ],
+    "mnemonicNote": "moment(片刻)+ary：只一眨眼的工夫",
+    "sourceNote": "拉丁 momentarius，momentum(片刻)"
+  },
+  "monster": {
+    "modernMeaningCn": "怪物、巨物",
+    "literalMeaningCn": "叫人心里发毛的东西",
+    "metaphorMeaningCn": "怪物、巨物",
+    "metaphorOptions": [
+      "怪物、巨物",
+      "程序的旧事",
+      "一种睡眠的习俗"
+    ],
+    "mnemonicNote": "mons(警示)+ter：让人心里发毛那个东西",
+    "sourceNote": "拉丁 monstrum(警示、异象)"
+  },
+  "monstrous": {
+    "modernMeaningCn": "巨大的",
+    "literalMeaningCn": "怪物般的",
+    "metaphorMeaningCn": "巨大的、骇人的",
+    "metaphorOptions": [
+      "巨大的、骇人的",
+      "期末考试的工具",
+      "把减少串起来"
+    ],
+    "mnemonicNote": "monstr(怪物)+ous：大得像头怪物",
+    "sourceNote": "拉丁 monstrosus，monstrum(异象)"
+  },
+  "morality": {
+    "modernMeaningCn": "道德",
+    "literalMeaningCn": "是非善恶那套",
+    "metaphorMeaningCn": "道德、品行",
+    "metaphorOptions": [
+      "道德、品行",
+      "向着器官的去",
+      "连接元音的过程"
+    ],
+    "mnemonicNote": "moral(品行)+ity：是非善恶那一套规矩",
+    "sourceNote": "拉丁 moralitas，mos(风俗)"
+  },
+  "multiplication": {
+    "modernMeaningCn": "乘法、繁殖",
+    "literalMeaningCn": "成倍增加这件事",
+    "metaphorMeaningCn": "乘法、繁殖",
+    "metaphorOptions": [
+      "乘法、繁殖",
+      "把消失翻开",
+      "装饰的影子"
+    ],
+    "mnemonicNote": "multiplicat(倍增)+ion：成倍往上翻这件事",
+    "sourceNote": "拉丁 multiplicatio，multiplus(多倍的)"
+  },
+  "negotiation": {
+    "modernMeaningCn": "谈判、协商",
+    "literalMeaningCn": "来回商量这件事",
+    "metaphorMeaningCn": "谈判、协商",
+    "metaphorOptions": [
+      "谈判、协商",
+      "替热心家操心",
+      "守着放射性的过活"
+    ],
+    "mnemonicNote": "negotiat(商谈)+ion：两头来回磨这件事",
+    "sourceNote": "拉丁 negotiatio，negotiari(做生意)"
+  },
+  "neighbouring": {
+    "modernMeaningCn": "邻近的、邻接的",
+    "literalMeaningCn": "挨着住的那一圈",
+    "metaphorMeaningCn": "邻近的、邻接的",
+    "metaphorOptions": [
+      "邻近的、邻接的",
+      "守着独立件过活",
+      "欧洲的小站"
+    ],
+    "mnemonicNote": "neighbour(邻居)+ing：挨着住的那一圈",
+    "sourceNote": "古英语 neahgebur(邻居) + -ing"
+  },
+  "neutron": {
+    "modernMeaningCn": "中子",
+    "literalMeaningCn": "不带电的那颗粒",
+    "metaphorMeaningCn": "中子",
+    "metaphorOptions": [
+      "中子",
+      "一种烦恼的习俗",
+      "把关心串起来"
+    ],
+    "mnemonicNote": "neutr(中性)+on(粒子)：既不显正也不显负那颗粒",
+    "sourceNote": "拉丁 neuter(中性) + -on(粒子)"
+  },
+  "nickname": {
+    "modernMeaningCn": "绰号",
+    "literalMeaningCn": "另起的一个名",
+    "metaphorMeaningCn": "绰号、外号",
+    "metaphorOptions": [
+      "绰号、外号",
+      "怪物的一角",
+      "有系统的的另一面"
+    ],
+    "mnemonicNote": "nick(别称)+name(名)：另外给起的一个名",
+    "sourceNote": "中古英语 eke name(附加之名)，误分为 a nickname"
+  },
+  "nightmare": {
+    "modernMeaningCn": "噩梦、可怕经历",
+    "literalMeaningCn": "夜里被压住那一下",
+    "metaphorMeaningCn": "噩梦、可怕经历",
+    "metaphorOptions": [
+      "噩梦、可怕经历",
+      "易接近的的工具",
+      "数着庆祝的过日子"
+    ],
+    "mnemonicNote": "night(夜)+mare(鬼压)：梦里被压住那一下",
+    "sourceNote": "古英语 niht(夜) + mare(压人的鬼)"
+  },
+  "normalization": {
+    "modernMeaningCn": "正常化、常态化",
+    "literalMeaningCn": "恢复到常轨",
+    "metaphorMeaningCn": "正常化、常态化",
+    "metaphorOptions": [
+      "正常化、常态化",
+      "被性质的东西",
+      "适当的的旧事"
+    ],
+    "mnemonicNote": "normal(常轨)+ization：回到常轨上来",
+    "sourceNote": "拉丁 normalis(合规矩) + -ization"
+  },
+  "northward": {
+    "modernMeaningCn": "向北的、朝北",
+    "literalMeaningCn": "朝着北边",
+    "metaphorMeaningCn": "向北的、朝北",
+    "metaphorOptions": [
+      "向北的、朝北",
+      "一种百万的习俗",
+      "原姓的的地方"
+    ],
+    "mnemonicNote": "north(北)+ward(朝向)：整个方向冲着北边",
+    "sourceNote": "古英语 north + -weard(朝向)"
+  },
+  "notable": {
+    "modernMeaningCn": "值得注意的、名人",
+    "literalMeaningCn": "值得记上一笔的",
+    "metaphorMeaningCn": "值得注意的、名人",
+    "metaphorOptions": [
+      "值得注意的、名人",
+      "死的的另一面",
+      "警告的一角"
+    ],
+    "mnemonicNote": "not(标记)+able：值得在册子上记一笔",
+    "sourceNote": "拉丁 notabilis，notare(标记)"
+  },
+  "notation": {
+    "modernMeaningCn": "符号、标记法",
+    "literalMeaningCn": "标出来的那一套",
+    "metaphorMeaningCn": "符号、标记法",
+    "metaphorOptions": [
+      "符号、标记法",
+      "把灌木串起来",
+      "把立即的翻开"
+    ],
+    "mnemonicNote": "notat(标记)+ion：标出来那一套写下来的东西",
+    "sourceNote": "拉丁 notatio，notare(标记)"
+  },
+  "notwithstanding": {
+    "modernMeaningCn": "尽管、虽然",
+    "literalMeaningCn": "拦不住它",
+    "metaphorMeaningCn": "尽管、虽然",
+    "metaphorOptions": [
+      "尽管、虽然",
+      "围着迅速的转",
+      "每一的一角"
+    ],
+    "mnemonicNote": "not(不)+withstanding(抵挡)：挡也挡不住这件事",
+    "sourceNote": "中古英语 not(不) + withstanding(抵挡)"
+  }
 }

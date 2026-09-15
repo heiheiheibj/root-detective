@@ -1,723 +1,723 @@
 {
- "_comment": "Stage 3 待写释义（batch-36，本批 60 词，六级批第 1 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。注意：助记与词源都不能逐字出现现代义（A14），也不能带中文省略号「…」（A28）。",
- "abbreviation": {
-  "modernMeaningCn": "缩写词",
-  "literalMeaningCn": "缩短的写法",
-  "metaphorMeaningCn": "缩写、缩写词",
-  "metaphorOptions": [
-   "缩写、缩写词",
-   "后缀的背面",
-   "离向外很远"
-  ],
-  "mnemonicNote": "abbreviat(截短)+ion：长话截短之后留下的那个写法",
-  "sourceNote": "拉丁 abbreviare，ad-(朝向) + brevis(短)"
- },
- "absorption": {
-  "modernMeaningCn": "吸收",
-  "literalMeaningCn": "吸进去这件事",
-  "metaphorMeaningCn": "吸收、专注",
-  "metaphorOptions": [
-   "吸收、专注",
-   "把攒下翻开",
-   "把模态串起来"
-  ],
-  "mnemonicNote": "absorp(吸入)+tion：水渗进海绵那一下",
-  "sourceNote": "拉丁 absorptio，ab-(离开) + sorbere(吸)"
- },
- "abundance": {
-  "modernMeaningCn": "丰富",
-  "literalMeaningCn": "满得往外溢",
-  "metaphorMeaningCn": "丰富、大量",
-  "metaphorOptions": [
-   "丰富、大量",
-   "伴随的来路",
-   "语法的旧事"
-  ],
-  "mnemonicNote": "abund(充盈)+ance：仓里满得往外溢",
-  "sourceNote": "拉丁 abundantia，abundare(满溢)"
- },
- "accomplishment": {
-  "modernMeaningCn": "成就",
-  "literalMeaningCn": "办成的事",
-  "metaphorMeaningCn": "成就、才艺",
-  "metaphorOptions": [
-   "成就、才艺",
-   "其他的的另一面",
-   "家庭杂务的一角"
-  ],
-  "mnemonicNote": "accomplish(办成)+ment：一件件办成的事摆在那儿",
-  "sourceNote": "古法语 acomplir，拉丁 ad-(朝向) + complere(装满)"
- },
- "addict": {
-  "modernMeaningCn": "使沉溺",
-  "literalMeaningCn": "被一句话交出去",
-  "metaphorMeaningCn": "使沉溺、上瘾的人",
-  "metaphorOptions": [
-   "使沉溺、上瘾的人",
-   "把表示形成的串起来",
-   "名字的工具"
-  ],
-  "mnemonicNote": "ad(朝向)+dict(说)：被一句许诺交了出去，收不回来",
-  "sourceNote": "拉丁 addictus，addicere(判归、出卖)"
- },
- "adjacent": {
-  "modernMeaningCn": "毗连的",
-  "literalMeaningCn": "挨着躺的",
-  "metaphorMeaningCn": "毗连的、邻近的",
-  "metaphorOptions": [
-   "毗连的、邻近的",
-   "瀑布的地方",
-   "办公室的小站"
-  ],
-  "mnemonicNote": "ad(朝向)+jacent(躺)：紧挨着躺在一处",
-  "sourceNote": "拉丁 adiacere，ad-(朝向) + iacere(躺)"
- },
- "adjoin": {
-  "modernMeaningCn": "邻接",
-  "literalMeaningCn": "连到一块儿",
-  "metaphorMeaningCn": "邻接、紧挨着",
-  "metaphorOptions": [
-   "邻接、紧挨着",
-   "构造的背面",
-   "被必要的的东西"
-  ],
-  "mnemonicNote": "ad(朝向)+join(连接)：墙根跟墙根连到一起",
-  "sourceNote": "古法语 ajoindre，ad-(朝向) + iungere(连接)"
- },
- "adjustable": {
-  "modernMeaningCn": "可调节的",
-  "literalMeaningCn": "拧得动的",
-  "metaphorMeaningCn": "可调节的、可调整的",
-  "metaphorOptions": [
-   "可调节的、可调整的",
-   "诅咒的人",
-   "商人的影子"
-  ],
-  "mnemonicNote": "adjust(调节)+able：那颗螺丝拧得动",
-  "sourceNote": "古法语 ajouster，ad-(朝向) + juste(恰当)"
- },
- "adoption": {
-  "modernMeaningCn": "采用",
-  "literalMeaningCn": "拿过来用",
-  "metaphorMeaningCn": "采用、收养",
-  "metaphorOptions": [
-   "采用、收养",
-   "预防的地方",
-   "制造的小站"
-  ],
-  "mnemonicNote": "adopt(采纳)+ion：把别人的法子拿过来照着办",
-  "sourceNote": "拉丁 adoptare，ad-(朝向) + optare(选取)"
- },
- "advantageous": {
-  "modernMeaningCn": "有利的",
-  "literalMeaningCn": "占着上风的",
-  "metaphorMeaningCn": "有利的、有益的",
-  "metaphorOptions": [
-   "有利的、有益的",
-   "保险的影子",
-   "横穿的人"
-  ],
-  "mnemonicNote": "advantage(上风)+ous：风头都往这一边吹",
-  "sourceNote": "古法语 avantage，avant(在前) + -ous"
- },
- "aerial": {
-  "modernMeaningCn": "空中的",
-  "literalMeaningCn": "悬在半空的",
-  "metaphorMeaningCn": "空中的、天线",
-  "metaphorOptions": [
-   "空中的、天线",
-   "排气的另一面",
-   "迷住的味道"
-  ],
-  "mnemonicNote": "aeri(空气)+al：悬在半空不着地",
-  "sourceNote": "拉丁 aerius，希腊 aer(空气)"
- },
- "aerospace": {
-  "modernMeaningCn": "航空航天",
-  "literalMeaningCn": "天空加太空",
-  "metaphorMeaningCn": "航空航天、宇航",
-  "metaphorOptions": [
-   "航空航天、宇航",
-   "有效率的的地方",
-   "理解的来路"
-  ],
-  "mnemonicNote": "aero(空气)+space(太空)：从贴地那层一直管到太空",
-  "sourceNote": "希腊 aer(空气) + 拉丁 spatium(空间)"
- },
- "affective": {
-  "modernMeaningCn": "情感的",
-  "literalMeaningCn": "牵动情绪的",
-  "metaphorMeaningCn": "情感的、感情方面的",
-  "metaphorOptions": [
-   "情感的、感情方面的",
-   "亲戚的旧事",
-   "确定的的背面"
-  ],
-  "mnemonicNote": "affect(牵动)+ive：能牵动情绪的那一层",
-  "sourceNote": "拉丁 affectus，afficere(作用于、影响)"
- },
- "affirm": {
-  "modernMeaningCn": "断言",
-  "literalMeaningCn": "说得很硬",
-  "metaphorMeaningCn": "断言、肯定",
-  "metaphorOptions": [
-   "断言、肯定",
-   "把外交官翻开",
-   "把中立者串起来"
-  ],
-  "mnemonicNote": "af(朝向)+firm(坚固)：话说得又硬又实",
-  "sourceNote": "拉丁 affirmare，ad-(朝向) + firmus(坚固)"
- },
- "agitation": {
-  "modernMeaningCn": "激动",
-  "literalMeaningCn": "被搅起来的状态",
-  "metaphorMeaningCn": "激动、骚动",
-  "metaphorOptions": [
-   "激动、骚动",
-   "固体坚硬的的小站",
-   "守着持有人过活"
-  ],
-  "mnemonicNote": "agitat(搅动)+ion：心里那潭水被人搅起来了",
-  "sourceNote": "拉丁 agitatio，agitare(搅动)"
- },
- "agreeable": {
-  "modernMeaningCn": "令人愉快的",
-  "literalMeaningCn": "合人心意的",
-  "metaphorMeaningCn": "令人愉快的、同意的",
-  "metaphorOptions": [
-   "令人愉快的、同意的",
-   "创伤的地方",
-   "参议院的小站"
-  ],
-  "mnemonicNote": "agree(合意)+able：事事都合他的心意",
-  "sourceNote": "古法语 agreer(合意) + -able"
- },
- "alignment": {
-  "modernMeaningCn": "队列",
-  "literalMeaningCn": "排成一条线",
-  "metaphorMeaningCn": "队列、结盟",
-  "metaphorOptions": [
-   "队列、结盟",
-   "向着两者之中任一的去",
-   "复数的过程"
-  ],
-  "mnemonicNote": "align(排成线)+ment：一个个站到同一条线上",
-  "sourceNote": "法语 aligner，a-(朝向) + ligne(线)"
- },
- "allegation": {
-  "modernMeaningCn": "断言",
-  "literalMeaningCn": "摆出来的说法",
-  "metaphorMeaningCn": "断言、指控",
-  "metaphorOptions": [
-   "断言、指控",
-   "把直沙嘴串起来",
-   "把抢夺翻开"
-  ],
-  "mnemonicNote": "alleg(声称)+ation：摆出一套还没坐实的说法",
-  "sourceNote": "拉丁 allegatio，allegare(遣出、援引)"
- },
- "ambitious": {
-  "modernMeaningCn": "有野心的",
-  "literalMeaningCn": "惦记着往上走",
-  "metaphorMeaningCn": "有野心的、有雄心的",
-  "metaphorOptions": [
-   "有野心的、有雄心的",
-   "数着使茫然过日子",
-   "围着放置转"
-  ],
-  "mnemonicNote": "ambit(抱负)+ious：眼睛盯着更高的那个位子",
-  "sourceNote": "拉丁 ambitio，ambire(四处奔走求票)"
- },
- "amplitude": {
-  "modernMeaningCn": "幅度",
-  "literalMeaningCn": "摆得大不大",
-  "metaphorMeaningCn": "幅度、振幅",
-  "metaphorOptions": [
-   "幅度、振幅",
-   "数着问候过日子",
-   "围着宇宙转"
-  ],
-  "mnemonicNote": "ampl(大)+itude：来回摆动能够有多大",
-  "sourceNote": "拉丁 amplitudo，amplus(大的)"
- },
- "analogous": {
-  "modernMeaningCn": "类似的",
-  "literalMeaningCn": "能对上的",
-  "metaphorMeaningCn": "类似的、相似的",
-  "metaphorOptions": [
-   "类似的、相似的",
-   "牢固的来路",
-   "计算的旧事"
-  ],
-  "mnemonicNote": "analog(类比)+ous：一件一件都能对上",
-  "sourceNote": "希腊 analogos，ana-(按) + logos(比例)"
- },
- "analytical": {
-  "modernMeaningCn": "分析的",
-  "literalMeaningCn": "拆开来看的",
-  "metaphorMeaningCn": "分析的、善于分析的",
-  "metaphorOptions": [
-   "分析的、善于分析的",
-   "守着身份过活",
-   "替共和国操心"
-  ],
-  "mnemonicNote": "analytic(剖析)+al：凡事拆开一层层看",
-  "sourceNote": "希腊 analytikos，analysis(分解)"
- },
- "annually": {
-  "modernMeaningCn": "一年一次",
-  "literalMeaningCn": "按年算",
-  "metaphorMeaningCn": "每年、一年一度",
-  "metaphorOptions": [
-   "每年、一年一度",
-   "使认识的背面",
-   "有意识的的旧事"
-  ],
-  "mnemonicNote": "annual(年度)+ly：一年到头办那么一回",
-  "sourceNote": "拉丁 annus(年) + -ly"
- },
- "anonymous": {
-  "modernMeaningCn": "匿名的",
-  "literalMeaningCn": "没留名字的",
-  "metaphorMeaningCn": "匿名的、无名的",
-  "metaphorOptions": [
-   "匿名的、无名的",
-   "守着迷人的过活",
-   "安心的小站"
-  ],
-  "mnemonicNote": "anonym(无名)+ous：落款那一栏空着",
-  "sourceNote": "希腊 anonymos，an-(无) + onoma(名字)"
- },
- "antisocial": {
-  "modernMeaningCn": "不爱社交的",
-  "literalMeaningCn": "跟人群对着来的",
-  "metaphorMeaningCn": "不爱社交的、反社会的",
-  "metaphorOptions": [
-   "不爱社交的、反社会的",
-   "一种符合的习俗",
-   "主体的人"
-  ],
-  "mnemonicNote": "anti(反)+social(社会)：见着人多就绕道走",
-  "sourceNote": "希腊 anti-(反) + 拉丁 socialis(社会的)"
- },
- "appealing": {
-  "modernMeaningCn": "吸引人的",
-  "literalMeaningCn": "能打动人心的",
-  "metaphorMeaningCn": "吸引人的、动人的",
-  "metaphorOptions": [
-   "吸引人的、动人的",
-   "围着意义转",
-   "综合的一角"
-  ],
-  "mnemonicNote": "appeal(打动)+ing：一眼就把人吸住了",
-  "sourceNote": "古法语 apeler，拉丁 appellare(招呼、上诉)"
- },
- "appraisal": {
-  "modernMeaningCn": "评价",
-  "literalMeaningCn": "估个价",
-  "metaphorMeaningCn": "评价、鉴定",
-  "metaphorOptions": [
-   "评价、鉴定",
-   "离哪一个很远",
-   "替黑暗操心"
-  ],
-  "mnemonicNote": "apprais(估价)+al：给个价，也说个好坏",
-  "sourceNote": "古法语 aprisier，a-(朝向) + prisier(估价)"
- },
- "appraise": {
-  "modernMeaningCn": "评价",
-  "literalMeaningCn": "给个价钱",
-  "metaphorMeaningCn": "评价、估价",
-  "metaphorOptions": [
-   "评价、估价",
-   "围着灰尘转",
-   "向着确定去"
-  ],
-  "mnemonicNote": "ap(朝向)+praise(价)：朝着那件东西给个价",
-  "sourceNote": "古法语 aprisier，a-(朝向) + prisier(估价)"
- },
- "aspiration": {
-  "modernMeaningCn": "热望",
-  "literalMeaningCn": "朝上吸气那一下",
-  "metaphorMeaningCn": "志向、渴望",
-  "metaphorOptions": [
-   "志向、渴望",
-   "直沙嘴的一角",
-   "生态的另一面"
-  ],
-  "mnemonicNote": "aspir(向往)+ation：仰着头朝上直使劲",
-  "sourceNote": "拉丁 aspiratio，ad-(朝向) + spirare(呼吸)"
- },
- "assault": {
-  "modernMeaningCn": "攻击",
-  "literalMeaningCn": "扑上去一跳",
-  "metaphorMeaningCn": "袭击、猛攻",
-  "metaphorOptions": [
-   "袭击、猛攻",
-   "离大量的很远",
-   "替雪茄操心"
-  ],
-  "mnemonicNote": "as(朝向)+sault(跳)：扑上去猛地一跳",
-  "sourceNote": "古法语 assaut，拉丁 ad-(朝向) + saltare(跳)"
- },
- "assertive": {
-  "modernMeaningCn": "自信的",
-  "literalMeaningCn": "敢把话说明的",
-  "metaphorMeaningCn": "自信的、坚定的",
-  "metaphorOptions": [
-   "自信的、坚定的",
-   "在那里的过程",
-   "向着饰带去"
-  ],
-  "mnemonicNote": "assert(主张)+ive：敢当场把话说明白",
-  "sourceNote": "拉丁 asserere，ad-(朝向) + serere(连接、陈述)"
- },
- "assimilation": {
-  "modernMeaningCn": "同化",
-  "literalMeaningCn": "变得像一个模子",
-  "metaphorMeaningCn": "同化、消化吸收",
-  "metaphorOptions": [
-   "同化、消化吸收",
-   "一种片刻的习俗",
-   "酿造酒的人"
-  ],
-  "mnemonicNote": "assimilat(使相似)+ion：慢慢变得像一个模子刻的",
-  "sourceNote": "拉丁 assimilatio，ad-(朝向) + similis(相似)"
- },
- "assurance": {
-  "modernMeaningCn": "保证",
-  "literalMeaningCn": "把话说死",
-  "metaphorMeaningCn": "保证、把握",
-  "metaphorOptions": [
-   "保证、把握",
-   "都市的工具",
-   "数着坚持过日子"
-  ],
-  "mnemonicNote": "assur(使确信)+ance：话说到让人放心的份上",
-  "sourceNote": "古法语 asseurer，拉丁 ad-(朝向) + securus(无忧)"
- },
- "astonishment": {
-  "modernMeaningCn": "惊异",
-  "literalMeaningCn": "被雷到那一下",
-  "metaphorMeaningCn": "惊讶、惊愕",
-  "metaphorOptions": [
-   "惊讶、惊愕",
-   "被是否的东西",
-   "情绪的味道"
-  ],
-  "mnemonicNote": "astonish(使惊)+ment：被人当头一雷，半天回不过神",
-  "sourceNote": "古法语 estoner，拉丁 extonare(雷击)"
- },
- "attachment": {
-  "modernMeaningCn": "附件",
-  "literalMeaningCn": "挂在后头的东西",
-  "metaphorMeaningCn": "附件、依恋",
-  "metaphorOptions": [
-   "附件、依恋",
-   "酿造酒的另一面",
-   "天生的一角"
-  ],
-  "mnemonicNote": "attach(附上)+ment：挂在后头那份东西，也指舍不得的心",
-  "sourceNote": "古法语 atachier(系上) + -ment"
- },
- "attendance": {
-  "modernMeaningCn": "出席",
-  "literalMeaningCn": "人在场这件事",
-  "metaphorMeaningCn": "出席、出席人数",
-  "metaphorOptions": [
-   "出席、出席人数",
-   "围着苹果转",
-   "向着使失望去"
-  ],
-  "mnemonicNote": "attend(到场)+ance：签到本上有没有他的名字",
-  "sourceNote": "拉丁 attendere，ad-(朝向) + tendere(伸展)"
- },
- "attendant": {
-  "modernMeaningCn": "随从",
-  "literalMeaningCn": "在旁听差的人",
-  "metaphorMeaningCn": "随从、服务员",
-  "metaphorOptions": [
-   "随从、服务员",
-   "疤痕的来路",
-   "流行的旧事"
-  ],
-  "mnemonicNote": "attend(侍候)+ant(人)：在旁听差那位",
-  "sourceNote": "拉丁 attendere(侍候) + -ant"
- },
- "availability": {
-  "modernMeaningCn": "可用性",
-  "literalMeaningCn": "拿得到拿不到",
-  "metaphorMeaningCn": "可用性、可获得性",
-  "metaphorOptions": [
-   "可用性、可获得性",
-   "构成以结尾的动词的工具",
-   "数着懒惰的过日子"
-  ],
-  "mnemonicNote": "availabil(可得)+ity：这东西现在拿不拿得到",
-  "sourceNote": "古法语 valoir(有价值) + -able + -ity"
- },
- "axial": {
-  "modernMeaningCn": "轴的",
-  "literalMeaningCn": "绕着轴那一圈",
-  "metaphorMeaningCn": "轴的、轴向的",
-  "metaphorOptions": [
-   "轴的、轴向的",
-   "外出的过程",
-   "离占优势的很远"
-  ],
-  "mnemonicNote": "axi(轴)+al：绕着中间那根轴走",
-  "sourceNote": "拉丁 axis(轴) + -al"
- },
- "backbone": {
-  "modernMeaningCn": "脊椎",
-  "literalMeaningCn": "脊梁那根骨",
-  "metaphorMeaningCn": "脊椎、支柱",
-  "metaphorOptions": [
-   "脊椎、支柱",
-   "围着绳索转",
-   "向着见证去"
-  ],
-  "mnemonicNote": "back(背)+bone(骨)：从后颈一路撑下来的那根骨",
-  "sourceNote": "英语复合词，back + bone"
- },
- "banker": {
-  "modernMeaningCn": "银行家",
-  "literalMeaningCn": "开银行的人",
-  "metaphorMeaningCn": "银行家、银行职员",
-  "metaphorOptions": [
-   "银行家、银行职员",
-   "完全的小站",
-   "特征的地方"
-  ],
-  "mnemonicNote": "bank(银行)+er(人)：柜台上后面那位",
-  "sourceNote": "意大利 banca(长凳、钱庄) + -er"
- },
- "bankruptcy": {
-  "modernMeaningCn": "破产",
-  "literalMeaningCn": "柜台空了的境地",
-  "metaphorMeaningCn": "破产、彻底失败",
-  "metaphorOptions": [
-   "破产、彻底失败",
-   "代表的味道",
-   "问候的另一面"
-  ],
-  "mnemonicNote": "bankrupt(债台高筑)+cy：柜台空了、债还不上的境地",
-  "sourceNote": "意大利 banca rotta(柜台被砸断)"
- },
- "bearing": {
-  "modernMeaningCn": "举止",
-  "literalMeaningCn": "扛事的样子",
-  "metaphorMeaningCn": "举止、方位、轴承",
-  "metaphorOptions": [
-   "举止、方位、轴承",
-   "离全世界的很远",
-   "掌舵的过程"
-  ],
-  "mnemonicNote": "bear(承受)+ing：扛事时站出来的那个样子",
-  "sourceNote": "古英语 beran(承受) + -ing"
- },
- "bestow": {
-  "modernMeaningCn": "授予",
-  "literalMeaningCn": "把东西放给人",
-  "metaphorMeaningCn": "授予、赠予",
-  "metaphorOptions": [
-   "授予、赠予",
-   "被使膨胀的东西",
-   "把膝盖串起来"
-  ],
-  "mnemonicNote": "be(加强)+stow(放置)：把东西郑重放到人家手上",
-  "sourceNote": "中古英语 bestowen，be-(加强) + stow(放置)"
- },
- "biased": {
-  "modernMeaningCn": "有偏见的",
-  "literalMeaningCn": "秤偏了一边",
-  "metaphorMeaningCn": "有偏见的、偏袒的",
-  "metaphorOptions": [
-   "有偏见的、偏袒的",
-   "语言学家的背面",
-   "守财奴的旧事"
-  ],
-  "mnemonicNote": "bias(斜)+ed：秤杆早早偏到了一边",
-  "sourceNote": "古法语 biais(斜)"
- },
- "bitterness": {
-  "modernMeaningCn": "苦味",
-  "literalMeaningCn": "发苦的滋味",
-  "metaphorMeaningCn": "苦味、怨恨",
-  "metaphorOptions": [
-   "苦味、怨恨",
-   "香气的过程",
-   "替利用操心"
-  ],
-  "mnemonicNote": "bitter(苦)+ness：咽下去那股化不开的苦",
-  "sourceNote": "古英语 biter(苦) + -ness"
- },
- "blacksmith": {
-  "modernMeaningCn": "铁匠",
-  "literalMeaningCn": "跟黑铁打交道的匠人",
-  "metaphorMeaningCn": "铁匠、锻工",
-  "metaphorOptions": [
-   "铁匠、锻工",
-   "金衡的过程",
-   "向着装配去"
-  ],
-  "mnemonicNote": "black(黑)+smith(锻造人)：成天跟黑铁打交道那位",
-  "sourceNote": "古英语 blæc(黑) + smith(工匠)"
- },
- "blunder": {
-  "modernMeaningCn": "大错",
-  "literalMeaningCn": "闭着眼撞上去",
-  "metaphorMeaningCn": "大错、失策",
-  "metaphorOptions": [
-   "大错、失策",
-   "离选择权很远",
-   "大陆的过程"
-  ],
-  "mnemonicNote": "blund(瞎撞)+er：闭着眼一头撞上去",
-  "sourceNote": "古诺尔斯语 blundra(闭眼乱撞)"
- },
- "bluntly": {
-  "modernMeaningCn": "坦率地",
-  "literalMeaningCn": "不绕弯地",
-  "metaphorMeaningCn": "直率地、不客气地",
-  "metaphorOptions": [
-   "直率地、不客气地",
-   "末端的地方",
-   "可怜的人的小站"
-  ],
-  "mnemonicNote": "blunt(钝直)+ly：有话直说，一点弯都不拐",
-  "sourceNote": "古诺尔斯语 blundra(钝) + -ly"
- },
- "boiler": {
-  "modernMeaningCn": "锅炉",
-  "literalMeaningCn": "烧水那家伙",
-  "metaphorMeaningCn": "锅炉、热水器",
-  "metaphorOptions": [
-   "锅炉、热水器",
-   "工作的味道",
-   "暴风雨的另一面"
-  ],
-  "mnemonicNote": "boil(煮沸)+er(物)：成天咕嘟咕嘟烧水那件",
-  "sourceNote": "古法语 boillir(煮沸) + -er"
- },
- "breakdown": {
-  "modernMeaningCn": "崩溃",
-  "literalMeaningCn": "垮下来的那一下",
-  "metaphorMeaningCn": "故障、崩溃、分类",
-  "metaphorOptions": [
-   "故障、崩溃、分类",
-   "一种委托托付的习俗",
-   "完成时完美的的人"
-  ],
-  "mnemonicNote": "break(断)+down(下)：机器半路垮下来的那一下",
-  "sourceNote": "英语复合词，break + down"
- },
- "bridle": {
-  "modernMeaningCn": "马笼头",
-  "literalMeaningCn": "套在马头上的缰绳",
-  "metaphorMeaningCn": "马笼头、约束",
-  "metaphorOptions": [
-   "马笼头、约束",
-   "待办的另一面",
-   "刷子的味道"
-  ],
-  "mnemonicNote": "brid(编结)+le：编起来套在马头上的那一套",
-  "sourceNote": "古英语 bridel(缰绳)"
- },
- "brightness": {
-  "modernMeaningCn": "亮度",
-  "literalMeaningCn": "亮的程度",
-  "metaphorMeaningCn": "亮度、明亮",
-  "metaphorOptions": [
-   "亮度、明亮",
-   "估定的另一面",
-   "瀑布的一角"
-  ],
-  "mnemonicNote": "bright(明亮)+ness：亮到什么份上",
-  "sourceNote": "古英语 beorht(明亮) + -ness"
- },
- "broaden": {
-  "modernMeaningCn": "拓宽",
-  "literalMeaningCn": "使变宽阔",
-  "metaphorMeaningCn": "拓宽、使变宽",
-  "metaphorOptions": [
-   "拓宽、使变宽",
-   "离带来很远",
-   "替克服操心"
-  ],
-  "mnemonicNote": "broad(宽)+en(使)：路越修越宽",
-  "sourceNote": "古英语 brad(宽) + -en(使动)"
- },
- "bulletin": {
-  "modernMeaningCn": "公告",
-  "literalMeaningCn": "贴出来的短讯",
-  "metaphorMeaningCn": "公告、简报",
-  "metaphorOptions": [
-   "公告、简报",
-   "离拥有者很远",
-   "替系统操心"
-  ],
-  "mnemonicNote": "bullet(小纸条)+in：贴出来的一小条消息",
-  "sourceNote": "法语 bulletin，意大利 bullettino(小证书)"
- },
- "bureaucracy": {
-  "modernMeaningCn": "官僚制度",
-  "literalMeaningCn": "官署说了算",
-  "metaphorMeaningCn": "官僚制度、官僚作风",
-  "metaphorOptions": [
-   "官僚制度、官僚作风",
-   "围着帮助转",
-   "数着意义过日子"
-  ],
-  "mnemonicNote": "bureau(官署)+cracy(统治)：一屋子公文说了算",
-  "sourceNote": "法语 bureau(官署) + 希腊 kratia(统治)"
- },
- "burner": {
-  "modernMeaningCn": "燃烧器",
-  "literalMeaningCn": "烧东西那件",
-  "metaphorMeaningCn": "燃烧器、炉子",
-  "metaphorOptions": [
-   "燃烧器、炉子",
-   "围着热忱转",
-   "数着吸引过日子"
-  ],
-  "mnemonicNote": "burn(烧)+er(物)：点着火往上蹿的那件",
-  "sourceNote": "古英语 beornan(烧) + -er"
- },
- "calibration": {
-  "modernMeaningCn": "校准",
-  "literalMeaningCn": "拿标准量一遍",
-  "metaphorMeaningCn": "校准、刻度",
-  "metaphorOptions": [
-   "校准、刻度",
-   "两者之中任一的的另一面",
-   "注意的味道"
-  ],
-  "mnemonicNote": "calibrat(对表)+ion：拿标准器对一遍刻度",
-  "sourceNote": "法语 calibrer，calibre(口径)"
- },
- "capability": {
-  "modernMeaningCn": "能力",
-  "literalMeaningCn": "干得成事的本事",
-  "metaphorMeaningCn": "能力、性能",
-  "metaphorOptions": [
-   "能力、性能",
-   "入会的来路",
-   "平等的地方"
-  ],
-  "mnemonicNote": "capabil(能干)+ity：这件事交给他办得成",
-  "sourceNote": "拉丁 capere(取、容) + -able + -ity"
- },
- "capacitance": {
-  "modernMeaningCn": "电容",
-  "literalMeaningCn": "存电的本事",
-  "metaphorMeaningCn": "电容、电容量",
-  "metaphorOptions": [
-   "电容、电容量",
-   "片刻的来路",
-   "学习的地方"
-  ],
-  "mnemonicNote": "capacit(容量)+ance：这两块板子存得住多少电",
-  "sourceNote": "拉丁 capacitas，capere(容纳)"
- }
+  "_comment": "Stage 3 待写释义（batch-36，本批 60 词，六级批第 1 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。注意：助记与词源都不能逐字出现现代义（A14），也不能带中文省略号「…」（A28）。",
+  "abbreviation": {
+    "modernMeaningCn": "缩写词",
+    "literalMeaningCn": "缩短的写法",
+    "metaphorMeaningCn": "缩写、缩写词",
+    "metaphorOptions": [
+      "缩写、缩写词",
+      "后缀的背面",
+      "离向外很远"
+    ],
+    "mnemonicNote": "abbreviat(截短)+ion：长话截短之后留下的那个写法",
+    "sourceNote": "拉丁 abbreviare，ad-(朝向) + brevis(短)"
+  },
+  "absorption": {
+    "modernMeaningCn": "吸收",
+    "literalMeaningCn": "吸进去这件事",
+    "metaphorMeaningCn": "吸收、专注",
+    "metaphorOptions": [
+      "吸收、专注",
+      "把攒下翻开",
+      "一种灌注的习俗"
+    ],
+    "mnemonicNote": "absorp(吸入)+tion：水渗进海绵那一下",
+    "sourceNote": "拉丁 absorptio，ab-(离开) + sorbere(吸)"
+  },
+  "abundance": {
+    "modernMeaningCn": "丰富",
+    "literalMeaningCn": "满得往外溢",
+    "metaphorMeaningCn": "丰富、大量",
+    "metaphorOptions": [
+      "丰富、大量",
+      "伴随的来路",
+      "语法的旧事"
+    ],
+    "mnemonicNote": "abund(充盈)+ance：仓里满得往外溢",
+    "sourceNote": "拉丁 abundantia，abundare(满溢)"
+  },
+  "accomplishment": {
+    "modernMeaningCn": "成就",
+    "literalMeaningCn": "办成的事",
+    "metaphorMeaningCn": "成就、才艺",
+    "metaphorOptions": [
+      "成就、才艺",
+      "其他的的另一面",
+      "家庭杂务的一角"
+    ],
+    "mnemonicNote": "accomplish(办成)+ment：一件件办成的事摆在那儿",
+    "sourceNote": "古法语 acomplir，拉丁 ad-(朝向) + complere(装满)"
+  },
+  "addict": {
+    "modernMeaningCn": "使沉溺",
+    "literalMeaningCn": "被一句话交出去",
+    "metaphorMeaningCn": "使沉溺、上瘾的人",
+    "metaphorOptions": [
+      "使沉溺、上瘾的人",
+      "一种阳性的习俗",
+      "名字的工具"
+    ],
+    "mnemonicNote": "ad(朝向)+dict(说)：被一句许诺交了出去，收不回来",
+    "sourceNote": "拉丁 addictus，addicere(判归、出卖)"
+  },
+  "adjacent": {
+    "modernMeaningCn": "毗连的",
+    "literalMeaningCn": "挨着躺的",
+    "metaphorMeaningCn": "毗连的、邻近的",
+    "metaphorOptions": [
+      "毗连的、邻近的",
+      "瀑布的地方",
+      "一种使用的习俗"
+    ],
+    "mnemonicNote": "ad(朝向)+jacent(躺)：紧挨着躺在一处",
+    "sourceNote": "拉丁 adiacere，ad-(朝向) + iacere(躺)"
+  },
+  "adjoin": {
+    "modernMeaningCn": "邻接",
+    "literalMeaningCn": "连到一块儿",
+    "metaphorMeaningCn": "邻接、紧挨着",
+    "metaphorOptions": [
+      "邻接、紧挨着",
+      "构造的背面",
+      "被必要的的东西"
+    ],
+    "mnemonicNote": "ad(朝向)+join(连接)：墙根跟墙根连到一起",
+    "sourceNote": "古法语 ajoindre，ad-(朝向) + iungere(连接)"
+  },
+  "adjustable": {
+    "modernMeaningCn": "可调节的",
+    "literalMeaningCn": "拧得动的",
+    "metaphorMeaningCn": "可调节的、可调整的",
+    "metaphorOptions": [
+      "可调节的、可调整的",
+      "诅咒的人",
+      "商人的影子"
+    ],
+    "mnemonicNote": "adjust(调节)+able：那颗螺丝拧得动",
+    "sourceNote": "古法语 ajouster，ad-(朝向) + juste(恰当)"
+  },
+  "adoption": {
+    "modernMeaningCn": "采用",
+    "literalMeaningCn": "拿过来用",
+    "metaphorMeaningCn": "采用、收养",
+    "metaphorOptions": [
+      "采用、收养",
+      "预防的地方",
+      "制造的小站"
+    ],
+    "mnemonicNote": "adopt(采纳)+ion：把别人的法子拿过来照着办",
+    "sourceNote": "拉丁 adoptare，ad-(朝向) + optare(选取)"
+  },
+  "advantageous": {
+    "modernMeaningCn": "有利的",
+    "literalMeaningCn": "占着上风的",
+    "metaphorMeaningCn": "有利的、有益的",
+    "metaphorOptions": [
+      "有利的、有益的",
+      "保险的影子",
+      "横穿的人"
+    ],
+    "mnemonicNote": "advantage(上风)+ous：风头都往这一边吹",
+    "sourceNote": "古法语 avantage，avant(在前) + -ous"
+  },
+  "aerial": {
+    "modernMeaningCn": "空中的",
+    "literalMeaningCn": "悬在半空的",
+    "metaphorMeaningCn": "空中的、天线",
+    "metaphorOptions": [
+      "空中的、天线",
+      "排气的另一面",
+      "迷住的味道"
+    ],
+    "mnemonicNote": "aeri(空气)+al：悬在半空不着地",
+    "sourceNote": "拉丁 aerius，希腊 aer(空气)"
+  },
+  "aerospace": {
+    "modernMeaningCn": "航空航天",
+    "literalMeaningCn": "天空加太空",
+    "metaphorMeaningCn": "航空航天、宇航",
+    "metaphorOptions": [
+      "航空航天、宇航",
+      "有效率的的地方",
+      "理解的来路"
+    ],
+    "mnemonicNote": "aero(空气)+space(太空)：从贴地那层一直管到太空",
+    "sourceNote": "希腊 aer(空气) + 拉丁 spatium(空间)"
+  },
+  "affective": {
+    "modernMeaningCn": "情感的",
+    "literalMeaningCn": "牵动情绪的",
+    "metaphorMeaningCn": "情感的、感情方面的",
+    "metaphorOptions": [
+      "情感的、感情方面的",
+      "一种储存的习俗",
+      "确定的的背面"
+    ],
+    "mnemonicNote": "affect(牵动)+ive：能牵动情绪的那一层",
+    "sourceNote": "拉丁 affectus，afficere(作用于、影响)"
+  },
+  "affirm": {
+    "modernMeaningCn": "断言",
+    "literalMeaningCn": "说得很硬",
+    "metaphorMeaningCn": "断言、肯定",
+    "metaphorOptions": [
+      "断言、肯定",
+      "把外交官翻开",
+      "把中立者串起来"
+    ],
+    "mnemonicNote": "af(朝向)+firm(坚固)：话说得又硬又实",
+    "sourceNote": "拉丁 affirmare，ad-(朝向) + firmus(坚固)"
+  },
+  "agitation": {
+    "modernMeaningCn": "激动",
+    "literalMeaningCn": "被搅起来的状态",
+    "metaphorMeaningCn": "激动、骚动",
+    "metaphorOptions": [
+      "激动、骚动",
+      "固体坚硬的的小站",
+      "守着持有人过活"
+    ],
+    "mnemonicNote": "agitat(搅动)+ion：心里那潭水被人搅起来了",
+    "sourceNote": "拉丁 agitatio，agitare(搅动)"
+  },
+  "agreeable": {
+    "modernMeaningCn": "令人愉快的",
+    "literalMeaningCn": "合人心意的",
+    "metaphorMeaningCn": "令人愉快的、同意的",
+    "metaphorOptions": [
+      "令人愉快的、同意的",
+      "创伤的地方",
+      "参议院的小站"
+    ],
+    "mnemonicNote": "agree(合意)+able：事事都合他的心意",
+    "sourceNote": "古法语 agreer(合意) + -able"
+  },
+  "alignment": {
+    "modernMeaningCn": "队列",
+    "literalMeaningCn": "排成一条线",
+    "metaphorMeaningCn": "队列、结盟",
+    "metaphorOptions": [
+      "队列、结盟",
+      "向着两者之中任一的去",
+      "复数的过程"
+    ],
+    "mnemonicNote": "align(排成线)+ment：一个个站到同一条线上",
+    "sourceNote": "法语 aligner，a-(朝向) + ligne(线)"
+  },
+  "allegation": {
+    "modernMeaningCn": "断言",
+    "literalMeaningCn": "摆出来的说法",
+    "metaphorMeaningCn": "断言、指控",
+    "metaphorOptions": [
+      "断言、指控",
+      "一种贝壳的习俗",
+      "一种溜冰的习俗"
+    ],
+    "mnemonicNote": "alleg(声称)+ation：摆出一套还没坐实的说法",
+    "sourceNote": "拉丁 allegatio，allegare(遣出、援引)"
+  },
+  "ambitious": {
+    "modernMeaningCn": "有野心的",
+    "literalMeaningCn": "惦记着往上走",
+    "metaphorMeaningCn": "有野心的、有雄心的",
+    "metaphorOptions": [
+      "有野心的、有雄心的",
+      "数着使茫然过日子",
+      "围着放置转"
+    ],
+    "mnemonicNote": "ambit(抱负)+ious：眼睛盯着更高的那个位子",
+    "sourceNote": "拉丁 ambitio，ambire(四处奔走求票)"
+  },
+  "amplitude": {
+    "modernMeaningCn": "幅度",
+    "literalMeaningCn": "摆得大不大",
+    "metaphorMeaningCn": "幅度、振幅",
+    "metaphorOptions": [
+      "幅度、振幅",
+      "数着问候过日子",
+      "围着宇宙转"
+    ],
+    "mnemonicNote": "ampl(大)+itude：来回摆动能够有多大",
+    "sourceNote": "拉丁 amplitudo，amplus(大的)"
+  },
+  "analogous": {
+    "modernMeaningCn": "类似的",
+    "literalMeaningCn": "能对上的",
+    "metaphorMeaningCn": "类似的、相似的",
+    "metaphorOptions": [
+      "类似的、相似的",
+      "牢固的来路",
+      "计算的旧事"
+    ],
+    "mnemonicNote": "analog(类比)+ous：一件一件都能对上",
+    "sourceNote": "希腊 analogos，ana-(按) + logos(比例)"
+  },
+  "analytical": {
+    "modernMeaningCn": "分析的",
+    "literalMeaningCn": "拆开来看的",
+    "metaphorMeaningCn": "分析的、善于分析的",
+    "metaphorOptions": [
+      "分析的、善于分析的",
+      "守着身份过活",
+      "替共和国操心"
+    ],
+    "mnemonicNote": "analytic(剖析)+al：凡事拆开一层层看",
+    "sourceNote": "希腊 analytikos，analysis(分解)"
+  },
+  "annually": {
+    "modernMeaningCn": "一年一次",
+    "literalMeaningCn": "按年算",
+    "metaphorMeaningCn": "每年、一年一度",
+    "metaphorOptions": [
+      "每年、一年一度",
+      "使认识的背面",
+      "有意识的的旧事"
+    ],
+    "mnemonicNote": "annual(年度)+ly：一年到头办那么一回",
+    "sourceNote": "拉丁 annus(年) + -ly"
+  },
+  "anonymous": {
+    "modernMeaningCn": "匿名的",
+    "literalMeaningCn": "没留名字的",
+    "metaphorMeaningCn": "匿名的、无名的",
+    "metaphorOptions": [
+      "匿名的、无名的",
+      "守着迷人的过活",
+      "安心的小站"
+    ],
+    "mnemonicNote": "anonym(无名)+ous：落款那一栏空着",
+    "sourceNote": "希腊 anonymos，an-(无) + onoma(名字)"
+  },
+  "antisocial": {
+    "modernMeaningCn": "不爱社交的",
+    "literalMeaningCn": "跟人群对着来的",
+    "metaphorMeaningCn": "不爱社交的、反社会的",
+    "metaphorOptions": [
+      "不爱社交的、反社会的",
+      "一种符合的习俗",
+      "主体的人"
+    ],
+    "mnemonicNote": "anti(反)+social(社会)：见着人多就绕道走",
+    "sourceNote": "希腊 anti-(反) + 拉丁 socialis(社会的)"
+  },
+  "appealing": {
+    "modernMeaningCn": "吸引人的",
+    "literalMeaningCn": "能打动人心的",
+    "metaphorMeaningCn": "吸引人的、动人的",
+    "metaphorOptions": [
+      "吸引人的、动人的",
+      "围着意义转",
+      "综合的一角"
+    ],
+    "mnemonicNote": "appeal(打动)+ing：一眼就把人吸住了",
+    "sourceNote": "古法语 apeler，拉丁 appellare(招呼、上诉)"
+  },
+  "appraisal": {
+    "modernMeaningCn": "评价",
+    "literalMeaningCn": "估个价",
+    "metaphorMeaningCn": "评价、鉴定",
+    "metaphorOptions": [
+      "评价、鉴定",
+      "离哪一个很远",
+      "替黑暗操心"
+    ],
+    "mnemonicNote": "apprais(估价)+al：给个价，也说个好坏",
+    "sourceNote": "古法语 aprisier，a-(朝向) + prisier(估价)"
+  },
+  "appraise": {
+    "modernMeaningCn": "评价",
+    "literalMeaningCn": "给个价钱",
+    "metaphorMeaningCn": "评价、估价",
+    "metaphorOptions": [
+      "评价、估价",
+      "围着灰尘转",
+      "向着确定去"
+    ],
+    "mnemonicNote": "ap(朝向)+praise(价)：朝着那件东西给个价",
+    "sourceNote": "古法语 aprisier，a-(朝向) + prisier(估价)"
+  },
+  "aspiration": {
+    "modernMeaningCn": "热望",
+    "literalMeaningCn": "朝上吸气那一下",
+    "metaphorMeaningCn": "志向、渴望",
+    "metaphorOptions": [
+      "志向、渴望",
+      "一种可避免的的习俗",
+      "生态的另一面"
+    ],
+    "mnemonicNote": "aspir(向往)+ation：仰着头朝上直使劲",
+    "sourceNote": "拉丁 aspiratio，ad-(朝向) + spirare(呼吸)"
+  },
+  "assault": {
+    "modernMeaningCn": "攻击",
+    "literalMeaningCn": "扑上去一跳",
+    "metaphorMeaningCn": "袭击、猛攻",
+    "metaphorOptions": [
+      "袭击、猛攻",
+      "离大量的很远",
+      "替雪茄操心"
+    ],
+    "mnemonicNote": "as(朝向)+sault(跳)：扑上去猛地一跳",
+    "sourceNote": "古法语 assaut，拉丁 ad-(朝向) + saltare(跳)"
+  },
+  "assertive": {
+    "modernMeaningCn": "自信的",
+    "literalMeaningCn": "敢把话说明的",
+    "metaphorMeaningCn": "自信的、坚定的",
+    "metaphorOptions": [
+      "自信的、坚定的",
+      "在那里的过程",
+      "向着饰带去"
+    ],
+    "mnemonicNote": "assert(主张)+ive：敢当场把话说明白",
+    "sourceNote": "拉丁 asserere，ad-(朝向) + serere(连接、陈述)"
+  },
+  "assimilation": {
+    "modernMeaningCn": "同化",
+    "literalMeaningCn": "变得像一个模子",
+    "metaphorMeaningCn": "同化、消化吸收",
+    "metaphorOptions": [
+      "同化、消化吸收",
+      "一种片刻的习俗",
+      "酿造酒的人"
+    ],
+    "mnemonicNote": "assimilat(使相似)+ion：慢慢变得像一个模子刻的",
+    "sourceNote": "拉丁 assimilatio，ad-(朝向) + similis(相似)"
+  },
+  "assurance": {
+    "modernMeaningCn": "保证",
+    "literalMeaningCn": "把话说死",
+    "metaphorMeaningCn": "保证、把握",
+    "metaphorOptions": [
+      "保证、把握",
+      "都市的工具",
+      "数着坚持过日子"
+    ],
+    "mnemonicNote": "assur(使确信)+ance：话说到让人放心的份上",
+    "sourceNote": "古法语 asseurer，拉丁 ad-(朝向) + securus(无忧)"
+  },
+  "astonishment": {
+    "modernMeaningCn": "惊异",
+    "literalMeaningCn": "被雷到那一下",
+    "metaphorMeaningCn": "惊讶、惊愕",
+    "metaphorOptions": [
+      "惊讶、惊愕",
+      "被是否的东西",
+      "情绪的味道"
+    ],
+    "mnemonicNote": "astonish(使惊)+ment：被人当头一雷，半天回不过神",
+    "sourceNote": "古法语 estoner，拉丁 extonare(雷击)"
+  },
+  "attachment": {
+    "modernMeaningCn": "附件",
+    "literalMeaningCn": "挂在后头的东西",
+    "metaphorMeaningCn": "附件、依恋",
+    "metaphorOptions": [
+      "附件、依恋",
+      "酿造酒的另一面",
+      "天生的一角"
+    ],
+    "mnemonicNote": "attach(附上)+ment：挂在后头那份东西，也指舍不得的心",
+    "sourceNote": "古法语 atachier(系上) + -ment"
+  },
+  "attendance": {
+    "modernMeaningCn": "出席",
+    "literalMeaningCn": "人在场这件事",
+    "metaphorMeaningCn": "出席、出席人数",
+    "metaphorOptions": [
+      "出席、出席人数",
+      "围着苹果转",
+      "向着使失望去"
+    ],
+    "mnemonicNote": "attend(到场)+ance：签到本上有没有他的名字",
+    "sourceNote": "拉丁 attendere，ad-(朝向) + tendere(伸展)"
+  },
+  "attendant": {
+    "modernMeaningCn": "随从",
+    "literalMeaningCn": "在旁听差的人",
+    "metaphorMeaningCn": "随从、服务员",
+    "metaphorOptions": [
+      "随从、服务员",
+      "疤痕的来路",
+      "流行的旧事"
+    ],
+    "mnemonicNote": "attend(侍候)+ant(人)：在旁听差那位",
+    "sourceNote": "拉丁 attendere(侍候) + -ant"
+  },
+  "availability": {
+    "modernMeaningCn": "可用性",
+    "literalMeaningCn": "拿得到拿不到",
+    "metaphorMeaningCn": "可用性、可获得性",
+    "metaphorOptions": [
+      "可用性、可获得性",
+      "构成以结尾的动词的工具",
+      "数着懒惰的过日子"
+    ],
+    "mnemonicNote": "availabil(可得)+ity：这东西现在拿不拿得到",
+    "sourceNote": "古法语 valoir(有价值) + -able + -ity"
+  },
+  "axial": {
+    "modernMeaningCn": "轴的",
+    "literalMeaningCn": "绕着轴那一圈",
+    "metaphorMeaningCn": "轴的、轴向的",
+    "metaphorOptions": [
+      "轴的、轴向的",
+      "外出的过程",
+      "离占优势的很远"
+    ],
+    "mnemonicNote": "axi(轴)+al：绕着中间那根轴走",
+    "sourceNote": "拉丁 axis(轴) + -al"
+  },
+  "backbone": {
+    "modernMeaningCn": "脊椎",
+    "literalMeaningCn": "脊梁那根骨",
+    "metaphorMeaningCn": "脊椎、支柱",
+    "metaphorOptions": [
+      "脊椎、支柱",
+      "围着绳索转",
+      "向着见证去"
+    ],
+    "mnemonicNote": "back(背)+bone(骨)：从后颈一路撑下来的那根骨",
+    "sourceNote": "英语复合词，back + bone"
+  },
+  "banker": {
+    "modernMeaningCn": "银行家",
+    "literalMeaningCn": "开银行的人",
+    "metaphorMeaningCn": "银行家、银行职员",
+    "metaphorOptions": [
+      "银行家、银行职员",
+      "完全的小站",
+      "特征的地方"
+    ],
+    "mnemonicNote": "bank(银行)+er(人)：柜台上后面那位",
+    "sourceNote": "意大利 banca(长凳、钱庄) + -er"
+  },
+  "bankruptcy": {
+    "modernMeaningCn": "破产",
+    "literalMeaningCn": "柜台空了的境地",
+    "metaphorMeaningCn": "破产、彻底失败",
+    "metaphorOptions": [
+      "破产、彻底失败",
+      "代表的味道",
+      "问候的另一面"
+    ],
+    "mnemonicNote": "bankrupt(债台高筑)+cy：柜台空了、债还不上的境地",
+    "sourceNote": "意大利 banca rotta(柜台被砸断)"
+  },
+  "bearing": {
+    "modernMeaningCn": "举止",
+    "literalMeaningCn": "扛事的样子",
+    "metaphorMeaningCn": "举止、方位、轴承",
+    "metaphorOptions": [
+      "举止、方位、轴承",
+      "离全世界的很远",
+      "掌舵的过程"
+    ],
+    "mnemonicNote": "bear(承受)+ing：扛事时站出来的那个样子",
+    "sourceNote": "古英语 beran(承受) + -ing"
+  },
+  "bestow": {
+    "modernMeaningCn": "授予",
+    "literalMeaningCn": "把东西放给人",
+    "metaphorMeaningCn": "授予、赠予",
+    "metaphorOptions": [
+      "授予、赠予",
+      "被使膨胀的东西",
+      "把膝盖串起来"
+    ],
+    "mnemonicNote": "be(加强)+stow(放置)：把东西郑重放到人家手上",
+    "sourceNote": "中古英语 bestowen，be-(加强) + stow(放置)"
+  },
+  "biased": {
+    "modernMeaningCn": "有偏见的",
+    "literalMeaningCn": "秤偏了一边",
+    "metaphorMeaningCn": "有偏见的、偏袒的",
+    "metaphorOptions": [
+      "有偏见的、偏袒的",
+      "语言学家的背面",
+      "守财奴的旧事"
+    ],
+    "mnemonicNote": "bias(斜)+ed：秤杆早早偏到了一边",
+    "sourceNote": "古法语 biais(斜)"
+  },
+  "bitterness": {
+    "modernMeaningCn": "苦味",
+    "literalMeaningCn": "发苦的滋味",
+    "metaphorMeaningCn": "苦味、怨恨",
+    "metaphorOptions": [
+      "苦味、怨恨",
+      "香气的过程",
+      "替利用操心"
+    ],
+    "mnemonicNote": "bitter(苦)+ness：咽下去那股化不开的苦",
+    "sourceNote": "古英语 biter(苦) + -ness"
+  },
+  "blacksmith": {
+    "modernMeaningCn": "铁匠",
+    "literalMeaningCn": "跟黑铁打交道的匠人",
+    "metaphorMeaningCn": "铁匠、锻工",
+    "metaphorOptions": [
+      "铁匠、锻工",
+      "金衡的过程",
+      "向着装配去"
+    ],
+    "mnemonicNote": "black(黑)+smith(锻造人)：成天跟黑铁打交道那位",
+    "sourceNote": "古英语 blæc(黑) + smith(工匠)"
+  },
+  "blunder": {
+    "modernMeaningCn": "大错",
+    "literalMeaningCn": "闭着眼撞上去",
+    "metaphorMeaningCn": "大错、失策",
+    "metaphorOptions": [
+      "大错、失策",
+      "离选择权很远",
+      "大陆的过程"
+    ],
+    "mnemonicNote": "blund(瞎撞)+er：闭着眼一头撞上去",
+    "sourceNote": "古诺尔斯语 blundra(闭眼乱撞)"
+  },
+  "bluntly": {
+    "modernMeaningCn": "坦率地",
+    "literalMeaningCn": "不绕弯地",
+    "metaphorMeaningCn": "直率地、不客气地",
+    "metaphorOptions": [
+      "直率地、不客气地",
+      "末端的地方",
+      "可怜的人的小站"
+    ],
+    "mnemonicNote": "blunt(钝直)+ly：有话直说，一点弯都不拐",
+    "sourceNote": "古诺尔斯语 blundra(钝) + -ly"
+  },
+  "boiler": {
+    "modernMeaningCn": "锅炉",
+    "literalMeaningCn": "烧水那家伙",
+    "metaphorMeaningCn": "锅炉、热水器",
+    "metaphorOptions": [
+      "锅炉、热水器",
+      "工作的味道",
+      "暴风雨的另一面"
+    ],
+    "mnemonicNote": "boil(煮沸)+er(物)：成天咕嘟咕嘟烧水那件",
+    "sourceNote": "古法语 boillir(煮沸) + -er"
+  },
+  "breakdown": {
+    "modernMeaningCn": "崩溃",
+    "literalMeaningCn": "垮下来的那一下",
+    "metaphorMeaningCn": "故障、崩溃、分类",
+    "metaphorOptions": [
+      "故障、崩溃、分类",
+      "一种委托托付的习俗",
+      "完成时完美的的人"
+    ],
+    "mnemonicNote": "break(断)+down(下)：机器半路垮下来的那一下",
+    "sourceNote": "英语复合词，break + down"
+  },
+  "bridle": {
+    "modernMeaningCn": "马笼头",
+    "literalMeaningCn": "套在马头上的缰绳",
+    "metaphorMeaningCn": "马笼头、约束",
+    "metaphorOptions": [
+      "马笼头、约束",
+      "待办的另一面",
+      "刷子的味道"
+    ],
+    "mnemonicNote": "brid(编结)+le：编起来套在马头上的那一套",
+    "sourceNote": "古英语 bridel(缰绳)"
+  },
+  "brightness": {
+    "modernMeaningCn": "亮度",
+    "literalMeaningCn": "亮的程度",
+    "metaphorMeaningCn": "亮度、明亮",
+    "metaphorOptions": [
+      "亮度、明亮",
+      "估定的另一面",
+      "瀑布的一角"
+    ],
+    "mnemonicNote": "bright(明亮)+ness：亮到什么份上",
+    "sourceNote": "古英语 beorht(明亮) + -ness"
+  },
+  "broaden": {
+    "modernMeaningCn": "拓宽",
+    "literalMeaningCn": "使变宽阔",
+    "metaphorMeaningCn": "拓宽、使变宽",
+    "metaphorOptions": [
+      "拓宽、使变宽",
+      "离带来很远",
+      "替克服操心"
+    ],
+    "mnemonicNote": "broad(宽)+en(使)：路越修越宽",
+    "sourceNote": "古英语 brad(宽) + -en(使动)"
+  },
+  "bulletin": {
+    "modernMeaningCn": "公告",
+    "literalMeaningCn": "贴出来的短讯",
+    "metaphorMeaningCn": "公告、简报",
+    "metaphorOptions": [
+      "公告、简报",
+      "离拥有者很远",
+      "替系统操心"
+    ],
+    "mnemonicNote": "bullet(小纸条)+in：贴出来的一小条消息",
+    "sourceNote": "法语 bulletin，意大利 bullettino(小证书)"
+  },
+  "bureaucracy": {
+    "modernMeaningCn": "官僚制度",
+    "literalMeaningCn": "官署说了算",
+    "metaphorMeaningCn": "官僚制度、官僚作风",
+    "metaphorOptions": [
+      "官僚制度、官僚作风",
+      "围着帮助转",
+      "数着意义过日子"
+    ],
+    "mnemonicNote": "bureau(官署)+cracy(统治)：一屋子公文说了算",
+    "sourceNote": "法语 bureau(官署) + 希腊 kratia(统治)"
+  },
+  "burner": {
+    "modernMeaningCn": "燃烧器",
+    "literalMeaningCn": "烧东西那件",
+    "metaphorMeaningCn": "燃烧器、炉子",
+    "metaphorOptions": [
+      "燃烧器、炉子",
+      "围着热忱转",
+      "数着吸引过日子"
+    ],
+    "mnemonicNote": "burn(烧)+er(物)：点着火往上蹿的那件",
+    "sourceNote": "古英语 beornan(烧) + -er"
+  },
+  "calibration": {
+    "modernMeaningCn": "校准",
+    "literalMeaningCn": "拿标准量一遍",
+    "metaphorMeaningCn": "校准、刻度",
+    "metaphorOptions": [
+      "校准、刻度",
+      "两者之中任一的的另一面",
+      "注意的味道"
+    ],
+    "mnemonicNote": "calibrat(对表)+ion：拿标准器对一遍刻度",
+    "sourceNote": "法语 calibrer，calibre(口径)"
+  },
+  "capability": {
+    "modernMeaningCn": "能力",
+    "literalMeaningCn": "干得成事的本事",
+    "metaphorMeaningCn": "能力、性能",
+    "metaphorOptions": [
+      "能力、性能",
+      "入会的来路",
+      "平等的地方"
+    ],
+    "mnemonicNote": "capabil(能干)+ity：这件事交给他办得成",
+    "sourceNote": "拉丁 capere(取、容) + -able + -ity"
+  },
+  "capacitance": {
+    "modernMeaningCn": "电容",
+    "literalMeaningCn": "存电的本事",
+    "metaphorMeaningCn": "电容、电容量",
+    "metaphorOptions": [
+      "电容、电容量",
+      "片刻的来路",
+      "学习的地方"
+    ],
+    "mnemonicNote": "capacit(容量)+ance：这两块板子存得住多少电",
+    "sourceNote": "拉丁 capacitas，capere(容纳)"
+  }
 }
