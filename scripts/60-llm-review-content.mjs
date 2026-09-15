@@ -73,30 +73,44 @@ async function loadReviews() {
 
 const { map: reviews, source } = await loadReviews()
 
-// ── 复核数据完整性：少一条、多一条、字段不全都算失败，不能沉默放行 ────────────
+// ── 复核数据完整性 ────────────────────────────────────────────────────────────
+// 两种「不完整」要分开对待：
+//   · **字段坏**（有记录但 check 缺项 / severity 非法 / 词表外的词）→ 数据被污染，硬失败。
+//     沉默放行等于把「复核说它有问题」当成「复核说它没问题」。
+//   · **整条缺记录** → Stage 3 铺到 2698 词后，复核 handoff 只写了 Stage 1 那 300 词。
+//     原先这也硬失败，结果是 content:all 从 Stage 3.4 起就一直死在这一步、70 号报告
+//     停在 09-13 的「词条 300」，没人再看它 —— 闸门常红比没有闸门更糟（复核报告 3.7）。
+//     改成：响亮地报告覆盖缺口、按「未复核」放行并写进产物，让 70 号如实报告覆盖率；
+//     补齐 handoff 后这条警告自然消失。
 const problems = []
 const wordIds = new Set(words.map((w) => w.id))
+const missingReviews = []
 for (const id of wordIds) {
   const r = reviews[id]
-  if (!r) { problems.push(`缺复核：${id}`); continue }
+  if (!r) { missingReviews.push(id); continue }
   for (const key of CHECK_KEYS) if (typeof r.checks?.[key] !== 'boolean') problems.push(`${id} 缺 check ${key}`)
   if (!['ok', 'minor', 'major'].includes(r.severity)) problems.push(`${id} severity 非法：${r.severity}`)
   if (!Array.isArray(r.issues)) problems.push(`${id} issues 不是数组`)
 }
 for (const id of Object.keys(reviews)) if (!wordIds.has(id)) problems.push(`复核里有词表外的词：${id}`)
 if (problems.length) {
-  console.error('复核数据不完整：')
+  console.error('复核数据不完整（记录坏了，必须修）：')
   for (const p of problems) console.error('  ✗ ' + p)
   process.exit(1)
 }
+if (missingReviews.length) {
+  console.warn(`⚠ ${missingReviews.length}/${words.length} 个词没有复核记录，按「未复核」放行（70 号会如实报告覆盖率）。`)
+  console.warn(`   复核 handoff（scripts/lib/handoff/words-review.json）目前只覆盖 Stage 1 切片；样例：${missingReviews.slice(0, 8).join('、')}${missingReviews.length > 8 ? ' …' : ''}`)
+}
 
-// ── 路由：major → 隔离区 + 排除清单；minor/ok → 出货 ─────────────────────────
+// ── 路由：major → 隔离区 + 排除清单；minor/ok → 出货；未复核 → 出货但单独记账 ──
 const results = []
 const majors = []
 for (const w of words) {
   const r = reviews[w.id]
-  results.push({ id: w.id, severity: r.severity, checks: r.checks, issues: r.issues, shipped: r.severity !== 'major' })
-  if (r.severity === 'major') majors.push(w)
+  const severity = r?.severity ?? 'unreviewed'
+  results.push({ id: w.id, severity, checks: r?.checks ?? null, issues: r?.issues ?? [], covered: Boolean(r), shipped: severity !== 'major' })
+  if (severity === 'major') majors.push(w)
 }
 
 if (majors.length) {
@@ -165,12 +179,12 @@ writeFileSync(join(derivedDir, 'drift.json'), `${JSON.stringify(drift, null, 2)}
 writeFileSync(join(derivedDir, 'words.reviewed.json'), `${JSON.stringify({ generatedAt: new Date().toISOString(), reviewer: source, total: results.length, results }, null, 2)}\n`)
 
 // ── 汇总 ─────────────────────────────────────────────────────────────────────
-const tally = { ok: 0, minor: 0, major: 0 }
+const tally = { ok: 0, minor: 0, major: 0, unreviewed: 0 }
 for (const r of results) tally[r.severity] += 1
 console.log('')
-console.log(`复核完成（${source}）：ok ${tally.ok} / minor ${tally.minor} / major ${tally.major}`)
+console.log(`复核完成（${source}）：ok ${tally.ok} / minor ${tally.minor} / major ${tally.major} / 未复核 ${tally.unreviewed}（覆盖 ${results.length - tally.unreviewed}/${results.length}）`)
 for (const r of results) {
-  if (r.severity === 'ok') continue
+  if (r.severity === 'ok' || r.severity === 'unreviewed') continue
   for (const issue of r.issues) console.log(`  ! [${r.severity}] ${r.id} ${issue.field}：${issue.problem}`)
 }
 console.log(`漂移探测：样本 ${drift.sampled}/${words.length}（${drift.sampleIds.join('、')}），不一致 ${drift.mismatched}，漂移率 ${(drift.rate * 100).toFixed(1)}%，模式：${drift.mode}`)

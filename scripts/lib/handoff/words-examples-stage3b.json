@@ -1,0 +1,3247 @@
+{
+ "_comment": "2026-09 全表复核轮：Tatoeba 里没有中文对照的 811 条例句，由复核 AI 逐条翻译补齐（exampleEn 原样保留自语料）。",
+ "cooker": {
+  "exampleEn": "I bought a slow cooker.",
+  "exampleCn": "我买了一台慢炖锅。"
+ },
+ "crayon": {
+  "exampleEn": "Could I have that crayon, please?",
+  "exampleCn": "请把那支蜡笔给我好吗？"
+ },
+ "dumpling": {
+  "exampleEn": "Is a calzone a dumpling?",
+  "exampleCn": "卡尔佐内算是饺子吗？"
+ },
+ "granddaughter": {
+  "exampleEn": "I know my granddaughter.",
+  "exampleCn": "我认识我的孙女。"
+ },
+ "grandparent": {
+  "exampleEn": "One's great-grandparent's parents would be great-great-grandparents.",
+  "exampleCn": "一个人的曾祖父母的父母就是高祖父母。"
+ },
+ "greeting": {
+  "exampleEn": "They're greeting the guests.",
+  "exampleCn": "他们正在迎接客人。"
+ },
+ "nineteen": {
+  "exampleEn": "She was nineteen then.",
+  "exampleCn": "那时她十九岁。"
+ },
+ "sixth": {
+  "exampleEn": "What's your sixth sense?",
+  "exampleCn": "你的第六感是什么？"
+ },
+ "acquisition": {
+  "exampleEn": "Language acquisition requires creativity.",
+  "exampleCn": "语言习得需要创造力。"
+ },
+ "adaptation": {
+  "exampleEn": "Quick adaptation ensures survival.",
+  "exampleCn": "快速适应保证生存。"
+ },
+ "adjustment": {
+  "exampleEn": "The adjustment is painful.",
+  "exampleCn": "这种调整很痛苦。"
+ },
+ "administration": {
+  "exampleEn": "Mary studies business administration.",
+  "exampleCn": "玛丽学的是工商管理。"
+ },
+ "admirable": {
+  "exampleEn": "His conduct was admirable.",
+  "exampleCn": "他的品行令人钦佩。"
+ },
+ "advertise": {
+  "exampleEn": "You have to advertise.",
+  "exampleCn": "你必须做广告。"
+ },
+ "aeroplane": {
+  "exampleEn": "The aeroplane landed safely.",
+  "exampleCn": "飞机安全着陆了。"
+ },
+ "airspace": {
+  "exampleEn": "A commercial airplane allegedly violated military airspace.",
+  "exampleCn": "一架商用飞机据称闯入了军事空域。"
+ },
+ "allocate": {
+  "exampleEn": "Try to allocate time well.",
+  "exampleCn": "设法把时间分配好。"
+ },
+ "alongside": {
+  "exampleEn": "He worked alongside detectives.",
+  "exampleCn": "他和侦探们并肩工作。"
+ },
+ "aluminium": {
+  "exampleEn": "Aluminium is a metal.",
+  "exampleCn": "铝是一种金属。"
+ },
+ "amusement": {
+  "exampleEn": "She laughed in amusement.",
+  "exampleCn": "她觉得有趣地笑了。"
+ },
+ "appoint": {
+  "exampleEn": "The president will appoint new directors.",
+  "exampleCn": "总统将任命新的主管。"
+ },
+ "appreciation": {
+  "exampleEn": "You deserve that appreciation.",
+  "exampleCn": "你配得上那份感谢。"
+ },
+ "arrangement": {
+  "exampleEn": "I love this arrangement.",
+  "exampleCn": "我喜欢这个布置。"
+ },
+ "arrest": {
+  "exampleEn": "You are under arrest.",
+  "exampleCn": "你被逮捕了。"
+ },
+ "assessment": {
+  "exampleEn": "Your assessment is incorrect.",
+  "exampleCn": "你的评估不正确。"
+ },
+ "astronomer": {
+  "exampleEn": "He became an astronomer.",
+  "exampleCn": "他成了天文学家。"
+ },
+ "attentively": {
+  "exampleEn": "I'll read more attentively.",
+  "exampleCn": "我会更专心地读。"
+ },
+ "autonomous": {
+  "exampleEn": "It's an autonomous car.",
+  "exampleCn": "这是一辆自动驾驶汽车。"
+ },
+ "bathrobe": {
+  "exampleEn": "Tom bought a bathrobe.",
+  "exampleCn": "汤姆买了件浴袍。"
+ },
+ "battleground": {
+  "exampleEn": "The soldier died on the battleground.",
+  "exampleCn": "那名士兵死在了战场上。"
+ },
+ "beehive": {
+  "exampleEn": "Don't blow in a beehive.",
+  "exampleCn": "别对着蜂箱吹气。"
+ },
+ "biochemistry": {
+  "exampleEn": "My background is in biochemistry.",
+  "exampleCn": "我的专业背景是生物化学。"
+ },
+ "birthplace": {
+  "exampleEn": "Do you know his birthplace?",
+  "exampleCn": "你知道他的出生地吗？"
+ },
+ "boating": {
+  "exampleEn": "I got soaked boating downriver.",
+  "exampleCn": "我划船顺流而下时浑身湿透了。"
+ },
+ "breakthrough": {
+  "exampleEn": "It's a scientific breakthrough.",
+  "exampleCn": "这是一项科学突破。"
+ },
+ "breathless": {
+  "exampleEn": "It leaves you breathless.",
+  "exampleCn": "它让你喘不过气来。"
+ },
+ "brewery": {
+  "exampleEn": "He smells like a brewery.",
+  "exampleCn": "他一身酒气。"
+ },
+ "bridegroom": {
+  "exampleEn": "He is the bridegroom.",
+  "exampleCn": "他就是新郎。"
+ },
+ "bureaucratic": {
+  "exampleEn": "Algeria is very bureaucratic.",
+  "exampleCn": "阿尔及利亚官僚气很重。"
+ },
+ "businesswoman": {
+  "exampleEn": "She's a successful businesswoman.",
+  "exampleCn": "她是一位成功的女商人。"
+ },
+ "caption": {
+  "exampleEn": "Put a caption on this photo.",
+  "exampleCn": "给这张照片配上说明文字。"
+ },
+ "carrot": {
+  "exampleEn": "She diced a carrot.",
+  "exampleCn": "她把胡萝卜切成了丁。"
+ },
+ "casual": {
+  "exampleEn": "Casual speech is fine.",
+  "exampleCn": "随意的口语就可以了。"
+ },
+ "chairwoman": {
+  "exampleEn": "The chairwoman of the commission presented its final report.",
+  "exampleCn": "委员会主席提交了最终报告。"
+ },
+ "circulate": {
+  "exampleEn": "Was there a need to circulate that news bulletin?",
+  "exampleCn": "有必要传阅那份新闻简报吗？"
+ },
+ "civilian": {
+  "exampleEn": "Tom is a civilian.",
+  "exampleCn": "汤姆是个平民。"
+ },
+ "commitment": {
+  "exampleEn": "It's a lifetime commitment.",
+  "exampleCn": "这是一辈子的承诺。"
+ },
+ "compete": {
+  "exampleEn": "How can I compete?",
+  "exampleCn": "我怎么竞争得过？"
+ },
+ "conductor": {
+  "exampleEn": "Who is this conductor?",
+  "exampleCn": "这位指挥是谁？"
+ },
+ "conservation": {
+  "exampleEn": "He's involved in giraffe conservation.",
+  "exampleCn": "他参与长颈鹿保护工作。"
+ },
+ "consultant": {
+  "exampleEn": "I'm a management consultant.",
+  "exampleCn": "我是管理顾问。"
+ },
+ "container": {
+  "exampleEn": "The container is full.",
+  "exampleCn": "容器满了。"
+ },
+ "contradict": {
+  "exampleEn": "Don't contradict your teacher.",
+  "exampleCn": "别和老师顶嘴。"
+ },
+ "contribution": {
+  "exampleEn": "Thanks for your contribution.",
+  "exampleCn": "谢谢你的贡献。"
+ },
+ "cordless": {
+  "exampleEn": "Tom has a cordless phone with two handsets.",
+  "exampleCn": "汤姆有一部带两个手柄的无绳电话。"
+ },
+ "cowboy": {
+  "exampleEn": "Tom is a cowboy.",
+  "exampleCn": "汤姆是个牛仔。"
+ },
+ "cubic": {
+  "exampleEn": "A cubic meter corresponds to 1000 liters.",
+  "exampleCn": "一立方米相当于一千升。"
+ },
+ "cyclist": {
+  "exampleEn": "This cyclist is injured.",
+  "exampleCn": "这名骑车人受伤了。"
+ },
+ "disobey": {
+  "exampleEn": "Do you disobey me?",
+  "exampleCn": "你敢不服从我？"
+ },
+ "distribute": {
+  "exampleEn": "Distribute these fruits sparingly.",
+  "exampleCn": "把这些水果省着点分发。"
+ },
+ "drier": {
+  "exampleEn": "Can I borrow your hair drier?",
+  "exampleCn": "能借用你的吹风机吗？"
+ },
+ "dustbin": {
+  "exampleEn": "The dustbin is full.",
+  "exampleCn": "垃圾桶满了。"
+ },
+ "eastern": {
+  "exampleEn": "It's common in Eastern civilizations.",
+  "exampleCn": "这在东方文明里很常见。"
+ },
+ "eastwards": {
+  "exampleEn": "Our route took us eastwards.",
+  "exampleCn": "我们的路线把我们带向东方。"
+ },
+ "eggplant": {
+  "exampleEn": "The eggplant is bitter.",
+  "exampleCn": "这茄子发苦。"
+ },
+ "egyptian": {
+  "exampleEn": "It's an Egyptian name.",
+  "exampleCn": "这是个埃及名字。"
+ },
+ "encouragement": {
+  "exampleEn": "Thanks for the encouragement.",
+  "exampleCn": "谢谢你的鼓励。"
+ },
+ "enterprise": {
+  "exampleEn": "The enterprise was doomed to failure.",
+  "exampleCn": "这项事业注定失败。"
+ },
+ "expectation": {
+  "exampleEn": "This is my expectation.",
+  "exampleCn": "这就是我的期望。"
+ },
+ "eyewitness": {
+  "exampleEn": "Tom is an eyewitness.",
+  "exampleCn": "汤姆是目击者。"
+ },
+ "firework": {
+  "exampleEn": "Fyodor lit up another firework.",
+  "exampleCn": "费奥多尔又点了一个烟花。"
+ },
+ "fortnight": {
+  "exampleEn": "A fortnight went by.",
+  "exampleCn": "两周过去了。"
+ },
+ "founding": {
+  "exampleEn": "I'm a founding member.",
+  "exampleCn": "我是创始成员。"
+ },
+ "frenchman": {
+  "exampleEn": "Tom is a Frenchman.",
+  "exampleCn": "汤姆是法国人。"
+ },
+ "goodness": {
+  "exampleEn": "Thank goodness that's over.",
+  "exampleCn": "谢天谢地，总算结束了。"
+ },
+ "hardship": {
+  "exampleEn": "Hardship makes the man.",
+  "exampleCn": "苦难造就人。"
+ },
+ "headmistress": {
+  "exampleEn": "The headmistress presented the new teacher.",
+  "exampleCn": "女校长介绍了新来的老师。"
+ },
+ "headteacher": {
+  "exampleEn": "The headteacher uses unorthodox methods.",
+  "exampleCn": "这位校长用的是非传统的办法。"
+ },
+ "housewife": {
+  "exampleEn": "I am a housewife.",
+  "exampleCn": "我是家庭主妇。"
+ },
+ "insert": {
+  "exampleEn": "Please insert your card.",
+  "exampleCn": "请插入您的卡。"
+ },
+ "inspire": {
+  "exampleEn": "You do inspire me.",
+  "exampleCn": "你确实激励了我。"
+ },
+ "institution": {
+  "exampleEn": "Tom left the institution.",
+  "exampleCn": "汤姆离开了那家机构。"
+ },
+ "inventor": {
+  "exampleEn": "Tom was an inventor.",
+  "exampleCn": "汤姆是位发明家。"
+ },
+ "kingdom": {
+  "exampleEn": "Algeria isn't a kingdom.",
+  "exampleCn": "阿尔及利亚不是王国。"
+ },
+ "labourer": {
+  "exampleEn": "Peter is a labourer.",
+  "exampleCn": "彼得是个劳工。"
+ },
+ "lantern": {
+  "exampleEn": "I want a lantern.",
+  "exampleCn": "我想要一盏灯笼。"
+ },
+ "leftover": {
+  "exampleEn": "Freeze the leftover soup.",
+  "exampleCn": "把剩下的汤冷冻起来。"
+ },
+ "librarian": {
+  "exampleEn": "Where is the librarian?",
+  "exampleCn": "图书管理员在哪儿？"
+ },
+ "loudspeaker": {
+  "exampleEn": "The loudspeaker's not working.",
+  "exampleCn": "扬声器坏了。"
+ },
+ "mainland": {
+  "exampleEn": "There is a pandemic on the mainland.",
+  "exampleCn": "大陆上正在流行疫病。"
+ },
+ "memorial": {
+  "exampleEn": "Celebrate the revolution memorial day!",
+  "exampleCn": "庆祝革命纪念日！"
+ },
+ "merciful": {
+  "exampleEn": "Be merciful to me!",
+  "exampleCn": "可怜可怜我吧！"
+ },
+ "microcomputer": {
+  "exampleEn": "The invention of the microcomputer revolutionized personal and business computing.",
+  "exampleCn": "微机的发明彻底改变了个人和商业计算。"
+ },
+ "missile": {
+  "exampleEn": "Algeria has sophisticated missile systems.",
+  "exampleCn": "阿尔及利亚拥有精良的导弹系统。"
+ },
+ "multiply": {
+  "exampleEn": "Be fruitful and multiply.",
+  "exampleCn": "生养众多。"
+ },
+ "nationwide": {
+  "exampleEn": "He had got nationwide fame.",
+  "exampleCn": "他名扬全国。"
+ },
+ "neighbourhood": {
+  "exampleEn": "I know this neighbourhood.",
+  "exampleCn": "我熟悉这一带。"
+ },
+ "noisily": {
+  "exampleEn": "The kangaroo hopped noisily.",
+  "exampleCn": "袋鼠蹦蹦跳跳，闹出很大声响。"
+ },
+ "northeast": {
+  "exampleEn": "He came from the Northeast.",
+  "exampleCn": "他来自东北。"
+ },
+ "northwest": {
+  "exampleEn": "The wind is coming from the northwest.",
+  "exampleCn": "风从西北吹来。"
+ },
+ "offshore": {
+  "exampleEn": "Offshore drilling costs are rising.",
+  "exampleCn": "海上钻探的成本在上涨。"
+ },
+ "organise": {
+  "exampleEn": "How will you organise that?",
+  "exampleCn": "你打算怎么组织这件事？"
+ },
+ "output": {
+  "exampleEn": "Global agricultural output was expanding.",
+  "exampleCn": "全球农业产量正在增长。"
+ },
+ "outspoken": {
+  "exampleEn": "She's an outspoken person.",
+  "exampleCn": "她是个心直口快的人。"
+ },
+ "paperwork": {
+  "exampleEn": "I'll start the paperwork.",
+  "exampleCn": "我去开始办手续。"
+ },
+ "playmate": {
+  "exampleEn": "He wants a playmate.",
+  "exampleCn": "他想要个玩伴。"
+ },
+ "prayer": {
+  "exampleEn": "My prayer was answered.",
+  "exampleCn": "我的祈祷应验了。"
+ },
+ "preference": {
+  "exampleEn": "What's your personal preference?",
+  "exampleCn": "你个人的偏好是什么？"
+ },
+ "preview": {
+  "exampleEn": "This is only a preview.",
+  "exampleCn": "这只是预览。"
+ },
+ "radioactive": {
+  "exampleEn": "Radioactive matter is dangerous.",
+  "exampleCn": "放射性物质很危险。"
+ },
+ "receptionist": {
+  "exampleEn": "Sami is a receptionist.",
+  "exampleCn": "萨米是前台接待员。"
+ },
+ "redirect": {
+  "exampleEn": "When the cat scratches, redirect her to a scratching post.",
+  "exampleCn": "猫抓东西时，就把她引到猫抓板上。"
+ },
+ "relay": {
+  "exampleEn": "Did you relay my message?",
+  "exampleCn": "你把我的口信转到了吗？"
+ },
+ "restriction": {
+  "exampleEn": "They decided to abolish the old restriction.",
+  "exampleCn": "他们决定废除那条旧限制。"
+ },
+ "reuse": {
+  "exampleEn": "Anyone can reuse open data.",
+  "exampleCn": "任何人都可以重复使用开放数据。"
+ },
+ "reviewer": {
+  "exampleEn": "The reviewer is sharply critical of the novel.",
+  "exampleCn": "书评人对这部小说评价很苛刻。"
+ },
+ "roundabout": {
+  "exampleEn": "Yanni was at the roundabout.",
+  "exampleCn": "雅尼在环岛那儿。"
+ },
+ "sailor": {
+  "exampleEn": "I'm a good sailor.",
+  "exampleCn": "我不晕船。"
+ },
+ "sceptical": {
+  "exampleEn": "I'm sceptical about that.",
+  "exampleCn": "我对此表示怀疑。"
+ },
+ "seagull": {
+  "exampleEn": "I am a seagull.",
+  "exampleCn": "我是只海鸥。"
+ },
+ "seaman": {
+  "exampleEn": "Tom is a seaman.",
+  "exampleCn": "汤姆是个水手。"
+ },
+ "seaweed": {
+  "exampleEn": "I've never eaten seaweed.",
+  "exampleCn": "我从没吃过海藻。"
+ },
+ "semicircle": {
+  "exampleEn": "Mary placed the chairs in a semicircle.",
+  "exampleCn": "玛丽把椅子摆成了半圆形。"
+ },
+ "settlement": {
+  "exampleEn": "He received a million-dollar settlement.",
+  "exampleCn": "他拿到了一百万美元的和解金。"
+ },
+ "sharpen": {
+  "exampleEn": "I sharpen the knife.",
+  "exampleCn": "我把刀磨一磨。"
+ },
+ "shortcoming": {
+  "exampleEn": "It is difficult to overcome this shortcoming without drastically changing the whole system.",
+  "exampleCn": "不彻底改变整个体制，就很难克服这个缺点。"
+ },
+ "simplify": {
+  "exampleEn": "Strive to simplify everything.",
+  "exampleCn": "努力把一切简化。"
+ },
+ "skateboard": {
+  "exampleEn": "You can't skateboard here.",
+  "exampleCn": "这里不许玩滑板。"
+ },
+ "skillfully": {
+  "exampleEn": "My mother cooks skillfully.",
+  "exampleCn": "我母亲厨艺娴熟。"
+ },
+ "sneaker": {
+  "exampleEn": "Tom has a sneaker collection.",
+  "exampleCn": "汤姆收藏运动鞋。"
+ },
+ "socialism": {
+  "exampleEn": "I'm a fan of socialism.",
+  "exampleCn": "我拥护社会主义。"
+ },
+ "southeast": {
+  "exampleEn": "The wind is coming from the southeast.",
+  "exampleCn": "风从东南吹来。"
+ },
+ "southwest": {
+  "exampleEn": "The wind is blowing from the southwest.",
+  "exampleCn": "风从西南吹来。"
+ },
+ "spaceship": {
+  "exampleEn": "That spaceship is badass.",
+  "exampleCn": "那艘飞船太帅了。"
+ },
+ "spoonful": {
+  "exampleEn": "Just take a spoonful.",
+  "exampleCn": "就吃一勺。"
+ },
+ "stainless": {
+  "exampleEn": "This steel is stainless.",
+  "exampleCn": "这种钢不生锈。"
+ },
+ "steward": {
+  "exampleEn": "Ziri called the steward.",
+  "exampleCn": "齐里叫来了乘务员。"
+ },
+ "summary": {
+  "exampleEn": "Tom wrote down a summary.",
+  "exampleCn": "汤姆写下了一份摘要。"
+ },
+ "surround": {
+  "exampleEn": "Ropes surround the place.",
+  "exampleCn": "绳子把那地方围了起来。"
+ },
+ "systematic": {
+  "exampleEn": "I prefer a systematic method.",
+  "exampleCn": "我更喜欢系统的方法。"
+ },
+ "tasteless": {
+  "exampleEn": "These tomatoes are tasteless.",
+  "exampleCn": "这些番茄没味道。"
+ },
+ "technical": {
+  "exampleEn": "It's a bit technical.",
+  "exampleCn": "这有点专业。"
+ },
+ "theoretical": {
+  "exampleEn": "That shows his theoretical background.",
+  "exampleCn": "那体现了他的理论功底。"
+ },
+ "thriller": {
+  "exampleEn": "It's a thriller movie.",
+  "exampleCn": "那是部惊悚片。"
+ },
+ "thunderstorm": {
+  "exampleEn": "We're dreading the thunderstorm.",
+  "exampleCn": "我们正担心雷暴要来。"
+ },
+ "unbelievable": {
+  "exampleEn": "You people are unbelievable.",
+  "exampleCn": "你们这些人真让人难以置信。"
+ },
+ "unconditional": {
+  "exampleEn": "Parental love is unconditional.",
+  "exampleCn": "父母的爱是无条件的。"
+ },
+ "underline": {
+  "exampleEn": "I underline critical issues.",
+  "exampleCn": "我把关键问题标了下划线。"
+ },
+ "undivided": {
+  "exampleEn": "You have my undivided attention.",
+  "exampleCn": "我在专心听你讲。"
+ },
+ "unrest": {
+  "exampleEn": "The unrest lasted three days.",
+  "exampleCn": "动乱持续了三天。"
+ },
+ "unsuccessful": {
+  "exampleEn": "Our plan was unsuccessful.",
+  "exampleCn": "我们的计划失败了。"
+ },
+ "untrue": {
+  "exampleEn": "This is completely untrue.",
+  "exampleCn": "这完全不是真的。"
+ },
+ "unwilling": {
+  "exampleEn": "I'm unwilling to work.",
+  "exampleCn": "我不愿意干活。"
+ },
+ "viewer": {
+  "exampleEn": "Viewer discretion is advised.",
+  "exampleCn": "观众请自行斟酌观看。"
+ },
+ "violinist": {
+  "exampleEn": "He's a great violinist.",
+  "exampleCn": "他是位了不起的小提琴手。"
+ },
+ "walkman": {
+  "exampleEn": "Ziri turned off his walkman.",
+  "exampleCn": "齐里关掉了随身听。"
+ },
+ "westerner": {
+  "exampleEn": "When I speak to a Westerner, I have to shift mental gears, so to speak.",
+  "exampleCn": "和西方人说话时，可以说我得换个脑子。"
+ },
+ "westwards": {
+  "exampleEn": "He turned his gaze westwards.",
+  "exampleCn": "他把目光转向西方。"
+ },
+ "wildlife": {
+  "exampleEn": "It's a wildlife sanctuary.",
+  "exampleCn": "那是野生动物保护区。"
+ },
+ "willingness": {
+  "exampleEn": "I thank you for your willingness.",
+  "exampleCn": "谢谢你的意愿。"
+ },
+ "windbreaker": {
+  "exampleEn": "Tom was wearing a windbreaker.",
+  "exampleCn": "汤姆穿着风衣。"
+ },
+ "workforce": {
+  "exampleEn": "They're entering the workforce.",
+  "exampleCn": "他们即将进入劳动力市场。"
+ },
+ "wrestle": {
+  "exampleEn": "You wanna arm wrestle?",
+  "exampleCn": "你想掰手腕吗？"
+ },
+ "acceleration": {
+  "exampleEn": "If not, how do you explain the acceleration?",
+  "exampleCn": "不然你怎么解释这种加速？"
+ },
+ "acceptable": {
+  "exampleEn": "Flowers are always acceptable.",
+  "exampleCn": "鲜花总是拿得出手的。"
+ },
+ "acceptance": {
+  "exampleEn": "I'm working on self-acceptance.",
+  "exampleCn": "我在学习接纳自己。"
+ },
+ "accessory": {
+  "exampleEn": "It's a fashion accessory.",
+  "exampleCn": "那是件时尚配饰。"
+ },
+ "accordance": {
+  "exampleEn": "Obey in perfect accordance.",
+  "exampleCn": "完全依照规定服从。"
+ },
+ "accordingly": {
+  "exampleEn": "Plan your life accordingly.",
+  "exampleCn": "据此规划你的人生。"
+ },
+ "accustom": {
+  "exampleEn": "Children are quick to accustom themselves to new surroundings.",
+  "exampleCn": "孩子们很快就能适应新环境。"
+ },
+ "adhere": {
+  "exampleEn": "They adhere to each other.",
+  "exampleCn": "它们彼此粘在一起。"
+ },
+ "advisable": {
+  "exampleEn": "That would be advisable.",
+  "exampleCn": "那样比较稳妥。"
+ },
+ "amplify": {
+  "exampleEn": "Try to amplify your opportunity.",
+  "exampleCn": "设法放大你的机会。"
+ },
+ "arabian": {
+  "exampleEn": "Tom raises Arabian horses.",
+  "exampleCn": "汤姆养阿拉伯马。"
+ },
+ "assign": {
+  "exampleEn": "Did she assign any homework?",
+  "exampleCn": "她布置作业了吗？"
+ },
+ "banner": {
+  "exampleEn": "We made a banner.",
+  "exampleCn": "我们做了条横幅。"
+ },
+ "brighten": {
+  "exampleEn": "The stars brighten the shadows.",
+  "exampleCn": "星光点亮了暗影。"
+ },
+ "characterize": {
+  "exampleEn": "How would you characterize fast food?",
+  "exampleCn": "你怎么给快餐定性？"
+ },
+ "circular": {
+  "exampleEn": "This is a circular saw.",
+  "exampleCn": "这是把圆锯。"
+ },
+ "classification": {
+  "exampleEn": "Classification is not my specialty.",
+  "exampleCn": "分类不是我的专长。"
+ },
+ "commander": {
+  "exampleEn": "Tom became the commander.",
+  "exampleCn": "汤姆成了指挥官。"
+ },
+ "commercial": {
+  "exampleEn": "I love that commercial.",
+  "exampleCn": "我喜欢那个广告。"
+ },
+ "comparable": {
+  "exampleEn": "The two are not comparable.",
+  "exampleCn": "这两者没有可比性。"
+ },
+ "comparatively": {
+  "exampleEn": "American senior citizens are comparatively well-off.",
+  "exampleCn": "美国老人经济上比较宽裕。"
+ },
+ "compile": {
+  "exampleEn": "His program would not compile.",
+  "exampleCn": "他的程序编译不过。"
+ },
+ "compress": {
+  "exampleEn": "Apply a cold compress to the affected area.",
+  "exampleCn": "在患处敷上冷敷布。"
+ },
+ "comprise": {
+  "exampleEn": "That didn't comprise any malicious intent.",
+  "exampleCn": "那并不包含任何恶意。"
+ },
+ "concentration": {
+  "exampleEn": "You ruined my concentration!",
+  "exampleCn": "你害得我没法专心！"
+ },
+ "condense": {
+  "exampleEn": "It's hard to condense this into a short article.",
+  "exampleCn": "这很难压缩成一篇短文。"
+ },
+ "confine": {
+  "exampleEn": "Where did you confine them?",
+  "exampleCn": "你把他们关在哪儿了？"
+ },
+ "conjunction": {
+  "exampleEn": "Relative pronouns perform as 'conjunction + pronoun'.",
+  "exampleCn": "关系代词起着连接词加代词的作用。"
+ },
+ "conquest": {
+  "exampleEn": "Writing is mankind's noblest conquest.",
+  "exampleCn": "写作是人类最高贵的征服。"
+ },
+ "consequently": {
+  "exampleEn": "It looks consequently bigger.",
+  "exampleCn": "因此它看起来更大。"
+ },
+ "conserve": {
+  "exampleEn": "Please help conserve water.",
+  "exampleCn": "请帮着节约用水。"
+ },
+ "continual": {
+  "exampleEn": "The continual noise deafened us.",
+  "exampleCn": "不停的噪音把我们吵得耳朵都聋了。"
+ },
+ "conversely": {
+  "exampleEn": "2ch, where there are many posts praising specific companies, or, conversely, denigrating their rivals.",
+  "exampleCn": "在那个论坛上，有许多帖子夸某些公司，也有帖子反过来贬它们的对手。"
+ },
+ "coordinate": {
+  "exampleEn": "We can always coordinate.",
+  "exampleCn": "我们随时可以协调。"
+ },
+ "correspondent": {
+  "exampleEn": "Tom is a correspondent.",
+  "exampleCn": "汤姆是名记者。"
+ },
+ "corresponding": {
+  "exampleEn": "I like corresponding with you.",
+  "exampleCn": "我喜欢和你通信。"
+ },
+ "cripple": {
+  "exampleEn": "Tom is a cripple.",
+  "exampleCn": "汤姆是个瘸子。"
+ },
+ "deepen": {
+  "exampleEn": "I will deepen their wells.",
+  "exampleCn": "我会把他们的井挖深。"
+ },
+ "depress": {
+  "exampleEn": "Parties always depress me.",
+  "exampleCn": "聚会总让我提不起劲。"
+ },
+ "detection": {
+  "exampleEn": "She had escaped detection somehow.",
+  "exampleCn": "她不知怎么躲过了察觉。"
+ },
+ "disapprove": {
+  "exampleEn": "Would your mom disapprove?",
+  "exampleCn": "你妈妈会不赞成吗？"
+ },
+ "discard": {
+  "exampleEn": "Let's discard old papers.",
+  "exampleCn": "咱们把旧文件扔掉吧。"
+ },
+ "disclose": {
+  "exampleEn": "Gabriel didn’t disclose the reason.",
+  "exampleCn": "加布里埃尔没有透露原因。"
+ },
+ "disguise": {
+  "exampleEn": "Tom removed his disguise.",
+  "exampleCn": "汤姆卸下了伪装。"
+ },
+ "displease": {
+  "exampleEn": "Does being alone displease you?",
+  "exampleCn": "一个人待着让你不高兴吗？"
+ },
+ "dispose": {
+  "exampleEn": "Dispose of the evidence.",
+  "exampleCn": "把证据处理掉。"
+ },
+ "dissolve": {
+  "exampleEn": "Dissolve sugar in hot water.",
+  "exampleCn": "把糖溶在热水里。"
+ },
+ "distress": {
+  "exampleEn": "Sami was in distress.",
+  "exampleCn": "萨米当时处境困窘。"
+ },
+ "distribution": {
+  "exampleEn": "I love the distribution of gifts.",
+  "exampleCn": "我喜欢分发礼物的环节。"
+ },
+ "doubtless": {
+  "exampleEn": "He will doubtless be late.",
+  "exampleCn": "他十有八九会迟到。"
+ },
+ "dramatic": {
+  "exampleEn": "Don't be so dramatic.",
+  "exampleCn": "别这么夸张。"
+ },
+ "dwelling": {
+  "exampleEn": "Enter our humble dwelling.",
+  "exampleCn": "请进我们这寒舍。"
+ },
+ "electron": {
+  "exampleEn": "The electron shell is full.",
+  "exampleCn": "电子壳层已经满了。"
+ },
+ "electronics": {
+  "exampleEn": "Tom majored in electronics.",
+  "exampleCn": "汤姆学的是电子学。"
+ },
+ "elimination": {
+  "exampleEn": "It was a matter of elimination.",
+  "exampleCn": "那是个逐个排除的问题。"
+ },
+ "elsewhere": {
+  "exampleEn": "She went shopping elsewhere.",
+  "exampleCn": "她去别处购物了。"
+ },
+ "employer": {
+  "exampleEn": "His employer dismissed him yesterday.",
+  "exampleCn": "他的雇主昨天把他辞了。"
+ },
+ "enclose": {
+  "exampleEn": "I enclose a photo.",
+  "exampleCn": "随函附上一张照片。"
+ },
+ "enforce": {
+  "exampleEn": "Tom cannot enforce anything.",
+  "exampleCn": "汤姆什么都执行不了。"
+ },
+ "entitle": {
+  "exampleEn": "This doesn't entitle you to disrespect me.",
+  "exampleCn": "这并不能让你有资格不尊重我。"
+ },
+ "establishment": {
+  "exampleEn": "Algerians are fed up of their political establishment.",
+  "exampleCn": "阿尔及利亚人受够了他们的当权集团。"
+ },
+ "exceedingly": {
+  "exampleEn": "Tom is exceedingly friendly.",
+  "exampleCn": "汤姆待人极其友善。"
+ },
+ "exclude": {
+  "exampleEn": "I can't exclude it.",
+  "exampleCn": "我没法把它排除掉。"
+ },
+ "exert": {
+  "exampleEn": "Tom shouldn't exert himself.",
+  "exampleCn": "汤姆不该太用力。"
+ },
+ "exhaustion": {
+  "exampleEn": "I'm dying of exhaustion.",
+  "exampleCn": "我快累死了。"
+ },
+ "experimental": {
+  "exampleEn": "Youth is wholly experimental.",
+  "exampleCn": "青春完全是一场试验。"
+ },
+ "exposure": {
+  "exampleEn": "Avoid exposure to direct sunlight.",
+  "exampleCn": "避免暴晒在阳光直射下。"
+ },
+ "fearful": {
+  "exampleEn": "He is very fearful.",
+  "exampleCn": "他非常胆小怕事。"
+ },
+ "fireman": {
+  "exampleEn": "He's a volunteer fireman.",
+  "exampleCn": "他是一名志愿消防员。"
+ },
+ "footstep": {
+  "exampleEn": "He heard another footstep.",
+  "exampleCn": "他听见了另一个脚步声。"
+ },
+ "fruitful": {
+  "exampleEn": "Be fruitful and multiply.",
+  "exampleCn": "多结果实，生养众多。"
+ },
+ "gaseous": {
+  "exampleEn": "Oxygen exists in two gaseous forms.",
+  "exampleCn": "氧以两种气态形式存在。"
+ },
+ "generator": {
+  "exampleEn": "Tom has a generator.",
+  "exampleCn": "汤姆有一台发电机。"
+ },
+ "glorious": {
+  "exampleEn": "What a glorious mess!",
+  "exampleCn": "多么华丽的乱摊子！"
+ },
+ "graceful": {
+  "exampleEn": "I found her graceful.",
+  "exampleCn": "我觉得她举止优雅。"
+ },
+ "harden": {
+  "exampleEn": "Don't let life harden your heart.",
+  "exampleCn": "别让生活把你的心变硬。"
+ },
+ "hateful": {
+  "exampleEn": "Sami had hateful views.",
+  "exampleCn": "萨米持有可憎的观点。"
+ },
+ "hatred": {
+  "exampleEn": "Hatred is our enemy.",
+  "exampleCn": "仇恨是我们的敌人。"
+ },
+ "helpless": {
+  "exampleEn": "Tom felt completely helpless.",
+  "exampleCn": "汤姆感到全然无助。"
+ },
+ "heroic": {
+  "exampleEn": "I'm actually not heroic.",
+  "exampleCn": "其实我并不英勇。"
+ },
+ "highlight": {
+  "exampleEn": "Dreams can highlight unresolved issues.",
+  "exampleCn": "梦能凸显未解开的心结。"
+ },
+ "honourable": {
+  "exampleEn": "Her intentions are honourable.",
+  "exampleCn": "她的用心是光明正大的。"
+ },
+ "horsepower": {
+  "exampleEn": "Tom's car has 100 horsepower.",
+  "exampleCn": "汤姆的车有一百马力。"
+ },
+ "hostile": {
+  "exampleEn": "It's a hostile environment.",
+  "exampleCn": "那是个充满敌意的环境。"
+ },
+ "imprison": {
+  "exampleEn": "Tyrannical governments frequently imprison their political opponents.",
+  "exampleCn": "暴虐的政府经常监禁政敌。"
+ },
+ "incline": {
+  "exampleEn": "We ascended a steep incline.",
+  "exampleCn": "我们爬上了一道陡坡。"
+ },
+ "indefinite": {
+  "exampleEn": "It's an indefinite pronoun.",
+  "exampleCn": "那是个不定代词。"
+ },
+ "indirect": {
+  "exampleEn": "Indirect communication is feminine.",
+  "exampleCn": "间接的沟通方式偏女性化。"
+ },
+ "industrialize": {
+  "exampleEn": "Algeria needs to industrialize.",
+  "exampleCn": "阿尔及利亚需要实现工业化。"
+ },
+ "infamous": {
+  "exampleEn": "Sami was infamous for that shit.",
+  "exampleCn": "萨米因为那件破事声名狼藉。"
+ },
+ "inhabitant": {
+  "exampleEn": "Sami is the only inhabitant of the island.",
+  "exampleCn": "萨米是岛上唯一的居民。"
+ },
+ "insight": {
+  "exampleEn": "Thanks for the insight.",
+  "exampleCn": "谢谢你的真知灼见。"
+ },
+ "insignificant": {
+  "exampleEn": "It's an insignificant problem.",
+  "exampleCn": "这是个无关紧要的问题。"
+ },
+ "installation": {
+  "exampleEn": "There's no installation fee.",
+  "exampleCn": "没有安装费。"
+ },
+ "intensity": {
+  "exampleEn": "Increase your workout intensity gradually.",
+  "exampleCn": "逐渐加大你的训练强度。"
+ },
+ "intensive": {
+  "exampleEn": "This task is labor-intensive.",
+  "exampleCn": "这项任务是劳动密集型的。"
+ },
+ "intentional": {
+  "exampleEn": "His mistake was intentional.",
+  "exampleCn": "他的错误是故意的。"
+ },
+ "interaction": {
+  "exampleEn": "We wanted more interaction.",
+  "exampleCn": "我们想要更多的互动。"
+ },
+ "internal": {
+  "exampleEn": "Yanni has internal bleeding.",
+  "exampleCn": "雅尼内出血了。"
+ },
+ "interruption": {
+  "exampleEn": "Sorry for the interruption.",
+  "exampleCn": "抱歉打断一下。"
+ },
+ "isolate": {
+  "exampleEn": "You should isolate yourself.",
+  "exampleCn": "你应该把自己隔离起来。"
+ },
+ "kneel": {
+  "exampleEn": "May you kneel for me?",
+  "exampleCn": "你能为我跪下吗？"
+ },
+ "landlady": {
+  "exampleEn": "This is the landlady.",
+  "exampleCn": "这位是女房东。"
+ },
+ "legislation": {
+  "exampleEn": "Rightists often dislike regulatory legislation.",
+  "exampleCn": "右派往往不喜欢监管性立法。"
+ },
+ "leverage": {
+  "exampleEn": "What we need is leverage.",
+  "exampleCn": "我们需要的是筹码。"
+ },
+ "lieutenant": {
+  "exampleEn": "He is a lieutenant.",
+  "exampleCn": "他是一名中尉。"
+ },
+ "limitation": {
+  "exampleEn": "His health was a limitation.",
+  "exampleCn": "他的健康是个限制。"
+ },
+ "listener": {
+  "exampleEn": "Be a good listener.",
+  "exampleCn": "做一个善于倾听的人。"
+ },
+ "livestock": {
+  "exampleEn": "The principal livestock is sheep.",
+  "exampleCn": "主要牲畜是绵羊。"
+ },
+ "locomotive": {
+  "exampleEn": "The locomotive pulls the railroad cars.",
+  "exampleCn": "机车牵引着列车车厢。"
+ },
+ "loyalty": {
+  "exampleEn": "You doubt my loyalty?",
+  "exampleCn": "你怀疑我的忠诚？"
+ },
+ "maintenance": {
+  "exampleEn": "Tom is high maintenance.",
+  "exampleCn": "汤姆很难伺候。"
+ },
+ "marxist": {
+  "exampleEn": "Marx said that he wasn't a Marxist.",
+  "exampleCn": "马克思说过他不是马克思主义者。"
+ },
+ "materialism": {
+  "exampleEn": "Historical materialism is a pseudoscience.",
+  "exampleCn": "历史唯物主义是伪科学。"
+ },
+ "meantime": {
+  "exampleEn": "What's happened in the meantime?",
+  "exampleCn": "这期间发生了什么？"
+ },
+ "measurable": {
+  "exampleEn": "The difference is barely measurable.",
+  "exampleCn": "这个差别几乎测不出来。"
+ },
+ "measurement": {
+  "exampleEn": "That's an exact measurement.",
+  "exampleCn": "那是一次精确的测量。"
+ },
+ "mechanically": {
+  "exampleEn": "He did it mechanically.",
+  "exampleCn": "他机械地做完了这件事。"
+ },
+ "millimetre": {
+  "exampleEn": "A millimetre is a thousandth of a metre.",
+  "exampleCn": "一毫米是一米的千分之一。"
+ },
+ "mister": {
+  "exampleEn": "You're a creep, Mister!",
+  "exampleCn": "你真让人起鸡皮疙瘩，先生！"
+ },
+ "moisture": {
+  "exampleEn": "Protect against moisture and sunlight.",
+  "exampleCn": "防潮防晒。"
+ },
+ "namely": {
+  "exampleEn": "He has two children, namely one son and one daughter.",
+  "exampleCn": "他有两个孩子，即一儿一女。"
+ },
+ "naval": {
+  "exampleEn": "Layla married a naval officer.",
+  "exampleCn": "莱拉嫁给了一名海军军官。"
+ },
+ "oblige": {
+  "exampleEn": "Tom was happy to oblige.",
+  "exampleCn": "汤姆乐意效劳。"
+ },
+ "operational": {
+  "exampleEn": "All systems are operational.",
+  "exampleCn": "所有系统都在运转。"
+ },
+ "optics": {
+  "exampleEn": "Damiano began lecturing on the subject of optics.",
+  "exampleCn": "达米亚诺开始讲授光学的课程。"
+ },
+ "orderly": {
+  "exampleEn": "He's an orderly person.",
+  "exampleCn": "他是个有条理的人。"
+ },
+ "organism": {
+  "exampleEn": "Which organism causes malaria?",
+  "exampleCn": "哪种微生物会引起疟疾？"
+ },
+ "overdue": {
+  "exampleEn": "This book is overdue.",
+  "exampleCn": "这本书逾期了。"
+ },
+ "partially": {
+  "exampleEn": "He was partially clothed.",
+  "exampleCn": "他只穿了一半衣服。"
+ },
+ "persist": {
+  "exampleEn": "We intend to persist.",
+  "exampleCn": "我们打算坚持下去。"
+ },
+ "pipeline": {
+  "exampleEn": "Another gas pipeline war?",
+  "exampleCn": "又一场天然气管道之争？"
+ },
+ "plantation": {
+  "exampleEn": "Tom owns a plantation.",
+  "exampleCn": "汤姆拥有一座种植园。"
+ },
+ "precaution": {
+  "exampleEn": "It's just a precaution.",
+  "exampleCn": "这只是个预防措施。"
+ },
+ "preceding": {
+  "exampleEn": "See the preceding example.",
+  "exampleCn": "参见前一个例子。"
+ },
+ "prescribe": {
+  "exampleEn": "I'll prescribe some antibiotics.",
+  "exampleCn": "我给你开一些抗生素。"
+ },
+ "presumably": {
+  "exampleEn": "Presumably, he's an alien.",
+  "exampleCn": "想必他是个外星人。"
+ },
+ "procession": {
+  "exampleEn": "The funeral procession stalks me.",
+  "exampleCn": "那支送葬的队伍缠着我不放。"
+ },
+ "proclaim": {
+  "exampleEn": "His manners proclaim him a gentleman.",
+  "exampleCn": "他的举止表明他是个绅士。"
+ },
+ "pronoun": {
+  "exampleEn": "It's an indefinite pronoun.",
+  "exampleCn": "那是个不定代词。"
+ },
+ "protective": {
+  "exampleEn": "Tom is very protective.",
+  "exampleCn": "汤姆保护欲很强。"
+ },
+ "provision": {
+  "exampleEn": "This provision, however, is not mandatory.",
+  "exampleCn": "不过这一条款并非强制。"
+ },
+ "quarterly": {
+  "exampleEn": "I get a divestment quarterly.",
+  "exampleCn": "我每季度收到一份撤资报告。"
+ },
+ "quicken": {
+  "exampleEn": "I felt my heart quicken.",
+  "exampleCn": "我感到心跳加快了。"
+ },
+ "quotation": {
+  "exampleEn": "What's your favorite quotation?",
+  "exampleCn": "你最喜欢的引语是什么？"
+ },
+ "recollect": {
+  "exampleEn": "I recollect his saying so.",
+  "exampleCn": "我记得他是这么说的。"
+ },
+ "refine": {
+  "exampleEn": "Algeria can refine petroleum.",
+  "exampleCn": "阿尔及利亚能炼制石油。"
+ },
+ "refreshment": {
+  "exampleEn": "Tom gave us some refreshment.",
+  "exampleCn": "汤姆给我们上了些茶点。"
+ },
+ "reinforce": {
+  "exampleEn": "Reinforce your inner sense of connectedness.",
+  "exampleCn": "强化你内心的联结感。"
+ },
+ "relativity": {
+  "exampleEn": "Who invented the theory of relativity?",
+  "exampleCn": "相对论是谁提出的？"
+ },
+ "reliability": {
+  "exampleEn": "His reliability is often in question.",
+  "exampleCn": "他的可靠程度常被人质疑。"
+ },
+ "reliance": {
+  "exampleEn": "Now that's what I call self-reliance.",
+  "exampleCn": "这才叫自力更生。"
+ },
+ "render": {
+  "exampleEn": "Render good for evil.",
+  "exampleCn": "以德报怨。"
+ },
+ "reproach": {
+  "exampleEn": "Don't reproach your friend.",
+  "exampleCn": "别责怪你的朋友。"
+ },
+ "reproduce": {
+  "exampleEn": "Cancer cells reproduce quickly.",
+  "exampleCn": "癌细胞繁殖得很快。"
+ },
+ "republican": {
+  "exampleEn": "Lincoln was a Republican.",
+  "exampleCn": "林肯是共和党人。"
+ },
+ "researcher": {
+  "exampleEn": "Ziri is a researcher.",
+  "exampleCn": "齐里是一名研究员。"
+ },
+ "resistance": {
+  "exampleEn": "Silence often implies resistance.",
+  "exampleCn": "沉默往往意味着抗拒。"
+ },
+ "resistant": {
+  "exampleEn": "This suit is fire-resistant.",
+  "exampleCn": "这套衣服防火。"
+ },
+ "respectively": {
+  "exampleEn": "Matthew's siblings were three and four, respectively.",
+  "exampleCn": "马修的兄弟姐妹分别是三个和四个。"
+ },
+ "restore": {
+  "exampleEn": "We restore antique furniture.",
+  "exampleCn": "我们修复古董家具。"
+ },
+ "revolutionary": {
+  "exampleEn": "Shitposting is not revolutionary.",
+  "exampleCn": "发垃圾贴算不上革命。"
+ },
+ "rotation": {
+  "exampleEn": "Mercury has an unusual rotation period.",
+  "exampleCn": "水星的自转周期很特别。"
+ },
+ "seller": {
+  "exampleEn": "Where is the seller?",
+  "exampleCn": "卖家在哪儿？"
+ },
+ "semiconductor": {
+  "exampleEn": "Silicon is a semiconductor.",
+  "exampleCn": "硅是一种半导体。"
+ },
+ "shilling": {
+  "exampleEn": "May I have a shilling, sir?",
+  "exampleCn": "先生，能给我一先令吗？"
+ },
+ "similarly": {
+  "exampleEn": "All of you behave similarly.",
+  "exampleCn": "你们所有人的表现都差不多。"
+ },
+ "slipper": {
+  "exampleEn": "The boy lost the slipper.",
+  "exampleCn": "男孩把拖鞋弄丢了。"
+ },
+ "snowstorm": {
+  "exampleEn": "The snowstorm held on.",
+  "exampleCn": "暴风雪还在持续。"
+ },
+ "spacecraft": {
+  "exampleEn": "The spacecraft was destroyed.",
+  "exampleCn": "航天器被毁了。"
+ },
+ "specialize": {
+  "exampleEn": "I specialize in medieval history.",
+  "exampleCn": "我的专业方向是中世纪史。"
+ },
+ "staircase": {
+  "exampleEn": "The staircase is narrow.",
+  "exampleCn": "这段楼梯很窄。"
+ },
+ "standpoint": {
+  "exampleEn": "From a grammatical standpoint, that sentence is incorrect.",
+  "exampleCn": "从语法角度看，那个句子是错的。"
+ },
+ "statistical": {
+  "exampleEn": "Officials like statistical evasion.",
+  "exampleCn": "官员们喜欢在统计上打马虎眼。"
+ },
+ "steamer": {
+  "exampleEn": "The steamer is now out of sight.",
+  "exampleCn": "那艘汽船已经看不见了。"
+ },
+ "stiffen": {
+  "exampleEn": "Mennad's body started to stiffen.",
+  "exampleCn": "梅纳德的身子开始发僵。"
+ },
+ "structural": {
+  "exampleEn": "Algeria needs structural reforms.",
+  "exampleCn": "阿尔及利亚需要结构性改革。"
+ },
+ "submarine": {
+  "exampleEn": "Is that a submarine?",
+  "exampleCn": "那是一艘潜水艇吗？"
+ },
+ "subsequent": {
+  "exampleEn": "I can't remember the subsequent events.",
+  "exampleCn": "我记不清后来发生的事了。"
+ },
+ "substantial": {
+  "exampleEn": "The difference is substantial.",
+  "exampleCn": "差别相当大。"
+ },
+ "suburb": {
+  "exampleEn": "America is my suburb.",
+  "exampleCn": "美国就是我的郊区。"
+ },
+ "succession": {
+  "exampleEn": "This year typhoons comes in succession.",
+  "exampleCn": "今年台风接连而来。"
+ },
+ "sufficiently": {
+  "exampleEn": "That's a sufficiently uncommon name.",
+  "exampleCn": "那是个足够少见的名字。"
+ },
+ "summarize": {
+  "exampleEn": "I'll summarize it all.",
+  "exampleCn": "我会把这一切总结一下。"
+ },
+ "surprisingly": {
+  "exampleEn": "Tom is surprisingly agile.",
+  "exampleCn": "汤姆出乎意料地敏捷。"
+ },
+ "sympathetic": {
+  "exampleEn": "Tom is very sympathetic.",
+  "exampleCn": "汤姆很有同情心。"
+ },
+ "tedious": {
+  "exampleEn": "It can be tedious.",
+  "exampleCn": "这可能很乏味。"
+ },
+ "tenant": {
+  "exampleEn": "Tom is my tenant.",
+  "exampleCn": "汤姆是我的房客。"
+ },
+ "textile": {
+  "exampleEn": "The textile is colorful.",
+  "exampleCn": "这块织物色彩鲜艳。"
+ },
+ "thereby": {
+  "exampleEn": "Tom overslept, thereby missing the bus he usually catches.",
+  "exampleCn": "汤姆睡过了头，因此错过了他平常坐的那班车。"
+ },
+ "thickness": {
+  "exampleEn": "What is that novel's thickness?",
+  "exampleCn": "那本小说有多厚？"
+ },
+ "torrent": {
+  "exampleEn": "They bathed in the torrent.",
+  "exampleCn": "他们在激流里洗了澡。"
+ },
+ "transplant": {
+  "exampleEn": "Tom needs a transplant.",
+  "exampleCn": "汤姆需要做移植手术。"
+ },
+ "twinkle": {
+  "exampleEn": "Why do stars twinkle?",
+  "exampleCn": "星星为什么会闪烁？"
+ },
+ "undergraduate": {
+  "exampleEn": "Tom is an undergraduate.",
+  "exampleCn": "汤姆是名本科生。"
+ },
+ "unjust": {
+  "exampleEn": "This law is unjust.",
+  "exampleCn": "这部法律不公正。"
+ },
+ "unload": {
+  "exampleEn": "I'll unload the car.",
+  "exampleCn": "我来把车上的货卸下来。"
+ },
+ "unsatisfactory": {
+  "exampleEn": "Your response was unsatisfactory.",
+  "exampleCn": "你的回答不能令人满意。"
+ },
+ "unsuitable": {
+  "exampleEn": "It's unsuitable for children.",
+  "exampleCn": "它不适合儿童。"
+ },
+ "upright": {
+  "exampleEn": "She stood bolt upright.",
+  "exampleCn": "她笔直地站着。"
+ },
+ "vanity": {
+  "exampleEn": "She wears vanity glasses.",
+  "exampleCn": "她戴着装饰用的平光镜。"
+ },
+ "variation": {
+  "exampleEn": "This is a humorous variation of a proverb.",
+  "exampleCn": "这是一句谚语的幽默变体。"
+ },
+ "vibration": {
+  "exampleEn": "All sound is vibration.",
+  "exampleCn": "一切声音都是振动。"
+ },
+ "vigorous": {
+  "exampleEn": "How vigorous you are!",
+  "exampleCn": "你真朝气蓬勃！"
+ },
+ "virtually": {
+  "exampleEn": "Virtually nobody knows this.",
+  "exampleCn": "几乎没有人知道这件事。"
+ },
+ "vitally": {
+  "exampleEn": "Choosing the dress is vitally important.",
+  "exampleCn": "选这条裙子至关重要。"
+ },
+ "vitamin": {
+  "exampleEn": "They know what \"vitamin\" means.",
+  "exampleCn": "他们知道维生素是什么意思。"
+ },
+ "wavelength": {
+  "exampleEn": "What is the light's wavelength?",
+  "exampleCn": "这种光的波长是多少？"
+ },
+ "westward": {
+  "exampleEn": "The sun declined westward.",
+  "exampleCn": "太阳向西落下。"
+ },
+ "whitewash": {
+  "exampleEn": "The politician tried to whitewash the poor job he did dealing with the coronavirus.",
+  "exampleCn": "那个政客试图粉饰他防疫不力的表现。"
+ },
+ "wreckage": {
+  "exampleEn": "Jonas emerged from the wreckage.",
+  "exampleCn": "约纳斯从残骸里爬了出来。"
+ },
+ "yearly": {
+  "exampleEn": "I visit the city yearly.",
+  "exampleCn": "我每年去那座城市一次。"
+ },
+ "youngster": {
+  "exampleEn": "Tom is a typical youngster.",
+  "exampleCn": "汤姆是个典型的年轻人。"
+ },
+ "youthful": {
+  "exampleEn": "He has a youthful voice.",
+  "exampleCn": "他的嗓音很年轻。"
+ },
+ "zealous": {
+  "exampleEn": "He's a very zealous worker.",
+  "exampleCn": "他是个满腔热忱的工人。"
+ },
+ "abbreviation": {
+  "exampleEn": "So is that an abbreviation?",
+  "exampleCn": "那么那是个缩写吗？"
+ },
+ "absorption": {
+  "exampleEn": "What happens during absorption?",
+  "exampleCn": "吸收过程中发生了什么？"
+ },
+ "accomplishment": {
+  "exampleEn": "What a great accomplishment!",
+  "exampleCn": "多么了不起的成就！"
+ },
+ "adjoin": {
+  "exampleEn": "The two buildings adjoin.",
+  "exampleCn": "这两栋楼相连。"
+ },
+ "adjustable": {
+  "exampleEn": "These seatbelts are adjustable.",
+  "exampleCn": "这些安全带是可以调节的。"
+ },
+ "adoption": {
+  "exampleEn": "Sami visited an adoption agency.",
+  "exampleCn": "萨米去了一趟领养机构。"
+ },
+ "aerial": {
+  "exampleEn": "Ivy has aerial roots.",
+  "exampleCn": "常春藤有气生根。"
+ },
+ "affective": {
+  "exampleEn": "Be careful! Affective dependency is not synonym for love!",
+  "exampleCn": "当心！情感依赖可不是爱的同义词！"
+ },
+ "affirm": {
+  "exampleEn": "Berbers affirm their status of free men.",
+  "exampleCn": "柏柏尔人申明他们自由人的身份。"
+ },
+ "agitation": {
+  "exampleEn": "Calmness attracts life; agitation pushes it away.",
+  "exampleCn": "平静吸引生活，躁动把它推开。"
+ },
+ "alignment": {
+  "exampleEn": "What is her alignment?",
+  "exampleCn": "她的立场是什么？"
+ },
+ "allegation": {
+  "exampleEn": "Tom denied that allegation.",
+  "exampleCn": "汤姆否认了那项指控。"
+ },
+ "amplitude": {
+  "exampleEn": "The mean value of the frequency decreases with increasing amplitude.",
+  "exampleCn": "频率的平均值随振幅增大而减小。"
+ },
+ "analogous": {
+  "exampleEn": "Your situation is analogous to mine.",
+  "exampleCn": "你的情况和我的类似。"
+ },
+ "analytical": {
+  "exampleEn": "Yanni is very analytical.",
+  "exampleCn": "雅尼很善于分析。"
+ },
+ "appealing": {
+  "exampleEn": "It does sound appealing.",
+  "exampleCn": "听起来确实很吸引人。"
+ },
+ "appraisal": {
+  "exampleEn": "Our quarterly results will serve as the best appraisal of our approach.",
+  "exampleCn": "我们的季度业绩将是对这套做法最好的评判。"
+ },
+ "appraise": {
+  "exampleEn": "\"I have a guy coming later to appraise some antiques.\"",
+  "exampleCn": "待会儿有个行家要来给几件古董估价。"
+ },
+ "assault": {
+  "exampleEn": "Tom witnessed the assault.",
+  "exampleCn": "汤姆目击了那次袭击。"
+ },
+ "assertive": {
+  "exampleEn": "Don't be so self-assertive.",
+  "exampleCn": "别这么一意孤行。"
+ },
+ "assimilation": {
+  "exampleEn": "Instead of choosing between tolerance and assimilation, what we really need are respect and acceptance of differences.",
+  "exampleCn": "我们真正需要的不是在宽容与同化之间二选一，而是尊重并接纳差异。"
+ },
+ "assurance": {
+  "exampleEn": "She kept gaining self-assurance.",
+  "exampleCn": "她的自信不断增强。"
+ },
+ "attachment": {
+  "exampleEn": "Ziri needs to develop secure attachment.",
+  "exampleCn": "齐里需要建立起安全型依恋。"
+ },
+ "axial": {
+  "exampleEn": "The engineer measured the axial alignment of the rotating shaft.",
+  "exampleCn": "工程师测量了转轴的轴向对准度。"
+ },
+ "backbone": {
+  "exampleEn": "Tom has no backbone.",
+  "exampleCn": "汤姆没有骨气。"
+ },
+ "banker": {
+  "exampleEn": "He's a successful banker.",
+  "exampleCn": "他是一位成功的银行家。"
+ },
+ "bankruptcy": {
+  "exampleEn": "Tom filed for bankruptcy.",
+  "exampleCn": "汤姆申请了破产。"
+ },
+ "bestow": {
+  "exampleEn": "That's a real strongman, bestow upon him a goblet of wine!",
+  "exampleCn": "那才是真正的好汉，赏他一杯酒！"
+ },
+ "blunder": {
+  "exampleEn": "What a colossal blunder!",
+  "exampleCn": "真是天大的失误！"
+ },
+ "boiler": {
+  "exampleEn": "The boiler was heavily scaled.",
+  "exampleCn": "锅炉里结了厚厚的水垢。"
+ },
+ "breakdown": {
+  "exampleEn": "I had a breakdown.",
+  "exampleCn": "我精神崩溃过。"
+ },
+ "bridle": {
+  "exampleEn": "He kept his tongue under a bridle.",
+  "exampleCn": "他管住了自己的嘴。"
+ },
+ "brightness": {
+  "exampleEn": "The brightness bothers me.",
+  "exampleCn": "这亮度让我不舒服。"
+ },
+ "broaden": {
+  "exampleEn": "Good movies broaden your horizons.",
+  "exampleCn": "好电影能开阔你的眼界。"
+ },
+ "bulletin": {
+  "exampleEn": "We can get a weather bulletin every day.",
+  "exampleCn": "我们每天都能收到天气简报。"
+ },
+ "burner": {
+  "exampleEn": "The call came from a burner phone.",
+  "exampleCn": "电话是从一部一次性手机打来的。"
+ },
+ "bypass": {
+  "exampleEn": "Tom needed bypass surgery.",
+  "exampleCn": "汤姆需要做搭桥手术。"
+ },
+ "capability": {
+  "exampleEn": "Iran has a tremendous deterring capability.",
+  "exampleCn": "伊朗拥有强大的威慑能力。"
+ },
+ "capacitance": {
+  "exampleEn": "How does one calculate the capacitance of a capacitor?",
+  "exampleCn": "电容器的电容要怎么计算？"
+ },
+ "capacitor": {
+  "exampleEn": "Maybe I just need a bigger capacitor.",
+  "exampleCn": "也许我只是需要一个更大的电容器。"
+ },
+ "casualty": {
+  "exampleEn": "We've got one casualty.",
+  "exampleCn": "我们有一名伤亡人员。"
+ },
+ "centralize": {
+  "exampleEn": "They wanted to centralize power.",
+  "exampleCn": "他们想把权力集中起来。"
+ },
+ "cereal": {
+  "exampleEn": "What's your favorite cereal?",
+  "exampleCn": "你最喜欢的谷物早餐是什么？"
+ },
+ "charter": {
+  "exampleEn": "Charter schools are a grift.",
+  "exampleCn": "特许学校是一场骗局。"
+ },
+ "chestnut": {
+  "exampleEn": "Tom's hair is chestnut brown.",
+  "exampleCn": "汤姆的头发是栗色的。"
+ },
+ "cleanliness": {
+  "exampleEn": "He's obsessed with cleanliness.",
+  "exampleCn": "他有洁癖。"
+ },
+ "clockwise": {
+  "exampleEn": "The merry-go-round rotates clockwise.",
+  "exampleCn": "旋转木马顺时针旋转。"
+ },
+ "colonial": {
+  "exampleEn": "I have no colonial masters.",
+  "exampleCn": "我没有殖民宗主。"
+ },
+ "combustion": {
+  "exampleEn": "Oxygen is needed for combustion.",
+  "exampleCn": "燃烧需要氧气。"
+ },
+ "commend": {
+  "exampleEn": "We commend the past, but live the present.",
+  "exampleCn": "我们称许过去，但活在当下。"
+ },
+ "commentary": {
+  "exampleEn": "What a sad commentary!",
+  "exampleCn": "这是多么可悲的注脚！"
+ },
+ "commonsense": {
+  "exampleEn": "Though commonsense is necessary for everyone, it is not always easily acquired.",
+  "exampleCn": "常识虽然人人必需，却并非总能轻易获得。"
+ },
+ "commonwealth": {
+  "exampleEn": "Barbados is a member of the Commonwealth.",
+  "exampleCn": "巴巴多斯是英联邦成员。"
+ },
+ "compensation": {
+  "exampleEn": "Tom paid me compensation.",
+  "exampleCn": "汤姆付给了我赔偿金。"
+ },
+ "complication": {
+  "exampleEn": "There's been a complication.",
+  "exampleCn": "出现了并发症。"
+ },
+ "concede": {
+  "exampleEn": "I concede the argument.",
+  "exampleCn": "我承认在这场争论中输了。"
+ },
+ "conception": {
+  "exampleEn": "At conception, everyone is female.",
+  "exampleCn": "在受孕之初，每个人都是女性。"
+ },
+ "concession": {
+  "exampleEn": "That isn't a concession.",
+  "exampleCn": "那不算让步。"
+ },
+ "confer": {
+  "exampleEn": "Whenever I'm in trouble, I confer with him.",
+  "exampleCn": "每当遇到麻烦，我都找他商量。"
+ },
+ "configuration": {
+  "exampleEn": "It’s a default configuration.",
+  "exampleCn": "这是默认配置。"
+ },
+ "confirmation": {
+  "exampleEn": "I had the confirmation.",
+  "exampleCn": "我得到了确认。"
+ },
+ "confrontation": {
+  "exampleEn": "I don't like confrontation.",
+  "exampleCn": "我不喜欢对抗。"
+ },
+ "conqueror": {
+  "exampleEn": "Alexander was a great conqueror.",
+  "exampleCn": "亚历山大是伟大的征服者。"
+ },
+ "consequent": {
+  "exampleEn": "Consequent conduct is specified.",
+  "exampleCn": "随之而来的行为已有规定。"
+ },
+ "consistently": {
+  "exampleEn": "Did you train consistently?",
+  "exampleCn": "你坚持训练了吗？"
+ },
+ "constrain": {
+  "exampleEn": "Changes in water availability, both episodic and long-lasting, will constrain different forms of energy production.",
+  "exampleCn": "无论是短期还是长期的水源变化，都会制约各类能源的生产。"
+ },
+ "contemplate": {
+  "exampleEn": "Let me contemplate your response.",
+  "exampleCn": "让我想想你的回答。"
+ },
+ "contemptuous": {
+  "exampleEn": "Some artists are contemptuous of criticism.",
+  "exampleCn": "有些艺术家瞧不起批评。"
+ },
+ "contend": {
+  "exampleEn": "He had to contend against physical suffering.",
+  "exampleCn": "他不得不与肉体上的痛苦抗争。"
+ },
+ "continental": {
+  "exampleEn": "I'm the continental champion.",
+  "exampleCn": "我是洲际冠军。"
+ },
+ "converge": {
+  "exampleEn": "This algorithm doesn't converge.",
+  "exampleCn": "这个算法不收敛。"
+ },
+ "convincing": {
+  "exampleEn": "Tom's explanation sounded convincing.",
+  "exampleCn": "汤姆的解释听上去很有说服力。"
+ },
+ "correlate": {
+  "exampleEn": "I used to correlate love with sex.",
+  "exampleCn": "我过去总把爱和性联系在一起。"
+ },
+ "correspondence": {
+  "exampleEn": "Correspondence is two-way written communication.",
+  "exampleCn": "通信是双向的书面交流。"
+ },
+ "counseling": {
+  "exampleEn": "They need some counseling.",
+  "exampleCn": "他们需要一些心理疏导。"
+ },
+ "counteract": {
+  "exampleEn": "Reality and dreams counteract each other.",
+  "exampleCn": "现实与梦相互抵消。"
+ },
+ "counterpart": {
+  "exampleEn": "I tried to close the discussions at noon, but my counterpart would not stop talking.",
+  "exampleCn": "我本想在中午结束会谈，可对方却谈个不停。"
+ },
+ "courteous": {
+  "exampleEn": "Be courteous and respectful.",
+  "exampleCn": "要有礼貌、懂尊重。"
+ },
+ "courtesy": {
+  "exampleEn": "Courtesy marked his manner.",
+  "exampleCn": "彬彬有礼是他的风度。"
+ },
+ "cumulative": {
+  "exampleEn": "Lost sleep has a cumulative effect, I've been told.",
+  "exampleCn": "人家告诉我，欠觉是有累积效应的。"
+ },
+ "customary": {
+  "exampleEn": "It is no longer customary.",
+  "exampleCn": "这已经不再流行了。"
+ },
+ "cutter": {
+  "exampleEn": "Tom is a cord-cutter.",
+  "exampleCn": "汤姆是个不再订阅有线电视的人。"
+ },
+ "dazzle": {
+  "exampleEn": "Where did you dazzle them?",
+  "exampleCn": "你是在哪儿把他们镇住的？"
+ },
+ "deafen": {
+  "exampleEn": "Where did you deafen them?",
+  "exampleCn": "你是在哪儿把他们震聋的？"
+ },
+ "decidedly": {
+  "exampleEn": "That is decidedly short of satisfactory.",
+  "exampleCn": "那显然不能令人满意。"
+ },
+ "declaration": {
+  "exampleEn": "Your customs declaration, please.",
+  "exampleCn": "请出示您的报关单。"
+ },
+ "decompose": {
+  "exampleEn": "Ziri's body started to decompose.",
+  "exampleCn": "齐里的尸体开始腐烂。"
+ },
+ "deform": {
+  "exampleEn": "Don't deform it anymore.",
+  "exampleCn": "别再把它弄变形了。"
+ },
+ "degradation": {
+  "exampleEn": "This is complete degradation.",
+  "exampleCn": "这是彻底的堕落。"
+ },
+ "denounce": {
+  "exampleEn": "The alterglobalists denounce growing inequalities.",
+  "exampleCn": "另类全球化主义者声讨日益加剧的不平等。"
+ },
+ "dependant": {
+  "exampleEn": "Space technology will remain dependant on national governments unless we find a way to make space profitable.",
+  "exampleCn": "除非我们能找到让太空盈利的办法，否则太空技术仍将依赖各国政府。"
+ },
+ "deportation": {
+  "exampleEn": "Deportation and genocide are different things.",
+  "exampleCn": "驱逐出境和种族灭绝是两回事。"
+ },
+ "deposition": {
+  "exampleEn": "Here's the deposition you needed.",
+  "exampleCn": "这是你要的证词。"
+ },
+ "derivation": {
+  "exampleEn": "Esperanto has an excellent derivation system.",
+  "exampleCn": "世界语有一套极好的构词系统。"
+ },
+ "descendant": {
+  "exampleEn": "She was the youngest descendant of the king.",
+  "exampleCn": "她是国王最年幼的后代。"
+ },
+ "descent": {
+  "exampleEn": "The descent is dangerous.",
+  "exampleCn": "这段下坡路很危险。"
+ },
+ "detector": {
+  "exampleEn": "Remove battery from smoke detector.",
+  "exampleCn": "把电池从烟雾探测器里取出来。"
+ },
+ "deviation": {
+  "exampleEn": "No deviation from the regulations will be tolerated.",
+  "exampleCn": "任何偏离规章的行为都绝不容许。"
+ },
+ "dilute": {
+  "exampleEn": "You have to dilute it with water.",
+  "exampleCn": "你得用水把它稀释一下。"
+ },
+ "disapproval": {
+  "exampleEn": "I grimaced in disapproval.",
+  "exampleCn": "我皱起眉头表示不赞成。"
+ },
+ "discontented": {
+  "exampleEn": "Tom is very discontented.",
+  "exampleCn": "汤姆满腹不满。"
+ },
+ "discourse": {
+  "exampleEn": "What are discourse markers?",
+  "exampleCn": "什么是话语标记语？"
+ },
+ "disillusion": {
+  "exampleEn": "Disillusion can become itself an illusion if we rest in it.",
+  "exampleCn": "如果我们耽于幻灭，幻灭本身也会变成一种幻觉。"
+ },
+ "disillusioned": {
+  "exampleEn": "You were not disillusioned.",
+  "exampleCn": "你并没有感到幻灭。"
+ },
+ "disobedience": {
+  "exampleEn": "I won't tolerate disobedience.",
+  "exampleCn": "我不会容忍违抗。"
+ },
+ "disorient": {
+  "exampleEn": "You don't want to disorient the user.",
+  "exampleCn": "你不会想让用户摸不着方向的。"
+ },
+ "dispatch": {
+  "exampleEn": "Dispatch letters to them.",
+  "exampleCn": "把信件发送给他们。"
+ },
+ "displace": {
+  "exampleEn": "This technology will undoubtedly displace millions of jobs.",
+  "exampleCn": "这项技术无疑会取代数以百万计的工作岗位。"
+ },
+ "displacement": {
+  "exampleEn": "Many adults missed out on schooling because of warfare and displacement.",
+  "exampleCn": "许多成年人因为战乱和流离失所而失了学。"
+ },
+ "disposition": {
+  "exampleEn": "He has a sociable disposition.",
+  "exampleCn": "他天性爱交际。"
+ },
+ "disproportionate": {
+  "exampleEn": "His was an disproportionate overaction.",
+  "exampleCn": "他那是一次不成比例的过激反应。"
+ },
+ "disregard": {
+  "exampleEn": "Disregard my last statement.",
+  "exampleCn": "别理会我刚才那句话。"
+ },
+ "disruptive": {
+  "exampleEn": "It was pretty disruptive.",
+  "exampleCn": "那相当扰人。"
+ },
+ "disservice": {
+  "exampleEn": "He did us a disservice.",
+  "exampleCn": "他害了我们。"
+ },
+ "distinctly": {
+  "exampleEn": "I remember it very distinctly.",
+  "exampleCn": "我记得清清楚楚。"
+ },
+ "distortion": {
+  "exampleEn": "That's a distortion of my argument.",
+  "exampleCn": "那是对我论点的歪曲。"
+ },
+ "disturbance": {
+  "exampleEn": "Tom caused a disturbance.",
+  "exampleCn": "汤姆引起了一场骚动。"
+ },
+ "diverge": {
+  "exampleEn": "The roads diverge up ahead; take the left one.",
+  "exampleCn": "前面的路分岔了，走左边那条。"
+ },
+ "diversify": {
+  "exampleEn": "You should diversify your portfolio.",
+  "exampleCn": "你应该让你的投资组合多样化。"
+ },
+ "diversion": {
+  "exampleEn": "We need a diversion.",
+  "exampleCn": "我们需要声东击西。"
+ },
+ "dormant": {
+  "exampleEn": "This ivy is relatively dormant.",
+  "exampleCn": "这株常春藤暂时处于休眠状态。"
+ },
+ "downturn": {
+  "exampleEn": "Can the economy handle another downturn?",
+  "exampleCn": "经济还经得起再一次下滑吗？"
+ },
+ "drainage": {
+  "exampleEn": "The drainage is blocked.",
+  "exampleCn": "排水沟堵了。"
+ },
+ "dreadful": {
+  "exampleEn": "It was dreadful weather.",
+  "exampleCn": "天气糟透了。"
+ },
+ "earthenware": {
+  "exampleEn": "The store carries earthenware.",
+  "exampleCn": "这家店卖陶器。"
+ },
+ "eastward": {
+  "exampleEn": "The plane turned eastward.",
+  "exampleCn": "飞机转向东方。"
+ },
+ "ecosystem": {
+  "exampleEn": "Karl studied the planet’s natural ecosystem.",
+  "exampleCn": "卡尔研究这颗星球的自然生态系统。"
+ },
+ "elemental": {
+  "exampleEn": "Is elemental mercury volatile?",
+  "exampleCn": "汞单质容易挥发吗？"
+ },
+ "elevation": {
+  "exampleEn": "True elevation starts within.",
+  "exampleCn": "真正的高贵始于内心。"
+ },
+ "elliptical": {
+  "exampleEn": "Sirius has an elliptical orbit.",
+  "exampleCn": "天狼星的轨道是椭圆形的。"
+ },
+ "embody": {
+  "exampleEn": "I embody the law!",
+  "exampleCn": "我就是法律的化身！"
+ },
+ "emigrate": {
+  "exampleEn": "People emigrate for many reasons.",
+  "exampleCn": "人们移居国外有很多原因。"
+ },
+ "enchant": {
+  "exampleEn": "The film will delight and enchant you.",
+  "exampleCn": "这部电影会让你着迷。"
+ },
+ "endanger": {
+  "exampleEn": "Anti-vaxxers endanger people's lives.",
+  "exampleCn": "反疫苗人士危及人们的生命。"
+ },
+ "endurance": {
+  "exampleEn": "I admire your endurance.",
+  "exampleCn": "我佩服你的忍耐力。"
+ },
+ "energize": {
+  "exampleEn": "We need a campaign slogan that'll really energize the base.",
+  "exampleCn": "我们需要一句能让支持者真正热血沸腾的竞选口号。"
+ },
+ "entail": {
+  "exampleEn": "What does that entail?",
+  "exampleCn": "那意味着要做什么？"
+ },
+ "erosion": {
+  "exampleEn": "There is erosion against the intellect.",
+  "exampleCn": "智力正在受到侵蚀。"
+ },
+ "eruption": {
+  "exampleEn": "I have a skin eruption.",
+  "exampleCn": "我出了一身疹子。"
+ },
+ "evaluation": {
+  "exampleEn": "Evaluation isn't always objective.",
+  "exampleCn": "评价并不总是客观的。"
+ },
+ "evaporation": {
+  "exampleEn": "Evaporation is the reverse of condensation.",
+  "exampleCn": "蒸发是冷凝的逆过程。"
+ },
+ "evolutionary": {
+  "exampleEn": "Darwin developed the evolutionary theory.",
+  "exampleCn": "达尔文创立了进化论。"
+ },
+ "exceptional": {
+  "exampleEn": "I've done nothing exceptional.",
+  "exampleCn": "我没做过什么了不起的事。"
+ },
+ "experimentally": {
+  "exampleEn": "Gut feelings play a role in science; they are called hypotheses, and then they are verified or disproven experimentally.",
+  "exampleCn": "直觉在科学中也起作用：它们叫作假说，之后再由实验加以证实或推翻。"
+ },
+ "experimentation": {
+  "exampleEn": "Experimentation can be good.",
+  "exampleCn": "做实验是好事。"
+ },
+ "exploitation": {
+  "exampleEn": "This exploitation needs to stop.",
+  "exampleCn": "这种剥削必须停止。"
+ },
+ "exploration": {
+  "exampleEn": "Knowledge expands through exploration.",
+  "exampleCn": "知识在探索中扩展。"
+ },
+ "extract": {
+  "exampleEn": "This is an extract.",
+  "exampleCn": "这是一段摘录。"
+ },
+ "extraction": {
+  "exampleEn": "Timber extraction is prohibited.",
+  "exampleCn": "禁止采伐木材。"
+ },
+ "extracurricular": {
+  "exampleEn": "Tom participates in extracurricular activities.",
+  "exampleCn": "汤姆参加课外活动。"
+ },
+ "fabrication": {
+  "exampleEn": "It's a bald-faced fabrication.",
+  "exampleCn": "这是彻头彻尾的捏造。"
+ },
+ "faction": {
+  "exampleEn": "The chief said that this faction cannot be considered dismantled.",
+  "exampleCn": "首领说这个派系不能算已经被清除。"
+ },
+ "fastener": {
+  "exampleEn": "Snaps are a practical fastener for children's clothing.",
+  "exampleCn": "按扣是童装上很实用的扣件。"
+ },
+ "faultless": {
+  "exampleEn": "Is she faultless herself?",
+  "exampleCn": "她自己就毫无过错吗？"
+ },
+ "fearless": {
+  "exampleEn": "How fearless you are!",
+  "exampleCn": "你真无畏！"
+ },
+ "finely": {
+  "exampleEn": "Grate the carrots finely.",
+  "exampleCn": "把胡萝卜擦成细丝。"
+ },
+ "fitness": {
+  "exampleEn": "Ziri watches fitness videos.",
+  "exampleCn": "齐里看健身视频。"
+ },
+ "flatten": {
+  "exampleEn": "You should flatten your land.",
+  "exampleCn": "你应该把地平整一下。"
+ },
+ "flatter": {
+  "exampleEn": "You mustn't flatter me.",
+  "exampleCn": "你可别恭维我。"
+ },
+ "fluctuation": {
+  "exampleEn": "The fluctuation in prices caused a financial crisis.",
+  "exampleCn": "物价的波动引发了一场金融危机。"
+ },
+ "flutter": {
+  "exampleEn": "You make my heart flutter.",
+  "exampleCn": "你让我心怦怦直跳。"
+ },
+ "follower": {
+  "exampleEn": "He was her follower.",
+  "exampleCn": "他是她的追随者。"
+ },
+ "footpath": {
+  "exampleEn": "The footpath is slippery.",
+  "exampleCn": "这条小路很滑。"
+ },
+ "forthcoming": {
+  "exampleEn": "Details will be forthcoming.",
+  "exampleCn": "细节稍后会公布。"
+ },
+ "freshen": {
+  "exampleEn": "I'll go freshen up.",
+  "exampleCn": "我去梳洗一下。"
+ },
+ "frightful": {
+  "exampleEn": "This morning the weather is frightful.",
+  "exampleCn": "今天早上的天气糟透了。"
+ },
+ "funding": {
+  "exampleEn": "We've lost our funding.",
+  "exampleCn": "我们的经费没了。"
+ },
+ "gangster": {
+  "exampleEn": "Tom is a gangster.",
+  "exampleCn": "汤姆是个匪徒。"
+ },
+ "generalization": {
+  "exampleEn": "Ziri always avoids generalization.",
+  "exampleCn": "齐里总是避免一概而论。"
+ },
+ "geographical": {
+  "exampleEn": "Algiers is a geographical gem.",
+  "exampleCn": "阿尔及尔是一颗地理明珠。"
+ },
+ "geometrical": {
+  "exampleEn": "The spiral is one of the most common geometrical forms in nature.",
+  "exampleCn": "螺旋是自然界最常见的几何形态之一。"
+ },
+ "gigantic": {
+  "exampleEn": "What a gigantic pumpkin!",
+  "exampleCn": "好大的一个南瓜！"
+ },
+ "glamour": {
+  "exampleEn": "Do you think I can handle all that glamour?",
+  "exampleCn": "你觉得我扛得住那样的光环吗？"
+ },
+ "gutter": {
+  "exampleEn": "Rainwater gurgled in the gutter.",
+  "exampleCn": "雨水在排水沟里哗哗地流。"
+ },
+ "handbook": {
+  "exampleEn": "I consulted the handbook.",
+  "exampleCn": "我查了手册。"
+ },
+ "handout": {
+  "exampleEn": "This isn't a handout.",
+  "exampleCn": "这不是施舍。"
+ },
+ "hazardous": {
+  "exampleEn": "This is extremely hazardous.",
+  "exampleCn": "这极其危险。"
+ },
+ "heighten": {
+  "exampleEn": "Humanitarian organizations fear the ongoing impasse and the hostile rhetoric could heighten local xenophobia.",
+  "exampleCn": "人道组织担心，僵局持续和敌对言辞会加剧当地的排外情绪。"
+ },
+ "henceforth": {
+  "exampleEn": "Officers will henceforth wear ties at dinner.",
+  "exampleCn": "从今以后，军官们晚餐时要打领带。"
+ },
+ "hindrance": {
+  "exampleEn": "I'm just a hindrance.",
+  "exampleCn": "我只是个累赘。"
+ },
+ "historian": {
+  "exampleEn": "What's the historian's duty?",
+  "exampleCn": "历史学家的职责是什么？"
+ },
+ "hitherto": {
+  "exampleEn": "The history of all hitherto existing societies is the history of class struggles.",
+  "exampleCn": "迄今一切社会的历史都是阶级斗争的历史。"
+ },
+ "huddle": {
+  "exampleEn": "Penguins often huddle together to keep warm.",
+  "exampleCn": "企鹅常常挤在一起取暖。"
+ },
+ "humidity": {
+  "exampleEn": "I can't stand humidity.",
+  "exampleCn": "我受不了潮湿。"
+ },
+ "humiliation": {
+  "exampleEn": "Humiliation is the beginning of sanctification.",
+  "exampleCn": "屈辱是成圣的开端。"
+ },
+ "hydrocarbon": {
+  "exampleEn": "Hexane is a hydrocarbon.",
+  "exampleCn": "己烷是一种碳氢化合物。"
+ },
+ "hysterical": {
+  "exampleEn": "I get hysterical easily.",
+  "exampleCn": "我容易歇斯底里。"
+ },
+ "idealism": {
+  "exampleEn": "Faith is subjective idealism.",
+  "exampleCn": "信仰是主观唯心主义。"
+ },
+ "immunity": {
+  "exampleEn": "Tom has diplomatic immunity.",
+  "exampleCn": "汤姆享有外交豁免权。"
+ },
+ "impartial": {
+  "exampleEn": "I can be impartial.",
+  "exampleCn": "我可以做到不偏不倚。"
+ },
+ "implore": {
+  "exampleEn": "We implore their forgiveness.",
+  "exampleCn": "我们恳求他们的宽恕。"
+ },
+ "impurity": {
+  "exampleEn": "Linguistic impurity is beautiful.",
+  "exampleCn": "语言的不纯粹是一种美。"
+ },
+ "inaccessible": {
+  "exampleEn": "It seemed distant and inaccessible.",
+  "exampleCn": "它显得遥远而难以接近。"
+ },
+ "inaccurate": {
+  "exampleEn": "These figures are inaccurate.",
+  "exampleCn": "这些数字不准确。"
+ },
+ "incandescent": {
+  "exampleEn": "This is an incandescent light bulb.",
+  "exampleCn": "这是一只白炽灯泡。"
+ },
+ "incense": {
+  "exampleEn": "They like using incense.",
+  "exampleCn": "他们喜欢用熏香。"
+ },
+ "incentive": {
+  "exampleEn": "Give me some incentive.",
+  "exampleCn": "给我一点激励。"
+ },
+ "inclination": {
+  "exampleEn": "Syncretism is my religious inclination.",
+  "exampleCn": "兼容并蓄是我的宗教倾向。"
+ },
+ "incompatible": {
+  "exampleEn": "Do you think we're incompatible?",
+  "exampleCn": "你觉得我们合不来吗？"
+ },
+ "incomplete": {
+  "exampleEn": "As for incomplete sentences...",
+  "exampleCn": "至于不完整的句子……"
+ },
+ "incorporate": {
+  "exampleEn": "Incorporate dates into your meals.",
+  "exampleCn": "把椰枣加进你的三餐里。"
+ },
+ "indefinitely": {
+  "exampleEn": "This will continue indefinitely.",
+  "exampleCn": "这会无限期地持续下去。"
+ },
+ "indicative": {
+  "exampleEn": "A high forehead is indicative of great mental power.",
+  "exampleCn": "高额头标志着过人的智力。"
+ },
+ "indiscriminately": {
+  "exampleEn": "She buys shoes indiscriminately.",
+  "exampleCn": "她买鞋不加挑选。"
+ },
+ "induce": {
+  "exampleEn": "Can sex induce labor?",
+  "exampleCn": "性生活能催产吗？"
+ },
+ "induction": {
+  "exampleEn": "Induction cooktops use magnets.",
+  "exampleCn": "电磁炉利用磁力工作。"
+ },
+ "inference": {
+  "exampleEn": "Is this an observation or an inference?",
+  "exampleCn": "这是观察还是推断？"
+ },
+ "infinitely": {
+  "exampleEn": "Kittens are infinitely frisky.",
+  "exampleCn": "小猫总是无限活泼。"
+ },
+ "inorganic": {
+  "exampleEn": "Your television shows sound inorganic.",
+  "exampleCn": "你说的那些电视节目听起来很做作。"
+ },
+ "insistent": {
+  "exampleEn": "She was very insistent.",
+  "exampleCn": "她非常坚持。"
+ },
+ "instability": {
+  "exampleEn": "Ziri warned about the roof’s instability.",
+  "exampleCn": "齐里提醒过屋顶不牢固。"
+ },
+ "installment": {
+  "exampleEn": "Can I pay by installment payment?",
+  "exampleCn": "我可以分期付款吗？"
+ },
+ "intake": {
+  "exampleEn": "Limit your alcohol intake.",
+  "exampleCn": "限制你的酒精摄入量。"
+ },
+ "intellectually": {
+  "exampleEn": "Tom is intellectually lazy.",
+  "exampleCn": "汤姆在动脑筋方面很懒。"
+ },
+ "intensify": {
+  "exampleEn": "The doctors want to intensify the treatments.",
+  "exampleCn": "医生们想加强治疗。"
+ },
+ "intercourse": {
+  "exampleEn": "Virginity is lost in intercourse.",
+  "exampleCn": "童贞在性交中失去。"
+ },
+ "intervention": {
+  "exampleEn": "The intervention was necessary.",
+  "exampleCn": "那次干预是必要的。"
+ },
+ "invariably": {
+  "exampleEn": "Tom was invariably wrong.",
+  "exampleCn": "汤姆总是错。"
+ },
+ "ironically": {
+  "exampleEn": "The answer is meant ironically.",
+  "exampleCn": "这个答案是反着说的。"
+ },
+ "irregularity": {
+  "exampleEn": "He is the last man to commit an irregularity.",
+  "exampleCn": "他是最不可能做出越轨之事的人。"
+ },
+ "irrespective": {
+  "exampleEn": "We accept anybody, irrespective of nationality.",
+  "exampleCn": "我们一视同仁，不论国籍。"
+ },
+ "kidnap": {
+  "exampleEn": "Did you kidnap them?",
+  "exampleCn": "是你绑架了他们吗？"
+ },
+ "lawsuit": {
+  "exampleEn": "The lawsuit remains undecided.",
+  "exampleCn": "那场诉讼仍未判决。"
+ },
+ "layman": {
+  "exampleEn": "That's a layman's idea.",
+  "exampleCn": "那是个外行的想法。"
+ },
+ "leaflet": {
+  "exampleEn": "This leaflet contains necessary information.",
+  "exampleCn": "这份传单里有必要的信息。"
+ },
+ "leakage": {
+  "exampleEn": "There has been some leakage behind the bathtub.",
+  "exampleCn": "浴缸后面有些渗漏。"
+ },
+ "lengthen": {
+  "exampleEn": "Can you lengthen it?",
+  "exampleCn": "你能把它加长吗？"
+ },
+ "limestone": {
+  "exampleEn": "Limestone underlies most of the site.",
+  "exampleCn": "这里大部分地下都是石灰岩。"
+ },
+ "lipstick": {
+  "exampleEn": "Who isn't wearing lipstick?",
+  "exampleCn": "谁没涂口红？"
+ },
+ "locality": {
+  "exampleEn": "A demonym is the name or term for the residents of a particular locality.",
+  "exampleCn": "地域称谓是对某一地区居民的称呼。"
+ },
+ "loosely": {
+  "exampleEn": "Sami uses that term very loosely.",
+  "exampleCn": "萨米用那个词用得很随意。"
+ },
+ "malpractice": {
+  "exampleEn": "Malpractice suits are down nationally.",
+  "exampleCn": "全国的医疗纠纷诉讼下降了。"
+ },
+ "managerial": {
+  "exampleEn": "He has managerial talent.",
+  "exampleCn": "他有管理才能。"
+ },
+ "manoeuvre": {
+  "exampleEn": "Birds change the shape of their wings to turn and manoeuvre.",
+  "exampleCn": "鸟类改变翅膀的形状来转弯和机动。"
+ },
+ "marshal": {
+  "exampleEn": "Miroslav is a field marshal.",
+  "exampleCn": "米罗斯拉夫是位陆军元帅。"
+ },
+ "marxism": {
+  "exampleEn": "\"Cultural Marxism\" is an antisemitic dog whistle.",
+  "exampleCn": "文化马克思主义是反犹暗语。"
+ },
+ "massacre": {
+  "exampleEn": "It was a massacre.",
+  "exampleCn": "那是一场屠杀。"
+ },
+ "maturity": {
+  "exampleEn": "Sami had emotional maturity issues.",
+  "exampleCn": "萨米的情感成熟度有问题。"
+ },
+ "merchandise": {
+  "exampleEn": "Don't handle the merchandise.",
+  "exampleCn": "别动手摸商品。"
+ },
+ "metallic": {
+  "exampleEn": "Plutonium has a metallic taste.",
+  "exampleCn": "钚有股金属味。"
+ },
+ "meteorite": {
+  "exampleEn": "Tom found a meteorite.",
+  "exampleCn": "汤姆捡到一块陨石。"
+ },
+ "microprocessor": {
+  "exampleEn": "The computer age led to tide gauges that use microprocessor-based technologies.",
+  "exampleCn": "计算机时代带来了使用微处理器技术的验潮仪。"
+ },
+ "microscopic": {
+  "exampleEn": "Bacteria are microscopic organisms.",
+  "exampleCn": "细菌是肉眼看不见的微生物。"
+ },
+ "mingle": {
+  "exampleEn": "The colors don't mingle well.",
+  "exampleCn": "这些颜色混不到一起。"
+ },
+ "minimal": {
+  "exampleEn": "The danger is minimal.",
+  "exampleCn": "危险微乎其微。"
+ },
+ "minimize": {
+  "exampleEn": "We need to minimize the risk.",
+  "exampleCn": "我们需要把风险降到最低。"
+ },
+ "missionary": {
+  "exampleEn": "Tom became a missionary.",
+  "exampleCn": "汤姆成了传教士。"
+ },
+ "mixer": {
+  "exampleEn": "Yanni's bath mixer is broken.",
+  "exampleCn": "雅尼的浴缸水龙头坏了。"
+ },
+ "moderately": {
+  "exampleEn": "That is moderately beautiful.",
+  "exampleCn": "那还算得上美。"
+ },
+ "monstrous": {
+  "exampleEn": "Murder is a monstrous act.",
+  "exampleCn": "谋杀是滔天的罪行。"
+ },
+ "multiplication": {
+  "exampleEn": "Multiplication is commutative, division is not.",
+  "exampleCn": "乘法可以交换，除法不行。"
+ },
+ "neutron": {
+  "exampleEn": "Magnetars are a type of neutron star with powerful magnetic fields.",
+  "exampleCn": "磁星是一种磁场极强中子星。"
+ },
+ "normalization": {
+  "exampleEn": "The normalization of hate speech erodes social harmony.",
+  "exampleCn": "仇恨言论被习以为常，会侵蚀社会和谐。"
+ },
+ "northward": {
+  "exampleEn": "The ship struck northward.",
+  "exampleCn": "船向北驶去。"
+ },
+ "notation": {
+  "exampleEn": "David needs to learn music notation.",
+  "exampleCn": "大卫需要学记谱法。"
+ },
+ "notwithstanding": {
+  "exampleEn": "She accepted our offer notwithstanding.",
+  "exampleCn": "尽管如此，她还是接受了我们的提议。"
+ },
+ "nought": {
+  "exampleEn": "I teach kids from nought to five years old.",
+  "exampleCn": "我教零到五岁的孩子。"
+ },
+ "nourishment": {
+  "exampleEn": "Oats are a multipurpose and valuable nourishment.",
+  "exampleCn": "燕麦是用途广泛、很有价值的滋养品。"
+ },
+ "numerical": {
+  "exampleEn": "The numerical simulations weren't accurate enough.",
+  "exampleCn": "那些数值模拟不够精确。"
+ },
+ "obsession": {
+  "exampleEn": "You are my obsession.",
+  "exampleCn": "你让我魂牵梦萦。"
+ },
+ "ordinarily": {
+  "exampleEn": "I don't ordinarily do this.",
+  "exampleCn": "我平常不这么干。"
+ },
+ "ornamental": {
+  "exampleEn": "Sami bought some ornamental plants.",
+  "exampleCn": "萨米买了几盆观赏植物。"
+ },
+ "orthodox": {
+  "exampleEn": "The Orthodox priest came.",
+  "exampleCn": "东正教神父来了。"
+ },
+ "outbreak": {
+  "exampleEn": "The public took the outbreak seriously.",
+  "exampleCn": "公众认真对待了这次疫情暴发。"
+ },
+ "outcry": {
+  "exampleEn": "The outcry would not abate.",
+  "exampleCn": "舆论的强烈抗议不会平息。"
+ },
+ "outlaw": {
+  "exampleEn": "Tom is an outlaw.",
+  "exampleCn": "汤姆是个亡命之徒。"
+ },
+ "outrage": {
+  "exampleEn": "This is an outrage!",
+  "exampleCn": "这简直骇人听闻！"
+ },
+ "overflow": {
+  "exampleEn": "The resin started to overflow.",
+  "exampleCn": "树脂开始溢出来了。"
+ },
+ "overhang": {
+  "exampleEn": "When the rain started, she ducked under an overhang.",
+  "exampleCn": "下雨时，她躲到了一处屋檐下。"
+ },
+ "overhear": {
+  "exampleEn": "Did you overhear everything?",
+  "exampleCn": "你全偷听到了吗？"
+ },
+ "overload": {
+  "exampleEn": "Never overload the mule.",
+  "exampleCn": "千万别让骡子驮过头。"
+ },
+ "overthrow": {
+  "exampleEn": "I will overthrow the dictator.",
+  "exampleCn": "我要推翻那个独裁者。"
+ },
+ "overwhelming": {
+  "exampleEn": "The heat is overwhelming.",
+  "exampleCn": "热得让人吃不消。"
+ },
+ "oxidize": {
+  "exampleEn": "Don't leave the metal exposed to the air or it will oxidize.",
+  "exampleCn": "别把金属暴露在空气里，否则它会氧化。"
+ },
+ "panther": {
+  "exampleEn": "The panther is pink.",
+  "exampleCn": "那只黑豹是粉色的。"
+ },
+ "paradoxically": {
+  "exampleEn": "Paradoxically, he is right.",
+  "exampleCn": "矛盾的是，他是对的。"
+ },
+ "paralyze": {
+  "exampleEn": "Choice overload can paralyze people into avoiding decision-making.",
+  "exampleCn": "选择太多会让人瘫痪，干脆不做决定。"
+ },
+ "payoff": {
+  "exampleEn": "Boris will get a better payoff.",
+  "exampleCn": "鲍里斯会得到更丰厚的回报。"
+ },
+ "peculiarity": {
+  "exampleEn": "I noticed a peculiarity.",
+  "exampleCn": "我注意到一个怪异之处。"
+ },
+ "penetration": {
+  "exampleEn": "Sex doesn't have to involve penetration.",
+  "exampleCn": "性行为不一定包含进入。"
+ },
+ "perception": {
+  "exampleEn": "This perception is incorrect.",
+  "exampleCn": "这种看法不对。"
+ },
+ "periodical": {
+  "exampleEn": "The periodical costs less than the book.",
+  "exampleCn": "这本期刊比那本书便宜。"
+ },
+ "peripheral": {
+  "exampleEn": "Yanni saw something in his peripheral vision.",
+  "exampleCn": "雅尼用余光看见了什么东西。"
+ },
+ "permissible": {
+  "exampleEn": "It's permissible to doubt.",
+  "exampleCn": "怀疑是被允许的。"
+ },
+ "persistence": {
+  "exampleEn": "Persistence will pay off.",
+  "exampleCn": "坚持就会有回报。"
+ },
+ "perspiration": {
+  "exampleEn": "We were all drenched with perspiration.",
+  "exampleCn": "我们全都汗流浃背。"
+ },
+ "persuasion": {
+  "exampleEn": "Don't use deceptive persuasion.",
+  "exampleCn": "别用骗人的说辞劝人。"
+ },
+ "petition": {
+  "exampleEn": "He signed the petition.",
+  "exampleCn": "他在请愿书上签了名。"
+ },
+ "polarity": {
+  "exampleEn": "He reversed the polarity.",
+  "exampleCn": "他把极性反了过来。"
+ },
+ "portray": {
+  "exampleEn": "In this film they both portray notorious gang leaders.",
+  "exampleCn": "在这部电影里，他们俩都扮演臭名昭著的帮派头目。"
+ },
+ "positively": {
+  "exampleEn": "You look positively haggard.",
+  "exampleCn": "你看上去简直憔悴极了。"
+ },
+ "poultry": {
+  "exampleEn": "I don't eat poultry.",
+  "exampleCn": "我不吃禽肉。"
+ },
+ "precede": {
+  "exampleEn": "Does existence precede essence?",
+  "exampleCn": "存在先于本质吗？"
+ },
+ "preclude": {
+  "exampleEn": "The one doesn't preclude the other.",
+  "exampleCn": "这两者并不互相排斥。"
+ },
+ "predominantly": {
+  "exampleEn": "Kabylie is predominantly mountainous.",
+  "exampleCn": "卡比利地区以山地为主。"
+ },
+ "predominate": {
+  "exampleEn": "Muslims predominate in this area.",
+  "exampleCn": "这个地区以穆斯林为主。"
+ },
+ "prerequisite": {
+  "exampleEn": "Is this a prerequisite?",
+  "exampleCn": "这是先修条件吗？"
+ },
+ "preservation": {
+  "exampleEn": "There are preservation miracles.",
+  "exampleCn": "也有保存完好的奇迹。"
+ },
+ "prevailing": {
+  "exampleEn": "This is now the prevailing opinion.",
+  "exampleCn": "这是如今的主流看法。"
+ },
+ "prevalence": {
+  "exampleEn": "The prevalence of anger and resentment is hard to ignore.",
+  "exampleCn": "愤怒与怨恨的蔓延不容忽视。"
+ },
+ "principally": {
+  "exampleEn": "Esperanto-speakers are principally always at least bilingual.",
+  "exampleCn": "说世界语的人大体上至少都会两种语言。"
+ },
+ "productivity": {
+  "exampleEn": "We need more productivity.",
+  "exampleCn": "我们需要更高的生产率。"
+ },
+ "prohibition": {
+  "exampleEn": "Prohibition is hereby officially prohibited.",
+  "exampleCn": "特此正式宣布：禁止禁令。"
+ },
+ "projecting": {
+  "exampleEn": "When you smile, you're projecting happiness.",
+  "exampleCn": "你微笑时，散发的是快乐。"
+ },
+ "projector": {
+  "exampleEn": "The projector doesn't work.",
+  "exampleCn": "投影仪坏了。"
+ },
+ "propagation": {
+  "exampleEn": "A longitudinal wave is one that vibrates in the direction of propagation.",
+  "exampleCn": "纵波是沿传播方向振动的波。"
+ },
+ "propeller": {
+  "exampleEn": "The fan propeller is broken.",
+  "exampleCn": "风扇的桨叶断了。"
+ },
+ "propulsion": {
+  "exampleEn": "Rotating machines are essential in subsonic aeronautical propulsion.",
+  "exampleCn": "旋转机械在亚音速航空推进中必不可少。"
+ },
+ "prospective": {
+  "exampleEn": "The company invited their prospective customers to the party.",
+  "exampleCn": "公司邀请了潜在客户来参加聚会。"
+ },
+ "provoke": {
+  "exampleEn": "Don't provoke that wasp.",
+  "exampleCn": "别去招惹那只黄蜂。"
+ },
+ "qualitative": {
+  "exampleEn": "She focuses on qualitative research.",
+  "exampleCn": "她专注于定性研究。"
+ },
+ "quantitative": {
+  "exampleEn": "Quantitative clinical data follow a wide range of distributions.",
+  "exampleCn": "定量临床数据服从多种多样的分布。"
+ },
+ "radial": {
+  "exampleEn": "All radial streets lead to the center of the settlement.",
+  "exampleCn": "所有放射状的街道都通向定居点的中心。"
+ },
+ "radiator": {
+  "exampleEn": "The radiator is cold.",
+  "exampleCn": "暖气片是凉的。"
+ },
+ "rainforest": {
+  "exampleEn": "We must protect the rainforest.",
+  "exampleCn": "我们必须保护雨林。"
+ },
+ "ramble": {
+  "exampleEn": "Tom has a tendency to ramble.",
+  "exampleCn": "汤姆说话容易东拉西扯。"
+ },
+ "rapidity": {
+  "exampleEn": "He moved with astonishing rapidity.",
+  "exampleCn": "他以惊人的速度移动。"
+ },
+ "realistic": {
+  "exampleEn": "I'm a realistic person.",
+  "exampleCn": "我是个现实的人。"
+ },
+ "realization": {
+  "exampleEn": "This realization isn't new.",
+  "exampleCn": "这个认识并不新鲜。"
+ },
+ "reassure": {
+  "exampleEn": "That doesn't reassure me.",
+  "exampleCn": "那并不能让我安心。"
+ },
+ "rebuke": {
+  "exampleEn": "Don't rebuke him for that.",
+  "exampleCn": "别为那件事训斥他。"
+ },
+ "reclaim": {
+  "exampleEn": "Nature will reclaim our planet.",
+  "exampleCn": "大自然会重新收回我们的星球。"
+ },
+ "recruitment": {
+  "exampleEn": "Recruitment starts this month.",
+  "exampleCn": "招聘本月开始。"
+ },
+ "refinery": {
+  "exampleEn": "Tom works long hours at the oil refinery.",
+  "exampleCn": "汤姆在炼油厂长时间工作。"
+ },
+ "refugee": {
+  "exampleEn": "Tom is a refugee.",
+  "exampleCn": "汤姆是个难民。"
+ },
+ "regenerate": {
+  "exampleEn": "Heathers can regenerate well if they're lightly trimmed.",
+  "exampleCn": "欧石楠轻度修剪后能长得很好。"
+ },
+ "regularity": {
+  "exampleEn": "I'm unsure of the regularity.",
+  "exampleCn": "我说不准它的规律性。"
+ },
+ "rejection": {
+  "exampleEn": "Sami couldn't accept rejection.",
+  "exampleCn": "萨米接受不了被拒绝。"
+ },
+ "remainder": {
+  "exampleEn": "The remainder of the evening was peaceful.",
+  "exampleCn": "那天晚上剩下的时间很平静。"
+ },
+ "renovation": {
+  "exampleEn": "The subway is under renovation.",
+  "exampleCn": "地铁正在翻修。"
+ },
+ "representation": {
+  "exampleEn": "Representation influences power dynamics.",
+  "exampleCn": "话语呈现会影响权力格局。"
+ },
+ "reproduction": {
+  "exampleEn": "It's a reproduction item.",
+  "exampleCn": "这是件复制品。"
+ },
+ "reptile": {
+  "exampleEn": "This is a reptile.",
+  "exampleCn": "这是一只爬行动物。"
+ },
+ "respectable": {
+  "exampleEn": "I'm a respectable businessman.",
+  "exampleCn": "我是个体面的生意人。"
+ },
+ "retard": {
+  "exampleEn": "I'm such a retard!",
+  "exampleCn": "我真是个笨蛋！"
+ },
+ "reunion": {
+  "exampleEn": "How was the reunion?",
+  "exampleCn": "那次重聚怎么样？"
+ },
+ "revelation": {
+  "exampleEn": "I had a revelation.",
+  "exampleCn": "我恍然大悟。"
+ },
+ "ripple": {
+  "exampleEn": "Rodrigo’s stomach started to ripple.",
+  "exampleCn": "罗德里戈的肚子开始起了波纹。"
+ },
+ "ruthless": {
+  "exampleEn": "He's greedy and ruthless.",
+  "exampleCn": "他贪婪又冷酷。"
+ },
+ "safeguard": {
+  "exampleEn": "I aim to safeguard my heart.",
+  "exampleCn": "我想守护好自己的心。"
+ },
+ "sardine": {
+  "exampleEn": "It could be a sardine.",
+  "exampleCn": "它可能是条沙丁鱼。"
+ },
+ "satisfactorily": {
+  "exampleEn": "All the tasks have been fulfilled satisfactorily.",
+  "exampleCn": "所有任务都圆满完成了。"
+ },
+ "scarcity": {
+  "exampleEn": "In times of plenty, remember the scarcity.",
+  "exampleCn": "丰年的时候别忘了匮乏。"
+ },
+ "scarlet": {
+  "exampleEn": "I love the color scarlet!",
+  "exampleCn": "我喜欢猩红色！"
+ },
+ "scramble": {
+  "exampleEn": "We had to scramble.",
+  "exampleCn": "我们只得仓促行动。"
+ },
+ "seemingly": {
+  "exampleEn": "Claudio was seemingly confused.",
+  "exampleCn": "克劳迪奥表面上很困惑。"
+ },
+ "sensitivity": {
+  "exampleEn": "What is high sensitivity?",
+  "exampleCn": "什么是高灵敏度？"
+ },
+ "sensor": {
+  "exampleEn": "What triggered the sensor?",
+  "exampleCn": "是什么触发了传感器？"
+ },
+ "sheriff": {
+  "exampleEn": "Are you the sheriff?",
+  "exampleCn": "你是警长吗？"
+ },
+ "shipbuilding": {
+  "exampleEn": "Iron is used in shipbuilding.",
+  "exampleCn": "造船要用铁。"
+ },
+ "shipwreck": {
+  "exampleEn": "I survived the shipwreck.",
+  "exampleCn": "我在海难中活了下来。"
+ },
+ "shorten": {
+  "exampleEn": "Telomeres shorten as we age.",
+  "exampleCn": "端粒会随年龄增长而变短。"
+ },
+ "shortfall": {
+  "exampleEn": "A budget deficit will occur because of a revenue shortfall.",
+  "exampleCn": "收入不足就会造成预算赤字。"
+ },
+ "shorthand": {
+  "exampleEn": "This is called shorthand.",
+  "exampleCn": "这叫速记。"
+ },
+ "shrewd": {
+  "exampleEn": "You're a shrewd businessman.",
+  "exampleCn": "你是个精明的生意人。"
+ },
+ "shutter": {
+  "exampleEn": "The shutter is broken.",
+  "exampleCn": "快门坏了。"
+ },
+ "similarity": {
+  "exampleEn": "The similarity is pretty vague.",
+  "exampleCn": "这种相似相当模糊。"
+ },
+ "simultaneously": {
+  "exampleEn": "They stood up simultaneously.",
+  "exampleCn": "他们同时站了起来。"
+ },
+ "sincerity": {
+  "exampleEn": "His statement lacks sincerity.",
+  "exampleCn": "他的话缺少诚意。"
+ },
+ "skeptical": {
+  "exampleEn": "Tom is still skeptical.",
+  "exampleCn": "汤姆仍然持怀疑态度。"
+ },
+ "solidarity": {
+  "exampleEn": "Solidarity is a weapon.",
+  "exampleCn": "团结是一件武器。"
+ },
+ "solidify": {
+  "exampleEn": "The dictator reorganised the country's leadership line-up in order to solidify his power base.",
+  "exampleCn": "独裁者重组了国家的领导班子，以巩固自己的权力基础。"
+ },
+ "sorrowful": {
+  "exampleEn": "She looks sorrowful and forlorn.",
+  "exampleCn": "她看起来悲伤又孤单。"
+ },
+ "specifically": {
+  "exampleEn": "What specifically looks wrong?",
+  "exampleCn": "具体哪里看起来不对？"
+ },
+ "specification": {
+  "exampleEn": "The maximum response time is listed in the specification.",
+  "exampleCn": "规格书里列明了最长响应时间。"
+ },
+ "spinal": {
+  "exampleEn": "The spinal cord doesn't heal.",
+  "exampleCn": "脊髓无法愈合。"
+ },
+ "spokesman": {
+  "exampleEn": "Who will act as spokesman?",
+  "exampleCn": "谁来当发言人？"
+ },
+ "stabilize": {
+  "exampleEn": "Algeria needs to stabilize its currency.",
+  "exampleCn": "阿尔及利亚需要稳定货币。"
+ },
+ "stagger": {
+  "exampleEn": "You're making me stagger.",
+  "exampleCn": "你晃得我都站不稳了。"
+ },
+ "standardize": {
+  "exampleEn": "It's difficult to standardize language for a multi-ethnic nation.",
+  "exampleCn": "对一个多民族国家来说，统一语言很难。"
+ },
+ "stationary": {
+  "exampleEn": "The population remains stationary.",
+  "exampleCn": "人口数量保持不变。"
+ },
+ "stiffness": {
+  "exampleEn": "She stretched to relieve the stiffness in her back.",
+  "exampleCn": "她拉伸了一下，缓解背部的僵硬。"
+ },
+ "stillness": {
+  "exampleEn": "His presence commanded stillness.",
+  "exampleCn": "他在场，众人便都安静下来。"
+ },
+ "stockholder": {
+  "exampleEn": "I'm a stockholder in this company.",
+  "exampleCn": "我是这家公司的股东。"
+ },
+ "streamline": {
+  "exampleEn": "From now on I want to attempt to streamline management.",
+  "exampleCn": "从现在起，我要尝试精简管理。"
+ },
+ "subdue": {
+  "exampleEn": "We cannot subdue nature.",
+  "exampleCn": "我们征服不了大自然。"
+ },
+ "subsequently": {
+  "exampleEn": "Tom was subsequently arrested.",
+  "exampleCn": "汤姆随后被捕了。"
+ },
+ "substantially": {
+  "exampleEn": "Algeria will need to increase its interest rates substantially.",
+  "exampleCn": "阿尔及利亚将需要大幅提高利率。"
+ },
+ "superficially": {
+  "exampleEn": "Don't treat such serious subjects so superficially.",
+  "exampleCn": "别这么浅薄地对待这么严肃的话题。"
+ },
+ "superiority": {
+  "exampleEn": "I resented his superiority.",
+  "exampleCn": "我讨厌他那副高人一等的样子。"
+ },
+ "supersonic": {
+  "exampleEn": "The airplane is capable of supersonic speeds.",
+  "exampleCn": "这架飞机能做超音速飞行。"
+ },
+ "supervise": {
+  "exampleEn": "Supervise your own children.",
+  "exampleCn": "看好你自己的孩子。"
+ },
+ "supervision": {
+  "exampleEn": "Tom needs some adult supervision.",
+  "exampleCn": "汤姆得有大人在旁边看着。"
+ },
+ "supplementary": {
+  "exampleEn": "You may need a supplementary dose after six months.",
+  "exampleCn": "六个月后你可能需要补一剂。"
+ },
+ "surpass": {
+  "exampleEn": "Nobody can surpass him.",
+  "exampleCn": "没人能超过他。"
+ },
+ "sweeten": {
+  "exampleEn": "Don't sweeten my coffee.",
+  "exampleCn": "别在我的咖啡里加糖。"
+ },
+ "sweetness": {
+  "exampleEn": "Brioche buns add sweetness.",
+  "exampleCn": "奶油面包卷带来一点甜味。"
+ },
+ "symmetrical": {
+  "exampleEn": "It doesn't look symmetrical.",
+  "exampleCn": "它看起来不对称。"
+ },
+ "synthesis": {
+  "exampleEn": "With synthesis, you have to be objective.",
+  "exampleCn": "做综合分析时必须客观。"
+ },
+ "synthesize": {
+  "exampleEn": "How do you synthesize aspirin?",
+  "exampleCn": "阿司匹林是怎么合成的？"
+ },
+ "systematically": {
+  "exampleEn": "Environmentally damaging projects should be abandoned systematically.",
+  "exampleCn": "破坏环境的项目应有计划地放弃。"
+ },
+ "tenable": {
+  "exampleEn": "Your position isn't tenable.",
+  "exampleCn": "你的立场站不住脚。"
+ },
+ "thanksgiving": {
+  "exampleEn": "Have a nice Thanksgiving!",
+  "exampleCn": "祝你感恩节愉快！"
+ },
+ "theorem": {
+  "exampleEn": "The theorem is incorrect.",
+  "exampleCn": "这条定理是错的。"
+ },
+ "thereof": {
+  "exampleEn": "Whereof one cannot speak, thereof one must be silent.",
+  "exampleCn": "对于不可言说之物，必须保持沉默。"
+ },
+ "thicken": {
+  "exampleEn": "Tom added wheat to thicken the soup.",
+  "exampleCn": "汤姆加了小麦把汤煮稠。"
+ },
+ "tickle": {
+  "exampleEn": "You can't tickle yourself.",
+  "exampleCn": "你没法胳肢自己。"
+ },
+ "trademark": {
+  "exampleEn": "He donned his trademark glasses.",
+  "exampleCn": "他戴上了他那副标志性的眼镜。"
+ },
+ "tradesman": {
+  "exampleEn": "He is a tradesman.",
+  "exampleCn": "他是个小店主。"
+ },
+ "transaction": {
+  "exampleEn": "It's a complicated transaction.",
+  "exampleCn": "这是笔复杂的交易。"
+ },
+ "transcend": {
+  "exampleEn": "Science and mathematics transcend borders.",
+  "exampleCn": "科学与数学超越国界。"
+ },
+ "transit": {
+  "exampleEn": "I am here in transit.",
+  "exampleCn": "我是路过这里。"
+ },
+ "tribute": {
+  "exampleEn": "I paid tribute to her.",
+  "exampleCn": "我向她致敬。"
+ },
+ "triumphant": {
+  "exampleEn": "His triumphant entry amazed everyone.",
+  "exampleCn": "他凯旋而入，让所有人都吃了一惊。"
+ },
+ "trolley": {
+  "exampleEn": "You're off your trolley!",
+  "exampleCn": "你疯了吧！"
+ },
+ "twilight": {
+  "exampleEn": "The twilight came on.",
+  "exampleCn": "暮色四合。"
+ },
+ "unconventional": {
+  "exampleEn": "He adopted an unconventional lifestyle.",
+  "exampleCn": "他过起了不走寻常路的生活。"
+ },
+ "undermine": {
+  "exampleEn": "Data breaches undermine trust.",
+  "exampleCn": "数据泄露会动摇信任。"
+ },
+ "undesirable": {
+  "exampleEn": "That behavior is undesirable!",
+  "exampleCn": "那种行为是要不得的！"
+ },
+ "uniformly": {
+  "exampleEn": "Continue stirring until the chocolate chips are mixed uniformly through the cookie dough.",
+  "exampleCn": "继续搅拌，直到巧克力碎均匀地混进饼干面团里。"
+ },
+ "universally": {
+  "exampleEn": "Algerians are universally respected.",
+  "exampleCn": "阿尔及利亚人处处受人尊重。"
+ },
+ "unlimited": {
+  "exampleEn": "No supply is unlimited.",
+  "exampleCn": "没有任何供应是无限的。"
+ },
+ "unorthodox": {
+  "exampleEn": "Tom's methods were unorthodox.",
+  "exampleCn": "汤姆的路数不合常规。"
+ },
+ "unpaid": {
+  "exampleEn": "My unpaid liabilities are still $100.",
+  "exampleCn": "我欠着没还的债还有一百块。"
+ },
+ "unprecedented": {
+  "exampleEn": "This is totally unprecedented.",
+  "exampleCn": "这完全是史无前例的。"
+ },
+ "unreliable": {
+  "exampleEn": "Tom is completely unreliable.",
+  "exampleCn": "汤姆完全靠不住。"
+ },
+ "untie": {
+  "exampleEn": "I can't untie this knot.",
+  "exampleCn": "我解不开这个结。"
+ },
+ "uphold": {
+  "exampleEn": "We must uphold family traditions.",
+  "exampleCn": "我们必须维护家庭传统。"
+ },
+ "utilization": {
+  "exampleEn": "Credit utilization constitutes a significant portion of a credit score.",
+  "exampleCn": "信用额度使用率在信用评分里占很大比重。"
+ },
+ "violation": {
+  "exampleEn": "What was the violation?",
+  "exampleCn": "违反的是什么规定？"
+ },
+ "visualize": {
+  "exampleEn": "Visualize your entire body.",
+  "exampleCn": "在脑海里想象你的全身。"
+ },
+ "vividly": {
+  "exampleEn": "He speaks so vividly.",
+  "exampleCn": "他讲得活灵活现。"
+ },
+ "vowel": {
+  "exampleEn": "This is a vowel.",
+  "exampleCn": "这是个元音。"
+ },
+ "wardrobe": {
+  "exampleEn": "There was a wardrobe.",
+  "exampleCn": "那里曾有一个衣柜。"
+ },
+ "warfare": {
+  "exampleEn": "This is information warfare.",
+  "exampleCn": "这是信息战。"
+ },
+ "watchful": {
+  "exampleEn": "Sami was very watchful.",
+  "exampleCn": "萨米时刻保持警惕。"
+ },
+ "watertight": {
+  "exampleEn": "His reasoning was watertight.",
+  "exampleCn": "他的推理滴水不漏。"
+ },
+ "whisker": {
+  "exampleEn": "The cow missed being hit by a gnat's whisker.",
+  "exampleCn": "那头牛差一根毫毛就被撞上了。"
+ },
+ "wilful": {
+  "exampleEn": "It's wilful ignorance, if you ask me.",
+  "exampleCn": "要我说，这是明知故昧。"
+ },
+ "windmill": {
+  "exampleEn": "I painted a windmill.",
+  "exampleCn": "我画了一架风车。"
+ },
+ "withhold": {
+  "exampleEn": "He has a tendency to withhold emotions.",
+  "exampleCn": "他习惯把情绪憋着不说。"
+ },
+ "wretched": {
+  "exampleEn": "The unjust are wretched.",
+  "exampleCn": "不义之人日子悲惨。"
+ },
+ "yielding": {
+  "exampleEn": "Algeria needs more crop-yielding productive lands.",
+  "exampleCn": "阿尔及利亚需要更多高产的耕地。"
+ }
+}

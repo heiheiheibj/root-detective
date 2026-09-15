@@ -39,9 +39,12 @@ for (const w of words) {
 }
 
 // ── 隔离率 ───────────────────────────────────────────────────────────────────
-const severity = { ok: 0, minor: 0, major: 0 }
-for (const r of reviewed.results) severity[r.severity] += 1
-const quarantineRate = words.length ? severity.major / words.length : 0
+// 复核可能没铺满全库（60 号的 handoff 目前只写了 Stage 1 切片），所以隔离率按**已复核**的词算，
+// 未复核的单独报出来 —— 不然「隔离率 0.0%」读起来像「全库都复核过且没问题」，其实根本没查。
+const severity = { ok: 0, minor: 0, major: 0, unreviewed: 0 }
+for (const r of reviewed.results) severity[r.severity] = (severity[r.severity] ?? 0) + 1
+const reviewedCount = reviewed.results.length - (severity.unreviewed ?? 0)
+const quarantineRate = reviewedCount ? severity.major / reviewedCount : 0
 
 // ── 体积（gzip）：分层后分「首屏（索引层）」和「懒加载（详情分片）」两组 ──
 const sizes = []
@@ -98,14 +101,14 @@ const costLine = llmDriven
 
 const line = (s = '') => `${s}\n`
 let md = ''
-md += line(`# Stage 1 产出报告`)
+md += line(`# 内容产出报告`)
 md += line()
 md += line(`> 生成于 ${new Date().toISOString()}，由 scripts/70-report.mjs 产出。`)
 md += line()
 md += line(`## 总览`)
 md += line()
 md += line(`- 词条 **${words.length}**（canary ${provenance.words.canary} + 生成 ${provenance.words.generated}），词素 **${morphemes.length}**（词根 ${roots.length}），世界 **${worlds.length}**`)
-md += line(`- 复核：ok ${severity.ok} / minor ${severity.minor} / major ${severity.major}，隔离率 **${(quarantineRate * 100).toFixed(1)}%**`)
+md += line(`- 复核：覆盖 **${reviewedCount}/${words.length}**（未复核 ${severity.unreviewed ?? 0}），ok ${severity.ok} / minor ${severity.minor} / major ${severity.major}，隔离率 **${(quarantineRate * 100).toFixed(1)}%**（按已复核词计）`)
 md += line(`- 漂移探测：样本 ${drift.sampled}，不一致 ${drift.mismatched}，漂移率 **${(drift.rate * 100).toFixed(1)}%**${drift.blocked ? '（**超过 5%，阻断发布**）' : '（≤5%，通过）'}，模式：${drift.mode}`)
 md += line(`- 花销：${costLine}`)
 md += line()
@@ -140,7 +143,7 @@ if (divergences.length) {
 }
 md += line(`## 复核发现的待改项（minor，不阻断）`)
 md += line()
-const flagged = reviewed.results.filter((r) => r.severity !== 'ok')
+const flagged = reviewed.results.filter((r) => r.severity === 'minor' || r.severity === 'major')
 if (!flagged.length) md += line('（无）')
 for (const r of flagged) for (const issue of r.issues) md += line(`- **${r.id}** ${issue.field}：${issue.problem} → ${issue.suggestedFix}`)
 

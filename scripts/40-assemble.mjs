@@ -206,6 +206,35 @@ usedDistractorSigs.clear()
 for (const w of canary) usedDistractorSigs.add(w.distractors.map((d) => d.text).join('|'))
 for (const w of generated) w.distractors = makeDistractors([...new Set(w.parts.map((p) => p.morphemeId))], w.id)
 
+// ── 死变体修剪（A22 归零）─────────────────────────────────────────────────────
+// 铺到 2698 词后，legacy 12 个词素与各批各留各的变体表，累计出几十个「没有任何词用到」的
+// 死变体（A22 警告）。这里统一修剪一次，落实「allomorphs 只写实际用到的表面」的既定设计。
+// 只保留 canary 干扰项用到的表面 —— canary 是手写锚点，干扰项里 `spic` 这类靠变体解析
+// （A15），剪掉会让 16 个锚点词的拼词盘直接报错（这条 A22 警告会保留，属已知的误报）。
+// **id / displayText 不保留**：A6 允许 displayText 作为表面、A15 按 id 查 morphemeById，
+// 都不依赖 allomorphs；而「id 本身是死变体」恰恰是铺库后最常见的形态（rotation 用 rotat、
+// consumption 用 consump，id `rot`/`consume` 反而没人用）。放在 40 号而不是收敛点：
+// legacy 12 个词素在这里才与 extraMorphemes 合并，只有这里能一次管全。
+const canaryDistractorTexts = new Set(canary.flatMap((w) => w.distractors.map((d) => d.text.replace(/^-+|-+$/g, '').toLowerCase())))
+const surfacesInUse = new Map()
+for (const w of words) for (const p of w.parts) {
+  if (!surfacesInUse.has(p.morphemeId)) surfacesInUse.set(p.morphemeId, new Set())
+  surfacesInUse.get(p.morphemeId).add(p.surface)
+}
+let trimmedVariants = 0
+for (const m of morphemes) {
+  const used = surfacesInUse.get(m.id)
+  if (!used) continue
+  const kept = m.allomorphs.filter((surface) =>
+    used.has(surface)
+    || canaryDistractorTexts.has(surface.toLowerCase()))
+  if (kept.length !== m.allomorphs.length) {
+    trimmedVariants += m.allomorphs.length - kept.length
+    m.allomorphs = kept
+  }
+}
+if (trimmedVariants) console.log(`死变体修剪 ${trimmedVariants} 个（A22 警告随之归零，canary 锚点用的除外）`)
+
 // ── 落盘 JSON ───────────────────────────────────────────────────────────────
 writeFileSync(join(contentDir, 'morphemes.json'), `${JSON.stringify(morphemes, null, 2)}\n`)
 writeFileSync(join(contentDir, 'words.json'), `${JSON.stringify(words, null, 2)}\n`)

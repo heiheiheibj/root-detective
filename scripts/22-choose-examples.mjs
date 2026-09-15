@@ -24,9 +24,10 @@ const words = splits.words
 const targetWords = words.map((w) => w.word)
 
 // 手写兜底例句（handoff）：本阶段无 LLM，缺中文对照的词由静态数据补，零成本。
-// Stage 1 与 Stage 2 两份，同名词条以 Stage 2 为准（新的覆盖旧的）。
-// 与 30 号的释义 handoff 一样分层：Stage 1 → Stage 2 → Stage 3，同名词以更晚的为准。
-const handoffPaths = ['words-examples.json', 'words-examples-stage2.json', 'words-examples-stage3.json']
+// 分层：Stage 1 → Stage 2 → Stage 3 → 复核轮（3b），同名词以更晚的为准。
+// 3b 是 2026-09 全表复核轮加的：那 811 条 Tatoeba 里没有中文对照的例句，由复核 AI
+// 逐条翻译补齐（exampleEn 原样保留，只补 exampleCn）。
+const handoffPaths = ['words-examples.json', 'words-examples-stage2.json', 'words-examples-stage3.json', 'words-examples-stage3b.json']
   .map((name) => join(here, 'lib', 'handoff', name))
 const handoff = new Map()
 for (const p of handoffPaths) {
@@ -59,7 +60,7 @@ function hasProperNoun(text, target) {
   })
 }
 
-const CAP = 3000 // 每词最多缓存多少候选英文句（控内存；调大以提高命中中文对照的概率）
+const CAP = 3000 // 每词最多缓存多少候选英文句（控内存；实测调到 15000 也救不回缺中文的那 811 条 —— Tatoeba 里确实没有对照句，白花 8 分钟）
 const candidates = new Map(targetWords.map((w) => [w, []])) // word -> [{id, text}]
 const candIdsByWord = new Map(targetWords.map((w) => [w, new Set()]))
 
