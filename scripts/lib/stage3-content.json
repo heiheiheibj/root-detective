@@ -5384,7 +5384,7 @@
     "surface": "ad"
    },
    {
-    "id": "vis",
+    "id": "vid",
     "surface": "vise"
    }
   ],
@@ -33432,7 +33432,7 @@
     "surface": "super"
    },
    {
-    "id": "vis",
+    "id": "vid",
     "surface": "vise"
    }
   ],
@@ -36387,18 +36387,6 @@
    "color": "orange"
   },
   {
-   "id": "vis",
-   "displayText": "vis",
-   "type": "root",
-   "meaningCn": "医力",
-   "allomorphs": [
-    "vise"
-   ],
-   "etymology": "",
-   "level": 3,
-   "color": "orange"
-  },
-  {
    "id": "ford",
    "displayText": "ford",
    "type": "root",
@@ -37411,7 +37399,9 @@
    "meaningCn": "看",
    "allomorphs": [
     "vid",
-    "vide"
+    "vide",
+    "vis",
+    "vise"
    ],
    "etymology": "",
    "level": 3,

@@ -2006,18 +2006,6 @@
     "color": "orange"
   },
   {
-    "id": "vis",
-    "displayText": "vis",
-    "type": "root",
-    "meaningCn": "医力",
-    "allomorphs": [
-      "vise"
-    ],
-    "etymology": "",
-    "level": 3,
-    "color": "orange"
-  },
-  {
     "id": "ford",
     "displayText": "ford",
     "type": "root",

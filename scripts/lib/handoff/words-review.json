@@ -1061,8 +1061,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "vocal": {
   "checks": {
@@ -1955,8 +1954,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "vacuum": {
   "checks": {
@@ -4261,8 +4259,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "salad": {
   "checks": {
@@ -4699,8 +4696,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "captive": {
   "checks": {
@@ -5726,8 +5722,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "action": {
   "checks": {
@@ -5803,8 +5798,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "advertisement": {
   "checks": {
@@ -5962,8 +5956,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "alive": {
   "checks": {
@@ -6001,8 +5994,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "also": {
   "checks": {
@@ -6059,8 +6051,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "anybody": {
   "checks": {
@@ -6098,8 +6089,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "anything": {
   "checks": {
@@ -6270,8 +6260,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "basic": {
   "checks": {
@@ -6385,8 +6374,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "believe": {
   "checks": {
@@ -6538,8 +6526,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "breakfast": {
   "checks": {
@@ -6558,8 +6545,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "building": {
   "checks": {
@@ -6679,8 +6665,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "careful": {
   "checks": {
@@ -6775,8 +6760,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "chicken": {
   "checks": {
@@ -6795,8 +6779,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "chinese": {
   "checks": {
@@ -6891,8 +6874,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "communication": {
   "checks": {
@@ -6911,8 +6893,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "company": {
   "checks": {
@@ -6931,8 +6912,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "competition": {
   "checks": {
@@ -6989,8 +6969,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "consider": {
   "checks": {
@@ -7034,8 +7013,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "cooker": {
   "checks": {
@@ -7054,8 +7032,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "correct": {
   "checks": {
@@ -7377,8 +7354,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "discussion": {
   "checks": {
@@ -7536,8 +7512,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "education": {
   "checks": {
@@ -7771,8 +7746,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "everything": {
   "checks": {
@@ -7848,8 +7822,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "excellent": {
   "checks": {
@@ -7963,8 +7936,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "feeling": {
   "checks": {
@@ -8135,8 +8107,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "forty": {
   "checks": {
@@ -8585,8 +8556,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "healthy": {
   "checks": {
@@ -8605,8 +8575,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "helpful": {
   "checks": {
@@ -8853,8 +8822,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "indian": {
   "checks": {
@@ -8917,8 +8885,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "instruction": {
   "checks": {
@@ -9234,8 +9201,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "little": {
   "checks": {
@@ -9330,8 +9296,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "mathematics": {
   "checks": {
@@ -9350,8 +9315,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "maybe": {
   "checks": {
@@ -9389,8 +9353,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "meeting": {
   "checks": {
@@ -9529,8 +9492,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "motorcycle": {
   "checks": {
@@ -9568,8 +9530,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "myself": {
   "checks": {
@@ -9626,8 +9587,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "nearly": {
   "checks": {
@@ -9684,8 +9644,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "newspaper": {
   "checks": {
@@ -9837,8 +9796,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "number": {
   "checks": {
@@ -9857,8 +9815,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "operation": {
   "checks": {
@@ -9997,8 +9954,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "perhaps": {
   "checks": {
@@ -10074,8 +10030,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "pocket": {
   "checks": {
@@ -10132,8 +10087,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "postcard": {
   "checks": {
@@ -10152,8 +10106,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "present": {
   "checks": {
@@ -10305,8 +10258,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "realise": {
   "checks": {
@@ -10420,8 +10372,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "relation": {
   "checks": {
@@ -10958,8 +10909,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "southern": {
   "checks": {
@@ -11117,8 +11067,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "sunday": {
   "checks": {
@@ -11314,8 +11263,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "terrible": {
   "checks": {
@@ -11612,8 +11560,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "treatment": {
   "checks": {
@@ -11866,8 +11813,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "visitor": {
   "checks": {
@@ -11962,8 +11908,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "weekday": {
   "checks": {
@@ -12020,8 +11965,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "western": {
   "checks": {
@@ -12116,8 +12060,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "winner": {
   "checks": {
@@ -12427,8 +12370,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "accountant": {
   "checks": {
@@ -12580,8 +12522,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "actual": {
   "checks": {
@@ -12714,8 +12655,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "aeroplane": {
   "checks": {
@@ -12734,8 +12674,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "affection": {
   "checks": {
@@ -12773,8 +12712,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "aggression": {
   "checks": {
@@ -12793,8 +12731,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "aggressive": {
   "checks": {
@@ -12813,8 +12750,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "agricultural": {
   "checks": {
@@ -12852,8 +12788,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "ahead": {
   "checks": {
@@ -12916,8 +12851,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "alcoholic": {
   "checks": {
@@ -12974,8 +12908,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "allowance": {
   "checks": {
@@ -13032,8 +12965,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "alternative": {
   "checks": {
@@ -13071,8 +13003,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "aluminium": {
   "checks": {
@@ -13173,8 +13104,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "announcement": {
   "checks": {
@@ -13212,8 +13142,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "antarctic": {
   "checks": {
@@ -13251,8 +13180,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "anyhow": {
   "checks": {
@@ -13385,8 +13313,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "appoint": {
   "checks": {
@@ -13481,8 +13408,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "approximately": {
   "checks": {
@@ -13634,8 +13560,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "arrival": {
   "checks": {
@@ -13913,8 +13838,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "attend": {
   "checks": {
@@ -14154,8 +14078,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "bakery": {
   "checks": {
@@ -14193,8 +14116,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "barbershop": {
   "checks": {
@@ -14251,8 +14173,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "bathtub": {
   "checks": {
@@ -14309,8 +14230,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "beginning": {
   "checks": {
@@ -14386,8 +14306,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "betray": {
   "checks": {
@@ -14425,8 +14344,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "biochemistry": {
   "checks": {
@@ -14502,8 +14420,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "bookshelf": {
   "checks": {
@@ -15014,8 +14931,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "carrot": {
   "checks": {
@@ -15211,8 +15127,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "chapter": {
   "checks": {
@@ -15231,8 +15146,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "characteristic": {
   "checks": {
@@ -15403,8 +15317,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "citizen": {
   "checks": {
@@ -15423,8 +15336,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "civilian": {
   "checks": {
@@ -15500,8 +15412,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "classical": {
   "checks": {
@@ -15520,8 +15431,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "classify": {
   "checks": {
@@ -15540,8 +15450,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "cleaner": {
   "checks": {
@@ -15655,8 +15564,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "commitment": {
   "checks": {
@@ -15713,8 +15621,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "communist": {
   "checks": {
@@ -15733,8 +15640,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "compass": {
   "checks": {
@@ -15753,8 +15659,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "compete": {
   "checks": {
@@ -15849,8 +15754,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "confirm": {
   "checks": {
@@ -15926,8 +15830,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "consequence": {
   "checks": {
@@ -15946,8 +15849,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "conservation": {
   "checks": {
@@ -15966,8 +15868,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "conservative": {
   "checks": {
@@ -15986,8 +15887,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "consideration": {
   "checks": {
@@ -16221,8 +16121,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "contradict": {
   "checks": {
@@ -16342,8 +16241,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "cookie": {
   "checks": {
@@ -16482,8 +16380,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "cowboy": {
   "checks": {
@@ -16717,8 +16614,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "decoration": {
   "checks": {
@@ -16889,8 +16785,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "detective": {
   "checks": {
@@ -16947,8 +16842,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "digital": {
   "checks": {
@@ -17214,8 +17108,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "discrimination": {
   "checks": {
@@ -17709,8 +17602,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "energetic": {
   "checks": {
@@ -17786,8 +17678,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "entertainment": {
   "checks": {
@@ -17806,8 +17697,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "enthusiastic": {
   "checks": {
@@ -17845,8 +17735,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "equipment": {
   "checks": {
@@ -18118,8 +18007,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "eyewitness": {
   "checks": {
@@ -18138,8 +18026,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "failure": {
   "checks": {
@@ -18234,8 +18121,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "fighter": {
   "checks": {
@@ -18545,8 +18431,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "founding": {
   "checks": {
@@ -18698,8 +18583,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "gardening": {
   "checks": {
@@ -18756,8 +18640,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "gifted": {
   "checks": {
@@ -19263,8 +19146,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "highway": {
   "checks": {
@@ -19631,8 +19513,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "insurance": {
   "checks": {
@@ -19809,8 +19690,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "kingdom": {
   "checks": {
@@ -19911,8 +19791,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "laughter": {
   "checks": {
@@ -20007,8 +19886,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "liberation": {
   "checks": {
@@ -20160,8 +20038,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "mailbox": {
   "checks": {
@@ -20218,8 +20095,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "married": {
   "checks": {
@@ -20390,8 +20266,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "millionaire": {
   "checks": {
@@ -20410,8 +20285,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "minibus": {
   "checks": {
@@ -20468,8 +20342,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "missile": {
   "checks": {
@@ -20488,8 +20361,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "misunderstand": {
   "checks": {
@@ -20932,8 +20804,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "nursery": {
   "checks": {
@@ -20990,8 +20861,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "offshore": {
   "checks": {
@@ -21048,8 +20918,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "opening": {
   "checks": {
@@ -21068,8 +20937,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "operator": {
   "checks": {
@@ -21474,8 +21342,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "paperwork": {
   "checks": {
@@ -21513,8 +21380,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "partly": {
   "checks": {
@@ -21552,8 +21418,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "pattern": {
   "checks": {
@@ -21572,8 +21437,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "peaceful": {
   "checks": {
@@ -21611,8 +21475,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "performance": {
   "checks": {
@@ -21669,8 +21532,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "personally": {
   "checks": {
@@ -21879,8 +21741,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "pollution": {
   "checks": {
@@ -21937,8 +21798,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "possession": {
   "checks": {
@@ -22128,8 +21988,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "pretend": {
   "checks": {
@@ -22477,8 +22336,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "rainbow": {
   "checks": {
@@ -22864,8 +22722,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "regulation": {
   "checks": {
@@ -23213,8 +23070,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "resign": {
   "checks": {
@@ -23309,8 +23165,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "reuse": {
   "checks": {
@@ -23842,8 +23697,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "separation": {
   "checks": {
@@ -23862,8 +23716,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "settlement": {
   "checks": {
@@ -24015,8 +23868,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "sickness": {
   "checks": {
@@ -24453,8 +24305,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "specialist": {
   "checks": {
@@ -24473,8 +24324,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "spelling": {
   "checks": {
@@ -24588,8 +24438,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "stewardess": {
   "checks": {
@@ -24627,8 +24476,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "straightforward": {
   "checks": {
@@ -25451,8 +25299,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "translator": {
   "checks": {
@@ -25471,8 +25318,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "transport": {
   "checks": {
@@ -25491,8 +25337,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "traveler": {
   "checks": {
@@ -25929,8 +25774,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "universal": {
   "checks": {
@@ -26310,8 +26154,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "warmth": {
   "checks": {
@@ -26387,8 +26230,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "weatherman": {
   "checks": {
@@ -26521,8 +26363,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "whichever": {
   "checks": {
@@ -26680,8 +26521,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "witness": {
   "checks": {
@@ -26738,8 +26578,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "workday": {
   "checks": {
@@ -27125,8 +26964,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "advanced": {
   "checks": {
@@ -27423,8 +27261,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "awfully": {
   "checks": {
@@ -27487,8 +27324,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "beforehand": {
   "checks": {
@@ -27703,8 +27539,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "certainty": {
   "checks": {
@@ -27799,8 +27634,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "circular": {
   "checks": {
@@ -28116,8 +27950,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "completely": {
   "checks": {
@@ -28155,8 +27988,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "compress": {
   "checks": {
@@ -28270,8 +28102,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "congress": {
   "checks": {
@@ -28499,8 +28330,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "continual": {
   "checks": {
@@ -28880,8 +28710,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "delivery": {
   "checks": {
@@ -29033,8 +28862,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "despite": {
   "checks": {
@@ -29053,8 +28881,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "destruction": {
   "checks": {
@@ -29111,8 +28938,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "detect": {
   "checks": {
@@ -29245,8 +29071,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "discipline": {
   "checks": {
@@ -29309,8 +29134,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "disgust": {
   "checks": {
@@ -29329,8 +29153,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "disorder": {
   "checks": {
@@ -29368,8 +29191,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "displease": {
   "checks": {
@@ -29445,8 +29267,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "distress": {
   "checks": {
@@ -29465,8 +29286,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "distribution": {
   "checks": {
@@ -29580,8 +29400,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "economic": {
   "checks": {
@@ -29682,8 +29501,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "elderly": {
   "checks": {
@@ -29721,8 +29539,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "electronics": {
   "checks": {
@@ -29817,8 +29634,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "emotional": {
   "checks": {
@@ -30027,8 +29843,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "entitle": {
   "checks": {
@@ -30218,8 +30033,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "exert": {
   "checks": {
@@ -30257,8 +30071,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "expansion": {
   "checks": {
@@ -30378,8 +30191,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "fashionable": {
   "checks": {
@@ -30493,8 +30305,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "finally": {
   "checks": {
@@ -30513,8 +30324,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "financial": {
   "checks": {
@@ -30691,8 +30501,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "gardener": {
   "checks": {
@@ -31015,8 +30824,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "headquarters": {
   "checks": {
@@ -31250,8 +31058,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "household": {
   "checks": {
@@ -31289,8 +31096,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "identical": {
   "checks": {
@@ -31328,8 +31134,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "illusion": {
   "checks": {
@@ -31424,8 +31229,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "impatient": {
   "checks": {
@@ -31444,8 +31248,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "implication": {
   "checks": {
@@ -31540,8 +31343,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "increasingly": {
   "checks": {
@@ -31889,8 +31691,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "injection": {
   "checks": {
@@ -32137,8 +31938,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "interpretation": {
   "checks": {
@@ -32195,8 +31995,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "investigation": {
   "checks": {
@@ -32481,8 +32280,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "legislation": {
   "checks": {
@@ -32703,8 +32501,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "lower": {
   "checks": {
@@ -32780,8 +32577,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "maintenance": {
   "checks": {
@@ -32857,8 +32653,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "massive": {
   "checks": {
@@ -33054,8 +32849,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "mislead": {
   "checks": {
@@ -33112,8 +32906,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "moderate": {
   "checks": {
@@ -33132,8 +32925,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "moisture": {
   "checks": {
@@ -33285,8 +33077,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "navigation": {
   "checks": {
@@ -33362,8 +33153,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "neutral": {
   "checks": {
@@ -33996,8 +33786,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "pavement": {
   "checks": {
@@ -34035,8 +33824,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "peninsula": {
   "checks": {
@@ -34055,8 +33843,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "perceive": {
   "checks": {
@@ -34284,8 +34071,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "portrait": {
   "checks": {
@@ -34304,8 +34090,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "portuguese": {
   "checks": {
@@ -34343,8 +34128,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "possibly": {
   "checks": {
@@ -34515,8 +34299,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "previously": {
   "checks": {
@@ -34661,8 +34444,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "productive": {
   "checks": {
@@ -35010,8 +34792,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "quarterly": {
   "checks": {
@@ -35498,8 +35279,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "relatively": {
   "checks": {
@@ -35518,8 +35298,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "relativity": {
   "checks": {
@@ -35538,8 +35317,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "release": {
   "checks": {
@@ -35558,8 +35336,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "reliability": {
   "checks": {
@@ -35673,8 +35450,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "repeatedly": {
   "checks": {
@@ -35731,8 +35507,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "reproduce": {
   "checks": {
@@ -35808,8 +35583,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "resistance": {
   "checks": {
@@ -35904,8 +35678,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "resource": {
   "checks": {
@@ -36063,8 +35836,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "resume": {
   "checks": {
@@ -36102,8 +35874,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "revenue": {
   "checks": {
@@ -36160,8 +35931,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "revolutionary": {
   "checks": {
@@ -36294,8 +36064,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "sadly": {
   "checks": {
@@ -36352,8 +36121,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "scarcely": {
   "checks": {
@@ -36391,8 +36159,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "secondly": {
   "checks": {
@@ -36411,8 +36178,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "selection": {
   "checks": {
@@ -36532,8 +36298,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "shampoo": {
   "checks": {
@@ -36552,8 +36317,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "sharply": {
   "checks": {
@@ -36610,8 +36374,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "shortage": {
   "checks": {
@@ -36630,8 +36393,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "similarly": {
   "checks": {
@@ -36688,8 +36450,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "slipper": {
   "checks": {
@@ -36784,8 +36545,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "solely": {
   "checks": {
@@ -37209,8 +36969,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "submerge": {
   "checks": {
@@ -37229,8 +36988,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "subsequent": {
   "checks": {
@@ -37249,8 +37007,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "subsidy": {
   "checks": {
@@ -37383,8 +37140,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "successive": {
   "checks": {
@@ -37479,8 +37235,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "surname": {
   "checks": {
@@ -37575,8 +37330,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "sustain": {
   "checks": {
@@ -37728,8 +37482,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "terrific": {
   "checks": {
@@ -37881,8 +37634,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "transformation": {
   "checks": {
@@ -37977,8 +37729,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "turning": {
   "checks": {
@@ -38320,8 +38071,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "unsuitable": {
   "checks": {
@@ -38378,8 +38128,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "usage": {
   "checks": {
@@ -38398,8 +38147,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "vanity": {
   "checks": {
@@ -38418,8 +38166,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "variable": {
   "checks": {
@@ -38723,8 +38470,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "whitewash": {
   "checks": {
@@ -38800,8 +38546,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "wireless": {
   "checks": {
@@ -38839,8 +38584,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "workshop": {
   "checks": {
@@ -38897,8 +38641,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "yearly": {
   "checks": {
@@ -39031,8 +38774,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "accomplishment": {
   "checks": {
@@ -39184,8 +38926,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "aerospace": {
   "checks": {
@@ -39558,8 +39299,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "assertive": {
   "checks": {
@@ -39692,8 +39432,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "availability": {
   "checks": {
@@ -39794,8 +39533,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "bearing": {
   "checks": {
@@ -39985,8 +39723,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "brightness": {
   "checks": {
@@ -40062,8 +39799,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "burner": {
   "checks": {
@@ -40202,8 +39938,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "casualty": {
   "checks": {
@@ -40298,8 +40033,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "charter": {
   "checks": {
@@ -40318,8 +40052,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "chatter": {
   "checks": {
@@ -40464,8 +40197,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "coastal": {
   "checks": {
@@ -40547,8 +40279,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "commentary": {
   "checks": {
@@ -40643,8 +40374,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "compact": {
   "checks": {
@@ -40688,8 +40418,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "compatriot": {
   "checks": {
@@ -41397,8 +41126,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "correspondence": {
   "checks": {
@@ -41518,8 +41246,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "courtesy": {
   "checks": {
@@ -41538,8 +41265,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "crooked": {
   "checks": {
@@ -41919,8 +41645,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "dependant": {
   "checks": {
@@ -41977,8 +41702,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "deposition": {
   "checks": {
@@ -42060,8 +41784,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "despatch": {
   "checks": {
@@ -42118,8 +41841,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "detector": {
   "checks": {
@@ -42290,8 +42012,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "disgrace": {
   "checks": {
@@ -42405,8 +42126,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "dispense": {
   "checks": {
@@ -42798,8 +42518,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "downturn": {
   "checks": {
@@ -43046,8 +42765,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "empirical": {
   "checks": {
@@ -43230,8 +42948,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "environmental": {
   "checks": {
@@ -43269,8 +42986,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "equilibrium": {
   "checks": {
@@ -43308,8 +43024,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "eruption": {
   "checks": {
@@ -43915,8 +43630,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "flatter": {
   "checks": {
@@ -43973,8 +43687,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "follower": {
   "checks": {
@@ -44341,8 +44054,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "glamour": {
   "checks": {
@@ -44361,8 +44073,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "gossip": {
   "checks": {
@@ -44381,8 +44092,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "grasshopper": {
   "checks": {
@@ -44420,8 +44130,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "handbook": {
   "checks": {
@@ -44952,8 +44661,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "immunity": {
   "checks": {
@@ -45016,8 +44724,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "improper": {
   "checks": {
@@ -45169,8 +44876,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "incidentally": {
   "checks": {
@@ -46005,8 +45711,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "ironically": {
   "checks": {
@@ -46386,8 +46091,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "luxurious": {
   "checks": {
@@ -46539,8 +46243,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "marginal": {
   "checks": {
@@ -46578,8 +46281,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "marxism": {
   "checks": {
@@ -46636,8 +46338,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "maturation": {
   "checks": {
@@ -46833,8 +46534,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "minimal": {
   "checks": {
@@ -47283,8 +46983,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "nourishment": {
   "checks": {
@@ -47379,8 +47078,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "ordinarily": {
   "checks": {
@@ -47456,8 +47154,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "outbreak": {
   "checks": {
@@ -47767,8 +47464,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "paradox": {
   "checks": {
@@ -47850,8 +47546,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "patriotic": {
   "checks": {
@@ -48193,8 +47888,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "polarity": {
   "checks": {
@@ -48896,8 +48590,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "qualitative": {
   "checks": {
@@ -49144,8 +48837,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "recession": {
   "checks": {
@@ -49265,8 +48957,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "refugee": {
   "checks": {
@@ -49494,8 +49185,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "resemblance": {
   "checks": {
@@ -49874,8 +49564,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "scramble": {
   "checks": {
@@ -49894,8 +49583,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "scripture": {
   "checks": {
@@ -50066,8 +49754,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "shipbuilding": {
   "checks": {
@@ -50535,8 +50222,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "stairway": {
   "checks": {
@@ -50637,8 +50323,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "stockholder": {
   "checks": {
@@ -50796,8 +50481,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "superficially": {
   "checks": {
@@ -50835,8 +50519,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "supersonic": {
   "checks": {
@@ -51102,8 +50785,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "terrorist": {
   "checks": {
@@ -51255,8 +50937,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "tickle": {
   "checks": {
@@ -51275,8 +50956,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "tighten": {
   "checks": {
@@ -51428,8 +51108,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "transit": {
   "checks": {
@@ -51650,8 +51329,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "unavoidable": {
   "checks": {
@@ -52107,8 +51785,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "violation": {
   "checks": {
@@ -52127,8 +51804,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "violently": {
   "checks": {
@@ -52223,8 +51899,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "wardrobe": {
   "checks": {
@@ -52281,8 +51956,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核 major（词素义/切分错注）已在源头修复：义项覆盖表/整条切分替换落地，机械检查重算通过"
+  "issues": []
  },
  "wasteful": {
   "checks": {
@@ -52358,8 +52032,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "whisker": {
   "checks": {

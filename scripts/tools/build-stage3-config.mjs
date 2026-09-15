@@ -179,6 +179,7 @@ const MORPHEME_MERGE = {
   courage: 'cor', // discourage/encouragement/courageous 落在 courage，词根本体是 cor（心）
   miss: 'mit', // missile/missing/permissible 落在 miss；mit 的变体表里本来就有 miss
   just: 'jud', // unjust 落在 just；jud 的变体表里本来就有 just
+  vis: 'vid', // advise/supervise 落在 vis（义项被 ECDICT 缩写词条污染成「医力」）；vid 已经是归并后的「看」，变体表里有 vise
 }
 
 // 切分修正：把词指回**正确的**词根（不是合并记录）。
