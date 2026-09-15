@@ -63,9 +63,16 @@ export function canonOf(map, id) {
  */
 export const CIGEN_ROOT_GROUPS = [
   ['tract', 'trah'],
-  ['cor', 'courage'],
+  // 'corr' 是 correct/correlate 的 cor-（com- 的同化形式，加强语气）—— cigen 对这两条词
+  // 标的是 `cor`，而 WordNet 那侧的词根 cor(心) 已由 courage→cor 的合并占住，所以单独建了
+  // corr 记录（见 morpheme-fallback.mjs 的 INJECT_MORPHEMES）。不对上这一层，
+  // 21 号的 cigen 交叉验证会把 correct/correlate 当冲突丢掉。
+  ['cor', 'courage', 'corr'],
   ['pel', 'puls'],
-  ['mit', 'miss', 'mitt'],
+  // `missan`（missing 的古英语词根）与 mit(送) **共用表面 miss**：21 号把「表面 → id」建成
+  // 一张 Map，同表面只能留最后一个，于是 cigen 的 `miss` 会解析成 missan，dismiss 就被判成
+  // 「cigen 标了本阶段没拆出的词根」丢掉（实测丢词 1 个）。把两边放进同一组，命中任一即算对上。
+  ['mit', 'miss', 'mitt', 'missan'],
   ['jud', 'just'],
   ['active', 'act'],
   ['duce', 'dc'],

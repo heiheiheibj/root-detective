@@ -13,7 +13,7 @@
 import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
-import { FALLBACK_MEANINGS, hasHanzi, OVERRIDE_MEANINGS } from '../lib/morpheme-fallback.mjs'
+import { FALLBACK_MEANINGS, hasHanzi, INJECT_MORPHEMES, OVERRIDE_DISPLAY, OVERRIDE_MEANINGS } from '../lib/morpheme-fallback.mjs'
 
 const here = dirname(fileURLToPath(import.meta.url))
 const libDir = join(here, '..', 'lib')
@@ -102,6 +102,32 @@ for (const batch of batches) {
   }
 }
 
+// ── 整条切分替换 ──────────────────────────────────────────────────────────────
+// WORD_PART_FIX 只能改 part.id（表面形式不变），救不了「切分本身就切错」的词：
+//   wander   = wandn[化暗杆内螺纹] + rn[r]     → 两个碎片，义项都是词典垃圾
+//   whether  = whet[磨] + her[她]               → whet 的义项是从 "whet" 这个词查来的
+//   carrot   = car[汽车] + rot[轮转]             → 两张卡片的义项都指不到「胡萝卜」
+//   isolate  = iso[相等] + late[携带]            → iso- 是「相等」，跟「隔离」无关
+//   delivery = deli[熟食店] + very[真正的]       → 同上
+// 每一对被替换掉的碎片都只服务这一条词（在别处没有任何用处），所以换掉不会误伤别人；
+// 而库里本来就有 15 个单部件词（porter/audio/grade/judge/script…），整词当词根是既定形态。
+// 改在这里而不是批次源文件里：批次文件是 build-batch-config 的产物，手改下次重建就没了。
+const SPLIT_REPLACE = {
+  wander: [{ id: 'wander', surface: 'wander' }],
+  whether: [{ id: 'whether', surface: 'whether' }],
+  carrot: [{ id: 'carrot', surface: 'carrot' }],
+  isolate: [{ id: 'isol', surface: 'isol' }, { id: 'ate', surface: 'ate' }],
+  delivery: [{ id: 'delivery', surface: 'delivery' }],
+}
+const replacedSplits = []
+for (const [word, parts] of Object.entries(SPLIT_REPLACE)) {
+  const before = allSplits[word]
+  if (!before) { errors.push(`SPLIT_REPLACE 的 ${word} 不在切分表里`); continue }
+  replacedSplits.push(`${word}: ${before.map((p) => `${p.id}[${p.surface}]`).join('+')} → ${parts.map((p) => `${p.id}[${p.surface}]`).join('+')}`)
+  allSplits[word] = parts.map((p) => ({ ...p }))
+}
+if (replacedSplits.length) console.log(`整条切分替换 ${replacedSplits.length} 处：\n  ${replacedSplits.join('\n  ')}`)
+
 // ── 词素 id 合并：同一个词根被登记成两条记录 ──────────────────────────────────────
 //
 // 21 号按 cigen 给的词根拼法定 id，而 cigen 对不同词给的拼法不一样 —— 同一个拉丁词根会散成
@@ -133,6 +159,16 @@ const MORPHEME_MERGE = {
 const WORD_PART_FIX = {
   notice: { not: 'note' },
   notation: { not: 'note' },
+  // cor- 在 r 前是 com- 的同化形式（加强语气），不是词根 cor(心)。correct ← com+regere，
+  // 与 courage/cordial 的 cor(心) 是两个词源。挂到 corr 上（见 INJECT_MORPHEMES），
+  // cor 家族就只剩真正表「心」的词。
+  correct: { cor: 'corr' },
+  correlate: { cor: 'corr' },
+  // missing ← 古英语 missan（错过、未命中），不是拉丁 mittere(送)。表面「miss」在两个词源里
+  // 都出现，所以新开 missan，让 mit(送) 继续服务 missile/mission/permissible。
+  // ⚠️ 这里必须写**切分表里的原始 id**（`miss`），不是 MERGE 之后的目标 id —— 改写只在
+  // 每个 part 上做一次，写 `mit` 会匹配不上，然后被 MORPHEME_MERGE 抢走（静默失效）。
+  missing: { miss: 'missan' },
 }
 
 // 「冰」的词素被登记成 id=iced（`ice` 这个 id 被名词后缀 -ice 占着，notice/police/justice 在用）。
@@ -208,6 +244,21 @@ for (let i = extraMorphemes.length - 1; i >= 0; i -= 1) {
   if (droppedIds.has(extraMorphemes[i].id)) extraMorphemes.splice(i, 1)
 }
 
+// ── 新增词素记录 ──────────────────────────────────────────────────────────────
+// 重切分（SPLIT_REPLACE）与词素拆分（WORD_PART_FIX）之后需要独立建模的词根，来源见
+// morpheme-fallback.mjs 的 INJECT_MORPHEMES 注释。上游数据源里没有这些 id —— 手改批次文件
+// 会在下次 build-batch-config 时被覆盖，所以统一在这里注入。
+const injected = []
+for (const m of INJECT_MORPHEMES) {
+  if (extraMorphemes.some((existing) => existing.id === m.id)) {
+    errors.push(`注入词素 ${m.id} 与已有词素 id 重复`)
+    continue
+  }
+  extraMorphemes.push({ ...m })
+  injected.push(m.id)
+}
+if (injected.length) console.log(`注入词素 ${injected.length} 个：${injected.join('、')}`)
+
 // 兜底义项：A20 要求 meaningCn 是 1–8 汉字。词素来自三处（stage1 的 extraMorphemes、
 // 各批 morphemes-roots、各批 morphemes-affixes），任何一处都可能带进没义项的词根或前后缀
 // （where/be/for/im/sist/tend…）。在这里统一兜一次，比在每个生成器里各补一遍可靠。
@@ -226,6 +277,18 @@ for (const m of extraMorphemes) {
   }
 }
 if (overridden.length) console.log(`词素义项强制覆盖 ${overridden.length} 处：\n  ${overridden.join('\n  ')}`)
+
+// 显示名修正：id 是内部标识，卡片上画的是 displayText（`wf` 直接显示出来就是一张写着
+// 「wf＝女人」的牌）。改在这里，理由与义项覆盖一致 —— 产物字段只在收敛点统一改。
+const displayFixed = []
+for (const m of extraMorphemes) {
+  const target = OVERRIDE_DISPLAY[m.id]
+  if (target && m.displayText !== target) {
+    displayFixed.push(`${m.id}：「${m.displayText}」->「${target}」`)
+    m.displayText = target
+  }
+}
+if (displayFixed.length) console.log(`词素显示名修正 ${displayFixed.length} 处：${displayFixed.join('、')}`)
 
 // ── 完整性自检：每个家族词都有 split；split 引用的词素都已建模 ──────────────
 const morphemeIds = new Set([...legacy.morphemes.map((m) => m.id), ...extraMorphemes.map((m) => m.id)])

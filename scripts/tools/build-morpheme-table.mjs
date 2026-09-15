@@ -36,8 +36,27 @@ function parseCsvLine(line) {
 }
 
 // ── ECDICT：中文释义（给零件词素自动填义项）──
+// ⚠️ 这张表是**兜底**，不是权威：它按 id 去查一个英文词条，而词素的拼法经常正好撞上
+// 某个缩写、专名或专业词条（`wf` 撞上 Water Filter、`who` 撞上世界卫生组织、`minim` 撞上
+// 药量单位）。所以下面既要过滤「明显不是普通词」的记录，又要剥掉 ECDICT 的领域标记 ——
+// 这两件事不做，义项表就会被词典垃圾灌满（实测污染了 165 条，且其中一批是「医山」这种把
+// 标记当字头拼进去的拼接串）。真正的把关在 scripts/lib/morpheme-fallback.mjs 的覆盖表。
 const ecMeaning = new Map()
 const ecWords = []
+/** 明显不是「普通英文单词」的记录：全大写缩写、首字母大写的专名、ECDICT 的领域标记条目。 */
+const ABBR_RE = /^\s*(abbr|缩写|略)\b|^\s*[\[【][^\]】]*[\]】]/
+function isAbbrLike(raw, translation) {
+  const t = String(translation || '')
+  if (ABBR_RE.test(t)) return true
+  // 全大写短词（WF、WHO、DC）在 ECDICT 里就是缩写条目；`I`（我）这类单词例外，用长度 2 起判。
+  const name = String(raw || '').trim()
+  return name.length >= 2 && name.length <= 6 && name === name.toUpperCase() && /[A-Z]/.test(name)
+}
+/** 首字母大写且不是全大写 → 专名（Mary、Ceres、Saturn）。 */
+function isProperLike(raw) {
+  const name = String(raw || '').trim()
+  return /^[A-Z]/.test(name) && name !== name.toUpperCase() && !name.includes(' ')
+}
 for (const line of readFileSync(join(rawDir, 'ecdict.csv'), 'utf8').split('\n').slice(1)) {
   if (!line.trim()) continue
   const f = parseCsvLine(line)
@@ -46,24 +65,45 @@ for (const line of readFileSync(join(rawDir, 'ecdict.csv'), 'utf8').split('\n').
   const translation = String(f[3] || '').replace(/\\n/g, ' ').replace(/\s+/g, ' ').trim()
   if (!translation || /前缀|后缀|词根/.test(translation)) continue
   ecWords.push(w)
-  ecMeaning.set(w, translation)
+  ecMeaning.set(w, { raw: String(f[0] || '').trim(), translation, junk: isAbbrLike(f[0], translation) || isProperLike(f[0]) })
 }
-/** 取第一个义项并砍到 8 个汉字以内（A20 要求 1–8 汉字）。 */
+/**
+ * 取第一个义项并砍到 8 个汉字以内（A20 要求 1–8 汉字）。
+ * **先剥 ECDICT 的领域标记**「[医] [计] [化] [解] [律]…」：那是词典给词条贴的标签，不是义项。
+ * 不剥就会出现「医山」「计硬件描象层」「枪医枪」这类值 —— 有汉字、过得了 A20，但完全不是词素义，
+ * 而且是全程最扎眼的一类错（玩家会看到写着「医山」的卡片）。
+ */
 function shortMeaning(text) {
-  const first = String(text).split(/[；;，,]/)[0].replace(/^(n|v|vt|vi|adj|adv|prep|conj|pron|int|aux|num|art)\.\s*/i, '').trim()
+  const stripped = String(text)
+    .replace(/[\[【][^\]】]*[\]】]/g, ' ') // 整段标签去掉（含 [医] 与 [与-lyse 词尾构成动词] 这种长标签）
+    .replace(/\s+/g, ' ')
+    .trim()
+  const first = stripped.split(/[；;，,]/)[0]
+    .replace(/^(n|v|vt|vi|adj|adv|prep|conj|pron|int|aux|num|art)\.\s*/i, '')
+    // ECDICT 里同一个词性段里还会再挂一个词性（`a. 任何的 pron. 任何一个`），
+    // 不在中间切一刀就会拼成「任何的任何」——义项串味就是这么来的。
+    .split(/\s+(?:n|v|vt|vi|adj|adv|prep|conj|pron|int|aux|num|art)\.\s/i)[0]
+    .trim()
   const hanziOnly = first.replace(/[^\u4e00-\u9fff]/g, '')
   return hanziOnly.slice(0, 8)
 }
-/** 零件词素/词干的义项：找以它开头的最短 ECDICT 词，取其中文。 */
+/**
+ * 零件词素/词干的义项：找以它开头的最短 ECDICT 词，取其中文。
+ * 撞上缩写/专名条目时**不产出**（宁可留空让覆盖表兜，也不把「滤水器」写进 woman 的词素）。
+ */
 function deriveMeaning(surface) {
-  if (ecMeaning.has(surface)) return shortMeaning(ecMeaning.get(surface))
+  const direct = ecMeaning.get(surface)
+  if (direct && !direct.junk) return shortMeaning(direct.translation)
+  if (direct && direct.junk) return ''
   let best = null
   for (const w of ecWords) {
     if (w.length > surface.length && w.startsWith(surface)) {
+      const rec = ecMeaning.get(w)
+      if (rec.junk) continue
       if (!best || w.length < best.length) best = w
     }
   }
-  return best ? shortMeaning(ecMeaning.get(best)) : ''
+  return best ? shortMeaning(ecMeaning.get(best).translation) : ''
 }
 
 const lexicon = JSON.parse(readFileSync(join(derivedDir, 'morpheme-lexicon.json'), 'utf8')).lexicon
@@ -129,45 +169,16 @@ const isFunctionalWord = (id) => {
   // 若 gloss 以词性开头（`seven` 的 "num. 七, 七个"），那只是 ECDICT 释义，仍要看词性。
   const g = glossOf(id).trim()
   if (g && !/^[a-z]+\.\s/.test(g) && /[,\s]/.test(g)) return false
-  const t = ecMeaning.get(id)
-  const m = t && String(t).match(/^([a-z]+)\.\s/)
+  const m = ecMeaning.get(id)?.translation.match(/^([a-z]+)\.\s/)
   return m ? FUNCTION_POS.has(m[1].toLowerCase()) : false
 }
 
 // 查不到中文义项、但确实是词素的那些：Wiktionary 有词素词条（gloss 是英文）的拉丁词根，
 // 和一些常见前后缀。A20 要求 meaningCn 是 1–8 汉字，空着过不了闸门。
-// 放在这里而不是下游脚本 —— 下游（build-batch-config）每次重跑都会从本产物重新生成，
-// 在那里补会被覆盖掉。
-const FALLBACK_MEANINGS = {
-  // 词根
-  sent: '感觉', act: '做、行动', tain: '持有', quest: '寻求',
-  ceive: '拿取', ceed: '行走', prise: '抓取', ten: '持有',
-  port: '携带', her: '她', not: '不',
-  // 前缀
-  ab: '离开', back: '向后', com: '共同', dec: '十', grand: '大、隔一代',
-  to: '到、向', ag: '朝向', mis: '错、坏', co: '共同', sur: '在上', after: '在之后',
-  tele: '远', under: '在下',
-  // 后缀
-  ball: '球', ing: '正在', less: '无、不', man: '人', mate: '伙伴',
-  ly: '…地', th: '第…', son: '儿子', some: '有点…的', head: '头',
-  work: '工作', motor: '发动机', ern: '…方向', ise: '使…化', end: '末端',
-  // 高考批新增（铺到 1,379 词后暴露的：功能词、常见前后缀、拉丁词根）
-  where: '何处', be: '是', for: '为了', out: '向外', col: '共同', di: '二',
-  down: '向下', by: '在旁边', self: '自身', home: '家', over: '在上', pur: '向前',
-  super: '超', sup: '在下', tran: '越过', up: '向上', with: '伴随', on: '在之上',
-  way: '路', ar: '朝向', side: '边', ple: '折叠', ling: '指小', ty: '十',
-  teen: '十', land: '土地', ward: '朝向', ship: '身份', gram: '写', ever: '无论',
-  ey: '指小', le: '小', selves: '自身', et: '指小', ible: '能…的', sist: '站立',
-  tend: '伸展', firm: '坚固', found: '奠基', host: '主人', late: '携带',
-  main: '主要', miss: '送', fall: '落下', text: '编织', ac: '朝向', anti: '反',
-  ap: '朝向', as: '朝向', ter: '三次', des: '除去', em: '进入', ex: '出',
-  il: '不', micro: '微小', mid: '中间', mini: '小', sus: '在下', ess: '女性',
-  ium: '元素', ize: '使…化', ical: '…的', ish: '…的', hood: '身份', woman: '女人',
-  ee: '被…者', ative: '…的', wards: '朝向', etic: '…的', dom: '领域', time: '时间',
-  wide: '广泛', off: '离开', wise: '方式', set: '放置', type: '字模',
-  craie: '白垩', technicus: '技艺的', ness: '状态', ry: '…的行为', ous: '…的',
-  ery: '场所', tic: '…的', ics: '学问', tion: '名词后缀',
-}
+// ⚠️ 这张表**只有一份**：scripts/lib/morpheme-fallback.mjs 的 FALLBACK_MEANINGS。
+// 以前这里内嵌了一份，与共用模块各自生长 —— 实测内嵌份漏了六级批新增（kin/let/safe/
+// acquisite…），导致 152 个词素在草稿里义项为空、整批过不了 A20。
+import { FALLBACK_MEANINGS } from '../lib/morpheme-fallback.mjs'
 
 const LANG_CN = { Latin: '拉丁语', Greek: '希腊语', English: '英语', French: '法语', 'Old English': '古英语', Germanic: '日耳曼语', Italian: '意大利语', Spanish: '西班牙语' }
 const table = []
@@ -221,18 +232,31 @@ const dupDisplay = new Map()
 for (const m of table) dupDisplay.set(m.displayText, (dupDisplay.get(m.displayText) || 0) + 1)
 const dups = [...dupDisplay].filter(([, c]) => c > 1)
 
-// 二次补齐：仍无义项的（多是词干变体，如 abbreviat / absorp），用「包含」匹配找最短词取义
+// 二次补齐：仍无义项的（多是词干变体，如 abbreviat / absorp），用「包含」匹配找最短词取义。
+// 必须限制「包含」的宽松度：不设下限时，`wandn` 会匹配到 insidescrewandnonrisingstem（暗杆内螺纹）、
+// `eond` 匹配到 dueondemand（活期）、`ular` 匹配到 gular（咽喉的）—— 兜出来的全是与词根无关的垃圾。
+// 要求被匹配的词不超过 id 长度的 2 倍（即 id 至少覆盖那个词的一半），并且跳过缩写/专名条目。
+const CONTAIN_RATIO = 2
+/** 「包含」兜底出来的义项还要再筛一道：人名/姓氏/复数形/领域标记一律不要。 */
+const JUNK_GLOSS_RE = /医|俚|人名|姓氏|男子名|女子名|的复数|量滴|液量单位|^缩写/
 let filledByContain = 0
 for (const m of table) {
   if (m.meaningCn || m._meaningSource === 'need-translate') continue
   let best = null
   for (const w of ecWords) {
-    if (w.length > m.id.length && w.includes(m.id)) { if (!best || w.length < best.length) best = w }
+    if (w.length <= m.id.length || w.length > m.id.length * CONTAIN_RATIO) continue
+    // 只认「词首/词尾包含」：夹在单词中间对上的多半是巧合（`vis` 落在 avis 里就是「阿维斯女子名」）。
+    if (!w.startsWith(m.id) && !w.endsWith(m.id)) continue
+    if (ecMeaning.get(w).junk) continue
+    if (!best || w.length < best.length) best = w
   }
   if (best) {
-    m.meaningCn = shortMeaning(ecMeaning.get(best))
-    m._meaningSource = `ecdict-contain(${best})`
-    filledByContain += 1
+    const gloss = shortMeaning(ecMeaning.get(best).translation)
+    if (gloss && !JUNK_GLOSS_RE.test(gloss)) {
+      m.meaningCn = gloss
+      m._meaningSource = `ecdict-contain(${best})`
+      filledByContain += 1
+    }
   }
 }
 
@@ -245,6 +269,24 @@ for (const t of needsTranslation.slice(0, 8)) console.log(`  ${t.id.padEnd(10)} 
 console.log(`\n自动义项样例（零件词素，前 10）：`)
 for (const m of table.filter((x) => x._meaningSource === 'ecdict').slice(0, 10)) console.log(`  ${m.id.padEnd(12)} ${m.type.padEnd(7)} → ${m.meaningCn}  (allomorphs: ${m.allomorphs.slice(0, 3).join(', ')})`)
 
+// 义项体检：兜底出来的义项必须「像一个词素义」，不能是词典标记或人名/缩写残渣。
+// 这一层以前没有，于是「医山」「计硬件描象层」「量滴液量单位」这类值一路走到产品里，
+// 玩家在拼词盘上看到写着「wf＝滤水器」的卡片。宁可在这里刷屏，也不让它悄悄出厂。
+const GLOSS_ARTIFACT_RE = /医|俚|人名|姓氏|男子名|女子名|的复数|量滴|液量单位|词尾|^见$/
+const suspicious = table.filter((m) => m.meaningCn && GLOSS_ARTIFACT_RE.test(m.meaningCn))
+if (suspicious.length) {
+  console.warn(`\n⚠️ 义项可疑 ${suspicious.length} 条（兜底表兜不住的要进 morpheme-fallback.mjs 的 OVERRIDE_MEANINGS）：`)
+  for (const m of suspicious) console.warn(`  ${m.id.padEnd(12)} ${m.type.padEnd(7)} → 「${m.meaningCn}」  (${m._meaningSource})`)
+}
+// 兜不出来的一律**留空**而不是硬塞一个词典垃圾：留空会让 A20 当场报错、逼人来补义项；
+// 塞垃圾只是把错误推到产品里，玩家看到的是「wf＝滤水器」这种卡片。所以这里把待补清单落盘。
+const noGloss = table.filter((m) => !m.meaningCn)
+if (noGloss.length) {
+  console.warn(`\n⚠️ 仍无义项 ${noGloss.length} 条 —— 补进 morpheme-fallback.mjs 的 FALLBACK_MEANINGS，否则 A20 会拦下整批：`)
+  console.warn(`   ${noGloss.slice(0, 24).map((m) => `${m.id}(${m._words}词)`).join(' ')}`)
+  console.warn(`（完整清单见 .work/derived/morphemes-needing-gloss.json）`)
+}
+
 writeFileSync(join(derivedDir, 'morphemes-draft.json'), JSON.stringify({
   generatedAt: new Date().toISOString(),
   stats,
@@ -254,4 +296,8 @@ writeFileSync(join(derivedDir, 'translate-queue.json'), JSON.stringify({
   note: '教学词素的英文 gloss，待译成 1–8 个汉字的中文义项（对齐现有 155 个词素的风格）',
   items: needsTranslation,
 }, null, 1), 'utf8')
-console.log(`\n已写 .work/derived/morphemes-draft.json 与 .work/derived/translate-queue.json`)
+writeFileSync(join(derivedDir, 'morphemes-needing-gloss.json'), JSON.stringify({
+  note: 'ECDICT 兜底兜不出来的词素（撞上缩写/专名条目，或匹配不到可信的词条）。这类**不能**让管线自己编一个值 —— 必须人工写进 scripts/lib/morpheme-fallback.mjs 的 FALLBACK_MEANINGS / OVERRIDE_MEANINGS',
+  items: noGloss.map((m) => ({ id: m.id, type: m.type, words: m._words, source: m._meaningSource })),
+}, null, 1), 'utf8')
+console.log(`\n已写 .work/derived/morphemes-draft.json、translate-queue.json、morphemes-needing-gloss.json`)
