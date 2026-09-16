@@ -305,6 +305,7 @@ const ALLOMORPH_TOUCH = [
   'ex', // event/evidence/educate = e、effect = ef（ex- 在辅音前的弱化与同化）
   'duct', // educate = duc
   'decide', // decision = decis + ion
+  'dis', // distant/distance = di（dis- 在 st 前脱落 s）
   // 注：spec 的 pect 变体（expect/suspect）在 legacy-morphemes.json 里补 ——
   //   spec 属于 legacy 12 词素，本函数只重算 extraMorphemes，改这里不生效。
 ]
@@ -444,7 +445,7 @@ const WORLD_ADD = {
   'hearth-forge': ['pan'],
   // ⚠️ 这个对象是字面量，key 重复会静默后者胜出 —— 早先给 measure-terrace 补 centre 时
   // 重写了整条，把 wide 顶掉了（A24 立刻报警才被发现）。新增词根一律往已有数组里加。
-  'measure-terrace': ['wide', 'centre', 'count'], // wide(宽窄) + centre(中心) + count(计算，account 入表后成教学词根)
+  'measure-terrace': ['wide', 'centre', 'count', 'circ'], // wide(宽窄) + centre(中心) + count(计算) + circ(圆)
   'compass-tower': ['where'],
   // Group A 施事名词（-er 补 'r' 变体后入表）把三个词干顶成了教学词根（家族 ≥3 词），
   // 得按词义挂进世界：produce(带出来)→货运码头、write(写)→手稿画室、trade(买卖)→市集巷。
@@ -453,15 +454,17 @@ const WORLD_ADD = {
   'market-lane': ['trade'],
   // 批次 06：新词根与改判 root 的词素挂世界（A24：教学词根要出现在地图上）
   'growth-lab': ['cre'], // 成长实验室：cre(创造、生长) 与 bio/gen/nat 同族
-  'motion-yard': ['sta', 'cess'], // 行止院：sta(站立) 与 stand 同义；cess(走) 与 ceed 同族
+  'motion-yard': ['sta', 'cess', 'stance', 'stant'], // 行止院：sta/stance/stant(站立) + cess(走)
   'discern-hall': ['sect'], // 明辨堂：sect(切) 与已有的 cut 同族
   'build-site': ['struct'], // 营造场：struct(堆叠、构造)
   // 批次 06b：新改判 root 与注入的词素挂世界
-  'reading-loft': ['lect'], // 识读阁：lect(收集、选)
+  'reading-loft': ['lect', 'sci'], // 识读阁：lect(收集、选) + sci(知道)
   'craft-works': ['par'], // 工匠铺：par(相等) 与 equ 同族
   'message-port': ['nect'], // 传送门：nect(连接) 与 port/dict 同族
   'lumber-store': ['ordin'], // 杂物仓：ordin(顺序) 与已有的 organ 同族
   'office-house': ['mand'], // 职事馆：mand(托付) 与 mission/employ 同族
+  'action-forge': ['fic'], // 行动工坊：fic(做、成) 与 ject/mob 同族
+  'justice-hall': ['viola'], // 正义殿堂：viola(越界、施暴) 与 jud/vinc 同族
 }
 for (const [worldId, ids] of Object.entries(WORLD_ADD)) {
   const world = allWorlds.find((w) => w.id === worldId)

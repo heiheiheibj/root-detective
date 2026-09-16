@@ -1,0 +1,31 @@
+{
+  "_comment": "批次 06d：第二批扫描挑出的 26 个词源站得住的常用词。sist/tain/pos/fic/sci/mob/min/sign/urbs/circ/tempor/lay/mote/spec/electr/vid/stance/mix/pense/limit/viola/stant 全部已建模；-ient 走 ent 的 ient 变体；distant/distance 需要 dis 补 di 变体（dis- 在 st 前）。",
+  "splits": {
+    "insist": [{ "id": "in", "surface": "in" }, { "id": "sist", "surface": "sist" }],
+    "retain": [{ "id": "re", "surface": "re" }, { "id": "tain", "surface": "tain" }],
+    "impose": [{ "id": "in", "surface": "im" }, { "id": "pos", "surface": "pose" }],
+    "sufficient": [{ "id": "sub", "surface": "suf" }, { "id": "fic", "surface": "fic" }, { "id": "ent", "surface": "ient" }],
+    "efficient": [{ "id": "ex", "surface": "ef" }, { "id": "fic", "surface": "fic" }, { "id": "ent", "surface": "ient" }],
+    "scientist": [{ "id": "sci", "surface": "sci" }, { "id": "ent", "surface": "ent" }, { "id": "ist", "surface": "ist" }],
+    "motion": [{ "id": "mob", "surface": "mot" }, { "id": "ion", "surface": "ion" }],
+    "motor": [{ "id": "mob", "surface": "mot" }, { "id": "or", "surface": "or" }],
+    "minor": [{ "id": "min", "surface": "min" }, { "id": "or", "surface": "or" }],
+    "signal": [{ "id": "sign", "surface": "sign" }, { "id": "al", "surface": "al" }],
+    "urban": [{ "id": "urbs", "surface": "urb" }, { "id": "an", "surface": "an" }],
+    "circle": [{ "id": "circ", "surface": "circ" }, { "id": "le", "surface": "le" }],
+    "temporary": [{ "id": "tempor", "surface": "tempor" }, { "id": "ary", "surface": "ary" }],
+    "opposite": [{ "id": "ob", "surface": "op" }, { "id": "pos", "surface": "pos" }, { "id": "ite", "surface": "ite" }],
+    "delay": [{ "id": "de", "surface": "de" }, { "id": "lay", "surface": "lay" }],
+    "remote": [{ "id": "re", "surface": "re" }, { "id": "mote", "surface": "mote" }],
+    "specify": [{ "id": "spec", "surface": "spec" }, { "id": "ify", "surface": "ify" }],
+    "electric": [{ "id": "electr", "surface": "electr" }, { "id": "ic", "surface": "ic" }],
+    "visual": [{ "id": "vid", "surface": "vis" }, { "id": "ual", "surface": "ual" }],
+    "instance": [{ "id": "in", "surface": "in" }, { "id": "stance", "surface": "stance" }],
+    "mixture": [{ "id": "mix", "surface": "mix" }, { "id": "ture", "surface": "ture" }],
+    "expense": [{ "id": "ex", "surface": "ex" }, { "id": "pense", "surface": "pense" }],
+    "limited": [{ "id": "limit", "surface": "limit" }, { "id": "ed", "surface": "ed" }],
+    "violence": [{ "id": "viola", "surface": "viol" }, { "id": "ence", "surface": "ence" }],
+    "distant": [{ "id": "dis", "surface": "di" }, { "id": "stant", "surface": "stant" }],
+    "distance": [{ "id": "dis", "surface": "di" }, { "id": "stance", "surface": "stance" }]
+  }
+}

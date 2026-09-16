@@ -42,13 +42,14 @@
   {
     "id": "action-forge",
     "name": "行动工坊",
-    "description": "学习词根：ject、mob、aud、voc、cred（行动工坊）",
+    "description": "学习词根：ject、mob、aud、voc、cred、fic（行动工坊）",
     "morphemeIds": [
       "ject",
       "mob",
       "aud",
       "voc",
-      "cred"
+      "cred",
+      "fic"
     ]
   },
   {
@@ -66,14 +67,15 @@
   {
     "id": "justice-hall",
     "name": "正义殿堂",
-    "description": "学习词根：jud、vinc、cor、sanct、test、grat（正义殿堂）",
+    "description": "学习词根：jud、vinc、cor、sanct、test、grat、viola（正义殿堂）",
     "morphemeIds": [
       "jud",
       "vinc",
       "cor",
       "sanct",
       "test",
-      "grat"
+      "grat",
+      "viola"
     ]
   },
   {
@@ -219,7 +221,7 @@
   {
     "id": "motion-yard",
     "name": "行止院",
-    "description": "学习词根：act、ceed、pass、turn、cycle、stand、gress、sta、cess（行止院）",
+    "description": "学习词根：act、ceed、pass、turn、cycle、stand、gress、sta、cess、stance、stant（行止院）",
     "morphemeIds": [
       "act",
       "ceed",
@@ -229,7 +231,9 @@
       "stand",
       "gress",
       "sta",
-      "cess"
+      "cess",
+      "stance",
+      "stant"
     ]
   },
   {
@@ -324,7 +328,7 @@
   {
     "id": "measure-terrace",
     "name": "度量台",
-    "description": "学习词根：east、short、high、space、point、normal、wide、centre、count（度量台）",
+    "description": "学习词根：east、short、high、space、point、normal、wide、centre、count、circ（度量台）",
     "morphemeIds": [
       "east",
       "short",
@@ -334,7 +338,8 @@
       "normal",
       "wide",
       "centre",
-      "count"
+      "count",
+      "circ"
     ]
   },
   {
@@ -382,7 +387,7 @@
   {
     "id": "reading-loft",
     "name": "识读阁",
-    "description": "学习词根：sign、mark、distinct、consider、correct、text、detect、sight、rest、note、lect（识读阁）",
+    "description": "学习词根：sign、mark、distinct、consider、correct、text、detect、sight、rest、note、lect、sci（识读阁）",
     "morphemeIds": [
       "sign",
       "mark",
@@ -394,7 +399,8 @@
       "sight",
       "rest",
       "note",
-      "lect"
+      "lect",
+      "sci"
     ]
   },
   {

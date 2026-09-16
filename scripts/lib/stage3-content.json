@@ -34728,6 +34728,282 @@
     "surface": "fect"
    }
   ],
+  "insist": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "sist",
+    "surface": "sist"
+   }
+  ],
+  "retain": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "tain",
+    "surface": "tain"
+   }
+  ],
+  "impose": [
+   {
+    "id": "in",
+    "surface": "im"
+   },
+   {
+    "id": "pos",
+    "surface": "pose"
+   }
+  ],
+  "sufficient": [
+   {
+    "id": "sub",
+    "surface": "suf"
+   },
+   {
+    "id": "fic",
+    "surface": "fic"
+   },
+   {
+    "id": "ent",
+    "surface": "ient"
+   }
+  ],
+  "efficient": [
+   {
+    "id": "ex",
+    "surface": "ef"
+   },
+   {
+    "id": "fic",
+    "surface": "fic"
+   },
+   {
+    "id": "ent",
+    "surface": "ient"
+   }
+  ],
+  "scientist": [
+   {
+    "id": "sci",
+    "surface": "sci"
+   },
+   {
+    "id": "ent",
+    "surface": "ent"
+   },
+   {
+    "id": "ist",
+    "surface": "ist"
+   }
+  ],
+  "motion": [
+   {
+    "id": "mob",
+    "surface": "mot"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "motor": [
+   {
+    "id": "mob",
+    "surface": "mot"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "minor": [
+   {
+    "id": "min",
+    "surface": "min"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "signal": [
+   {
+    "id": "sign",
+    "surface": "sign"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "urban": [
+   {
+    "id": "urbs",
+    "surface": "urb"
+   },
+   {
+    "id": "an",
+    "surface": "an"
+   }
+  ],
+  "circle": [
+   {
+    "id": "circ",
+    "surface": "circ"
+   },
+   {
+    "id": "le",
+    "surface": "le"
+   }
+  ],
+  "temporary": [
+   {
+    "id": "tempor",
+    "surface": "tempor"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "opposite": [
+   {
+    "id": "ob",
+    "surface": "op"
+   },
+   {
+    "id": "pos",
+    "surface": "pos"
+   },
+   {
+    "id": "ite",
+    "surface": "ite"
+   }
+  ],
+  "delay": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "lay",
+    "surface": "lay"
+   }
+  ],
+  "remote": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "mote",
+    "surface": "mote"
+   }
+  ],
+  "specify": [
+   {
+    "id": "spec",
+    "surface": "spec"
+   },
+   {
+    "id": "ify",
+    "surface": "ify"
+   }
+  ],
+  "electric": [
+   {
+    "id": "electr",
+    "surface": "electr"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   }
+  ],
+  "visual": [
+   {
+    "id": "vid",
+    "surface": "vis"
+   },
+   {
+    "id": "ual",
+    "surface": "ual"
+   }
+  ],
+  "instance": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "stance",
+    "surface": "stance"
+   }
+  ],
+  "mixture": [
+   {
+    "id": "mix",
+    "surface": "mix"
+   },
+   {
+    "id": "ture",
+    "surface": "ture"
+   }
+  ],
+  "expense": [
+   {
+    "id": "ex",
+    "surface": "ex"
+   },
+   {
+    "id": "pense",
+    "surface": "pense"
+   }
+  ],
+  "limited": [
+   {
+    "id": "limit",
+    "surface": "limit"
+   },
+   {
+    "id": "ed",
+    "surface": "ed"
+   }
+  ],
+  "violence": [
+   {
+    "id": "viola",
+    "surface": "viol"
+   },
+   {
+    "id": "ence",
+    "surface": "ence"
+   }
+  ],
+  "distant": [
+   {
+    "id": "dis",
+    "surface": "di"
+   },
+   {
+    "id": "stant",
+    "surface": "stant"
+   }
+  ],
+  "distance": [
+   {
+    "id": "dis",
+    "surface": "di"
+   },
+   {
+    "id": "stance",
+    "surface": "stance"
+   }
+  ],
   "object": [
    {
     "id": "ob",
@@ -35166,7 +35442,8 @@
    "meaningCn": "分离、分开、否定",
    "allomorphs": [
     "dis",
-    "dif"
+    "dif",
+    "di"
    ],
    "level": 1,
    "color": "blue",
@@ -64127,7 +64404,8 @@
     "mob",
     "aud",
     "voc",
-    "cred"
+    "cred",
+    "fic"
    ]
   },
   {
@@ -64150,7 +64428,8 @@
     "cor",
     "sanct",
     "test",
-    "grat"
+    "grat",
+    "viola"
    ]
   },
   {
@@ -64295,7 +64574,9 @@
     "stand",
     "gress",
     "sta",
-    "cess"
+    "cess",
+    "stance",
+    "stant"
    ]
   },
   {
@@ -64392,7 +64673,8 @@
     "normal",
     "wide",
     "centre",
-    "count"
+    "count",
+    "circ"
    ]
   },
   {
@@ -64448,7 +64730,8 @@
     "sight",
     "rest",
     "note",
-    "lect"
+    "lect",
+    "sci"
    ]
   },
   {

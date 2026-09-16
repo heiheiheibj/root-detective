@@ -262,7 +262,8 @@
     "displayText": "mob",
     "meaningCn": "移动",
     "allomorphs": [
-      "mob"
+      "mob",
+      "mot"
     ],
     "level": 2,
     "etymology": "来自拉丁语 movere，意为移动",
@@ -391,7 +392,8 @@
     "meaningCn": "分离、分开、否定",
     "allomorphs": [
       "dis",
-      "dif"
+      "dif",
+      "di"
     ],
     "level": 1,
     "color": "blue",
@@ -26083,6 +26085,18 @@
     "meaningCn": "礼节",
     "allomorphs": [
       "esy"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "green"
+  },
+  {
+    "id": "ture",
+    "displayText": "-ture",
+    "type": "suffix",
+    "meaningCn": "油温测量装置",
+    "allomorphs": [
+      "ture"
     ],
     "etymology": "",
     "level": 3,

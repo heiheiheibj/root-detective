@@ -375,5 +375,109 @@
   "effect": {
     "exampleEn": "The medicine had no effect.",
     "exampleCn": "这药没有效果。"
+  },
+  "insist": {
+    "exampleEn": "I insist on paying for it.",
+    "exampleCn": "我坚持由我来付钱。"
+  },
+  "retain": {
+    "exampleEn": "We retain the right to refuse.",
+    "exampleCn": "我们保留拒绝的权利。"
+  },
+  "impose": {
+    "exampleEn": "They impose a tax on fuel.",
+    "exampleCn": "他们对燃料征税。"
+  },
+  "sufficient": {
+    "exampleEn": "We have sufficient time.",
+    "exampleCn": "我们有足够的时间。"
+  },
+  "efficient": {
+    "exampleEn": "This machine is very efficient.",
+    "exampleCn": "这台机器效率很高。"
+  },
+  "scientist": {
+    "exampleEn": "He wants to be a scientist.",
+    "exampleCn": "他想成为一名科学家。"
+  },
+  "motion": {
+    "exampleEn": "The car is in motion.",
+    "exampleCn": "汽车在运动。"
+  },
+  "motor": {
+    "exampleEn": "The motor is very quiet.",
+    "exampleCn": "这台发动机很安静。"
+  },
+  "minor": {
+    "exampleEn": "It is only a minor problem.",
+    "exampleCn": "这只是个小问题。"
+  },
+  "signal": {
+    "exampleEn": "Wait for my signal.",
+    "exampleCn": "等我的信号。"
+  },
+  "urban": {
+    "exampleEn": "Urban life can be busy.",
+    "exampleCn": "城市生活可能很忙碌。"
+  },
+  "circle": {
+    "exampleEn": "Draw a circle on the paper.",
+    "exampleCn": "在纸上画一个圆。"
+  },
+  "temporary": {
+    "exampleEn": "This is only a temporary fix.",
+    "exampleCn": "这只是临时的解决办法。"
+  },
+  "opposite": {
+    "exampleEn": "The bank is on the opposite side.",
+    "exampleCn": "银行在对面。"
+  },
+  "delay": {
+    "exampleEn": "Sorry for the delay.",
+    "exampleCn": "抱歉耽搁了。"
+  },
+  "remote": {
+    "exampleEn": "They live in a remote village.",
+    "exampleCn": "他们住在一个偏远的村庄。"
+  },
+  "specify": {
+    "exampleEn": "Please specify the size you need.",
+    "exampleCn": "请说明你需要的尺寸。"
+  },
+  "electric": {
+    "exampleEn": "He drives an electric car.",
+    "exampleCn": "他开一辆电动汽车。"
+  },
+  "visual": {
+    "exampleEn": "The film has strong visual effects.",
+    "exampleCn": "这部电影有很强的视觉效果。"
+  },
+  "instance": {
+    "exampleEn": "For instance, take this one.",
+    "exampleCn": "例如，就拿这个。"
+  },
+  "mixture": {
+    "exampleEn": "Add the mixture to the pan.",
+    "exampleCn": "把混合物加进锅里。"
+  },
+  "expense": {
+    "exampleEn": "The expense was too high.",
+    "exampleCn": "费用太高了。"
+  },
+  "limited": {
+    "exampleEn": "Time is limited here.",
+    "exampleCn": "这里时间有限。"
+  },
+  "violence": {
+    "exampleEn": "They were against violence.",
+    "exampleCn": "他们反对暴力。"
+  },
+  "distant": {
+    "exampleEn": "She heard a distant sound.",
+    "exampleCn": "她听到远处传来的声音。"
+  },
+  "distance": {
+    "exampleEn": "The distance is about two miles.",
+    "exampleCn": "距离大约两英里。"
   }
 }
