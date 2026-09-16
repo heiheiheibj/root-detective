@@ -771,5 +771,105 @@
   "texture": {
     "exampleEn": "I like the texture of this cloth.",
     "exampleCn": "我喜欢这块布的质地。"
+  },
+  "conspicuous": {
+    "exampleEn": "The tower is conspicuous from here.",
+    "exampleCn": "那座塔从这里看很显眼。"
+  },
+  "enclosure": {
+    "exampleEn": "The park has a small enclosure.",
+    "exampleCn": "公园里有个小围场。"
+  },
+  "rotate": {
+    "exampleEn": "The wheels rotate very fast.",
+    "exampleCn": "轮子转得很快。"
+  },
+  "violate": {
+    "exampleEn": "They violate the rules often.",
+    "exampleCn": "他们经常违反规定。"
+  },
+  "equate": {
+    "exampleEn": "Do not equate money with happiness.",
+    "exampleCn": "不要把金钱等同于幸福。"
+  },
+  "corrupt": {
+    "exampleEn": "Power can corrupt people.",
+    "exampleCn": "权力会使人腐化。"
+  },
+  "abrupt": {
+    "exampleEn": "The ending was too abrupt.",
+    "exampleCn": "结局太突然了。"
+  },
+  "deduce": {
+    "exampleEn": "We can deduce the answer.",
+    "exampleCn": "我们可以推断出答案。"
+  },
+  "deduct": {
+    "exampleEn": "They deduct tax from my pay.",
+    "exampleCn": "他们从我的工资里扣税。"
+  },
+  "composite": {
+    "exampleEn": "It is a composite material.",
+    "exampleCn": "这是一种复合材料。"
+  },
+  "abundant": {
+    "exampleEn": "Food is abundant in this area.",
+    "exampleCn": "这个地区食物充足。"
+  },
+  "partition": {
+    "exampleEn": "They built a partition here.",
+    "exampleCn": "他们在这里建了一道隔墙。"
+  },
+  "terrify": {
+    "exampleEn": "Thunder can terrify small children.",
+    "exampleCn": "雷声会吓坏小孩。"
+  },
+  "facial": {
+    "exampleEn": "He had a facial injury.",
+    "exampleCn": "他脸部受伤了。"
+  },
+  "facet": {
+    "exampleEn": "Each facet of the problem matters.",
+    "exampleCn": "问题的每个方面都很重要。"
+  },
+  "mediate": {
+    "exampleEn": "She will mediate the dispute.",
+    "exampleCn": "她将调解这场争端。"
+  },
+  "optimal": {
+    "exampleEn": "We need the optimal solution.",
+    "exampleCn": "我们需要最优的解决方案。"
+  },
+  "gradient": {
+    "exampleEn": "The gradient is very steep.",
+    "exampleCn": "坡度很陡。"
+  },
+  "detach": {
+    "exampleEn": "You can detach the cover.",
+    "exampleCn": "你可以拆下盖子。"
+  },
+  "infer": {
+    "exampleEn": "We infer this from the data.",
+    "exampleCn": "我们从这些数据推断出这一点。"
+  },
+  "residual": {
+    "exampleEn": "There is a residual risk here.",
+    "exampleCn": "这里存在剩余风险。"
+  },
+  "susceptible": {
+    "exampleEn": "Old people are susceptible to it.",
+    "exampleCn": "老年人容易受它影响。"
+  },
+  "suffice": {
+    "exampleEn": "One example will suffice.",
+    "exampleCn": "一个例子就足够了。"
+  },
+  "torture": {
+    "exampleEn": "They torture their prisoners.",
+    "exampleCn": "他们折磨囚犯。"
+  },
+  "hinder": {
+    "exampleEn": "Bad weather can hinder progress.",
+    "exampleCn": "恶劣天气会阻碍进展。"
   }
 }

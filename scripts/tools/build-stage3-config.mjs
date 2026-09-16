@@ -457,7 +457,7 @@ const WORLD_ADD = {
   'growth-lab': ['cre'], // 成长实验室：cre(创造、生长) 与 bio/gen/nat 同族
   'motion-yard': ['sta', 'cess', 'stance', 'stant', 'motive'], // 行止院：sta/stance/stant(站立) + cess(走) + motive(移动)
   'discern-hall': ['sect', 'tail'], // 明辨堂：sect/tail(切、切割) 与已有的 cut 同族
-  'build-site': ['struct', 'ser', 'stable'], // 营造场：struct(堆叠、构造)、ser(放置、连接)、stable(稳固)
+  'build-site': ['struct', 'ser', 'stable', 'rupt'], // 营造场：struct(堆叠、构造)、ser(放置、连接)、stable(稳固)、rupt(破裂，与 break 同族)
   // 批次 06b：新改判 root 与注入的词素挂世界
   'reading-loft': ['lect', 'sci'], // 识读阁：lect(收集、选) + sci(知道)
   'craft-works': ['par'], // 工匠铺：par(相等) 与 equ 同族
@@ -465,10 +465,11 @@ const WORLD_ADD = {
   'lumber-store': ['ordin'], // 杂物仓：ordin(顺序) 与已有的 organ 同族
   'office-house': ['mand'], // 职事馆：mand(托付) 与 mission/employ 同族
   'action-forge': ['fic', 'fect', 'fact'], // 行动工坊：fic/fect/fact(做、成) 与 ject/mob 同族
-  'justice-hall': ['viola'], // 正义殿堂：viola(越界、施暴) 与 jud/vinc 同族
+  'justice-hall': ['viola', 'terror'], // 正义殿堂：viola(越界、施暴)、terror(恐怖) 与 jud/vinc 同族
   'council-chamber': ['tribu', 'sid', 'claim'], // 议事厅：tribu(给予)、sid(坐)、claim(要求、喊) 与 law/court 同族
   'force-yard': ['grav'], // 运力场：grav(重) 与 press/fall 同族
   'hold-vault': ['cip', 'sumere'], // 持握库：cip/sumere(拿取) 与 tain/ceive 同族
+  'common-lane': ['corr'], // 寻常巷：corr(共同、加强，com- 在 r 前的同化形)
 }
 for (const [worldId, ids] of Object.entries(WORLD_ADD)) {
   const world = allWorlds.find((w) => w.id === worldId)

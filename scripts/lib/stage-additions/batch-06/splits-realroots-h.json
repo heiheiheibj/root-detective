@@ -1,0 +1,30 @@
+{
+  "_comment": "批次 06h：第六批扫描挑出的 25 个词源站得住的词（bnc 6300+，偏难但都是四级/六级/考研词表词）。spec(spic)/clos/rot/viola/equ/rupt/duce/duct/pos/abound/part/terror/fac/medi/opt/grad/tach/fer/sid/cap/tor/hind 全部已建模；corrupt 走已注入的 corr（com- 在 r 前的同化形，correct 同用）。",
+  "splits": {
+    "conspicuous": [{ "id": "con", "surface": "con" }, { "id": "spec", "surface": "spic" }, { "id": "uous", "surface": "uous" }],
+    "enclosure": [{ "id": "en", "surface": "en" }, { "id": "clos", "surface": "clos" }, { "id": "ure", "surface": "ure" }],
+    "rotate": [{ "id": "rot", "surface": "rot" }, { "id": "ate", "surface": "ate" }],
+    "violate": [{ "id": "viola", "surface": "viol" }, { "id": "ate", "surface": "ate" }],
+    "equate": [{ "id": "equ", "surface": "equ" }, { "id": "ate", "surface": "ate" }],
+    "corrupt": [{ "id": "corr", "surface": "cor" }, { "id": "rupt", "surface": "rupt" }],
+    "abrupt": [{ "id": "ab", "surface": "ab" }, { "id": "rupt", "surface": "rupt" }],
+    "deduce": [{ "id": "de", "surface": "de" }, { "id": "duce", "surface": "duce" }],
+    "deduct": [{ "id": "de", "surface": "de" }, { "id": "duct", "surface": "duct" }],
+    "composite": [{ "id": "con", "surface": "com" }, { "id": "pos", "surface": "pos" }, { "id": "ite", "surface": "ite" }],
+    "abundant": [{ "id": "abound", "surface": "abund" }, { "id": "ant", "surface": "ant" }],
+    "partition": [{ "id": "part", "surface": "part" }, { "id": "ition", "surface": "ition" }],
+    "terrify": [{ "id": "terror", "surface": "terr" }, { "id": "ify", "surface": "ify" }],
+    "facial": [{ "id": "fac", "surface": "fac" }, { "id": "ial", "surface": "ial" }],
+    "facet": [{ "id": "fac", "surface": "fac" }, { "id": "et", "surface": "et" }],
+    "mediate": [{ "id": "medi", "surface": "medi" }, { "id": "ate", "surface": "ate" }],
+    "optimal": [{ "id": "opt", "surface": "optim" }, { "id": "al", "surface": "al" }],
+    "gradient": [{ "id": "grad", "surface": "grad" }, { "id": "ent", "surface": "ient" }],
+    "detach": [{ "id": "de", "surface": "de" }, { "id": "tach", "surface": "tach" }],
+    "infer": [{ "id": "in", "surface": "in" }, { "id": "fer", "surface": "fer" }],
+    "residual": [{ "id": "re", "surface": "re" }, { "id": "sid", "surface": "sid" }, { "id": "ual", "surface": "ual" }],
+    "susceptible": [{ "id": "sub", "surface": "sus" }, { "id": "cap", "surface": "cept" }, { "id": "ible", "surface": "ible" }],
+    "suffice": [{ "id": "sub", "surface": "suf" }, { "id": "fac", "surface": "fice" }],
+    "torture": [{ "id": "tor", "surface": "tor" }, { "id": "ture", "surface": "ture" }],
+    "hinder": [{ "id": "hind", "surface": "hind" }, { "id": "er", "surface": "er" }]
+  }
+}

@@ -1929,7 +1929,8 @@
       "graduate",
       "degrade",
       "upgrade",
-      "gradual"
+      "gradual",
+      "gradient"
     ],
     "sourceNote": "拉丁 gradus(步、台阶)，gradi(走)",
     "mnemonicNote": "grad(步)"
@@ -3456,7 +3457,8 @@
       "paragraph",
       "photograph",
       "telegraph",
-      "opposite"
+      "opposite",
+      "composite"
     ],
     "sourceNote": "希腊 graphein(写)，因用于制铅笔而得名",
     "mnemonicNote": "graph(写)+ite(矿物)：能留下字迹的碳"
@@ -15236,7 +15238,8 @@
       "media",
       "medieval",
       "mediocre",
-      "intermediate"
+      "intermediate",
+      "mediate"
     ],
     "sourceNote": "拉丁 medius(中间的) 的中性形式",
     "mnemonicNote": "medi(中)+um：不大不小、不去不来的那个"
@@ -15352,7 +15355,8 @@
       "immediate",
       "medieval",
       "mediocre",
-      "intermediate"
+      "intermediate",
+      "mediate"
     ],
     "sourceNote": "拉丁 medium 的复数，medius(中间)",
     "mnemonicNote": "medi(中间)：站在说的人和听的人中间"
@@ -15408,7 +15412,8 @@
       "immediate",
       "media",
       "mediocre",
-      "intermediate"
+      "intermediate",
+      "mediate"
     ],
     "sourceNote": "拉丁 medium aevum，即「中间的时代」",
     "mnemonicNote": "medi(中)+eval(时代)：夹在古代与近代之间"
@@ -15464,7 +15469,8 @@
       "immediate",
       "media",
       "medieval",
-      "intermediate"
+      "intermediate",
+      "mediate"
     ],
     "sourceNote": "拉丁 mediocris，medius(中) + ocris(山)",
     "mnemonicNote": "medi(中)+ocre(山)：爬到半山腰就停了"
@@ -17834,7 +17840,8 @@
       "absorb",
       "abuse",
       "consent",
-      "resent"
+      "resent",
+      "abrupt"
     ],
     "sourceNote": "拉丁 absentia，由 ab-(离开) + esse(存在) 构成",
     "mnemonicNote": "ab(离开)+sent(存在)：人从存在里离开了，就是不在场"
@@ -21570,7 +21577,8 @@
       "repetition",
       "disposition",
       "competence",
-      "competent"
+      "competent",
+      "partition"
     ],
     "sourceNote": "拉丁 competitio，competere(同争)",
     "mnemonicNote": "compet(同争)+ition：一场比下来分出名次的较量"
@@ -22040,7 +22048,8 @@
       }
     ],
     "familyWordIds": [
-      "correlate"
+      "correlate",
+      "corrupt"
     ],
     "sourceNote": "拉丁 corrigere，com-(加强) + regere(引导、使直)",
     "mnemonicNote": "cor(加强)+rect(直)：把弯的那截掰回正位"
@@ -28016,6 +28025,7 @@
     "familyWordIds": [
       "induce",
       "introduction",
+      "deduce",
       "produce",
       "reduce"
     ],
@@ -35167,7 +35177,9 @@
       "responsible",
       "permissible",
       "terrorist",
-      "sensible"
+      "sensible",
+      "terrify",
+      "susceptible"
     ],
     "sourceNote": "拉丁 terribilis，terrere(使恐惧)",
     "mnemonicNote": "terr(恐惧)+ible：光听描述心里就发紧"
@@ -36710,7 +36722,8 @@
     "familyWordIds": [
       "violation",
       "violence",
-      "violent"
+      "violent",
+      "violate"
     ],
     "sourceNote": "意大利 violino，viola(中提琴) 的指小形式",
     "mnemonicNote": "viol(弦琴)+in(小)：夹在下巴上那把小琴"
@@ -37871,7 +37884,8 @@
       "absorb",
       "abuse",
       "normally",
-      "normalization"
+      "normalization",
+      "abrupt"
     ],
     "sourceNote": "拉丁 abnormis，ab-(离开) + norma(规矩)",
     "mnemonicNote": "ab(离开)+normal(常态)：从那条标准线上离开了"
@@ -37984,7 +37998,8 @@
     "familyWordIds": [
       "absent",
       "abnormal",
-      "abuse"
+      "abuse",
+      "abrupt"
     ],
     "sourceNote": "拉丁 absorbere，ab-(离开) + sorbere(吸)",
     "mnemonicNote": "ab(离开)+sorb(吸)：把东西朝自己这边吸干"
@@ -38216,7 +38231,8 @@
       "accessory",
       "responsible",
       "permissible",
-      "sensible"
+      "sensible",
+      "susceptible"
     ],
     "sourceNote": "拉丁 accedere，ad-(朝向) + cedere(走)",
     "mnemonicNote": "access(通路)+ible(能)：路通着，谁都能到"
@@ -38739,7 +38755,8 @@
       "competition",
       "definition",
       "repetition",
-      "disposition"
+      "disposition",
+      "partition"
     ],
     "sourceNote": "拉丁 acquisitio，acquirere(取得)",
     "mnemonicNote": "acquis(取得)+ition：一点点攒到手的过程"
@@ -40695,7 +40712,8 @@
       "spiritual",
       "intellectual",
       "visual",
-      "gradual"
+      "gradual",
+      "residual"
     ],
     "sourceNote": "拉丁 annualis，annus(年)",
     "mnemonicNote": "ann(年)+ual：过一圈回到同一个日子"
@@ -42651,7 +42669,8 @@
       "attain",
       "attempt",
       "attend",
-      "attendance"
+      "attendance",
+      "detach"
     ],
     "sourceNote": "古法语 atachier，a-(朝向) + tache(钉、扣)",
     "mnemonicNote": "at(朝向)+tach(钉)：拿钉子把它俩凑成一堆"
@@ -46085,7 +46104,8 @@
       "spiritual",
       "intellectual",
       "visual",
-      "gradual"
+      "gradual",
+      "residual"
     ],
     "sourceNote": "拉丁 casualis，casus(落下、偶然)",
     "mnemonicNote": "cas(落下)+ual：像落叶那样碰巧掉到你面前的"
@@ -75625,7 +75645,8 @@
       "casual",
       "intellectual",
       "visual",
-      "gradual"
+      "gradual",
+      "residual"
     ],
     "sourceNote": "拉丁 spiritualis，spiritus(呼吸、灵魂)",
     "mnemonicNote": "spirit(心灵)+ual：看不见摸不着、却撑着人的那部分"
@@ -89271,7 +89292,8 @@
       "competition",
       "acquisition",
       "repetition",
-      "disposition"
+      "disposition",
+      "partition"
     ],
     "sourceNote": "拉丁 definitio，definire(划定界限)",
     "mnemonicNote": "defin(界定)+ition：把范围圈死，越出去就不是它了"
@@ -98984,7 +99006,8 @@
       "casual",
       "spiritual",
       "visual",
-      "gradual"
+      "gradual",
+      "residual"
     ],
     "sourceNote": "拉丁 intellectualis，intellectus(理解)",
     "mnemonicNote": "intellect(心智)+ual：一辈子跟书本打交道的人"
@@ -110829,7 +110852,8 @@
       "competition",
       "acquisition",
       "definition",
-      "disposition"
+      "disposition",
+      "partition"
     ],
     "sourceNote": "拉丁 repetitio，repetere(重做)",
     "mnemonicNote": "repet(再来)+ition：同样的动作又走一遍"
@@ -111827,7 +111851,8 @@
       "terrible",
       "accessible",
       "permissible",
-      "sensible"
+      "sensible",
+      "susceptible"
     ],
     "sourceNote": "拉丁 respondere(回应) + -ible",
     "mnemonicNote": "respons(回应)+ible：出了事得来答话的"
@@ -117587,7 +117612,9 @@
         "type": "form"
       }
     ],
-    "familyWordIds": [],
+    "familyWordIds": [
+      "torture"
+    ],
     "sourceNote": "拉丁 torrens，torrere(灼烧、翻腾)",
     "mnemonicNote": "tor(翻滚)+rent(流)：翻滚着往下冲的水"
   },
@@ -127834,7 +127861,9 @@
         "type": "form"
       }
     ],
-    "familyWordIds": [],
+    "familyWordIds": [
+      "conspicuous"
+    ],
     "sourceNote": "拉丁 contemptus，contemnere(轻视)",
     "mnemonicNote": "contempt(瞧不上)+uous：嘴角往下一撇那种"
   },
@@ -128360,7 +128389,8 @@
     "familyWordIds": [
       "correct",
       "relation",
-      "relative"
+      "relative",
+      "corrupt"
     ],
     "sourceNote": "中世纪拉丁 correlare，com-(共同) + relatus(关联)",
     "mnemonicNote": "cor(共同)+relate(关联)：两件事挂上钩"
@@ -128651,7 +128681,8 @@
       "partly",
       "partial",
       "counteract",
-      "depart"
+      "depart",
+      "partition"
     ],
     "sourceNote": "中古英语 countrepart，counter-(相对) + part(部分)",
     "mnemonicNote": "counter(相对)+part(部分)：另一头对着的那一份"
@@ -131703,7 +131734,8 @@
       "acquisition",
       "definition",
       "disposal",
-      "repetition"
+      "repetition",
+      "partition"
     ],
     "sourceNote": "拉丁 dispositio，disponere(安排)",
     "mnemonicNote": "dispos(安排)+ition：天生的那副排布"
@@ -165439,7 +165471,8 @@
       }
     ],
     "familyWordIds": [
-      "mixer"
+      "mixer",
+      "torture"
     ],
     "sourceNote": "拉丁 mixtura，miscere(混合)",
     "mnemonicNote": "mix(混合)+ture：搅在一起的东西"
@@ -170091,6 +170124,1496 @@
     ],
     "sourceNote": "拉丁 textura，texere(编织)",
     "mnemonicNote": "text(编织)+ure：织法决定的手感"
+  },
+  {
+    "id": "conspicuous",
+    "word": "conspicuous",
+    "phonetic": "/kәn'spikjuәs/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "显眼的、显著的",
+    "literalMeaningCn": "全被看到",
+    "metaphorMeaningCn": "一眼就能瞧见的",
+    "metaphorOptions": [
+      "一眼就能瞧见的",
+      "擦得发亮的椅子",
+      "市场卖的柠檬"
+    ],
+    "exampleEn": "The tower is conspicuous from here.",
+    "exampleCn": "那座塔从这里看很显眼。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "con",
+        "surface": "con",
+        "position": 0
+      },
+      {
+        "morphemeId": "spec",
+        "surface": "spic",
+        "position": 1
+      },
+      {
+        "morphemeId": "uous",
+        "surface": "uous",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "candesco",
+        "type": "form"
+      },
+      {
+        "text": "inevitable",
+        "type": "meaning"
+      },
+      {
+        "text": "numerable",
+        "type": "random"
+      },
+      {
+        "text": "stability",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "circumspect",
+      "inspection",
+      "respect",
+      "circumspection",
+      "contract",
+      "convince",
+      "conviction",
+      "convict"
+    ],
+    "sourceNote": "拉丁 conspicuus，con- + specere(看)",
+    "mnemonicNote": "con(完全)+spic(看)+uous：全被看见，藏不住"
+  },
+  {
+    "id": "enclosure",
+    "word": "enclosure",
+    "phonetic": "/in'klәuʒә/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "围场、附件",
+    "literalMeaningCn": "关起来的地方",
+    "metaphorMeaningCn": "用墙圈住的一块地",
+    "metaphorOptions": [
+      "用墙圈住的一块地",
+      "建好的房子",
+      "围成一圈的椅子"
+    ],
+    "exampleEn": "The park has a small enclosure.",
+    "exampleCn": "公园里有个小围场。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "en",
+        "surface": "en",
+        "position": 0
+      },
+      {
+        "morphemeId": "clos",
+        "surface": "clos",
+        "position": 1
+      },
+      {
+        "morphemeId": "ure",
+        "surface": "ure",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "rive",
+        "type": "form"
+      },
+      {
+        "text": "base",
+        "type": "meaning"
+      },
+      {
+        "text": "bed",
+        "type": "random"
+      },
+      {
+        "text": "eond",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "envision",
+      "nature",
+      "encourage",
+      "literature",
+      "capture",
+      "chicken",
+      "enjoy",
+      "golden"
+    ],
+    "sourceNote": "古法语 enclos，en- + clore(关闭)",
+    "mnemonicNote": "en(使进入)+clos(关闭)+ure：关进来的一块地方"
+  },
+  {
+    "id": "rotate",
+    "word": "rotate",
+    "phonetic": "/'rәuteit/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "旋转、轮流",
+    "literalMeaningCn": "转起来",
+    "metaphorMeaningCn": "像轮子一样转圈",
+    "metaphorOptions": [
+      "像轮子一样转圈",
+      "开往城市的车",
+      "厨房里的机器"
+    ],
+    "exampleEn": "The wheels rotate very fast.",
+    "exampleCn": "轮子转得很快。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "rot",
+        "surface": "rot",
+        "position": 0
+      },
+      {
+        "morphemeId": "ate",
+        "surface": "ate",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "hamburg",
+        "type": "form"
+      },
+      {
+        "text": "hard",
+        "type": "meaning"
+      },
+      {
+        "text": "her",
+        "type": "random"
+      },
+      {
+        "text": "house",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "generate",
+      "graduate",
+      "primate",
+      "evacuate",
+      "vaccinate",
+      "adequate",
+      "inadequate",
+      "dehydrate"
+    ],
+    "sourceNote": "拉丁 rotare，rota(轮子)",
+    "mnemonicNote": "rot(轮转)+ate：像轮子那样转"
+  },
+  {
+    "id": "violate",
+    "word": "violate",
+    "phonetic": "/'vaiәleit/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "违反、侵犯",
+    "literalMeaningCn": "越了界",
+    "metaphorMeaningCn": "踩过不该踩的线",
+    "metaphorOptions": [
+      "踩过不该踩的线",
+      "锁在监狱的人",
+      "写满记录的本子"
+    ],
+    "exampleEn": "They violate the rules often.",
+    "exampleCn": "他们经常违反规定。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "viola",
+        "surface": "viol",
+        "position": 0
+      },
+      {
+        "morphemeId": "ate",
+        "surface": "ate",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "ordinary",
+        "type": "form"
+      },
+      {
+        "text": "feat",
+        "type": "meaning"
+      },
+      {
+        "text": "wood",
+        "type": "random"
+      },
+      {
+        "text": "forget",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "generate",
+      "graduate",
+      "primate",
+      "evacuate",
+      "vaccinate",
+      "adequate",
+      "inadequate",
+      "dehydrate"
+    ],
+    "sourceNote": "拉丁 violare（施暴、侵犯）",
+    "mnemonicNote": "viol(越界、施暴)+ate：越过界线，犯了规矩"
+  },
+  {
+    "id": "equate",
+    "word": "equate",
+    "phonetic": "/i'kweit/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "使相等、等同",
+    "literalMeaningCn": "弄成相等",
+    "metaphorMeaningCn": "把两样看成一样",
+    "metaphorOptions": [
+      "把两样看成一样",
+      "称稻草的重量",
+      "量二十个箱子"
+    ],
+    "exampleEn": "Do not equate money with happiness.",
+    "exampleCn": "不要把金钱等同于幸福。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "equ",
+        "surface": "equ",
+        "position": 0
+      },
+      {
+        "morphemeId": "ate",
+        "surface": "ate",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "proof",
+        "type": "form"
+      },
+      {
+        "text": "abound",
+        "type": "meaning"
+      },
+      {
+        "text": "join",
+        "type": "random"
+      },
+      {
+        "text": "aeri",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "generate",
+      "graduate",
+      "primate",
+      "evacuate",
+      "vaccinate",
+      "equal",
+      "equation",
+      "equator"
+    ],
+    "sourceNote": "拉丁 aequare，aequus(相等)",
+    "mnemonicNote": "equ(相等)+ate：使两边相等"
+  },
+  {
+    "id": "corrupt",
+    "word": "corrupt",
+    "phonetic": "/kә'rʌpt/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "腐败的、使堕落",
+    "literalMeaningCn": "完全破掉",
+    "metaphorMeaningCn": "从里到外烂掉",
+    "metaphorOptions": [
+      "从里到外烂掉",
+      "锁在监狱的人",
+      "关掉的机器"
+    ],
+    "exampleEn": "Power can corrupt people.",
+    "exampleCn": "权力会使人腐化。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "corr",
+        "surface": "cor",
+        "position": 0
+      },
+      {
+        "morphemeId": "rupt",
+        "surface": "rupt",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "obsess",
+        "type": "form"
+      },
+      {
+        "text": "estimate",
+        "type": "meaning"
+      },
+      {
+        "text": "overwhelm",
+        "type": "random"
+      },
+      {
+        "text": "pea",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "correct",
+      "interrupt",
+      "correlate",
+      "disrupt",
+      "abrupt"
+    ],
+    "sourceNote": "拉丁 corrumpere，cor- + rumpere(破裂)",
+    "mnemonicNote": "cor(完全)+rupt(破裂)：整个破掉，烂了"
+  },
+  {
+    "id": "abrupt",
+    "word": "abrupt",
+    "phonetic": "/ә'brʌpt/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "突然的、唐突的",
+    "literalMeaningCn": "断开的",
+    "metaphorMeaningCn": "一下断掉，毫无铺垫",
+    "metaphorOptions": [
+      "一下断掉，毫无铺垫",
+      "绕过南方的河",
+      "接上城市的线"
+    ],
+    "exampleEn": "The ending was too abrupt.",
+    "exampleCn": "结局太突然了。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "ab",
+        "surface": "ab",
+        "position": 0
+      },
+      {
+        "morphemeId": "rupt",
+        "surface": "rupt",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "twi",
+        "type": "form"
+      },
+      {
+        "text": "st",
+        "type": "meaning"
+      },
+      {
+        "text": "side",
+        "type": "random"
+      },
+      {
+        "text": "es",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "absent",
+      "abnormal",
+      "absorb",
+      "abuse",
+      "interrupt",
+      "disrupt",
+      "corrupt"
+    ],
+    "sourceNote": "拉丁 abruptus，ab- + rumpere(破裂)",
+    "mnemonicNote": "ab(离开)+rupt(破裂)：突然断掉，说停就停"
+  },
+  {
+    "id": "deduce",
+    "word": "deduce",
+    "phonetic": "/di'dju:s/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "推论、演绎",
+    "literalMeaningCn": "引出来",
+    "metaphorMeaningCn": "顺着线索推出来",
+    "metaphorOptions": [
+      "顺着线索推出来",
+      "写满记录的本子",
+      "读黑板上的文字"
+    ],
+    "exampleEn": "We can deduce the answer.",
+    "exampleCn": "我们可以推断出答案。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "de",
+        "surface": "de",
+        "position": 0
+      },
+      {
+        "morphemeId": "duce",
+        "surface": "duce",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "divided",
+        "type": "form"
+      },
+      {
+        "text": "healthy",
+        "type": "meaning"
+      },
+      {
+        "text": "pleasant",
+        "type": "random"
+      },
+      {
+        "text": "urge",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "deport",
+      "degrade",
+      "depend",
+      "deposit",
+      "deflect",
+      "deflection",
+      "dehydrate",
+      "dehydration"
+    ],
+    "sourceNote": "拉丁 deducere，de-(向下) + ducere(引导)",
+    "mnemonicNote": "de(向下)+duce(引导)：往下引，推出结论"
+  },
+  {
+    "id": "deduct",
+    "word": "deduct",
+    "phonetic": "/di'dʌkt/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "扣除、减去",
+    "literalMeaningCn": "引走一部分",
+    "metaphorMeaningCn": "从总额里减掉",
+    "metaphorOptions": [
+      "从总额里减掉",
+      "数二十个硬币",
+      "市场卖出的黄金"
+    ],
+    "exampleEn": "They deduct tax from my pay.",
+    "exampleCn": "他们从我的工资里扣税。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "de",
+        "surface": "de",
+        "position": 0
+      },
+      {
+        "morphemeId": "duct",
+        "surface": "duct",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "sist",
+        "type": "form"
+      },
+      {
+        "text": "tach",
+        "type": "meaning"
+      },
+      {
+        "text": "autonomy",
+        "type": "random"
+      },
+      {
+        "text": "bad",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "deport",
+      "degrade",
+      "depend",
+      "deposit",
+      "deflect",
+      "deflection",
+      "dehydrate",
+      "dehydration"
+    ],
+    "sourceNote": "拉丁 deducere，de-(向下) + ducere(引导)",
+    "mnemonicNote": "de(向下)+duct(引导)：引走一块，就少了"
+  },
+  {
+    "id": "composite",
+    "word": "composite",
+    "phonetic": "/kәm'pɒzit/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "合成的、复合材料",
+    "literalMeaningCn": "放到一起",
+    "metaphorMeaningCn": "几样拼成的一件",
+    "metaphorOptions": [
+      "几样拼成的一件",
+      "建好的房子",
+      "围成一圈的椅子"
+    ],
+    "exampleEn": "It is a composite material.",
+    "exampleCn": "这是一种复合材料。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "con",
+        "surface": "com",
+        "position": 0
+      },
+      {
+        "morphemeId": "pos",
+        "surface": "pos",
+        "position": 1
+      },
+      {
+        "morphemeId": "ite",
+        "surface": "ite",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "master",
+        "type": "form"
+      },
+      {
+        "text": "heavy",
+        "type": "meaning"
+      },
+      {
+        "text": "hill",
+        "type": "random"
+      },
+      {
+        "text": "wife",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "graphite",
+      "contract",
+      "convince",
+      "conviction",
+      "convict",
+      "position",
+      "compose",
+      "deposit"
+    ],
+    "sourceNote": "拉丁 compositus，com- + ponere(放置)",
+    "mnemonicNote": "com(共同)+pos(放置)+ite：摆在一处合成的"
+  },
+  {
+    "id": "abundant",
+    "word": "abundant",
+    "phonetic": "/ә'bʌndәnt/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "丰富的、大量的",
+    "literalMeaningCn": "满得溢出",
+    "metaphorMeaningCn": "多到用不完",
+    "metaphorOptions": [
+      "多到用不完",
+      "厨房做出的面包",
+      "市场卖的柠檬"
+    ],
+    "exampleEn": "Food is abundant in this area.",
+    "exampleCn": "这个地区食物充足。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "abound",
+        "surface": "abund",
+        "position": 0
+      },
+      {
+        "morphemeId": "ant",
+        "surface": "ant",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "daze",
+        "type": "form"
+      },
+      {
+        "text": "declare",
+        "type": "meaning"
+      },
+      {
+        "text": "pict",
+        "type": "random"
+      },
+      {
+        "text": "patch",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "vacant",
+      "hydrant",
+      "contestant",
+      "relevant",
+      "immigrant",
+      "migrant",
+      "servant",
+      "important"
+    ],
+    "sourceNote": "拉丁 abundans，abundare(满溢)",
+    "mnemonicNote": "abund(充盈、满溢)+ant：满出来的那么多"
+  },
+  {
+    "id": "partition",
+    "word": "partition",
+    "phonetic": "/pɑ:'tiʃәn/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "分割、隔墙",
+    "literalMeaningCn": "分成几份",
+    "metaphorMeaningCn": "隔开来的那一道墙",
+    "metaphorOptions": [
+      "隔开来的那一道墙",
+      "分开的两块板",
+      "建好的房子"
+    ],
+    "exampleEn": "They built a partition here.",
+    "exampleCn": "他们在这里建了一道隔墙。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "part",
+        "surface": "part",
+        "position": 0
+      },
+      {
+        "morphemeId": "ition",
+        "surface": "ition",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "fly",
+        "type": "form"
+      },
+      {
+        "text": "ceil",
+        "type": "meaning"
+      },
+      {
+        "text": "china",
+        "type": "random"
+      },
+      {
+        "text": "communicate",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "position",
+      "competition",
+      "acquisition",
+      "partly",
+      "definition",
+      "partial",
+      "repetition",
+      "counterpart"
+    ],
+    "sourceNote": "拉丁 partitio，partiri(分)",
+    "mnemonicNote": "part(部分)+ition：切成几块的那道隔断"
+  },
+  {
+    "id": "terrify",
+    "word": "terrify",
+    "phonetic": "/'terifai/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "使恐惧、恐吓",
+    "literalMeaningCn": "使害怕",
+    "metaphorMeaningCn": "吓得人不敢动",
+    "metaphorOptions": [
+      "吓得人不敢动",
+      "锁在监狱的人",
+      "掉在地上的牙齿"
+    ],
+    "exampleEn": "Thunder can terrify small children.",
+    "exampleCn": "雷声会吓坏小孩。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "terror",
+        "surface": "terr",
+        "position": 0
+      },
+      {
+        "morphemeId": "ify",
+        "surface": "ify",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "character",
+        "type": "form"
+      },
+      {
+        "text": "circu",
+        "type": "meaning"
+      },
+      {
+        "text": "ien",
+        "type": "random"
+      },
+      {
+        "text": "clean",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "fortify",
+      "gratify",
+      "testify",
+      "justify",
+      "terrible",
+      "clarify",
+      "classify",
+      "simplify"
+    ],
+    "sourceNote": "拉丁 terrificare，terror(恐怖)",
+    "mnemonicNote": "terr(恐怖)+ify：让人心里发慌"
+  },
+  {
+    "id": "facial",
+    "word": "facial",
+    "phonetic": "/'feiʃәl/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "面部的、美容",
+    "literalMeaningCn": "脸上的",
+    "metaphorMeaningCn": "跟脸有关的",
+    "metaphorOptions": [
+      "跟脸有关的",
+      "擦亮旧椅子",
+      "画着图案的卡片"
+    ],
+    "exampleEn": "He had a facial injury.",
+    "exampleCn": "他脸部受伤了。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "fac",
+        "surface": "fac",
+        "position": 0
+      },
+      {
+        "morphemeId": "ial",
+        "surface": "ial",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "tor",
+        "type": "form"
+      },
+      {
+        "text": "ultimate",
+        "type": "meaning"
+      },
+      {
+        "text": "satisfactory",
+        "type": "random"
+      },
+      {
+        "text": "vain",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "centennial",
+      "credential",
+      "factory",
+      "facility",
+      "benefactor",
+      "cordial",
+      "sacrifice",
+      "artificial"
+    ],
+    "sourceNote": "拉丁 facies（脸、外形）",
+    "mnemonicNote": "fac(面)+ial：跟脸有关的"
+  },
+  {
+    "id": "facet",
+    "word": "facet",
+    "phonetic": "/'fæsit/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "方面、小平面",
+    "literalMeaningCn": "一个小面",
+    "metaphorMeaningCn": "一件事的一个侧面",
+    "metaphorOptions": [
+      "一件事的一个侧面",
+      "建好的房子",
+      "量二十个箱子"
+    ],
+    "exampleEn": "Each facet of the problem matters.",
+    "exampleCn": "问题的每个方面都很重要。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "fac",
+        "surface": "fac",
+        "position": 0
+      },
+      {
+        "morphemeId": "et",
+        "surface": "et",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "interest",
+        "type": "form"
+      },
+      {
+        "text": "view",
+        "type": "meaning"
+      },
+      {
+        "text": "jap",
+        "type": "random"
+      },
+      {
+        "text": "kit",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "factory",
+      "facility",
+      "benefactor",
+      "sacrifice",
+      "artificial",
+      "artifact",
+      "pocket",
+      "surface"
+    ],
+    "sourceNote": "法语 facette，face(面) 的指小",
+    "mnemonicNote": "fac(面)+et：宝石上的一个小面"
+  },
+  {
+    "id": "mediate",
+    "word": "mediate",
+    "phonetic": "/'mi:dieit/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "调解、斡旋",
+    "literalMeaningCn": "站在中间",
+    "metaphorMeaningCn": "夹在两边劝和",
+    "metaphorOptions": [
+      "夹在两边劝和",
+      "围成一圈的椅子",
+      "选城市里的人"
+    ],
+    "exampleEn": "She will mediate the dispute.",
+    "exampleCn": "她将调解这场争端。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "medi",
+        "surface": "medi",
+        "position": 0
+      },
+      {
+        "morphemeId": "ate",
+        "surface": "ate",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "forward",
+        "type": "form"
+      },
+      {
+        "text": "subject",
+        "type": "meaning"
+      },
+      {
+        "text": "glasses",
+        "type": "random"
+      },
+      {
+        "text": "pect",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "generate",
+      "graduate",
+      "primate",
+      "evacuate",
+      "vaccinate",
+      "adequate",
+      "inadequate",
+      "dehydrate"
+    ],
+    "sourceNote": "拉丁 mediare，medius(中间)",
+    "mnemonicNote": "medi(中间)+ate：站中间替两边说合"
+  },
+  {
+    "id": "optimal",
+    "word": "optimal",
+    "phonetic": "/'ɒptimәl/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "最佳的、最优的",
+    "literalMeaningCn": "最该选的",
+    "metaphorMeaningCn": "挑不出更好的",
+    "metaphorOptions": [
+      "挑不出更好的",
+      "数二十个硬币",
+      "称稻草的重量"
+    ],
+    "exampleEn": "We need the optimal solution.",
+    "exampleCn": "我们需要最优的解决方案。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "opt",
+        "surface": "optim",
+        "position": 0
+      },
+      {
+        "morphemeId": "al",
+        "surface": "al",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "merge",
+        "type": "form"
+      },
+      {
+        "text": "surprise",
+        "type": "meaning"
+      },
+      {
+        "text": "terrify",
+        "type": "random"
+      },
+      {
+        "text": "transform",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "vocal",
+      "political",
+      "primal",
+      "formal",
+      "equal",
+      "thermal",
+      "literal",
+      "social"
+    ],
+    "sourceNote": "拉丁 optimus（最好的）",
+    "mnemonicNote": "optim(最好)+al：最值得选的那一个"
+  },
+  {
+    "id": "gradient",
+    "word": "gradient",
+    "phonetic": "/'greidiәnt/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "梯度、坡度",
+    "literalMeaningCn": "一级一级的",
+    "metaphorMeaningCn": "高低之间斜着的度",
+    "metaphorOptions": [
+      "高低之间斜着的度",
+      "量二十个箱子",
+      "绕过南方的河"
+    ],
+    "exampleEn": "The gradient is very steep.",
+    "exampleCn": "坡度很陡。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "grad",
+        "surface": "grad",
+        "position": 0
+      },
+      {
+        "morphemeId": "ent",
+        "surface": "ient",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "almen",
+        "type": "form"
+      },
+      {
+        "text": "announce",
+        "type": "meaning"
+      },
+      {
+        "text": "apology",
+        "type": "random"
+      },
+      {
+        "text": "apply",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "credential",
+      "grade",
+      "graduate",
+      "degrade",
+      "component",
+      "opponent",
+      "exponent",
+      "fluent"
+    ],
+    "sourceNote": "拉丁 gradientem，gradi(走、分级)",
+    "mnemonicNote": "grad(步、级)+ient：一级级变化的那个度"
+  },
+  {
+    "id": "detach",
+    "word": "detach",
+    "phonetic": "/di'tætʃ/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "拆下、使分离",
+    "literalMeaningCn": "把钉的拆开",
+    "metaphorMeaningCn": "从整体上卸下来",
+    "metaphorOptions": [
+      "从整体上卸下来",
+      "接上城市的线",
+      "分开的两块板"
+    ],
+    "exampleEn": "You can detach the cover.",
+    "exampleCn": "你可以拆下盖子。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "de",
+        "surface": "de",
+        "position": 0
+      },
+      {
+        "morphemeId": "tach",
+        "surface": "tach",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "famous",
+        "type": "form"
+      },
+      {
+        "text": "inhabit",
+        "type": "meaning"
+      },
+      {
+        "text": "significant",
+        "type": "random"
+      },
+      {
+        "text": "sufficient",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "deport",
+      "degrade",
+      "depend",
+      "deposit",
+      "deflect",
+      "deflection",
+      "dehydrate",
+      "dehydration"
+    ],
+    "sourceNote": "法语 detacher，de- + attacher(钉住)",
+    "mnemonicNote": "de(去掉)+tach(钉住)：拔掉钉子，分开"
+  },
+  {
+    "id": "infer",
+    "word": "infer",
+    "phonetic": "/in'fә:/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "推断、推论",
+    "literalMeaningCn": "带出来",
+    "metaphorMeaningCn": "顺着线索得出结论",
+    "metaphorOptions": [
+      "顺着线索得出结论",
+      "写满记录的本子",
+      "读黑板上的文字"
+    ],
+    "exampleEn": "We infer this from the data.",
+    "exampleCn": "我们从这些数据推断出这一点。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "in",
+        "surface": "in",
+        "position": 0
+      },
+      {
+        "morphemeId": "fer",
+        "surface": "fer",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "wreck",
+        "type": "form"
+      },
+      {
+        "text": "youth",
+        "type": "meaning"
+      },
+      {
+        "text": "step",
+        "type": "random"
+      },
+      {
+        "text": "milli",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "inspection",
+      "import",
+      "incredible",
+      "innate",
+      "inverse",
+      "impulse",
+      "inflexible",
+      "information"
+    ],
+    "sourceNote": "拉丁 inferre，in- + ferre(带)",
+    "mnemonicNote": "in(向内)+fer(带来)：把意思从里面带出来"
+  },
+  {
+    "id": "residual",
+    "word": "residual",
+    "phonetic": "/'rezidju:l/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "剩余的、残余的",
+    "literalMeaningCn": "留下坐着的",
+    "metaphorMeaningCn": "用剩没用完的",
+    "metaphorOptions": [
+      "用剩没用完的",
+      "装蜜蜂的箱子",
+      "关掉的机器"
+    ],
+    "exampleEn": "There is a residual risk here.",
+    "exampleCn": "这里存在剩余风险。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "re",
+        "surface": "re",
+        "position": 0
+      },
+      {
+        "morphemeId": "sid",
+        "surface": "sid",
+        "position": 1
+      },
+      {
+        "morphemeId": "ual",
+        "surface": "ual",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "resident",
+        "type": "form"
+      },
+      {
+        "text": "retire",
+        "type": "meaning"
+      },
+      {
+        "text": "rigor",
+        "type": "random"
+      },
+      {
+        "text": "ruth",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "respect",
+      "report",
+      "revise",
+      "reject",
+      "retract",
+      "record",
+      "repel",
+      "reflect"
+    ],
+    "sourceNote": "拉丁 residuus，residere(留坐)",
+    "mnemonicNote": "re(回)+sid(坐)+ual：留下来没走的那些"
+  },
+  {
+    "id": "susceptible",
+    "word": "susceptible",
+    "phonetic": "/sә'septәbl/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "易受影响的、敏感的",
+    "literalMeaningCn": "容易被拿住的",
+    "metaphorMeaningCn": "一点就中招的那种",
+    "metaphorOptions": [
+      "一点就中招的那种",
+      "掉在地上的牙齿",
+      "擦亮旧椅子"
+    ],
+    "exampleEn": "Old people are susceptible to it.",
+    "exampleCn": "老年人容易受它影响。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "sub",
+        "surface": "sus",
+        "position": 0
+      },
+      {
+        "morphemeId": "cap",
+        "surface": "cept",
+        "position": 1
+      },
+      {
+        "morphemeId": "ible",
+        "surface": "ible",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "burn",
+        "type": "form"
+      },
+      {
+        "text": "casual",
+        "type": "meaning"
+      },
+      {
+        "text": "coal",
+        "type": "random"
+      },
+      {
+        "text": "circulate",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "suspend",
+      "submit",
+      "capture",
+      "capable",
+      "accept",
+      "concept",
+      "reception",
+      "capacity"
+    ],
+    "sourceNote": "拉丁 susceptibilis，suscipere(承受)",
+    "mnemonicNote": "sus(在下)+cept(拿)+ible：从下面被拿住，挡不住"
+  },
+  {
+    "id": "suffice",
+    "word": "suffice",
+    "phonetic": "/sә'fais/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "足够、满足",
+    "literalMeaningCn": "做得够了",
+    "metaphorMeaningCn": "够用，不用再加",
+    "metaphorOptions": [
+      "够用，不用再加",
+      "数二十个硬币",
+      "厨房做出的面包"
+    ],
+    "exampleEn": "One example will suffice.",
+    "exampleCn": "一个例子就足够了。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "sub",
+        "surface": "suf",
+        "position": 0
+      },
+      {
+        "morphemeId": "fac",
+        "surface": "fice",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "except",
+        "type": "form"
+      },
+      {
+        "text": "experiment",
+        "type": "meaning"
+      },
+      {
+        "text": "feed",
+        "type": "random"
+      },
+      {
+        "text": "further",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "suspend",
+      "factory",
+      "facility",
+      "benefactor",
+      "sacrifice",
+      "artificial",
+      "artifact",
+      "submit"
+    ],
+    "sourceNote": "拉丁 sufficere，sub- + facere(做)",
+    "mnemonicNote": "suf(在下)+fice(做)：底下做足，就够了"
+  },
+  {
+    "id": "torture",
+    "word": "torture",
+    "phonetic": "/'tɒ:tʃә/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "折磨、拷问",
+    "literalMeaningCn": "拧着翻",
+    "metaphorMeaningCn": "被拧着痛不欲生",
+    "metaphorOptions": [
+      "被拧着痛不欲生",
+      "锁在监狱的人",
+      "掉在地上的牙齿"
+    ],
+    "exampleEn": "They torture their prisoners.",
+    "exampleCn": "他们折磨囚犯。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "tor",
+        "surface": "tor",
+        "position": 0
+      },
+      {
+        "morphemeId": "ture",
+        "surface": "ture",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "murder",
+        "type": "form"
+      },
+      {
+        "text": "navy",
+        "type": "meaning"
+      },
+      {
+        "text": "neighbor",
+        "type": "random"
+      },
+      {
+        "text": "notice",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "torrent",
+      "mixture"
+    ],
+    "sourceNote": "拉丁 tortura，torquere(拧、翻滚)",
+    "mnemonicNote": "tor(翻滚)+ture：把人拧着翻，逼供"
+  },
+  {
+    "id": "hinder",
+    "word": "hinder",
+    "phonetic": "/'hindә/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "阻碍、妨碍",
+    "literalMeaningCn": "落在后面",
+    "metaphorMeaningCn": "扯后腿让人走不动",
+    "metaphorOptions": [
+      "扯后腿让人走不动",
+      "开往城市的车",
+      "绕过南方的河"
+    ],
+    "exampleEn": "Bad weather can hinder progress.",
+    "exampleCn": "恶劣天气会阻碍进展。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "hind",
+        "surface": "hind",
+        "position": 0
+      },
+      {
+        "morphemeId": "er",
+        "surface": "er",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "permanent",
+        "type": "form"
+      },
+      {
+        "text": "plenty",
+        "type": "meaning"
+      },
+      {
+        "text": "posit",
+        "type": "random"
+      },
+      {
+        "text": "presume",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "generate",
+      "transformer",
+      "lever",
+      "saucer",
+      "behind",
+      "butter",
+      "computer",
+      "consider"
+    ],
+    "sourceNote": "古英语 hindrian，hind(在后的)",
+    "mnemonicNote": "hind(后面)+er：往后拉住，让人慢下来"
   },
   {
     "id": "object",

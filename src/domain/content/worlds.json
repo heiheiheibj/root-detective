@@ -70,7 +70,7 @@
   {
     "id": "justice-hall",
     "name": "正义殿堂",
-    "description": "学习词根：jud、vinc、cor、sanct、test、grat、viola（正义殿堂）",
+    "description": "学习词根：jud、vinc、cor、sanct、test、grat、viola、terror（正义殿堂）",
     "morphemeIds": [
       "jud",
       "vinc",
@@ -78,7 +78,8 @@
       "sanct",
       "test",
       "grat",
-      "viola"
+      "viola",
+      "terror"
     ]
   },
   {
@@ -257,7 +258,7 @@
   {
     "id": "build-site",
     "name": "营造场",
-    "description": "学习词根：base、board、cover、break、ember、struct、ser、stable（营造场）",
+    "description": "学习词根：base、board、cover、break、ember、struct、ser、stable、rupt（营造场）",
     "morphemeIds": [
       "base",
       "board",
@@ -266,7 +267,8 @@
       "ember",
       "struct",
       "ser",
-      "stable"
+      "stable",
+      "rupt"
     ]
   },
   {
@@ -438,7 +440,7 @@
   {
     "id": "common-lane",
     "name": "寻常巷",
-    "description": "学习词根：a、any、it、her、app、happy、life、four、seven、six（寻常巷）",
+    "description": "学习词根：a、any、it、her、app、happy、life、four、seven、six、corr（寻常巷）",
     "morphemeIds": [
       "a",
       "any",
@@ -449,7 +451,8 @@
       "life",
       "four",
       "seven",
-      "six"
+      "six",
+      "corr"
     ]
   },
   {
