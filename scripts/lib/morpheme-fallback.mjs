@@ -220,13 +220,13 @@ export const hasHanzi = (text) => /[\u4e00-\u9fff]/.test(String(text || ''))
  */
 export const OVERRIDE_MEANINGS = {
   // ══════ 第一轮（3adf204 引入）：被当成英文缩写/专名/术语查了的词根 ══════════
-  vid: '看', capit: '头', comp: '共同', sid: '坐', turb: '搅动', dure: '持续',
+  capit: '头', comp: '共同', sid: '坐', turb: '搅动', dure: '持续',
   eng: '英格', ma: '妈', bag: '袋', handwrite: '手写', ind: '印度', duce: '引导',
   mathematic: '数学', mann: '人', eld: '年代', bi: '二', mas: '弥撒',
   apt: '适合', enda: '待办', app: '朝向', awk: '反手', butch: '屠宰', rot: '轮转',
   circ: '圆', barrass: '阻碍', rupt: '破裂', minim: '最小', minimus: '最小',
   minimum: '最小', rn: '走', abs: '离开', yer: '人', cip: '拿取', sci: '知道',
-  gas: '气', lus: '戏弄', lig: '捆绑', insula: '岛', soph: '智慧', sprink: '洒',
+  gas: '气', lus: '戏弄', lig: '捆绑', soph: '智慧', sprink: '洒',
   urbs: '都市', who: '谁', zeal: '热忱', eous: '…的', trah: '拉、拖', emi: '出去',
   dem: '民众', hospital: '招待', dc: '引导', mons: '警示',
   pel: '驱动、推', der: '剩下', tardus: '慢', tard: '慢', mal: '坏', syn: '共同',
@@ -920,6 +920,16 @@ export const OVERRIDE_MEANINGS = {
   weave: '编织',              // 原「编法」（ECDICT 词性段拼接），weaver 的字面义对不上
   village: '村庄',            // 原「村庄乡村的」（词性段拼接）
   manufacture: '制造；产品',   // 原只挂「产品」，manufacturer 的字面义是「做出产品的一方」
+  simil: '相似',              // 原「明喻」（simile 是比喻格），assimilate 要的是「相似」
+  insula: '岛',               // 原「医岛」（ECDICT 领域标记泄漏），insulate ← insula(岛)
+  lumin: '光',                // 原「腔」（lumen 是腔，lumin 是光），illuminate 要「光」
+  rit: '刺激',                // 原「计信息传输速率」（缩写词条），irritate ← irritare(刺激)
+  module: '组件；调节',        // modulate 要的是 modus(尺度、调节)，原只挂「组件」
+  me: '我；通过、穿行',        // permeate ← per+meare(通过)，原只挂「我」
+  cipit: '头',                // 原「开始中世纪抄本开」（残句），praecipit- 是「头朝下」
+  fac: '做、制造；面',         // surface/interface ← facies(面、形状)，原只挂「做、制造」
+  mitt: '送、投',             // 原「棒球手套」（mitt 词条），omit ← ob+mittere(送)
+  vid: '看；分开',            // divide ← dis+videre(分开)，原只挂「看」
 }
 /**
  * 显示名修正：id 是内部标识，卡片上画的是 displayText。有一批 id 是切分算法按词形凑出来的
@@ -1063,6 +1073,34 @@ export const INJECT_MORPHEMES = [
     // 古法语 mine（矿、矿井），与 min(小) 同形不同源，单独立 id。
     id: 'mine', displayText: 'mine', type: 'root', meaningCn: '矿；挖',
     allomorphs: ['mine'], etymology: '古法语 mine（矿、矿井），miner', level: 1, color: 'orange',
+  },
+  {
+    // appreciate ← ad + pretium(价值)：切分表里落成了 reci（被 ECDICT 的 ricin 词条污染成
+    // 「医蓖麻毒素」），正身是 preci。
+    id: 'preci', displayText: 'preci', type: 'root', meaningCn: '价值',
+    allomorphs: ['preci'], etymology: '拉丁 pretium（价值、价钱）；appreciate', level: 3, color: 'orange',
+  },
+  {
+    // heroine / routine 的 -ine 立不住独立 id：id 归一化会剥掉词尾的 e（ine→in），
+    // 于是又并回前缀 in(不、进入)。按 delivery 的做法整词立 root，词源写进助记里。
+    id: 'heroine', displayText: 'heroine', type: 'root', meaningCn: '女英雄；女主角',
+    allomorphs: ['heroine'], etymology: '法语 héroïne，hero + -ine（阴性后缀）', level: 3, color: 'orange',
+  },
+  {
+    id: 'routine', displayText: 'routine', type: 'root', meaningCn: '常规；例行程序',
+    allomorphs: ['routine'], etymology: '法语 routine，route（路）+ -ine', level: 3, color: 'orange',
+  },
+  {
+    // preface ← 拉丁 praefatio（prae- 前 + fari 说），与 fac(做、面) 无关。
+    // 词形撞脸 fac，挂上去就会教成「前面的面」，整词立 root。
+    id: 'preface', displayText: 'preface', type: 'root', meaningCn: '序言；开场白',
+    allomorphs: ['preface'], etymology: '拉丁 praefatio，prae-（前）+ fari（说）', level: 3, color: 'orange',
+  },
+  {
+    // automation = automat(自动装置) + -ion。原切分是 automatic[automati] + ion[on]，
+    // 把 ion 的表面写成 on 是硬凑。
+    id: 'automat', displayText: 'automat', type: 'root', meaningCn: '自动装置；自动操作',
+    allomorphs: ['automat'], etymology: '希腊 automatos（自己动的）；automation', level: 3, color: 'orange',
   },
   {
     // 比较级 -er（later/farther）与施事 -er（driver）同形不同义，挂在 er 一张卡上会互相串味，

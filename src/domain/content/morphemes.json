@@ -345,12 +345,13 @@
     "id": "fac",
     "type": "root",
     "displayText": "fac / fact / fic",
-    "meaningCn": "做、制造",
+    "meaningCn": "做、制造；面",
     "allomorphs": [
       "fac",
       "fact",
       "fice",
-      "ific"
+      "ific",
+      "face"
     ],
     "level": 1,
     "color": "orange",
@@ -601,7 +602,8 @@
     "displayText": "-ary",
     "meaningCn": "与……有关的（形容词）",
     "allomorphs": [
-      "ary"
+      "ary",
+      "ry"
     ],
     "level": 3,
     "etymology": "拉丁语形容词后缀",
@@ -652,7 +654,8 @@
     "meaningCn": "做……的人、……的",
     "allomorphs": [
       "ent",
-      "ient"
+      "ient",
+      "nt"
     ],
     "level": 1,
     "color": "green",
@@ -664,7 +667,8 @@
     "displayText": "-ence",
     "meaningCn": "状态、性质（名词）",
     "allomorphs": [
-      "ence"
+      "ence",
+      "nce"
     ],
     "level": 3,
     "etymology": "拉丁语名词后缀 -entia",
@@ -1374,7 +1378,8 @@
     "allomorphs": [
       "ven",
       "vent",
-      "venture"
+      "venture",
+      "vene"
     ],
     "level": 1,
     "color": "orange",
@@ -1419,7 +1424,8 @@
     "allomorphs": [
       "ob",
       "of",
-      "op"
+      "op",
+      "o"
     ],
     "level": 2,
     "color": "blue",
@@ -1635,7 +1641,8 @@
     "displayText": "-al",
     "meaningCn": "……的（形容词）",
     "allomorphs": [
-      "al"
+      "al",
+      "l"
     ],
     "level": 1,
     "color": "green",
@@ -4229,9 +4236,10 @@
     "id": "me",
     "displayText": "me",
     "type": "root",
-    "meaningCn": "我",
+    "meaningCn": "我；通过、穿行",
     "allomorphs": [
-      "my"
+      "my",
+      "me"
     ],
     "etymology": "",
     "level": 3,
@@ -6951,6 +6959,7 @@
     "type": "root",
     "meaningCn": "堆积",
     "allomorphs": [
+      "cumul",
       "cumulat"
     ],
     "etymology": "",
@@ -8302,6 +8311,18 @@
     "color": "orange"
   },
   {
+    "id": "candid",
+    "displayText": "candid",
+    "type": "root",
+    "meaningCn": "坦白的",
+    "allomorphs": [
+      "candid"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "can",
     "displayText": "can",
     "type": "root",
@@ -8433,6 +8454,18 @@
     ],
     "etymology": "",
     "level": 1,
+    "color": "orange"
+  },
+  {
+    "id": "certify",
+    "displayText": "certify",
+    "type": "root",
+    "meaningCn": "证明",
+    "allomorphs": [
+      "certif"
+    ],
+    "etymology": "",
+    "level": 3,
     "color": "orange"
   },
   {
@@ -8635,6 +8668,18 @@
     "meaningCn": "干净的",
     "allomorphs": [
       "clean"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "coincide",
+    "displayText": "coincide",
+    "type": "root",
+    "meaningCn": "一致",
+    "allomorphs": [
+      "coincide"
     ],
     "etymology": "",
     "level": 3,
@@ -10106,6 +10151,7 @@
     "type": "root",
     "meaningCn": "运气",
     "allomorphs": [
+      "fortun",
       "fortune"
     ],
     "etymology": "",
@@ -12562,6 +12608,18 @@
     "color": "orange"
   },
   {
+    "id": "scene",
+    "displayText": "scene",
+    "type": "root",
+    "meaningCn": "场",
+    "allomorphs": [
+      "scene"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "sceptic",
     "displayText": "sceptic",
     "type": "root",
@@ -13423,7 +13481,8 @@
     "type": "root",
     "meaningCn": "表、桌",
     "allomorphs": [
-      "table"
+      "table",
+      "tabul"
     ],
     "etymology": "",
     "level": 3,
@@ -13704,6 +13763,18 @@
     ],
     "etymology": "",
     "level": 1,
+    "color": "orange"
+  },
+  {
+    "id": "urge",
+    "displayText": "urge",
+    "type": "root",
+    "meaningCn": "冲动",
+    "allomorphs": [
+      "urge"
+    ],
+    "etymology": "",
+    "level": 3,
     "color": "orange"
   },
   {
@@ -15411,6 +15482,18 @@
     "color": "orange"
   },
   {
+    "id": "confide",
+    "displayText": "confide",
+    "type": "root",
+    "meaningCn": "吐露",
+    "allomorphs": [
+      "confide"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "fine",
     "displayText": "fine",
     "type": "root",
@@ -15501,6 +15584,7 @@
     "type": "root",
     "meaningCn": "顺序",
     "allomorphs": [
+      "ordin",
       "ordinate"
     ],
     "etymology": "",
@@ -16517,6 +16601,18 @@
     "color": "orange"
   },
   {
+    "id": "idea",
+    "displayText": "idea",
+    "type": "root",
+    "meaningCn": "主意",
+    "allomorphs": [
+      "idea"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "identic",
     "displayText": "identic",
     "type": "root",
@@ -16901,6 +16997,18 @@
     "color": "orange"
   },
   {
+    "id": "interfere",
+    "displayText": "interfere",
+    "type": "root",
+    "meaningCn": "妨碍",
+    "allomorphs": [
+      "interfere"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "intern",
     "displayText": "intern",
     "type": "root",
@@ -17147,7 +17255,8 @@
     "type": "root",
     "meaningCn": "移动的",
     "allomorphs": [
-      "motive"
+      "motive",
+      "motiv"
     ],
     "etymology": "",
     "level": 3,
@@ -17602,6 +17711,18 @@
     "color": "orange"
   },
   {
+    "id": "mitt",
+    "displayText": "mitt",
+    "type": "root",
+    "meaningCn": "送、投",
+    "allomorphs": [
+      "mit"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "operation",
     "displayText": "operation",
     "type": "root",
@@ -17727,7 +17848,8 @@
     "type": "root",
     "meaningCn": "岛",
     "allomorphs": [
-      "insula"
+      "insula",
+      "insul"
     ],
     "etymology": "",
     "level": 3,
@@ -17871,6 +17993,7 @@
     "type": "root",
     "meaningCn": "在之前",
     "allomorphs": [
+      "precede",
       "preced"
     ],
     "etymology": "",
@@ -18426,6 +18549,18 @@
     "meaningCn": "研究",
     "allomorphs": [
       "research"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "reside",
+    "displayText": "reside",
+    "type": "root",
+    "meaningCn": "住",
+    "allomorphs": [
+      "reside"
     ],
     "etymology": "",
     "level": 3,
@@ -20189,6 +20324,18 @@
     "color": "orange"
   },
   {
+    "id": "assassin",
+    "displayText": "assassin",
+    "type": "root",
+    "meaningCn": "暗杀者",
+    "allomorphs": [
+      "assassin"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "saul",
     "displayText": "saul",
     "type": "root",
@@ -20207,6 +20354,18 @@
     "meaningCn": "主张",
     "allomorphs": [
       "assert"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "simil",
+    "displayText": "simil",
+    "type": "root",
+    "meaningCn": "相似",
+    "allomorphs": [
+      "simil"
     ],
     "etymology": "",
     "level": 3,
@@ -20665,6 +20824,18 @@
     "meaningCn": "海岸",
     "allomorphs": [
       "coast"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "cohere",
+    "displayText": "cohere",
+    "type": "root",
+    "meaningCn": "附着",
+    "allomorphs": [
+      "cohere"
     ],
     "etymology": "",
     "level": 3,
@@ -22030,6 +22201,18 @@
     "color": "orange"
   },
   {
+    "id": "fluoresce",
+    "displayText": "fluoresce",
+    "type": "root",
+    "meaningCn": "发荧光",
+    "allomorphs": [
+      "fluoresce"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "float",
     "displayText": "float",
     "type": "root",
@@ -22059,7 +22242,8 @@
     "type": "root",
     "meaningCn": "公式、配方；客套语",
     "allomorphs": [
-      "formula"
+      "formula",
+      "formul"
     ],
     "etymology": "",
     "level": 3,
@@ -22492,6 +22676,18 @@
     "meaningCn": "懒惰的",
     "allomorphs": [
       "idle"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "lumin",
+    "displayText": "lumin",
+    "type": "root",
+    "meaningCn": "光",
+    "allomorphs": [
+      "lumin"
     ],
     "etymology": "",
     "level": 3,
@@ -22978,6 +23174,18 @@
     "color": "orange"
   },
   {
+    "id": "rit",
+    "displayText": "rit",
+    "type": "root",
+    "meaningCn": "刺激",
+    "allomorphs": [
+      "rit"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "kid",
     "displayText": "kid",
     "type": "root",
@@ -23393,6 +23601,18 @@
     "meaningCn": "修正",
     "allomorphs": [
       "modif"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "module",
+    "displayText": "module",
+    "type": "root",
+    "meaningCn": "组件；调节",
+    "allomorphs": [
+      "modul"
     ],
     "etymology": "",
     "level": 3,
@@ -23921,6 +24141,18 @@
     "meaningCn": "幼禽",
     "allomorphs": [
       "poult"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "cipit",
+    "displayText": "cipit",
+    "type": "root",
+    "meaningCn": "头",
+    "allomorphs": [
+      "cipit"
     ],
     "etymology": "",
     "level": 3,
@@ -26110,6 +26342,54 @@
     ],
     "etymology": "古法语 mine（矿、矿井），miner",
     "level": 1,
+    "color": "orange"
+  },
+  {
+    "id": "heroine",
+    "displayText": "heroine",
+    "type": "root",
+    "meaningCn": "女英雄；女主角",
+    "allomorphs": [
+      "heroine"
+    ],
+    "etymology": "法语 héroïne，hero + -ine（阴性后缀）",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "routine",
+    "displayText": "routine",
+    "type": "root",
+    "meaningCn": "常规；例行程序",
+    "allomorphs": [
+      "routine"
+    ],
+    "etymology": "法语 routine，route（路）+ -ine",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "preface",
+    "displayText": "preface",
+    "type": "root",
+    "meaningCn": "序言；开场白",
+    "allomorphs": [
+      "preface"
+    ],
+    "etymology": "拉丁 praefatio，prae-（前）+ fari（说）",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "automat",
+    "displayText": "automat",
+    "type": "root",
+    "meaningCn": "自动装置；自动操作",
+    "allomorphs": [
+      "automat"
+    ],
+    "etymology": "希腊 automatos（自己动的）；automation",
+    "level": 3,
     "color": "orange"
   },
   {

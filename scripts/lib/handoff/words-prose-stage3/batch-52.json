@@ -1,0 +1,267 @@
+{
+  "_comment": "Group B：-ate 后缀组 22 词。原先 -ate 被并进介词 at(向、至)，21 号 A6 拦下；重挂 ate 后入表。",
+  "accumulate": {
+    "modernMeaningCn": "积聚；堆积",
+    "literalMeaningCn": "一点点堆起来",
+    "metaphorMeaningCn": "越堆越多、积成一大堆",
+    "metaphorOptions": [
+      "越堆越多、积成一大堆",
+      "把声音串起来",
+      "围着中心转"
+    ],
+    "mnemonicNote": "ac(朝向)+cumul(堆积)+ate：往一处堆，越堆越高",
+    "sourceNote": "拉丁 accumulare，ad- + cumulus(堆)"
+  },
+  "appreciate": {
+    "modernMeaningCn": "赏识；感激",
+    "literalMeaningCn": "看出它的价值",
+    "metaphorMeaningCn": "看出好处并心存感激",
+    "metaphorOptions": [
+      "看出好处并心存感激",
+      "守着悬挂过活",
+      "守着平常的过活"
+    ],
+    "mnemonicNote": "ap(朝向)+preci(价值)+ate：看出价值，心里领情",
+    "sourceNote": "拉丁 appretiare，ad- + pretium(价值)"
+  },
+  "candidate": {
+    "modernMeaningCn": "候选人；投考者",
+    "literalMeaningCn": "穿白袍的人",
+    "metaphorMeaningCn": "等着被选上的那个人",
+    "metaphorOptions": [
+      "等着被选上的那个人",
+      "把相信串起来",
+      "把持久串起来"
+    ],
+    "mnemonicNote": "candid(坦白、白色)+ate：古罗马竞选人穿白袍",
+    "sourceNote": "拉丁 candidatus（穿白袍者），candidus(白的)"
+  },
+  "concentrate": {
+    "modernMeaningCn": "集中；浓缩",
+    "literalMeaningCn": "收到一个中心",
+    "metaphorMeaningCn": "把心思收到一处",
+    "metaphorOptions": [
+      "把心思收到一处",
+      "守着生命过活",
+      "向着忠诚的去"
+    ],
+    "mnemonicNote": "con(一起)+centr(中心)+ate：把东西收到一个中心",
+    "sourceNote": "con- + centrum(中心)"
+  },
+  "considerate": {
+    "modernMeaningCn": "体贴的；体谅的",
+    "literalMeaningCn": "替人想周全的",
+    "metaphorMeaningCn": "会替别人着想",
+    "metaphorOptions": [
+      "会替别人着想",
+      "向着例行程序的小站",
+      "守着声音过活"
+    ],
+    "mnemonicNote": "consider(考虑)+ate：把别人的处境也考虑进来",
+    "sourceNote": "拉丁 consideratus，considerare(细看)"
+  },
+  "fortunate": {
+    "modernMeaningCn": "幸运的",
+    "literalMeaningCn": "运气落在这边",
+    "metaphorMeaningCn": "运气正好站在你这边",
+    "metaphorOptions": [
+      "运气正好站在你这边",
+      "守着光过活",
+      "如何的味道"
+    ],
+    "mnemonicNote": "fortun(运气)+ate：运气正好落到你这边",
+    "sourceNote": "拉丁 fortunatus，fortuna(运气)"
+  },
+  "anticipate": {
+    "modernMeaningCn": "预期；预料",
+    "literalMeaningCn": "事先拿到手上",
+    "metaphorMeaningCn": "事情没到就先想到",
+    "metaphorOptions": [
+      "事情没到就先想到",
+      "把迁移串起来",
+      "围着中心转"
+    ],
+    "mnemonicNote": "anti(在前)+cip(拿)+ate：事先把结果拿到手上",
+    "sourceNote": "拉丁 anticipare，ante- + capere(拿)"
+  },
+  "motivate": {
+    "modernMeaningCn": "激发；给与动机",
+    "literalMeaningCn": "给个动起来的由头",
+    "metaphorMeaningCn": "让人有劲头去做",
+    "metaphorOptions": [
+      "让人有劲头去做",
+      "守着声音过活",
+      "守着游戏过活"
+    ],
+    "mnemonicNote": "motiv(移动)+ate：给人一个动起来的理由",
+    "sourceNote": "motive(动机) + -ate"
+  },
+  "originate": {
+    "modernMeaningCn": "起源；创始",
+    "literalMeaningCn": "从源头起头",
+    "metaphorMeaningCn": "从那儿开始、由谁开头",
+    "metaphorOptions": [
+      "从那儿开始、由谁开头",
+      "把相等串起来",
+      "围着测量转"
+    ],
+    "mnemonicNote": "origin(起源)+ate：从那个源头起头",
+    "sourceNote": "拉丁 origo(起源) + -ate"
+  },
+  "aggravate": {
+    "modernMeaningCn": "使恶化；使更严重",
+    "literalMeaningCn": "往重里加",
+    "metaphorMeaningCn": "越弄越糟、火上浇油",
+    "metaphorOptions": [
+      "越弄越糟、火上浇油",
+      "守着第一过活",
+      "替有可能的操心"
+    ],
+    "mnemonicNote": "ag(做、驱使)+grav(重)+ate：把事情往更重里推",
+    "sourceNote": "拉丁 aggravare，ad- + gravis(重)"
+  },
+  "assassinate": {
+    "modernMeaningCn": "暗杀；行刺",
+    "literalMeaningCn": "暗中把人除掉",
+    "metaphorMeaningCn": "派人暗中下手",
+    "metaphorOptions": [
+      "派人暗中下手",
+      "向着盒子的小站",
+      "围着房间转"
+    ],
+    "mnemonicNote": "assassin(暗杀者)+ate：刺客暗中下手",
+    "sourceNote": "阿拉伯 hashshashin，经法语 assassin"
+  },
+  "assimilate": {
+    "modernMeaningCn": "使同化；吸收",
+    "literalMeaningCn": "变得跟它相似",
+    "metaphorMeaningCn": "融进去、变得一样",
+    "metaphorOptions": [
+      "融进去、变得一样",
+      "守着火过活",
+      "向着可能的去"
+    ],
+    "mnemonicNote": "as(朝向)+simil(相似)+ate：变得跟周围一样",
+    "sourceNote": "拉丁 assimilare，ad- + similis(相似)"
+  },
+  "formulate": {
+    "modernMeaningCn": "用公式表示；拟定",
+    "literalMeaningCn": "排成一个式子",
+    "metaphorMeaningCn": "把想法写成定式",
+    "metaphorOptions": [
+      "把想法写成定式",
+      "足迹的地方",
+      "守着移动的过活"
+    ],
+    "mnemonicNote": "formul(公式)+ate：把想法排成一个式子",
+    "sourceNote": "formula(公式、定式) + -ate"
+  },
+  "insulate": {
+    "modernMeaningCn": "使绝缘；隔离",
+    "literalMeaningCn": "隔成一座岛",
+    "metaphorMeaningCn": "像岛一样隔开来",
+    "metaphorOptions": [
+      "像岛一样隔开来",
+      "守着课过活",
+      "离灰尘很远"
+    ],
+    "mnemonicNote": "insul(岛)+ate：像岛一样跟外面隔开",
+    "sourceNote": "拉丁 insula(岛)"
+  },
+  "illuminate": {
+    "modernMeaningCn": "照明；阐明",
+    "literalMeaningCn": "把光照上去",
+    "metaphorMeaningCn": "照亮，也指讲明白",
+    "metaphorOptions": [
+      "照亮，也指讲明白",
+      "把孩子串起来",
+      "围着空气转"
+    ],
+    "mnemonicNote": "il(向内)+lumin(光)+ate：把光打进去，也指讲明白",
+    "sourceNote": "拉丁 illuminare，in- + lumen(光)"
+  },
+  "irritate": {
+    "modernMeaningCn": "激怒；刺激",
+    "literalMeaningCn": "反复去戳",
+    "metaphorMeaningCn": "惹毛、刺得难受",
+    "metaphorOptions": [
+      "惹毛、刺得难受",
+      "守着同意过活",
+      "兴趣的另一面"
+    ],
+    "mnemonicNote": "ir(向内)+rit(刺激)+ate：一下下戳到痛处",
+    "sourceNote": "拉丁 irritare(刺激、惹怒)"
+  },
+  "modulate": {
+    "modernMeaningCn": "调整；调节",
+    "literalMeaningCn": "按尺度调一调",
+    "metaphorMeaningCn": "调到合适的分寸",
+    "metaphorOptions": [
+      "调到合适的分寸",
+      "把服务串起来",
+      "离居住于很远"
+    ],
+    "mnemonicNote": "modul(尺度、调节)+ate：按分寸调一调",
+    "sourceNote": "拉丁 modulari，modus(尺度)"
+  },
+  "permeate": {
+    "modernMeaningCn": "渗透；弥漫",
+    "literalMeaningCn": "整个穿过去",
+    "metaphorMeaningCn": "渗到每一处",
+    "metaphorOptions": [
+      "渗到每一处",
+      "向着轮转的小站",
+      "围着相等转"
+    ],
+    "mnemonicNote": "per(贯穿)+me(通过)+ate：一路穿过去，处处都有",
+    "sourceNote": "拉丁 permeare，per- + meare(通过)"
+  },
+  "subordinate": {
+    "modernMeaningCn": "下级的；属下",
+    "literalMeaningCn": "排在下一层",
+    "metaphorMeaningCn": "级别在下面的",
+    "metaphorOptions": [
+      "级别在下面的",
+      "守着真实过活",
+      "一种现在的习俗"
+    ],
+    "mnemonicNote": "sub(在下)+ordin(顺序)+ate：排在下一位的",
+    "sourceNote": "拉丁 subordinare，sub- + ordo(次序)"
+  },
+  "tabulate": {
+    "modernMeaningCn": "制成表；列表",
+    "literalMeaningCn": "排成一张表",
+    "metaphorMeaningCn": "一条条列成表",
+    "metaphorOptions": [
+      "一条条列成表",
+      "给予的另一面",
+      "守着母牛过活"
+    ],
+    "mnemonicNote": "tabul(表)+ate：把数字排成一张表",
+    "sourceNote": "拉丁 tabula(木板、表册) + -ate"
+  },
+  "precipitate": {
+    "modernMeaningCn": "促成；使沉淀",
+    "literalMeaningCn": "头朝下栽下去",
+    "metaphorMeaningCn": "一下子催着发生",
+    "metaphorOptions": [
+      "一下子催着发生",
+      "数着犯错过日子",
+      "离公平很远"
+    ],
+    "mnemonicNote": "pre(向前)+cipit(头)+ate：头朝下栽出去",
+    "sourceNote": "拉丁 praecipitare，prae- + caput(头)"
+  },
+  "certificate": {
+    "modernMeaningCn": "证书；证明书",
+    "literalMeaningCn": "做成证明的东西",
+    "metaphorMeaningCn": "一张证明资格的文件",
+    "metaphorOptions": [
+      "一张证明资格的文件",
+      "守着周过活",
+      "守着硝基过活"
+    ],
+    "mnemonicNote": "certif(证明)+ic+ate：把事情做实的一张纸",
+    "sourceNote": "拉丁 certificare，certus(确定) + facere(做)"
+  }
+}

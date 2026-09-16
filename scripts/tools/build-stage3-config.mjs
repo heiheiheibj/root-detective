@@ -150,6 +150,37 @@ const SPLIT_REPLACE = {
   taper: [{ id: 'taper', surface: 'taper' }], // 整词（tapur），原 tape(带子)+r
   later: [{ id: 'late', surface: 'lat' }, { id: 'comper', surface: 'er' }], // late+比较级 -er，原当施事 -er
   miner: [{ id: 'mine', surface: 'mine' }, { id: 'er', surface: 'r' }], // mine(矿)+施事 -er，原挂在 min(小) 上
+  // ── -ate 组：动词/形容词后缀 -ate 原先被并进了介词 at(向、至)，字面义成了「向……」 ──
+  accumulate: [{ id: 'ac', surface: 'ac' }, { id: 'cumul', surface: 'cumul' }, { id: 'ate', surface: 'ate' }],
+  appreciate: [{ id: 'ap', surface: 'ap' }, { id: 'preci', surface: 'preci' }, { id: 'ate', surface: 'ate' }],
+  candidate: [{ id: 'candid', surface: 'candid' }, { id: 'ate', surface: 'ate' }],
+  concentrate: [{ id: 'con', surface: 'con' }, { id: 'centre', surface: 'centr' }, { id: 'ate', surface: 'ate' }],
+  considerate: [{ id: 'consider', surface: 'consider' }, { id: 'ate', surface: 'ate' }],
+  fortunate: [{ id: 'fortune', surface: 'fortun' }, { id: 'ate', surface: 'ate' }],
+  anticipate: [{ id: 'anti', surface: 'anti' }, { id: 'cip', surface: 'cip' }, { id: 'ate', surface: 'ate' }],
+  motivate: [{ id: 'motive', surface: 'motiv' }, { id: 'ate', surface: 'ate' }],
+  originate: [{ id: 'origin', surface: 'origin' }, { id: 'ate', surface: 'ate' }],
+  aggravate: [{ id: 'ag', surface: 'ag' }, { id: 'grav', surface: 'grav' }, { id: 'ate', surface: 'ate' }],
+  assassinate: [{ id: 'assassin', surface: 'assassin' }, { id: 'ate', surface: 'ate' }],
+  assimilate: [{ id: 'as', surface: 'as' }, { id: 'simil', surface: 'simil' }, { id: 'ate', surface: 'ate' }],
+  formulate: [{ id: 'formula', surface: 'formul' }, { id: 'ate', surface: 'ate' }],
+  insulate: [{ id: 'insula', surface: 'insul' }, { id: 'ate', surface: 'ate' }],
+  illuminate: [{ id: 'il', surface: 'il' }, { id: 'lumin', surface: 'lumin' }, { id: 'ate', surface: 'ate' }],
+  irritate: [{ id: 'ir', surface: 'ir' }, { id: 'rit', surface: 'rit' }, { id: 'ate', surface: 'ate' }],
+  modulate: [{ id: 'module', surface: 'modul' }, { id: 'ate', surface: 'ate' }],
+  permeate: [{ id: 'per', surface: 'per' }, { id: 'me', surface: 'me' }, { id: 'ate', surface: 'ate' }],
+  subordinate: [{ id: 'sub', surface: 'sub' }, { id: 'ordin', surface: 'ordin' }, { id: 'ate', surface: 'ate' }],
+  tabulate: [{ id: 'table', surface: 'tabul' }, { id: 'ate', surface: 'ate' }],
+  precipitate: [{ id: 'pre', surface: 'pre' }, { id: 'cipit', surface: 'cipit' }, { id: 'ate', surface: 'ate' }],
+  certificate: [{ id: 'certify', surface: 'certif' }, { id: 'ic', surface: 'ic' }, { id: 'ate', surface: 'ate' }],
+  // ── 中间层：拆回「词根 + -ate」三段 ──
+  intermediate: [{ id: 'inter', surface: 'inter' }, { id: 'medi', surface: 'medi' }, { id: 'ate', surface: 'ate' }],
+  // ── D 组 ──
+  independence: [{ id: 'in', surface: 'in' }, { id: 'de', surface: 'de' }, { id: 'pend', surface: 'pend' }, { id: 'ence', surface: 'ence' }],
+  heroine: [{ id: 'heroine', surface: 'heroine' }], // 整词：id 归一化会把 ine 并回 in，立不住后缀
+  routine: [{ id: 'routine', surface: 'routine' }], // 同上
+  preface: [{ id: 'preface', surface: 'preface' }], // 整词：praefatio 是「说」，不能挂 fac
+  automation: [{ id: 'automat', surface: 'automat' }, { id: 'ion', surface: 'ion' }],
   wide: [{ id: 'wide', surface: 'wide' }], // wid 整词，原 wi+de 两张「宽」
   already: [{ id: 'all', surface: 'al' }, { id: 'ready', surface: 'ready' }], // all(全)+ready，原挂在形容词后缀 al 上
   altogether: [{ id: 'all', surface: 'al' }, { id: 'together', surface: 'together' }], // 同上
@@ -255,7 +286,21 @@ if (mergedFamilies.length) console.log(`家族登记表合并 ${mergedFamilies.l
 // allomorphs），源 id 上不再被用到的变体也要摘掉（否则 A22 报「死变体」—— notation 改挂 note
 // 之后，not 的 `notat` 就是这种）。
 // 见下面 touched 集合里的说明：这些词素的变体表要按「切分里实际用到的表面」重算。
-const ALLOMORPH_TOUCH = ['er', 'late']
+const ALLOMORPH_TOUCH = [
+  'er', // 施事名词静音 e：driver = drive + r
+  'late', // later = lat + er
+  'ence', // residence = reside + nce（词干以 e 收尾，-ence 只剩 nce）
+  'ent', // resident = reside + nt
+  'ary', // contrary = contra + ry
+  'fac', // surface = sur + face
+  'al', // ideal = idea + l
+  'ven', // intervene = inter + vene
+  'ob', // omit = ob + mit（ob- 在 m 前只留 o）
+  'itude', // multitude = multi + tude
+  'vid', // divide = di + vide
+  'formula', // formulate = formul + ate
+  'insula', // insulate = insul + ate
+]
 
 const touched = new Set([
   ...Object.keys(MORPHEME_MERGE),
@@ -376,7 +421,9 @@ for (const [w, parts] of Object.entries(allSplits)) {
 // wide→度量台（宽窄）、where→四方塔（方位）。
 const WORLD_ADD = {
   'hearth-forge': ['pan'],
-  'measure-terrace': ['wide'],
+  // ⚠️ 这个对象是字面量，key 重复会静默后者胜出 —— 早先给 measure-terrace 补 centre 时
+  // 重写了整条，把 wide 顶掉了（A24 立刻报警才被发现）。新增词根一律往已有数组里加。
+  'measure-terrace': ['wide', 'centre'], // wide(宽窄) + centre(中心，concentrate 入表后成教学词根）
   'compass-tower': ['where'],
   // Group A 施事名词（-er 补 'r' 变体后入表）把三个词干顶成了教学词根（家族 ≥3 词），
   // 得按词义挂进世界：produce(带出来)→货运码头、write(写)→手稿画室、trade(买卖)→市集巷。

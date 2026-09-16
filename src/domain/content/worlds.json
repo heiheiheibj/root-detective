@@ -315,7 +315,7 @@
   {
     "id": "measure-terrace",
     "name": "度量台",
-    "description": "学习词根：east、short、high、space、point、normal、wide（度量台）",
+    "description": "学习词根：east、short、high、space、point、normal、wide、centre（度量台）",
     "morphemeIds": [
       "east",
       "short",
@@ -323,7 +323,8 @@
       "space",
       "point",
       "normal",
-      "wide"
+      "wide",
+      "centre"
     ]
   },
   {

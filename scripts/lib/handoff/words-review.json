@@ -6969,8 +6969,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "concert": {
   "checks": {
@@ -7488,8 +7487,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "dumpling": {
   "checks": {
@@ -7710,8 +7708,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "especially": {
   "checks": {
@@ -9356,8 +9353,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "marriage": {
   "checks": {
@@ -9914,8 +9910,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "operation": {
   "checks": {
@@ -10377,8 +10372,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "realise": {
   "checks": {
@@ -10688,8 +10682,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "rubber": {
   "checks": {
@@ -10733,8 +10726,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "sandwich": {
   "checks": {
@@ -11310,6 +11302,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "surface": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "surprise": {
   "checks": {
@@ -12550,6 +12562,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "accumulate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "accustomed": {
   "checks": {
@@ -15005,6 +15037,26 @@
   "severity": "ok",
   "issues": []
  },
+ "candidate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "canteen": {
   "checks": {
    "splitMatchesWord": true,
@@ -15231,6 +15283,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "certificate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "chairwoman": {
   "checks": {
@@ -15669,6 +15741,26 @@
   "severity": "ok",
   "issues": []
  },
+ "coincidence": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": false,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "colleague": {
   "checks": {
    "splitMatchesWord": true,
@@ -15859,6 +15951,26 @@
   "severity": "ok",
   "issues": []
  },
+ "concentrate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "conclude": {
   "checks": {
    "splitMatchesWord": true,
@@ -16048,6 +16160,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "considerate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "consideration": {
   "checks": {
@@ -18110,8 +18242,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "expression": {
   "checks": {
@@ -18612,6 +18743,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "fortunate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "founding": {
   "checks": {
@@ -19328,6 +19479,26 @@
   "severity": "ok",
   "issues": []
  },
+ "heroine": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": false,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "highway": {
   "checks": {
    "splitMatchesWord": true,
@@ -19593,6 +19764,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "independence": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "independent": {
   "checks": {
@@ -19971,8 +20162,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "latter": {
   "checks": {
@@ -21251,8 +21441,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "organization": {
   "checks": {
@@ -22727,8 +22916,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "receptionist": {
   "checks": {
@@ -23578,6 +23766,26 @@
   "severity": "ok",
   "issues": []
  },
+ "routine": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "royal": {
   "checks": {
    "splitMatchesWord": true,
@@ -23729,6 +23937,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "scenery": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "sceptical": {
   "checks": {
@@ -23994,8 +24222,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "sharpen": {
   "checks": {
@@ -24033,8 +24260,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "shooting": {
   "checks": {
@@ -24395,8 +24621,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "smoking": {
   "checks": {
@@ -25295,8 +25520,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "telegraph": {
   "checks": {
@@ -26267,6 +26491,26 @@
   "severity": "ok",
   "issues": []
  },
+ "urgent": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "useless": {
   "checks": {
    "splitMatchesWord": true,
@@ -26303,8 +26547,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "usually": {
   "checks": {
@@ -26399,8 +26642,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "violinist": {
   "checks": {
@@ -27444,6 +27686,25 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
+  "issues": []
+ },
+ "anticipate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
   "issues": [],
   "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
@@ -27642,6 +27903,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "automation": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "awfully": {
   "checks": {
@@ -28465,6 +28746,26 @@
   "severity": "ok",
   "issues": []
  },
+ "confidence": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "confine": {
   "checks": {
    "splitMatchesWord": true,
@@ -28691,8 +28992,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "consumption": {
   "checks": {
@@ -31498,6 +31798,26 @@
   "severity": "ok",
   "issues": []
  },
+ "ideal": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "identical": {
   "checks": {
    "splitMatchesWord": true,
@@ -32321,6 +32641,46 @@
   "severity": "ok",
   "issues": []
  },
+ "interference": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": false,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
+ "intermediate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "internal": {
   "checks": {
    "splitMatchesWord": true,
@@ -32838,8 +33198,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "listener": {
   "checks": {
@@ -32877,8 +33236,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "livestock": {
   "checks": {
@@ -32960,8 +33318,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "lower": {
   "checks": {
@@ -33094,8 +33451,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "marvelous": {
   "checks": {
@@ -33329,8 +33685,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "miserable": {
   "checks": {
@@ -33464,6 +33819,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "motivate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "multiple": {
   "checks": {
@@ -33862,8 +34237,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "obviously": {
   "checks": {
@@ -33940,6 +34314,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "omit": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "operational": {
   "checks": {
@@ -34117,6 +34511,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "originate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "outdoor": {
   "checks": {
@@ -34744,6 +35158,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "preface": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": false,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "preferable": {
   "checks": {
@@ -36086,6 +36520,46 @@
   "severity": "ok",
   "issues": []
  },
+ "residence": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
+ "resident": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "resignation": {
   "checks": {
    "splitMatchesWord": true,
@@ -36489,8 +36963,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "robber": {
   "checks": {
@@ -37028,8 +37501,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "slowly": {
   "checks": {
@@ -39220,8 +39692,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "yearly": {
   "checks": {
@@ -39565,6 +40036,26 @@
   "severity": "ok",
   "issues": []
  },
+ "aggravate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "agitation": {
   "checks": {
    "splitMatchesWord": true,
@@ -39862,6 +40353,26 @@
   "severity": "ok",
   "issues": []
  },
+ "assassinate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "assault": {
   "checks": {
    "splitMatchesWord": true,
@@ -39899,6 +40410,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "assimilate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "assimilation": {
   "checks": {
@@ -40798,6 +41329,26 @@
   "severity": "ok",
   "issues": []
  },
+ "coherent": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": false,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "colonial": {
   "checks": {
    "splitMatchesWord": true,
@@ -41118,8 +41669,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "compression": {
   "checks": {
@@ -44270,6 +44820,26 @@
   "severity": "ok",
   "issues": []
  },
+ "fluorescent": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "flutter": {
   "checks": {
    "splitMatchesWord": true,
@@ -44345,6 +44915,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "formulate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "formulation": {
   "checks": {
@@ -44692,8 +45282,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "gossip": {
   "checks": {
@@ -45066,8 +45655,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "huddle": {
   "checks": {
@@ -45264,6 +45852,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "illuminate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "imaginative": {
   "checks": {
@@ -46100,6 +46708,26 @@
   "severity": "ok",
   "issues": []
  },
+ "insulate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "intake": {
   "checks": {
    "splitMatchesWord": true,
@@ -46214,6 +46842,26 @@
   "severity": "ok",
   "issues": []
  },
+ "interface": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "intersection": {
   "checks": {
    "splitMatchesWord": true,
@@ -46232,6 +46880,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "intervene": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "intervention": {
   "checks": {
@@ -46409,6 +47077,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "irritate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "jewellery": {
   "checks": {
@@ -47308,6 +47996,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "modulate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "momentary": {
   "checks": {
@@ -48281,8 +48989,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "penetration": {
   "checks": {
@@ -48397,6 +49104,26 @@
   },
   "severity": "ok",
   "issues": []
+ },
+ "permeate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
  },
  "permissible": {
   "checks": {
@@ -48670,6 +49397,46 @@
   "severity": "ok",
   "issues": []
  },
+ "precedent": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": false,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
+ "precipitate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "preclude": {
   "checks": {
    "splitMatchesWord": true,
@@ -48934,8 +49701,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "productivity": {
   "checks": {
@@ -51106,6 +51872,26 @@
    }
   ]
  },
+ "subordinate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "subscription": {
   "checks": {
    "splitMatchesWord": true,
@@ -51429,6 +52215,26 @@
   "severity": "ok",
   "issues": []
  },
+ "tabulate": {
+  "checks": {
+   "splitMatchesWord": true,
+   "splitMatchesEtymology": true,
+   "literalComposedFromGlosses": true,
+   "metaphorExtendsLiteral": true,
+   "optionsThreeDistinct": true,
+   "optionAIsCorrectAnswer": true,
+   "optionBWrongForStatedReason": true,
+   "optionCWrongForStatedReason": true,
+   "exampleEnContainsWord": true,
+   "exampleCnTranslatesExampleEn": true,
+   "sourceNoteConsistentWithEtymology": true,
+   "mnemonicFreeOfAnswerLeak": true,
+   "noInventedMorpheme": true
+  },
+  "severity": "ok",
+  "issues": [],
+  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+ },
  "taper": {
   "checks": {
    "splitMatchesWord": true,
@@ -51446,8 +52252,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "tenable": {
   "checks": {
@@ -51751,8 +52556,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "tradesman": {
   "checks": {
@@ -52733,8 +53537,7 @@
    "noInventedMorpheme": true
   },
   "severity": "ok",
-  "issues": [],
-  "note": "二轮复核新增词（词素表修正后通过 21 号），按正确词源撰写释义/助记/例句，机械检查全过"
+  "issues": []
  },
  "whereby": {
   "checks": {

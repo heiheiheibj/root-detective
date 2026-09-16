@@ -9564,7 +9564,7 @@
     "surface": "cumul"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -10151,14 +10151,14 @@
   "appreciate": [
    {
     "id": "ap",
-    "surface": "app"
+    "surface": "ap"
    },
    {
-    "id": "reci",
-    "surface": "reci"
+    "id": "preci",
+    "surface": "preci"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -11138,7 +11138,7 @@
     "surface": "candid"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -11309,7 +11309,11 @@
    },
    {
     "id": "ic",
-    "surface": "icate"
+    "surface": "ic"
+   },
+   {
+    "id": "ate",
+    "surface": "ate"
    }
   ],
   "chairwoman": [
@@ -11692,7 +11696,7 @@
     "surface": "centr"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -11822,7 +11826,7 @@
     "surface": "consider"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -13324,7 +13328,7 @@
     "surface": "fortun"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -13780,12 +13784,8 @@
   ],
   "heroine": [
    {
-    "id": "hero",
-    "surface": "hero"
-   },
-   {
-    "id": "in",
-    "surface": "ine"
+    "id": "heroine",
+    "surface": "heroine"
    }
   ],
   "highway": [
@@ -13961,7 +13961,11 @@
   "independence": [
    {
     "id": "in",
-    "surface": "inde"
+    "surface": "in"
+   },
+   {
+    "id": "de",
+    "surface": "de"
    },
    {
     "id": "pend",
@@ -16374,12 +16378,8 @@
   ],
   "routine": [
    {
-    "id": "route",
-    "surface": "rout"
-   },
-   {
-    "id": "in",
-    "surface": "ine"
+    "id": "routine",
+    "surface": "routine"
    }
   ],
   "royal": [
@@ -18906,7 +18906,7 @@
     "surface": "cip"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -19022,12 +19022,12 @@
   ],
   "automation": [
    {
-    "id": "automatic",
-    "surface": "automati"
+    "id": "automat",
+    "surface": "automat"
    },
    {
     "id": "ion",
-    "surface": "on"
+    "surface": "ion"
    }
   ],
   "aviation": [
@@ -21801,7 +21801,11 @@
    },
    {
     "id": "medi",
-    "surface": "mediate"
+    "surface": "medi"
+   },
+   {
+    "id": "ate",
+    "surface": "ate"
    }
   ],
   "internal": [
@@ -22536,7 +22540,7 @@
     "surface": "motiv"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -22930,7 +22934,7 @@
     "surface": "origin"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -23364,12 +23368,8 @@
   ],
   "preface": [
    {
-    "id": "pr",
-    "surface": "pre"
-   },
-   {
-    "id": "fac",
-    "surface": "face"
+    "id": "preface",
+    "surface": "preface"
    }
   ],
   "preferable": [
@@ -26250,7 +26250,7 @@
     "surface": "grav"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -26440,7 +26440,7 @@
     "surface": "assassin"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -26474,7 +26474,7 @@
     "surface": "simil"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -29065,11 +29065,11 @@
   "formulate": [
    {
     "id": "formula",
-    "surface": "formula"
+    "surface": "formul"
    },
    {
-    "id": "at",
-    "surface": "te"
+    "id": "ate",
+    "surface": "ate"
    }
   ],
   "formulation": [
@@ -29618,7 +29618,7 @@
     "surface": "lumin"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -30068,12 +30068,12 @@
   ],
   "insulate": [
    {
-    "id": "nsula",
-    "surface": "insula"
+    "id": "insula",
+    "surface": "insul"
    },
    {
-    "id": "at",
-    "surface": "te"
+    "id": "ate",
+    "surface": "ate"
    }
   ],
   "insulator": [
@@ -30276,7 +30276,7 @@
     "surface": "rit"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -30860,7 +30860,7 @@
     "surface": "modul"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -31594,7 +31594,7 @@
     "surface": "me"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -31834,7 +31834,7 @@
   ],
   "precipitate": [
    {
-    "id": "pr",
+    "id": "pre",
     "surface": "pre"
    },
    {
@@ -31842,7 +31842,7 @@
     "surface": "cipit"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -33328,7 +33328,7 @@
     "surface": "ordin"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -33518,7 +33518,7 @@
     "surface": "tabul"
    },
    {
-    "id": "at",
+    "id": "ate",
     "surface": "ate"
    }
   ],
@@ -34595,8 +34595,7 @@
    "displayText": "pend",
    "meaningCn": "悬挂、称量",
    "allomorphs": [
-    "pend",
-    "pens"
+    "pend"
    ],
    "level": 2,
    "etymology": "来自拉丁语 pendere，意为悬挂、称量",
@@ -34660,14 +34659,13 @@
    "id": "fac",
    "type": "root",
    "displayText": "fac / fact / fic",
-   "meaningCn": "做、制造",
+   "meaningCn": "做、制造；面",
    "allomorphs": [
     "fac",
     "fact",
-    "fect",
-    "fic",
     "fice",
-    "ific"
+    "ific",
+    "face"
    ],
    "level": 1,
    "color": "orange",
@@ -34719,7 +34717,7 @@
     "con",
     "com",
     "col",
-    "cor"
+    "cunn"
    ],
    "level": 1,
    "color": "blue",
@@ -34733,7 +34731,6 @@
    "allomorphs": [
     "sub",
     "suf",
-    "sup",
     "sus"
    ],
    "level": 1,
@@ -34921,7 +34918,8 @@
    "displayText": "-ary",
    "meaningCn": "与……有关的（形容词）",
    "allomorphs": [
-    "ary"
+    "ary",
+    "ry"
    ],
    "level": 3,
    "etymology": "拉丁语形容词后缀",
@@ -34934,7 +34932,8 @@
    "meaningCn": "……的、与……有关（形容词）",
    "allomorphs": [
     "ic",
-    "tic"
+    "tic",
+    "c"
    ],
    "level": 2,
    "etymology": "希腊语/拉丁语形容词后缀",
@@ -34973,7 +34972,8 @@
    "meaningCn": "做……的人、……的",
    "allomorphs": [
     "ent",
-    "ient"
+    "ient",
+    "nt"
    ],
    "level": 1,
    "color": "green",
@@ -34985,7 +34985,8 @@
    "displayText": "-ence",
    "meaningCn": "状态、性质（名词）",
    "allomorphs": [
-    "ence"
+    "ence",
+    "nce"
    ],
    "level": 3,
    "etymology": "拉丁语名词后缀 -entia",
@@ -35724,7 +35725,8 @@
    "allomorphs": [
     "ven",
     "vent",
-    "venture"
+    "venture",
+    "vene"
    ],
    "level": 1,
    "color": "orange",
@@ -35771,7 +35773,7 @@
     "ob",
     "of",
     "op",
-    "oc"
+    "o"
    ],
    "level": 2,
    "color": "blue",
@@ -35988,7 +35990,8 @@
    "displayText": "-al",
    "meaningCn": "……的（形容词）",
    "allomorphs": [
-    "al"
+    "al",
+    "l"
    ],
    "level": 1,
    "color": "green",
@@ -36145,7 +36148,8 @@
    "displayText": "-itude",
    "meaningCn": "状态、程度（名词）",
    "allomorphs": [
-    "itude"
+    "itude",
+    "tude"
    ],
    "level": 3,
    "color": "green",
@@ -37369,7 +37373,7 @@
    "id": "vid",
    "displayText": "vid",
    "type": "root",
-   "meaningCn": "看",
+   "meaningCn": "看；分开",
    "allomorphs": [
     "vid",
     "vide",
@@ -38717,7 +38721,7 @@
    "id": "me",
    "displayText": "me",
    "type": "root",
-   "meaningCn": "我",
+   "meaningCn": "我；通过、穿行",
    "allomorphs": [
     "my",
     "me"
@@ -40574,9 +40578,7 @@
    "meaningCn": "不；进入",
    "allomorphs": [
     "in",
-    "ine",
     "im",
-    "inde",
     "il"
    ],
    "etymology": "",
@@ -40923,8 +40925,7 @@
    "type": "suffix",
    "meaningCn": "动作、过程（名词）",
    "allomorphs": [
-    "ion",
-    "on"
+    "ion"
    ],
    "etymology": "",
    "level": 1,
@@ -49453,8 +49454,7 @@
    "type": "prefix",
    "meaningCn": "朝向",
    "allomorphs": [
-    "ap",
-    "app"
+    "ap"
    ],
    "etymology": "",
    "level": 1,
@@ -53751,7 +53751,7 @@
    "id": "mitt",
    "displayText": "mitt",
    "type": "root",
-   "meaningCn": "棒球手套",
+   "meaningCn": "送、投",
    "allomorphs": [
     "mit"
    ],
@@ -53886,7 +53886,8 @@
    "meaningCn": "岛",
    "allomorphs": [
     "insula",
-    "insulat"
+    "insulat",
+    "insul"
    ],
    "etymology": "",
    "level": 3,
@@ -56729,7 +56730,7 @@
    "id": "simil",
    "displayText": "simil",
    "type": "root",
-   "meaningCn": "明喻",
+   "meaningCn": "相似",
    "allomorphs": [
     "simil"
    ],
@@ -58692,7 +58693,8 @@
    "type": "root",
    "meaningCn": "公式、配方；客套语",
    "allomorphs": [
-    "formula"
+    "formula",
+    "formul"
    ],
    "etymology": "",
    "level": 3,
@@ -59146,7 +59148,7 @@
    "id": "lumin",
    "displayText": "lumin",
    "type": "root",
-   "meaningCn": "腔",
+   "meaningCn": "光",
    "allomorphs": [
     "lumin"
    ],
@@ -59650,7 +59652,7 @@
    "id": "rit",
    "displayText": "rit",
    "type": "root",
-   "meaningCn": "计信息传输速率",
+   "meaningCn": "刺激",
    "allomorphs": [
     "rit"
    ],
@@ -60107,7 +60109,7 @@
    "id": "module",
    "displayText": "module",
    "type": "root",
-   "meaningCn": "组件",
+   "meaningCn": "组件；调节",
    "allomorphs": [
     "modul"
    ],
@@ -60671,7 +60673,7 @@
    "id": "cipit",
    "displayText": "cipit",
    "type": "root",
-   "meaningCn": "开始中世纪抄本开",
+   "meaningCn": "头",
    "allomorphs": [
     "cipit"
    ],
@@ -63456,6 +63458,66 @@
    "color": "orange"
   },
   {
+   "id": "preci",
+   "displayText": "preci",
+   "type": "root",
+   "meaningCn": "价值",
+   "allomorphs": [
+    "preci"
+   ],
+   "etymology": "拉丁 pretium（价值、价钱）；appreciate",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "heroine",
+   "displayText": "heroine",
+   "type": "root",
+   "meaningCn": "女英雄；女主角",
+   "allomorphs": [
+    "heroine"
+   ],
+   "etymology": "法语 héroïne，hero + -ine（阴性后缀）",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "routine",
+   "displayText": "routine",
+   "type": "root",
+   "meaningCn": "常规；例行程序",
+   "allomorphs": [
+    "routine"
+   ],
+   "etymology": "法语 routine，route（路）+ -ine",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "preface",
+   "displayText": "preface",
+   "type": "root",
+   "meaningCn": "序言；开场白",
+   "allomorphs": [
+    "preface"
+   ],
+   "etymology": "拉丁 praefatio，prae-（前）+ fari（说）",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "automat",
+   "displayText": "automat",
+   "type": "root",
+   "meaningCn": "自动装置；自动操作",
+   "allomorphs": [
+    "automat"
+   ],
+   "etymology": "希腊 automatos（自己动的）；automation",
+   "level": 3,
+   "color": "orange"
+  },
+  {
    "id": "comper",
    "displayText": "comper",
    "type": "suffix",
@@ -63803,7 +63865,8 @@
     "space",
     "point",
     "normal",
-    "wide"
+    "wide",
+    "centre"
    ]
   },
   {
