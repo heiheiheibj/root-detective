@@ -1,0 +1,28 @@
+{
+  "_comment": "批次 06：23 个尚未入库的常用拉丁词根词。只收「库外」词 —— 库内已有的 55 个同族词（subject/compose/accept…）切分照旧，不动已发行卡片。切分一律复用已有词根（ject/tect/spec/cap/pos/tend/struct/press/port/vers/duce/duct/mit/vid/ven），只注入 cre/sta/sect 三个上游没有的 root。",
+  "splits": {
+    "object": [{ "id": "ob", "surface": "ob" }, { "id": "ject", "surface": "ject" }],
+    "inject": [{ "id": "in", "surface": "in" }, { "id": "ject", "surface": "ject" }],
+    "protect": [{ "id": "pro", "surface": "pro" }, { "id": "tect", "surface": "tect" }],
+    "expect": [{ "id": "ex", "surface": "ex" }, { "id": "spec", "surface": "pect" }],
+    "inspect": [{ "id": "in", "surface": "in" }, { "id": "spec", "surface": "spect" }],
+    "aspect": [{ "id": "ad", "surface": "a" }, { "id": "spec", "surface": "spect" }],
+    "conduct": [{ "id": "con", "surface": "con" }, { "id": "duct", "surface": "duct" }],
+    "produce": [{ "id": "pro", "surface": "pro" }, { "id": "duce", "surface": "duce" }],
+    "reduce": [{ "id": "re", "surface": "re" }, { "id": "duce", "surface": "duce" }],
+    "educate": [{ "id": "ex", "surface": "e" }, { "id": "duct", "surface": "duc" }, { "id": "ate", "surface": "ate" }],
+    "oppose": [{ "id": "ob", "surface": "op" }, { "id": "pos", "surface": "pose" }],
+    "except": [{ "id": "ex", "surface": "ex" }, { "id": "cap", "surface": "cept" }],
+    "extend": [{ "id": "ex", "surface": "ex" }, { "id": "tend", "surface": "tend" }],
+    "intend": [{ "id": "in", "surface": "in" }, { "id": "tend", "surface": "tend" }],
+    "instruct": [{ "id": "in", "surface": "in" }, { "id": "struct", "surface": "struct" }],
+    "express": [{ "id": "ex", "surface": "ex" }, { "id": "press", "surface": "press" }],
+    "export": [{ "id": "ex", "surface": "ex" }, { "id": "port", "surface": "port" }],
+    "convert": [{ "id": "con", "surface": "con" }, { "id": "vers", "surface": "vert" }],
+    "create": [{ "id": "cre", "surface": "cre" }, { "id": "ate", "surface": "ate" }],
+    "evidence": [{ "id": "ex", "surface": "e" }, { "id": "vid", "surface": "vid" }, { "id": "ence", "surface": "ence" }],
+    "commit": [{ "id": "con", "surface": "com" }, { "id": "mit", "surface": "mit" }],
+    "station": [{ "id": "sta", "surface": "sta" }, { "id": "tion", "surface": "tion" }],
+    "section": [{ "id": "sect", "surface": "sect" }, { "id": "ion", "surface": "ion" }]
+  }
+}

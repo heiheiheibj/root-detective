@@ -1,0 +1,194 @@
+{
+  "object": {
+    "modernMeaningCn": "物体；反对",
+    "literalMeaningCn": "扔到前面",
+    "metaphorMeaningCn": "摆在眼前反对的东西",
+    "metaphorOptions": ["摆在眼前反对的东西", "藏在稻草里的东西", "被牙齿咬住的绳子"],
+    "mnemonicNote": "ob(对着)+ject(扔)：朝你扔来的东西，就是要反对的对象",
+    "sourceNote": "拉丁 obicere，ob-(对着) + jacere(扔)"
+  },
+  "inject": {
+    "modernMeaningCn": "注射；注入",
+    "literalMeaningCn": "扔进去",
+    "metaphorMeaningCn": "把药水推进身体",
+    "metaphorOptions": ["把药水推进身体", "装满蜜蜂的箱子", "涂着奶油的木板"],
+    "mnemonicNote": "in(进入)+ject(扔)：把药水扔进身体里",
+    "sourceNote": "拉丁 inicere，in-(进入) + jacere(扔)"
+  },
+  "protect": {
+    "modernMeaningCn": "保护",
+    "literalMeaningCn": "在前面盖上",
+    "metaphorMeaningCn": "替人挡在前面的盾",
+    "metaphorOptions": ["替人挡在前面的盾", "被剪断的外套", "围成一圈的椅子"],
+    "mnemonicNote": "pro(在前)+tect(遮盖)：在前面盖住，替人挡着",
+    "sourceNote": "拉丁 protegere，pro-(在前) + tegere(遮盖)"
+  },
+  "expect": {
+    "modernMeaningCn": "期待；预料",
+    "literalMeaningCn": "向外看",
+    "metaphorMeaningCn": "站在门口张望等的人",
+    "metaphorOptions": ["站在门口张望等的人", "闻着柠檬的香味", "数着二十个硬币"],
+    "mnemonicNote": "ex(向外)+spect(看)：往远处看，等着它来",
+    "sourceNote": "拉丁 exspectare，ex-(向外) + spectare(看)"
+  },
+  "inspect": {
+    "modernMeaningCn": "检查；查看",
+    "literalMeaningCn": "向里细看",
+    "metaphorMeaningCn": "凑近查看每个角落",
+    "metaphorOptions": ["凑近查看每个角落", "刷子刷过的墙", "擦得发亮的椅子"],
+    "mnemonicNote": "in(向里)+spect(看)：往里看，逐处查看",
+    "sourceNote": "拉丁 inspicere，in-(向内) + specere(看)"
+  },
+  "aspect": {
+    "modernMeaningCn": "方面；外表",
+    "literalMeaningCn": "朝向的那一面",
+    "metaphorMeaningCn": "一件事露给人的一面",
+    "metaphorOptions": ["一件事露给人的一面", "蛋糕上的奶油", "桌子旁边的椅子"],
+    "mnemonicNote": "a(朝向)+spect(看)：朝哪边看，就看到哪一面",
+    "sourceNote": "拉丁 aspectus，ad-(朝向) + specere(看)"
+  },
+  "conduct": {
+    "modernMeaningCn": "引导；行为",
+    "literalMeaningCn": "一起引导",
+    "metaphorMeaningCn": "带着一队人往前走",
+    "metaphorOptions": ["带着一队人往前走", "开向城市的车", "绕过南方的河"],
+    "mnemonicNote": "con(共同)+duct(引导)：把众人一起引着走",
+    "sourceNote": "拉丁 conducere，con-(共同) + ducere(引导)"
+  },
+  "produce": {
+    "modernMeaningCn": "生产；产生",
+    "literalMeaningCn": "向前引出",
+    "metaphorMeaningCn": "从手里拿出成果",
+    "metaphorOptions": ["从手里拿出成果", "厨房里的机器", "市场卖的柠檬"],
+    "mnemonicNote": "pro(向前)+duce(引导)：把东西引出来、做出来",
+    "sourceNote": "拉丁 producere，pro-(向前) + ducere(引导)"
+  },
+  "product": {
+    "modernMeaningCn": "产品；产物",
+    "literalMeaningCn": "被引出来的东西",
+    "metaphorMeaningCn": "从手里做出来的成品",
+    "metaphorOptions": ["从手里做出来的成品", "厨房做出的面包", "市场卖出的黄金"],
+    "mnemonicNote": "pro(向前)+duct(引导)：被引出来的成果",
+    "sourceNote": "拉丁 productum，pro-(向前) + ducere(引导)"
+  },
+  "reduce": {
+    "modernMeaningCn": "减少；降低",
+    "literalMeaningCn": "往回引",
+    "metaphorMeaningCn": "把一大团往回缩",
+    "metaphorOptions": ["把一大团往回缩", "折叠好的衣裳", "关掉的机器"],
+    "mnemonicNote": "re(回)+duce(引导)：把数量往回带，就变少了",
+    "sourceNote": "拉丁 reducere，re-(回) + ducere(引导)"
+  },
+  "educate": {
+    "modernMeaningCn": "教育；培养",
+    "literalMeaningCn": "把本领引出来",
+    "metaphorMeaningCn": "把孩子本事引出来",
+    "metaphorOptions": ["把孩子本事引出来", "学校里的椅子", "写满标记的板"],
+    "mnemonicNote": "e(向外)+duc(引导)+ate：把人的本领往外引出来",
+    "sourceNote": "拉丁 educare，e-(向外) + ducere(引导)"
+  },
+  "oppose": {
+    "modernMeaningCn": "反对；对抗",
+    "literalMeaningCn": "放到对面",
+    "metaphorMeaningCn": "站出来挡在对面",
+    "metaphorOptions": ["站出来挡在对面", "对面站着的人", "分开的两块板"],
+    "mnemonicNote": "op(对着)+pos(放)：把立场放到你对面",
+    "sourceNote": "拉丁 opponere，ob-(对着) + ponere(放)"
+  },
+  "except": {
+    "modernMeaningCn": "除……之外",
+    "literalMeaningCn": "拿出去",
+    "metaphorMeaningCn": "从名单里挑出去",
+    "metaphorOptions": ["从名单里挑出去", "锁在监狱的人", "放在底部的箱"],
+    "mnemonicNote": "ex(向外)+cept(拿)：把它拿出去，就不算在内",
+    "sourceNote": "拉丁 excipere，ex-(向外) + capere(拿)"
+  },
+  "extend": {
+    "modernMeaningCn": "延伸；扩大",
+    "literalMeaningCn": "向外伸展",
+    "metaphorMeaningCn": "手臂朝外越伸越长",
+    "metaphorOptions": ["手臂朝外越伸越长", "挂着外套的架", "越过南方的河"],
+    "mnemonicNote": "ex(向外)+tend(伸展)：往外拉长",
+    "sourceNote": "拉丁 extendere，ex-(向外) + tendere(伸展)"
+  },
+  "intend": {
+    "modernMeaningCn": "打算；意图",
+    "literalMeaningCn": "向里伸展",
+    "metaphorMeaningCn": "心朝一个方向使劲",
+    "metaphorOptions": ["心朝一个方向使劲", "藏在心里的意图", "被风吹的稻草"],
+    "mnemonicNote": "in(向里)+tend(伸展)：心往一处使劲，就是打算",
+    "sourceNote": "拉丁 intendere，in-(向) + tendere(伸展)"
+  },
+  "instruct": {
+    "modernMeaningCn": "指导；教授",
+    "literalMeaningCn": "在里面搭建",
+    "metaphorMeaningCn": "往脑子里搭起知识",
+    "metaphorOptions": ["往脑子里搭起知识", "建好的房子", "黑板上的文字"],
+    "mnemonicNote": "in(在里面)+struct(搭建)：在头脑里搭起一套",
+    "sourceNote": "拉丁 instruere，in-(在内) + struere(搭建)"
+  },
+  "express": {
+    "modernMeaningCn": "表达；快递",
+    "literalMeaningCn": "向外压出",
+    "metaphorMeaningCn": "把心里的话挤出来",
+    "metaphorOptions": ["把心里的话挤出来", "压扁的面包", "画着图案的卡片"],
+    "mnemonicNote": "ex(向外)+press(压)：把想法压出来，变成话",
+    "sourceNote": "拉丁 exprimere，ex-(向外) + premere(压)"
+  },
+  "export": {
+    "modernMeaningCn": "出口；输出",
+    "literalMeaningCn": "向外运",
+    "metaphorMeaningCn": "把货装船送出国",
+    "metaphorOptions": ["把货装船送出国", "开往城市的船", "邮政的包裹"],
+    "mnemonicNote": "ex(向外)+port(运)：把货往外运",
+    "sourceNote": "拉丁 exportare，ex-(向外) + portare(运)"
+  },
+  "convert": {
+    "modernMeaningCn": "转换；改变",
+    "literalMeaningCn": "完全转过来",
+    "metaphorMeaningCn": "把东西整个翻个面",
+    "metaphorOptions": ["把东西整个翻个面", "转弯的路口", "翻过来的木板"],
+    "mnemonicNote": "con(完全)+vert(转)：整个转过来，就换了样",
+    "sourceNote": "拉丁 convertere，con-(完全) + vertere(转)"
+  },
+  "create": {
+    "modernMeaningCn": "创造；创作",
+    "literalMeaningCn": "造出来",
+    "metaphorMeaningCn": "从无到有做出新东西",
+    "metaphorOptions": ["从无到有做出新东西", "厨房里的蛋糕", "用木板做的椅子"],
+    "mnemonicNote": "cre(创造、生长)+ate：让新东西长出来",
+    "sourceNote": "拉丁 creare（创造、生长）"
+  },
+  "evidence": {
+    "modernMeaningCn": "证据；迹象",
+    "literalMeaningCn": "看得见的东西",
+    "metaphorMeaningCn": "能看清的凭据",
+    "metaphorOptions": ["能看清的凭据", "留在现场的文字", "记录在册的名字"],
+    "mnemonicNote": "e(向外)+vid(看)+ence：能让人看见的，就是凭据",
+    "sourceNote": "拉丁 evidentia，e-(向外) + videre(看)"
+  },
+  "commit": {
+    "modernMeaningCn": "犯（罪）；承诺",
+    "literalMeaningCn": "一起送出",
+    "metaphorMeaningCn": "把自己整个交出去",
+    "metaphorOptions": ["把自己整个交出去", "送出的包裹", "写满记录的本子"],
+    "mnemonicNote": "com(共同)+mit(送)：把自己整份交出去，就是承诺",
+    "sourceNote": "拉丁 committere，com-(共同) + mittere(送)"
+  },
+  "station": {
+    "modernMeaningCn": "车站；站点",
+    "literalMeaningCn": "站立的地方",
+    "metaphorMeaningCn": "车停下让人上下",
+    "metaphorOptions": ["车停下让人上下", "南方的车站", "靠近市场的房"],
+    "mnemonicNote": "sta(站立)+tion：让车停下来站住的地方",
+    "sourceNote": "拉丁 statio，stare(站立)"
+  },
+  "section": {
+    "modernMeaningCn": "部分；章节",
+    "literalMeaningCn": "切开的一块",
+    "metaphorMeaningCn": "从整体切下的一段",
+    "metaphorOptions": ["从整体切下的一段", "分给同伴的一块", "写满文字的一页"],
+    "mnemonicNote": "sect(切)+ion：从整体切下来的一块",
+    "sourceNote": "拉丁 sectio，secare(切)"
+  }
+}

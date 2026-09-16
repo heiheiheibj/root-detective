@@ -5,7 +5,7 @@
     { "id": "pre", "displayText": "pre-", "type": "prefix", "meaningCn": "前、预先", "allomorphs": ["pre"], "etymology": "来自拉丁语 prae，在前面", "level": 1, "color": "blue" },
     { "id": "re", "displayText": "re-", "type": "prefix", "meaningCn": "再、回", "allomorphs": ["re"], "etymology": "来自拉丁语 re-，again / back", "level": 1, "color": "blue" },
     { "id": "in", "displayText": "in- / im-", "type": "prefix", "meaningCn": "不；进入", "allomorphs": ["in", "im", "il", "ir"], "etymology": "来自拉丁语 in，表示否定或“进入”；im / il / ir 是同化变体", "level": 1, "color": "blue" },
-    { "id": "spec", "displayText": "spec / spect", "type": "root", "meaningCn": "看", "allomorphs": ["spec", "spect", "spic"], "etymology": "来自拉丁语 specere，看、观察", "level": 2, "color": "orange" },
+    { "id": "spec", "displayText": "spec / spect", "type": "root", "meaningCn": "看", "allomorphs": ["spec", "spect", "spic", "pect"], "etymology": "来自拉丁语 specere，看、观察；expect/suspect 里 ex-/sus- 之后 s 脱落，只剩 pect", "level": 2, "color": "orange" },
     { "id": "dict", "displayText": "dict / dic", "type": "root", "meaningCn": "说", "allomorphs": ["dict", "dic"], "etymology": "来自拉丁语 dicere，说、宣布", "level": 1, "color": "orange" },
     { "id": "port", "displayText": "port", "type": "root", "meaningCn": "携带", "allomorphs": ["port"], "etymology": "来自拉丁语 portare，携带", "level": 1, "color": "orange" },
     { "id": "vid", "displayText": "vid / vis", "type": "root", "meaningCn": "看", "allomorphs": ["vid", "vis", "vise"], "etymology": "来自拉丁语 videre，看见", "level": 1, "color": "orange" },

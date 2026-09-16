@@ -222,6 +222,9 @@ export const OVERRIDE_MEANINGS = {
   // ══════ 第一轮（3adf204 引入）：被当成英文缩写/专名/术语查了的词根 ══════════
   capit: '头', comp: '共同', sid: '坐', turb: '搅动', dure: '持续',
   eng: '英格', ma: '妈', bag: '袋', handwrite: '手写', ind: '印度', duce: '引导',
+  duct: '引导', // 曾「管」（ECDICT 把 duct 当「导管」查了）；conduct/educate 要的是「引导」
+  par: '相等；准备', // 曾「标准」（ECDICT 义项）；compare 支 par(相等)，prepare 支 parare(准备)
+  se: '分开、离开', // 曾「计栈空」（SE 缩写词条泄漏）；select ← se-(分开)+legere(选)
   mathematic: '数学', mann: '人', eld: '年代', bi: '二', mas: '弥撒',
   apt: '适合', enda: '待办', app: '朝向', awk: '反手', butch: '屠宰', rot: '轮转',
   circ: '圆', barrass: '阻碍', rupt: '破裂', minim: '最小', minimus: '最小',
@@ -1119,6 +1122,28 @@ export const INJECT_MORPHEMES = [
   {
     id: 'ain', displayText: 'ain', type: 'suffix', meaningCn: '（法语词尾）',
     allomorphs: ['ain'], etymology: 'terrain 的 -ain 词尾', level: 1, color: 'green',
+  },
+  // ── 批次 06 注入：常用拉丁词根（此前上游数据源没有这些 id）─────────────────────
+  {
+    // create ← 拉丁 creare（创造、生长）。
+    id: 'cre', displayText: 'cre', type: 'root', meaningCn: '创造、生长',
+    allomorphs: ['cre'], etymology: '拉丁 creare（创造、生长）；create/creature', level: 3, color: 'orange',
+  },
+  {
+    // station ← 拉丁 stare（站立）。与已有的 stand/st（站立）同源，词形是 sta（st 是后缀，
+    // 变体表里只有 st/state/stat，覆盖不了 station 的 sta）。
+    id: 'sta', displayText: 'sta', type: 'root', meaningCn: '站立',
+    allomorphs: ['sta'], etymology: '拉丁 stare（站立）；station/stable', level: 3, color: 'orange',
+  },
+  {
+    // section ← 拉丁 secare（切）。sect 在 intersect/dissect 里也是「切」。
+    id: 'sect', displayText: 'sect', type: 'root', meaningCn: '切',
+    allomorphs: ['sect'], etymology: '拉丁 secare（切）；section/insect/intersect', level: 3, color: 'orange',
+  },
+  {
+    // connect ← 拉丁 nectere（系、连接）。上游数据源没有 nect 这个 id。
+    id: 'nect', displayText: 'nect', type: 'root', meaningCn: '连接',
+    allomorphs: ['nect'], etymology: '拉丁 nectere（系、连接）；connect', level: 3, color: 'orange',
   },
 ]
 

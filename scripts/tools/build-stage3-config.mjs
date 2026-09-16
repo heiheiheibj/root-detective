@@ -300,6 +300,12 @@ const ALLOMORPH_TOUCH = [
   'vid', // divide = di + vide
   'formula', // formulate = formul + ate
   'insula', // insulate = insul + ate
+  // 批次 06：常用词根族的同化变体（A6 要求 part.surface ∈ allomorphs）
+  'ad', // aspect = a（ad- 在 s 前脱落辅音）
+  'ex', // event/evidence/educate = e（ex- 在辅音前的弱化）
+  'duct', // educate = duc
+  // 注：spec 的 pect 变体（expect/suspect）在 legacy-morphemes.json 里补 ——
+  //   spec 属于 legacy 12 词素，本函数只重算 extraMorphemes，改这里不生效。
 ]
 
 const touched = new Set([
@@ -329,10 +335,24 @@ for (const parts of Object.values(allSplits)) {
 // 词性改判：company 的 pan 本是「平锅/面包」整词根（companio 共享面包的人），cigen 把它
 // 当成了前缀；wide 是「宽」整词根（古英语 wid），同理。不是任何家族的 root，改 root
 // 不触发挂世界要求，但能让 21 号 A18（至少一个 root part）放行 company / wide。
-const TYPE_FIX = { pan: 'root', wide: 'root', where: 'root' }
+const TYPE_FIX = {
+  pan: 'root', wide: 'root', where: 'root',
+  // duct 上游被登记成 suffix，但它是「引导」的拉丁词根（duct 服务 conduct/product/educate；
+  // 同根的 duce 已是 root）。改判 root 只增不减，A18 才能收下 conduct/educate 这批常用词。
+  // 注：不碰 spect —— 线上 inspection 等词把它当后缀用，改型会动到已发行卡片；
+  //   expect/inspect/aspect 一律挂已有的 root spec（变体补 pect）。
+  duct: 'root',
+  // 批次 06b：collect/select/election/lecture 的 lect（上游登记成 suffix）、compare/prepare 的
+  // par（上游是 prefix，变体只收 pare）、renew 的 new（上游是 prefix）都要当词根用。
+  lect: 'root', par: 'root', new: 'root',
+  // se 上游被登记成 suffix、义项是「计栈空」（ECDICT 把 SE 当缩写查了）；select 里它是
+  // 拉丁 se-(分开、离开)，在词首。改回 prefix 并配上按类型的颜色。
+  se: 'prefix',
+}
+const TYPE_COLOR = { root: 'orange', prefix: 'blue', suffix: 'green' }
 for (const m of extraMorphemes) {
   if (DISPLAY_FIX[m.id]) Object.assign(m, DISPLAY_FIX[m.id])
-  if (TYPE_FIX[m.id]) { m.type = TYPE_FIX[m.id]; m.color = 'orange' }
+  if (TYPE_FIX[m.id]) { m.type = TYPE_FIX[m.id]; m.color = TYPE_COLOR[m.type] ?? 'orange' }
   const used = usedSurfaces.get(m.id)
   if (!used) continue
   const kept = m.allomorphs.filter((surface) => used.has(surface))
@@ -427,9 +447,18 @@ const WORLD_ADD = {
   'compass-tower': ['where'],
   // Group A 施事名词（-er 补 'r' 变体后入表）把三个词干顶成了教学词根（家族 ≥3 词），
   // 得按词义挂进世界：produce(带出来)→货运码头、write(写)→手稿画室、trade(买卖)→市集巷。
-  'cargo-dock': ['produce'],
-  'script-atelier': ['write'],
+  'cargo-dock': ['produce', 'duct', 'duce'], // 批次 06：duc/duct/duce(引导)
+  'script-atelier': ['write', 'new'], // new(新的，renew 入表后成教学词根)
   'market-lane': ['trade'],
+  // 批次 06：新词根与改判 root 的词素挂世界（A24：教学词根要出现在地图上）
+  'growth-lab': ['cre'], // 成长实验室：cre(创造、生长) 与 bio/gen/nat 同族
+  'motion-yard': ['sta'], // 行止院：sta(站立) 与 stand 同义
+  'discern-hall': ['sect'], // 明辨堂：sect(切) 与已有的 cut 同族
+  'build-site': ['struct'], // 营造场：struct(堆叠、构造)
+  // 批次 06b：新改判 root 与注入的词素挂世界
+  'reading-loft': ['lect'], // 识读阁：lect(收集、选)
+  'craft-works': ['par'], // 工匠铺：par(相等) 与 equ 同族
+  'message-port': ['nect'], // 传送门：nect(连接) 与 port/dict 同族
 }
 for (const [worldId, ids] of Object.entries(WORLD_ADD)) {
   const world = allWorlds.find((w) => w.id === worldId)

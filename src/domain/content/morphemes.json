@@ -57,9 +57,10 @@
     "allomorphs": [
       "spec",
       "spect",
-      "spic"
+      "spic",
+      "pect"
     ],
-    "etymology": "来自拉丁语 specere，看、观察",
+    "etymology": "来自拉丁语 specere，看、观察；expect/suspect 里 ex-/sus- 之后 s 脱落，只剩 pect",
     "level": 2,
     "color": "orange"
   },
@@ -298,6 +299,7 @@
     "meaningCn": "转",
     "allomorphs": [
       "vers",
+      "vert",
       "verse"
     ],
     "level": 1,
@@ -1410,7 +1412,8 @@
       "ar",
       "as",
       "al",
-      "an"
+      "an",
+      "a"
     ],
     "level": 2,
     "color": "blue",
@@ -5828,6 +5831,18 @@
     "color": "blue"
   },
   {
+    "id": "par",
+    "displayText": "par-",
+    "type": "root",
+    "meaningCn": "相等；准备",
+    "allomorphs": [
+      "pare"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "rect",
     "displayText": "rect-",
     "type": "prefix",
@@ -6374,6 +6389,18 @@
     "etymology": "",
     "level": 3,
     "color": "green"
+  },
+  {
+    "id": "lect",
+    "displayText": "-lect",
+    "type": "root",
+    "meaningCn": "收集、选",
+    "allomorphs": [
+      "lect"
+    ],
+    "etymology": "",
+    "level": 1,
+    "color": "orange"
   },
   {
     "id": "ple",
@@ -14266,7 +14293,8 @@
     "meaningCn": "出（ex- 变体）",
     "allomorphs": [
       "ex",
-      "exe"
+      "exe",
+      "e"
     ],
     "etymology": "",
     "level": 1,
@@ -14590,6 +14618,19 @@
     "color": "green"
   },
   {
+    "id": "duct",
+    "displayText": "-duct",
+    "type": "root",
+    "meaningCn": "引导",
+    "allomorphs": [
+      "duct",
+      "duc"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "ative",
     "displayText": "-ative",
     "type": "suffix",
@@ -14636,6 +14677,18 @@
     "etymology": "",
     "level": 3,
     "color": "green"
+  },
+  {
+    "id": "se",
+    "displayText": "-se",
+    "type": "prefix",
+    "meaningCn": "分开、离开",
+    "allomorphs": [
+      "se"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "blue"
   },
   {
     "id": "dom",
@@ -19890,6 +19943,18 @@
     "etymology": "",
     "level": 3,
     "color": "blue"
+  },
+  {
+    "id": "new",
+    "displayText": "new-",
+    "type": "root",
+    "meaningCn": "新的",
+    "allomorphs": [
+      "new"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
   },
   {
     "id": "nitro",
@@ -26439,5 +26504,53 @@
     "etymology": "terrain 的 -ain 词尾",
     "level": 1,
     "color": "green"
+  },
+  {
+    "id": "cre",
+    "displayText": "cre",
+    "type": "root",
+    "meaningCn": "创造、生长",
+    "allomorphs": [
+      "cre"
+    ],
+    "etymology": "拉丁 creare（创造、生长）；create/creature",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "sta",
+    "displayText": "sta",
+    "type": "root",
+    "meaningCn": "站立",
+    "allomorphs": [
+      "sta"
+    ],
+    "etymology": "拉丁 stare（站立）；station/stable",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "sect",
+    "displayText": "sect",
+    "type": "root",
+    "meaningCn": "切",
+    "allomorphs": [
+      "sect"
+    ],
+    "etymology": "拉丁 secare（切）；section/insect/intersect",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "nect",
+    "displayText": "nect",
+    "type": "root",
+    "meaningCn": "连接",
+    "allomorphs": [
+      "nect"
+    ],
+    "etymology": "拉丁 nectere（系、连接）；connect",
+    "level": 3,
+    "color": "orange"
   }
 ]

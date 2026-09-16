@@ -223,5 +223,57 @@
   "subordinate": {
     "exampleEn": "He is a subordinate in that office.",
     "exampleCn": "他在那个办公室里是个下级。"
+  },
+  "inject": {
+    "exampleEn": "The doctor will inject the medicine into your arm.",
+    "exampleCn": "医生会把药注射进你的手臂。"
+  },
+  "educate": {
+    "exampleEn": "Parents educate their children at home as well.",
+    "exampleCn": "父母也在家里教育孩子。"
+  },
+  "instruct": {
+    "exampleEn": "She will instruct the class on how to use it.",
+    "exampleCn": "她会指导全班如何使用它。"
+  },
+  "collect": {
+    "exampleEn": "We collected shells on the beach.",
+    "exampleCn": "我们在海滩上收集贝壳。"
+  },
+  "compare": {
+    "exampleEn": "Compare the two pictures carefully.",
+    "exampleCn": "仔细比较这两张图。"
+  },
+  "prepare": {
+    "exampleEn": "Prepare the room before the guests arrive.",
+    "exampleCn": "客人到之前先把房间准备好。"
+  },
+  "connect": {
+    "exampleEn": "Connect the printer to the computer.",
+    "exampleCn": "把打印机连接到电脑上。"
+  },
+  "renew": {
+    "exampleEn": "I need to renew my passport.",
+    "exampleCn": "我需要更新我的护照。"
+  },
+  "election": {
+    "exampleEn": "The election will be held next week.",
+    "exampleCn": "选举将在下周举行。"
+  },
+  "lecture": {
+    "exampleEn": "He gave a lecture on history.",
+    "exampleCn": "他做了一场关于历史的讲座。"
+  },
+  "select": {
+    "exampleEn": "Please select the correct answer.",
+    "exampleCn": "请选择正确的答案。"
+  },
+  "dialect": {
+    "exampleEn": "She speaks a local dialect.",
+    "exampleCn": "她说一种当地方言。"
+  },
+  "newly": {
+    "exampleEn": "The newly built bridge opened today.",
+    "exampleCn": "这座新建的桥今天通车了。"
   }
 }

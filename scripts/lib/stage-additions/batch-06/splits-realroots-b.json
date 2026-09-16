@@ -1,0 +1,12 @@
+{
+  "_comment": "批次 06b：再 7 个尚未入库的常用拉丁词根词。lect（收集、选，上游是 suffix 改判 root）、par（相等，上游是 prefix）、new（新的，上游是 prefix）走 TYPE_FIX；nect（连接）注入。compare/prepare 共用一个 par（双支：相等 / 准备）。",
+  "splits": {
+    "collect": [{ "id": "con", "surface": "col" }, { "id": "lect", "surface": "lect" }],
+    "compare": [{ "id": "con", "surface": "com" }, { "id": "par", "surface": "pare" }],
+    "prepare": [{ "id": "pre", "surface": "pre" }, { "id": "par", "surface": "pare" }],
+    "connect": [{ "id": "con", "surface": "con" }, { "id": "nect", "surface": "nect" }],
+    "renew": [{ "id": "re", "surface": "re" }, { "id": "new", "surface": "new" }],
+    "election": [{ "id": "ex", "surface": "e" }, { "id": "lect", "surface": "lect" }, { "id": "ion", "surface": "ion" }],
+    "lecture": [{ "id": "lect", "surface": "lect" }, { "id": "ure", "surface": "ure" }]
+  }
+}

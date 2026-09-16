@@ -1,5 +1,5 @@
 {
- "_comment": "Stage 3 内容配置：197 家族 / 553 词（由 build-stage3-config.mjs 合并 batch-01 + batch-02 + batch-03 + batch-04 + batch-05 生成；源头=stage1-content.json + stage-additions/*，不要手改本文件）。",
+ "_comment": "Stage 3 内容配置：197 家族 / 553 词（由 build-stage3-config.mjs 合并 batch-01 + batch-02 + batch-03 + batch-04 + batch-05 + batch-06 生成；源头=stage1-content.json + stage-additions/*，不要手改本文件）。",
  "families": {
   "spec": {
    "roots": [
@@ -6050,7 +6050,7 @@
   ],
   "collect": [
    {
-    "id": "col",
+    "id": "con",
     "surface": "col"
    },
    {
@@ -6084,7 +6084,7 @@
   ],
   "compare": [
    {
-    "id": "com",
+    "id": "con",
     "surface": "com"
    },
    {
@@ -6148,7 +6148,7 @@
     "surface": "con"
    },
    {
-    "id": "necto",
+    "id": "nect",
     "surface": "nect"
    }
   ],
@@ -8172,7 +8172,7 @@
   ],
   "prepare": [
    {
-    "id": "pr",
+    "id": "pre",
     "surface": "pre"
    },
    {
@@ -8724,12 +8724,12 @@
   ],
   "station": [
    {
-    "id": "st",
-    "surface": "stat"
+    "id": "sta",
+    "surface": "sta"
    },
    {
-    "id": "ion",
-    "surface": "ion"
+    "id": "tion",
+    "surface": "tion"
    }
   ],
   "strawberry": [
@@ -14032,7 +14032,7 @@
     "surface": "in"
    },
    {
-    "id": "spect",
+    "id": "spec",
     "surface": "spect"
    }
   ],
@@ -16594,12 +16594,12 @@
   ],
   "section": [
    {
-    "id": "sec",
-    "surface": "sec"
+    "id": "sect",
+    "surface": "sect"
    },
    {
-    "id": "tion",
-    "surface": "tion"
+    "id": "ion",
+    "surface": "ion"
    }
   ],
   "security": [
@@ -19698,7 +19698,7 @@
     "surface": "con"
    },
    {
-    "id": "vert",
+    "id": "vers",
     "surface": "vert"
    }
   ],
@@ -20412,8 +20412,12 @@
   ],
   "election": [
    {
-    "id": "elect",
-    "surface": "elect"
+    "id": "ex",
+    "surface": "e"
+   },
+   {
+    "id": "lect",
+    "surface": "lect"
    },
    {
     "id": "ion",
@@ -34451,6 +34455,204 @@
     "id": "ing",
     "surface": "ing"
    }
+  ],
+  "lecture": [
+   {
+    "id": "lect",
+    "surface": "lect"
+   },
+   {
+    "id": "ure",
+    "surface": "ure"
+   }
+  ],
+  "object": [
+   {
+    "id": "ob",
+    "surface": "ob"
+   },
+   {
+    "id": "ject",
+    "surface": "ject"
+   }
+  ],
+  "inject": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "ject",
+    "surface": "ject"
+   }
+  ],
+  "protect": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "tect",
+    "surface": "tect"
+   }
+  ],
+  "expect": [
+   {
+    "id": "ex",
+    "surface": "ex"
+   },
+   {
+    "id": "spec",
+    "surface": "pect"
+   }
+  ],
+  "aspect": [
+   {
+    "id": "ad",
+    "surface": "a"
+   },
+   {
+    "id": "spec",
+    "surface": "spect"
+   }
+  ],
+  "produce": [
+   {
+    "id": "pro",
+    "surface": "pro"
+   },
+   {
+    "id": "duce",
+    "surface": "duce"
+   }
+  ],
+  "reduce": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "duce",
+    "surface": "duce"
+   }
+  ],
+  "educate": [
+   {
+    "id": "ex",
+    "surface": "e"
+   },
+   {
+    "id": "duct",
+    "surface": "duc"
+   },
+   {
+    "id": "ate",
+    "surface": "ate"
+   }
+  ],
+  "oppose": [
+   {
+    "id": "ob",
+    "surface": "op"
+   },
+   {
+    "id": "pos",
+    "surface": "pose"
+   }
+  ],
+  "except": [
+   {
+    "id": "ex",
+    "surface": "ex"
+   },
+   {
+    "id": "cap",
+    "surface": "cept"
+   }
+  ],
+  "extend": [
+   {
+    "id": "ex",
+    "surface": "ex"
+   },
+   {
+    "id": "tend",
+    "surface": "tend"
+   }
+  ],
+  "intend": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "tend",
+    "surface": "tend"
+   }
+  ],
+  "instruct": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "struct",
+    "surface": "struct"
+   }
+  ],
+  "express": [
+   {
+    "id": "ex",
+    "surface": "ex"
+   },
+   {
+    "id": "press",
+    "surface": "press"
+   }
+  ],
+  "export": [
+   {
+    "id": "ex",
+    "surface": "ex"
+   },
+   {
+    "id": "port",
+    "surface": "port"
+   }
+  ],
+  "create": [
+   {
+    "id": "cre",
+    "surface": "cre"
+   },
+   {
+    "id": "ate",
+    "surface": "ate"
+   }
+  ],
+  "evidence": [
+   {
+    "id": "ex",
+    "surface": "e"
+   },
+   {
+    "id": "vid",
+    "surface": "vid"
+   },
+   {
+    "id": "ence",
+    "surface": "ence"
+   }
+  ],
+  "commit": [
+   {
+    "id": "con",
+    "surface": "com"
+   },
+   {
+    "id": "mit",
+    "surface": "mit"
+   }
   ]
  },
  "extraMorphemes": [
@@ -35758,7 +35960,8 @@
     "as",
     "al",
     "an",
-    "ade"
+    "ade",
+    "a"
    ],
    "level": 2,
    "color": "blue",
@@ -40416,14 +40619,14 @@
   {
    "id": "par",
    "displayText": "par-",
-   "type": "prefix",
-   "meaningCn": "标准",
+   "type": "root",
+   "meaningCn": "相等；准备",
    "allomorphs": [
     "pare"
    ],
    "etymology": "",
    "level": 3,
-   "color": "blue"
+   "color": "orange"
   },
   {
    "id": "necto",
@@ -41161,14 +41364,14 @@
   {
    "id": "lect",
    "displayText": "-lect",
-   "type": "suffix",
+   "type": "root",
    "meaningCn": "收集、选",
    "allomorphs": [
     "lect"
    ],
    "etymology": "",
    "level": 1,
-   "color": "green"
+   "color": "orange"
   },
   {
    "id": "ple",
@@ -49677,7 +49880,8 @@
    "allomorphs": [
     "ex",
     "ec",
-    "exe"
+    "exe",
+    "e"
    ],
    "etymology": "",
    "level": 1,
@@ -50273,14 +50477,15 @@
   {
    "id": "duct",
    "displayText": "-duct",
-   "type": "suffix",
-   "meaningCn": "管",
+   "type": "root",
+   "meaningCn": "引导",
    "allomorphs": [
-    "duct"
+    "duct",
+    "duc"
    ],
    "etymology": "",
    "level": 3,
-   "color": "green"
+   "color": "orange"
   },
   {
    "id": "ative",
@@ -50345,15 +50550,15 @@
   {
    "id": "se",
    "displayText": "-se",
-   "type": "suffix",
-   "meaningCn": "计栈空",
+   "type": "prefix",
+   "meaningCn": "分开、离开",
    "allomorphs": [
     "se",
     "see"
    ],
    "etymology": "",
    "level": 3,
-   "color": "green"
+   "color": "blue"
   },
   {
    "id": "dom",
@@ -56041,14 +56246,14 @@
   {
    "id": "new",
    "displayText": "new-",
-   "type": "prefix",
+   "type": "root",
    "meaningCn": "新的",
    "allomorphs": [
     "new"
    ],
    "etymology": "",
    "level": 3,
-   "color": "blue"
+   "color": "orange"
   },
   {
    "id": "nitro",
@@ -63564,6 +63769,54 @@
    "etymology": "terrain 的 -ain 词尾",
    "level": 1,
    "color": "green"
+  },
+  {
+   "id": "cre",
+   "displayText": "cre",
+   "type": "root",
+   "meaningCn": "创造、生长",
+   "allomorphs": [
+    "cre"
+   ],
+   "etymology": "拉丁 creare（创造、生长）；create/creature",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sta",
+   "displayText": "sta",
+   "type": "root",
+   "meaningCn": "站立",
+   "allomorphs": [
+    "sta"
+   ],
+   "etymology": "拉丁 stare（站立）；station/stable",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "sect",
+   "displayText": "sect",
+   "type": "root",
+   "meaningCn": "切",
+   "allomorphs": [
+    "sect"
+   ],
+   "etymology": "拉丁 secare（切）；section/insect/intersect",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "nect",
+   "displayText": "nect",
+   "type": "root",
+   "meaningCn": "连接",
+   "allomorphs": [
+    "nect"
+   ],
+   "etymology": "拉丁 nectere（系、连接）；connect",
+   "level": 3,
+   "color": "orange"
   }
  ],
  "worlds": [
@@ -63581,7 +63834,8 @@
    "name": "传送门",
    "morphemeIds": [
     "dict",
-    "port"
+    "port",
+    "nect"
    ]
   },
   {
@@ -63590,7 +63844,8 @@
    "morphemeIds": [
     "bio",
     "gen",
-    "nat"
+    "nat",
+    "cre"
    ]
   },
   {
@@ -63645,7 +63900,9 @@
     "pos",
     "form",
     "pel",
-    "produce"
+    "produce",
+    "duct",
+    "duce"
    ]
   },
   {
@@ -63658,7 +63915,8 @@
     "fus",
     "prim",
     "fort",
-    "polit"
+    "polit",
+    "par"
    ]
   },
   {
@@ -63684,7 +63942,8 @@
     "hab",
     "liter",
     "labor",
-    "write"
+    "write",
+    "new"
    ]
   },
   {
@@ -63771,7 +64030,8 @@
     "turn",
     "cycle",
     "stand",
-    "gress"
+    "gress",
+    "sta"
    ]
   },
   {
@@ -63793,7 +64053,8 @@
     "board",
     "cover",
     "break",
-    "ember"
+    "ember",
+    "struct"
    ]
   },
   {
@@ -63921,7 +64182,8 @@
     "detect",
     "sight",
     "rest",
-    "note"
+    "note",
+    "lect"
    ]
   },
   {
@@ -64053,7 +64315,8 @@
     "min",
     "gener",
     "cut",
-    "sham"
+    "sham",
+    "sect"
    ]
   },
   {

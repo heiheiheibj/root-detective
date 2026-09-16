@@ -12,20 +12,22 @@
   {
     "id": "message-port",
     "name": "传送门",
-    "description": "学习词根：dict、port（传送门）",
+    "description": "学习词根：dict、port、nect（传送门）",
     "morphemeIds": [
       "dict",
-      "port"
+      "port",
+      "nect"
     ]
   },
   {
     "id": "growth-lab",
     "name": "成长实验室",
-    "description": "学习词根：bio、gen、nat（成长实验室）",
+    "description": "学习词根：bio、gen、nat、cre（成长实验室）",
     "morphemeIds": [
       "bio",
       "gen",
-      "nat"
+      "nat",
+      "cre"
     ]
   },
   {
@@ -77,7 +79,7 @@
   {
     "id": "cargo-dock",
     "name": "货运码头",
-    "description": "学习词根：mit、fer、ven、pos、form、pel、produce（货运码头）",
+    "description": "学习词根：mit、fer、ven、pos、form、pel、produce、duct、duce（货运码头）",
     "morphemeIds": [
       "mit",
       "fer",
@@ -85,13 +87,15 @@
       "pos",
       "form",
       "pel",
-      "produce"
+      "produce",
+      "duct",
+      "duce"
     ]
   },
   {
     "id": "craft-works",
     "name": "工匠铺",
-    "description": "学习词根：metr、equ、flect、fus、prim、fort、polit（工匠铺）",
+    "description": "学习词根：metr、equ、flect、fus、prim、fort、polit、par（工匠铺）",
     "morphemeIds": [
       "metr",
       "equ",
@@ -99,7 +103,8 @@
       "fus",
       "prim",
       "fort",
-      "polit"
+      "polit",
+      "par"
     ]
   },
   {
@@ -118,7 +123,7 @@
   {
     "id": "script-atelier",
     "name": "手稿画室",
-    "description": "学习词根：scrib、art、nov、mir、hab、liter、labor、write（手稿画室）",
+    "description": "学习词根：scrib、art、nov、mir、hab、liter、labor、write、new（手稿画室）",
     "morphemeIds": [
       "scrib",
       "art",
@@ -127,7 +132,8 @@
       "hab",
       "liter",
       "labor",
-      "write"
+      "write",
+      "new"
     ]
   },
   {
@@ -213,7 +219,7 @@
   {
     "id": "motion-yard",
     "name": "行止院",
-    "description": "学习词根：act、ceed、pass、turn、cycle、stand、gress（行止院）",
+    "description": "学习词根：act、ceed、pass、turn、cycle、stand、gress、sta（行止院）",
     "morphemeIds": [
       "act",
       "ceed",
@@ -221,7 +227,8 @@
       "turn",
       "cycle",
       "stand",
-      "gress"
+      "gress",
+      "sta"
     ]
   },
   {
@@ -239,13 +246,14 @@
   {
     "id": "build-site",
     "name": "营造场",
-    "description": "学习词根：base、board、cover、break、ember（营造场）",
+    "description": "学习词根：base、board、cover、break、ember、struct（营造场）",
     "morphemeIds": [
       "base",
       "board",
       "cover",
       "break",
-      "ember"
+      "ember",
+      "struct"
     ]
   },
   {
@@ -372,7 +380,7 @@
   {
     "id": "reading-loft",
     "name": "识读阁",
-    "description": "学习词根：sign、mark、distinct、consider、correct、text、detect、sight、rest、note（识读阁）",
+    "description": "学习词根：sign、mark、distinct、consider、correct、text、detect、sight、rest、note、lect（识读阁）",
     "morphemeIds": [
       "sign",
       "mark",
@@ -383,7 +391,8 @@
       "detect",
       "sight",
       "rest",
-      "note"
+      "note",
+      "lect"
     ]
   },
   {
@@ -518,7 +527,7 @@
   {
     "id": "discern-hall",
     "name": "明辨堂",
-    "description": "学习词根：not、clear、clude、min、gener、cut、sham（明辨堂）",
+    "description": "学习词根：not、clear、clude、min、gener、cut、sham、sect（明辨堂）",
     "morphemeIds": [
       "not",
       "clear",
@@ -526,7 +535,8 @@
       "min",
       "gener",
       "cut",
-      "sham"
+      "sham",
+      "sect"
     ]
   },
   {
