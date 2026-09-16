@@ -15,3 +15,20 @@ scripts/.work/
 .DS_Store
 Thumbs.db
 *.log
+
+# 一次性探针脚本与临时产物（历史遗留已解除跟踪，本地保留）
+# 名字以 _ 开头的是「跑一次就扔」的调试脚本，不进仓库；需要长期复用的请放进 scripts/tools/
+_*.mjs
+_*.tsv
+_*.txt
+_*.ps1
+
+# 浏览器自动化产物（playwright-cli / chrome-devtools 的页面快照与无障碍树）
+.playwright-cli/
+
+# 根目录的临时截图：验证留档统一放 docs/shots/，不要散在根目录
+/*.png
+# 误提交的历史杂物（坏文件名、编辑器另存的副本）
+console.log('ERR'
+* - 副本.json
+/*.yaml
