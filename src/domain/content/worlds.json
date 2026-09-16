@@ -173,13 +173,14 @@
   {
     "id": "body-clinic",
     "name": "身体馆",
-    "description": "学习词根：body、hand、foot、tooth、ache（身体馆）",
+    "description": "学习词根：body、hand、foot、tooth、ache、manu（身体馆）",
     "morphemeIds": [
       "body",
       "hand",
       "foot",
       "tooth",
-      "ache"
+      "ache",
+      "manu"
     ]
   },
   {
@@ -356,19 +357,20 @@
   {
     "id": "will-hall",
     "name": "心志堂",
-    "description": "学习词根：sist、tempt、willing、firm、certain（心志堂）",
+    "description": "学习词根：sist、tempt、willing、firm、certain、pat（心志堂）",
     "morphemeIds": [
       "sist",
       "tempt",
       "willing",
       "firm",
-      "certain"
+      "certain",
+      "pat"
     ]
   },
   {
     "id": "force-yard",
     "name": "运力场",
-    "description": "学习词根：tend、late、found、press、collect、lay、fall、grav（运力场）",
+    "description": "学习词根：tend、late、found、press、collect、lay、fall、grav、val（运力场）",
     "morphemeIds": [
       "tend",
       "late",
@@ -377,13 +379,14 @@
       "collect",
       "lay",
       "fall",
-      "grav"
+      "grav",
+      "val"
     ]
   },
   {
     "id": "council-chamber",
     "name": "议事厅",
-    "description": "学习词根：present、public、social、custom、court、law、part、proper、regard、tribu、sid、claim（议事厅）",
+    "description": "学习词根：present、public、social、custom、court、law、part、proper、regard、tribu、sid、claim、liber（议事厅）",
     "morphemeIds": [
       "present",
       "public",
@@ -396,7 +399,8 @@
       "regard",
       "tribu",
       "sid",
-      "claim"
+      "claim",
+      "liber"
     ]
   },
   {

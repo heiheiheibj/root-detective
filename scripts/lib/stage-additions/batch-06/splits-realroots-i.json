@@ -1,0 +1,19 @@
+{
+  "_comment": "批次 06i：修「词素义项被词典污染」解锁的高频词。这些词之所以一直进不来，不是缺词根，而是词素的义项取错了现代词义/缩写词条（reg=计注册表文件、val=墙、pat=拍、liber=称量、main 缺「留下」、manu 被登记成前缀）。义项在 morpheme-fallback.mjs 的 OVERRIDE_MEANINGS 修，manu 改判 root，main/tend/pend 补变体。",
+  "splits": {
+    "region": [{ "id": "reg", "surface": "reg" }, { "id": "ion", "surface": "ion" }],
+    "value": [{ "id": "val", "surface": "val" }, { "id": "ue", "surface": "ue" }],
+    "valid": [{ "id": "val", "surface": "val" }, { "id": "id", "surface": "id" }],
+    "patient": [{ "id": "pat", "surface": "pat" }, { "id": "ent", "surface": "ient" }],
+    "remain": [{ "id": "re", "surface": "re" }, { "id": "main", "surface": "main" }],
+    "permanent": [{ "id": "per", "surface": "per" }, { "id": "main", "surface": "man" }, { "id": "ent", "surface": "ent" }],
+    "manual": [{ "id": "manu", "surface": "manu" }, { "id": "al", "surface": "al" }],
+    "liberal": [{ "id": "liber", "surface": "liber" }, { "id": "al", "surface": "al" }],
+    "liberty": [{ "id": "liber", "surface": "liber" }, { "id": "ty", "surface": "ty" }],
+    "notion": [{ "id": "note", "surface": "not" }, { "id": "ion", "surface": "ion" }],
+    "tension": [{ "id": "tend", "surface": "tens" }, { "id": "ion", "surface": "ion" }],
+    "extension": [{ "id": "ex", "surface": "ex" }, { "id": "tend", "surface": "tens" }, { "id": "ion", "surface": "ion" }],
+    "pension": [{ "id": "pend", "surface": "pens" }, { "id": "ion", "surface": "ion" }],
+    "mineral": [{ "id": "min", "surface": "min" }, { "id": "er", "surface": "er" }, { "id": "al", "surface": "al" }]
+  }
+}

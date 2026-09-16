@@ -288,7 +288,8 @@
     "displayText": "pend",
     "meaningCn": "悬挂、称量",
     "allomorphs": [
-      "pend"
+      "pend",
+      "pens"
     ],
     "level": 2,
     "etymology": "来自拉丁语 pendere，意为悬挂、称量",
@@ -1584,14 +1585,14 @@
   },
   {
     "id": "manu",
-    "type": "prefix",
+    "type": "root",
     "displayText": "manu-",
     "meaningCn": "手",
     "allomorphs": [
       "manu"
     ],
     "level": 2,
-    "color": "blue",
+    "color": "orange",
     "etymology": "来自拉丁语 manus，手"
   },
   {
@@ -7802,7 +7803,8 @@
     "type": "root",
     "meaningCn": "伸展；柔嫩",
     "allomorphs": [
-      "tend"
+      "tend",
+      "tens"
     ],
     "etymology": "",
     "level": 3,
@@ -11070,7 +11072,8 @@
     "type": "root",
     "meaningCn": "主要；手",
     "allomorphs": [
-      "main"
+      "main",
+      "man"
     ],
     "etymology": "",
     "level": 1,
@@ -12286,6 +12289,18 @@
     "meaningCn": "关心",
     "allomorphs": [
       "regard"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "reg",
+    "displayText": "reg",
+    "type": "root",
+    "meaningCn": "统治；区域",
+    "allomorphs": [
+      "reg"
     ],
     "etymology": "",
     "level": 3,
@@ -26277,7 +26292,7 @@
     "id": "liber",
     "displayText": "liber",
     "type": "root",
-    "meaningCn": "称量、天平",
+    "meaningCn": "自由；称量、天平",
     "allomorphs": [
       "liber"
     ],

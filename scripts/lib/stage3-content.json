@@ -36060,6 +36060,158 @@
     "surface": "er"
    }
   ],
+  "region": [
+   {
+    "id": "reg",
+    "surface": "reg"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "value": [
+   {
+    "id": "val",
+    "surface": "val"
+   },
+   {
+    "id": "ue",
+    "surface": "ue"
+   }
+  ],
+  "valid": [
+   {
+    "id": "val",
+    "surface": "val"
+   },
+   {
+    "id": "id",
+    "surface": "id"
+   }
+  ],
+  "patient": [
+   {
+    "id": "pat",
+    "surface": "pat"
+   },
+   {
+    "id": "ent",
+    "surface": "ient"
+   }
+  ],
+  "remain": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "main",
+    "surface": "main"
+   }
+  ],
+  "permanent": [
+   {
+    "id": "per",
+    "surface": "per"
+   },
+   {
+    "id": "main",
+    "surface": "man"
+   },
+   {
+    "id": "ent",
+    "surface": "ent"
+   }
+  ],
+  "manual": [
+   {
+    "id": "manu",
+    "surface": "manu"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "liberal": [
+   {
+    "id": "liber",
+    "surface": "liber"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "liberty": [
+   {
+    "id": "liber",
+    "surface": "liber"
+   },
+   {
+    "id": "ty",
+    "surface": "ty"
+   }
+  ],
+  "notion": [
+   {
+    "id": "note",
+    "surface": "not"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "tension": [
+   {
+    "id": "tend",
+    "surface": "tens"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "extension": [
+   {
+    "id": "ex",
+    "surface": "ex"
+   },
+   {
+    "id": "tend",
+    "surface": "tens"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "pension": [
+   {
+    "id": "pend",
+    "surface": "pens"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "mineral": [
+   {
+    "id": "min",
+    "surface": "min"
+   },
+   {
+    "id": "er",
+    "surface": "er"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
   "object": [
    {
     "id": "ob",
@@ -36391,7 +36543,8 @@
    "displayText": "pend",
    "meaningCn": "悬挂、称量",
    "allomorphs": [
-    "pend"
+    "pend",
+    "pens"
    ],
    "level": 2,
    "etymology": "来自拉丁语 pendere，意为悬挂、称量",
@@ -37713,14 +37866,14 @@
   },
   {
    "id": "manu",
-   "type": "prefix",
+   "type": "root",
    "displayText": "manu-",
    "meaningCn": "手",
    "allomorphs": [
     "manu"
    ],
    "level": 2,
-   "color": "blue",
+   "color": "orange",
    "etymology": "来自拉丁语 manus，手"
   },
   {
@@ -44504,7 +44657,8 @@
    "type": "root",
    "meaningCn": "伸展；柔嫩",
    "allomorphs": [
-    "tend"
+    "tend",
+    "tens"
    ],
    "etymology": "",
    "level": 3,
@@ -47893,7 +48047,8 @@
    "type": "root",
    "meaningCn": "主要；手",
    "allomorphs": [
-    "main"
+    "main",
+    "man"
    ],
    "etymology": "",
    "level": 1,
@@ -49154,7 +49309,7 @@
    "id": "reg",
    "displayText": "reg",
    "type": "root",
-   "meaningCn": "计注册表文件",
+   "meaningCn": "统治；区域",
    "allomorphs": [
     "reg"
    ],
@@ -65084,7 +65239,7 @@
    "id": "liber",
    "displayText": "liber",
    "type": "root",
-   "meaningCn": "称量、天平",
+   "meaningCn": "自由；称量、天平",
    "allomorphs": [
     "liber"
    ],
@@ -65584,7 +65739,8 @@
     "hand",
     "foot",
     "tooth",
-    "ache"
+    "ache",
+    "manu"
    ]
   },
   {
@@ -65754,7 +65910,8 @@
     "tempt",
     "willing",
     "firm",
-    "certain"
+    "certain",
+    "pat"
    ]
   },
   {
@@ -65768,7 +65925,8 @@
     "collect",
     "lay",
     "fall",
-    "grav"
+    "grav",
+    "val"
    ]
   },
   {
@@ -65786,7 +65944,8 @@
     "regard",
     "tribu",
     "sid",
-    "claim"
+    "claim",
+    "liber"
    ]
   },
   {

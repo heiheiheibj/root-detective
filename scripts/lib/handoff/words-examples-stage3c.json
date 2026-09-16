@@ -871,5 +871,61 @@
   "hinder": {
     "exampleEn": "Bad weather can hinder progress.",
     "exampleCn": "恶劣天气会阻碍进展。"
+  },
+  "region": {
+    "exampleEn": "This region is very dry.",
+    "exampleCn": "这个地区非常干燥。"
+  },
+  "value": {
+    "exampleEn": "The value of the house is high.",
+    "exampleCn": "这所房子价值很高。"
+  },
+  "valid": {
+    "exampleEn": "Your ticket is still valid.",
+    "exampleCn": "你的票仍然有效。"
+  },
+  "patient": {
+    "exampleEn": "The patient needs rest.",
+    "exampleCn": "这位病人需要休息。"
+  },
+  "remain": {
+    "exampleEn": "They remain silent about it.",
+    "exampleCn": "他们对此保持沉默。"
+  },
+  "permanent": {
+    "exampleEn": "This is a permanent job.",
+    "exampleCn": "这是一份长期的工作。"
+  },
+  "manual": {
+    "exampleEn": "Read the manual first.",
+    "exampleCn": "先读一下手册。"
+  },
+  "liberal": {
+    "exampleEn": "He has liberal views.",
+    "exampleCn": "他持有开明的观点。"
+  },
+  "liberty": {
+    "exampleEn": "They fought for liberty.",
+    "exampleCn": "他们为自由而战。"
+  },
+  "notion": {
+    "exampleEn": "I have no notion of it.",
+    "exampleCn": "我对此毫无概念。"
+  },
+  "tension": {
+    "exampleEn": "There was tension in the room.",
+    "exampleCn": "房间里气氛紧张。"
+  },
+  "extension": {
+    "exampleEn": "We need an extension of time.",
+    "exampleCn": "我们需要延长时间。"
+  },
+  "pension": {
+    "exampleEn": "He lives on a small pension.",
+    "exampleCn": "他靠微薄的养老金生活。"
+  },
+  "mineral": {
+    "exampleEn": "The water contains mineral salts.",
+    "exampleCn": "这种水含矿物盐。"
   }
 }

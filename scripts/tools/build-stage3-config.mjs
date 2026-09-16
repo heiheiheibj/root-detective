@@ -307,6 +307,9 @@ const ALLOMORPH_TOUCH = [
   'decide', // decision = decis + ion
   'dis', // distant/distance = di（dis- 在 st 前脱落 s）
   'scend', // descend = de + scend（上游变体表只收了 cend）
+  'main', // permanent = per + man（manere「留下」，与 maintain 的 manu 不是同源词形）
+  'tend', // tension/extension = tens（拉丁分词干 tentus 的变体）
+  'pend', // pension = pens（pendere 的分词干）
   // 注：spec 的 pect 变体（expect/suspect）在 legacy-morphemes.json 里补 ——
   //   spec 属于 legacy 12 词素，本函数只重算 extraMorphemes，改这里不生效。
 ]
@@ -348,6 +351,7 @@ const TYPE_FIX = {
   // 批次 06b：collect/select/election/lecture 的 lect（上游登记成 suffix）、compare/prepare 的
   // par（上游是 prefix，变体只收 pare）、renew 的 new（上游是 prefix）都要当词根用。
   lect: 'root', par: 'root', new: 'root',
+  manu: 'root', // manual ← manus(手)；上游登记成 prefix，manual 缺词根过不了 A18
   // se 上游被登记成 suffix、义项是「计栈空」（ECDICT 把 SE 当缩写查了）；select 里它是
   // 拉丁 se-(分开、离开)，在词首。改回 prefix 并配上按类型的颜色。
   se: 'prefix',
@@ -466,10 +470,12 @@ const WORLD_ADD = {
   'office-house': ['mand'], // 职事馆：mand(托付) 与 mission/employ 同族
   'action-forge': ['fic', 'fect', 'fact'], // 行动工坊：fic/fect/fact(做、成) 与 ject/mob 同族
   'justice-hall': ['viola', 'terror'], // 正义殿堂：viola(越界、施暴)、terror(恐怖) 与 jud/vinc 同族
-  'council-chamber': ['tribu', 'sid', 'claim'], // 议事厅：tribu(给予)、sid(坐)、claim(要求、喊) 与 law/court 同族
-  'force-yard': ['grav'], // 运力场：grav(重) 与 press/fall 同族
+  'council-chamber': ['tribu', 'sid', 'claim', 'liber'], // 议事厅：tribu(给予)、sid(坐)、claim(要求、喊)、liber(自由) 与 law/court 同族
+  'force-yard': ['grav', 'val'], // 运力场：grav(重)、val(强健) 与 press/fall 同族
   'hold-vault': ['cip', 'sumere'], // 持握库：cip/sumere(拿取) 与 tain/ceive 同族
   'common-lane': ['corr'], // 寻常巷：corr(共同、加强，com- 在 r 前的同化形)
+  'body-clinic': ['manu'], // 身体馆：manu(手) 与已有的 hand 同族
+  'will-hall': ['pat'], // 心志堂：pat(忍受) 与 sist/firm 同族
 }
 for (const [worldId, ids] of Object.entries(WORLD_ADD)) {
   const world = allWorlds.find((w) => w.id === worldId)
