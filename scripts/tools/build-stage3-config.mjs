@@ -455,8 +455,8 @@ const WORLD_ADD = {
   // 批次 06：新词根与改判 root 的词素挂世界（A24：教学词根要出现在地图上）
   'growth-lab': ['cre'], // 成长实验室：cre(创造、生长) 与 bio/gen/nat 同族
   'motion-yard': ['sta', 'cess', 'stance', 'stant'], // 行止院：sta/stance/stant(站立) + cess(走)
-  'discern-hall': ['sect'], // 明辨堂：sect(切) 与已有的 cut 同族
-  'build-site': ['struct'], // 营造场：struct(堆叠、构造)
+  'discern-hall': ['sect', 'tail'], // 明辨堂：sect/tail(切、切割) 与已有的 cut 同族
+  'build-site': ['struct', 'ser', 'stable'], // 营造场：struct(堆叠、构造)、ser(放置、连接)、stable(稳固)
   // 批次 06b：新改判 root 与注入的词素挂世界
   'reading-loft': ['lect', 'sci'], // 识读阁：lect(收集、选) + sci(知道)
   'craft-works': ['par'], // 工匠铺：par(相等) 与 equ 同族
@@ -465,6 +465,7 @@ const WORLD_ADD = {
   'office-house': ['mand'], // 职事馆：mand(托付) 与 mission/employ 同族
   'action-forge': ['fic'], // 行动工坊：fic(做、成) 与 ject/mob 同族
   'justice-hall': ['viola'], // 正义殿堂：viola(越界、施暴) 与 jud/vinc 同族
+  'council-chamber': ['tribu'], // 议事厅：tribu(给予) 与 law/court 同族
 }
 for (const [worldId, ids] of Object.entries(WORLD_ADD)) {
   const world = allWorlds.find((w) => w.id === worldId)

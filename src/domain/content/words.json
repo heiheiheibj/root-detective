@@ -1399,7 +1399,8 @@
     "familyWordIds": [
       "percent",
       "centennial",
-      "incentive"
+      "incentive",
+      "accent"
     ],
     "sourceNote": "拉丁 centuria，centum(百) 的分组单位",
     "mnemonicNote": "cent(百)+ury"
@@ -2454,7 +2455,8 @@
       "automobile",
       "tactile",
       "motion",
-      "motor"
+      "motor",
+      "motive"
     ],
     "sourceNote": "拉丁 mobilis，movere(移动)",
     "mnemonicNote": "mob(动)+ile：说走就走，不钉在一处"
@@ -2510,7 +2512,8 @@
       "automobile",
       "facility",
       "motion",
-      "motor"
+      "motor",
+      "motive"
     ],
     "sourceNote": "拉丁 mobilitas，mobilis(可动的)",
     "mnemonicNote": "mob(动)+ility：随时能挪窝的本事"
@@ -2572,7 +2575,8 @@
       "tactile",
       "autobiography",
       "motion",
-      "motor"
+      "motor",
+      "motive"
     ],
     "sourceNote": "法语 automobile，希腊 autos(自己) + 拉丁 mobilis(可动)",
     "mnemonicNote": "auto(自己)+mob(动)+ile：不靠马、自己会跑"
@@ -8878,7 +8882,8 @@
     "familyWordIds": [
       "thermometer",
       "thermos",
-      "thermal"
+      "thermal",
+      "hypothesis"
     ],
     "sourceNote": "希腊 hypo-(在下) + therme(热) + -ia(病症)",
     "mnemonicNote": "hypo(在下面)+therm(热)+ia：体温掉到正常线以下"
@@ -15922,7 +15927,8 @@
       "judgement",
       "prejudice",
       "judicious",
-      "unjust"
+      "unjust",
+      "justification"
     ],
     "sourceNote": "拉丁 iudex，ius(法) + dicere(说)",
     "mnemonicNote": "jud(法)：坐在堂上替法说话的人"
@@ -35149,7 +35155,8 @@
       "accessible",
       "responsible",
       "permissible",
-      "terrorist"
+      "terrorist",
+      "sensible"
     ],
     "sourceNote": "拉丁 terribilis，terrere(使恐惧)",
     "mnemonicNote": "terr(恐惧)+ible：光听描述心里就发紧"
@@ -36691,7 +36698,8 @@
     ],
     "familyWordIds": [
       "violation",
-      "violence"
+      "violence",
+      "violent"
     ],
     "sourceNote": "意大利 violino，viola(中提琴) 的指小形式",
     "mnemonicNote": "viol(弦琴)+in(小)：夹在下巴上那把小琴"
@@ -38196,7 +38204,8 @@
       "terrible",
       "accessory",
       "responsible",
-      "permissible"
+      "permissible",
+      "sensible"
     ],
     "sourceNote": "拉丁 accedere，ad-(朝向) + cedere(走)",
     "mnemonicNote": "access(通路)+ible(能)：路通着，谁都能到"
@@ -56381,7 +56390,8 @@
       "lighten",
       "lightly",
       "lighter",
-      "twilight"
+      "twilight",
+      "delight"
     ],
     "sourceNote": "英语复合词，19 世纪末出现",
     "mnemonicNote": "flash(闪光)+light(光)：夜里揣在兜里那一小束光"
@@ -85996,7 +86006,8 @@
       "classroom",
       "classic",
       "classical",
-      "classify"
+      "classify",
+      "justification"
     ],
     "sourceNote": "法语 classification，classe(类别)",
     "mnemonicNote": "class(类目)+ification(化)：一样样塞进贴好标签的格子"
@@ -103633,7 +103644,9 @@
     "familyWordIds": [
       "commonsense",
       "senseless",
-      "sensor"
+      "sensor",
+      "sensible",
+      "sensation"
     ],
     "sourceNote": "non-(非) + 拉丁 sensus(意义)",
     "mnemonicNote": "non(非)+sense(道理)：听着像话，细想全不通"
@@ -111779,7 +111792,8 @@
     "familyWordIds": [
       "terrible",
       "accessible",
-      "permissible"
+      "permissible",
+      "sensible"
     ],
     "sourceNote": "拉丁 respondere(回应) + -ible",
     "mnemonicNote": "respons(回应)+ible：出了事得来答话的"
@@ -125955,7 +125969,9 @@
       "commonplace",
       "commonwealth",
       "senseless",
-      "sensor"
+      "sensor",
+      "sensible",
+      "sensation"
     ],
     "sourceNote": "英语复合词，common + sense",
     "mnemonicNote": "common(普通)+sense(见识)：街坊四邻都懂的那点见识"
@@ -157932,7 +157948,9 @@
         "type": "form"
       }
     ],
-    "familyWordIds": [],
+    "familyWordIds": [
+      "hypothesis"
+    ],
     "sourceNote": "希腊 synthesis，syn-(共同) + thesis(放置)",
     "mnemonicNote": "syn(共同)+thesis(放置)：把各家的说法摆到一处"
   },
@@ -159849,7 +159867,8 @@
       "highlight",
       "lighten",
       "lightly",
-      "lighter"
+      "lighter",
+      "delight"
     ],
     "sourceNote": "中古英语 twilight，twi-(二) + light(光)",
     "mnemonicNote": "twi(二)+light(光)：明暗交叠的那一阵"
@@ -165674,6 +165693,1416 @@
     ],
     "sourceNote": "拉丁 distantia，dis-(分开) + stare(站)",
     "mnemonicNote": "dis(分开)+stance(站立)：站开的那一段长度"
+  },
+  {
+    "id": "admission",
+    "word": "admission",
+    "phonetic": "/әd'miʃәn/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "准许进入、承认",
+    "literalMeaningCn": "放进去",
+    "metaphorMeaningCn": "被放进来的许可",
+    "metaphorOptions": [
+      "被放进来的许可",
+      "邮政的包裹",
+      "数二十张票"
+    ],
+    "exampleEn": "Admission is free today.",
+    "exampleCn": "今天免费入场。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "ad",
+        "surface": "ad",
+        "position": 0
+      },
+      {
+        "morphemeId": "mission",
+        "surface": "mission",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "immune",
+        "type": "form"
+      },
+      {
+        "text": "indefinite",
+        "type": "meaning"
+      },
+      {
+        "text": "initial",
+        "type": "random"
+      },
+      {
+        "text": "instinctive",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "accord",
+      "adequate",
+      "inadequate",
+      "alleviate",
+      "admire",
+      "admiration",
+      "associate",
+      "admit"
+    ],
+    "sourceNote": "拉丁 admissionem，ad-(朝向) + mittere(送)",
+    "mnemonicNote": "ad(朝向)+mission(派送)：朝里放行，准你进去"
+  },
+  {
+    "id": "violent",
+    "word": "violent",
+    "phonetic": "/'vaiәlәnt/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "暴力的、猛烈的",
+    "literalMeaningCn": "动粗的",
+    "metaphorMeaningCn": "出手很重伤人的",
+    "metaphorOptions": [
+      "出手很重伤人的",
+      "掉在地上的牙齿",
+      "锁在监狱的人"
+    ],
+    "exampleEn": "The film is too violent.",
+    "exampleCn": "这部电影太暴力了。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "viola",
+        "surface": "viol",
+        "position": 0
+      },
+      {
+        "morphemeId": "ent",
+        "surface": "ent",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "station",
+        "type": "form"
+      },
+      {
+        "text": "substantial",
+        "type": "meaning"
+      },
+      {
+        "text": "symmetry",
+        "type": "random"
+      },
+      {
+        "text": "rem",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "credential",
+      "component",
+      "opponent",
+      "exponent",
+      "fluent",
+      "intermittent",
+      "convenient",
+      "different"
+    ],
+    "sourceNote": "拉丁 violentus，violare(施暴)",
+    "mnemonicNote": "viol(越界、施暴)+ent：越了界，动手伤人"
+  },
+  {
+    "id": "sensible",
+    "word": "sensible",
+    "phonetic": "/'sensәbl/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "明智的、合理的",
+    "literalMeaningCn": "能感觉到的",
+    "metaphorMeaningCn": "想得通、懂分寸的",
+    "metaphorOptions": [
+      "想得通、懂分寸的",
+      "擦亮旧椅子",
+      "数二十个硬币"
+    ],
+    "exampleEn": "That sounds like a sensible plan.",
+    "exampleCn": "那听起来是个明智的计划。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "sense",
+        "surface": "sens",
+        "position": 0
+      },
+      {
+        "morphemeId": "ible",
+        "surface": "ible",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "athlete",
+        "type": "form"
+      },
+      {
+        "text": "attentive",
+        "type": "meaning"
+      },
+      {
+        "text": "rage",
+        "type": "random"
+      },
+      {
+        "text": "minton",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "terrible",
+      "accessible",
+      "nonsense",
+      "responsible",
+      "commonsense",
+      "permissible",
+      "senseless",
+      "sensor"
+    ],
+    "sourceNote": "拉丁 sensibilis，sentire(感觉)",
+    "mnemonicNote": "sens(感觉)+ible：察得出轻重，就是懂事"
+  },
+  {
+    "id": "sensation",
+    "word": "sensation",
+    "phonetic": "/sen'seiʃәn/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "感觉、轰动",
+    "literalMeaningCn": "感觉这件事",
+    "metaphorMeaningCn": "身上一阵强烈的感受",
+    "metaphorOptions": [
+      "身上一阵强烈的感受",
+      "掉在地上的牙齿",
+      "擦亮旧椅子"
+    ],
+    "exampleEn": "It caused a sensation at the time.",
+    "exampleCn": "这在当时引起了轰动。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "sense",
+        "surface": "sens",
+        "position": 0
+      },
+      {
+        "morphemeId": "ation",
+        "surface": "ation",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "lis",
+        "type": "form"
+      },
+      {
+        "text": "centre",
+        "type": "meaning"
+      },
+      {
+        "text": "challenge",
+        "type": "random"
+      },
+      {
+        "text": "chap",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "vocation",
+      "vacation",
+      "formation",
+      "information",
+      "equation",
+      "dehydration",
+      "collaboration",
+      "congratulation"
+    ],
+    "sourceNote": "拉丁 sensatio，sentire(感觉)",
+    "mnemonicNote": "sens(感觉)+ation：身体或心里的一阵感受"
+  },
+  {
+    "id": "venture",
+    "word": "venture",
+    "phonetic": "/'ventʃә/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "冒险、创业",
+    "literalMeaningCn": "将要来到的",
+    "metaphorMeaningCn": "前途未卜的一次尝试",
+    "metaphorOptions": [
+      "前途未卜的一次尝试",
+      "开往城市的车",
+      "绕过南方的河"
+    ],
+    "exampleEn": "They started a new venture.",
+    "exampleCn": "他们开始了一项新的冒险。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "ven",
+        "surface": "vent",
+        "position": 0
+      },
+      {
+        "morphemeId": "ure",
+        "surface": "ure",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "labor",
+        "type": "form"
+      },
+      {
+        "text": "test",
+        "type": "meaning"
+      },
+      {
+        "text": "migr",
+        "type": "random"
+      },
+      {
+        "text": "flu",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "nature",
+      "literature",
+      "capture",
+      "prevent",
+      "event",
+      "invent",
+      "adventure",
+      "convenient"
+    ],
+    "sourceNote": "拉丁 adventura（即将发生之事），venire(来)",
+    "mnemonicNote": "vent(来)+ure：往前去碰那还没到的事"
+  },
+  {
+    "id": "continuous",
+    "word": "continuous",
+    "phonetic": "/kәn'tinjuәs/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "连续的、持续的",
+    "literalMeaningCn": "一直接续着",
+    "metaphorMeaningCn": "中间没断过地接着",
+    "metaphorOptions": [
+      "中间没断过地接着",
+      "接上城市的线",
+      "关掉的机器"
+    ],
+    "exampleEn": "There was continuous rain all night.",
+    "exampleCn": "雨下了一整夜没停。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "continue",
+        "surface": "continu",
+        "position": 0
+      },
+      {
+        "morphemeId": "ous",
+        "surface": "ous",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "tele",
+        "type": "form"
+      },
+      {
+        "text": "under",
+        "type": "meaning"
+      },
+      {
+        "text": "yester",
+        "type": "random"
+      },
+      {
+        "text": "all",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "dangerous",
+      "famous",
+      "humorous",
+      "nervous",
+      "autonomous",
+      "cautious",
+      "mountainous",
+      "poisonous"
+    ],
+    "sourceNote": "拉丁 continuus，continere(连着)",
+    "mnemonicNote": "continu(继续)+ous：接着不停的"
+  },
+  {
+    "id": "native",
+    "word": "native",
+    "phonetic": "/'neitiv/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "本地的、天生的",
+    "literalMeaningCn": "生来就属于",
+    "metaphorMeaningCn": "生在这片土地上的",
+    "metaphorOptions": [
+      "生在这片土地上的",
+      "南方的车站",
+      "建好的房子"
+    ],
+    "exampleEn": "She is a native speaker.",
+    "exampleCn": "她是母语使用者。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "nat",
+        "surface": "nat",
+        "position": 0
+      },
+      {
+        "morphemeId": "ive",
+        "surface": "ive",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "tribu",
+        "type": "form"
+      },
+      {
+        "text": "corporate",
+        "type": "meaning"
+      },
+      {
+        "text": "yard",
+        "type": "random"
+      },
+      {
+        "text": "cube",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "predictive",
+      "nature",
+      "nation",
+      "innate",
+      "primitive",
+      "captive",
+      "active",
+      "expensive"
+    ],
+    "sourceNote": "拉丁 nativus，nasci(出生)",
+    "mnemonicNote": "nat(出生)+ive：生在哪儿就属哪儿"
+  },
+  {
+    "id": "generous",
+    "word": "generous",
+    "phonetic": "/'dʒenәrәs/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "慷慨的、大量的",
+    "literalMeaningCn": "产出很多的",
+    "metaphorMeaningCn": "出手大方不吝啬",
+    "metaphorOptions": [
+      "出手大方不吝啬",
+      "分给同伴的一块",
+      "市场卖出的黄金"
+    ],
+    "exampleEn": "He is very generous with money.",
+    "exampleCn": "他在钱上很慷慨。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "gener",
+        "surface": "gener",
+        "position": 0
+      },
+      {
+        "morphemeId": "ous",
+        "surface": "ous",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "tray",
+        "type": "form"
+      },
+      {
+        "text": "case",
+        "type": "meaning"
+      },
+      {
+        "text": "botany",
+        "type": "random"
+      },
+      {
+        "text": "through",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "dangerous",
+      "famous",
+      "humorous",
+      "nervous",
+      "autonomous",
+      "cautious",
+      "generation",
+      "mountainous"
+    ],
+    "sourceNote": "拉丁 generosus（出自名门、大方）",
+    "mnemonicNote": "gener(产生)+ous：产出多，给得起"
+  },
+  {
+    "id": "automatic",
+    "word": "automatic",
+    "phonetic": "/.ɒ:tә'mætik/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "自动的、机械的",
+    "literalMeaningCn": "自己会动",
+    "metaphorMeaningCn": "不用人管自己就走",
+    "metaphorOptions": [
+      "不用人管自己就走",
+      "厨房里的机器",
+      "关掉的机器"
+    ],
+    "exampleEn": "The doors are automatic.",
+    "exampleCn": "这些门是自动的。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "automat",
+        "surface": "automat",
+        "position": 0
+      },
+      {
+        "morphemeId": "ic",
+        "surface": "ic",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "deep",
+        "type": "form"
+      },
+      {
+        "text": "depart",
+        "type": "meaning"
+      },
+      {
+        "text": "troy",
+        "type": "random"
+      },
+      {
+        "text": "deter",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "genetics",
+      "logic",
+      "hydraulic",
+      "artistic",
+      "physics",
+      "physical",
+      "physician",
+      "physicist"
+    ],
+    "sourceNote": "希腊 automatos（自己动的）",
+    "mnemonicNote": "automat(自动装置)+ic：自己动起来的"
+  },
+  {
+    "id": "devise",
+    "word": "devise",
+    "phonetic": "/di'vaiz/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "设计、想出",
+    "literalMeaningCn": "看出个法子",
+    "metaphorMeaningCn": "琢磨出一个办法",
+    "metaphorOptions": [
+      "琢磨出一个办法",
+      "画着图案的卡片",
+      "读黑板上的文字"
+    ],
+    "exampleEn": "We must devise a new plan.",
+    "exampleCn": "我们必须想出一个新计划。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "de",
+        "surface": "de",
+        "position": 0
+      },
+      {
+        "morphemeId": "vid",
+        "surface": "vise",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "though",
+        "type": "form"
+      },
+      {
+        "text": "rive",
+        "type": "meaning"
+      },
+      {
+        "text": "base",
+        "type": "random"
+      },
+      {
+        "text": "bed",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "visible",
+      "vision",
+      "revise",
+      "visibility",
+      "deport",
+      "envision",
+      "degrade",
+      "depend"
+    ],
+    "sourceNote": "古法语 deviser，de- + videre(看)",
+    "mnemonicNote": "de(向下)+vise(看)：往细里看，想出法子"
+  },
+  {
+    "id": "attribute",
+    "word": "attribute",
+    "phonetic": "/ә'tribju:t/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "属性、归因于",
+    "literalMeaningCn": "分派给它",
+    "metaphorMeaningCn": "把缘由归到某处",
+    "metaphorOptions": [
+      "把缘由归到某处",
+      "分给同伴的一块",
+      "邮政的包裹"
+    ],
+    "exampleEn": "They attribute it to luck.",
+    "exampleCn": "他们把这归因于运气。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "ad",
+        "surface": "at",
+        "position": 0
+      },
+      {
+        "morphemeId": "tribu",
+        "surface": "tribute",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "pr",
+        "type": "form"
+      },
+      {
+        "text": "sup",
+        "type": "meaning"
+      },
+      {
+        "text": "under",
+        "type": "random"
+      },
+      {
+        "text": "on",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "accord",
+      "adequate",
+      "inadequate",
+      "alleviate",
+      "admire",
+      "admiration",
+      "associate",
+      "admit"
+    ],
+    "sourceNote": "拉丁 attribuere，ad-(朝向) + tribuere(分给)",
+    "mnemonicNote": "at(朝向)+tribute(给予)：把原因放到它头上"
+  },
+  {
+    "id": "assert",
+    "word": "assert",
+    "phonetic": "/ә'sә:t/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "断言、坚称",
+    "literalMeaningCn": "把手放上去",
+    "metaphorMeaningCn": "斩钉截铁地说定",
+    "metaphorOptions": [
+      "斩钉截铁地说定",
+      "写满记录的本子",
+      "数二十张票"
+    ],
+    "exampleEn": "He did not assert his rights.",
+    "exampleCn": "他没有坚持自己的权利。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "ad",
+        "surface": "as",
+        "position": 0
+      },
+      {
+        "morphemeId": "ser",
+        "surface": "sert",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "along",
+        "type": "form"
+      },
+      {
+        "text": "together",
+        "type": "meaning"
+      },
+      {
+        "text": "ambit",
+        "type": "random"
+      },
+      {
+        "text": "announce",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "accord",
+      "adequate",
+      "inadequate",
+      "alleviate",
+      "admire",
+      "admiration",
+      "associate",
+      "admit"
+    ],
+    "sourceNote": "拉丁 asserere，ad- + serere(连接、放置)",
+    "mnemonicNote": "as(朝向)+sert(放置)：把话放到明处，咬定不改"
+  },
+  {
+    "id": "desert",
+    "word": "desert",
+    "phonetic": "/'dezәt. di'sә:t/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "沙漠、遗弃",
+    "literalMeaningCn": "不再连着",
+    "metaphorMeaningCn": "把地方弃下走掉",
+    "metaphorOptions": [
+      "把地方弃下走掉",
+      "绕过南方的河",
+      "建好的房子"
+    ],
+    "exampleEn": "They crossed the desert.",
+    "exampleCn": "他们穿越了沙漠。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "de",
+        "surface": "de",
+        "position": 0
+      },
+      {
+        "morphemeId": "ser",
+        "surface": "sert",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "invest",
+        "type": "form"
+      },
+      {
+        "text": "lady",
+        "type": "meaning"
+      },
+      {
+        "text": "lieu",
+        "type": "random"
+      },
+      {
+        "text": "loco",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "deport",
+      "degrade",
+      "depend",
+      "deposit",
+      "deflect",
+      "deflection",
+      "dehydrate",
+      "dehydration"
+    ],
+    "sourceNote": "拉丁 deserere，de- + serere(连接)",
+    "mnemonicNote": "de(去掉)+sert(连接)：断了联系，弃之而去"
+  },
+  {
+    "id": "stability",
+    "word": "stability",
+    "phonetic": "/stә'biliti/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "稳定性、安定",
+    "literalMeaningCn": "站得稳",
+    "metaphorMeaningCn": "不容易摇晃的程度",
+    "metaphorOptions": [
+      "不容易摇晃的程度",
+      "建好的房子",
+      "围成一圈的椅子"
+    ],
+    "exampleEn": "The country needs stability.",
+    "exampleCn": "这个国家需要稳定。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "stable",
+        "surface": "stabil",
+        "position": 0
+      },
+      {
+        "morphemeId": "ity",
+        "surface": "ity",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "processor",
+        "type": "form"
+      },
+      {
+        "text": "moderate",
+        "type": "meaning"
+      },
+      {
+        "text": "mons",
+        "type": "random"
+      },
+      {
+        "text": "negotiate",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "visibility",
+      "equality",
+      "novelty",
+      "capacity",
+      "activity",
+      "university",
+      "disability",
+      "electricity"
+    ],
+    "sourceNote": "拉丁 stabilitas，stabilis(稳固)",
+    "mnemonicNote": "stabil(稳固)+ity：稳当不倒的那个性质"
+  },
+  {
+    "id": "delight",
+    "word": "delight",
+    "phonetic": "/di'lait/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "高兴、使愉快",
+    "literalMeaningCn": "心里亮起来",
+    "metaphorMeaningCn": "欢喜得整个人发亮",
+    "metaphorOptions": [
+      "欢喜得整个人发亮",
+      "擦亮旧椅子",
+      "画着图案的卡片"
+    ],
+    "exampleEn": "She read the letter with delight.",
+    "exampleCn": "她愉快地读了那封信。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "de",
+        "surface": "de",
+        "position": 0
+      },
+      {
+        "morphemeId": "light",
+        "surface": "light",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "whelm",
+        "type": "form"
+      },
+      {
+        "text": "pea",
+        "type": "meaning"
+      },
+      {
+        "text": "pher",
+        "type": "random"
+      },
+      {
+        "text": "pick",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "deport",
+      "degrade",
+      "depend",
+      "deposit",
+      "deflect",
+      "deflection",
+      "dehydrate",
+      "dehydration"
+    ],
+    "sourceNote": "古法语 delitier，de- + leitier(愉悦)",
+    "mnemonicNote": "de(加强)+light(光)：心里亮堂，就是欢喜"
+  },
+  {
+    "id": "motive",
+    "word": "motive",
+    "phonetic": "/'mәutiv/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "动机、目的",
+    "literalMeaningCn": "推动的那股",
+    "metaphorMeaningCn": "让人动起来的缘由",
+    "metaphorOptions": [
+      "让人动起来的缘由",
+      "开往城市的车",
+      "厨房里的机器"
+    ],
+    "exampleEn": "The police know his motive.",
+    "exampleCn": "警方知道他的动机。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "mob",
+        "surface": "mot",
+        "position": 0
+      },
+      {
+        "morphemeId": "ive",
+        "surface": "ive",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "excite",
+        "type": "form"
+      },
+      {
+        "text": "faith",
+        "type": "meaning"
+      },
+      {
+        "text": "finance",
+        "type": "random"
+      },
+      {
+        "text": "general",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "predictive",
+      "mobile",
+      "mobility",
+      "automobile",
+      "primitive",
+      "captive",
+      "active",
+      "expensive"
+    ],
+    "sourceNote": "拉丁 motivus，movere(移动)",
+    "mnemonicNote": "mot(移动)+ive：推着人动起来的那个缘由"
+  },
+  {
+    "id": "fiction",
+    "word": "fiction",
+    "phonetic": "/'fikʃәn/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "小说、虚构",
+    "literalMeaningCn": "做出来的",
+    "metaphorMeaningCn": "编出来的故事",
+    "metaphorOptions": [
+      "编出来的故事",
+      "读黑板上的文字",
+      "写满记录的本子"
+    ],
+    "exampleEn": "He writes science fiction.",
+    "exampleCn": "他写科幻小说。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "fic",
+        "surface": "fic",
+        "position": 0
+      },
+      {
+        "morphemeId": "tion",
+        "surface": "tion",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "question",
+        "type": "form"
+      },
+      {
+        "text": "realize",
+        "type": "meaning"
+      },
+      {
+        "text": "recruit",
+        "type": "random"
+      },
+      {
+        "text": "reject",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "attention",
+      "station",
+      "caption",
+      "description",
+      "production",
+      "consumption",
+      "portion",
+      "reduction"
+    ],
+    "sourceNote": "拉丁 fictio，fingere(塑造、虚构)",
+    "mnemonicNote": "fic(做、成)+tion：做出来的故事，是编的"
+  },
+  {
+    "id": "retail",
+    "word": "retail",
+    "phonetic": "/'ri:teil/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "零售、零卖",
+    "literalMeaningCn": "再切开来",
+    "metaphorMeaningCn": "一小份一小份地卖",
+    "metaphorOptions": [
+      "一小份一小份地卖",
+      "市场卖的柠檬",
+      "数二十个硬币"
+    ],
+    "exampleEn": "He works in retail.",
+    "exampleCn": "他在零售业工作。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "re",
+        "surface": "re",
+        "position": 0
+      },
+      {
+        "morphemeId": "tail",
+        "surface": "tail",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "science",
+        "type": "form"
+      },
+      {
+        "text": "consist",
+        "type": "meaning"
+      },
+      {
+        "text": "construct",
+        "type": "random"
+      },
+      {
+        "text": "tent",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "respect",
+      "report",
+      "revise",
+      "reject",
+      "retract",
+      "record",
+      "repel",
+      "reflect"
+    ],
+    "sourceNote": "古法语 retailler，re- + tailler(切割)",
+    "mnemonicNote": "re(再)+tail(切割)：整批切开，一份份卖"
+  },
+  {
+    "id": "consume",
+    "word": "consume",
+    "phonetic": "/kәn'sju:m/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "消耗、消费",
+    "literalMeaningCn": "全拿走用掉",
+    "metaphorMeaningCn": "一点点用到光为止",
+    "metaphorOptions": [
+      "一点点用到光为止",
+      "厨房做出的面包",
+      "装蜜蜂的箱子"
+    ],
+    "exampleEn": "We consume too much sugar.",
+    "exampleCn": "我们摄入太多糖。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "con",
+        "surface": "con",
+        "position": 0
+      },
+      {
+        "morphemeId": "sumere",
+        "surface": "sume",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "processor",
+        "type": "form"
+      },
+      {
+        "text": "mix",
+        "type": "meaning"
+      },
+      {
+        "text": "module",
+        "type": "random"
+      },
+      {
+        "text": "monster",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "contract",
+      "convince",
+      "conviction",
+      "convict",
+      "compose",
+      "component",
+      "compulsory",
+      "compel"
+    ],
+    "sourceNote": "拉丁 consumere，con-(完全) + sumere(拿取)",
+    "mnemonicNote": "con(完全)+sume(拿取)：整份拿去用掉"
+  },
+  {
+    "id": "duration",
+    "word": "duration",
+    "phonetic": "/dju'reiʃәn/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "持续时间、期间",
+    "literalMeaningCn": "持续的那段",
+    "metaphorMeaningCn": "一件事拖了多久",
+    "metaphorOptions": [
+      "一件事拖了多久",
+      "数二十个硬币",
+      "南方的车站"
+    ],
+    "exampleEn": "What is the duration of the trip?",
+    "exampleCn": "这次旅行持续多久？",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "dure",
+        "surface": "dur",
+        "position": 0
+      },
+      {
+        "morphemeId": "ation",
+        "surface": "ation",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "compute",
+        "type": "form"
+      },
+      {
+        "text": "cook",
+        "type": "meaning"
+      },
+      {
+        "text": "craie",
+        "type": "random"
+      },
+      {
+        "text": "diction",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "vocation",
+      "vacation",
+      "formation",
+      "information",
+      "equation",
+      "dehydration",
+      "collaboration",
+      "congratulation"
+    ],
+    "sourceNote": "拉丁 duratio，durare(持续)",
+    "mnemonicNote": "dur(持续)+ation：持续下来的那段时间"
+  },
+  {
+    "id": "accent",
+    "word": "accent",
+    "phonetic": "/'æksәnt/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "口音、重音",
+    "literalMeaningCn": "伴着唱出的调",
+    "metaphorMeaningCn": "说话带的那股腔调",
+    "metaphorOptions": [
+      "说话带的那股腔调",
+      "读黑板上的文字",
+      "画着图案的卡片"
+    ],
+    "exampleEn": "He speaks with a strong accent.",
+    "exampleCn": "他说话口音很重。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "ad",
+        "surface": "ac",
+        "position": 0
+      },
+      {
+        "morphemeId": "cent",
+        "surface": "cent",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "energy",
+        "type": "form"
+      },
+      {
+        "text": "err",
+        "type": "meaning"
+      },
+      {
+        "text": "explore",
+        "type": "random"
+      },
+      {
+        "text": "fair",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "century",
+      "percent",
+      "centennial",
+      "accord",
+      "adequate",
+      "inadequate",
+      "alleviate",
+      "admire"
+    ],
+    "sourceNote": "拉丁 accentus，ad- + cantus(歌唱)",
+    "mnemonicNote": "ac(朝向)+cent(唱)：说话时像唱歌的高低"
+  },
+  {
+    "id": "justification",
+    "word": "justification",
+    "phonetic": "/.dʒʌstifi'keiʃәn/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "正当理由、辩护",
+    "literalMeaningCn": "证明是公正的",
+    "metaphorMeaningCn": "为自己辩白的理由",
+    "metaphorOptions": [
+      "为自己辩白的理由",
+      "写满记录的本子",
+      "锁在监狱的人"
+    ],
+    "exampleEn": "There is no justification for it.",
+    "exampleCn": "这件事毫无正当理由。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "jud",
+        "surface": "just",
+        "position": 0
+      },
+      {
+        "morphemeId": "ification",
+        "surface": "ification",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "lace",
+        "type": "form"
+      },
+      {
+        "text": "adays",
+        "type": "meaning"
+      },
+      {
+        "text": "open",
+        "type": "random"
+      },
+      {
+        "text": "organize",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "judge",
+      "justice",
+      "justify",
+      "adjust",
+      "judgement",
+      "prejudice",
+      "judicious",
+      "classification"
+    ],
+    "sourceNote": "拉丁 justificatio，justus(公正) + facere(做)",
+    "mnemonicNote": "just(公正)+ification：把事情说成合理"
+  },
+  {
+    "id": "successor",
+    "word": "successor",
+    "phonetic": "/sәk'sesә/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "继任者、继承人",
+    "literalMeaningCn": "接着走的人",
+    "metaphorMeaningCn": "接替上一位的那个人",
+    "metaphorOptions": [
+      "接替上一位的那个人",
+      "选城市里的人",
+      "记在记录里的名字"
+    ],
+    "exampleEn": "They chose his successor.",
+    "exampleCn": "他们选定了他的继任者。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "success",
+        "surface": "success",
+        "position": 0
+      },
+      {
+        "morphemeId": "or",
+        "surface": "or",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "candesco",
+        "type": "form"
+      },
+      {
+        "text": "incline",
+        "type": "meaning"
+      },
+      {
+        "text": "induct",
+        "type": "random"
+      },
+      {
+        "text": "infer",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "dictator",
+      "benefactor",
+      "victorious",
+      "equator",
+      "elevator",
+      "mirror",
+      "director",
+      "successful"
+    ],
+    "sourceNote": "拉丁 successor，succedere(接着来)",
+    "mnemonicNote": "success(接续)+or：接着往下走的那个人"
+  },
+  {
+    "id": "hypothesis",
+    "word": "hypothesis",
+    "phonetic": "/hai'pɒθәsis/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "假设、假说",
+    "literalMeaningCn": "放在下面的",
+    "metaphorMeaningCn": "先立个待验证的说法",
+    "metaphorOptions": [
+      "先立个待验证的说法",
+      "读黑板上的文字",
+      "建好的房子"
+    ],
+    "exampleEn": "We tested the hypothesis.",
+    "exampleCn": "我们检验了这个假设。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "hypo",
+        "surface": "hypo",
+        "position": 0
+      },
+      {
+        "morphemeId": "thesis",
+        "surface": "thesis",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "shoot",
+        "type": "form"
+      },
+      {
+        "text": "shut",
+        "type": "meaning"
+      },
+      {
+        "text": "sincere",
+        "type": "random"
+      },
+      {
+        "text": "skillful",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "hypothermia",
+      "synthesis"
+    ],
+    "sourceNote": "希腊 hypothesis，hypo-(在下) + tithenai(放置)",
+    "mnemonicNote": "hypo(在下)+thesis(放置)：垫在下面的待验证之说"
   },
   {
     "id": "object",

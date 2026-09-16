@@ -479,5 +479,101 @@
   "distance": {
     "exampleEn": "The distance is about two miles.",
     "exampleCn": "距离大约两英里。"
+  },
+  "admission": {
+    "exampleEn": "Admission is free today.",
+    "exampleCn": "今天免费入场。"
+  },
+  "violent": {
+    "exampleEn": "The film is too violent.",
+    "exampleCn": "这部电影太暴力了。"
+  },
+  "sensible": {
+    "exampleEn": "That sounds like a sensible plan.",
+    "exampleCn": "那听起来是个明智的计划。"
+  },
+  "sensation": {
+    "exampleEn": "It caused a sensation at the time.",
+    "exampleCn": "这在当时引起了轰动。"
+  },
+  "venture": {
+    "exampleEn": "They started a new venture.",
+    "exampleCn": "他们开始了一项新的冒险。"
+  },
+  "continuous": {
+    "exampleEn": "There was continuous rain all night.",
+    "exampleCn": "雨下了一整夜没停。"
+  },
+  "native": {
+    "exampleEn": "She is a native speaker.",
+    "exampleCn": "她是母语使用者。"
+  },
+  "generous": {
+    "exampleEn": "He is very generous with money.",
+    "exampleCn": "他在钱上很慷慨。"
+  },
+  "automatic": {
+    "exampleEn": "The doors are automatic.",
+    "exampleCn": "这些门是自动的。"
+  },
+  "devise": {
+    "exampleEn": "We must devise a new plan.",
+    "exampleCn": "我们必须想出一个新计划。"
+  },
+  "attribute": {
+    "exampleEn": "They attribute it to luck.",
+    "exampleCn": "他们把这归因于运气。"
+  },
+  "assert": {
+    "exampleEn": "He did not assert his rights.",
+    "exampleCn": "他没有坚持自己的权利。"
+  },
+  "desert": {
+    "exampleEn": "They crossed the desert.",
+    "exampleCn": "他们穿越了沙漠。"
+  },
+  "stability": {
+    "exampleEn": "The country needs stability.",
+    "exampleCn": "这个国家需要稳定。"
+  },
+  "delight": {
+    "exampleEn": "She read the letter with delight.",
+    "exampleCn": "她愉快地读了那封信。"
+  },
+  "motive": {
+    "exampleEn": "The police know his motive.",
+    "exampleCn": "警方知道他的动机。"
+  },
+  "fiction": {
+    "exampleEn": "He writes science fiction.",
+    "exampleCn": "他写科幻小说。"
+  },
+  "retail": {
+    "exampleEn": "He works in retail.",
+    "exampleCn": "他在零售业工作。"
+  },
+  "consume": {
+    "exampleEn": "We consume too much sugar.",
+    "exampleCn": "我们摄入太多糖。"
+  },
+  "duration": {
+    "exampleEn": "What is the duration of the trip?",
+    "exampleCn": "这次旅行持续多久？"
+  },
+  "accent": {
+    "exampleEn": "He speaks with a strong accent.",
+    "exampleCn": "他说话口音很重。"
+  },
+  "justification": {
+    "exampleEn": "There is no justification for it.",
+    "exampleCn": "这件事毫无正当理由。"
+  },
+  "successor": {
+    "exampleEn": "They chose his successor.",
+    "exampleCn": "他们选定了他的继任者。"
+  },
+  "hypothesis": {
+    "exampleEn": "We tested the hypothesis.",
+    "exampleCn": "我们检验了这个假设。"
   }
 }

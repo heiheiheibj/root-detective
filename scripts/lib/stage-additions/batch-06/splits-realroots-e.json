@@ -1,0 +1,29 @@
+{
+  "_comment": "批次 06e：第三批扫描挑出的 24 个词源站得住的常用词。mission/viola/sense/ven/continue/nat/gener/automat/vid/tribu/stable/light/mob/ser/fic/tail/sumere/dure/cent/jud/thesis/success 全部已建模；attribute/assert 需要 ad 补 at、as 变体（ad 已在 ALLOMORPH_TOUCH 里）。",
+  "splits": {
+    "admission": [{ "id": "ad", "surface": "ad" }, { "id": "mission", "surface": "mission" }],
+    "violent": [{ "id": "viola", "surface": "viol" }, { "id": "ent", "surface": "ent" }],
+    "sensible": [{ "id": "sense", "surface": "sens" }, { "id": "ible", "surface": "ible" }],
+    "sensation": [{ "id": "sense", "surface": "sens" }, { "id": "ation", "surface": "ation" }],
+    "venture": [{ "id": "ven", "surface": "vent" }, { "id": "ure", "surface": "ure" }],
+    "continuous": [{ "id": "continue", "surface": "continu" }, { "id": "ous", "surface": "ous" }],
+    "native": [{ "id": "nat", "surface": "nat" }, { "id": "ive", "surface": "ive" }],
+    "generous": [{ "id": "gener", "surface": "gener" }, { "id": "ous", "surface": "ous" }],
+    "automatic": [{ "id": "automat", "surface": "automat" }, { "id": "ic", "surface": "ic" }],
+    "devise": [{ "id": "de", "surface": "de" }, { "id": "vid", "surface": "vise" }],
+    "attribute": [{ "id": "ad", "surface": "at" }, { "id": "tribu", "surface": "tribute" }],
+    "assert": [{ "id": "ad", "surface": "as" }, { "id": "ser", "surface": "sert" }],
+    "desert": [{ "id": "de", "surface": "de" }, { "id": "ser", "surface": "sert" }],
+    "stability": [{ "id": "stable", "surface": "stabil" }, { "id": "ity", "surface": "ity" }],
+    "delight": [{ "id": "de", "surface": "de" }, { "id": "light", "surface": "light" }],
+    "motive": [{ "id": "mob", "surface": "mot" }, { "id": "ive", "surface": "ive" }],
+    "fiction": [{ "id": "fic", "surface": "fic" }, { "id": "tion", "surface": "tion" }],
+    "retail": [{ "id": "re", "surface": "re" }, { "id": "tail", "surface": "tail" }],
+    "consume": [{ "id": "con", "surface": "con" }, { "id": "sumere", "surface": "sume" }],
+    "duration": [{ "id": "dure", "surface": "dur" }, { "id": "ation", "surface": "ation" }],
+    "accent": [{ "id": "ad", "surface": "ac" }, { "id": "cent", "surface": "cent" }],
+    "justification": [{ "id": "jud", "surface": "just" }, { "id": "ification", "surface": "ification" }],
+    "successor": [{ "id": "success", "surface": "success" }, { "id": "or", "surface": "or" }],
+    "hypothesis": [{ "id": "hypo", "surface": "hypo" }, { "id": "thesis", "surface": "thesis" }]
+  }
+}

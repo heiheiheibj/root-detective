@@ -251,14 +251,16 @@
   {
     "id": "build-site",
     "name": "营造场",
-    "description": "学习词根：base、board、cover、break、ember、struct（营造场）",
+    "description": "学习词根：base、board、cover、break、ember、struct、ser、stable（营造场）",
     "morphemeIds": [
       "base",
       "board",
       "cover",
       "break",
       "ember",
-      "struct"
+      "struct",
+      "ser",
+      "stable"
     ]
   },
   {
@@ -371,7 +373,7 @@
   {
     "id": "council-chamber",
     "name": "议事厅",
-    "description": "学习词根：present、public、social、custom、court、law、part、proper、regard（议事厅）",
+    "description": "学习词根：present、public、social、custom、court、law、part、proper、regard、tribu（议事厅）",
     "morphemeIds": [
       "present",
       "public",
@@ -381,7 +383,8 @@
       "law",
       "part",
       "proper",
-      "regard"
+      "regard",
+      "tribu"
     ]
   },
   {
@@ -537,7 +540,7 @@
   {
     "id": "discern-hall",
     "name": "明辨堂",
-    "description": "学习词根：not、clear、clude、min、gener、cut、sham、sect（明辨堂）",
+    "description": "学习词根：not、clear、clude、min、gener、cut、sham、sect、tail（明辨堂）",
     "morphemeIds": [
       "not",
       "clear",
@@ -546,7 +549,8 @@
       "gener",
       "cut",
       "sham",
-      "sect"
+      "sect",
+      "tail"
     ]
   },
   {
