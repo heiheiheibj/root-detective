@@ -34466,6 +34466,268 @@
     "surface": "ure"
    }
   ],
+  "include": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "clude",
+    "surface": "clude"
+   }
+  ],
+  "general": [
+   {
+    "id": "gener",
+    "surface": "gener"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "special": [
+   {
+    "id": "spec",
+    "surface": "spec"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "certain": [
+   {
+    "id": "cert",
+    "surface": "cert"
+   },
+   {
+    "id": "ain",
+    "surface": "ain"
+   }
+  ],
+  "president": [
+   {
+    "id": "pre",
+    "surface": "pre"
+   },
+   {
+    "id": "sid",
+    "surface": "sid"
+   },
+   {
+    "id": "ent",
+    "surface": "ent"
+   }
+  ],
+  "structure": [
+   {
+    "id": "struct",
+    "surface": "struct"
+   },
+   {
+    "id": "ure",
+    "surface": "ure"
+   }
+  ],
+  "pressure": [
+   {
+    "id": "press",
+    "surface": "press"
+   },
+   {
+    "id": "ure",
+    "surface": "ure"
+   }
+  ],
+  "success": [
+   {
+    "id": "suc",
+    "surface": "suc"
+   },
+   {
+    "id": "cess",
+    "surface": "cess"
+   }
+  ],
+  "demand": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "mand",
+    "surface": "mand"
+   }
+  ],
+  "refer": [
+   {
+    "id": "re",
+    "surface": "re"
+   },
+   {
+    "id": "fer",
+    "surface": "fer"
+   }
+  ],
+  "obtain": [
+   {
+    "id": "ob",
+    "surface": "ob"
+   },
+   {
+    "id": "tain",
+    "surface": "tain"
+   }
+  ],
+  "science": [
+   {
+    "id": "sci",
+    "surface": "sci"
+   },
+   {
+    "id": "ence",
+    "surface": "ence"
+   }
+  ],
+  "indicate": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "dict",
+    "surface": "dic"
+   },
+   {
+    "id": "ate",
+    "surface": "ate"
+   }
+  ],
+  "sector": [
+   {
+    "id": "sect",
+    "surface": "sect"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "access": [
+   {
+    "id": "ad",
+    "surface": "ac"
+   },
+   {
+    "id": "cess",
+    "surface": "cess"
+   }
+  ],
+  "define": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "fine",
+    "surface": "fine"
+   }
+  ],
+  "picture": [
+   {
+    "id": "pict",
+    "surface": "pict"
+   },
+   {
+    "id": "ure",
+    "surface": "ure"
+   }
+  ],
+  "ordinary": [
+   {
+    "id": "ordin",
+    "surface": "ordin"
+   },
+   {
+    "id": "ary",
+    "surface": "ary"
+   }
+  ],
+  "introduction": [
+   {
+    "id": "intro",
+    "surface": "intro"
+   },
+   {
+    "id": "duct",
+    "surface": "duct"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "factor": [
+   {
+    "id": "fact",
+    "surface": "fact"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "impact": [
+   {
+    "id": "im",
+    "surface": "im"
+   },
+   {
+    "id": "pact",
+    "surface": "pact"
+   }
+  ],
+  "service": [
+   {
+    "id": "serv",
+    "surface": "serv"
+   },
+   {
+    "id": "ice",
+    "surface": "ice"
+   }
+  ],
+  "account": [
+   {
+    "id": "ad",
+    "surface": "ac"
+   },
+   {
+    "id": "count",
+    "surface": "count"
+   }
+  ],
+  "decision": [
+   {
+    "id": "decide",
+    "surface": "decis"
+   },
+   {
+    "id": "ion",
+    "surface": "ion"
+   }
+  ],
+  "effect": [
+   {
+    "id": "ex",
+    "surface": "ef"
+   },
+   {
+    "id": "fect",
+    "surface": "fect"
+   }
+  ],
   "object": [
    {
     "id": "ob",
@@ -49881,7 +50143,8 @@
     "ex",
     "ec",
     "exe",
-    "e"
+    "e",
+    "ef"
    ],
    "etymology": "",
    "level": 1,
@@ -64031,7 +64294,8 @@
     "cycle",
     "stand",
     "gress",
-    "sta"
+    "sta",
+    "cess"
    ]
   },
   {
@@ -64127,7 +64391,8 @@
     "point",
     "normal",
     "wide",
-    "centre"
+    "centre",
+    "count"
    ]
   },
   {
@@ -64200,7 +64465,8 @@
     "special",
     "fresh",
     "main",
-    "host"
+    "host",
+    "ordin"
    ]
   },
   {
@@ -64238,7 +64504,8 @@
     "mission",
     "pay",
     "hold",
-    "verb"
+    "verb",
+    "mand"
    ]
   },
   {

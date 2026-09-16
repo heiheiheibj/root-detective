@@ -219,7 +219,7 @@
   {
     "id": "motion-yard",
     "name": "行止院",
-    "description": "学习词根：act、ceed、pass、turn、cycle、stand、gress、sta（行止院）",
+    "description": "学习词根：act、ceed、pass、turn、cycle、stand、gress、sta、cess（行止院）",
     "morphemeIds": [
       "act",
       "ceed",
@@ -228,7 +228,8 @@
       "cycle",
       "stand",
       "gress",
-      "sta"
+      "sta",
+      "cess"
     ]
   },
   {
@@ -323,7 +324,7 @@
   {
     "id": "measure-terrace",
     "name": "度量台",
-    "description": "学习词根：east、short、high、space、point、normal、wide、centre（度量台）",
+    "description": "学习词根：east、short、high、space、point、normal、wide、centre、count（度量台）",
     "morphemeIds": [
       "east",
       "short",
@@ -332,7 +333,8 @@
       "point",
       "normal",
       "wide",
-      "centre"
+      "centre",
+      "count"
     ]
   },
   {
@@ -398,7 +400,7 @@
   {
     "id": "lumber-store",
     "name": "杂物仓",
-    "description": "学习词根：box、case、fit、load、organ、access、minim、special、fresh、main、host（杂物仓）",
+    "description": "学习词根：box、case、fit、load、organ、access、minim、special、fresh、main、host、ordin（杂物仓）",
     "morphemeIds": [
       "box",
       "case",
@@ -410,7 +412,8 @@
       "special",
       "fresh",
       "main",
-      "host"
+      "host",
+      "ordin"
     ]
   },
   {
@@ -445,13 +448,14 @@
   {
     "id": "office-house",
     "name": "职事馆",
-    "description": "学习词根：employ、mission、pay、hold、verb（职事馆）",
+    "description": "学习词根：employ、mission、pay、hold、verb、mand（职事馆）",
     "morphemeIds": [
       "employ",
       "mission",
       "pay",
       "hold",
-      "verb"
+      "verb",
+      "mand"
     ]
   },
   {

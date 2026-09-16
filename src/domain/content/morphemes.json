@@ -70,7 +70,8 @@
     "type": "root",
     "meaningCn": "说",
     "allomorphs": [
-      "dict"
+      "dict",
+      "dic"
     ],
     "etymology": "来自拉丁语 dicere，说、宣布",
     "level": 1,
@@ -10312,6 +10313,7 @@
     "meaningCn": "产生",
     "allomorphs": [
       "generat",
+      "gener",
       "generate"
     ],
     "etymology": "",
@@ -14294,7 +14296,8 @@
     "allomorphs": [
       "ex",
       "exe",
-      "e"
+      "e",
+      "ef"
     ],
     "etymology": "",
     "level": 1,

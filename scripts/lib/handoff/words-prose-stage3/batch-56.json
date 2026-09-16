@@ -1,0 +1,202 @@
+{
+  "include": {
+    "modernMeaningCn": "包括、包含",
+    "literalMeaningCn": "关在里面",
+    "metaphorMeaningCn": "把一样东西算进整体",
+    "metaphorOptions": ["把一样东西算进整体", "挂在外套上的牌", "数二十个箱子"],
+    "mnemonicNote": "in(进入)+clude(关闭)：关进范围里，就算在内",
+    "sourceNote": "拉丁 includere，in-(在内) + claudere(关闭)"
+  },
+  "general": {
+    "modernMeaningCn": "一般的、总的",
+    "literalMeaningCn": "同一种类",
+    "metaphorMeaningCn": "多数情况都适用的",
+    "metaphorOptions": ["多数情况都适用的", "数二十个硬币", "装蜜蜂的箱子"],
+    "mnemonicNote": "gener(种类、产生)+al：同一类的，通用于全体",
+    "sourceNote": "拉丁 generalis，genus(种类)"
+  },
+  "special": {
+    "modernMeaningCn": "特别的、专门的",
+    "literalMeaningCn": "看得出不一样",
+    "metaphorMeaningCn": "跟别的不一样的那一类",
+    "metaphorOptions": ["跟别的不一样的那一类", "画着图案的卡片", "称稻草的重量"],
+    "mnemonicNote": "spec(看)+ial：一眼就看出跟别的不同",
+    "sourceNote": "拉丁 specialis，species(外观、种类)"
+  },
+  "certain": {
+    "modernMeaningCn": "确定的、某个",
+    "literalMeaningCn": "已确定下来",
+    "metaphorMeaningCn": "心里有把握的事",
+    "metaphorOptions": ["心里有把握的事", "数二十个硬币", "记在记录里的名字"],
+    "mnemonicNote": "cert(确定)+ain：定下来的，错不了",
+    "sourceNote": "拉丁 certus（确定的）；certain"
+  },
+  "president": {
+    "modernMeaningCn": "总统、负责人",
+    "literalMeaningCn": "坐在前面的人",
+    "metaphorMeaningCn": "坐在最前头管事的人",
+    "metaphorOptions": ["坐在最前头管事的人", "站在南方的哨兵", "分给同伴的一块"],
+    "mnemonicNote": "pre(在前)+sid(坐)+ent：坐最前面管事的那位",
+    "sourceNote": "拉丁 praesidere，prae-(在前) + sedere(坐)"
+  },
+  "structure": {
+    "modernMeaningCn": "结构、建筑物",
+    "literalMeaningCn": "搭起来的架子",
+    "metaphorMeaningCn": "各部件搭成的整体",
+    "metaphorOptions": ["各部件搭成的整体", "建好的房子", "装蜜蜂的箱子"],
+    "mnemonicNote": "struct(堆叠、构造)+ure：一层层搭出来的架子",
+    "sourceNote": "拉丁 structura，struere(堆叠)"
+  },
+  "pressure": {
+    "modernMeaningCn": "压力、压迫",
+    "literalMeaningCn": "压着的力",
+    "metaphorMeaningCn": "压在人身上的重量",
+    "metaphorOptions": ["压在人身上的重量", "称稻草的重量", "擦得发亮的椅子"],
+    "mnemonicNote": "press(压)+ure：压上来的那股力",
+    "sourceNote": "拉丁 pressura，premere(压)"
+  },
+  "success": {
+    "modernMeaningCn": "成功、成就",
+    "literalMeaningCn": "跟着走到底",
+    "metaphorMeaningCn": "顺着走下去终于成了",
+    "metaphorOptions": ["顺着走下去终于成了", "数二十张票", "开往城市的车"],
+    "mnemonicNote": "suc(紧随)+cess(走)：一路跟到底，事就成了",
+    "sourceNote": "拉丁 successus，sub-(在下) + cedere(走)"
+  },
+  "demand": {
+    "modernMeaningCn": "要求、需求",
+    "literalMeaningCn": "郑重托付",
+    "metaphorMeaningCn": "开口向人要东西",
+    "metaphorOptions": ["开口向人要东西", "数二十个箱子", "记在记录里的名字"],
+    "mnemonicNote": "de(向下)+mand(托付)：把事托给别人，就是要他办",
+    "sourceNote": "拉丁 demandare，de- + mandare(托付)"
+  },
+  "refer": {
+    "modernMeaningCn": "提到、参考",
+    "literalMeaningCn": "带回去",
+    "metaphorMeaningCn": "把话引到别处去",
+    "metaphorOptions": ["把话引到别处去", "开往城市的船", "称稻草的重量"],
+    "mnemonicNote": "re(回)+fer(带)：把话带回到出处",
+    "sourceNote": "拉丁 referre，re-(回) + ferre(带)"
+  },
+  "obtain": {
+    "modernMeaningCn": "获得、得到",
+    "literalMeaningCn": "抓在手里",
+    "metaphorMeaningCn": "想要的东西到手了",
+    "metaphorOptions": ["想要的东西到手了", "装蜜蜂的箱子", "擦亮旧椅子"],
+    "mnemonicNote": "ob(朝、对着)+tain(持有)：朝着它拿住，就得到了",
+    "sourceNote": "拉丁 obtinere，ob- + tenere(持有)"
+  },
+  "science": {
+    "modernMeaningCn": "科学、学科",
+    "literalMeaningCn": "求知的学问",
+    "metaphorMeaningCn": "弄清事物道理的学问",
+    "metaphorOptions": ["弄清事物道理的学问", "读黑板上的文字", "建好的房子"],
+    "mnemonicNote": "sci(知道)+ence：把事物弄明白的学问",
+    "sourceNote": "拉丁 scientia，scire(知道)"
+  },
+  "indicate": {
+    "modernMeaningCn": "表明、指示",
+    "literalMeaningCn": "说出来指明",
+    "metaphorMeaningCn": "用信号把方向点出来",
+    "metaphorOptions": ["用信号把方向点出来", "画着图案的卡片", "邮政的包裹"],
+    "mnemonicNote": "in(向内)+dic(说)+ate：朝里说清楚，指给人看",
+    "sourceNote": "拉丁 indicare，in- + dicare(宣告)"
+  },
+  "sector": {
+    "modernMeaningCn": "部门、扇形",
+    "literalMeaningCn": "切出来的一块",
+    "metaphorMeaningCn": "整体划分出的一个区",
+    "metaphorOptions": ["整体划分出的一个区", "分给同伴的一块", "开往城市的车"],
+    "mnemonicNote": "sect(切)+or：从整体切出来的一块",
+    "sourceNote": "拉丁 sector，secare(切)"
+  },
+  "access": {
+    "modernMeaningCn": "通道、使用权",
+    "literalMeaningCn": "走近去",
+    "metaphorMeaningCn": "能进到里面去的路",
+    "metaphorOptions": ["能进到里面去的路", "绕过南方的河", "锁在监狱的人"],
+    "mnemonicNote": "ac(朝向)+cess(走)：朝它走过去，进得去",
+    "sourceNote": "拉丁 accessus，ad-(朝向) + cedere(走)"
+  },
+  "define": {
+    "modernMeaningCn": "定义、限定",
+    "literalMeaningCn": "划出边界",
+    "metaphorMeaningCn": "给一个词划清范围",
+    "metaphorOptions": ["给一个词划清范围", "量二十个箱子", "写满标记的木板"],
+    "mnemonicNote": "de(向下)+fine(精细)：把界限定死，说清是什么",
+    "sourceNote": "拉丁 definire，de- + finis(界限)"
+  },
+  "picture": {
+    "modernMeaningCn": "图画、照片",
+    "literalMeaningCn": "画出来的样子",
+    "metaphorMeaningCn": "留在纸上的影像",
+    "metaphorOptions": ["留在纸上的影像", "画着图案的卡片", "擦亮旧椅子"],
+    "mnemonicNote": "pict(画)+ure：画出来的那一幅",
+    "sourceNote": "拉丁 pictura，pingere(画)"
+  },
+  "ordinary": {
+    "modernMeaningCn": "普通的、平常的",
+    "literalMeaningCn": "按着次序来",
+    "metaphorMeaningCn": "跟平时没什么两样",
+    "metaphorOptions": ["跟平时没什么两样", "数二十个硬币", "装蜜蜂的箱子"],
+    "mnemonicNote": "ordin(顺序)+ary：顺着常序走，没什么特别",
+    "sourceNote": "拉丁 ordinarius，ordo(次序)"
+  },
+  "introduction": {
+    "modernMeaningCn": "介绍、引进",
+    "literalMeaningCn": "引到里面",
+    "metaphorMeaningCn": "把新人带进门来",
+    "metaphorOptions": ["把新人带进门来", "开往城市的车", "记在记录里的名字"],
+    "mnemonicNote": "intro(向内)+duct(引导)+ion：把人往里引",
+    "sourceNote": "拉丁 introductio，intro-(向内) + ducere(引导)"
+  },
+  "factor": {
+    "modernMeaningCn": "因素、要素",
+    "literalMeaningCn": "起作用的东西",
+    "metaphorMeaningCn": "影响结果的那一项",
+    "metaphorOptions": ["影响结果的那一项", "数二十个箱子", "厨房里的机器"],
+    "mnemonicNote": "fact(做)+or：做事的那个动因",
+    "sourceNote": "拉丁 factor，facere(做)"
+  },
+  "impact": {
+    "modernMeaningCn": "影响、冲击",
+    "literalMeaningCn": "撞上去",
+    "metaphorMeaningCn": "重重撞上来的一下",
+    "metaphorOptions": ["重重撞上来的一下", "掉在地上的牙齿", "接上城市的线"],
+    "mnemonicNote": "im(向内)+pact(压紧)：往里压紧，撞出结果",
+    "sourceNote": "拉丁 impactus，in- + pangere(钉紧)"
+  },
+  "service": {
+    "modernMeaningCn": "服务、公务",
+    "literalMeaningCn": "替人做事",
+    "metaphorMeaningCn": "为别人跑腿办事",
+    "metaphorOptions": ["为别人跑腿办事", "邮政的包裹", "市场卖的柠檬"],
+    "mnemonicNote": "serv(服务、保持)+ice：替人把事做妥当",
+    "sourceNote": "拉丁 servitium，servus(仆人)"
+  },
+  "account": {
+    "modernMeaningCn": "账户、说明",
+    "literalMeaningCn": "算出来的账",
+    "metaphorMeaningCn": "一笔笔记着的账目",
+    "metaphorOptions": ["一笔笔记着的账目", "数二十个硬币", "写满记录的本子"],
+    "mnemonicNote": "ac(朝向)+count(计算)：算给人家看的一本账",
+    "sourceNote": "古法语 acont，a- + conter(计算)"
+  },
+  "decision": {
+    "modernMeaningCn": "决定、决心",
+    "literalMeaningCn": "定下来的那一刻",
+    "metaphorMeaningCn": "拍板定下一件事",
+    "metaphorOptions": ["拍板定下一件事", "数二十个数字", "选城市里的人"],
+    "mnemonicNote": "decis(决定)+ion：把拿不准的定下来",
+    "sourceNote": "拉丁 decisio，decidere(裁定)"
+  },
+  "effect": {
+    "modernMeaningCn": "效果、影响",
+    "literalMeaningCn": "做出来的结果",
+    "metaphorMeaningCn": "一件事留下的后果",
+    "metaphorOptions": ["一件事留下的后果", "厨房做出的面包", "画着图案的卡片"],
+    "mnemonicNote": "ef(向外)+fect(做、成)：做出来后留下的那个结果",
+    "sourceNote": "拉丁 effectus，ex-(向外) + facere(做)"
+  }
+}

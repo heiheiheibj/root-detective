@@ -275,5 +275,105 @@
   "newly": {
     "exampleEn": "The newly built bridge opened today.",
     "exampleCn": "这座新建的桥今天通车了。"
+  },
+  "include": {
+    "exampleEn": "The price will include breakfast.",
+    "exampleCn": "这个价格将包含早餐。"
+  },
+  "general": {
+    "exampleEn": "The general idea is easy to understand.",
+    "exampleCn": "总体思路很容易理解。"
+  },
+  "special": {
+    "exampleEn": "Today is a special day for us.",
+    "exampleCn": "今天对我们是个特别的日子。"
+  },
+  "certain": {
+    "exampleEn": "I am certain about the answer.",
+    "exampleCn": "我对这个答案很有把握。"
+  },
+  "president": {
+    "exampleEn": "The president will speak tonight.",
+    "exampleCn": "总统今晚将发表讲话。"
+  },
+  "structure": {
+    "exampleEn": "The structure of the book is clear.",
+    "exampleCn": "这本书的结构很清楚。"
+  },
+  "pressure": {
+    "exampleEn": "He is under a lot of pressure.",
+    "exampleCn": "他承受着很大的压力。"
+  },
+  "success": {
+    "exampleEn": "Hard work is the key to success.",
+    "exampleCn": "努力是成功的关键。"
+  },
+  "demand": {
+    "exampleEn": "They demand better pay.",
+    "exampleCn": "他们要求更高的报酬。"
+  },
+  "refer": {
+    "exampleEn": "Please refer to the notes below.",
+    "exampleCn": "请参考下面的注释。"
+  },
+  "obtain": {
+    "exampleEn": "You can obtain a copy online.",
+    "exampleCn": "你可以在网上获取一份。"
+  },
+  "science": {
+    "exampleEn": "She loves science and maths.",
+    "exampleCn": "她热爱科学和数学。"
+  },
+  "indicate": {
+    "exampleEn": "The map will indicate the way.",
+    "exampleCn": "地图会指明路线。"
+  },
+  "sector": {
+    "exampleEn": "He works in the public sector.",
+    "exampleCn": "他在公共部门工作。"
+  },
+  "access": {
+    "exampleEn": "Students have access to the library.",
+    "exampleCn": "学生可以使用图书馆。"
+  },
+  "define": {
+    "exampleEn": "Please define the word clearly.",
+    "exampleCn": "请把这个词定义清楚。"
+  },
+  "picture": {
+    "exampleEn": "Look at the picture on the wall.",
+    "exampleCn": "看看墙上那幅画。"
+  },
+  "ordinary": {
+    "exampleEn": "It was an ordinary working day.",
+    "exampleCn": "那是平常的一个工作日。"
+  },
+  "introduction": {
+    "exampleEn": "She gave a short introduction.",
+    "exampleCn": "她做了简短的介绍。"
+  },
+  "factor": {
+    "exampleEn": "Cost is an important factor.",
+    "exampleCn": "成本是一个重要因素。"
+  },
+  "impact": {
+    "exampleEn": "The book had a big impact on me.",
+    "exampleCn": "这本书对我影响很大。"
+  },
+  "service": {
+    "exampleEn": "The service here is very good.",
+    "exampleCn": "这里的服务很好。"
+  },
+  "account": {
+    "exampleEn": "I opened a bank account.",
+    "exampleCn": "我开了一个银行账户。"
+  },
+  "decision": {
+    "exampleEn": "We must make a decision today.",
+    "exampleCn": "我们今天必须做出决定。"
+  },
+  "effect": {
+    "exampleEn": "The medicine had no effect.",
+    "exampleCn": "这药没有效果。"
   }
 }
