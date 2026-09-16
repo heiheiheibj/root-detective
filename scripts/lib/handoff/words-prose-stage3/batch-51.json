@@ -1,0 +1,99 @@
+{
+  "_comment": "er 补 'r' 变体后新通过、但原切分是垃圾碎片的 8 个词：7 个按 delivery/wander 的做法整词立 root（river/liver/hover/rather/slippery/peer/taper），later 改挂比较级后缀 comper。",
+  "river": {
+    "modernMeaningCn": "河流",
+    "literalMeaningCn": "顺着地势流的水",
+    "metaphorMeaningCn": "河、大江",
+    "metaphorOptions": [
+      "河、大江",
+      "把相等串起来",
+      "替直至操心"
+    ],
+    "mnemonicNote": "river ← riparia(河岸)：顺着地势往低处流的一股水",
+    "sourceNote": "古法语 rivere，拉丁 riparia（河岸）"
+  },
+  "liver": {
+    "modernMeaningCn": "肝脏",
+    "literalMeaningCn": "右上腹那块脏器",
+    "metaphorMeaningCn": "肝脏、体内的化工厂",
+    "metaphorOptions": [
+      "肝脏、体内的化工厂",
+      "构成的背面",
+      "把绳索串起来"
+    ],
+    "mnemonicNote": "liver ← lifer：右上腹那块解毒的脏器（与 live「生活」无关）",
+    "sourceNote": "古英语 lifer"
+  },
+  "hover": {
+    "modernMeaningCn": "盘旋；悬停",
+    "literalMeaningCn": "停在半空不落",
+    "metaphorMeaningCn": "悬在半空一动不动",
+    "metaphorOptions": [
+      "悬在半空一动不动",
+      "数着耕作过日子",
+      "围着空气转"
+    ],
+    "mnemonicNote": "hover ← hoven(徘徊)：翅膀不动地停在半空",
+    "sourceNote": "中古英语 hoven（徘徊）"
+  },
+  "rather": {
+    "modernMeaningCn": "相当；宁愿",
+    "literalMeaningCn": "更快挑中的那条",
+    "metaphorMeaningCn": "宁可、相当",
+    "metaphorOptions": [
+      "宁可、相当",
+      "守着日过活",
+      "表现的工具"
+    ],
+    "mnemonicNote": "rather ← hrathor(更快)：两条路里更快挑中的那一条",
+    "sourceNote": "古英语 hrathor，hræth（快）的比较级"
+  },
+  "slippery": {
+    "modernMeaningCn": "滑的；狡猾的",
+    "literalMeaningCn": "站不住脚的地面",
+    "metaphorMeaningCn": "一踩就滑、靠不住",
+    "metaphorOptions": [
+      "一踩就滑、靠不住",
+      "前臂的来路",
+      "围着刺激转"
+    ],
+    "mnemonicNote": "slip(滑)+-ery：脚踩上去就站不住的地面",
+    "sourceNote": "slip（滑）+ -ery，p 双写"
+  },
+  "peer": {
+    "modernMeaningCn": "同辈；凝视",
+    "literalMeaningCn": "地位相等的人",
+    "metaphorMeaningCn": "跟你同排站着的人",
+    "metaphorOptions": [
+      "跟你同排站着的人",
+      "守着地过活",
+      "邮政的过程"
+    ],
+    "mnemonicNote": "peer ← per/par(相等)：跟你站在同一排的那个人",
+    "sourceNote": "古法语 per，拉丁 par（相等）"
+  },
+  "taper": {
+    "modernMeaningCn": "逐渐变细；烛芯",
+    "literalMeaningCn": "一头比一头细",
+    "metaphorMeaningCn": "越到头越细",
+    "metaphorOptions": [
+      "越到头越细",
+      "一种派送的习俗",
+      "围着房间转"
+    ],
+    "mnemonicNote": "taper ← tapur(烛芯)：蜡烛芯那样一头比一头细",
+    "sourceNote": "古英语 tapur（烛芯）"
+  },
+  "later": {
+    "modernMeaningCn": "后来；更晚",
+    "literalMeaningCn": "更往后些",
+    "metaphorMeaningCn": "过一阵、后来",
+    "metaphorOptions": [
+      "过一阵、后来",
+      "守着无差别的过活",
+      "围着孩子转"
+    ],
+    "mnemonicNote": "lat(晚)+er(更……的)：比原来那个时间更往后",
+    "sourceNote": "late（晚）+ -er（比较级），与施事 -er 同形不同义"
+  }
+}

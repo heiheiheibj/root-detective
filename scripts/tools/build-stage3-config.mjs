@@ -141,6 +141,15 @@ const SPLIT_REPLACE = {
   refrain: [{ id: 're', surface: 're' }, { id: 'frain', surface: 'frain' }], // re+fraindre(勒住)，原 ref+rain(雨!)
   terrain: [{ id: 'terr', surface: 'terr' }, { id: 'ain', surface: 'ain' }], // terrenum(土地)，原 ter(三次)+rain(雨!)
   lemonade: [{ id: 'lemon', surface: 'lemon' }, { id: 'ade', surface: 'ade' }], // lemon+-ade(饮料)，原挂在 ad-(朝向) 上
+  river: [{ id: 'river', surface: 'river' }], // 整词（riparia），原 rive(岸)+r
+  liver: [{ id: 'liver', surface: 'liver' }], // 整词（lifer），原 live(活)+r —— 肝脏与「生活」无关
+  hover: [{ id: 'hover', surface: 'hover' }], // 整词（hoven），原 hove(heave 的过去式)+r
+  rather: [{ id: 'rather', surface: 'rather' }], // 整词（hrathor 比较级），原 rathe(较普通时刻时期早)+r
+  slippery: [{ id: 'slippery', surface: 'slippery' }], // 整词（slip+-ery 双写），原挂在 er[ery] 上
+  peer: [{ id: 'peer', surface: 'peer' }], // 整词（per/par），原 pee(英便士)+r
+  taper: [{ id: 'taper', surface: 'taper' }], // 整词（tapur），原 tape(带子)+r
+  later: [{ id: 'late', surface: 'lat' }, { id: 'comper', surface: 'er' }], // late+比较级 -er，原当施事 -er
+  miner: [{ id: 'mine', surface: 'mine' }, { id: 'er', surface: 'r' }], // mine(矿)+施事 -er，原挂在 min(小) 上
   wide: [{ id: 'wide', surface: 'wide' }], // wid 整词，原 wi+de 两张「宽」
   already: [{ id: 'all', surface: 'al' }, { id: 'ready', surface: 'ready' }], // all(全)+ready，原挂在形容词后缀 al 上
   altogether: [{ id: 'all', surface: 'al' }, { id: 'together', surface: 'together' }], // 同上
@@ -245,6 +254,9 @@ if (mergedFamilies.length) console.log(`家族登记表合并 ${mergedFamilies.l
 // 受影响词素的变体表重算：目标词素要收下原先落在源 id 上的表面（A6 要求 part.surface ∈
 // allomorphs），源 id 上不再被用到的变体也要摘掉（否则 A22 报「死变体」—— notation 改挂 note
 // 之后，not 的 `notat` 就是这种）。
+// 见下面 touched 集合里的说明：这些词素的变体表要按「切分里实际用到的表面」重算。
+const ALLOMORPH_TOUCH = ['er', 'late']
+
 const touched = new Set([
   ...Object.keys(MORPHEME_MERGE),
   ...Object.values(MORPHEME_MERGE),
@@ -256,6 +268,10 @@ const touched = new Set([
   // reproach 的 roach[proach]、woollen 的 wool[wooll]、farther 的 far……），这些词素的
   // 变体表同样要重算，否则 21 号 A6 拒收。
   ...Object.values(SPLIT_REPLACE).flatMap((parts) => parts.map((p) => p.id)),
+  // 变体表补录：切分里确实用到、上游变体表却没收的表面。典型是施事名词的静音 e ——
+  // driver = drive + r（词干留下不发音的 e，后缀只剩 r），计算机/橡皮/经理这批常用词
+  // 全卡在 er 的变体表缺 'r' 上，被 21 号 A6 拦了几十个。
+  ...ALLOMORPH_TOUCH,
 ])
 const usedSurfaces = new Map()
 for (const parts of Object.values(allSplits)) {
@@ -362,6 +378,11 @@ const WORLD_ADD = {
   'hearth-forge': ['pan'],
   'measure-terrace': ['wide'],
   'compass-tower': ['where'],
+  // Group A 施事名词（-er 补 'r' 变体后入表）把三个词干顶成了教学词根（家族 ≥3 词），
+  // 得按词义挂进世界：produce(带出来)→货运码头、write(写)→手稿画室、trade(买卖)→市集巷。
+  'cargo-dock': ['produce'],
+  'script-atelier': ['write'],
+  'market-lane': ['trade'],
 }
 for (const [worldId, ids] of Object.entries(WORLD_ADD)) {
   const world = allWorlds.find((w) => w.id === worldId)

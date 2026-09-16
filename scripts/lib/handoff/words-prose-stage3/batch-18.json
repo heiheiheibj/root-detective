@@ -30,8 +30,8 @@
     "metaphorMeaningCn": "近海的、海上的",
     "metaphorOptions": [
       "近海的、海上的",
-      "一种功绩的习俗",
-      "正统的的一角"
+      "性质的过程",
+      "向前的一角"
     ],
     "mnemonicNote": "off(离开)+shore(岸)：从岸边往外出去那一片水面",
     "sourceNote": "英语复合词，off + shore"
@@ -66,7 +66,7 @@
     "metaphorMeaningCn": "开口、开幕",
     "metaphorOptions": [
       "开口、开幕",
-      "一种创伤的习俗",
+      "标准的来路",
       "倾斜的一角"
     ],
     "mnemonicNote": "open(开)+ing：墙上透光进来的那个洞",
@@ -151,7 +151,7 @@
     "metaphorOptions": [
       "组织、团体",
       "避难所的小站",
-      "排外的的地方"
+      "把穿越串起来"
     ],
     "mnemonicNote": "organiz(组建)+ation：一群人分工明确地连成一体",
     "sourceNote": "中世纪拉丁 organizatio，organum(器官、工具)"
@@ -175,7 +175,7 @@
     "metaphorOptions": [
       "户外、野外",
       "围着守卫者转",
-      "一种加强的习俗"
+      "否定的小站"
     ],
     "mnemonicNote": "out(外)+doors(门)：推开门就是天和地那片",
     "sourceNote": "英语复合词，out + doors"
@@ -186,7 +186,7 @@
     "metaphorMeaningCn": "外向的、即将离任的",
     "metaphorOptions": [
       "外向的、即将离任的",
-      "一种家庭杂务的习俗",
+      "一种妻子的习俗",
       "呼叫的过程"
     ],
     "mnemonicNote": "outgo(往外去)+ing：见谁都愿意先开口那种性子",
@@ -222,7 +222,7 @@
     "metaphorMeaningCn": "直言不讳的、坦率的",
     "metaphorOptions": [
       "直言不讳的、坦率的",
-      "更多多的的过程",
+      "阳性的来路",
       "向着机器去"
     ],
     "mnemonicNote": "out(出)+spoken(说出)：心里想什么嘴上就出什么",
@@ -246,7 +246,7 @@
     "metaphorMeaningCn": "俯瞰、忽略",
     "metaphorOptions": [
       "俯瞰、忽略",
-      "一种欧洲的习俗",
+      "工作的地方",
       "带路的人"
     ],
     "mnemonicNote": "over(在上)+look(看)：站在高处一眼扫过去那片",
@@ -259,7 +259,7 @@
     "metaphorOptions": [
       "超重的、过重的",
       "队列的地方",
-      "别的的小站"
+      "数着带来过日子"
     ],
     "mnemonicNote": "over(超过)+weight(重量)：秤上的指针顶到头那侧",
     "sourceNote": "英语复合词，over + weight"
@@ -318,7 +318,7 @@
     "metaphorMeaningCn": "痛苦的、费劲的",
     "metaphorOptions": [
       "痛苦的、费劲的",
-      "一种智力的习俗",
+      "敬畏的一角",
       "天平的人"
     ],
     "mnemonicNote": "pain(疼)+ful：走一步要吸一口凉气那种",
@@ -378,7 +378,7 @@
     "metaphorMeaningCn": "停车、停车场",
     "metaphorOptions": [
       "停车、停车场",
-      "一种工作的习俗",
+      "守着可靠的过活",
       "在之中的一角"
     ],
     "mnemonicNote": "park(停放)+ing：绕了三圈才找着那个位",
@@ -426,7 +426,7 @@
     "metaphorMeaningCn": "图案、模式",
     "metaphorOptions": [
       "图案、模式",
-      "大约的的来路",
+      "数着时间过日子",
       "享受的地方"
     ],
     "mnemonicNote": "pat(模板)+tern：布上反复出现的那组花纹",
@@ -451,7 +451,7 @@
     "metaphorOptions": [
       "百分比、比例",
       "向着视觉去",
-      "一种幸运的的习俗"
+      "向着守卫者去"
     ],
     "mnemonicNote": "percent(每百)+age：总数切一百份，占了几份",
     "sourceNote": "拉丁 per centum(每一百) + -age"
@@ -462,7 +462,7 @@
     "metaphorMeaningCn": "完美的、完成时",
     "metaphorOptions": [
       "完美的、完成时",
-      "一种分解的习俗",
+      "向着定义的小站",
       "印象的人"
     ],
     "mnemonicNote": "per(彻底)+fect(做)：从头到尾一处不缺",
@@ -546,8 +546,8 @@
     "metaphorMeaningCn": "摄影师、摄影者",
     "metaphorOptions": [
       "摄影师、摄影者",
-      "一种侍者的习俗",
-      "模糊的的人"
+      "圆周的旧事",
+      "守着熟练的过活"
     ],
     "mnemonicNote": "photograph(照片)+er(人)：端着机器满场找角度那位",
     "sourceNote": "希腊 phos(光) + graphein(写) + -er"
@@ -559,7 +559,7 @@
     "metaphorOptions": [
       "钢琴家、钢琴演奏者",
       "燃烧的过程",
-      "适当的的背面"
+      "替河流操心"
     ],
     "mnemonicNote": "pian(钢琴)+ist(人)：十指在黑白键上翻飞那位",
     "sourceNote": "意大利 piano(弱音、钢琴) + -ist"
@@ -619,7 +619,7 @@
     "metaphorOptions": [
       "高兴的、满意的",
       "好感的人",
-      "一种环境的习俗"
+      "杠杆的背面"
     ],
     "mnemonicNote": "please(使满意)+d：消息一听，眉头就开了",
     "sourceNote": "古法语 plaisir(使高兴) + -ed"
@@ -631,7 +631,7 @@
     "metaphorOptions": [
       "愉快、乐事",
       "学问的旧事",
-      "平坦的的背面"
+      "小山羊的影子"
     ],
     "mnemonicNote": "plea(取悦)+sure：卸下担子后那口长气",
     "sourceNote": "古法语 plaisir，拉丁 placere(使愉悦)"
@@ -655,7 +655,7 @@
     "metaphorOptions": [
       "有毒的、恶毒的",
       "个性的影子",
-      "一种很少的的习俗"
+      "离土耳其人很远"
     ],
     "mnemonicNote": "poison(毒)+ous：吃一口就要找大夫那种",
     "sourceNote": "古法语 poison，拉丁 potio(药饮)"
@@ -679,7 +679,7 @@
     "metaphorOptions": [
       "波兰人、波兰语",
       "消遣的一角",
-      "一种打谷的习俗"
+      "组成的影子"
     ],
     "mnemonicNote": "pol(波兰)+ish(…的)：东欧那片平原上的国家",
     "sourceNote": "波兰语 Polska，经德语 Polen 传入"
@@ -714,7 +714,7 @@
     "metaphorMeaningCn": "爆米花",
     "metaphorOptions": [
       "爆米花",
-      "愉快的的过程",
+      "代表的旧事",
       "离监护人很远"
     ],
     "mnemonicNote": "pop(爆)+corn(玉米)：锅里噼啪作响那阵子",

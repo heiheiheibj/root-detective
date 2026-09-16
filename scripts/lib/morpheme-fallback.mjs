@@ -917,6 +917,9 @@ export const OVERRIDE_MEANINGS = {
   pan: '平锅；面包；潘神',  // company ← panis(面包)，panic ← Pan(潘神)
   im: '不；进入',           // impossible 支 im-(不)，immigrate 支 in-(进入) 的同化
   lemon: '柠檬',            // 曾缺失；lemonade ← lemon + -ade
+  weave: '编织',              // 原「编法」（ECDICT 词性段拼接），weaver 的字面义对不上
+  village: '村庄',            // 原「村庄乡村的」（词性段拼接）
+  manufacture: '制造；产品',   // 原只挂「产品」，manufacturer 的字面义是「做出产品的一方」
 }
 /**
  * 显示名修正：id 是内部标识，卡片上画的是 displayText。有一批 id 是切分算法按词形凑出来的
@@ -1023,6 +1026,49 @@ export const INJECT_MORPHEMES = [
     // 卡片成了「柠檬 + 朝向」——ade 是能独立成话的支，单独立 root。
     id: 'ade', displayText: 'ade', type: 'root', meaningCn: '饮料',
     allomorphs: ['ade'], etymology: '法语 -ade（由…制成的饮料）；lemonade', level: 3, color: 'orange',
+  },
+  {
+    // 这批词在英文里就是整词（river ← riparia、liver ← lifer、hover ← hoven…），硬切只会
+    // 切出 rive/rathe/hove/cate/pee 这种无意义的碎片（还带出「岸」「较普通时刻时期早」
+    // 「猫」「英便士」这类垃圾义项）。按 delivery/wander 的既定做法：整词立一个 root。
+    id: 'river', displayText: 'river', type: 'root', meaningCn: '河流',
+    allomorphs: ['river'], etymology: '古法语 rivere，拉丁 riparia（河岸）', level: 1, color: 'orange',
+  },
+  {
+    id: 'liver', displayText: 'liver', type: 'root', meaningCn: '肝脏',
+    allomorphs: ['liver'], etymology: '古英语 lifer', level: 1, color: 'orange',
+  },
+  {
+    id: 'hover', displayText: 'hover', type: 'root', meaningCn: '盘旋；悬停',
+    allomorphs: ['hover'], etymology: '中古英语 hoven（徘徊）', level: 3, color: 'orange',
+  },
+  {
+    id: 'rather', displayText: 'rather', type: 'root', meaningCn: '相当；宁愿',
+    allomorphs: ['rather'], etymology: '古英语 hrathor，hræth（快）的比较级', level: 1, color: 'orange',
+  },
+  {
+    id: 'slippery', displayText: 'slippery', type: 'root', meaningCn: '滑的',
+    allomorphs: ['slippery'], etymology: 'slip（滑）+ -ery，p 双写', level: 1, color: 'orange',
+  },
+  {
+    id: 'peer', displayText: 'peer', type: 'root', meaningCn: '同辈；凝视',
+    allomorphs: ['peer'], etymology: '古法语 per，拉丁 par（相等）', level: 3, color: 'orange',
+  },
+  {
+    id: 'taper', displayText: 'taper', type: 'root', meaningCn: '逐渐变细；烛芯',
+    allomorphs: ['taper'], etymology: '古英语 tapur（烛芯）', level: 3, color: 'orange',
+  },
+  {
+    // miner 的词干原本被归一到 min(小，minute/minimum) —— 那是另一个词源。mine 是
+    // 古法语 mine（矿、矿井），与 min(小) 同形不同源，单独立 id。
+    id: 'mine', displayText: 'mine', type: 'root', meaningCn: '矿；挖',
+    allomorphs: ['mine'], etymology: '古法语 mine（矿、矿井），miner', level: 1, color: 'orange',
+  },
+  {
+    // 比较级 -er（later/farther）与施事 -er（driver）同形不同义，挂在 er 一张卡上会互相串味，
+    // 单独立 id。farther 的 -ther 是同一批里的另一个变体（见 INJECT_MORPHEMES 的 ther）。
+    id: 'comper', displayText: 'comper', type: 'suffix', meaningCn: '更……的（比较级）',
+    allomorphs: ['er'], etymology: '比较级后缀 -er；与施事 -er 同形不同义', level: 1, color: 'green',
   },
   {
     id: 'scent', displayText: 'scent', type: 'root', meaningCn: '气味；爬',

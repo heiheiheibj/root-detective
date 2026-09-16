@@ -6,7 +6,7 @@
     "metaphorMeaningCn": "特别、尤其",
     "metaphorOptions": [
       "特别、尤其",
-      "一种支付的习俗",
+      "系统的味道",
       "表面的一角"
     ],
     "mnemonicNote": "particular(特定的)+ly：一堆里头单挑那一个",
@@ -19,7 +19,7 @@
     "metaphorOptions": [
       "激情、酷爱",
       "数着使适应过日子",
-      "一种评价的习俗"
+      "守着大门过活"
     ],
     "mnemonicNote": "pass(受苦)+ion：心里那团火，受着也不肯灭",
     "sourceNote": "拉丁 passio，pati(受苦)"
@@ -43,7 +43,7 @@
     "metaphorOptions": [
       "人行道、路面",
       "手迹的人",
-      "一种产生的习俗"
+      "劳作的背面"
     ],
     "mnemonicNote": "pave(铺砌)+ment：砖一块块铺出来的那条道",
     "sourceNote": "古法语 paviment，拉丁 pavire(夯实)"
@@ -66,7 +66,7 @@
     "metaphorMeaningCn": "半岛",
     "metaphorOptions": [
       "半岛",
-      "一种监狱的习俗",
+      "围着主义转",
       "幽默的人"
     ],
     "mnemonicNote": "pen(几乎)+insula(岛)：三面是水、一面连着陆地",
@@ -115,7 +115,7 @@
     "metaphorOptions": [
       "坚持、持续",
       "树桩的背面",
-      "有血亲关系的的旧事"
+      "一种海岸的习俗"
     ],
     "mnemonicNote": "per(始终)+sist(站)：一直站在那儿不肯走",
     "sourceNote": "拉丁 persistere，per-(始终) + sistere(站)"
@@ -150,7 +150,7 @@
     "metaphorMeaningCn": "哲学家、思想家",
     "metaphorOptions": [
       "哲学家、思想家",
-      "一种道歉的习俗",
+      "围着劳作转",
       "头衔的人"
     ],
     "mnemonicNote": "philo(爱)+soph(智慧)+er(人)：爱琢磨根本道理的人",
@@ -211,7 +211,7 @@
     "metaphorOptions": [
       "部分、一份",
       "每百中的一角",
-      "一种繁荣的习俗"
+      "把比赛串起来"
     ],
     "mnemonicNote": "por(分)+tion：从整块上切下来的一份",
     "sourceNote": "拉丁 portio，pars(份额)"
@@ -222,7 +222,7 @@
     "metaphorMeaningCn": "肖像、描写",
     "metaphorOptions": [
       "肖像、描写",
-      "一种元素的习俗",
+      "空间的小站",
       "被预防的东西"
     ],
     "mnemonicNote": "por(向前)+trait(拉线)：对着人一笔笔描出来的模样",
@@ -235,7 +235,7 @@
     "metaphorOptions": [
       "葡萄牙人、葡萄牙语",
       "新娘的一角",
-      "一种职业的习俗"
+      "离容器很远"
     ],
     "mnemonicNote": "portugu(葡萄牙)+ese：伊比利亚半岛西边那国的人",
     "sourceNote": "中世纪拉丁 portugalensis，源自国名 Portugal"
@@ -319,7 +319,7 @@
     "metaphorOptions": [
       "更好的、更可取的",
       "把粗糙的东西翻开",
-      "慷慨的的影子"
+      "向着疼痛去"
     ],
     "mnemonicNote": "prefer(宁愿)+able：两样摆一起，更值得挑那一个",
     "sourceNote": "拉丁 praeferre(优先取) + -able"
@@ -330,7 +330,7 @@
     "metaphorMeaningCn": "开处方、规定",
     "metaphorOptions": [
       "开处方、规定",
-      "密集的的背面",
+      "守着部分的过活",
       "被起立的东西"
     ],
     "mnemonicNote": "pre(预先)+scribe(写)：事先写下来照着办",
@@ -367,7 +367,7 @@
     "metaphorOptions": [
       "先前、以前",
       "表示沉湎于的人的地方",
-      "不顾一切的的小站"
+      "知道的工具"
     ],
     "mnemonicNote": "previous(早先)+ly：在这之前那阵子",
     "sourceNote": "拉丁 praevius，prae-(在前) + via(路) + -ly"
@@ -390,7 +390,7 @@
     "metaphorMeaningCn": "公主、王妃",
     "metaphorOptions": [
       "公主、王妃",
-      "一种弥撒的习俗",
+      "守着实际的过活",
       "应该的人"
     ],
     "mnemonicNote": "prince(王子)+ess(女性)：王室里那一位女儿",
@@ -426,8 +426,8 @@
     "metaphorMeaningCn": "队伍、行列",
     "metaphorOptions": [
       "队伍、行列",
-      "一种忘记的习俗",
-      "充分的的人"
+      "传记的旧事",
+      "守着传记过活"
     ],
     "mnemonicNote": "process(行进)+ion：一队人一路往前走",
     "sourceNote": "拉丁 processio，procedere(前进)"
@@ -438,7 +438,7 @@
     "metaphorMeaningCn": "宣布、声明",
     "metaphorOptions": [
       "宣布、声明",
-      "绝对的的味道",
+      "守着暴力的过活",
       "承租人的另一面"
     ],
     "mnemonicNote": "pro(向前)+claim(喊)：当着众人喊出来",
@@ -450,7 +450,7 @@
     "metaphorMeaningCn": "多产的、富有成效的",
     "metaphorOptions": [
       "多产的、富有成效的",
-      "一种征服的习俗",
+      "父母的旧事",
       "计算的影子"
     ],
     "mnemonicNote": "product(产物)+ive：出的东西比别人多",
@@ -462,7 +462,7 @@
     "metaphorMeaningCn": "专业的、职业的",
     "metaphorOptions": [
       "专业的、职业的",
-      "能共处的的过程",
+      "儿子的小站",
       "离原因很远"
     ],
     "mnemonicNote": "profession(职业)+al：拿这门手艺吃饭的",
@@ -486,8 +486,8 @@
     "metaphorMeaningCn": "进步的、渐进的",
     "metaphorOptions": [
       "进步的、渐进的",
-      "实际上起作用的的旧事",
-      "简单的的背面"
+      "把叫声串起来",
+      "守着奇特的过活"
     ],
     "mnemonicNote": "progress(前进)+ive：一步一步往前拱的",
     "sourceNote": "拉丁 progredi(前进) + -ive"
@@ -511,7 +511,7 @@
     "metaphorOptions": [
       "财产、房产、属性",
       "向着新兵去",
-      "有确实根据的的过程"
+      "一起的影子"
     ],
     "mnemonicNote": "proper(自己的)+ty：名下那几间房那块地",
     "sourceNote": "拉丁 proprietas，proprius(自己的)"
@@ -559,7 +559,7 @@
     "metaphorOptions": [
       "提议、打算、求婚",
       "守着使感动过活",
-      "一种孤单的的习俗"
+      "离接受很远"
     ],
     "mnemonicNote": "pro(向前)+pose(放)：把想法摆到台面上",
     "sourceNote": "古法语 proposer，pro-(向前) + poser(放)"
@@ -582,7 +582,7 @@
     "metaphorMeaningCn": "繁荣的、富裕的",
     "metaphorOptions": [
       "繁荣的、富裕的",
-      "坚硬的的小站",
+      "变化的另一面",
       "守着钢笔过活"
     ],
     "mnemonicNote": "prosper(兴旺)+ous：日子过得红火",
@@ -594,8 +594,8 @@
     "metaphorMeaningCn": "保护的、防护的",
     "metaphorOptions": [
       "保护的、防护的",
-      "固体坚硬的的旧事",
-      "忙碌的的背面"
+      "离手指很远",
+      "惊骇的过程"
     ],
     "mnemonicNote": "protect(护卫)+ive：挡在前头，把风雨隔开",
     "sourceNote": "拉丁 protegere(遮盖在前) + -ive"
@@ -618,7 +618,7 @@
     "metaphorMeaningCn": "供给、条款",
     "metaphorOptions": [
       "供给、条款",
-      "一种起立的习俗",
+      "向着手迹的小站",
       "仁慈的工具"
     ],
     "mnemonicNote": "pro(预先)+vision(看)：事先备下的那批东西",
@@ -702,7 +702,7 @@
     "metaphorMeaningCn": "放射性、放射现象",
     "metaphorOptions": [
       "放射性、放射现象",
-      "一种位于的习俗",
+      "向着共通去",
       "综合的一角"
     ],
     "mnemonicNote": "radioactiv(放射)+ity：不用外力的从里往外散发",

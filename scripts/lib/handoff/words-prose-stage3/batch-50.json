@@ -1,0 +1,351 @@
+{
+  "_comment": "Group A 施事名词 29 词：base + -er 的静音 e 分析（drive+r=driver）。此前 er 的变体表缺 'r'，21 号 A6 全拦下；补 'r' 后入表。",
+  "computer": {
+    "modernMeaningCn": "电脑",
+    "literalMeaningCn": "做计算的东西",
+    "metaphorMeaningCn": "替人算数的机器",
+    "metaphorOptions": [
+      "替人算数的机器",
+      "守着迁移过活",
+      "守着有系统的过活"
+    ],
+    "mnemonicNote": "compute(计算)+r(做……的人或物)：把计算这件事做出来的机器",
+    "sourceNote": "compute(计算) + -er(做……的人或物)"
+  },
+  "driver": {
+    "modernMeaningCn": "驾驶员；驱动器",
+    "literalMeaningCn": "驾车的人",
+    "metaphorMeaningCn": "握着方向盘的人",
+    "metaphorOptions": [
+      "握着方向盘的人",
+      "把声音串起来",
+      "替感知操心"
+    ],
+    "mnemonicNote": "drive(驾车)+r：开车的人，也指驱动设备的那一段程序",
+    "sourceNote": "drive(驾车) + -er"
+  },
+  "eraser": {
+    "modernMeaningCn": "橡皮擦",
+    "literalMeaningCn": "抹去痕迹的东西",
+    "metaphorMeaningCn": "专门抹掉笔迹的小块",
+    "metaphorOptions": [
+      "专门抹掉笔迹的小块",
+      "守着中心过活",
+      "替四处走动操心"
+    ],
+    "mnemonicNote": "erase(抹去)+r：把铅笔印抹掉的那块东西",
+    "sourceNote": "erase(抹去) + -er"
+  },
+  "manager": {
+    "modernMeaningCn": "经理；管理者",
+    "literalMeaningCn": "管事的人",
+    "metaphorMeaningCn": "把一摊事管起来的人",
+    "metaphorOptions": [
+      "把一摊事管起来的人",
+      "把声音翻开",
+      "替悬挂操心"
+    ],
+    "mnemonicNote": "manage(管理)+r：管着一摊事的人",
+    "sourceNote": "manage(管理) + -er"
+  },
+  "officer": {
+    "modernMeaningCn": "军官；官员",
+    "literalMeaningCn": "办公务的人",
+    "metaphorMeaningCn": "担着公务职分的人",
+    "metaphorOptions": [
+      "担着公务职分的人",
+      "围着中心转",
+      "法国人的背面"
+    ],
+    "mnemonicNote": "office(公务、职责)+r：担着公务的人",
+    "sourceNote": "office(公务、职责) + -er"
+  },
+  "ruler": {
+    "modernMeaningCn": "尺子；统治者",
+    "literalMeaningCn": "定规矩的东西",
+    "metaphorMeaningCn": "画直线、定规矩的那件东西",
+    "metaphorOptions": [
+      "画直线、定规矩的那件东西",
+      "守着相信过活",
+      "口径的味道"
+    ],
+    "mnemonicNote": "rule(规则)+r：拿它画线、给众人定规矩的",
+    "sourceNote": "rule(规则) + -er"
+  },
+  "explorer": {
+    "modernMeaningCn": "探险家；探测器",
+    "literalMeaningCn": "去探险的人",
+    "metaphorMeaningCn": "往没人去过的地方走的人",
+    "metaphorOptions": [
+      "往没人去过的地方走的人",
+      "经理的小站",
+      "围着声音转"
+    ],
+    "mnemonicNote": "explore(探险)+r：往远处探路的人，也指探路的机器",
+    "sourceNote": "explore(探险) + -er"
+  },
+  "organiser": {
+    "modernMeaningCn": "组织者；发起人",
+    "literalMeaningCn": "做组织的人",
+    "metaphorMeaningCn": "把人和事一件件排好的人",
+    "metaphorOptions": [
+      "把人和事一件件排好的人",
+      "替相信操心",
+      "离迁移很远"
+    ],
+    "mnemonicNote": "organise(组织)+r：把事情一件件排起来的人",
+    "sourceNote": "organise(组织) + -er"
+  },
+  "receiver": {
+    "modernMeaningCn": "接收器；接受者",
+    "literalMeaningCn": "收到的那一头",
+    "metaphorMeaningCn": "在另一头接着的人或机器",
+    "metaphorOptions": [
+      "在另一头接着的人或机器",
+      "守着生命过活",
+      "守着佛陀过活"
+    ],
+    "mnemonicNote": "receive(收到)+r：在另一头接住的人或机器",
+    "sourceNote": "receive(收到) + -er"
+  },
+  "settler": {
+    "modernMeaningCn": "移居者；开拓者",
+    "literalMeaningCn": "安顿下来的人",
+    "metaphorMeaningCn": "先在陌生地上安家的人",
+    "metaphorOptions": [
+      "先在陌生地上安家的人",
+      "把声音串起来",
+      "围着相信转"
+    ],
+    "mnemonicNote": "settle(安顿)+r：先在新地方安下家的人",
+    "sourceNote": "settle(安顿) + -er"
+  },
+  "shaver": {
+    "modernMeaningCn": "剃须刀；修面的人",
+    "literalMeaningCn": "修面的东西",
+    "metaphorMeaningCn": "贴着脸把胡茬刮掉的小机器",
+    "metaphorOptions": [
+      "贴着脸把胡茬刮掉的小机器",
+      "守着出生过活",
+      "羊毛的小站"
+    ],
+    "mnemonicNote": "shave(修面)+r：贴着脸刮胡子的那件东西",
+    "sourceNote": "shave(修面) + -er"
+  },
+  "smoker": {
+    "modernMeaningCn": "吸烟者",
+    "literalMeaningCn": "冒烟的人",
+    "metaphorMeaningCn": "嘴里总叼着烟的人",
+    "metaphorOptions": [
+      "嘴里总叼着烟的人",
+      "把迁移串起来",
+      "守着会啄的鸟过活"
+    ],
+    "mnemonicNote": "smoke(烟)+r：整天跟烟打交道的人",
+    "sourceNote": "smoke(烟) + -er"
+  },
+  "teenager": {
+    "modernMeaningCn": "青少年",
+    "literalMeaningCn": "十几岁的人",
+    "metaphorMeaningCn": "十三到十九岁的半大的人",
+    "metaphorOptions": [
+      "十三到十九岁的半大的人",
+      "守着相等过活",
+      "围着发起转"
+    ],
+    "mnemonicNote": "teenage(十几岁)+r：十三到十九岁、半大不小的那群人",
+    "sourceNote": "teenage(13–19 岁) + -er"
+  },
+  "user": {
+    "modernMeaningCn": "使用者；用户",
+    "literalMeaningCn": "使用的人",
+    "metaphorMeaningCn": "把东西拿过来用的人",
+    "metaphorOptions": [
+      "把东西拿过来用的人",
+      "守着实际上起作用的过活",
+      "围着感觉转"
+    ],
+    "mnemonicNote": "use(使用)+r：把东西拿来用的人",
+    "sourceNote": "use(使用) + -er"
+  },
+  "villager": {
+    "modernMeaningCn": "村民",
+    "literalMeaningCn": "住在村里的人",
+    "metaphorMeaningCn": "在村子里过日子的人",
+    "metaphorOptions": [
+      "在村子里过日子的人",
+      "守着第一过活",
+      "忘记的背面"
+    ],
+    "mnemonicNote": "village(村庄)+r：住在村子里的人",
+    "sourceNote": "village(村庄) + -er"
+  },
+  "announcer": {
+    "modernMeaningCn": "播音员；宣告者",
+    "literalMeaningCn": "宣布的人",
+    "metaphorMeaningCn": "站在台前把消息念出来的人",
+    "metaphorOptions": [
+      "站在台前把消息念出来的人",
+      "把植物串起来",
+      "围着平锅转"
+    ],
+    "mnemonicNote": "announce(宣布)+r：把消息念给大家听的人",
+    "sourceNote": "announce(宣布) + -er"
+  },
+  "consumer": {
+    "modernMeaningCn": "消费者；用户",
+    "literalMeaningCn": "消耗的人",
+    "metaphorMeaningCn": "把东西用掉、吃掉的人",
+    "metaphorOptions": [
+      "把东西用掉、吃掉的人",
+      "守着雨过活",
+      "法院的味道"
+    ],
+    "mnemonicNote": "consume(消耗)+r：把东西一点点用掉的人",
+    "sourceNote": "consume(消耗) + -er"
+  },
+  "liner": {
+    "modernMeaningCn": "定期船；班机",
+    "literalMeaningCn": "沿线走的船",
+    "metaphorMeaningCn": "按固定航线来回的船",
+    "metaphorOptions": [
+      "按固定航线来回的船",
+      "膝盖的过程",
+      "围着空气转"
+    ],
+    "mnemonicNote": "line(线、航线)+r：沿着固定航线走的船",
+    "sourceNote": "line(线、航线) + -er"
+  },
+  "lover": {
+    "modernMeaningCn": "爱人；爱好者",
+    "literalMeaningCn": "爱着的人",
+    "metaphorMeaningCn": "心里装着一个人的状态",
+    "metaphorOptions": [
+      "心里装着一个人的状态",
+      "守着地过活",
+      "替使失望操心"
+    ],
+    "mnemonicNote": "love(爱)+r：心里爱着的人，也指爱好某件事的人",
+    "sourceNote": "love(爱) + -er"
+  },
+  "manufacturer": {
+    "modernMeaningCn": "制造商；厂商",
+    "literalMeaningCn": "做出产品的一方",
+    "metaphorMeaningCn": "把原料做成产品的那一家",
+    "metaphorOptions": [
+      "把原料做成产品的那一家",
+      "权利的影子",
+      "向着一步去"
+    ],
+    "mnemonicNote": "manufacture(制造、产品)+r：把东西做出来的那一家",
+    "sourceNote": "manufacture(制造) + -er"
+  },
+  "miner": {
+    "modernMeaningCn": "矿工",
+    "literalMeaningCn": "挖矿的人",
+    "metaphorMeaningCn": "下到坑道里挖东西的人",
+    "metaphorOptions": [
+      "下到坑道里挖东西的人",
+      "守着火过活",
+      "摩擦的小站"
+    ],
+    "mnemonicNote": "mine(挖)+r：下到矿里挖东西的人",
+    "sourceNote": "mine(挖) + -er"
+  },
+  "observer": {
+    "modernMeaningCn": "观察者；观察员",
+    "literalMeaningCn": "在旁看的人",
+    "metaphorMeaningCn": "站在一边把事情看下来的人",
+    "metaphorOptions": [
+      "站在一边把事情看下来的人",
+      "向着越界去",
+      "奇迹的地方"
+    ],
+    "mnemonicNote": "observe(观察、觉察)+r：站在一边看的人",
+    "sourceNote": "observe(观察) + -er"
+  },
+  "rider": {
+    "modernMeaningCn": "骑手；骑马的人",
+    "literalMeaningCn": "骑在马上的人",
+    "metaphorMeaningCn": "骑在马背上赶路的人",
+    "metaphorOptions": [
+      "骑在马背上赶路的人",
+      "守着流过活",
+      "带路的味道"
+    ],
+    "mnemonicNote": "ride(骑)+r：骑在马背上的人",
+    "sourceNote": "ride(骑) + -er"
+  },
+  "writer": {
+    "modernMeaningCn": "作家；作者",
+    "literalMeaningCn": "书写的人",
+    "metaphorMeaningCn": "靠写字过日子的人",
+    "metaphorOptions": [
+      "靠写字过日子的人",
+      "把服务串起来",
+      "研究的小站"
+    ],
+    "mnemonicNote": "write(书写)+r：以写字为业的人",
+    "sourceNote": "write(书写) + -er"
+  },
+  "composer": {
+    "modernMeaningCn": "作曲家；创作者",
+    "literalMeaningCn": "把曲子组起来的人",
+    "metaphorMeaningCn": "把音符一个个排成曲子的人",
+    "metaphorOptions": [
+      "把音符一个个排成曲子的人",
+      "守着弯过活",
+      "一种保存的习俗"
+    ],
+    "mnemonicNote": "compose(组成)+r：把音符组成曲子的人",
+    "sourceNote": "compose(组成) + -er"
+  },
+  "glider": {
+    "modernMeaningCn": "滑翔机；滑翔员",
+    "literalMeaningCn": "滑着走的东西",
+    "metaphorMeaningCn": "不靠动力也能滑很远的东西",
+    "metaphorOptions": [
+      "不靠动力也能滑很远的东西",
+      "缰绳的旧事",
+      "围着房间转"
+    ],
+    "mnemonicNote": "glide(滑动)+r：乘着气流滑行的飞行器",
+    "sourceNote": "glide(滑动) + -er"
+  },
+  "producer": {
+    "modernMeaningCn": "生产者；制片人",
+    "literalMeaningCn": "产出的人",
+    "metaphorMeaningCn": "把东西一批批产出的人",
+    "metaphorOptions": [
+      "把东西一批批产出的人",
+      "守着课过活",
+      "守着机械的过活"
+    ],
+    "mnemonicNote": "produce(产出、引出)+r：把东西产出的人",
+    "sourceNote": "produce(产出) + -er"
+  },
+  "trader": {
+    "modernMeaningCn": "商人；交易者",
+    "literalMeaningCn": "做买卖的人",
+    "metaphorMeaningCn": "低买高卖、来回倒手的人",
+    "metaphorOptions": [
+      "低买高卖、来回倒手的人",
+      "把孩子串起来",
+      "围着东西转"
+    ],
+    "mnemonicNote": "trade(贸易)+r：做买卖的人",
+    "sourceNote": "trade(贸易) + -er"
+  },
+  "weaver": {
+    "modernMeaningCn": "织工；织布者",
+    "literalMeaningCn": "编织的人",
+    "metaphorMeaningCn": "把线一根根织成布的人",
+    "metaphorOptions": [
+      "把线一根根织成布的人",
+      "守着同意过活",
+      "一种把握的习俗"
+    ],
+    "mnemonicNote": "weave(编织)+r：把线织成布的人",
+    "sourceNote": "weave(编织) + -er"
+  }
+}

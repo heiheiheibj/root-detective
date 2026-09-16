@@ -8292,12 +8292,8 @@
   ],
   "rather": [
    {
-    "id": "rathe",
-    "surface": "rathe"
-   },
-   {
-    "id": "er",
-    "surface": "r"
+    "id": "rather",
+    "surface": "rather"
    }
   ],
   "realise": [
@@ -8462,12 +8458,8 @@
   ],
   "river": [
    {
-    "id": "rive",
-    "surface": "rive"
-   },
-   {
-    "id": "er",
-    "surface": "r"
+    "id": "river",
+    "surface": "river"
    }
   ],
   "rubber": [
@@ -14223,11 +14215,11 @@
   "later": [
    {
     "id": "late",
-    "surface": "late"
+    "surface": "lat"
    },
    {
-    "id": "er",
-    "surface": "r"
+    "id": "comper",
+    "surface": "er"
    }
   ],
   "latter": [
@@ -22154,12 +22146,8 @@
   ],
   "liver": [
    {
-    "id": "live",
-    "surface": "live"
-   },
-   {
-    "id": "er",
-    "surface": "r"
+    "id": "liver",
+    "surface": "liver"
    }
   ],
   "livestock": [
@@ -22434,7 +22422,7 @@
   ],
   "miner": [
    {
-    "id": "min",
+    "id": "mine",
     "surface": "mine"
    },
    {
@@ -24732,12 +24720,8 @@
   ],
   "slippery": [
    {
-    "id": "slip",
-    "surface": "slipp"
-   },
-   {
-    "id": "er",
-    "surface": "ery"
+    "id": "slippery",
+    "surface": "slippery"
    }
   ],
   "slowly": [
@@ -29510,12 +29494,8 @@
   ],
   "hover": [
    {
-    "id": "hove",
-    "surface": "hove"
-   },
-   {
-    "id": "er",
-    "surface": "r"
+    "id": "hover",
+    "surface": "hover"
    }
   ],
   "huddle": [
@@ -31526,12 +31506,8 @@
   ],
   "peer": [
    {
-    "id": "pee",
-    "surface": "pee"
-   },
-   {
-    "id": "er",
-    "surface": "r"
+    "id": "peer",
+    "surface": "peer"
    }
   ],
   "penetration": [
@@ -33558,12 +33534,8 @@
   ],
   "taper": [
    {
-    "id": "tape",
-    "surface": "tape"
-   },
-   {
-    "id": "er",
-    "surface": "r"
+    "id": "taper",
+    "surface": "taper"
    }
   ],
   "tenable": [
@@ -35124,7 +35096,8 @@
    "allomorphs": [
     "er",
     "or",
-    "ar"
+    "r",
+    "ear"
    ],
    "level": 1,
    "etymology": "英语施动者后缀",
@@ -45987,7 +45960,8 @@
    "meaningCn": "晚、后（比较级支）",
    "allomorphs": [
     "late",
-    "latt"
+    "latt",
+    "lat"
    ],
    "etymology": "",
    "level": 3,
@@ -49079,7 +49053,7 @@
    "id": "village",
    "displayText": "village",
    "type": "root",
-   "meaningCn": "村庄乡村的",
+   "meaningCn": "村庄",
    "allomorphs": [
     "village"
    ],
@@ -53341,7 +53315,7 @@
    "id": "manufacture",
    "displayText": "manufacture",
    "type": "root",
-   "meaningCn": "产品",
+   "meaningCn": "制造；产品",
    "allomorphs": [
     "manufacture"
    ],
@@ -62391,7 +62365,7 @@
    "id": "weave",
    "displayText": "weave",
    "type": "root",
-   "meaningCn": "编法",
+   "meaningCn": "编织",
    "allomorphs": [
     "weave"
    ],
@@ -63386,6 +63360,114 @@
    "color": "orange"
   },
   {
+   "id": "river",
+   "displayText": "river",
+   "type": "root",
+   "meaningCn": "河流",
+   "allomorphs": [
+    "river"
+   ],
+   "etymology": "古法语 rivere，拉丁 riparia（河岸）",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "liver",
+   "displayText": "liver",
+   "type": "root",
+   "meaningCn": "肝脏",
+   "allomorphs": [
+    "liver"
+   ],
+   "etymology": "古英语 lifer",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "hover",
+   "displayText": "hover",
+   "type": "root",
+   "meaningCn": "盘旋；悬停",
+   "allomorphs": [
+    "hover"
+   ],
+   "etymology": "中古英语 hoven（徘徊）",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "rather",
+   "displayText": "rather",
+   "type": "root",
+   "meaningCn": "相当；宁愿",
+   "allomorphs": [
+    "rather"
+   ],
+   "etymology": "古英语 hrathor，hræth（快）的比较级",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "slippery",
+   "displayText": "slippery",
+   "type": "root",
+   "meaningCn": "滑的",
+   "allomorphs": [
+    "slippery"
+   ],
+   "etymology": "slip（滑）+ -ery，p 双写",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "peer",
+   "displayText": "peer",
+   "type": "root",
+   "meaningCn": "同辈；凝视",
+   "allomorphs": [
+    "peer"
+   ],
+   "etymology": "古法语 per，拉丁 par（相等）",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "taper",
+   "displayText": "taper",
+   "type": "root",
+   "meaningCn": "逐渐变细；烛芯",
+   "allomorphs": [
+    "taper"
+   ],
+   "etymology": "古英语 tapur（烛芯）",
+   "level": 3,
+   "color": "orange"
+  },
+  {
+   "id": "mine",
+   "displayText": "mine",
+   "type": "root",
+   "meaningCn": "矿；挖",
+   "allomorphs": [
+    "mine"
+   ],
+   "etymology": "古法语 mine（矿、矿井），miner",
+   "level": 1,
+   "color": "orange"
+  },
+  {
+   "id": "comper",
+   "displayText": "comper",
+   "type": "suffix",
+   "meaningCn": "更……的（比较级）",
+   "allomorphs": [
+    "er"
+   ],
+   "etymology": "比较级后缀 -er；与施事 -er 同形不同义",
+   "level": 1,
+   "color": "green"
+  },
+  {
    "id": "scent",
    "displayText": "scent",
    "type": "root",
@@ -63500,7 +63582,8 @@
     "ven",
     "pos",
     "form",
-    "pel"
+    "pel",
+    "produce"
    ]
   },
   {
@@ -63538,7 +63621,8 @@
     "mir",
     "hab",
     "liter",
-    "labor"
+    "labor",
+    "write"
    ]
   },
   {
@@ -63691,7 +63775,8 @@
     "fair",
     "sales",
     "suit",
-    "fare"
+    "fare",
+    "trade"
    ]
   },
   {

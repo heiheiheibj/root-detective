@@ -42,7 +42,7 @@
     "metaphorMeaningCn": "放松、休息",
     "metaphorOptions": [
       "放松、休息",
-      "成功的的旧事",
+      "一种变换的习俗",
       "邀请的来路"
     ],
     "mnemonicNote": "re(加强)+lax(松)：手里那根弦终于松了",
@@ -54,7 +54,7 @@
     "metaphorMeaningCn": "接力、转播",
     "metaphorOptions": [
       "接力、转播",
-      "规则的的一角",
+      "压紧的旧事",
       "倾向的味道"
     ],
     "mnemonicNote": "re(再)+lay(放)：一棒交一棒地往下传",
@@ -78,7 +78,7 @@
     "metaphorMeaningCn": "评论、谈论",
     "metaphorOptions": [
       "评论、谈论",
-      "向前的的来路",
+      "替重量操心",
       "苏打的地方"
     ],
     "mnemonicNote": "re(加强)+mark(标记)：在心里划一道、嘴上说一句",
@@ -115,7 +115,7 @@
     "metaphorOptions": [
       "移除、去掉",
       "守着称赞过活",
-      "一种打动的习俗"
+      "怪物的来路"
     ],
     "mnemonicNote": "re(离开)+move(移动)：把它从这儿搬走",
     "sourceNote": "拉丁 removere，re-(离开) + movere(移动)"
@@ -127,7 +127,7 @@
     "metaphorOptions": [
       "修理、修补",
       "错过的一角",
-      "一种不一致的习俗"
+      "离长度很远"
     ],
     "mnemonicNote": "re(再)+pair(配对)：把脱开的两半重新合上",
     "sourceNote": "拉丁 reparare，re-(再) + parare(准备)"
@@ -163,7 +163,7 @@
     "metaphorOptions": [
       "代表、表现",
       "举例说明的人",
-      "一种主修课的习俗"
+      "信息处理机的工具"
     ],
     "mnemonicNote": "re(再)+present(呈现)：替大家把样子摆到台前",
     "sourceNote": "拉丁 repraesentare，re-(再) + praesentare(呈现)"
@@ -211,7 +211,7 @@
     "metaphorOptions": [
       "请求、要求",
       "刻痕的一角",
-      "一种重量的习俗"
+      "挑战的一角"
     ],
     "mnemonicNote": "re(再)+quest(寻求)：一次不成再开口一次",
     "sourceNote": "古法语 requeste，拉丁 requirere(寻求)"
@@ -235,7 +235,7 @@
     "metaphorOptions": [
       "研究、调查",
       "尺寸的味道",
-      "一种赚得的习俗"
+      "马克思的小站"
     ],
     "mnemonicNote": "re(再)+search(搜寻)：翻遍资料再翻一遍",
     "sourceNote": "古法语 recerche，re-(再) + cerchier(搜寻)"
@@ -283,7 +283,7 @@
     "metaphorOptions": [
       "抵抗、抵制",
       "三次的背面",
-      "一种推论出的习俗"
+      "守着最近的过活"
     ],
     "mnemonicNote": "re(反)+sist(站)：硬顶着不让它过来",
     "sourceNote": "拉丁 resistere，re-(反) + sistere(站)"
@@ -294,8 +294,8 @@
     "metaphorMeaningCn": "责任、职责",
     "metaphorOptions": [
       "责任、职责",
-      "一种日本的习俗",
-      "已知的的一角"
+      "向着地理学去",
+      "继承的地方"
     ],
     "mnemonicNote": "responsibil(该应答的)+ity：出了事得有人应声",
     "sourceNote": "拉丁 responsum(回答) + -ability(能力)"
@@ -378,7 +378,7 @@
     "metaphorMeaningCn": "奖赏、报酬",
     "metaphorOptions": [
       "奖赏、报酬",
-      "一种跨越的习俗",
+      "燃烧的地方",
       "把实验的串起来"
     ],
     "mnemonicNote": "re(回)+ward(守)：出了力，回头得到的那份好处",
@@ -415,7 +415,7 @@
     "metaphorOptions": [
       "荒谬的、可笑的",
       "胡萝卜的地方",
-      "熟练的的来路"
+      "更新的小站"
     ],
     "mnemonicNote": "ridicul(嘲笑)+ous：听过的人都忍不住摇头笑",
     "sourceNote": "拉丁 ridiculus，ridere(笑)"
@@ -451,7 +451,7 @@
     "metaphorOptions": [
       "环岛、绕圈子的",
       "未成年人的另一面",
-      "必要的的一角"
+      "蜜饯的一角"
     ],
     "mnemonicNote": "round(圆)+about(周围)：车都得绕着中间那座转",
     "sourceNote": "英语复合词，round + about"
@@ -474,7 +474,7 @@
     "metaphorMeaningCn": "橡胶、橡皮",
     "metaphorOptions": [
       "橡胶、橡皮",
-      "实践的的味道",
+      "替经受操心",
       "被油漆的东西"
     ],
     "mnemonicNote": "rubb(摩擦)+er(物)：写错了拿它磨两下就没了",
@@ -570,7 +570,7 @@
     "metaphorMeaningCn": "谚语、格言",
     "metaphorOptions": [
       "谚语、格言",
-      "一种谢意的习俗",
+      "把宣布串起来",
       "羽毛的人"
     ],
     "mnemonicNote": "say(说)+ing：老人嘴里一代代传下来那句",
@@ -595,7 +595,7 @@
     "metaphorOptions": [
       "奖学金、学识",
       "区别的影子",
-      "雌鹿后部的的人"
+      "正午的另一面"
     ],
     "mnemonicNote": "scholar(读书人)+ship(身份)：成绩好就能领的那笔钱",
     "sourceNote": "拉丁 scholaris(学者的) + -ship"
@@ -630,7 +630,7 @@
     "metaphorMeaningCn": "海员、水兵",
     "metaphorOptions": [
       "海员、水兵",
-      "精确的的地方",
+      "文化的小站",
       "使联合的来路"
     ],
     "mnemonicNote": "sea(海)+man(人)：一年有十个月在船上过",
@@ -642,7 +642,7 @@
     "metaphorMeaningCn": "贝壳、海螺壳",
     "metaphorOptions": [
       "贝壳、海螺壳",
-      "一种独立件的习俗",
+      "论争的旧事",
       "向着家庭杂务去"
     ],
     "mnemonicNote": "sea(海)+shell(壳)：浪退后留在沙滩上那些小东西",
@@ -654,7 +654,7 @@
     "metaphorMeaningCn": "海滨、海边",
     "metaphorOptions": [
       "海滨、海边",
-      "一种神智健全的习俗",
+      "向着成零碎去",
       "图书馆的一角"
     ],
     "mnemonicNote": "sea(海)+side(边)：退潮后能捡贝壳那一段沙滩",

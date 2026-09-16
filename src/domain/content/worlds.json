@@ -77,14 +77,15 @@
   {
     "id": "cargo-dock",
     "name": "货运码头",
-    "description": "学习词根：mit、fer、ven、pos、form、pel（货运码头）",
+    "description": "学习词根：mit、fer、ven、pos、form、pel、produce（货运码头）",
     "morphemeIds": [
       "mit",
       "fer",
       "ven",
       "pos",
       "form",
-      "pel"
+      "pel",
+      "produce"
     ]
   },
   {
@@ -117,7 +118,7 @@
   {
     "id": "script-atelier",
     "name": "手稿画室",
-    "description": "学习词根：scrib、art、nov、mir、hab、liter、labor（手稿画室）",
+    "description": "学习词根：scrib、art、nov、mir、hab、liter、labor、write（手稿画室）",
     "morphemeIds": [
       "scrib",
       "art",
@@ -125,7 +126,8 @@
       "mir",
       "hab",
       "liter",
-      "labor"
+      "labor",
+      "write"
     ]
   },
   {
@@ -284,14 +286,15 @@
   {
     "id": "market-lane",
     "name": "市集巷",
-    "description": "学习词根：shop、place、fair、sales、suit、fare（市集巷）",
+    "description": "学习词根：shop、place、fair、sales、suit、fare、trade（市集巷）",
     "morphemeIds": [
       "shop",
       "place",
       "fair",
       "sales",
       "suit",
-      "fare"
+      "fare",
+      "trade"
     ]
   },
   {

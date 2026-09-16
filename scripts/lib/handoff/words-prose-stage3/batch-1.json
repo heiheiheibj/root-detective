@@ -6,7 +6,7 @@
     "metaphorMeaningCn": "缺席的、心不在焉的",
     "metaphorOptions": [
       "缺席的、心不在焉的",
-      "一种无限的习俗",
+      "向着揭示的小站",
       "忘记的人"
     ],
     "mnemonicNote": "ab(离开)+sent(存在)：人从存在里离开了，就是不在场",
@@ -43,7 +43,7 @@
     "metaphorOptions": [
       "行动、行为",
       "把小东西翻开",
-      "一种防卫的习俗"
+      "找出的过程"
     ],
     "mnemonicNote": "act(做)+ion(名词后缀)：做事这个动作本身",
     "sourceNote": "拉丁 actio，源自 agere(做、驱动)"
@@ -54,7 +54,7 @@
     "metaphorMeaningCn": "活跃的、积极的",
     "metaphorOptions": [
       "活跃的、积极的",
-      "一种智慧的习俗",
+      "从不的背面",
       "退下的人"
     ],
     "mnemonicNote": "act(做)+ive(形容词后缀)：爱动、爱做事的",
@@ -78,8 +78,8 @@
     "metaphorMeaningCn": "调整、适应",
     "metaphorOptions": [
       "调整、适应",
-      "一种好意的习俗",
-      "正确的的人"
+      "把比较级后缀串起来",
+      "烛芯的工具"
     ],
     "mnemonicNote": "ad(朝向)+just(公正)：把偏差调回正位",
     "sourceNote": "古法语 adjuster，ad-(朝向) + justus(公正)"
@@ -162,7 +162,7 @@
     "metaphorMeaningCn": "航空公司、航线",
     "metaphorOptions": [
       "航空公司、航线",
-      "一种理想的习俗",
+      "向着重的去",
       "使摇动的一角"
     ],
     "mnemonicNote": "air(空气)+line(线)：天上划出的那条线",
@@ -187,7 +187,7 @@
     "metaphorOptions": [
       "机场",
       "意外事件的味道",
-      "难得的的另一面"
+      "监护人的小站"
     ],
     "mnemonicNote": "air(空气)+port(港口)：飞机停靠的港口",
     "sourceNote": "20 世纪航空术语，仿 seaport(海港) 造出"
@@ -234,7 +234,7 @@
     "metaphorMeaningCn": "任何事物",
     "metaphorOptions": [
       "任何事物",
-      "一种一致的习俗",
+      "敌人的另一面",
       "承受的一角"
     ],
     "mnemonicNote": "any(任何)+thing(东西)：不计较是哪一个",
@@ -246,7 +246,7 @@
     "metaphorMeaningCn": "人工制品、遗物",
     "metaphorOptions": [
       "人工制品、遗物",
-      "心智的的过程",
+      "压缩的背面",
       "向着通俗的去"
     ],
     "mnemonicNote": "arti(技艺)+fact(做)：人手做出来的东西",
@@ -258,7 +258,7 @@
     "metaphorMeaningCn": "人造的、虚假的",
     "metaphorOptions": [
       "人造的、虚假的",
-      "一种严峻的习俗",
+      "左边的另一面",
       "离基金很远"
     ],
     "mnemonicNote": "art(技艺)+fic(做)+ial：靠手艺做出来的",
@@ -318,7 +318,7 @@
     "metaphorMeaningCn": "听众、观众",
     "metaphorOptions": [
       "听众、观众",
-      "被忠诚的的东西",
+      "探险的来路",
       "欲望的背面"
     ],
     "mnemonicNote": "audi(听)+ence(名词后缀)：坐在那儿听的一群人",
@@ -331,7 +331,7 @@
     "metaphorOptions": [
       "声音的、音频的",
       "守着愚人过活",
-      "一种哪一个的习俗"
+      "向着最后的去"
     ],
     "mnemonicNote": "aud(听)+io：一切交给耳朵的信号",
     "sourceNote": "拉丁 audire(听)，audio 是「我听见」"
@@ -342,7 +342,7 @@
     "metaphorMeaningCn": "汽车",
     "metaphorOptions": [
       "汽车",
-      "过分的的另一面",
+      "不可切的影子",
       "队列的一角"
     ],
     "mnemonicNote": "auto(自己)+mob(动)+ile：不靠马、自己会跑",
@@ -355,7 +355,7 @@
     "metaphorOptions": [
       "背景、经历",
       "母亲的背面",
-      "紧的的旧事"
+      "愉快的味道"
     ],
     "mnemonicNote": "back(后面)+ground(地面)：画面后方那片底子",
     "sourceNote": "英语复合词，19 世纪绘画术语转义"
@@ -378,7 +378,7 @@
     "metaphorMeaningCn": "棒球",
     "metaphorOptions": [
       "棒球",
-      "一种顺序的习俗",
+      "一步的来路",
       "例外的来路"
     ],
     "mnemonicNote": "base(垒)+ball(球)：围着四个垒跑的球戏",
@@ -415,7 +415,7 @@
     "metaphorOptions": [
       "卧室",
       "守着底部过活",
-      "一种持家的习俗"
+      "记忆的来路"
     ],
     "mnemonicNote": "bed(床)+room(房间)：摆得下床的那间",
     "sourceNote": "古英语复合词，bedd + rum"
@@ -438,8 +438,8 @@
     "metaphorMeaningCn": "自行车",
     "metaphorOptions": [
       "自行车",
-      "无价值的的背面",
-      "被爱清洁的的东西"
+      "把传记串起来",
+      "使联合的工具"
     ],
     "mnemonicNote": "bi(二)+cycle(轮)：只有两只轮子靠脚踩",
     "sourceNote": "法语 bicycle，bi-(二) + 希腊 kyklos(轮)"
@@ -463,7 +463,7 @@
     "metaphorOptions": [
       "生物学",
       "守着宣称过活",
-      "一种回顾的习俗"
+      "向着看守的小站"
     ],
     "mnemonicNote": "bio(生命)+logy(学问)：专门解释生命的学科",
     "sourceNote": "希腊 bios(生命) + logia(学问)"
@@ -559,7 +559,7 @@
     "metaphorOptions": [
       "俘虏、被困的",
       "替悲观者操心",
-      "有义务的的味道"
+      "守着通俗的过活"
     ],
     "mnemonicNote": "capt(拿)+ive：被人抓住、失去自由",
     "sourceNote": "拉丁 captivus，capere(抓) 的过去分词"
@@ -570,7 +570,7 @@
     "metaphorMeaningCn": "捕获、夺取",
     "metaphorOptions": [
       "捕获、夺取",
-      "一种松树的习俗",
+      "向着简单的去",
       "向着队列去"
     ],
     "mnemonicNote": "capt(拿)+ure(名词)：把人或物抓在手里的那一瞬",
@@ -582,7 +582,7 @@
     "metaphorMeaningCn": "小心的、仔细的",
     "metaphorOptions": [
       "小心的、仔细的",
-      "一种市场的习俗",
+      "替变形操心",
       "土耳其人的一角"
     ],
     "mnemonicNote": "care(关心)+ful(满)：心里装满了在意",
@@ -619,7 +619,7 @@
     "metaphorOptions": [
       "百年纪念",
       "被瀑布的东西",
-      "数值的的味道"
+      "守着弥撒过活"
     ],
     "mnemonicNote": "cent(百)+enn(年)+ial：满一百年才轮到这一回",
     "sourceNote": "拉丁 centum(百) + annus(年)"
@@ -630,7 +630,7 @@
     "metaphorMeaningCn": "厘米",
     "metaphorOptions": [
       "厘米",
-      "一种前臂的习俗",
+      "精力的另一面",
       "愤恨的过程"
     ],
     "mnemonicNote": "centi(百)+metre(米)：一米切一百份，每份就是它",
@@ -655,7 +655,7 @@
     "metaphorOptions": [
       "主席、主任",
       "参议院的小站",
-      "占优势的的地方"
+      "围着厄尔转"
     ],
     "mnemonicNote": "chair(椅子)+man(人)：会场里坐首席那把椅子的人",
     "sourceNote": "英语复合词"

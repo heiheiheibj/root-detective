@@ -762,7 +762,8 @@
     "meaningCn": "做……的人或物（名词）",
     "allomorphs": [
       "er",
-      "or"
+      "or",
+      "r"
     ],
     "level": 1,
     "etymology": "英语施动者后缀",
@@ -2711,6 +2712,18 @@
     "color": "orange"
   },
   {
+    "id": "compute",
+    "displayText": "compute",
+    "type": "root",
+    "meaningCn": "计算",
+    "allomorphs": [
+      "compute"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "cert",
     "displayText": "cert",
     "type": "root",
@@ -2977,6 +2990,18 @@
     "color": "orange"
   },
   {
+    "id": "drive",
+    "displayText": "drive",
+    "type": "root",
+    "meaningCn": "驾车",
+    "allomorphs": [
+      "drive"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "dump",
     "displayText": "dump",
     "type": "root",
@@ -3080,6 +3105,18 @@
     "meaningCn": "包围",
     "allomorphs": [
       "environ"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "erase",
+    "displayText": "erase",
+    "type": "root",
+    "meaningCn": "抹去",
+    "allomorphs": [
+      "erase"
     ],
     "etymology": "",
     "level": 3,
@@ -4377,6 +4414,7 @@
     "type": "root",
     "meaningCn": "公务、职责",
     "allomorphs": [
+      "office",
       "offic"
     ],
     "etymology": "",
@@ -4779,6 +4817,18 @@
     "meaningCn": "摩擦",
     "allomorphs": [
       "rubb"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "rule",
+    "displayText": "rule",
+    "type": "root",
+    "meaningCn": "规则",
+    "allomorphs": [
+      "rule"
     ],
     "etymology": "",
     "level": 3,
@@ -9790,7 +9840,8 @@
     "type": "root",
     "meaningCn": "探险",
     "allomorphs": [
-      "explor"
+      "explor",
+      "explore"
     ],
     "etymology": "",
     "level": 3,
@@ -10795,7 +10846,8 @@
     "meaningCn": "晚、后（比较级支）",
     "allomorphs": [
       "late",
-      "latt"
+      "latt",
+      "lat"
     ],
     "etymology": "",
     "level": 3,
@@ -11364,6 +11416,18 @@
     ],
     "etymology": "",
     "level": 1,
+    "color": "orange"
+  },
+  {
+    "id": "organise",
+    "displayText": "organise",
+    "type": "root",
+    "meaningCn": "组织",
+    "allomorphs": [
+      "organise"
+    ],
+    "etymology": "",
+    "level": 3,
     "color": "orange"
   },
   {
@@ -12041,6 +12105,18 @@
     "color": "orange"
   },
   {
+    "id": "receive",
+    "displayText": "receive",
+    "type": "root",
+    "meaningCn": "收到",
+    "allomorphs": [
+      "receive"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "reception",
     "displayText": "reception",
     "type": "root",
@@ -12607,6 +12683,18 @@
     "color": "orange"
   },
   {
+    "id": "shave",
+    "displayText": "shave",
+    "type": "root",
+    "meaningCn": "修面",
+    "allomorphs": [
+      "shave"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "shoot",
     "displayText": "shoot",
     "type": "root",
@@ -12782,6 +12870,7 @@
     "type": "root",
     "meaningCn": "烟",
     "allomorphs": [
+      "smoke",
       "smok"
     ],
     "etymology": "",
@@ -13221,6 +13310,18 @@
     "color": "orange"
   },
   {
+    "id": "teenage",
+    "displayText": "teenage",
+    "type": "root",
+    "meaningCn": "青少年的",
+    "allomorphs": [
+      "teenage"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "text",
     "displayText": "text",
     "type": "root",
@@ -13624,6 +13725,18 @@
     "meaningCn": "改变",
     "allomorphs": [
       "vari"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "village",
+    "displayText": "village",
+    "type": "root",
+    "meaningCn": "村庄",
+    "allomorphs": [
+      "village"
     ],
     "etymology": "",
     "level": 3,
@@ -15363,6 +15476,7 @@
     "type": "root",
     "meaningCn": "消耗",
     "allomorphs": [
+      "consume",
       "consump"
     ],
     "etymology": "",
@@ -17064,6 +17178,18 @@
     "color": "orange"
   },
   {
+    "id": "manufacture",
+    "displayText": "manufacture",
+    "type": "root",
+    "meaningCn": "制造；产品",
+    "allomorphs": [
+      "manufacture"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "marvel",
     "displayText": "marvel",
     "type": "root",
@@ -17420,7 +17546,8 @@
     "type": "root",
     "meaningCn": "觉察到",
     "allomorphs": [
-      "observ"
+      "observ",
+      "observe"
     ],
     "etymology": "",
     "level": 3,
@@ -18455,6 +18582,18 @@
     "meaningCn": "革命",
     "allomorphs": [
       "revolution"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "ride",
+    "displayText": "ride",
+    "type": "root",
+    "meaningCn": "骑马",
+    "allomorphs": [
+      "ride"
     ],
     "etymology": "",
     "level": 3,
@@ -22083,6 +22222,18 @@
     "color": "orange"
   },
   {
+    "id": "glide",
+    "displayText": "glide",
+    "type": "root",
+    "meaningCn": "滑动",
+    "allomorphs": [
+      "glide"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "sib",
     "displayText": "sib",
     "type": "root",
@@ -25374,6 +25525,18 @@
     "color": "orange"
   },
   {
+    "id": "weave",
+    "displayText": "weave",
+    "type": "root",
+    "meaningCn": "编织",
+    "allomorphs": [
+      "weave"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "whisk",
     "displayText": "whisk",
     "type": "root",
@@ -25852,6 +26015,114 @@
     "etymology": "法语 -ade（由…制成的饮料）；lemonade",
     "level": 3,
     "color": "orange"
+  },
+  {
+    "id": "river",
+    "displayText": "river",
+    "type": "root",
+    "meaningCn": "河流",
+    "allomorphs": [
+      "river"
+    ],
+    "etymology": "古法语 rivere，拉丁 riparia（河岸）",
+    "level": 1,
+    "color": "orange"
+  },
+  {
+    "id": "liver",
+    "displayText": "liver",
+    "type": "root",
+    "meaningCn": "肝脏",
+    "allomorphs": [
+      "liver"
+    ],
+    "etymology": "古英语 lifer",
+    "level": 1,
+    "color": "orange"
+  },
+  {
+    "id": "hover",
+    "displayText": "hover",
+    "type": "root",
+    "meaningCn": "盘旋；悬停",
+    "allomorphs": [
+      "hover"
+    ],
+    "etymology": "中古英语 hoven（徘徊）",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "rather",
+    "displayText": "rather",
+    "type": "root",
+    "meaningCn": "相当；宁愿",
+    "allomorphs": [
+      "rather"
+    ],
+    "etymology": "古英语 hrathor，hræth（快）的比较级",
+    "level": 1,
+    "color": "orange"
+  },
+  {
+    "id": "slippery",
+    "displayText": "slippery",
+    "type": "root",
+    "meaningCn": "滑的",
+    "allomorphs": [
+      "slippery"
+    ],
+    "etymology": "slip（滑）+ -ery，p 双写",
+    "level": 1,
+    "color": "orange"
+  },
+  {
+    "id": "peer",
+    "displayText": "peer",
+    "type": "root",
+    "meaningCn": "同辈；凝视",
+    "allomorphs": [
+      "peer"
+    ],
+    "etymology": "古法语 per，拉丁 par（相等）",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "taper",
+    "displayText": "taper",
+    "type": "root",
+    "meaningCn": "逐渐变细；烛芯",
+    "allomorphs": [
+      "taper"
+    ],
+    "etymology": "古英语 tapur（烛芯）",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "mine",
+    "displayText": "mine",
+    "type": "root",
+    "meaningCn": "矿；挖",
+    "allomorphs": [
+      "mine"
+    ],
+    "etymology": "古法语 mine（矿、矿井），miner",
+    "level": 1,
+    "color": "orange"
+  },
+  {
+    "id": "comper",
+    "displayText": "comper",
+    "type": "suffix",
+    "meaningCn": "更……的（比较级）",
+    "allomorphs": [
+      "er"
+    ],
+    "etymology": "比较级后缀 -er；与施事 -er 同形不同义",
+    "level": 1,
+    "color": "green"
   },
   {
     "id": "scent",
