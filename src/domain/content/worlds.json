@@ -12,11 +12,12 @@
   {
     "id": "message-port",
     "name": "传送门",
-    "description": "学习词根：dict、port、nect（传送门）",
+    "description": "学习词根：dict、port、nect、nounce（传送门）",
     "morphemeIds": [
       "dict",
       "port",
-      "nect"
+      "nect",
+      "nounce"
     ]
   },
   {
@@ -210,14 +211,16 @@
   {
     "id": "hold-vault",
     "name": "持握库",
-    "description": "学习词根：tain、ten、take、prise、ceive、quest（持握库）",
+    "description": "学习词根：tain、ten、take、prise、ceive、quest、cip、sumere（持握库）",
     "morphemeIds": [
       "tain",
       "ten",
       "take",
       "prise",
       "ceive",
-      "quest"
+      "quest",
+      "cip",
+      "sumere"
     ]
   },
   {
@@ -304,7 +307,7 @@
   {
     "id": "market-lane",
     "name": "市集巷",
-    "description": "学习词根：shop、place、fair、sales、suit、fare、trade（市集巷）",
+    "description": "学习词根：shop、place、fair、sales、suit、fare、trade、compete（市集巷）",
     "morphemeIds": [
       "shop",
       "place",
@@ -312,7 +315,8 @@
       "sales",
       "suit",
       "fare",
-      "trade"
+      "trade",
+      "compete"
     ]
   },
   {
@@ -377,7 +381,7 @@
   {
     "id": "council-chamber",
     "name": "议事厅",
-    "description": "学习词根：present、public、social、custom、court、law、part、proper、regard、tribu（议事厅）",
+    "description": "学习词根：present、public、social、custom、court、law、part、proper、regard、tribu、sid、claim（议事厅）",
     "morphemeIds": [
       "present",
       "public",
@@ -388,7 +392,9 @@
       "part",
       "proper",
       "regard",
-      "tribu"
+      "tribu",
+      "sid",
+      "claim"
     ]
   },
   {

@@ -1,0 +1,29 @@
+{
+  "_comment": "批次 06g：第五批扫描挑出的 25 个词源站得住的常用词。sumere/stant/nounce/sta/compete/vers/sid/ignore/flict/venge/grad/cip/sign/claim/fault/ject/infer/certain/tain/solid/fect/note/line/text 全部已建模，本批不需要新增词素或变体。",
+  "splits": {
+    "presume": [{ "id": "pre", "surface": "pre" }, { "id": "sumere", "surface": "sume" }],
+    "instant": [{ "id": "in", "surface": "in" }, { "id": "stant", "surface": "stant" }],
+    "pronounce": [{ "id": "pro", "surface": "pro" }, { "id": "nounce", "surface": "nounce" }],
+    "static": [{ "id": "sta", "surface": "sta" }, { "id": "tic", "surface": "tic" }],
+    "competent": [{ "id": "compete", "surface": "compet" }, { "id": "ent", "surface": "ent" }],
+    "adverse": [{ "id": "ad", "surface": "ad" }, { "id": "vers", "surface": "verse" }],
+    "presidency": [{ "id": "pre", "surface": "pre" }, { "id": "sid", "surface": "sid" }, { "id": "ency", "surface": "ency" }],
+    "ignorance": [{ "id": "ignore", "surface": "ignor" }, { "id": "ance", "surface": "ance" }],
+    "inflict": [{ "id": "in", "surface": "in" }, { "id": "flict", "surface": "flict" }],
+    "revenge": [{ "id": "re", "surface": "re" }, { "id": "venge", "surface": "venge" }],
+    "gradual": [{ "id": "grad", "surface": "grad" }, { "id": "ual", "surface": "ual" }],
+    "recipient": [{ "id": "re", "surface": "re" }, { "id": "cip", "surface": "cip" }, { "id": "ent", "surface": "ient" }],
+    "designate": [{ "id": "de", "surface": "de" }, { "id": "sign", "surface": "sign" }, { "id": "ate", "surface": "ate" }],
+    "exclaim": [{ "id": "ex", "surface": "ex" }, { "id": "claim", "surface": "claim" }],
+    "default": [{ "id": "de", "surface": "de" }, { "id": "fault", "surface": "fault" }],
+    "adjective": [{ "id": "ad", "surface": "ad" }, { "id": "ject", "surface": "ject" }, { "id": "ive", "surface": "ive" }],
+    "ascertain": [{ "id": "ad", "surface": "as" }, { "id": "certain", "surface": "certain" }],
+    "signify": [{ "id": "sign", "surface": "sign" }, { "id": "ify", "surface": "ify" }],
+    "detain": [{ "id": "de", "surface": "de" }, { "id": "tain", "surface": "tain" }],
+    "consolidate": [{ "id": "con", "surface": "con" }, { "id": "solid", "surface": "solid" }, { "id": "ate", "surface": "ate" }],
+    "infect": [{ "id": "in", "surface": "in" }, { "id": "fect", "surface": "fect" }],
+    "denote": [{ "id": "de", "surface": "de" }, { "id": "note", "surface": "note" }],
+    "linear": [{ "id": "line", "surface": "line" }, { "id": "ar", "surface": "ar" }],
+    "texture": [{ "id": "text", "surface": "text" }, { "id": "ure", "surface": "ure" }]
+  }
+}

@@ -675,5 +675,101 @@
   "packet": {
     "exampleEn": "He opened a packet of seeds.",
     "exampleCn": "他打开了一包种子。"
+  },
+  "presume": {
+    "exampleEn": "I presume you are right.",
+    "exampleCn": "我假定你是对的。"
+  },
+  "instant": {
+    "exampleEn": "He replied in an instant.",
+    "exampleCn": "他立刻回复了。"
+  },
+  "pronounce": {
+    "exampleEn": "How do you pronounce this word?",
+    "exampleCn": "这个词怎么发音？"
+  },
+  "static": {
+    "exampleEn": "The price has stayed static.",
+    "exampleCn": "价格一直没变。"
+  },
+  "competent": {
+    "exampleEn": "She is a competent teacher.",
+    "exampleCn": "她是一位称职的老师。"
+  },
+  "adverse": {
+    "exampleEn": "The drug has adverse effects.",
+    "exampleCn": "这种药有不良反应。"
+  },
+  "presidency": {
+    "exampleEn": "He won the presidency.",
+    "exampleCn": "他赢得了总统职位。"
+  },
+  "ignorance": {
+    "exampleEn": "His ignorance was surprising.",
+    "exampleCn": "他的无知令人吃惊。"
+  },
+  "inflict": {
+    "exampleEn": "They inflict pain on others.",
+    "exampleCn": "他们把痛苦强加于人。"
+  },
+  "revenge": {
+    "exampleEn": "He wanted revenge for the insult.",
+    "exampleCn": "他想为那次侮辱报复。"
+  },
+  "gradual": {
+    "exampleEn": "There was a gradual change.",
+    "exampleCn": "发生了逐渐的变化。"
+  },
+  "recipient": {
+    "exampleEn": "The recipient signed for it.",
+    "exampleCn": "收件人签了字。"
+  },
+  "designate": {
+    "exampleEn": "They will designate a leader.",
+    "exampleCn": "他们将指定一位负责人。"
+  },
+  "exclaim": {
+    "exampleEn": "Do not exclaim so loudly.",
+    "exampleCn": "不要这么大声喊叫。"
+  },
+  "default": {
+    "exampleEn": "The default is ten minutes.",
+    "exampleCn": "默认值是十分钟。"
+  },
+  "adjective": {
+    "exampleEn": "This word is an adjective.",
+    "exampleCn": "这个词是形容词。"
+  },
+  "ascertain": {
+    "exampleEn": "We must ascertain the facts.",
+    "exampleCn": "我们必须查明事实。"
+  },
+  "signify": {
+    "exampleEn": "What does this signify?",
+    "exampleCn": "这意味着什么？"
+  },
+  "detain": {
+    "exampleEn": "They detain him for an hour.",
+    "exampleCn": "他们扣留了他一小时。"
+  },
+  "consolidate": {
+    "exampleEn": "They consolidate the data.",
+    "exampleCn": "他们合并这些数据。"
+  },
+  "infect": {
+    "exampleEn": "The virus can infect anyone.",
+    "exampleCn": "这种病毒能传染任何人。"
+  },
+  "denote": {
+    "exampleEn": "It can denote anger or fear.",
+    "exampleCn": "它可以表示愤怒或恐惧。"
+  },
+  "linear": {
+    "exampleEn": "The growth is not linear.",
+    "exampleCn": "增长不是线性的。"
+  },
+  "texture": {
+    "exampleEn": "I like the texture of this cloth.",
+    "exampleCn": "我喜欢这块布的质地。"
   }
 }

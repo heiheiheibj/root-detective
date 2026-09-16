@@ -1928,7 +1928,8 @@
     "familyWordIds": [
       "graduate",
       "degrade",
-      "upgrade"
+      "upgrade",
+      "gradual"
     ],
     "sourceNote": "拉丁 gradus(步、台阶)，gradi(走)",
     "mnemonicNote": "grad(步)"
@@ -19151,7 +19152,8 @@
       }
     ],
     "familyWordIds": [
-      "arrange"
+      "arrange",
+      "linear"
     ],
     "sourceNote": "拉丁 adripare，ad-(朝向) + ripa(河岸)",
     "mnemonicNote": "ar(朝向)+rive(岸)：风把船吹到岸边上"
@@ -21567,7 +21569,8 @@
       "definition",
       "repetition",
       "disposition",
-      "competence"
+      "competence",
+      "competent"
     ],
     "sourceNote": "拉丁 competitio，competere(同争)",
     "mnemonicNote": "compet(同争)+ition：一场比下来分出名次的较量"
@@ -24639,7 +24642,8 @@
     ],
     "familyWordIds": [
       "dramatic",
-      "genetic"
+      "genetic",
+      "static"
     ],
     "sourceNote": "希腊 phantastikos，phantazein(使显现)",
     "mnemonicNote": "fantas(幻想)+tic：好得让人怀疑是不是在做梦"
@@ -40690,7 +40694,8 @@
       "casual",
       "spiritual",
       "intellectual",
-      "visual"
+      "visual",
+      "gradual"
     ],
     "sourceNote": "拉丁 annualis，annus(年)",
     "mnemonicNote": "ann(年)+ual：过一圈回到同一个日子"
@@ -41824,7 +41829,8 @@
       }
     ],
     "familyWordIds": [
-      "arrive"
+      "arrive",
+      "linear"
     ],
     "sourceNote": "古法语 arengier，a-(朝向) + rang(行列)",
     "mnemonicNote": "ar(朝向)+range(排列)：让每样东西站进自己的位子"
@@ -46078,7 +46084,8 @@
       "annual",
       "spiritual",
       "intellectual",
-      "visual"
+      "visual",
+      "gradual"
     ],
     "sourceNote": "拉丁 casualis，casus(落下、偶然)",
     "mnemonicNote": "cas(落下)+ual：像落叶那样碰巧掉到你面前的"
@@ -75617,7 +75624,8 @@
       "annual",
       "casual",
       "intellectual",
-      "visual"
+      "visual",
+      "gradual"
     ],
     "sourceNote": "拉丁 spiritualis，spiritus(呼吸、灵魂)",
     "mnemonicNote": "spirit(心灵)+ual：看不见摸不着、却撑着人的那部分"
@@ -77665,6 +77673,7 @@
       "tender",
       "attendance",
       "contend",
+      "presidency",
       "extend",
       "intend"
     ],
@@ -91369,7 +91378,8 @@
     ],
     "familyWordIds": [
       "fantastic",
-      "genetic"
+      "genetic",
+      "static"
     ],
     "sourceNote": "希腊 dramatikos，drama(戏)",
     "mnemonicNote": "drama(戏剧)+tic：转折来得又急又猛，像台上的情节"
@@ -98973,7 +98983,8 @@
       "annual",
       "casual",
       "spiritual",
-      "visual"
+      "visual",
+      "gradual"
     ],
     "sourceNote": "拉丁 intellectualis，intellectus(理解)",
     "mnemonicNote": "intellect(心智)+ual：一辈子跟书本打交道的人"
@@ -116704,7 +116715,8 @@
       "suspect",
       "maintain",
       "obtain",
-      "retain"
+      "retain",
+      "detain"
     ],
     "sourceNote": "拉丁 sustinere，sub-(在下) + tenere(持)",
     "mnemonicNote": "sus(在下)+tain(持)：从底下一直托着不放"
@@ -168642,6 +168654,1443 @@
     ],
     "sourceNote": "pack(包) + -et(指小)",
     "mnemonicNote": "pack(包裹)+et：一个小包"
+  },
+  {
+    "id": "presume",
+    "word": "presume",
+    "phonetic": "/pri'zu:m/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "假定、推测",
+    "literalMeaningCn": "先拿定",
+    "metaphorMeaningCn": "没等证实就先当真",
+    "metaphorOptions": [
+      "没等证实就先当真",
+      "数二十个硬币",
+      "写满记录的本子"
+    ],
+    "exampleEn": "I presume you are right.",
+    "exampleCn": "我假定你是对的。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "pre",
+        "surface": "pre",
+        "position": 0
+      },
+      {
+        "morphemeId": "sumere",
+        "surface": "sume",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "degrade",
+        "type": "form"
+      },
+      {
+        "text": "derive",
+        "type": "meaning"
+      },
+      {
+        "text": "deviate",
+        "type": "random"
+      },
+      {
+        "text": "contented",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "predict",
+      "prediction",
+      "predictable",
+      "predictive",
+      "prefer",
+      "prejudice",
+      "preserve",
+      "prescription"
+    ],
+    "sourceNote": "拉丁 praesumere，prae-(预先) + sumere(拿取)",
+    "mnemonicNote": "pre(预先)+sume(拿取)：事先拿定一个说法"
+  },
+  {
+    "id": "instant",
+    "word": "instant",
+    "phonetic": "/'instәnt/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "瞬间、立即的",
+    "literalMeaningCn": "就站在跟前",
+    "metaphorMeaningCn": "一眨眼就到了",
+    "metaphorOptions": [
+      "一眨眼就到了",
+      "南方的车站",
+      "量二十个箱子"
+    ],
+    "exampleEn": "He replied in an instant.",
+    "exampleCn": "他立刻回复了。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "in",
+        "surface": "in",
+        "position": 0
+      },
+      {
+        "morphemeId": "stant",
+        "surface": "stant",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "dominate",
+        "type": "form"
+      },
+      {
+        "text": "prevent",
+        "type": "meaning"
+      },
+      {
+        "text": "prohibit",
+        "type": "random"
+      },
+      {
+        "text": "propel",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "inspection",
+      "import",
+      "incredible",
+      "innate",
+      "inverse",
+      "impulse",
+      "inflexible",
+      "information"
+    ],
+    "sourceNote": "拉丁 instans，in-(在上) + stare(站)",
+    "mnemonicNote": "in(在上)+stant(站立)：事就在眼前，即刻发生"
+  },
+  {
+    "id": "pronounce",
+    "word": "pronounce",
+    "phonetic": "/prә'nauns/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "发音、宣告",
+    "literalMeaningCn": "当众说出",
+    "metaphorMeaningCn": "把音或话讲出来",
+    "metaphorOptions": [
+      "把音或话讲出来",
+      "读黑板上的文字",
+      "数二十张票"
+    ],
+    "exampleEn": "How do you pronounce this word?",
+    "exampleCn": "这个词怎么发音？",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "pro",
+        "surface": "pro",
+        "position": 0
+      },
+      {
+        "morphemeId": "nounce",
+        "surface": "nounce",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "improve",
+        "type": "form"
+      },
+      {
+        "text": "dispensable",
+        "type": "meaning"
+      },
+      {
+        "text": "efficient",
+        "type": "random"
+      },
+      {
+        "text": "finite",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "project",
+      "province",
+      "propel",
+      "prohibit",
+      "protest",
+      "progress",
+      "announce",
+      "process"
+    ],
+    "sourceNote": "拉丁 pronuntiare，pro-(向前) + nuntiare(宣告)",
+    "mnemonicNote": "pro(向前)+nounce(讲述)：把话说出口"
+  },
+  {
+    "id": "static",
+    "word": "static",
+    "phonetic": "/'stætik/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "静态的、静止的",
+    "literalMeaningCn": "站住不动",
+    "metaphorMeaningCn": "一动不动地待着",
+    "metaphorOptions": [
+      "一动不动地待着",
+      "关掉的机器",
+      "开往城市的车"
+    ],
+    "exampleEn": "The price has stayed static.",
+    "exampleCn": "价格一直没变。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "sta",
+        "surface": "sta",
+        "position": 0
+      },
+      {
+        "morphemeId": "tic",
+        "surface": "tic",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "acy",
+        "type": "form"
+      },
+      {
+        "text": "ine",
+        "type": "meaning"
+      },
+      {
+        "text": "ian",
+        "type": "random"
+      },
+      {
+        "text": "itude",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "fantastic",
+      "station",
+      "dramatic",
+      "genetic"
+    ],
+    "sourceNote": "希腊 statikos，stasis(站立)",
+    "mnemonicNote": "sta(站立)+tic：站定不动的"
+  },
+  {
+    "id": "competent",
+    "word": "competent",
+    "phonetic": "/'kɒmpitәnt/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "能胜任的、有能力的",
+    "literalMeaningCn": "配得上的",
+    "metaphorMeaningCn": "本事够做这件事",
+    "metaphorOptions": [
+      "本事够做这件事",
+      "建好的房子",
+      "数二十个硬币"
+    ],
+    "exampleEn": "She is a competent teacher.",
+    "exampleCn": "她是一位称职的老师。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "compete",
+        "surface": "compet",
+        "position": 0
+      },
+      {
+        "morphemeId": "ent",
+        "surface": "ent",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "crowd",
+        "type": "form"
+      },
+      {
+        "text": "dark",
+        "type": "meaning"
+      },
+      {
+        "text": "decorate",
+        "type": "random"
+      },
+      {
+        "text": "depart",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "credential",
+      "component",
+      "opponent",
+      "exponent",
+      "fluent",
+      "intermittent",
+      "convenient",
+      "competition"
+    ],
+    "sourceNote": "拉丁 competens，competere(相称)",
+    "mnemonicNote": "compet(相称)+ent：与要求相称，做得了"
+  },
+  {
+    "id": "adverse",
+    "word": "adverse",
+    "phonetic": "/'ædvә:s/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "不利的、相反的",
+    "literalMeaningCn": "转过来对着",
+    "metaphorMeaningCn": "朝着你来的坏方向",
+    "metaphorOptions": [
+      "朝着你来的坏方向",
+      "绕过南方的河",
+      "开往城市的车"
+    ],
+    "exampleEn": "The drug has adverse effects.",
+    "exampleCn": "这种药有不良反应。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "ad",
+        "surface": "ad",
+        "position": 0
+      },
+      {
+        "morphemeId": "vers",
+        "surface": "verse",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "remove",
+        "type": "form"
+      },
+      {
+        "text": "rep",
+        "type": "meaning"
+      },
+      {
+        "text": "resign",
+        "type": "random"
+      },
+      {
+        "text": "source",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "universe",
+      "version",
+      "inverse",
+      "accord",
+      "adequate",
+      "inadequate",
+      "alleviate",
+      "admire"
+    ],
+    "sourceNote": "拉丁 adversus，ad-(朝向) + vertere(转)",
+    "mnemonicNote": "ad(朝向)+verse(转)：转到你这边，与你相逆"
+  },
+  {
+    "id": "presidency",
+    "word": "presidency",
+    "phonetic": "/'prezidәnsi/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "总统任期、职位",
+    "literalMeaningCn": "坐在前头的位子",
+    "metaphorMeaningCn": "最高那个职位本身",
+    "metaphorOptions": [
+      "最高那个职位本身",
+      "站在南方的哨兵",
+      "记在记录里的名字"
+    ],
+    "exampleEn": "He won the presidency.",
+    "exampleCn": "他赢得了总统职位。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "pre",
+        "surface": "pre",
+        "position": 0
+      },
+      {
+        "morphemeId": "sid",
+        "surface": "sid",
+        "position": 1
+      },
+      {
+        "morphemeId": "ency",
+        "surface": "ency",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "option",
+        "type": "form"
+      },
+      {
+        "text": "put",
+        "type": "meaning"
+      },
+      {
+        "text": "pain",
+        "type": "random"
+      },
+      {
+        "text": "percent",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "predict",
+      "prediction",
+      "predictable",
+      "predictive",
+      "prefer",
+      "prejudice",
+      "preserve",
+      "prescription"
+    ],
+    "sourceNote": "拉丁 praesidentia，prae-(在前) + sedere(坐)",
+    "mnemonicNote": "pre(在前)+sid(坐)+ency：坐最前的那个职位"
+  },
+  {
+    "id": "ignorance",
+    "word": "ignorance",
+    "phonetic": "/'ignәrәns/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "无知、不知情",
+    "literalMeaningCn": "不知这件事",
+    "metaphorMeaningCn": "该知道却不知道",
+    "metaphorOptions": [
+      "该知道却不知道",
+      "读黑板上的文字",
+      "写满记录的本子"
+    ],
+    "exampleEn": "His ignorance was surprising.",
+    "exampleCn": "他的无知令人吃惊。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "ignore",
+        "surface": "ignor",
+        "position": 0
+      },
+      {
+        "morphemeId": "ance",
+        "surface": "ance",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "marine",
+        "type": "form"
+      },
+      {
+        "text": "summary",
+        "type": "meaning"
+      },
+      {
+        "text": "sympathy",
+        "type": "random"
+      },
+      {
+        "text": "thought",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "acquaintance",
+      "allowance",
+      "appearance",
+      "assistance",
+      "guidance",
+      "importance",
+      "insurance",
+      "performance"
+    ],
+    "sourceNote": "拉丁 ignorantia，ignorare(不知道)",
+    "mnemonicNote": "ignor(不知道)+ance：不晓得的那个状态"
+  },
+  {
+    "id": "inflict",
+    "word": "inflict",
+    "phonetic": "/in'flikt/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "施加、使承受",
+    "literalMeaningCn": "打上去",
+    "metaphorMeaningCn": "把痛苦强加给人",
+    "metaphorOptions": [
+      "把痛苦强加给人",
+      "掉在地上的牙齿",
+      "锁在监狱的人"
+    ],
+    "exampleEn": "They inflict pain on others.",
+    "exampleCn": "他们把痛苦强加于人。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "in",
+        "surface": "in",
+        "position": 0
+      },
+      {
+        "morphemeId": "flict",
+        "surface": "flict",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "absorb",
+        "type": "form"
+      },
+      {
+        "text": "jacent",
+        "type": "meaning"
+      },
+      {
+        "text": "advantage",
+        "type": "random"
+      },
+      {
+        "text": "align",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "inspection",
+      "import",
+      "incredible",
+      "innate",
+      "inverse",
+      "impulse",
+      "inflexible",
+      "information"
+    ],
+    "sourceNote": "拉丁 infligere，in- + fligere(打击)",
+    "mnemonicNote": "in(在上)+flict(打击)：把打击落到人身上"
+  },
+  {
+    "id": "revenge",
+    "word": "revenge",
+    "phonetic": "/ri'vendʒ/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "报复、复仇",
+    "literalMeaningCn": "讨回来",
+    "metaphorMeaningCn": "以牙还牙讨回来",
+    "metaphorOptions": [
+      "以牙还牙讨回来",
+      "掉在地上的牙齿",
+      "写满记录的本子"
+    ],
+    "exampleEn": "He wanted revenge for the insult.",
+    "exampleCn": "他想为那次侮辱报复。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "re",
+        "surface": "re",
+        "position": 0
+      },
+      {
+        "morphemeId": "venge",
+        "surface": "venge",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "equi",
+        "type": "form"
+      },
+      {
+        "text": "multi",
+        "type": "meaning"
+      },
+      {
+        "text": "sh",
+        "type": "random"
+      },
+      {
+        "text": "cracy",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "respect",
+      "report",
+      "revise",
+      "reject",
+      "retract",
+      "record",
+      "repel",
+      "reflect"
+    ],
+    "sourceNote": "古法语 revenger，re- + vengier(报仇)",
+    "mnemonicNote": "re(回)+venge(报仇)：把仇讨回去"
+  },
+  {
+    "id": "gradual",
+    "word": "gradual",
+    "phonetic": "/'grædʒuәl/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "逐渐的、渐进的",
+    "literalMeaningCn": "一级一级地",
+    "metaphorMeaningCn": "一步一步慢慢来",
+    "metaphorOptions": [
+      "一步一步慢慢来",
+      "量二十个箱子",
+      "绕过南方的河"
+    ],
+    "exampleEn": "There was a gradual change.",
+    "exampleCn": "发生了逐渐的变化。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "grad",
+        "surface": "grad",
+        "position": 0
+      },
+      {
+        "morphemeId": "ual",
+        "surface": "ual",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "gradual",
+        "type": "form"
+      },
+      {
+        "text": "grow",
+        "type": "meaning"
+      },
+      {
+        "text": "cut",
+        "type": "random"
+      },
+      {
+        "text": "harm",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "grade",
+      "graduate",
+      "degrade",
+      "habitual",
+      "annual",
+      "casual",
+      "spiritual",
+      "intellectual"
+    ],
+    "sourceNote": "拉丁 gradualis，gradus(步、级)",
+    "mnemonicNote": "grad(步、级)+ual：一级级往前挪的"
+  },
+  {
+    "id": "recipient",
+    "word": "recipient",
+    "phonetic": "/ri'sipiәnt/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "接受者、收件人",
+    "literalMeaningCn": "往回拿的人",
+    "metaphorMeaningCn": "收下东西的那一方",
+    "metaphorOptions": [
+      "收下东西的那一方",
+      "邮政的包裹",
+      "分给同伴的一块"
+    ],
+    "exampleEn": "The recipient signed for it.",
+    "exampleCn": "收件人签了字。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "re",
+        "surface": "re",
+        "position": 0
+      },
+      {
+        "morphemeId": "cip",
+        "surface": "cip",
+        "position": 1
+      },
+      {
+        "morphemeId": "ent",
+        "surface": "ient",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "night",
+        "type": "form"
+      },
+      {
+        "text": "tour",
+        "type": "meaning"
+      },
+      {
+        "text": "treat",
+        "type": "random"
+      },
+      {
+        "text": "ug",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "respect",
+      "report",
+      "revise",
+      "credential",
+      "reject",
+      "retract",
+      "record",
+      "component"
+    ],
+    "sourceNote": "拉丁 recipiens，recipere(收回)",
+    "mnemonicNote": "re(回)+cip(拿取)+ient：把东西拿回来的人"
+  },
+  {
+    "id": "designate",
+    "word": "designate",
+    "phonetic": "/'dezigneit/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "指定、指派",
+    "literalMeaningCn": "标出记号",
+    "metaphorMeaningCn": "点名定下由谁来做",
+    "metaphorOptions": [
+      "点名定下由谁来做",
+      "写满标记的木板",
+      "选城市里的人"
+    ],
+    "exampleEn": "They will designate a leader.",
+    "exampleCn": "他们将指定一位负责人。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "de",
+        "surface": "de",
+        "position": 0
+      },
+      {
+        "morphemeId": "sign",
+        "surface": "sign",
+        "position": 1
+      },
+      {
+        "morphemeId": "ate",
+        "surface": "ate",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "frequent",
+        "type": "form"
+      },
+      {
+        "text": "gas",
+        "type": "meaning"
+      },
+      {
+        "text": "glory",
+        "type": "random"
+      },
+      {
+        "text": "gun",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "deport",
+      "generate",
+      "graduate",
+      "degrade",
+      "depend",
+      "deposit",
+      "primate",
+      "evacuate"
+    ],
+    "sourceNote": "拉丁 designare，de- + signum(记号)",
+    "mnemonicNote": "de(向下)+sign(记号)+ate：打上记号定下来"
+  },
+  {
+    "id": "exclaim",
+    "word": "exclaim",
+    "phonetic": "/iks'kleim/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "呼喊、惊叫",
+    "literalMeaningCn": "喊出来",
+    "metaphorMeaningCn": "忍不住大声叫出来",
+    "metaphorOptions": [
+      "忍不住大声叫出来",
+      "读黑板上的文字",
+      "数二十张票"
+    ],
+    "exampleEn": "Do not exclaim so loudly.",
+    "exampleCn": "不要这么大声喊叫。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "ex",
+        "surface": "ex",
+        "position": 0
+      },
+      {
+        "morphemeId": "claim",
+        "surface": "claim",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "chair",
+        "type": "form"
+      },
+      {
+        "text": "class",
+        "type": "meaning"
+      },
+      {
+        "text": "compute",
+        "type": "random"
+      },
+      {
+        "text": "coun",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "exact",
+      "exchange",
+      "election",
+      "exceed",
+      "exclude",
+      "execute",
+      "exert",
+      "proclaim"
+    ],
+    "sourceNote": "拉丁 exclamare，ex-(向外) + clamare(喊)",
+    "mnemonicNote": "ex(向外)+claim(喊)：把声音喊出去"
+  },
+  {
+    "id": "default",
+    "word": "default",
+    "phonetic": "/di'fɒ:lt/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "违约、默认值",
+    "literalMeaningCn": "出了差错",
+    "metaphorMeaningCn": "没照约定做到的状态",
+    "metaphorOptions": [
+      "没照约定做到的状态",
+      "写满记录的本子",
+      "关掉的机器"
+    ],
+    "exampleEn": "The default is ten minutes.",
+    "exampleCn": "默认值是十分钟。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "de",
+        "surface": "de",
+        "position": 0
+      },
+      {
+        "morphemeId": "fault",
+        "surface": "fault",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "by",
+        "type": "form"
+      },
+      {
+        "text": "to",
+        "type": "meaning"
+      },
+      {
+        "text": "co",
+        "type": "random"
+      },
+      {
+        "text": "sept",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "deport",
+      "degrade",
+      "depend",
+      "deposit",
+      "deflect",
+      "deflection",
+      "dehydrate",
+      "dehydration"
+    ],
+    "sourceNote": "古法语 defaute，de- + faillir(欠缺)",
+    "mnemonicNote": "de(向下)+fault(过错)：出了错，没照办"
+  },
+  {
+    "id": "adjective",
+    "word": "adjective",
+    "phonetic": "/'ædʒiktiv/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "形容词的、形容词",
+    "literalMeaningCn": "投到旁边的",
+    "metaphorMeaningCn": "贴在名词上的修饰词",
+    "metaphorOptions": [
+      "贴在名词上的修饰词",
+      "读黑板上的文字",
+      "画着图案的卡片"
+    ],
+    "exampleEn": "This word is an adjective.",
+    "exampleCn": "这个词是形容词。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "ad",
+        "surface": "ad",
+        "position": 0
+      },
+      {
+        "morphemeId": "ject",
+        "surface": "ject",
+        "position": 1
+      },
+      {
+        "morphemeId": "ive",
+        "surface": "ive",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "eur",
+        "type": "form"
+      },
+      {
+        "text": "infra",
+        "type": "meaning"
+      },
+      {
+        "text": "syn",
+        "type": "random"
+      },
+      {
+        "text": "cy",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "predictive",
+      "project",
+      "reject",
+      "eject",
+      "accord",
+      "primitive",
+      "adequate",
+      "inadequate"
+    ],
+    "sourceNote": "拉丁 adjectivum，adicere(投加)",
+    "mnemonicNote": "ad(朝向)+ject(投)+ive：投到名词旁边的词"
+  },
+  {
+    "id": "ascertain",
+    "word": "ascertain",
+    "phonetic": "/.æsә'tein/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "查明、确定",
+    "literalMeaningCn": "弄到确定",
+    "metaphorMeaningCn": "查清楚才定下来",
+    "metaphorOptions": [
+      "查清楚才定下来",
+      "写满记录的本子",
+      "量二十个箱子"
+    ],
+    "exampleEn": "We must ascertain the facts.",
+    "exampleCn": "我们必须查明事实。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "ad",
+        "surface": "as",
+        "position": 0
+      },
+      {
+        "morphemeId": "certain",
+        "surface": "certain",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "accelerate",
+        "type": "form"
+      },
+      {
+        "text": "accord",
+        "type": "meaning"
+      },
+      {
+        "text": "addition",
+        "type": "random"
+      },
+      {
+        "text": "advise",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "accord",
+      "adequate",
+      "inadequate",
+      "alleviate",
+      "admire",
+      "admiration",
+      "associate",
+      "admit"
+    ],
+    "sourceNote": "古法语 acertener，a- + certain(确定)",
+    "mnemonicNote": "as(朝向)+certain(确定)：朝确定的方向查清"
+  },
+  {
+    "id": "signify",
+    "word": "signify",
+    "phonetic": "/'signifai/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "表示、意味着",
+    "literalMeaningCn": "做个记号",
+    "metaphorMeaningCn": "用符号传达意思",
+    "metaphorOptions": [
+      "用符号传达意思",
+      "画着图案的卡片",
+      "写满标记的木板"
+    ],
+    "exampleEn": "What does this signify?",
+    "exampleCn": "这意味着什么？",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "sign",
+        "surface": "sign",
+        "position": 0
+      },
+      {
+        "morphemeId": "ify",
+        "surface": "ify",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "approve",
+        "type": "form"
+      },
+      {
+        "text": "biography",
+        "type": "meaning"
+      },
+      {
+        "text": "basic",
+        "type": "random"
+      },
+      {
+        "text": "bitter",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "fortify",
+      "gratify",
+      "testify",
+      "justify",
+      "clarify",
+      "classify",
+      "design",
+      "resign"
+    ],
+    "sourceNote": "拉丁 significare，signum(记号) + facere(做)",
+    "mnemonicNote": "sign(记号)+ify：用记号把意思给出"
+  },
+  {
+    "id": "detain",
+    "word": "detain",
+    "phonetic": "/di'tein/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "扣留、耽搁",
+    "literalMeaningCn": "扣住不放",
+    "metaphorMeaningCn": "把人留住不许走",
+    "metaphorOptions": [
+      "把人留住不许走",
+      "锁在监狱的人",
+      "开往城市的车"
+    ],
+    "exampleEn": "They detain him for an hour.",
+    "exampleCn": "他们扣留了他一小时。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "de",
+        "surface": "de",
+        "position": 0
+      },
+      {
+        "morphemeId": "tain",
+        "surface": "tain",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "chemist",
+        "type": "form"
+      },
+      {
+        "text": "communicate",
+        "type": "meaning"
+      },
+      {
+        "text": "converse",
+        "type": "random"
+      },
+      {
+        "text": "danger",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "deport",
+      "degrade",
+      "depend",
+      "deposit",
+      "deflect",
+      "deflection",
+      "dehydrate",
+      "dehydration"
+    ],
+    "sourceNote": "拉丁 detinere，de- + tenere(持有)",
+    "mnemonicNote": "de(向下)+tain(持有)：把人握在手里不放"
+  },
+  {
+    "id": "consolidate",
+    "word": "consolidate",
+    "phonetic": "/kәn'sɒlideit/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "巩固、合并",
+    "literalMeaningCn": "使变结实",
+    "metaphorMeaningCn": "把散的并成一块",
+    "metaphorOptions": [
+      "把散的并成一块",
+      "建好的房子",
+      "围成一圈的椅子"
+    ],
+    "exampleEn": "They consolidate the data.",
+    "exampleCn": "他们合并这些数据。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "con",
+        "surface": "con",
+        "position": 0
+      },
+      {
+        "morphemeId": "solid",
+        "surface": "solid",
+        "position": 1
+      },
+      {
+        "morphemeId": "ate",
+        "surface": "ate",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "mitt",
+        "type": "form"
+      },
+      {
+        "text": "particular",
+        "type": "meaning"
+      },
+      {
+        "text": "pessimist",
+        "type": "random"
+      },
+      {
+        "text": "posit",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "generate",
+      "graduate",
+      "contract",
+      "convince",
+      "conviction",
+      "convict",
+      "compose",
+      "component"
+    ],
+    "sourceNote": "拉丁 consolidare，con- + solidus(坚固)",
+    "mnemonicNote": "con(共同)+solid(坚硬)+ate：并到一块，变结实"
+  },
+  {
+    "id": "infect",
+    "word": "infect",
+    "phonetic": "/in'fekt/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "传染、感染",
+    "literalMeaningCn": "做进去",
+    "metaphorMeaningCn": "病菌进了身子",
+    "metaphorOptions": [
+      "病菌进了身子",
+      "掉在地上的牙齿",
+      "厨房做出的面包"
+    ],
+    "exampleEn": "The virus can infect anyone.",
+    "exampleCn": "这种病毒能传染任何人。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "in",
+        "surface": "in",
+        "position": 0
+      },
+      {
+        "morphemeId": "fect",
+        "surface": "fect",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "probable",
+        "type": "form"
+      },
+      {
+        "text": "real",
+        "type": "meaning"
+      },
+      {
+        "text": "lax",
+        "type": "random"
+      },
+      {
+        "text": "turn",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "inspection",
+      "import",
+      "incredible",
+      "innate",
+      "inverse",
+      "impulse",
+      "inflexible",
+      "information"
+    ],
+    "sourceNote": "拉丁 inficere，in- + facere(做)",
+    "mnemonicNote": "in(进入)+fect(做)：病气做进体内"
+  },
+  {
+    "id": "denote",
+    "word": "denote",
+    "phonetic": "/di'nәut/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "表示、指示",
+    "literalMeaningCn": "标出来",
+    "metaphorMeaningCn": "用记号指出意思",
+    "metaphorOptions": [
+      "用记号指出意思",
+      "写满标记的木板",
+      "读黑板上的文字"
+    ],
+    "exampleEn": "It can denote anger or fear.",
+    "exampleCn": "它可以表示愤怒或恐惧。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "de",
+        "surface": "de",
+        "position": 0
+      },
+      {
+        "morphemeId": "note",
+        "surface": "note",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "pr",
+        "type": "form"
+      },
+      {
+        "text": "super",
+        "type": "meaning"
+      },
+      {
+        "text": "tran",
+        "type": "random"
+      },
+      {
+        "text": "up",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "deport",
+      "degrade",
+      "depend",
+      "deposit",
+      "deflect",
+      "deflection",
+      "dehydrate",
+      "dehydration"
+    ],
+    "sourceNote": "拉丁 denotare，de- + notare(标记)",
+    "mnemonicNote": "de(向下)+note(标记)：打上记号指明"
+  },
+  {
+    "id": "linear",
+    "word": "linear",
+    "phonetic": "/'liniә/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "线的、线性的",
+    "literalMeaningCn": "成一条线",
+    "metaphorMeaningCn": "沿着一条直线走",
+    "metaphorOptions": [
+      "沿着一条直线走",
+      "量二十个箱子",
+      "接上城市的线"
+    ],
+    "exampleEn": "The growth is not linear.",
+    "exampleCn": "增长不是线性的。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "line",
+        "surface": "line",
+        "position": 0
+      },
+      {
+        "morphemeId": "ar",
+        "surface": "ar",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "suit",
+        "type": "form"
+      },
+      {
+        "text": "pect",
+        "type": "meaning"
+      },
+      {
+        "text": "tea",
+        "type": "random"
+      },
+      {
+        "text": "there",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "airline",
+      "arrive",
+      "arrange",
+      "deadline",
+      "headline",
+      "outline",
+      "underline",
+      "discipline"
+    ],
+    "sourceNote": "拉丁 linearis，linea(线)",
+    "mnemonicNote": "line(线)+ar：跟直线有关的"
+  },
+  {
+    "id": "texture",
+    "word": "texture",
+    "phonetic": "/'tekstʃә/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "质地、纹理",
+    "literalMeaningCn": "织出来的样子",
+    "metaphorMeaningCn": "摸上去的粗细手感",
+    "metaphorOptions": [
+      "摸上去的粗细手感",
+      "厨房做出的面包",
+      "擦亮旧椅子"
+    ],
+    "exampleEn": "I like the texture of this cloth.",
+    "exampleCn": "我喜欢这块布的质地。",
+    "difficulty": 3,
+    "parts": [
+      {
+        "morphemeId": "text",
+        "surface": "text",
+        "position": 0
+      },
+      {
+        "morphemeId": "ure",
+        "surface": "ure",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "ex",
+        "type": "form"
+      },
+      {
+        "text": "mid",
+        "type": "meaning"
+      },
+      {
+        "text": "semi",
+        "type": "random"
+      },
+      {
+        "text": "video",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "nature",
+      "literature",
+      "capture",
+      "architecture",
+      "creature",
+      "departure",
+      "failure",
+      "textbook"
+    ],
+    "sourceNote": "拉丁 textura，texere(编织)",
+    "mnemonicNote": "text(编织)+ure：织法决定的手感"
   },
   {
     "id": "object",
