@@ -35244,6 +35244,292 @@
     "surface": "thesis"
    }
   ],
+  "inherit": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "herit",
+    "surface": "herit"
+   }
+  ],
+  "envisage": [
+   {
+    "id": "en",
+    "surface": "en"
+   },
+   {
+    "id": "vid",
+    "surface": "vis"
+   },
+   {
+    "id": "age",
+    "surface": "age"
+   }
+  ],
+  "vertical": [
+   {
+    "id": "vers",
+    "surface": "vert"
+   },
+   {
+    "id": "ic",
+    "surface": "ic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "motivation": [
+   {
+    "id": "motive",
+    "surface": "motiv"
+   },
+   {
+    "id": "ation",
+    "surface": "ation"
+   }
+  ],
+  "assemble": [
+   {
+    "id": "ad",
+    "surface": "as"
+   },
+   {
+    "id": "semble",
+    "surface": "semble"
+   }
+  ],
+  "descend": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "scend",
+    "surface": "scend"
+   }
+  ],
+  "advocate": [
+   {
+    "id": "ad",
+    "surface": "ad"
+   },
+   {
+    "id": "voc",
+    "surface": "voc"
+   },
+   {
+    "id": "ate",
+    "surface": "ate"
+   }
+  ],
+  "definite": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "finite",
+    "surface": "finite"
+   }
+  ],
+  "precious": [
+   {
+    "id": "preci",
+    "surface": "preci"
+   },
+   {
+    "id": "ous",
+    "surface": "ous"
+   }
+  ],
+  "vanish": [
+   {
+    "id": "vain",
+    "surface": "van"
+   },
+   {
+    "id": "ish",
+    "surface": "ish"
+   }
+  ],
+  "predecessor": [
+   {
+    "id": "pre",
+    "surface": "pre"
+   },
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "cess",
+    "surface": "cess"
+   },
+   {
+    "id": "or",
+    "surface": "or"
+   }
+  ],
+  "competence": [
+   {
+    "id": "compete",
+    "surface": "compet"
+   },
+   {
+    "id": "ence",
+    "surface": "ence"
+   }
+  ],
+  "vague": [
+   {
+    "id": "vag",
+    "surface": "vag"
+   },
+   {
+    "id": "ue",
+    "surface": "ue"
+   }
+  ],
+  "defect": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "fect",
+    "surface": "fect"
+   }
+  ],
+  "depart": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "part",
+    "surface": "part"
+   }
+  ],
+  "manufacture": [
+   {
+    "id": "manu",
+    "surface": "manu"
+   },
+   {
+    "id": "fact",
+    "surface": "fact"
+   },
+   {
+    "id": "ure",
+    "surface": "ure"
+   }
+  ],
+  "excess": [
+   {
+    "id": "ex",
+    "surface": "ex"
+   },
+   {
+    "id": "cess",
+    "surface": "cess"
+   }
+  ],
+  "beneficial": [
+   {
+    "id": "ben",
+    "surface": "bene"
+   },
+   {
+    "id": "fic",
+    "surface": "fic"
+   },
+   {
+    "id": "ial",
+    "surface": "ial"
+   }
+  ],
+  "comparative": [
+   {
+    "id": "compare",
+    "surface": "compar"
+   },
+   {
+    "id": "ative",
+    "surface": "ative"
+   }
+  ],
+  "dictate": [
+   {
+    "id": "dict",
+    "surface": "dict"
+   },
+   {
+    "id": "ate",
+    "surface": "ate"
+   }
+  ],
+  "dedicate": [
+   {
+    "id": "de",
+    "surface": "de"
+   },
+   {
+    "id": "dict",
+    "surface": "dic"
+   },
+   {
+    "id": "ate",
+    "surface": "ate"
+   }
+  ],
+  "mathematical": [
+   {
+    "id": "mathematic",
+    "surface": "mathematic"
+   },
+   {
+    "id": "al",
+    "surface": "al"
+   }
+  ],
+  "inherent": [
+   {
+    "id": "in",
+    "surface": "in"
+   },
+   {
+    "id": "her",
+    "surface": "here"
+   },
+   {
+    "id": "ent",
+    "surface": "nt"
+   }
+  ],
+  "gravel": [
+   {
+    "id": "grav",
+    "surface": "grav"
+   },
+   {
+    "id": "el",
+    "surface": "el"
+   }
+  ],
+  "packet": [
+   {
+    "id": "pack",
+    "surface": "pack"
+   },
+   {
+    "id": "et",
+    "surface": "et"
+   }
+  ],
   "object": [
    {
     "id": "ob",
@@ -62995,7 +63281,8 @@
    "type": "root",
    "meaningCn": "爬",
    "allomorphs": [
-    "cend"
+    "cend",
+    "scend"
    ],
    "etymology": "",
    "level": 3,
@@ -64646,7 +64933,9 @@
     "aud",
     "voc",
     "cred",
-    "fic"
+    "fic",
+    "fect",
+    "fact"
    ]
   },
   {
@@ -64817,7 +65106,8 @@
     "sta",
     "cess",
     "stance",
-    "stant"
+    "stant",
+    "motive"
    ]
   },
   {
@@ -64941,7 +65231,8 @@
     "press",
     "collect",
     "lay",
-    "fall"
+    "fall",
+    "grav"
    ]
   },
   {

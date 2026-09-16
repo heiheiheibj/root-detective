@@ -779,6 +779,18 @@
     "color": "green"
   },
   {
+    "id": "ue",
+    "type": "suffix",
+    "displayText": "-ue",
+    "meaningCn": "连接元音（名词）",
+    "allomorphs": [
+      "ue"
+    ],
+    "level": 5,
+    "etymology": "构词连接元音",
+    "color": "green"
+  },
+  {
     "id": "ile",
     "type": "suffix",
     "displayText": "-ile",
@@ -25473,7 +25485,8 @@
     "type": "root",
     "meaningCn": "爬",
     "allomorphs": [
-      "cend"
+      "cend",
+      "scend"
     ],
     "etymology": "",
     "level": 3,
@@ -26425,6 +26438,18 @@
     ],
     "etymology": "古法语 mine（矿、矿井），miner",
     "level": 1,
+    "color": "orange"
+  },
+  {
+    "id": "preci",
+    "displayText": "preci",
+    "type": "root",
+    "meaningCn": "价值",
+    "allomorphs": [
+      "preci"
+    ],
+    "etymology": "拉丁 pretium（价值、价钱）；appreciate",
+    "level": 3,
     "color": "orange"
   },
   {

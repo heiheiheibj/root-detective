@@ -1,0 +1,30 @@
+{
+  "_comment": "批次 06f：第四批扫描挑出的 25 个词源站得住的常用词。herit/vid/vers/motive/semble/scend/voc/finite/preci/vain/cess/compete/vag/fect/part/manu/fact/ben/fic/compare/dict/mathematic/her/grav/pack 全部已建模；descend 需要 scend 补 scend 变体（ALLOMORPH_TOUCH）。beneficial 走 ben 的 bene 变体。",
+  "splits": {
+    "inherit": [{ "id": "in", "surface": "in" }, { "id": "herit", "surface": "herit" }],
+    "envisage": [{ "id": "en", "surface": "en" }, { "id": "vid", "surface": "vis" }, { "id": "age", "surface": "age" }],
+    "vertical": [{ "id": "vers", "surface": "vert" }, { "id": "ic", "surface": "ic" }, { "id": "al", "surface": "al" }],
+    "motivation": [{ "id": "motive", "surface": "motiv" }, { "id": "ation", "surface": "ation" }],
+    "assemble": [{ "id": "ad", "surface": "as" }, { "id": "semble", "surface": "semble" }],
+    "descend": [{ "id": "de", "surface": "de" }, { "id": "scend", "surface": "scend" }],
+    "advocate": [{ "id": "ad", "surface": "ad" }, { "id": "voc", "surface": "voc" }, { "id": "ate", "surface": "ate" }],
+    "definite": [{ "id": "de", "surface": "de" }, { "id": "finite", "surface": "finite" }],
+    "precious": [{ "id": "preci", "surface": "preci" }, { "id": "ous", "surface": "ous" }],
+    "vanish": [{ "id": "vain", "surface": "van" }, { "id": "ish", "surface": "ish" }],
+    "predecessor": [{ "id": "pre", "surface": "pre" }, { "id": "de", "surface": "de" }, { "id": "cess", "surface": "cess" }, { "id": "or", "surface": "or" }],
+    "competence": [{ "id": "compete", "surface": "compet" }, { "id": "ence", "surface": "ence" }],
+    "vague": [{ "id": "vag", "surface": "vag" }, { "id": "ue", "surface": "ue" }],
+    "defect": [{ "id": "de", "surface": "de" }, { "id": "fect", "surface": "fect" }],
+    "depart": [{ "id": "de", "surface": "de" }, { "id": "part", "surface": "part" }],
+    "manufacture": [{ "id": "manu", "surface": "manu" }, { "id": "fact", "surface": "fact" }, { "id": "ure", "surface": "ure" }],
+    "excess": [{ "id": "ex", "surface": "ex" }, { "id": "cess", "surface": "cess" }],
+    "beneficial": [{ "id": "ben", "surface": "bene" }, { "id": "fic", "surface": "fic" }, { "id": "ial", "surface": "ial" }],
+    "comparative": [{ "id": "compare", "surface": "compar" }, { "id": "ative", "surface": "ative" }],
+    "dictate": [{ "id": "dict", "surface": "dict" }, { "id": "ate", "surface": "ate" }],
+    "dedicate": [{ "id": "de", "surface": "de" }, { "id": "dict", "surface": "dic" }, { "id": "ate", "surface": "ate" }],
+    "mathematical": [{ "id": "mathematic", "surface": "mathematic" }, { "id": "al", "surface": "al" }],
+    "inherent": [{ "id": "in", "surface": "in" }, { "id": "her", "surface": "here" }, { "id": "ent", "surface": "nt" }],
+    "gravel": [{ "id": "grav", "surface": "grav" }, { "id": "el", "surface": "el" }],
+    "packet": [{ "id": "pack", "surface": "pack" }, { "id": "et", "surface": "et" }]
+  }
+}

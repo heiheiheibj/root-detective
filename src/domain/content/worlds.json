@@ -42,14 +42,16 @@
   {
     "id": "action-forge",
     "name": "行动工坊",
-    "description": "学习词根：ject、mob、aud、voc、cred、fic（行动工坊）",
+    "description": "学习词根：ject、mob、aud、voc、cred、fic、fect、fact（行动工坊）",
     "morphemeIds": [
       "ject",
       "mob",
       "aud",
       "voc",
       "cred",
-      "fic"
+      "fic",
+      "fect",
+      "fact"
     ]
   },
   {
@@ -221,7 +223,7 @@
   {
     "id": "motion-yard",
     "name": "行止院",
-    "description": "学习词根：act、ceed、pass、turn、cycle、stand、gress、sta、cess、stance、stant（行止院）",
+    "description": "学习词根：act、ceed、pass、turn、cycle、stand、gress、sta、cess、stance、stant、motive（行止院）",
     "morphemeIds": [
       "act",
       "ceed",
@@ -233,7 +235,8 @@
       "sta",
       "cess",
       "stance",
-      "stant"
+      "stant",
+      "motive"
     ]
   },
   {
@@ -359,7 +362,7 @@
   {
     "id": "force-yard",
     "name": "运力场",
-    "description": "学习词根：tend、late、found、press、collect、lay、fall（运力场）",
+    "description": "学习词根：tend、late、found、press、collect、lay、fall、grav（运力场）",
     "morphemeIds": [
       "tend",
       "late",
@@ -367,7 +370,8 @@
       "press",
       "collect",
       "lay",
-      "fall"
+      "fall",
+      "grav"
     ]
   },
   {

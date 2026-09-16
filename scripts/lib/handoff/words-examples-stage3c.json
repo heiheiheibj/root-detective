@@ -575,5 +575,105 @@
   "hypothesis": {
     "exampleEn": "We tested the hypothesis.",
     "exampleCn": "我们检验了这个假设。"
+  },
+  "inherit": {
+    "exampleEn": "She will inherit the house.",
+    "exampleCn": "她将继承这座房子。"
+  },
+  "envisage": {
+    "exampleEn": "We envisage a better future.",
+    "exampleCn": "我们设想一个更好的未来。"
+  },
+  "vertical": {
+    "exampleEn": "Draw a vertical line here.",
+    "exampleCn": "在这里画一条垂直线。"
+  },
+  "motivation": {
+    "exampleEn": "His motivation is clear.",
+    "exampleCn": "他的动机很明确。"
+  },
+  "assemble": {
+    "exampleEn": "We assemble the parts by hand.",
+    "exampleCn": "我们手工装配零件。"
+  },
+  "descend": {
+    "exampleEn": "They descend the stairs slowly.",
+    "exampleCn": "他们慢慢地走下楼梯。"
+  },
+  "advocate": {
+    "exampleEn": "They advocate a new method.",
+    "exampleCn": "他们提倡一种新方法。"
+  },
+  "definite": {
+    "exampleEn": "We need a definite answer.",
+    "exampleCn": "我们需要一个明确的答复。"
+  },
+  "precious": {
+    "exampleEn": "Time is very precious.",
+    "exampleCn": "时间非常宝贵。"
+  },
+  "vanish": {
+    "exampleEn": "The birds vanish in winter.",
+    "exampleCn": "这些鸟在冬天消失。"
+  },
+  "predecessor": {
+    "exampleEn": "He met his predecessor.",
+    "exampleCn": "他见了他的前任。"
+  },
+  "competence": {
+    "exampleEn": "She showed great competence.",
+    "exampleCn": "她表现出很强的能力。"
+  },
+  "vague": {
+    "exampleEn": "His answer was vague.",
+    "exampleCn": "他的回答含糊不清。"
+  },
+  "defect": {
+    "exampleEn": "The machine has a defect.",
+    "exampleCn": "这台机器有个缺陷。"
+  },
+  "depart": {
+    "exampleEn": "The train will depart soon.",
+    "exampleCn": "火车很快就要开。"
+  },
+  "manufacture": {
+    "exampleEn": "They manufacture cars here.",
+    "exampleCn": "他们在这里制造汽车。"
+  },
+  "excess": {
+    "exampleEn": "There is an excess of sugar.",
+    "exampleCn": "糖过量了。"
+  },
+  "beneficial": {
+    "exampleEn": "Exercise is beneficial to health.",
+    "exampleCn": "运动对健康有益。"
+  },
+  "comparative": {
+    "exampleEn": "It is a comparative study.",
+    "exampleCn": "这是一项比较研究。"
+  },
+  "dictate": {
+    "exampleEn": "He will dictate the letter.",
+    "exampleCn": "他将口述这封信。"
+  },
+  "dedicate": {
+    "exampleEn": "She wants to dedicate her time.",
+    "exampleCn": "她想投入自己的时间。"
+  },
+  "mathematical": {
+    "exampleEn": "He has mathematical skill.",
+    "exampleCn": "他有数学才能。"
+  },
+  "inherent": {
+    "exampleEn": "There is an inherent risk.",
+    "exampleCn": "存在固有的风险。"
+  },
+  "gravel": {
+    "exampleEn": "The path is covered with gravel.",
+    "exampleCn": "小路铺着碎石。"
+  },
+  "packet": {
+    "exampleEn": "He opened a packet of seeds.",
+    "exampleCn": "他打开了一包种子。"
   }
 }

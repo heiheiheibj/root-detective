@@ -1,0 +1,202 @@
+{
+  "inherit": {
+    "modernMeaningCn": "继承、遗传",
+    "literalMeaningCn": "接过来",
+    "metaphorMeaningCn": "从上代手里接下",
+    "metaphorOptions": ["从上代手里接下", "建好的房子", "写满记录的本子"],
+    "mnemonicNote": "in(进入)+herit(继承)：接进自家名下",
+    "sourceNote": "拉丁 inhereditare，in- + heres(继承人)"
+  },
+  "envisage": {
+    "modernMeaningCn": "设想、正视",
+    "literalMeaningCn": "使看到",
+    "metaphorMeaningCn": "在心里先看见那个样子",
+    "metaphorOptions": ["在心里先看见那个样子", "画着图案的卡片", "读黑板上的文字"],
+    "mnemonicNote": "en(使)+vis(看)+age：让它在眼前显现出来",
+    "sourceNote": "法语 envisager，en- + visage(样子)"
+  },
+  "vertical": {
+    "modernMeaningCn": "垂直的、竖直的",
+    "literalMeaningCn": "转到正上方",
+    "metaphorMeaningCn": "上下一条直线",
+    "metaphorOptions": ["上下一条直线", "量二十个箱子", "建好的房子"],
+    "mnemonicNote": "vert(转)+ical：转到正上方，立成一条线",
+    "sourceNote": "拉丁 verticalis，vertex(顶点)"
+  },
+  "motivation": {
+    "modernMeaningCn": "动机、积极性",
+    "literalMeaningCn": "让人动起来的",
+    "metaphorMeaningCn": "推着人往前走的那股劲",
+    "metaphorOptions": ["推着人往前走的那股劲", "开往城市的车", "厨房里的机器"],
+    "mnemonicNote": "motiv(移动)+ation：推着人动起来的那股力",
+    "sourceNote": "motivus(推动的) + -ation"
+  },
+  "assemble": {
+    "modernMeaningCn": "集合、装配",
+    "literalMeaningCn": "聚到一处",
+    "metaphorMeaningCn": "把零件凑成一个整体",
+    "metaphorOptions": ["把零件凑成一个整体", "围成一圈的椅子", "装蜜蜂的箱子"],
+    "mnemonicNote": "as(朝向)+semble(相似)：往一处聚，凑成一堆",
+    "sourceNote": "古法语 assembler，ad- + simul(一起)"
+  },
+  "descend": {
+    "modernMeaningCn": "下降、下来",
+    "literalMeaningCn": "往下爬",
+    "metaphorMeaningCn": "顺着往低处走",
+    "metaphorOptions": ["顺着往低处走", "绕过南方的河", "放在底部的箱"],
+    "mnemonicNote": "de(向下)+scend(爬)：往低处爬下去",
+    "sourceNote": "拉丁 descendere，de-(向下) + scandere(爬)"
+  },
+  "advocate": {
+    "modernMeaningCn": "提倡、拥护者",
+    "literalMeaningCn": "为它发声",
+    "metaphorMeaningCn": "站出来替人说话",
+    "metaphorOptions": ["站出来替人说话", "选城市里的人", "数二十张票"],
+    "mnemonicNote": "ad(朝向)+voc(叫)+ate：为它出声，替它说话",
+    "sourceNote": "拉丁 advocare，ad-(朝向) + vocare(叫)"
+  },
+  "definite": {
+    "modernMeaningCn": "明确的、确定的",
+    "literalMeaningCn": "定下边界",
+    "metaphorMeaningCn": "说得很清楚不含糊",
+    "metaphorOptions": ["说得很清楚不含糊", "量二十个箱子", "写满标记的木板"],
+    "mnemonicNote": "de(向下)+finite(界限)：把界限定死，说得清",
+    "sourceNote": "拉丁 definitus，de- + finis(界限)"
+  },
+  "precious": {
+    "modernMeaningCn": "珍贵的、宝贵的",
+    "literalMeaningCn": "很有价值的",
+    "metaphorMeaningCn": "值钱又舍不得丢",
+    "metaphorOptions": ["值钱又舍不得丢", "市场卖出的黄金", "擦亮旧椅子"],
+    "mnemonicNote": "preci(价值)+ous：价值高的，难得的",
+    "sourceNote": "拉丁 pretiosus，pretium(价值)"
+  },
+  "vanish": {
+    "modernMeaningCn": "消失、不见",
+    "literalMeaningCn": "化为空无",
+    "metaphorMeaningCn": "一下子就不见了",
+    "metaphorOptions": ["一下子就不见了", "绕过南方的河", "关掉的机器"],
+    "mnemonicNote": "van(空)+ish：变成空，不见了",
+    "sourceNote": "古法语 esvanir，vanus(空)"
+  },
+  "predecessor": {
+    "modernMeaningCn": "前任、前身",
+    "literalMeaningCn": "先走的那位",
+    "metaphorMeaningCn": "在你之前坐这个位的",
+    "metaphorOptions": ["在你之前坐这个位的", "选城市里的人", "记在记录里的名字"],
+    "mnemonicNote": "pre(前)+de(离去)+cess(走)+or：先走过这程的人",
+    "sourceNote": "拉丁 praedecessor，prae-(前) + decedere(离去)"
+  },
+  "competence": {
+    "modernMeaningCn": "能力、胜任",
+    "literalMeaningCn": "够得上的本事",
+    "metaphorMeaningCn": "做得了这件事的本事",
+    "metaphorOptions": ["做得了这件事的本事", "建好的房子", "数二十个硬币"],
+    "mnemonicNote": "compet(相称)+ence：配得上的那份本事",
+    "sourceNote": "拉丁 competentia，competere(相称)"
+  },
+  "vague": {
+    "modernMeaningCn": "含糊的、模糊的",
+    "literalMeaningCn": "游移不定",
+    "metaphorMeaningCn": "轮廓看不真切",
+    "metaphorOptions": ["轮廓看不真切", "读黑板上的文字", "画着图案的卡片"],
+    "mnemonicNote": "vag(游荡)+ue：飘忽不定，看不真切",
+    "sourceNote": "拉丁 vagus（游荡的）"
+  },
+  "defect": {
+    "modernMeaningCn": "缺点、缺陷",
+    "literalMeaningCn": "没做足",
+    "metaphorMeaningCn": "该有的地方缺了口",
+    "metaphorOptions": ["该有的地方缺了口", "写满标记的木板", "量二十个箱子"],
+    "mnemonicNote": "de(缺)+fect(做)：做得不够，留了缺口",
+    "sourceNote": "拉丁 defectus，de- + facere(做)"
+  },
+  "depart": {
+    "modernMeaningCn": "离开、出发",
+    "literalMeaningCn": "分开走",
+    "metaphorMeaningCn": "从这里动身走掉",
+    "metaphorOptions": ["从这里动身走掉", "开往城市的车", "南方的车站"],
+    "mnemonicNote": "de(分开)+part(部分)：与此处分开，动身走",
+    "sourceNote": "古法语 departir，de- + partir(分开)"
+  },
+  "manufacture": {
+    "modernMeaningCn": "制造、产品",
+    "literalMeaningCn": "用手做出来",
+    "metaphorMeaningCn": "大批做出来的东西",
+    "metaphorOptions": ["大批做出来的东西", "厨房里的机器", "市场卖出的黄金"],
+    "mnemonicNote": "manu(手)+fact(做)+ure：动手做出来的",
+    "sourceNote": "拉丁 manufactura，manus(手) + facere(做)"
+  },
+  "excess": {
+    "modernMeaningCn": "过量、超过",
+    "literalMeaningCn": "走出界了",
+    "metaphorMeaningCn": "多过了该有的数",
+    "metaphorOptions": ["多过了该有的数", "数二十个硬币", "称稻草的重量"],
+    "mnemonicNote": "ex(向外)+cess(走)：走出该有的范围",
+    "sourceNote": "拉丁 excessus，ex-(向外) + cedere(走)"
+  },
+  "beneficial": {
+    "modernMeaningCn": "有益的、有利的",
+    "literalMeaningCn": "做了好事",
+    "metaphorMeaningCn": "能带来好处的",
+    "metaphorOptions": ["能带来好处的", "分给同伴的一块", "市场卖的柠檬"],
+    "mnemonicNote": "bene(好)+fic(做)+ial：做出好处的",
+    "sourceNote": "拉丁 beneficium，bene(好) + facere(做)"
+  },
+  "comparative": {
+    "modernMeaningCn": "比较的、相对的",
+    "literalMeaningCn": "比着看的",
+    "metaphorMeaningCn": "拿来做对比的",
+    "metaphorOptions": ["拿来做对比的", "量二十个箱子", "称稻草的重量"],
+    "mnemonicNote": "compar(比较)+ative：用来比一比的",
+    "sourceNote": "拉丁 comparativus，comparare(比较)"
+  },
+  "dictate": {
+    "modernMeaningCn": "口述、命令",
+    "literalMeaningCn": "说出来让人记",
+    "metaphorMeaningCn": "说一句别人记一句",
+    "metaphorOptions": ["说一句别人记一句", "读黑板上的文字", "写满记录的本子"],
+    "mnemonicNote": "dict(说)+ate：说给人听，让人照写",
+    "sourceNote": "拉丁 dictare，dicere(说)"
+  },
+  "dedicate": {
+    "modernMeaningCn": "奉献、致力",
+    "literalMeaningCn": "说出献给",
+    "metaphorMeaningCn": "把心力全交给一件事",
+    "metaphorOptions": ["把心力全交给一件事", "建好的房子", "分给同伴的一块"],
+    "mnemonicNote": "de(向下)+dic(说)+ate：当众说定，交给它",
+    "sourceNote": "拉丁 dedicare，de- + dicare(宣告)"
+  },
+  "mathematical": {
+    "modernMeaningCn": "数学的、精确的",
+    "literalMeaningCn": "与数学有关",
+    "metaphorMeaningCn": "算得清清楚楚的",
+    "metaphorOptions": ["算得清清楚楚的", "数二十个数字", "写满标记的木板"],
+    "mnemonicNote": "mathematic(数学)+al：跟数学有关的",
+    "sourceNote": "希腊 mathematikos，manthanein(学)"
+  },
+  "inherent": {
+    "modernMeaningCn": "固有的、内在的",
+    "literalMeaningCn": "粘在里面",
+    "metaphorMeaningCn": "生来就带着的",
+    "metaphorOptions": ["生来就带着的", "建好的房子", "擦亮旧椅子"],
+    "mnemonicNote": "in(在内)+her(粘)+ent：粘在里面，甩不掉",
+    "sourceNote": "拉丁 inhaerens，in-(在内) + haerere(粘)"
+  },
+  "gravel": {
+    "modernMeaningCn": "砂砾、碎石",
+    "literalMeaningCn": "沉甸甸的碎粒",
+    "metaphorMeaningCn": "铺路用的小石子",
+    "metaphorOptions": ["铺路用的小石子", "称稻草的重量", "绕过南方的河"],
+    "mnemonicNote": "grav(重)+el：压得住的小石子",
+    "sourceNote": "古法语 gravele，grava(沙砾)"
+  },
+  "packet": {
+    "modernMeaningCn": "小包、数据包",
+    "literalMeaningCn": "小包的",
+    "metaphorMeaningCn": "封好的一小份",
+    "metaphorOptions": ["封好的一小份", "邮政的包裹", "装蜜蜂的箱子"],
+    "mnemonicNote": "pack(包裹)+et：一个小包",
+    "sourceNote": "pack(包) + -et(指小)"
+  }
+}
