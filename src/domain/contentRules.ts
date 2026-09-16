@@ -36,6 +36,14 @@ export interface ContentRuleOptions {
    * A12（错项复用真实义项）、超长样式错误降级为 warning。canary 16 词在这里。
    */
   handwrittenIds?: Set<string>
+  /**
+   * A23「教学词根缺 d5」的**结构性缺口**清单：`{ 词根 id: 书面理由 }`。
+   * 只收「翻遍可切分考试词库，也找不到含该词根的 cet6/toefl 词」这种**补不出来**的情况
+   * （day/room/body/take/happy 这类常见词根天然只有简单词）。由
+   * `scripts/tools/build-a23-d5-gap.mjs` 从语料算出来，不是手工挑的。
+   * 能补的（语料里确有 d5 词，只是没收进来）**不许进这张表** —— 那种是选题疏漏，要继续报警。
+   */
+  rootD5StructuralGap?: Record<string, string>
 }
 
 /** 产物里应当有多少个词。测试和闸门都读它，避免两边各说各话。 */
@@ -381,7 +389,13 @@ export function validateContent(morphemes: readonly Morpheme[], words: readonly 
         say('warning', 'A23', rootId, '教学词素没有任何 difficulty-1 的词，初学者一时碰不到它')
       }
       if (!family.some((word) => word.difficulty === 5)) {
-        say('warning', 'A23', rootId, '教学词素没有 difficulty-5 的词，难度梯度少一端')
+        // 结构性缺口：语料里压根没有含该词根的难词（见 options.rootD5StructuralGap 的定义
+        // 与它的生成脚本）—— 报警只会变成永远修不完的噪音，但仍要在报告里留一行说明，
+        // 不能看着像「跑过了」。能补的词根一律不在这张表里。
+        const reason = options.rootD5StructuralGap?.[rootId]
+        if (reason === undefined) {
+          say('warning', 'A23', rootId, '教学词素没有 difficulty-5 的词，难度梯度少一端')
+        }
       }
     }
   }

@@ -64,15 +64,16 @@ dict/port/vid 各需补 1 个 d5（dictator/deport/envision，因 visible/vision
 
 ## 四、遗留事项
 
-1. **根目录临时文件未清理**（删除需用户确认）：`_t_*.mjs`、`_t_*.log`、`_ecdict_probe.mjs`、
-   `_fix_options*.mjs`、`_dev.log`、`_dev.err.log`、`shot-*.png`（截图建议移进 docs/ 或删）、
-   `console.log('ERR'`（名字就是这串的坏文件）、`package - 副本.json`、`package-lock - 副本.json`。
-   本轮新产生的可删清单：`_t_check_examples.mjs`、`_t_check_legacy.mjs`、`_t_diff_derived.mjs`、
-   `_t_review_gen.mjs`（若要保留复核数据的再生成能力，可把它改名为 `scripts/tools/` 下的正式脚本）。
+1. **根目录临时文件未清理** —— ✅ **2026-09-16 已完成**（`7eeaf33`）：
+   `_t_*`/`_fix_options*`/`_ecdict_probe.mjs` 等 46 个探针、`.playwright-cli/` 50 个页面 dump、
+   3 个无障碍快照 yaml、`console.log('ERR'`、编辑器副本，全部 `git rm --cached`（**本地保留**）；
+   23 张截图 `git mv` 进 `docs/shots/`；`.gitignore` 补 `_*`、`/*.png`、`/*.yaml`、`* - 副本.json`
+   等规则防再犯。需要复用的请正式放进 `scripts/tools/`。
 2. **复核留下的 3 个 minor**（`scripts/.work/report.md` 末尾全文）：`century`、`envision` 字面义不是词素义拼接；
    `voice` 的 `vo` 变体牵强。不阻断，Stage 2 顺手修 handoff。
 3. **CREDITS.md + license-manifest.json 未做**（许可红线，Stage 2 前必须补）。
-4. **favicon 404**（外观问题）。
+4. **favicon 404** —— ✅ **2026-09-16 已修**（`5d91913`）：补 `public/favicon.svg`（深底金 R）
+   并在 `index.html` 声明；实机验证里网络/控制台全干净。
 5. `.work/derived` 里的中间产物已 gitignore；`report.md` 建议Stage 2 时抄一份进 docs/。
 
 ---

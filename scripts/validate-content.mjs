@@ -31,6 +31,9 @@ function readAllowlist(name) {
 
 const residueAllowlist = readAllowlist('residue-allowlist.json')
 const unmodeledDistractorAllowlist = readAllowlist('unmodeled-distractor-allowlist.json')
+// A23「教学词根缺 d5」的结构性缺口：由 scripts/tools/build-a23-d5-gap.mjs 从语料算出，
+// 只收「翻遍可切分考试词库也没有含该词根的 cet6 词」的词根。没进这张表的缺 d5 词根照常报警。
+const rootD5StructuralGap = readAllowlist('a23-d5-structural-gap.json')
 
 // 有 provenance 边车才说明这批词是管线生成的；没有就是手写的 canary 切片。
 const generated = existsSync(join(here, '.work', 'derived', 'provenance.json'))
@@ -51,7 +54,7 @@ for (const w of words) for (const p of w.parts) famSize.set(p.morphemeId, (famSi
 const teachingRootIds = new Set([...famSize].filter(([, n]) => n >= MIN_WORDS_PER_ROOT).map(([id]) => id))
 
 const findings = [
-  ...validateContent(morphemes, words, { residueAllowlist, unmodeledDistractorAllowlist, generated, handwrittenIds: canarySet }),
+  ...validateContent(morphemes, words, { residueAllowlist, unmodeledDistractorAllowlist, generated, handwrittenIds: canarySet, rootD5StructuralGap }),
   ...validateWorlds(morphemes, worlds, teachingRootIds),
 ]
 
@@ -142,6 +145,16 @@ for (const finding of [...errors, ...warnings]) {
   console.log(`${finding.level === 'error' ? '✗' : '!'} [${finding.rule}] ${finding.target}：${finding.message}`)
 }
 for (const line of failures) console.log(`✗ [script] ${line}`)
+
+// A23 的结构性缺口不进警告（它们补不出来，留着只会变成永远修不完的噪音），
+// 但**必须明说**：一行写明放过了多少、依据是哪个文件，免得看着像「A23 跑过了」。
+{
+  const gapIds = Object.keys(rootD5StructuralGap)
+  const stillWarned = findings.filter((f) => f.rule === 'A23' && /difficulty-5/.test(f.message)).map((f) => f.target)
+  if (gapIds.length) {
+    console.log(`– A23 d5：${gapIds.length} 个教学词根记为「结构性缺口」（全语料里没有含它的 cet6 词，补不出来），不再逐条报警 —— 依据 scripts/gates/a23-d5-structural-gap.json。${stillWarned.length ? `仍在报警 ${stillWarned.length} 个（语料里确有可收的 d5 词）：${stillWarned.join('、')}` : ''}`)
+  }
+}
 
 console.log('')
 for (const line of skipped) console.log(`– 跳过：${line}`)
