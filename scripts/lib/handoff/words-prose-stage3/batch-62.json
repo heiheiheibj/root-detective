@@ -1,114 +1,170 @@
 {
-  "region": {
-    "modernMeaningCn": "地区、区域",
-    "literalMeaningCn": "管辖的一片",
-    "metaphorMeaningCn": "划出来的一大片地方",
-    "metaphorOptions": ["划出来的一大片地方", "开往城市的车", "绕过南方的河"],
-    "mnemonicNote": "reg(统治、区域)+ion：治下划出的一片地方",
-    "sourceNote": "拉丁 regio，regere(统治、划定)"
-  },
-  "value": {
-    "modernMeaningCn": "价值、价格",
-    "literalMeaningCn": "值多少",
-    "metaphorMeaningCn": "一样东西值几多",
-    "metaphorOptions": ["一样东西值几多", "市场卖出的黄金", "数二十个硬币"],
-    "mnemonicNote": "val(强健)+ue：力量所值，就是价值",
-    "sourceNote": "拉丁 valere（强健、有价值）"
-  },
-  "valid": {
-    "modernMeaningCn": "有效的、正当的",
-    "literalMeaningCn": "站得住的",
-    "metaphorMeaningCn": "管用、说得通的",
-    "metaphorOptions": ["管用、说得通的", "写满记录的本子", "量二十个箱子"],
-    "mnemonicNote": "val(强健)+id：立得住的，算数",
-    "sourceNote": "拉丁 validus（强健的、有效的）"
-  },
-  "patient": {
-    "modernMeaningCn": "病人、有耐心的",
-    "literalMeaningCn": "在承受着的",
-    "metaphorMeaningCn": "忍着痛等人治的人",
-    "metaphorOptions": ["忍着痛等人治的人", "擦亮旧椅子", "建好的房子"],
-    "mnemonicNote": "pat(忍受)+ient：忍着不适、等着好转的人",
-    "sourceNote": "拉丁 patiens，pati(忍受)"
-  },
-  "remain": {
-    "modernMeaningCn": "保持、留下",
-    "literalMeaningCn": "继续留着",
-    "metaphorMeaningCn": "留在原处没走",
-    "metaphorOptions": ["留在原处没走", "装蜜蜂的箱子", "关掉的机器"],
-    "mnemonicNote": "re(回、继续)+main(留下)：继续留在那儿",
-    "sourceNote": "拉丁 remanere，re- + manere(留下)"
-  },
-  "permanent": {
-    "modernMeaningCn": "永久的、长期的",
-    "literalMeaningCn": "一直留着",
-    "metaphorMeaningCn": "留下来不再变动",
-    "metaphorOptions": ["留下来不再变动", "建好的房子", "换上新外套"],
-    "mnemonicNote": "per(贯穿)+man(留下)+ent：一直留下去的",
-    "sourceNote": "拉丁 permanens，per- + manere(留下)"
-  },
-  "manual": {
-    "modernMeaningCn": "手册、手工的",
-    "literalMeaningCn": "用手的",
-    "metaphorMeaningCn": "给人手边查的本子",
-    "metaphorOptions": ["给人手边查的本子", "写满记录的本子", "读黑板上的文字"],
-    "mnemonicNote": "manu(手)+al：随手翻查、靠手做的",
-    "sourceNote": "拉丁 manualis，manus(手)"
-  },
-  "liberal": {
-    "modernMeaningCn": "开明的、自由的",
-    "literalMeaningCn": "属自由的",
-    "metaphorMeaningCn": "不设限、肯放手",
-    "metaphorOptions": ["不设限、肯放手", "分给同伴的一块", "数二十张票"],
-    "mnemonicNote": "liber(自由)+al：不受拘束的",
-    "sourceNote": "拉丁 liberalis，liber(自由的)"
-  },
-  "liberty": {
-    "modernMeaningCn": "自由、自主",
-    "literalMeaningCn": "自由的状态",
-    "metaphorMeaningCn": "想做就做的那份自在",
-    "metaphorOptions": ["想做就做的那份自在", "锁在监狱的人", "选城市里的人"],
-    "mnemonicNote": "liber(自由)+ty：不受管束的那个状态",
-    "sourceNote": "拉丁 libertas，liber(自由的)"
-  },
-  "notion": {
-    "modernMeaningCn": "概念、想法",
-    "literalMeaningCn": "在心里记着",
-    "metaphorMeaningCn": "脑子里冒出来的念头",
-    "metaphorOptions": ["脑子里冒出来的念头", "读黑板上的文字", "画着图案的卡片"],
-    "mnemonicNote": "not(知道)+ion：心里知道、记着的念头",
-    "sourceNote": "拉丁 notio，noscere(知道)"
-  },
-  "tension": {
-    "modernMeaningCn": "紧张、张力",
-    "literalMeaningCn": "被拉紧",
-    "metaphorMeaningCn": "绷着劲儿放不下",
-    "metaphorOptions": ["绷着劲儿放不下", "接上城市的线", "称稻草的重量"],
-    "mnemonicNote": "tens(伸展)+ion：拉得紧紧的那种状态",
-    "sourceNote": "拉丁 tensio，tendere(伸展、拉紧)"
-  },
-  "extension": {
-    "modernMeaningCn": "延长、扩展",
-    "literalMeaningCn": "往外拉长",
-    "metaphorMeaningCn": "再加出来的一段",
-    "metaphorOptions": ["再加出来的一段", "接上城市的线", "量二十个箱子"],
-    "mnemonicNote": "ex(向外)+tens(伸展)+ion：往外拉长出的部分",
-    "sourceNote": "拉丁 extensio，ex- + tendere(伸展)"
-  },
-  "pension": {
-    "modernMeaningCn": "养老金、退休金",
-    "literalMeaningCn": "称给的钱",
-    "metaphorMeaningCn": "退下来后按月领的钱",
-    "metaphorOptions": ["退下来后按月领的钱", "数二十个硬币", "写满记录的本子"],
-    "mnemonicNote": "pens(称量、支付)+ion：称好按月付的钱",
-    "sourceNote": "拉丁 pensio，pendere(称量、支付)"
-  },
-  "mineral": {
-    "modernMeaningCn": "矿物、矿物质",
-    "literalMeaningCn": "挖出来的",
-    "metaphorMeaningCn": "从地里开采的东西",
-    "metaphorOptions": ["从地里开采的东西", "市场卖出的黄金", "称稻草的重量"],
-    "mnemonicNote": "min(挖)+er+al：从地下挖出来的",
-    "sourceNote": "中古拉丁 minerale，minera(矿)"
-  }
+ "region": {
+  "modernMeaningCn": "地区、区域",
+  "literalMeaningCn": "管辖的一片",
+  "metaphorMeaningCn": "划出来的一大片地方",
+  "metaphorOptions": [
+   "划出来的一大片地方",
+   "部分的的来路",
+   "宁可的地方"
+  ],
+  "mnemonicNote": "reg(统治、区域)+ion：治下划出的一片地方",
+  "sourceNote": "拉丁 regio，regere(统治、划定)"
+ },
+ "value": {
+  "modernMeaningCn": "价值、价格",
+  "literalMeaningCn": "值多少",
+  "metaphorMeaningCn": "一样东西值几多",
+  "metaphorOptions": [
+   "一样东西值几多",
+   "把安静串起来",
+   "转移的工具"
+  ],
+  "mnemonicNote": "val(强健)+ue：力量所值，就是价值",
+  "sourceNote": "拉丁 valere（强健、有价值）"
+ },
+ "valid": {
+  "modernMeaningCn": "有效的、正当的",
+  "literalMeaningCn": "站得住的",
+  "metaphorMeaningCn": "管用、说得通的",
+  "metaphorOptions": [
+   "管用、说得通的",
+   "不可避免的的小站",
+   "特别的的一角"
+  ],
+  "mnemonicNote": "val(强健)+id：立得住的，算数",
+  "sourceNote": "拉丁 validus（强健的、有效的）"
+ },
+ "patient": {
+  "modernMeaningCn": "病人、有耐心的",
+  "literalMeaningCn": "在承受着的",
+  "metaphorMeaningCn": "忍着痛等人治的人",
+  "metaphorOptions": [
+   "忍着痛等人治的人",
+   "数着磨坊过日子",
+   "围着出汗转"
+  ],
+  "mnemonicNote": "pat(忍受)+ient：忍着不适、等着好转的人",
+  "sourceNote": "拉丁 patiens，pati(忍受)"
+ },
+ "remain": {
+  "modernMeaningCn": "保持、留下",
+  "literalMeaningCn": "继续留着",
+  "metaphorMeaningCn": "留在原处没走",
+  "metaphorOptions": [
+   "留在原处没走",
+   "涌流的影子",
+   "勇敢的的人"
+  ],
+  "mnemonicNote": "re(回、继续)+main(留下)：继续留在那儿",
+  "sourceNote": "拉丁 remanere，re- + manere(留下)"
+ },
+ "permanent": {
+  "modernMeaningCn": "永久的、长期的",
+  "literalMeaningCn": "一直留着",
+  "metaphorMeaningCn": "留下来不再变动",
+  "metaphorOptions": [
+   "留下来不再变动",
+   "做广告的一角",
+   "修补的另一面"
+  ],
+  "mnemonicNote": "per(贯穿)+man(留下)+ent：一直留下去的",
+  "sourceNote": "拉丁 permanens，per- + manere(留下)"
+ },
+ "manual": {
+  "modernMeaningCn": "手册、手工的",
+  "literalMeaningCn": "用手的",
+  "metaphorMeaningCn": "给人手边查的本子",
+  "metaphorOptions": [
+   "给人手边查的本子",
+   "长官的地方",
+   "强壮的小站"
+  ],
+  "mnemonicNote": "manu(手)+al：随手翻查、靠手做的",
+  "sourceNote": "拉丁 manualis，manus(手)"
+ },
+ "liberal": {
+  "modernMeaningCn": "开明的、自由的",
+  "literalMeaningCn": "属自由的",
+  "metaphorMeaningCn": "不设限、肯放手",
+  "metaphorOptions": [
+   "不设限、肯放手",
+   "旅行的人",
+   "存款的影子"
+  ],
+  "mnemonicNote": "liber(自由)+al：不受拘束的",
+  "sourceNote": "拉丁 liberalis，liber(自由的)"
+ },
+ "liberty": {
+  "modernMeaningCn": "自由、自主",
+  "literalMeaningCn": "自由的状态",
+  "metaphorMeaningCn": "想做就做的那份自在",
+  "metaphorOptions": [
+   "想做就做的那份自在",
+   "把黄金串起来",
+   "柔嫩的工具"
+  ],
+  "mnemonicNote": "liber(自由)+ty：不受管束的那个状态",
+  "sourceNote": "拉丁 libertas，liber(自由的)"
+ },
+ "notion": {
+  "modernMeaningCn": "概念、想法",
+  "literalMeaningCn": "在心里记着",
+  "metaphorMeaningCn": "脑子里冒出来的念头",
+  "metaphorOptions": [
+   "脑子里冒出来的念头",
+   "数着声音过日子",
+   "围着沙丁鱼转"
+  ],
+  "mnemonicNote": "not(知道)+ion：心里知道、记着的念头",
+  "sourceNote": "拉丁 notio，noscere(知道)"
+ },
+ "tension": {
+  "modernMeaningCn": "紧张、张力",
+  "literalMeaningCn": "被拉紧",
+  "metaphorMeaningCn": "绷着劲儿放不下",
+  "metaphorOptions": [
+   "绷着劲儿放不下",
+   "传达的一角",
+   "带路的另一面"
+  ],
+  "mnemonicNote": "tens(伸展)+ion：拉得紧紧的那种状态",
+  "sourceNote": "拉丁 tensio，tendere(伸展、拉紧)"
+ },
+ "extension": {
+  "modernMeaningCn": "延长、扩展",
+  "literalMeaningCn": "往外拉长",
+  "metaphorMeaningCn": "再加出来的一段",
+  "metaphorOptions": [
+   "再加出来的一段",
+   "涉及的小站",
+   "景色的地方"
+  ],
+  "mnemonicNote": "ex(向外)+tens(伸展)+ion：往外拉长出的部分",
+  "sourceNote": "拉丁 extensio，ex- + tendere(伸展)"
+ },
+ "pension": {
+  "modernMeaningCn": "养老金、退休金",
+  "literalMeaningCn": "称给的钱",
+  "metaphorMeaningCn": "退下来后按月领的钱",
+  "metaphorOptions": [
+   "退下来后按月领的钱",
+   "守着开场白过活",
+   "替证人操心"
+  ],
+  "mnemonicNote": "pens(称量、支付)+ion：称好按月付的钱",
+  "sourceNote": "拉丁 pensio，pendere(称量、支付)"
+ },
+ "mineral": {
+  "modernMeaningCn": "矿物、矿物质",
+  "literalMeaningCn": "挖出来的",
+  "metaphorMeaningCn": "从地里开采的东西",
+  "metaphorOptions": [
+   "从地里开采的东西",
+   "替沉思操心",
+   "离放入钱袋很远"
+  ],
+  "mnemonicNote": "min(挖)+er+al：从地下挖出来的",
+  "sourceNote": "中古拉丁 minerale，minera(矿)"
+ }
 }

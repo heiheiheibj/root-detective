@@ -1,210 +1,314 @@
 {
-  "insist": {
-    "modernMeaningCn": "坚持、坚决要求",
-    "literalMeaningCn": "站在上面不挪",
-    "metaphorMeaningCn": "咬住一件事不松口",
-    "metaphorOptions": ["咬住一件事不松口", "站在南方的哨兵", "数二十个硬币"],
-    "mnemonicNote": "in(在上)+sist(站立)：站定不动，不肯让步",
-    "sourceNote": "拉丁 insistere，in-(在上) + sistere(站立)"
-  },
-  "retain": {
-    "modernMeaningCn": "保留、留住",
-    "literalMeaningCn": "继续拿着",
-    "metaphorMeaningCn": "把东西一直留在身边",
-    "metaphorOptions": ["把东西一直留在身边", "装蜜蜂的箱子", "写满记录的本子"],
-    "mnemonicNote": "re(回、继续)+tain(持有)：继续拿在手里",
-    "sourceNote": "拉丁 retinere，re-(回) + tenere(持有)"
-  },
-  "impose": {
-    "modernMeaningCn": "强加、征税",
-    "literalMeaningCn": "放到别人身上",
-    "metaphorMeaningCn": "硬塞给人家去承担",
-    "metaphorOptions": ["硬塞给人家去承担", "挂在外套上的牌", "放在底部的箱"],
-    "mnemonicNote": "im(在上)+pos(放置)：往人身上放，就是强加",
-    "sourceNote": "拉丁 imponere，in-(在上) + ponere(放置)"
-  },
-  "sufficient": {
-    "modernMeaningCn": "足够的、充分的",
-    "literalMeaningCn": "够做成事",
-    "metaphorMeaningCn": "数量刚好够用",
-    "metaphorOptions": ["数量刚好够用", "数二十个硬币", "称稻草的重量"],
-    "mnemonicNote": "suf(在下)+fic(做、成)+ient：底下做足了，够用",
-    "sourceNote": "拉丁 sufficiens，sub-(在下) + facere(做)"
-  },
-  "efficient": {
-    "modernMeaningCn": "高效的、有效率的",
-    "literalMeaningCn": "做出成效",
-    "metaphorMeaningCn": "花得少却做得快",
-    "metaphorOptions": ["花得少却做得快", "厨房里的机器", "关掉的机器"],
-    "mnemonicNote": "ef(向外)+fic(做、成)+ient：做出来的成效明显",
-    "sourceNote": "拉丁 efficiens，ex-(向外) + facere(做)"
-  },
-  "scientist": {
-    "modernMeaningCn": "科学家、研究者",
-    "literalMeaningCn": "求知的人",
-    "metaphorMeaningCn": "专门研究学问的人",
-    "metaphorOptions": ["专门研究学问的人", "读黑板上的文字", "建好的房子"],
-    "mnemonicNote": "sci(知道)+ent+ist：以求知为业的人",
-    "sourceNote": "scientia(知识) + -ist(……者)"
-  },
-  "motion": {
-    "modernMeaningCn": "运动、动作",
-    "literalMeaningCn": "移动这件事",
-    "metaphorMeaningCn": "位置在变的过程",
-    "metaphorOptions": ["位置在变的过程", "开往城市的车", "绕过南方的河"],
-    "mnemonicNote": "mot(移动)+ion：动起来的那个过程",
-    "sourceNote": "拉丁 motio，movere(移动)"
-  },
-  "motor": {
-    "modernMeaningCn": "发动机、马达",
-    "literalMeaningCn": "使它动的东西",
-    "metaphorMeaningCn": "带着机器转起来的装置",
-    "metaphorOptions": ["带着机器转起来的装置", "厨房里的机器", "关掉的机器"],
-    "mnemonicNote": "mot(移动)+or：让东西动起来的那个装置",
-    "sourceNote": "拉丁 motor，movere(移动)"
-  },
-  "minor": {
-    "modernMeaningCn": "较小的、次要的",
-    "literalMeaningCn": "更小的那个",
-    "metaphorMeaningCn": "相比之下次要一些",
-    "metaphorOptions": ["相比之下次要一些", "数二十个硬币", "分给同伴的一块"],
-    "mnemonicNote": "min(小)+or：比较小的一方",
-    "sourceNote": "拉丁 minor（较小的）"
-  },
-  "signal": {
-    "modernMeaningCn": "信号、标志",
-    "literalMeaningCn": "做出记号",
-    "metaphorMeaningCn": "用来传话的一个记号",
-    "metaphorOptions": ["用来传话的一个记号", "画着图案的卡片", "邮政的包裹"],
-    "mnemonicNote": "sign(记号)+al：立个记号来传信",
-    "sourceNote": "拉丁 signum（记号）"
-  },
-  "urban": {
-    "modernMeaningCn": "城市的、都市的",
-    "literalMeaningCn": "属于都市",
-    "metaphorMeaningCn": "城里这一片的",
-    "metaphorOptions": ["城里这一片的", "开往城市的车", "南方的车站"],
-    "mnemonicNote": "urb(都市)+an：跟城里有关的",
-    "sourceNote": "拉丁 urbanus，urbs(城市)"
-  },
-  "circle": {
-    "modernMeaningCn": "圆、圈子",
-    "literalMeaningCn": "一个圆",
-    "metaphorMeaningCn": "围成一圈的形状",
-    "metaphorOptions": ["围成一圈的形状", "数二十个硬币", "擦亮旧椅子"],
-    "mnemonicNote": "circ(圆)+le：围成的一个圆",
-    "sourceNote": "拉丁 circulus，circus(圆)"
-  },
-  "temporary": {
-    "modernMeaningCn": "临时的、暂时的",
-    "literalMeaningCn": "只管一段时间",
-    "metaphorMeaningCn": "过一阵就要换掉的",
-    "metaphorOptions": ["过一阵就要换掉的", "数二十个硬币", "换上新外套"],
-    "mnemonicNote": "tempor(时间)+ary：只占一小段时间的",
-    "sourceNote": "拉丁 temporarius，tempus(时间)"
-  },
-  "opposite": {
-    "modernMeaningCn": "相反的、对面的",
-    "literalMeaningCn": "放在对面",
-    "metaphorMeaningCn": "正对着你的那一头",
-    "metaphorOptions": ["正对着你的那一头", "对面站着的人", "分开的两块板"],
-    "mnemonicNote": "op(对着)+pos(放置)+ite：摆在对面的",
-    "sourceNote": "拉丁 oppositus，ob-(对着) + ponere(放)"
-  },
-  "delay": {
-    "modernMeaningCn": "耽搁、延迟",
-    "literalMeaningCn": "往下放一放",
-    "metaphorMeaningCn": "把事情往后推",
-    "metaphorOptions": ["把事情往后推", "放在底部的箱", "数二十个硬币"],
-    "mnemonicNote": "de(向下)+lay(放置)：放一放，往后推",
-    "sourceNote": "古法语 delayer，de- + laier(留下)"
-  },
-  "remote": {
-    "modernMeaningCn": "遥远的、偏僻的",
-    "literalMeaningCn": "移到远处去",
-    "metaphorMeaningCn": "离得远远够不着",
-    "metaphorOptions": ["离得远远够不着", "绕过南方的河", "开往城市的车"],
-    "mnemonicNote": "re(回)+mote(移动)：往回移得远，够不着",
-    "sourceNote": "拉丁 remotus，re-(回) + movere(移动)"
-  },
-  "specify": {
-    "modernMeaningCn": "指定、详细说明",
-    "literalMeaningCn": "使看得清",
-    "metaphorMeaningCn": "把要求一条条说清",
-    "metaphorOptions": ["把要求一条条说清", "写满标记的木板", "读黑板上的文字"],
-    "mnemonicNote": "spec(看)+ify：让人看得明白地列出来",
-    "sourceNote": "拉丁 specificare，species(种类)"
-  },
-  "electric": {
-    "modernMeaningCn": "电的、电动的",
-    "literalMeaningCn": "与电有关",
-    "metaphorMeaningCn": "靠电来运转的",
-    "metaphorOptions": ["靠电来运转的", "接上城市的线", "擦亮旧椅子"],
-    "mnemonicNote": "electr(电)+ic：由电驱动的",
-    "sourceNote": "希腊 elektron（琥珀，摩擦生电）"
-  },
-  "visual": {
-    "modernMeaningCn": "视觉的、看得见的",
-    "literalMeaningCn": "与看有关",
-    "metaphorMeaningCn": "用眼睛接收的",
-    "metaphorOptions": ["用眼睛接收的", "画着图案的卡片", "读黑板上的文字"],
-    "mnemonicNote": "vis(看)+ual：靠眼睛接收的",
-    "sourceNote": "拉丁 visualis，videre(看)"
-  },
-  "instance": {
-    "modernMeaningCn": "例子、实例",
-    "literalMeaningCn": "站在近旁",
-    "metaphorMeaningCn": "拿来当例子的那一个",
-    "metaphorOptions": ["拿来当例子的那一个", "站在南方的哨兵", "数二十个硬币"],
-    "mnemonicNote": "in(在上)+stance(站立)：摆在跟前的那一个",
-    "sourceNote": "拉丁 instantia，in-(在上) + stare(站)"
-  },
-  "mixture": {
-    "modernMeaningCn": "混合物、混合",
-    "literalMeaningCn": "混在一起",
-    "metaphorMeaningCn": "几样东西搅到一块",
-    "metaphorOptions": ["几样东西搅到一块", "厨房做出的面包", "装蜜蜂的箱子"],
-    "mnemonicNote": "mix(混合)+ture：搅在一起的东西",
-    "sourceNote": "拉丁 mixtura，miscere(混合)"
-  },
-  "expense": {
-    "modernMeaningCn": "费用、开支",
-    "literalMeaningCn": "称出去的钱",
-    "metaphorMeaningCn": "花出去的那笔钱",
-    "metaphorOptions": ["花出去的那笔钱", "市场卖出的黄金", "数二十个硬币"],
-    "mnemonicNote": "ex(向外)+pense(称量)：称出去付掉的钱",
-    "sourceNote": "拉丁 expensa，ex- + pendere(称量、支付)"
-  },
-  "limited": {
-    "modernMeaningCn": "有限的、受限的",
-    "literalMeaningCn": "划了界限的",
-    "metaphorMeaningCn": "有个上限，超不过去",
-    "metaphorOptions": ["有个上限，超不过去", "量二十个箱子", "写满记录的本子"],
-    "mnemonicNote": "limit(界限)+ed：划了界的，有边的",
-    "sourceNote": "拉丁 limitatus，limes(边界)"
-  },
-  "violence": {
-    "modernMeaningCn": "暴力、猛烈",
-    "literalMeaningCn": "施暴这件事",
-    "metaphorMeaningCn": "动粗伤人的举动",
-    "metaphorOptions": ["动粗伤人的举动", "掉在地上的牙齿", "锁在监狱的人"],
-    "mnemonicNote": "viol(越界、施暴)+ence：越了界，动起手来",
-    "sourceNote": "拉丁 violentia，violare(施暴)"
-  },
-  "distant": {
-    "modernMeaningCn": "遥远的、疏远的",
-    "literalMeaningCn": "站得远远的",
-    "metaphorMeaningCn": "隔开一大段距离",
-    "metaphorOptions": ["隔开一大段距离", "绕过南方的河", "开往城市的车"],
-    "mnemonicNote": "dis(分开)+stant(站立)：站开老远的",
-    "sourceNote": "拉丁 distans，dis-(分开) + stare(站)"
-  },
-  "distance": {
-    "modernMeaningCn": "距离、远方",
-    "literalMeaningCn": "站开的那段",
-    "metaphorMeaningCn": "两地之间隔着多远",
-    "metaphorOptions": ["两地之间隔着多远", "量二十个箱子", "绕过南方的河"],
-    "mnemonicNote": "dis(分开)+stance(站立)：站开的那一段长度",
-    "sourceNote": "拉丁 distantia，dis-(分开) + stare(站)"
-  }
+ "insist": {
+  "modernMeaningCn": "坚持、坚决要求",
+  "literalMeaningCn": "站在上面不挪",
+  "metaphorMeaningCn": "咬住一件事不松口",
+  "metaphorOptions": [
+   "咬住一件事不松口",
+   "持有的地方",
+   "比较的小站"
+  ],
+  "mnemonicNote": "in(在上)+sist(站立)：站定不动，不肯让步",
+  "sourceNote": "拉丁 insistere，in-(在上) + sistere(站立)"
+ },
+ "retain": {
+  "modernMeaningCn": "保留、留住",
+  "literalMeaningCn": "继续拿着",
+  "metaphorMeaningCn": "把东西一直留在身边",
+  "metaphorOptions": [
+   "把东西一直留在身边",
+   "工业的的影子",
+   "把偏见翻开"
+  ],
+  "mnemonicNote": "re(回、继续)+tain(持有)：继续拿在手里",
+  "sourceNote": "拉丁 retinere，re-(回) + tenere(持有)"
+ },
+ "impose": {
+  "modernMeaningCn": "强加、征税",
+  "literalMeaningCn": "放到别人身上",
+  "metaphorMeaningCn": "硬塞给人家去承担",
+  "metaphorOptions": [
+   "硬塞给人家去承担",
+   "悬挂的背面",
+   "被时期的东西"
+  ],
+  "mnemonicNote": "im(在上)+pos(放置)：往人身上放，就是强加",
+  "sourceNote": "拉丁 imponere，in-(在上) + ponere(放置)"
+ },
+ "sufficient": {
+  "modernMeaningCn": "足够的、充分的",
+  "literalMeaningCn": "够做成事",
+  "metaphorMeaningCn": "数量刚好够用",
+  "metaphorOptions": [
+   "数量刚好够用",
+   "沉思的过程",
+   "向着感谢去"
+  ],
+  "mnemonicNote": "suf(在下)+fic(做、成)+ient：底下做足了，够用",
+  "sourceNote": "拉丁 sufficiens，sub-(在下) + facere(做)"
+ },
+ "efficient": {
+  "modernMeaningCn": "高效的、有效率的",
+  "literalMeaningCn": "做出成效",
+  "metaphorMeaningCn": "花得少却做得快",
+  "metaphorOptions": [
+   "花得少却做得快",
+   "屠宰的人",
+   "行进的影子"
+  ],
+  "mnemonicNote": "ef(向外)+fic(做、成)+ient：做出来的成效明显",
+  "sourceNote": "拉丁 efficiens，ex-(向外) + facere(做)"
+ },
+ "scientist": {
+  "modernMeaningCn": "科学家、研究者",
+  "literalMeaningCn": "求知的人",
+  "metaphorMeaningCn": "专门研究学问的人",
+  "metaphorOptions": [
+   "专门研究学问的人",
+   "使惊讶的过程",
+   "向着诅咒去"
+  ],
+  "mnemonicNote": "sci(知道)+ent+ist：以求知为业的人",
+  "sourceNote": "scientia(知识) + -ist(……者)"
+ },
+ "motion": {
+  "modernMeaningCn": "运动、动作",
+  "literalMeaningCn": "移动这件事",
+  "metaphorMeaningCn": "位置在变的过程",
+  "metaphorOptions": [
+   "位置在变的过程",
+   "把英格串起来",
+   "把例行程序翻开"
+  ],
+  "mnemonicNote": "mot(移动)+ion：动起来的那个过程",
+  "sourceNote": "拉丁 motio，movere(移动)"
+ },
+ "motor": {
+  "modernMeaningCn": "发动机、马达",
+  "literalMeaningCn": "使它动的东西",
+  "metaphorMeaningCn": "带着机器转起来的装置",
+  "metaphorOptions": [
+   "带着机器转起来的装置",
+   "市民的的旧事",
+   "减去的背面"
+  ],
+  "mnemonicNote": "mot(移动)+or：让东西动起来的那个装置",
+  "sourceNote": "拉丁 motor，movere(移动)"
+ },
+ "minor": {
+  "modernMeaningCn": "较小的、次要的",
+  "literalMeaningCn": "更小的那个",
+  "metaphorMeaningCn": "相比之下次要一些",
+  "metaphorOptions": [
+   "相比之下次要一些",
+   "守着头巾过活",
+   "实验的小站"
+  ],
+  "mnemonicNote": "min(小)+or：比较小的一方",
+  "sourceNote": "拉丁 minor（较小的）"
+ },
+ "signal": {
+  "modernMeaningCn": "信号、标志",
+  "literalMeaningCn": "做出记号",
+  "metaphorMeaningCn": "用来传话的一个记号",
+  "metaphorOptions": [
+   "用来传话的一个记号",
+   "一种时间的习俗",
+   "怜悯的一角"
+  ],
+  "mnemonicNote": "sign(记号)+al：立个记号来传信",
+  "sourceNote": "拉丁 signum（记号）"
+ },
+ "urban": {
+  "modernMeaningCn": "城市的、都市的",
+  "literalMeaningCn": "属于都市",
+  "metaphorMeaningCn": "城里这一片的",
+  "metaphorOptions": [
+   "城里这一片的",
+   "新奇的旧事",
+   "守着逐渐的过活"
+  ],
+  "mnemonicNote": "urb(都市)+an：跟城里有关的",
+  "sourceNote": "拉丁 urbanus，urbs(城市)"
+ },
+ "circle": {
+  "modernMeaningCn": "圆、圈子",
+  "literalMeaningCn": "一个圆",
+  "metaphorMeaningCn": "围成一圈的形状",
+  "metaphorOptions": [
+   "围成一圈的形状",
+   "立定的旧事",
+   "坠落的来路"
+  ],
+  "mnemonicNote": "circ(圆)+le：围成的一个圆",
+  "sourceNote": "拉丁 circulus，circus(圆)"
+ },
+ "temporary": {
+  "modernMeaningCn": "临时的、暂时的",
+  "literalMeaningCn": "只管一段时间",
+  "metaphorMeaningCn": "过一阵就要换掉的",
+  "metaphorOptions": [
+   "过一阵就要换掉的",
+   "替行进操心",
+   "守着承租人过活"
+  ],
+  "mnemonicNote": "tempor(时间)+ary：只占一小段时间的",
+  "sourceNote": "拉丁 temporarius，tempus(时间)"
+ },
+ "opposite": {
+  "modernMeaningCn": "相反的、对面的",
+  "literalMeaningCn": "放在对面",
+  "metaphorMeaningCn": "正对着你的那一头",
+  "metaphorOptions": [
+   "正对着你的那一头",
+   "替公务操心",
+   "把一步翻开"
+  ],
+  "mnemonicNote": "op(对着)+pos(放置)+ite：摆在对面的",
+  "sourceNote": "拉丁 oppositus，ob-(对着) + ponere(放)"
+ },
+ "delay": {
+  "modernMeaningCn": "耽搁、延迟",
+  "literalMeaningCn": "往下放一放",
+  "metaphorMeaningCn": "把事情往后推",
+  "metaphorOptions": [
+   "把事情往后推",
+   "把摘要串起来",
+   "传说的工具"
+  ],
+  "mnemonicNote": "de(向下)+lay(放置)：放一放，往后推",
+  "sourceNote": "古法语 delayer，de- + laier(留下)"
+ },
+ "remote": {
+  "modernMeaningCn": "遥远的、偏僻的",
+  "literalMeaningCn": "移到远处去",
+  "metaphorMeaningCn": "离得远远够不着",
+  "metaphorOptions": [
+   "离得远远够不着",
+   "强壮的的影子",
+   "成员的人"
+  ],
+  "mnemonicNote": "re(回)+mote(移动)：往回移得远，够不着",
+  "sourceNote": "拉丁 remotus，re-(回) + movere(移动)"
+ },
+ "specify": {
+  "modernMeaningCn": "指定、详细说明",
+  "literalMeaningCn": "使看得清",
+  "metaphorMeaningCn": "把要求一条条说清",
+  "metaphorOptions": [
+   "把要求一条条说清",
+   "替紫色操心",
+   "守着拴住过活"
+  ],
+  "mnemonicNote": "spec(看)+ify：让人看得明白地列出来",
+  "sourceNote": "拉丁 specificare，species(种类)"
+ },
+ "electric": {
+  "modernMeaningCn": "电的、电动的",
+  "literalMeaningCn": "与电有关",
+  "metaphorMeaningCn": "靠电来运转的",
+  "metaphorOptions": [
+   "靠电来运转的",
+   "捆绑的另一面",
+   "服从的一角"
+  ],
+  "mnemonicNote": "electr(电)+ic：由电驱动的",
+  "sourceNote": "希腊 elektron（琥珀，摩擦生电）"
+ },
+ "visual": {
+  "modernMeaningCn": "视觉的、看得见的",
+  "literalMeaningCn": "与看有关",
+  "metaphorMeaningCn": "用眼睛接收的",
+  "metaphorOptions": [
+   "用眼睛接收的",
+   "向着时间去",
+   "围着表面转"
+  ],
+  "mnemonicNote": "vis(看)+ual：靠眼睛接收的",
+  "sourceNote": "拉丁 visualis，videre(看)"
+ },
+ "instance": {
+  "modernMeaningCn": "例子、实例",
+  "literalMeaningCn": "站在近旁",
+  "metaphorMeaningCn": "拿来当例子的那一个",
+  "metaphorOptions": [
+   "拿来当例子的那一个",
+   "一种源头的习俗",
+   "正确的的人"
+  ],
+  "mnemonicNote": "in(在上)+stance(站立)：摆在跟前的那一个",
+  "sourceNote": "拉丁 instantia，in-(在上) + stare(站)"
+ },
+ "mixture": {
+  "modernMeaningCn": "混合物、混合",
+  "literalMeaningCn": "混在一起",
+  "metaphorMeaningCn": "几样东西搅到一块",
+  "metaphorOptions": [
+   "几样东西搅到一块",
+   "数着使丢脸过日子",
+   "谷物的工具"
+  ],
+  "mnemonicNote": "mix(混合)+ture：搅在一起的东西",
+  "sourceNote": "拉丁 mixtura，miscere(混合)"
+ },
+ "expense": {
+  "modernMeaningCn": "费用、开支",
+  "literalMeaningCn": "称出去的钱",
+  "metaphorMeaningCn": "花出去的那笔钱",
+  "metaphorOptions": [
+   "花出去的那笔钱",
+   "怪物的另一面",
+   "遭受的味道"
+  ],
+  "mnemonicNote": "ex(向外)+pense(称量)：称出去付掉的钱",
+  "sourceNote": "拉丁 expensa，ex- + pendere(称量、支付)"
+ },
+ "limited": {
+  "modernMeaningCn": "有限的、受限的",
+  "literalMeaningCn": "划了界限的",
+  "metaphorMeaningCn": "有个上限，超不过去",
+  "metaphorOptions": [
+   "有个上限，超不过去",
+   "围着自动的转",
+   "玉蜀黍的来路"
+  ],
+  "mnemonicNote": "limit(界限)+ed：划了界的，有边的",
+  "sourceNote": "拉丁 limitatus，limes(边界)"
+ },
+ "violence": {
+  "modernMeaningCn": "暴力、猛烈",
+  "literalMeaningCn": "施暴这件事",
+  "metaphorMeaningCn": "动粗伤人的举动",
+  "metaphorOptions": [
+   "动粗伤人的举动",
+   "留下的过程",
+   "离使失望很远"
+  ],
+  "mnemonicNote": "viol(越界、施暴)+ence：越了界，动起手来",
+  "sourceNote": "拉丁 violentia，violare(施暴)"
+ },
+ "distant": {
+  "modernMeaningCn": "遥远的、疏远的",
+  "literalMeaningCn": "站得远远的",
+  "metaphorMeaningCn": "隔开一大段距离",
+  "metaphorOptions": [
+   "隔开一大段距离",
+   "一种绊倒的习俗",
+   "易接近的的人"
+  ],
+  "mnemonicNote": "dis(分开)+stant(站立)：站开老远的",
+  "sourceNote": "拉丁 distans，dis-(分开) + stare(站)"
+ },
+ "distance": {
+  "modernMeaningCn": "距离、远方",
+  "literalMeaningCn": "站开的那段",
+  "metaphorMeaningCn": "两地之间隔着多远",
+  "metaphorOptions": [
+   "两地之间隔着多远",
+   "被强壮的的东西",
+   "已婚的的味道"
+  ],
+  "mnemonicNote": "dis(分开)+stance(站立)：站开的那一段长度",
+  "sourceNote": "拉丁 distantia，dis-(分开) + stare(站)"
+ }
 }

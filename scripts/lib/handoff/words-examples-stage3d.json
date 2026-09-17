@@ -1,0 +1,290 @@
+{
+  "asian": {
+    "exampleEn": "He is an Asian student from here.",
+    "exampleCn": "他是个来自这儿的亚洲学生。"
+  },
+  "divide": {
+    "exampleEn": "We divide the cake.",
+    "exampleCn": "我们把蛋糕分开。"
+  },
+  "hotdog": {
+    "exampleEn": "I ate a hotdog.",
+    "exampleCn": "我吃了一个热狗。"
+  },
+  "icecream": {
+    "exampleEn": "She likes icecream very much.",
+    "exampleCn": "她非常喜欢冰淇淋。"
+  },
+  "schoolbag": {
+    "exampleEn": "My schoolbag is heavy.",
+    "exampleCn": "我的书包很重。"
+  },
+  "addicted": {
+    "exampleEn": "He is addicted to games.",
+    "exampleCn": "他对游戏上瘾。"
+  },
+  "airmail": {
+    "exampleEn": "Send it by airmail.",
+    "exampleCn": "用航空邮件寄它。"
+  },
+  "appreciate": {
+    "exampleEn": "I appreciate your help.",
+    "exampleCn": "我感激你的帮助。"
+  },
+  "backache": {
+    "exampleEn": "He has a backache.",
+    "exampleCn": "他背痛。"
+  },
+  "ballpoint": {
+    "exampleEn": "Use a ballpoint pen.",
+    "exampleCn": "用圆珠笔写。"
+  },
+  "beancurd": {
+    "exampleEn": "The beancurd tastes very soft.",
+    "exampleCn": "这豆腐尝起来很软。"
+  },
+  "bedclothes": {
+    "exampleEn": "Please wash the bedclothes now.",
+    "exampleCn": "现在请把床上用品洗了。"
+  },
+  "birdcage": {
+    "exampleEn": "The birdcage is small.",
+    "exampleCn": "鸟笼很小。"
+  },
+  "bookmark": {
+    "exampleEn": "Use a bookmark to save the page.",
+    "exampleCn": "用张书签来保存这一页。"
+  },
+  "centigrade": {
+    "exampleEn": "Water is 100 centigrade.",
+    "exampleCn": "水是摄氏一百度。"
+  },
+  "changeable": {
+    "exampleEn": "The weather is changeable.",
+    "exampleCn": "天气易变。"
+  },
+  "glasshouse": {
+    "exampleEn": "Plants grow in the glasshouse.",
+    "exampleCn": "植物在玻璃温室里长。"
+  },
+  "greengrocer": {
+    "exampleEn": "The greengrocer sells fruit.",
+    "exampleCn": "果蔬商卖水果。"
+  },
+  "handtruck": {
+    "exampleEn": "Move it with a handtruck.",
+    "exampleCn": "用手推车挪它。"
+  },
+  "miniskirt": {
+    "exampleEn": "She wore a miniskirt.",
+    "exampleCn": "她穿了迷你裙。"
+  },
+  "oceania": {
+    "exampleEn": "Oceania has many islands.",
+    "exampleCn": "大洋洲有很多岛。"
+  },
+  "playroom": {
+    "exampleEn": "The kids are in the playroom.",
+    "exampleCn": "孩子们在游戏室。"
+  },
+  "postbox": {
+    "exampleEn": "Put the letter in the postbox.",
+    "exampleCn": "把信投进邮筒。"
+  },
+  "postcode": {
+    "exampleEn": "What is your postcode?",
+    "exampleCn": "你的邮编是多少？"
+  },
+  "regards": {
+    "exampleEn": "Give my regards to him.",
+    "exampleCn": "代我问候他。"
+  },
+  "rewind": {
+    "exampleEn": "Please rewind the tape for me.",
+    "exampleCn": "请帮我把磁带倒回去。"
+  },
+  "salesgirl": {
+    "exampleEn": "The salesgirl smiled at me.",
+    "exampleCn": "女店员对我笑了笑。"
+  },
+  "saleswoman": {
+    "exampleEn": "The saleswoman helped me.",
+    "exampleCn": "女售货员帮了我。"
+  },
+  "sharpener": {
+    "exampleEn": "I need a sharpener.",
+    "exampleCn": "我需要卷笔刀。"
+  },
+  "skipping": {
+    "exampleEn": "They are skipping in the park.",
+    "exampleCn": "他们正在公园里跳绳。"
+  },
+  "stomachache": {
+    "exampleEn": "I have a stomachache.",
+    "exampleCn": "我胃疼。"
+  },
+  "stopwatch": {
+    "exampleEn": "The stopwatch stopped at ten.",
+    "exampleCn": "秒表停在十秒上。"
+  },
+  "subtraction": {
+    "exampleEn": "Subtraction is the opposite of addition.",
+    "exampleCn": "减法是加法的反面。"
+  },
+  "sunburnt": {
+    "exampleEn": "His skin is sunburnt.",
+    "exampleCn": "他的皮肤晒伤了。"
+  },
+  "washroom": {
+    "exampleEn": "Where is the washroom?",
+    "exampleCn": "洗手间在哪？"
+  },
+  "dishonour": {
+    "exampleEn": "His act dishonoured us.",
+    "exampleCn": "他的行为使我们蒙羞。"
+  },
+  "dissatisfy": {
+    "exampleEn": "Nothing could dissatisfy the critic.",
+    "exampleCn": "没什么能让那位批评者满意。"
+  },
+  "fatherinlaw": {
+    "exampleEn": "My fatherinlaw is very kind.",
+    "exampleCn": "我岳父很和善。"
+  },
+  "livingroom": {
+    "exampleEn": "We sit in the livingroom.",
+    "exampleCn": "我们坐在客厅。"
+  },
+  "outskirt": {
+    "exampleEn": "They live on the outskirt.",
+    "exampleCn": "他们住在郊区。"
+  },
+  "preposition": {
+    "exampleEn": "A preposition links nouns.",
+    "exampleCn": "介词连接名词。"
+  },
+  "reflexion": {
+    "exampleEn": "See your reflexion in the glass.",
+    "exampleCn": "在玻璃里看你的倒影。"
+  },
+  "seaport": {
+    "exampleEn": "The seaport is busy.",
+    "exampleCn": "海港很繁忙。"
+  },
+  "uptodate": {
+    "exampleEn": "Keep your skills uptodate always.",
+    "exampleCn": "让你的技能始终保持最新。"
+  },
+  "wellknown": {
+    "exampleEn": "He is a wellknown movie star.",
+    "exampleCn": "他是个著名的电影明星。"
+  },
+  "accessary": {
+    "exampleEn": "He was an accessary.",
+    "exampleCn": "他是从犯。"
+  },
+  "acquisitive": {
+    "exampleEn": "He is very acquisitive by nature.",
+    "exampleCn": "他天性非常贪得。"
+  },
+  "bewilder": {
+    "exampleEn": "The map bewildered me.",
+    "exampleCn": "地图把我弄糊涂了。"
+  },
+  "byproduct": {
+    "exampleEn": "Ash is a byproduct.",
+    "exampleCn": "灰是副产品。"
+  },
+  "dully": {
+    "exampleEn": "He answered dully and fell silent.",
+    "exampleCn": "他迟钝地答了一声便沉默了。"
+  },
+  "dynamical": {
+    "exampleEn": "A dynamical system moves.",
+    "exampleCn": "动力系统在动。"
+  },
+  "firstrate": {
+    "exampleEn": "This is a firstrate good plan.",
+    "exampleCn": "这是个一流的好计划。"
+  },
+  "insulator": {
+    "exampleEn": "Rubber is an insulator.",
+    "exampleCn": "橡胶是绝缘体。"
+  },
+  "kilowatt": {
+    "exampleEn": "It uses one kilowatt.",
+    "exampleCn": "它用一千瓦。"
+  },
+  "lamentation": {
+    "exampleEn": "Their lamentation was loud.",
+    "exampleCn": "他们的悲叹很响。"
+  },
+  "outermost": {
+    "exampleEn": "The outermost ring is broken.",
+    "exampleCn": "最外面那一圈坏了。"
+  },
+  "photoelectric": {
+    "exampleEn": "A photoelectric cell converts light.",
+    "exampleCn": "光电管把光转成电。"
+  },
+  "predestine": {
+    "exampleEn": "Some call it predestined.",
+    "exampleCn": "有人说是命中注定。"
+  },
+  "protend": {
+    "exampleEn": "The root protends into the soil.",
+    "exampleCn": "根向前伸进了土里。"
+  },
+  "regenerative": {
+    "exampleEn": "The liver is regenerative.",
+    "exampleCn": "肝脏能再生。"
+  },
+  "sittingroom": {
+    "exampleEn": "We chat in the sittingroom.",
+    "exampleCn": "我们在起居室聊天。"
+  },
+  "snobbish": {
+    "exampleEn": "Do not be snobbish.",
+    "exampleCn": "别势利。"
+  },
+  "solvable": {
+    "exampleEn": "The puzzle is solvable.",
+    "exampleCn": "这谜题可解。"
+  },
+  "strangler": {
+    "exampleEn": "The strangler fled from the scene.",
+    "exampleCn": "扼杀者从现场逃走了。"
+  },
+  "subscript": {
+    "exampleEn": "Use a subscript for the index.",
+    "exampleCn": "下标用来标索引。"
+  },
+  "tactics": {
+    "exampleEn": "Good tactics won the long game.",
+    "exampleCn": "好战术赢得了这场持久战。"
+  },
+  "thoughtless": {
+    "exampleEn": "That was a thoughtless rude remark.",
+    "exampleCn": "那是一句欠考虑的粗话。"
+  },
+  "touchable": {
+    "exampleEn": "The screen is touchable.",
+    "exampleCn": "屏幕可触摸。"
+  },
+  "ultrasonic": {
+    "exampleEn": "Ultrasonic waves clean the device.",
+    "exampleCn": "超声波能清洁器件。"
+  },
+  "undermine": {
+    "exampleEn": "They undermined the public trust.",
+    "exampleCn": "他们破坏了公众信任。"
+  },
+  "vitamine": {
+    "exampleEn": "Eat vitamine daily for good health.",
+    "exampleCn": "每天服用维生素有益健康。"
+  },
+  "workpiece": {
+    "exampleEn": "Clamp the workpiece before cutting.",
+    "exampleCn": "切削前先把工件夹好。"
+  }
+}

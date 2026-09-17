@@ -1,723 +1,723 @@
 {
-  "_comment": "Stage 3 待写释义（batch-14，本批 60 词，高考批第 7 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
-  "examination": {
-    "modernMeaningCn": "考试",
-    "literalMeaningCn": "考查之事",
-    "metaphorMeaningCn": "考试、检查",
-    "metaphorOptions": [
-      "考试、检查",
-      "疼痛的旧事",
-      "悬挂的旧事"
-    ],
-    "mnemonicNote": "examin(细查)+ation：一张卷子把学过的东西过一遍秤",
-    "sourceNote": "拉丁 examinatio，examen(秤舌、考查)"
-  },
-  "example": {
-    "modernMeaningCn": "例子",
-    "literalMeaningCn": "取出来的样子",
-    "metaphorMeaningCn": "例子、榜样",
-    "metaphorOptions": [
-      "例子、榜样",
-      "烘焙的过程",
-      "向着混合物去"
-    ],
-    "mnemonicNote": "ex(出)+ample(拿)：从一堆里拎一个出来给大家看",
-    "sourceNote": "拉丁 exemplum，eximere(取出)"
-  },
-  "excellent": {
-    "modernMeaningCn": "优秀的",
-    "literalMeaningCn": "高出众人的",
-    "metaphorMeaningCn": "优秀的、极好的",
-    "metaphorOptions": [
-      "优秀的、极好的",
-      "被奶油的东西",
-      "感应的另一面"
-    ],
-    "mnemonicNote": "excell(超出)+ent：在一排人里冒出头那一截",
-    "sourceNote": "拉丁 excellere，ex-(出) + -cellere(高耸)"
-  },
-  "exchange": {
-    "modernMeaningCn": "交换",
-    "literalMeaningCn": "互相换出去",
-    "metaphorMeaningCn": "交换、兑换",
-    "metaphorOptions": [
-      "交换、兑换",
-      "把打架翻开",
-      "把改良串起来"
-    ],
-    "mnemonicNote": "ex(出)+change(换)：你手里的到我手上，我这边的到你那边",
-    "sourceNote": "古法语 eschangier，es-(出) + changier(换)"
-  },
-  "exhibition": {
-    "modernMeaningCn": "展览",
-    "literalMeaningCn": "摆出来给人看",
-    "metaphorMeaningCn": "展览、展览会",
-    "metaphorOptions": [
-      "展览、展览会",
-      "类似物的工具",
-      "数着成零碎过日子"
-    ],
-    "mnemonicNote": "exhibit(展出)+ion：一件件挂在墙上、摆在台上",
-    "sourceNote": "拉丁 exhibitio，exhibere(拿出、展示)"
-  },
-  "existence": {
-    "modernMeaningCn": "存在",
-    "literalMeaningCn": "在着的状态",
-    "metaphorMeaningCn": "存在、生存",
-    "metaphorOptions": [
-      "存在、生存",
-      "向着放置去",
-      "围着尖啸声转"
-    ],
-    "mnemonicNote": "exist(在着)+ence：它就在那儿，你说不清为什么",
-    "sourceNote": "拉丁 exsistentia，exsistere(出现、在着)"
-  },
-  "expectation": {
-    "modernMeaningCn": "期望",
-    "literalMeaningCn": "伸长脖子等",
-    "metaphorMeaningCn": "期望、预期",
-    "metaphorOptions": [
-      "期望、预期",
-      "替战神操心",
-      "离天文学很远"
-    ],
-    "mnemonicNote": "expect(盼望)+ation：心里早把好事演了一遍",
-    "sourceNote": "拉丁 exspectatio，exspectare(盼望)"
-  },
-  "expensive": {
-    "modernMeaningCn": "昂贵的",
-    "literalMeaningCn": "很花钱的",
-    "metaphorMeaningCn": "昂贵的、花钱多的",
-    "metaphorOptions": [
-      "昂贵的、花钱多的",
-      "发射的影子",
-      "把无差别的翻开"
-    ],
-    "mnemonicNote": "expens(花费)+ive：价签上的数让人倒吸一口气",
-    "sourceNote": "拉丁 expensa，expendere(称量、支付)"
-  },
-  "explanation": {
-    "modernMeaningCn": "解释",
-    "literalMeaningCn": "摊平了说",
-    "metaphorMeaningCn": "解释、说明",
-    "metaphorOptions": [
-      "解释、说明",
-      "把装满串起来",
-      "发生的工具"
-    ],
-    "mnemonicNote": "explan(摊开)+ation：把皱着的道理摊平给你看",
-    "sourceNote": "拉丁 explanatio，explanare(摊平、说明)"
-  },
-  "expression": {
-    "modernMeaningCn": "表达",
-    "literalMeaningCn": "挤出来的东西",
-    "metaphorMeaningCn": "表达、表情",
-    "metaphorOptions": [
-      "表达、表情",
-      "符合的影子",
-      "替队列操心"
-    ],
-    "mnemonicNote": "express(挤出)+ion：心里那点意思被挤到脸上和话里",
-    "sourceNote": "拉丁 expressio，exprimere(压出)"
-  },
-  "extraordinary": {
-    "modernMeaningCn": "非凡的",
-    "literalMeaningCn": "超出寻常",
-    "metaphorMeaningCn": "非凡的、特别的",
-    "metaphorOptions": [
-      "非凡的、特别的",
-      "离欺骗很远",
-      "源头的过程"
-    ],
-    "mnemonicNote": "extra(超出)+ordinary(平常)：越过了那条寻常的线",
-    "sourceNote": "拉丁 extraordinarius，extra-(超出) + ordo(常规)"
-  },
-  "extremely": {
-    "modernMeaningCn": "极其",
-    "literalMeaningCn": "以极端的方式",
-    "metaphorMeaningCn": "极其、非常",
-    "metaphorOptions": [
-      "极其、非常",
-      "替利用操心",
-      "守着帐篷过活"
-    ],
-    "mnemonicNote": "extreme(尽头)+ly：一路推到头那个程度",
-    "sourceNote": "拉丁 extremus(最外的)，ex-(出) 的最高级"
-  },
-  "eyesight": {
-    "modernMeaningCn": "视力",
-    "literalMeaningCn": "眼睛看物的本事",
-    "metaphorMeaningCn": "视力、眼力",
-    "metaphorOptions": [
-      "视力、眼力",
-      "把次等的翻开",
-      "替提议操心"
-    ],
-    "mnemonicNote": "eye(眼)+sight(看)：远处那片小字还认不认得",
-    "sourceNote": "古英语 eage(眼) + gesiht(视觉)"
-  },
-  "eyewitness": {
-    "modernMeaningCn": "目击者",
-    "literalMeaningCn": "亲眼见证的人",
-    "metaphorMeaningCn": "目击者、见证人",
-    "metaphorOptions": [
-      "目击者、见证人",
-      "高度的工具",
-      "把文字串起来"
-    ],
-    "mnemonicNote": "eye(眼)+witness(证人)：当时就站在现场那位",
-    "sourceNote": "古英语 eage(眼) + witnes(证人)"
-  },
-  "failure": {
-    "modernMeaningCn": "失败",
-    "literalMeaningCn": "没做到的事",
-    "metaphorMeaningCn": "失败、故障",
-    "metaphorOptions": [
-      "失败、故障",
-      "把抵押品串起来",
-      "把易变地翻开"
-    ],
-    "mnemonicNote": "fail(失手)+ure：伸手去够那一下扑了空",
-    "sourceNote": "古法语 faillir(失误)，拉丁 fallere(欺骗、使失望)"
-  },
-  "fairly": {
-    "modernMeaningCn": "相当地",
-    "literalMeaningCn": "以公道的方式",
-    "metaphorMeaningCn": "相当地、公平地",
-    "metaphorOptions": [
-      "相当地、公平地",
-      "离如此很远",
-      "替器官操心"
-    ],
-    "mnemonicNote": "fair(公道)+ly：两边摆平了说，程度也算到位",
-    "sourceNote": "古英语 fæger(美好的) + -lice"
-  },
-  "fairness": {
-    "modernMeaningCn": "公平",
-    "literalMeaningCn": "公道的性质",
-    "metaphorMeaningCn": "公平、公正",
-    "metaphorOptions": [
-      "公平、公正",
-      "尝试的另一面",
-      "出现的一角"
-    ],
-    "mnemonicNote": "fair(公道)+ness：尺子摆在正当中，两头一般长",
-    "sourceNote": "古英语 fæger(美好的) + -nes(状态)"
-  },
-  "famous": {
-    "modernMeaningCn": "著名的",
-    "literalMeaningCn": "名声在外的",
-    "metaphorMeaningCn": "著名的、出名的",
-    "metaphorOptions": [
-      "著名的、出名的",
-      "经济的另一面",
-      "通过的一角"
-    ],
-    "mnemonicNote": "fam(名声)+ous：名字被远远近近的人挂在嘴边",
-    "sourceNote": "拉丁 fama(传闻、名声)，fari(说)"
-  },
-  "fantastic": {
-    "modernMeaningCn": "极好的",
-    "literalMeaningCn": "像幻梦一样",
-    "metaphorMeaningCn": "极好的、奇妙的",
-    "metaphorOptions": [
-      "极好的、奇妙的",
-      "编辑的过程",
-      "守着逐字的过活"
-    ],
-    "mnemonicNote": "fantas(幻想)+tic：好得让人怀疑是不是在做梦",
-    "sourceNote": "希腊 phantastikos，phantazein(使显现)"
-  },
-  "farmer": {
-    "modernMeaningCn": "农民",
-    "literalMeaningCn": "种地的人",
-    "metaphorMeaningCn": "农民、农场主",
-    "metaphorOptions": [
-      "农民、农场主",
-      "向上的工具",
-      "数着可以避免的过日子"
-    ],
-    "mnemonicNote": "farm(农田)+er(人)：一年四季跟着土地的节气走",
-    "sourceNote": "古法语 ferme(租地)，拉丁 firmare(固定)"
-  },
-  "fasten": {
-    "modernMeaningCn": "系紧",
-    "literalMeaningCn": "使牢固",
-    "metaphorMeaningCn": "系紧、扣住",
-    "metaphorOptions": [
-      "系紧、扣住",
-      "留下的旧事",
-      "把引用翻开"
-    ],
-    "mnemonicNote": "fast(牢)+en(使)：把带子拉到拉不动为止",
-    "sourceNote": "古英语 fæst(牢固) + -en(使动后缀)"
-  },
-  "favourite": {
-    "modernMeaningCn": "最喜欢的",
-    "literalMeaningCn": "被偏爱的那位",
-    "metaphorMeaningCn": "最喜欢的、最爱的人",
-    "metaphorOptions": [
-      "最喜欢的、最爱的人",
-      "石灰的影子",
-      "被表面的东西"
-    ],
-    "mnemonicNote": "favour(偏爱)+ite：一屋子人里单挑出来的那一个",
-    "sourceNote": "意大利 favorito，favorire(偏爱)"
-  },
-  "feather": {
-    "modernMeaningCn": "羽毛",
-    "literalMeaningCn": "鸟身上的毛",
-    "metaphorMeaningCn": "羽毛",
-    "metaphorOptions": [
-      "羽毛",
-      "冒险的旧事",
-      "东方的小站"
-    ],
-    "mnemonicNote": "feat(羽)+her：风一吹就飘起来的那片轻东西",
-    "sourceNote": "古英语 feþer，与希腊 pteron(翼) 同源"
-  },
-  "feeling": {
-    "modernMeaningCn": "感觉",
-    "literalMeaningCn": "心里的触感",
-    "metaphorMeaningCn": "感觉、感情",
-    "metaphorOptions": [
-      "感觉、感情",
-      "重标记的另一面",
-      "过度的味道"
-    ],
-    "mnemonicNote": "feel(触摸)+ing：手碰得到、心里也接得住的那一层",
-    "sourceNote": "古英语 felan(触摸) + -ing"
-  },
-  "festival": {
-    "modernMeaningCn": "节日",
-    "literalMeaningCn": "欢庆的日子",
-    "metaphorMeaningCn": "节日、音乐节",
-    "metaphorOptions": [
-      "节日、音乐节",
-      "把服务串起来",
-      "把使失去能力翻开"
-    ],
-    "mnemonicNote": "festiv(欢庆)+al：锣鼓喧天、不用干活的那几天",
-    "sourceNote": "中世纪拉丁 festivalis，festum(宴会)"
-  },
-  "fifteen": {
-    "modernMeaningCn": "十五",
-    "literalMeaningCn": "五加上十",
-    "metaphorMeaningCn": "十五、十五个",
-    "metaphorOptions": [
-      "十五、十五个",
-      "波浪的旧事",
-      "离浆果很远"
-    ],
-    "mnemonicNote": "fif(五)+teen(十)：十个指头数完再添五个",
-    "sourceNote": "古英语 fiftene，fif(五) + tene(十)"
-  },
-  "fifty": {
-    "modernMeaningCn": "五十",
-    "literalMeaningCn": "五个十",
-    "metaphorMeaningCn": "五十、五十个",
-    "metaphorOptions": [
-      "五十、五十个",
-      "景观的影子",
-      "引导者的人"
-    ],
-    "mnemonicNote": "fif(五)+ty(十)：五捆十根扎成一扎",
-    "sourceNote": "古英语 fiftig，fif(五) + tig(十)"
-  },
-  "fighter": {
-    "modernMeaningCn": "战士",
-    "literalMeaningCn": "打仗的人",
-    "metaphorMeaningCn": "战士、战斗机",
-    "metaphorOptions": [
-      "战士、战斗机",
-      "使感动的旧事",
-      "使摇动的背面"
-    ],
-    "mnemonicNote": "fight(搏斗)+er(人)：遇上事总是冲上去的那个",
-    "sourceNote": "古英语 feohtan(战斗) + -er"
-  },
-  "fingernail": {
-    "modernMeaningCn": "指甲",
-    "literalMeaningCn": "指头上的甲片",
-    "metaphorMeaningCn": "手指甲",
-    "metaphorOptions": [
-      "手指甲",
-      "声音的工具",
-      "次级的旧事"
-    ],
-    "mnemonicNote": "finger(手指)+nail(甲)：指尖上那层硬壳",
-    "sourceNote": "古英语 finger + nægl(甲)"
-  },
-  "firefighter": {
-    "modernMeaningCn": "消防员",
-    "literalMeaningCn": "与火搏斗的人",
-    "metaphorMeaningCn": "消防员",
-    "metaphorOptions": [
-      "消防员",
-      "向着善行去",
-      "过度的过程"
-    ],
-    "mnemonicNote": "fire(火)+fighter(搏斗者)：警报一响就往浓烟里钻",
-    "sourceNote": "英语复合词，fire + fighter"
-  },
-  "fireplace": {
-    "modernMeaningCn": "壁炉",
-    "literalMeaningCn": "生火的角落",
-    "metaphorMeaningCn": "壁炉",
-    "metaphorOptions": [
-      "壁炉",
-      "离柔嫩很远",
-      "掌舵的影子"
-    ],
-    "mnemonicNote": "fire(火)+place(地方)：屋里专留出来烧柴那处",
-    "sourceNote": "英语复合词，fire + place"
-  },
-  "firewood": {
-    "modernMeaningCn": "柴火",
-    "literalMeaningCn": "用来烧的木头",
-    "metaphorMeaningCn": "柴火、木柴",
-    "metaphorOptions": [
-      "柴火、木柴",
-      "页边的空白的地方",
-      "语言学家的来路"
-    ],
-    "mnemonicNote": "fire(火)+wood(木)：劈好码在墙根等冬天的那堆",
-    "sourceNote": "古英语 fyr(火) + wudu(木)"
-  },
-  "firework": {
-    "modernMeaningCn": "烟花",
-    "literalMeaningCn": "火药做的玩意儿",
-    "metaphorMeaningCn": "烟花、焰火",
-    "metaphorOptions": [
-      "烟花、焰火",
-      "离安排很远",
-      "替迅速的操心"
-    ],
-    "mnemonicNote": "fire(火)+work(制品)：点着就往天上炸开的那一簇",
-    "sourceNote": "英语复合词，16 世纪起指火药制品"
-  },
-  "firmly": {
-    "modernMeaningCn": "坚定地",
-    "literalMeaningCn": "以牢固的方式",
-    "metaphorMeaningCn": "坚定地、牢牢地",
-    "metaphorOptions": [
-      "坚定地、牢牢地",
-      "替到达操心",
-      "守着字模过活"
-    ],
-    "mnemonicNote": "firm(结实)+ly：脚下钉住、话也钉住",
-    "sourceNote": "拉丁 firmus(坚固) + -ly"
-  },
-  "fisherman": {
-    "modernMeaningCn": "渔夫",
-    "literalMeaningCn": "打鱼的人",
-    "metaphorMeaningCn": "渔夫、渔民",
-    "metaphorOptions": [
-      "渔夫、渔民",
-      "觉察到的影子",
-      "把快的翻开"
-    ],
-    "mnemonicNote": "fisher(打鱼者)+man(人)：天不亮就摇船出去那位",
-    "sourceNote": "古英语 fiscere + mann"
-  },
-  "flashlight": {
-    "modernMeaningCn": "手电筒",
-    "literalMeaningCn": "闪出亮光的家伙",
-    "metaphorMeaningCn": "手电筒",
-    "metaphorOptions": [
-      "手电筒",
-      "步骤的过程",
-      "好意的一角"
-    ],
-    "mnemonicNote": "flash(闪光)+light(光)：夜里揣在兜里那一小束光",
-    "sourceNote": "英语复合词，19 世纪末出现"
-  },
-  "flower": {
-    "modernMeaningCn": "花",
-    "literalMeaningCn": "盛放的东西",
-    "metaphorMeaningCn": "花、开花",
-    "metaphorOptions": [
-      "花、开花",
-      "守着巨大的过活",
-      "选择的味道"
-    ],
-    "mnemonicNote": "flow(流动)+er：开得最盛时像要淌出来",
-    "sourceNote": "拉丁 flos，与 fluere(流) 同源，指盛放的部分"
-  },
-  "following": {
-    "modernMeaningCn": "下列的",
-    "literalMeaningCn": "跟在后头的",
-    "metaphorMeaningCn": "下列的、接着的",
-    "metaphorOptions": [
-      "下列的、接着的",
-      "数着占主导地位的过日子",
-      "围着赚得转"
-    ],
-    "mnemonicNote": "follow(跟随)+ing：紧挨着往下那几行",
-    "sourceNote": "古英语 folgian(跟随) + -ing"
-  },
-  "fond": {
-    "modernMeaningCn": "喜爱的",
-    "literalMeaningCn": "心里偏着的",
-    "metaphorMeaningCn": "喜爱的、深情的",
-    "metaphorOptions": [
-      "喜爱的、深情的",
-      "通过的背面",
-      "进入的一角"
-    ],
-    "mnemonicNote": "fon(痴)+d：明知不完美还是舍不得撒手",
-    "sourceNote": "中古英语 fonned(愚痴的)，后转指疼爱"
-  },
-  "foolish": {
-    "modernMeaningCn": "愚蠢的",
-    "literalMeaningCn": "像傻瓜的",
-    "metaphorMeaningCn": "愚蠢的、不明智的",
-    "metaphorOptions": [
-      "愚蠢的、不明智的",
-      "守着严肃的过活",
-      "守着容易的过活"
-    ],
-    "mnemonicNote": "fool(傻瓜)+ish：明知是坑还要往里跳",
-    "sourceNote": "古法语 fol(愚人) + -ish(像…的)"
-  },
-  "forbid": {
-    "modernMeaningCn": "禁止",
-    "literalMeaningCn": "下禁令",
-    "metaphorMeaningCn": "禁止、不许",
-    "metaphorOptions": [
-      "禁止、不许",
-      "主张的地方",
-      "出现的小站"
-    ],
-    "mnemonicNote": "for(禁)+bid(命令)：一句话把这条路堵死",
-    "sourceNote": "古英语 forbeodan，for-(否定) + beodan(命令)"
-  },
-  "foreigner": {
-    "modernMeaningCn": "外国人",
-    "literalMeaningCn": "外邦来的人",
-    "metaphorMeaningCn": "外国人、外乡人",
-    "metaphorOptions": [
-      "外国人、外乡人",
-      "套装的背面",
-      "被百万的东西"
-    ],
-    "mnemonicNote": "foreign(外邦)+er(人)：口音一听就不一样那位",
-    "sourceNote": "古法语 forain(外面的)，拉丁 foris(门外)"
-  },
-  "forget": {
-    "modernMeaningCn": "忘记",
-    "literalMeaningCn": "把拿到的丢了",
-    "metaphorMeaningCn": "忘记、遗忘",
-    "metaphorOptions": [
-      "忘记、遗忘",
-      "下面的旧事",
-      "会啄的鸟的背面"
-    ],
-    "mnemonicNote": "for(失去)+get(得到)：手里攥过的东西滑走了",
-    "sourceNote": "古英语 forgietan，for-(失去) + gietan(取得)"
-  },
-  "forgetful": {
-    "modernMeaningCn": "健忘的",
-    "literalMeaningCn": "容易丢事的",
-    "metaphorMeaningCn": "健忘的、记性差的",
-    "metaphorOptions": [
-      "健忘的、记性差的",
-      "孩子的来路",
-      "委托托付的一角"
-    ],
-    "mnemonicNote": "forget(遗忘)+ful：钥匙放哪儿转头就记不得",
-    "sourceNote": "古英语 forgietan(忘记) + -ful"
-  },
-  "forgive": {
-    "modernMeaningCn": "原谅",
-    "literalMeaningCn": "把这笔放过去",
-    "metaphorMeaningCn": "原谅、宽恕",
-    "metaphorOptions": [
-      "原谅、宽恕",
-      "离数字很远",
-      "脱离的过程"
-    ],
-    "mnemonicNote": "for(给予)+give(给)：那笔旧账不再讨了",
-    "sourceNote": "古英语 forgiefan，for-(给予) + giefan(给)"
-  },
-  "former": {
-    "modernMeaningCn": "从前的",
-    "literalMeaningCn": "在前面的那个",
-    "metaphorMeaningCn": "从前的、前者",
-    "metaphorOptions": [
-      "从前的、前者",
-      "被大量存在的东西",
-      "苹果的味道"
-    ],
-    "mnemonicNote": "form(前)+er(比较)：时间排在前面的那一位",
-    "sourceNote": "古英语 forma(第一) 的比较级"
-  },
-  "fortnight": {
-    "modernMeaningCn": "两周",
-    "literalMeaningCn": "十四个夜晚",
-    "metaphorMeaningCn": "两周、十四天",
-    "metaphorOptions": [
-      "两周、十四天",
-      "辐射的旧事",
-      "不赞成的影子"
-    ],
-    "mnemonicNote": "fort(十四)+night(夜)：数满十四个晚上就是一轮",
-    "sourceNote": "古英语 feowertyne niht，即「十四夜」"
-  },
-  "forty": {
-    "modernMeaningCn": "四十",
-    "literalMeaningCn": "四个十",
-    "metaphorMeaningCn": "四十、四十个",
-    "metaphorOptions": [
-      "四十、四十个",
-      "守着应付的过活",
-      "把宣布串起来"
-    ],
-    "mnemonicNote": "for(四)+ty(十)：四捆十根摞在一起",
-    "sourceNote": "古英语 feowertig，feower(四) + tig(十)"
-  },
-  "founding": {
-    "modernMeaningCn": "创建",
-    "literalMeaningCn": "打地基的过程",
-    "metaphorMeaningCn": "创建、成立",
-    "metaphorOptions": [
-      "创建、成立",
-      "盖子的工具",
-      "守着滚动过活"
-    ],
-    "mnemonicNote": "found(奠基)+ing：把第一块基石埋下去那一刻",
-    "sourceNote": "拉丁 fundare(奠基)，fundus(底部)"
-  },
-  "fourteen": {
-    "modernMeaningCn": "十四",
-    "literalMeaningCn": "四加上十",
-    "metaphorMeaningCn": "十四、十四个",
-    "metaphorOptions": [
-      "十四、十四个",
-      "统计的另一面",
-      "坚固的味道"
-    ],
-    "mnemonicNote": "four(四)+teen(十)：数满十个再添四个",
-    "sourceNote": "古英语 feowertyne，feower(四) + tyne(十)"
-  },
-  "fourth": {
-    "modernMeaningCn": "第四",
-    "literalMeaningCn": "排第四的",
-    "metaphorMeaningCn": "第四、四分之一",
-    "metaphorOptions": [
-      "第四、四分之一",
-      "收集的味道",
-      "集合的工具"
-    ],
-    "mnemonicNote": "four(四)+th(序数)：数到四的那一位",
-    "sourceNote": "古英语 feorþa，feower(四) 的序数形式"
-  },
-  "fragrant": {
-    "modernMeaningCn": "芳香的",
-    "literalMeaningCn": "飘着香气的",
-    "metaphorMeaningCn": "芳香的、有香味的",
-    "metaphorOptions": [
-      "芳香的、有香味的",
-      "传说的一角",
-      "把压力串起来"
-    ],
-    "mnemonicNote": "fra(香)+grant：隔着一道门就闻见那股甜",
-    "sourceNote": "拉丁 fragrare(散发气味)"
-  },
-  "framework": {
-    "modernMeaningCn": "框架",
-    "literalMeaningCn": "撑起结构的架子",
-    "metaphorMeaningCn": "框架、体制",
-    "metaphorOptions": [
-      "框架、体制",
-      "易变地的小站",
-      "守着令人惊讶的过活"
-    ],
-    "mnemonicNote": "frame(骨架)+work(构架)：先把梁柱立好再往里填",
-    "sourceNote": "英语复合词，frame + work"
-  },
-  "freezing": {
-    "modernMeaningCn": "极冷的",
-    "literalMeaningCn": "冻住的",
-    "metaphorMeaningCn": "极冷的、冰冻的",
-    "metaphorOptions": [
-      "极冷的、冰冻的",
-      "宣称的工具",
-      "牢固的工具"
-    ],
-    "mnemonicNote": "freez(结冻)+ing：哈出来的气都能结成白霜",
-    "sourceNote": "古英语 freosan(结冰) + -ing"
-  },
-  "frenchman": {
-    "modernMeaningCn": "法国人",
-    "literalMeaningCn": "法国的人",
-    "metaphorMeaningCn": "法国人、法国男子",
-    "metaphorOptions": [
-      "法国人、法国男子",
-      "书写的工具",
-      "把统治串起来"
-    ],
-    "mnemonicNote": "french(法国)+man(人)：来自海峡对岸那位",
-    "sourceNote": "古英语 Frencisc(法兰克人的) + man"
-  },
-  "frighten": {
-    "modernMeaningCn": "使惊吓",
-    "literalMeaningCn": "使人害怕",
-    "metaphorMeaningCn": "使惊吓、吓唬",
-    "metaphorOptions": [
-      "使惊吓、吓唬",
-      "在那里的一角",
-      "数学的人"
-    ],
-    "mnemonicNote": "fright(惊骇)+en(使)：冷不防从背后喊一声",
-    "sourceNote": "古英语 fyrhtu(恐惧) + -en(使动)"
-  },
-  "fundamental": {
-    "modernMeaningCn": "基本的",
-    "literalMeaningCn": "作地基的",
-    "metaphorMeaningCn": "基本的、根本的",
-    "metaphorOptions": [
-      "基本的、根本的",
-      "期末考试的另一面",
-      "离逐字的很远"
-    ],
-    "mnemonicNote": "fundament(地基)+al：楼盖多高全靠埋在土里那层",
-    "sourceNote": "拉丁 fundamentalis，fundamentum(地基)"
-  },
-  "garbage": {
-    "modernMeaningCn": "垃圾",
-    "literalMeaningCn": "一堆废弃物",
-    "metaphorMeaningCn": "垃圾、废话",
-    "metaphorOptions": [
-      "垃圾、废话",
-      "替偿还操心",
-      "守着王室过活"
-    ],
-    "mnemonicNote": "garb(废料)+age：该扔却没扔、堆在墙角那堆",
-    "sourceNote": "中古英语 garbelage，原指剔除的杂碎"
-  },
-  "gardening": {
-    "modernMeaningCn": "园艺",
-    "literalMeaningCn": "侍弄园子的活",
-    "metaphorMeaningCn": "园艺、种花",
-    "metaphorOptions": [
-      "园艺、种花",
-      "情绪的另一面",
-      "围着保险转"
-    ],
-    "mnemonicNote": "garden(园子)+ing：周末蹲在土边拔草那件事",
-    "sourceNote": "古北法语 gardin(园子) + -ing"
-  },
-  "generation": {
-    "modernMeaningCn": "一代",
-    "literalMeaningCn": "生出来的那一批",
-    "metaphorMeaningCn": "一代人、产生",
-    "metaphorOptions": [
-      "一代人、产生",
-      "替怀疑者操心",
-      "离公司很远"
-    ],
-    "mnemonicNote": "generat(生育)+ion：同一批落地、一起长大那些人",
-    "sourceNote": "拉丁 generatio，generare(生育)"
-  }
+ "_comment": "Stage 3 待写释义（batch-14，本批 60 词，高考批第 7 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
+ "examination": {
+  "modernMeaningCn": "考试",
+  "literalMeaningCn": "考查之事",
+  "metaphorMeaningCn": "考试、检查",
+  "metaphorOptions": [
+   "考试、检查",
+   "松的的来路",
+   "悬挂的旧事"
+  ],
+  "mnemonicNote": "examin(细查)+ation：一张卷子把学过的东西过一遍秤",
+  "sourceNote": "拉丁 examinatio，examen(秤舌、考查)"
+ },
+ "example": {
+  "modernMeaningCn": "例子",
+  "literalMeaningCn": "取出来的样子",
+  "metaphorMeaningCn": "例子、榜样",
+  "metaphorOptions": [
+   "例子、榜样",
+   "烘焙的过程",
+   "向着混合物去"
+  ],
+  "mnemonicNote": "ex(出)+ample(拿)：从一堆里拎一个出来给大家看",
+  "sourceNote": "拉丁 exemplum，eximere(取出)"
+ },
+ "excellent": {
+  "modernMeaningCn": "优秀的",
+  "literalMeaningCn": "高出众人的",
+  "metaphorMeaningCn": "优秀的、极好的",
+  "metaphorOptions": [
+   "优秀的、极好的",
+   "被奶油的东西",
+   "感应的另一面"
+  ],
+  "mnemonicNote": "excell(超出)+ent：在一排人里冒出头那一截",
+  "sourceNote": "拉丁 excellere，ex-(出) + -cellere(高耸)"
+ },
+ "exchange": {
+  "modernMeaningCn": "交换",
+  "literalMeaningCn": "互相换出去",
+  "metaphorMeaningCn": "交换、兑换",
+  "metaphorOptions": [
+   "交换、兑换",
+   "把打架翻开",
+   "把改良串起来"
+  ],
+  "mnemonicNote": "ex(出)+change(换)：你手里的到我手上，我这边的到你那边",
+  "sourceNote": "古法语 eschangier，es-(出) + changier(换)"
+ },
+ "exhibition": {
+  "modernMeaningCn": "展览",
+  "literalMeaningCn": "摆出来给人看",
+  "metaphorMeaningCn": "展览、展览会",
+  "metaphorOptions": [
+   "展览、展览会",
+   "类似物的工具",
+   "数着成零碎过日子"
+  ],
+  "mnemonicNote": "exhibit(展出)+ion：一件件挂在墙上、摆在台上",
+  "sourceNote": "拉丁 exhibitio，exhibere(拿出、展示)"
+ },
+ "existence": {
+  "modernMeaningCn": "存在",
+  "literalMeaningCn": "在着的状态",
+  "metaphorMeaningCn": "存在、生存",
+  "metaphorOptions": [
+   "存在、生存",
+   "向着放置去",
+   "围着尖啸声转"
+  ],
+  "mnemonicNote": "exist(在着)+ence：它就在那儿，你说不清为什么",
+  "sourceNote": "拉丁 exsistentia，exsistere(出现、在着)"
+ },
+ "expectation": {
+  "modernMeaningCn": "期望",
+  "literalMeaningCn": "伸长脖子等",
+  "metaphorMeaningCn": "期望、预期",
+  "metaphorOptions": [
+   "期望、预期",
+   "替裙子操心",
+   "离战神很远"
+  ],
+  "mnemonicNote": "expect(盼望)+ation：心里早把好事演了一遍",
+  "sourceNote": "拉丁 exspectatio，exspectare(盼望)"
+ },
+ "expensive": {
+  "modernMeaningCn": "昂贵的",
+  "literalMeaningCn": "很花钱的",
+  "metaphorMeaningCn": "昂贵的、花钱多的",
+  "metaphorOptions": [
+   "昂贵的、花钱多的",
+   "发射的影子",
+   "把无差别的翻开"
+  ],
+  "mnemonicNote": "expens(花费)+ive：价签上的数让人倒吸一口气",
+  "sourceNote": "拉丁 expensa，expendere(称量、支付)"
+ },
+ "explanation": {
+  "modernMeaningCn": "解释",
+  "literalMeaningCn": "摊平了说",
+  "metaphorMeaningCn": "解释、说明",
+  "metaphorOptions": [
+   "解释、说明",
+   "把装满串起来",
+   "发生的工具"
+  ],
+  "mnemonicNote": "explan(摊开)+ation：把皱着的道理摊平给你看",
+  "sourceNote": "拉丁 explanatio，explanare(摊平、说明)"
+ },
+ "expression": {
+  "modernMeaningCn": "表达",
+  "literalMeaningCn": "挤出来的东西",
+  "metaphorMeaningCn": "表达、表情",
+  "metaphorOptions": [
+   "表达、表情",
+   "符合的影子",
+   "死的的人"
+  ],
+  "mnemonicNote": "express(挤出)+ion：心里那点意思被挤到脸上和话里",
+  "sourceNote": "拉丁 expressio，exprimere(压出)"
+ },
+ "extraordinary": {
+  "modernMeaningCn": "非凡的",
+  "literalMeaningCn": "超出寻常",
+  "metaphorMeaningCn": "非凡的、特别的",
+  "metaphorOptions": [
+   "非凡的、特别的",
+   "离扑动很远",
+   "欺骗的过程"
+  ],
+  "mnemonicNote": "extra(超出)+ordinary(平常)：越过了那条寻常的线",
+  "sourceNote": "拉丁 extraordinarius，extra-(超出) + ordo(常规)"
+ },
+ "extremely": {
+  "modernMeaningCn": "极其",
+  "literalMeaningCn": "以极端的方式",
+  "metaphorMeaningCn": "极其、非常",
+  "metaphorOptions": [
+   "极其、非常",
+   "替利用操心",
+   "守着帐篷过活"
+  ],
+  "mnemonicNote": "extreme(尽头)+ly：一路推到头那个程度",
+  "sourceNote": "拉丁 extremus(最外的)，ex-(出) 的最高级"
+ },
+ "eyesight": {
+  "modernMeaningCn": "视力",
+  "literalMeaningCn": "眼睛看物的本事",
+  "metaphorMeaningCn": "视力、眼力",
+  "metaphorOptions": [
+   "视力、眼力",
+   "把次等的翻开",
+   "替提议操心"
+  ],
+  "mnemonicNote": "eye(眼)+sight(看)：远处那片小字还认不认得",
+  "sourceNote": "古英语 eage(眼) + gesiht(视觉)"
+ },
+ "eyewitness": {
+  "modernMeaningCn": "目击者",
+  "literalMeaningCn": "亲眼见证的人",
+  "metaphorMeaningCn": "目击者、见证人",
+  "metaphorOptions": [
+   "目击者、见证人",
+   "高度的工具",
+   "把文字串起来"
+  ],
+  "mnemonicNote": "eye(眼)+witness(证人)：当时就站在现场那位",
+  "sourceNote": "古英语 eage(眼) + witnes(证人)"
+ },
+ "failure": {
+  "modernMeaningCn": "失败",
+  "literalMeaningCn": "没做到的事",
+  "metaphorMeaningCn": "失败、故障",
+  "metaphorOptions": [
+   "失败、故障",
+   "把抵押品串起来",
+   "把易变地翻开"
+  ],
+  "mnemonicNote": "fail(失手)+ure：伸手去够那一下扑了空",
+  "sourceNote": "古法语 faillir(失误)，拉丁 fallere(欺骗、使失望)"
+ },
+ "fairly": {
+  "modernMeaningCn": "相当地",
+  "literalMeaningCn": "以公道的方式",
+  "metaphorMeaningCn": "相当地、公平地",
+  "metaphorOptions": [
+   "相当地、公平地",
+   "离如此很远",
+   "替器官操心"
+  ],
+  "mnemonicNote": "fair(公道)+ly：两边摆平了说，程度也算到位",
+  "sourceNote": "古英语 fæger(美好的) + -lice"
+ },
+ "fairness": {
+  "modernMeaningCn": "公平",
+  "literalMeaningCn": "公道的性质",
+  "metaphorMeaningCn": "公平、公正",
+  "metaphorOptions": [
+   "公平、公正",
+   "尝试的另一面",
+   "出现的一角"
+  ],
+  "mnemonicNote": "fair(公道)+ness：尺子摆在正当中，两头一般长",
+  "sourceNote": "古英语 fæger(美好的) + -nes(状态)"
+ },
+ "famous": {
+  "modernMeaningCn": "著名的",
+  "literalMeaningCn": "名声在外的",
+  "metaphorMeaningCn": "著名的、出名的",
+  "metaphorOptions": [
+   "著名的、出名的",
+   "经济的另一面",
+   "通过的一角"
+  ],
+  "mnemonicNote": "fam(名声)+ous：名字被远远近近的人挂在嘴边",
+  "sourceNote": "拉丁 fama(传闻、名声)，fari(说)"
+ },
+ "fantastic": {
+  "modernMeaningCn": "极好的",
+  "literalMeaningCn": "像幻梦一样",
+  "metaphorMeaningCn": "极好的、奇妙的",
+  "metaphorOptions": [
+   "极好的、奇妙的",
+   "编辑的过程",
+   "离比较的很远"
+  ],
+  "mnemonicNote": "fantas(幻想)+tic：好得让人怀疑是不是在做梦",
+  "sourceNote": "希腊 phantastikos，phantazein(使显现)"
+ },
+ "farmer": {
+  "modernMeaningCn": "农民",
+  "literalMeaningCn": "种地的人",
+  "metaphorMeaningCn": "农民、农场主",
+  "metaphorOptions": [
+   "农民、农场主",
+   "势利的人的工具",
+   "数着向上过日子"
+  ],
+  "mnemonicNote": "farm(农田)+er(人)：一年四季跟着土地的节气走",
+  "sourceNote": "古法语 ferme(租地)，拉丁 firmare(固定)"
+ },
+ "fasten": {
+  "modernMeaningCn": "系紧",
+  "literalMeaningCn": "使牢固",
+  "metaphorMeaningCn": "系紧、扣住",
+  "metaphorOptions": [
+   "系紧、扣住",
+   "临近的的影子",
+   "把悲叹翻开"
+  ],
+  "mnemonicNote": "fast(牢)+en(使)：把带子拉到拉不动为止",
+  "sourceNote": "古英语 fæst(牢固) + -en(使动后缀)"
+ },
+ "favourite": {
+  "modernMeaningCn": "最喜欢的",
+  "literalMeaningCn": "被偏爱的那位",
+  "metaphorMeaningCn": "最喜欢的、最爱的人",
+  "metaphorOptions": [
+   "最喜欢的、最爱的人",
+   "把表面串起来",
+   "被地球的东西"
+  ],
+  "mnemonicNote": "favour(偏爱)+ite：一屋子人里单挑出来的那一个",
+  "sourceNote": "意大利 favorito，favorire(偏爱)"
+ },
+ "feather": {
+  "modernMeaningCn": "羽毛",
+  "literalMeaningCn": "鸟身上的毛",
+  "metaphorMeaningCn": "羽毛",
+  "metaphorOptions": [
+   "羽毛",
+   "冒险的旧事",
+   "日报的背面"
+  ],
+  "mnemonicNote": "feat(羽)+her：风一吹就飘起来的那片轻东西",
+  "sourceNote": "古英语 feþer，与希腊 pteron(翼) 同源"
+ },
+ "feeling": {
+  "modernMeaningCn": "感觉",
+  "literalMeaningCn": "心里的触感",
+  "metaphorMeaningCn": "感觉、感情",
+  "metaphorOptions": [
+   "感觉、感情",
+   "重标记的另一面",
+   "过度的味道"
+  ],
+  "mnemonicNote": "feel(触摸)+ing：手碰得到、心里也接得住的那一层",
+  "sourceNote": "古英语 felan(触摸) + -ing"
+ },
+ "festival": {
+  "modernMeaningCn": "节日",
+  "literalMeaningCn": "欢庆的日子",
+  "metaphorMeaningCn": "节日、音乐节",
+  "metaphorOptions": [
+   "节日、音乐节",
+   "把估价串起来",
+   "把获取翻开"
+  ],
+  "mnemonicNote": "festiv(欢庆)+al：锣鼓喧天、不用干活的那几天",
+  "sourceNote": "中世纪拉丁 festivalis，festum(宴会)"
+ },
+ "fifteen": {
+  "modernMeaningCn": "十五",
+  "literalMeaningCn": "五加上十",
+  "metaphorMeaningCn": "十五、十五个",
+  "metaphorOptions": [
+   "十五、十五个",
+   "有效率的的过程",
+   "离浆果很远"
+  ],
+  "mnemonicNote": "fif(五)+teen(十)：十个指头数完再添五个",
+  "sourceNote": "古英语 fiftene，fif(五) + tene(十)"
+ },
+ "fifty": {
+  "modernMeaningCn": "五十",
+  "literalMeaningCn": "五个十",
+  "metaphorMeaningCn": "五十、五十个",
+  "metaphorOptions": [
+   "五十、五十个",
+   "景观的影子",
+   "引导者的人"
+  ],
+  "mnemonicNote": "fif(五)+ty(十)：五捆十根扎成一扎",
+  "sourceNote": "古英语 fiftig，fif(五) + tig(十)"
+ },
+ "fighter": {
+  "modernMeaningCn": "战士",
+  "literalMeaningCn": "打仗的人",
+  "metaphorMeaningCn": "战士、战斗机",
+  "metaphorOptions": [
+   "战士、战斗机",
+   "使感动的旧事",
+   "使摇动的背面"
+  ],
+  "mnemonicNote": "fight(搏斗)+er(人)：遇上事总是冲上去的那个",
+  "sourceNote": "古英语 feohtan(战斗) + -er"
+ },
+ "fingernail": {
+  "modernMeaningCn": "指甲",
+  "literalMeaningCn": "指头上的甲片",
+  "metaphorMeaningCn": "手指甲",
+  "metaphorOptions": [
+   "手指甲",
+   "一种栖木的习俗",
+   "国家的的人"
+  ],
+  "mnemonicNote": "finger(手指)+nail(甲)：指尖上那层硬壳",
+  "sourceNote": "古英语 finger + nægl(甲)"
+ },
+ "firefighter": {
+  "modernMeaningCn": "消防员",
+  "literalMeaningCn": "与火搏斗的人",
+  "metaphorMeaningCn": "消防员",
+  "metaphorOptions": [
+   "消防员",
+   "向着善行去",
+   "过度的过程"
+  ],
+  "mnemonicNote": "fire(火)+fighter(搏斗者)：警报一响就往浓烟里钻",
+  "sourceNote": "英语复合词，fire + fighter"
+ },
+ "fireplace": {
+  "modernMeaningCn": "壁炉",
+  "literalMeaningCn": "生火的角落",
+  "metaphorMeaningCn": "壁炉",
+  "metaphorOptions": [
+   "壁炉",
+   "勒死的人",
+   "掌舵的影子"
+  ],
+  "mnemonicNote": "fire(火)+place(地方)：屋里专留出来烧柴那处",
+  "sourceNote": "英语复合词，fire + place"
+ },
+ "firewood": {
+  "modernMeaningCn": "柴火",
+  "literalMeaningCn": "用来烧的木头",
+  "metaphorMeaningCn": "柴火、木柴",
+  "metaphorOptions": [
+   "柴火、木柴",
+   "页边的空白的地方",
+   "语言学家的来路"
+  ],
+  "mnemonicNote": "fire(火)+wood(木)：劈好码在墙根等冬天的那堆",
+  "sourceNote": "古英语 fyr(火) + wudu(木)"
+ },
+ "firework": {
+  "modernMeaningCn": "烟花",
+  "literalMeaningCn": "火药做的玩意儿",
+  "metaphorMeaningCn": "烟花、焰火",
+  "metaphorOptions": [
+   "烟花、焰火",
+   "离安排很远",
+   "替迅速的操心"
+  ],
+  "mnemonicNote": "fire(火)+work(制品)：点着就往天上炸开的那一簇",
+  "sourceNote": "英语复合词，16 世纪起指火药制品"
+ },
+ "firmly": {
+  "modernMeaningCn": "坚定地",
+  "literalMeaningCn": "以牢固的方式",
+  "metaphorMeaningCn": "坚定地、牢牢地",
+  "metaphorOptions": [
+   "坚定地、牢牢地",
+   "替到达操心",
+   "守着字模过活"
+  ],
+  "mnemonicNote": "firm(结实)+ly：脚下钉住、话也钉住",
+  "sourceNote": "拉丁 firmus(坚固) + -ly"
+ },
+ "fisherman": {
+  "modernMeaningCn": "渔夫",
+  "literalMeaningCn": "打鱼的人",
+  "metaphorMeaningCn": "渔夫、渔民",
+  "metaphorOptions": [
+   "渔夫、渔民",
+   "觉察到的影子",
+   "把快的翻开"
+  ],
+  "mnemonicNote": "fisher(打鱼者)+man(人)：天不亮就摇船出去那位",
+  "sourceNote": "古英语 fiscere + mann"
+ },
+ "flashlight": {
+  "modernMeaningCn": "手电筒",
+  "literalMeaningCn": "闪出亮光的家伙",
+  "metaphorMeaningCn": "手电筒",
+  "metaphorOptions": [
+   "手电筒",
+   "一种迷住的习俗",
+   "好意的一角"
+  ],
+  "mnemonicNote": "flash(闪光)+light(光)：夜里揣在兜里那一小束光",
+  "sourceNote": "英语复合词，19 世纪末出现"
+ },
+ "flower": {
+  "modernMeaningCn": "花",
+  "literalMeaningCn": "盛放的东西",
+  "metaphorMeaningCn": "花、开花",
+  "metaphorOptions": [
+   "花、开花",
+   "被绝对的的东西",
+   "选择的味道"
+  ],
+  "mnemonicNote": "flow(流动)+er：开得最盛时像要淌出来",
+  "sourceNote": "拉丁 flos，与 fluere(流) 同源，指盛放的部分"
+ },
+ "following": {
+  "modernMeaningCn": "下列的",
+  "literalMeaningCn": "跟在后头的",
+  "metaphorMeaningCn": "下列的、接着的",
+  "metaphorOptions": [
+   "下列的、接着的",
+   "数着占主导地位的过日子",
+   "围着引出转"
+  ],
+  "mnemonicNote": "follow(跟随)+ing：紧挨着往下那几行",
+  "sourceNote": "古英语 folgian(跟随) + -ing"
+ },
+ "fond": {
+  "modernMeaningCn": "喜爱的",
+  "literalMeaningCn": "心里偏着的",
+  "metaphorMeaningCn": "喜爱的、深情的",
+  "metaphorOptions": [
+   "喜爱的、深情的",
+   "量度的背面",
+   "通过的一角"
+  ],
+  "mnemonicNote": "fon(痴)+d：明知不完美还是舍不得撒手",
+  "sourceNote": "中古英语 fonned(愚痴的)，后转指疼爱"
+ },
+ "foolish": {
+  "modernMeaningCn": "愚蠢的",
+  "literalMeaningCn": "像傻瓜的",
+  "metaphorMeaningCn": "愚蠢的、不明智的",
+  "metaphorOptions": [
+   "愚蠢的、不明智的",
+   "一种前臂的习俗",
+   "空虚的一角"
+  ],
+  "mnemonicNote": "fool(傻瓜)+ish：明知是坑还要往里跳",
+  "sourceNote": "古法语 fol(愚人) + -ish(像…的)"
+ },
+ "forbid": {
+  "modernMeaningCn": "禁止",
+  "literalMeaningCn": "下禁令",
+  "metaphorMeaningCn": "禁止、不许",
+  "metaphorOptions": [
+   "禁止、不许",
+   "主张的地方",
+   "出现的小站"
+  ],
+  "mnemonicNote": "for(禁)+bid(命令)：一句话把这条路堵死",
+  "sourceNote": "古英语 forbeodan，for-(否定) + beodan(命令)"
+ },
+ "foreigner": {
+  "modernMeaningCn": "外国人",
+  "literalMeaningCn": "外邦来的人",
+  "metaphorMeaningCn": "外国人、外乡人",
+  "metaphorOptions": [
+   "外国人、外乡人",
+   "套装的背面",
+   "被百万的东西"
+  ],
+  "mnemonicNote": "foreign(外邦)+er(人)：口音一听就不一样那位",
+  "sourceNote": "古法语 forain(外面的)，拉丁 foris(门外)"
+ },
+ "forget": {
+  "modernMeaningCn": "忘记",
+  "literalMeaningCn": "把拿到的丢了",
+  "metaphorMeaningCn": "忘记、遗忘",
+  "metaphorOptions": [
+   "忘记、遗忘",
+   "卡车的旧事",
+   "下面的背面"
+  ],
+  "mnemonicNote": "for(失去)+get(得到)：手里攥过的东西滑走了",
+  "sourceNote": "古英语 forgietan，for-(失去) + gietan(取得)"
+ },
+ "forgetful": {
+  "modernMeaningCn": "健忘的",
+  "literalMeaningCn": "容易丢事的",
+  "metaphorMeaningCn": "健忘的、记性差的",
+  "metaphorOptions": [
+   "健忘的、记性差的",
+   "一种平坦的的习俗",
+   "委托托付的一角"
+  ],
+  "mnemonicNote": "forget(遗忘)+ful：钥匙放哪儿转头就记不得",
+  "sourceNote": "古英语 forgietan(忘记) + -ful"
+ },
+ "forgive": {
+  "modernMeaningCn": "原谅",
+  "literalMeaningCn": "把这笔放过去",
+  "metaphorMeaningCn": "原谅、宽恕",
+  "metaphorOptions": [
+   "原谅、宽恕",
+   "离数字很远",
+   "博戏的过程"
+  ],
+  "mnemonicNote": "for(给予)+give(给)：那笔旧账不再讨了",
+  "sourceNote": "古英语 forgiefan，for-(给予) + giefan(给)"
+ },
+ "former": {
+  "modernMeaningCn": "从前的",
+  "literalMeaningCn": "在前面的那个",
+  "metaphorMeaningCn": "从前的、前者",
+  "metaphorOptions": [
+   "从前的、前者",
+   "被校准的东西",
+   "苹果的味道"
+  ],
+  "mnemonicNote": "form(前)+er(比较)：时间排在前面的那一位",
+  "sourceNote": "古英语 forma(第一) 的比较级"
+ },
+ "fortnight": {
+  "modernMeaningCn": "两周",
+  "literalMeaningCn": "十四个夜晚",
+  "metaphorMeaningCn": "两周、十四天",
+  "metaphorOptions": [
+   "两周、十四天",
+   "不赞成的人",
+   "使降级的一角"
+  ],
+  "mnemonicNote": "fort(十四)+night(夜)：数满十四个晚上就是一轮",
+  "sourceNote": "古英语 feowertyne niht，即「十四夜」"
+ },
+ "forty": {
+  "modernMeaningCn": "四十",
+  "literalMeaningCn": "四个十",
+  "metaphorMeaningCn": "四十、四十个",
+  "metaphorOptions": [
+   "四十、四十个",
+   "摇晃的工具",
+   "把北极的串起来"
+  ],
+  "mnemonicNote": "for(四)+ty(十)：四捆十根摞在一起",
+  "sourceNote": "古英语 feowertig，feower(四) + tig(十)"
+ },
+ "founding": {
+  "modernMeaningCn": "创建",
+  "literalMeaningCn": "打地基的过程",
+  "metaphorMeaningCn": "创建、成立",
+  "metaphorOptions": [
+   "创建、成立",
+   "有价值的的味道",
+   "守着滚动过活"
+  ],
+  "mnemonicNote": "found(奠基)+ing：把第一块基石埋下去那一刻",
+  "sourceNote": "拉丁 fundare(奠基)，fundus(底部)"
+ },
+ "fourteen": {
+  "modernMeaningCn": "十四",
+  "literalMeaningCn": "四加上十",
+  "metaphorMeaningCn": "十四、十四个",
+  "metaphorOptions": [
+   "十四、十四个",
+   "统计的另一面",
+   "坚固的味道"
+  ],
+  "mnemonicNote": "four(四)+teen(十)：数满十个再添四个",
+  "sourceNote": "古英语 feowertyne，feower(四) + tyne(十)"
+ },
+ "fourth": {
+  "modernMeaningCn": "第四",
+  "literalMeaningCn": "排第四的",
+  "metaphorMeaningCn": "第四、四分之一",
+  "metaphorOptions": [
+   "第四、四分之一",
+   "收集的味道",
+   "集合的工具"
+  ],
+  "mnemonicNote": "four(四)+th(序数)：数到四的那一位",
+  "sourceNote": "古英语 feorþa，feower(四) 的序数形式"
+ },
+ "fragrant": {
+  "modernMeaningCn": "芳香的",
+  "literalMeaningCn": "飘着香气的",
+  "metaphorMeaningCn": "芳香的、有香味的",
+  "metaphorOptions": [
+   "芳香的、有香味的",
+   "传说的一角",
+   "一种欧洲的习俗"
+  ],
+  "mnemonicNote": "fra(香)+grant：隔着一道门就闻见那股甜",
+  "sourceNote": "拉丁 fragrare(散发气味)"
+ },
+ "framework": {
+  "modernMeaningCn": "框架",
+  "literalMeaningCn": "撑起结构的架子",
+  "metaphorMeaningCn": "框架、体制",
+  "metaphorOptions": [
+   "框架、体制",
+   "易变地的小站",
+   "守着逐渐变细过活"
+  ],
+  "mnemonicNote": "frame(骨架)+work(构架)：先把梁柱立好再往里填",
+  "sourceNote": "英语复合词，frame + work"
+ },
+ "freezing": {
+  "modernMeaningCn": "极冷的",
+  "literalMeaningCn": "冻住的",
+  "metaphorMeaningCn": "极冷的、冰冻的",
+  "metaphorOptions": [
+   "极冷的、冰冻的",
+   "一种破裂的习俗",
+   "坠落的工具"
+  ],
+  "mnemonicNote": "freez(结冻)+ing：哈出来的气都能结成白霜",
+  "sourceNote": "古英语 freosan(结冰) + -ing"
+ },
+ "frenchman": {
+  "modernMeaningCn": "法国人",
+  "literalMeaningCn": "法国的人",
+  "metaphorMeaningCn": "法国人、法国男子",
+  "metaphorOptions": [
+   "法国人、法国男子",
+   "日出的工具",
+   "把书写串起来"
+  ],
+  "mnemonicNote": "french(法国)+man(人)：来自海峡对岸那位",
+  "sourceNote": "古英语 Frencisc(法兰克人的) + man"
+ },
+ "frighten": {
+  "modernMeaningCn": "使惊吓",
+  "literalMeaningCn": "使人害怕",
+  "metaphorMeaningCn": "使惊吓、吓唬",
+  "metaphorOptions": [
+   "使惊吓、吓唬",
+   "一种数学的习俗",
+   "油温测量装置的人"
+  ],
+  "mnemonicNote": "fright(惊骇)+en(使)：冷不防从背后喊一声",
+  "sourceNote": "古英语 fyrhtu(恐惧) + -en(使动)"
+ },
+ "fundamental": {
+  "modernMeaningCn": "基本的",
+  "literalMeaningCn": "作地基的",
+  "metaphorMeaningCn": "基本的、根本的",
+  "metaphorOptions": [
+   "基本的、根本的",
+   "期末考试的另一面",
+   "巨大的的一角"
+  ],
+  "mnemonicNote": "fundament(地基)+al：楼盖多高全靠埋在土里那层",
+  "sourceNote": "拉丁 fundamentalis，fundamentum(地基)"
+ },
+ "garbage": {
+  "modernMeaningCn": "垃圾",
+  "literalMeaningCn": "一堆废弃物",
+  "metaphorMeaningCn": "垃圾、废话",
+  "metaphorOptions": [
+   "垃圾、废话",
+   "替妨碍操心",
+   "守着偿还过活"
+  ],
+  "mnemonicNote": "garb(废料)+age：该扔却没扔、堆在墙角那堆",
+  "sourceNote": "中古英语 garbelage，原指剔除的杂碎"
+ },
+ "gardening": {
+  "modernMeaningCn": "园艺",
+  "literalMeaningCn": "侍弄园子的活",
+  "metaphorMeaningCn": "园艺、种花",
+  "metaphorOptions": [
+   "园艺、种花",
+   "情绪的另一面",
+   "可忍受的的一角"
+  ],
+  "mnemonicNote": "garden(园子)+ing：周末蹲在土边拔草那件事",
+  "sourceNote": "古北法语 gardin(园子) + -ing"
+ },
+ "generation": {
+  "modernMeaningCn": "一代",
+  "literalMeaningCn": "生出来的那一批",
+  "metaphorMeaningCn": "一代人、产生",
+  "metaphorOptions": [
+   "一代人、产生",
+   "替怀疑者操心",
+   "离公司很远"
+  ],
+  "mnemonicNote": "generat(生育)+ion：同一批落地、一起长大那些人",
+  "sourceNote": "拉丁 generatio，generare(生育)"
+ }
 }

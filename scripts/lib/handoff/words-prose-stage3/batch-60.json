@@ -1,194 +1,290 @@
 {
-  "presume": {
-    "modernMeaningCn": "假定、推测",
-    "literalMeaningCn": "先拿定",
-    "metaphorMeaningCn": "没等证实就先当真",
-    "metaphorOptions": ["没等证实就先当真", "数二十个硬币", "写满记录的本子"],
-    "mnemonicNote": "pre(预先)+sume(拿取)：事先拿定一个说法",
-    "sourceNote": "拉丁 praesumere，prae-(预先) + sumere(拿取)"
-  },
-  "instant": {
-    "modernMeaningCn": "瞬间、立即的",
-    "literalMeaningCn": "就站在跟前",
-    "metaphorMeaningCn": "一眨眼就到了",
-    "metaphorOptions": ["一眨眼就到了", "南方的车站", "量二十个箱子"],
-    "mnemonicNote": "in(在上)+stant(站立)：事就在眼前，即刻发生",
-    "sourceNote": "拉丁 instans，in-(在上) + stare(站)"
-  },
-  "pronounce": {
-    "modernMeaningCn": "发音、宣告",
-    "literalMeaningCn": "当众说出",
-    "metaphorMeaningCn": "把音或话讲出来",
-    "metaphorOptions": ["把音或话讲出来", "读黑板上的文字", "数二十张票"],
-    "mnemonicNote": "pro(向前)+nounce(讲述)：把话说出口",
-    "sourceNote": "拉丁 pronuntiare，pro-(向前) + nuntiare(宣告)"
-  },
-  "static": {
-    "modernMeaningCn": "静态的、静止的",
-    "literalMeaningCn": "站住不动",
-    "metaphorMeaningCn": "一动不动地待着",
-    "metaphorOptions": ["一动不动地待着", "关掉的机器", "开往城市的车"],
-    "mnemonicNote": "sta(站立)+tic：站定不动的",
-    "sourceNote": "希腊 statikos，stasis(站立)"
-  },
-  "competent": {
-    "modernMeaningCn": "能胜任的、有能力的",
-    "literalMeaningCn": "配得上的",
-    "metaphorMeaningCn": "本事够做这件事",
-    "metaphorOptions": ["本事够做这件事", "建好的房子", "数二十个硬币"],
-    "mnemonicNote": "compet(相称)+ent：与要求相称，做得了",
-    "sourceNote": "拉丁 competens，competere(相称)"
-  },
-  "adverse": {
-    "modernMeaningCn": "不利的、相反的",
-    "literalMeaningCn": "转过来对着",
-    "metaphorMeaningCn": "朝着你来的坏方向",
-    "metaphorOptions": ["朝着你来的坏方向", "绕过南方的河", "开往城市的车"],
-    "mnemonicNote": "ad(朝向)+verse(转)：转到你这边，与你相逆",
-    "sourceNote": "拉丁 adversus，ad-(朝向) + vertere(转)"
-  },
-  "presidency": {
-    "modernMeaningCn": "总统任期、职位",
-    "literalMeaningCn": "坐在前头的位子",
-    "metaphorMeaningCn": "最高那个职位本身",
-    "metaphorOptions": ["最高那个职位本身", "站在南方的哨兵", "记在记录里的名字"],
-    "mnemonicNote": "pre(在前)+sid(坐)+ency：坐最前的那个职位",
-    "sourceNote": "拉丁 praesidentia，prae-(在前) + sedere(坐)"
-  },
-  "ignorance": {
-    "modernMeaningCn": "无知、不知情",
-    "literalMeaningCn": "不知这件事",
-    "metaphorMeaningCn": "该知道却不知道",
-    "metaphorOptions": ["该知道却不知道", "读黑板上的文字", "写满记录的本子"],
-    "mnemonicNote": "ignor(不知道)+ance：不晓得的那个状态",
-    "sourceNote": "拉丁 ignorantia，ignorare(不知道)"
-  },
-  "inflict": {
-    "modernMeaningCn": "施加、使承受",
-    "literalMeaningCn": "打上去",
-    "metaphorMeaningCn": "把痛苦强加给人",
-    "metaphorOptions": ["把痛苦强加给人", "掉在地上的牙齿", "锁在监狱的人"],
-    "mnemonicNote": "in(在上)+flict(打击)：把打击落到人身上",
-    "sourceNote": "拉丁 infligere，in- + fligere(打击)"
-  },
-  "revenge": {
-    "modernMeaningCn": "报复、复仇",
-    "literalMeaningCn": "讨回来",
-    "metaphorMeaningCn": "以牙还牙讨回来",
-    "metaphorOptions": ["以牙还牙讨回来", "掉在地上的牙齿", "写满记录的本子"],
-    "mnemonicNote": "re(回)+venge(报仇)：把仇讨回去",
-    "sourceNote": "古法语 revenger，re- + vengier(报仇)"
-  },
-  "gradual": {
-    "modernMeaningCn": "逐渐的、渐进的",
-    "literalMeaningCn": "一级一级地",
-    "metaphorMeaningCn": "一步一步慢慢来",
-    "metaphorOptions": ["一步一步慢慢来", "量二十个箱子", "绕过南方的河"],
-    "mnemonicNote": "grad(步、级)+ual：一级级往前挪的",
-    "sourceNote": "拉丁 gradualis，gradus(步、级)"
-  },
-  "recipient": {
-    "modernMeaningCn": "接受者、收件人",
-    "literalMeaningCn": "往回拿的人",
-    "metaphorMeaningCn": "收下东西的那一方",
-    "metaphorOptions": ["收下东西的那一方", "邮政的包裹", "分给同伴的一块"],
-    "mnemonicNote": "re(回)+cip(拿取)+ient：把东西拿回来的人",
-    "sourceNote": "拉丁 recipiens，recipere(收回)"
-  },
-  "designate": {
-    "modernMeaningCn": "指定、指派",
-    "literalMeaningCn": "标出记号",
-    "metaphorMeaningCn": "点名定下由谁来做",
-    "metaphorOptions": ["点名定下由谁来做", "写满标记的木板", "选城市里的人"],
-    "mnemonicNote": "de(向下)+sign(记号)+ate：打上记号定下来",
-    "sourceNote": "拉丁 designare，de- + signum(记号)"
-  },
-  "exclaim": {
-    "modernMeaningCn": "呼喊、惊叫",
-    "literalMeaningCn": "喊出来",
-    "metaphorMeaningCn": "忍不住大声叫出来",
-    "metaphorOptions": ["忍不住大声叫出来", "读黑板上的文字", "数二十张票"],
-    "mnemonicNote": "ex(向外)+claim(喊)：把声音喊出去",
-    "sourceNote": "拉丁 exclamare，ex-(向外) + clamare(喊)"
-  },
-  "default": {
-    "modernMeaningCn": "违约、默认值",
-    "literalMeaningCn": "出了差错",
-    "metaphorMeaningCn": "没照约定做到的状态",
-    "metaphorOptions": ["没照约定做到的状态", "写满记录的本子", "关掉的机器"],
-    "mnemonicNote": "de(向下)+fault(过错)：出了错，没照办",
-    "sourceNote": "古法语 defaute，de- + faillir(欠缺)"
-  },
-  "adjective": {
-    "modernMeaningCn": "形容词的、形容词",
-    "literalMeaningCn": "投到旁边的",
-    "metaphorMeaningCn": "贴在名词上的修饰词",
-    "metaphorOptions": ["贴在名词上的修饰词", "读黑板上的文字", "画着图案的卡片"],
-    "mnemonicNote": "ad(朝向)+ject(投)+ive：投到名词旁边的词",
-    "sourceNote": "拉丁 adjectivum，adicere(投加)"
-  },
-  "ascertain": {
-    "modernMeaningCn": "查明、确定",
-    "literalMeaningCn": "弄到确定",
-    "metaphorMeaningCn": "查清楚才定下来",
-    "metaphorOptions": ["查清楚才定下来", "写满记录的本子", "量二十个箱子"],
-    "mnemonicNote": "as(朝向)+certain(确定)：朝确定的方向查清",
-    "sourceNote": "古法语 acertener，a- + certain(确定)"
-  },
-  "signify": {
-    "modernMeaningCn": "表示、意味着",
-    "literalMeaningCn": "做个记号",
-    "metaphorMeaningCn": "用符号传达意思",
-    "metaphorOptions": ["用符号传达意思", "画着图案的卡片", "写满标记的木板"],
-    "mnemonicNote": "sign(记号)+ify：用记号把意思给出",
-    "sourceNote": "拉丁 significare，signum(记号) + facere(做)"
-  },
-  "detain": {
-    "modernMeaningCn": "扣留、耽搁",
-    "literalMeaningCn": "扣住不放",
-    "metaphorMeaningCn": "把人留住不许走",
-    "metaphorOptions": ["把人留住不许走", "锁在监狱的人", "开往城市的车"],
-    "mnemonicNote": "de(向下)+tain(持有)：把人握在手里不放",
-    "sourceNote": "拉丁 detinere，de- + tenere(持有)"
-  },
-  "consolidate": {
-    "modernMeaningCn": "巩固、合并",
-    "literalMeaningCn": "使变结实",
-    "metaphorMeaningCn": "把散的并成一块",
-    "metaphorOptions": ["把散的并成一块", "建好的房子", "围成一圈的椅子"],
-    "mnemonicNote": "con(共同)+solid(坚硬)+ate：并到一块，变结实",
-    "sourceNote": "拉丁 consolidare，con- + solidus(坚固)"
-  },
-  "infect": {
-    "modernMeaningCn": "传染、感染",
-    "literalMeaningCn": "做进去",
-    "metaphorMeaningCn": "病菌进了身子",
-    "metaphorOptions": ["病菌进了身子", "掉在地上的牙齿", "厨房做出的面包"],
-    "mnemonicNote": "in(进入)+fect(做)：病气做进体内",
-    "sourceNote": "拉丁 inficere，in- + facere(做)"
-  },
-  "denote": {
-    "modernMeaningCn": "表示、指示",
-    "literalMeaningCn": "标出来",
-    "metaphorMeaningCn": "用记号指出意思",
-    "metaphorOptions": ["用记号指出意思", "写满标记的木板", "读黑板上的文字"],
-    "mnemonicNote": "de(向下)+note(标记)：打上记号指明",
-    "sourceNote": "拉丁 denotare，de- + notare(标记)"
-  },
-  "linear": {
-    "modernMeaningCn": "线的、线性的",
-    "literalMeaningCn": "成一条线",
-    "metaphorMeaningCn": "沿着一条直线走",
-    "metaphorOptions": ["沿着一条直线走", "量二十个箱子", "接上城市的线"],
-    "mnemonicNote": "line(线)+ar：跟直线有关的",
-    "sourceNote": "拉丁 linearis，linea(线)"
-  },
-  "texture": {
-    "modernMeaningCn": "质地、纹理",
-    "literalMeaningCn": "织出来的样子",
-    "metaphorMeaningCn": "摸上去的粗细手感",
-    "metaphorOptions": ["摸上去的粗细手感", "厨房做出的面包", "擦亮旧椅子"],
-    "mnemonicNote": "text(编织)+ure：织法决定的手感",
-    "sourceNote": "拉丁 textura，texere(编织)"
-  }
+ "presume": {
+  "modernMeaningCn": "假定、推测",
+  "literalMeaningCn": "先拿定",
+  "metaphorMeaningCn": "没等证实就先当真",
+  "metaphorOptions": [
+   "没等证实就先当真",
+   "嘲笑的旧事",
+   "向着过度去"
+  ],
+  "mnemonicNote": "pre(预先)+sume(拿取)：事先拿定一个说法",
+  "sourceNote": "拉丁 praesumere，prae-(预先) + sumere(拿取)"
+ },
+ "instant": {
+  "modernMeaningCn": "瞬间、立即的",
+  "literalMeaningCn": "就站在跟前",
+  "metaphorMeaningCn": "一眨眼就到了",
+  "metaphorOptions": [
+   "一眨眼就到了",
+   "被王子的东西",
+   "年轻的的味道"
+  ],
+  "mnemonicNote": "in(在上)+stant(站立)：事就在眼前，即刻发生",
+  "sourceNote": "拉丁 instans，in-(在上) + stare(站)"
+ },
+ "pronounce": {
+  "modernMeaningCn": "发音、宣告",
+  "literalMeaningCn": "当众说出",
+  "metaphorMeaningCn": "把音或话讲出来",
+  "metaphorOptions": [
+   "把音或话讲出来",
+   "进行的过程",
+   "离大约的很远"
+  ],
+  "mnemonicNote": "pro(向前)+nounce(讲述)：把话说出口",
+  "sourceNote": "拉丁 pronuntiare，pro-(向前) + nuntiare(宣告)"
+ },
+ "static": {
+  "modernMeaningCn": "静态的、静止的",
+  "literalMeaningCn": "站住不动",
+  "metaphorMeaningCn": "一动不动地待着",
+  "metaphorOptions": [
+   "一动不动地待着",
+   "外套的另一面",
+   "东方的味道"
+  ],
+  "mnemonicNote": "sta(站立)+tic：站定不动的",
+  "sourceNote": "希腊 statikos，stasis(站立)"
+ },
+ "competent": {
+  "modernMeaningCn": "能胜任的、有能力的",
+  "literalMeaningCn": "配得上的",
+  "metaphorMeaningCn": "本事够做这件事",
+  "metaphorOptions": [
+   "本事够做这件事",
+   "数着搭叠过日子",
+   "围着娱乐转"
+  ],
+  "mnemonicNote": "compet(相称)+ent：与要求相称，做得了",
+  "sourceNote": "拉丁 competens，competere(相称)"
+ },
+ "adverse": {
+  "modernMeaningCn": "不利的、相反的",
+  "literalMeaningCn": "转过来对着",
+  "metaphorMeaningCn": "朝着你来的坏方向",
+  "metaphorOptions": [
+   "朝着你来的坏方向",
+   "把严肃的串起来",
+   "把工作的翻开"
+  ],
+  "mnemonicNote": "ad(朝向)+verse(转)：转到你这边，与你相逆",
+  "sourceNote": "拉丁 adversus，ad-(朝向) + vertere(转)"
+ },
+ "presidency": {
+  "modernMeaningCn": "总统任期、职位",
+  "literalMeaningCn": "坐在前头的位子",
+  "metaphorMeaningCn": "最高那个职位本身",
+  "metaphorOptions": [
+   "最高那个职位本身",
+   "土星的人",
+   "一种恰好的的习俗"
+  ],
+  "mnemonicNote": "pre(在前)+sid(坐)+ency：坐最前的那个职位",
+  "sourceNote": "拉丁 praesidentia，prae-(在前) + sedere(坐)"
+ },
+ "ignorance": {
+  "modernMeaningCn": "无知、不知情",
+  "literalMeaningCn": "不知这件事",
+  "metaphorMeaningCn": "该知道却不知道",
+  "metaphorOptions": [
+   "该知道却不知道",
+   "被杠杆的东西",
+   "感知的背面"
+  ],
+  "mnemonicNote": "ignor(不知道)+ance：不晓得的那个状态",
+  "sourceNote": "拉丁 ignorantia，ignorare(不知道)"
+ },
+ "inflict": {
+  "modernMeaningCn": "施加、使承受",
+  "literalMeaningCn": "打上去",
+  "metaphorMeaningCn": "把痛苦强加给人",
+  "metaphorOptions": [
+   "把痛苦强加给人",
+   "数着庆祝过日子",
+   "围着容纳转"
+  ],
+  "mnemonicNote": "in(在上)+flict(打击)：把打击落到人身上",
+  "sourceNote": "拉丁 infligere，in- + fligere(打击)"
+ },
+ "revenge": {
+  "modernMeaningCn": "报复、复仇",
+  "literalMeaningCn": "讨回来",
+  "metaphorMeaningCn": "以牙还牙讨回来",
+  "metaphorOptions": [
+   "以牙还牙讨回来",
+   "否认的小站",
+   "守着知道过活"
+  ],
+  "mnemonicNote": "re(回)+venge(报仇)：把仇讨回去",
+  "sourceNote": "古法语 revenger，re- + vengier(报仇)"
+ },
+ "gradual": {
+  "modernMeaningCn": "逐渐的、渐进的",
+  "literalMeaningCn": "一级一级地",
+  "metaphorMeaningCn": "一步一步慢慢来",
+  "metaphorOptions": [
+   "一步一步慢慢来",
+   "长度的地方",
+   "天平的小站"
+  ],
+  "mnemonicNote": "grad(步、级)+ual：一级级往前挪的",
+  "sourceNote": "拉丁 gradualis，gradus(步、级)"
+ },
+ "recipient": {
+  "modernMeaningCn": "接受者、收件人",
+  "literalMeaningCn": "往回拿的人",
+  "metaphorMeaningCn": "收下东西的那一方",
+  "metaphorOptions": [
+   "收下东西的那一方",
+   "向着反手去",
+   "附带的的过程"
+  ],
+  "mnemonicNote": "re(回)+cip(拿取)+ient：把东西拿回来的人",
+  "sourceNote": "拉丁 recipiens，recipere(收回)"
+ },
+ "designate": {
+  "modernMeaningCn": "指定、指派",
+  "literalMeaningCn": "标出记号",
+  "metaphorMeaningCn": "点名定下由谁来做",
+  "metaphorOptions": [
+   "点名定下由谁来做",
+   "替制止操心",
+   "领导者的味道"
+  ],
+  "mnemonicNote": "de(向下)+sign(记号)+ate：打上记号定下来",
+  "sourceNote": "拉丁 designare，de- + signum(记号)"
+ },
+ "exclaim": {
+  "modernMeaningCn": "呼喊、惊叫",
+  "literalMeaningCn": "喊出来",
+  "metaphorMeaningCn": "忍不住大声叫出来",
+  "metaphorOptions": [
+   "忍不住大声叫出来",
+   "把惊起翻开",
+   "把土星串起来"
+  ],
+  "mnemonicNote": "ex(向外)+claim(喊)：把声音喊出去",
+  "sourceNote": "拉丁 exclamare，ex-(向外) + clamare(喊)"
+ },
+ "default": {
+  "modernMeaningCn": "违约、默认值",
+  "literalMeaningCn": "出了差错",
+  "metaphorMeaningCn": "没照约定做到的状态",
+  "metaphorOptions": [
+   "没照约定做到的状态",
+   "守着做广告过活",
+   "克服的小站"
+  ],
+  "mnemonicNote": "de(向下)+fault(过错)：出了错，没照办",
+  "sourceNote": "古法语 defaute，de- + faillir(欠缺)"
+ },
+ "adjective": {
+  "modernMeaningCn": "形容词的、形容词",
+  "literalMeaningCn": "投到旁边的",
+  "metaphorMeaningCn": "贴在名词上的修饰词",
+  "metaphorOptions": [
+   "贴在名词上的修饰词",
+   "吸附的小站",
+   "精力的地方"
+  ],
+  "mnemonicNote": "ad(朝向)+ject(投)+ive：投到名词旁边的词",
+  "sourceNote": "拉丁 adjectivum，adicere(投加)"
+ },
+ "ascertain": {
+  "modernMeaningCn": "查明、确定",
+  "literalMeaningCn": "弄到确定",
+  "metaphorMeaningCn": "查清楚才定下来",
+  "metaphorOptions": [
+   "查清楚才定下来",
+   "数着上升过日子",
+   "防护的工具"
+  ],
+  "mnemonicNote": "as(朝向)+certain(确定)：朝确定的方向查清",
+  "sourceNote": "古法语 acertener，a- + certain(确定)"
+ },
+ "signify": {
+  "modernMeaningCn": "表示、意味着",
+  "literalMeaningCn": "做个记号",
+  "metaphorMeaningCn": "用符号传达意思",
+  "metaphorOptions": [
+   "用符号传达意思",
+   "数着生动的过日子",
+   "围着长度转"
+  ],
+  "mnemonicNote": "sign(记号)+ify：用记号把意思给出",
+  "sourceNote": "拉丁 significare，signum(记号) + facere(做)"
+ },
+ "detain": {
+  "modernMeaningCn": "扣留、耽搁",
+  "literalMeaningCn": "扣住不放",
+  "metaphorMeaningCn": "把人留住不许走",
+  "metaphorOptions": [
+   "把人留住不许走",
+   "从不的工具",
+   "数着苦的过日子"
+  ],
+  "mnemonicNote": "de(向下)+tain(持有)：把人握在手里不放",
+  "sourceNote": "拉丁 detinere，de- + tenere(持有)"
+ },
+ "consolidate": {
+  "modernMeaningCn": "巩固、合并",
+  "literalMeaningCn": "使变结实",
+  "metaphorMeaningCn": "把散的并成一块",
+  "metaphorOptions": [
+   "把散的并成一块",
+   "立方的味道",
+   "运输的另一面"
+  ],
+  "mnemonicNote": "con(共同)+solid(坚硬)+ate：并到一块，变结实",
+  "sourceNote": "拉丁 consolidare，con- + solidus(坚固)"
+ },
+ "infect": {
+  "modernMeaningCn": "传染、感染",
+  "literalMeaningCn": "做进去",
+  "metaphorMeaningCn": "病菌进了身子",
+  "metaphorOptions": [
+   "病菌进了身子",
+   "把更远的翻开",
+   "把临近的串起来"
+  ],
+  "mnemonicNote": "in(进入)+fect(做)：病气做进体内",
+  "sourceNote": "拉丁 inficere，in- + facere(做)"
+ },
+ "denote": {
+  "modernMeaningCn": "表示、指示",
+  "literalMeaningCn": "标出来",
+  "metaphorMeaningCn": "用记号指出意思",
+  "metaphorOptions": [
+   "用记号指出意思",
+   "围着明显的转",
+   "向着保持去"
+  ],
+  "mnemonicNote": "de(向下)+note(标记)：打上记号指明",
+  "sourceNote": "拉丁 denotare，de- + notare(标记)"
+ },
+ "linear": {
+  "modernMeaningCn": "线的、线性的",
+  "literalMeaningCn": "成一条线",
+  "metaphorMeaningCn": "沿着一条直线走",
+  "metaphorOptions": [
+   "沿着一条直线走",
+   "把激励串起来",
+   "长官的工具"
+  ],
+  "mnemonicNote": "line(线)+ar：跟直线有关的",
+  "sourceNote": "拉丁 linearis，linea(线)"
+ },
+ "texture": {
+  "modernMeaningCn": "质地、纹理",
+  "literalMeaningCn": "织出来的样子",
+  "metaphorMeaningCn": "摸上去的粗细手感",
+  "metaphorOptions": [
+   "摸上去的粗细手感",
+   "把前臂串起来",
+   "数着厅堂过日子"
+  ],
+  "mnemonicNote": "text(编织)+ure：织法决定的手感",
+  "sourceNote": "拉丁 textura，texere(编织)"
+ }
 }

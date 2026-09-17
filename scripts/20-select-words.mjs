@@ -115,12 +115,22 @@ let skipped62 = 0
 /** 词典里查不到的词形（fatherinlaw 这类连写、专名），跳过并在末尾汇总。 */
 const skippedNoEntry = []
 for (const word of Object.keys(splits)) {
-  const entry = ecdict.get(word)
-  // 词典查不到的词（`fatherinlaw` 这类连写形式、专名）跳过即可：Stage 3 铺库后切分表
-  // 由上游生成，个别词形与 ECDICT 索引对不上属于正常噪声，不该拦住整条管线。
-  if (!entry) { skippedNoEntry.push(word); continue }
   const isCanary = canary.has(word)
   const isForce = forceInclude.has(word)
+  const entry = ecdict.get(word)
+  if (!entry) {
+    // 保送词 / canary 锚点：词典索引里查不到（fatherinlaw 这类连写复合词、专名）也照收 ——
+    // 强制保送的语义就是让它们进来。其余词形与 ECDICT 对不上是正常噪声，跳过。
+    if (!isCanary && !isForce) { skippedNoEntry.push(word); continue }
+    const familyId = familyOfWord.get(word) || ''
+    candidates.push({
+      word, id: word, familyId, rootId: rootOfFamily.get(familyId) || familyId,
+      phonetic: '', partOfSpeech: '', translation: '', tags: [], collins: '', oxford: '', bnc: 0, frq: 0,
+      difficulty: 3, score: 0,
+      split: splits[word], canary: isCanary, forceInclude: isForce,
+    })
+    continue
+  }
   if (!isCanary && !isForce && !passes62(entry).ok) { skipped62++; continue }
   const familyId = familyOfWord.get(word) || ''
   candidates.push({

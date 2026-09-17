@@ -8,7 +8,7 @@
     { "id": "spec", "displayText": "spec / spect", "type": "root", "meaningCn": "看", "allomorphs": ["spec", "spect", "spic", "pect"], "etymology": "来自拉丁语 specere，看、观察；expect/suspect 里 ex-/sus- 之后 s 脱落，只剩 pect", "level": 2, "color": "orange" },
     { "id": "dict", "displayText": "dict / dic", "type": "root", "meaningCn": "说", "allomorphs": ["dict", "dic"], "etymology": "来自拉丁语 dicere，说、宣布", "level": 1, "color": "orange" },
     { "id": "port", "displayText": "port", "type": "root", "meaningCn": "携带", "allomorphs": ["port"], "etymology": "来自拉丁语 portare，携带", "level": 1, "color": "orange" },
-    { "id": "vid", "displayText": "vid / vis", "type": "root", "meaningCn": "看", "allomorphs": ["vid", "vis", "vise"], "etymology": "来自拉丁语 videre，看见", "level": 1, "color": "orange" },
+    { "id": "vid", "displayText": "vid / vis", "type": "root", "meaningCn": "看", "allomorphs": ["vid", "vis", "vise", "vide"], "etymology": "来自拉丁语 videre，看见", "level": 1, "color": "orange" },
     { "id": "ion", "displayText": "-ion", "type": "suffix", "meaningCn": "动作、过程（名词）", "allomorphs": ["tion", "sion", "ion"], "etymology": "高频名词后缀，标记动作或结果", "level": 1, "color": "green" },
     { "id": "ive", "displayText": "-ive", "type": "suffix", "meaningCn": "具有……性质的（形容词）", "allomorphs": ["ive"], "etymology": "高频形容词后缀，表示倾向或性质", "level": 1, "color": "green" },
     { "id": "able", "displayText": "-able / -ible", "type": "suffix", "meaningCn": "能够……的（形容词）", "allomorphs": ["able", "ible", "ibil"], "etymology": "高频形容词后缀，表示可能性或能力", "level": 1, "color": "green" },

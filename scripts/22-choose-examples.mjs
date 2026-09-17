@@ -29,6 +29,8 @@ const targetWords = words.map((w) => w.word)
 // 逐条翻译补齐（exampleEn 原样保留，只补 exampleCn）。
 const handoffPaths = ['words-examples.json', 'words-examples-stage2.json', 'words-examples-stage3.json', 'words-examples-stage3b.json', 'words-examples-stage3c.json']
   .map((name) => join(here, 'lib', 'handoff', name))
+// 追加读取 stage3d（批量补收词的手写例句），与既有层同序、同名词后者胜出
+handoffPaths.push(join(here, 'lib', 'handoff', 'words-examples-stage3d.json'))
 const handoff = new Map()
 for (const p of handoffPaths) {
   if (!existsSync(p)) continue

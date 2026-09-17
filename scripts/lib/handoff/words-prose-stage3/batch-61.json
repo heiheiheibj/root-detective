@@ -1,202 +1,302 @@
 {
-  "conspicuous": {
-    "modernMeaningCn": "显眼的、显著的",
-    "literalMeaningCn": "全被看到",
-    "metaphorMeaningCn": "一眼就能瞧见的",
-    "metaphorOptions": ["一眼就能瞧见的", "擦得发亮的椅子", "市场卖的柠檬"],
-    "mnemonicNote": "con(完全)+spic(看)+uous：全被看见，藏不住",
-    "sourceNote": "拉丁 conspicuus，con- + specere(看)"
-  },
-  "enclosure": {
-    "modernMeaningCn": "围场、附件",
-    "literalMeaningCn": "关起来的地方",
-    "metaphorMeaningCn": "用墙圈住的一块地",
-    "metaphorOptions": ["用墙圈住的一块地", "建好的房子", "围成一圈的椅子"],
-    "mnemonicNote": "en(使进入)+clos(关闭)+ure：关进来的一块地方",
-    "sourceNote": "古法语 enclos，en- + clore(关闭)"
-  },
-  "rotate": {
-    "modernMeaningCn": "旋转、轮流",
-    "literalMeaningCn": "转起来",
-    "metaphorMeaningCn": "像轮子一样转圈",
-    "metaphorOptions": ["像轮子一样转圈", "开往城市的车", "厨房里的机器"],
-    "mnemonicNote": "rot(轮转)+ate：像轮子那样转",
-    "sourceNote": "拉丁 rotare，rota(轮子)"
-  },
-  "violate": {
-    "modernMeaningCn": "违反、侵犯",
-    "literalMeaningCn": "越了界",
-    "metaphorMeaningCn": "踩过不该踩的线",
-    "metaphorOptions": ["踩过不该踩的线", "锁在监狱的人", "写满记录的本子"],
-    "mnemonicNote": "viol(越界、施暴)+ate：越过界线，犯了规矩",
-    "sourceNote": "拉丁 violare（施暴、侵犯）"
-  },
-  "equate": {
-    "modernMeaningCn": "使相等、等同",
-    "literalMeaningCn": "弄成相等",
-    "metaphorMeaningCn": "把两样看成一样",
-    "metaphorOptions": ["把两样看成一样", "称稻草的重量", "量二十个箱子"],
-    "mnemonicNote": "equ(相等)+ate：使两边相等",
-    "sourceNote": "拉丁 aequare，aequus(相等)"
-  },
-  "corrupt": {
-    "modernMeaningCn": "腐败的、使堕落",
-    "literalMeaningCn": "完全破掉",
-    "metaphorMeaningCn": "从里到外烂掉",
-    "metaphorOptions": ["从里到外烂掉", "锁在监狱的人", "关掉的机器"],
-    "mnemonicNote": "cor(完全)+rupt(破裂)：整个破掉，烂了",
-    "sourceNote": "拉丁 corrumpere，cor- + rumpere(破裂)"
-  },
-  "abrupt": {
-    "modernMeaningCn": "突然的、唐突的",
-    "literalMeaningCn": "断开的",
-    "metaphorMeaningCn": "一下断掉，毫无铺垫",
-    "metaphorOptions": ["一下断掉，毫无铺垫", "绕过南方的河", "接上城市的线"],
-    "mnemonicNote": "ab(离开)+rupt(破裂)：突然断掉，说停就停",
-    "sourceNote": "拉丁 abruptus，ab- + rumpere(破裂)"
-  },
-  "deduce": {
-    "modernMeaningCn": "推论、演绎",
-    "literalMeaningCn": "引出来",
-    "metaphorMeaningCn": "顺着线索推出来",
-    "metaphorOptions": ["顺着线索推出来", "写满记录的本子", "读黑板上的文字"],
-    "mnemonicNote": "de(向下)+duce(引导)：往下引，推出结论",
-    "sourceNote": "拉丁 deducere，de-(向下) + ducere(引导)"
-  },
-  "deduct": {
-    "modernMeaningCn": "扣除、减去",
-    "literalMeaningCn": "引走一部分",
-    "metaphorMeaningCn": "从总额里减掉",
-    "metaphorOptions": ["从总额里减掉", "数二十个硬币", "市场卖出的黄金"],
-    "mnemonicNote": "de(向下)+duct(引导)：引走一块，就少了",
-    "sourceNote": "拉丁 deducere，de-(向下) + ducere(引导)"
-  },
-  "composite": {
-    "modernMeaningCn": "合成的、复合材料",
-    "literalMeaningCn": "放到一起",
-    "metaphorMeaningCn": "几样拼成的一件",
-    "metaphorOptions": ["几样拼成的一件", "建好的房子", "围成一圈的椅子"],
-    "mnemonicNote": "com(共同)+pos(放置)+ite：摆在一处合成的",
-    "sourceNote": "拉丁 compositus，com- + ponere(放置)"
-  },
-  "abundant": {
-    "modernMeaningCn": "丰富的、大量的",
-    "literalMeaningCn": "满得溢出",
-    "metaphorMeaningCn": "多到用不完",
-    "metaphorOptions": ["多到用不完", "厨房做出的面包", "市场卖的柠檬"],
-    "mnemonicNote": "abund(充盈、满溢)+ant：满出来的那么多",
-    "sourceNote": "拉丁 abundans，abundare(满溢)"
-  },
-  "partition": {
-    "modernMeaningCn": "分割、隔墙",
-    "literalMeaningCn": "分成几份",
-    "metaphorMeaningCn": "隔开来的那一道墙",
-    "metaphorOptions": ["隔开来的那一道墙", "分开的两块板", "建好的房子"],
-    "mnemonicNote": "part(部分)+ition：切成几块的那道隔断",
-    "sourceNote": "拉丁 partitio，partiri(分)"
-  },
-  "terrify": {
-    "modernMeaningCn": "使恐惧、恐吓",
-    "literalMeaningCn": "使害怕",
-    "metaphorMeaningCn": "吓得人不敢动",
-    "metaphorOptions": ["吓得人不敢动", "锁在监狱的人", "掉在地上的牙齿"],
-    "mnemonicNote": "terr(恐怖)+ify：让人心里发慌",
-    "sourceNote": "拉丁 terrificare，terror(恐怖)"
-  },
-  "facial": {
-    "modernMeaningCn": "面部的、美容",
-    "literalMeaningCn": "脸上的",
-    "metaphorMeaningCn": "跟脸有关的",
-    "metaphorOptions": ["跟脸有关的", "擦亮旧椅子", "画着图案的卡片"],
-    "mnemonicNote": "fac(面)+ial：跟脸有关的",
-    "sourceNote": "拉丁 facies（脸、外形）"
-  },
-  "facet": {
-    "modernMeaningCn": "方面、小平面",
-    "literalMeaningCn": "一个小面",
-    "metaphorMeaningCn": "一件事的一个侧面",
-    "metaphorOptions": ["一件事的一个侧面", "建好的房子", "量二十个箱子"],
-    "mnemonicNote": "fac(面)+et：宝石上的一个小面",
-    "sourceNote": "法语 facette，face(面) 的指小"
-  },
-  "mediate": {
-    "modernMeaningCn": "调解、斡旋",
-    "literalMeaningCn": "站在中间",
-    "metaphorMeaningCn": "夹在两边劝和",
-    "metaphorOptions": ["夹在两边劝和", "围成一圈的椅子", "选城市里的人"],
-    "mnemonicNote": "medi(中间)+ate：站中间替两边说合",
-    "sourceNote": "拉丁 mediare，medius(中间)"
-  },
-  "optimal": {
-    "modernMeaningCn": "最佳的、最优的",
-    "literalMeaningCn": "最该选的",
-    "metaphorMeaningCn": "挑不出更好的",
-    "metaphorOptions": ["挑不出更好的", "数二十个硬币", "称稻草的重量"],
-    "mnemonicNote": "optim(最好)+al：最值得选的那一个",
-    "sourceNote": "拉丁 optimus（最好的）"
-  },
-  "gradient": {
-    "modernMeaningCn": "梯度、坡度",
-    "literalMeaningCn": "一级一级的",
-    "metaphorMeaningCn": "高低之间斜着的度",
-    "metaphorOptions": ["高低之间斜着的度", "量二十个箱子", "绕过南方的河"],
-    "mnemonicNote": "grad(步、级)+ient：一级级变化的那个度",
-    "sourceNote": "拉丁 gradientem，gradi(走、分级)"
-  },
-  "detach": {
-    "modernMeaningCn": "拆下、使分离",
-    "literalMeaningCn": "把钉的拆开",
-    "metaphorMeaningCn": "从整体上卸下来",
-    "metaphorOptions": ["从整体上卸下来", "接上城市的线", "分开的两块板"],
-    "mnemonicNote": "de(去掉)+tach(钉住)：拔掉钉子，分开",
-    "sourceNote": "法语 detacher，de- + attacher(钉住)"
-  },
-  "infer": {
-    "modernMeaningCn": "推断、推论",
-    "literalMeaningCn": "带出来",
-    "metaphorMeaningCn": "顺着线索得出结论",
-    "metaphorOptions": ["顺着线索得出结论", "写满记录的本子", "读黑板上的文字"],
-    "mnemonicNote": "in(向内)+fer(带来)：把意思从里面带出来",
-    "sourceNote": "拉丁 inferre，in- + ferre(带)"
-  },
-  "residual": {
-    "modernMeaningCn": "剩余的、残余的",
-    "literalMeaningCn": "留下坐着的",
-    "metaphorMeaningCn": "用剩没用完的",
-    "metaphorOptions": ["用剩没用完的", "装蜜蜂的箱子", "关掉的机器"],
-    "mnemonicNote": "re(回)+sid(坐)+ual：留下来没走的那些",
-    "sourceNote": "拉丁 residuus，residere(留坐)"
-  },
-  "susceptible": {
-    "modernMeaningCn": "易受影响的、敏感的",
-    "literalMeaningCn": "容易被拿住的",
-    "metaphorMeaningCn": "一点就中招的那种",
-    "metaphorOptions": ["一点就中招的那种", "掉在地上的牙齿", "擦亮旧椅子"],
-    "mnemonicNote": "sus(在下)+cept(拿)+ible：从下面被拿住，挡不住",
-    "sourceNote": "拉丁 susceptibilis，suscipere(承受)"
-  },
-  "suffice": {
-    "modernMeaningCn": "足够、满足",
-    "literalMeaningCn": "做得够了",
-    "metaphorMeaningCn": "够用，不用再加",
-    "metaphorOptions": ["够用，不用再加", "数二十个硬币", "厨房做出的面包"],
-    "mnemonicNote": "suf(在下)+fice(做)：底下做足，就够了",
-    "sourceNote": "拉丁 sufficere，sub- + facere(做)"
-  },
-  "torture": {
-    "modernMeaningCn": "折磨、拷问",
-    "literalMeaningCn": "拧着翻",
-    "metaphorMeaningCn": "被拧着痛不欲生",
-    "metaphorOptions": ["被拧着痛不欲生", "锁在监狱的人", "掉在地上的牙齿"],
-    "mnemonicNote": "tor(翻滚)+ture：把人拧着翻，逼供",
-    "sourceNote": "拉丁 tortura，torquere(拧、翻滚)"
-  },
-  "hinder": {
-    "modernMeaningCn": "阻碍、妨碍",
-    "literalMeaningCn": "落在后面",
-    "metaphorMeaningCn": "扯后腿让人走不动",
-    "metaphorOptions": ["扯后腿让人走不动", "开往城市的车", "绕过南方的河"],
-    "mnemonicNote": "hind(后面)+er：往后拉住，让人慢下来",
-    "sourceNote": "古英语 hindrian，hind(在后的)"
-  }
+ "conspicuous": {
+  "modernMeaningCn": "显眼的、显著的",
+  "literalMeaningCn": "全被看到",
+  "metaphorMeaningCn": "一眼就能瞧见的",
+  "metaphorOptions": [
+   "一眼就能瞧见的",
+   "替葡萄牙操心",
+   "守着进程过活"
+  ],
+  "mnemonicNote": "con(完全)+spic(看)+uous：全被看见，藏不住",
+  "sourceNote": "拉丁 conspicuus，con- + specere(看)"
+ },
+ "enclosure": {
+  "modernMeaningCn": "围场、附件",
+  "literalMeaningCn": "关起来的地方",
+  "metaphorMeaningCn": "用墙圈住的一块地",
+  "metaphorOptions": [
+   "用墙圈住的一块地",
+   "大会的来路",
+   "四处走动的地方"
+  ],
+  "mnemonicNote": "en(使进入)+clos(关闭)+ure：关进来的一块地方",
+  "sourceNote": "古法语 enclos，en- + clore(关闭)"
+ },
+ "rotate": {
+  "modernMeaningCn": "旋转、轮流",
+  "literalMeaningCn": "转起来",
+  "metaphorMeaningCn": "像轮子一样转圈",
+  "metaphorOptions": [
+   "像轮子一样转圈",
+   "用覆盖的人",
+   "缰绳的影子"
+  ],
+  "mnemonicNote": "rot(轮转)+ate：像轮子那样转",
+  "sourceNote": "拉丁 rotare，rota(轮子)"
+ },
+ "violate": {
+  "modernMeaningCn": "违反、侵犯",
+  "literalMeaningCn": "越了界",
+  "metaphorMeaningCn": "踩过不该踩的线",
+  "metaphorOptions": [
+   "踩过不该踩的线",
+   "孤单的旧事",
+   "废物的来路"
+  ],
+  "mnemonicNote": "viol(越界、施暴)+ate：越过界线，犯了规矩",
+  "sourceNote": "拉丁 violare（施暴、侵犯）"
+ },
+ "equate": {
+  "modernMeaningCn": "使相等、等同",
+  "literalMeaningCn": "弄成相等",
+  "metaphorMeaningCn": "把两样看成一样",
+  "metaphorOptions": [
+   "把两样看成一样",
+   "统计的另一面",
+   "守着栖木过活"
+  ],
+  "mnemonicNote": "equ(相等)+ate：使两边相等",
+  "sourceNote": "拉丁 aequare，aequus(相等)"
+ },
+ "corrupt": {
+  "modernMeaningCn": "腐败的、使堕落",
+  "literalMeaningCn": "完全破掉",
+  "metaphorMeaningCn": "从里到外烂掉",
+  "metaphorOptions": [
+   "从里到外烂掉",
+   "发荧光的小站",
+   "闪烁的地方"
+  ],
+  "mnemonicNote": "cor(完全)+rupt(破裂)：整个破掉，烂了",
+  "sourceNote": "拉丁 corrumpere，cor- + rumpere(破裂)"
+ },
+ "abrupt": {
+  "modernMeaningCn": "突然的、唐突的",
+  "literalMeaningCn": "断开的",
+  "metaphorMeaningCn": "一下断掉，毫无铺垫",
+  "metaphorOptions": [
+   "一下断掉，毫无铺垫",
+   "庄园的人",
+   "一种不赞成的习俗"
+  ],
+  "mnemonicNote": "ab(离开)+rupt(破裂)：突然断掉，说停就停",
+  "sourceNote": "拉丁 abruptus，ab- + rumpere(破裂)"
+ },
+ "deduce": {
+  "modernMeaningCn": "推论、演绎",
+  "literalMeaningCn": "引出来",
+  "metaphorMeaningCn": "顺着线索推出来",
+  "metaphorOptions": [
+   "顺着线索推出来",
+   "围着行走转",
+   "数着水流过日子"
+  ],
+  "mnemonicNote": "de(向下)+duce(引导)：往下引，推出结论",
+  "sourceNote": "拉丁 deducere，de-(向下) + ducere(引导)"
+ },
+ "deduct": {
+  "modernMeaningCn": "扣除、减去",
+  "literalMeaningCn": "引走一部分",
+  "metaphorMeaningCn": "从总额里减掉",
+  "metaphorOptions": [
+   "从总额里减掉",
+   "一种使高兴的习俗",
+   "溜冰的人"
+  ],
+  "mnemonicNote": "de(向下)+duct(引导)：引走一块，就少了",
+  "sourceNote": "拉丁 deducere，de-(向下) + ducere(引导)"
+ },
+ "composite": {
+  "modernMeaningCn": "合成的、复合材料",
+  "literalMeaningCn": "放到一起",
+  "metaphorMeaningCn": "几样拼成的一件",
+  "metaphorOptions": [
+   "几样拼成的一件",
+   "待办的地方",
+   "尝试的来路"
+  ],
+  "mnemonicNote": "com(共同)+pos(放置)+ite：摆在一处合成的",
+  "sourceNote": "拉丁 compositus，com- + ponere(放置)"
+ },
+ "abundant": {
+  "modernMeaningCn": "丰富的、大量的",
+  "literalMeaningCn": "满得溢出",
+  "metaphorMeaningCn": "多到用不完",
+  "metaphorOptions": [
+   "多到用不完",
+   "把肯定的串起来",
+   "退下的工具"
+  ],
+  "mnemonicNote": "abund(充盈、满溢)+ant：满出来的那么多",
+  "sourceNote": "拉丁 abundans，abundare(满溢)"
+ },
+ "partition": {
+  "modernMeaningCn": "分割、隔墙",
+  "literalMeaningCn": "分成几份",
+  "metaphorMeaningCn": "隔开来的那一道墙",
+  "metaphorOptions": [
+   "隔开来的那一道墙",
+   "把挑选出来的翻开",
+   "辅助定理的影子"
+  ],
+  "mnemonicNote": "part(部分)+ition：切成几块的那道隔断",
+  "sourceNote": "拉丁 partitio，partiri(分)"
+ },
+ "terrify": {
+  "modernMeaningCn": "使恐惧、恐吓",
+  "literalMeaningCn": "使害怕",
+  "metaphorMeaningCn": "吓得人不敢动",
+  "metaphorOptions": [
+   "吓得人不敢动",
+   "一种提议的习俗",
+   "商讨的人"
+  ],
+  "mnemonicNote": "terr(恐怖)+ify：让人心里发慌",
+  "sourceNote": "拉丁 terrificare，terror(恐怖)"
+ },
+ "facial": {
+  "modernMeaningCn": "面部的、美容",
+  "literalMeaningCn": "脸上的",
+  "metaphorMeaningCn": "跟脸有关的",
+  "metaphorOptions": [
+   "跟脸有关的",
+   "可能的的来路",
+   "偷偷的地方"
+  ],
+  "mnemonicNote": "fac(面)+ial：跟脸有关的",
+  "sourceNote": "拉丁 facies（脸、外形）"
+ },
+ "facet": {
+  "modernMeaningCn": "方面、小平面",
+  "literalMeaningCn": "一个小面",
+  "metaphorMeaningCn": "一件事的一个侧面",
+  "metaphorOptions": [
+   "一件事的一个侧面",
+   "东西的来路",
+   "围着占主导地位的转"
+  ],
+  "mnemonicNote": "fac(面)+et：宝石上的一个小面",
+  "sourceNote": "法语 facette，face(面) 的指小"
+ },
+ "mediate": {
+  "modernMeaningCn": "调解、斡旋",
+  "literalMeaningCn": "站在中间",
+  "metaphorMeaningCn": "夹在两边劝和",
+  "metaphorOptions": [
+   "夹在两边劝和",
+   "替解释操心",
+   "把主体翻开"
+  ],
+  "mnemonicNote": "medi(中间)+ate：站中间替两边说合",
+  "sourceNote": "拉丁 mediare，medius(中间)"
+ },
+ "optimal": {
+  "modernMeaningCn": "最佳的、最优的",
+  "literalMeaningCn": "最该选的",
+  "metaphorMeaningCn": "挑不出更好的",
+  "metaphorOptions": [
+   "挑不出更好的",
+   "向着安全去",
+   "围着忙碌的转"
+  ],
+  "mnemonicNote": "optim(最好)+al：最值得选的那一个",
+  "sourceNote": "拉丁 optimus（最好的）"
+ },
+ "gradient": {
+  "modernMeaningCn": "梯度、坡度",
+  "literalMeaningCn": "一级一级的",
+  "metaphorMeaningCn": "高低之间斜着的度",
+  "metaphorOptions": [
+   "高低之间斜着的度",
+   "围着疤痕转",
+   "填上的过程"
+  ],
+  "mnemonicNote": "grad(步、级)+ient：一级级变化的那个度",
+  "sourceNote": "拉丁 gradientem，gradi(走、分级)"
+ },
+ "detach": {
+  "modernMeaningCn": "拆下、使分离",
+  "literalMeaningCn": "把钉的拆开",
+  "metaphorMeaningCn": "从整体上卸下来",
+  "metaphorOptions": [
+   "从整体上卸下来",
+   "搅动的地方",
+   "保护的来路"
+  ],
+  "mnemonicNote": "de(去掉)+tach(钉住)：拔掉钉子，分开",
+  "sourceNote": "法语 detacher，de- + attacher(钉住)"
+ },
+ "infer": {
+  "modernMeaningCn": "推断、推论",
+  "literalMeaningCn": "带出来",
+  "metaphorMeaningCn": "顺着线索得出结论",
+  "metaphorOptions": [
+   "顺着线索得出结论",
+   "被打谷的东西",
+   "财富的背面"
+  ],
+  "mnemonicNote": "in(向内)+fer(带来)：把意思从里面带出来",
+  "sourceNote": "拉丁 inferre，in- + ferre(带)"
+ },
+ "residual": {
+  "modernMeaningCn": "剩余的、残余的",
+  "literalMeaningCn": "留下坐着的",
+  "metaphorMeaningCn": "用剩没用完的",
+  "metaphorOptions": [
+   "用剩没用完的",
+   "市民的的另一面",
+   "分裂的的一角"
+  ],
+  "mnemonicNote": "re(回)+sid(坐)+ual：留下来没走的那些",
+  "sourceNote": "拉丁 residuus，residere(留坐)"
+ },
+ "susceptible": {
+  "modernMeaningCn": "易受影响的、敏感的",
+  "literalMeaningCn": "容易被拿住的",
+  "metaphorMeaningCn": "一点就中招的那种",
+  "metaphorOptions": [
+   "一点就中招的那种",
+   "向着上升去",
+   "使残缺的过程"
+  ],
+  "mnemonicNote": "sus(在下)+cept(拿)+ible：从下面被拿住，挡不住",
+  "sourceNote": "拉丁 susceptibilis，suscipere(承受)"
+ },
+ "suffice": {
+  "modernMeaningCn": "足够、满足",
+  "literalMeaningCn": "做得够了",
+  "metaphorMeaningCn": "够用，不用再加",
+  "metaphorOptions": [
+   "够用，不用再加",
+   "游荡的另一面",
+   "序列的一角"
+  ],
+  "mnemonicNote": "suf(在下)+fice(做)：底下做足，就够了",
+  "sourceNote": "拉丁 sufficere，sub- + facere(做)"
+ },
+ "torture": {
+  "modernMeaningCn": "折磨、拷问",
+  "literalMeaningCn": "拧着翻",
+  "metaphorMeaningCn": "被拧着痛不欲生",
+  "metaphorOptions": [
+   "被拧着痛不欲生",
+   "安心的小站",
+   "前景的地方"
+  ],
+  "mnemonicNote": "tor(翻滚)+ture：把人拧着翻，逼供",
+  "sourceNote": "拉丁 tortura，torquere(拧、翻滚)"
+ },
+ "hinder": {
+  "modernMeaningCn": "阻碍、妨碍",
+  "literalMeaningCn": "落在后面",
+  "metaphorMeaningCn": "扯后腿让人走不动",
+  "metaphorOptions": [
+   "扯后腿让人走不动",
+   "低于的味道",
+   "把介意串起来"
+  ],
+  "mnemonicNote": "hind(后面)+er：往后拉住，让人慢下来",
+  "sourceNote": "古英语 hindrian，hind(在后的)"
+ }
 }

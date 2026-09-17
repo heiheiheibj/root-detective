@@ -1,723 +1,723 @@
 {
-  "_comment": "Stage 3 待写释义（batch-23，本批 60 词，高考批第 16 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
-  "twenty": {
-    "modernMeaningCn": "二十",
-    "literalMeaningCn": "两个十",
-    "metaphorMeaningCn": "二十、二十个",
-    "metaphorOptions": [
-      "二十、二十个",
-      "守着携带过活",
-      "统治的小站"
-    ],
-    "mnemonicNote": "twen(二)+ty(十)：两捆十根扎成一扎",
-    "sourceNote": "古英语 twentig，twegen(二) + tig(十)"
-  },
-  "typewriter": {
-    "modernMeaningCn": "打字机",
-    "literalMeaningCn": "敲字模的机器",
-    "metaphorMeaningCn": "打字机",
-    "metaphorOptions": [
-      "打字机",
-      "接待的过程",
-      "离问候很远"
-    ],
-    "mnemonicNote": "type(字模)+writer(书写器)：一行行敲出来那台铁家伙",
-    "sourceNote": "英语复合词，type(活字) + writer(书写器)"
-  },
-  "ugly": {
-    "modernMeaningCn": "丑陋的",
-    "literalMeaningCn": "不好看的",
-    "metaphorMeaningCn": "丑陋的、难看的",
-    "metaphorOptions": [
-      "丑陋的、难看的",
-      "估定的人",
-      "越过的影子"
-    ],
-    "mnemonicNote": "ug(丑)+ly：一眼望过去让人别开脸那种",
-    "sourceNote": "古诺尔斯语 uggligr，uggr(恐惧) + -ligr"
-  },
-  "unbearable": {
-    "modernMeaningCn": "难以忍受的",
-    "literalMeaningCn": "扛不住的",
-    "metaphorMeaningCn": "难以忍受的、受不了的",
-    "metaphorOptions": [
-      "难以忍受的、受不了的",
-      "数着易变地过日子",
-      "围着我们的转"
-    ],
-    "mnemonicNote": "un(不)+bearable(能扛)：压在肩上多一秒都要崩",
-    "sourceNote": "un-(不) + bear(承受) + -able(能)"
-  },
-  "unbelievable": {
-    "modernMeaningCn": "难以置信的",
-    "literalMeaningCn": "信不了的",
-    "metaphorMeaningCn": "难以置信的、惊人的",
-    "metaphorOptions": [
-      "难以置信的、惊人的",
-      "替最初的操心",
-      "生态的一角"
-    ],
-    "mnemonicNote": "un(不)+believable(可信)：耳朵听过还要再问一遍",
-    "sourceNote": "un-(不) + believe(相信) + -able(能)"
-  },
-  "uncertain": {
-    "modernMeaningCn": "不确定的",
-    "literalMeaningCn": "拿不准的",
-    "metaphorMeaningCn": "不确定的、没把握的",
-    "metaphorOptions": [
-      "不确定的、没把握的",
-      "在之后的影子",
-      "把吸收翻开"
-    ],
-    "mnemonicNote": "un(不)+certain(确定)：心里那杆秤还压不平",
-    "sourceNote": "un-(不) + 拉丁 certus(确定的)"
-  },
-  "unconditional": {
-    "modernMeaningCn": "无条件的",
-    "literalMeaningCn": "不带条件的",
-    "metaphorMeaningCn": "无条件的、绝对的",
-    "metaphorOptions": [
-      "无条件的、绝对的",
-      "被大会的东西",
-      "然而的味道"
-    ],
-    "mnemonicNote": "un(不)+conditional(有条件的)：一句「但书」都不加",
-    "sourceNote": "un-(不) + 拉丁 condicio(条件)"
-  },
-  "unconscious": {
-    "modernMeaningCn": "无意识的",
-    "literalMeaningCn": "没察觉到的",
-    "metaphorMeaningCn": "无意识的、昏迷的",
-    "metaphorOptions": [
-      "无意识的、昏迷的",
-      "被航行的东西",
-      "眼镜的味道"
-    ],
-    "mnemonicNote": "un(不)+conscious(有觉察)：人倒下了，什么都不知道",
-    "sourceNote": "un-(不) + 拉丁 conscius(知情的)"
-  },
-  "underline": {
-    "modernMeaningCn": "下划线",
-    "literalMeaningCn": "在下面画线",
-    "metaphorMeaningCn": "下划线、强调",
-    "metaphorOptions": [
-      "下划线、强调",
-      "围着道路转",
-      "数着剧情过日子"
-    ],
-    "mnemonicNote": "under(在下)+line(线)：拿笔在字底下描那一横",
-    "sourceNote": "英语复合词，under + line"
-  },
-  "understanding": {
-    "modernMeaningCn": "理解",
-    "literalMeaningCn": "弄明白这件事",
-    "metaphorMeaningCn": "理解、谅解",
-    "metaphorOptions": [
-      "理解、谅解",
-      "把熄灭的串起来",
-      "把准备击球姿势翻开"
-    ],
-    "mnemonicNote": "understand(领会)+ing：站在对方位置把事情想通",
-    "sourceNote": "古英语 understandan(领会) + -ing"
-  },
-  "undertake": {
-    "modernMeaningCn": "承担",
-    "literalMeaningCn": "把担子接过来",
-    "metaphorMeaningCn": "承担、着手",
-    "metaphorOptions": [
-      "承担、着手",
-      "破裂的小站",
-      "生产量的旧事"
-    ],
-    "mnemonicNote": "under(在下)+take(拿)：把担子接过来压在肩下",
-    "sourceNote": "中古英语 undertaken，under + taken(拿)"
-  },
-  "undivided": {
-    "modernMeaningCn": "完整的",
-    "literalMeaningCn": "没被切开的",
-    "metaphorMeaningCn": "完整的、专一的",
-    "metaphorOptions": [
-      "完整的、专一的",
-      "离减少很远",
-      "符合的另一面"
-    ],
-    "mnemonicNote": "un(不)+divided(分开)：一整块，谁也分不走",
-    "sourceNote": "un-(不) + 拉丁 dividere(分开)"
-  },
-  "unemployment": {
-    "modernMeaningCn": "失业",
-    "literalMeaningCn": "没活干的状态",
-    "metaphorMeaningCn": "失业、失业率",
-    "metaphorOptions": [
-      "失业、失业率",
-      "通路的工具",
-      "数着敬畏过日子"
-    ],
-    "mnemonicNote": "un(无)+employment(就业)：天天跑招聘会那阵子",
-    "sourceNote": "un-(无) + employ(雇用) + -ment"
-  },
-  "unfair": {
-    "modernMeaningCn": "不公平的",
-    "literalMeaningCn": "偏着一头的",
-    "metaphorMeaningCn": "不公平的、不公正的",
-    "metaphorOptions": [
-      "不公平的、不公正的",
-      "下面的地方",
-      "热心家的影子"
-    ],
-    "mnemonicNote": "un(不)+fair(公道)：秤砣悄悄挪了一边",
-    "sourceNote": "un-(不) + 古英语 fæger(公道的)"
-  },
-  "unfit": {
-    "modernMeaningCn": "不合适的",
-    "literalMeaningCn": "配不上的",
-    "metaphorMeaningCn": "不合适的、不称职的",
-    "metaphorOptions": [
-      "不合适的、不称职的",
-      "被顺序的东西",
-      "弄复杂的另一面"
-    ],
-    "mnemonicNote": "un(不)+fit(合身)：穿上不是长了就是短了",
-    "sourceNote": "un-(不) + fit(适合)"
-  },
-  "unfortunate": {
-    "modernMeaningCn": "不幸的",
-    "literalMeaningCn": "运气差的",
-    "metaphorMeaningCn": "不幸的、遗憾的",
-    "metaphorOptions": [
-      "不幸的、遗憾的",
-      "在之后的影子",
-      "把队列翻开"
-    ],
-    "mnemonicNote": "un(不)+fortunate(走运)：偏巧赶上最糟那一班车",
-    "sourceNote": "un-(不) + 拉丁 fortuna(命运)"
-  },
-  "unfortunately": {
-    "modernMeaningCn": "遗憾的是",
-    "literalMeaningCn": "运气不好地",
-    "metaphorMeaningCn": "遗憾的是、不幸地",
-    "metaphorOptions": [
-      "遗憾的是、不幸地",
-      "把大量存在翻开",
-      "森林的影子"
-    ],
-    "mnemonicNote": "unfortunate(不巧)+ly：话到嘴边总要拐一个「可惜」",
-    "sourceNote": "un-(不) + 拉丁 fortuna(命运) + -ly"
-  },
-  "unhappy": {
-    "modernMeaningCn": "不快乐的",
-    "literalMeaningCn": "心里不痛快的",
-    "metaphorMeaningCn": "不快乐的、不满的",
-    "metaphorOptions": [
-      "不快乐的、不满的",
-      "在之后的工具",
-      "数着寻求过日子"
-    ],
-    "mnemonicNote": "un(不)+happy(乐)：嘴角整天压着没抬起来",
-    "sourceNote": "un-(不) + 中古英语 hap(运气)"
-  },
-  "unhealthy": {
-    "modernMeaningCn": "不健康的",
-    "literalMeaningCn": "身子亏的",
-    "metaphorMeaningCn": "不健康的、有害的",
-    "metaphorOptions": [
-      "不健康的、有害的",
-      "继续的过程",
-      "向着举止端正去"
-    ],
-    "mnemonicNote": "un(不)+healthy(康健)：脸色发黄、总往医院跑",
-    "sourceNote": "un-(不) + 古英语 hal(完整的) + -thy"
-  },
-  "unimportant": {
-    "modernMeaningCn": "不重要的",
-    "literalMeaningCn": "不压秤的",
-    "metaphorMeaningCn": "不重要的、次要的",
-    "metaphorOptions": [
-      "不重要的、次要的",
-      "围着破裂转",
-      "征服的背面"
-    ],
-    "mnemonicNote": "un(不)+important(要紧)：放到最后再说也来得及",
-    "sourceNote": "un-(不) + 拉丁 importare(带入、有关系)"
-  },
-  "unique": {
-    "modernMeaningCn": "独特的",
-    "literalMeaningCn": "只此一个的",
-    "metaphorMeaningCn": "独特的、唯一的",
-    "metaphorOptions": [
-      "独特的、唯一的",
-      "离会啄的鸟很远",
-      "构成的背面"
-    ],
-    "mnemonicNote": "uni(一)+que：翻遍全世界找不出第二个",
-    "sourceNote": "法语 unique，拉丁 unicus，unus(一)"
-  },
-  "universal": {
-    "modernMeaningCn": "普遍的",
-    "literalMeaningCn": "放之四海皆准",
-    "metaphorMeaningCn": "普遍的、通用的",
-    "metaphorOptions": [
-      "普遍的、通用的",
-      "反驳的小站",
-      "面团的工具"
-    ],
-    "mnemonicNote": "univers(整体)+al：走遍哪一国都是这个理",
-    "sourceNote": "拉丁 universalis，universum(整体)"
-  },
-  "university": {
-    "modernMeaningCn": "大学",
-    "literalMeaningCn": "各科合在一起",
-    "metaphorMeaningCn": "大学、综合性高校",
-    "metaphorOptions": [
-      "大学、综合性高校",
-      "雷神的另一面",
-      "档案的味道"
-    ],
-    "mnemonicNote": "univers(整体)+ity：各门学问凑在一处的高等学府",
-    "sourceNote": "拉丁 universitas，universum(整体)"
-  },
-  "unknown": {
-    "modernMeaningCn": "未知的",
-    "literalMeaningCn": "还没弄清的",
-    "metaphorMeaningCn": "未知的、陌生的",
-    "metaphorOptions": [
-      "未知的、陌生的",
-      "把咆哮串起来",
-      "向着漫步去"
-    ],
-    "mnemonicNote": "un(不)+known(知道)：那片区域地图上还是空白",
-    "sourceNote": "un-(不) + 古英语 cnawan(知道)"
-  },
-  "unmarried": {
-    "modernMeaningCn": "未婚的",
-    "literalMeaningCn": "没成家的",
-    "metaphorMeaningCn": "未婚的、单身的",
-    "metaphorOptions": [
-      "未婚的、单身的",
-      "被改好的东西",
-      "头巾的味道"
-    ],
-    "mnemonicNote": "un(不)+married(已婚)：户口本上那一栏还空着",
-    "sourceNote": "un-(不) + 古法语 marier(结婚)"
-  },
-  "unpleasant": {
-    "modernMeaningCn": "不愉快的",
-    "literalMeaningCn": "让人不痛快的",
-    "metaphorMeaningCn": "不愉快的、讨厌的",
-    "metaphorOptions": [
-      "不愉快的、讨厌的",
-      "数着地平线过日子",
-      "围着叫声转"
-    ],
-    "mnemonicNote": "un(不)+pleasant(宜人)：待一会儿就想找借口走",
-    "sourceNote": "un-(不) + 古法语 plaisant(讨喜的)"
-  },
-  "unrest": {
-    "modernMeaningCn": "动荡",
-    "literalMeaningCn": "静不下来",
-    "metaphorMeaningCn": "动荡、骚动",
-    "metaphorOptions": [
-      "动荡、骚动",
-      "三次的人",
-      "离可以避免的很远"
-    ],
-    "mnemonicNote": "un(不)+rest(安歇)：街面上人心浮动、夜里也不安静",
-    "sourceNote": "un-(不) + rest(休息)"
-  },
-  "unsuccessful": {
-    "modernMeaningCn": "不成功的",
-    "literalMeaningCn": "没办成的",
-    "metaphorMeaningCn": "不成功的、失败的",
-    "metaphorOptions": [
-      "不成功的、失败的",
-      "离给予很远",
-      "照亮的影子"
-    ],
-    "mnemonicNote": "un(不)+successful(办成)：试了几回，门始终没开",
-    "sourceNote": "un-(不) + 拉丁 succedere(接着走、成功)"
-  },
-  "until": {
-    "modernMeaningCn": "直到",
-    "literalMeaningCn": "一直到那会儿",
-    "metaphorMeaningCn": "直到、直至为止",
-    "metaphorOptions": [
-      "直到、直至为止",
-      "观测场的背面",
-      "市场的一角"
-    ],
-    "mnemonicNote": "un(到)+til(直至)：一路守到那个钟点才停",
-    "sourceNote": "古诺尔斯语 und(直至) + til(到)"
-  },
-  "untrue": {
-    "modernMeaningCn": "不真实的",
-    "literalMeaningCn": "对不上事实的",
-    "metaphorMeaningCn": "不真实的、假的",
-    "metaphorOptions": [
-      "不真实的、假的",
-      "被使认识的东西",
-      "娱乐的味道"
-    ],
-    "mnemonicNote": "un(不)+true(真实)：说出来跟眼下的事对不上",
-    "sourceNote": "un-(不) + 古英语 treowe(忠实)"
-  },
-  "unusual": {
-    "modernMeaningCn": "不寻常的",
-    "literalMeaningCn": "少见的",
-    "metaphorMeaningCn": "不寻常的、特别的",
-    "metaphorOptions": [
-      "不寻常的、特别的",
-      "把农业翻开",
-      "向着欺骗的小站"
-    ],
-    "mnemonicNote": "un(不)+usual(寻常)：十年也碰不上几回那种",
-    "sourceNote": "un-(不) + 拉丁 usualis(通常的)"
-  },
-  "unwilling": {
-    "modernMeaningCn": "不情愿的",
-    "literalMeaningCn": "心里别扭的",
-    "metaphorMeaningCn": "不情愿的、勉强的",
-    "metaphorOptions": [
-      "不情愿的、勉强的",
-      "激励的工具",
-      "数着动作的过日子"
-    ],
-    "mnemonicNote": "un(不)+willing(乐意)：嘴上应了，脚步拖着",
-    "sourceNote": "un-(不) + 古英语 willan(愿意)"
-  },
-  "upstairs": {
-    "modernMeaningCn": "楼上",
-    "literalMeaningCn": "楼梯上头那层",
-    "metaphorMeaningCn": "楼上、往楼上",
-    "metaphorOptions": [
-      "楼上、往楼上",
-      "身体的过程",
-      "离公司很远"
-    ],
-    "mnemonicNote": "up(向上)+stairs(楼梯)：顺着梯子往上走到的那层",
-    "sourceNote": "英语复合词，up + stairs"
-  },
-  "useless": {
-    "modernMeaningCn": "无用的",
-    "literalMeaningCn": "派不上用场的",
-    "metaphorMeaningCn": "无用的、徒劳的",
-    "metaphorOptions": [
-      "无用的、徒劳的",
-      "把主张串起来",
-      "把场合翻开"
-    ],
-    "mnemonicNote": "use(用处)+less(无)：摆在那儿十回用不上一回",
-    "sourceNote": "古法语 user(使用) + -less(无)"
-  },
-  "usually": {
-    "modernMeaningCn": "通常",
-    "literalMeaningCn": "按平常的样子",
-    "metaphorMeaningCn": "通常、一般",
-    "metaphorOptions": [
-      "通常、一般",
-      "优雅的小站",
-      "杠杆的小站"
-    ],
-    "mnemonicNote": "usual(平常)+ly：十回里有八九回都这样",
-    "sourceNote": "拉丁 usualis(惯常的) + -ly"
-  },
-  "valuable": {
-    "modernMeaningCn": "宝贵的",
-    "literalMeaningCn": "值钱的",
-    "metaphorMeaningCn": "宝贵的、有价值的",
-    "metaphorOptions": [
-      "宝贵的、有价值的",
-      "击球的背面",
-      "空气的旧事"
-    ],
-    "mnemonicNote": "valu(价值)+able：丢了要找一整天那种",
-    "sourceNote": "古法语 value(价值) + -able"
-  },
-  "various": {
-    "modernMeaningCn": "各种各样的",
-    "literalMeaningCn": "花样多的",
-    "metaphorMeaningCn": "各种各样的、不同的",
-    "metaphorOptions": [
-      "各种各样的、不同的",
-      "怀疑者的旧事",
-      "守着纠缠过活"
-    ],
-    "mnemonicNote": "vari(变化)+ous：一摊摆开，什么样式的都有",
-    "sourceNote": "拉丁 varius(多变的)"
-  },
-  "viewer": {
-    "modernMeaningCn": "观众",
-    "literalMeaningCn": "看的人",
-    "metaphorMeaningCn": "观众、观看者",
-    "metaphorOptions": [
-      "观众、观看者",
-      "憎恨的背面",
-      "守着内部的过活"
-    ],
-    "mnemonicNote": "view(观看)+er(人)：守在屏幕前那几百万人",
-    "sourceNote": "古法语 veue(看、景) + -er"
-  },
-  "violin": {
-    "modernMeaningCn": "小提琴",
-    "literalMeaningCn": "小号的弦琴",
-    "metaphorMeaningCn": "小提琴",
-    "metaphorOptions": [
-      "小提琴",
-      "守着主要过活",
-      "向着游戏的小站"
-    ],
-    "mnemonicNote": "viol(弦琴)+in(小)：夹在下巴上那把小琴",
-    "sourceNote": "意大利 violino，viola(中提琴) 的指小形式"
-  },
-  "violinist": {
-    "modernMeaningCn": "小提琴手",
-    "literalMeaningCn": "拉小提琴的人",
-    "metaphorMeaningCn": "小提琴手、小提琴家",
-    "metaphorOptions": [
-      "小提琴手、小提琴家",
-      "离完成很远",
-      "替西方操心"
-    ],
-    "mnemonicNote": "violin(小提琴)+ist(人)：左手按弦右手拉弓那位",
-    "sourceNote": "意大利 violino(小提琴) + -ist"
-  },
-  "visitor": {
-    "modernMeaningCn": "访客",
-    "literalMeaningCn": "来访的人",
-    "metaphorMeaningCn": "访客、参观者",
-    "metaphorOptions": [
-      "访客、参观者",
-      "讨论的另一面",
-      "西方的味道"
-    ],
-    "mnemonicNote": "visit(拜访)+or(人)：敲了门在门口等那位",
-    "sourceNote": "拉丁 visitare(探访) + -or(人)"
-  },
-  "volleyball": {
-    "modernMeaningCn": "排球",
-    "literalMeaningCn": "空中来回击的球",
-    "metaphorMeaningCn": "排球、排球运动",
-    "metaphorOptions": [
-      "排球、排球运动",
-      "睡眠的过程",
-      "向着怀疑者去"
-    ],
-    "mnemonicNote": "volley(凌空击)+ball(球)：球不落地就在网两边飞",
-    "sourceNote": "英语复合词，volley(齐射、凌空击) + ball"
-  },
-  "waiter": {
-    "modernMeaningCn": "服务员",
-    "literalMeaningCn": "候在桌旁的人",
-    "metaphorMeaningCn": "服务员、侍者",
-    "metaphorOptions": [
-      "服务员、侍者",
-      "守着重标记过活",
-      "基础的另一面"
-    ],
-    "mnemonicNote": "wait(侍候)+er(人)：端着托盘在桌间穿来穿去那位",
-    "sourceNote": "古北法语 waitier(守候) + -er"
-  },
-  "waitress": {
-    "modernMeaningCn": "女服务员",
-    "literalMeaningCn": "候在桌旁的女侍",
-    "metaphorMeaningCn": "女服务员、女侍者",
-    "metaphorOptions": [
-      "女服务员、女侍者",
-      "柜台的来路",
-      "围着递送转"
-    ],
-    "mnemonicNote": "waitr(侍候)+ess(女性)：同一条过道上端菜那位",
-    "sourceNote": "古北法语 waitier(守候) + -ess(女性)"
-  },
-  "walkman": {
-    "modernMeaningCn": "随身听",
-    "literalMeaningCn": "走路时听的东西",
-    "metaphorMeaningCn": "随身听",
-    "metaphorOptions": [
-      "随身听",
-      "守着牢固过活",
-      "压缩的小站"
-    ],
-    "mnemonicNote": "walk(行走)+man(机器)：挂在腰上边走边听那台",
-    "sourceNote": "索尼商标名 Walkman，20 世纪 80 年代流行"
-  },
-  "wander": {
-    "modernMeaningCn": "漫游",
-    "literalMeaningCn": "没有目的地走",
-    "metaphorMeaningCn": "漫游、走神",
-    "metaphorOptions": [
-      "漫游、走神",
-      "放射的小站",
-      "神智健全的地方"
-    ],
-    "mnemonicNote": "wande(游荡)+r：脚下没定方向，随路拐弯",
-    "sourceNote": "古英语 wandrian，windan(缠绕、转动)"
-  },
-  "warehouse": {
-    "modernMeaningCn": "仓库",
-    "literalMeaningCn": "存货的房子",
-    "metaphorMeaningCn": "仓库、货栈",
-    "metaphorOptions": [
-      "仓库、货栈",
-      "使摇动的一角",
-      "解开的一角"
-    ],
-    "mnemonicNote": "ware(货物)+house(房子)：一垛垛码到房顶那间",
-    "sourceNote": "中古英语 ware(货物) + hous(房)"
-  },
-  "warmth": {
-    "modernMeaningCn": "温暖",
-    "literalMeaningCn": "暖的状态",
-    "metaphorMeaningCn": "温暖、热情",
-    "metaphorOptions": [
-      "温暖、热情",
-      "围着使恐惧转",
-      "向着本能的去"
-    ],
-    "mnemonicNote": "warm(暖和)+th：手伸到火边那一下的舒服",
-    "sourceNote": "古英语 wearm(暖) + -th(状态)"
-  },
-  "warning": {
-    "modernMeaningCn": "警告",
-    "literalMeaningCn": "提醒危险的话",
-    "metaphorMeaningCn": "警告、警报",
-    "metaphorOptions": [
-      "警告、警报",
-      "数着暴风雨过日子",
-      "过错的来路"
-    ],
-    "mnemonicNote": "warn(告诫)+ing：牌子上那行红字",
-    "sourceNote": "古英语 warnian(告诫) + -ing"
-  },
-  "weakness": {
-    "modernMeaningCn": "虚弱",
-    "literalMeaningCn": "不强壮的状态",
-    "metaphorMeaningCn": "虚弱、弱点",
-    "metaphorOptions": [
-      "虚弱、弱点",
-      "学问的来路",
-      "前进的旧事"
-    ],
-    "mnemonicNote": "weak(孱弱)+ness：走两步就要扶着墙那种",
-    "sourceNote": "古诺尔斯语 veikr(弱) + -nes(状态)"
-  },
-  "wealth": {
-    "modernMeaningCn": "财富",
-    "literalMeaningCn": "身家的总和",
-    "metaphorMeaningCn": "财富、大量",
-    "metaphorOptions": [
-      "财富、大量",
-      "穿透的影子",
-      "把驱动翻开"
-    ],
-    "mnemonicNote": "weal(富足)+th：账本上那一长串数",
-    "sourceNote": "中古英语 wele，古英语 wela(幸福、富足)"
-  },
-  "wealthy": {
-    "modernMeaningCn": "富有的",
-    "literalMeaningCn": "家底厚的",
-    "metaphorMeaningCn": "富有的、富裕的",
-    "metaphorOptions": [
-      "富有的、富裕的",
-      "替愤怒操心",
-      "粗糙的东西的味道"
-    ],
-    "mnemonicNote": "weal(富足)+thy：房子车子都置办得齐",
-    "sourceNote": "中古英语 welthy，wele(富足) + -thy"
-  },
-  "weatherman": {
-    "modernMeaningCn": "气象员",
-    "literalMeaningCn": "报天气的人",
-    "metaphorMeaningCn": "气象预报员",
-    "metaphorOptions": [
-      "气象预报员",
-      "极端的一角",
-      "顺序的另一面"
-    ],
-    "mnemonicNote": "weather(天气)+man(人)：指着云图说明天下不下雨那位",
-    "sourceNote": "英语复合词，weather + man"
-  },
-  "website": {
-    "modernMeaningCn": "网站",
-    "literalMeaningCn": "网上的一处据点",
-    "metaphorMeaningCn": "网站、站点",
-    "metaphorOptions": [
-      "网站、站点",
-      "不赞成的影子",
-      "把私人的翻开"
-    ],
-    "mnemonicNote": "web(网)+site(地点)：敲个地址就跳出来的那页",
-    "sourceNote": "英语复合词，web(万维网) + site(地点)"
-  },
-  "wedding": {
-    "modernMeaningCn": "婚礼",
-    "literalMeaningCn": "成亲这件事",
-    "metaphorMeaningCn": "婚礼、婚宴",
-    "metaphorOptions": [
-      "婚礼、婚宴",
-      "数着在旁边过日子",
-      "舒服的一角"
-    ],
-    "mnemonicNote": "wedd(嫁娶)+ing：鞭炮一响、宾客满座那一天",
-    "sourceNote": "古英语 weddung，weddian(立誓、婚娶)"
-  },
-  "weekly": {
-    "modernMeaningCn": "每周的",
-    "literalMeaningCn": "按周来的",
-    "metaphorMeaningCn": "每周的、周刊",
-    "metaphorOptions": [
-      "每周的、周刊",
-      "把运输串起来",
-      "影响的工具"
-    ],
-    "mnemonicNote": "week(一周)+ly：一到那天就出一期",
-    "sourceNote": "古英语 wice(周) + -lic"
-  },
-  "welcome": {
-    "modernMeaningCn": "欢迎",
-    "literalMeaningCn": "来得好",
-    "metaphorMeaningCn": "欢迎、迎接",
-    "metaphorOptions": [
-      "欢迎、迎接",
-      "替附上操心",
-      "发动机的过程"
-    ],
-    "mnemonicNote": "wel(好)+come(来)：人还没进门，手先伸出去",
-    "sourceNote": "古英语 wilcuma，willa(意愿) + cuma(来者)"
-  },
-  "welfare": {
-    "modernMeaningCn": "福利",
-    "literalMeaningCn": "过得好的保障",
-    "metaphorMeaningCn": "福利、幸福",
-    "metaphorOptions": [
-      "福利、幸福",
-      "贯穿的另一面",
-      "加法的味道"
-    ],
-    "mnemonicNote": "wel(好)+fare(过活)：生病失业时兜底那笔钱",
-    "sourceNote": "中古英语 welfare，wel(好) + fare(过活)"
-  },
-  "westerner": {
-    "modernMeaningCn": "西方人",
-    "literalMeaningCn": "西方的人",
-    "metaphorMeaningCn": "西方人、欧美人",
-    "metaphorOptions": [
-      "西方人、欧美人",
-      "守着光泽过活",
-      "代表的小站"
-    ],
-    "mnemonicNote": "western(西方)+er(人)：从西半球来的那位",
-    "sourceNote": "古英语 westerne(西边的) + -er"
-  },
-  "westwards": {
-    "modernMeaningCn": "向西",
-    "literalMeaningCn": "朝着西的方向",
-    "metaphorMeaningCn": "向西、朝西",
-    "metaphorOptions": [
-      "向西、朝西",
-      "替体操运动员操心",
-      "离尖啸声很远"
-    ],
-    "mnemonicNote": "west(西)+wards(朝…)：车头一直冲着日落那边",
-    "sourceNote": "古英语 west + -weard(朝向)"
-  }
+ "_comment": "Stage 3 待写释义（batch-23，本批 60 词，高考批第 16 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
+ "twenty": {
+  "modernMeaningCn": "二十",
+  "literalMeaningCn": "两个十",
+  "metaphorMeaningCn": "二十、二十个",
+  "metaphorOptions": [
+   "二十、二十个",
+   "守着携带过活",
+   "统治的小站"
+  ],
+  "mnemonicNote": "twen(二)+ty(十)：两捆十根扎成一扎",
+  "sourceNote": "古英语 twentig，twegen(二) + tig(十)"
+ },
+ "typewriter": {
+  "modernMeaningCn": "打字机",
+  "literalMeaningCn": "敲字模的机器",
+  "metaphorMeaningCn": "打字机",
+  "metaphorOptions": [
+   "打字机",
+   "接待的过程",
+   "离问候很远"
+  ],
+  "mnemonicNote": "type(字模)+writer(书写器)：一行行敲出来那台铁家伙",
+  "sourceNote": "英语复合词，type(活字) + writer(书写器)"
+ },
+ "ugly": {
+  "modernMeaningCn": "丑陋的",
+  "literalMeaningCn": "不好看的",
+  "metaphorMeaningCn": "丑陋的、难看的",
+  "metaphorOptions": [
+   "丑陋的、难看的",
+   "估定的人",
+   "越过的影子"
+  ],
+  "mnemonicNote": "ug(丑)+ly：一眼望过去让人别开脸那种",
+  "sourceNote": "古诺尔斯语 uggligr，uggr(恐惧) + -ligr"
+ },
+ "unbearable": {
+  "modernMeaningCn": "难以忍受的",
+  "literalMeaningCn": "扛不住的",
+  "metaphorMeaningCn": "难以忍受的、受不了的",
+  "metaphorOptions": [
+   "难以忍受的、受不了的",
+   "数着易变地过日子",
+   "围着我们的转"
+  ],
+  "mnemonicNote": "un(不)+bearable(能扛)：压在肩上多一秒都要崩",
+  "sourceNote": "un-(不) + bear(承受) + -able(能)"
+ },
+ "unbelievable": {
+  "modernMeaningCn": "难以置信的",
+  "literalMeaningCn": "信不了的",
+  "metaphorMeaningCn": "难以置信的、惊人的",
+  "metaphorOptions": [
+   "难以置信的、惊人的",
+   "一种雷神的习俗",
+   "生态的一角"
+  ],
+  "mnemonicNote": "un(不)+believable(可信)：耳朵听过还要再问一遍",
+  "sourceNote": "un-(不) + believe(相信) + -able(能)"
+ },
+ "uncertain": {
+  "modernMeaningCn": "不确定的",
+  "literalMeaningCn": "拿不准的",
+  "metaphorMeaningCn": "不确定的、没把握的",
+  "metaphorOptions": [
+   "不确定的、没把握的",
+   "在之后的影子",
+   "把吸收翻开"
+  ],
+  "mnemonicNote": "un(不)+certain(确定)：心里那杆秤还压不平",
+  "sourceNote": "un-(不) + 拉丁 certus(确定的)"
+ },
+ "unconditional": {
+  "modernMeaningCn": "无条件的",
+  "literalMeaningCn": "不带条件的",
+  "metaphorMeaningCn": "无条件的、绝对的",
+  "metaphorOptions": [
+   "无条件的、绝对的",
+   "被大会的东西",
+   "然而的味道"
+  ],
+  "mnemonicNote": "un(不)+conditional(有条件的)：一句「但书」都不加",
+  "sourceNote": "un-(不) + 拉丁 condicio(条件)"
+ },
+ "unconscious": {
+  "modernMeaningCn": "无意识的",
+  "literalMeaningCn": "没察觉到的",
+  "metaphorMeaningCn": "无意识的、昏迷的",
+  "metaphorOptions": [
+   "无意识的、昏迷的",
+   "被航行的东西",
+   "眼镜的味道"
+  ],
+  "mnemonicNote": "un(不)+conscious(有觉察)：人倒下了，什么都不知道",
+  "sourceNote": "un-(不) + 拉丁 conscius(知情的)"
+ },
+ "underline": {
+  "modernMeaningCn": "下划线",
+  "literalMeaningCn": "在下面画线",
+  "metaphorMeaningCn": "下划线、强调",
+  "metaphorOptions": [
+   "下划线、强调",
+   "围着道路转",
+   "数着以前的过日子"
+  ],
+  "mnemonicNote": "under(在下)+line(线)：拿笔在字底下描那一横",
+  "sourceNote": "英语复合词，under + line"
+ },
+ "understanding": {
+  "modernMeaningCn": "理解",
+  "literalMeaningCn": "弄明白这件事",
+  "metaphorMeaningCn": "理解、谅解",
+  "metaphorOptions": [
+   "理解、谅解",
+   "把熄灭的串起来",
+   "把熟练的翻开"
+  ],
+  "mnemonicNote": "understand(领会)+ing：站在对方位置把事情想通",
+  "sourceNote": "古英语 understandan(领会) + -ing"
+ },
+ "undertake": {
+  "modernMeaningCn": "承担",
+  "literalMeaningCn": "把担子接过来",
+  "metaphorMeaningCn": "承担、着手",
+  "metaphorOptions": [
+   "承担、着手",
+   "托付的来路",
+   "生产量的旧事"
+  ],
+  "mnemonicNote": "under(在下)+take(拿)：把担子接过来压在肩下",
+  "sourceNote": "中古英语 undertaken，under + taken(拿)"
+ },
+ "undivided": {
+  "modernMeaningCn": "完整的",
+  "literalMeaningCn": "没被切开的",
+  "metaphorMeaningCn": "完整的、专一的",
+  "metaphorOptions": [
+   "完整的、专一的",
+   "离减少很远",
+   "不可避免的的过程"
+  ],
+  "mnemonicNote": "un(不)+divided(分开)：一整块，谁也分不走",
+  "sourceNote": "un-(不) + 拉丁 dividere(分开)"
+ },
+ "unemployment": {
+  "modernMeaningCn": "失业",
+  "literalMeaningCn": "没活干的状态",
+  "metaphorMeaningCn": "失业、失业率",
+  "metaphorOptions": [
+   "失业、失业率",
+   "饮料的工具",
+   "数着通路过日子"
+  ],
+  "mnemonicNote": "un(无)+employment(就业)：天天跑招聘会那阵子",
+  "sourceNote": "un-(无) + employ(雇用) + -ment"
+ },
+ "unfair": {
+  "modernMeaningCn": "不公平的",
+  "literalMeaningCn": "偏着一头的",
+  "metaphorMeaningCn": "不公平的、不公正的",
+  "metaphorOptions": [
+   "不公平的、不公正的",
+   "下面的地方",
+   "实验的的来路"
+  ],
+  "mnemonicNote": "un(不)+fair(公道)：秤砣悄悄挪了一边",
+  "sourceNote": "un-(不) + 古英语 fæger(公道的)"
+ },
+ "unfit": {
+  "modernMeaningCn": "不合适的",
+  "literalMeaningCn": "配不上的",
+  "metaphorMeaningCn": "不合适的、不称职的",
+  "metaphorOptions": [
+   "不合适的、不称职的",
+   "被出声的东西",
+   "顺序的背面"
+  ],
+  "mnemonicNote": "un(不)+fit(合身)：穿上不是长了就是短了",
+  "sourceNote": "un-(不) + fit(适合)"
+ },
+ "unfortunate": {
+  "modernMeaningCn": "不幸的",
+  "literalMeaningCn": "运气差的",
+  "metaphorMeaningCn": "不幸的、遗憾的",
+  "metaphorOptions": [
+   "不幸的、遗憾的",
+   "宁愿的影子",
+   "把在之后翻开"
+  ],
+  "mnemonicNote": "un(不)+fortunate(走运)：偏巧赶上最糟那一班车",
+  "sourceNote": "un-(不) + 拉丁 fortuna(命运)"
+ },
+ "unfortunately": {
+  "modernMeaningCn": "遗憾的是",
+  "literalMeaningCn": "运气不好地",
+  "metaphorMeaningCn": "遗憾的是、不幸地",
+  "metaphorOptions": [
+   "遗憾的是、不幸地",
+   "把森林翻开",
+   "补丁的影子"
+  ],
+  "mnemonicNote": "unfortunate(不巧)+ly：话到嘴边总要拐一个「可惜」",
+  "sourceNote": "un-(不) + 拉丁 fortuna(命运) + -ly"
+ },
+ "unhappy": {
+  "modernMeaningCn": "不快乐的",
+  "literalMeaningCn": "心里不痛快的",
+  "metaphorMeaningCn": "不快乐的、不满的",
+  "metaphorOptions": [
+   "不快乐的、不满的",
+   "在之后的工具",
+   "数着寻求过日子"
+  ],
+  "mnemonicNote": "un(不)+happy(乐)：嘴角整天压着没抬起来",
+  "sourceNote": "un-(不) + 中古英语 hap(运气)"
+ },
+ "unhealthy": {
+  "modernMeaningCn": "不健康的",
+  "literalMeaningCn": "身子亏的",
+  "metaphorMeaningCn": "不健康的、有害的",
+  "metaphorOptions": [
+   "不健康的、有害的",
+   "继续的过程",
+   "向着绊倒去"
+  ],
+  "mnemonicNote": "un(不)+healthy(康健)：脸色发黄、总往医院跑",
+  "sourceNote": "un-(不) + 古英语 hal(完整的) + -thy"
+ },
+ "unimportant": {
+  "modernMeaningCn": "不重要的",
+  "literalMeaningCn": "不压秤的",
+  "metaphorMeaningCn": "不重要的、次要的",
+  "metaphorOptions": [
+   "不重要的、次要的",
+   "终点的的旧事",
+   "有力的的背面"
+  ],
+  "mnemonicNote": "un(不)+important(要紧)：放到最后再说也来得及",
+  "sourceNote": "un-(不) + 拉丁 importare(带入、有关系)"
+ },
+ "unique": {
+  "modernMeaningCn": "独特的",
+  "literalMeaningCn": "只此一个的",
+  "metaphorMeaningCn": "独特的、唯一的",
+  "metaphorOptions": [
+   "独特的、唯一的",
+   "构成的旧事",
+   "重要的的背面"
+  ],
+  "mnemonicNote": "uni(一)+que：翻遍全世界找不出第二个",
+  "sourceNote": "法语 unique，拉丁 unicus，unus(一)"
+ },
+ "universal": {
+  "modernMeaningCn": "普遍的",
+  "literalMeaningCn": "放之四海皆准",
+  "metaphorMeaningCn": "普遍的、通用的",
+  "metaphorOptions": [
+   "普遍的、通用的",
+   "反驳的小站",
+   "面团的工具"
+  ],
+  "mnemonicNote": "univers(整体)+al：走遍哪一国都是这个理",
+  "sourceNote": "拉丁 universalis，universum(整体)"
+ },
+ "university": {
+  "modernMeaningCn": "大学",
+  "literalMeaningCn": "各科合在一起",
+  "metaphorMeaningCn": "大学、综合性高校",
+  "metaphorOptions": [
+   "大学、综合性高校",
+   "雷神的另一面",
+   "档案的味道"
+  ],
+  "mnemonicNote": "univers(整体)+ity：各门学问凑在一处的高等学府",
+  "sourceNote": "拉丁 universitas，universum(整体)"
+ },
+ "unknown": {
+  "modernMeaningCn": "未知的",
+  "literalMeaningCn": "还没弄清的",
+  "metaphorMeaningCn": "未知的、陌生的",
+  "metaphorOptions": [
+   "未知的、陌生的",
+   "把内部的串起来",
+   "把飘动翻开"
+  ],
+  "mnemonicNote": "un(不)+known(知道)：那片区域地图上还是空白",
+  "sourceNote": "un-(不) + 古英语 cnawan(知道)"
+ },
+ "unmarried": {
+  "modernMeaningCn": "未婚的",
+  "literalMeaningCn": "没成家的",
+  "metaphorMeaningCn": "未婚的、单身的",
+  "metaphorOptions": [
+   "未婚的、单身的",
+   "被头巾的东西",
+   "运动的味道"
+  ],
+  "mnemonicNote": "un(不)+married(已婚)：户口本上那一栏还空着",
+  "sourceNote": "un-(不) + 古法语 marier(结婚)"
+ },
+ "unpleasant": {
+  "modernMeaningCn": "不愉快的",
+  "literalMeaningCn": "让人不痛快的",
+  "metaphorMeaningCn": "不愉快的、讨厌的",
+  "metaphorOptions": [
+   "不愉快的、讨厌的",
+   "数着地平线过日子",
+   "围着叫声转"
+  ],
+  "mnemonicNote": "un(不)+pleasant(宜人)：待一会儿就想找借口走",
+  "sourceNote": "un-(不) + 古法语 plaisant(讨喜的)"
+ },
+ "unrest": {
+  "modernMeaningCn": "动荡",
+  "literalMeaningCn": "静不下来",
+  "metaphorMeaningCn": "动荡、骚动",
+  "metaphorOptions": [
+   "动荡、骚动",
+   "三次的人",
+   "有价值的的影子"
+  ],
+  "mnemonicNote": "un(不)+rest(安歇)：街面上人心浮动、夜里也不安静",
+  "sourceNote": "un-(不) + rest(休息)"
+ },
+ "unsuccessful": {
+  "modernMeaningCn": "不成功的",
+  "literalMeaningCn": "没办成的",
+  "metaphorMeaningCn": "不成功的、失败的",
+  "metaphorOptions": [
+   "不成功的、失败的",
+   "离给予很远",
+   "照亮的影子"
+  ],
+  "mnemonicNote": "un(不)+successful(办成)：试了几回，门始终没开",
+  "sourceNote": "un-(不) + 拉丁 succedere(接着走、成功)"
+ },
+ "until": {
+  "modernMeaningCn": "直到",
+  "literalMeaningCn": "一直到那会儿",
+  "metaphorMeaningCn": "直到、直至为止",
+  "metaphorOptions": [
+   "直到、直至为止",
+   "一种生命的习俗",
+   "例行程序的一角"
+  ],
+  "mnemonicNote": "un(到)+til(直至)：一路守到那个钟点才停",
+  "sourceNote": "古诺尔斯语 und(直至) + til(到)"
+ },
+ "untrue": {
+  "modernMeaningCn": "不真实的",
+  "literalMeaningCn": "对不上事实的",
+  "metaphorMeaningCn": "不真实的、假的",
+  "metaphorOptions": [
+   "不真实的、假的",
+   "被使认识的东西",
+   "驾车的味道"
+  ],
+  "mnemonicNote": "un(不)+true(真实)：说出来跟眼下的事对不上",
+  "sourceNote": "un-(不) + 古英语 treowe(忠实)"
+ },
+ "unusual": {
+  "modernMeaningCn": "不寻常的",
+  "literalMeaningCn": "少见的",
+  "metaphorMeaningCn": "不寻常的、特别的",
+  "metaphorOptions": [
+   "不寻常的、特别的",
+   "把农业翻开",
+   "厚的的背面"
+  ],
+  "mnemonicNote": "un(不)+usual(寻常)：十年也碰不上几回那种",
+  "sourceNote": "un-(不) + 拉丁 usualis(通常的)"
+ },
+ "unwilling": {
+  "modernMeaningCn": "不情愿的",
+  "literalMeaningCn": "心里别扭的",
+  "metaphorMeaningCn": "不情愿的、勉强的",
+  "metaphorOptions": [
+   "不情愿的、勉强的",
+   "激励的工具",
+   "数着停止过日子"
+  ],
+  "mnemonicNote": "un(不)+willing(乐意)：嘴上应了，脚步拖着",
+  "sourceNote": "un-(不) + 古英语 willan(愿意)"
+ },
+ "upstairs": {
+  "modernMeaningCn": "楼上",
+  "literalMeaningCn": "楼梯上头那层",
+  "metaphorMeaningCn": "楼上、往楼上",
+  "metaphorOptions": [
+   "楼上、往楼上",
+   "身体的过程",
+   "离公司很远"
+  ],
+  "mnemonicNote": "up(向上)+stairs(楼梯)：顺着梯子往上走到的那层",
+  "sourceNote": "英语复合词，up + stairs"
+ },
+ "useless": {
+  "modernMeaningCn": "无用的",
+  "literalMeaningCn": "派不上用场的",
+  "metaphorMeaningCn": "无用的、徒劳的",
+  "metaphorOptions": [
+   "无用的、徒劳的",
+   "把主张串起来",
+   "把场合翻开"
+  ],
+  "mnemonicNote": "use(用处)+less(无)：摆在那儿十回用不上一回",
+  "sourceNote": "古法语 user(使用) + -less(无)"
+ },
+ "usually": {
+  "modernMeaningCn": "通常",
+  "literalMeaningCn": "按平常的样子",
+  "metaphorMeaningCn": "通常、一般",
+  "metaphorOptions": [
+   "通常、一般",
+   "优雅的小站",
+   "厚的的地方"
+  ],
+  "mnemonicNote": "usual(平常)+ly：十回里有八九回都这样",
+  "sourceNote": "拉丁 usualis(惯常的) + -ly"
+ },
+ "valuable": {
+  "modernMeaningCn": "宝贵的",
+  "literalMeaningCn": "值钱的",
+  "metaphorMeaningCn": "宝贵的、有价值的",
+  "metaphorOptions": [
+   "宝贵的、有价值的",
+   "击球的背面",
+   "空气的旧事"
+  ],
+  "mnemonicNote": "valu(价值)+able：丢了要找一整天那种",
+  "sourceNote": "古法语 value(价值) + -able"
+ },
+ "various": {
+  "modernMeaningCn": "各种各样的",
+  "literalMeaningCn": "花样多的",
+  "metaphorMeaningCn": "各种各样的、不同的",
+  "metaphorOptions": [
+   "各种各样的、不同的",
+   "怀疑者的旧事",
+   "羊毛的背面"
+  ],
+  "mnemonicNote": "vari(变化)+ous：一摊摆开，什么样式的都有",
+  "sourceNote": "拉丁 varius(多变的)"
+ },
+ "viewer": {
+  "modernMeaningCn": "观众",
+  "literalMeaningCn": "看的人",
+  "metaphorMeaningCn": "观众、观看者",
+  "metaphorOptions": [
+   "观众、观看者",
+   "憎恨的背面",
+   "呼吸的旧事"
+  ],
+  "mnemonicNote": "view(观看)+er(人)：守在屏幕前那几百万人",
+  "sourceNote": "古法语 veue(看、景) + -er"
+ },
+ "violin": {
+  "modernMeaningCn": "小提琴",
+  "literalMeaningCn": "小号的弦琴",
+  "metaphorMeaningCn": "小提琴",
+  "metaphorOptions": [
+   "小提琴",
+   "守着主要过活",
+   "神智健全的的小站"
+  ],
+  "mnemonicNote": "viol(弦琴)+in(小)：夹在下巴上那把小琴",
+  "sourceNote": "意大利 violino，viola(中提琴) 的指小形式"
+ },
+ "violinist": {
+  "modernMeaningCn": "小提琴手",
+  "literalMeaningCn": "拉小提琴的人",
+  "metaphorMeaningCn": "小提琴手、小提琴家",
+  "metaphorOptions": [
+   "小提琴手、小提琴家",
+   "离完成很远",
+   "替西方操心"
+  ],
+  "mnemonicNote": "violin(小提琴)+ist(人)：左手按弦右手拉弓那位",
+  "sourceNote": "意大利 violino(小提琴) + -ist"
+ },
+ "visitor": {
+  "modernMeaningCn": "访客",
+  "literalMeaningCn": "来访的人",
+  "metaphorMeaningCn": "访客、参观者",
+  "metaphorOptions": [
+   "访客、参观者",
+   "讨论的另一面",
+   "西方的味道"
+  ],
+  "mnemonicNote": "visit(拜访)+or(人)：敲了门在门口等那位",
+  "sourceNote": "拉丁 visitare(探访) + -or(人)"
+ },
+ "volleyball": {
+  "modernMeaningCn": "排球",
+  "literalMeaningCn": "空中来回击的球",
+  "metaphorMeaningCn": "排球、排球运动",
+  "metaphorOptions": [
+   "排球、排球运动",
+   "睡眠的过程",
+   "向着怀疑者去"
+  ],
+  "mnemonicNote": "volley(凌空击)+ball(球)：球不落地就在网两边飞",
+  "sourceNote": "英语复合词，volley(齐射、凌空击) + ball"
+ },
+ "waiter": {
+  "modernMeaningCn": "服务员",
+  "literalMeaningCn": "候在桌旁的人",
+  "metaphorMeaningCn": "服务员、侍者",
+  "metaphorOptions": [
+   "服务员、侍者",
+   "守着重标记过活",
+   "基础的另一面"
+  ],
+  "mnemonicNote": "wait(侍候)+er(人)：端着托盘在桌间穿来穿去那位",
+  "sourceNote": "古北法语 waitier(守候) + -er"
+ },
+ "waitress": {
+  "modernMeaningCn": "女服务员",
+  "literalMeaningCn": "候在桌旁的女侍",
+  "metaphorMeaningCn": "女服务员、女侍者",
+  "metaphorOptions": [
+   "女服务员、女侍者",
+   "成功的人",
+   "一种安置的习俗"
+  ],
+  "mnemonicNote": "waitr(侍候)+ess(女性)：同一条过道上端菜那位",
+  "sourceNote": "古北法语 waitier(守候) + -ess(女性)"
+ },
+ "walkman": {
+  "modernMeaningCn": "随身听",
+  "literalMeaningCn": "走路时听的东西",
+  "metaphorMeaningCn": "随身听",
+  "metaphorOptions": [
+   "随身听",
+   "守着牢固过活",
+   "压缩的小站"
+  ],
+  "mnemonicNote": "walk(行走)+man(机器)：挂在腰上边走边听那台",
+  "sourceNote": "索尼商标名 Walkman，20 世纪 80 年代流行"
+ },
+ "wander": {
+  "modernMeaningCn": "漫游",
+  "literalMeaningCn": "没有目的地走",
+  "metaphorMeaningCn": "漫游、走神",
+  "metaphorOptions": [
+   "漫游、走神",
+   "放射的小站",
+   "神智健全的地方"
+  ],
+  "mnemonicNote": "wande(游荡)+r：脚下没定方向，随路拐弯",
+  "sourceNote": "古英语 wandrian，windan(缠绕、转动)"
+ },
+ "warehouse": {
+  "modernMeaningCn": "仓库",
+  "literalMeaningCn": "存货的房子",
+  "metaphorMeaningCn": "仓库、货栈",
+  "metaphorOptions": [
+   "仓库、货栈",
+   "使摇动的一角",
+   "一种直至的习俗"
+  ],
+  "mnemonicNote": "ware(货物)+house(房子)：一垛垛码到房顶那间",
+  "sourceNote": "中古英语 ware(货物) + hous(房)"
+ },
+ "warmth": {
+  "modernMeaningCn": "温暖",
+  "literalMeaningCn": "暖的状态",
+  "metaphorMeaningCn": "温暖、热情",
+  "metaphorOptions": [
+   "温暖、热情",
+   "围着使恐惧转",
+   "向着本能的去"
+  ],
+  "mnemonicNote": "warm(暖和)+th：手伸到火边那一下的舒服",
+  "sourceNote": "古英语 wearm(暖) + -th(状态)"
+ },
+ "warning": {
+  "modernMeaningCn": "警告",
+  "literalMeaningCn": "提醒危险的话",
+  "metaphorMeaningCn": "警告、警报",
+  "metaphorOptions": [
+   "警告、警报",
+   "不是必要的的旧事",
+   "过错的来路"
+  ],
+  "mnemonicNote": "warn(告诫)+ing：牌子上那行红字",
+  "sourceNote": "古英语 warnian(告诫) + -ing"
+ },
+ "weakness": {
+  "modernMeaningCn": "虚弱",
+  "literalMeaningCn": "不强壮的状态",
+  "metaphorMeaningCn": "虚弱、弱点",
+  "metaphorOptions": [
+   "虚弱、弱点",
+   "学问的来路",
+   "前进的旧事"
+  ],
+  "mnemonicNote": "weak(孱弱)+ness：走两步就要扶着墙那种",
+  "sourceNote": "古诺尔斯语 veikr(弱) + -nes(状态)"
+ },
+ "wealth": {
+  "modernMeaningCn": "财富",
+  "literalMeaningCn": "身家的总和",
+  "metaphorMeaningCn": "财富、大量",
+  "metaphorOptions": [
+   "财富、大量",
+   "严肃的的影子",
+   "把驱动翻开"
+  ],
+  "mnemonicNote": "weal(富足)+th：账本上那一长串数",
+  "sourceNote": "中古英语 wele，古英语 wela(幸福、富足)"
+ },
+ "wealthy": {
+  "modernMeaningCn": "富有的",
+  "literalMeaningCn": "家底厚的",
+  "metaphorMeaningCn": "富有的、富裕的",
+  "metaphorOptions": [
+   "富有的、富裕的",
+   "替愤怒操心",
+   "可怜的味道"
+  ],
+  "mnemonicNote": "weal(富足)+thy：房子车子都置办得齐",
+  "sourceNote": "中古英语 welthy，wele(富足) + -thy"
+ },
+ "weatherman": {
+  "modernMeaningCn": "气象员",
+  "literalMeaningCn": "报天气的人",
+  "metaphorMeaningCn": "气象预报员",
+  "metaphorOptions": [
+   "气象预报员",
+   "极端的一角",
+   "顺序的另一面"
+  ],
+  "mnemonicNote": "weather(天气)+man(人)：指着云图说明天下不下雨那位",
+  "sourceNote": "英语复合词，weather + man"
+ },
+ "website": {
+  "modernMeaningCn": "网站",
+  "literalMeaningCn": "网上的一处据点",
+  "metaphorMeaningCn": "网站、站点",
+  "metaphorOptions": [
+   "网站、站点",
+   "复杂的影子",
+   "把坠落翻开"
+  ],
+  "mnemonicNote": "web(网)+site(地点)：敲个地址就跳出来的那页",
+  "sourceNote": "英语复合词，web(万维网) + site(地点)"
+ },
+ "wedding": {
+  "modernMeaningCn": "婚礼",
+  "literalMeaningCn": "成亲这件事",
+  "metaphorMeaningCn": "婚礼、婚宴",
+  "metaphorOptions": [
+   "婚礼、婚宴",
+   "一种程度的习俗",
+   "舒服的一角"
+  ],
+  "mnemonicNote": "wedd(嫁娶)+ing：鞭炮一响、宾客满座那一天",
+  "sourceNote": "古英语 weddung，weddian(立誓、婚娶)"
+ },
+ "weekly": {
+  "modernMeaningCn": "每周的",
+  "literalMeaningCn": "按周来的",
+  "metaphorMeaningCn": "每周的、周刊",
+  "metaphorOptions": [
+   "每周的、周刊",
+   "把运输串起来",
+   "影响的工具"
+  ],
+  "mnemonicNote": "week(一周)+ly：一到那天就出一期",
+  "sourceNote": "古英语 wice(周) + -lic"
+ },
+ "welcome": {
+  "modernMeaningCn": "欢迎",
+  "literalMeaningCn": "来得好",
+  "metaphorMeaningCn": "欢迎、迎接",
+  "metaphorOptions": [
+   "欢迎、迎接",
+   "替附上操心",
+   "器官的的味道"
+  ],
+  "mnemonicNote": "wel(好)+come(来)：人还没进门，手先伸出去",
+  "sourceNote": "古英语 wilcuma，willa(意愿) + cuma(来者)"
+ },
+ "welfare": {
+  "modernMeaningCn": "福利",
+  "literalMeaningCn": "过得好的保障",
+  "metaphorMeaningCn": "福利、幸福",
+  "metaphorOptions": [
+   "福利、幸福",
+   "贯穿的另一面",
+   "加法的味道"
+  ],
+  "mnemonicNote": "wel(好)+fare(过活)：生病失业时兜底那笔钱",
+  "sourceNote": "中古英语 welfare，wel(好) + fare(过活)"
+ },
+ "westerner": {
+  "modernMeaningCn": "西方人",
+  "literalMeaningCn": "西方的人",
+  "metaphorMeaningCn": "西方人、欧美人",
+  "metaphorOptions": [
+   "西方人、欧美人",
+   "守着光泽过活",
+   "代表的小站"
+  ],
+  "mnemonicNote": "western(西方)+er(人)：从西半球来的那位",
+  "sourceNote": "古英语 westerne(西边的) + -er"
+ },
+ "westwards": {
+  "modernMeaningCn": "向西",
+  "literalMeaningCn": "朝着西的方向",
+  "metaphorMeaningCn": "向西、朝西",
+  "metaphorOptions": [
+   "向西、朝西",
+   "替体操运动员操心",
+   "离定位很远"
+  ],
+  "mnemonicNote": "west(西)+wards(朝…)：车头一直冲着日落那边",
+  "sourceNote": "古英语 west + -weard(朝向)"
+ }
 }

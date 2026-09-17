@@ -1,723 +1,723 @@
 {
-  "_comment": "Stage 3 待写释义（batch-11，本批 60 词，高考批第 4 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
-  "characteristic": {
-    "modernMeaningCn": "特性",
-    "literalMeaningCn": "属于性情的",
-    "metaphorMeaningCn": "特征、特性",
-    "metaphorOptions": [
-      "特征、特性",
-      "地理学的一角",
-      "前景的一角"
-    ],
-    "mnemonicNote": "character(性情)+istic：认得出是它、不是别人那点",
-    "sourceNote": "希腊 kharakter(刻痕)，原指刻在物上的记号"
-  },
-  "cheerful": {
-    "modernMeaningCn": "快活的",
-    "literalMeaningCn": "满是欢欣的",
-    "metaphorMeaningCn": "快活的、兴高采烈的",
-    "metaphorOptions": [
-      "快活的、兴高采烈的",
-      "解放的旧事",
-      "使适应的来路"
-    ],
-    "mnemonicNote": "cheer(欢呼)+ful(满)：脸上那股藏不住的高兴劲",
-    "sourceNote": "古法语 chiere(面容)，后引申为情绪"
-  },
-  "chemical": {
-    "modernMeaningCn": "化学的",
-    "literalMeaningCn": "与炼化有关",
-    "metaphorMeaningCn": "化学的、化学品",
-    "metaphorOptions": [
-      "化学的、化学品",
-      "制止的小站",
-      "守着秘密地过活"
-    ],
-    "mnemonicNote": "chemic(炼化)+al：瓶瓶罐罐里那套变化的本事",
-    "sourceNote": "阿拉伯 al-kimiya(炼金术)，经拉丁传入欧洲"
-  },
-  "chemistry": {
-    "modernMeaningCn": "化学",
-    "literalMeaningCn": "炼化的学问",
-    "metaphorMeaningCn": "化学、化学反应",
-    "metaphorOptions": [
-      "化学、化学反应",
-      "离计划很远",
-      "拍手的过程"
-    ],
-    "mnemonicNote": "chemist(炼金者)+ry：研究物质怎么互相变化的学科",
-    "sourceNote": "阿拉伯 al-kimiya(炼金术) + -ry(学问)"
-  },
-  "chicken": {
-    "modernMeaningCn": "小鸡",
-    "literalMeaningCn": "幼小的禽",
-    "metaphorMeaningCn": "小鸡、鸡肉",
-    "metaphorOptions": [
-      "小鸡、鸡肉",
-      "围着携带转",
-      "神智健全的一角"
-    ],
-    "mnemonicNote": "chick(雏鸟)+en：刚出壳叽叽叫的那种",
-    "sourceNote": "古英语 cicen，与 cock(公鸡) 同源"
-  },
-  "childhood": {
-    "modernMeaningCn": "童年",
-    "literalMeaningCn": "当孩子的时期",
-    "metaphorMeaningCn": "童年、幼年",
-    "metaphorOptions": [
-      "童年、幼年",
-      "把煮沸翻开",
-      "符合的影子"
-    ],
-    "mnemonicNote": "child(孩子)+hood(时期)：还不懂事的那几年",
-    "sourceNote": "古英语 cildhad，cild(孩子) + -had(状态)"
-  },
-  "chinese": {
-    "modernMeaningCn": "中文",
-    "literalMeaningCn": "中国的",
-    "metaphorMeaningCn": "中文、中国人",
-    "metaphorOptions": [
-      "中文、中国人",
-      "旅行的旧事",
-      "行动的背面"
-    ],
-    "mnemonicNote": "chin(中国)+ese(…国人/语)：方块字那一门",
-    "sourceNote": "梵语 Cina(秦)，经波斯语传入欧洲"
-  },
-  "christian": {
-    "modernMeaningCn": "基督徒",
-    "literalMeaningCn": "属基督的人",
-    "metaphorMeaningCn": "基督徒、基督教的",
-    "metaphorOptions": [
-      "基督徒、基督教的",
-      "正午的另一面",
-      "种类的一角"
-    ],
-    "mnemonicNote": "christ(基督)+ian(人)：跟着那套教义过日子的人",
-    "sourceNote": "希腊 khristianos，khristos(受膏者、基督)"
-  },
-  "christmas": {
-    "modernMeaningCn": "圣诞节",
-    "literalMeaningCn": "基督的弥撒日",
-    "metaphorMeaningCn": "圣诞节",
-    "metaphorOptions": [
-      "圣诞节",
-      "在之后的影子",
-      "离这样很远"
-    ],
-    "mnemonicNote": "christ(基督)+mas(弥撒)：十二月那场最隆重的礼拜",
-    "sourceNote": "古英语 Cristes mæsse，即「基督的弥撒」"
-  },
-  "cigarette": {
-    "modernMeaningCn": "香烟",
-    "literalMeaningCn": "小号的雪茄",
-    "metaphorMeaningCn": "香烟、纸烟",
-    "metaphorOptions": [
-      "香烟、纸烟",
-      "希腊字母表的第一的工具",
-      "把次日串起来"
-    ],
-    "mnemonicNote": "cigar(雪茄)+ette(小)：切成细条卷起来那种",
-    "sourceNote": "法语 cigarette，cigare(雪茄) + -ette(指小后缀)"
-  },
-  "circuit": {
-    "modernMeaningCn": "电路",
-    "literalMeaningCn": "绕圈走的路",
-    "metaphorMeaningCn": "电路、环行",
-    "metaphorOptions": [
-      "电路、环行",
-      "数着迷人的过日子",
-      "向着有助于去"
-    ],
-    "mnemonicNote": "circu(圆)+it(走)：电流沿着一个圈跑回来",
-    "sourceNote": "拉丁 circuitus，circum(绕) + ire(走)"
-  },
-  "circulate": {
-    "modernMeaningCn": "循环",
-    "literalMeaningCn": "转着圈走",
-    "metaphorMeaningCn": "循环、流通、传播",
-    "metaphorOptions": [
-      "循环、流通、传播",
-      "把先例串起来",
-      "守着摘要过活"
-    ],
-    "mnemonicNote": "circ(圆)+ulate：血和消息都在圈里转个不停",
-    "sourceNote": "拉丁 circulare，circulus(小圆)"
-  },
-  "circumstance": {
-    "modernMeaningCn": "情况",
-    "literalMeaningCn": "围在四周的情形",
-    "metaphorMeaningCn": "情况、环境",
-    "metaphorOptions": [
-      "情况、环境",
-      "关联的过程",
-      "离在之下很远"
-    ],
-    "mnemonicNote": "circum(周围)+stance(站)：把你围在当中那些条件",
-    "sourceNote": "拉丁 circumstantia，circum-(周围) + stare(站)"
-  },
-  "citizen": {
-    "modernMeaningCn": "市民",
-    "literalMeaningCn": "城里的人",
-    "metaphorMeaningCn": "市民、公民",
-    "metaphorOptions": [
-      "市民、公民",
-      "替操作操心",
-      "围着永久的转"
-    ],
-    "mnemonicNote": "citi(城)+zen(人)：登记在册、有身份的那位",
-    "sourceNote": "古法语 citeain，cite(城市)"
-  },
-  "civilian": {
-    "modernMeaningCn": "平民",
-    "literalMeaningCn": "非军职的人",
-    "metaphorMeaningCn": "平民、老百姓",
-    "metaphorOptions": [
-      "平民、老百姓",
-      "暴风雨的过程",
-      "离西班牙很远"
-    ],
-    "mnemonicNote": "civil(公民的)+ian(人)：不穿制服的那一大群",
-    "sourceNote": "拉丁 civilis(公民的) + -ian(人)"
-  },
-  "civilization": {
-    "modernMeaningCn": "文明",
-    "literalMeaningCn": "开化的过程",
-    "metaphorMeaningCn": "文明、文明社会",
-    "metaphorOptions": [
-      "文明、文明社会",
-      "守着名字过活",
-      "退下的小站"
-    ],
-    "mnemonicNote": "civiliz(开化)+ation：从荆棘里开出城邦那段路",
-    "sourceNote": "拉丁 civilis(公民的) + -ization(过程)"
-  },
-  "clarify": {
-    "modernMeaningCn": "澄清",
-    "literalMeaningCn": "使变清",
-    "metaphorMeaningCn": "澄清、阐明",
-    "metaphorOptions": [
-      "澄清、阐明",
-      "变形的人",
-      "向着使饿死去"
-    ],
-    "mnemonicNote": "clar(清亮)+ify(使)：把水里那点浑搅出去",
-    "sourceNote": "拉丁 clarificare，clarus(清亮的) + facere(使)"
-  },
-  "classic": {
-    "modernMeaningCn": "经典",
-    "literalMeaningCn": "头等旧制",
-    "metaphorMeaningCn": "经典、名著",
-    "metaphorOptions": [
-      "经典、名著",
-      "原因的过程",
-      "向着倾斜去"
-    ],
-    "mnemonicNote": "class(等级)+ic：历代都把它摆在最上一档",
-    "sourceNote": "拉丁 classicus，classis(等级、船队)"
-  },
-  "classical": {
-    "modernMeaningCn": "古典的",
-    "literalMeaningCn": "头等旧制的",
-    "metaphorMeaningCn": "古典的、传统的",
-    "metaphorOptions": [
-      "古典的、传统的",
-      "向着使转向的小站",
-      "仆役的地方"
-    ],
-    "mnemonicNote": "class(等级)+ical：按古时那套规矩来的",
-    "sourceNote": "拉丁 classicus，17 世纪起指古希腊罗马典范"
-  },
-  "classify": {
-    "modernMeaningCn": "分类",
-    "literalMeaningCn": "归入类目",
-    "metaphorMeaningCn": "分类、归类",
-    "metaphorOptions": [
-      "分类、归类",
-      "离年长者很远",
-      "出现的过程"
-    ],
-    "mnemonicNote": "class(类别)+ify(使)：一样样塞进贴好标签的格子",
-    "sourceNote": "法语 classifier，classe(类别)"
-  },
-  "cleaner": {
-    "modernMeaningCn": "清洁工",
-    "literalMeaningCn": "做清洁的人",
-    "metaphorMeaningCn": "清洁工、清洁剂",
-    "metaphorOptions": [
-      "清洁工、清洁剂",
-      "尾部的背面",
-      "分配的味道"
-    ],
-    "mnemonicNote": "clean(清洁)+er：天没亮就把楼道拖干净那位",
-    "sourceNote": "古英语 clæne(洁净) + -er(表人或物)"
-  },
-  "clearly": {
-    "modernMeaningCn": "清楚地",
-    "literalMeaningCn": "以清亮的方式",
-    "metaphorMeaningCn": "清楚地、显然",
-    "metaphorOptions": [
-      "清楚地、显然",
-      "战神的来路",
-      "中国的另一面"
-    ],
-    "mnemonicNote": "clear(清亮)+ly：话说得像水一样透",
-    "sourceNote": "古法语 cler + -ly(副词后缀)"
-  },
-  "clothes": {
-    "modernMeaningCn": "衣服",
-    "literalMeaningCn": "几块布做的",
-    "metaphorMeaningCn": "衣服、服装",
-    "metaphorOptions": [
-      "衣服、服装",
-      "完成的地方",
-      "味道的小站"
-    ],
-    "mnemonicNote": "cloth(布)+es：把布料裁开裹在身上",
-    "sourceNote": "古英语 claþas，claþ(布) 的复数"
-  },
-  "clothing": {
-    "modernMeaningCn": "服装",
-    "literalMeaningCn": "布制之物",
-    "metaphorMeaningCn": "服装、衣物",
-    "metaphorOptions": [
-      "服装、衣物",
-      "向着综合去",
-      "围着敬畏转"
-    ],
-    "mnemonicNote": "cloth(布)+ing：统称身上穿的那些东西",
-    "sourceNote": "古英语 claþ(布) + -ing(总称后缀)"
-  },
-  "colleague": {
-    "modernMeaningCn": "同事",
-    "literalMeaningCn": "同一联盟的人",
-    "metaphorMeaningCn": "同事、同僚",
-    "metaphorOptions": [
-      "同事、同僚",
-      "失事的过程",
-      "离诺言很远"
-    ],
-    "mnemonicNote": "col(共同)+league(结盟)：跟你同一间办公室使劲的",
-    "sourceNote": "拉丁 collega，com-(共同) + legare(委派)"
-  },
-  "collection": {
-    "modernMeaningCn": "收藏",
-    "literalMeaningCn": "收集之物",
-    "metaphorMeaningCn": "收藏、募捐",
-    "metaphorOptions": [
-      "收藏、募捐",
-      "创造的来路",
-      "最主要者的地方"
-    ],
-    "mnemonicNote": "collect(收拢)+ion：一件件攒起来凑成的那一堆",
-    "sourceNote": "拉丁 collectio，colligere(收拢)"
-  },
-  "command": {
-    "modernMeaningCn": "命令",
-    "literalMeaningCn": "托付给手下",
-    "metaphorMeaningCn": "命令、指挥",
-    "metaphorOptions": [
-      "命令、指挥",
-      "向着农场去",
-      "早晨的过程"
-    ],
-    "mnemonicNote": "comm(加强)+mand(交托)：一句话交下去就得照办",
-    "sourceNote": "拉丁 commandare，com-(加强) + mandare(托付)"
-  },
-  "commitment": {
-    "modernMeaningCn": "承诺",
-    "literalMeaningCn": "交代出去的事",
-    "metaphorMeaningCn": "承诺、投入",
-    "metaphorOptions": [
-      "承诺、投入",
-      "面团的过程",
-      "离生产量很远"
-    ],
-    "mnemonicNote": "commit(托付)+ment：把话说死、把自己搭进去",
-    "sourceNote": "拉丁 committere(托付) + -ment"
-  },
-  "committee": {
-    "modernMeaningCn": "委员会",
-    "literalMeaningCn": "被托付的一群人",
-    "metaphorMeaningCn": "委员会、筹备组",
-    "metaphorOptions": [
-      "委员会、筹备组",
-      "离压缩很远",
-      "围着如何转"
-    ],
-    "mnemonicNote": "committ(托付)+ee(被…者)：接了这活儿的那几位",
-    "sourceNote": "拉丁 committere(托付)，17 世纪起指受托小组"
-  },
-  "communication": {
-    "modernMeaningCn": "交流",
-    "literalMeaningCn": "彼此共通",
-    "metaphorMeaningCn": "交流、通信",
-    "metaphorOptions": [
-      "交流、通信",
-      "替呼叫操心",
-      "离通路很远"
-    ],
-    "mnemonicNote": "communicat(共通)+ion：你那边的事我这边也知道了",
-    "sourceNote": "拉丁 communicatio，communis(共有的)"
-  },
-  "communism": {
-    "modernMeaningCn": "共产主义",
-    "literalMeaningCn": "共有制的主义",
-    "metaphorMeaningCn": "共产主义",
-    "metaphorOptions": [
-      "共产主义",
-      "变白的来路",
-      "储备品的地方"
-    ],
-    "mnemonicNote": "commun(共有)+ism(主义)：主张财产归大家共有那套",
-    "sourceNote": "法语 communisme，拉丁 communis(共有的)"
-  },
-  "communist": {
-    "modernMeaningCn": "共产主义者",
-    "literalMeaningCn": "信奉共有制的人",
-    "metaphorMeaningCn": "共产主义者、共产党的",
-    "metaphorOptions": [
-      "共产主义者、共产党的",
-      "替香气操心",
-      "守着短的过活"
-    ],
-    "mnemonicNote": "commun(共有)+ist(信奉者)：主张大家分着用的那位",
-    "sourceNote": "法语 communiste，communis(共有的)"
-  },
-  "company": {
-    "modernMeaningCn": "公司",
-    "literalMeaningCn": "分面包的人",
-    "metaphorMeaningCn": "公司、陪伴",
-    "metaphorOptions": [
-      "公司、陪伴",
-      "挑战的工具",
-      "数着坚硬的过日子"
-    ],
-    "mnemonicNote": "com(共同)+pan(面包)：最早是一起分面包的那群人",
-    "sourceNote": "拉丁 companio，com-(共同) + panis(面包)"
-  },
-  "compass": {
-    "modernMeaningCn": "指南针",
-    "literalMeaningCn": "量步子的器具",
-    "metaphorMeaningCn": "指南针、圆规",
-    "metaphorOptions": [
-      "指南针、圆规",
-      "水果的味道",
-      "贝壳的另一面"
-    ],
-    "mnemonicNote": "com(加强)+pass(步)：靠它一步步量着走不迷路",
-    "sourceNote": "拉丁 compassare，com-(加强) + passus(步)"
-  },
-  "compete": {
-    "modernMeaningCn": "竞争",
-    "literalMeaningCn": "一同去争",
-    "metaphorMeaningCn": "竞争、比赛",
-    "metaphorOptions": [
-      "竞争、比赛",
-      "向着厄尔英国旧时量布去",
-      "单一的过程"
-    ],
-    "mnemonicNote": "com(共同)+pete(求)：几路人马盯着同一个目标",
-    "sourceNote": "拉丁 competere，com-(共同) + petere(求取)"
-  },
-  "competition": {
-    "modernMeaningCn": "竞赛",
-    "literalMeaningCn": "同争之事",
-    "metaphorMeaningCn": "竞赛、竞争",
-    "metaphorOptions": [
-      "竞赛、竞争",
-      "把持有人串起来",
-      "征服的工具"
-    ],
-    "mnemonicNote": "compet(同争)+ition：一场比下来分出名次的较量",
-    "sourceNote": "拉丁 competitio，competere(同争)"
-  },
-  "compromise": {
-    "modernMeaningCn": "妥协",
-    "literalMeaningCn": "双方各让一步",
-    "metaphorMeaningCn": "妥协、折中",
-    "metaphorOptions": [
-      "妥协、折中",
-      "四分之一的旧事",
-      "道歉的影子"
-    ],
-    "mnemonicNote": "com(共同)+promise(承诺)：两边都点头认下这个中间数",
-    "sourceNote": "拉丁 compromittere，com-(共同) + promittere(许诺)"
-  },
-  "concert": {
-    "modernMeaningCn": "音乐会",
-    "literalMeaningCn": "合到一处演奏",
-    "metaphorMeaningCn": "音乐会、合奏",
-    "metaphorOptions": [
-      "音乐会、合奏",
-      "替服务操心",
-      "高度的味道"
-    ],
-    "mnemonicNote": "con(共同)+cert(竞争)：各种乐器较着劲又合着拍",
-    "sourceNote": "意大利 concerto，拉丁 concertare(协力、争)"
-  },
-  "conclude": {
-    "modernMeaningCn": "结束",
-    "literalMeaningCn": "把话收上口",
-    "metaphorMeaningCn": "结束、推断",
-    "metaphorOptions": [
-      "结束、推断",
-      "幼禽的一角",
-      "数着计划过日子"
-    ],
-    "mnemonicNote": "con(共同)+clude(关闭)：把摊开的议论合上",
-    "sourceNote": "拉丁 concludere，com-(加强) + claudere(关)"
-  },
-  "conclusion": {
-    "modernMeaningCn": "结论",
-    "literalMeaningCn": "收口的说法",
-    "metaphorMeaningCn": "结论、结尾",
-    "metaphorOptions": [
-      "结论、结尾",
-      "太阳的人",
-      "打击的一角"
-    ],
-    "mnemonicNote": "conclu(收结)+sion：一路推理走到那个落点",
-    "sourceNote": "拉丁 conclusio，concludere(收口)"
-  },
-  "conductor": {
-    "modernMeaningCn": "指挥",
-    "literalMeaningCn": "领路的人",
-    "metaphorMeaningCn": "指挥、售票员",
-    "metaphorOptions": [
-      "指挥、售票员",
-      "翻转的小站",
-      "少女的来路"
-    ],
-    "mnemonicNote": "conduct(引导)+or(人)：拿着小棒把整团人带起来",
-    "sourceNote": "拉丁 conductor，conducere(引导)"
-  },
-  "confirm": {
-    "modernMeaningCn": "证实",
-    "literalMeaningCn": "使站得住",
-    "metaphorMeaningCn": "证实、确认",
-    "metaphorOptions": [
-      "证实、确认",
-      "守着满意的过活",
-      "替有系统的操心"
-    ],
-    "mnemonicNote": "con(加强)+firm(坚固)：再钉一道钉子让它立稳",
-    "sourceNote": "拉丁 confirmare，com-(加强) + firmare(使坚固)"
-  },
-  "conflict": {
-    "modernMeaningCn": "冲突",
-    "literalMeaningCn": "打在一起",
-    "metaphorMeaningCn": "冲突、抵触",
-    "metaphorOptions": [
-      "冲突、抵触",
-      "离批评家很远",
-      "复数的过程"
-    ],
-    "mnemonicNote": "con(共同)+flict(打)：两个主意撞到同一处",
-    "sourceNote": "拉丁 conflictus，confligere(打在一起)"
-  },
-  "connection": {
-    "modernMeaningCn": "连接",
-    "literalMeaningCn": "接上的地方",
-    "metaphorMeaningCn": "连接、关系",
-    "metaphorOptions": [
-      "连接、关系",
-      "替南方操心",
-      "离无线电很远"
-    ],
-    "mnemonicNote": "connect(接上)+ion：两头扣在一处的那一环",
-    "sourceNote": "拉丁 connexio，connectere(绑在一起)"
-  },
-  "conscience": {
-    "modernMeaningCn": "良心",
-    "literalMeaningCn": "心里同知",
-    "metaphorMeaningCn": "良心、良知",
-    "metaphorOptions": [
-      "良心、良知",
-      "向着劝告去",
-      "继续的地方"
-    ],
-    "mnemonicNote": "con(共同)+science(知道)：自己心里那本明白账",
-    "sourceNote": "拉丁 conscientia，con-(共同) + scire(知道)"
-  },
-  "consequence": {
-    "modernMeaningCn": "后果",
-    "literalMeaningCn": "跟着来的事",
-    "metaphorMeaningCn": "后果、重要性",
-    "metaphorOptions": [
-      "后果、重要性",
-      "参议院的影子",
-      "把职业翻开"
-    ],
-    "mnemonicNote": "con(共同)+sequence(跟随)：前一件事后脚跟进来的",
-    "sourceNote": "拉丁 consequentia，consequi(跟着来)"
-  },
-  "conservation": {
-    "modernMeaningCn": "保护",
-    "literalMeaningCn": "保下来的行为",
-    "metaphorMeaningCn": "保护、保存",
-    "metaphorOptions": [
-      "保护、保存",
-      "使用的地方",
-      "公共汽车的来路"
-    ],
-    "mnemonicNote": "conserv(保存)+ation：不让它坏掉、不让它用光",
-    "sourceNote": "拉丁 conservatio，conservare(保存)"
-  },
-  "conservative": {
-    "modernMeaningCn": "保守的",
-    "literalMeaningCn": "倾向守成的",
-    "metaphorMeaningCn": "保守的、守旧的",
-    "metaphorOptions": [
-      "保守的、守旧的",
-      "离同盟很远",
-      "音乐的地方"
-    ],
-    "mnemonicNote": "conserv(保存)+ative：觉得老规矩还是留着好",
-    "sourceNote": "拉丁 conservare(保存) + -ative"
-  },
-  "consider": {
-    "modernMeaningCn": "考虑",
-    "literalMeaningCn": "把星辰看一遍",
-    "metaphorMeaningCn": "考虑、认为",
-    "metaphorOptions": [
-      "考虑、认为",
-      "迁移的工具",
-      "数着荣誉过日子"
-    ],
-    "mnemonicNote": "con(共同)+sid(星)+er：古人抬头看星象才敢定夺",
-    "sourceNote": "拉丁 considerare，com-(加强) + sidus(星辰)"
-  },
-  "consideration": {
-    "modernMeaningCn": "考虑",
-    "literalMeaningCn": "反复权衡",
-    "metaphorMeaningCn": "考虑、体谅",
-    "metaphorOptions": [
-      "考虑、体谅",
-      "替航行操心",
-      "向着发生的小站"
-    ],
-    "mnemonicNote": "consider(细想)+ation：翻来覆去把利害过一遍",
-    "sourceNote": "拉丁 consideratio，considerare(细看)"
-  },
-  "consist": {
-    "modernMeaningCn": "组成",
-    "literalMeaningCn": "站在一起",
-    "metaphorMeaningCn": "组成、在于",
-    "metaphorOptions": [
-      "组成、在于",
-      "守着相对的过活",
-      "波浪的推动力的背面"
-    ],
-    "mnemonicNote": "con(共同)+sist(站)：几部分凑到一处站成整体",
-    "sourceNote": "拉丁 consistere，com-(共同) + sistere(站)"
-  },
-  "consistent": {
-    "modernMeaningCn": "一致的",
-    "literalMeaningCn": "站得整齐的",
-    "metaphorMeaningCn": "一致的、连贯的",
-    "metaphorOptions": [
-      "一致的、连贯的",
-      "知道的旧事",
-      "要求的来路"
-    ],
-    "mnemonicNote": "consist(站住)+ent：前后都对得上、不打架",
-    "sourceNote": "拉丁 consistens，consistere 的现在分词"
-  },
-  "constant": {
-    "modernMeaningCn": "恒定的",
-    "literalMeaningCn": "一直立着不动",
-    "metaphorMeaningCn": "恒定的、持续不断的",
-    "metaphorOptions": [
-      "恒定的、持续不断的",
-      "倾向的人",
-      "替出声操心"
-    ],
-    "mnemonicNote": "con(加强)+stant(立)：从早到晚戳在那儿不变",
-    "sourceNote": "拉丁 constans，constare(站得住)"
-  },
-  "constitution": {
-    "modernMeaningCn": "宪法",
-    "literalMeaningCn": "构成之物",
-    "metaphorMeaningCn": "宪法、体质",
-    "metaphorOptions": [
-      "宪法、体质",
-      "习惯的味道",
-      "弄脏的另一面"
-    ],
-    "mnemonicNote": "constitut(组成)+ion：把一个国家怎么搭起来的规矩写下来",
-    "sourceNote": "拉丁 constitutio，constituere(设立)"
-  },
-  "construct": {
-    "modernMeaningCn": "建造",
-    "literalMeaningCn": "堆叠起来",
-    "metaphorMeaningCn": "建造、构造",
-    "metaphorOptions": [
-      "建造、构造",
-      "数着瑞士人过日子",
-      "围着感应转"
-    ],
-    "mnemonicNote": "con(共同)+struct(堆积)：一层层往上摞出个东西",
-    "sourceNote": "拉丁 construere，com-(共同) + struere(堆叠)"
-  },
-  "construction": {
-    "modernMeaningCn": "建筑",
-    "literalMeaningCn": "堆叠起来之物",
-    "metaphorMeaningCn": "建筑、施工",
-    "metaphorOptions": [
-      "建筑、施工",
-      "什么怎么的旧事",
-      "越过的背面"
-    ],
-    "mnemonicNote": "construct(建造)+ion：从打地基到封顶那一整套",
-    "sourceNote": "拉丁 constructio，construere(堆叠)"
-  },
-  "consultant": {
-    "modernMeaningCn": "顾问",
-    "literalMeaningCn": "被问教的人",
-    "metaphorMeaningCn": "顾问、咨询师",
-    "metaphorOptions": [
-      "顾问、咨询师",
-      "把消耗串起来",
-      "幻想的工具"
-    ],
-    "mnemonicNote": "consult(请教)+ant(人)：遇事大家都去听他怎么说",
-    "sourceNote": "拉丁 consultare(商议) 的现在分词"
-  },
-  "contain": {
-    "modernMeaningCn": "包含",
-    "literalMeaningCn": "一起装住",
-    "metaphorMeaningCn": "包含、容纳",
-    "metaphorOptions": [
-      "包含、容纳",
-      "二十的地方",
-      "替账户操心"
-    ],
-    "mnemonicNote": "con(共同)+tain(持)：把东西全拢在一个容器里",
-    "sourceNote": "拉丁 continere，com-(共同) + tenere(持)"
-  },
-  "container": {
-    "modernMeaningCn": "容器",
-    "literalMeaningCn": "装东西的器物",
-    "metaphorMeaningCn": "容器、集装箱",
-    "metaphorOptions": [
-      "容器、集装箱",
-      "被后缀的东西",
-      "守着模糊的过活"
-    ],
-    "mnemonicNote": "contain(容纳)+er(物)：把东西兜住不撒的那个",
-    "sourceNote": "拉丁 continere(容纳) + -er(表物)"
-  },
-  "contemporary": {
-    "modernMeaningCn": "当代的",
-    "literalMeaningCn": "同一时间的",
-    "metaphorMeaningCn": "当代的、同龄人",
-    "metaphorOptions": [
-      "当代的、同龄人",
-      "向着携带去",
-      "数着刻痕过日子"
-    ],
-    "mnemonicNote": "con(共同)+tempor(时间)+ary：跟你活在同一个年月",
-    "sourceNote": "拉丁 contemporaneus，com-(共同) + tempus(时间)"
-  }
+ "_comment": "Stage 3 待写释义（batch-11，本批 60 词，高考批第 4 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
+ "characteristic": {
+  "modernMeaningCn": "特性",
+  "literalMeaningCn": "属于性情的",
+  "metaphorMeaningCn": "特征、特性",
+  "metaphorOptions": [
+   "特征、特性",
+   "地理学的一角",
+   "一种在之后的习俗"
+  ],
+  "mnemonicNote": "character(性情)+istic：认得出是它、不是别人那点",
+  "sourceNote": "希腊 kharakter(刻痕)，原指刻在物上的记号"
+ },
+ "cheerful": {
+  "modernMeaningCn": "快活的",
+  "literalMeaningCn": "满是欢欣的",
+  "metaphorMeaningCn": "快活的、兴高采烈的",
+  "metaphorOptions": [
+   "快活的、兴高采烈的",
+   "解放的旧事",
+   "使适应的来路"
+  ],
+  "mnemonicNote": "cheer(欢呼)+ful(满)：脸上那股藏不住的高兴劲",
+  "sourceNote": "古法语 chiere(面容)，后引申为情绪"
+ },
+ "chemical": {
+  "modernMeaningCn": "化学的",
+  "literalMeaningCn": "与炼化有关",
+  "metaphorMeaningCn": "化学的、化学品",
+  "metaphorOptions": [
+   "化学的、化学品",
+   "制止的小站",
+   "守着巨人过活"
+  ],
+  "mnemonicNote": "chemic(炼化)+al：瓶瓶罐罐里那套变化的本事",
+  "sourceNote": "阿拉伯 al-kimiya(炼金术)，经拉丁传入欧洲"
+ },
+ "chemistry": {
+  "modernMeaningCn": "化学",
+  "literalMeaningCn": "炼化的学问",
+  "metaphorMeaningCn": "化学、化学反应",
+  "metaphorOptions": [
+   "化学、化学反应",
+   "离计划很远",
+   "拍手的过程"
+  ],
+  "mnemonicNote": "chemist(炼金者)+ry：研究物质怎么互相变化的学科",
+  "sourceNote": "阿拉伯 al-kimiya(炼金术) + -ry(学问)"
+ },
+ "chicken": {
+  "modernMeaningCn": "小鸡",
+  "literalMeaningCn": "幼小的禽",
+  "metaphorMeaningCn": "小鸡、鸡肉",
+  "metaphorOptions": [
+   "小鸡、鸡肉",
+   "围着携带转",
+   "神智健全的一角"
+  ],
+  "mnemonicNote": "chick(雏鸟)+en：刚出壳叽叽叫的那种",
+  "sourceNote": "古英语 cicen，与 cock(公鸡) 同源"
+ },
+ "childhood": {
+  "modernMeaningCn": "童年",
+  "literalMeaningCn": "当孩子的时期",
+  "metaphorMeaningCn": "童年、幼年",
+  "metaphorOptions": [
+   "童年、幼年",
+   "把煮沸翻开",
+   "符合的影子"
+  ],
+  "mnemonicNote": "child(孩子)+hood(时期)：还不懂事的那几年",
+  "sourceNote": "古英语 cildhad，cild(孩子) + -had(状态)"
+ },
+ "chinese": {
+  "modernMeaningCn": "中文",
+  "literalMeaningCn": "中国的",
+  "metaphorMeaningCn": "中文、中国人",
+  "metaphorOptions": [
+   "中文、中国人",
+   "旅行的旧事",
+   "行动的背面"
+  ],
+  "mnemonicNote": "chin(中国)+ese(…国人/语)：方块字那一门",
+  "sourceNote": "梵语 Cina(秦)，经波斯语传入欧洲"
+ },
+ "christian": {
+  "modernMeaningCn": "基督徒",
+  "literalMeaningCn": "属基督的人",
+  "metaphorMeaningCn": "基督徒、基督教的",
+  "metaphorOptions": [
+   "基督徒、基督教的",
+   "正午的另一面",
+   "种类的一角"
+  ],
+  "mnemonicNote": "christ(基督)+ian(人)：跟着那套教义过日子的人",
+  "sourceNote": "希腊 khristianos，khristos(受膏者、基督)"
+ },
+ "christmas": {
+  "modernMeaningCn": "圣诞节",
+  "literalMeaningCn": "基督的弥撒日",
+  "metaphorMeaningCn": "圣诞节",
+  "metaphorOptions": [
+   "圣诞节",
+   "在之后的影子",
+   "离这样很远"
+  ],
+  "mnemonicNote": "christ(基督)+mas(弥撒)：十二月那场最隆重的礼拜",
+  "sourceNote": "古英语 Cristes mæsse，即「基督的弥撒」"
+ },
+ "cigarette": {
+  "modernMeaningCn": "香烟",
+  "literalMeaningCn": "小号的雪茄",
+  "metaphorMeaningCn": "香烟、纸烟",
+  "metaphorOptions": [
+   "香烟、纸烟",
+   "希腊字母表的第一的工具",
+   "把次日串起来"
+  ],
+  "mnemonicNote": "cigar(雪茄)+ette(小)：切成细条卷起来那种",
+  "sourceNote": "法语 cigarette，cigare(雪茄) + -ette(指小后缀)"
+ },
+ "circuit": {
+  "modernMeaningCn": "电路",
+  "literalMeaningCn": "绕圈走的路",
+  "metaphorMeaningCn": "电路、环行",
+  "metaphorOptions": [
+   "电路、环行",
+   "围着的过去式和过去分转",
+   "向着有助于去"
+  ],
+  "mnemonicNote": "circu(圆)+it(走)：电流沿着一个圈跑回来",
+  "sourceNote": "拉丁 circuitus，circum(绕) + ire(走)"
+ },
+ "circulate": {
+  "modernMeaningCn": "循环",
+  "literalMeaningCn": "转着圈走",
+  "metaphorMeaningCn": "循环、流通、传播",
+  "metaphorOptions": [
+   "循环、流通、传播",
+   "把收到串起来",
+   "守着先例过活"
+  ],
+  "mnemonicNote": "circ(圆)+ulate：血和消息都在圈里转个不停",
+  "sourceNote": "拉丁 circulare，circulus(小圆)"
+ },
+ "circumstance": {
+  "modernMeaningCn": "情况",
+  "literalMeaningCn": "围在四周的情形",
+  "metaphorMeaningCn": "情况、环境",
+  "metaphorOptions": [
+   "情况、环境",
+   "共通的过程",
+   "离关联很远"
+  ],
+  "mnemonicNote": "circum(周围)+stance(站)：把你围在当中那些条件",
+  "sourceNote": "拉丁 circumstantia，circum-(周围) + stare(站)"
+ },
+ "citizen": {
+  "modernMeaningCn": "市民",
+  "literalMeaningCn": "城里的人",
+  "metaphorMeaningCn": "市民、公民",
+  "metaphorOptions": [
+   "市民、公民",
+   "永久的的一角",
+   "围着财富转"
+  ],
+  "mnemonicNote": "citi(城)+zen(人)：登记在册、有身份的那位",
+  "sourceNote": "古法语 citeain，cite(城市)"
+ },
+ "civilian": {
+  "modernMeaningCn": "平民",
+  "literalMeaningCn": "非军职的人",
+  "metaphorMeaningCn": "平民、老百姓",
+  "metaphorOptions": [
+   "平民、老百姓",
+   "暴风雨的过程",
+   "离西班牙很远"
+  ],
+  "mnemonicNote": "civil(公民的)+ian(人)：不穿制服的那一大群",
+  "sourceNote": "拉丁 civilis(公民的) + -ian(人)"
+ },
+ "civilization": {
+  "modernMeaningCn": "文明",
+  "literalMeaningCn": "开化的过程",
+  "metaphorMeaningCn": "文明、文明社会",
+  "metaphorOptions": [
+   "文明、文明社会",
+   "守着内部的过活",
+   "名字的小站"
+  ],
+  "mnemonicNote": "civiliz(开化)+ation：从荆棘里开出城邦那段路",
+  "sourceNote": "拉丁 civilis(公民的) + -ization(过程)"
+ },
+ "clarify": {
+  "modernMeaningCn": "澄清",
+  "literalMeaningCn": "使变清",
+  "metaphorMeaningCn": "澄清、阐明",
+  "metaphorOptions": [
+   "澄清、阐明",
+   "变形的人",
+   "一种包围的习俗"
+  ],
+  "mnemonicNote": "clar(清亮)+ify(使)：把水里那点浑搅出去",
+  "sourceNote": "拉丁 clarificare，clarus(清亮的) + facere(使)"
+ },
+ "classic": {
+  "modernMeaningCn": "经典",
+  "literalMeaningCn": "头等旧制",
+  "metaphorMeaningCn": "经典、名著",
+  "metaphorOptions": [
+   "经典、名著",
+   "原因的过程",
+   "向着倾斜去"
+  ],
+  "mnemonicNote": "class(等级)+ic：历代都把它摆在最上一档",
+  "sourceNote": "拉丁 classicus，classis(等级、船队)"
+ },
+ "classical": {
+  "modernMeaningCn": "古典的",
+  "literalMeaningCn": "头等旧制的",
+  "metaphorMeaningCn": "古典的、传统的",
+  "metaphorOptions": [
+   "古典的、传统的",
+   "一种元素的习俗",
+   "仆役的地方"
+  ],
+  "mnemonicNote": "class(等级)+ical：按古时那套规矩来的",
+  "sourceNote": "拉丁 classicus，17 世纪起指古希腊罗马典范"
+ },
+ "classify": {
+  "modernMeaningCn": "分类",
+  "literalMeaningCn": "归入类目",
+  "metaphorMeaningCn": "分类、归类",
+  "metaphorOptions": [
+   "分类、归类",
+   "离年长者很远",
+   "出现的过程"
+  ],
+  "mnemonicNote": "class(类别)+ify(使)：一样样塞进贴好标签的格子",
+  "sourceNote": "法语 classifier，classe(类别)"
+ },
+ "cleaner": {
+  "modernMeaningCn": "清洁工",
+  "literalMeaningCn": "做清洁的人",
+  "metaphorMeaningCn": "清洁工、清洁剂",
+  "metaphorOptions": [
+   "清洁工、清洁剂",
+   "尾部的背面",
+   "癔病的的旧事"
+  ],
+  "mnemonicNote": "clean(清洁)+er：天没亮就把楼道拖干净那位",
+  "sourceNote": "古英语 clæne(洁净) + -er(表人或物)"
+ },
+ "clearly": {
+  "modernMeaningCn": "清楚地",
+  "literalMeaningCn": "以清亮的方式",
+  "metaphorMeaningCn": "清楚地、显然",
+  "metaphorOptions": [
+   "清楚地、显然",
+   "战神的来路",
+   "有限制的的地方"
+  ],
+  "mnemonicNote": "clear(清亮)+ly：话说得像水一样透",
+  "sourceNote": "古法语 cler + -ly(副词后缀)"
+ },
+ "clothes": {
+  "modernMeaningCn": "衣服",
+  "literalMeaningCn": "几块布做的",
+  "metaphorMeaningCn": "衣服、服装",
+  "metaphorOptions": [
+   "衣服、服装",
+   "完成的地方",
+   "味道的小站"
+  ],
+  "mnemonicNote": "cloth(布)+es：把布料裁开裹在身上",
+  "sourceNote": "古英语 claþas，claþ(布) 的复数"
+ },
+ "clothing": {
+  "modernMeaningCn": "服装",
+  "literalMeaningCn": "布制之物",
+  "metaphorMeaningCn": "服装、衣物",
+  "metaphorOptions": [
+   "服装、衣物",
+   "向着称呼去",
+   "围着名册转"
+  ],
+  "mnemonicNote": "cloth(布)+ing：统称身上穿的那些东西",
+  "sourceNote": "古英语 claþ(布) + -ing(总称后缀)"
+ },
+ "colleague": {
+  "modernMeaningCn": "同事",
+  "literalMeaningCn": "同一联盟的人",
+  "metaphorMeaningCn": "同事、同僚",
+  "metaphorOptions": [
+   "同事、同僚",
+   "失事的过程",
+   "离诺言很远"
+  ],
+  "mnemonicNote": "col(共同)+league(结盟)：跟你同一间办公室使劲的",
+  "sourceNote": "拉丁 collega，com-(共同) + legare(委派)"
+ },
+ "collection": {
+  "modernMeaningCn": "收藏",
+  "literalMeaningCn": "收集之物",
+  "metaphorMeaningCn": "收藏、募捐",
+  "metaphorOptions": [
+   "收藏、募捐",
+   "创造的来路",
+   "手指的地方"
+  ],
+  "mnemonicNote": "collect(收拢)+ion：一件件攒起来凑成的那一堆",
+  "sourceNote": "拉丁 collectio，colligere(收拢)"
+ },
+ "command": {
+  "modernMeaningCn": "命令",
+  "literalMeaningCn": "托付给手下",
+  "metaphorMeaningCn": "命令、指挥",
+  "metaphorOptions": [
+   "命令、指挥",
+   "向着农场去",
+   "早晨的过程"
+  ],
+  "mnemonicNote": "comm(加强)+mand(交托)：一句话交下去就得照办",
+  "sourceNote": "拉丁 commandare，com-(加强) + mandare(托付)"
+ },
+ "commitment": {
+  "modernMeaningCn": "承诺",
+  "literalMeaningCn": "交代出去的事",
+  "metaphorMeaningCn": "承诺、投入",
+  "metaphorOptions": [
+   "承诺、投入",
+   "公式的过程",
+   "离磨坊很远"
+  ],
+  "mnemonicNote": "commit(托付)+ment：把话说死、把自己搭进去",
+  "sourceNote": "拉丁 committere(托付) + -ment"
+ },
+ "committee": {
+  "modernMeaningCn": "委员会",
+  "literalMeaningCn": "被托付的一群人",
+  "metaphorMeaningCn": "委员会、筹备组",
+  "metaphorOptions": [
+   "委员会、筹备组",
+   "离走完等级很远",
+   "替压缩操心"
+  ],
+  "mnemonicNote": "committ(托付)+ee(被…者)：接了这活儿的那几位",
+  "sourceNote": "拉丁 committere(托付)，17 世纪起指受托小组"
+ },
+ "communication": {
+  "modernMeaningCn": "交流",
+  "literalMeaningCn": "彼此共通",
+  "metaphorMeaningCn": "交流、通信",
+  "metaphorOptions": [
+   "交流、通信",
+   "替呼叫操心",
+   "离通路很远"
+  ],
+  "mnemonicNote": "communicat(共通)+ion：你那边的事我这边也知道了",
+  "sourceNote": "拉丁 communicatio，communis(共有的)"
+ },
+ "communism": {
+  "modernMeaningCn": "共产主义",
+  "literalMeaningCn": "共有制的主义",
+  "metaphorMeaningCn": "共产主义",
+  "metaphorOptions": [
+   "共产主义",
+   "变白的来路",
+   "较高的的地方"
+  ],
+  "mnemonicNote": "commun(共有)+ism(主义)：主张财产归大家共有那套",
+  "sourceNote": "法语 communisme，拉丁 communis(共有的)"
+ },
+ "communist": {
+  "modernMeaningCn": "共产主义者",
+  "literalMeaningCn": "信奉共有制的人",
+  "metaphorMeaningCn": "共产主义者、共产党的",
+  "metaphorOptions": [
+   "共产主义者、共产党的",
+   "替香气操心",
+   "守着抓爬过活"
+  ],
+  "mnemonicNote": "commun(共有)+ist(信奉者)：主张大家分着用的那位",
+  "sourceNote": "法语 communiste，communis(共有的)"
+ },
+ "company": {
+  "modernMeaningCn": "公司",
+  "literalMeaningCn": "分面包的人",
+  "metaphorMeaningCn": "公司、陪伴",
+  "metaphorOptions": [
+   "公司、陪伴",
+   "挑战的工具",
+   "数着坚硬的过日子"
+  ],
+  "mnemonicNote": "com(共同)+pan(面包)：最早是一起分面包的那群人",
+  "sourceNote": "拉丁 companio，com-(共同) + panis(面包)"
+ },
+ "compass": {
+  "modernMeaningCn": "指南针",
+  "literalMeaningCn": "量步子的器具",
+  "metaphorMeaningCn": "指南针、圆规",
+  "metaphorOptions": [
+   "指南针、圆规",
+   "公务的味道",
+   "被水果的东西"
+  ],
+  "mnemonicNote": "com(加强)+pass(步)：靠它一步步量着走不迷路",
+  "sourceNote": "拉丁 compassare，com-(加强) + passus(步)"
+ },
+ "compete": {
+  "modernMeaningCn": "竞争",
+  "literalMeaningCn": "一同去争",
+  "metaphorMeaningCn": "竞争、比赛",
+  "metaphorOptions": [
+   "竞争、比赛",
+   "向着移动的去",
+   "单一的过程"
+  ],
+  "mnemonicNote": "com(共同)+pete(求)：几路人马盯着同一个目标",
+  "sourceNote": "拉丁 competere，com-(共同) + petere(求取)"
+ },
+ "competition": {
+  "modernMeaningCn": "竞赛",
+  "literalMeaningCn": "同争之事",
+  "metaphorMeaningCn": "竞赛、竞争",
+  "metaphorOptions": [
+   "竞赛、竞争",
+   "把持有人串起来",
+   "征服的工具"
+  ],
+  "mnemonicNote": "compet(同争)+ition：一场比下来分出名次的较量",
+  "sourceNote": "拉丁 competitio，competere(同争)"
+ },
+ "compromise": {
+  "modernMeaningCn": "妥协",
+  "literalMeaningCn": "双方各让一步",
+  "metaphorMeaningCn": "妥协、折中",
+  "metaphorOptions": [
+   "妥协、折中",
+   "四分之一的旧事",
+   "垦殖的影子"
+  ],
+  "mnemonicNote": "com(共同)+promise(承诺)：两边都点头认下这个中间数",
+  "sourceNote": "拉丁 compromittere，com-(共同) + promittere(许诺)"
+ },
+ "concert": {
+  "modernMeaningCn": "音乐会",
+  "literalMeaningCn": "合到一处演奏",
+  "metaphorMeaningCn": "音乐会、合奏",
+  "metaphorOptions": [
+   "音乐会、合奏",
+   "替生殖的操心",
+   "离服务很远"
+  ],
+  "mnemonicNote": "con(共同)+cert(竞争)：各种乐器较着劲又合着拍",
+  "sourceNote": "意大利 concerto，拉丁 concertare(协力、争)"
+ },
+ "conclude": {
+  "modernMeaningCn": "结束",
+  "literalMeaningCn": "把话收上口",
+  "metaphorMeaningCn": "结束、推断",
+  "metaphorOptions": [
+   "结束、推断",
+   "无差别的的小站",
+   "图表的地方"
+  ],
+  "mnemonicNote": "con(共同)+clude(关闭)：把摊开的议论合上",
+  "sourceNote": "拉丁 concludere，com-(加强) + claudere(关)"
+ },
+ "conclusion": {
+  "modernMeaningCn": "结论",
+  "literalMeaningCn": "收口的说法",
+  "metaphorMeaningCn": "结论、结尾",
+  "metaphorOptions": [
+   "结论、结尾",
+   "太阳的人",
+   "施用的另一面"
+  ],
+  "mnemonicNote": "conclu(收结)+sion：一路推理走到那个落点",
+  "sourceNote": "拉丁 conclusio，concludere(收口)"
+ },
+ "conductor": {
+  "modernMeaningCn": "指挥",
+  "literalMeaningCn": "领路的人",
+  "metaphorMeaningCn": "指挥、售票员",
+  "metaphorOptions": [
+   "指挥、售票员",
+   "全世界的的一角",
+   "一种忙碌的的习俗"
+  ],
+  "mnemonicNote": "conduct(引导)+or(人)：拿着小棒把整团人带起来",
+  "sourceNote": "拉丁 conductor，conducere(引导)"
+ },
+ "confirm": {
+  "modernMeaningCn": "证实",
+  "literalMeaningCn": "使站得住",
+  "metaphorMeaningCn": "证实、确认",
+  "metaphorOptions": [
+   "证实、确认",
+   "守着满意的过活",
+   "替有系统的操心"
+  ],
+  "mnemonicNote": "con(加强)+firm(坚固)：再钉一道钉子让它立稳",
+  "sourceNote": "拉丁 confirmare，com-(加强) + firmare(使坚固)"
+ },
+ "conflict": {
+  "modernMeaningCn": "冲突",
+  "literalMeaningCn": "打在一起",
+  "metaphorMeaningCn": "冲突、抵触",
+  "metaphorOptions": [
+   "冲突、抵触",
+   "离滑的很远",
+   "批评家的过程"
+  ],
+  "mnemonicNote": "con(共同)+flict(打)：两个主意撞到同一处",
+  "sourceNote": "拉丁 conflictus，confligere(打在一起)"
+ },
+ "connection": {
+  "modernMeaningCn": "连接",
+  "literalMeaningCn": "接上的地方",
+  "metaphorMeaningCn": "连接、关系",
+  "metaphorOptions": [
+   "连接、关系",
+   "替南方操心",
+   "离无线电很远"
+  ],
+  "mnemonicNote": "connect(接上)+ion：两头扣在一处的那一环",
+  "sourceNote": "拉丁 connexio，connectere(绑在一起)"
+ },
+ "conscience": {
+  "modernMeaningCn": "良心",
+  "literalMeaningCn": "心里同知",
+  "metaphorMeaningCn": "良心、良知",
+  "metaphorOptions": [
+   "良心、良知",
+   "技艺的的来路",
+   "继续的地方"
+  ],
+  "mnemonicNote": "con(共同)+science(知道)：自己心里那本明白账",
+  "sourceNote": "拉丁 conscientia，con-(共同) + scire(知道)"
+ },
+ "consequence": {
+  "modernMeaningCn": "后果",
+  "literalMeaningCn": "跟着来的事",
+  "metaphorMeaningCn": "后果、重要性",
+  "metaphorOptions": [
+   "后果、重要性",
+   "参议院的影子",
+   "把职业翻开"
+  ],
+  "mnemonicNote": "con(共同)+sequence(跟随)：前一件事后脚跟进来的",
+  "sourceNote": "拉丁 consequentia，consequi(跟着来)"
+ },
+ "conservation": {
+  "modernMeaningCn": "保护",
+  "literalMeaningCn": "保下来的行为",
+  "metaphorMeaningCn": "保护、保存",
+  "metaphorOptions": [
+   "保护、保存",
+   "使用的地方",
+   "竞技场的来路"
+  ],
+  "mnemonicNote": "conserv(保存)+ation：不让它坏掉、不让它用光",
+  "sourceNote": "拉丁 conservatio，conservare(保存)"
+ },
+ "conservative": {
+  "modernMeaningCn": "保守的",
+  "literalMeaningCn": "倾向守成的",
+  "metaphorMeaningCn": "保守的、守旧的",
+  "metaphorOptions": [
+   "保守的、守旧的",
+   "干的的小站",
+   "音乐的地方"
+  ],
+  "mnemonicNote": "conserv(保存)+ative：觉得老规矩还是留着好",
+  "sourceNote": "拉丁 conservare(保存) + -ative"
+ },
+ "consider": {
+  "modernMeaningCn": "考虑",
+  "literalMeaningCn": "把星辰看一遍",
+  "metaphorMeaningCn": "考虑、认为",
+  "metaphorOptions": [
+   "考虑、认为",
+   "野生的工具",
+   "数着迁移过日子"
+  ],
+  "mnemonicNote": "con(共同)+sid(星)+er：古人抬头看星象才敢定夺",
+  "sourceNote": "拉丁 considerare，com-(加强) + sidus(星辰)"
+ },
+ "consideration": {
+  "modernMeaningCn": "考虑",
+  "literalMeaningCn": "反复权衡",
+  "metaphorMeaningCn": "考虑、体谅",
+  "metaphorOptions": [
+   "考虑、体谅",
+   "把部分的翻开",
+   "牢固的影子"
+  ],
+  "mnemonicNote": "consider(细想)+ation：翻来覆去把利害过一遍",
+  "sourceNote": "拉丁 consideratio，considerare(细看)"
+ },
+ "consist": {
+  "modernMeaningCn": "组成",
+  "literalMeaningCn": "站在一起",
+  "metaphorMeaningCn": "组成、在于",
+  "metaphorOptions": [
+   "组成、在于",
+   "原子的旧事",
+   "潘神的背面"
+  ],
+  "mnemonicNote": "con(共同)+sist(站)：几部分凑到一处站成整体",
+  "sourceNote": "拉丁 consistere，com-(共同) + sistere(站)"
+ },
+ "consistent": {
+  "modernMeaningCn": "一致的",
+  "literalMeaningCn": "站得整齐的",
+  "metaphorMeaningCn": "一致的、连贯的",
+  "metaphorOptions": [
+   "一致的、连贯的",
+   "知道的旧事",
+   "要求的来路"
+  ],
+  "mnemonicNote": "consist(站住)+ent：前后都对得上、不打架",
+  "sourceNote": "拉丁 consistens，consistere 的现在分词"
+ },
+ "constant": {
+  "modernMeaningCn": "恒定的",
+  "literalMeaningCn": "一直立着不动",
+  "metaphorMeaningCn": "恒定的、持续不断的",
+  "metaphorOptions": [
+   "恒定的、持续不断的",
+   "倾向的人",
+   "一种花费的习俗"
+  ],
+  "mnemonicNote": "con(加强)+stant(立)：从早到晚戳在那儿不变",
+  "sourceNote": "拉丁 constans，constare(站得住)"
+ },
+ "constitution": {
+  "modernMeaningCn": "宪法",
+  "literalMeaningCn": "构成之物",
+  "metaphorMeaningCn": "宪法、体质",
+  "metaphorOptions": [
+   "宪法、体质",
+   "习惯的味道",
+   "弄脏的另一面"
+  ],
+  "mnemonicNote": "constitut(组成)+ion：把一个国家怎么搭起来的规矩写下来",
+  "sourceNote": "拉丁 constitutio，constituere(设立)"
+ },
+ "construct": {
+  "modernMeaningCn": "建造",
+  "literalMeaningCn": "堆叠起来",
+  "metaphorMeaningCn": "建造、构造",
+  "metaphorOptions": [
+   "建造、构造",
+   "数着瑞士人过日子",
+   "围着感应转"
+  ],
+  "mnemonicNote": "con(共同)+struct(堆积)：一层层往上摞出个东西",
+  "sourceNote": "拉丁 construere，com-(共同) + struere(堆叠)"
+ },
+ "construction": {
+  "modernMeaningCn": "建筑",
+  "literalMeaningCn": "堆叠起来之物",
+  "metaphorMeaningCn": "建筑、施工",
+  "metaphorOptions": [
+   "建筑、施工",
+   "什么怎么的旧事",
+   "越过的背面"
+  ],
+  "mnemonicNote": "construct(建造)+ion：从打地基到封顶那一整套",
+  "sourceNote": "拉丁 constructio，construere(堆叠)"
+ },
+ "consultant": {
+  "modernMeaningCn": "顾问",
+  "literalMeaningCn": "被问教的人",
+  "metaphorMeaningCn": "顾问、咨询师",
+  "metaphorOptions": [
+   "顾问、咨询师",
+   "把规则串起来",
+   "例行程序的工具"
+  ],
+  "mnemonicNote": "consult(请教)+ant(人)：遇事大家都去听他怎么说",
+  "sourceNote": "拉丁 consultare(商议) 的现在分词"
+ },
+ "contain": {
+  "modernMeaningCn": "包含",
+  "literalMeaningCn": "一起装住",
+  "metaphorMeaningCn": "包含、容纳",
+  "metaphorOptions": [
+   "包含、容纳",
+   "产出的地方",
+   "一种二十的习俗"
+  ],
+  "mnemonicNote": "con(共同)+tain(持)：把东西全拢在一个容器里",
+  "sourceNote": "拉丁 continere，com-(共同) + tenere(持)"
+ },
+ "container": {
+  "modernMeaningCn": "容器",
+  "literalMeaningCn": "装东西的器物",
+  "metaphorMeaningCn": "容器、集装箱",
+  "metaphorOptions": [
+   "容器、集装箱",
+   "被走偏的东西",
+   "后缀的味道"
+  ],
+  "mnemonicNote": "contain(容纳)+er(物)：把东西兜住不撒的那个",
+  "sourceNote": "拉丁 continere(容纳) + -er(表物)"
+ },
+ "contemporary": {
+  "modernMeaningCn": "当代的",
+  "literalMeaningCn": "同一时间的",
+  "metaphorMeaningCn": "当代的、同龄人",
+  "metaphorOptions": [
+   "当代的、同龄人",
+   "向着携带去",
+   "数着刻痕过日子"
+  ],
+  "mnemonicNote": "con(共同)+tempor(时间)+ary：跟你活在同一个年月",
+  "sourceNote": "拉丁 contemporaneus，com-(共同) + tempus(时间)"
+ }
 }

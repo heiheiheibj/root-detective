@@ -12,12 +12,13 @@
   {
     "id": "message-port",
     "name": "传送门",
-    "description": "学习词根：dict、port、nect、nounce（传送门）",
+    "description": "学习词根：dict、port、nect、nounce、script（传送门）",
     "morphemeIds": [
       "dict",
       "port",
       "nect",
-      "nounce"
+      "nounce",
+      "script"
     ]
   },
   {
@@ -445,7 +446,7 @@
   {
     "id": "common-lane",
     "name": "寻常巷",
-    "description": "学习词根：a、any、it、her、app、happy、life、four、seven、six、corr（寻常巷）",
+    "description": "学习词根：a、any、it、her、app、happy、life、four、seven、six、corr、bag、well、insula、solve（寻常巷）",
     "morphemeIds": [
       "a",
       "any",
@@ -457,7 +458,11 @@
       "four",
       "seven",
       "six",
-      "corr"
+      "corr",
+      "bag",
+      "well",
+      "insula",
+      "solve"
     ]
   },
   {

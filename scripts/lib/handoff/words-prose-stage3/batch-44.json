@@ -1,723 +1,723 @@
 {
-  "_comment": "Stage 3 待写释义（batch-44，本批 60 词，六级批第 9 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
-  "preservation": {
-    "modernMeaningCn": "保存",
-    "literalMeaningCn": "护着不让坏",
-    "metaphorMeaningCn": "保存、保护",
-    "metaphorOptions": [
-      "保存、保护",
-      "被背骨的东西",
-      "把希腊字母表的第一串起来"
-    ],
-    "mnemonicNote": "preserv(护住)+ation：护着不让它坏了",
-    "sourceNote": "拉丁 praeservare，prae-(预先) + servare(守护)"
-  },
-  "pretext": {
-    "modernMeaningCn": "借口",
-    "literalMeaningCn": "预先编好的说辞",
-    "metaphorMeaningCn": "借口、托辞",
-    "metaphorOptions": [
-      "借口、托辞",
-      "明矾的另一面",
-      "替改良操心"
-    ],
-    "mnemonicNote": "pre(预先)+text(编织)：预先编好的一套说辞",
-    "sourceNote": "拉丁 praetextus，prae-(预先) + texere(编织)"
-  },
-  "prevailing": {
-    "modernMeaningCn": "盛行的、普遍的",
-    "literalMeaningCn": "压过其他那股",
-    "metaphorMeaningCn": "盛行的、普遍的",
-    "metaphorOptions": [
-      "盛行的、普遍的",
-      "离容器很远",
-      "替错过操心"
-    ],
-    "mnemonicNote": "prevail(占上风)+ing：压过其他那股风气",
-    "sourceNote": "拉丁 praevalere，prae-(在前) + valere(有力) + -ing"
-  },
-  "prevalence": {
-    "modernMeaningCn": "普遍",
-    "literalMeaningCn": "压过一片的势头",
-    "metaphorMeaningCn": "流行、普遍",
-    "metaphorOptions": [
-      "流行、普遍",
-      "围着非常的转",
-      "向着依赖的去"
-    ],
-    "mnemonicNote": "pre(在前)+valence(强势)：到处都压得住",
-    "sourceNote": "拉丁 praevalentia，praevalere(占优势)"
-  },
-  "prevention": {
-    "modernMeaningCn": "预防、阻止",
-    "literalMeaningCn": "挡在前头这件事",
-    "metaphorMeaningCn": "预防、阻止",
-    "metaphorOptions": [
-      "预防、阻止",
-      "数着怀疑论者过日子",
-      "替商人操心"
-    ],
-    "mnemonicNote": "prevent(拦阻)+ion：挡在前头这件事",
-    "sourceNote": "拉丁 praeventio，praevenire(先到、阻止)"
-  },
-  "principally": {
-    "modernMeaningCn": "主要地",
-    "literalMeaningCn": "以头一条算",
-    "metaphorMeaningCn": "主要地、首要地",
-    "metaphorOptions": [
-      "主要地、首要地",
-      "出汗的小站",
-      "使失去能力的地方"
-    ],
-    "mnemonicNote": "principal(首要)+ly：拣头一条来说",
-    "sourceNote": "拉丁 principalis，princeps(为首者) + -ly"
-  },
-  "proceeding": {
-    "modernMeaningCn": "程序、诉讼",
-    "literalMeaningCn": "往下办这件事",
-    "metaphorMeaningCn": "程序、诉讼",
-    "metaphorOptions": [
-      "程序、诉讼",
-      "守着体操运动员过活",
-      "替承载操心"
-    ],
-    "mnemonicNote": "proceed(往下办)+ing：一步一步办下去",
-    "sourceNote": "拉丁 procedere，pro-(向前) + cedere(走)"
-  },
-  "productivity": {
-    "modernMeaningCn": "生产率、生产力",
-    "literalMeaningCn": "出活多少",
-    "metaphorMeaningCn": "生产率、生产力",
-    "metaphorOptions": [
-      "生产率、生产力",
-      "材料的来路",
-      "化学家的地方"
-    ],
-    "mnemonicNote": "productiv(出活多)+ity：一样时间出多少活",
-    "sourceNote": "拉丁 producere(引出) + -ive + -ity"
-  },
-  "profile": {
-    "modernMeaningCn": "侧面",
-    "literalMeaningCn": "勾出来的那道轮廓",
-    "metaphorMeaningCn": "侧面、简介",
-    "metaphorOptions": [
-      "侧面、简介",
-      "向着城市去",
-      "柠檬的影子"
-    ],
-    "mnemonicNote": "pro(向前)+file(线)：勾出来的那一道轮廓",
-    "sourceNote": "意大利 profilo，pro-(向前) + filo(线)"
-  },
-  "profound": {
-    "modernMeaningCn": "深刻的、深奥的",
-    "literalMeaningCn": "深到底下去",
-    "metaphorMeaningCn": "深刻的、深奥的",
-    "metaphorOptions": [
-      "深刻的、深奥的",
-      "离这样很远",
-      "替仆役操心"
-    ],
-    "mnemonicNote": "pro(向前)+found(底)：深到见底那一步",
-    "sourceNote": "拉丁 profundus，pro-(向前) + fundus(底)"
-  },
-  "prohibition": {
-    "modernMeaningCn": "禁令",
-    "literalMeaningCn": "挡住不让做",
-    "metaphorMeaningCn": "禁令、禁酒",
-    "metaphorOptions": [
-      "禁令、禁酒",
-      "离变动很远",
-      "围着滑落转"
-    ],
-    "mnemonicNote": "prohibit(挡住)+ion：立条规矩不许做",
-    "sourceNote": "拉丁 prohibitio，prohibere(阻止)"
-  },
-  "projecting": {
-    "modernMeaningCn": "突出的",
-    "literalMeaningCn": "往外探出去",
-    "metaphorMeaningCn": "突出的、伸出的",
-    "metaphorOptions": [
-      "突出的、伸出的",
-      "把土地翻开",
-      "自动的背面"
-    ],
-    "mnemonicNote": "pro(向前)+ject(扔)+ing：往外探出去那一块",
-    "sourceNote": "拉丁 proicere，pro-(向前) + iacere(扔)"
-  },
-  "projector": {
-    "modernMeaningCn": "投影仪、放映机",
-    "literalMeaningCn": "把影像投出去那台",
-    "metaphorMeaningCn": "投影仪、放映机",
-    "metaphorOptions": [
-      "投影仪、放映机",
-      "冻结的一角",
-      "围着恶意转"
-    ],
-    "mnemonicNote": "project(投射)+or(物)：把画面扔到墙上那台",
-    "sourceNote": "拉丁 proicere(投出) + -or"
-  },
-  "promotion": {
-    "modernMeaningCn": "提升、促销",
-    "literalMeaningCn": "往前推这件事",
-    "metaphorMeaningCn": "提升、促销",
-    "metaphorOptions": [
-      "提升、促销",
-      "数着保证过日子",
-      "围着旁边转"
-    ],
-    "mnemonicNote": "promot(往前推)+ion：把人往上推一级",
-    "sourceNote": "拉丁 promotio，promovere(前推)"
-  },
-  "promptly": {
-    "modernMeaningCn": "迅速地、及时地",
-    "literalMeaningCn": "一点不耽误",
-    "metaphorMeaningCn": "迅速地、及时地",
-    "metaphorOptions": [
-      "迅速地、及时地",
-      "向着解放的小站",
-      "班级的工具"
-    ],
-    "mnemonicNote": "prompt(即时)+ly：一点不耽误",
-    "sourceNote": "拉丁 promptus(准备好的) + -ly"
-  },
-  "propagation": {
-    "modernMeaningCn": "传播、繁殖",
-    "literalMeaningCn": "一代代铺开",
-    "metaphorMeaningCn": "传播、繁殖",
-    "metaphorOptions": [
-      "传播、繁殖",
-      "数着烘焙过日子",
-      "裂痕的工具"
-    ],
-    "mnemonicNote": "propagat(繁衍)+ion：一代代往外铺开",
-    "sourceNote": "拉丁 propagatio，propagare(扦插、扩展)"
-  },
-  "propeller": {
-    "modernMeaningCn": "螺旋桨",
-    "literalMeaningCn": "推着船走那几片",
-    "metaphorMeaningCn": "螺旋桨、推进器",
-    "metaphorOptions": [
-      "螺旋桨、推进器",
-      "装备的旧事",
-      "森林的背面"
-    ],
-    "mnemonicNote": "propell(推进)+er(物)：推着船往前走那几片",
-    "sourceNote": "拉丁 propellere，pro-(向前) + pellere(推) + -er"
-  },
-  "proposition": {
-    "modernMeaningCn": "提议、命题",
-    "literalMeaningCn": "摆到面前的方案",
-    "metaphorMeaningCn": "提议、命题",
-    "metaphorOptions": [
-      "提议、命题",
-      "守着即时的过活",
-      "把雪茄串起来"
-    ],
-    "mnemonicNote": "pro(向前)+position(摆)：摆到桌面上的那份方案",
-    "sourceNote": "拉丁 propositio，proponere(摆出)"
-  },
-  "propulsion": {
-    "modernMeaningCn": "推进",
-    "literalMeaningCn": "往前推这件事",
-    "metaphorMeaningCn": "推进、推进力",
-    "metaphorOptions": [
-      "推进、推进力",
-      "把宁可串起来",
-      "守着附上过活"
-    ],
-    "mnemonicNote": "pro(向前)+puls(推)+ion：往前推这件事",
-    "sourceNote": "拉丁 propulsio，propellere(向前推)"
-  },
-  "prospective": {
-    "modernMeaningCn": "潜在的、未来的",
-    "literalMeaningCn": "还在前头看着的",
-    "metaphorMeaningCn": "潜在的、未来的",
-    "metaphorOptions": [
-      "潜在的、未来的",
-      "替平等操心",
-      "离暴力的很远"
-    ],
-    "mnemonicNote": "prospect(前景)+ive：还在前头看着那一位",
-    "sourceNote": "拉丁 prospectivus，prospicere(向前看)"
-  },
-  "proverb": {
-    "modernMeaningCn": "谚语",
-    "literalMeaningCn": "传下来的老话",
-    "metaphorMeaningCn": "谚语、格言",
-    "metaphorOptions": [
-      "谚语、格言",
-      "以前的小站",
-      "守着娱乐过活"
-    ],
-    "mnemonicNote": "pro(向前)+verb(话)：一辈辈传下来的老话",
-    "sourceNote": "拉丁 proverbium，pro-(向前) + verbum(话)"
-  },
-  "provoke": {
-    "modernMeaningCn": "激怒",
-    "literalMeaningCn": "嚷嚷着把人惹火",
-    "metaphorMeaningCn": "激怒、引起",
-    "metaphorOptions": [
-      "激怒、引起",
-      "排水沟的来路",
-      "精力的小站"
-    ],
-    "mnemonicNote": "pro(向前)+voke(喊)：冲着人嚷嚷，把人惹火",
-    "sourceNote": "拉丁 provocare，pro-(向前) + vocare(喊)"
-  },
-  "publicity": {
-    "modernMeaningCn": "宣传、名声",
-    "literalMeaningCn": "让众人都知道",
-    "metaphorMeaningCn": "宣传、名声",
-    "metaphorOptions": [
-      "宣传、名声",
-      "把组织串起来",
-      "数着厌恶过日子"
-    ],
-    "mnemonicNote": "public(公开)+ity：让满城都知道这件事",
-    "sourceNote": "拉丁 publicus(公众的) + -ity"
-  },
-  "pumpkin": {
-    "modernMeaningCn": "南瓜",
-    "literalMeaningCn": "鼓得圆圆那种瓜",
-    "metaphorMeaningCn": "南瓜",
-    "metaphorOptions": [
-      "南瓜",
-      "疤痕的来路",
-      "酿造酒的来路"
-    ],
-    "mnemonicNote": "pump(鼓)+kin(小)：鼓得圆溜溜那种瓜",
-    "sourceNote": "希腊 pepon(熟的瓜)，经法语 pompon"
-  },
-  "qualitative": {
-    "modernMeaningCn": "性质的",
-    "literalMeaningCn": "讲是什么样",
-    "metaphorMeaningCn": "定性的、性质的",
-    "metaphorOptions": [
-      "定性的、性质的",
-      "把在下串起来",
-      "客套语的工具"
-    ],
-    "mnemonicNote": "qualit(成色)+ative：讲的是成色如何",
-    "sourceNote": "拉丁 qualitas(性质) + -ative"
-  },
-  "quantitative": {
-    "modernMeaningCn": "数量的",
-    "literalMeaningCn": "讲有多少",
-    "metaphorMeaningCn": "定量的、数量的",
-    "metaphorOptions": [
-      "定量的、数量的",
-      "守着获胜过活",
-      "承受的小站"
-    ],
-    "mnemonicNote": "quantit(数目)+ative：讲的是有多有少",
-    "sourceNote": "拉丁 quantitas(数量) + -ative"
-  },
-  "questionable": {
-    "modernMeaningCn": "可疑的、有问题的",
-    "literalMeaningCn": "值得打个问号",
-    "metaphorMeaningCn": "可疑的、有问题的",
-    "metaphorOptions": [
-      "可疑的、有问题的",
-      "安顿的来路",
-      "围着偷偷转"
-    ],
-    "mnemonicNote": "question(疑问)+able：这事得打个问号",
-    "sourceNote": "拉丁 quaestio(询问) + -able"
-  },
-  "radial": {
-    "modernMeaningCn": "径向的、放射状的",
-    "literalMeaningCn": "从中心往外放射",
-    "metaphorMeaningCn": "径向的、放射状的",
-    "metaphorOptions": [
-      "径向的、放射状的",
-      "离折叠很远",
-      "替完成操心"
-    ],
-    "mnemonicNote": "radi(辐射)+al：从中心往外散开",
-    "sourceNote": "拉丁 radius(光线、轮辐) + -al"
-  },
-  "radiator": {
-    "modernMeaningCn": "散热器、暖气",
-    "literalMeaningCn": "往外散热那件",
-    "metaphorMeaningCn": "散热器、暖气",
-    "metaphorOptions": [
-      "散热器、暖气",
-      "围着租金转",
-      "嘲笑的来路"
-    ],
-    "mnemonicNote": "radiat(散发)+or(物)：靠在墙边往外散热那件",
-    "sourceNote": "拉丁 radiare(发光、散热) + -or"
-  },
-  "rainforest": {
-    "modernMeaningCn": "雨林、热带雨林",
-    "literalMeaningCn": "天天下雨那片林子",
-    "metaphorMeaningCn": "雨林、热带雨林",
-    "metaphorOptions": [
-      "雨林、热带雨林",
-      "把电脑串起来",
-      "排列的影子"
-    ],
-    "mnemonicNote": "rain(雨)+forest(森林)：一年到头湿漉漉那片深林",
-    "sourceNote": "英语复合词，rain + forest"
-  },
-  "ramble": {
-    "modernMeaningCn": "漫步",
-    "literalMeaningCn": "东走走西看看",
-    "metaphorMeaningCn": "漫步、闲扯",
-    "metaphorOptions": [
-      "漫步、闲扯",
-      "替父亲操心",
-      "守着疯草病过活"
-    ],
-    "mnemonicNote": "ramb(游荡)+le：没个准地方，东走走西看看",
-    "sourceNote": "中古英语 romen(游荡) + -le(反复)"
-  },
-  "rapidity": {
-    "modernMeaningCn": "迅速",
-    "literalMeaningCn": "快得那个程度",
-    "metaphorMeaningCn": "迅速、急速",
-    "metaphorOptions": [
-      "迅速、急速",
-      "辫子的另一面",
-      "疼痛的味道"
-    ],
-    "mnemonicNote": "rapid(急速)+ity：快成那样",
-    "sourceNote": "拉丁 rapiditas，rapidus(疾速)"
-  },
-  "reactor": {
-    "modernMeaningCn": "反应堆、反应器",
-    "literalMeaningCn": "起反应那套装置",
-    "metaphorMeaningCn": "反应堆、反应器",
-    "metaphorOptions": [
-      "反应堆、反应器",
-      "向着同伴去",
-      "围着情绪转"
-    ],
-    "mnemonicNote": "react(起反应)+or(物)：里头一直烧着那套装置",
-    "sourceNote": "中世纪拉丁 reagere(反应) + -or"
-  },
-  "realistic": {
-    "modernMeaningCn": "现实的",
-    "literalMeaningCn": "照着实情来的",
-    "metaphorMeaningCn": "现实的、写实的",
-    "metaphorOptions": [
-      "现实的、写实的",
-      "向着抓取去",
-      "生活的味道"
-    ],
-    "mnemonicNote": "real(真实)+ist+ic：照着实情描摹那一路",
-    "sourceNote": "晚期拉丁 realis(真实的) + -istic"
-  },
-  "realization": {
-    "modernMeaningCn": "实现",
-    "literalMeaningCn": "把设想落成真",
-    "metaphorMeaningCn": "实现、领悟",
-    "metaphorOptions": [
-      "实现、领悟",
-      "位于的过程",
-      "向着伙伴去"
-    ],
-    "mnemonicNote": "realiz(落成真)+ation：把纸上的设想落地",
-    "sourceNote": "中世纪拉丁 realis(真实的) + -ization"
-  },
-  "reassure": {
-    "modernMeaningCn": "使安心",
-    "literalMeaningCn": "再给人打个保票",
-    "metaphorMeaningCn": "使安心、打消疑虑",
-    "metaphorOptions": [
-      "使安心、打消疑虑",
-      "数着舒服过日子",
-      "宇宙的工具"
-    ],
-    "mnemonicNote": "re(再)+assure(保证)：再打个保票让人放心",
-    "sourceNote": "re-(再) + 拉丁 ad-(朝向) + securus(无忧)"
-  },
-  "rebuke": {
-    "modernMeaningCn": "斥责、指责",
-    "literalMeaningCn": "一记狠话砍过去",
-    "metaphorMeaningCn": "斥责、指责",
-    "metaphorOptions": [
-      "斥责、指责",
-      "离乐意的很远",
-      "单一的过程"
-    ],
-    "mnemonicNote": "re(回)+buke(砍)：一记狠话正面砍过去",
-    "sourceNote": "盎格鲁法语 rebuker，re-(回) + buchier(砍)"
-  },
-  "recession": {
-    "modernMeaningCn": "衰退、后退",
-    "literalMeaningCn": "往后缩那一段",
-    "metaphorMeaningCn": "衰退、后退",
-    "metaphorOptions": [
-      "衰退、后退",
-      "被中国的东西",
-      "离尖啸声很远"
-    ],
-    "mnemonicNote": "recess(往后退)+ion：水位退下去那一段",
-    "sourceNote": "拉丁 recessio，recedere(后退)"
-  },
-  "reckless": {
-    "modernMeaningCn": "鲁莽的、不顾后果的",
-    "literalMeaningCn": "什么都不顾忌",
-    "metaphorMeaningCn": "鲁莽的、不顾后果的",
-    "metaphorOptions": [
-      "鲁莽的、不顾后果的",
-      "热忱的来路",
-      "守着蜂蜜过活"
-    ],
-    "mnemonicNote": "reck(在意)+less(无)：什么都不放在眼里",
-    "sourceNote": "古英语 recceleas，reccan(在意) + -leas(无)"
-  },
-  "reclaim": {
-    "modernMeaningCn": "开垦",
-    "literalMeaningCn": "喊回来归自己",
-    "metaphorMeaningCn": "开垦、回收",
-    "metaphorOptions": [
-      "开垦、回收",
-      "围着给予转",
-      "变动的另一面"
-    ],
-    "mnemonicNote": "re(回)+claim(喊)：把地喊回来归自己用",
-    "sourceNote": "古法语 reclamer，re-(回) + clamer(喊)"
-  },
-  "recruitment": {
-    "modernMeaningCn": "招募、招收",
-    "literalMeaningCn": "把人收进来",
-    "metaphorMeaningCn": "招募、招收",
-    "metaphorOptions": [
-      "招募、招收",
-      "佛陀的影子",
-      "居住于的人"
-    ],
-    "mnemonicNote": "recruit(招人)+ment：把人一批批收进来",
-    "sourceNote": "法语 recruter，recrue(新兵)"
-  },
-  "refinery": {
-    "modernMeaningCn": "炼油厂、精炼厂",
-    "literalMeaningCn": "提纯那处厂子",
-    "metaphorMeaningCn": "炼油厂、精炼厂",
-    "metaphorOptions": [
-      "炼油厂、精炼厂",
-      "周围的背面",
-      "把看守翻开"
-    ],
-    "mnemonicNote": "refine(提纯)+ry(场所)：把原油提纯那处厂子",
-    "sourceNote": "法语 raffiner(精炼) + -ery(场所)"
-  },
-  "refrain": {
-    "modernMeaningCn": "副歌、克制",
-    "literalMeaningCn": "反复回来的那几句",
-    "metaphorMeaningCn": "副歌、克制",
-    "metaphorOptions": [
-      "副歌、克制",
-      "离组织很远",
-      "替追求操心"
-    ],
-    "mnemonicNote": "re(回)+frain(勒住)：一遍遍回来那几句，也指按捺住",
-    "sourceNote": "古法语 refraindre，re-(回) + fraindre(勒住)"
-  },
-  "refugee": {
-    "modernMeaningCn": "难民",
-    "literalMeaningCn": "躲难在外的人",
-    "metaphorMeaningCn": "难民、避难者",
-    "metaphorOptions": [
-      "难民、避难者",
-      "全部的一角",
-      "扭曲的影子"
-    ],
-    "mnemonicNote": "refuge(避难)+e(人)：背井离乡躲难那位",
-    "sourceNote": "法语 réfugié，refuge(避难所)"
-  },
-  "regenerate": {
-    "modernMeaningCn": "使再生",
-    "literalMeaningCn": "重新长出来",
-    "metaphorMeaningCn": "使再生、使复兴",
-    "metaphorOptions": [
-      "使再生、使复兴",
-      "工作的来路",
-      "使吃惊的地方"
-    ],
-    "mnemonicNote": "re(再)+generate(产生)：断了的重新长出来",
-    "sourceNote": "拉丁 regenerare，re-(再) + generare(产生)"
-  },
-  "regularity": {
-    "modernMeaningCn": "规律性、整齐",
-    "literalMeaningCn": "按着准头来",
-    "metaphorMeaningCn": "规律性、整齐",
-    "metaphorOptions": [
-      "规律性、整齐",
-      "数着眼睛过日子",
-      "流行的工具"
-    ],
-    "mnemonicNote": "regular(按准头)+ity：年年按着点来",
-    "sourceNote": "晚期拉丁 regularitas，regula(尺规)"
-  },
-  "reimburse": {
-    "modernMeaningCn": "补偿、报销",
-    "literalMeaningCn": "把钱退回袋里",
-    "metaphorMeaningCn": "补偿、报销",
-    "metaphorOptions": [
-      "补偿、报销",
-      "二十的小站",
-      "守着外国的过活"
-    ],
-    "mnemonicNote": "re(回)+imburse(入袋)：把钱退回人袋里",
-    "sourceNote": "re-(回) + 古法语 bourse(钱袋)"
-  },
-  "rejection": {
-    "modernMeaningCn": "拒绝",
-    "literalMeaningCn": "推回去这件事",
-    "metaphorMeaningCn": "拒绝、退回",
-    "metaphorOptions": [
-      "拒绝、退回",
-      "被经验主义者的东西",
-      "生命的味道"
-    ],
-    "mnemonicNote": "reject(退回)+ion：原样推回去这件事",
-    "sourceNote": "拉丁 reiectio，reicere(扔回)"
-  },
-  "remainder": {
-    "modernMeaningCn": "剩余物、余数",
-    "literalMeaningCn": "挑剩下的那点",
-    "metaphorMeaningCn": "剩余物、余数",
-    "metaphorOptions": [
-      "剩余物、余数",
-      "离沙丁鱼很远",
-      "顺序的工具"
-    ],
-    "mnemonicNote": "remain(剩下)+der：挑完了剩下来那一点",
-    "sourceNote": "古法语 remaindre(留下) + -er"
-  },
-  "renovation": {
-    "modernMeaningCn": "翻新、整修",
-    "literalMeaningCn": "旧翻成新",
-    "metaphorMeaningCn": "翻新、整修",
-    "metaphorOptions": [
-      "翻新、整修",
-      "用正餐的一角",
-      "地球的地方"
-    ],
-    "mnemonicNote": "renovat(更新)+ion：把旧的翻成新的",
-    "sourceNote": "拉丁 renovatio，renovare(更新)"
-  },
-  "repay": {
-    "modernMeaningCn": "偿还",
-    "literalMeaningCn": "把钱付回去",
-    "metaphorMeaningCn": "偿还、报答",
-    "metaphorOptions": [
-      "偿还、报答",
-      "观念的人",
-      "平锅的影子"
-    ],
-    "mnemonicNote": "re(回)+pay(付)：欠的钱付回去",
-    "sourceNote": "古法语 repayer，re-(回) + payer(支付)"
-  },
-  "replacement": {
-    "modernMeaningCn": "替换、替代品",
-    "literalMeaningCn": "顶上那个位子",
-    "metaphorMeaningCn": "替换、替代品",
-    "metaphorOptions": [
-      "替换、替代品",
-      "音乐的一角",
-      "包含的另一面"
-    ],
-    "mnemonicNote": "replace(顶上)+ment：顶了原来那个位子",
-    "sourceNote": "re-(回) + place(位置) + -ment"
-  },
-  "representation": {
-    "modernMeaningCn": "表示、代表",
-    "literalMeaningCn": "替着说话这件事",
-    "metaphorMeaningCn": "表示、代表",
-    "metaphorOptions": [
-      "表示、代表",
-      "守着试图过活",
-      "围着熟练的转"
-    ],
-    "mnemonicNote": "represent(代表)+ation：替着说话这件事",
-    "sourceNote": "拉丁 repraesentare，re-(再) + praesens(在场)"
-  },
-  "reproduction": {
-    "modernMeaningCn": "繁殖、复制",
-    "literalMeaningCn": "再生产出来",
-    "metaphorMeaningCn": "繁殖、复制",
-    "metaphorOptions": [
-      "繁殖、复制",
-      "护士的小站",
-      "守着重要的过活"
-    ],
-    "mnemonicNote": "re(再)+production(生产)：再生产出一批来",
-    "sourceNote": "re-(再) + 拉丁 producere(引出) + -ion"
-  },
-  "reptile": {
-    "modernMeaningCn": "爬行动物",
-    "literalMeaningCn": "肚皮贴地爬的",
-    "metaphorMeaningCn": "爬行动物、爬虫",
-    "metaphorOptions": [
-      "爬行动物、爬虫",
-      "掌舵的地方",
-      "出汗的来路"
-    ],
-    "mnemonicNote": "rep(爬)+tile(物)：肚皮贴着地往前爬那类",
-    "sourceNote": "拉丁 reptilis，repere(爬行)"
-  },
-  "resemblance": {
-    "modernMeaningCn": "相似、相似之处",
-    "literalMeaningCn": "长得像这件事",
-    "metaphorMeaningCn": "相似、相似之处",
-    "metaphorOptions": [
-      "相似、相似之处",
-      "小心的来路",
-      "抓取的旧事"
-    ],
-    "mnemonicNote": "resembl(像)+ance：眉眼长得像这件事",
-    "sourceNote": "古法语 resembler，re-(再) + sembler(像)"
-  },
-  "resent": {
-    "modernMeaningCn": "愤恨",
-    "literalMeaningCn": "一遍遍回味那口气",
-    "metaphorMeaningCn": "怨恨、不满",
-    "metaphorOptions": [
-      "怨恨、不满",
-      "守着收集过活",
-      "使同化的小站"
-    ],
-    "mnemonicNote": "re(再)+sent(感觉)：那口气在心里过了又过",
-    "sourceNote": "法语 ressentir，re-(再) + sentir(感觉)"
-  },
-  "resentment": {
-    "modernMeaningCn": "怨恨",
-    "literalMeaningCn": "憋着的那口气",
-    "metaphorMeaningCn": "怨恨、愤懑",
-    "metaphorOptions": [
-      "怨恨、愤懑",
-      "器官的过程",
-      "然而的影子"
-    ],
-    "mnemonicNote": "resent(窝着气)+ment：窝在心里那股气",
-    "sourceNote": "法语 ressentiment，ressentir(感受)"
-  },
-  "residential": {
-    "modernMeaningCn": "住宅的",
-    "literalMeaningCn": "住人那一片的",
-    "metaphorMeaningCn": "住宅的、居住的",
-    "metaphorOptions": [
-      "住宅的、居住的",
-      "插入的背面",
-      "数着欧洲过日子"
-    ],
-    "mnemonicNote": "resident(住户)+ial：住人那一片的",
-    "sourceNote": "拉丁 residere(留住) + -ial"
-  },
-  "respectable": {
-    "modernMeaningCn": "值得尊重的",
-    "literalMeaningCn": "站得住台面",
-    "metaphorMeaningCn": "体面的、值得尊重的",
-    "metaphorOptions": [
-      "体面的、值得尊重的",
-      "特征的味道",
-      "被屠宰的东西"
-    ],
-    "mnemonicNote": "respect(敬重)+able：站得住台面那一位",
-    "sourceNote": "拉丁 respectus(敬重) + -able"
-  }
+ "_comment": "Stage 3 待写释义（batch-44，本批 60 词，六级批第 9 批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
+ "preservation": {
+  "modernMeaningCn": "保存",
+  "literalMeaningCn": "护着不让坏",
+  "metaphorMeaningCn": "保存、保护",
+  "metaphorOptions": [
+   "保存、保护",
+   "被希腊字母表的第一的东西",
+   "把卡车串起来"
+  ],
+  "mnemonicNote": "preserv(护住)+ation：护着不让它坏了",
+  "sourceNote": "拉丁 praeservare，prae-(预先) + servare(守护)"
+ },
+ "pretext": {
+  "modernMeaningCn": "借口",
+  "literalMeaningCn": "预先编好的说辞",
+  "metaphorMeaningCn": "借口、托辞",
+  "metaphorOptions": [
+   "借口、托辞",
+   "海洋的另一面",
+   "明矾的味道"
+  ],
+  "mnemonicNote": "pre(预先)+text(编织)：预先编好的一套说辞",
+  "sourceNote": "拉丁 praetextus，prae-(预先) + texere(编织)"
+ },
+ "prevailing": {
+  "modernMeaningCn": "盛行的、普遍的",
+  "literalMeaningCn": "压过其他那股",
+  "metaphorMeaningCn": "盛行的、普遍的",
+  "metaphorOptions": [
+   "盛行的、普遍的",
+   "离容器很远",
+   "替错过操心"
+  ],
+  "mnemonicNote": "prevail(占上风)+ing：压过其他那股风气",
+  "sourceNote": "拉丁 praevalere，prae-(在前) + valere(有力) + -ing"
+ },
+ "prevalence": {
+  "modernMeaningCn": "普遍",
+  "literalMeaningCn": "压过一片的势头",
+  "metaphorMeaningCn": "流行、普遍",
+  "metaphorOptions": [
+   "流行、普遍",
+   "围着非常的转",
+   "向着依赖的去"
+  ],
+  "mnemonicNote": "pre(在前)+valence(强势)：到处都压得住",
+  "sourceNote": "拉丁 praevalentia，praevalere(占优势)"
+ },
+ "prevention": {
+  "modernMeaningCn": "预防、阻止",
+  "literalMeaningCn": "挡在前头这件事",
+  "metaphorMeaningCn": "预防、阻止",
+  "metaphorOptions": [
+   "预防、阻止",
+   "数着怀疑论者过日子",
+   "重要的的工具"
+  ],
+  "mnemonicNote": "prevent(拦阻)+ion：挡在前头这件事",
+  "sourceNote": "拉丁 praeventio，praevenire(先到、阻止)"
+ },
+ "principally": {
+  "modernMeaningCn": "主要地",
+  "literalMeaningCn": "以头一条算",
+  "metaphorMeaningCn": "主要地、首要地",
+  "metaphorOptions": [
+   "主要地、首要地",
+   "出汗的小站",
+   "使失去能力的地方"
+  ],
+  "mnemonicNote": "principal(首要)+ly：拣头一条来说",
+  "sourceNote": "拉丁 principalis，princeps(为首者) + -ly"
+ },
+ "proceeding": {
+  "modernMeaningCn": "程序、诉讼",
+  "literalMeaningCn": "往下办这件事",
+  "metaphorMeaningCn": "程序、诉讼",
+  "metaphorOptions": [
+   "程序、诉讼",
+   "守着体操运动员过活",
+   "替承载操心"
+  ],
+  "mnemonicNote": "proceed(往下办)+ing：一步一步办下去",
+  "sourceNote": "拉丁 procedere，pro-(向前) + cedere(走)"
+ },
+ "productivity": {
+  "modernMeaningCn": "生产率、生产力",
+  "literalMeaningCn": "出活多少",
+  "metaphorMeaningCn": "生产率、生产力",
+  "metaphorOptions": [
+   "生产率、生产力",
+   "材料的来路",
+   "邮政的地方"
+  ],
+  "mnemonicNote": "productiv(出活多)+ity：一样时间出多少活",
+  "sourceNote": "拉丁 producere(引出) + -ive + -ity"
+ },
+ "profile": {
+  "modernMeaningCn": "侧面",
+  "literalMeaningCn": "勾出来的那道轮廓",
+  "metaphorMeaningCn": "侧面、简介",
+  "metaphorOptions": [
+   "侧面、简介",
+   "向着城市去",
+   "有能力的的过程"
+  ],
+  "mnemonicNote": "pro(向前)+file(线)：勾出来的那一道轮廓",
+  "sourceNote": "意大利 profilo，pro-(向前) + filo(线)"
+ },
+ "profound": {
+  "modernMeaningCn": "深刻的、深奥的",
+  "literalMeaningCn": "深到底下去",
+  "metaphorMeaningCn": "深刻的、深奥的",
+  "metaphorOptions": [
+   "深刻的、深奥的",
+   "离这样很远",
+   "替砍杀操心"
+  ],
+  "mnemonicNote": "pro(向前)+found(底)：深到见底那一步",
+  "sourceNote": "拉丁 profundus，pro-(向前) + fundus(底)"
+ },
+ "prohibition": {
+  "modernMeaningCn": "禁令",
+  "literalMeaningCn": "挡住不让做",
+  "metaphorMeaningCn": "禁令、禁酒",
+  "metaphorOptions": [
+   "禁令、禁酒",
+   "离使有力很远",
+   "替描绘操心"
+  ],
+  "mnemonicNote": "prohibit(挡住)+ion：立条规矩不许做",
+  "sourceNote": "拉丁 prohibitio，prohibere(阻止)"
+ },
+ "projecting": {
+  "modernMeaningCn": "突出的",
+  "literalMeaningCn": "往外探出去",
+  "metaphorMeaningCn": "突出的、伸出的",
+  "metaphorOptions": [
+   "突出的、伸出的",
+   "把土地翻开",
+   "自动的背面"
+  ],
+  "mnemonicNote": "pro(向前)+ject(扔)+ing：往外探出去那一块",
+  "sourceNote": "拉丁 proicere，pro-(向前) + iacere(扔)"
+ },
+ "projector": {
+  "modernMeaningCn": "投影仪、放映机",
+  "literalMeaningCn": "把影像投出去那台",
+  "metaphorMeaningCn": "投影仪、放映机",
+  "metaphorOptions": [
+   "投影仪、放映机",
+   "冻结的一角",
+   "围着行进转"
+  ],
+  "mnemonicNote": "project(投射)+or(物)：把画面扔到墙上那台",
+  "sourceNote": "拉丁 proicere(投出) + -or"
+ },
+ "promotion": {
+  "modernMeaningCn": "提升、促销",
+  "literalMeaningCn": "往前推这件事",
+  "metaphorMeaningCn": "提升、促销",
+  "metaphorOptions": [
+   "提升、促销",
+   "数着新奇过日子",
+   "围着保证转"
+  ],
+  "mnemonicNote": "promot(往前推)+ion：把人往上推一级",
+  "sourceNote": "拉丁 promotio，promovere(前推)"
+ },
+ "promptly": {
+  "modernMeaningCn": "迅速地、及时地",
+  "literalMeaningCn": "一点不耽误",
+  "metaphorMeaningCn": "迅速地、及时地",
+  "metaphorOptions": [
+   "迅速地、及时地",
+   "动态的的小站",
+   "常规的工具"
+  ],
+  "mnemonicNote": "prompt(即时)+ly：一点不耽误",
+  "sourceNote": "拉丁 promptus(准备好的) + -ly"
+ },
+ "propagation": {
+  "modernMeaningCn": "传播、繁殖",
+  "literalMeaningCn": "一代代铺开",
+  "metaphorMeaningCn": "传播、繁殖",
+  "metaphorOptions": [
+   "传播、繁殖",
+   "数着烘焙过日子",
+   "移动的的工具"
+  ],
+  "mnemonicNote": "propagat(繁衍)+ion：一代代往外铺开",
+  "sourceNote": "拉丁 propagatio，propagare(扦插、扩展)"
+ },
+ "propeller": {
+  "modernMeaningCn": "螺旋桨",
+  "literalMeaningCn": "推着船走那几片",
+  "metaphorMeaningCn": "螺旋桨、推进器",
+  "metaphorOptions": [
+   "螺旋桨、推进器",
+   "装备的旧事",
+   "森林的背面"
+  ],
+  "mnemonicNote": "propell(推进)+er(物)：推着船往前走那几片",
+  "sourceNote": "拉丁 propellere，pro-(向前) + pellere(推) + -er"
+ },
+ "proposition": {
+  "modernMeaningCn": "提议、命题",
+  "literalMeaningCn": "摆到面前的方案",
+  "metaphorMeaningCn": "提议、命题",
+  "metaphorOptions": [
+   "提议、命题",
+   "排外的的工具",
+   "把雪茄串起来"
+  ],
+  "mnemonicNote": "pro(向前)+position(摆)：摆到桌面上的那份方案",
+  "sourceNote": "拉丁 propositio，proponere(摆出)"
+ },
+ "propulsion": {
+  "modernMeaningCn": "推进",
+  "literalMeaningCn": "往前推这件事",
+  "metaphorMeaningCn": "推进、推进力",
+  "metaphorOptions": [
+   "推进、推进力",
+   "替附上操心",
+   "守着意志过活"
+  ],
+  "mnemonicNote": "pro(向前)+puls(推)+ion：往前推这件事",
+  "sourceNote": "拉丁 propulsio，propellere(向前推)"
+ },
+ "prospective": {
+  "modernMeaningCn": "潜在的、未来的",
+  "literalMeaningCn": "还在前头看着的",
+  "metaphorMeaningCn": "潜在的、未来的",
+  "metaphorOptions": [
+   "潜在的、未来的",
+   "替平等操心",
+   "离暴力的很远"
+  ],
+  "mnemonicNote": "prospect(前景)+ive：还在前头看着那一位",
+  "sourceNote": "拉丁 prospectivus，prospicere(向前看)"
+ },
+ "proverb": {
+  "modernMeaningCn": "谚语",
+  "literalMeaningCn": "传下来的老话",
+  "metaphorMeaningCn": "谚语、格言",
+  "metaphorOptions": [
+   "谚语、格言",
+   "娱乐的小站",
+   "守着秘密过活"
+  ],
+  "mnemonicNote": "pro(向前)+verb(话)：一辈辈传下来的老话",
+  "sourceNote": "拉丁 proverbium，pro-(向前) + verbum(话)"
+ },
+ "provoke": {
+  "modernMeaningCn": "激怒",
+  "literalMeaningCn": "嚷嚷着把人惹火",
+  "metaphorMeaningCn": "激怒、引起",
+  "metaphorOptions": [
+   "激怒、引起",
+   "排水沟的来路",
+   "较大的的地方"
+  ],
+  "mnemonicNote": "pro(向前)+voke(喊)：冲着人嚷嚷，把人惹火",
+  "sourceNote": "拉丁 provocare，pro-(向前) + vocare(喊)"
+ },
+ "publicity": {
+  "modernMeaningCn": "宣传、名声",
+  "literalMeaningCn": "让众人都知道",
+  "metaphorMeaningCn": "宣传、名声",
+  "metaphorOptions": [
+   "宣传、名声",
+   "把堆叠串起来",
+   "较高的的工具"
+  ],
+  "mnemonicNote": "public(公开)+ity：让满城都知道这件事",
+  "sourceNote": "拉丁 publicus(公众的) + -ity"
+ },
+ "pumpkin": {
+  "modernMeaningCn": "南瓜",
+  "literalMeaningCn": "鼓得圆圆那种瓜",
+  "metaphorMeaningCn": "南瓜",
+  "metaphorOptions": [
+   "南瓜",
+   "潮湿的的旧事",
+   "酿造酒的来路"
+  ],
+  "mnemonicNote": "pump(鼓)+kin(小)：鼓得圆溜溜那种瓜",
+  "sourceNote": "希腊 pepon(熟的瓜)，经法语 pompon"
+ },
+ "qualitative": {
+  "modernMeaningCn": "性质的",
+  "literalMeaningCn": "讲是什么样",
+  "metaphorMeaningCn": "定性的、性质的",
+  "metaphorOptions": [
+   "定性的、性质的",
+   "把在下串起来",
+   "客套语的工具"
+  ],
+  "mnemonicNote": "qualit(成色)+ative：讲的是成色如何",
+  "sourceNote": "拉丁 qualitas(性质) + -ative"
+ },
+ "quantitative": {
+  "modernMeaningCn": "数量的",
+  "literalMeaningCn": "讲有多少",
+  "metaphorMeaningCn": "定量的、数量的",
+  "metaphorOptions": [
+   "定量的、数量的",
+   "守着获胜过活",
+   "神经的小站"
+  ],
+  "mnemonicNote": "quantit(数目)+ative：讲的是有多有少",
+  "sourceNote": "拉丁 quantitas(数量) + -ative"
+ },
+ "questionable": {
+  "modernMeaningCn": "可疑的、有问题的",
+  "literalMeaningCn": "值得打个问号",
+  "metaphorMeaningCn": "可疑的、有问题的",
+  "metaphorOptions": [
+   "可疑的、有问题的",
+   "紧的的另一面",
+   "占优势的的味道"
+  ],
+  "mnemonicNote": "question(疑问)+able：这事得打个问号",
+  "sourceNote": "拉丁 quaestio(询问) + -able"
+ },
+ "radial": {
+  "modernMeaningCn": "径向的、放射状的",
+  "literalMeaningCn": "从中心往外放射",
+  "metaphorMeaningCn": "径向的、放射状的",
+  "metaphorOptions": [
+   "径向的、放射状的",
+   "离折叠很远",
+   "替完成操心"
+  ],
+  "mnemonicNote": "radi(辐射)+al：从中心往外散开",
+  "sourceNote": "拉丁 radius(光线、轮辐) + -al"
+ },
+ "radiator": {
+  "modernMeaningCn": "散热器、暖气",
+  "literalMeaningCn": "往外散热那件",
+  "metaphorMeaningCn": "散热器、暖气",
+  "metaphorOptions": [
+   "散热器、暖气",
+   "围着超出寻常转",
+   "租金的来路"
+  ],
+  "mnemonicNote": "radiat(散发)+or(物)：靠在墙边往外散热那件",
+  "sourceNote": "拉丁 radiare(发光、散热) + -or"
+ },
+ "rainforest": {
+  "modernMeaningCn": "雨林、热带雨林",
+  "literalMeaningCn": "天天下雨那片林子",
+  "metaphorMeaningCn": "雨林、热带雨林",
+  "metaphorOptions": [
+   "雨林、热带雨林",
+   "把电脑串起来",
+   "排列的工具"
+  ],
+  "mnemonicNote": "rain(雨)+forest(森林)：一年到头湿漉漉那片深林",
+  "sourceNote": "英语复合词，rain + forest"
+ },
+ "ramble": {
+  "modernMeaningCn": "漫步",
+  "literalMeaningCn": "东走走西看看",
+  "metaphorMeaningCn": "漫步、闲扯",
+  "metaphorOptions": [
+   "漫步、闲扯",
+   "替父亲操心",
+   "守着照亮过活"
+  ],
+  "mnemonicNote": "ramb(游荡)+le：没个准地方，东走走西看看",
+  "sourceNote": "中古英语 romen(游荡) + -le(反复)"
+ },
+ "rapidity": {
+  "modernMeaningCn": "迅速",
+  "literalMeaningCn": "快得那个程度",
+  "metaphorMeaningCn": "迅速、急速",
+  "metaphorOptions": [
+   "迅速、急速",
+   "辫子的另一面",
+   "疼痛的味道"
+  ],
+  "mnemonicNote": "rapid(急速)+ity：快成那样",
+  "sourceNote": "拉丁 rapiditas，rapidus(疾速)"
+ },
+ "reactor": {
+  "modernMeaningCn": "反应堆、反应器",
+  "literalMeaningCn": "起反应那套装置",
+  "metaphorMeaningCn": "反应堆、反应器",
+  "metaphorOptions": [
+   "反应堆、反应器",
+   "向着同伴去",
+   "围着情绪转"
+  ],
+  "mnemonicNote": "react(起反应)+or(物)：里头一直烧着那套装置",
+  "sourceNote": "中世纪拉丁 reagere(反应) + -or"
+ },
+ "realistic": {
+  "modernMeaningCn": "现实的",
+  "literalMeaningCn": "照着实情来的",
+  "metaphorMeaningCn": "现实的、写实的",
+  "metaphorOptions": [
+   "现实的、写实的",
+   "羊毛的另一面",
+   "生活的味道"
+  ],
+  "mnemonicNote": "real(真实)+ist+ic：照着实情描摹那一路",
+  "sourceNote": "晚期拉丁 realis(真实的) + -istic"
+ },
+ "realization": {
+  "modernMeaningCn": "实现",
+  "literalMeaningCn": "把设想落成真",
+  "metaphorMeaningCn": "实现、领悟",
+  "metaphorOptions": [
+   "实现、领悟",
+   "位于的过程",
+   "向着伙伴去"
+  ],
+  "mnemonicNote": "realiz(落成真)+ation：把纸上的设想落地",
+  "sourceNote": "中世纪拉丁 realis(真实的) + -ization"
+ },
+ "reassure": {
+  "modernMeaningCn": "使安心",
+  "literalMeaningCn": "再给人打个保票",
+  "metaphorMeaningCn": "使安心、打消疑虑",
+  "metaphorOptions": [
+   "使安心、打消疑虑",
+   "数着舒服过日子",
+   "柠檬的工具"
+  ],
+  "mnemonicNote": "re(再)+assure(保证)：再打个保票让人放心",
+  "sourceNote": "re-(再) + 拉丁 ad-(朝向) + securus(无忧)"
+ },
+ "rebuke": {
+  "modernMeaningCn": "斥责、指责",
+  "literalMeaningCn": "一记狠话砍过去",
+  "metaphorMeaningCn": "斥责、指责",
+  "metaphorOptions": [
+   "斥责、指责",
+   "离乐意的很远",
+   "单一的过程"
+  ],
+  "mnemonicNote": "re(回)+buke(砍)：一记狠话正面砍过去",
+  "sourceNote": "盎格鲁法语 rebuker，re-(回) + buchier(砍)"
+ },
+ "recession": {
+  "modernMeaningCn": "衰退、后退",
+  "literalMeaningCn": "往后缩那一段",
+  "metaphorMeaningCn": "衰退、后退",
+  "metaphorOptions": [
+   "衰退、后退",
+   "被中国的东西",
+   "离打动很远"
+  ],
+  "mnemonicNote": "recess(往后退)+ion：水位退下去那一段",
+  "sourceNote": "拉丁 recessio，recedere(后退)"
+ },
+ "reckless": {
+  "modernMeaningCn": "鲁莽的、不顾后果的",
+  "literalMeaningCn": "什么都不顾忌",
+  "metaphorMeaningCn": "鲁莽的、不顾后果的",
+  "metaphorOptions": [
+   "鲁莽的、不顾后果的",
+   "熄灭的的小站",
+   "守着蜂蜜过活"
+  ],
+  "mnemonicNote": "reck(在意)+less(无)：什么都不放在眼里",
+  "sourceNote": "古英语 recceleas，reccan(在意) + -leas(无)"
+ },
+ "reclaim": {
+  "modernMeaningCn": "开垦",
+  "literalMeaningCn": "喊回来归自己",
+  "metaphorMeaningCn": "开垦、回收",
+  "metaphorOptions": [
+   "开垦、回收",
+   "明显的的味道",
+   "变动的另一面"
+  ],
+  "mnemonicNote": "re(回)+claim(喊)：把地喊回来归自己用",
+  "sourceNote": "古法语 reclamer，re-(回) + clamer(喊)"
+ },
+ "recruitment": {
+  "modernMeaningCn": "招募、招收",
+  "literalMeaningCn": "把人收进来",
+  "metaphorMeaningCn": "招募、招收",
+  "metaphorOptions": [
+   "招募、招收",
+   "佛陀的影子",
+   "起诉的人"
+  ],
+  "mnemonicNote": "recruit(招人)+ment：把人一批批收进来",
+  "sourceNote": "法语 recruter，recrue(新兵)"
+ },
+ "refinery": {
+  "modernMeaningCn": "炼油厂、精炼厂",
+  "literalMeaningCn": "提纯那处厂子",
+  "metaphorMeaningCn": "炼油厂、精炼厂",
+  "metaphorOptions": [
+   "炼油厂、精炼厂",
+   "周围的背面",
+   "把看守翻开"
+  ],
+  "mnemonicNote": "refine(提纯)+ry(场所)：把原油提纯那处厂子",
+  "sourceNote": "法语 raffiner(精炼) + -ery(场所)"
+ },
+ "refrain": {
+  "modernMeaningCn": "副歌、克制",
+  "literalMeaningCn": "反复回来的那几句",
+  "metaphorMeaningCn": "副歌、克制",
+  "metaphorOptions": [
+   "副歌、克制",
+   "离组织很远",
+   "替村庄操心"
+  ],
+  "mnemonicNote": "re(回)+frain(勒住)：一遍遍回来那几句，也指按捺住",
+  "sourceNote": "古法语 refraindre，re-(回) + fraindre(勒住)"
+ },
+ "refugee": {
+  "modernMeaningCn": "难民",
+  "literalMeaningCn": "躲难在外的人",
+  "metaphorMeaningCn": "难民、避难者",
+  "metaphorOptions": [
+   "难民、避难者",
+   "全部的一角",
+   "一种宫廷的习俗"
+  ],
+  "mnemonicNote": "refuge(避难)+e(人)：背井离乡躲难那位",
+  "sourceNote": "法语 réfugié，refuge(避难所)"
+ },
+ "regenerate": {
+  "modernMeaningCn": "使再生",
+  "literalMeaningCn": "重新长出来",
+  "metaphorMeaningCn": "使再生、使复兴",
+  "metaphorOptions": [
+   "使再生、使复兴",
+   "工作的来路",
+   "使吃惊的地方"
+  ],
+  "mnemonicNote": "re(再)+generate(产生)：断了的重新长出来",
+  "sourceNote": "拉丁 regenerare，re-(再) + generare(产生)"
+ },
+ "regularity": {
+  "modernMeaningCn": "规律性、整齐",
+  "literalMeaningCn": "按着准头来",
+  "metaphorMeaningCn": "规律性、整齐",
+  "metaphorOptions": [
+   "规律性、整齐",
+   "数着眼睛过日子",
+   "流行的工具"
+  ],
+  "mnemonicNote": "regular(按准头)+ity：年年按着点来",
+  "sourceNote": "晚期拉丁 regularitas，regula(尺规)"
+ },
+ "reimburse": {
+  "modernMeaningCn": "补偿、报销",
+  "literalMeaningCn": "把钱退回袋里",
+  "metaphorMeaningCn": "补偿、报销",
+  "metaphorOptions": [
+   "补偿、报销",
+   "二十的小站",
+   "守着外国的过活"
+  ],
+  "mnemonicNote": "re(回)+imburse(入袋)：把钱退回人袋里",
+  "sourceNote": "re-(回) + 古法语 bourse(钱袋)"
+ },
+ "rejection": {
+  "modernMeaningCn": "拒绝",
+  "literalMeaningCn": "推回去这件事",
+  "metaphorMeaningCn": "拒绝、退回",
+  "metaphorOptions": [
+   "拒绝、退回",
+   "被经验主义者的东西",
+   "生命的味道"
+  ],
+  "mnemonicNote": "reject(退回)+ion：原样推回去这件事",
+  "sourceNote": "拉丁 reiectio，reicere(扔回)"
+ },
+ "remainder": {
+  "modernMeaningCn": "剩余物、余数",
+  "literalMeaningCn": "挑剩下的那点",
+  "metaphorMeaningCn": "剩余物、余数",
+  "metaphorOptions": [
+   "剩余物、余数",
+   "大量的的小站",
+   "顺序的工具"
+  ],
+  "mnemonicNote": "remain(剩下)+der：挑完了剩下来那一点",
+  "sourceNote": "古法语 remaindre(留下) + -er"
+ },
+ "renovation": {
+  "modernMeaningCn": "翻新、整修",
+  "literalMeaningCn": "旧翻成新",
+  "metaphorMeaningCn": "翻新、整修",
+  "metaphorOptions": [
+   "翻新、整修",
+   "用正餐的一角",
+   "一种绊倒的习俗"
+  ],
+  "mnemonicNote": "renovat(更新)+ion：把旧的翻成新的",
+  "sourceNote": "拉丁 renovatio，renovare(更新)"
+ },
+ "repay": {
+  "modernMeaningCn": "偿还",
+  "literalMeaningCn": "把钱付回去",
+  "metaphorMeaningCn": "偿还、报答",
+  "metaphorOptions": [
+   "偿还、报答",
+   "观念的人",
+   "平锅的影子"
+  ],
+  "mnemonicNote": "re(回)+pay(付)：欠的钱付回去",
+  "sourceNote": "古法语 repayer，re-(回) + payer(支付)"
+ },
+ "replacement": {
+  "modernMeaningCn": "替换、替代品",
+  "literalMeaningCn": "顶上那个位子",
+  "metaphorMeaningCn": "替换、替代品",
+  "metaphorOptions": [
+   "替换、替代品",
+   "音乐的一角",
+   "序言的另一面"
+  ],
+  "mnemonicNote": "replace(顶上)+ment：顶了原来那个位子",
+  "sourceNote": "re-(回) + place(位置) + -ment"
+ },
+ "representation": {
+  "modernMeaningCn": "表示、代表",
+  "literalMeaningCn": "替着说话这件事",
+  "metaphorMeaningCn": "表示、代表",
+  "metaphorOptions": [
+   "表示、代表",
+   "守着试图过活",
+   "称量的小站"
+  ],
+  "mnemonicNote": "represent(代表)+ation：替着说话这件事",
+  "sourceNote": "拉丁 repraesentare，re-(再) + praesens(在场)"
+ },
+ "reproduction": {
+  "modernMeaningCn": "繁殖、复制",
+  "literalMeaningCn": "再生产出来",
+  "metaphorMeaningCn": "繁殖、复制",
+  "metaphorOptions": [
+   "繁殖、复制",
+   "护士的小站",
+   "守着缪斯过活"
+  ],
+  "mnemonicNote": "re(再)+production(生产)：再生产出一批来",
+  "sourceNote": "re-(再) + 拉丁 producere(引出) + -ion"
+ },
+ "reptile": {
+  "modernMeaningCn": "爬行动物",
+  "literalMeaningCn": "肚皮贴地爬的",
+  "metaphorMeaningCn": "爬行动物、爬虫",
+  "metaphorOptions": [
+   "爬行动物、爬虫",
+   "掌舵的地方",
+   "出汗的来路"
+  ],
+  "mnemonicNote": "rep(爬)+tile(物)：肚皮贴着地往前爬那类",
+  "sourceNote": "拉丁 reptilis，repere(爬行)"
+ },
+ "resemblance": {
+  "modernMeaningCn": "相似、相似之处",
+  "literalMeaningCn": "长得像这件事",
+  "metaphorMeaningCn": "相似、相似之处",
+  "metaphorOptions": [
+   "相似、相似之处",
+   "小心的来路",
+   "表演的旧事"
+  ],
+  "mnemonicNote": "resembl(像)+ance：眉眼长得像这件事",
+  "sourceNote": "古法语 resembler，re-(再) + sembler(像)"
+ },
+ "resent": {
+  "modernMeaningCn": "愤恨",
+  "literalMeaningCn": "一遍遍回味那口气",
+  "metaphorMeaningCn": "怨恨、不满",
+  "metaphorOptions": [
+   "怨恨、不满",
+   "守着收集过活",
+   "使同化的小站"
+  ],
+  "mnemonicNote": "re(再)+sent(感觉)：那口气在心里过了又过",
+  "sourceNote": "法语 ressentir，re-(再) + sentir(感觉)"
+ },
+ "resentment": {
+  "modernMeaningCn": "怨恨",
+  "literalMeaningCn": "憋着的那口气",
+  "metaphorMeaningCn": "怨恨、愤懑",
+  "metaphorOptions": [
+   "怨恨、愤懑",
+   "布告的过程",
+   "离器官很远"
+  ],
+  "mnemonicNote": "resent(窝着气)+ment：窝在心里那股气",
+  "sourceNote": "法语 ressentiment，ressentir(感受)"
+ },
+ "residential": {
+  "modernMeaningCn": "住宅的",
+  "literalMeaningCn": "住人那一片的",
+  "metaphorMeaningCn": "住宅的、居住的",
+  "metaphorOptions": [
+   "住宅的、居住的",
+   "插入的背面",
+   "外部的的旧事"
+  ],
+  "mnemonicNote": "resident(住户)+ial：住人那一片的",
+  "sourceNote": "拉丁 residere(留住) + -ial"
+ },
+ "respectable": {
+  "modernMeaningCn": "值得尊重的",
+  "literalMeaningCn": "站得住台面",
+  "metaphorMeaningCn": "体面的、值得尊重的",
+  "metaphorOptions": [
+   "体面的、值得尊重的",
+   "打开的味道",
+   "被特征的东西"
+  ],
+  "mnemonicNote": "respect(敬重)+able：站得住台面那一位",
+  "sourceNote": "拉丁 respectus(敬重) + -able"
+ }
 }

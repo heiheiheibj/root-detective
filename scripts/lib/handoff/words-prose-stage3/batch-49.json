@@ -1,99 +1,99 @@
 {
-  "_comment": "二轮复核新入词表的 8 词（此前一直被 A6/A18 拦在门外，词素表修正后通过 21 号）。按 9.3 契约补全。",
-  "lemonade": {
-    "modernMeaningCn": "柠檬水",
-    "literalMeaningCn": "柠檬做的饮料",
-    "metaphorMeaningCn": "柠檬风味的甜饮料",
-    "metaphorOptions": [
-      "柠檬风味的甜饮料",
-      "文书的小站",
-      "围着迁移转"
-    ],
-    "mnemonicNote": "lemon(柠檬)+ade(饮料)：柠檬挤进水里那种饮料",
-    "sourceNote": "法语 limonade，lemon(柠檬) + -ade(饮料)"
-  },
-  "somewhere": {
-    "modernMeaningCn": "在某处",
-    "literalMeaningCn": "落在某个地方",
-    "metaphorMeaningCn": "在某个说不清的地方",
-    "metaphorOptions": [
-      "在某个说不清的地方",
-      "把宽的翻开",
-      "数着存在过日子"
-    ],
-    "mnemonicNote": "some(某个)+where(何处)：落到某个说不清的角落",
-    "sourceNote": "古英语 sum hwær，some(某个) + where(何处)"
-  },
-  "panic": {
-    "modernMeaningCn": "惊慌、恐慌",
-    "literalMeaningCn": "潘神现身的惊慌",
-    "metaphorMeaningCn": "像潘神突现那样惊慌失措",
-    "metaphorOptions": [
-      "像潘神突现那样惊慌失措",
-      "相信的一角",
-      "守着天平过活"
-    ],
-    "mnemonicNote": "Pan(潘神)+ic：潘神一现身，牲口全都吓炸了",
-    "sourceNote": "希腊 Pan(潘神，牧神) + -ic；潘神怒吼引起无端惊恐"
-  },
-  "wherever": {
-    "modernMeaningCn": "无论何处",
-    "literalMeaningCn": "何处都算上",
-    "metaphorMeaningCn": "不管走到哪个角落",
-    "metaphorOptions": [
-      "不管走到哪个角落",
-      "守着称量过活",
-      "数着园圈过日子"
-    ],
-    "mnemonicNote": "where(何处)+ever(无论)：何处都算，一个不落",
-    "sourceNote": "where(何处) + ever(无论)，古英语复合"
-  },
-  "immigrate": {
-    "modernMeaningCn": "移居入境",
-    "literalMeaningCn": "迁进来",
-    "metaphorMeaningCn": "跨进国门定居下来",
-    "metaphorOptions": [
-      "跨进国门定居下来",
-      "把安静串起来",
-      "守着使人聚居过活"
-    ],
-    "mnemonicNote": "im(进入)+migr(迁移)：越过边界迁进来",
-    "sourceNote": "拉丁 immigrare，im-(进入，in- 同化) + migrare(迁移)"
-  },
-  "whereas": {
-    "modernMeaningCn": "然而、鉴于",
-    "literalMeaningCn": "拿那边来比对",
-    "metaphorMeaningCn": "然而两边一比对就不同",
-    "metaphorOptions": [
-      "然而两边一比对就不同",
-      "数着称量过日子",
-      "主教的座位的旧事"
-    ],
-    "mnemonicNote": "where(何处)+as(正如)：拿那边的情况来比对——然而",
-    "sourceNote": "中古英语 where as，where(何处) + as(正如)"
-  },
-  "widely": {
-    "modernMeaningCn": "广泛地",
-    "literalMeaningCn": "摊得很宽地",
-    "metaphorMeaningCn": "到处都是、铺得很开",
-    "metaphorOptions": [
-      "到处都是、铺得很开",
-      "伙伴的来路",
-      "守着迁移过活"
-    ],
-    "mnemonicNote": "wide(宽的)+ly：摊得宽宽地铺开",
-    "sourceNote": "古英语 wid(宽) + -lice(…地)"
-  },
-  "whereby": {
-    "modernMeaningCn": "凭借、由此",
-    "literalMeaningCn": "凭那个东西",
-    "metaphorMeaningCn": "靠着那一个办法",
-    "metaphorOptions": [
-      "靠着那一个办法",
-      "把安静串起来",
-      "组成的过程"
-    ],
-    "mnemonicNote": "where(何处)+by(凭借)：靠哪一招——凭那个",
-    "sourceNote": "中古英语 whereby，where(何处) + by(凭借)"
-  }
+ "_comment": "二轮复核新入词表的 8 词（此前一直被 A6/A18 拦在门外，词素表修正后通过 21 号）。按 9.3 契约补全。",
+ "lemonade": {
+  "modernMeaningCn": "柠檬水",
+  "literalMeaningCn": "柠檬做的饮料",
+  "metaphorMeaningCn": "柠檬风味的甜饮料",
+  "metaphorOptions": [
+   "柠檬风味的甜饮料",
+   "来源的过程",
+   "离正在很远"
+  ],
+  "mnemonicNote": "lemon(柠檬)+ade(饮料)：柠檬挤进水里那种饮料",
+  "sourceNote": "法语 limonade，lemon(柠檬) + -ade(饮料)"
+ },
+ "somewhere": {
+  "modernMeaningCn": "在某处",
+  "literalMeaningCn": "落在某个地方",
+  "metaphorMeaningCn": "在某个说不清的地方",
+  "metaphorOptions": [
+   "在某个说不清的地方",
+   "数着学校过日子",
+   "围着魔力转"
+  ],
+  "mnemonicNote": "some(某个)+where(何处)：落到某个说不清的角落",
+  "sourceNote": "古英语 sum hwær，some(某个) + where(何处)"
+ },
+ "panic": {
+  "modernMeaningCn": "惊慌、恐慌",
+  "literalMeaningCn": "潘神现身的惊慌",
+  "metaphorMeaningCn": "像潘神突现那样惊慌失措",
+  "metaphorOptions": [
+   "像潘神突现那样惊慌失措",
+   "主体的背面",
+   "被凡人的东西"
+  ],
+  "mnemonicNote": "Pan(潘神)+ic：潘神一现身，牲口全都吓炸了",
+  "sourceNote": "希腊 Pan(潘神，牧神) + -ic；潘神怒吼引起无端惊恐"
+ },
+ "wherever": {
+  "modernMeaningCn": "无论何处",
+  "literalMeaningCn": "何处都算上",
+  "metaphorMeaningCn": "不管走到哪个角落",
+  "metaphorOptions": [
+   "不管走到哪个角落",
+   "汉堡德国城市的小站",
+   "守着交替的过活"
+  ],
+  "mnemonicNote": "where(何处)+ever(无论)：何处都算，一个不落",
+  "sourceNote": "where(何处) + ever(无论)，古英语复合"
+ },
+ "immigrate": {
+  "modernMeaningCn": "移居入境",
+  "literalMeaningCn": "迁进来",
+  "metaphorMeaningCn": "跨进国门定居下来",
+  "metaphorOptions": [
+   "跨进国门定居下来",
+   "寻求的旧事",
+   "向着哪一个去"
+  ],
+  "mnemonicNote": "im(进入)+migr(迁移)：越过边界迁进来",
+  "sourceNote": "拉丁 immigrare，im-(进入，in- 同化) + migrare(迁移)"
+ },
+ "whereas": {
+  "modernMeaningCn": "然而、鉴于",
+  "literalMeaningCn": "拿那边来比对",
+  "metaphorMeaningCn": "然而两边一比对就不同",
+  "metaphorOptions": [
+   "然而两边一比对就不同",
+   "基础的背面",
+   "被递送的东西"
+  ],
+  "mnemonicNote": "where(何处)+as(正如)：拿那边的情况来比对——然而",
+  "sourceNote": "中古英语 where as，where(何处) + as(正如)"
+ },
+ "widely": {
+  "modernMeaningCn": "广泛地",
+  "literalMeaningCn": "摊得很宽地",
+  "metaphorMeaningCn": "到处都是、铺得很开",
+  "metaphorOptions": [
+   "到处都是、铺得很开",
+   "不寻常的的影子",
+   "冲动的人"
+  ],
+  "mnemonicNote": "wide(宽的)+ly：摊得宽宽地铺开",
+  "sourceNote": "古英语 wid(宽) + -lice(…地)"
+ },
+ "whereby": {
+  "modernMeaningCn": "凭借、由此",
+  "literalMeaningCn": "凭那个东西",
+  "metaphorMeaningCn": "靠着那一个办法",
+  "metaphorOptions": [
+   "靠着那一个办法",
+   "后来的的人",
+   "一种事物的习俗"
+  ],
+  "mnemonicNote": "where(何处)+by(凭借)：靠哪一招——凭那个",
+  "sourceNote": "中古英语 whereby，where(何处) + by(凭借)"
+ }
 }

@@ -1,82 +1,122 @@
 {
-  "collect": {
-    "modernMeaningCn": "收集、聚集",
-    "literalMeaningCn": "汇到一处",
-    "metaphorMeaningCn": "把散落的东西拢到一起",
-    "metaphorOptions": ["把散落的东西拢到一起", "装蜜蜂的箱子", "数二十个硬币"],
-    "mnemonicNote": "col(共同)+lect(收集)：把散落的东西拢到一处",
-    "sourceNote": "拉丁 colligere，con-(共同) + legere(收集)"
-  },
-  "select": {
-    "modernMeaningCn": "挑选、选择",
-    "literalMeaningCn": "分开来选",
-    "metaphorMeaningCn": "从一堆里挑出想要的",
-    "metaphorOptions": ["从一堆里挑出想要的", "挑出带伤的柠檬", "数着二十个硬币"],
-    "mnemonicNote": "se(分开)+lect(选)：从一堆里挑出来",
-    "sourceNote": "拉丁 seligere，se-(分开) + legere(选)"
-  },
-  "dialect": {
-    "modernMeaningCn": "方言、土语",
-    "literalMeaningCn": "一方人说的话",
-    "metaphorMeaningCn": "一个地方独有的讲法",
-    "metaphorOptions": ["一个地方独有的讲法", "读黑板上的文字", "分给同伴的一块"],
-    "mnemonicNote": "dia(之间)+lect(说)：一地人之间说的话",
-    "sourceNote": "希腊 dialektos，dia-(之间) + legein(说)"
-  },
-  "newly": {
-    "modernMeaningCn": "最近、新近",
-    "literalMeaningCn": "新近地",
-    "metaphorMeaningCn": "刚刚才发生没多久",
-    "metaphorOptions": ["刚刚才发生没多久", "换上新外套", "擦亮旧椅子"],
-    "mnemonicNote": "new(新的)+ly：以新的方式，就在最近",
-    "sourceNote": "new（新的）+ -ly（副词后缀）"
-  },
-  "compare": {
-    "modernMeaningCn": "比较、对照",
-    "literalMeaningCn": "并排看高下",
-    "metaphorMeaningCn": "把两样东西摆在一起比",
-    "metaphorOptions": ["把两样东西摆在一起比", "量二十个箱子", "称稻草的重量"],
-    "mnemonicNote": "com(共同)+par(相等)：并排看，比出高下",
-    "sourceNote": "拉丁 comparare，com-(共同) + par(相等)"
-  },
-  "prepare": {
-    "modernMeaningCn": "准备、预备",
-    "literalMeaningCn": "事先弄好",
-    "metaphorMeaningCn": "出门前先把东西备齐",
-    "metaphorOptions": ["出门前先把东西备齐", "把外套叠好", "煮厨房的面包"],
-    "mnemonicNote": "pre(预先)+par(准备)：事先把东西弄好",
-    "sourceNote": "拉丁 praeparare，prae-(预先) + parare(准备)"
-  },
-  "connect": {
-    "modernMeaningCn": "连接、联结",
-    "literalMeaningCn": "绑到一起",
-    "metaphorMeaningCn": "把两段绳接成一根",
-    "metaphorOptions": ["把两段绳接成一根", "拴着牙齿的绳", "接上城市的线"],
-    "mnemonicNote": "con(共同)+nect(连接)：把两端系到一起",
-    "sourceNote": "拉丁 connectere，con-(共同) + nectere(连接)"
-  },
-  "renew": {
-    "modernMeaningCn": "更新、续订",
-    "literalMeaningCn": "再变新",
-    "metaphorMeaningCn": "给旧东西换上新样",
-    "metaphorOptions": ["给旧东西换上新样", "换上新外套", "擦亮旧椅子"],
-    "mnemonicNote": "re(再)+new(新的)：让旧东西再变新",
-    "sourceNote": "古英语 niwe（新的）+ re-(再)"
-  },
-  "election": {
-    "modernMeaningCn": "选举、当选",
-    "literalMeaningCn": "选出来",
-    "metaphorMeaningCn": "大家投票把人选出来",
-    "metaphorOptions": ["大家投票把人选出来", "数二十张票", "选城市里的人"],
-    "mnemonicNote": "e(出)+lect(选)+ion：把人选出来",
-    "sourceNote": "拉丁 electio，e-(出) + legere(选)"
-  },
-  "lecture": {
-    "modernMeaningCn": "讲座、讲课",
-    "literalMeaningCn": "读而讲",
-    "metaphorMeaningCn": "站在台上照着讲",
-    "metaphorOptions": ["站在台上照着讲", "读黑板文字", "讲厨房的菜"],
-    "mnemonicNote": "lect(读)+ure：照着文本念讲一场",
-    "sourceNote": "拉丁 lectura，legere(读)"
-  }
+ "collect": {
+  "modernMeaningCn": "收集、聚集",
+  "literalMeaningCn": "汇到一处",
+  "metaphorMeaningCn": "把散落的东西拢到一起",
+  "metaphorOptions": [
+   "把散落的东西拢到一起",
+   "向着公平去",
+   "围着敏感的转"
+  ],
+  "mnemonicNote": "col(共同)+lect(收集)：把散落的东西拢到一处",
+  "sourceNote": "拉丁 colligere，con-(共同) + legere(收集)"
+ },
+ "select": {
+  "modernMeaningCn": "挑选、选择",
+  "literalMeaningCn": "分开来选",
+  "metaphorMeaningCn": "从一堆里挑出想要的",
+  "metaphorOptions": [
+   "从一堆里挑出想要的",
+   "把妨碍串起来",
+   "把命令翻开"
+  ],
+  "mnemonicNote": "se(分开)+lect(选)：从一堆里挑出来",
+  "sourceNote": "拉丁 seligere，se-(分开) + legere(选)"
+ },
+ "dialect": {
+  "modernMeaningCn": "方言、土语",
+  "literalMeaningCn": "一方人说的话",
+  "metaphorMeaningCn": "一个地方独有的讲法",
+  "metaphorOptions": [
+   "一个地方独有的讲法",
+   "守着造反过活",
+   "有效率的的另一面"
+  ],
+  "mnemonicNote": "dia(之间)+lect(说)：一地人之间说的话",
+  "sourceNote": "希腊 dialektos，dia-(之间) + legein(说)"
+ },
+ "newly": {
+  "modernMeaningCn": "最近、新近",
+  "literalMeaningCn": "新近地",
+  "metaphorMeaningCn": "刚刚才发生没多久",
+  "metaphorOptions": [
+   "刚刚才发生没多久",
+   "监护人的工具",
+   "数着疤痕过日子"
+  ],
+  "mnemonicNote": "new(新的)+ly：以新的方式，就在最近",
+  "sourceNote": "new（新的）+ -ly（副词后缀）"
+ },
+ "compare": {
+  "modernMeaningCn": "比较、对照",
+  "literalMeaningCn": "并排看高下",
+  "metaphorMeaningCn": "把两样东西摆在一起比",
+  "metaphorOptions": [
+   "把两样东西摆在一起比",
+   "原因的味道",
+   "忍耐的另一面"
+  ],
+  "mnemonicNote": "com(共同)+par(相等)：并排看，比出高下",
+  "sourceNote": "拉丁 comparare，com-(共同) + par(相等)"
+ },
+ "prepare": {
+  "modernMeaningCn": "准备、预备",
+  "literalMeaningCn": "事先弄好",
+  "metaphorMeaningCn": "出门前先把东西备齐",
+  "metaphorOptions": [
+   "出门前先把东西备齐",
+   "离母牛很远",
+   "替写的人操心"
+  ],
+  "mnemonicNote": "pre(预先)+par(准备)：事先把东西弄好",
+  "sourceNote": "拉丁 praeparare，prae-(预先) + parare(准备)"
+ },
+ "connect": {
+  "modernMeaningCn": "连接、联结",
+  "literalMeaningCn": "绑到一起",
+  "metaphorMeaningCn": "把两段绳接成一根",
+  "metaphorOptions": [
+   "把两段绳接成一根",
+   "使膨胀的影子",
+   "漂积海草的人"
+  ],
+  "mnemonicNote": "con(共同)+nect(连接)：把两端系到一起",
+  "sourceNote": "拉丁 connectere，con-(共同) + nectere(连接)"
+ },
+ "renew": {
+  "modernMeaningCn": "更新、续订",
+  "literalMeaningCn": "再变新",
+  "metaphorMeaningCn": "给旧东西换上新样",
+  "metaphorOptions": [
+   "给旧东西换上新样",
+   "排水沟的背面",
+   "被解开的东西"
+  ],
+  "mnemonicNote": "re(再)+new(新的)：让旧东西再变新",
+  "sourceNote": "古英语 niwe（新的）+ re-(再)"
+ },
+ "election": {
+  "modernMeaningCn": "选举、当选",
+  "literalMeaningCn": "选出来",
+  "metaphorMeaningCn": "大家投票把人选出来",
+  "metaphorOptions": [
+   "大家投票把人选出来",
+   "围着表面转",
+   "向着构成去"
+  ],
+  "mnemonicNote": "e(出)+lect(选)+ion：把人选出来",
+  "sourceNote": "拉丁 electio，e-(出) + legere(选)"
+ },
+ "lecture": {
+  "modernMeaningCn": "讲座、讲课",
+  "literalMeaningCn": "读而讲",
+  "metaphorMeaningCn": "站在台上照着讲",
+  "metaphorOptions": [
+   "站在台上照着讲",
+   "教堂的影子",
+   "病人不舒服的人"
+  ],
+  "mnemonicNote": "lect(读)+ure：照着文本念讲一场",
+  "sourceNote": "拉丁 lectura，legere(读)"
+ }
 }

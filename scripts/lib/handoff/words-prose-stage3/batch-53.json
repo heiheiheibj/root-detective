@@ -1,291 +1,291 @@
 {
-  "_comment": "Group C（合法变体：ence+nce / ent+nt / ary+ry / fac+face / al+l / ven+vene / ob+o / itude+tude）+ Group D（重切/整词）共 24 词。",
-  "surface": {
-    "modernMeaningCn": "表面；面",
-    "literalMeaningCn": "上面那一层",
-    "metaphorMeaningCn": "物体的外面一层",
-    "metaphorOptions": [
-      "物体的外面一层",
-      "把迁移串起来",
-      "围着悬挂转"
-    ],
-    "mnemonicNote": "sur(在上)+face(面)：露在外面的那一层",
-    "sourceNote": "法语 surface，sur- + face"
-  },
-  "interface": {
-    "modernMeaningCn": "界面；接口",
-    "literalMeaningCn": "两者相交的面",
-    "metaphorMeaningCn": "两个东西接上的那一层",
-    "metaphorOptions": [
-      "两个东西接上的那一层",
-      "守着声音过活",
-      "守着忧愁的过活"
-    ],
-    "mnemonicNote": "inter(之间)+face(面)：两个系统相碰的那一层",
-    "sourceNote": "inter- + face"
-  },
-  "preface": {
-    "modernMeaningCn": "序言；开场白",
-    "literalMeaningCn": "正文前面那段",
-    "metaphorMeaningCn": "书前面的一段话",
-    "metaphorOptions": [
-      "书前面的一段话",
-      "把生命串起来",
-      "围着相信转"
-    ],
-    "mnemonicNote": "pre(前)+face：正文前面那段话（词源是「先说」，不属 fac）",
-    "sourceNote": "拉丁 praefatio，prae-（前）+ fari（说）"
-  },
-  "ideal": {
-    "modernMeaningCn": "理想；典范",
-    "literalMeaningCn": "念头里的样子",
-    "metaphorMeaningCn": "最合心意的那个样子",
-    "metaphorOptions": [
-      "最合心意的那个样子",
-      "守着出生过活",
-      "守着可避免的过活"
-    ],
-    "mnemonicNote": "idea(主意)+l：心里那个最好的样子",
-    "sourceNote": "拉丁 idealis，idea(观念)"
-  },
-  "intervene": {
-    "modernMeaningCn": "介入；干涉",
-    "literalMeaningCn": "走到中间去",
-    "metaphorMeaningCn": "插进来管一管",
-    "metaphorOptions": [
-      "插进来管一管",
-      "神经的背面",
-      "把偶然串起来"
-    ],
-    "mnemonicNote": "inter(之间)+vene(来)：走到两边中间来",
-    "sourceNote": "拉丁 intervenire，inter- + venire(来)"
-  },
-  "omit": {
-    "modernMeaningCn": "省略；遗漏",
-    "literalMeaningCn": "送走了没放进去",
-    "metaphorMeaningCn": "漏掉、不写进去",
-    "metaphorOptions": [
-      "漏掉、不写进去",
-      "守着流过活",
-      "严格的旧事"
-    ],
-    "mnemonicNote": "ob(相对)+mitt(送，mit 的变体)：把它送走，没放进来",
-    "sourceNote": "拉丁 omittere，ob- + mittere(送)"
-  },
-  "multitude": {
-    "modernMeaningCn": "多数；群众",
-    "literalMeaningCn": "多到那个程度",
-    "metaphorMeaningCn": "一大群、数量很多",
-    "metaphorOptions": [
-      "一大群、数量很多",
-      "守着位于之下过活",
-      "围着房间转"
-    ],
-    "mnemonicNote": "multi(多)+tude(程度)：多到那个份上",
-    "sourceNote": "拉丁 multitudo，multus(多)"
-  },
-  "intermediate": {
-    "modernMeaningCn": "中间的；中级的",
-    "literalMeaningCn": "夹在中间的",
-    "metaphorMeaningCn": "不上不下、中间一档",
-    "metaphorOptions": [
-      "不上不下、中间一档",
-      "守着火过活",
-      "离遮盖很远"
-    ],
-    "mnemonicNote": "inter(之间)+medi(中间)+ate：夹在两头中间",
-    "sourceNote": "拉丁 intermedius，inter- + medius(中间)"
-  },
-  "coincidence": {
-    "modernMeaningCn": "巧合；一致",
-    "literalMeaningCn": "一起落到一处",
-    "metaphorMeaningCn": "碰巧撞上了",
-    "metaphorOptions": [
-      "碰巧撞上了",
-      "射线的来路",
-      "围着平锅转"
-    ],
-    "mnemonicNote": "coincide(同时发生)+nce(状态)：两件事一起落到了一处",
-    "sourceNote": "co- + incidere(落下)"
-  },
-  "confidence": {
-    "modernMeaningCn": "信心；信任",
-    "literalMeaningCn": "信得过的状态",
-    "metaphorMeaningCn": "心里有底、信得过",
-    "metaphorOptions": [
-      "心里有底、信得过",
-      "守着雨过活",
-      "向着瀑布去"
-    ],
-    "mnemonicNote": "confide(信任、吐露)+nce：心里完全信得过",
-    "sourceNote": "拉丁 confidentia，con- + fides(信)"
-  },
-  "interference": {
-    "modernMeaningCn": "干涉；干扰",
-    "literalMeaningCn": "从中间打过来",
-    "metaphorMeaningCn": "插一脚、碍事",
-    "metaphorOptions": [
-      "插一脚、碍事",
-      "提到的过程",
-      "围着空气转"
-    ],
-    "mnemonicNote": "interfere(妨碍)+nce：把手伸到别人的事里",
-    "sourceNote": "inter- + ferre(带、打)"
-  },
-  "residence": {
-    "modernMeaningCn": "住宅；居留",
-    "literalMeaningCn": "住下来的地方",
-    "metaphorMeaningCn": "长住的那处房子",
-    "metaphorOptions": [
-      "长住的那处房子",
-      "守着地过活",
-      "关心的另一面"
-    ],
-    "mnemonicNote": "reside(住)+nce：坐下来长住的地方",
-    "sourceNote": "拉丁 residentia，residere(坐下、留下)"
-  },
-  "urgent": {
-    "modernMeaningCn": "紧急的；急迫的",
-    "literalMeaningCn": "催着要办的",
-    "metaphorMeaningCn": "等不得、得马上办",
-    "metaphorOptions": [
-      "等不得、得马上办",
-      "经济的旧事",
-      "围着孩子转"
-    ],
-    "mnemonicNote": "urge(冲动、催着)+nt(……的)：催着要办的",
-    "sourceNote": "拉丁 urgere(催促)"
-  },
-  "resident": {
-    "modernMeaningCn": "居民；常驻的",
-    "literalMeaningCn": "住在这儿的人",
-    "metaphorMeaningCn": "长期住在这儿的人",
-    "metaphorOptions": [
-      "长期住在这儿的人",
-      "守着课过活",
-      "花费的工具"
-    ],
-    "mnemonicNote": "reside(住)+nt(……的人)：在这儿坐下不走的人",
-    "sourceNote": "拉丁 residere(留下、居住)"
-  },
-  "coherent": {
-    "modernMeaningCn": "连贯的；清晰的",
-    "literalMeaningCn": "粘在一起的",
-    "metaphorMeaningCn": "前后能连上、讲得通",
-    "metaphorOptions": [
-      "前后能连上、讲得通",
-      "守着坚硬的过活",
-      "印度的小站"
-    ],
-    "mnemonicNote": "cohere(附着)+nt(……的)：粘在一起能连上",
-    "sourceNote": "拉丁 cohaerere，co- + haerere(粘)"
-  },
-  "fluorescent": {
-    "modernMeaningCn": "荧光的",
-    "literalMeaningCn": "会发荧光的",
-    "metaphorMeaningCn": "通电就发光",
-    "metaphorOptions": [
-      "通电就发光",
-      "一种终极的习俗",
-      "围着太阳转"
-    ],
-    "mnemonicNote": "fluoresce(发荧光)+nt(……的)：通电就发光的",
-    "sourceNote": "fluorescence（荧光）+ -ent"
-  },
-  "precedent": {
-    "modernMeaningCn": "先例；前例",
-    "literalMeaningCn": "走在前面的事",
-    "metaphorMeaningCn": "先前有过的例子",
-    "metaphorOptions": [
-      "先前有过的例子",
-      "把相等串起来",
-      "围着测量转"
-    ],
-    "mnemonicNote": "precede(在之前)+nt(……的)：先前走过的那一例",
-    "sourceNote": "拉丁 praecedere，prae- + cedere(走)"
-  },
-  "contrary": {
-    "modernMeaningCn": "相反的；矛盾的",
-    "literalMeaningCn": "对着干的",
-    "metaphorMeaningCn": "反过来、对着来",
-    "metaphorOptions": [
-      "反过来、对着来",
-      "守着第一过活",
-      "一种回应的习俗"
-    ],
-    "mnemonicNote": "contra(反对)+ry：对着来的那种",
-    "sourceNote": "拉丁 contrarius，contra(对立)"
-  },
-  "scenery": {
-    "modernMeaningCn": "风景；布景",
-    "literalMeaningCn": "眼前的那些景",
-    "metaphorMeaningCn": "一地方的整体景色",
-    "metaphorOptions": [
-      "一地方的整体景色",
-      "把迁移串起来",
-      "围着中心转"
-    ],
-    "mnemonicNote": "scene(场、景)+ry：一处处景凑成的样子",
-    "sourceNote": "scene(场景) + -ery"
-  },
-  "independence": {
-    "modernMeaningCn": "独立；自主",
-    "literalMeaningCn": "不再挂在人身上",
-    "metaphorMeaningCn": "不靠别人、自己立着",
-    "metaphorOptions": [
-      "不靠别人、自己立着",
-      "守着声音过活",
-      "替博戏操心"
-    ],
-    "mnemonicNote": "in(不)+de(向下)+pend(悬挂)+ence：不再挂在别人身上",
-    "sourceNote": "in- + depend（依靠）+ -ence"
-  },
-  "heroine": {
-    "modernMeaningCn": "女英雄；女主角",
-    "literalMeaningCn": "女的那个英雄",
-    "metaphorMeaningCn": "故事里的女主角",
-    "metaphorOptions": [
-      "故事里的女主角",
-      "后面的味道",
-      "装天花板的小站"
-    ],
-    "mnemonicNote": "hero(英雄)+ine(女性后缀)：故事里的女英雄",
-    "sourceNote": "法语 héroïne，hero + -ine"
-  },
-  "routine": {
-    "modernMeaningCn": "常规；例行公事",
-    "literalMeaningCn": "走熟了的那条路",
-    "metaphorMeaningCn": "天天照做的那套",
-    "metaphorOptions": [
-      "天天照做的那套",
-      "守着海过活",
-      "一种重标记的习俗"
-    ],
-    "mnemonicNote": "rout(路)+ine：天天走熟了的那条路",
-    "sourceNote": "法语 routine，route(路)"
-  },
-  "automation": {
-    "modernMeaningCn": "自动化",
-    "literalMeaningCn": "自己动起来的做法",
-    "metaphorMeaningCn": "机器自己干、不用人管",
-    "metaphorOptions": [
-      "机器自己干、不用人管",
-      "把代表串起来",
-      "在周围的工具"
-    ],
-    "mnemonicNote": "automat(自动装置)+ion：机器自己动、人不用管",
-    "sourceNote": "希腊 automatos(自己动的) + -ion"
-  },
-  "divide": {
-    "modernMeaningCn": "分开；除",
-    "literalMeaningCn": "分成两半",
-    "metaphorMeaningCn": "切开、分作几份",
-    "metaphorOptions": [
-      "切开、分作几份",
-      "守着生命过活",
-      "围着否认转"
-    ],
-    "mnemonicNote": "di(二)+vide(分开)：一分为二",
-    "sourceNote": "拉丁 dividere，dis- + videre(分开)"
-  }
+ "_comment": "Group C（合法变体：ence+nce / ent+nt / ary+ry / fac+face / al+l / ven+vene / ob+o / itude+tude）+ Group D（重切/整词）共 24 词。",
+ "surface": {
+  "modernMeaningCn": "表面；面",
+  "literalMeaningCn": "上面那一层",
+  "metaphorMeaningCn": "物体的外面一层",
+  "metaphorOptions": [
+   "物体的外面一层",
+   "一种朝向的习俗",
+   "相反的人"
+  ],
+  "mnemonicNote": "sur(在上)+face(面)：露在外面的那一层",
+  "sourceNote": "法语 surface，sur- + face"
+ },
+ "interface": {
+  "modernMeaningCn": "界面；接口",
+  "literalMeaningCn": "两者相交的面",
+  "metaphorMeaningCn": "两个东西接上的那一层",
+  "metaphorOptions": [
+   "两个东西接上的那一层",
+   "环绕的一角",
+   "商店的小站"
+  ],
+  "mnemonicNote": "inter(之间)+face(面)：两个系统相碰的那一层",
+  "sourceNote": "inter- + face"
+ },
+ "preface": {
+  "modernMeaningCn": "序言；开场白",
+  "literalMeaningCn": "正文前面那段",
+  "metaphorMeaningCn": "书前面的一段话",
+  "metaphorOptions": [
+   "书前面的一段话",
+   "悲叹的工具",
+   "把持久串起来"
+  ],
+  "mnemonicNote": "pre(前)+face：正文前面那段话（词源是「先说」，不属 fac）",
+  "sourceNote": "拉丁 praefatio，prae-（前）+ fari（说）"
+ },
+ "ideal": {
+  "modernMeaningCn": "理想；典范",
+  "literalMeaningCn": "念头里的样子",
+  "metaphorMeaningCn": "最合心意的那个样子",
+  "metaphorOptions": [
+   "最合心意的那个样子",
+   "表演的地方",
+   "共通的来路"
+  ],
+  "mnemonicNote": "idea(主意)+l：心里那个最好的样子",
+  "sourceNote": "拉丁 idealis，idea(观念)"
+ },
+ "intervene": {
+  "modernMeaningCn": "介入；干涉",
+  "literalMeaningCn": "走到中间去",
+  "metaphorMeaningCn": "插进来管一管",
+  "metaphorOptions": [
+   "插进来管一管",
+   "品质的影子",
+   "珠宝的人"
+  ],
+  "mnemonicNote": "inter(之间)+vene(来)：走到两边中间来",
+  "sourceNote": "拉丁 intervenire，inter- + venire(来)"
+ },
+ "omit": {
+  "modernMeaningCn": "省略；遗漏",
+  "literalMeaningCn": "送走了没放进去",
+  "metaphorMeaningCn": "漏掉、不写进去",
+  "metaphorOptions": [
+   "漏掉、不写进去",
+   "向着凝乳化凝乳去",
+   "纠缠的过程"
+  ],
+  "mnemonicNote": "ob(相对)+mitt(送，mit 的变体)：把它送走，没放进来",
+  "sourceNote": "拉丁 omittere，ob- + mittere(送)"
+ },
+ "multitude": {
+  "modernMeaningCn": "多数；群众",
+  "literalMeaningCn": "多到那个程度",
+  "metaphorMeaningCn": "一大群、数量很多",
+  "metaphorOptions": [
+   "一大群、数量很多",
+   "数字的过程",
+   "离女孩很远"
+  ],
+  "mnemonicNote": "multi(多)+tude(程度)：多到那个份上",
+  "sourceNote": "拉丁 multitudo，multus(多)"
+ },
+ "intermediate": {
+  "modernMeaningCn": "中间的；中级的",
+  "literalMeaningCn": "夹在中间的",
+  "metaphorMeaningCn": "不上不下、中间一档",
+  "metaphorOptions": [
+   "不上不下、中间一档",
+   "守着市场过活",
+   "把习惯串起来"
+  ],
+  "mnemonicNote": "inter(之间)+medi(中间)+ate：夹在两头中间",
+  "sourceNote": "拉丁 intermedius，inter- + medius(中间)"
+ },
+ "coincidence": {
+  "modernMeaningCn": "巧合；一致",
+  "literalMeaningCn": "一起落到一处",
+  "metaphorMeaningCn": "碰巧撞上了",
+  "metaphorOptions": [
+   "碰巧撞上了",
+   "被量度的东西",
+   "劳作的背面"
+  ],
+  "mnemonicNote": "coincide(同时发生)+nce(状态)：两件事一起落到了一处",
+  "sourceNote": "co- + incidere(落下)"
+ },
+ "confidence": {
+  "modernMeaningCn": "信心；信任",
+  "literalMeaningCn": "信得过的状态",
+  "metaphorMeaningCn": "心里有底、信得过",
+  "metaphorOptions": [
+   "心里有底、信得过",
+   "调查的旧事",
+   "带来的来路"
+  ],
+  "mnemonicNote": "confide(信任、吐露)+nce：心里完全信得过",
+  "sourceNote": "拉丁 confidentia，con- + fides(信)"
+ },
+ "interference": {
+  "modernMeaningCn": "干涉；干扰",
+  "literalMeaningCn": "从中间打过来",
+  "metaphorMeaningCn": "插一脚、碍事",
+  "metaphorOptions": [
+   "插一脚、碍事",
+   "一种弥撒的习俗",
+   "唯一的一角"
+  ],
+  "mnemonicNote": "interfere(妨碍)+nce：把手伸到别人的事里",
+  "sourceNote": "inter- + ferre(带、打)"
+ },
+ "residence": {
+  "modernMeaningCn": "住宅；居留",
+  "literalMeaningCn": "住下来的地方",
+  "metaphorMeaningCn": "长住的那处房子",
+  "metaphorOptions": [
+   "长住的那处房子",
+   "围着帮忙转",
+   "数着特定的过日子"
+  ],
+  "mnemonicNote": "reside(住)+nce：坐下来长住的地方",
+  "sourceNote": "拉丁 residentia，residere(坐下、留下)"
+ },
+ "urgent": {
+  "modernMeaningCn": "紧急的；急迫的",
+  "literalMeaningCn": "催着要办的",
+  "metaphorMeaningCn": "等不得、得马上办",
+  "metaphorOptions": [
+   "等不得、得马上办",
+   "砍杀的旧事",
+   "犬儒学派的人的背面"
+  ],
+  "mnemonicNote": "urge(冲动、催着)+nt(……的)：催着要办的",
+  "sourceNote": "拉丁 urgere(催促)"
+ },
+ "resident": {
+  "modernMeaningCn": "居民；常驻的",
+  "literalMeaningCn": "住在这儿的人",
+  "metaphorMeaningCn": "长期住在这儿的人",
+  "metaphorOptions": [
+   "长期住在这儿的人",
+   "道德的味道",
+   "被危险的东西"
+  ],
+  "mnemonicNote": "reside(住)+nt(……的人)：在这儿坐下不走的人",
+  "sourceNote": "拉丁 residere(留下、居住)"
+ },
+ "coherent": {
+  "modernMeaningCn": "连贯的；清晰的",
+  "literalMeaningCn": "粘在一起的",
+  "metaphorMeaningCn": "前后能连上、讲得通",
+  "metaphorOptions": [
+   "前后能连上、讲得通",
+   "标记的地方",
+   "外国的的小站"
+  ],
+  "mnemonicNote": "cohere(附着)+nt(……的)：粘在一起能连上",
+  "sourceNote": "拉丁 cohaerere，co- + haerere(粘)"
+ },
+ "fluorescent": {
+  "modernMeaningCn": "荧光的",
+  "literalMeaningCn": "会发荧光的",
+  "metaphorMeaningCn": "通电就发光",
+  "metaphorOptions": [
+   "通电就发光",
+   "学说的旧事",
+   "末端的来路"
+  ],
+  "mnemonicNote": "fluoresce(发荧光)+nt(……的)：通电就发光的",
+  "sourceNote": "fluorescence（荧光）+ -ent"
+ },
+ "precedent": {
+  "modernMeaningCn": "先例；前例",
+  "literalMeaningCn": "走在前面的事",
+  "metaphorMeaningCn": "先前有过的例子",
+  "metaphorOptions": [
+   "先前有过的例子",
+   "包围的旧事",
+   "火花的来路"
+  ],
+  "mnemonicNote": "precede(在之前)+nt(……的)：先前走过的那一例",
+  "sourceNote": "拉丁 praecedere，prae- + cedere(走)"
+ },
+ "contrary": {
+  "modernMeaningCn": "相反的；矛盾的",
+  "literalMeaningCn": "对着干的",
+  "metaphorMeaningCn": "反过来、对着来",
+  "metaphorOptions": [
+   "反过来、对着来",
+   "向着热忱去",
+   "围着平等转"
+  ],
+  "mnemonicNote": "contra(反对)+ry：对着来的那种",
+  "sourceNote": "拉丁 contrarius，contra(对立)"
+ },
+ "scenery": {
+  "modernMeaningCn": "风景；布景",
+  "literalMeaningCn": "眼前的那些景",
+  "metaphorMeaningCn": "一地方的整体景色",
+  "metaphorOptions": [
+   "一地方的整体景色",
+   "被慢的的东西",
+   "低于的味道"
+  ],
+  "mnemonicNote": "scene(场、景)+ry：一处处景凑成的样子",
+  "sourceNote": "scene(场景) + -ery"
+ },
+ "independence": {
+  "modernMeaningCn": "独立；自主",
+  "literalMeaningCn": "不再挂在人身上",
+  "metaphorMeaningCn": "不靠别人、自己立着",
+  "metaphorOptions": [
+   "不靠别人、自己立着",
+   "装扮的来路",
+   "不规则物的人"
+  ],
+  "mnemonicNote": "in(不)+de(向下)+pend(悬挂)+ence：不再挂在别人身上",
+  "sourceNote": "in- + depend（依靠）+ -ence"
+ },
+ "heroine": {
+  "modernMeaningCn": "女英雄；女主角",
+  "literalMeaningCn": "女的那个英雄",
+  "metaphorMeaningCn": "故事里的女主角",
+  "metaphorOptions": [
+   "故事里的女主角",
+   "来源的旧事",
+   "看马人的来路"
+  ],
+  "mnemonicNote": "hero(英雄)+ine(女性后缀)：故事里的女英雄",
+  "sourceNote": "法语 héroïne，hero + -ine"
+ },
+ "routine": {
+  "modernMeaningCn": "常规；例行公事",
+  "literalMeaningCn": "走熟了的那条路",
+  "metaphorMeaningCn": "天天照做的那套",
+  "metaphorOptions": [
+   "天天照做的那套",
+   "滑动的一角",
+   "参议院的另一面"
+  ],
+  "mnemonicNote": "rout(路)+ine：天天走熟了的那条路",
+  "sourceNote": "法语 routine，route(路)"
+ },
+ "automation": {
+  "modernMeaningCn": "自动化",
+  "literalMeaningCn": "自己动起来的做法",
+  "metaphorMeaningCn": "机器自己干、不用人管",
+  "metaphorOptions": [
+   "机器自己干、不用人管",
+   "环绕的地方",
+   "幼禽的来路"
+  ],
+  "mnemonicNote": "automat(自动装置)+ion：机器自己动、人不用管",
+  "sourceNote": "希腊 automatos(自己动的) + -ion"
+ },
+ "divide": {
+  "modernMeaningCn": "分开；除",
+  "literalMeaningCn": "分成两半",
+  "metaphorMeaningCn": "切开、分作几份",
+  "metaphorOptions": [
+   "切开、分作几份",
+   "把奇特的串起来",
+   "善行的工具"
+  ],
+  "mnemonicNote": "di(二)+vide(分开)：一分为二",
+  "sourceNote": "拉丁 dividere，dis- + videre(分开)"
+ }
 }

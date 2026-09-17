@@ -1,0 +1,866 @@
+{
+ "asian": {
+  "modernMeaningCn": "亚洲人；亚洲的",
+  "literalMeaningCn": "亚洲的",
+  "metaphorMeaningCn": "来自亚洲的人",
+  "metaphorOptions": [
+   "来自亚洲的人",
+   "替接续操心",
+   "离自动操作很远"
+  ],
+  "mnemonicNote": "asia亚洲+an(…的)",
+  "sourceNote": "asia(亚洲)+-an 形容词后缀"
+ },
+ "divide": {
+  "modernMeaningCn": "分；划分",
+  "literalMeaningCn": "分开",
+  "metaphorMeaningCn": "把整体切成几份",
+  "metaphorOptions": [
+   "把整体切成几份",
+   "把奇特的串起来",
+   "善行的工具"
+  ],
+  "mnemonicNote": "di分开+vid分",
+  "sourceNote": "dis-(分开)+videre(分)"
+ },
+ "hotdog": {
+  "modernMeaningCn": "热狗",
+  "literalMeaningCn": "热+狗",
+  "metaphorMeaningCn": "夹香肠的长面包",
+  "metaphorOptions": [
+   "夹香肠的长面包",
+   "工作的的背面",
+   "实验的过程"
+  ],
+  "mnemonicNote": "hot热+dog狗",
+  "sourceNote": "hot(热)+dog(狗)，形似香肠"
+ },
+ "icecream": {
+  "modernMeaningCn": "冰淇淋",
+  "literalMeaningCn": "冰+奶油",
+  "metaphorMeaningCn": "冰凉的甜奶油",
+  "metaphorOptions": [
+   "冰凉的甜奶油",
+   "全部作品的旧事",
+   "更新的背面"
+  ],
+  "mnemonicNote": "ice冰+cream奶油",
+  "sourceNote": "ice(冰)+cream(奶油)"
+ },
+ "schoolbag": {
+  "modernMeaningCn": "书包",
+  "literalMeaningCn": "学校+包",
+  "metaphorMeaningCn": "装书去学校的包",
+  "metaphorOptions": [
+   "装书去学校的包",
+   "守着宣布过活",
+   "伸展的另一面"
+  ],
+  "mnemonicNote": "school学校+bag包",
+  "sourceNote": "school+bag"
+ },
+ "addicted": {
+  "modernMeaningCn": "上瘾的",
+  "literalMeaningCn": "使依附+的",
+  "metaphorMeaningCn": "被某物缠住的人",
+  "metaphorOptions": [
+   "被某物缠住的人",
+   "一种承租人的习俗",
+   "计划的一角"
+  ],
+  "mnemonicNote": "addict上瘾+ed",
+  "sourceNote": "addict(使依附)+-ed"
+ },
+ "airmail": {
+  "modernMeaningCn": "航空邮件",
+  "literalMeaningCn": "空气+邮件",
+  "metaphorMeaningCn": "坐飞机送的信",
+  "metaphorOptions": [
+   "坐飞机送的信",
+   "向着知识去",
+   "工业的的过程"
+  ],
+  "mnemonicNote": "air空气+mail信",
+  "sourceNote": "air+mail"
+ },
+ "appreciate": {
+  "modernMeaningCn": "欣赏；感激",
+  "literalMeaningCn": "评价值",
+  "metaphorMeaningCn": "看出东西的好",
+  "metaphorOptions": [
+   "看出东西的好",
+   "离拴紧很远",
+   "退下的过程"
+  ],
+  "mnemonicNote": "ap朝+preci价值",
+  "sourceNote": "ad-(朝)+pretium(价值)"
+ },
+ "backache": {
+  "modernMeaningCn": "背痛",
+  "literalMeaningCn": "背+痛",
+  "metaphorMeaningCn": "后背发出的疼",
+  "metaphorOptions": [
+   "后背发出的疼",
+   "心智的的小站",
+   "守着任何过活"
+  ],
+  "mnemonicNote": "back背+ache痛",
+  "sourceNote": "back+ache"
+ },
+ "ballpoint": {
+  "modernMeaningCn": "圆珠笔",
+  "literalMeaningCn": "球+点",
+  "metaphorMeaningCn": "带小球的笔尖",
+  "metaphorOptions": [
+   "带小球的笔尖",
+   "被领域的东西",
+   "事物的味道"
+  ],
+  "mnemonicNote": "ball球+point点",
+  "sourceNote": "ball+point"
+ },
+ "beancurd": {
+  "modernMeaningCn": "豆腐",
+  "literalMeaningCn": "豆+凝乳",
+  "metaphorMeaningCn": "用豆子做的块",
+  "metaphorOptions": [
+   "用豆子做的块",
+   "照亮的地方",
+   "跳跃的小站"
+  ],
+  "mnemonicNote": "bean豆+curd凝乳",
+  "sourceNote": "bean(豆)+curd(凝乳)"
+ },
+ "bedclothes": {
+  "modernMeaningCn": "床上用品",
+  "literalMeaningCn": "床+衣物",
+  "metaphorMeaningCn": "铺在床上的布",
+  "metaphorOptions": [
+   "铺在床上的布",
+   "把佛陀翻开",
+   "把等级串起来"
+  ],
+  "mnemonicNote": "bed床+clothes衣",
+  "sourceNote": "bed+clothes"
+ },
+ "birdcage": {
+  "modernMeaningCn": "鸟笼",
+  "literalMeaningCn": "鸟+笼",
+  "metaphorMeaningCn": "关小鸟的盒子",
+  "metaphorOptions": [
+   "关小鸟的盒子",
+   "令人想望的的一角",
+   "一种以外的习俗"
+  ],
+  "mnemonicNote": "bird鸟+cage笼",
+  "sourceNote": "bird+cage"
+ },
+ "bookmark": {
+  "modernMeaningCn": "书签",
+  "literalMeaningCn": "书+标记",
+  "metaphorMeaningCn": "夹在书里的条",
+  "metaphorOptions": [
+   "夹在书里的条",
+   "替戏弄操心",
+   "离否认很远"
+  ],
+  "mnemonicNote": "book书+mark标",
+  "sourceNote": "book+mark"
+ },
+ "centigrade": {
+  "modernMeaningCn": "摄氏的",
+  "literalMeaningCn": "百+度",
+  "metaphorMeaningCn": "一百等分的水温",
+  "metaphorOptions": [
+   "一百等分的水温",
+   "轻视的背面",
+   "轮转的旧事"
+  ],
+  "mnemonicNote": "centi百+grad度",
+  "sourceNote": "centi(百)+gradus(步/度)"
+ },
+ "changeable": {
+  "modernMeaningCn": "易变的",
+  "literalMeaningCn": "变+可",
+  "metaphorMeaningCn": "说变就变的东西",
+  "metaphorOptions": [
+   "说变就变的东西",
+   "离翻转很远",
+   "使面对的过程"
+  ],
+  "mnemonicNote": "change变+able可",
+  "sourceNote": "change+-able"
+ },
+ "glasshouse": {
+  "modernMeaningCn": "玻璃温室",
+  "literalMeaningCn": "玻璃+房",
+  "metaphorMeaningCn": "用玻璃盖的房",
+  "metaphorOptions": [
+   "用玻璃盖的房",
+   "产生的地方",
+   "外套的小站"
+  ],
+  "mnemonicNote": "glass玻璃+house房",
+  "sourceNote": "glass+house"
+ },
+ "greengrocer": {
+  "modernMeaningCn": "果蔬商",
+  "literalMeaningCn": "绿+商",
+  "metaphorMeaningCn": "卖菜卖果的人",
+  "metaphorOptions": [
+   "卖菜卖果的人",
+   "直接的的过程",
+   "离儿子很远"
+  ],
+  "mnemonicNote": "green绿+grocer商",
+  "sourceNote": "green+grocer"
+ },
+ "handtruck": {
+  "modernMeaningCn": "手推车",
+  "literalMeaningCn": "手+车",
+  "metaphorMeaningCn": "用手推的货车",
+  "metaphorOptions": [
+   "用手推的货车",
+   "把经受串起来",
+   "把影像翻开"
+  ],
+  "mnemonicNote": "hand手+truck车",
+  "sourceNote": "hand+truck"
+ },
+ "miniskirt": {
+  "modernMeaningCn": "迷你裙",
+  "literalMeaningCn": "小+裙",
+  "metaphorMeaningCn": "很短的裙子",
+  "metaphorOptions": [
+   "很短的裙子",
+   "伏特的地方",
+   "微波的小站"
+  ],
+  "mnemonicNote": "mini小+skirt裙",
+  "sourceNote": "mini(小)+skirt"
+ },
+ "oceania": {
+  "modernMeaningCn": "大洋洲",
+  "literalMeaningCn": "洋+名词化",
+  "metaphorMeaningCn": "被海水围的洲",
+  "metaphorOptions": [
+   "被海水围的洲",
+   "在之下的影子",
+   "打动的人"
+  ],
+  "mnemonicNote": "ocean洋+ia",
+  "sourceNote": "ocean(洋)+-ia"
+ },
+ "playroom": {
+  "modernMeaningCn": "游戏室",
+  "literalMeaningCn": "玩+房",
+  "metaphorMeaningCn": "给孩子玩的房",
+  "metaphorOptions": [
+   "给孩子玩的房",
+   "守着搬运过活",
+   "罗马的小站"
+  ],
+  "mnemonicNote": "play玩+room房",
+  "sourceNote": "play+room"
+ },
+ "postbox": {
+  "modernMeaningCn": "邮筒",
+  "literalMeaningCn": "邮+箱",
+  "metaphorMeaningCn": "投信的小箱子",
+  "metaphorOptions": [
+   "投信的小箱子",
+   "离自由很远",
+   "替出汗操心"
+  ],
+  "mnemonicNote": "post邮+box箱",
+  "sourceNote": "post+box"
+ },
+ "postcode": {
+  "modernMeaningCn": "邮政编码",
+  "literalMeaningCn": "邮+码",
+  "metaphorMeaningCn": "地址上的数字",
+  "metaphorOptions": [
+   "地址上的数字",
+   "石头的人",
+   "结亲的影子"
+  ],
+  "mnemonicNote": "post邮+code码",
+  "sourceNote": "post+code"
+ },
+ "regards": {
+  "modernMeaningCn": "问候",
+  "literalMeaningCn": "再+看",
+  "metaphorMeaningCn": "心里惦着的人",
+  "metaphorOptions": [
+   "心里惦着的人",
+   "豆子化油嘴的工具",
+   "把考虑串起来"
+  ],
+  "mnemonicNote": "re再+gard看",
+  "sourceNote": "re-(再)+garder(看)"
+ },
+ "rewind": {
+  "modernMeaningCn": "倒带",
+  "literalMeaningCn": "回+绕",
+  "metaphorMeaningCn": "把带子倒回去",
+  "metaphorOptions": [
+   "把带子倒回去",
+   "身家的一角",
+   "一种一看的习俗"
+  ],
+  "mnemonicNote": "re回+wind绕",
+  "sourceNote": "re-(回)+wind(绕)"
+ },
+ "salesgirl": {
+  "modernMeaningCn": "女店员",
+  "literalMeaningCn": "售+女",
+  "metaphorMeaningCn": "柜台后的女孩",
+  "metaphorOptions": [
+   "柜台后的女孩",
+   "抓取的另一面",
+   "表演的味道"
+  ],
+  "mnemonicNote": "sales售+girl女",
+  "sourceNote": "sales+girl"
+ },
+ "saleswoman": {
+  "modernMeaningCn": "女售货员",
+  "literalMeaningCn": "售+女",
+  "metaphorMeaningCn": "卖货的成年女",
+  "metaphorOptions": [
+   "卖货的成年女",
+   "传播的过程",
+   "向着破裂去"
+  ],
+  "mnemonicNote": "sales+woman女",
+  "sourceNote": "sales+woman"
+ },
+ "sharpener": {
+  "modernMeaningCn": "卷笔刀",
+  "literalMeaningCn": "削+者",
+  "metaphorMeaningCn": "把笔削尖的工具",
+  "metaphorOptions": [
+   "把笔削尖的工具",
+   "组件的人",
+   "一种有能力的的习俗"
+  ],
+  "mnemonicNote": "sharpen削+er者",
+  "sourceNote": "sharpen+-er"
+ },
+ "skipping": {
+  "modernMeaningCn": "跳绳",
+  "literalMeaningCn": "跳+进行",
+  "metaphorMeaningCn": "绳下跳过的玩",
+  "metaphorOptions": [
+   "绳下跳过的玩",
+   "围着表面转",
+   "向着使用去"
+  ],
+  "mnemonicNote": "skip跳+ing",
+  "sourceNote": "skip(跳)+-ing"
+ },
+ "stomachache": {
+  "modernMeaningCn": "胃痛",
+  "literalMeaningCn": "胃+痛",
+  "metaphorMeaningCn": "肚子里发出的疼",
+  "metaphorOptions": [
+   "肚子里发出的疼",
+   "持有者的另一面",
+   "数着常态过日子"
+  ],
+  "mnemonicNote": "stomach胃+ache痛",
+  "sourceNote": "stomach+ache"
+ },
+ "stopwatch": {
+  "modernMeaningCn": "秒表",
+  "literalMeaningCn": "停+表",
+  "metaphorMeaningCn": "一按就停的表",
+  "metaphorOptions": [
+   "一按就停的表",
+   "离日出很远",
+   "替直线操心"
+  ],
+  "mnemonicNote": "stop停+watch表",
+  "sourceNote": "stop+watch"
+ },
+ "subtraction": {
+  "modernMeaningCn": "减法",
+  "literalMeaningCn": "下+拉+名词",
+  "metaphorMeaningCn": "从总数里拿掉",
+  "metaphorOptions": [
+   "从总数里拿掉",
+   "时间的人",
+   "一种容量的习俗"
+  ],
+  "mnemonicNote": "sub下+tract拉",
+  "sourceNote": "sub-(下)+trahere(拉)"
+ },
+ "sunburnt": {
+  "modernMeaningCn": "晒伤的",
+  "literalMeaningCn": "太阳+伤",
+  "metaphorMeaningCn": "被太阳烤红的皮",
+  "metaphorOptions": [
+   "被太阳烤红的皮",
+   "守着宽的过活",
+   "想像的小站"
+  ],
+  "mnemonicNote": "sun太阳+burnt伤",
+  "sourceNote": "sun+burn"
+ },
+ "washroom": {
+  "modernMeaningCn": "洗手间",
+  "literalMeaningCn": "洗+房",
+  "metaphorMeaningCn": "能洗漱的房间",
+  "metaphorOptions": [
+   "能洗漱的房间",
+   "被元素的东西",
+   "填上的背面"
+  ],
+  "mnemonicNote": "wash洗+room房",
+  "sourceNote": "wash+room"
+ },
+ "dishonour": {
+  "modernMeaningCn": "使蒙羞",
+  "literalMeaningCn": "不+荣誉",
+  "metaphorMeaningCn": "把荣誉弄丢",
+  "metaphorOptions": [
+   "把荣誉弄丢",
+   "替举止操心",
+   "守着盖子过活"
+  ],
+  "mnemonicNote": "dis不+honour荣",
+  "sourceNote": "dis-(不)+honour"
+ },
+ "dissatisfy": {
+  "modernMeaningCn": "使不满",
+  "literalMeaningCn": "不+满足",
+  "metaphorMeaningCn": "让人心里不满足",
+  "metaphorOptions": [
+   "让人心里不满足",
+   "意志的工具",
+   "数着年度的过日子"
+  ],
+  "mnemonicNote": "dis不+satisfy满",
+  "sourceNote": "dis-(不)+satisfy"
+ },
+ "fatherinlaw": {
+  "modernMeaningCn": "岳父；公公",
+  "literalMeaningCn": "父+姻",
+  "metaphorMeaningCn": "妻子那边的父",
+  "metaphorOptions": [
+   "妻子那边的父",
+   "替小山羊操心",
+   "守着最高级过活"
+  ],
+  "mnemonicNote": "father父+inlaw姻",
+  "sourceNote": "father+in-law"
+ },
+ "livingroom": {
+  "modernMeaningCn": "客厅",
+  "literalMeaningCn": "住+房",
+  "metaphorMeaningCn": "家人待的房间",
+  "metaphorOptions": [
+   "家人待的房间",
+   "把继续串起来",
+   "骑马的影子"
+  ],
+  "mnemonicNote": "living住+room房",
+  "sourceNote": "living+room"
+ },
+ "outskirt": {
+  "modernMeaningCn": "郊区",
+  "literalMeaningCn": "外+边",
+  "metaphorMeaningCn": "城市外面的圈",
+  "metaphorOptions": [
+   "城市外面的圈",
+   "替扑动操心",
+   "把大会翻开"
+  ],
+  "mnemonicNote": "out外+skirt边",
+  "sourceNote": "out+skirt(边)"
+ },
+ "preposition": {
+  "modernMeaningCn": "介词",
+  "literalMeaningCn": "前+位置",
+  "metaphorMeaningCn": "放在名前的词",
+  "metaphorOptions": [
+   "放在名前的词",
+   "有效率的的旧事",
+   "声称的影子"
+  ],
+  "mnemonicNote": "pre前+position位",
+  "sourceNote": "prae-(前)+positio(放置)"
+ },
+ "reflexion": {
+  "modernMeaningCn": "反射；倒影",
+  "literalMeaningCn": "回+弯+名词",
+  "metaphorMeaningCn": "光折回来成像",
+  "metaphorOptions": [
+   "光折回来成像",
+   "扑动的工具",
+   "把成熟的串起来"
+  ],
+  "mnemonicNote": "re回+flex弯",
+  "sourceNote": "re-(回)+flectere(弯)"
+ },
+ "seaport": {
+  "modernMeaningCn": "海港",
+  "literalMeaningCn": "海+港",
+  "metaphorMeaningCn": "船靠海停的点",
+  "metaphorOptions": [
+   "船靠海停的点",
+   "浪漫的的来路",
+   "称赞的地方"
+  ],
+  "mnemonicNote": "sea海+port港",
+  "sourceNote": "sea+port"
+ },
+ "uptodate": {
+  "modernMeaningCn": "最新的",
+  "literalMeaningCn": "到+日期",
+  "metaphorMeaningCn": "跟得上这天",
+  "metaphorOptions": [
+   "跟得上这天",
+   "好意的味道",
+   "被忘记的东西"
+  ],
+  "mnemonicNote": "up到+date期",
+  "sourceNote": "up+to+date"
+ },
+ "wellknown": {
+  "modernMeaningCn": "著名的",
+  "literalMeaningCn": "好+知",
+  "metaphorMeaningCn": "很多人都知",
+  "metaphorOptions": [
+   "很多人都知",
+   "被干的的东西",
+   "保留的味道"
+  ],
+  "mnemonicNote": "well好+known知",
+  "sourceNote": "well+known"
+ },
+ "accessary": {
+  "modernMeaningCn": "从犯",
+  "literalMeaningCn": "去+走+者",
+  "metaphorMeaningCn": "帮着干的人",
+  "metaphorOptions": [
+   "帮着干的人",
+   "说服的一角",
+   "干的的另一面"
+  ],
+  "mnemonicNote": "access去+ary者",
+  "sourceNote": "access(接近)+-ary"
+ },
+ "acquisitive": {
+  "modernMeaningCn": "贪得的",
+  "literalMeaningCn": "获取+的",
+  "metaphorMeaningCn": "总想拿更多的",
+  "metaphorOptions": [
+   "总想拿更多的",
+   "知道的一角",
+   "一种悬停的习俗"
+  ],
+  "mnemonicNote": "acquisit获取+ive",
+  "sourceNote": "acquirere(获取)+-ive"
+ },
+ "bewilder": {
+  "modernMeaningCn": "使迷惑",
+  "literalMeaningCn": "使+迷",
+  "metaphorMeaningCn": "把人弄糊涂",
+  "metaphorOptions": [
+   "把人弄糊涂",
+   "称赞的背面",
+   "松的的旧事"
+  ],
+  "mnemonicNote": "be使+wilder迷",
+  "sourceNote": "be-+wilder(迷宫)"
+ },
+ "byproduct": {
+  "modernMeaningCn": "副产品",
+  "literalMeaningCn": "旁+产品",
+  "metaphorMeaningCn": "顺手得来的物",
+  "metaphorOptions": [
+   "顺手得来的物",
+   "数着玉蜀黍过日子",
+   "交替的的工具"
+  ],
+  "mnemonicNote": "by旁+product产",
+  "sourceNote": "by(旁)+product"
+ },
+ "dully": {
+  "modernMeaningCn": "迟钝地",
+  "literalMeaningCn": "钝+地",
+  "metaphorMeaningCn": "慢半拍地反应",
+  "metaphorOptions": [
+   "慢半拍地反应",
+   "替神圣的操心",
+   "装载的味道"
+  ],
+  "mnemonicNote": "dull钝+ly地",
+  "sourceNote": "dull+-ly"
+ },
+ "dynamical": {
+  "modernMeaningCn": "动力的",
+  "literalMeaningCn": "力+的",
+  "metaphorMeaningCn": "靠力量在动的",
+  "metaphorOptions": [
+   "靠力量在动的",
+   "视觉的另一面",
+   "钉住的味道"
+  ],
+  "mnemonicNote": "dynamic力+al",
+  "sourceNote": "dynamis(力)+-al"
+ },
+ "firstrate": {
+  "modernMeaningCn": "一流的",
+  "literalMeaningCn": "第一+等",
+  "metaphorMeaningCn": "排在顶上的等",
+  "metaphorOptions": [
+   "排在顶上的等",
+   "实际上起作用的的地方",
+   "势利的人的小站"
+  ],
+  "mnemonicNote": "first第一+rate等",
+  "sourceNote": "first+rate"
+ },
+ "insulator": {
+  "modernMeaningCn": "绝缘体",
+  "literalMeaningCn": "隔+者",
+  "metaphorMeaningCn": "挡住电的物",
+  "metaphorOptions": [
+   "挡住电的物",
+   "把土制的翻开",
+   "把邻居串起来"
+  ],
+  "mnemonicNote": "insula隔+or者",
+  "sourceNote": "insula(岛/隔)+-or"
+ },
+ "kilowatt": {
+  "modernMeaningCn": "千瓦",
+  "literalMeaningCn": "千+瓦",
+  "metaphorMeaningCn": "一千份的电功",
+  "metaphorOptions": [
+   "一千份的电功",
+   "替硝基操心",
+   "守着睡眠过活"
+  ],
+  "mnemonicNote": "kilo千+watt瓦",
+  "sourceNote": "kilo(千)+watt"
+ },
+ "lamentation": {
+  "modernMeaningCn": "悲叹",
+  "literalMeaningCn": "悲+名词",
+  "metaphorMeaningCn": "伤心哭出来的声",
+  "metaphorOptions": [
+   "伤心哭出来的声",
+   "守着组成过活",
+   "替狩猎操心"
+  ],
+  "mnemonicNote": "lament悲+ation",
+  "sourceNote": "lamentari(lament)+-ion 名词化"
+ },
+ "outermost": {
+  "modernMeaningCn": "最外的",
+  "literalMeaningCn": "外+最",
+  "metaphorMeaningCn": "圈里最外面那层",
+  "metaphorOptions": [
+   "圈里最外面那层",
+   "正在的小站",
+   "守着告示过活"
+  ],
+  "mnemonicNote": "outer外+most最",
+  "sourceNote": "outer+most"
+ },
+ "photoelectric": {
+  "modernMeaningCn": "光电的",
+  "literalMeaningCn": "光+电",
+  "metaphorMeaningCn": "光变成电的学",
+  "metaphorOptions": [
+   "光变成电的学",
+   "围着组织转",
+   "向着信息处理机去"
+  ],
+  "mnemonicNote": "photo光+electric电",
+  "sourceNote": "photo(光)+electric"
+ },
+ "predestine": {
+  "modernMeaningCn": "命中注定",
+  "literalMeaningCn": "前+定",
+  "metaphorMeaningCn": "早早就安排好",
+  "metaphorOptions": [
+   "早早就安排好",
+   "守着使迷失过活",
+   "打击的小站"
+  ],
+  "mnemonicNote": "pre前+destine定",
+  "sourceNote": "prae-(前)+destinare(定)"
+ },
+ "protend": {
+  "modernMeaningCn": "伸展；声称",
+  "literalMeaningCn": "前+伸",
+  "metaphorMeaningCn": "往前伸出去",
+  "metaphorOptions": [
+   "往前伸出去",
+   "把绳索翻开",
+   "替脊骨操心"
+  ],
+  "mnemonicNote": "pro前+tend伸",
+  "sourceNote": "pro-(前)+tendere(伸)"
+ },
+ "regenerative": {
+  "modernMeaningCn": "再生的",
+  "literalMeaningCn": "再+生+的",
+  "metaphorMeaningCn": "坏掉又能长好",
+  "metaphorOptions": [
+   "坏掉又能长好",
+   "仆役的另一面",
+   "缩短的一角"
+  ],
+  "mnemonicNote": "re再+generative生",
+  "sourceNote": "re-(再)+generare(生)"
+ },
+ "sittingroom": {
+  "modernMeaningCn": "起居室",
+  "literalMeaningCn": "坐+房",
+  "metaphorMeaningCn": "坐着聊的房间",
+  "metaphorOptions": [
+   "坐着聊的房间",
+   "一种巨大的习俗",
+   "合理的的人"
+  ],
+  "mnemonicNote": "sitting坐+room房",
+  "sourceNote": "sitting+room"
+ },
+ "snobbish": {
+  "modernMeaningCn": "势利的",
+  "literalMeaningCn": "媚+的",
+  "metaphorMeaningCn": "看人下菜的态",
+  "metaphorOptions": [
+   "看人下菜的态",
+   "替疤痕操心",
+   "离破裂很远"
+  ],
+  "mnemonicNote": "snobb媚+ish",
+  "sourceNote": "snob+-ish"
+ },
+ "solvable": {
+  "modernMeaningCn": "可解的",
+  "literalMeaningCn": "解+可",
+  "metaphorMeaningCn": "能找出答案的",
+  "metaphorOptions": [
+   "能找出答案的",
+   "繁殖的小站",
+   "守着职责过活"
+  ],
+  "mnemonicNote": "solve解+able可",
+  "sourceNote": "solve+-able"
+ },
+ "strangler": {
+  "modernMeaningCn": "扼杀者",
+  "literalMeaningCn": "扼+者",
+  "metaphorMeaningCn": "用手掐脖的人",
+  "metaphorOptions": [
+   "用手掐脖的人",
+   "影响力的小站",
+   "守着不牢固的过活"
+  ],
+  "mnemonicNote": "strangle扼+er者",
+  "sourceNote": "strangulare(扼)+-er"
+ },
+ "subscript": {
+  "modernMeaningCn": "下标",
+  "literalMeaningCn": "下+写",
+  "metaphorMeaningCn": "写在下面的字",
+  "metaphorOptions": [
+   "写在下面的字",
+   "离片刻很远",
+   "替偶然的操心"
+  ],
+  "mnemonicNote": "sub下+script写",
+  "sourceNote": "sub-(下)+scribere(写)"
+ },
+ "tactics": {
+  "modernMeaningCn": "战术",
+  "literalMeaningCn": "排+名词",
+  "metaphorMeaningCn": "打仗的安排法",
+  "metaphorOptions": [
+   "打仗的安排法",
+   "离感觉很远",
+   "替可忍受的操心"
+  ],
+  "mnemonicNote": "tact排+ics",
+  "sourceNote": "taktikos(排列)+-ics"
+ },
+ "thoughtless": {
+  "modernMeaningCn": "欠考虑的",
+  "literalMeaningCn": "思+无",
+  "metaphorMeaningCn": "不过脑子的",
+  "metaphorOptions": [
+   "不过脑子的",
+   "相对的味道",
+   "被共和国的东西"
+  ],
+  "mnemonicNote": "thought思+less无",
+  "sourceNote": "thought+-less"
+ },
+ "touchable": {
+  "modernMeaningCn": "可触摸的",
+  "literalMeaningCn": "触+可",
+  "metaphorMeaningCn": "手能碰到的",
+  "metaphorOptions": [
+   "手能碰到的",
+   "数着庄园过日子",
+   "围着应该转"
+  ],
+  "mnemonicNote": "touch触+able可",
+  "sourceNote": "touch+-able"
+ },
+ "ultrasonic": {
+  "modernMeaningCn": "超声的",
+  "literalMeaningCn": "超+声",
+  "metaphorMeaningCn": "人耳听不到的声",
+  "metaphorOptions": [
+   "人耳听不到的声",
+   "解决的人",
+   "一种字首的习俗"
+  ],
+  "mnemonicNote": "ultra超+sonic声",
+  "sourceNote": "ultra(超)+sonus(声)"
+ },
+ "undermine": {
+  "modernMeaningCn": "暗中破坏",
+  "literalMeaningCn": "下+挖",
+  "metaphorMeaningCn": "从底下挖空它",
+  "metaphorOptions": [
+   "从底下挖空它",
+   "带入的工具",
+   "数着石灰过日子"
+  ],
+  "mnemonicNote": "under下+mine挖",
+  "sourceNote": "under+mine(挖)"
+ },
+ "vitamine": {
+  "modernMeaningCn": "维生素",
+  "literalMeaningCn": "生命+胺",
+  "metaphorMeaningCn": "保命的小养分",
+  "metaphorOptions": [
+   "保命的小养分",
+   "围着感觉转",
+   "向着测量去"
+  ],
+  "mnemonicNote": "vita生命+min胺",
+  "sourceNote": "vita(生命)+amine(胺)"
+ },
+ "workpiece": {
+  "modernMeaningCn": "工件",
+  "literalMeaningCn": "工+件",
+  "metaphorMeaningCn": "机床上加工的件",
+  "metaphorOptions": [
+   "机床上加工的件",
+   "可信的的过程",
+   "离教育很远"
+  ],
+  "mnemonicNote": "work工+piece件",
+  "sourceNote": "work+piece"
+ }
+}

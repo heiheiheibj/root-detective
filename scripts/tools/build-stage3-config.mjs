@@ -465,7 +465,7 @@ const WORLD_ADD = {
   // 批次 06b：新改判 root 与注入的词素挂世界
   'reading-loft': ['lect', 'sci'], // 识读阁：lect(收集、选) + sci(知道)
   'craft-works': ['par', 'apply'], // 工匠铺：par(相等)、apply(涂、施用) 与 equ 同族
-  'message-port': ['nect', 'nounce'], // 传送门：nect(连接)、nounce(讲述) 与 port/dict 同族
+  'message-port': ['nect', 'nounce', 'script'], // 传送门：nect(连接)、nounce(讲述)、script(写) 与 port/dict 同族
   'lumber-store': ['ordin'], // 杂物仓：ordin(顺序) 与已有的 organ 同族
   'office-house': ['mand'], // 职事馆：mand(托付) 与 mission/employ 同族
   'action-forge': ['fic', 'fect', 'fact'], // 行动工坊：fic/fect/fact(做、成) 与 ject/mob 同族
@@ -473,7 +473,7 @@ const WORLD_ADD = {
   'council-chamber': ['tribu', 'sid', 'claim', 'liber'], // 议事厅：tribu(给予)、sid(坐)、claim(要求、喊)、liber(自由) 与 law/court 同族
   'force-yard': ['grav', 'val'], // 运力场：grav(重)、val(强健) 与 press/fall 同族
   'hold-vault': ['cip', 'sumere'], // 持握库：cip/sumere(拿取) 与 tain/ceive 同族
-  'common-lane': ['corr'], // 寻常巷：corr(共同、加强，com- 在 r 前的同化形)
+  'common-lane': ['corr', 'bag', 'well', 'insula', 'solve'], // 寻常巷：corr(共同、加强) + 批次07补收词根 bag/well/insula/solve
   'body-clinic': ['manu'], // 身体馆：manu(手) 与已有的 hand 同族
   'will-hall': ['pat'], // 心志堂：pat(忍受) 与 sist/firm 同族
 }

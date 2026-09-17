@@ -1,351 +1,351 @@
 {
-  "_comment": "Stage 3 待写释义（batch-24，本批 29 词，高考批最后一批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
-  "whatever": {
-    "modernMeaningCn": "无论什么",
-    "literalMeaningCn": "不管是什么",
-    "metaphorMeaningCn": "无论什么、随便",
-    "metaphorOptions": [
-      "无论什么、随便",
-      "贝壳的背面",
-      "把诚实的串起来"
-    ],
-    "mnemonicNote": "what(什么)+ever(无论)：你拿哪一样出来都行",
-    "sourceNote": "古英语 hwæt(什么) + æfre(永远)"
-  },
-  "whenever": {
-    "modernMeaningCn": "无论何时",
-    "literalMeaningCn": "不管什么时候",
-    "metaphorMeaningCn": "无论何时、每当",
-    "metaphorOptions": [
-      "无论何时、每当",
-      "手迹的一角",
-      "沐浴的另一面"
-    ],
-    "mnemonicNote": "when(何时)+ever(无论)：哪个钟点来都成",
-    "sourceNote": "古英语 hwænne(何时) + æfre(永远)"
-  },
-  "whether": {
-    "modernMeaningCn": "是否",
-    "literalMeaningCn": "二者之中哪个",
-    "metaphorMeaningCn": "是否、不管",
-    "metaphorOptions": [
-      "是否、不管",
-      "向着刺激去",
-      "妻子的过程"
-    ],
-    "mnemonicNote": "whet(哪个)+her：两条路摆在这儿，问走哪条",
-    "sourceNote": "古英语 hwæther，与 hwa(谁) 同源"
-  },
-  "whichever": {
-    "modernMeaningCn": "无论哪个",
-    "literalMeaningCn": "不管哪一个",
-    "metaphorMeaningCn": "无论哪个、随便哪个",
-    "metaphorOptions": [
-      "无论哪个、随便哪个",
-      "把太阳串起来",
-      "标志的旧事"
-    ],
-    "mnemonicNote": "which(哪个)+ever(无论)：这一排东西你挑哪个都算",
-    "sourceNote": "古英语 hwilc(哪个) + æfre(永远)"
-  },
-  "wide": {
-    "modernMeaningCn": "宽的",
-    "literalMeaningCn": "左右张得开",
-    "metaphorMeaningCn": "宽的、广泛的",
-    "metaphorOptions": [
-      "宽的、广泛的",
-      "传播的地方",
-      "诺言的工具"
-    ],
-    "mnemonicNote": "wi(宽)+de：两臂一展那么长的一条",
-    "sourceNote": "古英语 wid(宽阔)"
-  },
-  "widespread": {
-    "modernMeaningCn": "普遍的",
-    "literalMeaningCn": "铺得很开的",
-    "metaphorMeaningCn": "普遍的、广泛的",
-    "metaphorOptions": [
-      "普遍的、广泛的",
-      "下面的一角",
-      "技术的另一面"
-    ],
-    "mnemonicNote": "wide(广)+spread(铺开)：从城南传到城北那种势头",
-    "sourceNote": "英语复合词，wide + spread"
-  },
-  "wildlife": {
-    "modernMeaningCn": "野生动物",
-    "literalMeaningCn": "野地里的生灵",
-    "metaphorMeaningCn": "野生动物、野生生物",
-    "metaphorOptions": [
-      "野生动物、野生生物",
-      "被金衡的东西",
-      "征服的背面"
-    ],
-    "mnemonicNote": "wild(野生)+life(生命)：没经人驯养那一群",
-    "sourceNote": "英语复合词，wild + life，20 世纪环保术语"
-  },
-  "willing": {
-    "modernMeaningCn": "愿意的",
-    "literalMeaningCn": "心里肯的",
-    "metaphorMeaningCn": "愿意的、乐意的",
-    "metaphorOptions": [
-      "愿意的、乐意的",
-      "离满足的很远",
-      "证实的过程"
-    ],
-    "mnemonicNote": "will(意愿)+ing：不用人催，自己先举手",
-    "sourceNote": "古英语 willan(愿意) + -ing"
-  },
-  "willingly": {
-    "modernMeaningCn": "自愿地",
-    "literalMeaningCn": "以情愿的方式",
-    "metaphorMeaningCn": "自愿地、乐意地",
-    "metaphorOptions": [
-      "自愿地、乐意地",
-      "低点的旧事",
-      "化学的背面"
-    ],
-    "mnemonicNote": "willing(乐意)+ly：抢着去，不用人分派",
-    "sourceNote": "古英语 willan(愿意) + -ing + -ly"
-  },
-  "willingness": {
-    "modernMeaningCn": "意愿",
-    "literalMeaningCn": "肯不肯那份心",
-    "metaphorMeaningCn": "意愿、乐意的态度",
-    "metaphorOptions": [
-      "意愿、乐意的态度",
-      "煮沸的地方",
-      "道德的来路"
-    ],
-    "mnemonicNote": "willing(乐意)+ness：嘴上说好、眼神也是这么说的",
-    "sourceNote": "古英语 willan(愿意) + -ing + -nes"
-  },
-  "windbreaker": {
-    "modernMeaningCn": "防风衣",
-    "literalMeaningCn": "挡风的衣裳",
-    "metaphorMeaningCn": "防风衣、风衣",
-    "metaphorOptions": [
-      "防风衣、风衣",
-      "变形的工具",
-      "空虚的旧事"
-    ],
-    "mnemonicNote": "wind(风)+breaker(挡板)：把风兜在外头那层薄外套",
-    "sourceNote": "英语复合词，wind + breaker(阻挡物)"
-  },
-  "winner": {
-    "modernMeaningCn": "获胜者",
-    "literalMeaningCn": "赢下来的那个",
-    "metaphorMeaningCn": "获胜者、得奖者",
-    "metaphorOptions": [
-      "获胜者、得奖者",
-      "把不寻常的串起来",
-      "贯穿的工具"
-    ],
-    "mnemonicNote": "winn(赢)+er(人)：终场哨响时举手那位",
-    "sourceNote": "古英语 winnan(争夺、赢得) + -er"
-  },
-  "withdraw": {
-    "modernMeaningCn": "撤回",
-    "literalMeaningCn": "往回拉",
-    "metaphorMeaningCn": "撤回、取款",
-    "metaphorOptions": [
-      "撤回、取款",
-      "黄金的工具",
-      "把拼写串起来"
-    ],
-    "mnemonicNote": "with(回)+draw(拉)：把递出去的手又收回来",
-    "sourceNote": "中古英语 withdrawen，with-(回) + drawen(拉)"
-  },
-  "witness": {
-    "modernMeaningCn": "证人",
-    "literalMeaningCn": "知情的那个人",
-    "metaphorMeaningCn": "证人、目击",
-    "metaphorOptions": [
-      "证人、目击",
-      "字母的小站",
-      "淹没的地方"
-    ],
-    "mnemonicNote": "wit(知道)+ness：当时在场、看得清清楚楚那位",
-    "sourceNote": "古英语 witnes，witan(知道) + -nes"
-  },
-  "woman": {
-    "modernMeaningCn": "女人",
-    "literalMeaningCn": "成年女性",
-    "metaphorMeaningCn": "女人、妇女",
-    "metaphorOptions": [
-      "女人、妇女",
-      "向着在这以前的去",
-      "围着统计转"
-    ],
-    "mnemonicNote": "wo(女)+man(人)：跟 man 相对的那半边",
-    "sourceNote": "古英语 wifmann，wif(妇人) + mann(人)"
-  },
-  "wonderful": {
-    "modernMeaningCn": "极好的",
-    "literalMeaningCn": "满是惊奇的",
-    "metaphorMeaningCn": "极好的、精彩的",
-    "metaphorOptions": [
-      "极好的、精彩的",
-      "被基本原理的东西",
-      "呼吸的另一面"
-    ],
-    "mnemonicNote": "wonder(惊奇)+ful：好到让人不敢相信是真的",
-    "sourceNote": "古英语 wundor(奇迹) + -ful"
-  },
-  "wooden": {
-    "modernMeaningCn": "木制的",
-    "literalMeaningCn": "木头做的",
-    "metaphorMeaningCn": "木制的、木讷的",
-    "metaphorOptions": [
-      "木制的、木讷的",
-      "土耳其人的工具",
-      "把研究串起来"
-    ],
-    "mnemonicNote": "wood(木)+en(…的)：敲一下咚咚响那种质地",
-    "sourceNote": "古英语 wudu(木) + -en(由…制成)"
-  },
-  "woollen": {
-    "modernMeaningCn": "羊毛的",
-    "literalMeaningCn": "羊毛织的",
-    "metaphorMeaningCn": "羊毛的、毛织品",
-    "metaphorOptions": [
-      "羊毛的、毛织品",
-      "数着保险过日子",
-      "字母的人"
-    ],
-    "mnemonicNote": "wool(羊毛)+len：摸着扎手但穿着暖和那种",
-    "sourceNote": "古英语 wull(羊毛) + -en(由…制成)"
-  },
-  "workday": {
-    "modernMeaningCn": "工作日",
-    "literalMeaningCn": "要上班的那天",
-    "metaphorMeaningCn": "工作日、平日",
-    "metaphorOptions": [
-      "工作日、平日",
-      "向着毒药去",
-      "捶胸的小站"
-    ],
-    "mnemonicNote": "work(干活)+day(日)：闹钟一响就得爬起来那天",
-    "sourceNote": "英语复合词，work + day"
-  },
-  "workforce": {
-    "modernMeaningCn": "劳动力",
-    "literalMeaningCn": "干活的人马",
-    "metaphorMeaningCn": "劳动力、员工总数",
-    "metaphorOptions": [
-      "劳动力、员工总数",
-      "被谷物的东西",
-      "提议的背面"
-    ],
-    "mnemonicNote": "work(干活)+force(人手)：厂里能上工的那些人加起来",
-    "sourceNote": "英语复合词，work + force，20 世纪劳工术语"
-  },
-  "workplace": {
-    "modernMeaningCn": "工作场所",
-    "literalMeaningCn": "干活的地方",
-    "metaphorMeaningCn": "工作场所、职场",
-    "metaphorOptions": [
-      "工作场所、职场",
-      "被安排的东西",
-      "权利的背面"
-    ],
-    "mnemonicNote": "work(干活)+place(地方)：每天八小时待在那儿",
-    "sourceNote": "英语复合词，work + place"
-  },
-  "world": {
-    "modernMeaningCn": "世界",
-    "literalMeaningCn": "人间这一片",
-    "metaphorMeaningCn": "世界、世上",
-    "metaphorOptions": [
-      "世界、世上",
-      "守着搅动过活",
-      "替精细操心"
-    ],
-    "mnemonicNote": "wor(人)+ld：人住着的这一整片地方",
-    "sourceNote": "古英语 weorold，wer(人) + eald(年岁)"
-  },
-  "worthwhile": {
-    "modernMeaningCn": "值得的",
-    "literalMeaningCn": "值得花时间的",
-    "metaphorMeaningCn": "值得的、有价值的",
-    "metaphorOptions": [
-      "值得的、有价值的",
-      "编辑的背面",
-      "被惊起的东西"
-    ],
-    "mnemonicNote": "worth(值)+while(时间)：忙完回头看一点不亏",
-    "sourceNote": "英语复合词，worth(值得) + while(时间)"
-  },
-  "wounded": {
-    "modernMeaningCn": "受伤的",
-    "literalMeaningCn": "身上带着伤的",
-    "metaphorMeaningCn": "受伤的、负伤的",
-    "metaphorOptions": [
-      "受伤的、负伤的",
-      "必需品的背面",
-      "身份的旧事"
-    ],
-    "mnemonicNote": "wound(伤口)+ed：抬下来时袖子上渗着血",
-    "sourceNote": "古英语 wund(伤口) + -ed"
-  },
-  "wrestle": {
-    "modernMeaningCn": "摔跤",
-    "literalMeaningCn": "扭着较劲",
-    "metaphorMeaningCn": "摔跤、搏斗",
-    "metaphorOptions": [
-      "摔跤、搏斗",
-      "向着西班牙去",
-      "法院的旧事"
-    ],
-    "mnemonicNote": "wrest(扭夺)+le：两人抱在一起比谁脚下更稳",
-    "sourceNote": "古英语 wræstan(扭、拧)"
-  },
-  "writing": {
-    "modernMeaningCn": "写作",
-    "literalMeaningCn": "写下的东西",
-    "metaphorMeaningCn": "写作、文字",
-    "metaphorOptions": [
-      "写作、文字",
-      "替邀请操心",
-      "离彻底很远"
-    ],
-    "mnemonicNote": "writ(书写)+ing：一页页落在纸上的那些字",
-    "sourceNote": "古英语 writan(刻写) + -ing"
-  },
-  "yourself": {
-    "modernMeaningCn": "你自己",
-    "literalMeaningCn": "你本人",
-    "metaphorMeaningCn": "你自己、你本人",
-    "metaphorOptions": [
-      "你自己、你本人",
-      "把承受串起来",
-      "被激励的东西"
-    ],
-    "mnemonicNote": "your(你的)+self(自身)：不假手别人，就是本人",
-    "sourceNote": "古英语 þin self，your + self"
-  },
-  "yourselves": {
-    "modernMeaningCn": "你们自己",
-    "literalMeaningCn": "你们本人",
-    "metaphorMeaningCn": "你们自己、你们本人",
-    "metaphorOptions": [
-      "你们自己、你们本人",
-      "向着被拒之人去",
-      "入会的过程"
-    ],
-    "mnemonicNote": "your(你们的)+selves(自身)：几位一起动手，没请人帮",
-    "sourceNote": "古英语 eower self，your + selves"
-  },
-  "zipper": {
-    "modernMeaningCn": "拉链",
-    "literalMeaningCn": "拉上时哧一声",
-    "metaphorMeaningCn": "拉链、拉锁",
-    "metaphorOptions": [
-      "拉链、拉锁",
-      "优雅的另一面",
-      "携带的味道"
-    ],
-    "mnemonicNote": "zipp(咝声)+er(物)：一拉到底那排小齿",
-    "sourceNote": "英语 zip(咝声) + -er，20 世纪商标名演化"
-  }
+ "_comment": "Stage 3 待写释义（batch-24，本批 29 词，高考批最后一批）。按 9.3 契约补全：literalMeaningCn(≤12汉字) / metaphorMeaningCn(≤20字) / metaphorOptions(恰3个，[0]同 metaphorMeaningCn) / mnemonicNote(≤40字) / sourceNote(≤60字)；modernMeaningCn 已预填，可润色。",
+ "whatever": {
+  "modernMeaningCn": "无论什么",
+  "literalMeaningCn": "不管是什么",
+  "metaphorMeaningCn": "无论什么、随便",
+  "metaphorOptions": [
+   "无论什么、随便",
+   "直接的的味道",
+   "被钝的的东西"
+  ],
+  "mnemonicNote": "what(什么)+ever(无论)：你拿哪一样出来都行",
+  "sourceNote": "古英语 hwæt(什么) + æfre(永远)"
+ },
+ "whenever": {
+  "modernMeaningCn": "无论何时",
+  "literalMeaningCn": "不管什么时候",
+  "metaphorMeaningCn": "无论何时、每当",
+  "metaphorOptions": [
+   "无论何时、每当",
+   "货物的一角",
+   "手迹的另一面"
+  ],
+  "mnemonicNote": "when(何时)+ever(无论)：哪个钟点来都成",
+  "sourceNote": "古英语 hwænne(何时) + æfre(永远)"
+ },
+ "whether": {
+  "modernMeaningCn": "是否",
+  "literalMeaningCn": "二者之中哪个",
+  "metaphorMeaningCn": "是否、不管",
+  "metaphorOptions": [
+   "是否、不管",
+   "向着刺激去",
+   "妻子的过程"
+  ],
+  "mnemonicNote": "whet(哪个)+her：两条路摆在这儿，问走哪条",
+  "sourceNote": "古英语 hwæther，与 hwa(谁) 同源"
+ },
+ "whichever": {
+  "modernMeaningCn": "无论哪个",
+  "literalMeaningCn": "不管哪一个",
+  "metaphorMeaningCn": "无论哪个、随便哪个",
+  "metaphorOptions": [
+   "无论哪个、随便哪个",
+   "厚的的来路",
+   "标志的旧事"
+  ],
+  "mnemonicNote": "which(哪个)+ever(无论)：这一排东西你挑哪个都算",
+  "sourceNote": "古英语 hwilc(哪个) + æfre(永远)"
+ },
+ "wide": {
+  "modernMeaningCn": "宽的",
+  "literalMeaningCn": "左右张得开",
+  "metaphorMeaningCn": "宽的、广泛的",
+  "metaphorOptions": [
+   "宽的、广泛的",
+   "把触觉串起来",
+   "解开的工具"
+  ],
+  "mnemonicNote": "wi(宽)+de：两臂一展那么长的一条",
+  "sourceNote": "古英语 wid(宽阔)"
+ },
+ "widespread": {
+  "modernMeaningCn": "普遍的",
+  "literalMeaningCn": "铺得很开的",
+  "metaphorMeaningCn": "普遍的、广泛的",
+  "metaphorOptions": [
+   "普遍的、广泛的",
+   "下面的一角",
+   "技术的另一面"
+  ],
+  "mnemonicNote": "wide(广)+spread(铺开)：从城南传到城北那种势头",
+  "sourceNote": "英语复合词，wide + spread"
+ },
+ "wildlife": {
+  "modernMeaningCn": "野生动物",
+  "literalMeaningCn": "野地里的生灵",
+  "metaphorMeaningCn": "野生动物、野生生物",
+  "metaphorOptions": [
+   "野生动物、野生生物",
+   "被起伏的东西",
+   "征服的背面"
+  ],
+  "mnemonicNote": "wild(野生)+life(生命)：没经人驯养那一群",
+  "sourceNote": "英语复合词，wild + life，20 世纪环保术语"
+ },
+ "willing": {
+  "modernMeaningCn": "愿意的",
+  "literalMeaningCn": "心里肯的",
+  "metaphorMeaningCn": "愿意的、乐意的",
+  "metaphorOptions": [
+   "愿意的、乐意的",
+   "离吐露很远",
+   "自动操作的过程"
+  ],
+  "mnemonicNote": "will(意愿)+ing：不用人催，自己先举手",
+  "sourceNote": "古英语 willan(愿意) + -ing"
+ },
+ "willingly": {
+  "modernMeaningCn": "自愿地",
+  "literalMeaningCn": "以情愿的方式",
+  "metaphorMeaningCn": "自愿地、乐意地",
+  "metaphorOptions": [
+   "自愿地、乐意地",
+   "一种界限的习俗",
+   "圣歌的人"
+  ],
+  "mnemonicNote": "willing(乐意)+ly：抢着去，不用人分派",
+  "sourceNote": "古英语 willan(愿意) + -ing + -ly"
+ },
+ "willingness": {
+  "modernMeaningCn": "意愿",
+  "literalMeaningCn": "肯不肯那份心",
+  "metaphorMeaningCn": "意愿、乐意的态度",
+  "metaphorOptions": [
+   "意愿、乐意的态度",
+   "足迹的地方",
+   "煮沸的来路"
+  ],
+  "mnemonicNote": "willing(乐意)+ness：嘴上说好、眼神也是这么说的",
+  "sourceNote": "古英语 willan(愿意) + -ing + -nes"
+ },
+ "windbreaker": {
+  "modernMeaningCn": "防风衣",
+  "literalMeaningCn": "挡风的衣裳",
+  "metaphorMeaningCn": "防风衣、风衣",
+  "metaphorOptions": [
+   "防风衣、风衣",
+   "一种如何的习俗",
+   "懒惰的的一角"
+  ],
+  "mnemonicNote": "wind(风)+breaker(挡板)：把风兜在外头那层薄外套",
+  "sourceNote": "英语复合词，wind + breaker(阻挡物)"
+ },
+ "winner": {
+  "modernMeaningCn": "获胜者",
+  "literalMeaningCn": "赢下来的那个",
+  "metaphorMeaningCn": "获胜者、得奖者",
+  "metaphorOptions": [
+   "获胜者、得奖者",
+   "把不寻常的串起来",
+   "贯穿的工具"
+  ],
+  "mnemonicNote": "winn(赢)+er(人)：终场哨响时举手那位",
+  "sourceNote": "古英语 winnan(争夺、赢得) + -er"
+ },
+ "withdraw": {
+  "modernMeaningCn": "撤回",
+  "literalMeaningCn": "往回拉",
+  "metaphorMeaningCn": "撤回、取款",
+  "metaphorOptions": [
+   "撤回、取款",
+   "黄金的工具",
+   "把拼写串起来"
+  ],
+  "mnemonicNote": "with(回)+draw(拉)：把递出去的手又收回来",
+  "sourceNote": "中古英语 withdrawen，with-(回) + drawen(拉)"
+ },
+ "witness": {
+  "modernMeaningCn": "证人",
+  "literalMeaningCn": "知情的那个人",
+  "metaphorMeaningCn": "证人、目击",
+  "metaphorOptions": [
+   "证人、目击",
+   "字母的小站",
+   "淹没的地方"
+  ],
+  "mnemonicNote": "wit(知道)+ness：当时在场、看得清清楚楚那位",
+  "sourceNote": "古英语 witnes，witan(知道) + -nes"
+ },
+ "woman": {
+  "modernMeaningCn": "女人",
+  "literalMeaningCn": "成年女性",
+  "metaphorMeaningCn": "女人、妇女",
+  "metaphorOptions": [
+   "女人、妇女",
+   "向着在这以前的去",
+   "围着统计转"
+  ],
+  "mnemonicNote": "wo(女)+man(人)：跟 man 相对的那半边",
+  "sourceNote": "古英语 wifmann，wif(妇人) + mann(人)"
+ },
+ "wonderful": {
+  "modernMeaningCn": "极好的",
+  "literalMeaningCn": "满是惊奇的",
+  "metaphorMeaningCn": "极好的、精彩的",
+  "metaphorOptions": [
+   "极好的、精彩的",
+   "被感觉的东西",
+   "缠绕的背面"
+  ],
+  "mnemonicNote": "wonder(惊奇)+ful：好到让人不敢相信是真的",
+  "sourceNote": "古英语 wundor(奇迹) + -ful"
+ },
+ "wooden": {
+  "modernMeaningCn": "木制的",
+  "literalMeaningCn": "木头做的",
+  "metaphorMeaningCn": "木制的、木讷的",
+  "metaphorOptions": [
+   "木制的、木讷的",
+   "土耳其人的工具",
+   "把最初的串起来"
+  ],
+  "mnemonicNote": "wood(木)+en(…的)：敲一下咚咚响那种质地",
+  "sourceNote": "古英语 wudu(木) + -en(由…制成)"
+ },
+ "woollen": {
+  "modernMeaningCn": "羊毛的",
+  "literalMeaningCn": "羊毛织的",
+  "metaphorMeaningCn": "羊毛的、毛织品",
+  "metaphorOptions": [
+   "羊毛的、毛织品",
+   "使人聚居的影子",
+   "工作的的人"
+  ],
+  "mnemonicNote": "wool(羊毛)+len：摸着扎手但穿着暖和那种",
+  "sourceNote": "古英语 wull(羊毛) + -en(由…制成)"
+ },
+ "workday": {
+  "modernMeaningCn": "工作日",
+  "literalMeaningCn": "要上班的那天",
+  "metaphorMeaningCn": "工作日、平日",
+  "metaphorOptions": [
+   "工作日、平日",
+   "向着毒药去",
+   "轻微的过程"
+  ],
+  "mnemonicNote": "work(干活)+day(日)：闹钟一响就得爬起来那天",
+  "sourceNote": "英语复合词，work + day"
+ },
+ "workforce": {
+  "modernMeaningCn": "劳动力",
+  "literalMeaningCn": "干活的人马",
+  "metaphorMeaningCn": "劳动力、员工总数",
+  "metaphorOptions": [
+   "劳动力、员工总数",
+   "被相对的的东西",
+   "持家的背面"
+  ],
+  "mnemonicNote": "work(干活)+force(人手)：厂里能上工的那些人加起来",
+  "sourceNote": "英语复合词，work + force，20 世纪劳工术语"
+ },
+ "workplace": {
+  "modernMeaningCn": "工作场所",
+  "literalMeaningCn": "干活的地方",
+  "metaphorMeaningCn": "工作场所、职场",
+  "metaphorOptions": [
+   "工作场所、职场",
+   "被安排的东西",
+   "权利的背面"
+  ],
+  "mnemonicNote": "work(干活)+place(地方)：每天八小时待在那儿",
+  "sourceNote": "英语复合词，work + place"
+ },
+ "world": {
+  "modernMeaningCn": "世界",
+  "literalMeaningCn": "人间这一片",
+  "metaphorMeaningCn": "世界、世上",
+  "metaphorOptions": [
+   "世界、世上",
+   "守着搅动过活",
+   "替精细操心"
+  ],
+  "mnemonicNote": "wor(人)+ld：人住着的这一整片地方",
+  "sourceNote": "古英语 weorold，wer(人) + eald(年岁)"
+ },
+ "worthwhile": {
+  "modernMeaningCn": "值得的",
+  "literalMeaningCn": "值得花时间的",
+  "metaphorMeaningCn": "值得的、有价值的",
+  "metaphorOptions": [
+   "值得的、有价值的",
+   "编辑的背面",
+   "被惊起的东西"
+  ],
+  "mnemonicNote": "worth(值)+while(时间)：忙完回头看一点不亏",
+  "sourceNote": "英语复合词，worth(值得) + while(时间)"
+ },
+ "wounded": {
+  "modernMeaningCn": "受伤的",
+  "literalMeaningCn": "身上带着伤的",
+  "metaphorMeaningCn": "受伤的、负伤的",
+  "metaphorOptions": [
+   "受伤的、负伤的",
+   "必需品的背面",
+   "身份的旧事"
+  ],
+  "mnemonicNote": "wound(伤口)+ed：抬下来时袖子上渗着血",
+  "sourceNote": "古英语 wund(伤口) + -ed"
+ },
+ "wrestle": {
+  "modernMeaningCn": "摔跤",
+  "literalMeaningCn": "扭着较劲",
+  "metaphorMeaningCn": "摔跤、搏斗",
+  "metaphorOptions": [
+   "摔跤、搏斗",
+   "向着西班牙去",
+   "法院的旧事"
+  ],
+  "mnemonicNote": "wrest(扭夺)+le：两人抱在一起比谁脚下更稳",
+  "sourceNote": "古英语 wræstan(扭、拧)"
+ },
+ "writing": {
+  "modernMeaningCn": "写作",
+  "literalMeaningCn": "写下的东西",
+  "metaphorMeaningCn": "写作、文字",
+  "metaphorOptions": [
+   "写作、文字",
+   "替装扮操心",
+   "离邀请很远"
+  ],
+  "mnemonicNote": "writ(书写)+ing：一页页落在纸上的那些字",
+  "sourceNote": "古英语 writan(刻写) + -ing"
+ },
+ "yourself": {
+  "modernMeaningCn": "你自己",
+  "literalMeaningCn": "你本人",
+  "metaphorMeaningCn": "你自己、你本人",
+  "metaphorOptions": [
+   "你自己、你本人",
+   "把承受串起来",
+   "被激励的东西"
+  ],
+  "mnemonicNote": "your(你的)+self(自身)：不假手别人，就是本人",
+  "sourceNote": "古英语 þin self，your + self"
+ },
+ "yourselves": {
+  "modernMeaningCn": "你们自己",
+  "literalMeaningCn": "你们本人",
+  "metaphorMeaningCn": "你们自己、你们本人",
+  "metaphorOptions": [
+   "你们自己、你们本人",
+   "向着被拒之人去",
+   "十四的过程"
+  ],
+  "mnemonicNote": "your(你们的)+selves(自身)：几位一起动手，没请人帮",
+  "sourceNote": "古英语 eower self，your + selves"
+ },
+ "zipper": {
+  "modernMeaningCn": "拉链",
+  "literalMeaningCn": "拉上时哧一声",
+  "metaphorMeaningCn": "拉链、拉锁",
+  "metaphorOptions": [
+   "拉链、拉锁",
+   "优雅的另一面",
+   "烛芯的味道"
+  ],
+  "mnemonicNote": "zipp(咝声)+er(物)：一拉到底那排小齿",
+  "sourceNote": "英语 zip(咝声) + -er，20 世纪商标名演化"
+ }
 }

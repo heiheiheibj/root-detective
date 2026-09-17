@@ -1,194 +1,290 @@
 {
-  "admission": {
-    "modernMeaningCn": "准许进入、承认",
-    "literalMeaningCn": "放进去",
-    "metaphorMeaningCn": "被放进来的许可",
-    "metaphorOptions": ["被放进来的许可", "邮政的包裹", "数二十张票"],
-    "mnemonicNote": "ad(朝向)+mission(派送)：朝里放行，准你进去",
-    "sourceNote": "拉丁 admissionem，ad-(朝向) + mittere(送)"
-  },
-  "violent": {
-    "modernMeaningCn": "暴力的、猛烈的",
-    "literalMeaningCn": "动粗的",
-    "metaphorMeaningCn": "出手很重伤人的",
-    "metaphorOptions": ["出手很重伤人的", "掉在地上的牙齿", "锁在监狱的人"],
-    "mnemonicNote": "viol(越界、施暴)+ent：越了界，动手伤人",
-    "sourceNote": "拉丁 violentus，violare(施暴)"
-  },
-  "sensible": {
-    "modernMeaningCn": "明智的、合理的",
-    "literalMeaningCn": "能感觉到的",
-    "metaphorMeaningCn": "想得通、懂分寸的",
-    "metaphorOptions": ["想得通、懂分寸的", "擦亮旧椅子", "数二十个硬币"],
-    "mnemonicNote": "sens(感觉)+ible：察得出轻重，就是懂事",
-    "sourceNote": "拉丁 sensibilis，sentire(感觉)"
-  },
-  "sensation": {
-    "modernMeaningCn": "感觉、轰动",
-    "literalMeaningCn": "感觉这件事",
-    "metaphorMeaningCn": "身上一阵强烈的感受",
-    "metaphorOptions": ["身上一阵强烈的感受", "掉在地上的牙齿", "擦亮旧椅子"],
-    "mnemonicNote": "sens(感觉)+ation：身体或心里的一阵感受",
-    "sourceNote": "拉丁 sensatio，sentire(感觉)"
-  },
-  "venture": {
-    "modernMeaningCn": "冒险、创业",
-    "literalMeaningCn": "将要来到的",
-    "metaphorMeaningCn": "前途未卜的一次尝试",
-    "metaphorOptions": ["前途未卜的一次尝试", "开往城市的车", "绕过南方的河"],
-    "mnemonicNote": "vent(来)+ure：往前去碰那还没到的事",
-    "sourceNote": "拉丁 adventura（即将发生之事），venire(来)"
-  },
-  "continuous": {
-    "modernMeaningCn": "连续的、持续的",
-    "literalMeaningCn": "一直接续着",
-    "metaphorMeaningCn": "中间没断过地接着",
-    "metaphorOptions": ["中间没断过地接着", "接上城市的线", "关掉的机器"],
-    "mnemonicNote": "continu(继续)+ous：接着不停的",
-    "sourceNote": "拉丁 continuus，continere(连着)"
-  },
-  "native": {
-    "modernMeaningCn": "本地的、天生的",
-    "literalMeaningCn": "生来就属于",
-    "metaphorMeaningCn": "生在这片土地上的",
-    "metaphorOptions": ["生在这片土地上的", "南方的车站", "建好的房子"],
-    "mnemonicNote": "nat(出生)+ive：生在哪儿就属哪儿",
-    "sourceNote": "拉丁 nativus，nasci(出生)"
-  },
-  "generous": {
-    "modernMeaningCn": "慷慨的、大量的",
-    "literalMeaningCn": "产出很多的",
-    "metaphorMeaningCn": "出手大方不吝啬",
-    "metaphorOptions": ["出手大方不吝啬", "分给同伴的一块", "市场卖出的黄金"],
-    "mnemonicNote": "gener(产生)+ous：产出多，给得起",
-    "sourceNote": "拉丁 generosus（出自名门、大方）"
-  },
-  "automatic": {
-    "modernMeaningCn": "自动的、机械的",
-    "literalMeaningCn": "自己会动",
-    "metaphorMeaningCn": "不用人管自己就走",
-    "metaphorOptions": ["不用人管自己就走", "厨房里的机器", "关掉的机器"],
-    "mnemonicNote": "automat(自动装置)+ic：自己动起来的",
-    "sourceNote": "希腊 automatos（自己动的）"
-  },
-  "devise": {
-    "modernMeaningCn": "设计、想出",
-    "literalMeaningCn": "看出个法子",
-    "metaphorMeaningCn": "琢磨出一个办法",
-    "metaphorOptions": ["琢磨出一个办法", "画着图案的卡片", "读黑板上的文字"],
-    "mnemonicNote": "de(向下)+vise(看)：往细里看，想出法子",
-    "sourceNote": "古法语 deviser，de- + videre(看)"
-  },
-  "attribute": {
-    "modernMeaningCn": "属性、归因于",
-    "literalMeaningCn": "分派给它",
-    "metaphorMeaningCn": "把缘由归到某处",
-    "metaphorOptions": ["把缘由归到某处", "分给同伴的一块", "邮政的包裹"],
-    "mnemonicNote": "at(朝向)+tribute(给予)：把原因放到它头上",
-    "sourceNote": "拉丁 attribuere，ad-(朝向) + tribuere(分给)"
-  },
-  "assert": {
-    "modernMeaningCn": "断言、坚称",
-    "literalMeaningCn": "把手放上去",
-    "metaphorMeaningCn": "斩钉截铁地说定",
-    "metaphorOptions": ["斩钉截铁地说定", "写满记录的本子", "数二十张票"],
-    "mnemonicNote": "as(朝向)+sert(放置)：把话放到明处，咬定不改",
-    "sourceNote": "拉丁 asserere，ad- + serere(连接、放置)"
-  },
-  "desert": {
-    "modernMeaningCn": "沙漠、遗弃",
-    "literalMeaningCn": "不再连着",
-    "metaphorMeaningCn": "把地方弃下走掉",
-    "metaphorOptions": ["把地方弃下走掉", "绕过南方的河", "建好的房子"],
-    "mnemonicNote": "de(去掉)+sert(连接)：断了联系，弃之而去",
-    "sourceNote": "拉丁 deserere，de- + serere(连接)"
-  },
-  "stability": {
-    "modernMeaningCn": "稳定性、安定",
-    "literalMeaningCn": "站得稳",
-    "metaphorMeaningCn": "不容易摇晃的程度",
-    "metaphorOptions": ["不容易摇晃的程度", "建好的房子", "围成一圈的椅子"],
-    "mnemonicNote": "stabil(稳固)+ity：稳当不倒的那个性质",
-    "sourceNote": "拉丁 stabilitas，stabilis(稳固)"
-  },
-  "delight": {
-    "modernMeaningCn": "高兴、使愉快",
-    "literalMeaningCn": "心里亮起来",
-    "metaphorMeaningCn": "欢喜得整个人发亮",
-    "metaphorOptions": ["欢喜得整个人发亮", "擦亮旧椅子", "画着图案的卡片"],
-    "mnemonicNote": "de(加强)+light(光)：心里亮堂，就是欢喜",
-    "sourceNote": "古法语 delitier，de- + leitier(愉悦)"
-  },
-  "motive": {
-    "modernMeaningCn": "动机、目的",
-    "literalMeaningCn": "推动的那股",
-    "metaphorMeaningCn": "让人动起来的缘由",
-    "metaphorOptions": ["让人动起来的缘由", "开往城市的车", "厨房里的机器"],
-    "mnemonicNote": "mot(移动)+ive：推着人动起来的那个缘由",
-    "sourceNote": "拉丁 motivus，movere(移动)"
-  },
-  "fiction": {
-    "modernMeaningCn": "小说、虚构",
-    "literalMeaningCn": "做出来的",
-    "metaphorMeaningCn": "编出来的故事",
-    "metaphorOptions": ["编出来的故事", "读黑板上的文字", "写满记录的本子"],
-    "mnemonicNote": "fic(做、成)+tion：做出来的故事，是编的",
-    "sourceNote": "拉丁 fictio，fingere(塑造、虚构)"
-  },
-  "retail": {
-    "modernMeaningCn": "零售、零卖",
-    "literalMeaningCn": "再切开来",
-    "metaphorMeaningCn": "一小份一小份地卖",
-    "metaphorOptions": ["一小份一小份地卖", "市场卖的柠檬", "数二十个硬币"],
-    "mnemonicNote": "re(再)+tail(切割)：整批切开，一份份卖",
-    "sourceNote": "古法语 retailler，re- + tailler(切割)"
-  },
-  "consume": {
-    "modernMeaningCn": "消耗、消费",
-    "literalMeaningCn": "全拿走用掉",
-    "metaphorMeaningCn": "一点点用到光为止",
-    "metaphorOptions": ["一点点用到光为止", "厨房做出的面包", "装蜜蜂的箱子"],
-    "mnemonicNote": "con(完全)+sume(拿取)：整份拿去用掉",
-    "sourceNote": "拉丁 consumere，con-(完全) + sumere(拿取)"
-  },
-  "duration": {
-    "modernMeaningCn": "持续时间、期间",
-    "literalMeaningCn": "持续的那段",
-    "metaphorMeaningCn": "一件事拖了多久",
-    "metaphorOptions": ["一件事拖了多久", "数二十个硬币", "南方的车站"],
-    "mnemonicNote": "dur(持续)+ation：持续下来的那段时间",
-    "sourceNote": "拉丁 duratio，durare(持续)"
-  },
-  "accent": {
-    "modernMeaningCn": "口音、重音",
-    "literalMeaningCn": "伴着唱出的调",
-    "metaphorMeaningCn": "说话带的那股腔调",
-    "metaphorOptions": ["说话带的那股腔调", "读黑板上的文字", "画着图案的卡片"],
-    "mnemonicNote": "ac(朝向)+cent(唱)：说话时像唱歌的高低",
-    "sourceNote": "拉丁 accentus，ad- + cantus(歌唱)"
-  },
-  "justification": {
-    "modernMeaningCn": "正当理由、辩护",
-    "literalMeaningCn": "证明是公正的",
-    "metaphorMeaningCn": "为自己辩白的理由",
-    "metaphorOptions": ["为自己辩白的理由", "写满记录的本子", "锁在监狱的人"],
-    "mnemonicNote": "just(公正)+ification：把事情说成合理",
-    "sourceNote": "拉丁 justificatio，justus(公正) + facere(做)"
-  },
-  "successor": {
-    "modernMeaningCn": "继任者、继承人",
-    "literalMeaningCn": "接着走的人",
-    "metaphorMeaningCn": "接替上一位的那个人",
-    "metaphorOptions": ["接替上一位的那个人", "选城市里的人", "记在记录里的名字"],
-    "mnemonicNote": "success(接续)+or：接着往下走的那个人",
-    "sourceNote": "拉丁 successor，succedere(接着来)"
-  },
-  "hypothesis": {
-    "modernMeaningCn": "假设、假说",
-    "literalMeaningCn": "放在下面的",
-    "metaphorMeaningCn": "先立个待验证的说法",
-    "metaphorOptions": ["先立个待验证的说法", "读黑板上的文字", "建好的房子"],
-    "mnemonicNote": "hypo(在下)+thesis(放置)：垫在下面的待验证之说",
-    "sourceNote": "希腊 hypothesis，hypo-(在下) + tithenai(放置)"
-  }
+ "admission": {
+  "modernMeaningCn": "准许进入、承认",
+  "literalMeaningCn": "放进去",
+  "metaphorMeaningCn": "被放进来的许可",
+  "metaphorOptions": [
+   "被放进来的许可",
+   "心跳的一角",
+   "一种正确的的习俗"
+  ],
+  "mnemonicNote": "ad(朝向)+mission(派送)：朝里放行，准你进去",
+  "sourceNote": "拉丁 admissionem，ad-(朝向) + mittere(送)"
+ },
+ "violent": {
+  "modernMeaningCn": "暴力的、猛烈的",
+  "literalMeaningCn": "动粗的",
+  "metaphorMeaningCn": "出手很重伤人的",
+  "metaphorOptions": [
+   "出手很重伤人的",
+   "伏特的味道",
+   "推荐的另一面"
+  ],
+  "mnemonicNote": "viol(越界、施暴)+ent：越了界，动手伤人",
+  "sourceNote": "拉丁 violentus，violare(施暴)"
+ },
+ "sensible": {
+  "modernMeaningCn": "明智的、合理的",
+  "literalMeaningCn": "能感觉到的",
+  "metaphorMeaningCn": "想得通、懂分寸的",
+  "metaphorOptions": [
+   "想得通、懂分寸的",
+   "答应的工具",
+   "数着病状过日子"
+  ],
+  "mnemonicNote": "sens(感觉)+ible：察得出轻重，就是懂事",
+  "sourceNote": "拉丁 sensibilis，sentire(感觉)"
+ },
+ "sensation": {
+  "modernMeaningCn": "感觉、轰动",
+  "literalMeaningCn": "感觉这件事",
+  "metaphorMeaningCn": "身上一阵强烈的感受",
+  "metaphorOptions": [
+   "身上一阵强烈的感受",
+   "时间的味道",
+   "被道德规范的东西"
+  ],
+  "mnemonicNote": "sens(感觉)+ation：身体或心里的一阵感受",
+  "sourceNote": "拉丁 sensatio，sentire(感觉)"
+ },
+ "venture": {
+  "modernMeaningCn": "冒险、创业",
+  "literalMeaningCn": "将要来到的",
+  "metaphorMeaningCn": "前途未卜的一次尝试",
+  "metaphorOptions": [
+   "前途未卜的一次尝试",
+   "平滑的的影子",
+   "把仁慈翻开"
+  ],
+  "mnemonicNote": "vent(来)+ure：往前去碰那还没到的事",
+  "sourceNote": "拉丁 adventura（即将发生之事），venire(来)"
+ },
+ "continuous": {
+  "modernMeaningCn": "连续的、持续的",
+  "literalMeaningCn": "一直接续着",
+  "metaphorMeaningCn": "中间没断过地接着",
+  "metaphorOptions": [
+   "中间没断过地接着",
+   "王室的旧事",
+   "日期的背面"
+  ],
+  "mnemonicNote": "continu(继续)+ous：接着不停的",
+  "sourceNote": "拉丁 continuus，continere(连着)"
+ },
+ "native": {
+  "modernMeaningCn": "本地的、天生的",
+  "literalMeaningCn": "生来就属于",
+  "metaphorMeaningCn": "生在这片土地上的",
+  "metaphorOptions": [
+   "生在这片土地上的",
+   "开场白的一角",
+   "一种植物的习俗"
+  ],
+  "mnemonicNote": "nat(出生)+ive：生在哪儿就属哪儿",
+  "sourceNote": "拉丁 nativus，nasci(出生)"
+ },
+ "generous": {
+  "modernMeaningCn": "慷慨的、大量的",
+  "literalMeaningCn": "产出很多的",
+  "metaphorMeaningCn": "出手大方不吝啬",
+  "metaphorOptions": [
+   "出手大方不吝啬",
+   "使习惯于的小站",
+   "守着田地过活"
+  ],
+  "mnemonicNote": "gener(产生)+ous：产出多，给得起",
+  "sourceNote": "拉丁 generosus（出自名门、大方）"
+ },
+ "automatic": {
+  "modernMeaningCn": "自动的、机械的",
+  "literalMeaningCn": "自己会动",
+  "metaphorMeaningCn": "不用人管自己就走",
+  "metaphorOptions": [
+   "不用人管自己就走",
+   "数着叫声过日子",
+   "围着鬼压转"
+  ],
+  "mnemonicNote": "automat(自动装置)+ic：自己动起来的",
+  "sourceNote": "希腊 automatos（自己动的）"
+ },
+ "devise": {
+  "modernMeaningCn": "设计、想出",
+  "literalMeaningCn": "看出个法子",
+  "metaphorMeaningCn": "琢磨出一个办法",
+  "metaphorOptions": [
+   "琢磨出一个办法",
+   "把日子串起来",
+   "把一致的翻开"
+  ],
+  "mnemonicNote": "de(向下)+vise(看)：往细里看，想出法子",
+  "sourceNote": "古法语 deviser，de- + videre(看)"
+ },
+ "attribute": {
+  "modernMeaningCn": "属性、归因于",
+  "literalMeaningCn": "分派给它",
+  "metaphorMeaningCn": "把缘由归到某处",
+  "metaphorOptions": [
+   "把缘由归到某处",
+   "替内部的操心",
+   "离补丁很远"
+  ],
+  "mnemonicNote": "at(朝向)+tribute(给予)：把原因放到它头上",
+  "sourceNote": "拉丁 attribuere，ad-(朝向) + tribuere(分给)"
+ },
+ "assert": {
+  "modernMeaningCn": "断言、坚称",
+  "literalMeaningCn": "把手放上去",
+  "metaphorMeaningCn": "斩钉截铁地说定",
+  "metaphorOptions": [
+   "斩钉截铁地说定",
+   "班级的地方",
+   "使满意的小站"
+  ],
+  "mnemonicNote": "as(朝向)+sert(放置)：把话放到明处，咬定不改",
+  "sourceNote": "拉丁 asserere，ad- + serere(连接、放置)"
+ },
+ "desert": {
+  "modernMeaningCn": "沙漠、遗弃",
+  "literalMeaningCn": "不再连着",
+  "metaphorMeaningCn": "把地方弃下走掉",
+  "metaphorOptions": [
+   "把地方弃下走掉",
+   "一种烘焙的习俗",
+   "研究的人"
+  ],
+  "mnemonicNote": "de(去掉)+sert(连接)：断了联系，弃之而去",
+  "sourceNote": "拉丁 deserere，de- + serere(连接)"
+ },
+ "stability": {
+  "modernMeaningCn": "稳定性、安定",
+  "literalMeaningCn": "站得稳",
+  "metaphorMeaningCn": "不容易摇晃的程度",
+  "metaphorOptions": [
+   "不容易摇晃的程度",
+   "旋转的工具",
+   "数着女英雄过日子"
+  ],
+  "mnemonicNote": "stabil(稳固)+ity：稳当不倒的那个性质",
+  "sourceNote": "拉丁 stabilitas，stabilis(稳固)"
+ },
+ "delight": {
+  "modernMeaningCn": "高兴、使愉快",
+  "literalMeaningCn": "心里亮起来",
+  "metaphorMeaningCn": "欢喜得整个人发亮",
+  "metaphorOptions": [
+   "欢喜得整个人发亮",
+   "父亲的背面",
+   "被科学的东西"
+  ],
+  "mnemonicNote": "de(加强)+light(光)：心里亮堂，就是欢喜",
+  "sourceNote": "古法语 delitier，de- + leitier(愉悦)"
+ },
+ "motive": {
+  "modernMeaningCn": "动机、目的",
+  "literalMeaningCn": "推动的那股",
+  "metaphorMeaningCn": "让人动起来的缘由",
+  "metaphorOptions": [
+   "让人动起来的缘由",
+   "高出的另一面",
+   "器官的的味道"
+  ],
+  "mnemonicNote": "mot(移动)+ive：推着人动起来的那个缘由",
+  "sourceNote": "拉丁 motivus，movere(移动)"
+ },
+ "fiction": {
+  "modernMeaningCn": "小说、虚构",
+  "literalMeaningCn": "做出来的",
+  "metaphorMeaningCn": "编出来的故事",
+  "metaphorOptions": [
+   "编出来的故事",
+   "围着严肃的转",
+   "数着悬停过日子"
+  ],
+  "mnemonicNote": "fic(做、成)+tion：做出来的故事，是编的",
+  "sourceNote": "拉丁 fictio，fingere(塑造、虚构)"
+ },
+ "retail": {
+  "modernMeaningCn": "零售、零卖",
+  "literalMeaningCn": "再切开来",
+  "metaphorMeaningCn": "一小份一小份地卖",
+  "metaphorOptions": [
+   "一小份一小份地卖",
+   "把附上翻开",
+   "把课程的串起来"
+  ],
+  "mnemonicNote": "re(再)+tail(切割)：整批切开，一份份卖",
+  "sourceNote": "古法语 retailler，re- + tailler(切割)"
+ },
+ "consume": {
+  "modernMeaningCn": "消耗、消费",
+  "literalMeaningCn": "全拿走用掉",
+  "metaphorMeaningCn": "一点点用到光为止",
+  "metaphorOptions": [
+   "一点点用到光为止",
+   "磨坊的味道",
+   "被统治的东西"
+  ],
+  "mnemonicNote": "con(完全)+sume(拿取)：整份拿去用掉",
+  "sourceNote": "拉丁 consumere，con-(完全) + sumere(拿取)"
+ },
+ "duration": {
+  "modernMeaningCn": "持续时间、期间",
+  "literalMeaningCn": "持续的那段",
+  "metaphorMeaningCn": "一件事拖了多久",
+  "metaphorOptions": [
+   "一件事拖了多久",
+   "离可忍受的很远",
+   "非常的的过程"
+  ],
+  "mnemonicNote": "dur(持续)+ation：持续下来的那段时间",
+  "sourceNote": "拉丁 duratio，durare(持续)"
+ },
+ "accent": {
+  "modernMeaningCn": "口音、重音",
+  "literalMeaningCn": "伴着唱出的调",
+  "metaphorMeaningCn": "说话带的那股腔调",
+  "metaphorOptions": [
+   "说话带的那股腔调",
+   "令人厌烦的另一面",
+   "征服的味道"
+  ],
+  "mnemonicNote": "ac(朝向)+cent(唱)：说话时像唱歌的高低",
+  "sourceNote": "拉丁 accentus，ad- + cantus(歌唱)"
+ },
+ "justification": {
+  "modernMeaningCn": "正当理由、辩护",
+  "literalMeaningCn": "证明是公正的",
+  "metaphorMeaningCn": "为自己辩白的理由",
+  "metaphorOptions": [
+   "为自己辩白的理由",
+   "大门的小站",
+   "守着损毁过活"
+  ],
+  "mnemonicNote": "just(公正)+ification：把事情说成合理",
+  "sourceNote": "拉丁 justificatio，justus(公正) + facere(做)"
+ },
+ "successor": {
+  "modernMeaningCn": "继任者、继承人",
+  "literalMeaningCn": "接着走的人",
+  "metaphorMeaningCn": "接替上一位的那个人",
+  "metaphorOptions": [
+   "接替上一位的那个人",
+   "男孩的来路",
+   "意外事件的地方"
+  ],
+  "mnemonicNote": "success(接续)+or：接着往下走的那个人",
+  "sourceNote": "拉丁 successor，succedere(接着来)"
+ },
+ "hypothesis": {
+  "modernMeaningCn": "假设、假说",
+  "literalMeaningCn": "放在下面的",
+  "metaphorMeaningCn": "先立个待验证的说法",
+  "metaphorOptions": [
+   "先立个待验证的说法",
+   "全世界的的另一面",
+   "限制的味道"
+  ],
+  "mnemonicNote": "hypo(在下)+thesis(放置)：垫在下面的待验证之说",
+  "sourceNote": "希腊 hypothesis，hypo-(在下) + tithenai(放置)"
+ }
 }

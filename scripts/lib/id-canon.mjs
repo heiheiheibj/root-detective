@@ -81,6 +81,10 @@ export const CIGEN_ROOT_GROUPS = [
   ['insula', 'nsula'],
   ['pass', 'passer'],
   ['not', 'note', 'iced'],
+  // 批次 07：appreciate 上游切到 preci(价值)，cigen 标的是 reci —— 同一词根两种拼法
+  ['preci', 'reci'],
+  // undermine 上游切到 min(挖)，cigen 标的是 mine —— 同一词根两种拼法
+  ['min', 'mine'],
 ]
 
 /** 词库 id → 可接受的一组同根 id（含自己）。命中任一即算对上。 */

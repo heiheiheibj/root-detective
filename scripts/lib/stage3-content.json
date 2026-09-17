@@ -1,5 +1,5 @@
 {
- "_comment": "Stage 3 内容配置：197 家族 / 553 词（由 build-stage3-config.mjs 合并 batch-01 + batch-02 + batch-03 + batch-04 + batch-05 + batch-06 生成；源头=stage1-content.json + stage-additions/*，不要手改本文件）。",
+ "_comment": "Stage 3 内容配置：197 家族 / 553 词（由 build-stage3-config.mjs 合并 batch-01 + batch-02 + batch-03 + batch-04 + batch-05 + batch-06 + batch-07 生成；源头=stage1-content.json + stage-additions/*，不要手改本文件）。",
  "families": {
   "spec": {
    "roots": [
@@ -2018,9 +2018,99 @@
   "medieval": "medi 家族补充；仅标 toefl/ielts，保送过 6.2",
   "sausage": "sal 家族补充；仅标 ielts，保送过 6.2",
   "diameter": "metr 家族补充；仅标 toefl/ielts，保送过 6.2",
-  "toothache": "tooth+ache 两个教学词根拼成的词，构词最直白，卡片能一眼看懂「牙 + 痛」；bnc 21284 略高于 20000 的常用度阈值，但它是 zk/gk 考试词。"
+  "toothache": "tooth+ache 两个教学词根拼成的词，构词最直白，卡片能一眼看懂「牙 + 痛」；bnc 21284 略高于 20000 的常用度阈值，但它是 zk/gk 考试词。",
+  "divide": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "hotdog": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "icecream": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "schoolbag": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "addicted": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "airmail": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "appreciate": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "backache": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "ballpoint": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "beancurd": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "bedclothes": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "birdcage": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "bookmark": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "centigrade": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "changeable": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "glasshouse": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "greengrocer": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "handtruck": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "miniskirt": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "oceania": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "playroom": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "postbox": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "postcode": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "regards": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "rewind": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "salesgirl": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "saleswoman": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "sharpener": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "skipping": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "stomachache": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "stopwatch": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "subtraction": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "sunburnt": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "washroom": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "dishonour": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "dissatisfy": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "fatherinlaw": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "livingroom": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "outskirt": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "preposition": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "reflexion": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "seaport": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "uptodate": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "wellknown": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "accessary": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "acquisitive": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "bewilder": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "byproduct": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "dully": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "dynamical": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "insulator": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "kilowatt": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "lamentation": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "outermost": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "photoelectric": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "predestine": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "protend": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "regenerative": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "sittingroom": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "snobbish": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "solvable": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "strangler": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "subscript": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "tactics": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "thoughtless": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "touchable": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "ultrasonic": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "undermine": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "vitamine": "批次07补收：6.2 缺考试标签但切分已含 root",
+  "workpiece": "批次07补收：6.2 缺考试标签但切分已含 root"
  },
  "splits": {
+  "fatherinlaw": [
+   {
+    "id": "father",
+    "surface": "father"
+   },
+   {
+    "id": "inlaw",
+    "surface": "inlaw"
+   }
+  ],
+  "sittingroom": [
+   {
+    "id": "sitting",
+    "surface": "sitting"
+   },
+   {
+    "id": "room",
+    "surface": "room"
+   }
+  ],
   "circumspect": [
    {
     "id": "circum",
@@ -20814,16 +20904,6 @@
     "surface": "able"
    }
   ],
-  "fatherinlaw": [
-   {
-    "id": "father",
-    "surface": "father"
-   },
-   {
-    "id": "inlaw",
-    "surface": "inlaw"
-   }
-  ],
   "favorable": [
    {
     "id": "favor",
@@ -33012,16 +33092,6 @@
     "surface": "ity"
    }
   ],
-  "sittingroom": [
-   {
-    "id": "sitting",
-    "surface": "sitting"
-   },
-   {
-    "id": "room",
-    "surface": "room"
-   }
-  ],
   "skeptical": [
    {
     "id": "skeptic",
@@ -42150,7 +42220,8 @@
    "meaningCn": "地点",
    "allomorphs": [
     "sit",
-    "site"
+    "site",
+    "sitt"
    ],
    "etymology": "",
    "level": 3,
@@ -65727,7 +65798,8 @@
     "dict",
     "port",
     "nect",
-    "nounce"
+    "nounce",
+    "script"
    ]
   },
   {
@@ -66137,7 +66209,11 @@
     "four",
     "seven",
     "six",
-    "corr"
+    "corr",
+    "bag",
+    "well",
+    "insula",
+    "solve"
    ]
   },
   {

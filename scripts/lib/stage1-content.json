@@ -237,6 +237,16 @@
   "envision": "vid 家族唯一 d5；visible/vision/revise/visibility 实测均无 d5 词，envision 仅标 toefl/gre 无 cet4/cet6，强制保送（6.4 难度=5）"
  },
  "splits": {
+  "fatherinlaw": [
+   { "id": "father", "surface": "father" },
+   { "id": "in", "surface": "in" },
+   { "id": "law", "surface": "law" }
+  ],
+  "sittingroom": [
+   { "id": "sit", "surface": "sitt" },
+   { "id": "ing", "surface": "ing" },
+   { "id": "room", "surface": "room" }
+  ],
   "circumspect": [
    {
     "id": "circum",
