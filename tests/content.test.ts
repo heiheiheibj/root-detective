@@ -10,9 +10,9 @@ import {
 } from '../src/domain/contentRules'
 import { createInitialProgress, morphemes, rootMorphemes, wordsByRoot, worlds } from '../src/domain/data'
 import { fullWords as words } from './fullWords'
-import { residueAllowlist, rootD5StructuralGap, unmodeledDistractorAllowlist } from './gates'
+import { residueAllowlist, rootD5StructuralGap, rootD1StructuralGap, unmodeledDistractorAllowlist } from './gates'
 
-const options = { residueAllowlist, unmodeledDistractorAllowlist, rootD5StructuralGap, generated: false }
+const options = { residueAllowlist, unmodeledDistractorAllowlist, rootD5StructuralGap, rootD1StructuralGap, generated: false }
 const format = (findings: ReturnType<typeof validateContent>) => findings.map((finding) => `[${finding.rule}] ${finding.target}：${finding.message}`)
 
 describe('结构化内容校验', () => {
@@ -138,5 +138,22 @@ describe('结构化内容校验', () => {
       return family.some((word) => word.difficulty === 5)
     })
     expect(stale, `这些词根已有 d5 词，不该还在白名单里：${stale.join('、')}`).toEqual([])
+  })
+
+  it('A23 结构性缺口白名单没过期（放行的词根确实还缺 d1）', () => {
+    // 与 d5 同源：条目里的词根如果哪天真的有了 d1 词，说明它已经「可补」，不该再被放行。
+    const wordsPerRoot = new Map<string, typeof words>()
+    for (const word of words) {
+      for (const part of word.parts) {
+        const family = wordsPerRoot.get(part.morphemeId) ?? []
+        family.push(word)
+        wordsPerRoot.set(part.morphemeId, family)
+      }
+    }
+    const stale = Object.keys(rootD1StructuralGap).filter((rootId) => {
+      const family = wordsPerRoot.get(rootId) ?? []
+      return family.some((word) => word.difficulty === 1)
+    })
+    expect(stale, `这些词根已有 d1 词，不该还在白名单里：${stale.join('、')}`).toEqual([])
   })
 })

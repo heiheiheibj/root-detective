@@ -1,0 +1,202 @@
+{
+  "ballet": {
+    "exampleEn": "What's your favorite ballet?",
+    "exampleCn": "你最喜欢哪部芭蕾舞剧？"
+  },
+  "burial": {
+    "exampleEn": "When is the burial?",
+    "exampleCn": "葬礼什么时候举行？"
+  },
+  "catalogue": {
+    "exampleEn": "That's this year's catalogue.",
+    "exampleCn": "那是今年的商品目录。"
+  },
+  "freeway": {
+    "exampleEn": "Get on the freeway.",
+    "exampleCn": "上高速公路。"
+  },
+  "iceland": {
+    "exampleEn": "Iceland has many volcanoes.",
+    "exampleCn": "冰岛有许多火山。"
+  },
+  "sideways": {
+    "exampleEn": "Turn your head sideways.",
+    "exampleCn": "把头侧过来。"
+  },
+  "softball": {
+    "exampleEn": "The boys played softball.",
+    "exampleCn": "男孩们打了垒球。"
+  },
+  "superman": {
+    "exampleEn": "Superman is a superhero.",
+    "exampleCn": "超人是一位超级英雄。"
+  },
+  "unfold": {
+    "exampleEn": "Tom watched the suspicious situation unfold.",
+    "exampleCn": "汤姆看着这可疑的局势逐渐展开。"
+  },
+  "unsafe": {
+    "exampleEn": "I don't feel unsafe.",
+    "exampleCn": "我并不觉得不安全。"
+  },
+  "wayside": {
+    "exampleEn": "That tradition has fallen by the wayside.",
+    "exampleCn": "那个传统已被人淡忘。"
+  },
+  "workmate": {
+    "exampleEn": "Tom attacked his workmate.",
+    "exampleCn": "汤姆攻击了他的同事。"
+  },
+  "foremost": {
+    "exampleEn": "First and foremost, show respect.",
+    "exampleCn": "首要的是，要表现出尊重。"
+  },
+  "freely": {
+    "exampleEn": "He freely praised her.",
+    "exampleCn": "他由衷地称赞她。"
+  },
+  "geology": {
+    "exampleEn": "Tom is studying geology.",
+    "exampleCn": "汤姆正在学习地质学。"
+  },
+  "outset": {
+    "exampleEn": "We knew it from the outset.",
+    "exampleCn": "我们从一开始就知道这件事。"
+  },
+  "photographic": {
+    "exampleEn": "I have photographic evidence.",
+    "exampleCn": "我有照片证据。"
+  },
+  "unkind": {
+    "exampleEn": "I think him unkind.",
+    "exampleCn": "我觉得他不厚道。"
+  },
+  "workman": {
+    "exampleEn": "Ziri is a workman.",
+    "exampleCn": "齐里是一名工匠。"
+  },
+  "automate": {
+    "exampleEn": "This would be so much faster if my boss would let me automate it.",
+    "exampleCn": "要是我老板让我把它自动化，就能快多了。"
+  },
+  "chronic": {
+    "exampleEn": "My conjunctivitis is chronic.",
+    "exampleCn": "我的结膜炎是慢性的。"
+  },
+  "chronicle": {
+    "exampleEn": "That old chronicle is on the left.",
+    "exampleCn": "那本古老的编年史在左边。"
+  },
+  "ethnic": {
+    "exampleEn": "What's your favorite ethnic food?",
+    "exampleCn": "你最喜欢哪种民族风味的食物？"
+  },
+  "fixture": {
+    "exampleEn": "Tom installed a new light fixture.",
+    "exampleCn": "汤姆安装了一个新的灯具。"
+  },
+  "headlong": {
+    "exampleEn": "You're racing headlong toward disaster.",
+    "exampleCn": "你正一头冲向灾难。"
+  },
+  "hemisphere": {
+    "exampleEn": "What hemisphere are we in?",
+    "exampleCn": "我们在哪个半球？"
+  },
+  "homely": {
+    "exampleEn": "Mary is a homely girl.",
+    "exampleCn": "玛丽是个相貌平平的女孩。"
+  },
+  "neuron": {
+    "exampleEn": "Not a single neuron appeared to be firing.",
+    "exampleCn": "似乎没有一个神经元在放电。"
+  },
+  "offset": {
+    "exampleEn": "Is there any way to offset those costs?",
+    "exampleCn": "有什么办法能抵消那些成本吗？"
+  },
+  "pathetic": {
+    "exampleEn": "Waste your pathetic life.",
+    "exampleCn": "浪费你那可悲的一生吧。"
+  },
+  "philanthropy": {
+    "exampleEn": "Philanthropy is the highest virtue.",
+    "exampleCn": "慈善是至高的美德。"
+  },
+  "preset": {
+    "exampleEn": "You can always preset it.",
+    "exampleCn": "你随时可以预先设定它。"
+  },
+  "preside": {
+    "exampleEn": "Tom offered to preside at the meeting.",
+    "exampleCn": "汤姆主动提出主持这次会议。"
+  },
+  "prolong": {
+    "exampleEn": "Wealth doesn't prolong life.",
+    "exampleCn": "财富并不能延长寿命。"
+  },
+  "prototype": {
+    "exampleEn": "This is a prototype.",
+    "exampleCn": "这是一个原型。"
+  },
+  "setback": {
+    "exampleEn": "That was a setback.",
+    "exampleCn": "那是一个挫折。"
+  },
+  "soften": {
+    "exampleEn": "Soften your tone, please.",
+    "exampleCn": "请放柔你的语气。"
+  },
+  "softness": {
+    "exampleEn": "I can't forget her softness.",
+    "exampleCn": "我忘不了她的温柔。"
+  },
+  "waver": {
+    "exampleEn": "We will also not waver in our values and our principles as a nation.",
+    "exampleCn": "作为一个国家，我们在价值观和原则上也不会动摇。"
+  },
+  "videophone": {
+    "exampleEn": "The videophone lets us see each other while talking.",
+    "exampleCn": "这部可视电话让我们通话时能看见彼此。"
+  },
+  "afternoon": {
+    "exampleEn": "Ken is busy this afternoon.",
+    "exampleCn": "肯今天下午很忙。"
+  },
+  "friend": {
+    "exampleEn": "Bob is my friend.",
+    "exampleCn": "鲍勃是我的朋友。"
+  },
+  "indian": {
+    "exampleEn": "Muiriel is an Indian.",
+    "exampleCn": "缪里尔是印度人。"
+  },
+  "cookie": {
+    "exampleEn": "Cookie's mother died of cancer.",
+    "exampleCn": "库基的母亲死于癌症。"
+  },
+  "storage": {
+    "exampleEn": "My phone needs to have enough storage for my apps.",
+    "exampleCn": "我的手机需要足够存储空间来装应用。"
+  },
+  "unknown": {
+    "exampleEn": "Tom is an unknown artist.",
+    "exampleCn": "汤姆是个不知名的艺术家。"
+  },
+  "workplace": {
+    "exampleEn": "She feels safe in her workplace.",
+    "exampleCn": "她在工作场所里感到安心。"
+  },
+  "wounded": {
+    "exampleEn": "Tom has been wounded.",
+    "exampleCn": "汤姆负伤了。"
+  },
+  "indoors": {
+    "exampleEn": "Catherine stayed indoors because it was raining.",
+    "exampleCn": "因为外面在下雨，凯瑟琳留在了室内。"
+  },
+  "charcoal": {
+    "exampleEn": "Tom does not know the difference between charcoal and carbon.",
+    "exampleCn": "汤姆不知道木炭和碳的区别。"
+  }
+}

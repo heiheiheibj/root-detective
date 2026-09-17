@@ -35,16 +35,17 @@
   {
     "id": "time-vault",
     "name": "时光库",
-    "description": "学习词根：cent、pend（时光库）",
+    "description": "学习词根：cent、pend、time（时光库）",
     "morphemeIds": [
       "cent",
-      "pend"
+      "pend",
+      "time"
     ]
   },
   {
     "id": "action-forge",
     "name": "行动工坊",
-    "description": "学习词根：ject、mob、aud、voc、cred、fic、fect、fact（行动工坊）",
+    "description": "学习词根：ject、mob、aud、voc、cred、fic、fect、fact、son、phone（行动工坊）",
     "morphemeIds": [
       "ject",
       "mob",
@@ -53,19 +54,22 @@
       "cred",
       "fic",
       "fect",
-      "fact"
+      "fact",
+      "son",
+      "phone"
     ]
   },
   {
     "id": "word-mill",
     "name": "词语磨坊",
-    "description": "学习词根：log、grad、graph、tract、fac（词语磨坊）",
+    "description": "学习词根：log、grad、graph、tract、fac、type（词语磨坊）",
     "morphemeIds": [
       "log",
       "grad",
       "graph",
       "tract",
-      "fac"
+      "fac",
+      "type"
     ]
   },
   {
@@ -86,7 +90,7 @@
   {
     "id": "cargo-dock",
     "name": "货运码头",
-    "description": "学习词根：mit、fer、ven、pos、form、pel、produce、duct、duce（货运码头）",
+    "description": "学习词根：mit、fer、ven、pos、form、pel、produce、duct、duce、ship（货运码头）",
     "morphemeIds": [
       "mit",
       "fer",
@@ -96,7 +100,8 @@
       "pel",
       "produce",
       "duct",
-      "duce"
+      "duce",
+      "ship"
     ]
   },
   {
@@ -131,7 +136,7 @@
   {
     "id": "script-atelier",
     "name": "手稿画室",
-    "description": "学习词根：scrib、art、nov、mir、hab、liter、labor、write、new（手稿画室）",
+    "description": "学习词根：scrib、art、nov、mir、hab、liter、labor、write、new、gram（手稿画室）",
     "morphemeIds": [
       "scrib",
       "art",
@@ -141,7 +146,8 @@
       "liter",
       "labor",
       "write",
-      "new"
+      "new",
+      "gram"
     ]
   },
   {
@@ -162,46 +168,54 @@
   {
     "id": "day-room",
     "name": "起居室",
-    "description": "学习词根：day、room、house、bath、chair、night（起居室）",
+    "description": "学习词根：day、room、house、bath、chair、night、home（起居室）",
     "morphemeIds": [
       "day",
       "room",
       "house",
       "bath",
       "chair",
-      "night"
+      "night",
+      "home"
     ]
   },
   {
     "id": "body-clinic",
     "name": "身体馆",
-    "description": "学习词根：body、hand、foot、tooth、ache、manu（身体馆）",
+    "description": "学习词根：body、hand、foot、tooth、ache、manu、man、head（身体馆）",
     "morphemeIds": [
       "body",
       "hand",
       "foot",
       "tooth",
       "ache",
-      "manu"
+      "manu",
+      "man",
+      "head"
     ]
   },
   {
     "id": "nature-field",
     "name": "原野",
-    "description": "学习词根：sun、sea、rain、water、air、ground（原野）",
+    "description": "学习词根：sun、sea、rain、water、air、ground、geo、land、astro、eco、wave（原野）",
     "morphemeIds": [
       "sun",
       "sea",
       "rain",
       "water",
       "air",
-      "ground"
+      "ground",
+      "geo",
+      "land",
+      "astro",
+      "eco",
+      "wave"
     ]
   },
   {
     "id": "compass-tower",
     "name": "四方塔",
-    "description": "学习词根：north、south、west、line、direct、position、where（四方塔）",
+    "description": "学习词根：north、south、west、line、direct、position、where、back、tele、side（四方塔）",
     "morphemeIds": [
       "north",
       "south",
@@ -209,13 +223,16 @@
       "line",
       "direct",
       "position",
-      "where"
+      "where",
+      "back",
+      "tele",
+      "side"
     ]
   },
   {
     "id": "hold-vault",
     "name": "持握库",
-    "description": "学习词根：tain、ten、take、prise、ceive、quest、cip、sumere（持握库）",
+    "description": "学习词根：tain、ten、take、prise、ceive、quest、cip、sumere、safe（持握库）",
     "morphemeIds": [
       "tain",
       "ten",
@@ -224,13 +241,14 @@
       "ceive",
       "quest",
       "cip",
-      "sumere"
+      "sumere",
+      "safe"
     ]
   },
   {
     "id": "motion-yard",
     "name": "行止院",
-    "description": "学习词根：act、ceed、pass、turn、cycle、stand、gress、sta、cess、stance、stant、motive（行止院）",
+    "description": "学习词根：act、ceed、pass、turn、cycle、stand、gress、sta、cess、stance、stant、motive、way、end、off（行止院）",
     "morphemeIds": [
       "act",
       "ceed",
@@ -243,19 +261,23 @@
       "cess",
       "stance",
       "stant",
-      "motive"
+      "motive",
+      "way",
+      "end",
+      "off"
     ]
   },
   {
     "id": "sense-gallery",
     "name": "感知廊",
-    "description": "学习词根：sent、vision、view、real、mean（感知廊）",
+    "description": "学习词根：sent、vision、view、real、mean、wise（感知廊）",
     "morphemeIds": [
       "sent",
       "vision",
       "view",
       "real",
-      "mean"
+      "mean",
+      "wise"
     ]
   },
   {
@@ -277,7 +299,7 @@
   {
     "id": "life-street",
     "name": "生活街",
-    "description": "学习词根：use、play、car、book、week、child、every（生活街）",
+    "description": "学习词根：use、play、car、book、week、child、every、ball（生活街）",
     "morphemeIds": [
       "use",
       "play",
@@ -285,7 +307,8 @@
       "book",
       "week",
       "child",
-      "every"
+      "every",
+      "ball"
     ]
   },
   {
@@ -327,7 +350,7 @@
   {
     "id": "hearth-forge",
     "name": "炉火坊",
-    "description": "学习词根：fire、light、electric、wind、snow、wood、plant、pan（炉火坊）",
+    "description": "学习词根：fire、light、electric、wind、snow、wood、plant、pan、photo（炉火坊）",
     "morphemeIds": [
       "fire",
       "light",
@@ -336,13 +359,14 @@
       "snow",
       "wood",
       "plant",
-      "pan"
+      "pan",
+      "photo"
     ]
   },
   {
     "id": "measure-terrace",
     "name": "度量台",
-    "description": "学习词根：east、short、high、space、point、normal、wide、centre、count、circ（度量台）",
+    "description": "学习词根：east、short、high、space、point、normal、wide、centre、count、circ、most、micro、long（度量台）",
     "morphemeIds": [
       "east",
       "short",
@@ -353,20 +377,26 @@
       "wide",
       "centre",
       "count",
-      "circ"
+      "circ",
+      "most",
+      "micro",
+      "long"
     ]
   },
   {
     "id": "will-hall",
     "name": "心志堂",
-    "description": "学习词根：sist、tempt、willing、firm、certain、pat（心志堂）",
+    "description": "学习词根：sist、tempt、willing、firm、certain、pat、auto、self、free（心志堂）",
     "morphemeIds": [
       "sist",
       "tempt",
       "willing",
       "firm",
       "certain",
-      "pat"
+      "pat",
+      "auto",
+      "self",
+      "free"
     ]
   },
   {
@@ -427,7 +457,7 @@
   {
     "id": "lumber-store",
     "name": "杂物仓",
-    "description": "学习词根：box、case、fit、load、organ、access、minim、special、fresh、main、host、ordin（杂物仓）",
+    "description": "学习词根：box、case、fit、load、organ、access、minim、special、fresh、main、host、ordin、set（杂物仓）",
     "morphemeIds": [
       "box",
       "case",
@@ -440,7 +470,8 @@
       "fresh",
       "main",
       "host",
-      "ordin"
+      "ordin",
+      "set"
     ]
   },
   {
@@ -468,13 +499,14 @@
   {
     "id": "critique-hall",
     "name": "评议堂",
-    "description": "学习词根：critic、respect、correspond、sense、name（评议堂）",
+    "description": "学习词根：critic、respect、correspond、sense、name、worth（评议堂）",
     "morphemeIds": [
       "critic",
       "respect",
       "correspond",
       "sense",
-      "name"
+      "name",
+      "worth"
     ]
   },
   {
@@ -507,7 +539,7 @@
   {
     "id": "livelihood-lane",
     "name": "生计巷",
-    "description": "学习词根：operate、possible、skill、simple、vary、por、store（生计巷）",
+    "description": "学习词根：operate、possible、skill、simple、vary、por、store、work（生计巷）",
     "morphemeIds": [
       "operate",
       "possible",
@@ -515,7 +547,8 @@
       "simple",
       "vary",
       "por",
-      "store"
+      "store",
+      "work"
     ]
   },
   {
@@ -563,7 +596,7 @@
   {
     "id": "discern-hall",
     "name": "明辨堂",
-    "description": "学习词根：not、clear、clude、min、gener、cut、sham、sect、tail（明辨堂）",
+    "description": "学习词根：not、clear、clude、min、gener、cut、sham、sect、tail、kind（明辨堂）",
     "morphemeIds": [
       "not",
       "clear",
@@ -573,16 +606,18 @@
       "cut",
       "sham",
       "sect",
-      "tail"
+      "tail",
+      "kind"
     ]
   },
   {
     "id": "temper-yard",
     "name": "刚柔场",
-    "description": "学习词根：intense、mature（刚柔场）",
+    "description": "学习词根：intense、mature、soft（刚柔场）",
     "morphemeIds": [
       "intense",
-      "mature"
+      "mature",
+      "soft"
     ]
   }
 ]

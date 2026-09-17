@@ -44,6 +44,14 @@ export interface ContentRuleOptions {
    * 能补的（语料里确有 d5 词，只是没收进来）**不许进这张表** —— 那种是选题疏漏，要继续报警。
    */
   rootD5StructuralGap?: Record<string, string>
+  /**
+   * A23「教学词根缺 d1」的**结构性缺口**清单：`{ 词根 id: 书面理由 }`。
+   * 只收「翻遍可切分考试词库，也找不到含该词根的 zk/gk 入门词」这种**补不出来**的情况
+   * （tight/script 这类词根天然只有高级派生，基础词本身不在词库里）。由
+   * `scripts/tools/build-a23-d5-gap.mjs` 从语料算出来（与 d5 同一脚本、同一口径）。
+   * 能补的（语料里确有入门词）**不许进这张表** —— 那种是选题疏漏，要继续报警。
+   */
+  rootD1StructuralGap?: Record<string, string>
 }
 
 /** 产物里应当有多少个词。测试和闸门都读它，避免两边各说各话。 */
@@ -386,7 +394,13 @@ export function validateContent(morphemes: readonly Morpheme[], words: readonly 
       // 高级派生（tighten/tightly/watertight），基础词本身不在词库里，这是词表性质决定的，
       // 不是数据缺陷。20 号那侧口径已同步改为提示，两边保持一致。
       if (!family.some((word) => word.difficulty === 1)) {
-        say('warning', 'A23', rootId, '教学词素没有任何 difficulty-1 的词，初学者一时碰不到它')
+        // 结构性缺口：语料里压根没有含该词根的入门词（见 options.rootD1StructuralGap 的定义
+        // 与它的生成脚本）—— 报警只会变成永远修不完的噪音，但仍要在报告里留一行说明，
+        // 不能看着像「跑过了」。能补的词根一律不在这张表里。
+        const reason = options.rootD1StructuralGap?.[rootId]
+        if (reason === undefined) {
+          say('warning', 'A23', rootId, '教学词素没有任何 difficulty-1 的词，初学者一时碰不到它')
+        }
       }
       if (!family.some((word) => word.difficulty === 5)) {
         // 结构性缺口：语料里压根没有含该词根的难词（见 options.rootD5StructuralGap 的定义

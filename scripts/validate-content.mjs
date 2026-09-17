@@ -34,6 +34,7 @@ const unmodeledDistractorAllowlist = readAllowlist('unmodeled-distractor-allowli
 // A23「教学词根缺 d5」的结构性缺口：由 scripts/tools/build-a23-d5-gap.mjs 从语料算出，
 // 只收「翻遍可切分考试词库也没有含该词根的 cet6 词」的词根。没进这张表的缺 d5 词根照常报警。
 const rootD5StructuralGap = readAllowlist('a23-d5-structural-gap.json')
+const rootD1StructuralGap = readAllowlist('a23-d1-structural-gap.json')
 
 // 有 provenance 边车才说明这批词是管线生成的；没有就是手写的 canary 切片。
 const generated = existsSync(join(here, '.work', 'derived', 'provenance.json'))
@@ -54,7 +55,7 @@ for (const w of words) for (const p of w.parts) famSize.set(p.morphemeId, (famSi
 const teachingRootIds = new Set([...famSize].filter(([, n]) => n >= MIN_WORDS_PER_ROOT).map(([id]) => id))
 
 const findings = [
-  ...validateContent(morphemes, words, { residueAllowlist, unmodeledDistractorAllowlist, generated, handwrittenIds: canarySet, rootD5StructuralGap }),
+  ...validateContent(morphemes, words, { residueAllowlist, unmodeledDistractorAllowlist, generated, handwrittenIds: canarySet, rootD5StructuralGap, rootD1StructuralGap }),
   ...validateWorlds(morphemes, worlds, teachingRootIds),
 ]
 
@@ -153,6 +154,13 @@ for (const line of failures) console.log(`✗ [script] ${line}`)
   const stillWarned = findings.filter((f) => f.rule === 'A23' && /difficulty-5/.test(f.message)).map((f) => f.target)
   if (gapIds.length) {
     console.log(`– A23 d5：${gapIds.length} 个教学词根记为「结构性缺口」（全语料里没有含它的 cet6 词，补不出来），不再逐条报警 —— 依据 scripts/gates/a23-d5-structural-gap.json。${stillWarned.length ? `仍在报警 ${stillWarned.length} 个（语料里确有可收的 d5 词）：${stillWarned.join('、')}` : ''}`)
+  }
+}
+{
+  const gapIds = Object.keys(rootD1StructuralGap)
+  const stillWarned = findings.filter((f) => f.rule === 'A23' && /difficulty-1/.test(f.message)).map((f) => f.target)
+  if (gapIds.length) {
+    console.log(`– A23 d1：${gapIds.length} 个教学词根记为「结构性缺口」（全语料里没有含它的 zk/gk 入门词，补不出来），不再逐条报警 —— 依据 scripts/gates/a23-d1-structural-gap.json。${stillWarned.length ? `仍在报警 ${stillWarned.length} 个（语料里确有可收的入门词）：${stillWarned.join('、')}` : ''}`)
   }
 }
 

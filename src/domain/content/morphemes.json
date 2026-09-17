@@ -444,7 +444,7 @@
   },
   {
     "id": "cata",
-    "type": "prefix",
+    "type": "root",
     "displayText": "cata-",
     "meaningCn": "向下、完全",
     "allomorphs": [
@@ -452,7 +452,7 @@
     ],
     "level": 5,
     "etymology": "来自希腊语 kata，表示向下",
-    "color": "blue"
+    "color": "orange"
   },
   {
     "id": "uni",
@@ -468,7 +468,7 @@
   },
   {
     "id": "auto",
-    "type": "prefix",
+    "type": "root",
     "displayText": "auto-",
     "meaningCn": "自己、自动",
     "allomorphs": [
@@ -476,7 +476,7 @@
     ],
     "level": 3,
     "etymology": "来自希腊语 autos，意为自己",
-    "color": "blue"
+    "color": "orange"
   },
   {
     "id": "ben",
@@ -530,7 +530,7 @@
   },
   {
     "id": "photo",
-    "type": "prefix",
+    "type": "root",
     "displayText": "photo-",
     "meaningCn": "光",
     "allomorphs": [
@@ -538,7 +538,7 @@
     ],
     "level": 3,
     "etymology": "来自希腊语 phos，意为光",
-    "color": "blue"
+    "color": "orange"
   },
   {
     "id": "at",
@@ -732,6 +732,18 @@
     "etymology": "来自希腊语 logos，学问；ology 为接元音变体"
   },
   {
+    "id": "graphy",
+    "type": "suffix",
+    "displayText": "-graphy",
+    "meaningCn": "……的写法、记录（名词）",
+    "allomorphs": [
+      "graphy"
+    ],
+    "level": 4,
+    "etymology": "来自希腊语 -graphia，意为写法",
+    "color": "green"
+  },
+  {
     "id": "ury",
     "type": "suffix",
     "displayText": "-ury",
@@ -903,8 +915,7 @@
       "pos",
       "pon",
       "pose",
-      "posit",
-      "pone"
+      "posit"
     ],
     "level": 1,
     "color": "orange",
@@ -5814,14 +5825,14 @@
   {
     "id": "back",
     "displayText": "back-",
-    "type": "prefix",
+    "type": "root",
     "meaningCn": "向后",
     "allomorphs": [
       "back"
     ],
     "etymology": "",
     "level": 3,
-    "color": "blue"
+    "color": "orange"
   },
   {
     "id": "be",
@@ -5880,7 +5891,8 @@
     "type": "prefix",
     "meaningCn": "向外",
     "allomorphs": [
-      "out"
+      "out",
+      "ut"
     ],
     "etymology": "",
     "level": 3,
@@ -5959,6 +5971,18 @@
     "color": "blue"
   },
   {
+    "id": "geo",
+    "displayText": "geo-",
+    "type": "root",
+    "meaningCn": "地",
+    "allomorphs": [
+      "geo"
+    ],
+    "etymology": "",
+    "level": 1,
+    "color": "orange"
+  },
+  {
     "id": "by",
     "displayText": "by-",
     "type": "prefix",
@@ -5986,26 +6010,26 @@
   {
     "id": "self",
     "displayText": "self-",
-    "type": "prefix",
+    "type": "root",
     "meaningCn": "自身",
     "allomorphs": [
       "self"
     ],
     "etymology": "",
     "level": 1,
-    "color": "blue"
+    "color": "orange"
   },
   {
     "id": "home",
     "displayText": "home-",
-    "type": "prefix",
+    "type": "root",
     "meaningCn": "家",
     "allomorphs": [
       "home"
     ],
     "etymology": "",
     "level": 1,
-    "color": "blue"
+    "color": "orange"
   },
   {
     "id": "im",
@@ -6125,7 +6149,8 @@
     "type": "prefix",
     "meaningCn": "前",
     "allomorphs": [
-      "pre"
+      "pre",
+      "pro"
     ],
     "etymology": "",
     "level": 3,
@@ -6180,16 +6205,28 @@
     "color": "blue"
   },
   {
+    "id": "techno",
+    "displayText": "techno-",
+    "type": "root",
+    "meaningCn": "计技术",
+    "allomorphs": [
+      "techno"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "tele",
     "displayText": "tele-",
-    "type": "prefix",
+    "type": "root",
     "meaningCn": "远",
     "allomorphs": [
       "tele"
     ],
     "etymology": "",
     "level": 1,
-    "color": "blue"
+    "color": "orange"
   },
   {
     "id": "tran",
@@ -6270,7 +6307,8 @@
     "meaningCn": "一",
     "allomorphs": [
       "on",
-      "one"
+      "one",
+      "n"
     ],
     "etymology": "",
     "level": 3,
@@ -6282,7 +6320,8 @@
     "type": "suffix",
     "meaningCn": "站立",
     "allomorphs": [
-      "st"
+      "st",
+      "states"
     ],
     "etymology": "",
     "level": 1,
@@ -6291,14 +6330,14 @@
   {
     "id": "most",
     "displayText": "-most",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "最",
     "allomorphs": [
       "most"
     ],
     "etymology": "",
     "level": 3,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "all",
@@ -6315,14 +6354,14 @@
   {
     "id": "way",
     "displayText": "-way",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "路",
     "allomorphs": [
       "way"
     ],
     "etymology": "",
     "level": 1,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "ar",
@@ -6352,26 +6391,26 @@
   {
     "id": "ball",
     "displayText": "-ball",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "球",
     "allomorphs": [
       "ball"
     ],
     "etymology": "",
     "level": 1,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "side",
     "displayText": "-side",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "边",
     "allomorphs": [
       "side"
     ],
     "etymology": "",
     "level": 1,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "ing",
@@ -6412,14 +6451,15 @@
   {
     "id": "man",
     "displayText": "-man",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "人；手",
     "allomorphs": [
-      "man"
+      "man",
+      "mann"
     ],
     "etymology": "",
     "level": 3,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "ry",
@@ -6497,14 +6537,14 @@
   {
     "id": "corn",
     "displayText": "-corn",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "玉蜀黍",
     "allomorphs": [
       "corn"
     ],
     "etymology": "",
     "level": 3,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "ly",
@@ -6587,14 +6627,14 @@
   {
     "id": "land",
     "displayText": "-land",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "土地",
     "allomorphs": [
       "land"
     ],
     "etymology": "",
     "level": 1,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "tic",
@@ -6646,40 +6686,77 @@
     "color": "green"
   },
   {
-    "id": "ship",
-    "displayText": "-ship",
-    "type": "suffix",
-    "meaningCn": "船",
+    "id": "free",
+    "displayText": "-free",
+    "type": "root",
+    "meaningCn": "免……的",
     "allomorphs": [
-      "ship"
+      "free",
+      "frie"
+    ],
+    "etymology": "",
+    "level": 1,
+    "color": "orange"
+  },
+  {
+    "id": "and",
+    "displayText": "-and",
+    "type": "suffix",
+    "meaningCn": "和",
+    "allomorphs": [
+      "nd"
     ],
     "etymology": "",
     "level": 3,
     "color": "green"
   },
   {
+    "id": "friend",
+    "displayText": "-friend",
+    "type": "root",
+    "meaningCn": "朋友",
+    "allomorphs": [
+      "friend"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "ship",
+    "displayText": "-ship",
+    "type": "root",
+    "meaningCn": "船",
+    "allomorphs": [
+      "ship"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "gram",
     "displayText": "-gram",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "写",
     "allomorphs": [
       "gram"
     ],
     "etymology": "",
     "level": 1,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "son",
     "displayText": "-son",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "儿子",
     "allomorphs": [
       "son"
     ],
     "etymology": "",
     "level": 1,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "some",
@@ -6696,26 +6773,26 @@
   {
     "id": "head",
     "displayText": "-head",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "头",
     "allomorphs": [
       "head"
     ],
     "etymology": "",
     "level": 3,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "work",
     "displayText": "-work",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "工作",
     "allomorphs": [
       "work"
     ],
     "etymology": "",
     "level": 3,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "ever",
@@ -6737,7 +6814,8 @@
     "meaningCn": "眼睛",
     "allomorphs": [
       "ey",
-      "eye"
+      "eye",
+      "is"
     ],
     "etymology": "",
     "level": 1,
@@ -6855,6 +6933,18 @@
     "color": "green"
   },
   {
+    "id": "person",
+    "displayText": "-person",
+    "type": "root",
+    "meaningCn": "人",
+    "allomorphs": [
+      "person"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "et",
     "displayText": "-et",
     "type": "suffix",
@@ -6883,14 +6973,14 @@
   {
     "id": "safe",
     "displayText": "-safe",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "安全",
     "allomorphs": [
       "safe"
     ],
     "etymology": "",
     "level": 1,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "wich",
@@ -6905,6 +6995,18 @@
     "color": "green"
   },
   {
+    "id": "speak",
+    "displayText": "-speak",
+    "type": "root",
+    "meaningCn": "说话",
+    "allomorphs": [
+      "speak"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "ard",
     "displayText": "-ard",
     "type": "suffix",
@@ -6915,6 +7017,18 @@
     "etymology": "",
     "level": 3,
     "color": "green"
+  },
+  {
+    "id": "phone",
+    "displayText": "-phone",
+    "type": "root",
+    "meaningCn": "声音",
+    "allomorphs": [
+      "phone"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
   },
   {
     "id": "ible",
@@ -6955,14 +7069,14 @@
   {
     "id": "end",
     "displayText": "-end",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "末端",
     "allomorphs": [
       "end"
     ],
     "etymology": "",
     "level": 3,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "normal",
@@ -8097,7 +8211,7 @@
     "id": "curd",
     "displayText": "curd",
     "type": "root",
-    "meaningCn": "凝乳化凝乳",
+    "meaningCn": "凝乳",
     "allomorphs": [
       "curd"
     ],
@@ -14552,6 +14666,31 @@
     "color": "blue"
   },
   {
+    "id": "astro",
+    "displayText": "astro-",
+    "type": "root",
+    "meaningCn": "天文的",
+    "allomorphs": [
+      "astro",
+      "aster"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "atmo",
+    "displayText": "atmo-",
+    "type": "root",
+    "meaningCn": "表示大气",
+    "allomorphs": [
+      "atmo"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "enter",
     "displayText": "enter-",
     "type": "prefix",
@@ -14614,14 +14753,14 @@
   {
     "id": "eco",
     "displayText": "eco-",
-    "type": "prefix",
+    "type": "root",
     "meaningCn": "生态",
     "allomorphs": [
       "eco"
     ],
     "etymology": "",
     "level": 1,
-    "color": "blue"
+    "color": "orange"
   },
   {
     "id": "em",
@@ -14651,6 +14790,18 @@
     "color": "blue"
   },
   {
+    "id": "helico",
+    "displayText": "helico-",
+    "type": "root",
+    "meaningCn": "表示螺旋之义",
+    "allomorphs": [
+      "helico"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "il",
     "displayText": "il-",
     "type": "prefix",
@@ -14669,7 +14820,8 @@
     "type": "prefix",
     "meaningCn": "不",
     "allomorphs": [
-      "ir"
+      "ir",
+      "ire"
     ],
     "etymology": "",
     "level": 5,
@@ -14678,14 +14830,14 @@
   {
     "id": "micro",
     "displayText": "micro-",
-    "type": "prefix",
+    "type": "root",
     "meaningCn": "微小",
     "allomorphs": [
       "micro"
     ],
     "etymology": "",
     "level": 3,
-    "color": "blue"
+    "color": "orange"
   },
   {
     "id": "mid",
@@ -14724,12 +14876,36 @@
     "color": "blue"
   },
   {
+    "id": "psycho",
+    "displayText": "psycho-",
+    "type": "root",
+    "meaningCn": "心理分析",
+    "allomorphs": [
+      "psycho"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "radio",
     "displayText": "radio-",
     "type": "prefix",
     "meaningCn": "射线；无线电",
     "allomorphs": [
       "radio"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "blue"
+  },
+  {
+    "id": "scot",
+    "displayText": "scot-",
+    "type": "prefix",
+    "meaningCn": "摊派的款项",
+    "allomorphs": [
+      "scot"
     ],
     "etymology": "",
     "level": 3,
@@ -14871,6 +15047,55 @@
     "color": "green"
   },
   {
+    "id": "naut",
+    "displayText": "-naut",
+    "type": "suffix",
+    "meaningCn": "船舶的海上的",
+    "allomorphs": [
+      "naut"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "green"
+  },
+  {
+    "id": "nomy",
+    "displayText": "-nomy",
+    "type": "suffix",
+    "meaningCn": "表示法则",
+    "allomorphs": [
+      "nomy"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "green"
+  },
+  {
+    "id": "sphere",
+    "displayText": "-sphere",
+    "type": "root",
+    "meaningCn": "球",
+    "allomorphs": [
+      "sphere"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "long",
+    "displayText": "-long",
+    "type": "root",
+    "meaningCn": "长",
+    "allomorphs": [
+      "long",
+      "ling"
+    ],
+    "etymology": "",
+    "level": 5,
+    "color": "orange"
+  },
+  {
     "id": "ical",
     "displayText": "-ical",
     "type": "suffix",
@@ -14897,14 +15122,14 @@
   {
     "id": "cast",
     "displayText": "-cast",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "撒",
     "allomorphs": [
       "cast"
     ],
     "etymology": "",
     "level": 3,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "hood",
@@ -14919,12 +15144,36 @@
     "color": "green"
   },
   {
+    "id": "bury",
+    "displayText": "-bury",
+    "type": "root",
+    "meaningCn": "埋葬",
+    "allomorphs": [
+      "buri"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "woman",
     "displayText": "-woman",
     "type": "suffix",
     "meaningCn": "女人",
     "allomorphs": [
       "woman"
+    ],
+    "etymology": "",
+    "level": 1,
+    "color": "green"
+  },
+  {
+    "id": "logue",
+    "displayText": "-logue",
+    "type": "suffix",
+    "meaningCn": "说",
+    "allomorphs": [
+      "logue"
     ],
     "etymology": "",
     "level": 1,
@@ -15005,6 +15254,18 @@
     "color": "green"
   },
   {
+    "id": "like",
+    "displayText": "-like",
+    "type": "suffix",
+    "meaningCn": "像……的",
+    "allomorphs": [
+      "like"
+    ],
+    "etymology": "",
+    "level": 1,
+    "color": "green"
+  },
+  {
     "id": "wards",
     "displayText": "-wards",
     "type": "suffix",
@@ -15053,6 +15314,18 @@
     "color": "green"
   },
   {
+    "id": "metry",
+    "displayText": "-metry",
+    "type": "suffix",
+    "meaningCn": "测量",
+    "allomorphs": [
+      "metry"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "green"
+  },
+  {
     "id": "fish",
     "displayText": "-fish",
     "type": "suffix",
@@ -15063,6 +15336,30 @@
     "etymology": "",
     "level": 3,
     "color": "green"
+  },
+  {
+    "id": "pter",
+    "displayText": "-pter",
+    "type": "suffix",
+    "meaningCn": "表示羽翼之义",
+    "allomorphs": [
+      "pter"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "green"
+  },
+  {
+    "id": "kind",
+    "displayText": "-kind",
+    "type": "root",
+    "meaningCn": "类",
+    "allomorphs": [
+      "kind"
+    ],
+    "etymology": "",
+    "level": 1,
+    "color": "orange"
   },
   {
     "id": "yer",
@@ -15079,26 +15376,38 @@
   {
     "id": "time",
     "displayText": "-time",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "时间",
     "allomorphs": [
       "time"
     ],
     "etymology": "",
     "level": 5,
-    "color": "green"
+    "color": "orange"
+  },
+  {
+    "id": "scope",
+    "displayText": "-scope",
+    "type": "root",
+    "meaningCn": "范围",
+    "allomorphs": [
+      "scope"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
   },
   {
     "id": "wave",
     "displayText": "-wave",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "波浪",
     "allomorphs": [
       "wave"
     ],
     "etymology": "",
     "level": 5,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "um",
@@ -15139,26 +15448,27 @@
   {
     "id": "off",
     "displayText": "-off",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "离开",
     "allomorphs": [
       "off"
     ],
     "etymology": "",
     "level": 3,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "wise",
     "displayText": "-wise",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "方式",
     "allomorphs": [
-      "wise"
+      "wise",
+      "wis"
     ],
     "etymology": "",
     "level": 3,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "pine",
@@ -15183,6 +15493,30 @@
     "etymology": "",
     "level": 3,
     "color": "green"
+  },
+  {
+    "id": "ways",
+    "displayText": "-ways",
+    "type": "suffix",
+    "meaningCn": "在方向的",
+    "allomorphs": [
+      "ways"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "green"
+  },
+  {
+    "id": "soft",
+    "displayText": "-soft",
+    "type": "root",
+    "meaningCn": "软",
+    "allomorphs": [
+      "soft"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
   },
   {
     "id": "stock",
@@ -15211,14 +15545,14 @@
   {
     "id": "set",
     "displayText": "-set",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "放置",
     "allomorphs": [
       "set"
     ],
     "etymology": "",
     "level": 3,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "atic",
@@ -15247,14 +15581,27 @@
   {
     "id": "type",
     "displayText": "-type",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "字模",
     "allomorphs": [
-      "type"
+      "type",
+      "typ"
     ],
     "etymology": "",
     "level": 3,
-    "color": "green"
+    "color": "orange"
+  },
+  {
+    "id": "fold",
+    "displayText": "-fold",
+    "type": "root",
+    "meaningCn": "乘以",
+    "allomorphs": [
+      "fold"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
   },
   {
     "id": "wash",
@@ -15271,14 +15618,15 @@
   {
     "id": "worth",
     "displayText": "-worth",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "价值",
     "allomorphs": [
-      "worth"
+      "worth",
+      "wor"
     ],
     "etymology": "",
     "level": 3,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "absolute",
@@ -20261,6 +20609,30 @@
     "color": "orange"
   },
   {
+    "id": "pari",
+    "displayText": "pari-",
+    "type": "prefix",
+    "meaningCn": "帕里球员名",
+    "allomorphs": [
+      "pari"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "blue"
+  },
+  {
+    "id": "cost",
+    "displayText": "cost-",
+    "type": "root",
+    "meaningCn": "代价",
+    "allomorphs": [
+      "cost"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "equi",
     "displayText": "equi-",
     "type": "prefix",
@@ -20371,10 +20743,22 @@
   {
     "id": "philo",
     "displayText": "philo-",
-    "type": "prefix",
+    "type": "root",
     "meaningCn": "爱",
     "allomorphs": [
       "philo"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "proto",
+    "displayText": "proto-",
+    "type": "prefix",
+    "meaningCn": "计原型",
+    "allomorphs": [
+      "proto"
     ],
     "etymology": "",
     "level": 3,
@@ -20453,6 +20837,18 @@
     "color": "green"
   },
   {
+    "id": "nom",
+    "displayText": "-nom",
+    "type": "root",
+    "meaningCn": "名义上的等于",
+    "allomorphs": [
+      "nom"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "inlaw",
     "displayText": "-inlaw",
     "type": "suffix",
@@ -20501,6 +20897,54 @@
     "color": "green"
   },
   {
+    "id": "meter",
+    "displayText": "-meter",
+    "type": "root",
+    "meaningCn": "测量",
+    "allomorphs": [
+      "meter"
+    ],
+    "etymology": "",
+    "level": 5,
+    "color": "orange"
+  },
+  {
+    "id": "lord",
+    "displayText": "-lord",
+    "type": "root",
+    "meaningCn": "统治者",
+    "allomorphs": [
+      "lord"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "sophy",
+    "displayText": "-sophy",
+    "type": "suffix",
+    "meaningCn": "表示知识",
+    "allomorphs": [
+      "sophy"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "green"
+  },
+  {
+    "id": "graphic",
+    "displayText": "-graphic",
+    "type": "suffix",
+    "meaningCn": "形象的",
+    "allomorphs": [
+      "graphic"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "green"
+  },
+  {
     "id": "ably",
     "displayText": "-ably",
     "type": "suffix",
@@ -20535,6 +20979,18 @@
     "etymology": "",
     "level": 3,
     "color": "green"
+  },
+  {
+    "id": "tropic",
+    "displayText": "-tropic",
+    "type": "root",
+    "meaningCn": "回归线",
+    "allomorphs": [
+      "tropic"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
   },
   {
     "id": "proof",
@@ -26439,6 +26895,18 @@
     "color": "orange"
   },
   {
+    "id": "chron",
+    "displayText": "chron-",
+    "type": "root",
+    "meaningCn": "时",
+    "allomorphs": [
+      "chron"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "counter",
     "displayText": "counter-",
     "type": "prefix",
@@ -26487,6 +26955,18 @@
     "color": "blue"
   },
   {
+    "id": "ethno",
+    "displayText": "ethno-",
+    "type": "root",
+    "meaningCn": "辨证法人种心理学",
+    "allomorphs": [
+      "ethn"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "god",
     "displayText": "god-",
     "type": "prefix",
@@ -26499,16 +26979,28 @@
     "color": "blue"
   },
   {
+    "id": "hemi",
+    "displayText": "hemi-",
+    "type": "prefix",
+    "meaningCn": "半",
+    "allomorphs": [
+      "hemi"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "blue"
+  },
+  {
     "id": "hydro",
     "displayText": "hydro-",
-    "type": "prefix",
+    "type": "root",
     "meaningCn": "水",
     "allomorphs": [
       "hydro"
     ],
     "etymology": "",
     "level": 3,
-    "color": "blue"
+    "color": "orange"
   },
   {
     "id": "infra",
@@ -26535,6 +27027,18 @@
     "color": "blue"
   },
   {
+    "id": "neuro",
+    "displayText": "neuro-",
+    "type": "root",
+    "meaningCn": "神经",
+    "allomorphs": [
+      "neuro"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "ortho",
     "displayText": "ortho-",
     "type": "prefix",
@@ -26557,6 +27061,30 @@
     "etymology": "",
     "level": 3,
     "color": "blue"
+  },
+  {
+    "id": "phil",
+    "displayText": "phil-",
+    "type": "root",
+    "meaningCn": "哲学",
+    "allomorphs": [
+      "phil"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "stereo",
+    "displayText": "stereo-",
+    "type": "root",
+    "meaningCn": "铅版",
+    "allomorphs": [
+      "stereo"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
   },
   {
     "id": "syn",
@@ -26619,6 +27147,18 @@
     "color": "green"
   },
   {
+    "id": "icle",
+    "displayText": "-icle",
+    "type": "suffix",
+    "meaningCn": "小（表小称）",
+    "allomorphs": [
+      "icle"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "green"
+  },
+  {
     "id": "uous",
     "displayText": "-uous",
     "type": "suffix",
@@ -26643,6 +27183,18 @@
     "color": "green"
   },
   {
+    "id": "fix",
+    "displayText": "-fix",
+    "type": "root",
+    "meaningCn": "使固定",
+    "allomorphs": [
+      "fix"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
     "id": "ture",
     "displayText": "-ture",
     "type": "suffix",
@@ -26657,14 +27209,14 @@
   {
     "id": "path",
     "displayText": "-path",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "道路",
     "allomorphs": [
       "path"
     ],
     "etymology": "",
     "level": 3,
-    "color": "green"
+    "color": "orange"
   },
   {
     "id": "full",
@@ -26705,14 +27257,50 @@
   {
     "id": "nap",
     "displayText": "-nap",
-    "type": "suffix",
+    "type": "root",
     "meaningCn": "小睡",
     "allomorphs": [
       "nap"
     ],
     "etymology": "",
     "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "scape",
+    "displayText": "-scape",
+    "type": "root",
+    "meaningCn": "景色",
+    "allomorphs": [
+      "scape"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
+  },
+  {
+    "id": "anthropy",
+    "displayText": "-anthropy",
+    "type": "suffix",
+    "meaningCn": "人",
+    "allomorphs": [
+      "anthropy"
+    ],
+    "etymology": "",
+    "level": 3,
     "color": "green"
+  },
+  {
+    "id": "lock",
+    "displayText": "-lock",
+    "type": "root",
+    "meaningCn": "锁",
+    "allomorphs": [
+      "lock"
+    ],
+    "etymology": "",
+    "level": 3,
+    "color": "orange"
   },
   {
     "id": "missan",
@@ -27030,7 +27618,7 @@
     "id": "automat",
     "displayText": "automat",
     "type": "root",
-    "meaningCn": "自动装置；自动操作",
+    "meaningCn": "自动",
     "allomorphs": [
       "automat"
     ],

@@ -1,0 +1,1322 @@
+{
+  "almost": {
+    "modernMeaningCn": "几乎；差不多",
+    "literalMeaningCn": "全部之中唯独差一点",
+    "metaphorMeaningCn": "只差最后一口气的满杯",
+    "metaphorOptions": [
+      "只差最后一口气的满杯",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "al(全)+most(最)",
+    "sourceNote": "batch-08  collateral：man/most 词素解锁"
+  },
+  "australian": {
+    "modernMeaningCn": "澳大利亚的；澳大利亚人",
+    "literalMeaningCn": "南方大陆的居民",
+    "metaphorMeaningCn": "南半球那片红色荒漠的主人",
+    "metaphorOptions": [
+      "南半球那片红色荒漠的主人",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "austral(南)+ian(…的)",
+    "sourceNote": "batch-08  collateral：恢复 -an 后缀词素"
+  },
+  "african": {
+    "modernMeaningCn": "非洲的；非洲人",
+    "literalMeaningCn": "阿非利加大陆的",
+    "metaphorMeaningCn": "赤道烈阳下辽阔草原的儿女",
+    "metaphorOptions": [
+      "赤道烈阳下辽阔草原的儿女",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "afric(非洲)+ian(…的)",
+    "sourceNote": "batch-08  collateral：恢复 -an 后缀词素"
+  },
+  "russian": {
+    "modernMeaningCn": "俄罗斯的；俄罗斯人",
+    "literalMeaningCn": "罗斯土地的",
+    "metaphorMeaningCn": "冰雪与白桦林国度的人",
+    "metaphorOptions": [
+      "冰雪与白桦林国度的人",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "russ(罗斯)+ian(…的)",
+    "sourceNote": "batch-08  collateral：恢复 -an 后缀词素"
+  },
+  "asian": {
+    "modernMeaningCn": "亚洲的；亚洲人",
+    "literalMeaningCn": "朝东日出之地的",
+    "metaphorMeaningCn": "旭日初升大陆的住民",
+    "metaphorOptions": [
+      "旭日初升大陆的住民",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "asi(亚细亚)+an(…的)",
+    "sourceNote": "batch-08  collateral：恢复 -an 后缀词素"
+  },
+  "nor": {
+    "modernMeaningCn": "也不；也没有",
+    "literalMeaningCn": "否定再加否定",
+    "metaphorMeaningCn": "关上第二扇也本可开的门",
+    "metaphorOptions": [
+      "关上第二扇也本可开的门",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "与 neither 同源，表‘也不’",
+    "sourceNote": "batch-08  collateral：恢复 nor 词素"
+  },
+  "moan": {
+    "modernMeaningCn": "呻吟；哀叹",
+    "literalMeaningCn": "低沉的痛苦声",
+    "metaphorMeaningCn": "风里裹着的一声声叹息",
+    "metaphorOptions": [
+      "风里裹着的一声声叹息",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "拟声词，低沉拖长的声音",
+    "sourceNote": "batch-08  collateral：恢复 moan 词素"
+  },
+  "fortune": {
+    "modernMeaningCn": "财富；运气",
+    "literalMeaningCn": "命中注定的际遇",
+    "metaphorMeaningCn": "命运女神随手撒下的金砂",
+    "metaphorOptions": [
+      "命运女神随手撒下的金砂",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "fort(运气/机会)+une(名词)",
+    "sourceNote": "batch-08  collateral：恢复 fortune 词素"
+  },
+  "dictation": {
+    "modernMeaningCn": "听写；口述记录",
+    "literalMeaningCn": "被说出来的文字",
+    "metaphorMeaningCn": "声音落进笔尖变成字",
+    "metaphorOptions": [
+      "声音落进笔尖变成字",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "dict(说)+ation(名词)",
+    "sourceNote": "batch-08  collateral：恢复 dictation 词素"
+  },
+  "island": {
+    "modernMeaningCn": "岛；岛屿",
+    "literalMeaningCn": "水包围的陆地",
+    "metaphorMeaningCn": "被海抱在怀里的土地",
+    "metaphorOptions": [
+      "被海抱在怀里的土地",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "is(=aqu水)+land(陆地)",
+    "sourceNote": "batch-08  collateral：man/land 词素解锁"
+  },
+  "iceland": {
+    "modernMeaningCn": "冰岛",
+    "literalMeaningCn": "冰封的岛屿",
+    "metaphorMeaningCn": "火与冰共舞的极北孤岛",
+    "metaphorOptions": [
+      "火与冰共舞的极北孤岛",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "ice(冰)+land(岛)",
+    "sourceNote": "batch-08  collateral：man/land 词素解锁"
+  },
+  "ireland": {
+    "modernMeaningCn": "爱尔兰",
+    "literalMeaningCn": "西方的岛屿",
+    "metaphorMeaningCn": "翡翠色海风中的绿岛",
+    "metaphorOptions": [
+      "翡翠色海风中的绿岛",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "ire(西)+land(岛)",
+    "sourceNote": "batch-08  collateral：man/land 词素解锁"
+  },
+  "inland": {
+    "modernMeaningCn": "内陆的；内地",
+    "literalMeaningCn": "远离海岸的陆地",
+    "metaphorMeaningCn": "走进大陆腹心的深处",
+    "metaphorOptions": [
+      "走进大陆腹心的深处",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "in(内)+land(陆地)",
+    "sourceNote": "batch-08  collateral：man/land 词素解锁"
+  },
+  "manage": {
+    "modernMeaningCn": "管理；设法做到",
+    "literalMeaningCn": "用手驾驭",
+    "metaphorMeaningCn": "把一群脱缰的马重新拢回手中",
+    "metaphorOptions": [
+      "把一群脱缰的马重新拢回手中",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "man(手)+age(动词)",
+    "sourceNote": "batch-08  collateral：man 词素解锁"
+  },
+  "person": {
+    "modernMeaningCn": "人；人物",
+    "literalMeaningCn": "戴面具的角色",
+    "metaphorMeaningCn": "舞台上戴起面具的演员",
+    "metaphorOptions": [
+      "舞台上戴起面具的演员",
+      "像种类一样的制造",
+      "否定背后的单一"
+    ],
+    "mnemonicNote": "persona(面具)",
+    "sourceNote": "batch-08  collateral：person 词素解锁"
+  },
+  "personal": {
+    "modernMeaningCn": "个人的；私人的",
+    "literalMeaningCn": "属于某个人的",
+    "metaphorMeaningCn": "只贴着你名字的抽屉",
+    "metaphorOptions": [
+      "只贴着你名字的抽屉",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "person(人)+al(…的)",
+    "sourceNote": "batch-08  collateral：person 词素解锁"
+  },
+  "manner": {
+    "modernMeaningCn": "方式；举止",
+    "literalMeaningCn": "手的做法",
+    "metaphorMeaningCn": "人手摆出的姿态与章法",
+    "metaphorOptions": [
+      "人手摆出的姿态与章法",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "man(手)+ner(名词)",
+    "sourceNote": "batch-08  collateral：man 词素解锁"
+  },
+  "manly": {
+    "modernMeaningCn": "有男子气概的",
+    "literalMeaningCn": "像男人那样的",
+    "metaphorMeaningCn": "如松般挺拔的气度",
+    "metaphorOptions": [
+      "如松般挺拔的气度",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "man(男人)+ly(…的)",
+    "sourceNote": "batch-08  collateral：man 词素解锁"
+  },
+  "workman": {
+    "modernMeaningCn": "工人；工匠",
+    "literalMeaningCn": "做工的人",
+    "metaphorMeaningCn": "双手磨出茧的劳动者",
+    "metaphorOptions": [
+      "双手磨出茧的劳动者",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "work(工作)+man(人)",
+    "sourceNote": "batch-08  collateral：man/work 词素解锁"
+  },
+  "telephone": {
+    "modernMeaningCn": "电话",
+    "literalMeaningCn": "远处传来的声音",
+    "metaphorMeaningCn": "让声音跨山越海奔来的线",
+    "metaphorOptions": [
+      "让声音跨山越海奔来的线",
+      "误把种类当成向前",
+      "把共同翻成每一"
+    ],
+    "mnemonicNote": "tele(远)+phone(声音)",
+    "sourceNote": "batch-08  collateral：tele/phone 词素解锁"
+  },
+  "microphone": {
+    "modernMeaningCn": "麦克风；话筒",
+    "literalMeaningCn": "放大声音之物",
+    "metaphorMeaningCn": "把轻语扩成惊雷的喇叭",
+    "metaphorOptions": [
+      "把轻语扩成惊雷的喇叭",
+      "像种类一样的向前",
+      "共同背后的每一"
+    ],
+    "mnemonicNote": "micro(小)+phone(声音)",
+    "sourceNote": "batch-08  collateral：micro/phone 词素解锁"
+  },
+  "geography": {
+    "modernMeaningCn": "地理（学）",
+    "literalMeaningCn": "描述大地的学问",
+    "metaphorMeaningCn": "为山川河流绘制家谱",
+    "metaphorOptions": [
+      "为山川河流绘制家谱",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "geo(地)+graphy(写)",
+    "sourceNote": "batch-08  collateral：geo 词素解锁"
+  },
+  "telescope": {
+    "modernMeaningCn": "望远镜",
+    "literalMeaningCn": "看远处的镜子",
+    "metaphorMeaningCn": "把星空拉近到眼前的筒",
+    "metaphorOptions": [
+      "把星空拉近到眼前的筒",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "tele(远)+scope(看)",
+    "sourceNote": "batch-08  collateral：tele/scope 词素解锁"
+  },
+  "kilogram": {
+    "modernMeaningCn": "千克；公斤",
+    "literalMeaningCn": "一千个克",
+    "metaphorMeaningCn": "千枚小砝码叠成的重量",
+    "metaphorOptions": [
+      "千枚小砝码叠成的重量",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "kilo(千)+gram(克)",
+    "sourceNote": "batch-08  collateral：gram 词素解锁"
+  },
+  "program": {
+    "modernMeaningCn": "程序；计划；节目",
+    "literalMeaningCn": "写下来的东西",
+    "metaphorMeaningCn": "按步骤展开的剧本",
+    "metaphorOptions": [
+      "按步骤展开的剧本",
+      "种类的制造",
+      "一起与完全之间"
+    ],
+    "mnemonicNote": "pro(前)+gram(写)",
+    "sourceNote": "batch-08  collateral：gram 词素解锁"
+  },
+  "kilometer": {
+    "modernMeaningCn": "千米；公里",
+    "literalMeaningCn": "一千个米",
+    "metaphorMeaningCn": "千步连成的长尺",
+    "metaphorOptions": [
+      "千步连成的长尺",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "kilo(千)+meter(米)",
+    "sourceNote": "batch-08  collateral：meter 词素解锁"
+  },
+  "economy": {
+    "modernMeaningCn": "经济；节约",
+    "literalMeaningCn": "治家理财之道",
+    "metaphorMeaningCn": "把有限资源精打细算",
+    "metaphorOptions": [
+      "把有限资源精打细算",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "eco(家)+nomy(法则)",
+    "sourceNote": "batch-08  collateral：eco 词素解锁"
+  },
+  "economics": {
+    "modernMeaningCn": "经济学",
+    "literalMeaningCn": "关于经济的学问",
+    "metaphorMeaningCn": "研究财富如何流动的学科",
+    "metaphorOptions": [
+      "研究财富如何流动的学科",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "econom(经济)+ics(学)",
+    "sourceNote": "batch-08  collateral：eco 词素解锁"
+  },
+  "freedom": {
+    "modernMeaningCn": "自由",
+    "literalMeaningCn": "免于束缚的状态",
+    "metaphorMeaningCn": "挣脱锁链扑向旷野",
+    "metaphorOptions": [
+      "挣脱锁链扑向旷野",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "free+dom(状态)",
+    "sourceNote": "batch-08  collateral：free 词素解锁"
+  },
+  "freely": {
+    "modernMeaningCn": "自由地；随意地",
+    "literalMeaningCn": "以自由的方式",
+    "metaphorMeaningCn": "像风一样不受拦挡",
+    "metaphorOptions": [
+      "像风一样不受拦挡",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "free(自由)+ly(…地)",
+    "sourceNote": "batch-08  collateral：free 词素解锁"
+  },
+  "softball": {
+    "modernMeaningCn": "垒球；软球",
+    "literalMeaningCn": "柔软的球",
+    "metaphorMeaningCn": "比棒球更温柔的那颗球",
+    "metaphorOptions": [
+      "比棒球更温柔的那颗球",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "soft(软)+ball(球)",
+    "sourceNote": "batch-08  collateral：soft/ball 词素解锁"
+  },
+  "software": {
+    "modernMeaningCn": "软件",
+    "literalMeaningCn": "柔软的器物（非硬件）",
+    "metaphorMeaningCn": "机器里看不见的灵魂",
+    "metaphorOptions": [
+      "机器里看不见的灵魂",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "soft(软)+ware(器物)",
+    "sourceNote": "batch-08  collateral：soft 词素解锁"
+  },
+  "softly": {
+    "modernMeaningCn": "轻柔地；轻轻地",
+    "literalMeaningCn": "以柔软的方式",
+    "metaphorMeaningCn": "像羽毛落地的无声",
+    "metaphorOptions": [
+      "像羽毛落地的无声",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "soft(软)+ly(…地)",
+    "sourceNote": "batch-08  collateral：soft 词素解锁"
+  },
+  "mostly": {
+    "modernMeaningCn": "主要地；多半",
+    "literalMeaningCn": "最大部分地",
+    "metaphorMeaningCn": "十之有八九的倾向",
+    "metaphorOptions": [
+      "十之有八九的倾向",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "most(最)+ly(…地)",
+    "sourceNote": "batch-08  collateral：most 词素解锁"
+  },
+  "utmost": {
+    "modernMeaningCn": "极度的；最大限度的",
+    "literalMeaningCn": "最外面的程度",
+    "metaphorMeaningCn": "倾尽全力的最后一档",
+    "metaphorOptions": [
+      "倾尽全力的最后一档",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "ut(外)+most(最)",
+    "sourceNote": "batch-08  collateral：most 词素解锁"
+  },
+  "inside": {
+    "modernMeaningCn": "在里面；内部",
+    "literalMeaningCn": "在侧面之内",
+    "metaphorMeaningCn": "门背后的那片空间",
+    "metaphorOptions": [
+      "门背后的那片空间",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "in(内)+side(边)",
+    "sourceNote": "batch-08  collateral：side 词素解锁"
+  },
+  "outside": {
+    "modernMeaningCn": "在外面；外部",
+    "literalMeaningCn": "在侧面之外",
+    "metaphorMeaningCn": "墙外的开阔地",
+    "metaphorOptions": [
+      "墙外的开阔地",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "out(外)+side(边)",
+    "sourceNote": "batch-08  collateral：side 词素解锁"
+  },
+  "sideway": {
+    "modernMeaningCn": "侧向的；旁边的",
+    "literalMeaningCn": "朝边的",
+    "metaphorMeaningCn": "偏过身子让出的窄道",
+    "metaphorOptions": [
+      "偏过身子让出的窄道",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "side(边)+way(路)",
+    "sourceNote": "batch-08  collateral：side/way 词素解锁"
+  },
+  "sideways": {
+    "modernMeaningCn": "向侧面；斜着",
+    "literalMeaningCn": "朝边地",
+    "metaphorMeaningCn": "脖子一歪看世界",
+    "metaphorOptions": [
+      "脖子一歪看世界",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "side(边)+ways(方式)",
+    "sourceNote": "batch-08  collateral：side 词素解锁"
+  },
+  "worker": {
+    "modernMeaningCn": "工人；工作者",
+    "literalMeaningCn": "做工的人",
+    "metaphorMeaningCn": "用汗水换日头的劳作者",
+    "metaphorOptions": [
+      "用汗水换日头的劳作者",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "work(工作)+er(人)",
+    "sourceNote": "batch-08  collateral：work 词素解锁"
+  },
+  "microwave": {
+    "modernMeaningCn": "微波；微波炉",
+    "literalMeaningCn": "微小的波",
+    "metaphorMeaningCn": "看不见却加热饭菜的短波",
+    "metaphorOptions": [
+      "看不见却加热饭菜的短波",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "micro(小)+wave(波)",
+    "sourceNote": "batch-08  collateral：micro/wave 词素解锁"
+  },
+  "landlord": {
+    "modernMeaningCn": "房东；地主",
+    "literalMeaningCn": "土地的主人",
+    "metaphorMeaningCn": "收租的那把钥匙的主人",
+    "metaphorOptions": [
+      "收租的那把钥匙的主人",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "land(地)+lord(主人)",
+    "sourceNote": "batch-08  collateral：land/lord 词素解锁"
+  },
+  "landing": {
+    "modernMeaningCn": "着陆；楼梯平台",
+    "literalMeaningCn": "落到地上",
+    "metaphorMeaningCn": "飞机轻吻跑道的一刻",
+    "metaphorOptions": [
+      "飞机轻吻跑道的一刻",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "land(地)+ing(动作)",
+    "sourceNote": "batch-08  collateral：land 词素解锁"
+  },
+  "landscape": {
+    "modernMeaningCn": "风景；景观",
+    "literalMeaningCn": "一片陆地之景",
+    "metaphorMeaningCn": "天地铺开的一幅画",
+    "metaphorOptions": [
+      "天地铺开的一幅画",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "land(地)+scape(景)",
+    "sourceNote": "batch-08  collateral：land/scape 词素解锁"
+  },
+  "kindness": {
+    "modernMeaningCn": "仁慈；好意",
+    "literalMeaningCn": "有种类之善",
+    "metaphorMeaningCn": "递来的那杯温水",
+    "metaphorOptions": [
+      "递来的那杯温水",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "kind(善)+ness(状态)",
+    "sourceNote": "batch-08  collateral：kind 词素解锁"
+  },
+  "homely": {
+    "modernMeaningCn": "家常的；朴素的",
+    "literalMeaningCn": "像家一样的",
+    "metaphorMeaningCn": "灶台边热乎的安稳",
+    "metaphorOptions": [
+      "灶台边热乎的安稳",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "home(家)+ly(…的)",
+    "sourceNote": "batch-08  collateral：home 词素解锁"
+  },
+  "upset": {
+    "modernMeaningCn": "使心烦；打乱",
+    "literalMeaningCn": "翻倒在上",
+    "metaphorMeaningCn": "把摆好的棋盘掀翻",
+    "metaphorOptions": [
+      "把摆好的棋盘掀翻",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "up(上)+set(放)",
+    "sourceNote": "batch-08  collateral：set 词素解锁"
+  },
+  "setback": {
+    "modernMeaningCn": "挫折；倒退",
+    "literalMeaningCn": "往回放",
+    "metaphorMeaningCn": "爬到半坡又滑下一步",
+    "metaphorOptions": [
+      "爬到半坡又滑下一步",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "set(放)+back(回)",
+    "sourceNote": "batch-08  collateral：set/back 词素解锁"
+  },
+  "stereotype": {
+    "modernMeaningCn": "刻板印象",
+    "literalMeaningCn": "固化的印模",
+    "metaphorMeaningCn": "同一个模子压出的脸谱",
+    "metaphorOptions": [
+      "同一个模子压出的脸谱",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "stereo(固)+type(型)",
+    "sourceNote": "batch-08  collateral：type 词素解锁"
+  },
+  "belong": {
+    "modernMeaningCn": "属于；应在",
+    "literalMeaningCn": "依于长处",
+    "metaphorMeaningCn": "根扎进该扎的土里",
+    "metaphorOptions": [
+      "根扎进该扎的土里",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "be(使)+long(属)",
+    "sourceNote": "batch-08  collateral：long 词素解锁"
+  },
+  "forecast": {
+    "modernMeaningCn": "预报；预测",
+    "literalMeaningCn": "在前方看清",
+    "metaphorMeaningCn": "举望远镜看将来的天气",
+    "metaphorOptions": [
+      "举望远镜看将来的天气",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "fore(前)+cast(掷/算)",
+    "sourceNote": "batch-08  collateral：fore/cast 词素解锁"
+  },
+  "forehead": {
+    "modernMeaningCn": "额头",
+    "literalMeaningCn": "前方的头部",
+    "metaphorMeaningCn": "脸最上方那片宽阔地",
+    "metaphorOptions": [
+      "脸最上方那片宽阔地",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "fore(前)+head(头)",
+    "sourceNote": "batch-08  collateral：fore/head 词素解锁"
+  },
+  "ending": {
+    "modernMeaningCn": "结局；结尾",
+    "literalMeaningCn": "结束之物",
+    "metaphorMeaningCn": "故事合上的最后一页",
+    "metaphorOptions": [
+      "故事合上的最后一页",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "end(结束)+ing(名词)",
+    "sourceNote": "batch-08  collateral：end 词素解锁"
+  },
+  "endless": {
+    "modernMeaningCn": "无尽的；无穷的",
+    "literalMeaningCn": "没有结束的",
+    "metaphorMeaningCn": "看不到头的长路",
+    "metaphorOptions": [
+      "看不到头的长路",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "end(结束)+less(无)",
+    "sourceNote": "batch-08  collateral：end 词素解锁"
+  },
+  "heading": {
+    "modernMeaningCn": "标题；朝…方向",
+    "literalMeaningCn": "头朝某方",
+    "metaphorMeaningCn": "文章额头上写的字",
+    "metaphorOptions": [
+      "文章额头上写的字",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "head(头)+ing",
+    "sourceNote": "batch-08  collateral：head 词素解锁"
+  },
+  "headlong": {
+    "modernMeaningCn": "头朝前地；仓促地",
+    "literalMeaningCn": "头向前地",
+    "metaphorMeaningCn": "不加思索猛地扎进去",
+    "metaphorOptions": [
+      "不加思索猛地扎进去",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "head(头)+long(向)",
+    "sourceNote": "batch-08  collateral：head/long 词素解锁"
+  },
+  "overhead": {
+    "modernMeaningCn": "在头顶上； overhead 费用",
+    "literalMeaningCn": "在头之上",
+    "metaphorMeaningCn": "房梁上悬着的那笔账",
+    "metaphorOptions": [
+      "房梁上悬着的那笔账",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "over(上)+head(头)",
+    "sourceNote": "batch-08  collateral：head 词素解锁"
+  },
+  "scotland": {
+    "modernMeaningCn": "苏格兰",
+    "literalMeaningCn": "苏格兰之地",
+    "metaphorMeaningCn": "风笛与格子裙的高地",
+    "metaphorOptions": [
+      "风笛与格子裙的高地",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "scot+land(地)",
+    "sourceNote": "batch-08  collateral：land 词素解锁"
+  },
+  "comparison": {
+    "modernMeaningCn": "比较；比拟",
+    "literalMeaningCn": "成对摆放",
+    "metaphorMeaningCn": "把两件物并排放上台秤",
+    "metaphorOptions": [
+      "把两件物并排放上台秤",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "com(共)+par(等)+ison",
+    "sourceNote": "batch-08  collateral：par 词素解锁"
+  },
+  "costly": {
+    "modernMeaningCn": "昂贵的；代价高的",
+    "literalMeaningCn": "花费大的",
+    "metaphorMeaningCn": "掏空钱袋的奢侈品",
+    "metaphorOptions": [
+      "掏空钱袋的奢侈品",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "cost(花费)+ly(…的)",
+    "sourceNote": "batch-08  collateral：cost 词素解锁"
+  },
+  "beside": {
+    "modernMeaningCn": "在…旁边；除…之外",
+    "literalMeaningCn": "在边侧",
+    "metaphorMeaningCn": "紧贴身旁的影子",
+    "metaphorOptions": [
+      "紧贴身旁的影子",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "be(使)+side(边)",
+    "sourceNote": "batch-08  collateral：side 词素解锁"
+  },
+  "corner": {
+    "modernMeaningCn": "角落；拐角",
+    "literalMeaningCn": "两墙交角",
+    "metaphorMeaningCn": "两面墙私语的密处",
+    "metaphorOptions": [
+      "两面墙私语的密处",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "corn(角)+er(名词)",
+    "sourceNote": "batch-08  collateral：corn 词素解锁"
+  },
+  "friend": {
+    "modernMeaningCn": "朋友",
+    "literalMeaningCn": "相爱之人",
+    "metaphorMeaningCn": "危难时伸来的那只手",
+    "metaphorOptions": [
+      "危难时伸来的那只手",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "friend(爱)",
+    "sourceNote": "batch-08  collateral：friend 词素解锁"
+  },
+  "friendly": {
+    "modernMeaningCn": "友好的；友善的",
+    "literalMeaningCn": "像朋友般",
+    "metaphorMeaningCn": "如春风扑面的笑",
+    "metaphorOptions": [
+      "如春风扑面的笑",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "friend(朋友)+ly(…的)",
+    "sourceNote": "batch-08  collateral：friend 词素解锁"
+  },
+  "friendship": {
+    "modernMeaningCn": "友谊；友情",
+    "literalMeaningCn": "朋友之状",
+    "metaphorMeaningCn": "两棵树根缠在一起",
+    "metaphorOptions": [
+      "两棵树根缠在一起",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "friend(朋友)+ship(状态)",
+    "sourceNote": "batch-08  collateral：friend 词素解锁"
+  },
+  "oneself": {
+    "modernMeaningCn": "自己；亲自",
+    "literalMeaningCn": "某个自己",
+    "metaphorMeaningCn": "照镜子里那唯一的人",
+    "metaphorOptions": [
+      "照镜子里那唯一的人",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "one(一)+self(自身)",
+    "sourceNote": "batch-08  collateral：self 词素解锁"
+  },
+  "safety": {
+    "modernMeaningCn": "安全；平安",
+    "literalMeaningCn": "无虞之态",
+    "metaphorMeaningCn": "风雨外那道围墙",
+    "metaphorOptions": [
+      "风雨外那道围墙",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "safe(安全)+ty(名词)",
+    "sourceNote": "batch-08  collateral：safe 词素解锁"
+  },
+  "speaker": {
+    "modernMeaningCn": "演讲者；扬声器",
+    "literalMeaningCn": "说话者",
+    "metaphorMeaningCn": "把声音递向人群的人",
+    "metaphorOptions": [
+      "把声音递向人群的人",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "speak(说)+er(人/物)",
+    "sourceNote": "batch-08  collateral：speak 词素解锁"
+  },
+  "technology": {
+    "modernMeaningCn": "技术；科技",
+    "literalMeaningCn": "技艺之学",
+    "metaphorMeaningCn": "人类延伸的手与脑",
+    "metaphorOptions": [
+      "人类延伸的手与脑",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "techno(技艺)+logy(学)",
+    "sourceNote": "batch-08  collateral：techno 词素解锁"
+  },
+  "atmosphere": {
+    "modernMeaningCn": "大气；氛围",
+    "literalMeaningCn": "球体蒸汽",
+    "metaphorMeaningCn": "包裹地球的呼吸层",
+    "metaphorOptions": [
+      "包裹地球的呼吸层",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "atmo(气)+sphere(球)",
+    "sourceNote": "batch-08  collateral：atmo/sphere 词素解锁"
+  },
+  "backward": {
+    "modernMeaningCn": "向后的；落后的",
+    "literalMeaningCn": "朝后地",
+    "metaphorMeaningCn": "倒退着走的人",
+    "metaphorOptions": [
+      "倒退着走的人",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "back(后)+ward(向)",
+    "sourceNote": "batch-08  collateral：back/ward 词素解锁"
+  },
+  "burial": {
+    "modernMeaningCn": "埋葬；葬礼",
+    "literalMeaningCn": "埋入之举",
+    "metaphorMeaningCn": "把身躯交还土地",
+    "metaphorOptions": [
+      "把身躯交还土地",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "bury(埋)+al(名词)",
+    "sourceNote": "batch-08  collateral：bury 词素解锁"
+  },
+  "catalogue": {
+    "modernMeaningCn": "目录；编目",
+    "literalMeaningCn": "详述之书",
+    "metaphorMeaningCn": "货架前的总账本",
+    "metaphorOptions": [
+      "货架前的总账本",
+      "种类的制造",
+      "共同与每一之间"
+    ],
+    "mnemonicNote": "cata(全)+logue(说)",
+    "sourceNote": "batch-08  collateral：cata 词素解锁"
+  },
+  "disaster": {
+    "modernMeaningCn": "灾难；灾祸",
+    "literalMeaningCn": "坏星象",
+    "metaphorMeaningCn": "天穹塌下的一角",
+    "metaphorOptions": [
+      "天穹塌下的一角",
+      "误把种类当成制造",
+      "把在下翻成单一"
+    ],
+    "mnemonicNote": "dis(坏)+aster(星)",
+    "sourceNote": "batch-08  collateral：aster 词素解锁"
+  },
+  "helicopter": {
+    "modernMeaningCn": "直升机",
+    "literalMeaningCn": "螺旋翼",
+    "metaphorMeaningCn": "头顶转着翅膀的蜻蜓",
+    "metaphorOptions": [
+      "头顶转着翅膀的蜻蜓",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "helico(螺旋)+pter(翼)",
+    "sourceNote": "batch-08  collateral：helico 词素解锁"
+  },
+  "psychology": {
+    "modernMeaningCn": "心理学",
+    "literalMeaningCn": "灵魂之学",
+    "metaphorMeaningCn": "探进内心迷宫的灯",
+    "metaphorOptions": [
+      "探进内心迷宫的灯",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "psycho(心)+logy(学)",
+    "sourceNote": "batch-08  collateral：psycho 词素解锁"
+  },
+  "selfish": {
+    "modernMeaningCn": "自私的",
+    "literalMeaningCn": "只爱自己",
+    "metaphorMeaningCn": "把好处全揽进怀",
+    "metaphorOptions": [
+      "把好处全揽进怀",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "self(自己)+ish(…的)",
+    "sourceNote": "batch-08  collateral：self 词素解锁"
+  },
+  "unfold": {
+    "modernMeaningCn": "展开；显露",
+    "literalMeaningCn": "解开折",
+    "metaphorMeaningCn": "把折起的信铺平",
+    "metaphorOptions": [
+      "把折起的信铺平",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "un(解)+fold(折)",
+    "sourceNote": "batch-08  collateral：fold 词素解锁"
+  },
+  "unsafe": {
+    "modernMeaningCn": "不安全的",
+    "literalMeaningCn": "不安全的",
+    "metaphorMeaningCn": "脚下的裂缝",
+    "metaphorOptions": [
+      "脚下的裂缝",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "un(不)+safe(安全)",
+    "sourceNote": "batch-08  collateral：safe 词素解锁"
+  },
+  "wisdom": {
+    "modernMeaningCn": "智慧",
+    "literalMeaningCn": "知悉之状",
+    "metaphorMeaningCn": "岁月熬成的光",
+    "metaphorOptions": [
+      "岁月熬成的光",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "wise(智)+dom(状态)",
+    "sourceNote": "batch-08  collateral：wise 词素解锁"
+  },
+  "worthless": {
+    "modernMeaningCn": "无价值的；无用的",
+    "literalMeaningCn": "无价值",
+    "metaphorMeaningCn": "弃在路边的碎屑",
+    "metaphorOptions": [
+      "弃在路边的碎屑",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "worth(价值)+less(无)",
+    "sourceNote": "batch-08  collateral：worth 词素解锁"
+  },
+  "likewise": {
+    "modernMeaningCn": "同样地；也",
+    "literalMeaningCn": "以相同方式",
+    "metaphorMeaningCn": "照着前者的样子",
+    "metaphorOptions": [
+      "照着前者的样子",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "like(同)+wise(方式)",
+    "sourceNote": "batch-08  collateral：wise 词素解锁"
+  },
+  "offend": {
+    "modernMeaningCn": "冒犯；得罪",
+    "literalMeaningCn": "撞向",
+    "metaphorMeaningCn": "踩了别人的脚",
+    "metaphorOptions": [
+      "踩了别人的脚",
+      "把种类翻成制造",
+      "误把共同当成每一"
+    ],
+    "mnemonicNote": "of(against)+fend(打)",
+    "sourceNote": "batch-08  collateral：fend 词素解锁"
+  },
+  "outset": {
+    "modernMeaningCn": "开端；起初",
+    "literalMeaningCn": "向外放",
+    "metaphorMeaningCn": "路刚迈出的第一步",
+    "metaphorOptions": [
+      "路刚迈出的第一步",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "out(外)+set(放)",
+    "sourceNote": "batch-08  collateral：set 词素解锁"
+  },
+  "overtime": {
+    "modernMeaningCn": "加班；超时",
+    "literalMeaningCn": "超出时间",
+    "metaphorMeaningCn": "下班后仍亮着的灯",
+    "metaphorOptions": [
+      "下班后仍亮着的灯",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "over(超)+time(时间)",
+    "sourceNote": "batch-08  collateral：over/time 词素解锁"
+  },
+  "philosophy": {
+    "modernMeaningCn": "哲学",
+    "literalMeaningCn": "爱智慧",
+    "metaphorMeaningCn": "追着‘为何’不放的思",
+    "metaphorOptions": [
+      "追着‘为何’不放的思",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "philo(爱)+sophy(智)",
+    "sourceNote": "batch-08  collateral：philo 词素解锁"
+  },
+  "photographic": {
+    "modernMeaningCn": "摄影的；极清晰的",
+    "literalMeaningCn": "像照片的",
+    "metaphorMeaningCn": "如相机定格的清",
+    "metaphorOptions": [
+      "如相机定格的清",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "photo(光)+graphic(写)",
+    "sourceNote": "batch-08  collateral：photo 词素解锁"
+  },
+  "safely": {
+    "modernMeaningCn": "安全地",
+    "literalMeaningCn": "无虞地",
+    "metaphorMeaningCn": "系好带子再启程",
+    "metaphorOptions": [
+      "系好带子再启程",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "safe(安全)+ly(…地)",
+    "sourceNote": "batch-08  collateral：safe 词素解锁"
+  },
+  "sometime": {
+    "modernMeaningCn": "某个时候；改天",
+    "literalMeaningCn": "某时",
+    "metaphorMeaningCn": "日历上未圈的一天",
+    "metaphorOptions": [
+      "日历上未圈的一天",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "some(某)+time(时)",
+    "sourceNote": "batch-08  collateral：time 词素解锁"
+  },
+  "tropical": {
+    "modernMeaningCn": "热带的",
+    "literalMeaningCn": "回归线间的",
+    "metaphorMeaningCn": "终年烫着脸的骄阳",
+    "metaphorOptions": [
+      "终年烫着脸的骄阳",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "tropic(回归线)+al(…的)",
+    "sourceNote": "batch-08  collateral：tropic 词素解锁"
+  },
+  "worship": {
+    "modernMeaningCn": "崇拜；敬奉",
+    "literalMeaningCn": "对价值之称",
+    "metaphorMeaningCn": "跪向心中的神",
+    "metaphorOptions": [
+      "跪向心中的神",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "wor(th)(价值)+ship(状态)",
+    "sourceNote": "batch-08  collateral：worth 词素解锁"
+  },
+  "chronic": {
+    "modernMeaningCn": "慢性的；长期的",
+    "literalMeaningCn": "与时间有关",
+    "metaphorMeaningCn": "缠住不放的老毛病",
+    "metaphorOptions": [
+      "缠住不放的老毛病",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "chron(时间)+ic(…的)",
+    "sourceNote": "batch-08  collateral：chron 词素解锁"
+  },
+  "chronicle": {
+    "modernMeaningCn": "编年史；记述",
+    "literalMeaningCn": "按时间之书",
+    "metaphorMeaningCn": "把年月串成珠",
+    "metaphorOptions": [
+      "把年月串成珠",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "chron(时间)+icle(小物)",
+    "sourceNote": "batch-08  collateral：chron 词素解锁"
+  },
+  "ethnic": {
+    "modernMeaningCn": "民族的；种族的",
+    "literalMeaningCn": "族群之…",
+    "metaphorMeaningCn": "同根血脉的印记",
+    "metaphorOptions": [
+      "同根血脉的印记",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "ethno(民族)+ic(…的)",
+    "sourceNote": "batch-08  collateral：ethno 词素解锁"
+  },
+  "fixture": {
+    "modernMeaningCn": "固定物；装置",
+    "literalMeaningCn": "固定之物",
+    "metaphorMeaningCn": "钉死在墙上的件",
+    "metaphorOptions": [
+      "钉死在墙上的件",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "fix(固定)+ture(名词)",
+    "sourceNote": "batch-08  collateral：fix 词素解锁"
+  },
+  "hemisphere": {
+    "modernMeaningCn": "半球",
+    "literalMeaningCn": "半个球",
+    "metaphorMeaningCn": "地球劈开的两瓣",
+    "metaphorOptions": [
+      "地球劈开的两瓣",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "hemi(半)+sphere(球)",
+    "sourceNote": "batch-08  collateral：hemi/sphere 词素解锁"
+  },
+  "linger": {
+    "modernMeaningCn": "逗留；徘徊",
+    "literalMeaningCn": "拖长",
+    "metaphorMeaningCn": "脚步不舍得离开",
+    "metaphorOptions": [
+      "脚步不舍得离开",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "long(长)+er(动词)",
+    "sourceNote": "batch-08  collateral：long 词素解锁"
+  },
+  "longing": {
+    "modernMeaningCn": "渴望；憧憬",
+    "literalMeaningCn": "长久之欲",
+    "metaphorMeaningCn": "望穿秋水的等待",
+    "metaphorOptions": [
+      "望穿秋水的等待",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "long(长)+ing(名词)",
+    "sourceNote": "batch-08  collateral：long 词素解锁"
+  },
+  "napkin": {
+    "modernMeaningCn": "餐巾；尿布",
+    "literalMeaningCn": "小桌布",
+    "metaphorMeaningCn": "叠在膝上的方布",
+    "metaphorOptions": [
+      "叠在膝上的方布",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "nap(桌)+kin(小)",
+    "sourceNote": "batch-08  collateral：nap 词素解锁"
+  },
+  "neuron": {
+    "modernMeaningCn": "神经元",
+    "literalMeaningCn": "神经之元",
+    "metaphorMeaningCn": "脑里放电的信使",
+    "metaphorOptions": [
+      "脑里放电的信使",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "neur(神经)+on(元)",
+    "sourceNote": "batch-08  collateral：neuro 词素解锁"
+  },
+  "offset": {
+    "modernMeaningCn": "抵消；补偿",
+    "literalMeaningCn": "向外放",
+    "metaphorMeaningCn": "一进一出扯平",
+    "metaphorOptions": [
+      "一进一出扯平",
+      "把种类翻成制造",
+      "误把共同当成每一"
+    ],
+    "mnemonicNote": "off(离)+set(放)",
+    "sourceNote": "batch-08  collateral：set 词素解锁"
+  },
+  "parameter": {
+    "modernMeaningCn": "参数；参量",
+    "literalMeaningCn": "旁度量",
+    "metaphorMeaningCn": "框住结果的变数",
+    "metaphorOptions": [
+      "框住结果的变数",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "para(旁)+meter(量)",
+    "sourceNote": "batch-08  collateral：meter 词素解锁"
+  },
+  "pathetic": {
+    "modernMeaningCn": "可怜的；可悲的",
+    "literalMeaningCn": "易感之…",
+    "metaphorMeaningCn": "惹人垂怜的弱",
+    "metaphorOptions": [
+      "惹人垂怜的弱",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "path(感)+etic(…的)",
+    "sourceNote": "batch-08  collateral：path 词素解锁"
+  },
+  "philanthropy": {
+    "modernMeaningCn": "慈善；博爱",
+    "literalMeaningCn": "爱人",
+    "metaphorMeaningCn": "把手伸向陌生人的暖",
+    "metaphorOptions": [
+      "把手伸向陌生人的暖",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "phil(爱)+anthropy(人)",
+    "sourceNote": "batch-08  collateral：phil 词素解锁"
+  },
+  "photography": {
+    "modernMeaningCn": "摄影（术）",
+    "literalMeaningCn": "光之写",
+    "metaphorMeaningCn": "用光把瞬间钉住",
+    "metaphorOptions": [
+      "用光把瞬间钉住",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "photo(光)+graphy(写)",
+    "sourceNote": "batch-08  collateral：photo 词素解锁"
+  },
+  "preside": {
+    "modernMeaningCn": "主持；掌管",
+    "literalMeaningCn": "坐前",
+    "metaphorMeaningCn": "端坐首座引全场",
+    "metaphorOptions": [
+      "端坐首座引全场",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "pre(前)+side(坐)",
+    "sourceNote": "batch-08  collateral：side 词素解锁"
+  },
+  "prolong": {
+    "modernMeaningCn": "延长；拖延",
+    "literalMeaningCn": "向前长",
+    "metaphorMeaningCn": "把黄昏拉得更久",
+    "metaphorOptions": [
+      "把黄昏拉得更久",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "pro(前)+long(长)",
+    "sourceNote": "batch-08  collateral：long 词素解锁"
+  },
+  "shipment": {
+    "modernMeaningCn": "装运；货物",
+    "literalMeaningCn": "船运之物",
+    "metaphorMeaningCn": "漂洋过海的那批货",
+    "metaphorOptions": [
+      "漂洋过海的那批货",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "ship(船)+ment(名词)",
+    "sourceNote": "batch-08  collateral：ship 词素解锁"
+  },
+  "unlock": {
+    "modernMeaningCn": "开锁；解放",
+    "literalMeaningCn": "解锁",
+    "metaphorMeaningCn": "咔哒一声放出光",
+    "metaphorOptions": [
+      "咔哒一声放出光",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "un(解)+lock(锁)",
+    "sourceNote": "batch-08  collateral：lock 词素解锁"
+  },
+  "waver": {
+    "modernMeaningCn": "摇摆；动摇",
+    "literalMeaningCn": "波动",
+    "metaphorMeaningCn": "风里晃动的草",
+    "metaphorOptions": [
+      "风里晃动的草",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "wave(波)+er(动词)",
+    "sourceNote": "batch-08  collateral：wave 词素解锁"
+  }
+}

@@ -355,6 +355,26 @@ const TYPE_FIX = {
   // se 上游被登记成 suffix、义项是「计栈空」（ECDICT 把 SE 当缩写查了）；select 里它是
   // 拉丁 se-(分开、离开)，在词首。改回 prefix 并配上按类型的颜色。
   se: 'prefix',
+  // ── 批次 08+：把「被误标成词缀的自由词基 / 结合形词根」改判为 root ──
+  // 这些词素本是常见名词/动词作复合基（man=人、way=路、land=土地、work=工作…），
+  // 或希腊/拉丁结合形词根（tele=远、geo=地、astro=星、bio=生命…，与 spec/port/dict/vid 同属
+  // 受约束词根），上游数据源错登记成 prefix/suffix，导致 A18 把成批复合词整批丢了。
+  // 改判 root 后即可进词库；它们都不在任何家族（fam=n），不触发 A24。
+  // 自由词基：
+  land: 'root', man: 'root', side: 'root', long: 'root', way: 'root', set: 'root',
+  soft: 'root', head: 'root', work: 'root', kind: 'root', time: 'root', home: 'root',
+  son: 'root', safe: 'root', ship: 'root', end: 'root', ball: 'root', wise: 'root',
+  worth: 'root', friend: 'root', sphere: 'root', wave: 'root', back: 'root', off: 'root',
+  self: 'root', person: 'root', lord: 'root', path: 'root', nap: 'root', lock: 'root',
+  fold: 'root', scape: 'root', tropic: 'root', bury: 'root', corn: 'root', cost: 'root',
+  cast: 'root', meter: 'root', gram: 'root', phone: 'root', type: 'root', free: 'root',
+  most: 'root', speak: 'root', fix: 'root',
+  // 结合形词根（与 spec/port/dict/vid 同为受约束词根）：
+  tele: 'root', micro: 'root', eco: 'root', geo: 'root', astro: 'root', auto: 'root',
+  photo: 'root', bio: 'root', hydro: 'root', therm: 'root', psycho: 'root', neuro: 'root',
+  philo: 'root', phil: 'root', chron: 'root', stereo: 'root', atmo: 'root', helico: 'root',
+  ethno: 'root', techno: 'root', socio: 'root', logo: 'root', graph: 'root', scope: 'root',
+  phon: 'root', nom: 'root', cata: 'root',
 }
 const TYPE_COLOR = { root: 'orange', prefix: 'blue', suffix: 'green' }
 for (const m of extraMorphemes) {
@@ -447,35 +467,45 @@ for (const [w, parts] of Object.entries(allSplits)) {
 // ≥3 词必须挂世界）会拦。按词义挂进主题相配的世界：pan→炉火坊（炊具）、
 // wide→度量台（宽窄）、where→四方塔（方位）。
 const WORLD_ADD = {
-  'hearth-forge': ['pan'],
+  'hearth-forge': ['pan', 'photo'], // photo(光) 与 light 同族
   // ⚠️ 这个对象是字面量，key 重复会静默后者胜出 —— 早先给 measure-terrace 补 centre 时
   // 重写了整条，把 wide 顶掉了（A24 立刻报警才被发现）。新增词根一律往已有数组里加。
-  'measure-terrace': ['wide', 'centre', 'count', 'circ'], // wide(宽窄) + centre(中心) + count(计算) + circ(圆)
-  'compass-tower': ['where'],
+  'measure-terrace': ['wide', 'centre', 'count', 'circ', 'most', 'micro', 'long'], // wide(宽窄)+centre(中心)+count(计算)+circ(圆)+most(最)+micro(微小)+long(长)
+  'compass-tower': ['where', 'back', 'tele', 'side'], // back(背/回) tele(远) side(边) 方位
   // Group A 施事名词（-er 补 'r' 变体后入表）把三个词干顶成了教学词根（家族 ≥3 词），
   // 得按词义挂进世界：produce(带出来)→货运码头、write(写)→手稿画室、trade(买卖)→市集巷。
-  'cargo-dock': ['produce', 'duct', 'duce'], // 批次 06：duc/duct/duce(引导)
-  'script-atelier': ['write', 'new'], // new(新的，renew 入表后成教学词根)
+  'cargo-dock': ['produce', 'duct', 'duce', 'ship'], // 批次 06：duc/duct/duce(引导) + ship(船)
+  'script-atelier': ['write', 'new', 'gram'], // new(新的) + gram(写)
   'market-lane': ['trade', 'compete'], // 市集巷：trade(买卖) + compete(相争)
   // 批次 06：新词根与改判 root 的词素挂世界（A24：教学词根要出现在地图上）
   'growth-lab': ['cre'], // 成长实验室：cre(创造、生长) 与 bio/gen/nat 同族
-  'motion-yard': ['sta', 'cess', 'stance', 'stant', 'motive'], // 行止院：sta/stance/stant(站立) + cess(走) + motive(移动)
-  'discern-hall': ['sect', 'tail'], // 明辨堂：sect/tail(切、切割) 与已有的 cut 同族
+  'motion-yard': ['sta', 'cess', 'stance', 'stant', 'motive', 'way', 'end', 'off'], // 行止院 + way(路) end(末端) off(离开)
+  'discern-hall': ['sect', 'tail', 'kind'], // 明辨堂：sect/tail(切) + kind(种类) 与 gener 同族
   'build-site': ['struct', 'ser', 'stable', 'rupt'], // 营造场：struct(堆叠、构造)、ser(放置、连接)、stable(稳固)、rupt(破裂，与 break 同族)
   // 批次 06b：新改判 root 与注入的词素挂世界
   'reading-loft': ['lect', 'sci'], // 识读阁：lect(收集、选) + sci(知道)
   'craft-works': ['par', 'apply'], // 工匠铺：par(相等)、apply(涂、施用) 与 equ 同族
   'message-port': ['nect', 'nounce', 'script'], // 传送门：nect(连接)、nounce(讲述)、script(写) 与 port/dict 同族
-  'lumber-store': ['ordin'], // 杂物仓：ordin(顺序) 与已有的 organ 同族
+  'lumber-store': ['ordin', 'set'], // 杂物仓：ordin(顺序) + set(放置) 与 organ 同族
   'office-house': ['mand'], // 职事馆：mand(托付) 与 mission/employ 同族
-  'action-forge': ['fic', 'fect', 'fact'], // 行动工坊：fic/fect/fact(做、成) 与 ject/mob 同族
+  'action-forge': ['fic', 'fect', 'fact', 'son', 'phone'], // 行动工坊：fic/fect/fact(做、成) + son(声) phone(声音) 与 ject/mob 同族
   'justice-hall': ['viola', 'terror'], // 正义殿堂：viola(越界、施暴)、terror(恐怖) 与 jud/vinc 同族
   'council-chamber': ['tribu', 'sid', 'claim', 'liber'], // 议事厅：tribu(给予)、sid(坐)、claim(要求、喊)、liber(自由) 与 law/court 同族
   'force-yard': ['grav', 'val'], // 运力场：grav(重)、val(强健) 与 press/fall 同族
-  'hold-vault': ['cip', 'sumere'], // 持握库：cip/sumere(拿取) 与 tain/ceive 同族
+  'hold-vault': ['cip', 'sumere', 'safe'], // 持握库：cip/sumere(拿取) + safe(安全/守护) 与 tain/ceive 同族
   'common-lane': ['corr', 'bag', 'well', 'insula', 'solve'], // 寻常巷：corr(共同、加强) + 批次07补收词根 bag/well/insula/solve
-  'body-clinic': ['manu'], // 身体馆：manu(手) 与已有的 hand 同族
-  'will-hall': ['pat'], // 心志堂：pat(忍受) 与 sist/firm 同族
+  'body-clinic': ['manu', 'man', 'head'], // 身体馆：manu(手) + man(人) head(头) 与 hand/body 同族
+  'will-hall': ['pat', 'auto', 'self', 'free'], // 心志堂：pat(忍受) + auto(自动) self(自身) free(自由) 自我/意志
+  // ── A24 补齐（批次 08+ 改判 root 但此前未挂世界的孤儿词根）──
+  'nature-field': ['geo', 'land', 'astro', 'eco', 'wave'], // 原野：geo(地) land(土地) astro(星) eco(生态) wave(波)
+  'day-room': ['home'], // 起居室：home(家) 与 house 同族
+  'life-street': ['ball'], // 生活街：ball(球) 与 play 同族
+  'livelihood-lane': ['work'], // 生计巷：work(工作)
+  'time-vault': ['time'], // 时光库：time(时间)
+  'sense-gallery': ['wise'], // 感知廊：wise(智慧) 与 real/mean 同族
+  'temper-yard': ['soft'], // 刚柔场：soft(软) 与 intense/mature 同族
+  'word-mill': ['type'], // 词语磨坊：type(类型/打字) 与 log/graph 同族
+  'critique-hall': ['worth'], // 评议堂：worth(价值) 与 respect 同族
 }
 for (const [worldId, ids] of Object.entries(WORLD_ADD)) {
   const world = allWorlds.find((w) => w.id === worldId)

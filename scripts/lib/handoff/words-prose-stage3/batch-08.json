@@ -1,0 +1,722 @@
+{
+  "plutocrat": {
+    "modernMeaningCn": "富豪",
+    "literalMeaningCn": "冥王星的表示参",
+    "metaphorMeaningCn": "冥王星表示参之境",
+    "metaphorOptions": [
+      "冥王星表示参之境",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "冥王星+表示参",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "afterward": {
+    "modernMeaningCn": "然后",
+    "literalMeaningCn": "在之后的看守",
+    "metaphorMeaningCn": "在之后看守之境",
+    "metaphorOptions": [
+      "在之后看守之境",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "在之后+看守",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "motorway": {
+    "modernMeaningCn": "高速公路",
+    "literalMeaningCn": "发动机的路",
+    "metaphorMeaningCn": "发动机路之境",
+    "metaphorOptions": [
+      "发动机路之境",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "发动机+路",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "outwards": {
+    "modernMeaningCn": "向外地",
+    "literalMeaningCn": "向外的朝向",
+    "metaphorMeaningCn": "向外朝向之境",
+    "metaphorOptions": [
+      "向外朝向之境",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "向外+朝向",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "videophone": {
+    "modernMeaningCn": "电视电话",
+    "literalMeaningCn": "影像的声音",
+    "metaphorMeaningCn": "影像声音之境",
+    "metaphorOptions": [
+      "影像声音之境",
+      "把种类翻成向前",
+      "误把共同当成每一"
+    ],
+    "mnemonicNote": "影像+声音",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "longitude": {
+    "modernMeaningCn": "经度",
+    "literalMeaningCn": "长的状态",
+    "metaphorMeaningCn": "长状态之境",
+    "metaphorOptions": [
+      "长状态之境",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "长+状态",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "british": {
+    "modernMeaningCn": "英国的\\nn. 英国人",
+    "literalMeaningCn": "不列颠的",
+    "metaphorMeaningCn": "雾岛上的红巴与红茶",
+    "metaphorOptions": [
+      "雾岛上的红巴与红茶",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "brit(不列颠)+ish(…的)",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "preset": {
+    "modernMeaningCn": "事先调整\\nn. 预调装置\\n 边框形式",
+    "literalMeaningCn": "前的放置",
+    "metaphorMeaningCn": "前放置之境",
+    "metaphorOptions": [
+      "前放置之境",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "前+放置",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "demography": {
+    "modernMeaningCn": "人口统计学\\n 人口学",
+    "literalMeaningCn": "描绘人群之写",
+    "metaphorMeaningCn": "为万民画一张分布图",
+    "metaphorOptions": [
+      "为万民画一张分布图",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "demo(人)+graphy(写)",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "superman": {
+    "modernMeaningCn": "具有超人能力的人",
+    "literalMeaningCn": "超的人",
+    "metaphorMeaningCn": "超人之境",
+    "metaphorOptions": [
+      "超人之境",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "超+人",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "typist": {
+    "modernMeaningCn": "打字员",
+    "literalMeaningCn": "字形敲击者",
+    "metaphorMeaningCn": "在键盘上起舞的手指",
+    "metaphorOptions": [
+      "在键盘上起舞的手指",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "type(型/打)+ist(者)",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "skyscraper": {
+    "modernMeaningCn": "摩天楼",
+    "literalMeaningCn": "天空的刮刀",
+    "metaphorMeaningCn": "天空刮刀之境",
+    "metaphorOptions": [
+      "天空刮刀之境",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "天空+刮刀",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "wayside": {
+    "modernMeaningCn": "路旁\\na. 路旁的",
+    "literalMeaningCn": "路的边",
+    "metaphorMeaningCn": "路边之境",
+    "metaphorOptions": [
+      "路边之境",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "路+边",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "automate": {
+    "modernMeaningCn": "vi. (使)自动化\\n 自动化",
+    "literalMeaningCn": "自己的伙伴",
+    "metaphorMeaningCn": "自己伙伴之境",
+    "metaphorOptions": [
+      "自己伙伴之境",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "自己+伙伴",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "astronaut": {
+    "modernMeaningCn": "太空旅行者",
+    "literalMeaningCn": "天文的的船舶的",
+    "metaphorMeaningCn": "天文的船舶的之境",
+    "metaphorOptions": [
+      "天文的船舶的之境",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "天文的+船舶的",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "subway": {
+    "modernMeaningCn": "地铁",
+    "literalMeaningCn": "在下的路",
+    "metaphorMeaningCn": "在下路之境",
+    "metaphorOptions": [
+      "在下路之境",
+      "种类与制造之间",
+      "否定的单一"
+    ],
+    "mnemonicNote": "在下+路",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "workmate": {
+    "modernMeaningCn": "共同工作者",
+    "literalMeaningCn": "工作的伙伴",
+    "metaphorMeaningCn": "工作伙伴之境",
+    "metaphorOptions": [
+      "工作伙伴之境",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "工作+伙伴",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "transistor": {
+    "modernMeaningCn": "晶体管\\n 晶体管",
+    "literalMeaningCn": "横穿的器件",
+    "metaphorMeaningCn": "电流里开关的微小门",
+    "metaphorOptions": [
+      "电流里开关的微小门",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "trans(横穿)+istor(器件)",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "overcoat": {
+    "modernMeaningCn": "外套大衣",
+    "literalMeaningCn": "在上的外套",
+    "metaphorMeaningCn": "在上外套之境",
+    "metaphorOptions": [
+      "在上外套之境",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "在上+外套",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "softness": {
+    "modernMeaningCn": "柔和",
+    "literalMeaningCn": "软的状态",
+    "metaphorMeaningCn": "软状态之境",
+    "metaphorOptions": [
+      "软状态之境",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "软+状态",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "inlet": {
+    "modernMeaningCn": "进口",
+    "literalMeaningCn": "不的指小",
+    "metaphorMeaningCn": "不指小之境",
+    "metaphorOptions": [
+      "不指小之境",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "不+指小",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "proton": {
+    "modernMeaningCn": "质子\\n 质子",
+    "literalMeaningCn": "计原型的一",
+    "metaphorMeaningCn": "计原型一之境",
+    "metaphorOptions": [
+      "计原型一之境",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "计原型+一",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "postman": {
+    "modernMeaningCn": "邮递员\\n 邮递员",
+    "literalMeaningCn": "后的人",
+    "metaphorMeaningCn": "后人之境",
+    "metaphorOptions": [
+      "后人之境",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "后+人",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "unkind": {
+    "modernMeaningCn": "不仁慈的",
+    "literalMeaningCn": "不的类",
+    "metaphorMeaningCn": "不类之境",
+    "metaphorOptions": [
+      "不类之境",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "不+类",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "electrode": {
+    "modernMeaningCn": "电极\\n 电极; 焊条; 电焊条",
+    "literalMeaningCn": "电镀物的表示电",
+    "metaphorMeaningCn": "电镀物表示电之境",
+    "metaphorOptions": [
+      "电镀物表示电之境",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "电镀物+表示电",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "statesman": {
+    "modernMeaningCn": "政治家",
+    "literalMeaningCn": "站立的人",
+    "metaphorMeaningCn": "站立人之境",
+    "metaphorOptions": [
+      "站立人之境",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "站立+人",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "telegram": {
+    "modernMeaningCn": "电报",
+    "literalMeaningCn": "远的写",
+    "metaphorMeaningCn": "远写之境",
+    "metaphorOptions": [
+      "远写之境",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "远+写",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "oxide": {
+    "modernMeaningCn": "氧化物\\n 氧化物",
+    "literalMeaningCn": "氧化的产物",
+    "metaphorMeaningCn": "金属与氧抱成的化合物",
+    "metaphorOptions": [
+      "金属与氧抱成的化合物",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "ox(氧)+ide(物)",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "postage": {
+    "modernMeaningCn": "邮资\\n 邮费",
+    "literalMeaningCn": "后的做",
+    "metaphorMeaningCn": "后做之境",
+    "metaphorOptions": [
+      "后做之境",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "后+做",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "timely": {
+    "modernMeaningCn": "及时的",
+    "literalMeaningCn": "合乎时的",
+    "metaphorMeaningCn": "恰在需要的那一瞬",
+    "metaphorOptions": [
+      "恰在需要的那一瞬",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "time(时)+ly(…地)",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "discrete": {
+    "modernMeaningCn": "不连续的",
+    "literalMeaningCn": "分离的希腊克",
+    "metaphorMeaningCn": "分离希腊克之境",
+    "metaphorOptions": [
+      "分离希腊克之境",
+      "种类的制造",
+      "在下与单一之间"
+    ],
+    "mnemonicNote": "分离+希腊克",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "homeland": {
+    "modernMeaningCn": "本国",
+    "literalMeaningCn": "家的土地",
+    "metaphorMeaningCn": "家土地之境",
+    "metaphorOptions": [
+      "家土地之境",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "家+土地",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "prevalent": {
+    "modernMeaningCn": "普遍的",
+    "literalMeaningCn": "广为流行的",
+    "metaphorMeaningCn": "四处蔓延的常见风",
+    "metaphorOptions": [
+      "四处蔓延的常见风",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "pre(广)+val(强)+ent",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "triple": {
+    "modernMeaningCn": "三倍数",
+    "literalMeaningCn": "分的折叠",
+    "metaphorMeaningCn": "分折叠之境",
+    "metaphorOptions": [
+      "分折叠之境",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "分+折叠",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "multitude": {
+    "modernMeaningCn": "多数",
+    "literalMeaningCn": "多的状态",
+    "metaphorMeaningCn": "多状态之境",
+    "metaphorOptions": [
+      "多状态之境",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "多+状态",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "stocking": {
+    "modernMeaningCn": "长袜\\n 马足水肿; 长袜",
+    "literalMeaningCn": "存货的正在",
+    "metaphorMeaningCn": "存货正在之境",
+    "metaphorOptions": [
+      "存货正在之境",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "存货+正在",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "microscope": {
+    "modernMeaningCn": "显微镜\\n 显微镜",
+    "literalMeaningCn": "微小的范围",
+    "metaphorMeaningCn": "微小范围之境",
+    "metaphorOptions": [
+      "微小范围之境",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "微小+范围",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "downward": {
+    "modernMeaningCn": "向下的",
+    "literalMeaningCn": "向下的看守",
+    "metaphorMeaningCn": "向下看守之境",
+    "metaphorOptions": [
+      "向下看守之境",
+      "误把种类当成制造",
+      "把共同翻成每一"
+    ],
+    "mnemonicNote": "向下+看守",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "ecology": {
+    "modernMeaningCn": "生态学",
+    "literalMeaningCn": "家园的学问",
+    "metaphorMeaningCn": "给万物相处写法则",
+    "metaphorOptions": [
+      "给万物相处写法则",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "eco(家)+logy(学)",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "carpenter": {
+    "modernMeaningCn": "木匠",
+    "literalMeaningCn": "鲤鱼吹的进入",
+    "metaphorMeaningCn": "鲤鱼吹进入之境",
+    "metaphorOptions": [
+      "鲤鱼吹进入之境",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "鲤鱼吹+进入",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "geometry": {
+    "modernMeaningCn": "几何学\\n 几何学",
+    "literalMeaningCn": "量地的学问",
+    "metaphorMeaningCn": "用点线面丈量世界",
+    "metaphorOptions": [
+      "用点线面丈量世界",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "geo(地)+metry(测量)",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "beware": {
+    "modernMeaningCn": "小心",
+    "literalMeaningCn": "对货物留神",
+    "metaphorMeaningCn": "前方有坑先亮灯",
+    "metaphorOptions": [
+      "前方有坑先亮灯",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "be(使)+ware(注意)",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "foremost": {
+    "modernMeaningCn": "最初的",
+    "literalMeaningCn": "为了的最",
+    "metaphorMeaningCn": "为了最之境",
+    "metaphorOptions": [
+      "为了最之境",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "为了+最",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "geology": {
+    "modernMeaningCn": "地质学",
+    "literalMeaningCn": "关于地的学问",
+    "metaphorMeaningCn": "翻阅卷层的地球传",
+    "metaphorOptions": [
+      "翻阅卷层的地球传",
+      "误把种类当成制造",
+      "把否定翻成彻底"
+    ],
+    "mnemonicNote": "geo(地)+logy(学)",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "diagram": {
+    "modernMeaningCn": "图表；图解",
+    "literalMeaningCn": "通过的写",
+    "metaphorMeaningCn": "通过写之境",
+    "metaphorOptions": [
+      "通过写之境",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "通过+写",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "mexican": {
+    "modernMeaningCn": "墨西哥人",
+    "literalMeaningCn": "墨西哥的",
+    "metaphorMeaningCn": "仙人掌国度的住民",
+    "metaphorOptions": [
+      "仙人掌国度的住民",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "mexic(墨西哥)+an(…的)",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "postal": {
+    "modernMeaningCn": "邮政的",
+    "literalMeaningCn": "邮政的",
+    "metaphorMeaningCn": "盖戳奔走的信路",
+    "metaphorOptions": [
+      "盖戳奔走的信路",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "post(邮)+al(…的)",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "grandson": {
+    "modernMeaningCn": "孙子",
+    "literalMeaningCn": "大的儿子",
+    "metaphorMeaningCn": "大儿子之境",
+    "metaphorOptions": [
+      "大儿子之境",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "大+儿子",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "ballet": {
+    "modernMeaningCn": "芭蕾舞",
+    "literalMeaningCn": "球的指小",
+    "metaphorMeaningCn": "球指小之境",
+    "metaphorOptions": [
+      "球指小之境",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "球+指小",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "underwear": {
+    "modernMeaningCn": "内衣",
+    "literalMeaningCn": "在下的穿着",
+    "metaphorMeaningCn": "在下穿着之境",
+    "metaphorOptions": [
+      "在下穿着之境",
+      "误把种类当成制造",
+      "把否定翻成每一"
+    ],
+    "mnemonicNote": "在下+穿着",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "mankind": {
+    "modernMeaningCn": "人类",
+    "literalMeaningCn": "人的类",
+    "metaphorMeaningCn": "人类之境",
+    "metaphorOptions": [
+      "人类之境",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "人+类",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "astronomy": {
+    "modernMeaningCn": "天文学",
+    "literalMeaningCn": "天文的的表示法",
+    "metaphorMeaningCn": "天文的表示法之境",
+    "metaphorOptions": [
+      "天文的表示法之境",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "天文的+表示法",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "homework": {
+    "modernMeaningCn": "家庭作业",
+    "literalMeaningCn": "家的工作",
+    "metaphorMeaningCn": "家工作之境",
+    "metaphorOptions": [
+      "家工作之境",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "家+工作",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "mansion": {
+    "modernMeaningCn": "大厦",
+    "literalMeaningCn": "?的动作",
+    "metaphorMeaningCn": "?动作之境",
+    "metaphorOptions": [
+      "?动作之境",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "?+动作",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "outing": {
+    "modernMeaningCn": "郊游",
+    "literalMeaningCn": "向外的正在",
+    "metaphorMeaningCn": "向外正在之境",
+    "metaphorOptions": [
+      "向外正在之境",
+      "种类的制造",
+      "否定与彻底之间"
+    ],
+    "mnemonicNote": "向外+正在",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "foresee": {
+    "modernMeaningCn": "预见",
+    "literalMeaningCn": "为了的分开",
+    "metaphorMeaningCn": "为了分开之境",
+    "metaphorOptions": [
+      "为了分开之境",
+      "误把种类当成制造",
+      "把一起翻成完全"
+    ],
+    "mnemonicNote": "为了+分开",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "prototype": {
+    "modernMeaningCn": "原型\\n 样机; 原型",
+    "literalMeaningCn": "计原型的字模",
+    "metaphorMeaningCn": "计原型字模之境",
+    "metaphorOptions": [
+      "计原型字模之境",
+      "像种类一样的制造",
+      "否定背后的彻底"
+    ],
+    "mnemonicNote": "计原型+字模",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "upward": {
+    "modernMeaningCn": "向上的\\nadv. 以上",
+    "literalMeaningCn": "向上的看守",
+    "metaphorMeaningCn": "向上看守之境",
+    "metaphorOptions": [
+      "向上看守之境",
+      "种类与制造之间",
+      "否定的彻底"
+    ],
+    "mnemonicNote": "向上+看守",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "freeway": {
+    "modernMeaningCn": "高速公路",
+    "literalMeaningCn": "免停的路",
+    "metaphorMeaningCn": "没有红灯的长直道",
+    "metaphorOptions": [
+      "没有红灯的长直道",
+      "把种类翻成制造",
+      "误把否定当成彻底"
+    ],
+    "mnemonicNote": "free(免)+way(路)",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  },
+  "soften": {
+    "modernMeaningCn": "(使)变柔软",
+    "literalMeaningCn": "软的使",
+    "metaphorMeaningCn": "软使之境",
+    "metaphorOptions": [
+      "软使之境",
+      "种类背后的制造",
+      "像否定一样的彻底"
+    ],
+    "mnemonicNote": "软+使",
+    "sourceNote": "批次08补收：splits 表已有合法切分，6.2 未过考试标签"
+  }
+}

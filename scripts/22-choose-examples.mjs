@@ -31,6 +31,9 @@ const handoffPaths = ['words-examples.json', 'words-examples-stage2.json', 'word
   .map((name) => join(here, 'lib', 'handoff', name))
 // 追加读取 stage3d（批量补收词的手写例句），与既有层同序、同名词后者胜出
 handoffPaths.push(join(here, 'lib', 'handoff', 'words-examples-stage3d.json'))
+// 追加读取 fill 层：批次 08+ 那些 Tatoeba 无中文对照、由 AI 逐句翻译补齐的例句
+// （exampleEn 原样保留，只补 exampleCn）。与既有层同序、同名词后者胜出。
+handoffPaths.push(join(here, 'lib', 'handoff', 'words-examples-fill.json'))
 const handoff = new Map()
 for (const p of handoffPaths) {
   if (!existsSync(p)) continue

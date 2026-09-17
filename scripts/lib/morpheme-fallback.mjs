@@ -939,6 +939,13 @@ export const OVERRIDE_MEANINGS = {
   fac: '做、制造；面',         // surface/interface ← facies(面、形状)，原只挂「做、制造」
   mitt: '送、投',             // 原「棒球手套」（mitt 词条），omit ← ob+mittere(送)
   vid: '看；分开',            // divide ← dis+videre(分开)，原只挂「看」
+  // ── A20 固化（批次 08+ 五个被 ECDICT 垃圾义项污染的教学词根；用户 _fix_a14_a20 校正，
+  //  落进 OVERRIDE 才能在重跑 build-stage3-config 时复现，不被源数据冲掉）──
+  metry: '测量',              // geometry/thermometry：希腊 metron(度量)
+  icle: '小（表小称）',       // article/icicle：后缀 -icle 表小称
+  anthropy: '人',             // philanthropy/misanthropy：anthropos(人)
+  automat: '自动',            // automation：automatos(自己动的)
+  curd: '凝乳',               // curd：食物词素（凝乳）
 }
 /**
  * 显示名修正：id 是内部标识，卡片上画的是 displayText。有一批 id 是切分算法按词形凑出来的
