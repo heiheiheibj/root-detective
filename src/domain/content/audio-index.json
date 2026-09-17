@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-09-17T17:21:44.874Z",
+  "engine": "sapi",
+  "count": 3,
+  "files": {
+    "circumspect": "audio/circumspect.mp3",
+    "inspection": "audio/inspection.mp3",
+    "respect": "audio/respect.mp3"
+  }
+}

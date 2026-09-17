@@ -16,12 +16,21 @@ scripts/.work/
 Thumbs.db
 *.log
 
+# 生成的发音文件（scripts/tools/80-build-audio.mjs 的产出，随时可重录）。
+# 「词 → 文件」的 audio-index.json 相反要进仓库，它是运行时查找发音的唯一入口。
+public/audio/
+
 # 一次性探针脚本与临时产物（历史遗留已解除跟踪，本地保留）
 # 名字以 _ 开头的是「跑一次就扔」的调试脚本，不进仓库；需要长期复用的请放进 scripts/tools/
 _*.mjs
 _*.tsv
 _*.txt
 _*.ps1
+# dump 出来的内容快照同理：曾经有个 _w_head.json 十几万行，把全局搜索淹了
+_*.json
+
+# 本地调试残留的归档区（已解除跟踪的历史杂物统一堆这里，可随时整个删掉）
+_scratch/
 
 # 浏览器自动化产物（playwright-cli / chrome-devtools 的页面快照与无障碍树）
 .playwright-cli/

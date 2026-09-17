@@ -1,0 +1,4396 @@
+{
+  "_comment": "由 scripts/tools/audit-etymology-risk.mjs 生成。机器预筛，每条都要人工复核后才有结论。",
+  "generatedAt": "2026-09-17T17:30:55.453Z",
+  "wordCount": 3192,
+  "flaggedWordCount": 474,
+  "countsByType": {
+    "词源口径不一致": 355,
+    "家族释义雷同": 91,
+    "语义梯子太短": 55,
+    "助记冒充词源": 2
+  },
+  "findings": [
+    {
+      "id": "forty",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「四个十」和现代义「四十」几乎一样"
+        },
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（for/four/for）"
+        },
+        {
+          "type": "家族释义雷同",
+          "detail": "和 fourteen 的释义相似度 1.00（同词根 four）"
+        }
+      ]
+    },
+    {
+      "id": "sixteen",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（six/six/teen）"
+        },
+        {
+          "type": "家族释义雷同",
+          "detail": "和 sixty 的释义相似度 1.00（同词根 six）"
+        },
+        {
+          "type": "家族释义雷同",
+          "detail": "和 sixteenth 的释义相似度 0.67（同词根 six）"
+        }
+      ]
+    },
+    {
+      "id": "sixty",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「六个十」和现代义「六十」几乎一样"
+        },
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（six/six/ty）"
+        },
+        {
+          "type": "家族释义雷同",
+          "detail": "和 sixteenth 的释义相似度 0.67（同词根 six）"
+        }
+      ]
+    },
+    {
+      "id": "critical",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（critic/critic/批评家）"
+        },
+        {
+          "type": "家族释义雷同",
+          "detail": "和 criticism 的释义相似度 0.67（同词根 critic）"
+        },
+        {
+          "type": "家族释义雷同",
+          "detail": "和 criticize 的释义相似度 0.67（同词根 critic）"
+        }
+      ]
+    },
+    {
+      "id": "literature",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（literat/liter/literat）"
+        },
+        {
+          "type": "家族释义雷同",
+          "detail": "和 literary 的释义相似度 0.67（同词根 liter）"
+        }
+      ]
+    },
+    {
+      "id": "chairman",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（chair/chair/椅子）"
+        },
+        {
+          "type": "家族释义雷同",
+          "detail": "和 chairwoman 的释义相似度 0.67（同词根 chair）"
+        }
+      ]
+    },
+    {
+      "id": "eighteen",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（eight/eight/een）"
+        },
+        {
+          "type": "家族释义雷同",
+          "detail": "和 eighty 的释义相似度 1.00（同词根 eight）"
+        }
+      ]
+    },
+    {
+      "id": "eighty",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「八个十」和现代义「八十」几乎一样"
+        },
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（eight/eight/ty）"
+        }
+      ]
+    },
+    {
+      "id": "headache",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「头在痛」和现代义「头痛」几乎一样"
+        },
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（head/head/ache）"
+        }
+      ]
+    },
+    {
+      "id": "nineteen",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（nine/nine/teen）"
+        },
+        {
+          "type": "家族释义雷同",
+          "detail": "和 ninety 的释义相似度 1.00（同词根 nine）"
+        }
+      ]
+    },
+    {
+      "id": "ninety",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「九个十」和现代义「九十」几乎一样"
+        },
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（nine/nine/ty）"
+        }
+      ]
+    },
+    {
+      "id": "seventeen",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（seven/seven/teen）"
+        },
+        {
+          "type": "家族释义雷同",
+          "detail": "和 seventy 的释义相似度 1.00（同词根 seven）"
+        }
+      ]
+    },
+    {
+      "id": "seventy",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「七个十」和现代义「七十」几乎一样"
+        },
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（seven/seven/ty）"
+        }
+      ]
+    },
+    {
+      "id": "sixth",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（six/six/th）"
+        },
+        {
+          "type": "家族释义雷同",
+          "detail": "和 sixteenth 的释义相似度 0.67（同词根 six）"
+        }
+      ]
+    },
+    {
+      "id": "alcoholic",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「含酒精的」和现代义「含酒精的」几乎一样"
+        },
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（alcohol/alcohol/酒精）"
+        }
+      ]
+    },
+    {
+      "id": "arabic",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「阿拉伯的」和现代义「阿拉伯语」几乎一样"
+        },
+        {
+          "type": "家族释义雷同",
+          "detail": "和 arabian 的释义相似度 0.60（同词根 arab）"
+        }
+      ]
+    },
+    {
+      "id": "mankind",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「人的类」和现代义「人类」几乎一样"
+        },
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（man/man/mann）"
+        }
+      ]
+    },
+    {
+      "id": "telegram",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（tele/tele/gram）"
+        },
+        {
+          "type": "家族释义雷同",
+          "detail": "和 telegraph 的释义相似度 1.00（同词根 tele）"
+        }
+      ]
+    },
+    {
+      "id": "approval",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（approv/approv/approve）"
+        },
+        {
+          "type": "家族释义雷同",
+          "detail": "和 disapprove 的释义相似度 0.67（同词根 approve）"
+        }
+      ]
+    },
+    {
+      "id": "jewish",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「犹太族的」和现代义「犹太人的」几乎一样"
+        },
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（jew/jew/犹太人）"
+        }
+      ]
+    },
+    {
+      "id": "portuguese",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「葡萄牙的」和现代义「葡萄牙人」几乎一样"
+        },
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（portugu/portugu/葡萄牙）"
+        }
+      ]
+    },
+    {
+      "id": "preceding",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「走在前头的」和现代义「在前的」几乎一样"
+        },
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（preced/precede/preced）"
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 politician 的释义相似度 0.67（同词根 polit）"
+        },
+        {
+          "type": "家族释义雷同",
+          "detail": "和 political 的释义相似度 0.67（同词根 polit）"
+        }
+      ]
+    },
+    {
+      "id": "headmaster",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 headmistress 的释义相似度 0.67（同词根 head）"
+        },
+        {
+          "type": "家族释义雷同",
+          "detail": "和 headteacher 的释义相似度 1.00（同词根 head）"
+        }
+      ]
+    },
+    {
+      "id": "realise",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 reality 的释义相似度 1.00（同词根 real）"
+        },
+        {
+          "type": "家族释义雷同",
+          "detail": "和 realistic 的释义相似度 0.67（同词根 real）"
+        }
+      ]
+    },
+    {
+      "id": "victorious",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「充满胜利的」和现代义「胜利的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "vacant",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「空着的」和现代义「空的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "hydraulic",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（hydraul/hydr/hydro）"
+        }
+      ]
+    },
+    {
+      "id": "thermos",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「保温的瓶子」和现代义「保温瓶」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "consecrate",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「使成为神圣」和现代义「使神圣」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "literacy",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（liter/liter/literat）"
+        }
+      ]
+    },
+    {
+      "id": "literary",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（liter/liter/literat）"
+        }
+      ]
+    },
+    {
+      "id": "kilometre",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「一千米」和现代义「千米」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "judge",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（judge/jud/judge）"
+        }
+      ]
+    },
+    {
+      "id": "justice",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（just/jud/judge）"
+        }
+      ]
+    },
+    {
+      "id": "justify",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（just/jud/judge）"
+        }
+      ]
+    },
+    {
+      "id": "prejudice",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（pre/pre/前、预先）"
+        }
+      ]
+    },
+    {
+      "id": "anyone",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（any/any/任何）"
+        }
+      ]
+    },
+    {
+      "id": "anywhere",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（any/any/任何）"
+        }
+      ]
+    },
+    {
+      "id": "background",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（back/back/向后）"
+        }
+      ]
+    },
+    {
+      "id": "baseball",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（base/base/bas）"
+        }
+      ]
+    },
+    {
+      "id": "basketball",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（basket/basket/ball）"
+        }
+      ]
+    },
+    {
+      "id": "beyond",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「在那一边」和现代义「在那边」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "blackboard",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（black/black/黑色）"
+        }
+      ]
+    },
+    {
+      "id": "breakfast",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（break/break/fast）"
+        }
+      ]
+    },
+    {
+      "id": "butterfly",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（butter/butter/奶油）"
+        }
+      ]
+    },
+    {
+      "id": "ceiling",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（ceil/ceil/装天花板）"
+        }
+      ]
+    },
+    {
+      "id": "chinese",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（chin/chin/中国）"
+        }
+      ]
+    },
+    {
+      "id": "classroom",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（class/class/班级；等级、类别）"
+        }
+      ]
+    },
+    {
+      "id": "clothes",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（cloth/cloth/布料）"
+        }
+      ]
+    },
+    {
+      "id": "daily",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（dai/day/dai）"
+        }
+      ]
+    },
+    {
+      "id": "director",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（direct/direct/直接的）"
+        }
+      ]
+    },
+    {
+      "id": "discover",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（dis/dis/dif）"
+        }
+      ]
+    },
+    {
+      "id": "disease",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（dis/dis/dif）"
+        }
+      ]
+    },
+    {
+      "id": "duty",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（du/due/du）"
+        }
+      ]
+    },
+    {
+      "id": "european",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「欧洲的」和现代义「欧洲的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "everyone",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（every/every/每一）"
+        }
+      ]
+    },
+    {
+      "id": "fantastic",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（fantas/fantas/幻想）"
+        }
+      ]
+    },
+    {
+      "id": "fifty",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「五个十」和现代义「五十」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "fourteen",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（four/four/for）"
+        }
+      ]
+    },
+    {
+      "id": "fourth",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（four/four/for）"
+        }
+      ]
+    },
+    {
+      "id": "gentleman",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（gentle/gentle/gentl）"
+        }
+      ]
+    },
+    {
+      "id": "goodbye",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（good/good/善行）"
+        }
+      ]
+    },
+    {
+      "id": "grandma",
+      "risks": [
+        {
+          "type": "助记冒充词源",
+          "detail": "词源里出现了助记话术「口语」"
+        }
+      ]
+    },
+    {
+      "id": "grandpa",
+      "risks": [
+        {
+          "type": "助记冒充词源",
+          "detail": "词源里出现了助记话术「口语」"
+        }
+      ]
+    },
+    {
+      "id": "grandson",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（grand/grand/大、隔一代）"
+        }
+      ]
+    },
+    {
+      "id": "hardly",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（hard/hard/坚硬的；园圈）"
+        }
+      ]
+    },
+    {
+      "id": "holiday",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（holi/holi/神圣的）"
+        }
+      ]
+    },
+    {
+      "id": "homework",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（home/home/work）"
+        }
+      ]
+    },
+    {
+      "id": "hotdog",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「热+狗」和现代义「热狗」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "immediately",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（immediate/immediate/立即的）"
+        }
+      ]
+    },
+    {
+      "id": "improve",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（im/im/不；进入）"
+        }
+      ]
+    },
+    {
+      "id": "indian",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「印度河边的」和现代义「印度的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "japanese",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「日本的」和现代义「日本的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "keyboard",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（key/key/board）"
+        }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（kit/kit/厨房）"
+        }
+      ]
+    },
+    {
+      "id": "little",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（litt/litt/le）"
+        }
+      ]
+    },
+    {
+      "id": "lively",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（live/life/live）"
+        }
+      ]
+    },
+    {
+      "id": "lovely",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（love/love/ly）"
+        }
+      ]
+    },
+    {
+      "id": "monkey",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（monk/monk/ey）"
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（mus/mus/缪斯；沉思）"
+        }
+      ]
+    },
+    {
+      "id": "national",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「属于国家的」和现代义「国家的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "neither",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（not/either/either）"
+        }
+      ]
+    },
+    {
+      "id": "newspaper",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（news/news/新闻）"
+        }
+      ]
+    },
+    {
+      "id": "pleasure",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（plea/plea/舒服）"
+        }
+      ]
+    },
+    {
+      "id": "pocket",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（pocke/pocke/et）"
+        }
+      ]
+    },
+    {
+      "id": "postman",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（post/post/后；邮政）"
+        }
+      ]
+    },
+    {
+      "id": "prepare",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（pre/pre/前、预先）"
+        }
+      ]
+    },
+    {
+      "id": "present",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（pre/pre/pro）"
+        }
+      ]
+    },
+    {
+      "id": "probably",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（probabl/probabl/很可能的）"
+        }
+      ]
+    },
+    {
+      "id": "rather",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（rather/rather/相当；宁愿）"
+        }
+      ]
+    },
+    {
+      "id": "riddle",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（ridd/ridd/推测、解；筛）"
+        }
+      ]
+    },
+    {
+      "id": "season",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（sea/sea/son）"
+        }
+      ]
+    },
+    {
+      "id": "thousand",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（thou/thou/sand）"
+        }
+      ]
+    },
+    {
+      "id": "toothache",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（tooth/tooth/牙齿）"
+        }
+      ]
+    },
+    {
+      "id": "traditional",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（tradition/tradition/传说）"
+        }
+      ]
+    },
+    {
+      "id": "twentieth",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「排第二十的」和现代义「第二十」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "wealth",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（weal/weal/身家）"
+        }
+      ]
+    },
+    {
+      "id": "weekday",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（week/week/星期）"
+        }
+      ]
+    },
+    {
+      "id": "weekend",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（week/week/星期）"
+        }
+      ]
+    },
+    {
+      "id": "whatever",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（what/what/什么怎么）"
+        }
+      ]
+    },
+    {
+      "id": "whether",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（whether/whether/是否）"
+        }
+      ]
+    },
+    {
+      "id": "wide",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（wide/wide/宽的；广泛）"
+        }
+      ]
+    },
+    {
+      "id": "yesterday",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（yester/yester/在这以前的）"
+        }
+      ]
+    },
+    {
+      "id": "academic",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（academ/academ/学院）"
+        }
+      ]
+    },
+    {
+      "id": "accessible",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（access/access/通路；附加）"
+        }
+      ]
+    },
+    {
+      "id": "accommodation",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（accommodat/accommodat/使适应）"
+        }
+      ]
+    },
+    {
+      "id": "accountant",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（account/account/账户）"
+        }
+      ]
+    },
+    {
+      "id": "accustomed",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（accustom/accustom/使习惯于）"
+        }
+      ]
+    },
+    {
+      "id": "acknowledge",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（ac/ac/朝向）"
+        }
+      ]
+    },
+    {
+      "id": "acquaintance",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（acquaint/acquaint/使认识）"
+        }
+      ]
+    },
+    {
+      "id": "aggressive",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（aggress/gress/aggress）"
+        }
+      ]
+    },
+    {
+      "id": "ahead",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（head/head）"
+        }
+      ]
+    },
+    {
+      "id": "airspace",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（air/air/aire）"
+        }
+      ]
+    },
+    {
+      "id": "allergic",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（allerg/allerg/变应性）"
+        }
+      ]
+    },
+    {
+      "id": "alternative",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（alternat/alternat/交替的）"
+        }
+      ]
+    },
+    {
+      "id": "amazing",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（amaz/amaz/使吃惊）"
+        }
+      ]
+    },
+    {
+      "id": "appreciation",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（appreciat/appreciat/赏识）"
+        }
+      ]
+    },
+    {
+      "id": "approximately",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（approximate/approximate/大约的）"
+        }
+      ]
+    },
+    {
+      "id": "ashamed",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（ashame/sham/ashame）"
+        }
+      ]
+    },
+    {
+      "id": "astronaut",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（astro/astro/aster）"
+        }
+      ]
+    },
+    {
+      "id": "astronomy",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（astro/astro/aster）"
+        }
+      ]
+    },
+    {
+      "id": "average",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（ave/ave/rage）"
+        }
+      ]
+    },
+    {
+      "id": "awesome",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（awe/awe/aw）"
+        }
+      ]
+    },
+    {
+      "id": "awkward",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（awk/awk/反手）"
+        }
+      ]
+    },
+    {
+      "id": "backache",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「背+痛」和现代义「背痛」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "ballet",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（ball/ball/et）"
+        }
+      ]
+    },
+    {
+      "id": "betray",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（be/be/bee）"
+        }
+      ]
+    },
+    {
+      "id": "birdcage",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「鸟+笼」和现代义「鸟笼」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "birthplace",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「出生的地方」和现代义「出生地」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "bowling",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（bowl/bowl/碗；球）"
+        }
+      ]
+    },
+    {
+      "id": "breakthrough",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（break/break/through）"
+        }
+      ]
+    },
+    {
+      "id": "broadcast",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（broad/broad/宽广的）"
+        }
+      ]
+    },
+    {
+      "id": "carrot",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（carrot/carrot/胡萝卜）"
+        }
+      ]
+    },
+    {
+      "id": "cathedral",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（cathedra/cathedra/主教的座位）"
+        }
+      ]
+    },
+    {
+      "id": "challenging",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（challeng/challeng/挑战）"
+        }
+      ]
+    },
+    {
+      "id": "champion",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（champ/champ/竞技场；大声嚼）"
+        }
+      ]
+    },
+    {
+      "id": "chapter",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（chap/chap/小伙子；头）"
+        }
+      ]
+    },
+    {
+      "id": "characteristic",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（character/character/个性）"
+        }
+      ]
+    },
+    {
+      "id": "cheerful",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（cheer/cheer/愉快）"
+        }
+      ]
+    },
+    {
+      "id": "coincidence",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（coincide/coincide/一致）"
+        }
+      ]
+    },
+    {
+      "id": "daylight",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（day/day/dai）"
+        }
+      ]
+    },
+    {
+      "id": "deadline",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（dead/dead/死的）"
+        }
+      ]
+    },
+    {
+      "id": "deeply",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（deep/deep/ly）"
+        }
+      ]
+    },
+    {
+      "id": "deliberately",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（deliberate/deliberate/深思熟虑的）"
+        }
+      ]
+    },
+    {
+      "id": "delighted",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（delight/delight/高兴）"
+        }
+      ]
+    },
+    {
+      "id": "detective",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（detect/detect/发现）"
+        }
+      ]
+    },
+    {
+      "id": "diagram",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（dia/dia/通过、跨越）"
+        }
+      ]
+    },
+    {
+      "id": "disagreement",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（dis/dis/dif）"
+        }
+      ]
+    },
+    {
+      "id": "disappoint",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（dis/dis/dif）"
+        }
+      ]
+    },
+    {
+      "id": "discourage",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（dis/dis/dif）"
+        }
+      ]
+    },
+    {
+      "id": "disgusting",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（disgust/disgust/厌恶）"
+        }
+      ]
+    },
+    {
+      "id": "download",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（down/down/向下）"
+        }
+      ]
+    },
+    {
+      "id": "downtown",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（down/down/向下）"
+        }
+      ]
+    },
+    {
+      "id": "ecology",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（eco/eco/生态）"
+        }
+      ]
+    },
+    {
+      "id": "eggplant",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（egg/egg/plant）"
+        }
+      ]
+    },
+    {
+      "id": "egyptian",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「埃及的」和现代义「埃及的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "electrical",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（electric/electric/电的）"
+        }
+      ]
+    },
+    {
+      "id": "electricity",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（electric/electric/电的）"
+        }
+      ]
+    },
+    {
+      "id": "entertainment",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（entertain/entertain/娱乐）"
+        }
+      ]
+    },
+    {
+      "id": "enthusiastic",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（enthusiast/enthusiast/热心家）"
+        }
+      ]
+    },
+    {
+      "id": "exchange",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（ex/ex/exe）"
+        }
+      ]
+    },
+    {
+      "id": "existence",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（exist/exist/存在）"
+        }
+      ]
+    },
+    {
+      "id": "expectation",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（expect/expect/预期）"
+        }
+      ]
+    },
+    {
+      "id": "extremely",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（extreme/extreme/极端）"
+        }
+      ]
+    },
+    {
+      "id": "eyesight",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（eye/ey/eye）"
+        }
+      ]
+    },
+    {
+      "id": "fairly",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（fair/fair/公平）"
+        }
+      ]
+    },
+    {
+      "id": "feather",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（feat/feat/羽毛）"
+        }
+      ]
+    },
+    {
+      "id": "firewood",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（fire/fire/wood）"
+        }
+      ]
+    },
+    {
+      "id": "firework",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（fire/fire/work）"
+        }
+      ]
+    },
+    {
+      "id": "flashlight",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（flash/flash/闪光）"
+        }
+      ]
+    },
+    {
+      "id": "fortnight",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（fort/fort/强壮；十四）"
+        }
+      ]
+    },
+    {
+      "id": "founding",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（found/found/奠基；底）"
+        }
+      ]
+    },
+    {
+      "id": "freeway",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（free/free/frie）"
+        }
+      ]
+    },
+    {
+      "id": "frenchman",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「法国的人」和现代义「法国人」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "geometry",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（geo/geo/metry）"
+        }
+      ]
+    },
+    {
+      "id": "goldfish",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（gold/gold/黄金）"
+        }
+      ]
+    },
+    {
+      "id": "headline",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（head/head/line）"
+        }
+      ]
+    },
+    {
+      "id": "heroine",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（heroine/heroine/女英雄；女主角）"
+        }
+      ]
+    },
+    {
+      "id": "highway",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（high/high/高度）"
+        }
+      ]
+    },
+    {
+      "id": "homeland",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（home/home/land）"
+        }
+      ]
+    },
+    {
+      "id": "honey",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（hon/hon/蜂蜜）"
+        }
+      ]
+    },
+    {
+      "id": "housewife",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（house/house/房子）"
+        }
+      ]
+    },
+    {
+      "id": "jewelry",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（jewel/jewell/jewel）"
+        }
+      ]
+    },
+    {
+      "id": "lately",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（late/late/latt）"
+        }
+      ]
+    },
+    {
+      "id": "latter",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（latt/late/latt）"
+        }
+      ]
+    },
+    {
+      "id": "laughter",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（laugh/laugh/ter）"
+        }
+      ]
+    },
+    {
+      "id": "loudly",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（loud/loud/大声的）"
+        }
+      ]
+    },
+    {
+      "id": "microscope",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（micro/micro/微小）"
+        }
+      ]
+    },
+    {
+      "id": "necklace",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（neck/neck/脖子）"
+        }
+      ]
+    },
+    {
+      "id": "neighbourhood",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（neighbour/neighbour/邻居）"
+        }
+      ]
+    },
+    {
+      "id": "nursery",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（nurse/nurse/护士）"
+        }
+      ]
+    },
+    {
+      "id": "painting",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（paint/paint/描绘、画；油漆）"
+        }
+      ]
+    },
+    {
+      "id": "pineapple",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（pine/pine/松树）"
+        }
+      ]
+    },
+    {
+      "id": "playmate",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（play/play/游戏；折叠）"
+        }
+      ]
+    },
+    {
+      "id": "polish",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「波兰的」和现代义「波兰的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "practical",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（practic/practic/practice）"
+        }
+      ]
+    },
+    {
+      "id": "precise",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（pre/pre/pro）"
+        }
+      ]
+    },
+    {
+      "id": "preparation",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（prepar/prepar/准备）"
+        }
+      ]
+    },
+    {
+      "id": "presentation",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（present/present/呈献；现在、礼物）"
+        }
+      ]
+    },
+    {
+      "id": "preview",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（pre/pre/pro）"
+        }
+      ]
+    },
+    {
+      "id": "rainbow",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（rain/rain/bow）"
+        }
+      ]
+    },
+    {
+      "id": "regards",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（reg/reg/统治；区域）"
+        }
+      ]
+    },
+    {
+      "id": "sceptical",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（sceptic/sceptic/怀疑论者）"
+        }
+      ]
+    },
+    {
+      "id": "scotland",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「苏格兰之地」和现代义「苏格兰」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "seashell",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（sea/sea/shell）"
+        }
+      ]
+    },
+    {
+      "id": "shortly",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（short/short/短的）"
+        }
+      ]
+    },
+    {
+      "id": "shuttle",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（shutt/shutt/梭；关闭）"
+        }
+      ]
+    },
+    {
+      "id": "sixteenth",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「排第十六的」和现代义「第十六」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "skateboard",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（skate/skate/溜冰）"
+        }
+      ]
+    },
+    {
+      "id": "snowball",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（snow/snow/ball）"
+        }
+      ]
+    },
+    {
+      "id": "spaceship",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（space/space/spac）"
+        }
+      ]
+    },
+    {
+      "id": "spanish",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「西班牙的」和现代义「西班牙的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "sparrow",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（spar/spar/row）"
+        }
+      ]
+    },
+    {
+      "id": "stomachache",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「胃+痛」和现代义「胃痛」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "subjective",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（subject/subject/主体）"
+        }
+      ]
+    },
+    {
+      "id": "subtraction",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（subtract/subtract/减去）"
+        }
+      ]
+    },
+    {
+      "id": "sunglasses",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「挡太阳的镜」和现代义「太阳镜」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "superman",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（super/super/man）"
+        }
+      ]
+    },
+    {
+      "id": "technical",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（technic/technic/技艺的）"
+        }
+      ]
+    },
+    {
+      "id": "theoretical",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（theoretic/theoretic/理论上的）"
+        }
+      ]
+    },
+    {
+      "id": "troublesome",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「招麻烦的」和现代义「麻烦的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "truly",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（tru/tru/true）"
+        }
+      ]
+    },
+    {
+      "id": "turkey",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（turk/turk/土耳其人）"
+        }
+      ]
+    },
+    {
+      "id": "typist",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（typ/type/typ）"
+        }
+      ]
+    },
+    {
+      "id": "unsafe",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「不安全的」和现代义「不安全的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "videophone",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（video/video/影像）"
+        }
+      ]
+    },
+    {
+      "id": "wander",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（wander/wander/漫步）"
+        }
+      ]
+    },
+    {
+      "id": "wayside",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（way/way/side）"
+        }
+      ]
+    },
+    {
+      "id": "weekly",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（week/week/星期）"
+        }
+      ]
+    },
+    {
+      "id": "westerner",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「西方的人」和现代义「西方人」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "whichever",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（which/which/哪一个）"
+        }
+      ]
+    },
+    {
+      "id": "willingness",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（willing/willing/乐意的）"
+        }
+      ]
+    },
+    {
+      "id": "woollen",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「羊毛织的」和现代义「羊毛的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "workmate",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（work/work/工作）"
+        }
+      ]
+    },
+    {
+      "id": "wrestle",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（wrest/wrest/le）"
+        }
+      ]
+    },
+    {
+      "id": "absolutely",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（absolute/absolute/绝对的）"
+        }
+      ]
+    },
+    {
+      "id": "acceleration",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（accelerat/accelerat/加速）"
+        }
+      ]
+    },
+    {
+      "id": "acceptable",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（accept/accept/接受）"
+        }
+      ]
+    },
+    {
+      "id": "additional",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（addition/addition/加法）"
+        }
+      ]
+    },
+    {
+      "id": "arabian",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「阿拉伯的」和现代义「阿拉伯的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "automatically",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（automatic/automatic/自动的）"
+        }
+      ]
+    },
+    {
+      "id": "bitterly",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（bitter/bitter/苦的）"
+        }
+      ]
+    },
+    {
+      "id": "chill",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（ch/ch/ill）"
+        }
+      ]
+    },
+    {
+      "id": "comparatively",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（comparative/comparative/比较的）"
+        }
+      ]
+    },
+    {
+      "id": "comparison",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（com/com/come）"
+        }
+      ]
+    },
+    {
+      "id": "conjunction",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（conjunct/conjunct/结合的）"
+        }
+      ]
+    },
+    {
+      "id": "copper",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（copp/copp/er）"
+        }
+      ]
+    },
+    {
+      "id": "cripple",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（cripp/cripp/le）"
+        }
+      ]
+    },
+    {
+      "id": "definitely",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（definite/definite/明确的）"
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（delivery/delivery/递送）"
+        }
+      ]
+    },
+    {
+      "id": "democratic",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（democrat/democrat/民主人士）"
+        }
+      ]
+    },
+    {
+      "id": "discharge",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（dis/dis/dif）"
+        }
+      ]
+    },
+    {
+      "id": "disclose",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（dis/dis/dif）"
+        }
+      ]
+    },
+    {
+      "id": "disgust",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（dis/dis/dif）"
+        }
+      ]
+    },
+    {
+      "id": "display",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（dis/dis/dif）"
+        }
+      ]
+    },
+    {
+      "id": "displease",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（dis/dis/dif）"
+        }
+      ]
+    },
+    {
+      "id": "earnest",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（earn/earn/赚得；热忱）"
+        }
+      ]
+    },
+    {
+      "id": "economic",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（econom/econom/持家；经济）"
+        }
+      ]
+    },
+    {
+      "id": "elimination",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（eliminat/eliminat/除去）"
+        }
+      ]
+    },
+    {
+      "id": "emotional",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（emotion/emotion/情绪）"
+        }
+      ]
+    },
+    {
+      "id": "establishment",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（establish/establish/建立）"
+        }
+      ]
+    },
+    {
+      "id": "excitement",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（excite/excite/刺激）"
+        }
+      ]
+    },
+    {
+      "id": "footstep",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（foot/foot/step）"
+        }
+      ]
+    },
+    {
+      "id": "foremost",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（fore/for/fore）"
+        }
+      ]
+    },
+    {
+      "id": "foundation",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（found/found/奠基；底）"
+        }
+      ]
+    },
+    {
+      "id": "geology",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（geo/geo/logy）"
+        }
+      ]
+    },
+    {
+      "id": "grammatical",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（grammatic/grammatic/语法）"
+        }
+      ]
+    },
+    {
+      "id": "harden",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「使变坚硬」和现代义「使变硬」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "highly",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（high/high/高度）"
+        }
+      ]
+    },
+    {
+      "id": "humble",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（humb/humb/地面）"
+        }
+      ]
+    },
+    {
+      "id": "impressive",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（impress/impress/印象）"
+        }
+      ]
+    },
+    {
+      "id": "injection",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（inject/inject/注射）"
+        }
+      ]
+    },
+    {
+      "id": "instantly",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（instant/instant/立即）"
+        }
+      ]
+    },
+    {
+      "id": "intentional",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（intention/intention/意图）"
+        }
+      ]
+    },
+    {
+      "id": "interference",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（interfere/interfere/妨碍）"
+        }
+      ]
+    },
+    {
+      "id": "invisible",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「瞧不见的」和现代义「看不见的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "kneel",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（knee/knee/le）"
+        }
+      ]
+    },
+    {
+      "id": "lightly",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（light/light/ly）"
+        }
+      ]
+    },
+    {
+      "id": "liver",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（liver/liver/肝脏）"
+        }
+      ]
+    },
+    {
+      "id": "lower",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（low/low/低点）"
+        }
+      ]
+    },
+    {
+      "id": "masterpiece",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（master/master/主人）"
+        }
+      ]
+    },
+    {
+      "id": "mechanical",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（mechanic/mechanic/机械工）"
+        }
+      ]
+    },
+    {
+      "id": "needless",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「不必的」和现代义「不必要的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "objection",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（object/object/物体；反对、客体）"
+        }
+      ]
+    },
+    {
+      "id": "objective",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（object/object/物体；反对、客体）"
+        }
+      ]
+    },
+    {
+      "id": "operational",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（operation/operation/操作）"
+        }
+      ]
+    },
+    {
+      "id": "permanently",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（permanent/permanent/永久的）"
+        }
+      ]
+    },
+    {
+      "id": "precision",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（precis/precis/精确的）"
+        }
+      ]
+    },
+    {
+      "id": "preface",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（preface/preface/序言；开场白）"
+        }
+      ]
+    },
+    {
+      "id": "preposition",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（pre/pre/pro）"
+        }
+      ]
+    },
+    {
+      "id": "property",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（proper/proper/适当的）"
+        }
+      ]
+    },
+    {
+      "id": "reflexion",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（reflex/reflex/反射）"
+        }
+      ]
+    },
+    {
+      "id": "seaport",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「海+港」和现代义「海港」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "shampoo",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（sham/sham/ashame）"
+        }
+      ]
+    },
+    {
+      "id": "shepherd",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（shep/shep/herd）"
+        }
+      ]
+    },
+    {
+      "id": "slippery",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（slippery/slippery/滑的）"
+        }
+      ]
+    },
+    {
+      "id": "startle",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（start/start/开始；惊起）"
+        }
+      ]
+    },
+    {
+      "id": "statesman",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（states/st/states）"
+        }
+      ]
+    },
+    {
+      "id": "subway",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（sub/sub/suf）"
+        }
+      ]
+    },
+    {
+      "id": "thereby",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（there/there/在那里）"
+        }
+      ]
+    },
+    {
+      "id": "twinkle",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（twink/twink/闪烁）"
+        }
+      ]
+    },
+    {
+      "id": "unkind",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（un/un/不；直至）"
+        }
+      ]
+    },
+    {
+      "id": "unstable",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「站不稳的」和现代义「不稳定的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "videotape",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（video/video/影像）"
+        }
+      ]
+    },
+    {
+      "id": "whoever",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（who/who/ever）"
+        }
+      ]
+    },
+    {
+      "id": "wholly",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（whol/whole/whol）"
+        }
+      ]
+    },
+    {
+      "id": "abbreviation",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（abbreviat/abbreviat/缩短）"
+        }
+      ]
+    },
+    {
+      "id": "accomplishment",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（accomplish/accomplish/完成）"
+        }
+      ]
+    },
+    {
+      "id": "adjustable",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（adjust/adjust/调整）"
+        }
+      ]
+    },
+    {
+      "id": "aerospace",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（aero/aero/飞机的）"
+        }
+      ]
+    },
+    {
+      "id": "appealing",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（appeal/appeal/恳求；打动）"
+        }
+      ]
+    },
+    {
+      "id": "appraisal",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（apprais/apprais/评价；估价）"
+        }
+      ]
+    },
+    {
+      "id": "assertive",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（assert/assert/主张）"
+        }
+      ]
+    },
+    {
+      "id": "assurance",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（assur/assur/assure）"
+        }
+      ]
+    },
+    {
+      "id": "astonishment",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（astonish/astonish/使惊讶）"
+        }
+      ]
+    },
+    {
+      "id": "automate",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（auto/auto/自己、自动）"
+        }
+      ]
+    },
+    {
+      "id": "bankruptcy",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（bankrupt/bankrupt/破产）"
+        }
+      ]
+    },
+    {
+      "id": "biased",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（bias/bias/偏见）"
+        }
+      ]
+    },
+    {
+      "id": "calibration",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（calibrat/calibrat/口径；校准）"
+        }
+      ]
+    },
+    {
+      "id": "coastal",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「贴着海岸的」和现代义「海岸的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "coherent",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（cohere/cohere/附着）"
+        }
+      ]
+    },
+    {
+      "id": "commonplace",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（common/common/通常的）"
+        }
+      ]
+    },
+    {
+      "id": "consistently",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（consistent/consistent/一致的）"
+        }
+      ]
+    },
+    {
+      "id": "continental",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（continent/continent/大陆）"
+        }
+      ]
+    },
+    {
+      "id": "counteract",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（counter/counter/柜台；反、相对）"
+        }
+      ]
+    },
+    {
+      "id": "courteous",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（court/court/法院；宫廷）"
+        }
+      ]
+    },
+    {
+      "id": "courtesy",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（court/court/法院；宫廷）"
+        }
+      ]
+    },
+    {
+      "id": "customary",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（custom/custom/习惯）"
+        }
+      ]
+    },
+    {
+      "id": "cynical",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（cynic/cynic/犬儒学派的人）"
+        }
+      ]
+    },
+    {
+      "id": "desperately",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（desperate/desperate/不顾一切的）"
+        }
+      ]
+    },
+    {
+      "id": "diplomatic",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（diplomat/diplomat/外交官）"
+        }
+      ]
+    },
+    {
+      "id": "elliptical",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（elliptic/elliptic/椭圆形的）"
+        }
+      ]
+    },
+    {
+      "id": "empirical",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（empiric/empiric/经验主义者）"
+        }
+      ]
+    },
+    {
+      "id": "endurance",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（endur/endur/持久；忍受）"
+        }
+      ]
+    },
+    {
+      "id": "ethical",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（ethic/ethic/道德规范）"
+        }
+      ]
+    },
+    {
+      "id": "evaporation",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（evaporat/evaporat/蒸发）"
+        }
+      ]
+    },
+    {
+      "id": "everlasting",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（ever/ever/ver）"
+        }
+      ]
+    },
+    {
+      "id": "evolutionary",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（evolution/evolution/进化）"
+        }
+      ]
+    },
+    {
+      "id": "exceptional",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（exception/exception/例外）"
+        }
+      ]
+    },
+    {
+      "id": "exploitation",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（exploit/exploit/功绩；利用）"
+        }
+      ]
+    },
+    {
+      "id": "extracurricular",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「课表之外的」和现代义「课外的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "fluorescent",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「会发荧光的」和现代义「荧光的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "footpath",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（foot/foot/path）"
+        }
+      ]
+    },
+    {
+      "id": "gamble",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（gamb/gamb/博戏；比赛）"
+        }
+      ]
+    },
+    {
+      "id": "geometrical",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（geometric/geometric/几何学的）"
+        }
+      ]
+    },
+    {
+      "id": "gossip",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（gos/gos/教亲）"
+        }
+      ]
+    },
+    {
+      "id": "grasshopper",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（grass/grass/hopper）"
+        }
+      ]
+    },
+    {
+      "id": "hemisphere",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「半个球」和现代义「半球」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "hover",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（hover/hover/盘旋；悬停）"
+        }
+      ]
+    },
+    {
+      "id": "huddle",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（hudd/hudd/藏、缩）"
+        }
+      ]
+    },
+    {
+      "id": "hydrocarbon",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（hydro/hydro/carbon）"
+        }
+      ]
+    },
+    {
+      "id": "hysterical",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（hysteric/hysteric/癔病的）"
+        }
+      ]
+    },
+    {
+      "id": "irregularity",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（irregular/irregular/不规则物）"
+        }
+      ]
+    },
+    {
+      "id": "kilowatt",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「千+瓦」和现代义「千瓦」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "longitude",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（long/long/ling）"
+        }
+      ]
+    },
+    {
+      "id": "magician",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（magic/magic/魔术）"
+        }
+      ]
+    },
+    {
+      "id": "malicious",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（malic/malic/恶意）"
+        }
+      ]
+    },
+    {
+      "id": "massacre",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（mass/mass/acre）"
+        }
+      ]
+    },
+    {
+      "id": "microprocessor",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（micro/micro/微小）"
+        }
+      ]
+    },
+    {
+      "id": "mingle",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（ming/ming/掺、混）"
+        }
+      ]
+    },
+    {
+      "id": "motorway",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（motor/motor/发动机）"
+        }
+      ]
+    },
+    {
+      "id": "neuron",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「神经之元」和现代义「神经元」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "orchard",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（orc/orc/hard）"
+        }
+      ]
+    },
+    {
+      "id": "overhear",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（over/over/在上）"
+        }
+      ]
+    },
+    {
+      "id": "peacock",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（pea/pea/豌豆）"
+        }
+      ]
+    },
+    {
+      "id": "peer",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（peer/peer/同辈；凝视）"
+        }
+      ]
+    },
+    {
+      "id": "pickle",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（pick/pick/腌；精选）"
+        }
+      ]
+    },
+    {
+      "id": "poultry",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（poult/poult/幼禽）"
+        }
+      ]
+    },
+    {
+      "id": "precedent",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（precede/precede/preced）"
+        }
+      ]
+    },
+    {
+      "id": "predestine",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（pre/pre/pro）"
+        }
+      ]
+    },
+    {
+      "id": "predominant",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（pre/pre/pro）"
+        }
+      ]
+    },
+    {
+      "id": "prerequisite",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（pre/pre/pro）"
+        }
+      ]
+    },
+    {
+      "id": "preservation",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（preserv/preserv/保护）"
+        }
+      ]
+    },
+    {
+      "id": "preset",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（pre/pre/pro）"
+        }
+      ]
+    },
+    {
+      "id": "prevalence",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（pre/pre/pro）"
+        }
+      ]
+    },
+    {
+      "id": "prevention",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（prevent/prevent/预防）"
+        }
+      ]
+    },
+    {
+      "id": "proceeding",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（proceed/proceed/继续进行）"
+        }
+      ]
+    },
+    {
+      "id": "prototype",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（proto/proto/计原型）"
+        }
+      ]
+    },
+    {
+      "id": "pumpkin",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（pump/pump/鼓、熟瓜）"
+        }
+      ]
+    },
+    {
+      "id": "reckless",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（reck/reck/介意）"
+        }
+      ]
+    },
+    {
+      "id": "regenerative",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「再+生+的」和现代义「再生的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "rejection",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（reject/reject/被拒之人）"
+        }
+      ]
+    },
+    {
+      "id": "representation",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（represent/represent/代表）"
+        }
+      ]
+    },
+    {
+      "id": "scramble",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（scramb/scramb/抓爬）"
+        }
+      ]
+    },
+    {
+      "id": "shipbuilding",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（ship/ship/building）"
+        }
+      ]
+    },
+    {
+      "id": "shipwreck",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（ship/ship/wreck）"
+        }
+      ]
+    },
+    {
+      "id": "skeptical",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（skeptic/skeptic/怀疑者）"
+        }
+      ]
+    },
+    {
+      "id": "soften",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（soft/soft/en）"
+        }
+      ]
+    },
+    {
+      "id": "softness",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（soft/soft/ness）"
+        }
+      ]
+    },
+    {
+      "id": "spacious",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（spac/space/spac）"
+        }
+      ]
+    },
+    {
+      "id": "stairway",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（stair/stairs/stair）"
+        }
+      ]
+    },
+    {
+      "id": "stockholder",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（stock/stock/存货）"
+        }
+      ]
+    },
+    {
+      "id": "sweetness",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（sweet/sweet/甜蜜）"
+        }
+      ]
+    },
+    {
+      "id": "taper",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（taper/taper/逐渐变细；烛芯）"
+        }
+      ]
+    },
+    {
+      "id": "thereafter",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（there/there/在那里）"
+        }
+      ]
+    },
+    {
+      "id": "timely",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（time/time/时间）"
+        }
+      ]
+    },
+    {
+      "id": "underlying",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（underly/underly/位于之下）"
+        }
+      ]
+    },
+    {
+      "id": "unreliable",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「靠不住的」和现代义「不可靠的、靠不住的」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "utilization",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（utiliz/utiliz/利用）"
+        }
+      ]
+    },
+    {
+      "id": "vowel",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（vow/vow/出声）"
+        }
+      ]
+    },
+    {
+      "id": "workpiece",
+      "risks": [
+        {
+          "type": "语义梯子太短",
+          "detail": "字面义「工+件」和现代义「工件」几乎一样"
+        }
+      ]
+    },
+    {
+      "id": "electric",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（electr/electr/ic）"
+        }
+      ]
+    },
+    {
+      "id": "mathematical",
+      "risks": [
+        {
+          "type": "词源口径不一致",
+          "detail": "词源既没提到拉丁语素也没提到其中文义（mathematic/mathematic/数学）"
+        }
+      ]
+    },
+    {
+      "id": "circumspect",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 circumspection 的释义相似度 0.83（同词根 spec）"
+        }
+      ]
+    },
+    {
+      "id": "biology",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 biochemistry 的释义相似度 0.75（同词根 bio）"
+        }
+      ]
+    },
+    {
+      "id": "dialogue",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 dialog 的释义相似度 1.00（同词根 log）"
+        }
+      ]
+    },
+    {
+      "id": "inverse",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 reverse 的释义相似度 0.67（同词根 vers）"
+        }
+      ]
+    },
+    {
+      "id": "encourage",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 encouragement 的释义相似度 1.00（同词根 cor）"
+        }
+      ]
+    },
+    {
+      "id": "victory",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 victorious 的释义相似度 0.67（同词根 vinc）"
+        }
+      ]
+    },
+    {
+      "id": "conviction",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 convict 的释义相似度 1.00（同词根 vinc）"
+        }
+      ]
+    },
+    {
+      "id": "primitive",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 primal 的释义相似度 1.00（同词根 prim）"
+        }
+      ]
+    },
+    {
+      "id": "propel",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 propulsion 的释义相似度 1.00（同词根 pel）"
+        }
+      ]
+    },
+    {
+      "id": "comfortable",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 uncomfortable 的释义相似度 0.75（同词根 fort）"
+        }
+      ]
+    },
+    {
+      "id": "confuse",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 confusion 的释义相似度 0.67（同词根 fus）"
+        }
+      ]
+    },
+    {
+      "id": "equal",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 equality 的释义相似度 0.67（同词根 equ）"
+        }
+      ]
+    },
+    {
+      "id": "dehydrate",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 dehydration 的释义相似度 0.67（同词根 hydr）"
+        }
+      ]
+    },
+    {
+      "id": "collaborate",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 collaboration 的释义相似度 1.00（同词根 labor）"
+        }
+      ]
+    },
+    {
+      "id": "grateful",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 gratitude 的释义相似度 0.67（同词根 grat）"
+        }
+      ]
+    },
+    {
+      "id": "congratulate",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 congratulation 的释义相似度 1.00（同词根 grat）"
+        }
+      ]
+    },
+    {
+      "id": "immigration",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 immigrate 的释义相似度 0.60（同词根 migr）"
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 society 的释义相似度 0.67（同词根 soci）"
+        }
+      ]
+    },
+    {
+      "id": "society",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 sociology 的释义相似度 0.67（同词根 soci）"
+        }
+      ]
+    },
+    {
+      "id": "physics",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 physicist 的释义相似度 0.75（同词根 phys）"
+        }
+      ]
+    },
+    {
+      "id": "prescription",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 prescribe 的释义相似度 0.67（同词根 scrib）"
+        }
+      ]
+    },
+    {
+      "id": "agreement",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 disagree 的释义相似度 0.67（同词根 agree）"
+        }
+      ]
+    },
+    {
+      "id": "anybody",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 anyone 的释义相似度 1.00（同词根 any）"
+        }
+      ]
+    },
+    {
+      "id": "anyway",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 anyhow 的释义相似度 1.00（同词根 any）"
+        }
+      ]
+    },
+    {
+      "id": "classify",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 classification 的释义相似度 1.00（同词根 class）"
+        }
+      ]
+    },
+    {
+      "id": "competence",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 competent 的释义相似度 0.71（同词根 compete）"
+        }
+      ]
+    },
+    {
+      "id": "staircase",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 stairway 的释义相似度 1.00（同词根 stair）"
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 educator 的释义相似度 0.67（同词根 educate）"
+        }
+      ]
+    },
+    {
+      "id": "everybody",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 everyone 的释义相似度 1.00（同词根 every）"
+        }
+      ]
+    },
+    {
+      "id": "fifteen",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 fifty 的释义相似度 1.00（同词根 five）"
+        }
+      ]
+    },
+    {
+      "id": "headmistress",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 headteacher 的释义相似度 0.67（同词根 head）"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 healthy 的释义相似度 0.67（同词根 heal）"
+        }
+      ]
+    },
+    {
+      "id": "possibility",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 possibly 的释义相似度 0.67（同词根 possible）"
+        }
+      ]
+    },
+    {
+      "id": "invention",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 inventor 的释义相似度 0.67（同词根 invent）"
+        }
+      ]
+    },
+    {
+      "id": "operation",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 operator 的释义相似度 0.67（同词根 operate）"
+        }
+      ]
+    },
+    {
+      "id": "railway",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 railroad 的释义相似度 1.00（同词根 rail）"
+        }
+      ]
+    },
+    {
+      "id": "reality",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 realistic 的释义相似度 0.67（同词根 real）"
+        }
+      ]
+    },
+    {
+      "id": "violence",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 violent 的释义相似度 0.83（同词根 viola）"
+        }
+      ]
+    },
+    {
+      "id": "yourself",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 yourselves 的释义相似度 0.75（同词根 your）"
+        }
+      ]
+    },
+    {
+      "id": "application",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 applicant 的释义相似度 0.67（同词根 apply）"
+        }
+      ]
+    },
+    {
+      "id": "attend",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 attendance 的释义相似度 1.00（同词根 tend）"
+        }
+      ]
+    },
+    {
+      "id": "attraction",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 attractive 的释义相似度 0.60（同词根 attract）"
+        }
+      ]
+    },
+    {
+      "id": "bookshop",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 bookstore 的释义相似度 1.00（同词根 book）"
+        }
+      ]
+    },
+    {
+      "id": "buddhism",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 buddhist 的释义相似度 0.67（同词根 buddha）"
+        }
+      ]
+    },
+    {
+      "id": "businessman",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 businesswoman 的释义相似度 0.67（同词根 business）"
+        }
+      ]
+    },
+    {
+      "id": "communism",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 communist 的释义相似度 0.80（同词根 commune）"
+        }
+      ]
+    },
+    {
+      "id": "contradictory",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 contradiction 的释义相似度 0.67（同词根 contradict）"
+        }
+      ]
+    },
+    {
+      "id": "disability",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 disabled 的释义相似度 0.67（同词根 disable）"
+        }
+      ]
+    },
+    {
+      "id": "firefighter",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 fireman 的释义相似度 1.00（同词根 fire）"
+        }
+      ]
+    },
+    {
+      "id": "happily",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 happiness 的释义相似度 0.67（同词根 happy）"
+        }
+      ]
+    },
+    {
+      "id": "organise",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 organize 的释义相似度 1.00（同词根 organ）"
+        }
+      ]
+    },
+    {
+      "id": "performance",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 performer 的释义相似度 0.67（同词根 perform）"
+        }
+      ]
+    },
+    {
+      "id": "protection",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 protective 的释义相似度 0.67（同词根 protect）"
+        }
+      ]
+    },
+    {
+      "id": "runner",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 running 的释义相似度 0.67（同词根 run）"
+        }
+      ]
+    },
+    {
+      "id": "skilled",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 skillful 的释义相似度 1.00（同词根 skill）"
+        }
+      ]
+    },
+    {
+      "id": "smoker",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 smoking 的释义相似度 0.67（同词根 smoke）"
+        }
+      ]
+    },
+    {
+      "id": "socialism",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 socialist 的释义相似度 0.80（同词根 social）"
+        }
+      ]
+    },
+    {
+      "id": "therefore",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 thereby 的释义相似度 1.00（同词根 there）"
+        }
+      ]
+    },
+    {
+      "id": "calculation",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 calculator 的释义相似度 0.67（同词根 calculate）"
+        }
+      ]
+    },
+    {
+      "id": "continual",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 continuous 的释义相似度 0.60（同词根 continue）"
+        }
+      ]
+    },
+    {
+      "id": "criticism",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 criticize 的释义相似度 1.00（同词根 critic）"
+        }
+      ]
+    },
+    {
+      "id": "experimental",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 experimentation 的释义相似度 0.67（同词根 experiment）"
+        }
+      ]
+    },
+    {
+      "id": "heating",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 heater 的释义相似度 0.67（同词根 heat）"
+        }
+      ]
+    },
+    {
+      "id": "marxist",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 marxism 的释义相似度 0.83（同词根 marx）"
+        }
+      ]
+    },
+    {
+      "id": "philosopher",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 philosophy 的释义相似度 0.67（同词根 philo）"
+        }
+      ]
+    },
+    {
+      "id": "prosperity",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 prosperous 的释义相似度 0.67（同词根 prosper）"
+        }
+      ]
+    },
+    {
+      "id": "vitamin",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 vitamine 的释义相似度 1.00（同词根 vita）"
+        }
+      ]
+    },
+    {
+      "id": "capacitance",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 capacitor 的释义相似度 0.67（同词根 capacity）"
+        }
+      ]
+    },
+    {
+      "id": "maturation",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 maturity 的释义相似度 0.80（同词根 mature）"
+        }
+      ]
+    },
+    {
+      "id": "persistence",
+      "risks": [
+        {
+          "type": "家族释义雷同",
+          "detail": "和 persistent 的释义相似度 0.83（同词根 persist）"
+        }
+      ]
+    }
+  ]
+}

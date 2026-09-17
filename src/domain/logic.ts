@@ -274,7 +274,18 @@ export function applyMatchReview(profile: PlayerProfile, results: Array<{ rootId
   }
 }
 
-export function getReviewQueue(progress: ReviewProgress[], now = new Date()) {
+/**
+ * 到期的词根队列，按到期时间升序。
+ * options.deprioritizedRootIds 里是「结构性缺门」的词根：家族连一个入门词都没有
+ * （见 scripts/tools/build-non-teaching-roots.mjs 的策略）。它们**不是不复习**，
+ * 而是不该在还有别的到期词根时抢在前面——毕竟新手一上来啃动词根只能拿到高级派生词。
+ */
+export function getReviewQueue(
+  progress: ReviewProgress[],
+  now = new Date(),
+  options: { deprioritizedRootIds?: ReadonlySet<string> } = {},
+) {
+  const deprioritized = options.deprioritizedRootIds
   return progress
     .filter((item) => {
       if (item.state === 'new' || item.state === 'mastered') return false
@@ -282,6 +293,10 @@ export function getReviewQueue(progress: ReviewProgress[], now = new Date()) {
       return Boolean(item.dueAt) && new Date(item.dueAt!).getTime() <= now.getTime()
     })
     .sort((a, b) => {
+      if (deprioritized) {
+        const diff = Number(deprioritized.has(a.morphemeId)) - Number(deprioritized.has(b.morphemeId))
+        if (diff !== 0) return diff
+      }
       const aDue = a.dueAt ? new Date(a.dueAt).getTime() : Number.NEGATIVE_INFINITY
       const bDue = b.dueAt ? new Date(b.dueAt).getTime() : Number.NEGATIVE_INFINITY
       return aDue - bDue

@@ -2,8 +2,13 @@
 
 > 依据：`词根侦探 RootDetective V1 设计方案.md` V1.1
 > 建立日期：2026-09-10
-> 当前仓库状态：仅有设计方案文档，尚无应用代码、数据库迁移或内容种子。
+> 最后复核：2026-09-18（见第 13 节的当日记录）
+> 当前仓库状态：核心闭环已可玩并稳定运行，词库 3192 词 / 2284 词素 / 42 世界（远超原定 129 词素 / 1000 词）；
+> 已补齐 PWA 离线壳与发音资源管线；尚未接入 Supabase 账号同步，尚无统计页/成就页/设置页。
 > 目标：先做出可玩的“拆解 → 三段推义 → 验证 → 奖励 → 复习”闭环，再扩展到 129 个主词素、1000+ 单词、PWA、同步和音频。
+>
+> **读法提醒**：第 4 节的 M0–M7 勾选清单是**当初的计划条目**（多数没有回填），
+> 真实进度一律以 **2.5 节「里程碑实际进度」** 为准，别对着勾选框判断现状。
 
 ---
 
@@ -55,15 +60,18 @@
 
 ## 1. 当前状态与基线
 
+> 下表是 2026-09-18 的复核结果，不再是立项时的快照。
+
 | 项目 | 状态 | 记录 |
 |---|---|---|
 | 设计方案 | 已完成 | V1.1，包含玩法、数据、API、页面、技术栈、里程碑 |
-| 前端工程 | 未开始 | 目录中暂无 `package.json` |
-| 后端/数据库 | 未开始 | 暂无 Supabase 项目和迁移 |
-| 词库内容 | 未开始 | 方案有候选清单，尚未完成逐词审核 |
-| 音频 | 未开始 | 需要先确定词库发布格式，再批量生成 |
-| 自动化测试 | 未开始 | 先建立领域逻辑测试，再补页面和端到端测试 |
-| 部署 | 未开始 | Vercel/Netlify 与 Supabase 在核心闭环稳定后接入 |
+| 前端工程 | 已完成 | Vite 8 + React 19 + TS 7；`npm run dev/build/test` 三条命令均通过 |
+| 后端/数据库 | 未开始 | 没有 Supabase 项目与迁移；`src/data/repositories.ts` 已抽出仓库层作为前置，页面不直接碰存储 |
+| 词库内容 | 已超额完成 | 结构化管线（10→40 号脚本）产出 3192 词 / 2284 词素 / 42 世界，`validate:content` 零警告 |
+| 音频 | 部分完成 | `npm run audio:build` 可批量生成发音并压成 mp3；目前只录了样批（3 词），全量尚未生成 |
+| 自动化测试 | 进行中 | 71 个用例覆盖领域逻辑、持久化、内容规则、管线、PWA、仓库层；**尚无端到端测试与浏览器回归** |
+| 部署 | 未开始 | Vercel/Netlify 与 Supabase 待定；PWA 已具备离线能力，可先静态托管 |
+| 离线/PWA | 已完成 | `public/manifest.webmanifest` + `public/sw.js`，生产构建自动注册，断网可继续答题 |
 
 ### 第一个可交付目标
 
@@ -129,6 +137,21 @@ tests/            domain、repository、e2e
 
 ---
 
+## 2.5 里程碑实际进度（2026-09-18 复核）
+
+这张表取代第 4 节那些没回填的勾选框：状态、证据、缺口都写在这里。
+
+| 里程碑 | 状态 | 已落的产物 | 还没做 |
+|---|---|---|---|
+| M0 工程基线与领域模型 | 已完成 | Vite/React/TS、`src/domain/types.ts` 领域类型、`PuzzleStage` 状态机、5 个纯函数测试起桩 | Tailwind / Zustand（决策：维持朴素 CSS，见下方决策记录）；独立 ADR 文档 |
+| M1 核心侦探垂直切片 | 已完成 | 取证→字面义→现代义→结案四步闭环、词素卡点选、同化变体提示、针对性错因诊断、调试/复用/复习三种模式 | 桌面端拖拽（现为点选为主）、刷新后恢复最后一题 |
+| M2 内容管线与词库扩展 | 已超额完成 | 10→40 号脚本管线产出 3192 词 / 2284 词素 / 42 世界，`validate:content` 零警告 | 词源真伪的人工复核——目前只有 `npm run audit:etymology` 的机器预筛（474 条线索待核） |
+| M3 词根复习与权重 | 已完成 | 以词根（而非单词）排程、到期队列、难度修正的熟练度、迁移率统计、配对复习、结构性缺门词根降级排队 | 备选题型降级链（逆向造词 / 完形 / 听写）、跨时区与并发同步的测试 |
+| M4 页面与导航闭环 | 部分完成 | 四页可用视图：今天 / 拼单词 / 复习 / 词根地图；连胜、洞察点、等级、世界解锁 | **统计页、成就页、设置页尚未实现**；无键盘操作与对比度的系统扫描 |
+| M5 PWA、离线、音频 | 部分完成 | manifest + Service Worker + 生产环境自动注册；发音生成脚本（SAPI 离线合成 → ffmpeg 压 mp3）、索引优先/浏览器合成兜底的播放降级 | 发音只录了样批（3 词），全量 3192 词未生成；进度仍在 localStorage，未迁到 IndexedDB |
+| M6 Supabase 同步与账号 | 未开始 | **已抽出 `src/domain/repository.ts` 抽象层作为前置**（三个接口语义同步、落地好了本地适配器与 6 个契约测试） | 建库迁移、RLS、登录、匿名进度合并、幂等键——均待 Supabase 项目就位 |
+| M7 内容扩容与发布验收 | 部分完成 | 词库规模远超 RC 门禁（129 词素 / 1000+ 词）；`npm run content:all` 可重建；`docs/词源审核报告.md` 已产出 | 桌面 Chrome / 移动 Safari 的真机回归、部署与环境变量、小规模试用 |
+
 ## 3. 里程碑总表
 
 预计总周期：3-4 周；以下按连续工作日估算，内容审核可与开发并行。
@@ -147,6 +170,9 @@ tests/            domain、repository、e2e
 ---
 
 ## 4. 逐阶段执行清单
+
+> 下面是**立项时列的条目**，绝大多数没有回填勾选框，不要用它判断现状。
+> 每个里程碑的真实状态、产物和缺口见 **2.5 节**。
 
 ### M0：工程基线与领域模型（第 1 天）
 
@@ -493,6 +519,9 @@ tests/            domain、repository、e2e
 
 ## 12. 当前下一步
 
+> 本节写于立项日，当时的「下一步」早已做完了。2026-09-18 复核后的状态见 **2.5 节**，
+> 当日证据见第 13 节的最后一条记录。以下保留原始文字作为决策沿革。
+
 **下一步不是继续改方案，而是执行 M0：初始化工程、建立领域模型、让一个词跑通完整闭环。**
 
 第一条实际记录应在完成 M0 后追加，并至少包含：
@@ -533,6 +562,8 @@ tests/            domain、repository、e2e
 
 
 
+### 2026-09-10 / M0（基线可复现验证）
+
 - 今日目标：验证 M0 基线是否可复现，修复工程化缺口，使测试/校验/构建三条命令全部绿灯。
 - 已完成：
   - 依赖安装：`npm install`（43 包），补装 `@types/react`、`@types/react-dom`（缺失导致 `tsc -b` 报 538 个 TS7016/TS7026/TS7006 错误）。
@@ -572,4 +603,39 @@ tests/            domain、repository、e2e
 - 未完成：桌面端拖拽（当前点选为主）、刷新页面状态恢复、repository 接口、独立 ADR。
 - 阻塞与决定：无阻塞。`-er` 等未建模后缀先不出现在 parts 中，避免“看起来能拆”的硬拆；后续建模 -er/-or 后缀族再补。
 - 下一步：M2 内容管线（JSON 单一来源 + 完整校验器）或先做 M1 剩余（拖拽、状态恢复）；建议先让真实用户走一遍 `circumspect` 闭环再扩。
+
+### 2026-09-18 / M2+M5+M6 前置（内容收口、PWA、发音与仓库层）
+
+- 今日目标：把上一轮 A23 结构性缺口的吵闹清干净，并把方案里一直挂着没动的三块基础能力（离线、发音、同步前置）落地。
+- 已完成：
+  - **A23 收尾**：`d1 缺入门词`的结构性缺口白名单机制，与既有 d5 机制完全对称（`options.rootD1StructuralGap` + `build-a23-d5-gap.mjs` 同口径产出 `scripts/gates/a23-d1-structural-gap.json`）。能补的词根一律不进表、继续报警；现在 `validate:content` **0 个警告**。
+  - **词库扩容**：批次 08 落地，words 3063→3192、morphemes 2236→2284。
+  - **A8 回归**：`22-choose-examples` 与 `morpheme-fallback` 修补例句选取与词素回退，例句错配清零。
+  - **PWA 离线**：新增 `public/manifest.webmanifest` 与 `public/sw.js`（缓存壳 + 详情分片按需缓存 + 按版本号清旧缓存），生产构建才注册以免影响 HMR；`tests/pwa.test.ts` 静态检查这四件事没被漏改。
+  - **repository 抽象层**：新增 `src/domain/repository.ts`（Content/Progress/Audio 三个接口）与 `src/data/repositories.ts` 本地适配器，App 改为整包解构接入（调用点零改动）。接口刻意做成同步——这是「离线优先」决策的落地形态，见文件内注释。
+  - **发音管线**：新增 `scripts/tools/80-build-audio.mjs`（`npm run audio:build`），用 Windows SAPI 离线合成后经 ffmpeg 压成 mp3（85KB→10KB/词），产出 `audio-index.json`；播放端「音频文件优先、浏览器合成兜底」。**注：方案里写的 Edge-TTS 暂未实现**——它要走外网 WebSocket，而本机外网依赖代理、Node 原生 WebSocket 不支持代理，脚本里留了 `--engine=edge` 的位置。
+  - **词源预筛**：新增 `scripts/tools/audit-etymology-risk.mjs`（`npm run audit:etymology`），扫出 474 条线索并按可信度分层，产出 `docs/词源审核报告.md`。**机器只做预筛，词源真伪仍需人工翻词典。**
+  - **卫生清理**：根目录 116 个调试残留归入 `_scratch/`（可随时删）并补进 `.gitignore`，根目录从 116 个文件降到 18 个。
+  - **结构性缺门词根降级**：`scripts/tools/build-non-teaching-roots.mjs` 从 d1 缺口表算出 15 个降级词根（家族连一个入门词都没有），复习队列把它们排到最后而非跳过。
+- 产物/文件：`src/domain/contentRules.ts`、`scripts/validate-content.mjs`、`scripts/tools/build-a23-d5-gap.mjs`、`scripts/gates/a23-d1-structural-gap.json`、`public/manifest.webmanifest`、`public/sw.js`、`src/main.tsx`、`index.html`、`src/domain/repository.ts`、`src/data/repositories.ts`、`src/App.tsx`、`src/domain/logic.ts`、`scripts/tools/80-build-audio.mjs`、`scripts/tools/build-non-teaching-roots.mjs`、`scripts/tools/audit-etymology-risk.mjs`、`.gitignore`、`package.json`。
+- 验证命令与结果：
+  - `npx tsc -b`：通过（0 错误）。
+  - `npx vitest run`：**8 个文件 / 71 个用例全部通过**（新增 PWA 6 + repository 6 + 降级 3）。
+  - `npm run validate:content`：**3192 词 / 2284 词素 / 42 世界，0 个警告**。
+  - `npm run build`：通过，`dist` 含 manifest 与 sw.js。
+  - `node scripts/tools/80-build-audio.mjs --limit=3`：实测写出 3 个 mp3（约 10KB/词）与索引条目。
+  - `node scripts/tools/audit-etymology-risk.mjs`：扫描 3192 词，标记 474 条线索。
+- 未完成：
+  - 统计页、成就页、设置页三个 M4 视图。
+  - 发音全量生成（3192 词约 32MB，尚未决定要不要全部入盘）。
+  - Supabase 迁移、RLS、登录与跨端同步（仓库层前置已就绪）。
+  - Edge-TTS 引擎（受限于本机外网需要代理）。
+  - 274 条机器线索里的人工复核。
+  - 浏览器端到端回归、axe/对比度扫描、桌面拖拽。
+- 阻塞与决定：
+  - 决定发音默认用 SAPI 而非 Edge-TTS：前者离线可复现，后者在当前网络条件下跑不通。
+  - 决定 repository 接口保持同步语义：改成 Promise 会让 App 初始化多出「档案未就绪」中间态，收益不抵复杂度，且与「离线优先」决策一致。
+  - 决定词审计只做预筛并公开交代误报率：`词源口径不一致` 一项 355 条多为误报（真实词源常引更深处源头，如 `critical` 引希腊语 krinein），报告里已标注可信度分层。
+- 下一步：先补 M4 缺失的三个页面（统计/成就/设置），或先录全量发音；两者互不依赖。
+  若要接 Supabase，下一步是给 `src/data/` 加一份远端适配器，并按 `src/domain/repository.ts` 的语义做同步与冲突合并。
 

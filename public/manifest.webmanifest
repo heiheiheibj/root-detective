@@ -1,0 +1,29 @@
+{
+  "id": "./",
+  "name": "词根背单词",
+  "short_name": "词根背单词",
+  "description": "按词根记单词：先拆词，再猜意思，最后对答案。",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7f9fc",
+  "theme_color": "#f7f9fc",
+  "categories": ["education"],
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}
