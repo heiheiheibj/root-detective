@@ -464,7 +464,7 @@ const WORLD_ADD = {
   'build-site': ['struct', 'ser', 'stable', 'rupt'], // 营造场：struct(堆叠、构造)、ser(放置、连接)、stable(稳固)、rupt(破裂，与 break 同族)
   // 批次 06b：新改判 root 与注入的词素挂世界
   'reading-loft': ['lect', 'sci'], // 识读阁：lect(收集、选) + sci(知道)
-  'craft-works': ['par'], // 工匠铺：par(相等) 与 equ 同族
+  'craft-works': ['par', 'apply'], // 工匠铺：par(相等)、apply(涂、施用) 与 equ 同族
   'message-port': ['nect', 'nounce'], // 传送门：nect(连接)、nounce(讲述) 与 port/dict 同族
   'lumber-store': ['ordin'], // 杂物仓：ordin(顺序) 与已有的 organ 同族
   'office-house': ['mand'], // 职事馆：mand(托付) 与 mission/employ 同族

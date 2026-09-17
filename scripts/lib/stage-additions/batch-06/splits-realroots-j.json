@@ -1,0 +1,17 @@
+{
+  "_comment": "批次 06j：把扫描器的「词根变体最短 3 字母」放宽到 2 后，漏掉的短词根家族浮出水面（serv/commune/apply/carry/mob/leg/fer/pan）。leg 补「法」义项支（legal）；extent/affect 需要 tend 的 tent、ad 的 af 变体（两者已在 ALLOMORPH_TOUCH 里）。",
+  "splits": {
+    "communicate": [{ "id": "commune", "surface": "commun" }, { "id": "ic", "surface": "ic" }, { "id": "ate", "surface": "ate" }],
+    "companion": [{ "id": "com", "surface": "com" }, { "id": "pan", "surface": "pan" }, { "id": "ion", "surface": "ion" }],
+    "applicant": [{ "id": "apply", "surface": "appl" }, { "id": "ic", "surface": "ic" }, { "id": "ant", "surface": "ant" }],
+    "carriage": [{ "id": "carry", "surface": "carri" }, { "id": "age", "surface": "age" }],
+    "movie": [{ "id": "mob", "surface": "mov" }, { "id": "ie", "surface": "ie" }],
+    "emotion": [{ "id": "ex", "surface": "e" }, { "id": "mob", "surface": "mot" }, { "id": "ion", "surface": "ion" }],
+    "ferry": [{ "id": "fer", "surface": "fer" }, { "id": "ry", "surface": "ry" }],
+    "legal": [{ "id": "leg", "surface": "leg" }, { "id": "al", "surface": "al" }],
+    "extent": [{ "id": "ex", "surface": "ex" }, { "id": "tend", "surface": "tent" }],
+    "sentence": [{ "id": "sent", "surface": "sent" }, { "id": "ence", "surface": "ence" }],
+    "affect": [{ "id": "ad", "surface": "af" }, { "id": "fect", "surface": "fect" }],
+    "assume": [{ "id": "ad", "surface": "as" }, { "id": "sumere", "surface": "sume" }]
+  }
+}

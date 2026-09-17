@@ -1,0 +1,98 @@
+{
+  "communicate": {
+    "modernMeaningCn": "沟通、交流",
+    "literalMeaningCn": "使共同、分享",
+    "metaphorMeaningCn": "把想法传到对方那边",
+    "metaphorOptions": ["把想法传到对方那边", "市场里叫卖的摊位", "写满记录的本子"],
+    "mnemonicNote": "commun(共同)+ic+ate：让两边变得共同、互通",
+    "sourceNote": "拉丁 communicare，communis(共同的)"
+  },
+  "companion": {
+    "modernMeaningCn": "同伴、伙伴",
+    "literalMeaningCn": "共食面包的人",
+    "metaphorMeaningCn": "一路同行的人",
+    "metaphorOptions": ["一路同行的人", "分给同伴的一块", "围坐一圈的椅子"],
+    "mnemonicNote": "com(共同)+pan(面包)+ion：共享一块面包的人",
+    "sourceNote": "拉丁 companionem，com- + panis(面包)"
+  },
+  "applicant": {
+    "modernMeaningCn": "申请人",
+    "literalMeaningCn": "伸手去够的人",
+    "metaphorMeaningCn": "递上请求的那个人",
+    "metaphorOptions": ["递上请求的那个人", "写满记录的本子", "数二十张票"],
+    "mnemonicNote": "apply(施用、申请)+ic+ant：把请求递上去的人",
+    "sourceNote": "拉丁 applicare（贴附、申请）"
+  },
+  "carriage": {
+    "modernMeaningCn": "马车、运输",
+    "literalMeaningCn": "用来载的东西",
+    "metaphorMeaningCn": "把人货托着走",
+    "metaphorOptions": ["把人货托着走", "开往城市的车", "接上城市的线"],
+    "mnemonicNote": "carry(运载)+age：用来托着走的东西",
+    "sourceNote": "古法语 cariage，carier(运载)"
+  },
+  "movie": {
+    "modernMeaningCn": "电影",
+    "literalMeaningCn": "动起来的画",
+    "metaphorMeaningCn": "一连串会动的画面",
+    "metaphorOptions": ["一连串会动的画面", "读黑板上的文字", "画着图案的卡片"],
+    "mnemonicNote": "mob(动)+ie：会动的画片",
+    "sourceNote": "moving picture 的缩称，mov- 来自 move(动)"
+  },
+  "emotion": {
+    "modernMeaningCn": "情感、情绪",
+    "literalMeaningCn": "心里涌出来的动",
+    "metaphorMeaningCn": "心里被搅动的那股劲",
+    "metaphorOptions": ["心里被搅动的那股劲", "掉在地上的牙齿", "擦亮旧椅子"],
+    "mnemonicNote": "ex(向外)+mot(动)+ion：从心里涌动出来的东西",
+    "sourceNote": "拉丁 emovere，e-(向外) + movere(动)"
+  },
+  "ferry": {
+    "modernMeaningCn": "渡船、摆渡",
+    "literalMeaningCn": "把人送过去",
+    "metaphorMeaningCn": "在水上来回载人",
+    "metaphorOptions": ["在水上来回载人", "开往城市的车", "锁在监狱的人"],
+    "mnemonicNote": "fer(带来、承载)+ry：把人送到对岸",
+    "sourceNote": "古英语 ferian（运送）"
+  },
+  "legal": {
+    "modernMeaningCn": "法律的、合法的",
+    "literalMeaningCn": "合乎法则的",
+    "metaphorMeaningCn": "写在法条里的",
+    "metaphorOptions": ["写在法条里的", "议事的厅堂", "锁在监狱的人"],
+    "mnemonicNote": "leg(法)+al：与法条有关的",
+    "sourceNote": "拉丁 legalis，lex/legis(法)"
+  },
+  "extent": {
+    "modernMeaningCn": "范围、程度",
+    "literalMeaningCn": "拉出去的长度",
+    "metaphorMeaningCn": "一直伸到的边界",
+    "metaphorOptions": ["一直伸到的边界", "接上城市的线", "量二十个箱子"],
+    "mnemonicNote": "ex(向外)+tent(伸展)：往外拉开到的那一段",
+    "sourceNote": "拉丁 extentus，ex- + tendere(伸展)"
+  },
+  "sentence": {
+    "modernMeaningCn": "句子、判决",
+    "literalMeaningCn": "表达出的意思",
+    "metaphorMeaningCn": "把想法说成一句",
+    "metaphorOptions": ["把想法说成一句", "读黑板上的文字", "写满记录的本子"],
+    "mnemonicNote": "sent(感觉、存在)+ence：把心思表达成的一句",
+    "sourceNote": "拉丁 sententia，sentire(感觉、想)"
+  },
+  "affect": {
+    "modernMeaningCn": "影响、感动",
+    "literalMeaningCn": "做出来的作用",
+    "metaphorMeaningCn": "在别人身上起了效",
+    "metaphorOptions": ["在别人身上起了效", "擦亮旧椅子", "关掉的机器"],
+    "mnemonicNote": "af(朝向)+fect(做、成)：对着某人起作用",
+    "sourceNote": "拉丁 afficere，ad- + facere(做)"
+  },
+  "assume": {
+    "modernMeaningCn": "假定、承担",
+    "literalMeaningCn": "拿过来当作",
+    "metaphorMeaningCn": "先当它是真的",
+    "metaphorOptions": ["先当它是真的", "数二十个硬币", "写满记录的本子"],
+    "mnemonicNote": "as(朝向)+sume(拿取)：拿过来当作前提",
+    "sourceNote": "拉丁 assumere，ad- + sumere(拿取)"
+  }
+}

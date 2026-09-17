@@ -230,6 +230,7 @@ export const OVERRIDE_MEANINGS = {
   pat: '忍受；拍', // 曾只挂「拍」（pattern/patriot）；patient 支 pati(忍受)
   main: '主要；手；留下', // 曾「主要；手」；remain/permanent 支 manere(留下)
   liber: '自由；称量、天平', // 曾只挂「称量、天平」（deliberate）；liberal/liberty 支 liber(自由)
+  leg: '读；腿；法', // 曾「读；腿」；legal ← lex/legis(法)，与 legere(读、集) 同源
   mathematic: '数学', mann: '人', eld: '年代', bi: '二', mas: '弥撒',
   apt: '适合', enda: '待办', app: '朝向', awk: '反手', butch: '屠宰', rot: '轮转',
   circ: '圆', barrass: '阻碍', rupt: '破裂', minim: '最小', minimus: '最小',

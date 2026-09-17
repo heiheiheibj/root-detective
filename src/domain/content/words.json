@@ -2458,7 +2458,9 @@
       "tactile",
       "motion",
       "motor",
-      "motive"
+      "motive",
+      "movie",
+      "emotion"
     ],
     "sourceNote": "拉丁 mobilis，movere(移动)",
     "mnemonicNote": "mob(动)+ile：说走就走，不钉在一处"
@@ -2515,7 +2517,9 @@
       "facility",
       "motion",
       "motor",
-      "motive"
+      "motive",
+      "movie",
+      "emotion"
     ],
     "sourceNote": "拉丁 mobilitas，mobilis(可动的)",
     "mnemonicNote": "mob(动)+ility：随时能挪窝的本事"
@@ -2578,7 +2582,8 @@
       "autobiography",
       "motion",
       "motor",
-      "motive"
+      "motive",
+      "movie"
     ],
     "sourceNote": "法语 automobile，希腊 autos(自己) + 拉丁 mobilis(可动)",
     "mnemonicNote": "auto(自己)+mob(动)+ile：不靠马、自己会跑"
@@ -13202,7 +13207,8 @@
       "saucer",
       "salad",
       "saline",
-      "envisage"
+      "envisage",
+      "carriage"
     ],
     "sourceNote": "古北法语 saussiche，拉丁 salsus(盐腌的)",
     "mnemonicNote": "saus(盐)+age：古代没有冰箱，靠盐把肉存住"
@@ -17844,7 +17850,8 @@
       "abuse",
       "consent",
       "resent",
-      "abrupt"
+      "abrupt",
+      "sentence"
     ],
     "sourceNote": "拉丁 absentia，由 ab-(离开) + esse(存在) 构成",
     "mnemonicNote": "ab(离开)+sent(存在)：人从存在里离开了，就是不在场"
@@ -20945,7 +20952,8 @@
       "nursery",
       "poetry",
       "poultry",
-      "refinery"
+      "refinery",
+      "ferry"
     ],
     "sourceNote": "阿拉伯 al-kimiya(炼金术) + -ry(学问)",
     "mnemonicNote": "chemist(炼金者)+ry：研究物质怎么互相变化的学科"
@@ -30728,7 +30736,8 @@
     ],
     "familyWordIds": [
       "company",
-      "panic"
+      "panic",
+      "companion"
     ],
     "sourceNote": "中古英语 pane(平锅) + cake(饼)",
     "mnemonicNote": "pan(平锅)+cake(饼)：摊得薄薄一层，翻个面就熟"
@@ -41222,7 +41231,8 @@
     ],
     "familyWordIds": [
       "appliance",
-      "modification"
+      "modification",
+      "applicant"
     ],
     "sourceNote": "拉丁 applicatio，ad-(朝向) + plicare(折、贴)",
     "mnemonicNote": "appl(贴上)+ication：把表格贴到办事窗口上"
@@ -50298,7 +50308,8 @@
       }
     ],
     "familyWordIds": [
-      "cooker"
+      "cooker",
+      "movie"
     ],
     "sourceNote": "荷兰语 koekje，koek(糕饼) 的指小形式",
     "mnemonicNote": "cook(烤)+ie(小)：烤得薄薄脆脆那一小片"
@@ -60789,7 +60800,8 @@
       "poetry",
       "jewellery",
       "poultry",
-      "refinery"
+      "refinery",
+      "ferry"
     ],
     "sourceNote": "古法语 joel(宝石)，拉丁 jocale(玩物)",
     "mnemonicNote": "jewel(宝石)+ry：一盒子亮闪闪、锁在柜里的"
@@ -64315,7 +64327,8 @@
       "jewelry",
       "poetry",
       "poultry",
-      "refinery"
+      "refinery",
+      "ferry"
     ],
     "sourceNote": "古法语 norricerie，norrir(养育)",
     "mnemonicNote": "nurse(照料)+ry(场所)：一排小床、一群娃娃那间屋"
@@ -100476,7 +100489,8 @@
       }
     ],
     "familyWordIds": [
-      "weekend"
+      "weekend",
+      "legal"
     ],
     "sourceNote": "拉丁 legenda，legere(读)",
     "mnemonicNote": "leg(读)+end：口耳相传、一代代往下讲"
@@ -106412,7 +106426,8 @@
       "jewelry",
       "nursery",
       "poultry",
-      "refinery"
+      "refinery",
+      "ferry"
     ],
     "sourceNote": "希腊 poiesis(制作) + -ry",
     "mnemonicNote": "poet(诗人)+ry：分行写下来的那些话"
@@ -149625,7 +149640,8 @@
       "jewelry",
       "nursery",
       "poetry",
-      "refinery"
+      "refinery",
+      "ferry"
     ],
     "sourceNote": "古法语 pouletrie，poulet(小鸡)",
     "mnemonicNote": "poult(雏禽)+ry(总称)：院里圈着养的那群鸟"
@@ -152690,7 +152706,8 @@
       "jewelry",
       "nursery",
       "poetry",
-      "poultry"
+      "poultry",
+      "ferry"
     ],
     "sourceNote": "法语 raffiner(精炼) + -ery(场所)",
     "mnemonicNote": "refine(提纯)+ry(场所)：把原油提纯那处厂子"
@@ -172455,6 +172472,731 @@
     ],
     "sourceNote": "中古拉丁 minerale，minera(矿)",
     "mnemonicNote": "min(挖)+er+al：从地下挖出来的"
+  },
+  {
+    "id": "communicate",
+    "word": "communicate",
+    "phonetic": "/kә'mju:nikeit/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "沟通、交流",
+    "literalMeaningCn": "使共同、分享",
+    "metaphorMeaningCn": "把想法传到对方那边",
+    "metaphorOptions": [
+      "把想法传到对方那边",
+      "市场里叫卖的摊位",
+      "写满记录的本子"
+    ],
+    "exampleEn": "We communicate by email.",
+    "exampleCn": "我们通过邮件沟通。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "commune",
+        "surface": "commun",
+        "position": 0
+      },
+      {
+        "morphemeId": "ic",
+        "surface": "ic",
+        "position": 1
+      },
+      {
+        "morphemeId": "ate",
+        "surface": "ate",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "south",
+        "type": "form"
+      },
+      {
+        "text": "study",
+        "type": "meaning"
+      },
+      {
+        "text": "suggest",
+        "type": "random"
+      },
+      {
+        "text": "supple",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "generate",
+      "genetics",
+      "graduate",
+      "logic",
+      "primate",
+      "evacuate",
+      "vaccinate",
+      "adequate"
+    ],
+    "sourceNote": "拉丁 communicare，communis(共同的)",
+    "mnemonicNote": "commun(共同)+ic+ate：让两边变得共同、互通"
+  },
+  {
+    "id": "companion",
+    "word": "companion",
+    "phonetic": "/kәm'pænjәn/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "同伴、伙伴",
+    "literalMeaningCn": "共食面包的人",
+    "metaphorMeaningCn": "一路同行的人",
+    "metaphorOptions": [
+      "一路同行的人",
+      "分给同伴的一块",
+      "围坐一圈的椅子"
+    ],
+    "exampleEn": "He is a loyal companion.",
+    "exampleCn": "他是个忠实的同伴。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "com",
+        "surface": "com",
+        "position": 0
+      },
+      {
+        "morphemeId": "pan",
+        "surface": "pan",
+        "position": 1
+      },
+      {
+        "morphemeId": "ion",
+        "surface": "ion",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "fill",
+        "type": "form"
+      },
+      {
+        "text": "gang",
+        "type": "meaning"
+      },
+      {
+        "text": "geography",
+        "type": "random"
+      },
+      {
+        "text": "antic",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "inspection",
+      "circumspection",
+      "prediction",
+      "vision",
+      "envision",
+      "nation",
+      "version",
+      "conviction"
+    ],
+    "sourceNote": "拉丁 companionem，com- + panis(面包)",
+    "mnemonicNote": "com(共同)+pan(面包)+ion：共享一块面包的人"
+  },
+  {
+    "id": "applicant",
+    "word": "applicant",
+    "phonetic": "/'æplikәnt/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "申请人",
+    "literalMeaningCn": "伸手去够的人",
+    "metaphorMeaningCn": "递上请求的那个人",
+    "metaphorOptions": [
+      "递上请求的那个人",
+      "写满记录的本子",
+      "数二十张票"
+    ],
+    "exampleEn": "The applicant waited outside.",
+    "exampleCn": "申请人在外面等候。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "apply",
+        "surface": "appl",
+        "position": 0
+      },
+      {
+        "morphemeId": "ic",
+        "surface": "ic",
+        "position": 1
+      },
+      {
+        "morphemeId": "ant",
+        "surface": "ant",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "intellectual",
+        "type": "form"
+      },
+      {
+        "text": "valid",
+        "type": "meaning"
+      },
+      {
+        "text": "ironic",
+        "type": "random"
+      },
+      {
+        "text": "leaf",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "genetics",
+      "logic",
+      "vacant",
+      "hydrant",
+      "hydraulic",
+      "contestant",
+      "relevant",
+      "immigrant"
+    ],
+    "sourceNote": "拉丁 applicare（贴附、申请）",
+    "mnemonicNote": "apply(施用、申请)+ic+ant：把请求递上去的人"
+  },
+  {
+    "id": "carriage",
+    "word": "carriage",
+    "phonetic": "/'kæridʒ/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "马车、运输",
+    "literalMeaningCn": "用来载的东西",
+    "metaphorMeaningCn": "把人货托着走",
+    "metaphorOptions": [
+      "把人货托着走",
+      "开往城市的车",
+      "接上城市的线"
+    ],
+    "exampleEn": "The horse pulled the carriage.",
+    "exampleCn": "马匹拉着马车。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "carry",
+        "surface": "carri",
+        "position": 0
+      },
+      {
+        "morphemeId": "age",
+        "surface": "age",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "occur",
+        "type": "form"
+      },
+      {
+        "text": "opportune",
+        "type": "meaning"
+      },
+      {
+        "text": "origin",
+        "type": "random"
+      },
+      {
+        "text": "pave",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "courage",
+      "encourage",
+      "sausage",
+      "carrier",
+      "envisage"
+    ],
+    "sourceNote": "古法语 cariage，carier(运载)",
+    "mnemonicNote": "carry(运载)+age：用来托着走的东西"
+  },
+  {
+    "id": "movie",
+    "word": "movie",
+    "phonetic": "/'mu:vi/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "电影",
+    "literalMeaningCn": "动起来的画",
+    "metaphorMeaningCn": "一连串会动的画面",
+    "metaphorOptions": [
+      "一连串会动的画面",
+      "读黑板上的文字",
+      "画着图案的卡片"
+    ],
+    "exampleEn": "We watched a movie tonight.",
+    "exampleCn": "我们今晚看了一部电影。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "mob",
+        "surface": "mov",
+        "position": 0
+      },
+      {
+        "morphemeId": "ie",
+        "surface": "ie",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "source",
+        "type": "form"
+      },
+      {
+        "text": "response",
+        "type": "meaning"
+      },
+      {
+        "text": "venire",
+        "type": "random"
+      },
+      {
+        "text": "ride",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "mobile",
+      "mobility",
+      "automobile",
+      "cookie",
+      "motion",
+      "motor",
+      "motive",
+      "emotion"
+    ],
+    "sourceNote": "moving picture 的缩称，mov- 来自 move(动)",
+    "mnemonicNote": "mob(动)+ie：会动的画片"
+  },
+  {
+    "id": "emotion",
+    "word": "emotion",
+    "phonetic": "/i'mәuʃәn/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "情感、情绪",
+    "literalMeaningCn": "心里涌出来的动",
+    "metaphorMeaningCn": "心里被搅动的那股劲",
+    "metaphorOptions": [
+      "心里被搅动的那股劲",
+      "掉在地上的牙齿",
+      "擦亮旧椅子"
+    ],
+    "exampleEn": "She showed no emotion.",
+    "exampleCn": "她没有流露出情绪。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "ex",
+        "surface": "e",
+        "position": 0
+      },
+      {
+        "morphemeId": "mob",
+        "surface": "mot",
+        "position": 1
+      },
+      {
+        "morphemeId": "ion",
+        "surface": "ion",
+        "position": 2
+      }
+    ],
+    "distractors": [
+      {
+        "text": "sports",
+        "type": "form"
+      },
+      {
+        "text": "steam",
+        "type": "meaning"
+      },
+      {
+        "text": "merge",
+        "type": "random"
+      },
+      {
+        "text": "fic",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "inspection",
+      "circumspection",
+      "prediction",
+      "vision",
+      "envision",
+      "mobile",
+      "mobility",
+      "automobile"
+    ],
+    "sourceNote": "拉丁 emovere，e-(向外) + movere(动)",
+    "mnemonicNote": "ex(向外)+mot(动)+ion：从心里涌动出来的东西"
+  },
+  {
+    "id": "ferry",
+    "word": "ferry",
+    "phonetic": "/'feri/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "渡船、摆渡",
+    "literalMeaningCn": "把人送过去",
+    "metaphorMeaningCn": "在水上来回载人",
+    "metaphorOptions": [
+      "在水上来回载人",
+      "开往城市的车",
+      "锁在监狱的人"
+    ],
+    "exampleEn": "The ferry crosses the river.",
+    "exampleCn": "渡船横渡这条河。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "fer",
+        "surface": "fer",
+        "position": 0
+      },
+      {
+        "morphemeId": "ry",
+        "surface": "ry",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "pay",
+        "type": "form"
+      },
+      {
+        "text": "pipe",
+        "type": "meaning"
+      },
+      {
+        "text": "precede",
+        "type": "random"
+      },
+      {
+        "text": "process",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "offer",
+      "prefer",
+      "differ",
+      "transfer",
+      "conference",
+      "suffer",
+      "fertilizer",
+      "chemistry"
+    ],
+    "sourceNote": "古英语 ferian（运送）",
+    "mnemonicNote": "fer(带来、承载)+ry：把人送到对岸"
+  },
+  {
+    "id": "legal",
+    "word": "legal",
+    "phonetic": "/'li:gәl/",
+    "partOfSpeech": "adj.",
+    "modernMeaningCn": "法律的、合法的",
+    "literalMeaningCn": "合乎法则的",
+    "metaphorMeaningCn": "写在法条里的",
+    "metaphorOptions": [
+      "写在法条里的",
+      "议事的厅堂",
+      "锁在监狱的人"
+    ],
+    "exampleEn": "This is a legal document.",
+    "exampleCn": "这是一份法律文件。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "leg",
+        "surface": "leg",
+        "position": 0
+      },
+      {
+        "morphemeId": "al",
+        "surface": "al",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "spar",
+        "type": "form"
+      },
+      {
+        "text": "spell",
+        "type": "meaning"
+      },
+      {
+        "text": "stain",
+        "type": "random"
+      },
+      {
+        "text": "steward",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "vocal",
+      "political",
+      "primal",
+      "formal",
+      "equal",
+      "thermal",
+      "literal",
+      "social"
+    ],
+    "sourceNote": "拉丁 legalis，lex/legis(法)",
+    "mnemonicNote": "leg(法)+al：与法条有关的"
+  },
+  {
+    "id": "extent",
+    "word": "extent",
+    "phonetic": "/ik'stent/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "范围、程度",
+    "literalMeaningCn": "拉出去的长度",
+    "metaphorMeaningCn": "一直伸到的边界",
+    "metaphorOptions": [
+      "一直伸到的边界",
+      "接上城市的线",
+      "量二十个箱子"
+    ],
+    "exampleEn": "To what extent do you agree?",
+    "exampleCn": "你在多大程度上同意？",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "ex",
+        "surface": "ex",
+        "position": 0
+      },
+      {
+        "morphemeId": "tend",
+        "surface": "tent",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "institute",
+        "type": "form"
+      },
+      {
+        "text": "val",
+        "type": "meaning"
+      },
+      {
+        "text": "keep",
+        "type": "random"
+      },
+      {
+        "text": "tern",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "attend",
+      "exact",
+      "exchange",
+      "pretend",
+      "tendency",
+      "election",
+      "exceed",
+      "exclude"
+    ],
+    "sourceNote": "拉丁 extentus，ex- + tendere(伸展)",
+    "mnemonicNote": "ex(向外)+tent(伸展)：往外拉开到的那一段"
+  },
+  {
+    "id": "sentence",
+    "word": "sentence",
+    "phonetic": "/'sentәns/",
+    "partOfSpeech": "n.",
+    "modernMeaningCn": "句子、判决",
+    "literalMeaningCn": "表达出的意思",
+    "metaphorMeaningCn": "把想法说成一句",
+    "metaphorOptions": [
+      "把想法说成一句",
+      "读黑板上的文字",
+      "写满记录的本子"
+    ],
+    "exampleEn": "Write one sentence only.",
+    "exampleCn": "只写一句话。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "sent",
+        "surface": "sent",
+        "position": 0
+      },
+      {
+        "morphemeId": "ence",
+        "surface": "ence",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "me",
+        "type": "form"
+      },
+      {
+        "text": "near",
+        "type": "meaning"
+      },
+      {
+        "text": "nerve",
+        "type": "random"
+      },
+      {
+        "text": "nine",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "audience",
+      "influence",
+      "conference",
+      "absent",
+      "difference",
+      "present",
+      "coincidence",
+      "existence"
+    ],
+    "sourceNote": "拉丁 sententia，sentire(感觉、想)",
+    "mnemonicNote": "sent(感觉、存在)+ence：把心思表达成的一句"
+  },
+  {
+    "id": "affect",
+    "word": "affect",
+    "phonetic": "/ә'fekt/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "影响、感动",
+    "literalMeaningCn": "做出来的作用",
+    "metaphorMeaningCn": "在别人身上起了效",
+    "metaphorOptions": [
+      "在别人身上起了效",
+      "擦亮旧椅子",
+      "关掉的机器"
+    ],
+    "exampleEn": "Noise can affect sleep.",
+    "exampleCn": "噪音会影响睡眠。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "ad",
+        "surface": "af",
+        "position": 0
+      },
+      {
+        "morphemeId": "fect",
+        "surface": "fect",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "patch",
+        "type": "form"
+      },
+      {
+        "text": "disappear",
+        "type": "meaning"
+      },
+      {
+        "text": "illusion",
+        "type": "random"
+      },
+      {
+        "text": "disrupt",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "accord",
+      "adequate",
+      "inadequate",
+      "alleviate",
+      "admire",
+      "admiration",
+      "associate",
+      "admit"
+    ],
+    "sourceNote": "拉丁 afficere，ad- + facere(做)",
+    "mnemonicNote": "af(朝向)+fect(做、成)：对着某人起作用"
+  },
+  {
+    "id": "assume",
+    "word": "assume",
+    "phonetic": "/ә'sju:m/",
+    "partOfSpeech": "v.",
+    "modernMeaningCn": "假定、承担",
+    "literalMeaningCn": "拿过来当作",
+    "metaphorMeaningCn": "先当它是真的",
+    "metaphorOptions": [
+      "先当它是真的",
+      "数二十个硬币",
+      "写满记录的本子"
+    ],
+    "exampleEn": "Do not assume too much.",
+    "exampleCn": "别做太多假设。",
+    "difficulty": 1,
+    "parts": [
+      {
+        "morphemeId": "ad",
+        "surface": "as",
+        "position": 0
+      },
+      {
+        "morphemeId": "sumere",
+        "surface": "sume",
+        "position": 1
+      }
+    ],
+    "distractors": [
+      {
+        "text": "explain",
+        "type": "form"
+      },
+      {
+        "text": "ordinary",
+        "type": "meaning"
+      },
+      {
+        "text": "witness",
+        "type": "random"
+      },
+      {
+        "text": "feat",
+        "type": "form"
+      }
+    ],
+    "familyWordIds": [
+      "accord",
+      "adequate",
+      "inadequate",
+      "alleviate",
+      "admire",
+      "admiration",
+      "associate",
+      "admit"
+    ],
+    "sourceNote": "拉丁 assumere，ad- + sumere(拿取)",
+    "mnemonicNote": "as(朝向)+sume(拿取)：拿过来当作前提"
   },
   {
     "id": "object",

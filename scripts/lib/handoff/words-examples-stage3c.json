@@ -927,5 +927,53 @@
   "mineral": {
     "exampleEn": "The water contains mineral salts.",
     "exampleCn": "这种水含矿物盐。"
+  },
+  "communicate": {
+    "exampleEn": "We communicate by email.",
+    "exampleCn": "我们通过邮件沟通。"
+  },
+  "companion": {
+    "exampleEn": "He is a loyal companion.",
+    "exampleCn": "他是个忠实的同伴。"
+  },
+  "applicant": {
+    "exampleEn": "The applicant waited outside.",
+    "exampleCn": "申请人在外面等候。"
+  },
+  "carriage": {
+    "exampleEn": "The horse pulled the carriage.",
+    "exampleCn": "马匹拉着马车。"
+  },
+  "movie": {
+    "exampleEn": "We watched a movie tonight.",
+    "exampleCn": "我们今晚看了一部电影。"
+  },
+  "emotion": {
+    "exampleEn": "She showed no emotion.",
+    "exampleCn": "她没有流露出情绪。"
+  },
+  "ferry": {
+    "exampleEn": "The ferry crosses the river.",
+    "exampleCn": "渡船横渡这条河。"
+  },
+  "legal": {
+    "exampleEn": "This is a legal document.",
+    "exampleCn": "这是一份法律文件。"
+  },
+  "extent": {
+    "exampleEn": "To what extent do you agree?",
+    "exampleCn": "你在多大程度上同意？"
+  },
+  "sentence": {
+    "exampleEn": "Write one sentence only.",
+    "exampleCn": "只写一句话。"
+  },
+  "affect": {
+    "exampleEn": "Noise can affect sleep.",
+    "exampleCn": "噪音会影响睡眠。"
+  },
+  "assume": {
+    "exampleEn": "Do not assume too much.",
+    "exampleCn": "别做太多假设。"
   }
 }

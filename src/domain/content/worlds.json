@@ -101,7 +101,7 @@
   {
     "id": "craft-works",
     "name": "工匠铺",
-    "description": "学习词根：metr、equ、flect、fus、prim、fort、polit、par（工匠铺）",
+    "description": "学习词根：metr、equ、flect、fus、prim、fort、polit、par、apply（工匠铺）",
     "morphemeIds": [
       "metr",
       "equ",
@@ -110,7 +110,8 @@
       "prim",
       "fort",
       "polit",
-      "par"
+      "par",
+      "apply"
     ]
   },
   {

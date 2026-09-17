@@ -263,7 +263,8 @@
     "meaningCn": "移动",
     "allomorphs": [
       "mob",
-      "mot"
+      "mot",
+      "mov"
     ],
     "level": 2,
     "etymology": "来自拉丁语 movere，意为移动",
@@ -1424,6 +1425,7 @@
     "allomorphs": [
       "ad",
       "ac",
+      "af",
       "ap",
       "ar",
       "as",
@@ -7804,7 +7806,8 @@
     "meaningCn": "伸展；柔嫩",
     "allomorphs": [
       "tend",
-      "tens"
+      "tens",
+      "tent"
     ],
     "etymology": "",
     "level": 3,
