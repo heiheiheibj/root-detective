@@ -1,0 +1,26 @@
+# 根记 RootDeck · 里程碑
+
+词根法背单词 Web 应用（react + vite + typescript）。
+设计原则：每条改动都要有测试，`npx vitest run` 与 `npm run build` 必须全绿再提交。
+
+## 里程碑
+
+- [x] **M1 脚手架** — react + vite + ts，单页结构，导航 + 视图挂载。
+- [x] **M2 内容与数据** — 2000 词、词根、世界、家族词；`domain/data` 导出；`data/repositories` 统一访问。
+- [x] **M3 三个缺失页面** — 统计 / 成就 / 设置页。复用 `profileStats`、`achievements` 两个纯模块；发音走浏览器 TTS，无需音频文件。
+- [ ] **M4 学习循环精修** — 拆词/猜义/迁移/复习各阶段的体验与平衡性。
+- [ ] **M5 迁移题与安心机制** — 举一反三（造词）、干扰项、回退与提醒节奏。
+- [ ] **M6 Supabase 多端同步** — 远端适配器实现 `repository` 接口（读/写档案、读内容），页面层零改动。
+
+## 已完成细节（M3）
+
+- `src/domain/profileStats.ts`：把 `PlayerProfile` 摊平成统计页数字（等级、连续天数、已学词、熟词根、迁移正确率、待复习、世界解锁、各档词根分布）。
+- `src/domain/achievements.ts`：成就定义 + `computeAchievements(profile)` + `getUnlockedCount(profile)`，条件全部来自真实学习数据。
+- `src/data/settings.ts`：设置读写（默认开发音），容错损坏存档。
+- `src/App.tsx`：导航增加 `stats` / `achievements` / `settings`；`StatsView` / `AchievementsView` / `SettingsView` 三个视图；发音抽象成 `sound` 接口下发给 `CaseRoom`。
+- 测试：`tests/profileStats.test.ts`、`tests/achievements.test.ts`、`tests/settings.test.ts`。
+
+## 发音（全量）
+
+- `src/speak.ts` 用浏览器 `speechSynthesis` 朗读任意英文单词与例句，`canSpeak()` 守卫 `window`。
+- 词表任意词都能实时朗读，无需预录音频；无语音合成环境时按钮自动禁用。

@@ -422,6 +422,49 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .art-bar-meta i { font-style: normal; color: var(--orange); }
 .art-bar-end { color: var(--orange); }
 
+/* 统计页 */
+.stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.stat-card { background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; display: flex; flex-direction: column; gap: 5px; }
+.stat-card .eyebrow { font: 700 12px ui-monospace, Consolas, monospace; letter-spacing: .08em; color: var(--muted); }
+.stat-card strong { font-size: 30px; line-height: 1; }
+.stat-card small { color: var(--muted); font-size: 12px; }
+.stats-level { margin-top: 22px; display: flex; align-items: center; gap: 12px; }
+.stats-level > span { font-weight: 700; color: var(--muted); white-space: nowrap; }
+.stats-level .level-track { flex: 1; height: 10px; border-radius: 5px; background: #dce4ec; overflow: hidden; }
+.stats-level .level-track i { display: block; height: 100%; background: var(--blue); border-radius: inherit; }
+.stats-level small { color: var(--muted); white-space: nowrap; }
+.band-breakdown { margin-top: 26px; }
+.band-breakdown h3 { font-size: 17px; margin-bottom: 12px; }
+.band-row { display: grid; grid-template-columns: 76px 1fr 34px; align-items: center; gap: 12px; margin-bottom: 9px; }
+.band-row > span { color: var(--muted); font-size: 13px; }
+.band-track { height: 10px; border-radius: 5px; background: #dce4ec; overflow: hidden; }
+.band-track i { display: block; height: 100%; background: var(--green); border-radius: inherit; }
+.band-row em { font-style: normal; font-weight: 700; text-align: right; }
+
+/* 成就页 */
+.achievements-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; }
+.achievement-card { display: grid; grid-template-columns: 36px 1fr; grid-template-rows: auto auto; gap: 2px 12px; background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; opacity: .6; }
+.achievement-card.unlocked { opacity: 1; border-color: var(--green); }
+.achievement-mark { grid-row: span 2; align-self: center; font-size: 24px; color: var(--line); }
+.achievement-card.unlocked .achievement-mark { color: var(--orange); }
+.achievement-card strong { font-size: 16px; }
+.achievement-card p { color: var(--muted); font-size: 13px; grid-column: 2; }
+.achievement-progress { grid-column: 1 / -1; height: 6px; border-radius: 3px; background: #dce4ec; overflow: hidden; margin-top: 8px; }
+.achievement-progress i { display: block; height: 100%; background: var(--orange); border-radius: inherit; }
+
+/* 设置页 */
+.settings-list { display: grid; gap: 14px; max-width: 640px; }
+.settings-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; background: #fff; border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+.settings-row.danger { border-color: #f3c9c9; }
+.settings-row strong { font-size: 16px; }
+.settings-row p { color: var(--muted); font-size: 13px; margin-top: 3px; max-width: 44ch; }
+.toggle { min-width: 64px; padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px; background: #eef2f6; color: var(--muted); font-weight: 700; cursor: pointer; }
+.toggle.on { background: var(--blue); color: #fff; border-color: var(--blue); }
+.danger-button { padding: 9px 16px; border: none; border-radius: 10px; background: #d9534f; color: #fff; font-weight: 700; cursor: pointer; }
+.confirm-banner { display: flex; align-items: center; gap: 10px; }
+.confirm-banner > span { color: #b03a3a; font-weight: 700; }
+@media (max-width: 720px) { .stats-grid { grid-template-columns: repeat(2, 1fr); } .achievements-grid { grid-template-columns: 1fr; } }
+
 @media (max-width: 560px) { .help-modal { padding: 14px 16px 16px; } .help-modal h2 { font-size: 20px; } .help-actions .primary-button, .help-actions .secondary-button { padding: 0 12px; font-size: 14px; } .match-board { gap: 7px; } .match-tile { padding: 7px 9px; } .match-tile strong { font-size: 14px; } .match-tile small { font-size: 10px; } }
 @media (max-width: 1400px) { .workspace-grid { grid-template-columns: minmax(0, 1fr) 236px; } .morpheme-card { min-width: 92px; } .morpheme-card strong { font-size: 15px; } .morpheme-card small { font-size: 12px; } .root-card p { font-size: 14px; } }
 @media (max-width: 1180px) { .sidebar { width: 210px; } .workspace-grid { grid-template-columns: minmax(0, 1fr) 214px; } .morpheme-card { min-width: 84px; } }
