@@ -56,7 +56,10 @@ function RootDetailView({ rootId, onBack, onStudyWord }: { rootId: string; onBac
                   splitNodes.push(<span className="seg-plus" key={`plus-${index}`} aria-hidden="true">+</span>)
                 }
                 splitNodes.push(
-                  <span className="seg-mean" key={`m-${index}`} title={surfaces[index]}>{meaning}</span>,
+                  <span className="seg-item" key={`m-${index}`}>
+                    <span className="seg-part">{surfaces[index]}</span>
+                    <span className="seg-mean">({meaning})</span>
+                  </span>,
                 )
               })
               return (

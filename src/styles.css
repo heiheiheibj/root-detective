@@ -493,9 +493,10 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .root-words tr:last-child td { border-bottom: none; }
 .cell-word strong { font-size: 16px; }
 .cell-word small { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
-.cell-seg, .cell-mean { display: flex; flex-wrap: wrap; gap: 4px; }
+.cell-seg, .cell-mean { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.seg-item { display: inline-flex; align-items: center; gap: 3px; }
 .seg-part { background: var(--panel-2); border: 1px solid var(--line); border-radius: 6px; padding: 2px 7px; font-weight: 700; font-size: 13px; }
-.seg-mean { color: var(--orange); font-size: 13px; }
+.seg-mean { color: var(--muted); font-size: 12px; }
 .seg-mean b { font-weight: 700; }
 .cell-def { color: var(--muted); max-width: 30ch; }
 .empty-row { text-align: center; color: var(--muted); padding: 24px; }
@@ -531,4 +532,3 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .root-words tbody tr.word-row:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; }
 /* 如何拆分：词素含义用加粗带色的 + 连接 */
 .root-words .seg-plus { display: inline-block; font-weight: 700; color: #d2691e; margin: 0 5px; }
-.root-words .seg-mean[title] { cursor: help; border-bottom: 1px dotted var(--muted); }
