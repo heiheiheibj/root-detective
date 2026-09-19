@@ -59,4 +59,10 @@ describe('searchAllWords（全局模糊搜索）', () => {
     const upper = searchAllWords('vis').map((w) => w.word)
     expect(lower.sort()).toEqual(upper.sort())
   })
+
+  it('结果数不超过 limit', () => {
+    const hits = searchAllWords('a', 5)
+    expect(hits.length).toBeLessThanOrEqual(5)
+    expect(hits.length).toBe(5) // 'a' 命中远超 5，应被截断
+  })
 })

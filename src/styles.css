@@ -507,6 +507,12 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .seg-mean b { font-weight: 700; }
 .cell-def { color: var(--muted); max-width: 30ch; }
 .empty-row { text-align: center; color: var(--muted); padding: 24px; }
+/* 搜索结果：按词根分组 + 上限提示 + 命中高亮 */
+.search-hint { color: var(--muted); font-size: 13px; margin: 4px 0 14px; }
+.search-groups { display: grid; gap: 22px; max-width: 760px; }
+.search-group-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+.search-group-meta { color: var(--muted); font-size: 13px; }
+.hl { background: #fff3bf; color: inherit; border-radius: 3px; padding: 0 1px; font-weight: 700; }
 
 /* 搜索结果 */
 .search-results { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 10px; max-width: 760px; }

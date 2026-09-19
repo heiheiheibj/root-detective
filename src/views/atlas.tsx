@@ -32,6 +32,73 @@ export function searchAllWords(query: string, limit = 80) {
     .slice(0, limit)
 }
 
+/** 把文本里与查询连续匹配的子串用 <mark> 高亮（大小写不敏感，命中所有出现位置）。 */
+function highlight(text: string, query: string): ReactNode {
+  const q = query.trim()
+  if (!q) return text
+  const lowerText = text.toLowerCase()
+  const lowerQ = q.toLowerCase()
+  const parts: ReactNode[] = []
+  let cursor = 0
+  let key = 0
+  while (cursor < text.length) {
+    const idx = lowerText.indexOf(lowerQ, cursor)
+    if (idx === -1) {
+      parts.push(text.slice(cursor))
+      break
+    }
+    if (idx > cursor) parts.push(text.slice(cursor, idx))
+    parts.push(<mark className="hl" key={key++}>{text.slice(idx, idx + q.length)}</mark>)
+    cursor = idx + q.length
+  }
+  return <>{parts}</>
+}
+
+/** 搜索结果列表：按词根分组展示，命中片段高亮，命中上限时给提示。词根地图搜索与全局搜索页共用。 */
+function SearchResults({ query, words, onOpenRoot, onStudyWord, limit = 80 }: {
+  query: string
+  words: WordCore[]
+  onOpenRoot: (rootId: string) => void
+  onStudyWord: (wordId: string) => void
+  limit?: number
+}) {
+  const hitLimit = words.length >= limit
+  const groups = new Map<string, WordCore[]>()
+  for (const word of words) {
+    const rootId = getRootId(word, getMorpheme)
+    const list = groups.get(rootId) ?? []
+    list.push(word)
+    groups.set(rootId, list)
+  }
+  const groupList = [...groups.entries()].map(([rootId, list]) => ({ rootId, root: getMorpheme(rootId), words: list }))
+  return (
+    <>
+      {hitLimit && <p className="search-hint">结果较多，已显示前 {limit} 个，可缩小关键词继续查找。</p>}
+      <div className="search-groups">
+        {groupList.map(({ rootId, root, words: groupWords }) => (
+          <div className="search-group" key={rootId}>
+            <div className="search-group-head">
+              <span className={`morpheme-chip ${root.color}`}>{root.displayText}</span>
+              <span className="search-group-meta">{root.meaningCn} · {groupWords.length} 个词</span>
+            </div>
+            <ul className="search-results">
+              {groupWords.map((word) => (
+                <li key={word.id}>
+                  <button type="button" className="search-result" onClick={() => onOpenRoot(rootId)}>
+                    <span className="result-word"><strong>{highlight(word.word, query)}</strong><small>{word.phonetic}</small></span>
+                    <span className="result-def">{highlight(word.modernMeaningCn, query)}</span>
+                    <span className="result-study" onClick={(event) => { event.stopPropagation(); onStudyWord(word.id) }}>学习 →</span>
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </>
+  )
+}
+
 function RootDetailView({ rootId, onBack, onStudyWord }: { rootId: string; onBack: () => void; onStudyWord: (wordId: string) => void }) {
   const root = getMorpheme(rootId)
   const wordCores = wordsByRoot.get(rootId) ?? []
@@ -147,22 +214,7 @@ export function AtlasView({ profile, progressByRoot, selectedRootId, onSelectRoo
         <div className="section-heading">
           <div><h2>搜索「{trimmed}」</h2><p>命中 {searchResults.length} 个单词，点卡片看它属于哪个词根的全部单词。</p></div>
         </div>
-        <ul className="search-results">
-          {searchResults.map((word) => {
-            const rootId = getRootId(word, getMorpheme)
-            const root = getMorpheme(rootId)
-            return (
-              <li key={word.id}>
-                <button type="button" className="search-result" onClick={() => onSelectRoot(rootId)}>
-                  <span className="result-word"><strong>{word.word}</strong><small>{word.phonetic}</small></span>
-                  <span className="result-def">{word.modernMeaningCn}</span>
-                  <span className={`morpheme-chip ${root.color}`}>{root.displayText}</span>
-                  {study && <span className="result-study" onClick={(event) => { event.stopPropagation(); study(word.id) }}>学习 →</span>}
-                </button>
-              </li>
-            )
-          })}
-        </ul>
+        <SearchResults query={committedQuery} words={searchResults} onOpenRoot={onSelectRoot} onStudyWord={(id) => study(id)} limit={50} />
       </section>
     )
   }
@@ -251,34 +303,20 @@ export function SearchView({ query, onBack, onOpenRoot, onStudyWord }: {
 }) {
   const trimmed = query.trim()
   const results = searchAllWords(query)
+  const rootCount = new Set(results.map((word) => getRootId(word, getMorpheme))).size
   return (
     <section className="page-section atlas-page">
       <button type="button" className="back-link" onClick={onBack}>← 返回</button>
       <div className="section-heading">
         <div>
           <h2>搜索「{trimmed}」</h2>
-          <p>命中 {results.length} 个单词。点卡片看它属于哪个词根的全部单词；「学习 →」直接开练。</p>
+          <p>命中 {results.length} 个单词{results.length > 0 ? `，分属 ${rootCount} 个词根` : ''}。点卡片看它属于哪个词根的全部单词；「学习 →」直接开练。</p>
         </div>
       </div>
-      {results.length > 0 ? (
-        <ul className="search-results">
-          {results.map((word) => {
-            const rootId = getRootId(word, getMorpheme)
-            const root = getMorpheme(rootId)
-            return (
-              <li key={word.id}>
-                <button type="button" className="search-result" onClick={() => onOpenRoot(rootId)}>
-                  <span className="result-word"><strong>{word.word}</strong><small>{word.phonetic}</small></span>
-                  <span className="result-def">{word.modernMeaningCn}</span>
-                  <span className={`morpheme-chip ${root.color}`}>{root.displayText}</span>
-                  <span className="result-study" onClick={(event) => { event.stopPropagation(); onStudyWord(word.id) }}>学习 →</span>
-                </button>
-              </li>
-            )
-          })}
-        </ul>
-      ) : (
+      {results.length === 0 ? (
         <p className="empty-row">没有匹配「{trimmed}」的单词。</p>
+      ) : (
+        <SearchResults query={query} words={results} onOpenRoot={onOpenRoot} onStudyWord={onStudyWord} />
       )}
     </section>
   )
