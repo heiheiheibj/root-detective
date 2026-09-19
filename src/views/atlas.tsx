@@ -90,9 +90,9 @@ function RootWordsTable({ words, onStudyWord, query = '' }: {
                   <strong>{highlight(word.word, query)}</strong>
                   <small>{word.phonetic} · {word.partOfSpeech}</small>
                 </td>
-                <td><div className="cell-seg">{splitNodes}</div></td>
-                <td className="cell-def">{highlight(word.modernMeaningCn, query)}</td>
-                <td className="cell-action"><span className="result-study" aria-hidden="true">学习 →</span></td>
+                <td data-label="如何拆分"><div className="cell-seg">{splitNodes}</div></td>
+                <td className="cell-def" data-label="单词意思">{highlight(word.modernMeaningCn, query)}</td>
+                <td className="cell-action" data-label="学习"><span className="result-study" aria-hidden="true">学习 →</span></td>
               </tr>
             )
           })}

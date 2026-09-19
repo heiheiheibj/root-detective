@@ -496,9 +496,10 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .root-words { width: 100%; border-collapse: collapse; min-width: 760px; }
 .root-words th, .root-words td { text-align: left; padding: 12px 14px; border-bottom: 1px solid #e6ecf2; vertical-align: top; }
 .root-words th { background: #f1f5f9; font-size: 13px; color: var(--muted); position: sticky; top: 0; }
-/* 加宽「如何拆分」「单词意思」两列；「学习」列固定窄宽不换行 */
-.root-words th:nth-child(2) { width: 44%; }
-.root-words th:nth-child(3) { width: 28%; }
+/* 加宽「如何拆分」列；「单词意思」适中；「学习」列固定窄宽不换行 */
+.root-words th:nth-child(1) { width: 16%; }
+.root-words th:nth-child(2) { width: 52%; }
+.root-words th:nth-child(3) { width: 20%; }
 .root-words th:nth-child(4) { width: 72px; white-space: nowrap; }
 .root-words tr:last-child td { border-bottom: none; }
 .cell-word strong { font-size: 16px; }
@@ -521,14 +522,22 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .group-root-link:hover { text-decoration: underline; }
 .hl { background: #fff3bf; color: inherit; border-radius: 3px; padding: 0 1px; font-weight: 700; }
 
-/* 搜索结果 */
-.search-results { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 10px; max-width: 760px; }
-.search-result { width: 100%; display: grid; grid-template-columns: 1fr 2fr auto auto; align-items: center; gap: 14px; text-align: left; background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; cursor: pointer; }
-.search-result:hover { border-color: var(--blue); }
-.result-word strong { font-size: 16px; }
-.result-word small { display: block; color: var(--muted); font-size: 12px; }
-.result-def { color: var(--muted); }
+/* 搜索结果里「学习」列的文字样式（与其它页面统一） */
 .result-study { color: var(--blue); font-weight: 700; white-space: nowrap; }
+
+/* 手机端：表格转为竖排卡片，避免横向滚动把列挤成一团 */
+@media (max-width: 640px) {
+  .table-scroll { border-radius: 12px; }
+  .root-words { min-width: 0; border: none; background: transparent; }
+  .root-words thead { display: none; }
+  .root-words tbody tr.word-row { display: block; border: 1px solid var(--line); border-radius: 12px; margin: 10px 0; padding: 10px 14px; background: #fff; }
+  .root-words tbody td { display: flex; align-items: baseline; gap: 12px; padding: 6px 0; border-bottom: 1px dashed #eef2f6; font-size: 14px; }
+  .root-words tbody tr.word-row td:last-child { border-bottom: none; }
+  .root-words tbody td::before { content: attr(data-label); flex: 0 0 78px; color: var(--muted); font-size: 12px; }
+  .root-words .cell-word { flex-direction: column; align-items: flex-start; gap: 2px; }
+  .root-words .cell-word::before { content: none; }
+  .root-words .cell-seg { justify-content: flex-start; }
+}
 
 /* 设置页：备份按钮组 */
 .row-actions { display: flex; gap: 8px; flex-wrap: wrap; }
@@ -538,12 +547,7 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 
 /* 键盘可达性 */
 .atlas-card[role="button"] { cursor: pointer; }
-.atlas-card[role="button"]:focus-visible, .search-result:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
-
-@media (max-width: 560px) {
-  .search-result { grid-template-columns: 1fr auto; }
-  .result-def { grid-column: 1 / -1; }
-}
+.atlas-card[role="button"]:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
 
 /* 词根详情：整行可点直接学习 + 提示 */
 .root-hint { color: var(--muted); font-size: 13px; max-width: 70ch; margin: 10px 0 0; }
