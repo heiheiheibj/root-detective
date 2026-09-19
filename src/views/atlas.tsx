@@ -1,4 +1,4 @@
-import { useMemo, useState, type ReactNode } from 'react'
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import type { PlayerProfile, ReviewProgress, WordCore } from '../domain/types'
 import { contentRepository } from '../data/repositories'
 import { getLevelInfo, getMasteredRootCount, getRootId, getWorldUnlockStatus, migrationRate } from '../domain/logic'
@@ -13,13 +13,18 @@ export function describeWordParts(word: WordCore, resolve: (id: string) => { mea
   }
 }
 
-/** 跨全词库搜索：必须完整包含——单词拼写包含关键词，或中文释义包含关键词，最多 limit 条。 */
+/** 跨全词库搜索：必须完整包含——单词拼写包含关键词、或中文释义包含关键词、或任一构成词素的含义包含关键词，最多 limit 条。 */
 export function searchAllWords(query: string, limit = 80) {
   const q = query.trim().toLowerCase()
   if (!q) return []
   const raw = query.trim()
   return words
-    .filter((word) => word.word.toLowerCase().includes(q) || word.modernMeaningCn.includes(raw))
+    .filter(
+      (word) =>
+        word.word.toLowerCase().includes(q) ||
+        word.modernMeaningCn.includes(raw) ||
+        word.parts.some((part) => getMorpheme(part.morphemeId).meaningCn.toLowerCase().includes(q)),
+    )
     .slice(0, limit)
 }
 
@@ -46,11 +51,18 @@ function highlight(text: string, query: string): ReactNode {
 }
 
 /** 词根单词表：单词 / 如何拆分 / 单词意思 / 学习。词根详情页与搜索结果共用，保证两处完全一致。 */
-function RootWordsTable({ words, onStudyWord, query = '' }: {
+function RootWordsTable({ words, onStudyWord, query = '', sound, completedWordIds, highlightWordId }: {
   words: readonly WordCore[]
   onStudyWord: (wordId: string) => void
   query?: string
+  sound?: { canSpeak(): boolean; speak(text: string, lang?: string): boolean }
+  completedWordIds?: ReadonlySet<string>
+  highlightWordId?: string | null
 }) {
+  const highlightRef = useRef<HTMLTableRowElement | null>(null)
+  useEffect(() => {
+    if (highlightWordId) highlightRef.current?.scrollIntoView({ block: 'center', behavior: 'smooth' })
+  }, [highlightWordId])
   return (
     <div className="table-scroll">
       <table className="root-words">
@@ -68,14 +80,17 @@ function RootWordsTable({ words, onStudyWord, query = '' }: {
               splitNodes.push(
                 <span className="seg-item" key={`m-${index}`}>
                   <span className="seg-part">{surfaces[index]}</span>
-                  <span className="seg-mean">({meaning})</span>
+                  {/* 含义命中检索词时高亮，让「如何拆分」列也能看出为什么命中 */}
+                  <span className="seg-mean">({highlight(meaning, query)})</span>
                 </span>,
               )
             })
+            const learned = completedWordIds?.has(word.id) ?? false
             return (
               <tr
                 key={word.id}
-                className="word-row"
+                ref={word.id === highlightWordId ? highlightRef : undefined}
+                className={`word-row${word.id === highlightWordId ? ' row-highlight' : ''}${learned ? ' learned' : ''}`}
                 role="button"
                 tabIndex={0}
                 onClick={() => onStudyWord(word.id)}
@@ -87,8 +102,20 @@ function RootWordsTable({ words, onStudyWord, query = '' }: {
                 }}
               >
                 <td className="cell-word">
-                  <strong>{highlight(word.word, query)}</strong>
+                  <span className="word-line">
+                    <strong>{highlight(word.word, query)}</strong>
+                    {sound?.canSpeak() && (
+                      <button
+                        type="button"
+                        className="row-speaker"
+                        onClick={(event) => { event.stopPropagation(); sound.speak(word.word) }}
+                        aria-label={`朗读 ${word.word}`}
+                        title="听发音"
+                      >🔊</button>
+                    )}
+                  </span>
                   <small>{word.phonetic} · {word.partOfSpeech}</small>
+                  {learned && <span className="learned-badge" title="已学过">✓ 已学</span>}
                 </td>
                 <td data-label="如何拆分"><div className="cell-seg">{splitNodes}</div></td>
                 <td className="cell-def" data-label="单词意思">{highlight(word.modernMeaningCn, query)}</td>
@@ -106,12 +133,14 @@ function RootWordsTable({ words, onStudyWord, query = '' }: {
 }
 
 /** 搜索结果列表：按词根分组展示，命中片段高亮，命中上限时给提示。词根地图搜索与全局搜索页共用。 */
-function SearchResults({ query, words, onOpenRoot, onStudyWord, limit = 80 }: {
+function SearchResults({ query, words, onOpenRoot, onStudyWord, limit = 80, sound, completedWordIds }: {
   query: string
   words: WordCore[]
   onOpenRoot: (rootId: string) => void
   onStudyWord: (wordId: string) => void
   limit?: number
+  sound?: { canSpeak(): boolean; speak(text: string, lang?: string): boolean }
+  completedWordIds?: ReadonlySet<string>
 }) {
   const hitLimit = words.length >= limit
   const groups = new Map<string, WordCore[]>()
@@ -133,7 +162,7 @@ function SearchResults({ query, words, onOpenRoot, onStudyWord, limit = 80 }: {
               <span className="search-group-meta">{root.meaningCn} · {groupWords.length} 个词</span>
               <button type="button" className="group-root-link" onClick={() => onOpenRoot(rootId)}>看这个词根的全部单词 →</button>
             </div>
-            <RootWordsTable words={groupWords} onStudyWord={onStudyWord} query={query} />
+            <RootWordsTable words={groupWords} onStudyWord={onStudyWord} query={query} sound={sound} completedWordIds={completedWordIds} />
           </div>
         ))}
       </div>
@@ -141,7 +170,14 @@ function SearchResults({ query, words, onOpenRoot, onStudyWord, limit = 80 }: {
   )
 }
 
-function RootDetailView({ rootId, onBack, onStudyWord }: { rootId: string; onBack: () => void; onStudyWord: (wordId: string) => void }) {
+function RootDetailView({ rootId, onBack, onStudyWord, sound, completedWordIds, highlightWordId }: {
+  rootId: string
+  onBack: () => void
+  onStudyWord: (wordId: string) => void
+  sound?: { canSpeak(): boolean; speak(text: string, lang?: string): boolean }
+  completedWordIds?: ReadonlySet<string>
+  highlightWordId?: string | null
+}) {
   const root = getMorpheme(rootId)
   const wordCores = wordsByRoot.get(rootId) ?? []
   const [filter, setFilter] = useState('')
@@ -170,17 +206,20 @@ function RootDetailView({ rootId, onBack, onStudyWord }: { rootId: string; onBac
         aria-label="筛选当前词根的单词"
       />
       <p className="root-hint">没那么多时间玩拼词？直接点任意一行把这个词学掉——这是和拼词游戏并行的另一条线。</p>
-      <RootWordsTable words={visible} onStudyWord={(id) => onStudyWord(id)} />
+      <RootWordsTable words={visible} onStudyWord={(id) => onStudyWord(id)} sound={sound} completedWordIds={completedWordIds} highlightWordId={highlightWordId} />
     </section>
   )
 }
 
-export function AtlasView({ profile, progressByRoot, selectedRootId, onSelectRoot, onStudyWord }: {
+export function AtlasView({ profile, progressByRoot, selectedRootId, onSelectRoot, onStudyWord, sound, completedWordIds, highlightWordId }: {
   profile: PlayerProfile
   progressByRoot: ReadonlyMap<string, ReviewProgress>
   selectedRootId: string | null
   onSelectRoot: (rootId: string | null) => void
   onStudyWord?: (wordId: string) => void
+  sound?: { canSpeak(): boolean; speak(text: string, lang?: string): boolean }
+  completedWordIds?: ReadonlySet<string>
+  highlightWordId?: string | null
 }) {
   // 输入框只记录当前文字，按回车或点「搜索」才提交成真正参与检索的词（避免打一个字就自动搜）。
   const [inputValue, setInputValue] = useState('')
@@ -197,7 +236,7 @@ export function AtlasView({ profile, progressByRoot, selectedRootId, onSelectRoo
   const study = (wordId: string) => onStudyWord?.(wordId)
 
   if (selectedRootId) {
-    return <RootDetailView rootId={selectedRootId} onBack={() => onSelectRoot(null)} onStudyWord={(id) => study(id)} />
+    return <RootDetailView rootId={selectedRootId} onBack={() => onSelectRoot(null)} onStudyWord={(id) => study(id)} sound={sound} completedWordIds={completedWordIds} highlightWordId={highlightWordId} />
   }
 
   if (trimmed && searchResults.length > 0) {
@@ -207,7 +246,7 @@ export function AtlasView({ profile, progressByRoot, selectedRootId, onSelectRoo
         <div className="section-heading">
           <div><h2>搜索「{trimmed}」</h2><p>命中 {searchResults.length} 个单词，点任意一行直接把这个词学掉。</p></div>
         </div>
-        <SearchResults query={committedQuery} words={searchResults} onOpenRoot={onSelectRoot} onStudyWord={(id) => study(id)} limit={50} />
+        <SearchResults query={committedQuery} words={searchResults} onOpenRoot={onSelectRoot} onStudyWord={(id) => study(id)} limit={50} sound={sound} completedWordIds={completedWordIds} />
       </section>
     )
   }
@@ -288,11 +327,13 @@ export function AtlasView({ profile, progressByRoot, selectedRootId, onSelectRoo
   )
 }
 
-export function SearchView({ query, onBack, onOpenRoot, onStudyWord }: {
+export function SearchView({ query, onBack, onOpenRoot, onStudyWord, sound, completedWordIds }: {
   query: string
   onBack: () => void
   onOpenRoot: (rootId: string) => void
   onStudyWord: (wordId: string) => void
+  sound?: { canSpeak(): boolean; speak(text: string, lang?: string): boolean }
+  completedWordIds?: ReadonlySet<string>
 }) {
   const trimmed = query.trim()
   const results = searchAllWords(query)
@@ -309,7 +350,7 @@ export function SearchView({ query, onBack, onOpenRoot, onStudyWord }: {
       {results.length === 0 ? (
         <p className="empty-row">没有匹配「{trimmed}」的单词。</p>
       ) : (
-        <SearchResults query={query} words={results} onOpenRoot={onOpenRoot} onStudyWord={onStudyWord} />
+        <SearchResults query={query} words={results} onOpenRoot={onOpenRoot} onStudyWord={onStudyWord} sound={sound} completedWordIds={completedWordIds} />
       )}
     </section>
   )

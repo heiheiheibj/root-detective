@@ -556,3 +556,17 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .root-words tbody tr.word-row:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; }
 /* 如何拆分：词素含义用加粗带色的 + 连接 */
 .root-words .seg-plus { display: inline-block; font-weight: 700; color: #d2691e; margin: 0 5px; line-height: 20px; }
+/* 单元格内：单词 + 发音按钮同行；已学标记；刚学完高亮定位 */
+.root-words .word-line { display: inline-flex; align-items: center; gap: 8px; }
+.row-speaker { border: none; background: #eef4ff; color: var(--blue); border-radius: 999px; width: 26px; height: 26px; font-size: 13px; line-height: 1; cursor: pointer; flex: 0 0 auto; }
+.row-speaker:hover { background: #dbe7ff; }
+.cell-word .learned-badge { display: inline-block; margin-top: 5px; padding: 1px 8px; border-radius: 999px; background: #e7f7ec; color: #1f9d55; font-size: 11px; font-weight: 700; }
+.row-highlight { animation: rowFlash 1.6s ease-out; }
+@keyframes rowFlash { from { background: #fff4cc; } to { background: transparent; } }
+
+/* 今天页：复习入口可点击 */
+.summary-cta { display: block; width: 100%; text-align: left; border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; background: #fff; cursor: pointer; transition: border-color .12s ease, background .12s ease; }
+.summary-cta:hover { border-color: var(--blue); background: #f5f9ff; }
+.summary-cta .eyebrow { color: var(--orange); }
+.summary-cta strong { display: block; font-size: 16px; margin: 2px 0; }
+.summary-cta p { margin: 0; color: var(--muted); font-size: 13px; }
