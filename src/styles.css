@@ -499,7 +499,8 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .root-words tr:last-child td { border-bottom: none; }
 .cell-word strong { font-size: 16px; }
 .cell-word small { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
-.cell-seg, .cell-mean { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+/* 注意：flex 只能加在 td 内层的 div 上；直接加在 td 上会覆盖 table-cell，破坏整列对齐 */
+.cell-seg { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
 .seg-item { display: inline-flex; align-items: center; gap: 3px; }
 /* 统一行高，保证字母段胶囊、含义小字、加号在同一水平线上 */
 .seg-part { background: var(--panel-2); border: 1px solid var(--line); border-radius: 6px; padding: 2px 7px; font-weight: 700; font-size: 13px; line-height: 20px; }
@@ -512,6 +513,8 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .search-groups { display: grid; gap: 22px; max-width: 760px; }
 .search-group-head { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
 .search-group-meta { color: var(--muted); font-size: 13px; }
+.group-root-link { margin-left: auto; background: none; border: none; padding: 0; color: var(--blue); font-size: 13px; cursor: pointer; }
+.group-root-link:hover { text-decoration: underline; }
 .hl { background: #fff3bf; color: inherit; border-radius: 3px; padding: 0 1px; font-weight: 700; }
 
 /* 搜索结果 */

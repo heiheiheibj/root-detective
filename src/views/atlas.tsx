@@ -54,6 +54,66 @@ function highlight(text: string, query: string): ReactNode {
   return <>{parts}</>
 }
 
+/** 词根单词表：单词 / 如何拆分 / 单词意思 / 学习。词根详情页与搜索结果共用，保证两处完全一致。 */
+function RootWordsTable({ words, onStudyWord, query = '' }: {
+  words: readonly WordCore[]
+  onStudyWord: (wordId: string) => void
+  query?: string
+}) {
+  return (
+    <div className="table-scroll">
+      <table className="root-words">
+        <thead>
+          <tr><th>单词</th><th>如何拆分</th><th>单词意思</th><th aria-label="操作" /></tr>
+        </thead>
+        <tbody>
+          {words.map((word) => {
+            const { surfaces, meanings } = describeWordParts(word)
+            const splitNodes: ReactNode[] = []
+            meanings.forEach((meaning, index) => {
+              if (index > 0) {
+                splitNodes.push(<span className="seg-plus" key={`plus-${index}`} aria-hidden="true">+</span>)
+              }
+              splitNodes.push(
+                <span className="seg-item" key={`m-${index}`}>
+                  <span className="seg-part">{surfaces[index]}</span>
+                  <span className="seg-mean">({meaning})</span>
+                </span>,
+              )
+            })
+            return (
+              <tr
+                key={word.id}
+                className="word-row"
+                role="button"
+                tabIndex={0}
+                onClick={() => onStudyWord(word.id)}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault()
+                    onStudyWord(word.id)
+                  }
+                }}
+              >
+                <td className="cell-word">
+                  <strong>{highlight(word.word, query)}</strong>
+                  <small>{word.phonetic} · {word.partOfSpeech}</small>
+                </td>
+                <td><div className="cell-seg">{splitNodes}</div></td>
+                <td className="cell-def">{highlight(word.modernMeaningCn, query)}</td>
+                <td className="cell-action"><span className="result-study" aria-hidden="true">学习 →</span></td>
+              </tr>
+            )
+          })}
+          {words.length === 0 && (
+            <tr><td colSpan={4} className="empty-row">没有匹配的单词。</td></tr>
+          )}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
 /** 搜索结果列表：按词根分组展示，命中片段高亮，命中上限时给提示。词根地图搜索与全局搜索页共用。 */
 function SearchResults({ query, words, onOpenRoot, onStudyWord, limit = 80 }: {
   query: string
@@ -80,18 +140,9 @@ function SearchResults({ query, words, onOpenRoot, onStudyWord, limit = 80 }: {
             <div className="search-group-head">
               <span className={`morpheme-chip ${root.color}`}>{root.displayText}</span>
               <span className="search-group-meta">{root.meaningCn} · {groupWords.length} 个词</span>
+              <button type="button" className="group-root-link" onClick={() => onOpenRoot(rootId)}>看这个词根的全部单词 →</button>
             </div>
-            <ul className="search-results">
-              {groupWords.map((word) => (
-                <li key={word.id}>
-                  <button type="button" className="search-result" onClick={() => onOpenRoot(rootId)}>
-                    <span className="result-word"><strong>{highlight(word.word, query)}</strong><small>{word.phonetic}</small></span>
-                    <span className="result-def">{highlight(word.modernMeaningCn, query)}</span>
-                    <span className="result-study" onClick={(event) => { event.stopPropagation(); onStudyWord(word.id) }}>学习 →</span>
-                  </button>
-                </li>
-              ))}
-            </ul>
+            <RootWordsTable words={groupWords} onStudyWord={onStudyWord} query={query} />
           </div>
         ))}
       </div>
@@ -128,56 +179,7 @@ function RootDetailView({ rootId, onBack, onStudyWord }: { rootId: string; onBac
         aria-label="筛选当前词根的单词"
       />
       <p className="root-hint">没那么多时间玩拼词？直接点任意一行把这个词学掉——这是和拼词游戏并行的另一条线。</p>
-      <div className="table-scroll">
-        <table className="root-words">
-          <thead>
-            <tr><th>单词</th><th>如何拆分</th><th>单词意思</th><th aria-label="操作" /></tr>
-          </thead>
-          <tbody>
-            {visible.map((word) => {
-              const { surfaces, meanings } = describeWordParts(word)
-              const splitNodes: ReactNode[] = []
-              meanings.forEach((meaning, index) => {
-                if (index > 0) {
-                  splitNodes.push(<span className="seg-plus" key={`plus-${index}`} aria-hidden="true">+</span>)
-                }
-                splitNodes.push(
-                  <span className="seg-item" key={`m-${index}`}>
-                    <span className="seg-part">{surfaces[index]}</span>
-                    <span className="seg-mean">({meaning})</span>
-                  </span>,
-                )
-              })
-              return (
-                <tr
-                  key={word.id}
-                  className="word-row"
-                  role="button"
-                  tabIndex={0}
-                  onClick={() => onStudyWord(word.id)}
-                  onKeyDown={(event) => {
-                    if (event.key === 'Enter' || event.key === ' ') {
-                      event.preventDefault()
-                      onStudyWord(word.id)
-                    }
-                  }}
-                >
-                  <td className="cell-word">
-                    <strong>{word.word}</strong>
-                    <small>{word.phonetic} · {word.partOfSpeech}</small>
-                  </td>
-                  <td className="cell-seg">{splitNodes}</td>
-                  <td className="cell-def">{word.modernMeaningCn}</td>
-                  <td className="cell-action"><span className="result-study" aria-hidden="true">学习 →</span></td>
-                </tr>
-              )
-            })}
-            {visible.length === 0 && (
-              <tr><td colSpan={4} className="empty-row">没有匹配的单词。</td></tr>
-            )}
-          </tbody>
-        </table>
-      </div>
+      <RootWordsTable words={visible} onStudyWord={(id) => onStudyWord(id)} />
     </section>
   )
 }
@@ -212,7 +214,7 @@ export function AtlasView({ profile, progressByRoot, selectedRootId, onSelectRoo
       <section className="page-section atlas-page">
         <button type="button" className="back-link" onClick={() => { setInputValue(''); setCommittedQuery('') }}>← 返回词根地图</button>
         <div className="section-heading">
-          <div><h2>搜索「{trimmed}」</h2><p>命中 {searchResults.length} 个单词，点卡片看它属于哪个词根的全部单词。</p></div>
+          <div><h2>搜索「{trimmed}」</h2><p>命中 {searchResults.length} 个单词，点任意一行直接把这个词学掉。</p></div>
         </div>
         <SearchResults query={committedQuery} words={searchResults} onOpenRoot={onSelectRoot} onStudyWord={(id) => study(id)} limit={50} />
       </section>
@@ -310,7 +312,7 @@ export function SearchView({ query, onBack, onOpenRoot, onStudyWord }: {
       <div className="section-heading">
         <div>
           <h2>搜索「{trimmed}」</h2>
-          <p>命中 {results.length} 个单词{results.length > 0 ? `，分属 ${rootCount} 个词根` : ''}。点卡片看它属于哪个词根的全部单词；「学习 →」直接开练。</p>
+          <p>命中 {results.length} 个单词{results.length > 0 ? `，分属 ${rootCount} 个词根` : ''}。点任意一行直接把这个词学掉；也可以点组头的链接看该词根的全部单词。</p>
         </div>
       </div>
       {results.length === 0 ? (
