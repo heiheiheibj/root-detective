@@ -6,12 +6,14 @@ import { createInitialProfile } from './domain/data'
 import { computeAchievements, getUnlockedCount } from './domain/achievements'
 import { deriveStats } from './domain/profileStats'
 import { loadSettings, saveSettings, type Settings } from './data/settings'
-import { applyCompletedCase, applyIncorrectAttempt, applyMatchReview, assimilationHint, createMetaphorDiagnosis, createSplitDiagnosis, getContinuationMode, getCurrentStreak, getLevelInfo, getMasteredRootCount, getMistakeEventId, getReviewBoard, getReviewQueue, getRootId, getStabilityBand, getWorldUnlockStatus, isDuplicateSubmit, isSplitCorrect, migrationRate, pickNextWord, shuffledMetaphorOptions, shuffle } from './domain/logic'
+import { applyCompletedCase, applyIncorrectAttempt, applyMatchReview, assimilationHint, createMetaphorDiagnosis, createSplitDiagnosis, getContinuationMode, getCurrentStreak, getLevelInfo, getLocalDayKey, getMistakeEventId, getReviewBoard, getReviewQueue, getRootId, getStabilityBand, isDuplicateSubmit, isSplitCorrect, pickNextWord, shuffledMetaphorOptions, shuffle } from './domain/logic'
 import HelpOverlay from './HelpOverlay'
+import { AtlasView } from './views/atlas'
+import { loadProfile } from './domain/persistence'
 
 // 页面只认 repository 接口：把接口成员解构成本文件一直在用的那些名字，
 // 调用点一个字都不用改，将来换成 Supabase 适配器时这里也不用动。
-const { createRootProgress, findMorpheme, getFamilyWords, getMorpheme, getWordCore, getWordDetailSync, loadWordDetail, words, wordsByRoot, worlds } = contentRepository
+const { createRootProgress, findMorpheme, getFamilyWords, getMorpheme, getWordCore, getWordDetailSync, loadWordDetail, words, wordsByRoot } = contentRepository
 
 // 结构性缺门的词根（家族里连一个入门词都没有）：到期了也排在队列最后，见 logic.getReviewQueue。
 const DEPRIORITIZED_ROOTS = new Set<string>(nonTeachingRoots.demotedRootIds)
@@ -144,6 +146,35 @@ function App() {
     setProfile({ ...createInitialProfile(), helpSeen: profile.helpSeen })
   }
 
+  /** 导出进度：把当前学习档案序列化成 JSON 下载，Supabase 没接之前用来备份。 */
+  function handleExportProgress() {
+    const json = progressRepository.serialize(profile)
+    const blob = new Blob([json], { type: 'application/json' })
+    const url = URL.createObjectURL(blob)
+    const anchor = document.createElement('a')
+    anchor.href = url
+    anchor.download = `rootdeck-progress-${getLocalDayKey(new Date())}.json`
+    anchor.click()
+    URL.revokeObjectURL(url)
+  }
+
+  /** 导入进度：读用户选的 JSON 备份，校验后整体替换当前档案。 */
+  function handleImportProgress(file: File) {
+    const reader = new FileReader()
+    reader.onload = () => {
+      try {
+        const imported = loadProfile(String(reader.result))
+        setProfile(imported)
+        setToast('进度已导入')
+        window.setTimeout(() => setToast(''), 2800)
+      } catch {
+        setToast('导入失败：文件不是有效的进度备份')
+        window.setTimeout(() => setToast(''), 2800)
+      }
+    }
+    reader.readAsText(file)
+  }
+
   function closeHelp() {
     setHelpOpen(false)
     setProfile((current) => ({ ...current, helpSeen: true }))
@@ -264,10 +295,10 @@ function App() {
       {activeView === 'today' && <TodayView profile={profile} levelInfo={levelInfo} currentStreak={currentStreak} reviewCount={navCount} onboardingCompleted={profile.onboardingCompleted} onStart={startTodayPrimary} onContinue={() => setActiveView('case')} />}
       {activeView === 'case' && (word ? <CaseRoom word={word} root={root} currentProgress={currentProgress} diagnosis={diagnosis} stage={stage} selected={selected} availableCards={availableCards} hint={hint} buildFeedback={buildFeedback} buildAttempts={buildAttempts} shuffledOptions={shuffledOptions} forgeChoice={forgeChoice} forgeFeedback={forgeFeedback} forgeAttempts={forgeAttempts} rewardSummary={rewardSummary} family={family} onSelectCard={selectCard} onSubmitBuild={submitBuild} onSelectForge={selectForgeOption} onSubmitForge={submitForge} onFinish={finishWord} onNextWord={nextWord} onReview={() => setActiveView('regression')} onChooseWord={(id) => chooseWord(id, getContinuationMode(caseRun))} sound={effectiveAudio} /> : <section className="page-section case-page"><div className="empty-state">{wordFailed ? <><span className="eyebrow">加载失败</span><h3>词条详情没加载出来</h3><p>分片没能取到，重新加载一次试试。</p><button className="primary-button" onClick={() => window.location.reload()}>重新加载</button></> : <><span className="eyebrow">装载中</span><h3>词条详情马上就到</h3><p>详情按需加载，只这一瞬。</p></>}</div></section>)}
       {activeView === 'regression' && <ReviewView profile={profile} onFinishRound={finishMatchReview} />}
-      {activeView === 'atlas' && <AtlasView profile={profile} progressByRoot={progressByRoot} />}
+      {activeView === 'atlas' && <AtlasView profile={profile} progressByRoot={progressByRoot} onStudyWord={(id) => chooseWord(id)} />}
       {activeView === 'stats' && <StatsView stats={deriveStats(profile)} />}
       {activeView === 'achievements' && <AchievementsView profile={profile} unlockedCount={getUnlockedCount(profile)} />}
-      {activeView === 'settings' && <SettingsView settings={settings} onToggleSound={(on) => updateSettings({ ...settings, soundEnabled: on })} onResetProgress={handleResetProgress} />}
+      {activeView === 'settings' && <SettingsView settings={settings} onToggleSound={(on) => updateSettings({ ...settings, soundEnabled: on })} onResetProgress={handleResetProgress} onExportProgress={handleExportProgress} onImportProgress={handleImportProgress} />}
       {toast && <div className="toast" role="status" aria-live="polite">{toast}</div>}
       {helpOpen && <HelpOverlay onClose={closeHelp} onFinish={startFromHelp} />}
     </main>
@@ -334,8 +365,9 @@ function AchievementsView({ profile, unlockedCount }: { profile: PlayerProfile; 
   )
 }
 
-function SettingsView({ settings, onToggleSound, onResetProgress }: { settings: Settings; onToggleSound: (on: boolean) => void; onResetProgress: () => void }) {
+function SettingsView({ settings, onToggleSound, onResetProgress, onExportProgress, onImportProgress }: { settings: Settings; onToggleSound: (on: boolean) => void; onResetProgress: () => void; onExportProgress: () => void; onImportProgress: (file: File) => void }) {
   const [confirming, setConfirming] = useState(false)
+  const fileInputRef = useRef<HTMLInputElement>(null)
   return (
     <section className="page-section settings-page">
       <div className="section-heading"><div><h2>设置</h2><p>发音用浏览器自带的语音合成，不需要联网录音。</p></div></div>
@@ -343,6 +375,24 @@ function SettingsView({ settings, onToggleSound, onResetProgress }: { settings: 
         <div className="settings-row">
           <div><strong>发音</strong><p>答题时点击喇叭用浏览器朗读单词和例句。</p></div>
           <button type="button" className={`toggle ${settings.soundEnabled ? 'on' : ''}`} onClick={() => onToggleSound(!settings.soundEnabled)} aria-pressed={settings.soundEnabled}>{settings.soundEnabled ? '开' : '关'}</button>
+        </div>
+        <div className="settings-row">
+          <div><strong>备份进度</strong><p>把学习档案导出成 JSON 文件；换新设备或清缓存前先备份。Supabase 同步接入前这是唯一的保全手段。</p></div>
+          <div className="row-actions">
+            <button type="button" className="secondary-button" onClick={onExportProgress}>导出进度</button>
+            <button type="button" className="secondary-button" onClick={() => fileInputRef.current?.click()}>导入进度</button>
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="application/json,.json"
+              hidden
+              onChange={(event) => {
+                const file = event.target.files?.[0]
+                if (file) onImportProgress(file)
+                event.target.value = ''
+              }}
+            />
+          </div>
         </div>
         <div className="settings-row danger">
           <div><strong>清空进度</strong><p>删除所有已学单词、词根熟练度和连续天数，且无法撤销。</p></div>
@@ -493,9 +543,4 @@ function ReviewView({ profile, onFinishRound }: { profile: PlayerProfile; onFini
   </div></section>
 }
 
-function AtlasView({ profile, progressByRoot }: { profile: PlayerProfile; progressByRoot: ReadonlyMap<string, ReviewProgress> }) {
-  const levelInfo = getLevelInfo(profile.xp)
-  const mastered = getMasteredRootCount(profile.progress)
-  const rate = Math.round(migrationRate(profile.progress) * 100)
-  return <section className="page-section atlas-page"><div className="section-heading"><div><h2>所有词根，一块一块解锁。</h2><p>词根按意思分组。先把「看」这一组学会，再学「说」和「带」。</p></div><div className="atlas-count"><strong>{mastered}</strong><span>个词根很熟了</span></div></div><div className="atlas-overview"><span>等级 {levelInfo.level} · {levelInfo.title}</span><span>学了 {profile.completedWordIds.length} 个词</span><span>正确率 {rate}%</span></div><div className="world-grid">{worlds.map((world) => { const status = getWorldUnlockStatus(world, profile); return <article className={`world-card ${status.unlocked ? 'unlocked' : 'locked'}`} key={world.id}><div className="world-card-head"><strong>{status.unlocked ? '已开放' : '还没解锁'}</strong></div><h3>{world.name}</h3><p>{world.description}</p>{!status.unlocked && <div className="world-missing"><span>还要做到</span>{status.missing.map((requirement) => <small key={requirement}>{requirement}</small>)}</div>}<div className="atlas-grid">{world.morphemeIds.map((morphemeId) => { const root = getMorpheme(morphemeId); const stability = progressByRoot.get(morphemeId)?.stability ?? 0; const label = stability > 0 ? getStabilityBand(stability).label : '还没学'; return <div className="atlas-card" key={morphemeId}><div className="atlas-card-top"><span className={`morpheme-chip ${root.color}`}>词根</span><span className="atlas-level">等级 {root.level}</span></div><h3>{root.displayText}</h3><p>{root.meaningCn}</p><div className="mini-track"><i style={{ width: `${stability}%` }}/></div><small>{label} · {Math.round(stability)}%</small></div> })}</div></article> })}</div></section>
-}
+

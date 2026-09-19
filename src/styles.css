@@ -472,3 +472,50 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 @media (max-width: 720px) { .app-shell { display: block; } .sidebar { width: 100%; padding: 16px 16px 11px; border-right: 0; border-bottom: 1px solid var(--line); } .sidebar-kicker, .sidebar-spacer, .streak-card, .profile-button { display: none; } .brand-lockup { padding: 0; } .main-nav { display: flex; overflow-x: auto; margin-top: 15px; gap: 4px; } .nav-item { flex: 0 0 auto; min-height: 48px; padding: 0 12px; } .nav-item span:last-of-type { font-size: 15px; } .main-content { padding: 25px 16px 45px; } .topbar { margin-bottom: 38px; } .topbar h1 { font-size: 28px; } .points { margin-left: 0; } .hero-band { align-items: flex-start; gap: 22px; } .hero-band h2 { font-size: 43px; } .case-stamp { width: 85px; height: 85px; margin: 0; } .case-stamp strong { font-size: 14px; } .case-stamp span, .case-stamp small { font-size: 10px; } .panel-head { padding: 20px 17px 18px; } .case-steps { padding: 13px 17px; gap: 4px; } .case-steps li { grid-template-columns: 24px 1fr; column-gap: 4px; } .case-steps li > span { width: 24px; height: 24px; } .case-steps li strong { font-size: 12px; } .case-steps li small { font-size: 11px; } .stage-content { padding: 22px 17px 25px; } .assembly-slots, .morpheme-grid, .hint-row, .stage-content > .primary-button, .option-list, .literal-equation, .semantic-ladder, .reveal-box, .proof-grid, .example-box, .hand-label { margin-left: 0; } .assembly-slots { gap: 7px; } .assembly-slot { min-width: 0; flex: 1 1 25%; height: 52px; font-size: 13px; } .morpheme-grid { display: grid; grid-template-columns: repeat(2, 1fr); } .morpheme-card { min-width: 0; } .proof-grid { grid-template-columns: 1fr; } .reward-actions { flex-direction: column; } .reward-actions button { width: 100%; } .evidence-panel { display: block; } .evidence-panel .panel-head { padding: 20px 17px 18px; } .root-card, .family-section, .note-card { margin-left: 17px; margin-right: 17px; } .section-heading { align-items: flex-start; gap: 18px; } .section-heading h2 { font-size: 41px; } .atlas-grid { grid-template-columns: repeat(2, 1fr); } .world-card .atlas-grid { grid-template-columns: repeat(2, 1fr); } .onboarding-card { display: grid; padding: 17px; } .briefing-steps { justify-content: space-between; } .today-grid { display: grid; } .today-grid button { width: 100%; } .profile-summary { grid-template-columns: 1fr; } .diagnosis-bar { margin-left: 17px; margin-right: 17px; } .diagnosis-bar dl { grid-template-columns: 1fr; } }
 @media (max-width: 430px) { .hero-band { display: block; } .case-stamp { margin-top: 22px; } .hero-band h2 { font-size: 39px; } .word-line h3 { font-size: 33px; } .points span { display: none; } .atlas-grid { grid-template-columns: 1fr; } .world-card .atlas-grid { grid-template-columns: 1fr; } .case-steps li strong { font-size: 11px; } .case-steps li small { display: none; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; } }
+
+/* 搜索框（词根地图 / 详情） */
+.search-input { width: 100%; max-width: 520px; padding: 11px 14px; border: 1px solid var(--line); border-radius: 12px; font-size: 15px; background: #fff; color: var(--cream); margin: 4px 0 16px; }
+.search-input:focus-visible { outline: 2px solid var(--blue); outline-offset: 1px; }
+
+.back-link { align-self: flex-start; background: none; border: none; color: var(--blue); font-weight: 700; cursor: pointer; padding: 4px 0; margin-bottom: 6px; }
+.back-link:hover { text-decoration: underline; }
+
+/* 词根详情表 */
+.root-etymology { color: var(--muted); max-width: 70ch; margin: 0 0 4px; }
+.table-scroll { overflow-x: auto; margin-top: 14px; border: 1px solid var(--line); border-radius: 14px; background: #fff; }
+.root-words { width: 100%; border-collapse: collapse; min-width: 760px; }
+.root-words th, .root-words td { text-align: left; padding: 12px 14px; border-bottom: 1px solid #e6ecf2; vertical-align: top; }
+.root-words th { background: #f1f5f9; font-size: 13px; color: var(--muted); position: sticky; top: 0; }
+.root-words tr:last-child td { border-bottom: none; }
+.cell-word strong { font-size: 16px; }
+.cell-word small { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
+.cell-seg, .cell-mean { display: flex; flex-wrap: wrap; gap: 4px; }
+.seg-part { background: var(--panel-2); border: 1px solid var(--line); border-radius: 6px; padding: 2px 7px; font-weight: 700; font-size: 13px; }
+.seg-mean { color: var(--orange); font-size: 13px; }
+.seg-mean b { font-weight: 700; }
+.cell-def { color: var(--muted); max-width: 30ch; }
+.empty-row { text-align: center; color: var(--muted); padding: 24px; }
+
+/* 搜索结果 */
+.search-results { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 10px; max-width: 760px; }
+.search-result { width: 100%; display: grid; grid-template-columns: 1fr 2fr auto auto; align-items: center; gap: 14px; text-align: left; background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; cursor: pointer; }
+.search-result:hover { border-color: var(--blue); }
+.result-word strong { font-size: 16px; }
+.result-word small { display: block; color: var(--muted); font-size: 12px; }
+.result-def { color: var(--muted); }
+.result-study { color: var(--blue); font-weight: 700; white-space: nowrap; }
+
+/* 设置页：备份按钮组 */
+.row-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+
+/* 地图逾期提示 */
+.atlas-overview .overdue { color: var(--orange); font-weight: 700; }
+
+/* 键盘可达性 */
+.atlas-card[role="button"] { cursor: pointer; }
+.atlas-card[role="button"]:focus-visible, .search-result:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+
+@media (max-width: 560px) {
+  .search-result { grid-template-columns: 1fr auto; }
+  .result-def { grid-column: 1 / -1; }
+}
