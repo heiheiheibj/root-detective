@@ -525,3 +525,6 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .root-words tbody tr.word-row { cursor: pointer; transition: background-color .12s ease; }
 .root-words tbody tr.word-row:hover { background: #f5f9ff; }
 .root-words tbody tr.word-row:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; }
+/* 如何拆分：词素含义用加粗带色的 + 连接 */
+.root-words .seg-plus { display: inline-block; font-weight: 700; color: #d2691e; margin: 0 5px; }
+.root-words .seg-mean[title] { cursor: help; border-bottom: 1px dotted var(--muted); }

@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, type ReactNode } from 'react'
 import type { PlayerProfile, ReviewProgress, WordCore } from '../domain/types'
 import { contentRepository } from '../data/repositories'
 import { getLevelInfo, getMasteredRootCount, getRootId, getWorldUnlockStatus, migrationRate } from '../domain/logic'
@@ -45,11 +45,20 @@ function RootDetailView({ rootId, onBack, onStudyWord }: { rootId: string; onBac
       <div className="table-scroll">
         <table className="root-words">
           <thead>
-            <tr><th>单词</th><th>如何拆分</th><th>每段含义</th><th>释义</th><th aria-label="操作" /></tr>
+            <tr><th>单词</th><th>如何拆分</th><th>单词意思</th><th aria-label="操作" /></tr>
           </thead>
           <tbody>
             {visible.map((word) => {
               const { surfaces, meanings } = describeWordParts(word)
+              const splitNodes: ReactNode[] = []
+              meanings.forEach((meaning, index) => {
+                if (index > 0) {
+                  splitNodes.push(<span className="seg-plus" key={`plus-${index}`} aria-hidden="true">+</span>)
+                }
+                splitNodes.push(
+                  <span className="seg-mean" key={`m-${index}`} title={surfaces[index]}>{meaning}</span>,
+                )
+              })
               return (
                 <tr
                   key={word.id}
@@ -68,15 +77,14 @@ function RootDetailView({ rootId, onBack, onStudyWord }: { rootId: string; onBac
                     <strong>{word.word}</strong>
                     <small>{word.phonetic} · {word.partOfSpeech}</small>
                   </td>
-                  <td className="cell-seg">{surfaces.map((surface, index) => <span className="seg-part" key={index}>{surface}</span>)}</td>
-                  <td className="cell-mean">{meanings.map((meaning, index) => <span className="seg-mean" key={index}>{meaning}</span>)}</td>
+                  <td className="cell-seg">{splitNodes}</td>
                   <td className="cell-def">{word.modernMeaningCn}</td>
                   <td className="cell-action"><span className="result-study" aria-hidden="true">学习 →</span></td>
                 </tr>
               )
             })}
             {visible.length === 0 && (
-              <tr><td colSpan={5} className="empty-row">没有匹配的单词。</td></tr>
+              <tr><td colSpan={4} className="empty-row">没有匹配的单词。</td></tr>
             )}
           </tbody>
         </table>
@@ -143,7 +151,7 @@ export function AtlasView({ profile, progressByRoot, selectedRootId, onSelectRoo
   return (
     <section className="page-section atlas-page">
       <div className="section-heading">
-        <div><h2>所有词根，一块一块解锁。</h2><p>词根按意思分组。点开任意一个，能看到它名下所有单词怎么拆、每段什么意思；没空玩拼词就直接点单词学掉。</p></div>
+        <div><h2>所有词根，一块一块解锁。</h2><p>词根按意思分组。点开任意一个，能看到它名下所有单词怎么拆（每段用 + 连起来）、整词什么意思；没空玩拼词就直接点单词学掉。</p></div>
         <div className="atlas-count"><strong>{mastered}</strong><span>个词根很熟了</span></div>
       </div>
       <input
