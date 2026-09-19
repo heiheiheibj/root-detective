@@ -100,14 +100,16 @@ export function AtlasView({ profile, progressByRoot, selectedRootId, onSelectRoo
   onSelectRoot: (rootId: string | null) => void
   onStudyWord?: (wordId: string) => void
 }) {
-  const [query, setQuery] = useState('')
+  // 输入框只记录当前文字，按回车或点「搜索」才提交成真正参与检索的词（避免打一个字就自动搜）。
+  const [inputValue, setInputValue] = useState('')
+  const [committedQuery, setCommittedQuery] = useState('')
 
   const levelInfo = getLevelInfo(profile.xp)
   const mastered = getMasteredRootCount(profile.progress)
   const rate = Math.round(migrationRate(profile.progress) * 100)
   const overdue = profile.progress.filter((item) => item.state === 'learning' || (item.dueAt !== null && new Date(item.dueAt).getTime() <= Date.now())).length
 
-  const trimmed = query.trim()
+  const trimmed = committedQuery.trim()
   const searchResults = useMemo(() => {
     if (!trimmed) return []
     return words
@@ -124,7 +126,7 @@ export function AtlasView({ profile, progressByRoot, selectedRootId, onSelectRoo
   if (trimmed && searchResults.length > 0) {
     return (
       <section className="page-section atlas-page">
-        <button type="button" className="back-link" onClick={() => setQuery('')}>← 返回词根地图</button>
+        <button type="button" className="back-link" onClick={() => { setInputValue(''); setCommittedQuery('') }}>← 返回词根地图</button>
         <div className="section-heading">
           <div><h2>搜索「{trimmed}」</h2><p>命中 {searchResults.length} 个单词，点卡片看它属于哪个词根的全部单词。</p></div>
         </div>
@@ -154,14 +156,17 @@ export function AtlasView({ profile, progressByRoot, selectedRootId, onSelectRoo
         <div><h2>所有词根，一块一块解锁。</h2><p>词根按意思分组。点开任意一个，能看到它名下所有单词怎么拆（每段用 + 连起来）、整词什么意思；没空玩拼词就直接点单词学掉。</p></div>
         <div className="atlas-count"><strong>{mastered}</strong><span>个词根很熟了</span></div>
       </div>
-      <input
-        type="search"
-        className="search-input"
-        placeholder="搜索任意单词或释义…"
-        value={query}
-        onChange={(event) => setQuery(event.target.value)}
-        aria-label="搜索单词"
-      />
+      <form className="search-form" onSubmit={(event) => { event.preventDefault(); setCommittedQuery(inputValue) }}>
+        <input
+          type="search"
+          className="search-input"
+          placeholder="搜索任意单词或释义，回车或点搜索"
+          value={inputValue}
+          onChange={(event) => setInputValue(event.target.value)}
+          aria-label="搜索单词"
+        />
+        <button type="submit" className="ghost-button search-submit">搜索</button>
+      </form>
       <div className="atlas-overview">
         <span>等级 {levelInfo.level} · {levelInfo.title}</span>
         <span>学了 {profile.completedWordIds.length} 个词</span>

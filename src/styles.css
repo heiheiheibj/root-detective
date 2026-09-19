@@ -476,6 +476,10 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 /* 搜索框（词根地图 / 详情） */
 .search-input { width: 100%; max-width: 520px; padding: 11px 14px; border: 1px solid var(--line); border-radius: 12px; font-size: 15px; background: #fff; color: var(--cream); margin: 4px 0 16px; }
 .search-input:focus-visible { outline: 2px solid var(--blue); outline-offset: 1px; }
+/* 地图搜索：输入与按钮同行，回车/点按钮才真正搜索 */
+.search-form { display: flex; gap: 8px; align-items: stretch; margin: 4px 0 16px; }
+.search-form .search-input { flex: 1; margin: 0; }
+.search-submit { white-space: nowrap; }
 
 .back-link { align-self: flex-start; background: none; border: none; color: var(--blue); font-weight: 700; cursor: pointer; padding: 4px 0; margin-bottom: 6px; }
 .back-link:hover { text-decoration: underline; }
