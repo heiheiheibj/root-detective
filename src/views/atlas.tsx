@@ -13,22 +13,13 @@ export function describeWordParts(word: WordCore, resolve: (id: string) => { mea
   }
 }
 
-/** 子序列模糊匹配：needle 的字符是否按序出现在 haystack 中（容忍漏字母、顺序对即可）。 */
-function isSubsequence(needle: string, haystack: string): boolean {
-  let i = 0
-  for (let j = 0; j < haystack.length && i < needle.length; j++) {
-    if (needle[i] === haystack[j]) i++
-  }
-  return i === needle.length
-}
-
-/** 跨全词库搜索：单词拼写（含子序列模糊）/ 中文释义 命中即返回，最多 limit 条。 */
+/** 跨全词库搜索：必须完整包含——单词拼写包含关键词，或中文释义包含关键词，最多 limit 条。 */
 export function searchAllWords(query: string, limit = 80) {
   const q = query.trim().toLowerCase()
   if (!q) return []
   const raw = query.trim()
   return words
-    .filter((word) => word.word.toLowerCase().includes(q) || word.modernMeaningCn.includes(raw) || isSubsequence(q, word.word.toLowerCase()))
+    .filter((word) => word.word.toLowerCase().includes(q) || word.modernMeaningCn.includes(raw))
     .slice(0, limit)
 }
 

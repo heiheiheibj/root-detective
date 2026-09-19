@@ -496,6 +496,10 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .root-words { width: 100%; border-collapse: collapse; min-width: 760px; }
 .root-words th, .root-words td { text-align: left; padding: 12px 14px; border-bottom: 1px solid #e6ecf2; vertical-align: top; }
 .root-words th { background: #f1f5f9; font-size: 13px; color: var(--muted); position: sticky; top: 0; }
+/* 加宽「如何拆分」「单词意思」两列；「学习」列固定窄宽不换行 */
+.root-words th:nth-child(2) { width: 44%; }
+.root-words th:nth-child(3) { width: 28%; }
+.root-words th:nth-child(4) { width: 72px; white-space: nowrap; }
 .root-words tr:last-child td { border-bottom: none; }
 .cell-word strong { font-size: 16px; }
 .cell-word small { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
@@ -506,7 +510,7 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .seg-part { background: var(--panel-2); border: 1px solid var(--line); border-radius: 6px; padding: 2px 7px; font-weight: 700; font-size: 13px; line-height: 20px; }
 .seg-mean { color: var(--muted); font-size: 12px; line-height: 20px; }
 .seg-mean b { font-weight: 700; }
-.cell-def { color: var(--muted); max-width: 30ch; }
+.cell-def { color: var(--muted); }
 .empty-row { text-align: center; color: var(--muted); padding: 24px; }
 /* 搜索结果：按词根分组 + 上限提示 + 命中高亮 */
 .search-hint { color: var(--muted); font-size: 13px; margin: 4px 0 14px; }

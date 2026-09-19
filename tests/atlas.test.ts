@@ -48,10 +48,11 @@ describe('searchAllWords（全局模糊搜索）', () => {
     expect(hits).toContain('inspect')
   })
 
-  it('支持漏字母的子序列模糊匹配', () => {
-    // 输入 vsion（漏了 i）仍能命中 vision
-    const hits = searchAllWords('vsion').map((w) => w.word)
-    expect(hits).toContain('vision')
+  it('必须完整包含：漏字母不再命中', () => {
+    // 输入 vsion（漏了 i）不命中 vision；完整包含才命中（搜 age 不该出 dialogue）
+    expect(searchAllWords('vsion').map((w) => w.word)).not.toContain('vision')
+    expect(searchAllWords('age').map((w) => w.word)).not.toContain('dialogue')
+    expect(searchAllWords('age').map((w) => w.word)).toContain('courage')
   })
 
   it('不区分大小写', () => {
