@@ -519,3 +519,9 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
   .search-result { grid-template-columns: 1fr auto; }
   .result-def { grid-column: 1 / -1; }
 }
+
+/* 词根详情：整行可点直接学习 + 提示 */
+.root-hint { color: var(--muted); font-size: 13px; max-width: 70ch; margin: 10px 0 0; }
+.root-words tbody tr.word-row { cursor: pointer; transition: background-color .12s ease; }
+.root-words tbody tr.word-row:hover { background: #f5f9ff; }
+.root-words tbody tr.word-row:focus-visible { outline: 2px solid var(--blue); outline-offset: -2px; }

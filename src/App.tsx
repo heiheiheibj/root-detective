@@ -70,6 +70,8 @@ function App() {
     ? audioRepository
     : { canSpeak: () => false, speak: () => false }
   const [activeView, setActiveView] = useState('today')
+  // 词根地图里当前展开的词根详情；提升到这层，这样从详情页去学一个词再回来仍停在原词根（直接学习线保留上下文）。
+  const [atlasRootId, setAtlasRootId] = useState<string | null>(null)
   const [wordId, setWordId] = useState('circumspect')
   const [stage, setStage] = useState<PuzzleStage>('build')
   const [selected, setSelected] = useState<string[]>([])
@@ -295,7 +297,7 @@ function App() {
       {activeView === 'today' && <TodayView profile={profile} levelInfo={levelInfo} currentStreak={currentStreak} reviewCount={navCount} onboardingCompleted={profile.onboardingCompleted} onStart={startTodayPrimary} onContinue={() => setActiveView('case')} />}
       {activeView === 'case' && (word ? <CaseRoom word={word} root={root} currentProgress={currentProgress} diagnosis={diagnosis} stage={stage} selected={selected} availableCards={availableCards} hint={hint} buildFeedback={buildFeedback} buildAttempts={buildAttempts} shuffledOptions={shuffledOptions} forgeChoice={forgeChoice} forgeFeedback={forgeFeedback} forgeAttempts={forgeAttempts} rewardSummary={rewardSummary} family={family} onSelectCard={selectCard} onSubmitBuild={submitBuild} onSelectForge={selectForgeOption} onSubmitForge={submitForge} onFinish={finishWord} onNextWord={nextWord} onReview={() => setActiveView('regression')} onChooseWord={(id) => chooseWord(id, getContinuationMode(caseRun))} sound={effectiveAudio} /> : <section className="page-section case-page"><div className="empty-state">{wordFailed ? <><span className="eyebrow">加载失败</span><h3>词条详情没加载出来</h3><p>分片没能取到，重新加载一次试试。</p><button className="primary-button" onClick={() => window.location.reload()}>重新加载</button></> : <><span className="eyebrow">装载中</span><h3>词条详情马上就到</h3><p>详情按需加载，只这一瞬。</p></>}</div></section>)}
       {activeView === 'regression' && <ReviewView profile={profile} onFinishRound={finishMatchReview} />}
-      {activeView === 'atlas' && <AtlasView profile={profile} progressByRoot={progressByRoot} onStudyWord={(id) => chooseWord(id)} />}
+      {activeView === 'atlas' && <AtlasView profile={profile} progressByRoot={progressByRoot} selectedRootId={atlasRootId} onSelectRoot={setAtlasRootId} onStudyWord={(id) => chooseWord(id)} />}
       {activeView === 'stats' && <StatsView stats={deriveStats(profile)} />}
       {activeView === 'achievements' && <AchievementsView profile={profile} unlockedCount={getUnlockedCount(profile)} />}
       {activeView === 'settings' && <SettingsView settings={settings} onToggleSound={(on) => updateSettings({ ...settings, soundEnabled: on })} onResetProgress={handleResetProgress} onExportProgress={handleExportProgress} onImportProgress={handleImportProgress} />}

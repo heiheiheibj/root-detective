@@ -41,6 +41,7 @@ function RootDetailView({ rootId, onBack, onStudyWord }: { rootId: string; onBac
         onChange={(event) => setFilter(event.target.value)}
         aria-label="筛选当前词根的单词"
       />
+      <p className="root-hint">没那么多时间玩拼词？直接点任意一行把这个词学掉——这是和拼词游戏并行的另一条线。</p>
       <div className="table-scroll">
         <table className="root-words">
           <thead>
@@ -50,7 +51,19 @@ function RootDetailView({ rootId, onBack, onStudyWord }: { rootId: string; onBac
             {visible.map((word) => {
               const { surfaces, meanings } = describeWordParts(word)
               return (
-                <tr key={word.id}>
+                <tr
+                  key={word.id}
+                  className="word-row"
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => onStudyWord(word.id)}
+                  onKeyDown={(event) => {
+                    if (event.key === 'Enter' || event.key === ' ') {
+                      event.preventDefault()
+                      onStudyWord(word.id)
+                    }
+                  }}
+                >
                   <td className="cell-word">
                     <strong>{word.word}</strong>
                     <small>{word.phonetic} · {word.partOfSpeech}</small>
@@ -58,7 +71,7 @@ function RootDetailView({ rootId, onBack, onStudyWord }: { rootId: string; onBac
                   <td className="cell-seg">{surfaces.map((surface, index) => <span className="seg-part" key={index}>{surface}</span>)}</td>
                   <td className="cell-mean">{meanings.map((meaning, index) => <span className="seg-mean" key={index}>{meaning}</span>)}</td>
                   <td className="cell-def">{word.modernMeaningCn}</td>
-                  <td className="cell-action"><button type="button" className="ghost-button" onClick={() => onStudyWord(word.id)}>学习 →</button></td>
+                  <td className="cell-action"><span className="result-study" aria-hidden="true">学习 →</span></td>
                 </tr>
               )
             })}
@@ -72,8 +85,13 @@ function RootDetailView({ rootId, onBack, onStudyWord }: { rootId: string; onBac
   )
 }
 
-export function AtlasView({ profile, progressByRoot, onStudyWord }: { profile: PlayerProfile; progressByRoot: ReadonlyMap<string, ReviewProgress>; onStudyWord?: (wordId: string) => void }) {
-  const [selectedRootId, setSelectedRootId] = useState<string | null>(null)
+export function AtlasView({ profile, progressByRoot, selectedRootId, onSelectRoot, onStudyWord }: {
+  profile: PlayerProfile
+  progressByRoot: ReadonlyMap<string, ReviewProgress>
+  selectedRootId: string | null
+  onSelectRoot: (rootId: string | null) => void
+  onStudyWord?: (wordId: string) => void
+}) {
   const [query, setQuery] = useState('')
 
   const levelInfo = getLevelInfo(profile.xp)
@@ -92,7 +110,7 @@ export function AtlasView({ profile, progressByRoot, onStudyWord }: { profile: P
   const study = (wordId: string) => onStudyWord?.(wordId)
 
   if (selectedRootId) {
-    return <RootDetailView rootId={selectedRootId} onBack={() => setSelectedRootId(null)} onStudyWord={(id) => study(id)} />
+    return <RootDetailView rootId={selectedRootId} onBack={() => onSelectRoot(null)} onStudyWord={(id) => study(id)} />
   }
 
   if (trimmed && searchResults.length > 0) {
@@ -108,7 +126,7 @@ export function AtlasView({ profile, progressByRoot, onStudyWord }: { profile: P
             const root = getMorpheme(rootId)
             return (
               <li key={word.id}>
-                <button type="button" className="search-result" onClick={() => setSelectedRootId(rootId)}>
+                <button type="button" className="search-result" onClick={() => onSelectRoot(rootId)}>
                   <span className="result-word"><strong>{word.word}</strong><small>{word.phonetic}</small></span>
                   <span className="result-def">{word.modernMeaningCn}</span>
                   <span className={`morpheme-chip ${root.color}`}>{root.displayText}</span>
@@ -125,7 +143,7 @@ export function AtlasView({ profile, progressByRoot, onStudyWord }: { profile: P
   return (
     <section className="page-section atlas-page">
       <div className="section-heading">
-        <div><h2>所有词根，一块一块解锁。</h2><p>词根按意思分组。点开任意一个，能看到它名下所有单词怎么拆、每段什么意思。</p></div>
+        <div><h2>所有词根，一块一块解锁。</h2><p>词根按意思分组。点开任意一个，能看到它名下所有单词怎么拆、每段什么意思；没空玩拼词就直接点单词学掉。</p></div>
         <div className="atlas-count"><strong>{mastered}</strong><span>个词根很熟了</span></div>
       </div>
       <input
@@ -167,11 +185,11 @@ export function AtlasView({ profile, progressByRoot, onStudyWord }: { profile: P
                       key={morphemeId}
                       role="button"
                       tabIndex={0}
-                      onClick={() => setSelectedRootId(morphemeId)}
+                      onClick={() => onSelectRoot(morphemeId)}
                       onKeyDown={(event) => {
                         if (event.key === 'Enter' || event.key === ' ') {
                           event.preventDefault()
-                          setSelectedRootId(morphemeId)
+                          onSelectRoot(morphemeId)
                         }
                       }}
                     >
