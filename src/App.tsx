@@ -8,7 +8,7 @@ import { deriveStats } from './domain/profileStats'
 import { loadSettings, saveSettings, type Settings } from './data/settings'
 import { applyCompletedCase, applyIncorrectAttempt, applyMatchReview, assimilationHint, createMetaphorDiagnosis, createSplitDiagnosis, getContinuationMode, getCurrentStreak, getLevelInfo, getLocalDayKey, getMistakeEventId, getReviewBoard, getReviewQueue, getRootId, getStabilityBand, isDuplicateSubmit, isSplitCorrect, pickNextWord, shuffledMetaphorOptions, shuffle } from './domain/logic'
 import HelpOverlay from './HelpOverlay'
-import { AtlasView } from './views/atlas'
+import { AtlasView, SearchView } from './views/atlas'
 import { loadProfile } from './domain/persistence'
 
 // 页面只认 repository 接口：把接口成员解构成本文件一直在用的那些名字，
@@ -72,6 +72,8 @@ function App() {
   const [activeView, setActiveView] = useState('today')
   // 词根地图里当前展开的词根详情；提升到这层，这样从详情页去学一个词再回来仍停在原词根（直接学习线保留上下文）。
   const [atlasRootId, setAtlasRootId] = useState<string | null>(null)
+  // 侧边栏全局搜索词；回车或点搜索才提交为结果页的检索词。
+  const [searchQuery, setSearchQuery] = useState('')
   const [wordId, setWordId] = useState('circumspect')
   const [stage, setStage] = useState<PuzzleStage>('build')
   const [selected, setSelected] = useState<string[]>([])
@@ -286,6 +288,17 @@ function App() {
     <aside className="sidebar">
       <div className="brand-lockup"><div className="brand-mark">R</div><div><strong>词根</strong><span>背单词</span></div></div>
       <div className="sidebar-kicker">按词根记单词</div>
+      <form className="sidebar-search" onSubmit={(event) => { event.preventDefault(); if (searchQuery.trim()) setActiveView('search') }}>
+        <input
+          type="search"
+          className="sidebar-search-input"
+          value={searchQuery}
+          onChange={(event) => setSearchQuery(event.target.value)}
+          placeholder="搜索全部单词…"
+          aria-label="搜索全部单词"
+        />
+        <button type="submit" className="sidebar-search-btn">搜索</button>
+      </form>
       <nav className="main-nav" aria-label="主导航">{navItems.map((item) => <button className={`nav-item ${activeView === item.id ? 'active' : ''}`} aria-current={activeView === item.id ? 'page' : undefined} key={item.id} onClick={() => setActiveView(item.id)}><span className="nav-icon" aria-hidden="true">{item.icon}</span><span>{item.label}</span>{item.id === 'regression' && <b className="nav-count">{navCount}</b>}</button>)}</nav>
       <button className="help-button" onClick={() => setHelpOpen(true)}>怎么玩？</button>
       <div className="sidebar-spacer" />
@@ -293,11 +306,12 @@ function App() {
       <div className="profile-button"><span className="avatar" aria-hidden="true">R</span><span><strong>我的进度</strong><small>等级 {levelInfo.level} · {levelInfo.title}</small></span></div>
     </aside>
     <main className="main-content">
-      <header className="topbar"><div><span className="eyebrow">{formatToday()}</span><h1>{navItems.find((item) => item.id === activeView)?.label ?? '今天'}</h1></div><div className="top-actions"><div className="points"><span className="points-dot" aria-hidden="true">✦</span><strong>{profile.insightPoints}</strong><span>洞察点</span></div></div></header>
+      <header className="topbar"><div><span className="eyebrow">{formatToday()}</span><h1>{activeView === 'search' ? '搜索' : navItems.find((item) => item.id === activeView)?.label ?? '今天'}</h1></div><div className="top-actions"><div className="points"><span className="points-dot" aria-hidden="true">✦</span><strong>{profile.insightPoints}</strong><span>洞察点</span></div></div></header>
       {activeView === 'today' && <TodayView profile={profile} levelInfo={levelInfo} currentStreak={currentStreak} reviewCount={navCount} onboardingCompleted={profile.onboardingCompleted} onStart={startTodayPrimary} onContinue={() => setActiveView('case')} />}
       {activeView === 'case' && (word ? <CaseRoom word={word} root={root} currentProgress={currentProgress} diagnosis={diagnosis} stage={stage} selected={selected} availableCards={availableCards} hint={hint} buildFeedback={buildFeedback} buildAttempts={buildAttempts} shuffledOptions={shuffledOptions} forgeChoice={forgeChoice} forgeFeedback={forgeFeedback} forgeAttempts={forgeAttempts} rewardSummary={rewardSummary} family={family} onSelectCard={selectCard} onSubmitBuild={submitBuild} onSelectForge={selectForgeOption} onSubmitForge={submitForge} onFinish={finishWord} onNextWord={nextWord} onReview={() => setActiveView('regression')} onChooseWord={(id) => chooseWord(id, getContinuationMode(caseRun))} sound={effectiveAudio} /> : <section className="page-section case-page"><div className="empty-state">{wordFailed ? <><span className="eyebrow">加载失败</span><h3>词条详情没加载出来</h3><p>分片没能取到，重新加载一次试试。</p><button className="primary-button" onClick={() => window.location.reload()}>重新加载</button></> : <><span className="eyebrow">装载中</span><h3>词条详情马上就到</h3><p>详情按需加载，只这一瞬。</p></>}</div></section>)}
       {activeView === 'regression' && <ReviewView profile={profile} onFinishRound={finishMatchReview} />}
       {activeView === 'atlas' && <AtlasView profile={profile} progressByRoot={progressByRoot} selectedRootId={atlasRootId} onSelectRoot={setAtlasRootId} onStudyWord={(id) => chooseWord(id)} />}
+      {activeView === 'search' && <SearchView query={searchQuery} onBack={() => setActiveView('atlas')} onOpenRoot={(id) => { setAtlasRootId(id); setActiveView('atlas') }} onStudyWord={(id) => chooseWord(id)} />}
       {activeView === 'stats' && <StatsView stats={deriveStats(profile)} />}
       {activeView === 'achievements' && <AchievementsView profile={profile} unlockedCount={getUnlockedCount(profile)} />}
       {activeView === 'settings' && <SettingsView settings={settings} onToggleSound={(on) => updateSettings({ ...settings, soundEnabled: on })} onResetProgress={handleResetProgress} onExportProgress={handleExportProgress} onImportProgress={handleImportProgress} />}

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import type { WordCore } from '../src/domain/types'
 import { getWordCore } from '../src/domain/data'
-import { describeWordParts } from '../src/views/atlas'
+import { describeWordParts, searchAllWords } from '../src/views/atlas'
 
 const mockWord: WordCore = {
   id: 'x',
@@ -28,5 +28,35 @@ describe('describeWordParts', () => {
     const result = describeWordParts(real)
     expect(result.surfaces.length).toBe(real.parts.length)
     expect(result.meanings.length).toBe(real.parts.length)
+  })
+})
+
+describe('searchAllWords（全局模糊搜索）', () => {
+  it('空查询返回空数组', () => {
+    expect(searchAllWords('   ')).toEqual([])
+    expect(searchAllWords('')).toEqual([])
+  })
+
+  it('按单词拼写子串命中', () => {
+    const hits = searchAllWords('vis').map((w) => w.word)
+    expect(hits).toContain('vision')
+    expect(hits).toContain('visible')
+  })
+
+  it('按中文释义命中', () => {
+    const hits = searchAllWords('检查').map((w) => w.word)
+    expect(hits).toContain('inspect')
+  })
+
+  it('支持漏字母的子序列模糊匹配', () => {
+    // 输入 vsion（漏了 i）仍能命中 vision
+    const hits = searchAllWords('vsion').map((w) => w.word)
+    expect(hits).toContain('vision')
+  })
+
+  it('不区分大小写', () => {
+    const lower = searchAllWords('VIS').map((w) => w.word)
+    const upper = searchAllWords('vis').map((w) => w.word)
+    expect(lower.sort()).toEqual(upper.sort())
   })
 })

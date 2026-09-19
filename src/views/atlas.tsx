@@ -13,6 +13,25 @@ export function describeWordParts(word: WordCore, resolve: (id: string) => { mea
   }
 }
 
+/** 子序列模糊匹配：needle 的字符是否按序出现在 haystack 中（容忍漏字母、顺序对即可）。 */
+function isSubsequence(needle: string, haystack: string): boolean {
+  let i = 0
+  for (let j = 0; j < haystack.length && i < needle.length; j++) {
+    if (needle[i] === haystack[j]) i++
+  }
+  return i === needle.length
+}
+
+/** 跨全词库搜索：单词拼写（含子序列模糊）/ 中文释义 命中即返回，最多 limit 条。 */
+export function searchAllWords(query: string, limit = 80) {
+  const q = query.trim().toLowerCase()
+  if (!q) return []
+  const raw = query.trim()
+  return words
+    .filter((word) => word.word.toLowerCase().includes(q) || word.modernMeaningCn.includes(raw) || isSubsequence(q, word.word.toLowerCase()))
+    .slice(0, limit)
+}
+
 function RootDetailView({ rootId, onBack, onStudyWord }: { rootId: string; onBack: () => void; onStudyWord: (wordId: string) => void }) {
   const root = getMorpheme(rootId)
   const wordCores = wordsByRoot.get(rootId) ?? []
@@ -113,12 +132,7 @@ export function AtlasView({ profile, progressByRoot, selectedRootId, onSelectRoo
   const overdue = profile.progress.filter((item) => item.state === 'learning' || (item.dueAt !== null && new Date(item.dueAt).getTime() <= Date.now())).length
 
   const trimmed = committedQuery.trim()
-  const searchResults = useMemo(() => {
-    if (!trimmed) return []
-    return words
-      .filter((word) => word.word.toLowerCase().includes(trimmed.toLowerCase()) || word.modernMeaningCn.includes(trimmed))
-      .slice(0, 50)
-  }, [trimmed])
+  const searchResults = useMemo(() => searchAllWords(committedQuery, 50), [committedQuery])
 
   const study = (wordId: string) => onStudyWord?.(wordId)
 
@@ -225,6 +239,47 @@ export function AtlasView({ profile, progressByRoot, selectedRootId, onSelectRoo
           )
         })}
       </div>
+    </section>
+  )
+}
+
+export function SearchView({ query, onBack, onOpenRoot, onStudyWord }: {
+  query: string
+  onBack: () => void
+  onOpenRoot: (rootId: string) => void
+  onStudyWord: (wordId: string) => void
+}) {
+  const trimmed = query.trim()
+  const results = searchAllWords(query)
+  return (
+    <section className="page-section atlas-page">
+      <button type="button" className="back-link" onClick={onBack}>← 返回</button>
+      <div className="section-heading">
+        <div>
+          <h2>搜索「{trimmed}」</h2>
+          <p>命中 {results.length} 个单词。点卡片看它属于哪个词根的全部单词；「学习 →」直接开练。</p>
+        </div>
+      </div>
+      {results.length > 0 ? (
+        <ul className="search-results">
+          {results.map((word) => {
+            const rootId = getRootId(word, getMorpheme)
+            const root = getMorpheme(rootId)
+            return (
+              <li key={word.id}>
+                <button type="button" className="search-result" onClick={() => onOpenRoot(rootId)}>
+                  <span className="result-word"><strong>{word.word}</strong><small>{word.phonetic}</small></span>
+                  <span className="result-def">{word.modernMeaningCn}</span>
+                  <span className={`morpheme-chip ${root.color}`}>{root.displayText}</span>
+                  <span className="result-study" onClick={(event) => { event.stopPropagation(); onStudyWord(word.id) }}>学习 →</span>
+                </button>
+              </li>
+            )
+          })}
+        </ul>
+      ) : (
+        <p className="empty-row">没有匹配「{trimmed}」的单词。</p>
+      )}
     </section>
   )
 }
