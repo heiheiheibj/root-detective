@@ -51,7 +51,7 @@ function highlight(text: string, query: string): ReactNode {
 }
 
 /** 词根单词表：单词 / 如何拆分 / 单词意思 / 学习。词根详情页与搜索结果共用，保证两处完全一致。 */
-function RootWordsTable({ words, onStudyWord, query = '', sound, completedWordIds, highlightWordId }: {
+export function RootWordsTable({ words, onStudyWord, query = '', sound, completedWordIds, highlightWordId }: {
   words: readonly WordCore[]
   onStudyWord: (wordId: string) => void
   query?: string

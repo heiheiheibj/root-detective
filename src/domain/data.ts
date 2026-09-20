@@ -44,6 +44,7 @@ export function createInitialProfile(): PlayerProfile {
     insightPoints: 0,
     progress: createInitialProgress(),
     completedWordIds: [],
+    mistakeWordIds: [],
     activityDays: [],
     onboardingCompleted: false,
     helpSeen: false,

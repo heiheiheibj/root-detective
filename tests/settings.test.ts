@@ -23,12 +23,16 @@ describe('settings', () => {
   })
 
   it('save 之后 load 能还原同一份设置', () => {
-    const next: Settings = { soundEnabled: false }
+    const next: Settings = { soundEnabled: false, cloudSyncEnabled: false }
     saveSettings(next)
     expect(loadSettings()).toEqual(next)
     // 旧 key 之外的字段会被默认值补齐，不会因为漏字段而崩溃。
     mem.set('rd:settings', JSON.stringify({ soundEnabled: false }))
-    expect(loadSettings()).toEqual({ soundEnabled: false })
+    expect(loadSettings()).toEqual({ soundEnabled: false, cloudSyncEnabled: false })
+  })
+
+  it('默认设置包含云同步开关，且为关闭', () => {
+    expect(DEFAULT_SETTINGS).toEqual({ soundEnabled: true, cloudSyncEnabled: false })
   })
 
   it('存档损坏时不抛错，退回默认', () => {

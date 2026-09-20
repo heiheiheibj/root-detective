@@ -19,6 +19,7 @@ export interface ProfileStats {
   masteredRoots: number
   migrationRatePercent: number
   reviewQueueCount: number
+  weakCount: number
   worldsTotal: number
   worldsUnlocked: number
   insightPoints: number
@@ -42,6 +43,7 @@ export function deriveStats(profile: PlayerProfile): ProfileStats {
     masteredRoots: getMasteredRootCount(profile.progress),
     migrationRatePercent: Math.round(migrationRate(profile.progress) * 100),
     reviewQueueCount: getReviewQueue(profile.progress).length,
+    weakCount: profile.mistakeWordIds.length,
     worldsTotal: worlds.length,
     worldsUnlocked: worlds.filter((world) => getWorldUnlockStatus(world, profile).unlocked).length,
     insightPoints: profile.insightPoints,

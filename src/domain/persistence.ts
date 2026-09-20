@@ -69,6 +69,9 @@ export function normalizeProfile(candidate: unknown): PlayerProfile {
     completedWordIds: Array.isArray(candidate.completedWordIds)
       ? [...new Set(candidate.completedWordIds.filter((id): id is string => typeof id === 'string' && wordIds.has(id)))]
       : [],
+    mistakeWordIds: Array.isArray(candidate.mistakeWordIds)
+      ? [...new Set(candidate.mistakeWordIds.filter((id): id is string => typeof id === 'string' && wordIds.has(id)))]
+      : [],
     activityDays: Array.isArray(candidate.activityDays)
       ? [...new Set(candidate.activityDays.filter((day): day is string => isDayKey(day)))]
       : [],

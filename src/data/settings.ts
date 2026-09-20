@@ -4,9 +4,11 @@
  */
 export interface Settings {
   soundEnabled: boolean
+  /** 云同步（Supabase）：开启后进度会在本地保存的同时推送到远端；需配置 VITE_SUPABASE_* 环境变量才真正生效。 */
+  cloudSyncEnabled: boolean
 }
 
-export const DEFAULT_SETTINGS: Settings = { soundEnabled: true }
+export const DEFAULT_SETTINGS: Settings = { soundEnabled: true, cloudSyncEnabled: false }
 
 const STORAGE_KEY = 'rd:settings'
 

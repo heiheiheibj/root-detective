@@ -24,6 +24,7 @@ const activeProfile: PlayerProfile = {
     { morphemeId: 'port', state: 'learning', stability: 10, dueAt: null, testedWordIds: ['port'], migrationCorrect: 0, migrationAttempts: 0, streak: 0 },
   ],
   completedWordIds: ['inspect', 'respect', 'dictate', 'port'],
+  mistakeWordIds: ['port'],
   activityDays: dayKeysEndingToday(7),
   onboardingCompleted: true,
   helpSeen: true,
@@ -50,7 +51,7 @@ describe('computeAchievements', () => {
   })
 
   it('零基础档案里与学习数据绑定的成就全部锁定', () => {
-    const empty: PlayerProfile = { version: 1, xp: 0, insightPoints: 0, progress: [], completedWordIds: [], activityDays: [], onboardingCompleted: false, helpSeen: false }
+    const empty: PlayerProfile = { version: 1, xp: 0, insightPoints: 0, progress: [], completedWordIds: [], mistakeWordIds: [], activityDays: [], onboardingCompleted: false, helpSeen: false }
     for (const id of ['first-word', 'words-10', 'root-1', 'streak-7', 'transfer-80']) {
       expect(statusOf(empty, id).unlocked, id).toBe(false)
     }

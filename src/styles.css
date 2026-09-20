@@ -570,3 +570,55 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .summary-cta .eyebrow { color: var(--orange); }
 .summary-cta strong { display: block; font-size: 16px; margin: 2px 0; }
 .summary-cta p { margin: 0; color: var(--muted); font-size: 13px; }
+
+/* 底部导航：桌面端隐藏，移动端固定显示（替代顶部横排导航） */
+.bottom-nav { display: none; }
+@media (max-width: 720px) {
+  .main-nav { display: none; }
+  .main-content { padding-bottom: 76px; }
+  .bottom-nav {
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 60px;
+    z-index: 40;
+    background: #ffffff;
+    border-top: 1px solid var(--line);
+    box-shadow: 0 -4px 16px rgb(23 32 51 / 10%);
+  }
+  .bottom-nav-item {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    border: 0;
+    background: transparent;
+    color: var(--muted);
+    font-size: 11px;
+    cursor: pointer;
+    position: relative;
+  }
+  .bottom-nav-item.active { color: #08437f; font-weight: 700; }
+  .bottom-nav-item .nav-icon { font-size: 19px; line-height: 1; }
+  .bottom-nav-count {
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    margin-left: 8px;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    border-radius: 9px;
+    background: #d7ebff;
+    color: #08437f;
+    font: 700 11px/18px ui-monospace, Consolas, monospace;
+    text-align: center;
+  }
+}
+
+/* 错词本页：复用通用页面与词根表样式，这里只补标题区留白 */
+.weak-page .empty-state { margin-top: 22px; }

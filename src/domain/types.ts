@@ -85,6 +85,8 @@ export interface PlayerProfile {
   insightPoints: number
   progress: ReviewProgress[]
   completedWordIds: string[]
+  /** 答错过的单词 id（去重）。用于「错词本 / 待巩固」入口，学对一次即移出。 */
+  mistakeWordIds: string[]
   activityDays: string[]
   onboardingCompleted: boolean
   /** 新手帮助是否已经看过一遍；看过的就不再自动弹。 */

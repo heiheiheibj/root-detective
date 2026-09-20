@@ -8,7 +8,8 @@ import { deriveStats } from './domain/profileStats'
 import { loadSettings, saveSettings, type Settings } from './data/settings'
 import { applyCompletedCase, applyIncorrectAttempt, applyMatchReview, assimilationHint, createMetaphorDiagnosis, createSplitDiagnosis, getContinuationMode, getCurrentStreak, getLevelInfo, getLocalDayKey, getMistakeEventId, getReviewBoard, getReviewQueue, getRootId, getStabilityBand, isDuplicateSubmit, isSplitCorrect, pickNextWord, shuffledMetaphorOptions, shuffle } from './domain/logic'
 import HelpOverlay from './HelpOverlay'
-import { AtlasView, SearchView } from './views/atlas'
+import { AtlasView, SearchView, RootWordsTable } from './views/atlas'
+import { isCloudConfigured, pushProfile } from './data/cloud'
 import { loadProfile } from './domain/persistence'
 
 // 页面只认 repository 接口：把接口成员解构成本文件一直在用的那些名字，
@@ -23,6 +24,7 @@ const navItems = [
   { id: 'today', label: '今天', icon: '⌁' },
   { id: 'case', label: '拼单词', icon: '▣' },
   { id: 'regression', label: '复习', icon: '↻' },
+  { id: 'weak', label: '错词', icon: '✕' },
   { id: 'atlas', label: '词根地图', icon: '◈' },
   { id: 'stats', label: '统计', icon: '◳' },
   { id: 'achievements', label: '成就', icon: '★' },
@@ -69,11 +71,14 @@ function App() {
   const effectiveAudio = settings.soundEnabled
     ? audioRepository
     : { canSpeak: () => false, speak: () => false }
+  const cloudConfigured = isCloudConfigured()
   const [activeView, setActiveView] = useState('today')
   // 词根地图里当前展开的词根详情；提升到这层，这样从详情页去学一个词再回来仍停在原词根（直接学习线保留上下文）。
   const [atlasRootId, setAtlasRootId] = useState<string | null>(null)
   // 刚从词根表直接学完的那个词；学完回到词根表时让它高亮并滚动到视口。
   const [lastStudiedWordId, setLastStudiedWordId] = useState<string | null>(null)
+  // 听写模式：拼词时遮住单词拼写，只放发音，逼用户回忆怎么拼。
+  const [maskWord, setMaskWord] = useState(false)
   // 侧边栏全局搜索词；回车或点搜索才提交为结果页的检索词。
   const [searchQuery, setSearchQuery] = useState('')
   const [wordId, setWordId] = useState('circumspect')
@@ -97,7 +102,10 @@ function App() {
   const latestProfile = useRef(profile)
   latestProfile.current = profile
   function writeProfile() {
-    progressRepository.save(latestProfile.current)
+    const snapshot = latestProfile.current
+    progressRepository.save(snapshot)
+    // 云同步开启且已配置 Supabase 时，本地落盘后顺手推一份到远端；失败静默降级。
+    if (settings.cloudSyncEnabled && isCloudConfigured()) void pushProfile(snapshot)
   }
   useEffect(() => {
     const timer = window.setTimeout(writeProfile, 500)
@@ -128,10 +136,11 @@ function App() {
     if (word) setShuffledOptions(shuffledMetaphorOptions(word))
   }, [word])
 
-  function chooseWord(nextWordId: string, mode: CaseMode = 'compiler', originMode?: CaseMode) {
+  function chooseWord(nextWordId: string, mode: CaseMode = 'compiler', originMode?: CaseMode, masked = false) {
     const stableMode = mode === 'debugger' ? originMode === 'regression' ? 'regression' : 'compiler' : mode
     setWordId(nextWordId)
     setCaseRun(makeCaseRun(nextWordId, mode, profile, stableMode))
+    setMaskWord(masked)
     setDiagnosis(null)
     setStage('build')
     setSelected([])
@@ -146,6 +155,13 @@ function App() {
 
   function startFirstWord() {
     chooseWord('circumspect')
+  }
+
+  /** 听写练习：从已学过的词里随机抽一个（没学过就随便抽），遮住拼写只放发音，逼用户回忆怎么拼。 */
+  function startDictation() {
+    const pool = profile.completedWordIds.length > 0 ? profile.completedWordIds : words.map((item) => item.id)
+    const pick = pool[Math.floor(Math.random() * pool.length)]
+    chooseWord(pick, 'compiler', undefined, true)
   }
 
   /** 清空进度：保留发音等设置，只丢学习数据。危险操作，确认在 SettingsView 里完成。 */
@@ -180,6 +196,24 @@ function App() {
       }
     }
     reader.readAsText(file)
+  }
+
+  /** 切换云同步开关（真正联网推送仍要求已配置 Supabase）。 */
+  function handleToggleCloud(on: boolean) {
+    updateSettings({ ...settings, cloudSyncEnabled: on })
+  }
+
+  /** 手动把当前进度推到云端（设置里「立即同步」用）。 */
+  function handleSyncNow() {
+    if (!cloudConfigured) {
+      setToast('未配置 Supabase，无法同步')
+      window.setTimeout(() => setToast(''), 2800)
+      return
+    }
+    void pushProfile(profile).then((ok) => {
+      setToast(ok ? '已同步到云端' : '同步失败，稍后重试')
+      window.setTimeout(() => setToast(''), 2800)
+    })
   }
 
   function closeHelp() {
@@ -280,7 +314,7 @@ function App() {
 
   function nextWord() {
     if (!word) return
-    chooseWord(pickSiblingWordId(root.id, currentProgress.testedWordIds, word.id), getContinuationMode(caseRun))
+    chooseWord(pickSiblingWordId(root.id, currentProgress.testedWordIds, word.id), getContinuationMode(caseRun), undefined, maskWord)
   }
 
   /** 配对复习结算：熟练度、经验和活动日一次性写回档案。 */
@@ -294,6 +328,8 @@ function App() {
   }
 
   const navCount = reviewQueue.length
+  const weakCount = profile.mistakeWordIds.length
+  const navBadge = (id: string) => (id === 'regression' ? navCount : id === 'weak' ? weakCount : 0)
   return <div className="app-shell">
     <aside className="sidebar">
       <div className="brand-lockup"><div className="brand-mark">R</div><div><strong>词根</strong><span>背单词</span></div></div>
@@ -309,7 +345,7 @@ function App() {
         />
         <button type="submit" className="sidebar-search-btn">搜索</button>
       </form>
-      <nav className="main-nav" aria-label="主导航">{navItems.map((item) => <button className={`nav-item ${activeView === item.id ? 'active' : ''}`} aria-current={activeView === item.id ? 'page' : undefined} key={item.id} onClick={() => setActiveView(item.id)}><span className="nav-icon" aria-hidden="true">{item.icon}</span><span>{item.label}</span>{item.id === 'regression' && <b className="nav-count">{navCount}</b>}</button>)}</nav>
+      <nav className="main-nav" aria-label="主导航">{navItems.map((item) => <button className={`nav-item ${activeView === item.id ? 'active' : ''}`} aria-current={activeView === item.id ? 'page' : undefined} key={item.id} onClick={() => setActiveView(item.id)}><span className="nav-icon" aria-hidden="true">{item.icon}</span><span>{item.label}</span>{navBadge(item.id) > 0 && <b className="nav-count">{navBadge(item.id)}</b>}</button>)}</nav>
       <button className="help-button" onClick={() => setHelpOpen(true)}>怎么玩？</button>
       <div className="sidebar-spacer" />
       <div className="streak-card"><div className="streak-top"><span className="eyebrow">连续学习</span><span className="streak-flame" aria-hidden="true">✦</span></div><strong>{currentStreak} <small>天</small></strong><div className="streak-track" role="progressbar" aria-label="连续学习天数" aria-valuemin={0} aria-valuemax={7} aria-valuenow={Math.min(7, currentStreak)}><span style={{ width: `${Math.min(100, currentStreak / 7 * 100)}%` }} /></div><p>{currentStreak >= 7 ? '连着一周了，别断。' : '今天学一个，连续天数就不会断。'}</p></div>
@@ -317,17 +353,27 @@ function App() {
     </aside>
     <main className="main-content">
       <header className="topbar"><div><span className="eyebrow">{formatToday()}</span><h1>{activeView === 'search' ? '搜索' : navItems.find((item) => item.id === activeView)?.label ?? '今天'}</h1></div><div className="top-actions"><div className="points"><span className="points-dot" aria-hidden="true">✦</span><strong>{profile.insightPoints}</strong><span>洞察点</span></div></div></header>
-      {activeView === 'today' && <TodayView profile={profile} levelInfo={levelInfo} currentStreak={currentStreak} reviewCount={navCount} onboardingCompleted={profile.onboardingCompleted} onStart={startTodayPrimary} onContinue={() => setActiveView('case')} onReview={() => setActiveView('regression')} />}
-      {activeView === 'case' && (word ? <CaseRoom word={word} root={root} currentProgress={currentProgress} diagnosis={diagnosis} stage={stage} selected={selected} availableCards={availableCards} hint={hint} buildFeedback={buildFeedback} buildAttempts={buildAttempts} shuffledOptions={shuffledOptions} forgeChoice={forgeChoice} forgeFeedback={forgeFeedback} forgeAttempts={forgeAttempts} rewardSummary={rewardSummary} family={family} onSelectCard={selectCard} onSubmitBuild={submitBuild} onSelectForge={selectForgeOption} onSubmitForge={submitForge} onFinish={finishWord} onNextWord={nextWord} onReview={() => setActiveView('regression')} onChooseWord={(id) => chooseWord(id, getContinuationMode(caseRun))} sound={effectiveAudio} onBackToAtlas={backToAtlas} /> : <section className="page-section case-page"><div className="empty-state">{wordFailed ? <><span className="eyebrow">加载失败</span><h3>词条详情没加载出来</h3><p>分片没能取到，重新加载一次试试。</p><button className="primary-button" onClick={() => window.location.reload()}>重新加载</button></> : <><span className="eyebrow">装载中</span><h3>词条详情马上就到</h3><p>详情按需加载，只这一瞬。</p></>}</div></section>)}
+      {activeView === 'today' && <TodayView profile={profile} levelInfo={levelInfo} currentStreak={currentStreak} reviewCount={navCount} onboardingCompleted={profile.onboardingCompleted} onStart={startTodayPrimary} onContinue={() => setActiveView('case')} onReview={() => setActiveView('regression')} onDictation={startDictation} />}
+      {activeView === 'case' && (word ? <CaseRoom word={word} root={root} currentProgress={currentProgress} diagnosis={diagnosis} stage={stage} selected={selected} availableCards={availableCards} hint={hint} buildFeedback={buildFeedback} buildAttempts={buildAttempts} shuffledOptions={shuffledOptions} forgeChoice={forgeChoice} forgeFeedback={forgeFeedback} forgeAttempts={forgeAttempts} rewardSummary={rewardSummary} family={family} onSelectCard={selectCard} onSubmitBuild={submitBuild} onSelectForge={selectForgeOption} onSubmitForge={submitForge} onFinish={finishWord} onNextWord={nextWord} onReview={() => setActiveView('regression')} onChooseWord={(id) => chooseWord(id, getContinuationMode(caseRun))} maskWord={maskWord} sound={effectiveAudio} onBackToAtlas={backToAtlas} /> : <section className="page-section case-page"><div className="empty-state">{wordFailed ? <><span className="eyebrow">加载失败</span><h3>词条详情没加载出来</h3><p>分片没能取到，重新加载一次试试。</p><button className="primary-button" onClick={() => window.location.reload()}>重新加载</button></> : <><span className="eyebrow">装载中</span><h3>词条详情马上就到</h3><p>详情按需加载，只这一瞬。</p></>}</div></section>)}
       {activeView === 'regression' && <ReviewView profile={profile} onFinishRound={finishMatchReview} />}
       {activeView === 'atlas' && <AtlasView profile={profile} progressByRoot={progressByRoot} selectedRootId={atlasRootId} onSelectRoot={setAtlasRootId} onStudyWord={(id) => chooseWord(id)} sound={effectiveAudio} completedWordIds={completedSet} highlightWordId={lastStudiedWordId} />}
+      {activeView === 'weak' && <WeakView profile={profile} onStudyWord={(id) => chooseWord(id)} sound={effectiveAudio} completedWordIds={completedSet} />}
       {activeView === 'search' && <SearchView query={searchQuery} onBack={() => setActiveView('atlas')} onOpenRoot={(id) => { setAtlasRootId(id); setActiveView('atlas') }} onStudyWord={(id) => chooseWord(id)} sound={effectiveAudio} completedWordIds={completedSet} />}
       {activeView === 'stats' && <StatsView stats={deriveStats(profile)} />}
       {activeView === 'achievements' && <AchievementsView profile={profile} unlockedCount={getUnlockedCount(profile)} />}
-      {activeView === 'settings' && <SettingsView settings={settings} onToggleSound={(on) => updateSettings({ ...settings, soundEnabled: on })} onResetProgress={handleResetProgress} onExportProgress={handleExportProgress} onImportProgress={handleImportProgress} />}
+      {activeView === 'settings' && <SettingsView settings={settings} onToggleSound={(on) => updateSettings({ ...settings, soundEnabled: on })} onResetProgress={handleResetProgress} onExportProgress={handleExportProgress} onImportProgress={handleImportProgress} onToggleCloud={handleToggleCloud} onSyncNow={handleSyncNow} cloudConfigured={cloudConfigured} />}
       {toast && <div className="toast" role="status" aria-live="polite">{toast}</div>}
       {helpOpen && <HelpOverlay onClose={closeHelp} onFinish={startFromHelp} />}
     </main>
+    <nav className="bottom-nav" aria-label="底部导航">
+      {navItems.map((item) => (
+        <button key={item.id} className={`bottom-nav-item ${activeView === item.id ? 'active' : ''}`} aria-current={activeView === item.id ? 'page' : undefined} onClick={() => setActiveView(item.id)}>
+          <span className="nav-icon" aria-hidden="true">{item.icon}</span>
+          <span className="bottom-nav-label">{item.label}</span>
+          {navBadge(item.id) > 0 && <b className="bottom-nav-count">{navBadge(item.id)}</b>}
+        </button>
+      ))}
+    </nav>
   </div>
 }
 
@@ -355,6 +401,7 @@ function StatsView({ stats }: { stats: ReturnType<typeof deriveStats> }) {
         <StatCard label="熟词根" value={`${stats.masteredRoots}`} sub={`触及 ${stats.rootsTouched} 个`} />
         <StatCard label="迁移正确率" value={`${stats.migrationRatePercent}%`} sub="举一反三" />
         <StatCard label="待复习" value={`${stats.reviewQueueCount}`} sub="个词根" />
+        <StatCard label="待巩固" value={`${stats.weakCount}`} sub="个错词" />
         <StatCard label="世界" value={`${stats.worldsUnlocked}/${stats.worldsTotal}`} sub="已解锁" />
         <StatCard label="洞察点" value={`${stats.insightPoints}`} sub="累计" />
       </div>
@@ -391,7 +438,21 @@ function AchievementsView({ profile, unlockedCount }: { profile: PlayerProfile; 
   )
 }
 
-function SettingsView({ settings, onToggleSound, onResetProgress, onExportProgress, onImportProgress }: { settings: Settings; onToggleSound: (on: boolean) => void; onResetProgress: () => void; onExportProgress: () => void; onImportProgress: (file: File) => void }) {
+function WeakView({ profile, onStudyWord, sound, completedWordIds }: { profile: PlayerProfile; onStudyWord: (id: string) => void; sound?: { canSpeak(): boolean; speak(text: string, lang?: string): boolean }; completedWordIds?: ReadonlySet<string> }) {
+  const weakWords = profile.mistakeWordIds
+    .map((id) => getWordCore(id))
+    .filter((entry): entry is WordCore => Boolean(entry))
+  return (
+    <section className="page-section weak-page">
+      <div className="section-heading"><div><h2>错词本</h2><p>这些词你答错过。点任意一行回去再练一次，学对就自动移出。</p></div><div className="atlas-count"><strong>{weakWords.length}</strong><span>个待巩固</span></div></div>
+      {weakWords.length === 0
+        ? <div className="empty-state"><span className="eyebrow">干净了</span><h3>暂时没有需要巩固的词</h3><p>答错的词会出现在这里，直到你学对一次。</p></div>
+        : <RootWordsTable words={weakWords} onStudyWord={onStudyWord} sound={sound} completedWordIds={completedWordIds} />}
+    </section>
+  )
+}
+
+function SettingsView({ settings, onToggleSound, onResetProgress, onExportProgress, onImportProgress, onToggleCloud, onSyncNow, cloudConfigured }: { settings: Settings; onToggleSound: (on: boolean) => void; onResetProgress: () => void; onExportProgress: () => void; onImportProgress: (file: File) => void; onToggleCloud: (on: boolean) => void; onSyncNow: () => void; cloudConfigured: boolean }) {
   const [confirming, setConfirming] = useState(false)
   const fileInputRef = useRef<HTMLInputElement>(null)
   return (
@@ -401,6 +462,13 @@ function SettingsView({ settings, onToggleSound, onResetProgress, onExportProgre
         <div className="settings-row">
           <div><strong>发音</strong><p>答题时点击喇叭用浏览器朗读单词和例句。</p></div>
           <button type="button" className={`toggle ${settings.soundEnabled ? 'on' : ''}`} onClick={() => onToggleSound(!settings.soundEnabled)} aria-pressed={settings.soundEnabled}>{settings.soundEnabled ? '开' : '关'}</button>
+        </div>
+        <div className="settings-row">
+          <div><strong>云同步（Supabase）</strong><p>{cloudConfigured ? '已检测到 Supabase 配置，开启后进度会同步到云端，换设备也能接着学。' : '需在项目 .env 里配置 VITE_SUPABASE_URL 与 VITE_SUPABASE_ANON_KEY 才能启用。'}</p></div>
+          <div className="row-actions">
+            {cloudConfigured && <button type="button" className="secondary-button" onClick={onSyncNow}>立即同步</button>}
+            <button type="button" className={`toggle ${settings.cloudSyncEnabled ? 'on' : ''}`} onClick={() => onToggleCloud(!settings.cloudSyncEnabled)} aria-pressed={settings.cloudSyncEnabled} disabled={!cloudConfigured} title={cloudConfigured ? '' : '未配置 Supabase'}>{settings.cloudSyncEnabled ? '开' : '关'}</button>
+          </div>
         </div>
         <div className="settings-row">
           <div><strong>备份进度</strong><p>把学习档案导出成 JSON 文件；换新设备或清缓存前先备份。Supabase 同步接入前这是唯一的保全手段。</p></div>
@@ -485,9 +553,9 @@ function getAvailableCards(word: Word) {
   return [...expected.map((morpheme) => ({ morpheme, kind: 'correct' as const })), ...distractors.map((morpheme) => ({ morpheme, kind: 'distractor' as const }))]
 }
 
-function TodayView({ profile, levelInfo, currentStreak, reviewCount, onboardingCompleted, onStart, onContinue, onReview }: { profile: PlayerProfile; levelInfo: ReturnType<typeof getLevelInfo>; currentStreak: number; reviewCount: number; onboardingCompleted: boolean; onStart: () => void; onContinue: () => void; onReview?: () => void }) {
+function TodayView({ profile, levelInfo, currentStreak, reviewCount, onboardingCompleted, onStart, onContinue, onReview, onDictation }: { profile: PlayerProfile; levelInfo: ReturnType<typeof getLevelInfo>; currentStreak: number; reviewCount: number; onboardingCompleted: boolean; onStart: () => void; onContinue: () => void; onReview?: () => void; onDictation?: () => void }) {
   const actionLabel = !onboardingCompleted ? '开始学第一个词' : reviewCount > 0 ? '先复习' : '接着学'
-  return <section className="page-section today-page"><section className="hero-band"><div><h2>先拆词。再猜意思。<em>最后看对不对。</em></h2><p>每个英语单词都能拆成前缀、词根、后缀。拼一遍，就知道它为什么是这个意思。</p></div><div className="case-stamp"><span>已学</span><strong>{String(profile.completedWordIds.length).padStart(4, '0')}<br />个词</strong><small>别怕忘</small></div></section>{!onboardingCompleted && <div className="onboarding-card"><div><span className="eyebrow">第一次来？</span><h3>三步学会一个词</h3><p>不用背答案。先拼出单词，再猜它的意思，最后对答案。</p></div><div className="briefing-steps"><span><b>01</b>拼单词</span><span><b>02</b>猜词义</span><span><b>03</b>看结果</span></div></div>}<div className="today-grid"><button className="primary-button hero-cta" onClick={onStart}>{actionLabel}<span>→</span></button><button className="secondary-button" onClick={onContinue}>去拼单词</button></div><div className="profile-summary"><div><span className="eyebrow">我的进度</span><strong>等级 {levelInfo.level} · {levelInfo.title}</strong><p>{profile.xp} 经验 · 连续学习 {currentStreak} 天</p></div>{reviewCount > 0 ? <button type="button" className="summary-cta" onClick={onReview}><span className="eyebrow">该复习了</span><strong>{reviewCount} 个词根到时间了</strong><p>点这里去复习 · 复习的是词根，不用重背整个单词。</p></button> : <div><span className="eyebrow">该复习了</span><strong>暂时没有</strong><p>学过的词根都还熟着。</p></div>}</div></section>
+  return <section className="page-section today-page"><section className="hero-band"><div><h2>先拆词。再猜意思。<em>最后看对不对。</em></h2><p>每个英语单词都能拆成前缀、词根、后缀。拼一遍，就知道它为什么是这个意思。</p></div><div className="case-stamp"><span>已学</span><strong>{String(profile.completedWordIds.length).padStart(4, '0')}<br />个词</strong><small>别怕忘</small></div></section>{!onboardingCompleted && <div className="onboarding-card"><div><span className="eyebrow">第一次来？</span><h3>三步学会一个词</h3><p>不用背答案。先拼出单词，再猜它的意思，最后对答案。</p></div><div className="briefing-steps"><span><b>01</b>拼单词</span><span><b>02</b>猜词义</span><span><b>03</b>看结果</span></div></div>}<div className="today-grid"><button className="primary-button hero-cta" onClick={onStart}>{actionLabel}<span>→</span></button><button className="secondary-button" onClick={onContinue}>去拼单词</button>{onDictation && <button className="secondary-button" onClick={onDictation}>听写练习 <span>🔊</span></button>}</div><div className="profile-summary"><div><span className="eyebrow">我的进度</span><strong>等级 {levelInfo.level} · {levelInfo.title}</strong><p>{profile.xp} 经验 · 连续学习 {currentStreak} 天</p></div>{reviewCount > 0 ? <button type="button" className="summary-cta" onClick={onReview}><span className="eyebrow">该复习了</span><strong>{reviewCount} 个词根到时间了</strong><p>点这里去复习 · 复习的是词根，不用重背整个单词。</p></button> : <div><span className="eyebrow">该复习了</span><strong>暂时没有</strong><p>学过的词根都还熟着。</p></div>}</div></section>
 }
 
 function StepBar({ stage }: { stage: PuzzleStage }) {
@@ -504,14 +572,24 @@ function LiteralEquation({ word }: { word: Word }) {
   return <div className="literal-equation">{word.parts.map((part) => <span key={part.position}><b>{getMorpheme(part.morphemeId).meaningCn}</b>{part.position < word.parts.length - 1 && <i>+</i>}</span>)}<i>=</i><strong>{word.literalMeaningCn}</strong></div>
 }
 
-function CaseRoom({ word, root, currentProgress, diagnosis, stage, selected, availableCards, hint, buildFeedback, buildAttempts, shuffledOptions, forgeChoice, forgeFeedback, forgeAttempts, rewardSummary, family, onSelectCard, onSubmitBuild, onSelectForge, onSubmitForge, onFinish, onNextWord, onReview, onChooseWord, sound, onBackToAtlas }: { word: Word; root: ReturnType<typeof getMorpheme>; currentProgress: ReviewProgress; diagnosis: DebugDiagnosis | null; stage: PuzzleStage; selected: string[]; availableCards: ReturnType<typeof getAvailableCards>; hint: string | null; buildFeedback: string; buildAttempts: number; shuffledOptions: Array<{ text: string; correct: boolean }>; forgeChoice: number | null; forgeFeedback: string; forgeAttempts: number; rewardSummary: RewardSummary | null; family: WordCore[]; onSelectCard: (id: string) => void; onSubmitBuild: () => void; onSelectForge: (index: number) => void; onSubmitForge: () => void; onFinish: () => void; onNextWord: () => void; onReview: () => void; onChooseWord: (id: string) => void; sound: { canSpeak(): boolean; speak(text: string, lang?: string): boolean }; onBackToAtlas: () => void }) {
+function CaseRoom({ word, root, currentProgress, diagnosis, stage, selected, availableCards, hint, buildFeedback, buildAttempts, shuffledOptions, forgeChoice, forgeFeedback, forgeAttempts, rewardSummary, family, onSelectCard, onSubmitBuild, onSelectForge, onSubmitForge, onFinish, onNextWord, onReview, onChooseWord, sound, onBackToAtlas, maskWord = false }: { word: Word; root: ReturnType<typeof getMorpheme>; currentProgress: ReviewProgress; diagnosis: DebugDiagnosis | null; stage: PuzzleStage; selected: string[]; availableCards: ReturnType<typeof getAvailableCards>; hint: string | null; buildFeedback: string; buildAttempts: number; shuffledOptions: Array<{ text: string; correct: boolean }>; forgeChoice: number | null; forgeFeedback: string; forgeAttempts: number; rewardSummary: RewardSummary | null; family: WordCore[]; onSelectCard: (id: string) => void; onSubmitBuild: () => void; onSelectForge: (index: number) => void; onSubmitForge: () => void; onFinish: () => void; onNextWord: () => void; onReview: () => void; onChooseWord: (id: string) => void; sound: { canSpeak(): boolean; speak(text: string, lang?: string): boolean }; onBackToAtlas: () => void; maskWord?: boolean }) {
   const missing = Math.max(0, word.parts.length - selected.length)
   const forged = forgeFeedback === 'correct'
   const stepIndex = stage === 'reward' ? 2 : visibleSteps.findIndex((step) => step.key === stage)
-  return <section className="workspace-grid case-page"><div className="detective-panel"><div className="panel-head"><div><span className="eyebrow">{stageCopy[stage].eyebrow} · {difficultyLabel(word.difficulty)}</span><div className="word-line"><h3>{word.word}</h3><button className="sound-button" onClick={() => sound.speak(word.word)} disabled={!sound.canSpeak()} aria-label={`朗读 ${word.word}`} title="听发音">🔊</button></div><span className="phonetic">{word.phonetic} · {word.partOfSpeech}</span><p className="mode-description">{stageCopy[stage].description}</p></div><span className="progress-pip">{stepIndex + 1} / 3</span></div><StepBar stage={stage}/>{diagnosis && <DiagnosisBar diagnosis={diagnosis} showAnswer={stage === 'build' ? buildAttempts >= ASSIST_AFTER_ATTEMPTS : forgeAttempts >= ASSIST_AFTER_ATTEMPTS} />}
-  {stage === 'build' && <div className="stage-content"><div className="instruction"><span className="step-number">01</span><div><strong>点出组成这个词的部分</strong><p>按从左到右的顺序放进方框。点一下放进去，再点一下拿出来。</p></div></div><div className={`assembly-slots ${buildFeedback === 'wrong' ? 'shake' : ''}`} key={`slots-${word.id}-${buildAttempts}`} aria-label="拼装槽">{word.parts.map((_, index) => { const selectedPart = word.parts.find((part) => part.morphemeId === selected[index]); return <div className={`assembly-slot ${selected[index] ? 'filled' : ''}`} key={`${word.id}-slot-${index}`}>{selected[index] ? selectedPart?.surface ?? getMorpheme(selected[index]).displayText : <span>第 {index + 1} 个</span>}</div> })}</div><div className="subhead hand-label"><span>可以用的卡片</span><small>{availableCards.length} 张，有几张是干扰项</small></div><div className="morpheme-grid">{availableCards.map(({ morpheme, kind }, index) => { const isSelected = selected.includes(morpheme.id); return <button key={`${morpheme.id}-${index}`} aria-pressed={isSelected} className={`morpheme-card ${morpheme.color} ${isSelected ? 'selected' : ''} ${kind === 'distractor' ? 'distractor' : ''}`} onClick={() => onSelectCard(morpheme.id)}><span className="card-type">{morpheme.type === 'prefix' ? '前缀' : morpheme.type === 'suffix' ? '后缀' : '词根'}</span><strong>{morpheme.displayText}</strong><small>{morpheme.meaningCn}</small><em>{isSelected ? '已选中' : '未选中'}</em></button> })}</div><div className="hint-row"><span>提示</span>{hint ? <p><strong>拼写会变：</strong>{hint}。</p> : <p>后缀通常决定这个词是名词、动词还是形容词。</p>}</div><button className="primary-button" disabled={missing > 0} onClick={onSubmitBuild}>{missing > 0 ? `还差 ${missing} 个` : '拼好了，看看对不对'} <span>→</span></button></div>}
+  // 听写模式：遮住拼写只放发音，逼用户回忆怎么拼；reveal 让用户实在想不起时看一眼。
+  const [revealSpelling, setRevealSpelling] = useState(false)
+  useEffect(() => { setRevealSpelling(false) }, [word.id])
+  useEffect(() => {
+    if (maskWord && sound.canSpeak()) {
+      const timer = window.setTimeout(() => sound.speak(word.word), 350)
+      return () => window.clearTimeout(timer)
+    }
+  }, [word.id, maskWord, sound])
+  const masked = stage === 'build' && maskWord && !revealSpelling
+  return <section className="workspace-grid case-page"><div className="detective-panel"><div className="panel-head"><div><span className="eyebrow">{stageCopy[stage].eyebrow} · {difficultyLabel(word.difficulty)}</span>{masked ? (<div className="word-line"><button className="sound-button" onClick={() => sound.speak(word.word)} disabled={!sound.canSpeak()} aria-label="再听一次发音">🔊</button><div><span className="eyebrow">听写模式</span><h3>听发音，拼出你听到的词</h3></div></div>) : (<div className="word-line"><h3>{word.word}</h3><button className="sound-button" onClick={() => sound.speak(word.word)} disabled={!sound.canSpeak()} aria-label={`朗读 ${word.word}`} title="听发音">🔊</button></div>)}{!masked && <span className="phonetic">{word.phonetic} · {word.partOfSpeech}</span>}<p className="mode-description">{stageCopy[stage].description}</p></div><span className="progress-pip">{stepIndex + 1} / 3</span></div><StepBar stage={stage}/>{diagnosis && <DiagnosisBar diagnosis={diagnosis} showAnswer={stage === 'build' ? buildAttempts >= ASSIST_AFTER_ATTEMPTS : forgeAttempts >= ASSIST_AFTER_ATTEMPTS} />}
+  {stage === 'build' && <div className="stage-content"><div className="instruction"><span className="step-number">01</span><div><strong>点出组成这个词的部分</strong><p>按从左到右的顺序放进方框。点一下放进去，再点一下拿出来。</p></div></div>{masked && <button type="button" className="secondary-button" onClick={() => setRevealSpelling(true)} style={{ marginLeft: 40 }}>看拼写（实在想不起时）</button>}<div className={`assembly-slots ${buildFeedback === 'wrong' ? 'shake' : ''}`} key={`slots-${word.id}-${buildAttempts}`} aria-label="拼装槽">{word.parts.map((_, index) => { const selectedPart = word.parts.find((part) => part.morphemeId === selected[index]); return <div className={`assembly-slot ${selected[index] ? 'filled' : ''}`} key={`${word.id}-slot-${index}`}>{selected[index] ? selectedPart?.surface ?? getMorpheme(selected[index]).displayText : <span>第 {index + 1} 个</span>}</div> })}</div><div className="subhead hand-label"><span>可以用的卡片</span><small>{availableCards.length} 张，有几张是干扰项</small></div><div className="morpheme-grid">{availableCards.map(({ morpheme, kind }, index) => { const isSelected = selected.includes(morpheme.id); return <button key={`${morpheme.id}-${index}`} aria-pressed={isSelected} className={`morpheme-card ${morpheme.color} ${isSelected ? 'selected' : ''} ${kind === 'distractor' ? 'distractor' : ''}`} onClick={() => onSelectCard(morpheme.id)}><span className="card-type">{morpheme.type === 'prefix' ? '前缀' : morpheme.type === 'suffix' ? '后缀' : '词根'}</span><strong>{morpheme.displayText}</strong><small>{morpheme.meaningCn}</small><em>{isSelected ? '已选中' : '未选中'}</em></button> })}</div><div className="hint-row"><span>提示</span>{hint ? <p><strong>拼写会变：</strong>{hint}。</p> : <p>后缀通常决定这个词是名词、动词还是形容词。</p>}</div><button className="primary-button" disabled={missing > 0} onClick={onSubmitBuild}>{missing > 0 ? `还差 ${missing} 个` : '拼好了，看看对不对'} <span>→</span></button></div>}
   {stage === 'forge' && <div className="stage-content inference-stage"><div className="instruction"><span className="step-number">02</span><div><strong>猜猜它现在的意思</strong><p>先把上面每个部分的意思连成一句话，再选最接近的答案。</p></div></div><div className="assembly-slots solved" aria-label="已拼好的部分">{word.parts.map((part, index) => <div className="assembly-slot filled" key={`${word.id}-solved-${index}`}>{part.surface}</div>)}</div><LiteralEquation word={word} />{!forged && <><div className={`option-list ${forgeFeedback === 'wrong' ? 'shake' : ''}`} key={`forge-${word.id}-${forgeAttempts}`}>{shuffledOptions.map((option, index) => { const isSelected = forgeChoice === index; return <button aria-pressed={isSelected} className={`semantic-option ${isSelected ? 'selected' : ''}`} key={option.text} onClick={() => onSelectForge(index)}><span>{String.fromCharCode(65 + index)}</span><strong>{option.text}</strong><b>{isSelected ? '已选择' : '未选择'}</b></button> })}</div><button className="primary-button" disabled={forgeChoice === null} onClick={onSubmitForge}>就选这个 <span>→</span></button></>}{forged && <><div className="reveal-box"><span className="reveal-label">它的意思是</span><h4>{word.modernMeaningCn}</h4><p>{word.metaphorMeaningCn}</p></div><div className="proof-grid"><div><span>这个词怎么来的</span><p>{word.sourceNote}</p></div><div><span>怎么记</span><p>{word.mnemonicNote}</p></div></div><div className="example-box"><span>例句</span><button className="speak-inline" onClick={() => sound.speak(word.exampleEn)} disabled={!sound.canSpeak()}>🔊 听例句</button><p>{word.exampleEn}</p><small>{word.exampleCn}</small></div><button className="primary-button" onClick={onFinish}>学会了 <span>→</span></button></>}</div>}
-  {stage === 'reward' && <div className="stage-content reward-stage"><div className="reward-orbit"><span>✦</span><strong>学会<br/>一个</strong></div><span className="eyebrow">看结果</span><h3>你又学会一个带 {root.displayText} 的词。</h3><p>词根 {root.displayText}（{root.meaningCn}）的熟练度从 <strong>{Math.round(rewardSummary?.stabilityBefore ?? currentProgress.stability)}%</strong> 变成 <strong>{Math.round(rewardSummary?.stabilityAfter ?? currentProgress.stability)}%</strong>，现在{getStabilityBand(rewardSummary?.stabilityAfter ?? currentProgress.stability).label}。</p><div className="reward-points"><strong>+{rewardSummary?.xp ?? 0} 经验</strong><span>+{rewardSummary?.insightPoints ?? 0} 洞察点</span></div><div className="reward-breakdown"><span>学完一个词 +{rewardSummary?.baseXp ?? 40}</span>{rewardSummary?.firstAttemptXp ? <span>一次就拼对 +{rewardSummary.firstAttemptXp}</span> : null}{rewardSummary?.migrationXp ? <span>第一次见就学会 +{rewardSummary.migrationXp}</span> : null}{rewardSummary && !rewardSummary.firstAttemptXp && !rewardSummary.migrationXp ? <span>这次只有基础分</span> : null}</div><div className="reward-actions"><button className="primary-button" onClick={onNextWord}>再学一个同词根的词</button><button className="secondary-button" onClick={onBackToAtlas}>回到词根表 <span>→</span></button><button className="secondary-button" onClick={onReview}>以后再说 <span>→</span></button></div></div>}
+  {stage === 'reward' && <div className="stage-content reward-stage"><div className="reward-orbit"><span>✦</span><strong>学会<br/>一个</strong></div><span className="eyebrow">看结果</span><h3>你又学会一个带 {root.displayText} 的词。</h3><p>词根 {root.displayText}（{root.meaningCn}）的熟练度从 <strong>{Math.round(rewardSummary?.stabilityBefore ?? currentProgress.stability)}%</strong> 变成 <strong>{Math.round(rewardSummary?.stabilityAfter ?? currentProgress.stability)}%</strong>，现在{getStabilityBand(rewardSummary?.stabilityAfter ?? currentProgress.stability).label}。</p><div className="reward-points"><strong>+{rewardSummary?.xp ?? 0} 经验</strong><span>+{rewardSummary?.insightPoints ?? 0} 洞察点</span></div><div className="reward-breakdown"><span>学完一个词 +{rewardSummary?.baseXp ?? 40}</span>{rewardSummary?.firstAttemptXp ? <span>一次就拼对 +{rewardSummary.firstAttemptXp}</span> : null}{rewardSummary?.migrationXp ? <span>第一次见就学会 +{rewardSummary.migrationXp}</span> : null}{rewardSummary && !rewardSummary.firstAttemptXp && !rewardSummary.migrationXp ? <span>这次只有基础分</span> : null}</div><div className="reward-actions"><button className="primary-button" onClick={onNextWord}>{maskWord ? '再来一个听写' : '再学一个同词根的词'}</button><button className="secondary-button" onClick={onBackToAtlas}>回到词根表 <span>→</span></button><button className="secondary-button" onClick={onReview}>以后再说 <span>→</span></button></div></div>}
   </div><aside className="evidence-panel"><div className="panel-head compact"><div><span className="eyebrow">词根卡</span><h3>这个词的词根</h3></div></div><div className="root-card"><div className="root-card-top"><span className={`morpheme-chip ${root.color}`}>词根</span><span className="level-chip">等级 {root.level}</span></div><p>{root.displayText} = {root.meaningCn}</p><div className="root-bar"><span style={{ width: `${Math.max(8, currentProgress.stability)}%` }}/></div><div className="root-meta"><span>熟练度 {Math.round(currentProgress.stability)}%</span><span>{getStabilityBand(currentProgress.stability).label}</span></div></div><div className="family-section"><div className="subhead"><span>同样带这个词根</span><small>{family.length} 个词</small></div>{family.map((familyWord) => <button className={`family-word ${familyWord.id === word.id ? 'current' : ''}`} key={familyWord.id} onClick={() => onChooseWord(familyWord.id)}><span className="family-status">{familyWord.id === word.id ? '●' : '○'}</span><span><strong>{familyWord.word}</strong><small>{familyWord.modernMeaningCn}</small></span><span className="family-arrow">↗</span></button>)}</div></aside></section>
 }
 

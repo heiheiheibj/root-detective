@@ -325,8 +325,12 @@ export function calculateCaseReward(run: CaseRun) {
 
 export function applyIncorrectAttempt(profile: PlayerProfile, word: Word, getMorpheme: (id: string) => Morpheme, now = new Date()): PlayerProfile {
   const rootId = getRootId(word, getMorpheme)
+  const mistakeWordIds = profile.mistakeWordIds.includes(word.id)
+    ? profile.mistakeWordIds
+    : [...profile.mistakeWordIds, word.id]
   return {
     ...profile,
+    mistakeWordIds,
     progress: profile.progress.map((item) => item.morphemeId === rootId ? updateProgress(item, word, false, now) : item),
   }
 }
@@ -343,6 +347,8 @@ export function applyCompletedCase(profile: PlayerProfile, run: CaseRun, word: W
     insightPoints: profile.insightPoints + reward.insightPoints,
     progress: profile.progress.map((item) => item.morphemeId === rootId ? next : item),
     completedWordIds: [...new Set([...profile.completedWordIds, word.id])],
+    // 学对一次即移出错词本：错词本只留「还需要巩固」的词。
+    mistakeWordIds: profile.mistakeWordIds.filter((id) => id !== word.id),
     activityDays: [...new Set([...profile.activityDays, getLocalDayKey(now)])],
   }
   return { profile: nextProfile, reward: { ...reward, stabilityBefore: current.stability, stabilityAfter: next.stability, stabilityBand: getStabilityBand(next.stability).key } }

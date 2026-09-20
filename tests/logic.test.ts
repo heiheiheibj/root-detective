@@ -53,7 +53,7 @@ function makeWord(difficulty: Difficulty, metaphorOptions = ['字面画面A', '�
 }
 
 function profileWith(progress: PlayerProfile['progress']): PlayerProfile {
-  return { version: 1, xp: 0, insightPoints: 0, progress, completedWordIds: [], activityDays: [], onboardingCompleted: false, helpSeen: false }
+  return { version: 1, xp: 0, insightPoints: 0, progress, completedWordIds: [], mistakeWordIds: [], activityDays: [], onboardingCompleted: false, helpSeen: false }
 }
 
 describe('getStabilityBand', () => {
@@ -173,6 +173,25 @@ describe('applyIncorrectAttempt', () => {
     const base = profileWith([{ ...createRootProgress(rootId), stability: 50 }])
     const next = applyIncorrectAttempt(base, word, getMorpheme)
     expect(next.progress.find((item) => item.morphemeId === rootId)!.stability).toBeCloseTo(10, 5)
+  })
+  it('答错的词进入错词本（去重，不重复记录）', () => {
+    const word = makeWord(3)
+    const base = profileWith([createRootProgress(rootId)])
+    const once = applyIncorrectAttempt(base, word, getMorpheme)
+    expect(once.mistakeWordIds).toEqual([word.id])
+    const twice = applyIncorrectAttempt(once, word, getMorpheme)
+    expect(twice.mistakeWordIds).toEqual([word.id])
+  })
+})
+
+describe('applyCompletedCase', () => {
+  it('学对后把该词移出错词本，其余保留', () => {
+    const word = makeWord(3)
+    const base = profileWith([createRootProgress(rootId)])
+    base.mistakeWordIds = [word.id, 'other-mistake']
+    const { profile } = applyCompletedCase(base, { id: 'r', wordId: word.id, rootId, mode: 'compiler', wasNewWord: true, hadMistake: false, startedStability: 0 }, word, getMorpheme)
+    expect(profile.mistakeWordIds).not.toContain(word.id)
+    expect(profile.mistakeWordIds).toContain('other-mistake')
   })
 })
 

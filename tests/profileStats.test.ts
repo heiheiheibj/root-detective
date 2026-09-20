@@ -24,12 +24,13 @@ const activeProfile: PlayerProfile = {
     { morphemeId: 'port', state: 'learning', stability: 10, dueAt: null, testedWordIds: ['port'], migrationCorrect: 0, migrationAttempts: 0, streak: 0 },
   ],
   completedWordIds: ['inspect', 'respect', 'dictate', 'port'],
+  mistakeWordIds: ['port'],
   activityDays: dayKeysEndingToday(7),
   onboardingCompleted: true,
   helpSeen: true,
 }
 
-const emptyProfile: PlayerProfile = { version: 1, xp: 0, insightPoints: 0, progress: [], completedWordIds: [], activityDays: [], onboardingCompleted: false, helpSeen: false }
+const emptyProfile: PlayerProfile = { version: 1, xp: 0, insightPoints: 0, progress: [], completedWordIds: [], mistakeWordIds: [], activityDays: [], onboardingCompleted: false, helpSeen: false }
 
 describe('deriveStats', () => {
   it('把档案摊平成统计页要展示的数字', () => {
