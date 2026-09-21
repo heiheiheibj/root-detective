@@ -2,6 +2,7 @@
 node_modules/
 dist/
 .vite/
+.vs/
 
 # 数据管线的中间产物（可重新下载/重新生成，见 docs/扩词库计划.md）
 # raw/ 是原始下载，derived/ 是中间件，quarantine/ 是被判不合格的词条。
