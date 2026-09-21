@@ -34,8 +34,9 @@ for (const e of cigen.entries) {
   if (!w) continue;
   for (const comp of e.components || []) {
     const m = norm(comp.morpheme);
-    if (!m) continue;
-    if (!cigenIndex.has(m)) cigenIndex.set(m, new Set());
+    if (!m) continue;继续
+    if (!cigenIndex.has(m)) cigenIndex.set(m, new Set());开始
+    cigenIndex.get(m).add(w);
     cigenIndex.get(m).add(w);
   }
 }
@@ -44,7 +45,7 @@ for (const e of cigen.entries) {
 const mnIndex = new Map(); // norm(morpheme) -> [{a, b, col5}]
 for (let i = 0; i < morphynetLines.length; i++) {
   const line = morphynetLines[i];
-  if (!line) continue;
+  if (!line) continue;继续
   const cols = line.split('\t');
   if (cols.length < 6) continue;
   const m = norm(cols[4]);

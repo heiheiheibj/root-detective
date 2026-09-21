@@ -358,7 +358,7 @@ function App() {
       {activeView === 'regression' && <ReviewView profile={profile} onFinishRound={finishMatchReview} />}
       {activeView === 'atlas' && <AtlasView profile={profile} progressByRoot={progressByRoot} selectedRootId={atlasRootId} onSelectRoot={setAtlasRootId} onStudyWord={(id) => chooseWord(id)} sound={effectiveAudio} completedWordIds={completedSet} highlightWordId={lastStudiedWordId} />}
       {activeView === 'weak' && <WeakView profile={profile} onStudyWord={(id) => chooseWord(id)} sound={effectiveAudio} completedWordIds={completedSet} />}
-      {activeView === 'search' && <SearchView query={searchQuery} onBack={() => setActiveView('atlas')} onOpenRoot={(id) => { setAtlasRootId(id); setActiveView('atlas') }} onStudyWord={(id) => chooseWord(id)} sound={effectiveAudio} completedWordIds={completedSet} />}
+      {activeView === 'search' && <SearchView query={searchQuery} onBack={() => setActiveView('atlas')} onOpenRoot={(id) => { setAtlasRootId(id); setActiveView('atlas') }} onStudyWord={(id) => chooseWord(id)} sound={effectiveAudio} completedWordIds={completedSet} onPartClick={(p) => setSearchQuery(p)} />}
       {activeView === 'stats' && <StatsView stats={deriveStats(profile)} />}
       {activeView === 'achievements' && <AchievementsView profile={profile} unlockedCount={getUnlockedCount(profile)} />}
       {activeView === 'settings' && <SettingsView settings={settings} onToggleSound={(on) => updateSettings({ ...settings, soundEnabled: on })} onResetProgress={handleResetProgress} onExportProgress={handleExportProgress} onImportProgress={handleImportProgress} onToggleCloud={handleToggleCloud} onSyncNow={handleSyncNow} cloudConfigured={cloudConfigured} />}

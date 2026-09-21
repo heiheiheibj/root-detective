@@ -2,6 +2,7 @@
 node_modules/
 dist/
 .vite/
+.vs/
 
 # 数据管线的中间产物（可重新下载/重新生成，见 docs/扩词库计划.md）
 # raw/ 是原始下载，derived/ 是中间件，quarantine/ 是被判不合格的词条。
@@ -41,3 +42,8 @@ _scratch/
 console.log('ERR'
 * - 副本.json
 /*.yaml
+
+# 环境变量 / 密钥（含 Supabase 等远端凭据，切勿提交；.env.example 例外可进仓库）
+.env
+.env.*
+!.env.example

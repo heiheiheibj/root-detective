@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import type { PlayerProfile, ReviewProgress, WordCore } from '../domain/types'
 import { contentRepository } from '../data/repositories'
 import { getLevelInfo, getMasteredRootCount, getRootId, getWorldUnlockStatus, migrationRate } from '../domain/logic'
+import { lookupDict, type DictEntry } from '../data/dictionary'
 
 const { getMorpheme, worlds, words, wordsByRoot } = contentRepository
 
@@ -48,6 +49,89 @@ function highlight(text: string, query: string): ReactNode {
     cursor = idx + q.length
   }
   return <>{parts}</>
+}
+
+/**
+ * 兜底词典面板：词根词库里查不到时，调 /Dict.aspx 拿这个词的音标与释义。
+ * 先精确查；查不到再给前缀建议。接口不可用（如本地 dev）时静默提示「没找到」。
+ */
+export function DictionaryLookup({ query, sound, onPartClick }: {
+  query: string
+  sound?: { canSpeak(): boolean; speak(text: string, lang?: string): boolean }
+  onPartClick?: (part: string) => void
+}) {
+  const trimmed = query.trim()
+  const [entry, setEntry] = useState<DictEntry | null>(null)
+  const [suggestions, setSuggestions] = useState<DictEntry[]>([])
+  const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    let alive = true
+    if (!trimmed) { setEntry(null); setSuggestions([]); setLoading(false); return }
+    setLoading(true)
+    void (async () => {
+      const result = await lookupDict(trimmed)
+      if (!alive) return
+      setEntry(result.entry)
+      setSuggestions(result.suggestions)
+      setLoading(false)
+    })()
+    return () => { alive = false }
+  }, [trimmed])
+
+  if (!trimmed) return null
+  if (loading) return <p className="dict-hint">正在查词典…</p>
+
+  if (entry) {
+    return (
+      <div className="dict-card">
+        <div className="dict-head">
+          <strong>{entry.word}</strong>
+          {sound?.canSpeak() && (
+            <button type="button" className="row-speaker" onClick={() => sound.speak(entry.word)} aria-label={`朗读 ${entry.word}`} title="听发音">🔊</button>
+          )}
+        </div>
+        {entry.phonetic && <span className="phonetic">/{entry.phonetic}/</span>}
+        <p className="dict-meaning">{entry.meaning}</p>
+        {entry.compound && (
+          <p className="dict-compound">
+            复合词拆法：{' '}
+            {entry.compound.parts.map((part, i) => (
+              <span key={part}>
+                {i > 0 && <span className="dict-compound-plus"> + </span>}
+                <button type="button" className="dict-compound-part" onClick={() => onPartClick?.(part)}>{part}</button>
+              </span>
+            ))}
+          </p>
+        )}
+        <small className="dict-note">词根词库里没有这个词，这里只给释义和读音。</small>
+      </div>
+    )
+  }
+
+  if (suggestions.length > 0) {
+    return (
+      <div className="dict-card">
+        <p className="dict-hint">词根词库里没有「{trimmed}」，你是不是想找：</p>
+        <ul className="dict-suggest">
+          {suggestions.map((item) => (
+            <li key={item.word}>
+              <span className="dict-suggest-word">
+                <strong>{item.word}</strong>
+                {sound?.canSpeak() && (
+                  <button type="button" className="row-speaker" onClick={() => sound.speak(item.word)} aria-label={`朗读 ${item.word}`} title="听发音">🔊</button>
+                )}
+              </span>
+              {item.phonetic && <span className="phonetic">/{item.phonetic}/</span>}
+              <span className="dict-suggest-mean">{item.meaning}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
+
+  return <p className="dict-hint">词根词库和词典里都没找到「{trimmed}」，检查一下拼写？</p>
 }
 
 /** 词根单词表：单词 / 如何拆分 / 单词意思 / 学习。词根详情页与搜索结果共用，保证两处完全一致。 */
@@ -239,14 +323,19 @@ export function AtlasView({ profile, progressByRoot, selectedRootId, onSelectRoo
     return <RootDetailView rootId={selectedRootId} onBack={() => onSelectRoot(null)} onStudyWord={(id) => study(id)} sound={sound} completedWordIds={completedWordIds} highlightWordId={highlightWordId} />
   }
 
-  if (trimmed && searchResults.length > 0) {
+  if (trimmed) {
     return (
       <section className="page-section atlas-page">
         <button type="button" className="back-link" onClick={() => { setInputValue(''); setCommittedQuery('') }}>← 返回词根地图</button>
         <div className="section-heading">
-          <div><h2>搜索「{trimmed}」</h2><p>命中 {searchResults.length} 个单词，点任意一行直接把这个词学掉。</p></div>
+          <div>
+            <h2>搜索「{trimmed}」</h2>
+            <p>{searchResults.length > 0 ? `命中 ${searchResults.length} 个单词，点任意一行直接把这个词学掉。` : '词根词库里没有这个词，下面是词典结果。'}</p>
+          </div>
         </div>
-        <SearchResults query={committedQuery} words={searchResults} onOpenRoot={onSelectRoot} onStudyWord={(id) => study(id)} limit={50} sound={sound} completedWordIds={completedWordIds} />
+        {searchResults.length > 0
+          ? <SearchResults query={committedQuery} words={searchResults} onOpenRoot={onSelectRoot} onStudyWord={(id) => study(id)} limit={50} sound={sound} completedWordIds={completedWordIds} />
+          : <DictionaryLookup query={committedQuery} sound={sound} onPartClick={(p) => { setInputValue(p); setCommittedQuery(p) }} />}
       </section>
     )
   }
@@ -327,13 +416,14 @@ export function AtlasView({ profile, progressByRoot, selectedRootId, onSelectRoo
   )
 }
 
-export function SearchView({ query, onBack, onOpenRoot, onStudyWord, sound, completedWordIds }: {
+export function SearchView({ query, onBack, onOpenRoot, onStudyWord, sound, completedWordIds, onPartClick }: {
   query: string
   onBack: () => void
   onOpenRoot: (rootId: string) => void
   onStudyWord: (wordId: string) => void
   sound?: { canSpeak(): boolean; speak(text: string, lang?: string): boolean }
   completedWordIds?: ReadonlySet<string>
+  onPartClick?: (part: string) => void
 }) {
   const trimmed = query.trim()
   const results = searchAllWords(query)
@@ -348,7 +438,7 @@ export function SearchView({ query, onBack, onOpenRoot, onStudyWord, sound, comp
         </div>
       </div>
       {results.length === 0 ? (
-        <p className="empty-row">没有匹配「{trimmed}」的单词。</p>
+        <DictionaryLookup query={query} sound={sound} onPartClick={onPartClick} />
       ) : (
         <SearchResults query={query} words={results} onOpenRoot={onOpenRoot} onStudyWord={onStudyWord} sound={sound} completedWordIds={completedWordIds} />
       )}

@@ -622,3 +622,24 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 
 /* 错词本页：复用通用页面与词根表样式，这里只补标题区留白 */
 .weak-page .empty-state { margin-top: 22px; }
+
+/* ---------- 兜底词典（查不在词根词库里的词） ---------- */
+.dict-card { max-width: 640px; margin-top: 14px; padding: 16px 18px; border: 1px solid var(--line); border-radius: 14px; background: #fff; }
+.dict-head { display: flex; align-items: center; gap: 10px; }
+.dict-head strong { font-size: 26px; color: var(--cream); }
+.dict-card .phonetic { margin-top: 4px; }
+.dict-meaning { margin: 10px 0 0; color: var(--cream); font-size: 16px; line-height: 1.7; }
+.dict-note { display: block; margin-top: 12px; color: var(--muted); font-size: 13px; }
+.dict-compound { margin-top: 10px; font-size: 14px; color: var(--muted); }
+.dict-compound-parts { color: var(--cream); font-weight: 600; }
+.dict-compound-part { border: 0; background: none; padding: 0 2px; cursor: pointer; font: inherit; font-weight: 600; color: var(--cream); text-decoration: underline; text-underline-offset: 2px; }
+.dict-compound-part:hover { color: var(--muted); }
+.dict-compound-plus { color: var(--muted); }
+.dict-hint { margin-top: 12px; color: var(--muted); font-size: 15px; }
+.dict-suggest { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 8px; }
+.dict-suggest li { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding: 10px 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel-2); }
+.dict-suggest-word { display: inline-flex; align-items: center; gap: 6px; }
+.dict-suggest strong { font-size: 17px; color: var(--cream); }
+.dict-suggest .phonetic { margin-top: 0; }
+.dict-suggest-mean { color: var(--muted); font-size: 14px; }
+@media (max-width: 640px) { .dict-head strong { font-size: 22px; } }

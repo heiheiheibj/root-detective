@@ -10,4 +10,9 @@ const nodeEnv = (globalThis as { process?: { env?: Record<string, string | undef
 const isTest = nodeEnv?.VITEST === 'true' || nodeEnv?.NODE_ENV === 'test'
 export default defineConfig({
   plugins: isTest ? [] : [react()],
+  // dist 是「前端成品 + 词典接口」的 IIS 站点根：构建产物写进 dist，
+  // 但 dist 里同时有 bin/(dll 会被 IIS 占用锁定)、App_Data/、Dict.aspx 等接口文件。
+  // 若让 Vite 清空 dist，删 bin 会失败并导致整个构建中止（前端不产出）——所以禁用它。
+  // 前端旧产物（assets/index.html）由 scripts/deploy-iis.mjs 负责清理。
+  build: { emptyOutDir: false },
 })
