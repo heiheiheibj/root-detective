@@ -95,7 +95,7 @@ export function DictionaryLookup({ query, sound, onPartClick }: {
         <p className="dict-meaning">{entry.meaning}</p>
         {entry.compound && (
           <p className="dict-compound">
-            复合词拆法：{' '}
+            <span className="dict-method-chip">复合词拆解</span>{' '}
             {entry.compound.parts.map((part, i) => (
               <span key={part}>
                 {i > 0 && <span className="dict-compound-plus"> + </span>}
@@ -104,7 +104,7 @@ export function DictionaryLookup({ query, sound, onPartClick }: {
             ))}
           </p>
         )}
-        <small className="dict-note">词根词库里没有这个词，这里只给释义和读音。</small>
+        <small className="dict-note">词根词库里没有这个词。上面若有拆解，那是按「复合词」（两个独立单词拼成）来看的，不是词根。</small>
       </div>
     )
   }
@@ -151,7 +151,7 @@ export function RootWordsTable({ words, onStudyWord, query = '', sound, complete
     <div className="table-scroll">
       <table className="root-words">
         <thead>
-          <tr><th>单词</th><th>如何拆分</th><th>单词意思</th><th aria-label="操作" /></tr>
+          <tr><th>单词</th><th>词根拆解</th><th>单词意思</th><th aria-label="操作" /></tr>
         </thead>
         <tbody>
           {words.map((word) => {

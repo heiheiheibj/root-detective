@@ -631,6 +631,7 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .dict-meaning { margin: 10px 0 0; color: var(--cream); font-size: 16px; line-height: 1.7; }
 .dict-note { display: block; margin-top: 12px; color: var(--muted); font-size: 13px; }
 .dict-compound { margin-top: 10px; font-size: 14px; color: var(--muted); }
+.dict-method-chip { display: inline-block; padding: 1px 7px; border-radius: 999px; font-size: 12px; font-weight: 600; color: var(--cream); background: rgba(255, 255, 255, 0.14); vertical-align: 1px; }
 .dict-compound-parts { color: var(--cream); font-weight: 600; }
 .dict-compound-part { border: 0; background: none; padding: 0 2px; cursor: pointer; font: inherit; font-weight: 600; color: var(--cream); text-decoration: underline; text-underline-offset: 2px; }
 .dict-compound-part:hover { color: var(--muted); }
