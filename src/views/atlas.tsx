@@ -344,6 +344,8 @@ function RootDetailView({ rootId, onBack, onOpenRoot, onStudyWord, sound, comple
   // 词根词库之外还有一层：两个独立单词拼成的复合词（ball 名下就有 29 个词库没有的）
   const compoundWords = useMemo(() => (compoundReady ? compoundWordsForPart(rootId) : []), [compoundReady, rootId])
   const [filter, setFilter] = useState('')
+  // 复合词一节在词根表下面：词根词多的时候（几十行）容易被漏掉，所以右上角计数里给个跳转
+  const compoundRef = useRef<HTMLElement | null>(null)
   const query = filter.trim().toLowerCase()
   const raw = filter.trim()
   const visible = query
@@ -366,7 +368,17 @@ function RootDetailView({ rootId, onBack, onOpenRoot, onStudyWord, sound, comple
         <div className="atlas-count">
           <strong>{wordCores.length + compoundWords.length}</strong>
           <span>个单词</span>
-          {compoundWords.length > 0 && <span className="atlas-count-break">词根 {wordCores.length} · 复合 {compoundWords.length}</span>}
+          {compoundWords.length > 0 && (
+            <span className="atlas-count-break">
+              词根 {wordCores.length} ·{' '}
+              <button
+                type="button"
+                className="count-jump"
+                onClick={() => compoundRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })}
+                title="跳到下面的复合词"
+              >复合 {compoundWords.length} ↓</button>
+            </span>
+          )}
         </div>
       </div>
       {root.etymology && <p className="root-etymology">{root.etymology}</p>}
@@ -382,7 +394,7 @@ function RootDetailView({ rootId, onBack, onOpenRoot, onStudyWord, sound, comple
       <RootWordsTable words={visible} onStudyWord={(id) => onStudyWord(id)} sound={sound} completedWordIds={completedWordIds} highlightWordId={highlightWordId} />
       {!compoundReady && <p className="root-hint">正在整理含 {rootLabel} 的复合词…</p>}
       {visibleCompounds.length > 0 && (
-        <section className="compound-block">
+        <section className="compound-block" ref={compoundRef}>
           <div className="compound-head">
             <h3>含 {rootLabel} 的复合词</h3>
             <span className="compound-count">{visibleCompounds.length} 个</span>

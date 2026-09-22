@@ -582,6 +582,9 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .root-words .seg-part-link { border-style: dashed; background: #fff; color: var(--blue); cursor: pointer; font-family: inherit; }
 .root-words .seg-part-link:hover { background: #eef4ff; }
 .atlas-count-break { display: block; margin-top: 4px; font-size: 12px; }
+/* 计数里的「复合 N ↓」：点一下直接跳到下面那一节，词根表很长时不用手动翻 */
+.count-jump { padding: 0; border: 0; background: none; cursor: pointer; font: inherit; font-size: 12px; font-weight: 700; color: var(--blue); text-decoration: underline; text-underline-offset: 2px; }
+.count-jump:hover { color: var(--cream); }
 
 /* 今天页：复习入口可点击 */
 .summary-cta { display: block; width: 100%; text-align: left; border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; background: #fff; cursor: pointer; transition: border-color .12s ease, background .12s ease; }
