@@ -3,6 +3,7 @@ import type { PlayerProfile, ReviewProgress, WordCore } from '../domain/types'
 import { contentRepository } from '../data/repositories'
 import { getLevelInfo, getMasteredRootCount, getRootId, getWorldUnlockStatus, migrationRate } from '../domain/logic'
 import { lookupDict, type DictEntry } from '../data/dictionary'
+import { canOpenAsRoot, compoundWordsForPart, getCompoundState, loadCompoundData, searchCompoundWords, type CompoundWord } from '../domain/compounds'
 
 const { getMorpheme, worlds, words, wordsByRoot } = contentRepository
 
@@ -134,6 +135,80 @@ export function DictionaryLookup({ query, sound, onPartClick }: {
   return <p className="dict-hint">词根词库和词典里都没找到「{trimmed}」，检查一下拼写？</p>
 }
 
+/**
+ * 复合词数据是懒加载的（content/compounds.json，238 KB，单独 chunk）：
+ * 打开词根详情、或搜索命中复合词时才拉，拉不到就当作没有这一层，绝不挡住主流程。
+ * 返回「是否已结算」，未结算时页面上给一行加载提示。
+ */
+function useCompoundData(active = true) {
+  const [settled, setSettled] = useState(() => getCompoundState() === 'ready' || getCompoundState() === 'failed')
+  useEffect(() => {
+    if (!active || settled) return
+    let alive = true
+    void loadCompoundData().then(() => { if (alive) setSettled(true) })
+    return () => { alive = false }
+  }, [active, settled])
+  return settled
+}
+
+/**
+ * 复合词表：两个独立单词拼成的词（eyeball = eye + ball）。
+ * 列和词根表对齐（单词 / 怎么拼 / 意思），但不给「学习」入口——这些词没有学习字段，不进拼词游戏。
+ * 拼法里的零件若自己也有词根页（如 ballroom 的 room），点它就能跳过去。
+ */
+export function CompoundWordsTable({ entries, onOpenRoot, sound, query = '' }: {
+  entries: readonly CompoundWord[]
+  onOpenRoot?: (rootId: string) => void
+  sound?: { canSpeak(): boolean; speak(text: string, lang?: string): boolean }
+  query?: string
+}) {
+  return (
+    <div className="table-scroll">
+      <table className="root-words compound-words">
+        <thead>
+          <tr><th>单词</th><th>复合词拆解</th><th>词典释义</th></tr>
+        </thead>
+        <tbody>
+          {entries.map((entry) => (
+            <tr className="compound-row" key={`${entry.word}+${entry.parts.join('+')}`}>
+              <td className="cell-word">
+                <span className="word-line">
+                  <strong>{highlight(entry.word, query)}</strong>
+                  {sound?.canSpeak() && (
+                    <button type="button" className="row-speaker" onClick={() => sound.speak(entry.word)} aria-label={`朗读 ${entry.word}`} title="听发音">🔊</button>
+                  )}
+                </span>
+                {entry.phonetic && <small>/{entry.phonetic}/</small>}
+              </td>
+              <td data-label="如何拆分">
+                <div className="cell-seg">
+                  <span className="method-chip">复合词</span>
+                  {entry.parts.map((part, index) => (
+                    <span className="seg-item" key={`${part}-${index}`}>
+                      {index > 0 && <span className="seg-plus" aria-hidden="true">+</span>}
+                      {onOpenRoot && canOpenAsRoot(part) ? (
+                        <button
+                          type="button"
+                          className="seg-part seg-part-link"
+                          onClick={() => onOpenRoot(part)}
+                          title={`看 ${part} 自己的词根页`}
+                        >{part}</button>
+                      ) : (
+                        <span className="seg-part">{part}</span>
+                      )}
+                    </span>
+                  ))}
+                </div>
+              </td>
+              <td className="cell-def" data-label="词典释义">{highlight(entry.meaning, query)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
 /** 词根单词表：单词 / 如何拆分 / 单词意思 / 学习。词根详情页与搜索结果共用，保证两处完全一致。 */
 export function RootWordsTable({ words, onStudyWord, query = '', sound, completedWordIds, highlightWordId }: {
   words: readonly WordCore[]
@@ -254,9 +329,10 @@ function SearchResults({ query, words, onOpenRoot, onStudyWord, limit = 80, soun
   )
 }
 
-function RootDetailView({ rootId, onBack, onStudyWord, sound, completedWordIds, highlightWordId }: {
+function RootDetailView({ rootId, onBack, onOpenRoot, onStudyWord, sound, completedWordIds, highlightWordId }: {
   rootId: string
   onBack: () => void
+  onOpenRoot: (rootId: string) => void
   onStudyWord: (wordId: string) => void
   sound?: { canSpeak(): boolean; speak(text: string, lang?: string): boolean }
   completedWordIds?: ReadonlySet<string>
@@ -264,11 +340,20 @@ function RootDetailView({ rootId, onBack, onStudyWord, sound, completedWordIds, 
 }) {
   const root = getMorpheme(rootId)
   const wordCores = wordsByRoot.get(rootId) ?? []
+  const compoundReady = useCompoundData()
+  // 词根词库之外还有一层：两个独立单词拼成的复合词（ball 名下就有 29 个词库没有的）
+  const compoundWords = useMemo(() => (compoundReady ? compoundWordsForPart(rootId) : []), [compoundReady, rootId])
   const [filter, setFilter] = useState('')
   const query = filter.trim().toLowerCase()
+  const raw = filter.trim()
   const visible = query
-    ? wordCores.filter((word) => word.word.toLowerCase().includes(query) || word.modernMeaningCn.includes(filter.trim()))
+    ? wordCores.filter((word) => word.word.toLowerCase().includes(query) || word.modernMeaningCn.includes(raw))
     : wordCores
+  const visibleCompounds = query
+    ? compoundWords.filter((entry) => entry.word.toLowerCase().includes(query) || entry.meaning.includes(raw) || entry.parts.some((part) => part.includes(query)))
+    : compoundWords
+  // 词素 id 就是小写词形（如 ball、circum），标题里去掉可能存在的连字符
+  const rootLabel = rootId.replace(/^-+|-+$/g, '')
 
   return (
     <section className="page-section root-detail">
@@ -278,7 +363,11 @@ function RootDetailView({ rootId, onBack, onStudyWord, sound, completedWordIds, 
           <h2>{root.displayText}</h2>
           <p>{root.meaningCn} · 等级 {root.level}</p>
         </div>
-        <div className="atlas-count"><strong>{wordCores.length}</strong><span>个单词</span></div>
+        <div className="atlas-count">
+          <strong>{wordCores.length + compoundWords.length}</strong>
+          <span>个单词</span>
+          {compoundWords.length > 0 && <span className="atlas-count-break">词根 {wordCores.length} · 复合 {compoundWords.length}</span>}
+        </div>
       </div>
       {root.etymology && <p className="root-etymology">{root.etymology}</p>}
       <input
@@ -291,6 +380,19 @@ function RootDetailView({ rootId, onBack, onStudyWord, sound, completedWordIds, 
       />
       <p className="root-hint">没那么多时间玩拼词？直接点任意一行把这个词学掉——这是和拼词游戏并行的另一条线。</p>
       <RootWordsTable words={visible} onStudyWord={(id) => onStudyWord(id)} sound={sound} completedWordIds={completedWordIds} highlightWordId={highlightWordId} />
+      {!compoundReady && <p className="root-hint">正在整理含 {rootLabel} 的复合词…</p>}
+      {visibleCompounds.length > 0 && (
+        <section className="compound-block">
+          <div className="compound-head">
+            <h3>含 {rootLabel} 的复合词</h3>
+            <span className="compound-count">{visibleCompounds.length} 个</span>
+          </div>
+          <p className="root-hint">
+            这些词是两个独立单词拼成的（不是词根），所以不进拼词游戏；但拆开看一样能帮你记住拼写。释义取自词典，只作参考。
+          </p>
+          <CompoundWordsTable entries={visibleCompounds} onOpenRoot={onOpenRoot} sound={sound} query={raw} />
+        </section>
+      )}
     </section>
   )
 }
@@ -316,11 +418,14 @@ export function AtlasView({ profile, progressByRoot, selectedRootId, onSelectRoo
 
   const trimmed = committedQuery.trim()
   const searchResults = useMemo(() => searchAllWords(committedQuery, 50), [committedQuery])
+  // 只在真正要用时才拉复合词数据：地图列表页不预取（90 KB gzip），免得多下一份用户可能不看的包
+  const compoundReady = useCompoundData(trimmed !== '')
+  const compoundResults = useMemo(() => (compoundReady ? searchCompoundWords(committedQuery, 50) : []), [compoundReady, committedQuery])
 
   const study = (wordId: string) => onStudyWord?.(wordId)
 
   if (selectedRootId) {
-    return <RootDetailView rootId={selectedRootId} onBack={() => onSelectRoot(null)} onStudyWord={(id) => study(id)} sound={sound} completedWordIds={completedWordIds} highlightWordId={highlightWordId} />
+    return <RootDetailView rootId={selectedRootId} onBack={() => onSelectRoot(null)} onOpenRoot={onSelectRoot} onStudyWord={(id) => study(id)} sound={sound} completedWordIds={completedWordIds} highlightWordId={highlightWordId} />
   }
 
   if (trimmed) {
@@ -330,12 +435,21 @@ export function AtlasView({ profile, progressByRoot, selectedRootId, onSelectRoo
         <div className="section-heading">
           <div>
             <h2>搜索「{trimmed}」</h2>
-            <p>{searchResults.length > 0 ? `命中 ${searchResults.length} 个单词，点任意一行直接把这个词学掉。` : '词根词库里没有这个词，下面是词典结果。'}</p>
+            <p>{searchHint(searchResults.length, compoundResults.length)}</p>
           </div>
         </div>
-        {searchResults.length > 0
-          ? <SearchResults query={committedQuery} words={searchResults} onOpenRoot={onSelectRoot} onStudyWord={(id) => study(id)} limit={50} sound={sound} completedWordIds={completedWordIds} />
-          : <DictionaryLookup query={committedQuery} sound={sound} onPartClick={(p) => { setInputValue(p); setCommittedQuery(p) }} />}
+        {searchResults.length > 0 && <SearchResults query={committedQuery} words={searchResults} onOpenRoot={onSelectRoot} onStudyWord={(id) => study(id)} limit={50} sound={sound} completedWordIds={completedWordIds} />}
+        {compoundResults.length > 0 && (
+          <section className="compound-block">
+            <div className="compound-head">
+              <h3>复合词命中</h3>
+              <span className="compound-count">{compoundResults.length} 个</span>
+            </div>
+            <p className="root-hint">两个独立单词拼成的词，不进拼词游戏；拆开看帮你记拼写。释义取自词典，只作参考。</p>
+            <CompoundWordsTable entries={compoundResults} onOpenRoot={onSelectRoot} sound={sound} query={committedQuery} />
+          </section>
+        )}
+        {searchResults.length === 0 && compoundResults.length === 0 && <DictionaryLookup query={committedQuery} sound={sound} onPartClick={(p) => { setInputValue(p); setCommittedQuery(p) }} />}
       </section>
     )
   }
@@ -428,22 +542,42 @@ export function SearchView({ query, onBack, onOpenRoot, onStudyWord, sound, comp
   const trimmed = query.trim()
   const results = searchAllWords(query)
   const rootCount = new Set(results.map((word) => getRootId(word, getMorpheme))).size
+  const compoundReady = useCompoundData()
+  const compoundResults = useMemo(() => (compoundReady ? searchCompoundWords(query, 50) : []), [compoundReady, query])
   return (
     <section className="page-section atlas-page">
       <button type="button" className="back-link" onClick={onBack}>← 返回</button>
       <div className="section-heading">
         <div>
           <h2>搜索「{trimmed}」</h2>
-          <p>命中 {results.length} 个单词{results.length > 0 ? `，分属 ${rootCount} 个词根` : ''}。点任意一行直接把这个词学掉；也可以点组头的链接看该词根的全部单词。</p>
+          <p>{results.length > 0 ? `命中 ${results.length} 个单词，分属 ${rootCount} 个词根。点任意一行直接把这个词学掉；也可以点组头的链接看该词根的全部单词。` : ''}{compoundResults.length > 0 ? `另有 ${compoundResults.length} 个复合词命中。` : ''}{results.length === 0 && compoundResults.length === 0 ? '词根词库里没有这个词，下面是词典结果。' : ''}</p>
         </div>
       </div>
-      {results.length === 0 ? (
+      {results.length > 0 && <SearchResults query={query} words={results} onOpenRoot={onOpenRoot} onStudyWord={onStudyWord} sound={sound} completedWordIds={completedWordIds} />}
+      {compoundResults.length > 0 && (
+        <section className="compound-block">
+          <div className="compound-head">
+            <h3>复合词命中</h3>
+            <span className="compound-count">{compoundResults.length} 个</span>
+          </div>
+          <p className="root-hint">两个独立单词拼成的词，不进拼词游戏；拆开看帮你记拼写。释义取自词典，只作参考。</p>
+          <CompoundWordsTable entries={compoundResults} onOpenRoot={onOpenRoot} sound={sound} query={query} />
+        </section>
+      )}
+      {results.length === 0 && compoundResults.length === 0 && (
         <DictionaryLookup query={query} sound={sound} onPartClick={onPartClick} />
-      ) : (
-        <SearchResults query={query} words={results} onOpenRoot={onOpenRoot} onStudyWord={onStudyWord} sound={sound} completedWordIds={completedWordIds} />
       )}
     </section>
   )
+}
+
+/** 搜索说明文字：词库命中 / 复合词命中 / 两边都没有（那就走词典兜底）三种情况。 */
+function searchHint(libraryHits: number, compoundHits: number): string {
+  const parts: string[] = []
+  if (libraryHits > 0) parts.push(`词根词库命中 ${libraryHits} 个单词，点任意一行直接把这个词学掉`)
+  if (compoundHits > 0) parts.push(`另有 ${compoundHits} 个复合词命中`)
+  if (parts.length === 0) return '词根词库里没有这个词，下面是词典结果。'
+  return `${parts.join('；')}。`
 }
 
 function getStabilityBandLabel(stability: number): string {

@@ -14,6 +14,7 @@
     "test": "vitest run",
     "validate:content": "node scripts/validate-content.mjs",
     "audio:build": "node scripts/tools/80-build-audio.mjs",
+    "compounds:build": "node scripts/tools/45-build-compounds-content.mjs",
     "audit:etymology": "node scripts/tools/audit-etymology-risk.mjs",
     "content:all": "node scripts/tools/build-stage3-config.mjs && node scripts/10-build-roots.mjs && node scripts/11-glossary-llm-clean.mjs && node scripts/12-glossary-rules.mjs && node scripts/13-glossary-llm-review.mjs && node scripts/20-select-words.mjs scripts/lib/stage3-content.json && node scripts/21-split-morphemes.mjs scripts/lib/stage3-content.json && node scripts/22-choose-examples.mjs && node scripts/30-llm-prose.mjs && node scripts/40-assemble.mjs scripts/lib/stage3-content.json && node scripts/tools/build-a23-d5-gap.mjs && node scripts/validate-content.mjs && node scripts/60-llm-review-content.mjs && node scripts/70-report.mjs"
   },

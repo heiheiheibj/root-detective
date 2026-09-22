@@ -530,9 +530,9 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
   .table-scroll { border-radius: 12px; }
   .root-words { min-width: 0; border: none; background: transparent; }
   .root-words thead { display: none; }
-  .root-words tbody tr.word-row { display: block; border: 1px solid var(--line); border-radius: 12px; margin: 10px 0; padding: 10px 14px; background: #fff; }
+  .root-words tbody tr.word-row, .root-words tbody tr.compound-row { display: block; border: 1px solid var(--line); border-radius: 12px; margin: 10px 0; padding: 10px 14px; background: #fff; }
   .root-words tbody td { display: flex; align-items: baseline; gap: 12px; padding: 6px 0; border-bottom: 1px dashed #eef2f6; font-size: 14px; }
-  .root-words tbody tr.word-row td:last-child { border-bottom: none; }
+  .root-words tbody tr.word-row td:last-child, .root-words tbody tr.compound-row td:last-child { border-bottom: none; }
   .root-words tbody td::before { content: attr(data-label); flex: 0 0 78px; color: var(--muted); font-size: 12px; }
   .root-words .cell-word { flex-direction: column; align-items: flex-start; gap: 2px; }
   .root-words .cell-word::before { content: none; }
@@ -563,6 +563,25 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .cell-word .learned-badge { display: inline-block; margin-top: 5px; padding: 1px 8px; border-radius: 999px; background: #e7f7ec; color: #1f9d55; font-size: 11px; font-weight: 700; }
 .row-highlight { animation: rowFlash 1.6s ease-out; }
 @keyframes rowFlash { from { background: #fff4cc; } to { background: transparent; } }
+
+/* 词根详情：复合词一节（两个独立单词拼成，不是词根，所以没有学习入口） */
+.compound-block { margin-top: 30px; }
+.compound-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; }
+.compound-head h3 { margin: 0; font-size: 21px; color: var(--cream); }
+.compound-count { color: var(--muted); font: 12px ui-monospace, Consolas, monospace; }
+/* 「复合词」标记：一眼看出这张表是拼起来的词，不是词根 */
+.root-words .method-chip { display: inline-block; margin-right: 4px; padding: 1px 7px; border-radius: 999px; background: #fff3e0; color: #b45309; font-size: 11px; font-weight: 700; line-height: 20px; }
+/* 复合词表只有三列，宽度自己定，不沿用词根表的四列 */
+.compound-words th:nth-child(1) { width: 18%; }
+.compound-words th:nth-child(2) { width: 52%; }
+.compound-words th:nth-child(3) { width: 30%; }
+.compound-words th:nth-child(4) { width: auto; }
+/* 复合词行不可点（没有学习入口），悬停只做轻微提示 */
+.root-words tbody tr.compound-row:hover { background: #fbfaf7; }
+/* 零件自己也有词根页时做成虚线胶囊，和纯文本零件区分开（点了能跳过去） */
+.root-words .seg-part-link { border-style: dashed; background: #fff; color: var(--blue); cursor: pointer; font-family: inherit; }
+.root-words .seg-part-link:hover { background: #eef4ff; }
+.atlas-count-break { display: block; margin-top: 4px; font-size: 12px; }
 
 /* 今天页：复习入口可点击 */
 .summary-cta { display: block; width: 100%; text-align: left; border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; background: #fff; cursor: pointer; transition: border-color .12s ease, background .12s ease; }
