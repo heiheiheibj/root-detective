@@ -78,6 +78,8 @@ function App() {
   const [activeView, setActiveView] = useState('today')
   // 词根地图里当前展开的词根详情；提升到这层，这样从详情页去学一个词再回来仍停在原词根（直接学习线保留上下文）。
   const [atlasRootId, setAtlasRootId] = useState<string | null>(null)
+  // 侧栏/底部导航再点一次「词根地图」时用它强制重挂载：清掉词根详情与页内搜索的残留状态，回到地图首页
+  const [atlasResetKey, setAtlasResetKey] = useState(0)
   // 刚从词根表直接学完的那个词；学完回到词根表时让它高亮并滚动到视口。
   const [lastStudiedWordId, setLastStudiedWordId] = useState<string | null>(null)
   // 听写模式：拼词时遮住单词拼写，只放发音，逼用户回忆怎么拼。
@@ -229,6 +231,18 @@ function App() {
     startFirstWord()
   }
 
+  /**
+   * 导航切换。点到「词根地图」时必须一并复位：否则若当前正处于某个词根详情页
+   * （activeView 已是 atlas），只切 activeView 等于什么都没发生，用户会以为返回按钮失灵。
+   */
+  function goToView(id: string) {
+    setActiveView(id)
+    if (id === 'atlas') {
+      setAtlasRootId(null)
+      setAtlasResetKey((k) => k + 1)
+    }
+  }
+
   /** 拼词学完后回到词根表：停在刚学的那个词根，并让刚学的词高亮定位。 */
   function backToAtlas() {
     setAtlasRootId(caseRun.rootId)
@@ -348,7 +362,7 @@ function App() {
         />
         <button type="submit" className="sidebar-search-btn">搜索</button>
       </form>
-      <nav className="main-nav" aria-label="主导航">{navItems.map((item) => <button className={`nav-item ${activeView === item.id ? 'active' : ''}`} aria-current={activeView === item.id ? 'page' : undefined} key={item.id} onClick={() => setActiveView(item.id)}><span className="nav-icon" aria-hidden="true">{item.icon}</span><span>{item.label}</span>{navBadge(item.id) > 0 && <b className="nav-count">{navBadge(item.id)}</b>}</button>)}</nav>
+      <nav className="main-nav" aria-label="主导航">{navItems.map((item) => <button className={`nav-item ${activeView === item.id ? 'active' : ''}`} aria-current={activeView === item.id ? 'page' : undefined} key={item.id} onClick={() => goToView(item.id)}><span className="nav-icon" aria-hidden="true">{item.icon}</span><span>{item.label}</span>{navBadge(item.id) > 0 && <b className="nav-count">{navBadge(item.id)}</b>}</button>)}</nav>
       <button className="help-button" onClick={() => setHelpOpen(true)}>怎么玩？</button>
       <div className="sidebar-spacer" />
       <div className="streak-card"><div className="streak-top"><span className="eyebrow">连续学习</span><span className="streak-flame" aria-hidden="true">✦</span></div><strong>{currentStreak} <small>天</small></strong><div className="streak-track" role="progressbar" aria-label="连续学习天数" aria-valuemin={0} aria-valuemax={7} aria-valuenow={Math.min(7, currentStreak)}><span style={{ width: `${Math.min(100, currentStreak / 7 * 100)}%` }} /></div><p>{currentStreak >= 7 ? '连着一周了，别断。' : '今天学一个，连续天数就不会断。'}</p></div>
@@ -360,7 +374,7 @@ function App() {
       {activeView === 'today' && <TodayView profile={profile} levelInfo={levelInfo} currentStreak={currentStreak} reviewCount={navCount} onboardingCompleted={profile.onboardingCompleted} onStart={startTodayPrimary} onContinue={() => setActiveView('case')} onReview={() => setActiveView('regression')} onDictation={startDictation} />}
       {activeView === 'case' && (word ? <CaseRoom word={word} root={root} currentProgress={currentProgress} diagnosis={diagnosis} stage={stage} selected={selected} availableCards={availableCards} hint={hint} buildFeedback={buildFeedback} buildAttempts={buildAttempts} shuffledOptions={shuffledOptions} forgeChoice={forgeChoice} forgeFeedback={forgeFeedback} forgeAttempts={forgeAttempts} rewardSummary={rewardSummary} family={family} onSelectCard={selectCard} onSubmitBuild={submitBuild} onSelectForge={selectForgeOption} onSubmitForge={submitForge} onFinish={finishWord} onNextWord={nextWord} onReview={() => setActiveView('regression')} onChooseWord={(id) => chooseWord(id, getContinuationMode(caseRun))} maskWord={maskWord} sound={effectiveAudio} onBackToAtlas={backToAtlas} /> : <section className="page-section case-page"><div className="empty-state">{wordFailed ? <><span className="eyebrow">加载失败</span><h3>词条详情没加载出来</h3><p>分片没能取到，重新加载一次试试。</p><button className="primary-button" onClick={() => window.location.reload()}>重新加载</button></> : <><span className="eyebrow">装载中</span><h3>词条详情马上就到</h3><p>详情按需加载，只这一瞬。</p></>}</div></section>)}
       {activeView === 'regression' && <ReviewView profile={profile} onFinishRound={finishMatchReview} />}
-      {activeView === 'atlas' && <AtlasView profile={profile} progressByRoot={progressByRoot} selectedRootId={atlasRootId} onSelectRoot={setAtlasRootId} onStudyWord={(id) => chooseWord(id)} sound={effectiveAudio} completedWordIds={completedSet} highlightWordId={lastStudiedWordId} />}
+      {activeView === 'atlas' && <AtlasView key={atlasResetKey} profile={profile} progressByRoot={progressByRoot} selectedRootId={atlasRootId} onSelectRoot={setAtlasRootId} onStudyWord={(id) => chooseWord(id)} sound={effectiveAudio} completedWordIds={completedSet} highlightWordId={lastStudiedWordId} />}
       {activeView === 'weak' && <WeakView profile={profile} onStudyWord={(id) => chooseWord(id)} sound={effectiveAudio} completedWordIds={completedSet} />}
       {activeView === 'search' && <SearchView query={searchQuery} onBack={() => setActiveView('atlas')} onOpenRoot={(id) => { setAtlasRootId(id); setActiveView('atlas') }} onStudyWord={(id) => chooseWord(id)} sound={effectiveAudio} completedWordIds={completedSet} onPartClick={(p) => setSearchQuery(p)} />}
       {activeView === 'stats' && <StatsView stats={deriveStats(profile)} />}
@@ -372,7 +386,7 @@ function App() {
     </main>
     <nav className="bottom-nav" aria-label="底部导航">
       {navItems.map((item) => (
-        <button key={item.id} className={`bottom-nav-item ${activeView === item.id ? 'active' : ''}`} aria-current={activeView === item.id ? 'page' : undefined} onClick={() => setActiveView(item.id)}>
+        <button key={item.id} className={`bottom-nav-item ${activeView === item.id ? 'active' : ''}`} aria-current={activeView === item.id ? 'page' : undefined} onClick={() => goToView(item.id)}>
           <span className="nav-icon" aria-hidden="true">{item.icon}</span>
           <span className="bottom-nav-label">{item.label}</span>
           {navBadge(item.id) > 0 && <b className="bottom-nav-count">{navBadge(item.id)}</b>}
