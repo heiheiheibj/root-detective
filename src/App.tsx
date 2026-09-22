@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react'
 import { normalizeMorphemeKey } from './domain/contentRules'
 import nonTeachingRoots from './domain/content/non-teaching-roots.json'
 import { audioRepository, contentRepository, progressRepository } from './data/repositories'
@@ -7,8 +7,11 @@ import { computeAchievements, getUnlockedCount } from './domain/achievements'
 import { deriveStats } from './domain/profileStats'
 import { loadSettings, saveSettings, type Settings } from './data/settings'
 import { applyCompletedCase, applyIncorrectAttempt, applyMatchReview, assimilationHint, createMetaphorDiagnosis, createSplitDiagnosis, getContinuationMode, getCurrentStreak, getLevelInfo, getLocalDayKey, getMistakeEventId, getReviewBoard, getReviewQueue, getRootId, getStabilityBand, isDuplicateSubmit, isSplitCorrect, pickNextWord, shuffledMetaphorOptions, shuffle } from './domain/logic'
-import HelpOverlay from './HelpOverlay'
-import { AtlasView, SearchView, RootWordsTable } from './views/atlas'
+// 按需分割：这三个视图与帮助浮层的代码从首屏包移出，用到时才下载（都来自同一 chunk，只请求一次）
+const AtlasView = lazy(() => import('./views/atlas').then((m) => ({ default: m.AtlasView })))
+const SearchView = lazy(() => import('./views/atlas').then((m) => ({ default: m.SearchView })))
+const RootWordsTable = lazy(() => import('./views/atlas').then((m) => ({ default: m.RootWordsTable })))
+const HelpOverlay = lazy(() => import('./HelpOverlay'))
 import { isCloudConfigured, pushProfile } from './data/cloud'
 import { loadProfile } from './domain/persistence'
 
@@ -353,6 +356,7 @@ function App() {
     </aside>
     <main className="main-content">
       <header className="topbar"><div><span className="eyebrow">{formatToday()}</span><h1>{activeView === 'search' ? '搜索' : navItems.find((item) => item.id === activeView)?.label ?? '今天'}</h1></div><div className="top-actions"><div className="points"><span className="points-dot" aria-hidden="true">✦</span><strong>{profile.insightPoints}</strong><span>洞察点</span></div></div></header>
+      <Suspense fallback={<section className="page-section"><div className="empty-state"><span className="eyebrow">加载中</span><h3>正在装载…</h3></div></section>}>
       {activeView === 'today' && <TodayView profile={profile} levelInfo={levelInfo} currentStreak={currentStreak} reviewCount={navCount} onboardingCompleted={profile.onboardingCompleted} onStart={startTodayPrimary} onContinue={() => setActiveView('case')} onReview={() => setActiveView('regression')} onDictation={startDictation} />}
       {activeView === 'case' && (word ? <CaseRoom word={word} root={root} currentProgress={currentProgress} diagnosis={diagnosis} stage={stage} selected={selected} availableCards={availableCards} hint={hint} buildFeedback={buildFeedback} buildAttempts={buildAttempts} shuffledOptions={shuffledOptions} forgeChoice={forgeChoice} forgeFeedback={forgeFeedback} forgeAttempts={forgeAttempts} rewardSummary={rewardSummary} family={family} onSelectCard={selectCard} onSubmitBuild={submitBuild} onSelectForge={selectForgeOption} onSubmitForge={submitForge} onFinish={finishWord} onNextWord={nextWord} onReview={() => setActiveView('regression')} onChooseWord={(id) => chooseWord(id, getContinuationMode(caseRun))} maskWord={maskWord} sound={effectiveAudio} onBackToAtlas={backToAtlas} /> : <section className="page-section case-page"><div className="empty-state">{wordFailed ? <><span className="eyebrow">加载失败</span><h3>词条详情没加载出来</h3><p>分片没能取到，重新加载一次试试。</p><button className="primary-button" onClick={() => window.location.reload()}>重新加载</button></> : <><span className="eyebrow">装载中</span><h3>词条详情马上就到</h3><p>详情按需加载，只这一瞬。</p></>}</div></section>)}
       {activeView === 'regression' && <ReviewView profile={profile} onFinishRound={finishMatchReview} />}
@@ -362,8 +366,9 @@ function App() {
       {activeView === 'stats' && <StatsView stats={deriveStats(profile)} />}
       {activeView === 'achievements' && <AchievementsView profile={profile} unlockedCount={getUnlockedCount(profile)} />}
       {activeView === 'settings' && <SettingsView settings={settings} onToggleSound={(on) => updateSettings({ ...settings, soundEnabled: on })} onResetProgress={handleResetProgress} onExportProgress={handleExportProgress} onImportProgress={handleImportProgress} onToggleCloud={handleToggleCloud} onSyncNow={handleSyncNow} cloudConfigured={cloudConfigured} />}
+      </Suspense>
       {toast && <div className="toast" role="status" aria-live="polite">{toast}</div>}
-      {helpOpen && <HelpOverlay onClose={closeHelp} onFinish={startFromHelp} />}
+      {helpOpen && <Suspense fallback={null}><HelpOverlay onClose={closeHelp} onFinish={startFromHelp} /></Suspense>}
     </main>
     <nav className="bottom-nav" aria-label="底部导航">
       {navItems.map((item) => (

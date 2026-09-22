@@ -14,5 +14,18 @@ export default defineConfig({
   // 但 dist 里同时有 bin/(dll 会被 IIS 占用锁定)、App_Data/、Dict.aspx 等接口文件。
   // 若让 Vite 清空 dist，删 bin 会失败并导致整个构建中止（前端不产出）——所以禁用它。
   // 前端旧产物（assets/index.html）由 scripts/deploy-iis.mjs 负责清理。
-  build: { emptyOutDir: false },
+  build: {
+    emptyOutDir: false,
+    rollupOptions: {
+      output: {
+        // 把「生成的内容数据」单独拆一个 chunk：它体积最大(约1MB)且变动最少，
+        // 与应用代码分开后，改业务代码不会让用户重下这份数据（缓存命中）。
+        manualChunks(id: string) {
+          if (id.includes('node_modules')) return 'vendor'
+          if (id.includes('/src/domain/data.ts')) return 'content'
+          return undefined
+        },
+      },
+    },
+  },
 })
