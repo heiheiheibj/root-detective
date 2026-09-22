@@ -362,6 +362,7 @@ function App() {
         />
         <button type="submit" className="sidebar-search-btn">搜索</button>
       </form>
+      <p className="sidebar-search-hint">想知道一个词怎么拼成？输单词就能查：词根或复合词都行（试试 eyeball、ballpark）</p>
       <nav className="main-nav" aria-label="主导航">{navItems.map((item) => <button className={`nav-item ${activeView === item.id ? 'active' : ''}`} aria-current={activeView === item.id ? 'page' : undefined} key={item.id} onClick={() => goToView(item.id)}><span className="nav-icon" aria-hidden="true">{item.icon}</span><span>{item.label}</span>{navBadge(item.id) > 0 && <b className="nav-count">{navBadge(item.id)}</b>}</button>)}</nav>
       <button className="help-button" onClick={() => setHelpOpen(true)}>怎么玩？</button>
       <div className="sidebar-spacer" />
