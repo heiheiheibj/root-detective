@@ -71,6 +71,20 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .case-stamp { width: 116px; height: 116px; border: 2px solid var(--blue); border-radius: 50%; display: grid; place-items: center; text-align: center; transform: rotate(-10deg); flex: 0 0 auto; margin: 0 22px 2px 30px; }
 .case-stamp span, .case-stamp small { display: block; font: 700 12px ui-monospace, Consolas, monospace; letter-spacing: .08em; color: var(--blue); }
 .case-stamp strong { font: 700 20px/1 system-ui, sans-serif; color: #08437f; }
+/* 第一屏：词根 / 复合词记忆的好处 + 搜索提示 */
+.intro-band { max-width: 1100px; margin: 22px 0 0; padding: 20px 22px; border: 1px solid var(--line); background: var(--panel); border-radius: 14px; box-shadow: 0 2px 10px rgb(23 32 51 / 8%); }
+.intro-head { margin-bottom: 14px; }
+.intro-head h3 { margin: 6px 0 0; font: 700 22px/1.25 system-ui, sans-serif; color: var(--cream); letter-spacing: -.01em; }
+.intro-benefits { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.intro-benefits li { padding: 14px 15px; border: 1px solid var(--line); border-radius: 11px; background: var(--bg); }
+.intro-benefits b { display: block; margin-bottom: 5px; font-size: 15px; color: var(--blue); }
+.intro-benefits p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.6; }
+.intro-tip { display: flex; gap: 12px; align-items: flex-start; margin-top: 16px; padding: 13px 15px; border-radius: 11px; background: #fdf1e7; border: 1px solid #f0c9a8; }
+.tip-mark { flex: 0 0 auto; align-self: center; padding: 3px 10px; border-radius: 999px; background: var(--orange); color: #fff; font: 700 12px system-ui, sans-serif; letter-spacing: .04em; }
+.intro-tip p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.7; }
+.tip-link, .tip-example { border: 0; padding: 0 2px; background: none; color: var(--blue); font: inherit; font-weight: 700; cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+.tip-example { color: var(--orange); }
+.tip-link:hover, .tip-example:hover { opacity: .8; }
 .workspace-grid { max-width: 1100px; display: grid; grid-template-columns: minmax(0, 1fr) 295px; gap: 18px; padding-top: 26px; }
 .detective-panel, .evidence-panel { border: 1px solid var(--line); background: var(--panel); box-shadow: 0 2px 10px rgb(23 32 51 / 8%); }
 .detective-panel { min-height: 574px; }
@@ -478,6 +492,7 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 @media (max-width: 980px) { .sidebar { width: 208px; } .workspace-grid { grid-template-columns: 1fr; } .evidence-panel { display: grid; grid-template-columns: 1fr 1fr; } .evidence-panel .panel-head { grid-column: span 2; } .note-card { align-self: end; } .atlas-grid { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 720px) { .app-shell { display: block; } .sidebar { width: 100%; padding: 16px 16px 11px; border-right: 0; border-bottom: 1px solid var(--line); } .sidebar-kicker, .sidebar-spacer, .streak-card, .profile-button { display: none; } .brand-lockup { padding: 0; } .main-nav { display: flex; overflow-x: auto; margin-top: 15px; gap: 4px; } .nav-item { flex: 0 0 auto; min-height: 48px; padding: 0 12px; } .nav-item span:last-of-type { font-size: 15px; } .main-content { padding: 25px 16px 45px; } .topbar { margin-bottom: 38px; } .topbar h1 { font-size: 28px; } .points { margin-left: 0; } .hero-band { align-items: flex-start; gap: 22px; } .hero-band h2 { font-size: 43px; } .case-stamp { width: 85px; height: 85px; margin: 0; } .case-stamp strong { font-size: 14px; } .case-stamp span, .case-stamp small { font-size: 10px; } .panel-head { padding: 20px 17px 18px; } .case-steps { padding: 13px 17px; gap: 4px; } .case-steps li { grid-template-columns: 24px 1fr; column-gap: 4px; } .case-steps li > span { width: 24px; height: 24px; } .case-steps li strong { font-size: 12px; } .case-steps li small { font-size: 11px; } .stage-content { padding: 22px 17px 25px; } .assembly-slots, .morpheme-grid, .hint-row, .stage-content > .primary-button, .option-list, .literal-equation, .semantic-ladder, .reveal-box, .proof-grid, .example-box, .hand-label { margin-left: 0; } .assembly-slots { gap: 7px; } .assembly-slot { min-width: 0; flex: 1 1 25%; height: 52px; font-size: 13px; } .morpheme-grid { display: grid; grid-template-columns: repeat(2, 1fr); } .morpheme-card { min-width: 0; } .proof-grid { grid-template-columns: 1fr; } .reward-actions { flex-direction: column; } .reward-actions button { width: 100%; } .evidence-panel { display: block; } .evidence-panel .panel-head { padding: 20px 17px 18px; } .root-card, .family-section, .note-card { margin-left: 17px; margin-right: 17px; } .section-heading { align-items: flex-start; gap: 18px; } .section-heading h2 { font-size: 41px; } .atlas-grid { grid-template-columns: repeat(2, 1fr); } .world-card .atlas-grid { grid-template-columns: repeat(2, 1fr); } .onboarding-card { display: grid; padding: 17px; } .briefing-steps { justify-content: space-between; } .today-grid { display: grid; } .today-grid button { width: 100%; } .profile-summary { grid-template-columns: 1fr; } .diagnosis-bar { margin-left: 17px; margin-right: 17px; } .diagnosis-bar dl { grid-template-columns: 1fr; } }
 @media (max-width: 430px) { .hero-band { display: block; } .case-stamp { margin-top: 22px; } .hero-band h2 { font-size: 39px; } .word-line h3 { font-size: 33px; } .points span { display: none; } .atlas-grid { grid-template-columns: 1fr; } .world-card .atlas-grid { grid-template-columns: 1fr; } .case-steps li strong { font-size: 11px; } .case-steps li small { display: none; } }
+@media (max-width: 720px) { .intro-band { padding: 15px 16px; } .intro-head h3 { font-size: 19px; } .intro-benefits { grid-template-columns: 1fr; gap: 10px; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; } }
 
 /* 搜索框（词根地图 / 详情） */
@@ -645,6 +660,14 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 
 /* 错词本页：复用通用页面与词根表样式，这里只补标题区留白 */
 .weak-page .empty-state { margin-top: 22px; }
+
+/* 浏览历史页 */
+.history-page .empty-state { margin-top: 22px; }
+.history-actions { display: flex; justify-content: flex-end; margin-bottom: 12px; }
+.history-list { list-style: none; margin: 0; padding: 0; }
+.history-list li + li { border-top: 1px solid #dbe3eb; }
+.history-list .family-word { grid-template-columns: auto 1fr 15px; gap: 12px; }
+.history-time { color: var(--muted); font-size: 13px; white-space: nowrap; }
 
 /* ---------- 兜底词典（查不在词根词库里的词） ---------- */
 .dict-card { max-width: 640px; margin-top: 14px; padding: 16px 18px; border: 1px solid var(--line); border-radius: 14px; background: #fff; }

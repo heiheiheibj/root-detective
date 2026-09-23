@@ -53,6 +53,52 @@ npm run validate:content
 
 ---
 
+## 部署（IIS + ASPX）
+
+本项目是**前后端一体**的站点：前端是 Vite 构建的静态文件，后端是 `Dict.aspx` 这个极简词典接口（查不在词根库里的词）。两者都放在同一个 `dist/` 目录里，由 **IIS** 统一托管——`npm` 只负责构建，运行时全靠 IIS。
+
+### 构建并打包
+
+```bash
+npm run deploy
+```
+
+`scripts/deploy-iis.mjs` 会：① 清理 `dist/` 里旧的前端产物；② `npm run build` 重新构建；③ 把 `Dict.aspx` / `Dict.aspx.cs` / `Web.config` 覆盖进 `dist/`；④ 首次才复制 `bin/`、`App_Data/`（dll 被 IIS 锁定、db 较大，已存在就跳过）。
+
+### IIS 配置
+
+- 网站**物理路径 = 本项目根目录下的 `dist/`**（不是项目根目录）。
+- 默认文档设为 `index.html`。
+- `Dict.aspx` 由 IIS 即时编译，**无需**先 build；数据库 `dist/App_Data/dict.db`（SQLite，约 59MB）随站点一起部署即可。
+
+### 两层职责
+
+| 层 | 技术 | 作用 | 是否必需 |
+| --- | --- | --- | --- |
+| 前端 | React + Vite（静态文件） | 拼词、复习、错词本等全部学习功能，词库打包进 JS | 必需 |
+| 后端 | `Dict.aspx`（ASP.NET，读 SQLite） | 兜底词典：查词根库里没有的词，返回音标 + 释义 | 仅「搜陌生词」需要 |
+
+### 为什么本地只用 NPM 也能跑
+
+`npm run dev` 起的是 Vite 开发服务器（默认 5173 端口），**不含 ASPX**。此时核心学习功能完全正常；只有「搜索一个库里没有的生词」会调 `/Dict.aspx`，dev 环境下该接口不存在，代码会静默降级为「没找到」，不影响主流程。要本地也验证兜底词典，需在本机装 IIS 并把 `dist/` 挂成站点。
+
+> 上传服务器时记得整个 `dist/` 一起传，`App_Data/dict.db` 约 59MB 别漏；以后若换了 `dict.db` 词库，要手动把它拷进 `dist/App_Data/`（发布脚本对 `bin/`、`App_Data/` 是「已存在就跳过」）。
+
+### Python 版兜底词典（可选，与 ASP.NET 并存）
+
+如果不想依赖 IIS / .NET，仓库根目录另有 `server.py`——纯标准库实现、零第三方依赖，接口与 `Dict.aspx` **完全对等**（同路径 `/Dict.aspx`、同 JSON 结构），可直接替代 IIS 托管整套站点：
+
+```bash
+pip install  # 无需，仅用标准库
+PORT=8000 python server.py      # http://0.0.0.0:8000
+```
+
+- 它既提供 `/Dict.aspx` 词典接口（读 `dist/App_Data/dict.db`），也顺带托管 `dist/` 下的前端静态文件。
+- **并存方式**：IIS 占 80、Python 占 8000；前端调哪个端口的 `/Dict.aspx` 就走哪套后端，无需改任何前端代码。本地想验证 Python 版兜底词典时，把前端接到 8000 即可。
+- 受限环境若 `0.0.0.0` 绑定被拒，可 `HOST=127.0.0.1 PORT=8765 python server.py`。
+
+---
+
 ## 目录结构
 
 ```

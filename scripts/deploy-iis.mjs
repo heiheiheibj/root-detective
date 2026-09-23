@@ -13,7 +13,7 @@
  * 运行：npm run deploy
  */
 import { execSync, execFileSync } from 'child_process'
-import { copyFileSync, existsSync, mkdirSync, readdirSync, statSync } from 'fs'
+import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from 'fs'
 import { dirname, join, resolve } from 'path'
 
 const OUT = 'dist'
@@ -43,6 +43,16 @@ rmDir(`${OUT}/assets`)
 // 2) 构建前端（emptyOutDir=false，不会去删 dist 里的接口文件）
 console.log('[deploy] 构建前端…')
 execSync('npm run build', { stdio: 'inherit', shell: true })
+
+// 2.5) 给 Service Worker 换个新缓存版本，否则老用户浏览器会一直用旧缓存、看不到更新。
+//       SW 的缓存名带 CACHE_VERSION，每次发布都换成时间戳，activate 时会清掉旧缓存。
+const swPath = join(OUT, 'sw.js')
+if (existsSync(swPath)) {
+  const next = 'v' + Date.now().toString(36)
+  const sw = readFileSync(swPath, 'utf8').replace(/CACHE_VERSION = '[^']+'/, `CACHE_VERSION = '${next}'`)
+  writeFileSync(swPath, sw)
+  console.log('[deploy] SW 缓存版本 ->', next)
+}
 
 // 3) 复制接口文件
 //    - 代码/配置每次覆盖（不被锁定）

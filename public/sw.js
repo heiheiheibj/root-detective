@@ -11,7 +11,7 @@
  *
  * 改完这里要动 CACHE_VERSION，否则老版本缓存不会被清掉。
  */
-const CACHE_VERSION = 'v1'
+const CACHE_VERSION = 'v2'
 const SHELL_CACHE = `rootdetective-shell-${CACHE_VERSION}`
 const RUNTIME_CACHE = `rootdetective-runtime-${CACHE_VERSION}`
 const SHELL_URLS = ['./', './index.html', './manifest.webmanifest', './favicon.svg']

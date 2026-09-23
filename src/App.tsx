@@ -14,6 +14,7 @@ const RootWordsTable = lazy(() => import('./views/atlas').then((m) => ({ default
 const HelpOverlay = lazy(() => import('./HelpOverlay'))
 import { isCloudConfigured, pushProfile } from './data/cloud'
 import { loadProfile } from './domain/persistence'
+import { loadHistory, recordHistory, clearHistory, type HistoryEntry } from './data/history'
 
 // 页面只认 repository 接口：把接口成员解构成本文件一直在用的那些名字，
 // 调用点一个字都不用改，将来换成 Supabase 适配器时这里也不用动。
@@ -28,6 +29,7 @@ const navItems = [
   { id: 'case', label: '拼单词', icon: '▣' },
   { id: 'regression', label: '复习', icon: '↻' },
   { id: 'weak', label: '错词', icon: '✕' },
+  { id: 'history', label: '历史', icon: '🕘' },
   { id: 'atlas', label: '词根地图', icon: '◈' },
   { id: 'stats', label: '统计', icon: '◳' },
   { id: 'achievements', label: '成就', icon: '★' },
@@ -143,6 +145,7 @@ function App() {
 
   function chooseWord(nextWordId: string, mode: CaseMode = 'compiler', originMode?: CaseMode, masked = false) {
     const stableMode = mode === 'debugger' ? originMode === 'regression' ? 'regression' : 'compiler' : mode
+    recordHistory(nextWordId)
     setWordId(nextWordId)
     setCaseRun(makeCaseRun(nextWordId, mode, profile, stableMode))
     setMaskWord(masked)
@@ -167,6 +170,12 @@ function App() {
     const pool = profile.completedWordIds.length > 0 ? profile.completedWordIds : words.map((item) => item.id)
     const pick = pool[Math.floor(Math.random() * pool.length)]
     chooseWord(pick, 'compiler', undefined, true)
+  }
+
+  /** 首页搜索提示里的「试试搜 environmental」：直接跳到搜索结果页。 */
+  function startSearch(query: string) {
+    setSearchQuery(query)
+    setActiveView('search')
   }
 
   /** 清空进度：保留发音等设置，只丢学习数据。危险操作，确认在 SettingsView 里完成。 */
@@ -372,11 +381,12 @@ function App() {
     <main className="main-content">
       <header className="topbar"><div><span className="eyebrow">{formatToday()}</span><h1>{activeView === 'search' ? '搜索' : navItems.find((item) => item.id === activeView)?.label ?? '今天'}</h1></div><div className="top-actions"><div className="points"><span className="points-dot" aria-hidden="true">✦</span><strong>{profile.insightPoints}</strong><span>洞察点</span></div></div></header>
       <Suspense fallback={<section className="page-section"><div className="empty-state"><span className="eyebrow">加载中</span><h3>正在装载…</h3></div></section>}>
-      {activeView === 'today' && <TodayView profile={profile} levelInfo={levelInfo} currentStreak={currentStreak} reviewCount={navCount} onboardingCompleted={profile.onboardingCompleted} onStart={startTodayPrimary} onContinue={() => setActiveView('case')} onReview={() => setActiveView('regression')} onDictation={startDictation} />}
+      {activeView === 'today' && <TodayView profile={profile} levelInfo={levelInfo} currentStreak={currentStreak} reviewCount={navCount} onboardingCompleted={profile.onboardingCompleted} onStart={startTodayPrimary} onContinue={() => setActiveView('case')} onReview={() => setActiveView('regression')} onDictation={startDictation} onSearch={startSearch} />}
       {activeView === 'case' && (word ? <CaseRoom word={word} root={root} currentProgress={currentProgress} diagnosis={diagnosis} stage={stage} selected={selected} availableCards={availableCards} hint={hint} buildFeedback={buildFeedback} buildAttempts={buildAttempts} shuffledOptions={shuffledOptions} forgeChoice={forgeChoice} forgeFeedback={forgeFeedback} forgeAttempts={forgeAttempts} rewardSummary={rewardSummary} family={family} onSelectCard={selectCard} onSubmitBuild={submitBuild} onSelectForge={selectForgeOption} onSubmitForge={submitForge} onFinish={finishWord} onNextWord={nextWord} onReview={() => setActiveView('regression')} onChooseWord={(id) => chooseWord(id, getContinuationMode(caseRun))} maskWord={maskWord} sound={effectiveAudio} onBackToAtlas={backToAtlas} /> : <section className="page-section case-page"><div className="empty-state">{wordFailed ? <><span className="eyebrow">加载失败</span><h3>词条详情没加载出来</h3><p>分片没能取到，重新加载一次试试。</p><button className="primary-button" onClick={() => window.location.reload()}>重新加载</button></> : <><span className="eyebrow">装载中</span><h3>词条详情马上就到</h3><p>详情按需加载，只这一瞬。</p></>}</div></section>)}
       {activeView === 'regression' && <ReviewView profile={profile} onFinishRound={finishMatchReview} />}
       {activeView === 'atlas' && <AtlasView key={atlasResetKey} profile={profile} progressByRoot={progressByRoot} selectedRootId={atlasRootId} onSelectRoot={setAtlasRootId} onStudyWord={(id) => chooseWord(id)} sound={effectiveAudio} completedWordIds={completedSet} highlightWordId={lastStudiedWordId} />}
       {activeView === 'weak' && <WeakView profile={profile} onStudyWord={(id) => chooseWord(id)} sound={effectiveAudio} completedWordIds={completedSet} />}
+      {activeView === 'history' && <HistoryView onStudyWord={(id) => chooseWord(id)} sound={effectiveAudio} completedWordIds={completedSet} />}
       {activeView === 'search' && <SearchView query={searchQuery} onBack={() => setActiveView('atlas')} onOpenRoot={(id) => { setAtlasRootId(id); setActiveView('atlas') }} onStudyWord={(id) => chooseWord(id)} sound={effectiveAudio} completedWordIds={completedSet} onPartClick={(p) => setSearchQuery(p)} />}
       {activeView === 'stats' && <StatsView stats={deriveStats(profile)} />}
       {activeView === 'achievements' && <AchievementsView profile={profile} unlockedCount={getUnlockedCount(profile)} />}
@@ -468,6 +478,50 @@ function WeakView({ profile, onStudyWord, sound, completedWordIds }: { profile: 
       {weakWords.length === 0
         ? <div className="empty-state"><span className="eyebrow">干净了</span><h3>暂时没有需要巩固的词</h3><p>答错的词会出现在这里，直到你学对一次。</p></div>
         : <RootWordsTable words={weakWords} onStudyWord={onStudyWord} sound={sound} completedWordIds={completedWordIds} />}
+    </section>
+  )
+}
+
+function relativeTime(ts: number): string {
+  const diff = Date.now() - ts
+  const min = Math.floor(diff / 60000)
+  if (min < 1) return '刚刚'
+  if (min < 60) return `${min} 分钟前`
+  const hr = Math.floor(min / 60)
+  if (hr < 24) return `${hr} 小时前`
+  const day = Math.floor(hr / 24)
+  return `${day} 天前`
+}
+
+function HistoryView({ onStudyWord, sound, completedWordIds }: { onStudyWord: (id: string) => void; sound?: { canSpeak(): boolean; speak(text: string, lang?: string): boolean }; completedWordIds?: ReadonlySet<string> }) {
+  const [entries, setEntries] = useState<HistoryEntry[]>(() => loadHistory().slice(0, 50))
+  function handleClear() {
+    clearHistory()
+    setEntries([])
+  }
+  return (
+    <section className="page-section history-page">
+      <div className="section-heading"><div><h2>浏览历史</h2><p>你最近看过的词，最多保留 50 条。点任意一条回去再学。</p></div><div className="atlas-count"><strong>{entries.length}</strong><span>条记录</span></div></div>
+      {entries.length === 0
+        ? <div className="empty-state"><span className="eyebrow">还没有</span><h3>暂时没有浏览记录</h3><p>开始学一个词，或者去搜索框查词，记录就会出现在这里。</p></div>
+        : <>
+            <div className="history-actions"><button type="button" className="secondary-button" onClick={handleClear}>清空历史</button></div>
+            <ul className="history-list">
+              {entries.map((entry) => {
+                const w = getWordCore(entry.id)
+                if (!w) return null
+                return (
+                  <li key={`${entry.id}-${entry.ts}`}>
+                    <button className="family-word" onClick={() => onStudyWord(w.id)}>
+                      <span className="history-time">{relativeTime(entry.ts)}</span>
+                      <span><strong>{w.word}</strong><small>{w.modernMeaningCn}</small></span>
+                      <span className="family-arrow">↗</span>
+                    </button>
+                  </li>
+                )
+              })}
+            </ul>
+          </>}
     </section>
   )
 }
@@ -573,9 +627,22 @@ function getAvailableCards(word: Word) {
   return [...expected.map((morpheme) => ({ morpheme, kind: 'correct' as const })), ...distractors.map((morpheme) => ({ morpheme, kind: 'distractor' as const }))]
 }
 
-function TodayView({ profile, levelInfo, currentStreak, reviewCount, onboardingCompleted, onStart, onContinue, onReview, onDictation }: { profile: PlayerProfile; levelInfo: ReturnType<typeof getLevelInfo>; currentStreak: number; reviewCount: number; onboardingCompleted: boolean; onStart: () => void; onContinue: () => void; onReview?: () => void; onDictation?: () => void }) {
+function TodayView({ profile, levelInfo, currentStreak, reviewCount, onboardingCompleted, onStart, onContinue, onReview, onDictation, onSearch }: { profile: PlayerProfile; levelInfo: ReturnType<typeof getLevelInfo>; currentStreak: number; reviewCount: number; onboardingCompleted: boolean; onStart: () => void; onContinue: () => void; onReview?: () => void; onDictation?: () => void; onSearch?: (query: string) => void }) {
   const actionLabel = !onboardingCompleted ? '开始学第一个词' : reviewCount > 0 ? '先复习' : '接着学'
-  return <section className="page-section today-page"><section className="hero-band"><div><h2>先拆词。再猜意思。<em>最后看对不对。</em></h2><p>每个英语单词都能拆成前缀、词根、后缀。拼一遍，就知道它为什么是这个意思。</p></div><div className="case-stamp"><span>已学</span><strong>{String(profile.completedWordIds.length).padStart(4, '0')}<br />个词</strong><small>别怕忘</small></div></section>{!onboardingCompleted && <div className="onboarding-card"><div><span className="eyebrow">第一次来？</span><h3>三步学会一个词</h3><p>不用背答案。先拼出单词，再猜它的意思，最后对答案。</p></div><div className="briefing-steps"><span><b>01</b>拼单词</span><span><b>02</b>猜词义</span><span><b>03</b>看结果</span></div></div>}<div className="today-grid"><button className="primary-button hero-cta" onClick={onStart}>{actionLabel}<span>→</span></button><button className="secondary-button" onClick={onContinue}>去拼单词</button>{onDictation && <button className="secondary-button" onClick={onDictation}>听写练习 <span>🔊</span></button>}</div><div className="profile-summary"><div><span className="eyebrow">我的进度</span><strong>等级 {levelInfo.level} · {levelInfo.title}</strong><p>{profile.xp} 经验 · 连续学习 {currentStreak} 天</p></div>{reviewCount > 0 ? <button type="button" className="summary-cta" onClick={onReview}><span className="eyebrow">该复习了</span><strong>{reviewCount} 个词根到时间了</strong><p>点这里去复习 · 复习的是词根，不用重背整个单词。</p></button> : <div><span className="eyebrow">该复习了</span><strong>暂时没有</strong><p>学过的词根都还熟着。</p></div>}</div></section>
+  return <section className="page-section today-page"><section className="hero-band"><div><h2>先拆词。再猜意思。<em>最后看对不对。</em></h2><p>每个英语单词都能拆成前缀、词根、后缀。拼一遍，就知道它为什么是这个意思。</p></div><div className="case-stamp"><span>已学</span><strong>{String(profile.completedWordIds.length).padStart(4, '0')}<br />个词</strong><small>别怕忘</small></div></section>
+    <section className="intro-band">
+      <div className="intro-head"><span className="eyebrow">为什么按词根 / 复合词记</span><h3>记「结构」，比死背整词省力得多</h3></div>
+      <ul className="intro-benefits">
+        <li><b>长词其实有结构</b><p>前缀 + 词根 + 后缀，每一段都有意思。记住几段，就不用对着一长串字母硬背。</p></li>
+        <li><b>一个词根串一串词</b><p>认识 spect（看），inspect、respect、circumspect 的意思都好懂——学一个顶一串。</p></li>
+        <li><b>复合词也能拆</b><p>两个单词拼成的词（eyeball = eye + ball）拆开看，拼写一下就记住了。</p></li>
+      </ul>
+      <div className="intro-tip">
+        <span className="tip-mark">提示</span>
+        <p>遇到不好记的长词？用<button type="button" className="tip-link" onClick={() => onSearch?.('environmental')}>左侧的搜索框</button>搜一下，会给出拆解和释义。比如 <button type="button" className="tip-example" onClick={() => onSearch?.('environmental')}>environmental</button> 看着吓人，但拆成 environ（包围）+ ment（行为 / 结果）+ al，就好记了。</p>
+      </div>
+    </section>
+    {!onboardingCompleted && <div className="onboarding-card"><div><span className="eyebrow">第一次来？</span><h3>三步学会一个词</h3><p>不用背答案。先拼出单词，再猜它的意思，最后对答案。</p></div><div className="briefing-steps"><span><b>01</b>拼单词</span><span><b>02</b>猜词义</span><span><b>03</b>看结果</span></div></div>}<div className="today-grid"><button className="primary-button hero-cta" onClick={onStart}>{actionLabel}<span>→</span></button><button className="secondary-button" onClick={onContinue}>去拼单词</button>{onDictation && <button className="secondary-button" onClick={onDictation}>听写练习 <span>🔊</span></button>}</div><div className="profile-summary"><div><span className="eyebrow">我的进度</span><strong>等级 {levelInfo.level} · {levelInfo.title}</strong><p>{profile.xp} 经验 · 连续学习 {currentStreak} 天</p></div>{reviewCount > 0 ? <button type="button" className="summary-cta" onClick={onReview}><span className="eyebrow">该复习了</span><strong>{reviewCount} 个词根到时间了</strong><p>点这里去复习 · 复习的是词根，不用重背整个单词。</p></button> : <div><span className="eyebrow">该复习了</span><strong>暂时没有</strong><p>学过的词根都还熟着。</p></div>}</div></section>
 }
 
 function StepBar({ stage }: { stage: PuzzleStage }) {
