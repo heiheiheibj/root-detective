@@ -690,3 +690,19 @@ button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
 .dict-suggest .phonetic { margin-top: 0; }
 .dict-suggest-mean { color: var(--muted); font-size: 14px; }
 @media (max-width: 640px) { .dict-head strong { font-size: 22px; } }
+
+/* 提建议弹窗 */
+.suggest-entry { margin-top: 8px; }
+.overlay-backdrop { position: fixed; inset: 0; z-index: 80; display: grid; place-items: center; padding: 18px; background: rgb(23 32 51 / 45%); }
+.suggest-modal { width: min(540px, 100%); max-height: 100%; overflow: auto; padding: 20px 22px 22px; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; box-shadow: 0 24px 70px rgb(23 32 51 / 28%); }
+.suggest-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+.suggest-head strong { font: 700 20px/1.2 system-ui, sans-serif; color: var(--cream); }
+.overlay-close { border: 0; background: transparent; font-size: 26px; line-height: 1; color: var(--muted); cursor: pointer; padding: 0 4px; }
+.overlay-close:hover { color: var(--cream); }
+.suggest-hint { margin: 0 0 12px; font-size: 14px; line-height: 1.6; color: var(--muted); }
+.suggest-textarea { width: 100%; box-sizing: border-box; resize: vertical; border: 1px solid var(--line); border-radius: 10px; padding: 11px 12px; font: 15px/1.6 system-ui, sans-serif; color: var(--cream); background: #fff; }
+.suggest-textarea:focus-visible { outline: 2px solid var(--blue); outline-offset: 1px; }
+.suggest-error { margin: 10px 0 0; font-size: 13px; line-height: 1.5; color: #b42318; }
+.suggest-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 14px; }
+.suggest-done { text-align: center; padding: 14px 0 6px; }
+.suggest-done p { margin: 0 0 16px; font-size: 15px; color: var(--muted); }

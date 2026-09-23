@@ -23,12 +23,17 @@
 import os
 import re
 import json
+import time
 import sqlite3
+import threading
 import urllib.parse
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dist")
 DB_PATH = os.path.join(ROOT, "App_Data", "dict.db")
+# 提建议落盘位置：与 ASP.NET 版同样写到 ~/App_Data/suggestions.md，两边共用一个文件
+SUGGEST_FILE = os.path.join(ROOT, "App_Data", "suggestions.md")
+_SUGGEST_LOCK = threading.Lock()
 HOST = os.environ.get("HOST", "0.0.0.0")  # 默认监听所有网卡；本地/受限环境可设 HOST=127.0.0.1
 PORT = int(os.environ.get("PORT", "8000"))
 
@@ -51,6 +56,22 @@ def first_cjk_char(s: str):
         if is_cjk(c):
             return c
     return None
+
+# ---------- 提建议（与 Suggest.aspx.cs 的落盘逻辑对应）----------
+def append_suggestion(content: str, ip: str):
+    content = (content or "").strip()
+    if not content:
+        return {"ok": False, "error": "内容为空"}
+    ts = time.strftime("%Y-%m-%d %H:%M:%S")
+    # 用 ~~~ 代码围栏包住内容，避免用户正文里的 #、* 等被当成 Markdown 解析；
+    # 若正文本身含 ~~~ 则退化为 ~~，防止栅栏被提前闭合。
+    safe = content.replace("~~~", "~~")
+    block = f"## {ts} · IP {ip}\n\n~~~\n{safe}\n~~~\n\n---\n\n"
+    with _SUGGEST_LOCK:
+        os.makedirs(os.path.dirname(SUGGEST_FILE), exist_ok=True)
+        with open(SUGGEST_FILE, "a", encoding="utf-8") as f:
+            f.write(block)
+    return {"ok": True}
 
 # ---------- 词典查询（与 Dict.aspx.cs 的 SQL 一一对应）----------
 def query_dict(word: str):
@@ -206,6 +227,12 @@ class Handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(data)
 
+    def _client_ip(self):
+        xff = self.headers.get("X-Forwarded-For", "")
+        if xff:
+            return xff.split(",")[0].strip()
+        return self.client_address[0]
+
     def do_OPTIONS(self):
         self.send_response(204)
         self._cors()
@@ -217,11 +244,22 @@ class Handler(BaseHTTPRequestHandler):
             q = urllib.parse.parse_qs(parsed.query)
             word = (q.get("word") or [""])[0]
             self._send_json(query_dict(word))
+        elif parsed.path.startswith("/Suggest.aspx"):
+            q = urllib.parse.parse_qs(parsed.query)
+            content = (q.get("content") or [""])[0]
+            self._send_json(append_suggestion(content, self._client_ip()))
         else:
             self._send_static(parsed.path)
 
     def do_POST(self):
         parsed = urllib.parse.urlparse(self.path)
+        if parsed.path.startswith("/Suggest.aspx"):
+            length = int(self.headers.get("Content-Length", 0) or 0)
+            body = self.rfile.read(length).decode("utf-8", "ignore")
+            form = urllib.parse.parse_qs(body)
+            content = (form.get("content") or [""])[0]
+            self._send_json(append_suggestion(content, self._client_ip()))
+            return
         if not parsed.path.startswith("/Dict.aspx"):
             self.send_error(405, "Method Not Allowed")
             return

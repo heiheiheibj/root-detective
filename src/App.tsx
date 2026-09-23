@@ -101,6 +101,7 @@ function App() {
   const [rewardSummary, setRewardSummary] = useState<RewardSummary | null>(null)
   const [toast, setToast] = useState('')
   const [helpOpen, setHelpOpen] = useState(() => !profile.helpSeen)
+  const [suggestOpen, setSuggestOpen] = useState(false)
   const seenEventIds = useRef(new Set<string>())
   // 猜义选项在词条详情就绪后由下面的 useEffect 生成；首帧详情还没到，先空着。
   const [shuffledOptions, setShuffledOptions] = useState<Array<{ text: string; correct: boolean }>>([])
@@ -374,6 +375,7 @@ function App() {
       <p className="sidebar-search-hint">想知道一个词怎么拼成？输单词就能查：词根或复合词都行（试试 eyeball、ballpark）</p>
       <nav className="main-nav" aria-label="主导航">{navItems.map((item) => <button className={`nav-item ${activeView === item.id ? 'active' : ''}`} aria-current={activeView === item.id ? 'page' : undefined} key={item.id} onClick={() => goToView(item.id)}><span className="nav-icon" aria-hidden="true">{item.icon}</span><span>{item.label}</span>{navBadge(item.id) > 0 && <b className="nav-count">{navBadge(item.id)}</b>}</button>)}</nav>
       <button className="help-button" onClick={() => setHelpOpen(true)}>怎么玩？</button>
+      <button className="help-button suggest-entry" onClick={() => setSuggestOpen(true)}>💡 提建议</button>
       <div className="sidebar-spacer" />
       <div className="streak-card"><div className="streak-top"><span className="eyebrow">连续学习</span><span className="streak-flame" aria-hidden="true">✦</span></div><strong>{currentStreak} <small>天</small></strong><div className="streak-track" role="progressbar" aria-label="连续学习天数" aria-valuemin={0} aria-valuemax={7} aria-valuenow={Math.min(7, currentStreak)}><span style={{ width: `${Math.min(100, currentStreak / 7 * 100)}%` }} /></div><p>{currentStreak >= 7 ? '连着一周了，别断。' : '今天学一个，连续天数就不会断。'}</p></div>
       <div className="profile-button"><span className="avatar" aria-hidden="true">R</span><span><strong>我的进度</strong><small>等级 {levelInfo.level} · {levelInfo.title}</small></span></div>
@@ -394,6 +396,7 @@ function App() {
       </Suspense>
       {toast && <div className="toast" role="status" aria-live="polite">{toast}</div>}
       {helpOpen && <Suspense fallback={null}><HelpOverlay onClose={closeHelp} onFinish={startFromHelp} /></Suspense>}
+      {suggestOpen && <SuggestOverlay onClose={() => setSuggestOpen(false)} />}
     </main>
     <nav className="bottom-nav" aria-label="底部导航">
       {navItems.map((item) => (
@@ -405,6 +408,45 @@ function App() {
       ))}
     </nav>
   </div>
+}
+
+function SuggestOverlay({ onClose }: { onClose: () => void }) {
+  const [text, setText] = useState('')
+  const [status, setStatus] = useState<'idle' | 'sending' | 'done' | 'error'>('idle')
+  async function submit() {
+    const content = text.trim()
+    if (!content || status === 'sending') return
+    setStatus('sending')
+    try {
+      const res = await fetch('/Suggest.aspx', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: 'content=' + encodeURIComponent(content),
+      })
+      const data = await res.json().catch(() => null)
+      setStatus(data && data.ok ? 'done' : 'error')
+    } catch {
+      setStatus('error')
+    }
+  }
+  return (
+    <div className="overlay-backdrop" onClick={onClose}>
+      <div className="suggest-modal" role="dialog" aria-modal="true" aria-label="提建议" onClick={(event) => event.stopPropagation()}>
+        <div className="suggest-head"><strong>提个建议</strong><button className="overlay-close" onClick={onClose} aria-label="关闭">×</button></div>
+        {status === 'done'
+          ? <div className="suggest-done"><p>谢谢你的建议，已经收到啦！</p><button className="primary-button" onClick={onClose}>好的</button></div>
+          : <>
+              <p className="suggest-hint">想加什么功能、哪里不好用、词库有错……都可以写下来。提交后我们会收到（含时间、内容与你的访问 IP）。</p>
+              <textarea className="suggest-textarea" value={text} onChange={(event) => setText(event.target.value)} placeholder="写点什么…" rows={6} />
+              {status === 'error' && <p className="suggest-error">提交没成功（可能没连上服务器）。稍后再试，或去 GitHub 直接提 Issue。</p>}
+              <div className="suggest-actions">
+                <button type="button" className="secondary-button" onClick={onClose}>取消</button>
+                <button type="button" className="primary-button" disabled={!text.trim() || status === 'sending'} onClick={submit}>{status === 'sending' ? '提交中…' : '提交'}</button>
+              </div>
+            </>}
+      </div>
+    </div>
+  )
 }
 
 export default App

@@ -58,7 +58,7 @@ if (existsSync(swPath)) {
 //    - 代码/配置每次覆盖（不被锁定）
 //    - bin/App_Data 只在缺失时复制（里面的 dll 被 IIS 锁定，覆盖会失败；db 也省得每次拷 22MB）
 console.log('[deploy] 复制接口文件…')
-for (const item of ['Dict.aspx', 'Dict.aspx.cs', 'Web.config']) {
+for (const item of ['Dict.aspx', 'Dict.aspx.cs', 'Suggest.aspx', 'Suggest.aspx.cs', 'Web.config']) {
   if (!existsSync(item)) { console.log('[deploy] 跳过(不存在):', item); continue }
   try { copyItem(item, join(OUT, item)); console.log('[deploy] 复制', item) }
   catch (e) { console.log('[deploy] 复制失败(可能被占用):', item, e.message) }
